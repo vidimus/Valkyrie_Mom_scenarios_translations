@@ -1,7 +1,7 @@
 .,Spanish
 UIScenarioTxt.uitext,Te desplomas sobre tu silla, sin fuerzas para continuar con una investigación que no lleva a ninguna parte. El caso te está consumiendo al no ser capaz de encontrar al asesino de tu socio y llevas días sin dormir. Cuando estás a punto de dar una cabezada, oyes el ruido de algo que se arrastra. Alguien ha deslizado un pequeño sobre por debajo de tu puerta. Dentro hay una carta.-Un coleccionista de la ciudad quizá tenga el objeto que está buscando.\n Rápidamente abres la puerta pero no hay nadie.\n\n Puede que esta sea la pista que necesitas para resolver el caso. Tu socio fue apuñalado, pero no se encontró la hoja. Quizá el asesino la ha empeñado en la tienda del coleccionista para ocultar su rastro. \n Recoges tus pertenencias y decides hacerle una visita al coleccionista. A sabiendas de que el coleccionista no querrá a alguien husmeando en su tienda, decides usar una tapadera y presentarte como un cliente potencial.
 UIButtonTxt.uitext,{qst:Continuar}	
-quest.name,Un atisbo del pasado v.02
+quest.name,Un atisbo del pasado.
 quest.description,El misterioso asesinato de tu socio te ha llevado a la casa de un coleccionista y a su tienda para encontrar información sobre alguien que está intentando vender un cuchillo sospechoso.
 EventPlaceStoreDoor.text,Al final de la calle hay una puerta que lleva a la tienda y que probablemente esté cerrada con llave. Quizá puedas encontrar al Coleccionista si te das una vuelta por este sitio. Coloca una ficha de Exploración en el lugar señalado.
 EventPlaceStoreDoor.button1,{qst:Continuar}	
