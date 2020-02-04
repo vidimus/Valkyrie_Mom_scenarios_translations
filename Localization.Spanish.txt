@@ -1,0 +1,578 @@
+.	Spanish
+UIScenarioTxt.uitext	Te desplomas sobre tu silla, sin fuerzas para continuar con una investigación que no lleva a ninguna parte. El caso te está consumiendo al no ser capaz de encontrar al asesino de tu socio y llevas días sin dormir. Cuando estás a punto de dar una cabezada, oyes el ruido de algo que se arrastra. Alguien ha deslizado un pequeño sobre por debajo de tu puerta. Dentro hay una carta: "Un coleccionista de la ciudad quizá tenga el objeto que está buscando".\n Rápidamente abres la puerta pero no hay nadie.\n\n Puede que esta sea la pista que necesitas para resolver el caso. Tu socio fue apuñalado, pero no se encontró la hoja. Quizá el asesino la ha empeñado en la tienda del coleccionista para ocultar su rastro.\nRecoges tus pertenencias y decides hacerle una visita al coleccionista. A sabiendas de que el coleccionista no querrá a alguien husmeando en su tienda, decides usar una tapadera y presentarte como un cliente potencial.
+UIButtonTxt.uitext	{qst:Continuar}	
+quest.name	Un atisbo del pasado
+quest.description	El misterioso asesinato de tu socio te ha llevado a la casa de un coleccionista y a su tienda para encontrar información sobre alguien que está intentando vender un cuchillo sospechoso.
+EventPlaceStoreDoor.text	Al final de la calle hay una puerta que lleva a la tienda y que probablemente esté cerrada con llave. Quizá puedas encontrar al Coleccionista si te das una vuelta por este sitio. Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceStoreDoor.button1	{qst:Continuar}	
+EventPlaceFoyerTile.text	La puerta lleva a un pequeño recibidor con un lujoso enlosado en el suelo. \nColoca el módulo {ffg:TILE_ENTRY_HALL_MAD20} y fichas de Pared en los lugares señalados. A continuación, descarta todas las fichas de Exploración que conduzcan a él.
+EventPlaceFoyerTile.button1	{qst:Continuar}	
+EventPlaceStartTile.text	La puerta de la casa del Coleccionista está al lado de la tienda. Las luces de la tienda están apagadas y parece que está cerrada. Coloca los módulos {ffg:TILE_STREET_2_MAD20} y {ffg:TILE_STOREFRONT_MAD20} en los lugares señalados.
+EventPlaceStartTile.button1	{qst:Continuar}	
+EventPlaceInvestigators.text	Llegáis a calle donde está la casa del Coleccionista. Colocad las miniaturas de los investigadores en el lugar señalado. Cada investigador gana 1 Pista.
+EventPlaceInvestigators.button1	{qst:Continuar}	
+EventPlaceHouseDoor.text	Tienes delante una lujosa puerta con un intrincado grabado en ella y que parece ser algún tipo de escudo familiar. Parece que el negocio le va bien al Coleccionista. Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceHouseDoor.button1	{qst:Continuar}	
+EventMaidAnswers.text	Golpeas el llamador dorado de la puerta con fuerza. Lentamente se abre la puerta con un chirrido.\n -¿Sí? ¿En qué puedo ayudarle?-dice una mujer mayor al tiempo que echa un vistazo a través de la puerta entreabierta.\nLe dices que quieres hablar con el dueño de la tienda.\n -El Sr. Cooper está fuera en estos momentos-responde-. Puede verlo mañana por la mañana en horario comercial.\n Quizá puedas obtener más información ({influence}).
+EventMaidAnswers.button1	{qst:Continuar}	
+EventMaidReply.text	La anciana doncella se niega a dar crédito a tu historia. Le pides que reconsidere la situación al tiempo que deslizas unos pocos dólares sobre su mano. Los investigadores deben descartar entre todos 2 Pistas.\n\n Comienza a repiquetear nerviosamente con sus uñas en la puerta, al tiempo que se muerde nerviosamente el labio inferior.\n -Normalmente no hago estas cosas, pero haré una excepción... sólo esta vez y por ser usted-dice mientras abre lentamente la puerta y os invita a pasar dentro.
+EventMaidReply.button1	{qst:Continuar}	
+EventStreetWeapon.text	Hay un enorme cubo de basura en la parte exterior de la tienda. Parece que no se ha vaciado últimamente. Coloca una ficha de Búsqueda en el lugar señalado.
+EventStreetWeapon.button1	{qst:Continuar}	
+TokenEnterHouse.text	Una elaborada puerta conduce al interior de la casa del Coleccionista.
+TokenEnterHouse.button1	{action} Explorar	
+EventMaidAgrees.text	Los dedos de la empleada comienzan a repiquetear nerviosamente sobre la puerta al tiempo que se muerde el labio inferior.\n -Bueno, no suelo hacer esto habitualmente, pero haré una excepción... sólo por esta vez y por ser usted-dice mientras abre lentamente la puerta y os invita a pasar al interior de la casa.
+EventMaidAgrees.button1	{qst:Continuar}	
+EventPlaceMaid.button1	{qst:Continuar}	
+EventPlaceMaid.text	La doncella te saluda en el pasillo de entrada, visiblemente nerviosa por la decisión de dejarte entrar. Coloca la ficha de Personaje Mujer Blanca en el lugar señalado.
+EventPlaceCat.text	Un pequeño gato atigrado descansa sobre una silla a tu izquierda. Coloca la ficha de Personaje Gato en el lugar señalado.
+EventPlaceCat.button1	{qst:Continuar}	
+EventPlaceFoyerDoors.text	Varias puertas llevan a otras estancias de la casa. Coloca fichas de Búsqueda en los lugares señalados.
+EventPlaceFoyerDoors.button1	{qst:Continuar}	
+EventExplorationMove.button1	{qst:Continuar}	
+EventExplorationMove.text	Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+UIButtonTxt.button1	Button1	
+UIFrame.button1	{qst:Continuar}	
+TokenStudyLocked.text	Hay una puerta con una placa en la que puede leerse "Despacho del Sr. Cooper".
+TokenStudyLocked.button1	{action} Explorar	
+EventMaidStopsYou.text	Cuando tocas el pomo de la puerta, una voz resuena en la habitación:\n -Disculpe-dice la doncella mientras pasa el polvo por todo el recibidor-. Por favor, espere en el salón a que el Sr. Cooper regrese. Volverá en breve.\n La doncella vuelve a sus tareas, pero notas que sigue tus movimientos con el rabillo del ojo.
+EventMaidStopsYou.button1	{qst:Continuar}	
+TokenBedroomLocked.button1	{action} Explorar	
+TokenBedroomLocked.text	Una pequeña puerta conduce al interior de la casa.
+TokenLounge.text	Una puerta conduce al salón. Una débil melodía suena a través de la puerta.
+TokenLounge.button1	{action} Explorar	
+EventPlaceLounge.text	Tras la puerta hay una habitación espaciosa. La doncella te pide que esperes aquí a que el Coleccionista regrese. Puede que sea un buen momento para echar un vistazo. \nColoca el módulo  {ffg:TILE_LOUNGE_MAD20}  y descarta todas las fichas de Búsqueda que lleven a él.
+EventPlaceLounge.button1	{qst:Continuar}	
+EventPlaceDiary.button1	{qst:Continuar}	
+EventPlacePicture.text	Un retrato cuelga de una de las paredes. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceDiary.text	En una mesita auxiliar ves una pila de libros. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlacePicture.button1	{qst:Continuar}	
+EventCatMoves.text	Al abrir la puerta, el cato se escabulle entre tus piernas y se marcha. Descarta la ficha de Personaje Gato.
+EventCatMoves.button1	{qst:Continuar}	
+EventPlaceCatLounge.button1	{qst:Continuar}	
+EventPlaceLibraryToken.text	Al otro lado de la sala, una puerta conduce a otras estancias de la casa. Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceCatLounge.text	El gato camina de un lado a otro de la puerta, restregándose contra ella. Coloca la ficha de Personaje Gato en el lugar señalado.
+EventPlaceLibraryToken.button1	{qst:Continuar}	
+TokenCatFoyer.text	El gato se sienta tranquilamente sobre la silla sin quitarte el ojo de encima y escudriñando todos tus movimientos.
+TokenCatFoyer.button1	{action} Acariciar al gato	
+EventCatRuns.button1	{qst:Continuar}	
+TokenMaid.text	La doncella te mira nerviosamente mientras sigue limpiando el polvo de la habitación.
+EventCatRuns.text	Llamas al gato con suavidad al tiempo que te acercas a él, poco a poco. Lo tienes al alcance de la mano cuando intentas acariciarlo. El gato salta de la silla y corre hacia el interior de la casa. Ganas 1 Pista y descarta la ficha de Personaje Gato.
+TokenMaid.button1	{action} Hablar con la empleada	
+EventMaidSpeak1.text	La empleada se gira hacia ti mientras sigue limpiando el polvo.\n -Por favor, esperen en el salón que está al final del pasillo. Lo siento, pero no tengo tiempo para hablar con ustedes ahora mismo. Tengo que terminar de arreglar la casa del Sr. Cooper. Espera visitas y se enfadará bastante si la casa no está en condiciones.\n Ganas 1 Pista.
+EventMaidSpeak1.button1	{qst:Continuar}	
+TokenBookCase.text	Hay una repisa que recorre la pared y está llena de libros pulcramente ordenados.
+TokenBookCase.button1	{action} Buscar	
+TokenLargeShelf.text	Una gran estantería parece no encajar con las demás.
+TokenLargeShelf.button1	{action} Buscar	
+TokenLibrary.text	Una pequeña puerta con la inscripción "Biblioteca” conduce al interior de la vivienda.
+TokenLibrary.button1	{action} Explorar	
+EventPlaceLibrary.text	La puerta lleva a una ordenada biblioteca llena de libros y objetos de decoración. Coloca el módulo {ffg:TILE_LIBRARY_MAD20} de la forma señalada y descarta todas las fichas de Exploración que conduzcan a él.
+EventPlaceLibrary.button1	{qst:Continuar}	
+EventPlaceShelf.button1	{qst:Continuar}	
+EventPlaceLibraryBooks.text	Hay un estante lleno de libros colocados de forma ordenada. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceShelf.text	Una gran estantería parece no encajar con las demás. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceLibraryBooks.button1	{qst:Continuar}	
+EventBedRoomDoor.text	Al otro lado de la habitación, una puerta lleva al interior de la casa. Coloca una ficha de Exploración en el lugar señalado.
+EventBedRoomDoor.button1	{qst:Continuar}	
+EventPlaceCatLibrary.button1	{qst:Continuar}	
+TokenCatLibrary.text	El gato se limpia en lo alto de una de las estanterías de libros. Aunque el gato se dejase acariciar, está demasiado alto para que puedas alcanzarlo.
+EventPlaceCatLibrary.text	Le estás echando un vistazo a la estantería cuando el gato se escabulle entre tus piernas y sale de la habitación. Mueve la ficha de Personaje Gato del módulo {ffg:TILE_LOUNGE_MAD20} a la {ffg:TILE_LIBRARY_MAD20} como se señala.
+TokenCatLibrary.button1	{qst:Continuar}	
+TokenBedroom.text	Una pequeña puerta lleva al interior de la casa.
+TokenBedroom.button1	{action} Explorar	
+EventSearchDresser.button1	{qst:Continuar}	
+EventSearchDresser.text	Rebuscas dentro del enorme armario con la esperanza de encontrar algo importante ({observation}).
+TokenDresser.text	Hay un enorme y lujoso vestidor que hace que el resto de muebles parezcan enanos.
+TokenDresser.button1	{action} Investigar	
+EventBedroom.text	La puerta lleva a un pequeño y ordenado dormitorio. \nColoca el módulo {ffg:TILE_BEDROOM_1_MAD20} y fichas de puerta en los lugares señalados. A continuación, descarta todas las fichas de Búsqueda que lleven a este módulo.
+EventBedroom.button1	{qst:Continuar}	
+EventPlaceDesk.text	Algunas cosas están esparcidas sobre un pequeño escritorio que está en uno de los rincones de la sala. Coloca el Objeto común Pitillera de la Suerte en el lugar señalado.
+EventPlaceDesk.button1	{qst:Continuar}	
+EventPlaceStudyDoor.text	Una puerta cerca de la cama lleva al resto de la casa. Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceStudyDoor.button1	{qst:Continuar}	
+EventCatMovesBed.button1	{qst:Continuar}	
+TokenCatBedroom.text	El gato camina sobre la cama y empieza a ronronear.
+EventCatMovesBed.text	El gato cruza corriendo la puerta, se sube en la cama arrugando las sábanas. Mueve la ficha de Personaje Gato desde el módulo {ffg:TILE_LIBRARY_MAD20} hacia el módulo {ffg:TILE_BEDROOM_1_MAD20} como se señala.
+TokenCatBedroom.button1	{action} Acariciar al gato	
+TokenStudyExplore.text	Una pequeña puerta que lleva al interior de la casa.
+TokenStudyExplore.button1	{action} Explorar	
+EventPlaceStudy.text	Al abrir la puerta ves el estudio del Coleccionista. \nColoca el módulo {ffg:TILE_STUDY_MAD20} en el lugar señalado y descarta todas las fichas de Búsqueda que conduzcan a él.
+EventPlaceStudy.button1	{qst:Continuar}	
+EventCatHides.button1	{qst:Continuar}	
+EventFireplace.text	Una lujosa chimenea ocupa una de las paredes del estudio. Coloca una ficha de Búsqueda en el lugar señalado.
+EventCatHides.text	Te acercas al gato intentando no ahuyentarlo, pero sin éxito. El gato salta al suelo y se esconde bajo la cama. Ganas 1 Pista y retira la ficha de Personaje Gato.
+EventFireplace.button1	{qst:Continuar}	
+EventPlaceFuseSearch.text	Un recargado cuadro cuelga de una de las paredes. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceFuseSearch.button1	{qst:Continuar}	
+EventPlaceCatStudy.text	El gato salta por la ventana que hay sobre el escritorio. Coloca la ficha de Personaje Gato en el lugar señalado.
+EventPlaceCatStudy.button1	{qst:Continuar}	
+EventPlaceDresser.text	Hay un lujoso armario en la pared paralela a la cama. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceDresser.button1	{qst:Continuar}	
+TokenStudyCat.text	El gato descansa inmóvil con el pelo resplandeciendo bajo la suave luz de la luna que entra a través de la ventana.
+TokenStudyCat.button1	{action} Acariciar al gato	
+EventPetCat.text	Te acercas al gato esperando que nuevamente salga corriendo, pero para tu sorpresa el gato finalmente deja que le acaricies la cabeza. Cuando vuelves a prestar atención a la habitación, el gato maúlla y salta por la ventana. Descarta la ficha de Personaje Gato como se señala.
+EventPetCat.button1	{qst:Continuar}	
+EventPlaceYard.text	Cuando te asomas a la ventana para ver adónde ha ido el gato, descubres la parte trasera de la tienda. El gato te maúlla por última vez antes de correr hacia el bosque. \nColoca el módulo {ffg:TILE_YARD_1_MAD20} en el lugar señalado.
+EventPlaceYard.button1	{qst:Continuar}	
+TokenFirepit.button1	{action} Investigar	
+EventPlaceFirepit.text	Hay un brasero al final del camino empedrado. Varios objetos han sido colocados dentro para ser quemados. Coloca una ficha de Búsqueda en el lugar señalado.
+TokenFirepit.text	Hay un brasero al final del camino empedrado. Algunos objetos se han colocado dentro para ser quemados.
+EventPlaceFirepit.button1	{qst:Continuar}	
+EventPlaceStoreBackDoor.text	Ves una puerta que conduce al interior de la tienda. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceStoreBackDoor.button1	{qst:Continuar}	
+EventPlaceWindowInteract.text	Tal vez puedas usar la ventana para entrar en la tienda. Coloca una ficha de Interacción en el lugar señalado.
+EventPlaceWindowInteract.button1	{qst:Continuar}	
+TokenWindow.text	Por desgracia no eres tan ágil como el gato por lo que necesitarás ayuda para alcanzar la ventana. Un investigador en el mismo espacio que otro investigador o adyacente a otro investigador en el lado opuesto de la ventana puede trepar por la ventana.
+TokenWindow.button1	{action} Subir por la ventana	
+EventClimbThrough.text	Te abres camino a través de la ventana con la ayuda de tu compañero. Coloca a tu investigador en el espacio adyacente al que ocupas ahora que esté conectado por la ventana.
+EventClimbThrough.button1	{qst:Continuar}	
+TokenCatLounge.button1	{action} Acariciar al gato	
+TokenCatLounge.text	El gato se mueve de un lado para otro frotándose contra la puerta.
+EventCatHidesLounge.text	Te inclinas para acariciar al gato, pero rápidamente se escabulle detrás del sofá. Al volver tu atención hacia la habitación, te das cuenta de que el gato está de nuevo frotándose contra la puerta. Ganas 1 Pista.
+EventCatHidesLounge.button1	{qst:Continuar}	
+TokenOpenStore.text	Esta puerta puede ser tu mejor opción para acceder al interior de la tienda del Coleccionista.
+TokenOpenStore.button1	{action} Explorar	
+EventPryOpen.text	La puerta de la tienda está cerrada con llave, pero quizá puedas forzarla ({strength}). Si tienes el Objeto común Palanca, ({strength}) + 2.
+EventPryOpen.button1	{qst:Continuar}	
+EventPryOpen.button2	Button2	
+EventPryOpenPass.button1	{qst:Continuar}	
+EventPryOpenFail.text	A pesar de que utilizas toda la fuerza que puedes reunir no consigues desplazar la puerta lo suficiente para poder abrirla.
+EventPryOpenPass.text	Al abrir la puerta te encuentras con una excéntrica tienda abarrotada por una impresionante colección de exóticos artilugios y mercancías
+EventPryOpenFail.button1	{qst:Continuar}	
+TokenStreetWeapon.text	Han dejado fuera de la tienda un viejo cubo de basura para vaciarlo.
+TokenStreetWeapon.button1	{action} Investigar	
+EventSearchTrash.text	Rebuscas entre la basura con la esperanza de encontrar algo que pueda ser importante para la investigación ({observation}).
+EventSearchTrash.button1	{qst:Continuar}	
+EventFoundCrowBar.text	Te tapas el rostro para protegerte del terrible hedor y rebuscas con la esperanza de encontrar algo útil. Está oxidada, pero puede serte útil más adelante. Ganas el Objeto común Palanca. A continuación, descarta esta ficha de Búsqueda.
+EventFoundCrowBar.button1	{qst:Continuar}	
+EventTrashFail.text	Buceas entre la basura hasta que el hedor puede contigo. No crees que haya nada aquí que merezca la pena.
+EventTrashFail.button1	{qst:Continuar}	
+TokenLoungeDiary.text	Una pequeña pila de libros descansa ordenadamente sobre la mesa.
+TokenLoungeDiary.button1	{action} Investigar	
+EventMedTextSearch.text	Examinas los libros en busca de algo importante ({observation}).
+EventMedTextSearch.button1	{qst:Continuar}	
+EventMedTextPass.text	A medida que pasas las páginas del libro te das cuenta de que te podría ser de utilidad. Ganas el Objeto común Manual de Medicina. A continuación, descarta esta ficha de Búsqueda.
+EventMedTextPass.button1	{qst:Continuar}	
+EventMedTextFail.text	Echas un vistazo a unos pocos libros que están apilados sobre la mesa. Nada parece llamarte la atención.
+EventMedTextFail.button1	{qst:Continuar}	
+TokenLoungePicture.text	Un cuadro con un elaborado marco descansa sobre la pared.
+TokenLoungePicture.button1	{action} Investigar	
+EventViewPainting.button1	{qst:Continuar}	
+EventPictureFail.button1	{qst:Continuar}	
+EventPicturePass.text	Sospechas que el hombre bien vestido del cuadro es el Coleccionista. Su cara severa y su mirada vacía hacen que tengas la sensación de que te observa. Un amuleto dorado rodea su cuello y parece fuera de lugar, como si se hubiese añadido a posteriori. Ese mismo amuleto descansa en el interior de una vitrina justo debajo del cuadro. Sin estar muy seguro de su propósito, tomas el amuleto para examinarlo más tarde. \n Ganas el Objeto único Emblema de Sectario y 1 Pista. A continuación, descarta esta ficha de Búsqueda.
+EventPicturePass.button1	{qst:Continuar}	
+EventViewPainting.text	Examinas detenidamente el cuadro de un hombre elegantemente vestido buscando algo que te llame la atención ({observation}).
+EventPictureFail.text	Revisas el cuadro pero no ves nada fuera de lo común.
+EventViewPainting.button2	{qst:Continuar}	
+EventMedTextSearch.button2	Button2	
+EventSearchTrash.button2	Button2	
+EventMoveShelf.text	Al examinar una gran estantería te percatas de unas marcas en el suelo. Quizá la estantería ha sido arrastrada anteriormente ({strength}).
+EventMoveShelf.button1	{qst:Continuar}	
+EventMoveShelfPass.text	Empujas con todas tus fuerzas y consigues separar lo suficiente la librería como para revelar un estrecho espacio usado como almacenaje. Apenas cabes en el estrecho espacio, pero intentas encontrar algo de utilidad. No hay nada que te llame la atención a excepción de unas túnicas ceremoniales y unos artilugios. Ganas 1 Pista y descartas esta ficha de Búsqueda.
+EventMoveShelfPass.button1	{qst:Continuar}	
+TokenHideShelf.text	El estrecho espacio debería ofrecerte suficiente hueco como para esconderte si fuese necesario. Para esconder una ficha de Personaje es necesario estar en el mismo espacio que esta ficha de Interacción.
+TokenHideShelf.button1	{qst:Continuar}	
+EventHideAction.text	Coloca tu miniatura de investigador fuera del tablero, cerca de esta ficha. Los efectos de los eventos de la Fase de Mitos y las tiradas de Horror te siguen afectando, pero no puedes ser objetivo de ningún ataque. Al comienzo de tu próxima fase de activación, coloca tu miniatura en el espacio que contiene esta ficha de Interacción.
+EventHideAction.button1	{qst:Continuar}	
+EventPlaceHideInteract.text	El estrecho espacio tras la estantería ofrece suficiente sitio como para esconderse si fuese necesario. Coloca una ficha de Interacción en el lugar señalado.
+EventPlaceHideInteract.button1	{qst:Continuar}	
+EventMoveShelf.button2	Button2	
+EventMoveShelfFail.text	Empujas la estantería con todas tus fuerzas pero no consigues que se mueva ni un milímetro.
+EventMoveShelfFail.button1	{qst:Continuar}	
+EventFoundRifle.button1	{qst:Continuar}	
+EventCabinetHide.button1	{qst:Continuar}	
+EventFoundRifle.text	Rebuscas entre las prendas de ropa colgadas en la parte superior del enorme armario hasta tropezar con un rifle escondido en un rincón. Ganas el Objeto común Carabina y 1 Pista. A continuación descarta esta ficha de Búsqueda.
+TokenCabinetHide.text	El enorme armario podría servir para esconder algo dentro si fuese necesario. Para esconder a una ficha de Persona es necesario estar en el mismo espacio que esta ficha.
+EventCabinetHide.text	El enorme armario podría servir para esconder algo dentro si fuese necesario. Coloca una ficha de Interacción en el lugar señalado.
+TokenCabinetHide.button1	{qst:Continuar}	
+EventSearchDresser.button2	Button2	
+EventRifleFail.button1	{qst:Continuar}	
+TokenFirePlace.text	Una lujosa chimenea ocupa una de las paredes del estudio.
+EventRifleFail.text	Rebuscas entre las interminables prendas de ropa colgada pero eres incapaz de encontrar nada útil.
+TokenFirePlace.button1	{action} Investigar	
+EventFireOut.text	Al mirar el fondo de la chimenea no ves nada interesante. Los restos del fuego están fríos y dispersos. No parece que haya sido usando en bastante tiempo. Ganas 1 Pista y descartas esta ficha de Búsqueda.
+EventFireOut.button1	{qst:Continuar}	
+EventFindOldJournel.button1	{qst:Continuar}	
+TokenFusebox.text	Un recargado cuadro en una de las paredes desentona con el resto de la habitación.
+EventFindOldJournel.text	Hay filas y filas de libros cubiertos de una fina capa de polvo, a excepción de uno. Ganas el Objeto único Viejo Diario y descartas esta ficha. Puedes consultar el Objeto único Viejo Diario usando la aplicación. 
+TokenFusebox.button1	{action} Investigar	
+EventSearchPainting.text	Te llama la atención un cuadro de la habitación. Hay algo que no encaja en ese cuadro  ({observation}).
+EventSearchPainting.button1	{qst:Continuar}	
+EventFindFuseBox.text	Examinando el cuadro adviertes una bisagra en una esquina del recargado marco. Al girar el cuadro ves que esconde una caja de fusibles. Ganas 1 Pista. A continuación descarta esta ficha de Búsqueda.
+EventFindFuseBox.button1	{qst:Continuar}	
+TokenFuseBoxInteract.text	Una caja de fusibles está escondida detrás de una extraña pintura.
+TokenFuseBoxInteract.button1	{action} Quitar los fusibles	
+EventPlaceDarkness.text	Retiras las fusibles de la caja, sumiendo en la oscuridad toda la casa. Coloca fichas de Oscuridad en cada espacio señalado. A continuación descarta esta ficha de Interacción.
+EventPlaceDarkness.button1	{qst:Continuar}	
+EventPlaceFuseboxInteract.text	La caja de fusibles está oculta tras una extraña pintura. Coloca una ficha de Interacción en el lugar señalado.
+EventPlaceFuseboxInteract.button1	{qst:Continuar}	
+EventSearchPainting.button2	Button2	
+EventFuseboxFail.text	Revisas el extraño cuadro pero eres incapaz de encontrar algo relevante.
+EventFuseboxFail.button1	{qst:Continuar}	
+EventFind2x4.text	Un tablón de madera ha sido arrojado para ser quemado. Probablemente pueda ser de utilidad. Consigues el Objeto común Tablón de Madera y descarta esta ficha de Búsqueda. El Objeto común Tablón de Madera sigue las reglas normales con la excepción de que no puede ser destruido. Si un monstruo atraviesa una barricada, coloca el Objeto común Tablón de Madera en un espacio adyacente a esa puerta.
+EventFind2x4.button1	{qst:Continuar}	
+TokenTrapDoor.text	Algunos objetos reposan ordenadamente en estanterías detrás del mostrador. Coloca una ficha de Búsqueda en el lugar señalado.
+TokenTrapDoor.button1	{action} Investigar	
+EventPlacePath.text	Algunos objetos reposan ordenadamente en estanterías detrás del mostrador. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlacePath.button1	{qst:Continuar}	
+EventPlaceCrystalBall.text	Una valiosa colección de objetos está en exposición en la tienda. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceCrystalBall.button1	{qst:Continuar}	
+EventAttemptPuzzle.text	Mientras examinas los objetos de la estantería encuentras una palanca, pero no la puedes mover. Toca la pantalla para resolver el rompecabezas utilizando  ({strength}).
+PuzzlePath.button1	Hecho	
+EventAttemptPuzzle.button1	{qst:Continuar}	
+EventOpenPath.text	Cuando todo queda alineado, la palanca se mueve sin problemas abriendo una trampilla que conduce nuevamente a la casa. Retira esta ficha y Coloca una ficha de Pasaje Secreto en el lugar señalado.
+EventOpenPath.button1	{qst:Continuar}	
+EventPlacePath1.text	El camino parece llevar de vuelta al estudio. Coloca la ficha Pasaje Secreto como se indica.
+EventPlacePath1.button1	{qst:Continuar}	
+EventMaidAttacks.text	De pronto, la empleada irrumpe a través de la puerta.\n Mueve la ficha de Personaje Mujer Blanca como se señala.\n-Sabía que no podía confiar en usted-grita mientras da un portazo para cerrar la puerta a su espalda. Toma unas tijeras que descansaban sobre el escritorio y se abalanza sobre el investigador más cercano ({strength}).
+EventMaidAttacks.button1	{qst:Continuar}	
+EventMaidAttacks.button2	Fallo	
+EventStopMaid.button1	{qst:Continuar}	
+EventSpawnCultist.button1	{qst:Continuar}	
+EventStopMaid.text	La empleada se lanza contra ti con las tijeras en la mano, pero te las apañas para agarrar su muñeca e impedir el ataque, lanzándola hacia atrás para alejarla de ti. Cae al suelo golpeándose la cabeza con la esquina de una mesa, quedando inconsciente. Mueve la ficha de Personaje Mujer Blanca a tu espacio. La ficha de Personaje Mujer Blanca puede ser empujada usando las reglas normales para un objetivo voluntario.
+EventSpawnCultist.text	La empleada se abalanza sobre ti, derribándote y clavándote una y otra vez unas tijeras de forma sádica. Recibes 1 de Daño y 1 de Horror.
+SpawnMaidCultist.button1	{qst:Continuar}	
+EventDistractWithLights.text	Los hombres salen de su trance cuando las luces se van.\n\n -¿Qué ha pasado con las luces?-dice uno de los hombres mientras intenta hacerse paso a través de la habitación.
+EventDefeatMaid.text	La empleada cae al suelo...muerta. Te preguntas a ti mismo "¿Qué he hecho?"\n Sufres 1 de Horror boca abajo (anulado por ({will}). Cuando te recompones, te das cuenta de que en realidad lo has hecho en defensa propia. Coloca la ficha de Personaje Mujer Blanca en el mismo espacio en el que ha sido derrotado el Sectario para indicar la posición del cadáver. La ficha de Personaje Mujer Blanca se puede empujar usando las reglas normales para empujar un objeto.
+EventDefeatMaid.button1	{qst:Continuar}	
+EventGirlOut.button1	{action} Esconder investigador	
+EventHideMaid.text	Sabiendo que el Coleccionista puede volver en cualquier momento, decides ocultar tu rastro. Descarta la ficha de Personaje Mujer Blanca.
+EventHideMaid.button1	{qst:Continuar}	
+EventStudyJournal.button1	{action} Leer	
+EventStudyJournal.button2	Cancelar	
+EventEntry1.text	La página tiene como título\n "El Filo de Dagon.\n"Llevo muchos años buscando esta preciada hoja. Una daga sagrada de increíble poder de la que se dice que su fuerza aumenta con cada una de sus víctimas. El líder inicial del culto, el Sacerdote de Dagon, se volvió loco debido a la sed de sangre de la hoja, que terminó por acabar con su vida. Algunos creen que no es más que un mito, pero los rumores son ciertos. El mercader de la ciudad me prometió que la podía encontrar, si estaba dispuesto a pagar el precio. Y por supuesto que estoy dispuesto".\n Ganas 1 Pista.
+EventEntry1.button1	{qst:Continuar}	
+EventRead.button1	Button1	
+EventEntry2.button1	{qst:Continuar}	
+EventEntry3.button1	{qst:Continuar}	
+EventNoMore.text	No hay ninguna entrada más que sea de utilidad.
+EventNoMore.button1	{qst:Continuar}	
+EventEntry3.text	“No me puedo creer lo que estoy viendo con mis propios ojos. El mercader tenía razón: los objetos están emparejados. La daga y el amuleto reaccionan de un modo que no había visto nunca. El amuleto da poder a la daga, y la daga alimenta al amuleto, haciéndose ambos cada vez más fuertes. Por suerte el mercader sabe como controlar ambos objetos bloqueando el amuleto usando una serie de indicaciones".\n Ganas 1 Pista.
+EventEntry2.text	“Hoy he recibido una carta del mercader. Asegura que ha encontrado la daga que estoy buscando, pero que el precio se ha triplicado. Es absurdo. En su nota, sin embargo, menciona un amuleto que incluirá con la daga, pero sin dar más detalles. ¿Por qué extraña razón quiere incluir ese amuleto? Tengo la intención de hacerle esa misma pregunta cuando nos encontremos mañana.”\nGanas 1 Pista.
+EventCultSigil.text	Parece que hay una manera de desactivar el amuleto. El investigador con el Objeto único Emblema de Sectario puede interaccionar con él usando la aplicación.
+EventCultSigil.button1	{qst:Continuar}	
+EventamuletInteract.text	Éste debe ser el amuleto mencionado en el Viejo Diario. El investigador que tenga el Objeto único Emblema de Sectario puede revisarlo usando la aplicación.
+EventamuletInteract.button1	{qst:Continuar}	
+EventJournel.button1	Button1	
+EventAmuletStudy.text	Revisas el amuleto buscando una manera de abrirlo ({observation}).
+EventAmuletStudy.button1	{qst:Continuar}	
+EventAmuletPass.text	Analizando el amuleto observas cuatro pequeñas joyas en su parte trasera. A primera vista parece que son simple decoración, pero al pasar tus dedos por encima de ellas notas que se hunden ligeramente y emiten un ligero chasquido claramente audible. Es probable que sea así como se abre el amuleto, usando una combinación. Hay una gema verde en la parte inferior del amuleto seguida de una roja y una azul en el sentido de las agujas del reloj. Una gema morada de mayor tamaño está en el centro. Ganas 1 Pista.
+EventAmuletPass.button1	{action} Desbloquear o amuleto	
+EventAmuletStudy.button2	Button2	
+EventAmuletFail.text	Revisas de arriba a abajo el amuleto, pero no encuentras la manera de abrirlo.
+EventAmuletFail.button1	{qst:Continuar}	
+EventAmuletOptions.button1	Button1	
+EventUnlockSigil.text	Encuentras unas gemas en la parte trasera del amuleto. Quizá puedas abrirlo si averiguas la combinación. El investigador con el Objeto único Emblema de Sectario puede intentar abrirlo.
+EventUnlockSigil.button1	{action} Desbloquear amuleto	
+EventCombination.text	El Coleccionista mencionó un patrón que servía para abrir el amuleto. Con la combinación, quizá se pueda abrir. Hay una gema verde en la parte inferior del amuleto, seguidas en sentido horario por una roja y otra azul. En el centro hay una gema morada de mayor tamaño que las otras.
+EventCombination.button1	Piedra Azul
+EventBlueWrong.button1	Button1	
+EventBlueCorrect.button1	Button1	
+EventCombination.button2	Piedra Roja	
+EventRedCorrect.button1	Button1	
+EventRedWrong.button1	Button1	
+EventSigilUnlocked.text	Con un clic final, el amuleto se abre lentamente. Una extraña explosión de luz emana del dispositivo. Mientras tratas de entender lo que está pasando, oyes unas voces que salen de su interior y que se desvanecen en el eco de la noche.
+EventSigilUnlocked.button1	{qst:Continuar}	
+EventSigilFailed.button1	{qst:Continuar}	
+EventCombination.button3	Piedra Verde	
+EventComboFail1.text	En tu mente flotan las imágenes de ti apuñalando a otra persona. Su sangre salpica tu cara mientras no puedes dejar de asestar una puñalada tras otra. Cuando el cuerpo cae al suelo, te das cuenta de que esa persona eres tú. Sufres 1 de Horror.
+EventCombination.button4	Piedra Morada	
+EventGreenCorrect.button1	Button1	
+EventGreenFail.button1	Button1	
+EventPurpleCorrect.button1	Button1	
+EventPurpleWrong.button1	Button1	
+EventUnlockSigil.button2	Cancelar	
+EventAmuletPass.button2	Cancelar	
+EventContinueReading.button1	{action} Seguir leyendo	
+EventContinueReading.button2	Cancelar	
+EventContinueReading.text	Hay más entradas por leer.
+EventComboFail1.button1	{qst:Continuar}	
+EventComboFail2.text	El amuleto reacciona ante tus intentos de abrirlo. Comienza lentamente a emitir un murmullo y a vibrar antes de descargar una corriente que atraviesa todo tu cuerpo y hace que caigas de rodillas gritando de dolor. Sufres 1 de Daño.
+EventComboFail2.button1	{qst:Continuar}	
+EventSetAnswerMain.button1	Button1	
+EventSetAnswer2.button1	Button1	
+EventSetAnswer1.button1	Button1	
+EventSetAnswer3.button1	Button1	
+EventSetAnswer4.button1	Button1	
+EventRandomComboSet.button1	Button1	
+EventGroupArrive.text	Oyes el sonido de una conversación seguido de un portazo. Coloca la ficha de Personaje Hombre Rojo en el lugar señalado. Es el Coleccionista. Parece que ha vuelto con algo de compañía. Coloca las fichas de Personaje Hombre Amarillo, Hombre Morado y Mujer Naranja en los lugares señalados.
+EventGroupArrive.button1	{qst:Continuar}	
+EventGroupMoves.text	El grupo se dirige al salón, arrastrando con él a la joven, que suplica y ruega a los hombres que le dejan irse. Coloca la ficha de Personaje Mujer Naranja en el lugar señalado. Es Cynthia Hensen.\n -Cállate-le espeta el Coleccionista. Le retuerce el brazo y la empuja contra su cuerpo.\n -Tu vida por fin servirá para un propósito tan grande que no puedes ni imaginarlo.\n El hombre la ata a la mesa como parte de algún tipo de ritual. Mueve las fichas de Personaje Hombre Rojo, Hombre Amarillo y Hombre Morado a los lugares señalados.
+EventGroupMoves.button1	{qst:Continuar}	
+EventLightsOut.text	-¿Puede alguien encender una luz para que pueda ver algo?-espeta el Coleccionista mientras se afana en apretar los nudos. Los hombres pulsan varias veces los interruptores, pero no pasa nada.\n -Algo no va bien-dice el Coleccionista-. Averiguad que está pasando con las luces.
+EventLightsOut.button1	{qst:Continuar}	
+EventRestoreLights.button1	{qst:Continuar}	
+EventMaidSearch.button1	{qst:Continuar}	
+EventRestoreLights.text	Los hombres se adentran en la oscuridad para arreglar las luces. Descarta las fichas de Personaje Hombre Rojo, Hombre Amarillo y Hombre Morado.
+EventMaidFound.text	El Coleccionista corre de vuelta al salón.\n -¡Hay alguien más en la casa!-grita mientras zarandea frenéticamente a los otros dos hombres-. He encontrado a Mildred en el suelo-dice mientras saca la daga de su chaqueta-. Encontrad al responsable-ordena a los otros-. Comenzaré con el sacrificio.\n\n Coloca la ficha de Personaje Hombre Rojo en el lugar señalado.
+EventMaidSearch.text	El Coleccionista se adentra en la mansión mientras los otros dos hombres terminan de apretar los nudos.\n -¿Mildred?¿Dónde está usted?-grita el Coleccionista mientras registra la casa.\nTemiendo que el Coleccionista pueda verte, te escondes rápidamente en un rincón de la habitación con la esperanza de que no te descubra. Descarta la ficha de Personaje Hombre Rojo. 
+EventMaidFound.button1	{qst:Continuar}	
+EventNotBothered.button1	{qst:Continuar}	
+EventNotBothered.text	El Coleccionista regresa pasados unos minutos.\n-Se habrá tomado la tarde libre, pero eso no tiene por qué interferir en nuestros planes.\n El Coleccionista saca la daga del interior de su chaqueta.\n -¡Comencemos!\n El hombre parece entrar en un trance mientras los demás recitan los cánticos de un  ritual. Coloca la ficha de Personaje Hombre Rojo en el lugar señalado.
+CustomMonsterCollectorPriest.info	-	
+EventPriestActivations.text	Si hay un investigador en el mismo espacio que el Coleccionista, lo atacará.
+CustomMonsterCollectorPriest.monstername	El Coleccionista
+EventPriestActivations.button1	¡El Coleccionista ataca!
+EventNoHero.text	El Coleccionista entona las palabras del ritual al tiempo que corta el aire con la hoja, dibujando símbolos e ignorando a Cynthia, que grita desesperada.
+EventNoHero.button1	{qst:Continuar}	
+EventGirlDied.button1	{qst:Continuar}	
+SpawnCollector1.text	Concentrado en el ritual, el Coleccionista comienza a recitar un extraño cántico. Coloca el Sacerdote de Dagon en el lugar indicado y descarta la ficha de Personaje Hombre Rojo. Este es el Coleccionista.
+EventGirlDied.text	Con ambas manos en la empuñadura, la daga se hunde empalando a la pobre joven. Cynthia intenta sobreponerse pero las heridas son demasiado graves. Con la daga profundamente clavada en su pecho, sus gritos se apagan a medida que su cuerpo se vuelve inerte.
+SpawnCollector1.button1	{qst:Continuar}	
+SpawnCultist1.button1	{qst:Continuar}	
+SpawnCultist2.text	El otro hombre le sigue para tratar de encontrar a los intrusos. Coloca un Sectario y descarta la ficha de Personaje Hombre Morado en el lugar señalado.
+SpawnCultist1.text	-Tenemos que encontrar a quien quiera que haya entrado-dice uno de los hombres mientras escudriña la habitación buscando algo que le sirva de arma.\nColoca un Sectario en el lugar señalado y descarta la ficha de Personaje Hombre Amarillo.
+SpawnCultist2.button1	{qst:Continuar}	
+SpawnCollector2.text	El hombre encuentra la caja de los fusibles y se da cuenta de que los han quitado.\n -Aquí hay alguien- dice el Coleccionista.\nColoca el Sacerdote de Dagon en el lugar señalado. Es el Coleccionista.
+SpawnCollector2.button1	{qst:Continuar}	
+SpawnCultist3.text	Coloca un Sectario en el lugar señalado.
+SpawnCultist3.button1	{qst:Continuar}	
+SpawnCultist4.text	Coloca un Sectario en el lugar señalado.
+SpawnCultist4.button1	{qst:Continuar}	
+EventPriestActivations.button2	El Coleccionista no puede atacar.
+TokenCollector2.button1	{action} <i>"Basta ya</i>!
+EventStopCollector.button1	{qst:Continuar}	
+EventStopCollector.text	Gritas con todas tus fuerzas, tratando de sacarlos de su trance.\n -¡Detengan esta locura!\nCynthia te mira y grita. -¡Por favor, ayúdeme!\nEl Coleccionista hace un gesto al otro hombre.\n -¡Detenles!-le espeta y vuelve a centrar su atención en la joven.
+TokenCollector2.text	El Coleccionista se coloca frente a la joven y blandiendo la hoja comienza a recitar las palabras del ritual.
+EventMythosRitual.button1	{qst:Continuar}	
+EventMythosRitual.text	El Coleccionista entona las palabras del recita al tiempo que corta el aire con la hoja, dibujando símbolos e ignorando a Cynthia, que grita desesperada.
+SpawnCultist5.text	-No dejes que detengan el ritual-dice el hombre mientras aparta su mirada del ritual para centrarse en ti.\nColoca un Sectario y descarta la ficha de Personaje Hombre Amarillo en el lugar señalado.
+SpawnCultist5.button1	{qst:Continuar}	
+SpawnSpawn6.text	El otro hombre trata de impedir que interfieras. Coloca un Sectario y descarta la ficha de Personaje Hombre Morado.
+SpawnSpawn6.button1	{qst:Continuar}	
+SpawnMaidCultist.text	Le das un empujón a la doncella y consigues ponerte de nuevo en pie. Mientras tratas de recuperar el aliento te das cuenta de que la doncella viene de nuevo a por ti, pero esta vez trae un cuchillo. Descarta la ficha de Personaje Mujer Blanca y coloca un Sectario en tu mismo espacio.
+EventDistractWithLights.button1	{qst:Continuar}	
+EventAttacksHero.button1	{qst:Continuar}	
+EventAttacksHero.text	Tratas de ayudar a Cynthia, pero el Coleccionista se gira hacia ti y te lanza una furiosa estocada  ({agility}; 2). Si superas la tirada, consigues esquivar el ataque. Si la fallas, el Coleccionista te asesta un terrible tajo en una mano. Sufres 2 de Daño, ganas el estado Desconcertado y te mueves un espacio para alejarte del Coleccionista.
+EventGirlOut.button2	{action} Esconder a la joven	
+EventHideGirl.text	Casi petrificada por el miedo, Cynthia consigue a duras penas esconderse. Retira la ficha de Personaje Mujer Naranja.
+EventHideGirl.button1	{qst:Continuar}	
+EventGirlOut.button3	Cancelar	
+EventMaidOut.button1	{action} Esconder investigador	
+EventMaidOut.button2	{action} Esconder empleada	
+EventMaidOut.button3	Cancelar	
+EventNoGirlNoMaid.button1	{action} Esconder investigador	
+EventNoGirlNoMaid.button2	Cancelar	
+EventNoGirlNoMaid.text	¿A quién quieres esconder?	
+EventMaidOut.text	¿A quién quieres esconder?	
+EventGirlOut.text	¿A quién quieres esconder?	
+EventFoundMaidAlive.button1	{qst:Continuar}	
+EventFoundMaidAlive.text	El coleccionista corre de vuelta al salón.\n -No estamos solos-dice al tiempo que zarandea a los otros dos hombres-. He encontrado a Mildred y me ha dicho que hay alguien aquí-dice mientras saca una daga de su chaqueta.\n -Encontradlo ya-ordena a los otros-. Yo empezaré el sacrificio.\n Coloca la ficha de Personaje Hombre Rojo en el lugar señalado.
+TokenGirl2.text	La pobre chica está atada sobre la mesa, muerta de miedo.
+TokenGirl2.button1	{action} Rescatar	
+EventFreeGirlTest.button1	{qst:Continuar}	
+EventFreeGirlTest.button2	Fallo	
+EventFreeGirlFail.button1	{qst:Continuar}	
+EventFreeGirl.text	Consigues aflojar uno de los nudos y en unos segundos consigues deshacer el resto. Cynthia salta de la mesa y se arroja a tus brazos.\n -Muchísimas gracias por salvarme.\n La ficha de Personaje Mujer Naranja se puede mover usando las reglas normales para un objetivo voluntario.
+EventFreeGirl.button1	{qst:Continuar}
+EventFreeGirlTest.text	Intentas deshacer los nudos ({observation}).
+EventFreeGirlFail.text	Tratas de encontrar una manera de desatar los nudos, pero no lo consigues.
+SpawnCreature.text	Con el sacrificio completo, descargas de electricidad salen del cuerpo de la joven creando una ventana a otro mundo. Una garra sale de su hombro y otra desgarra su estómago. La terrible criatura despedaza por completo el cuerpo a medida que sale a nuestro mundo. Coloca una Semilla Estelar en el lugar indicado y descarta la ficha de Personaje Mujer Naranja.
+SpawnCreature.button1	{qst:Continuar}	
+EventEatCollector.text	El Coleccionista se acerca a la criatura con los brazos levantados.\n -Estamos muy felices por tu llegada.\n Cuando el Coleccionista se acerca a la criatura, esta lo agarra y lo levanta en el aire. La criatura tira de las extremidades del Coleccionista, que grita de dolor mientras la criatura lo destripa y empieza a devorarlo. El dantesco espectáculo de sangre y crujir de huesos es demasiado para tu cordura. Sufres 3 de Horror (anulados por {will}). A continuación dale la vuelta a todas tus cartas de Horror. Retira del tablero al Coleccionista.
+EventEatCollector.button1	{qst:Continuar}	
+EventPriestDied.text	Con un último golpe fatal, el Coleccionista cae al suelo, soltando la daga. La daga resbala por el suelo hasta que choca contra tu pie. Un extraño sentimiento recorre tu cuerpo cuando coges la daga. Ganas el Objeto único Daga Ritual. Este objeto puede intercambiarse pero no puede soltarse.
+EventPriestDied.button1	{qst:Continuar}	
+EventPriestActivationMain.button1	{qst:Continuar}	
+EventPriestLogicLightsOut.button1	Realizar ritual	
+EventPriestLogicLightsOut.text	El Coleccionista se mueve 2 espacios hacia la joven para continuar el ritual.
+EventPriestLogicLightsOut.button2	No puede estar en el mismo espacio.
+EventCollectorMoves2.text	El Coleccionista se mueve 2 espacios hacia la joven y después ataca al investigador más cercano que esté a su alcance.
+EventCollectorMoves2.button1	¡El Coleccionista ataca!
+EventCollectorMoves2.button2	No ataca	
+EventCollectorAttacks2.button1	{qst:Continuar}	
+EventCollectorAttacks3.button1	{qst:Continuar}	
+EventCollectorAttacks2.text	El Coleccionista se aleja de ti, tratando de volverse hacia Cynthia. Comienza a recolectar extraños objetos por toda la habitación y te los va lanzando con una fuerza sorprendente ({agility}; 2). Si superas la tirada, consigues esquivar los objetos a medida que los lanza. Si fallas la tirada, uno de ellos te impacta de lleno. Sufres 2 de Daño y ganas el Estado Desconcertado.
+EventCollectorAttacks3.text	El Coleccionista pasa su mano sobre la daga mientras recita las palabras de una antigua magia arcana. La daga comienza a brillar cada vez más hasta que lanza una descarga en dirección a ti. ({agility}; 2). Si superas la tirada, consigues bloquear justo a tiempo la descarga usando una silla. Si fallas la tirada, intentas encontrar algo con lo que protegerte pero la descarga te alcanza antes. Sufres 1 de Daño y ganas el Estado Aturdido.
+TokenPartner.text	El espíritu de tu socio, William Drake, permanece de pie en el despacho, envuelto en una suave niebla que distorsiona su figura.
+TokenPartner.button1	Hablar	
+EventPlacePartner.text	A medida que las voces se desvanecen, miras el amuleto y logras ver una figura brumosa que camina por la casa. La figura se parece a... tu socio fallecido. Parece que intenta llevarte a alguna parte. Coloca la ficha de Personaje Hombre Verde en el lugar señalado. Este es el espíritu de socio fallecido, William Drake.
+EventPlacePartner.button1	{qst:Continuar}	
+EventSpeakToPartner.text	El espíritu se da media vuelta y te mira, diciéndote las siguientes palabras mientras su energía va y viene:\n -Muchas gracias. Me has liberado de ese infierno. Pero no ha terminado aún. Tienes que acabar con esto.\n
+EventSpeakToPartner.button1	<i>{action}-¿Cómo te atraparon?</i>	
+EventSpeakToPartner.button2	{action} <i>-¿Cómo lo paramos?</i>	
+EventTrappedTalk.text	-Estos objetos son maldad, pura maldad. Se retroalimentan el uno al otro. La hoja fue diseñada para absorber las almas de sus víctimas, mientras que el amuleto las almacenaba. Cada alma atrapada hace que tanto el amuleto como la daga sean cada vez más poderosos. El Coleccionista me robó el alma aquella noche en el mercado y la ha estado usando para realizar actos malvados. No quiero ni pensar en las terribles criaturas que ha podido convocar si ha absorbido otra alma.
+EventTrappedTalk.button1	{qst:Continuar}	
+EventFire.text	El amuleto necesita una fuente de energía. Quizá un fuego pueda cargarlo lo suficiente para destruirlo.
+EventHowStop.text	Los dos objetos trabajan juntos, y a medida que uno se hace más poderoso, también lo hace el otro. La única cosa que puede destruir uno de los objetos es el otro objeto. Si la daga se llena de energía, se podría destruir el amuleto, y por consiguiente, destruirlos a ambos. El problema es que hace falta liberar el poder del amuleto. Se necesita algún tipo de fuente de energía para llenarlo. Pero hay que tener cuidado, porque la daga tiene voluntad propia y tratará de detener a quien intente destruirla. Hay que evitar que eso suceda.\n
+EventHowStop.button1	{qst:Continuar}	
+EventSpeakToPartner.button3	Cancelar	
+EventSpeak2.button1	{action} <i>¿Cómo lo vamos a parar?</i>	
+EventSpeak2.text	William intenta ayudarte una última vez, antes de que su energía desaparezca.
+EventFire.button1	{qst:Continuar}	
+EventAbsorbEnergy.text	Con el fuego ya en marcha puedes comenzar el ritual para absorber su energía. El investigador que posea el Objeto único Emblema de Sectario puede intentar cargar el amuleto.
+TokenFireInteract.button1	{qst:Continuar}	
+EventGhostFades.text	Exhala sus últimas palabras,\n -Adiós, muchas gracias.\n William se desvanece lentamente ante tus ojos. Descarta la ficha de Personaje Hombre Verde.
+EventGhostFades.button1	{qst:Continuar}	
+EventBladeAttacks.text	Un extraño deseo incontrolable se apodera de ti. Un susurro al oído te dice\n -No confíes en la joven. ¡Debe morir!\n El investigador que posea el Objeto común Daga Ritual se mueve hasta 2 espacios en la dirección de la joven y a continuación ataca.
+EventBladeAttacks.button1	Atacar a la joven	
+EventBladeAttacks.button2	No está en el mismo espacio	
+EventBladeAttacksGirl.text	Te abalanzas sobre Cynthia, con los ojos desencajados mientras tu mente asiste impotente a las acciones de tu cuerpo. Asesta un golpe con la daga contra la joven, tratando de matarla. La hoja se clava profundamente en la carne, pero no es una herida mortal. Mientras la joven trata de luchar por su vida, te das cuenta de que sus heridas le empiezan a pasar factura y que no durará mucho más.
+EventBladeAttacksGirl.button1	{qst:Continuar}	
+EventBladeMoveToPartner.text	La rabia te consume cuando te das cuenta de que tus compañeros conspiran contra ti. El investigador que posea el Objeto común Daga Ritual se mueve hasta 2 espacios hacia el investigador más cercano y después ataca.
+EventBladeMoveToPartner.button1	Atacar a otro investigador
+EventBladeMoveToPartner.button2	No está en el mismo espacio
+EventAttackSelf.text	El poder consume tu voluntad mientras hace que empuñes la daga hacia tu cuerpo. El investigador que posea el Objeto común Daga Ritual sufre 2 de Daño (anulados por {will}), después todos los investigadores que estén a su alcance sufren 2 de Horror (anulados por {will}).
+EventAttackSelf.button1	{qst:Continuar}
+EventAttackFriend.button1	{qst:Continuar}
+EventAttackFriend.text	Te abalanzas sobre tu compañero gritando\n -¡Eres un traidor!n Con otro grito, tu compañero te responde:\n -No te dejes llevar. Tienes que luchar contra esta locura.\n El investigador objetivo sufre 2 de Daño. Después, todos los investigadores dentro del alcance sufren 2 de Horror (anulados por {will}).
+EventStartFire.button1	{qst:Continuar}
+EventFirePlaceMain.button1	{action} Encender el fuego
+EventStartFire.text	Coges el tablón de madera y lo arrojas a la chimenea. Sacas una cerilla de la pitillera y enciendes el fuego. El fuego prende tan pronto como lanzas la cerilla y las llamas iluminan la habitación. Descarta el Objeto común Tablón de Madera y descarta cualquier ficha de Oscuridad de esta habitación. La chimenea se considera ahora una fuente de luz.
+EventAbsorbEnergy.button1	{action} Cargar de energía el amuleto	
+EventAttemptFill.button1	{qst:Continuar}	
+EventDestroyPair.text	Con el amuleto cargado, crees que puedes por fin destruir la daga. Sin embargo, esa es la principal prueba que has venido a buscar. Si la destruyes, perderás la prueba crucial del asesinato de tu socio. Cualquier investigador en el mismo espacio que el investigador o investigadores que porten el Objeto común Daga Ritual y el Objeto único Emblema de Culto pueden tratar de destruir ambos.
+PuzzleFillAmulet.button2	Fallo	
+PuzzleFillAmulet.button1	Destruir	
+EventFillFail.text	Recitas las palabras rituales tan bien como las puedes recordar pero parece que no sucede nada.
+EventFillFail.button1	{qst:Continuar}	
+EventFillPass.text	A medida que recitas las palabras una y otra vez, el amuleto comienza a brillar. Un aura emite desde el fuego hacia el amuleto. Es tu oportunidad.
+EventFillPass.button1	{qst:Continuar}
+EventAttemptFill.text	Sostienes el amuleto abierto en dirección al fuego  y recitas las palabras que escuchaste al Coleccionista, esperando que eso llene el amuleto. Toca la pantalla para resolver el rompecabezas utilizando ({lore}).
+EventDestroyPair.button1	{action} Tirar los objetos dentro del siniestro fuego
+EventDestroyPair.button2	{action} Golpear el amuleto con el puñal
+EventDestroyPair.button3	{action} Llevar la daga como prueba del delito
+EventGetBurnt.button1	{qst:Continuar}
+EventGetBurnt.text	Lanzas ambos objetos al fuego esperando que las llamas los destruyan, pero no pasa nada. Rápidamente te das cuenta de que no va a servir de nada. Te abalanzas sobre las llamas y agarras los objetos antes de que sea demasiado tarde. Sufres 2 de Daño boca abajo.  (Anulado por {agility}).
+EventAttemptDestoryPair.button1	{qst:Continuar}
+EventAttemptDestoryPair2.text	Respiras profundamente y reúnes todo tu valor, deseando que estés haciendo lo correcto. El amuleto comienza a brillar con fuerza y rezas para que, pase lo que pase, sobrevivas ({will}).
+EventAttemptDestoryPair2.button1	{qst:Continuar}
+EventAttemptDestoryPair2.button2	Fallo
+EventAttemptDestoryPair3.text	Respiras profundamente y reúnes todo tu valor, deseando que estés haciendo lo correcto. El amuleto comienza a brillar con fuerza y rezas para que, pase lo que pase, consigas sobrevivir ({will}).
+EventAttemptDestoryPair3.button1	{qst:Continuar}
+EventAttemptDestoryPair3.button2	Fallo
+EventAttemptDestoryPair4.text	Respiras profundamente y reúnes todo tu valor, deseando que estés haciendo lo correcto. El amuleto comienza a brillar con fuerza y rezas para que, pase lo que pase, sobrevivas ({will}).
+EventAttemptDestoryPair4.button1	{qst:Continuar}
+EventAttemptDestoryPair4.button2	Fallo
+EventAttemptDestoryPair5.text	Respiras profundamente y reúnes todo tu valor, deseando que estés haciendo lo correcto. El amuleto comienza a brillar con fuerza y rezas para que, pase lo que pase, sobrevivas ({will}).
+EventAttemptDestoryPair5.button1	{qst:Continuar}
+EventAttemptDestoryPair5.button2	Fallo
+EventFirePlaceMain.text	Sabiendo que el amuleto requiere una fuente de energía para cargar la hoja, esperas poder conseguirlo con fuego. El investigador con el Objeto común Tablón de madera y el Objeto común Pitillera de la Suerte o en el mismo espacio los investigadores con los dos objetos pueden intentar encender un fuego.
+EventFirePlaceMain.button2	Cancelar	
+EventTakeDagger.text	Temes que el destruir la daga termine con la investigación sobre la muerte de tu socio. Una cosa es saber la verdad y otra muy distinta es poder demostrarla. \n\nLa investigación ha sido completada.
+EventSpeak3.button1	<i>{action} ¿Cómo fuiste detenido?</i>
+EventSpeak3.text	William intenta ayudarte una última vez, al tiempo que su energía se desvanece.
+EventSpeak3.button2	Cancelar
+EventSpeak2.button2	Cancelar
+EventDestroyPair.button4	Cancelar	
+EventTakeDagger.button1	{qst:Continuar}
+TokenCrystalBall.text	Varios objetos están expuestos en la tienda.
+PuzzleCrystalBall.button1	Completado
+TokenCrystalBall.button1	{action} Investigar
+EventAttemptCBPuzzle.text	A medida que echas un vistazo a los objetos, encuentras algo interesante, pero eres incapaz de decidir exactamente de qué se trata. Toca la pantalla para resolver el rompecabezas utilizando ({lore}).
+EventAttemptCBPuzzle.button1	{qst:Continuar}	
+EventAbsorbEnergy.button2	Cancelar	
+EventViewPast.text	Mientras inspeccionas los objetos adviertes que la bola de cristal comienza a emitir un débil resplandor azulado. De repente percibes un movimiento en el interior de la bola de cristal. El mundo a tu alrededor desaparece a medida que tu mente es absorbida por la visión.
+EventViewPast.button1	{qst:Continuar}	
+EventPlaceMarket.text	Una niebla se forma en torno a ti y tienes la sensación de estar flotando entre las nubes.
+EventPlaceMarket.button1	{qst:Continuar}	
+EventRemoveBlack.text	Sin previo aviso, una figura se materializa en la distancia.
+EventRemoveBlack.button1	{qst:Continuar}
+EventRemoveMist.text	La niebla se disipa y parece que estás en alguna clase de mercado.
+EventRemoveMist.button1	{qst:Continuar}	
+EventCollectorEnters.button1	{qst:Continuar}	
+EventCollectorMoves.text	El Coleccionista entra en uno de los tenderetes del mercado. Un viejo se le acerca para saludarlo. Ese debe de ser el mercader.
+EventCollectorEnters.text	Un hombre entra en el mercado. Parece ser el Coleccionista.
+EventCollectorMoves.button1	{qst:Continuar}	
+EventPartnerEnters.text	Otra figura entra por detrás de uno de los tenderetes. Parece tu antiguo socio. Debe de haber seguido al Coleccionista.
+EventPartnerEnters.button1	{qst:Continuar}
+EventSell.text	Mientras el hombre sigue hablando, el mercader muestra una caja y la desliza discretamente sobre la mesa en dirección al Coleccionista.\n -Esto es lo que estás buscando-le susurra el mercader al Coleccionista con una sonrisita.\nEl coleccionista abre la caja para echar un vistazo dentro.\n -No lo entiendo. ¿Por qué tiene que venderlos como una pareja?.\n El mercader le hace un gesto. -No se lo puedo explicar exactamente. ¿Qué tal si en vez de eso se lo muestro?-dice al tiempo que saca el amuleto de la caja.
+EventSell.button1	{qst:Continuar}
+EventViewPastMain.button1	{qst:Continuar}
+EventCombo1Answer.text	El mercader entrega una pequeña nota al Coleccionista. Parece un acertijo.\n\n -”Si el color es el número y el número es la secuencia, la secuencia de colores debería ser 1+2=3 y la mitad de 4 es 2, no 1.”\nEn la parte trasera de la nota hay un pequeño diagrama.\n ¿Qué significará todo eso?
+EventCombo1Answer.button1	{qst:Continuar}
+EventCombo2Answer.text	Cuando William se acerca es capaz de ver por encima del hombro del coleccionista la nota.\nEn ella se lee\n -Por favor, vuelva para comprar mis mercancias.\n \n ¿Qué querrá decir con eso?
+EventCombo2Answer.button1	{qst:Continuar}
+EventCombo3Answer.text	A medida que William se acerca, es capaz de ver la nota por encima el hombro del Coleccionista. El mercader escribe en el reverso de un dibujo antes de entregárselo al Coleccionista. \n"Asegúrese de sostenerlo del derecho"\n¿Qué querrá decir con eso"
+EventCombo3Answer.button1	{qst:Continuar}
+EventPassesNote.button1	{qst:Continuar}
+EventPassesNote.text	Con unas sencillas pulsaciones, el amuleto se abre. Del interior del aparato surge una extraña aura que se sincroniza con la hoja.\n -Se lo dije-dice el mercader mientras le da al Coleccionista los dos objetos brillantes. \nNo doy crédito. ¿Así que todo lo que he leído sobre ellos es cierto?-pregunta el Coleccionista maravillado por los objetos.\n -Y mucho más...-dice el mercader mientras saca un pequeño trozo de papel y comienza a escribir en él-. No lo pierda, es la clave para desactivar su poder.
+EventCollectorKills.text	Mientras el Coleccionista mira con admiración el poder de los dos objetos, el mercader desvía su mirada hacia arriba.\n -¿Quién es ese? ¡Alguien nos está observando!\nEl Coleccionista se da la vuelta y su mirada se cruza con la de tu viejo socio. El Coleccionista se abalanza como poseído sobre él y le hunde la daga en el pecho. William se desploma y su esencia vital parece escaparse de su cuerpo a través de sus ojos y su boca. El flujo de energía vital es absorbido por el amuleto de inmediato.
+EventCollectorKills.button1	{qst:Continuar}
+EventFadeOut.text	A medida que la energía de tu socio se desvanece, notas que la visión de desvanece también.
+EventFadeOut.button1	{qst:Continuar}
+EventFadeBlack2.text	La visión termina y notas como la realidad comienza a volver a tu alrededor.
+EventFadeBlack2.button1	{qst:Continuar}
+EventReturn.text	Regresas de la visión con una imagen más clara de lo que le pasó a tu socio. Ganas el Objeto único Componentes de Ritual, 1 Pista y a continuación descarta esta ficha de Búsqueda. Puedes consultar el Objeto único Componentes de Ritual en la aplicación para revisar lo que has encontrado.
+EventReturn.button1	{qst:Continuar}
+EventReviewAnswer.text	Puedes revisar la respuesta que has encontrado con tu visión.
+EventReviewAnswer.button1	{qst:Continuar}
+EventReviewAnswer1.text	El mercader le entrega una pequeña nota al Coleccionista. Parece un acertijo. \n ”Si el color es el número y el número es la secuencia, la secuencia de colores debería ser: 1+2=3 y la mitad de 4 es 2, pero no 1".\n\n En el reverso de la nota hay un pequeño diagrama.\n\n ¿Qué puede significar todo eso?
+EventReviewAnswer1.button1	{qst:Continuar}
+EventReviewAnswer2.text	El mercader le entrega una pequeña nota al Coleccionista.\n En ella se puede leer\n "Por favor, regrese para comprar mis mercancías".\n\n ¿Qué significa eso?
+EventReviewAnswer2.button1	{qst:Continuar}
+EventReviewAnswer3.text	El mercader le entrega una pequeña nota al Coleccionista. Hay algo escrito en el reverso de un dibujo. \n"Asegúrese de mantenerlo derecho".\n\n ¿Qué querrá decir con eso?
+EventReviewAnswer3.button1	{qst:Continuar}
+EventDestroyedPair.text	Giras la cabeza y cierras los ojos cuando golpeas el amuleto con la hoja. Un estallido de luz lo ilumina todo durante un segundo y desaparece. El poder de la hoja y el amuleto han sido destruidos, por fortuna. Suspiras aliviado al tiempo que derramas una última lágrima por tu socio, William.
+EventDestroyedPair.button1	{qst:Continuar}
+UIButtonTxtEnd.uitext	{qst:Continuar}
+UIEndTxt.uitext	Con la muerte del asesino de tu socio, una sensación de justicia espolea tu mente. Sigues luchando contra los secretos que viste aquella noche, sabiendo que el caso nunca será resuelto y que sus seres queridos nunca tendrán un descanso completo. Has pasado varias noches por delante de su casa, intentando reunir el valor para decirles la verdad, pero no has podido.\n\n A medida que los meses pasan, tienes la sensación de que tu cordura se recupera del trauma sufrido aquella noche, aunque sabes que ya nada volverá a ser lo mismo. La botella se ha convertido en tu única escapatoria para esas noches en las que las visiones te atormentan.\n\n Una tarde, un hombre que te resultaba familiar se acerca a ti mientras estas en el bar. Le dices que se largue de allí, pero insiste en que debe hablar contigo. Rápidamente capta tu atención cuando comienza a hablar de un amuleto y una daga que ha vendido hace poco. Tus ojos bailan entre tu trago y el anciano, que se presenta como un mercader. El miedo está presente en su voz cuando te suplica\n -No lo sabía, de verdad, lo juro. Pero ...pero tengo que hacer lo correcto. He venido a decirle... que hay otra.\n Apuras tu bebida de un trago, aturdido por sus palabras. Te dispones a contestar al viejo cuando te das cuenta de que allí no hay nadie, excepto tú, un borracho solitario al borde de la locura.
+UIButtonTxtEnd.button1	Button1
+UIEndTakeBladeTxt.uitext	Han pasado meses desde los sucesos en la casa del Coleccionista aquella noche. Has recibido el reconocimiento y los honores por salvar a la joven y por encontrar al asesino de tu socio. Las recompensas y las medallas no pueden borrar de tu mente lo que pasó aquella noche.\n\n Eres incapaz de dormir y te niegas a ver a tu familia o a tus viejos amigos. Ya nada te interesa...excepto el poder que contemplaste en la hoja. Ese recuerdo te consume día y noche, llamándote....esperando que la reclames como su nuevo dueño.
+EventMaidAnswers.button2	Fallar
+UIDiedTxt.uitext	Del mismo modo que el horror pudo con tu socio, huyes de la mansión temiendo por tu vida y por tu cordura. Los poderes que yacen en ella son demasiado fuertes para ser derrotados.\n\n Te descubres a ti mismo parado frente a tu casa de madrugada, clavando la mirada en las ventanas e incapaz de poner un pie en tu propia casa. Consciente de los horrores que hay ahí fuera, te preguntas cuándo serás tú la próxima víctima.
+UIKilledCreatureTxt.uitext	A medida que la adrenalina desaparece también lo hace tu euforia al ver que la pobre joven está muerta. Le das vueltas a la cabeza intentando averiguar qué podrías haber hecho de forma distinta para evitar este fatídico final. Vuelves en ti cuando la policía irrumpe en la mansión y comienzan a hacerte preguntas.\n\n Ruegas, suplicas que te crean, pero nadie te escucha, ni siquiera el jurado. No estaban allí, no vieron a aquella terrible criatura esa noche. Los médicos te dicen una y otra vez que aquello nunca sucedió, pero te niegas a cambiar tu historia, aunque ello suponga que tengas que pasar el resto de tu vida en una celda acolchada.
+EventDestroyAmuletFail.text	Reúnes todo el valor que te es posible, pero no es suficiente. Debes seguir intentándolo y destruir estos objetos.
+EventDestroyAmuletFail.button1	{qst:Continuar}
+EventStudyJournal.text	El Viejo Diario parece contener una serie de descripciones y registros de los objetos que ha coleccionado a lo largo de los años. El investigador con el Objeto único Viejo Diario puede leerlo usando la aplicación.
+EventKillCreature.button1	{qst:Continuar}
+EventKillCreature.text	La criatura se desploma sobre el suelo, inerte. Su cuerpo se transforma lentamente en cenizas que salen volando, formando un torbellino que regresa al portal hasta que finalmente desaparece. Tu victoria, sin embargo, no será duradera porque el portal alienígena sigue abierto. ¿Qué otros horrores demoníacos podrían salir de él la próxima vez?\n\n La investigación ha sido completada con éxito.
+TokenLockedStore.text	La tienda está cerrada y sus luces están apagadas. Tendrás que encontrar otra manera de entrar.
+TokenLockedStore.button1	{qst:Continuar}
+SpawnCreatureNotFreed.text	Con el sacrificio completo, descargas de electricidad salen del cuerpo de la joven creando una ventana a otro mundo. Una garra sale de su hombro y otra desgarra su estómago. La terrible criatura despedaza por completo el cuerpo a medida que sale a nuestro mundo. Coloca una Semilla Estelar en el lugar indicado y descarta la ficha de Personaje Mujer Naranja.
+SpawnCreatureNotFreed.button1	{qst:Continuar}
+EventLookOverAmulet.text	El diario menciona que el amuleto puede ser desbloqueado usando una combinación, pero no hay ninguna forma obvia de abrirlo.
+EventLookOverAmulet.button1	{action} Inspeccionar amuleto
+EventLookOverAmulet.button2	Cancelar
+EventCollectorAttacksGirlHidden.button1	{qst:Continuar}
+EventCollectorAttacksGirlHidden.text	El coleccionista se mueve 2 espacios hacia el investigador más cercano y ataca.
+EventCollectorAttacksGirlHidden.button2	No está en el mismo espacio
+EventBladeAttacksGirlHidden.button1	{qst:Continuar}
+EventReviewAnswer3.button2	<i>Mostrar la respuesta</i>
+EventRevealAnswers.text	Esto debería darte la respuesta al acertijo que se te resiste. Debes resolverlo sólo si estás seguro de que no quieres seguir intentando resolver el acertijo. ¿Estás seguro de que quieres hacerlo?
+EventRevealAnswers.button1	<i>¡Sí!ostrar la respuesta.</i>
+EventRevealAnswers.button2	<i>No. ¡Yo puedo resolver el enigma!i>
+EventAnswer1.text	Los números representan los colores. Si pones los colores juntos creas un nuevo color. Si añades Azul y Rojo obtienes Morado. Esto significa que el Morado debe ser el tercer color de la combinación. Además, esto te indica que el Azul y el Rojo son el primer y el segundo botón, pero sigues sin saber cuál es el orden. Por último, es sabido que el Verde está compuesto de Amarillo y Azul. Como sólo tienes Azul como opción, eso significa que el segundo botón es el Azul y que el Verde es el cuarto.\n\n La combinación final sería:\n Rojo – Azul – Morado – Verde
+EventAnswer1.button1	{qst:Continuar}	
+EventAnswer2.text	La frase está escrita con varias palabras en mayúsculas. Las mayúsculas de cada palabra corresponden con el color y el orden de la combinación. La frase comienza con las palabras\n "Por favor” con la "P” mayúscula, así que el primer botón de la combinación debería ser el Púrpura (Morado). La combinación final sería:\n Morado – Rojo – Azul – Verde
+EventAnswer2.button1	{qst:Continuar}
+EventAnswer3.text	La nota recuerda que debes estar seguro y mantenerlo boca abajo. Si le das la vuelta al amuleto para colocarlo boca abajo, el verde estará en lo alto, el azul y el rojo a los lados, y el morado en el cesntro. Si sigues el diagrama según los números, el botón verde sería la cabeza, el Morado el tronco y y el rojo y el azul serían los hombros.\n\n La combinación final sería:\nVerde - Morado- Rojo – Azul
+EventAnswer3.button1	{qst:Continuar}
+EventReviewAnswer2.button2	<i>Mostrar la respuesta</i>
+EventReviewAnswer1.button2	<i>Mostrar la respuesta</i>
+TokenGirlDead.text	la joven está muerta
+TokenGirlDead.button1	{qst:Continuar}
+EventPriestAttacksRescuedGirl.button1	Realizar el ritual
+EventPriestAttacksRescuedGirl.button2	No está en el mismo espacio
+EventPriestAttacksRescuedGirl.text	El Coleccionista se mueve 2 espacios hacia la joven para continuar el ritual.
+EventMenRun.text	Los otros hombres gritan de horror al ver al Coleccionista siendo devorado. Huyen lo más rápido que pueden, tratando de ponerse a salvo. Descarta las fichas de Personaje Hombre Amarillo y Hombre Morado.
+EventMenRun.button1	{qst:Continuar}
+EventCombo1Hint.button1	{qst:Continuar}
+EventCombo2Hint.button1	{qst:Continuar}
+EventCombo1Hint.text	Al sacar el libro de la estantería, un trozo de papel cae de entre sus páginas. No parece importante, quizá simplemente se usaba como marcapáginas. Ganas 1 Pista.
+EventCombo3Hint.text	Al sacar el libro de la estantería, un trozo de papel cae de entre sus páginas. No parece importante, quizá simplemente se usaba como marcapáginas. Ganas 1 Pista.
+EventCombo2Hint.text	Al sacar el libro de la estantería, un trozo de papel cae de entre sus páginas. No parece importante, quizá simplemente se usaba como marcapáginas. Ganas 1 Pista.
+EventCombo3Hint.button1	{qst:Continuar}
+EventReviewNotes.text	Puedes revisar las notas de  William Drake para ver si consigues encontrar alguna pista sobre su asesinato.
+EventReviewNotes.button1	{action} Leer
+EventNotesEntry1.text	Abres la pequeña libreta y localizas las entradas del caso más reciente.\n\n Martes, 25 de octubre, (hace solamente seis días).\n "Anoche, aproximadamente a las 9:43PM, he recibido una llamada. La mujer, Patty Henson, estaba muy alterada y pedía ayuda. Su hija, Cynthia, no había regresado a casa después de cenar con unas amigas".\n\n Miércoles, 26 de octubre. \n"Las amigas de Cynthia dicen que fueron al "Kathy's Diner” a comer hamburguesas y tomar batidos. Cuando se fueron, caminaron juntas hasta que se separaron al final del paseo. La casa de Cynthia estaba a sólo tres edificios de donde el grupo se separó".
+EventNotesEntry1.button1	{action} Seguir leyendo
+EventNotesEntry2.text	Jueves, 27 de octubre. \n"He decidido rastrear los tres edificios donde fue vista por última vez. La mayoría de la gente parece reacia e incluso ocasionalmente molesta por mis preguntas. He podido preguntar a una anciana, Jenny Hudson, que vive en la esquina. Recordaba a las chicas porque se rieron a carcajadas, despertándola. También vio a alguien que seguía a las chicas. Cuando éstas se separaron, el desconocido siguió a la que se marchaba sola, Cynthia. La señora Hudson se quedó observando, temerosa de que le pasase algo a la joven. Estuvo a punto de telefonear a la policía cuando un caballero se acercó a la joven y el desconocido se esfumó. Describió al caballero como un hombre mayor y probablemente adinerado a juzgar por el traje y los zapatos que llevaba". \n\n Viernes, 28 de octubre. \n "Hoy he regresado a la casa de la señora Hudson para rastrear la esquina donde Cynthia fue vista por última vez, con la esperanza de que me ayude a identificar al hombre que acompañó a la joven. Después de varias horas, finalmente la señora Hudson señaló a un caballero que cree que es el sospechoso". \n\n"8:22 PM. He seguido al caballero a lo largo de varias calles y parece que se dirige al mercado. Es extraño porque el mercado cerró hace una hora. Voy a intentar acercarme más para ver qué está pasando".
+EventBroughtNotes.text	Tu socio, William Drake, tomó notas durante sus investigaciones. Decides llevarte sus notas con la esperanza de encontrar algo que te ayude a resolver su asesinato. Un investigador gana el Objeto único Prueba Incriminatoria. El investigador que lleve este objeto puede interaccionar con la aplicación para consultar la prueba.
+EventBroughtNotes.button1	{qst:Continuar}
+EventReviewNotes.button2	Cancelar
+EventNotesEntry2.button1	{qst:Continuar}
+EventNoMorePages.text	Hojeas el resto de páginas pero no hay más entradas. Ganas 1 Pista.
+EventNoMorePages.button1	{qst:Continuar}
+EventNotesEntry1.button2	Cancelar
+SpawnGhost1.text	Sientes un frío que te recorre el espinazo al entrar en el pasillo. Los espíritus malignos se enfurecen al enterarse de tus planes. Coloca un Fantasma como se indica.
+SpawnGhost1.button1	{qst:Continuar}
+SpawnGhost2.text	Otro espíritu ronda por la casa. No debes dejar que te pare. Coloca un Fantasma como se indica.
+SpawnGhost2.button1	{qst:Continuar}
+EventStudyJournalMain.button1	Button1
+quest.authors_short	Sly Cozz
+quest.synopsys	El misterioso asesinato de tu socio te pone sobre la pista de alguien que quiere vender un cuchillo.
+TokenLockedStore.text	La tienda cierra por las tardes. Tendrás que encontrar otra manera de entrar.
+EventBroughtNotes.text	Tu socio, William Drake, tomó notas durante sus investigaciones. Decides llevarte sus notas con la esperanza de encontrar algo que te ayude a resolver su asesinato. Un investigador gana el Objeto único Prueba Incriminatoria. El investigador que lleve este objeto puede interaccionar con la aplicación para consultarlo.
+quest.authors	Author\nSly Cozz\n\nTraducido por\nVidimus
