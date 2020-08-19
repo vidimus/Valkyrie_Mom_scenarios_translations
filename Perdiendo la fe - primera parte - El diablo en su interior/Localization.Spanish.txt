@@ -1,0 +1,456 @@
+.,Spanish
+quest.name,Perdiendo la fe, primera parte
+quest.description,El padre Mateo acaba de llegar a Arkham para ser el nuevo cura de la iglesia de Bayfriar. Después de su primera misa, la familia Bechman le invita a él y a algunos de sus amigos más cercanos a una cena de bienvenida. A medida que avanza la noche, extraños eventos suceden en la casa. Debéis descubrir el inquietante secreto que rodea a los Bechman. ¿Será vuestra fe lo suficientemente fuerte como para sobrevivir a esta noche?\n\n <b>Si vas a jugar este escenario en solitario, tienes que hacerlo obligatoriamente con el padre Mateo. Si hay dos o tres jugadores, uno de ellos debe llevar al padre Mateo</b>.
+quest.synopsys,Una aventura en 3 partes, protagonizada por el padre Mateo, en su búsqueda interna de la fe. Parte 1: La cena de bienvenida.
+quest.authors,<i>Creado por:</i> Andre Gregio (eVader) \n <i>Traducción al español:</i> Vidimus
+quest.authors_short,Andre Gregio (eVader)
+TokenSearch1_T1.button1,{action} Investigar
+EventRemoveRichardB_T1.text,Mientras Richard se marcha pisando fuerte y murmurando en voz alta, Grace os dice:\n —<i>Por favor, no es por ustedes. Richard no se ha recuperado aún del todo</i>. \n\n Coloca la ficha de Personaje de Richard a un lado del tablero. \n\n Grace se pone muy seria. Comienza a recoger la vajilla. La cena ha terminado.
+TokenSearch2_T3.button1,{action} Investigar
+TokenSearch_T2.text,El documento que hay en la parte superior de la pila se asemeja a una prescripción médica.
+EventTalkGraceQ1Q2_T1.button3,Cancelar
+EventCrazyRichard_T1.text,Richard golpea la mesa. Todo el mundo deja de hablar en ese momento y dirige su mirada hacia a él. Se queda mirando al techo y levanta la voz: \n\n —<i>¿Es que nunca te vas a callar? ¿Ni siquiera durante un minuto?</i>. \n\n Se levanta y sale del comedor. \n\n Retira la ficha de Personaje de Richard y déjala a un lado del tablero.
+EventTalkRichard1_2_T1.text,—<i>No puedo soportarlo más. Se van a enterar esas ratas ahora mismo.</i> \n\n Richard se levanta y se aleja de la mesa. Deja la puerta del comedor abierta. Los invitados se miran y tratan de fingir que nada ha pasado, pero Grace está visiblemente avergonzada. \n\n Coloca fuera del tablero la ficha de Personaje de Richard. \n Sustituye la ficha de Exploración por una ficha de Vistazo en el lugar señalado.
+EventDoor1_UNLOCKED_T1.text,Esta puerta se conecta la cocina con la sala principal de la casa. Por aquí fue por donde entraste.
+SpawnPazuzu_T8.button1,Continuar
+EventInitialTile.button1,Continuar
+UIText.uitext,Hoy es un gran día para Arkham. El padre Mateo acaba de llegar a la ciudad para ser el nuevo cura de la iglesia de Bayfriar, en el barrio de French Hill. En su primera misa, abrió su corazón y se mostró como un hombre de fe inquebrantable, caritativo y compasivo. ¡Qué gran homilía! \n\n La familia Bechman es una de las principales benefactoras de Arkham. Son una familia de fe, moral y buenas acciones, que sirven a su iglesia y a su comunidad. Todo el mundo se apoya en ellos. \n\n Para celebrar la llegada del padre Mateo, Grace Bechman va a celebrar una cena esta noche. Ha invitado a algunos miembros de la comunidad y al propio cura, por supuesto. \n
+EventPlaceGrace_T1.button1,Continuar
+EventPlaceRichard_T1.text,Coloca a Richard Benchman en la mesa.
+EventPlaceRichard_T1.button1,Continuar
+EventPlaceInvestigators_T1.text,Coloca a los investigadores alrededor de la mesa. La cena comenzará en un momento.
+EventPlaceInvestigators_T1.button1,Continuar
+EventPlaceSearch1_T1.button1,Continuar
+EventRemoveExplore1_T1.button1,Continuar
+EventRemoveExplore2_T1.button1,Continuar
+EventPlaceExplore1_T1.button1,Continuar
+TokenSearch1_T1.text,Un mueble de cocina con un cajón medio abierto.
+TokenExplore1_T1.button1,Continuar
+EventPlaceExplore2_T1.text,Coloca una ficha de Exploración en el lugar señalado.
+EventRemoveSearch1_T1.text,Abres el cajón. Hay varios utensilios de cocina en el interior. A pesar de que te preocupa el robar a tus anfitriones, la seguridad de tener algo a mano con lo que protegerte te hace sentir mejor \n\n Ganas el Objeto común {c:QItemCommonKnife}. A continuación descarta esta ficha de Búsqueda.
+EventPlaceGraceAtKitchen_T1.text,Mueve la ficha de Personaje de Grace Bechman desde el comedor a la cocina como se señala. \n\n —<i>¡Estoy abrumada por todo lo que pasa aquí! Todo el tiempo me preocupo por Richard. Mildred, mi hija menor, también se está comportando de manera extraña. Mi otra hija, Gwendolyn, no me escribe para decirme nada acerca de la universidad.</i> \n\n Está muy avergonzado por la actitud de su marido delante de sus invitados. Grace limpia los platos en silencio. \n\n Ganas 1 Pista {clue}.
+EventPrescriptionPassed_T2.text,Descubres que el Sr. Bechman está tomando cinco tipos de medicamentos distintos, incluyendo uno para regular su humor. \n\n Ganas 1 Pista {clue} y ganas el Objeto único {c:QItemEvidence1_T2}. \n\n A continuación descarta esta búsqueda ficha.
+EventPlaceExplore2_T1.button1,Continuar
+EventPlaceExplore1_T1.text,Coloca una ficha de Exploración en el lugar señalado.
+TokenExplore2_T1.button1,Continuar
+EventDoor2_LOCKED_T1.text,¡No es de buena educación dejar la mesa en medio de la cena para irse a husmear!
+EventPlaceSearch_T2.text,Una pequeña pila de papeles colocada sobre la mesa del vestíbulo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch_T2.button1,Continuar
+EventReadPrescription_T2.button1,Continuar
+EventPrescriptionPassed_T2.button1,Continuar
+EventPrescritionFailed_T2.text,Lo único que ves es una caligrafía incomprensible. Frustrado, dejas las prescripción donde la encontraste.
+EventPrescritionFailed_T2.button1,Continuar
+EventTalkGrace1_T1.button1,—<i>¿Ella se encuentra bien?</i>
+EventTalkGrace1_1_T1.text,—<i>Se comporta de modo extraño desde hace unas semanas. Pero bueno, en realidad no me gustaría molestarle esta noche hablando de ese tema.
+EventTalkGrace1_T1.button2,Cancelar
+EventTalkGrace1_T1.text,—<i>Gracias, padre. Siento mucho que nuestra hija no haya salido de su habitación para unirse a nosotros esta noche. Seguro que se alegra de su visita. Tal vez mañana por la mañana...</i>
+EventTalkGrace1_1_T1.button1,Ganas 1 Pista {clue}
+EventTalkGrace2_T1.text,—<i>Tengo dos hijas: Mildred, la más joven, que no se encuentra bien. Está descansando en su habitación. La otra, Gwen, pasa los días de la semana en la Universidad de Miskatonic</i>.
+EventTalkGrace2_T1.button1,{action} —<i>¿Mildred está enferma?</i>
+EventTalkGrace2_T1.button2,{action} —<i>¡Interesante! ¿Qué es lo más importante de Gwendolyn?</i>
+EventTalkGrace2_1_T1.text,—<i>Está actuando de un modo muy raro. Le he encontrado varias contusiones en su pecho y en las piernas, y no está comiendo adecuadamente. No sé qué hacer. Ella tampoco me habla de lo que le pasa.</i>
+EventTalkGrace2_1_T1.button1,Ganas 1 Pista {clue}
+EventTalkGrace2_2_T1.text,—<i>Ella estudia las antiguas civilizaciones y sus culturas.</i>
+EventTalkGrace2_2_T1.button1,Ganas 1 Pista {clue}
+EventTalkGraceQ1Q2_T1.button1,{action} —<i>Le agradezco de veras la cena. ¡Tiene una familia encantadora!</i>
+EventTalkGrace3_T1.text,—<i>No ha vuelto a ser el mismo desde el accidente...</i>
+EventTalkGrace3_T1.button1,Ganas 1 Pista {clue}
+EventTalkRichard1_T1.text,El hombre parece muy molesto con tu comentario. \n\n —<i>¿Por qué no come en silencio?</i>—te pregunta.
+EventTalkRichard1_T1.button1,—<i>Lo siento, no fue mi intención ofenderle</i>.
+EventTalkRichard1_T1.button2,Comer en silencio
+EventTalkRichard1_1_T1.text,—<i>¿Todavía sigue hablando? ¿Es que no puede parar de una vez?</i>—grita el hombre— <i>¡Es usted igual que las voces de mi cabeza!</i>—Richard se pone en pie bruscamente tirando al suelo la silla y se va del comedor.
+EventTalkRichard1_1_T1.button1,Continuar
+EventPlaceGrace_T1.text,Coloca a Grace Benchman en la mesa de la cena.
+EventRemoveExplore1_T1.text,El vestíbulo de entrada es sobrio. Entraste por la puerta grande que está a tu izquierda. Hay un escritorio aparador, una silla de cuero rojo, una estatua de mármol y unas macetas de helechos sobre columnas de mármol griego. \n\n Coloca el módulo {c:TileManorEntry} y descarta esta ficha de Exploración. Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceSearch1_T3.text,En las sombras, puedes ver la forma de lo que parece ser un barreño. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_T3.button1,Continuar
+TokenSearch1_T3.button1,{action} Investigar
+EventRemoveSearch1_T3.button2,Fallo
+TokenSearch2_T3.text,Hay grandes sacos de fertilizantes y herramientas de jardinería en un rincón del almacén.
+EventWashtankPassed_T3.text,Cuando te acercas, el olor es nauseabundo. Es una masa informe y sanguinolenta de piel y huesos. Horrorizado, te das cuenta de que alguien, o algo, ¡ha vomitado los restos de una rata! \n\n Sufres 1 de Horror boca abajo y ganas 1 Pista {clue}. \n\n A continuación descarta esta ficha de Búsqueda.
+EventWashtankPassed_T3.button1,Continuar
+EventWashtankFailed_T3.text,Molesto por el intenso olor a podrido, observas lo que parece un pequeño charco de sangre y vómito. \n\n Descarta esta ficha de Búsqueda y adquieres el estado de <i>Aturdido</i>.
+EventWashtankFailed_T3.button1,Continuar
+EventPlaceSearch2_T3.text,Esta puerta lleva a un pequeño almacén. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch2_T3.button1,Continuar
+EventRemoveSearch2_T3.text,Hay una pala sobre una pila de sacos de fertilizantes. Podrías usarla en caso de que el ruido que has oído sea causado por algún ladrón que se haya colado en la casa. \n\n Si decides llevártela, ganas el Objeto común {c:QItemShovel_T3}. En caso contrario, deja el objeto en estel espacio, donde lo has encontrado. \n\n Descarta este ficha de Búsqueda.
+EventRemoveSearch2_T3.button1,Continuar
+EventPlaceDarkness_T3.text,Coloca fichas de Oscuridad en todos los espacios de esta localización. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceDarkness_T3.button1,Continuar
+EventRemoveRichardB_T1.button1,Continuar
+EventReadPrescription_T2.text,La prescripción tiene el nombre del señor Bechman escrito en la cabecera, con fecha de ayer. La letra es muy confusa, típica de los médicos. Quizá si pones un poco de empeño puedas descifrar lo que médico ha prescrito {observation}.
+TokenGraceKitchen_T1.button1,Continuar
+EventTalkToGraceAtKitchen1_T1.text,Grace está claramente molesta. Ahora está llorando.
+EventPlaceSearch2_T1.button1,Continuar
+TokenLantern_T1.text,Una lámpara apagada descansa sobre un barril en un rincón de la despensa.
+EventRemoveSearch2_T1.text,La linterna está llena de queroseno. Puede ser utilizada como una <i>Fuente de luz</i>. \n\n Ganas el Objeto común {c:QItemLantern_T1}. A continuación, descarta esta ficha de Búsqueda.
+EventPlaceSearch1_T1.text,La puerta de la cocina está abierta. Puedes ver unos buenos armarios, estanterías y demás. \n\n Coloca una ficha de Búsqueda en el armario de la cocina, en el lugar señalado. Uno de sus cajones no está cerrado del todo.
+EventPlaceSearch2_T1.text,La puerta de la despensa también está abierta. En su interior se apilan alimentos no perecederos, utensilios de limpieza y para el hogar. Hay algo encima de uno de los barriles. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRemoveSearch2_T1.button1,Continuar
+EventTalkRichard_T1.button1,{action} —<i>¿Son ustedes de esta parte de la ciudad?</i>
+SpawnPazuzu_T8.text,Coloque un perro de Tíndalos en el lugar señalado y descarta la ficha de Personaje Perro. \n \n Éste es Pazuzu, ahora poseído por una entidad maligna. \n\n La criatura sostiene entre sus mandíbulas la caja de metal para proteger el objeto.
+EventRemoveBechmansFromKitchen_T1.text,Grace parece estar embotada, debe de estar muy cansada. Te señala donde está tu habitación y te desea que duermas bien. \n\n —<i>Por favor, descanse un poco. He dejado preparada una habitación para usted</i>. \n\n Grace desaparece por el pasillo a tu derecha. \n\n Descarta esta ficha de Búsqueda y retira todas las fichas de Personaje del tablero.
+EventRemoveBechmansFromKitchen_T1.button1,Continuar
+TokenSight_T2.button1,Revelar
+EventPlaceDarkness_T6.button1,Continuar
+EventPlaceExplore2_T6.text,Otra puerta que lleva a una habitación. Coloca un ficha de Exploración en el lugar señalado.
+EventPlaceExplore2_T6.button1,Continuar
+TokenExplore2_T6.text,La puerta de un dormitorio.
+TokenMasterBedroomDoor_T6.text,Coloca una ficha de Puerta en el lugar señalado.
+TokenMasterBedroomDoor_T6.button1,Continuar
+EventPlaceExplore1_T6.text,Una puerta. Apenas puedes distinguir algo en la oscuridad, pero parece que el marco es más elegante. Esta puerta seguramente lleva a la habitación principal. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceExplore1_T6.button1,Continuar
+EventPlaceWall_T6.button1,Continuar
+EventRemoveCouple_T7.text,Grace corre por el pasillo y para delante de la habitación de sus hijas. Mira hacia la puerta, inmóvil, luego se vuelve para mirarte y grita con desesperación: \n\n —<i>Dese prisa, ¡tengo miedo por mi hija pequeña!</i> \n\n Está claro que tiene pánico: llora y tiembla de forma incontrolable, paralizado frente a la puerta de Mildred. \n\n Coloca la ficha de Personaje de Grace delante de la puerta de su hija en la {c:TileBedroomsHall} en el lugar señalado.\n\n Todos los investigadores que se encuentren en el dormitorio principal se colocan en el mismo espacio que Grace.
+EventPlaceWall2_T6.text,Coloca una ficha de Pared en el lugar señalado.
+EventGraceB_T8.text,Grace Bechman entra lentamente en la habitación, horrorizada. Se desmaya y cae al suelo, murmurando palabras ininteligibles. \n\n Mueve la ficha de Personaje de Grace al lugar señalado.
+TokenSearch2_T8.text,Parece una caja de metal.
+EventRemoveSearch2_T8.text,Te pones de rodillas para tratar de llegar a la caja. De repente, un perro grande sale de debajo de la cama. Es Pazuzu, el bullmastiff de Mildred, un cruce entre bulldog y mastín inglés. \n\n Coloca la ficha de Personaje Perro delante de la cama. Se interpone entre tú y la caja. \n\n Retira la ficha de Búsqueda. La caja es inalcanzable en este momento.
+EventTileUpstairs_NOKEY_T5.button1,Continuar
+EventPlaceDevil_T9.text,El miedo te embarga en presencia de esta criatura innombrable. \n\n El que fue una vez el príncipe de la luz, el más bello de los ángeles de Dios. Pero su atrevida arrogancia hizo que cayese. \n\n Te aferras a tu cruz, pero cuando la tocas, no sientes nada. ¿Estarás quizá perdiendo la fe? ¡No, ahora no, que tanto la necesitas para luchar contra el mismísimo diablo!
+EventRemoveSearch1_T9.button1,Continuar
+EventPlaceSearch1_T9.text,Al mirar dentro del desván, te asalta un hedor nauseabundo, una mezcla de sangre y carne podrida. \n\n Coloca una ficha de Búsqueda ficha en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenSearch1_T9.button1,{action} Investigar
+EventPlaceInteract_T9.text,Cuando miras con más detenimiento, ¡te das cuenta de que el ritual ya se está llevando a cabo! La invocación se completará a menos que seas capaz de pararla a tiempo.
+TokenSearch1_T9.text,Un paquete de velas surtidas, un vial de sangre y un par de ratas muertas en el interior de una bolsa.
+EventPlaceSearch1_T9.button1,Continuar
+EventTileUpstairs_NOKEY_T5.text,Encuentras una escalera que sube a la primera planta. Los escalones están tapizados con terciopelo rojo. Los extraños sonidos que has estado escuchando son más fuertes aquí. \n\n Coloca el módulo {c:TileUpstairs}.
+EventPlaceSight_T2.button1,Continuar
+TokenSearch1_T6.button1,{action} Investigar
+EventPlaceDarkness_T6.text,Es realmente difícil ver algo en el pasillo. \n\n Coloca fichas de Oscuridad en todos los espacios de esta localización.
+EventRemoveSearch1_T6.text,Rebuscas con cuidado entre los restos buscando la lámpara, rezando para que no se haya roto ({agility}; 1). \n\n Si la tirada tiene éxito, enciendes la lámpara (descarta todas las fichas de Oscuridad de la localización en la que te encuentras) y adquieres el estado <i>Concentrado</i>. Si fallas la tirada, tropiezas y se te cae la lámpara. Se ha roto. Ojalá nadie haya escuchado el ruido; sufres 1 de Daño boca abajo y 1 de Horror boca abajo (anulados por {will}). \n\n A continuación descarta ficha de esta búsqueda.
+TokenSearch1_T6.text,Hecho una furia, Richard tropezó con la mesa y todo lo que había sobre la mesa cayó sobre él antes de terminar esparcido por el suelo. Quizá encuentres algo útil.
+EventRemoveSearch1_T6.button1,Continuar
+EventPlaceSearch1_T6.text,Tus ojos se están habituando a la oscuridad. Comienzas a distinguir siluetas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_T6.button1,Continuar
+EventRemoveSearch1_T9.text,Lo recuerdas vagamente, pero estás seguro de que lo viste en un antiguo libro de la biblioteca del Vaticano. ¡Estos componentes pueden ser utilizados en un ritual de invocación del demonio! \n\n Ganas el Objeto único {c:QItemRitualComp_T9}. Quizá puedan ser útiles para una investigación posterior. \n\n En ese momento, oyes un ruido detrás de las cajas que tienes a tu derecha...
+EventRemoveSearch1_T3.text,Hay un pequeño charco de un líquido desconocido cerca del desagüe. Te acercas para intentar averiguar qué puede ser ({observation}; 2).
+EventRemoveSearch1_T1.button1,Continuar
+EventPlaceGraceAtKitchen_T1.button1,Continuar
+EventTalkGraceQ1Q2_T1.button2,{action} —<i>Tiene usted una preciosa casa. Parece más nueva que las otras casas de French Hill.</i>
+EventTalkGraceQ1Q2_T1.text,—<i> ¡Bienvenido a Arkham, padre Mateo! Estamos muy contentos de tenerle en nuestra comunidad y, sobre todo, en nuestra casa para cenar. Espero que esta noche la compañía sea de su gusto. </i> \n\n Grace le coge de la mano y cortésmente le pregunta si deseas decir una pequeña oración antes de comer. El padre Mateo da gracias al Señor por la comida y bendice a todos los comensales. \n\n Tras las palabras del sacerdote, todos se ponen a comer y a charlar. Todo el mundo parece contento.
+EventTalkGraceQ2_USED_T1.text,—<i>Por favor, es usted muy amable. Esta casa es tan antigua como las otras del vecindario. Ha pertenecido a la familia de Richard durante casi dos siglos. La hemos reformado hace poco, pero tengo la sensación de que ahora cruje y se oyen como pequeños golpes más que antes.</i> \n\n Ganas 1 Pista {clue}.
+EventTalkGraceQ1_T1.button1,{action} —<i>Le agradezco de veras la cena. ¡Tiene una familia encantadora!</i>
+EventTalkGraceQ2_T1.button1,{action} —<i>Tiene usted una preciosa casa. Parece más nueva que las otras casas de French Hill.</i>
+EventTalkGraceQ1_USED_T1.text,—<i> Muchísimas gracias. Siento mucho que nuestra hija Mildred no salga de su habitación y se una a nosotros esta noche. Por lo general estaría encantada con su visita, pero ya lleva unas semanas en las que se está comportando de forma muy extraña. En fin, que sólo tiene dieciséis años y echa de menos a su hermana Gwendolyn, siempre han estado muy unidas las dos</i>—Grace prosigue—. <i> Hoy Mildred no se encuentra bien y me he dado cuenta de que tiene los dos brazos cubiertos de moretones, pero no me ha hecho ningún comentario al respecto. Es más, trató de ocultarlos debajo de suéter, ¡pero aún así los vi! Desde que Gwendolyn inició un proyecto de investigación en la Universidad de Miskatonic y pasa todos los días de la semana allí, Mildred tiene el corazón partido... </i> \n \n Ganas 1 Pista {clue}.
+EventTalkGraceQ1_USED_T1.button1,Continuar
+EventTalkGraceQ2_USED_T1.button1,Continuar
+EventTalkGraceQ1_T1.button2,Cancelar
+EventTalkGraceQ2_T1.button2,Cancelar
+EventTalkGrace_NoOptions_T1.text,—<i>¿Le ha gustado como está sazonado el pollo? He seguido la receta de un libro de cocina de la abuela de Richard. Lo guardo celosamente, ¡es un secreto de familia!</i>—Grace te guiña el ojo. \n\n En breve servirá el postre.
+EventTalkGrace_NoOptions_T1.button1,Continuar
+TokenLantern_T1.button1,{action} Investigar
+TokenSearch1_T3.text,Un barreño con un apestoso charco de algo en su interior.
+EventRemoveSearch1_T3.button1,¡Éxito!
+EventTalkGraceQ1_T1.text,Grace está comiendo y charlando alegremente.
+EventTalkGraceQ2_T1.text,Grace parece risueña. Está muy habladora esta noche.
+TokenGraceB1_T1.button1,Continuar
+EventCrazyRichard_T1.button1,Continuar
+TokenRichardB_T1.button1,Continuar
+EventRemoveExplore2_T1.text,La puerta se abre con un largo crujido. El sótano está completamente oscuro. Eres incapaz de ver si hay algún interruptor para las luces cerca o no. Al entrar en la habitación te das cuenta de que debes tener mucho cuidado con donde pisas: unas viejas escaleras de madera descienden hacia el sótano. \n\n Coloca el módulo {c:TileBasement} en el lugar señalado y descarta esta ficha de Exploración. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventTalkRichard_T1.text,—<i>¡Ratas...! ¡Llevo toda la noche escuchando a esas malditas ratas!</i>—murmura Richard sin parar.
+EventTalkRichard_T1.button2,Cancelar
+EventTalkRichard1_2_T1.button1,Continuar
+TokenSight1_T1.button1,Revelar
+EventRemoveSight1_T1.text,El vestíbulo de entrada es sobrio. Entraste por la puerta grande que está a tu izquierda. Hay un escritorio aparador, una silla de cuero rojo, una estatua de mármol y unas macetas de helechos sobre columnas de mármol griego. \n\n Coloca el módulo {c:TileManorEntry} y descarta esta ficha de Vistazo.
+TokenSight1_T1.text,Un investigador en el mismo espacio que esta ficha de Vistazo puede revelar la zona adyacente.
+EventRemoveSight1_T1.button1,Continuar
+EventTalkRichard_NoOptions_T1.text,—<i>¡Dichosas ratas ruidosas! ¿Es que nadie las oye?</i>— \n\n murmura el hombre para sus adentros.
+EventTalkRichard_NoOptions_T1.button1,Continuar
+EventDoor1_LOCKED_T1.button1,Continuar
+EventDoor2_LOCKED_T1.button1,Continuar
+EventDoor1_LOCKED_T1.text,Sería muy grosero irse de la cena en este momento.
+EventDoor1_UNLOCKED_T1.button1,{action} Explorar
+EventDoor2_UNLOCKED_T1.text,Una vulgar puerta. Conecta con el sótano o con el exterior de la casa.
+EventDoor2_UNLOCKED_T1.button1,{action} Explorar
+EventPlaceExplore1_T2.button1,Continuar
+EventPlaceExplore1_T2.text,Coloca una ficha de Exploración en el lugar señalado.
+TokenExplore1_T2.text,Esta puerta conduce a la habitación de invitados.
+TokenExplore1_T2.button1,{action} Explorar
+EventPlaceExplore2_T2.button1,Continuar
+EventRemoveExplore1_T2.text,Abres la puerta de la habitación que Grace ha preparado para sus huéspedes. Es simple, pero está impecablemente limpia y es cómoda. Las sábanas desprenden un agradable aroma. Crees que sería una buena idea dormir unas cuantas horas para digerir lo que acaba de pasar. \n\n Coloca el módulo {c:TileGuestRoom} en el lugar señalado y descarta esta ficha de Exploración.
+EventPlaceExplore2_T2.text,Coloca una ficha de Exploración en el lugar señalado.
+EventRemoveSight_T2.text,Un pasillo que conduce a las otras habitaciones de la casa. Cuenta con un magnífico suelo de madera. \n\n Coloca el módulo {c:TileBedroomsHall} y descarta esta ficha de Vistazo.
+EventPlaceWall_T6.text,Coloca una ficha de Pared en el lugar señalado.
+EventRemoveSight_T2.button1,Continuar
+EventPlaceWall2_T6.button1,Continuar
+EventMythos1.text,Las luces se apagan. Todos los comensales se ponen a gritar cuando la mesa empieza a temblar. Un armario se abre bruscamente y todos los platos y vasos salen disparados hacia los huéspedes y hacia el suelo. Cada investigador presente en la cocina, el comedor o la despensa sufre 1 de Daño (anulado por {agility}). \n\n Las luces se encienden de nuevo. Todos os miráis confusos, preguntándoos si es alguna clase de broma pesada o ha sido un suceso sobrenatural. \n\n —<i>Tranquilos, amigos, siéntense, seguro que ha sido un pequeño terremoto. ¡Estoy a punto de servir el postre!</i> \n\n Nunca has oído a nadie hablar de terremotos en Arkham. Grace parece estar fingiendo que no ha pasado nada fuera de lo común. Empiezas a sospechar que detrás de la invitación a cenar hay algún tipo de propósito oculto más allá de darle la bienvenida al nuevo cura... \n\n Cada investigador gana 1 Pista {clue}.
+EventForceDoor_PASSED_T2.button1,Continuar
+EventMythos5Deadly.text,Un desagradable olor a azufre invade el aire. Un trueno retumba tan fuerte que da la impresión de que se ha producido en el interior de la casa. Incluso la puerta que lleva al piso de arriba se ha caído al suelo. \n\n Los señales son claras, pero no te las querías creer. El demonio está aquí... y el miedo te paraliza. \n\n Sufres 2 de Horror y adquieres el estado <i>Aturdido</i>.
+TokenSight_T2.text,El pasillo está oscuro y en calma. Todo el mundo parece estar durmiendo. \n\n Un investigador en la localización {c:TileManorEntry} puede revelar la zona adyacente.
+EventKeyNotFound_T2.button1,Continuar
+TokenExplore2_T2.button1,Continuar
+EventKeyFound_T2.text,El investigador con el Objeto único <i>Llave de latón</i> puede abrir esta puerta.
+EventKeyNotFound_T2.text,Los ruidos se hacen más fuertes. Tal vez puedas forzar la puerta para abrirla usando tu {strength}.
+EventKeyFound_T2.button1,Explorar
+EventTileUpstairs_KEY_T5.text,Encuentras una escalera que sube a la primera planta. Los escalones están tapizados con terciopelo rojo. Los extraños sonidos que has estado escuchando son más fuertes aquí. \n\n Coloca el módulo {c:TileUpstairs} y descarta esta ficha de Exploración.
+EventTileUpstairs_KEY_T5.button1,Continuar
+EventPlaceTokens_KEY_T5.button1,Continuar
+EventPlaceTokens_KEY_T5.text,En la parte superior de la escalera, hay una puerta de la que sale algo de luz a través de su marco. Los escalones están salpicados con algo que no consigues determinar a esta distancia. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenSearch1_T5.button1,{action} Investigar
+TokenSearch1_T5.text,Salpicaduras de un oscuro líquido viscoso.
+EventRemoveSearch1_T5.text,Echas un vistazo más de cerca ({observation}; 1). \n\n Si la tirada tiene éxito, te das cuenta de que se trata de sangre fresca. Sufres 1 de Horror boca abajo (anulado por {will}). Si fallas la tirada, te mareas; sufres 1 de Horror (anulado por {will}-1) y adquieres el estado <i>Desconcertado</i>. \n\n Ganas 1 Pista {clue}.
+EventRemoveSearch1_T5.button1,Continuar
+TokenExplore1_T5.text,Los ruidos se hacen más fuertes detrás de la puerta. ¡Es un cántico en un idioma extranjero! El suelo comienza a temblar y las luces empiezan a parpadear.
+TokenExplore1_T5.button1,{action} Explorar
+EventRemoveExplore1_KEY_T5.text,Al entrar, un escalofrío te recorre toda la columna vertebral como si notaras una presencia amenazadora. \n\n Coloca el módulo {c:TileAttic} y descarta esta ficha de Exploración.
+EventRemoveExplore1_KEY_T5.button1,Continuar
+EventPlaceFaintMildredAndRitual_T9.button1,Continuar
+EventPlaceFaintMildredAndRitual_T9.text,La visión de lo que ha pasado hace que desfallezcas. Se ha realizado con éxito un ritual demoníaco, y Mildred ha sido utilizada como medio para invocar a una fuerza maligna... \n\n Coloca una ficha de Búsqueda y la ficha de Personaje de Mildred en el lugar señalado.
+EventPlaceSight_T2.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventRemoveExplore1_T2.button1,Continuar
+EventPlaceDoor_T4.text,Coloca una ficha de Puerta en el lugar señalado.
+EventPlaceDoor_T4.button1,Continuar
+EventPlaceSearch1_T4.button1,Continuar
+EventPlaceSearch2_T4.button1,Continuar
+EventPlaceSearch2_T4.text,Al mirar dentro de la habitación, observas una cajonera con un pequeño atril sobre el que hay un libro abierto. Podrías utilizar la cajonera para organizar tus cosas. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceSearch1_T4.text,Al lado de la cama, un pequeño escritorio antiguo. \n\n Coloca una ficha de Búsqueda como indicado.
+TokenDoor_T4.text,Habitación de invitados
+TokenDoor_T4.button1,Continuar
+TokenSearch1_T4.button1,{action} Investigar
+EventRemoveSearch1_T4.text,Abres el cajón. Dentro hay una caja de cerillas y un pequeño paquete de velas. \n\n Ganas el Objeto común {c:QItemCandles_T4}. A continuación descarta esta ficha de Búsqueda.
+TokenSearch1_T4.text,Un pequeño escritorio con una vela encendida.
+EventRemoveSearch1_T4.button1,Continuar
+TokenSearch2_T4.text,Encima de una mesita de noche hay una biblia abierta.
+TokenSearch2_T4.button1,{action} Investigar
+EventRemoveSearch2_T4.text,La Biblia está abierta en una página con un pasaje marcado: \n\n «<i>Me paré sobre la arena del mar, y vi subir del mar una bestia que tenía siete cabezas y diez cuernos; y en sus cuernos diez diademas; y sobre sus cabezas, un nombre blasfemo». (Apocalipsis, 13:1). </i> \n\n Ganas 1 Pista {clue} y ganas el Objeto común {c:QItemBible_T4}. \n\n A continuación descarta esta búsqueda ficha.
+EventRemoveSearch2_T4.button1,Continuar
+SpawnRichardManiac_T2.text,Coloca un maníaco en el lugar señalado. Es Richard Bechman, y parece que está fuera de sí.
+SpawnRichardManiac_T2.button1,Continuar
+EventSpawnManiac1_T2.button1,Continuar
+EventSpawnManiac1_T6.text,Oyes unos pasos en la oscuridad, seguidos del ruido de algo que se rompe. Alguien salió corriendo y se tropezó con la mesita. \n\n —<i>¡Ningún Dios puede salvarte de lo que te mereces, hombre de poca fe!</i>—grita una voz de hombre. \n\n Una figura armada con hacha se abalanza sobre ti, sorprendiéndote por la espalda.
+EventSpawnManiac1_T2.text,Escuchas el sonido de unos pasos fuera de la habitación, seguidos del ruido de algo que se rompe, como si alguien hubiese salido corriendo y se hubiese tropezado con algo. Un hombre grita: \n\n —<i>¡Ningún Dios puede salvarte de lo que te mereces, hombre de poca fe!</i>
+EventSpawnManiac1_T6.button1,Continuar
+EventRichardManiacDefeated.text,Richard se detiene de repente cuando se da cuenta que te está atacando. Mira el hacha, confundido. Horrorizado por sí mismo, sale corriendo por el pasillo y desaparece de tu vista.
+EventRichardManiacDefeated.button1,Continuar
+TokenExplore1_T6.text,Tras esta puerta está el dormitorio principal
+TokenExplore1_T6.button1,{action} Explorar
+EventRemoveExplore1_T6.text,Lentamente abres la puerta del dormitorio principal. No hay ni siquiera una lámpara encendida. \n\n Coloca el módulo {c:TileMasterBedroom} y descarta esta ficha de Exploración. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventRemoveExplore1_T6.button1,Continuar
+EventPlacePerson1_T7.text,Forzando la vista, te das cuenta de que sólo hay una persona en la cama. \n\n Coloca la ficha de Interacción en el lugar señalado.
+EventPlacePerson1_T7.button1,Continuar
+TokenSleepingPerson_T7.button1,{action} Acercarse a la cama
+TokenSleepingPerson_T7.text,Tus ojos no terminan de acostumbrarse a la oscuridad. No eres capaz de distinguir qué es lo que hay debajo de las sábanas. Quizá si te acercases más podrías averiguarlo...
+EventIdentifyPerson_T7.text,Te acercas más y tratas de averiguar quién está durmiendo ({observation}; 2).
+EventIdentifyPerson_T7.button1,¡Éxito!
+EventIdentifyPerson_T7.button2,Fallo...
+EventPersonIdentified_T7.text,Entrecierras los ojos para hacer el esfuerzo de identificar a la persona que está en la cama. Al cabo de un rato, eres capaz de distinguir a Grace, que duerme profundamente. \n\n Sustituye la ficha de Interacción por la ficha de Personaje de Grace Bechman.
+EventPersonIdentified_T7.button1,Continuar
+EventMythos2MinToMaj.text,Las luces parpadean. Se oyen ruidos como si alguien estuviera martillando, seguidos de unos grotescos chirridos. Y aunque suenan muy apagados, como si viniesen de muy lejos, estás convencido de que proceden del interior de la casa. \n Sufres 2 de Horror (anulados por {will} -1).
+TokenGraceBAsleep_T7.button1,Continuar
+EventGraceAsleep_T7.button2,Dejar dormir a Grace Bechman
+EventGraceAwaken_T7.button1,¡Éxito!
+EventGraceAwaken_T7.button2,Fallo...
+EventTalkToGrace_T7.text,Te acercas sigilosamente a la cama para evitar asustarla: —<i>Ey, Grace. Lo siento mucho, pero tengo que despertarla. Tenemos que hablar acerca de Richard.... </i> \n\n Grace se incorpora de un salto, asustada, y te agarra del brazo con desesperación mientras exclama: —<i>¿Qué es lo que ha hecho? ¿Le ha hecho algo a mi hija?</i>
+EventTalkToGrace_T7.button1,Continuar
+EventPersonNotIdentified_T7.text,Te acercas con cuidado a la cama y justo cuando estás a punto de llegar, un tablón del suelo cruje de forma sonora. \n\n Richard Bechman se levanta de su silla y te mira fijamente en silencio. Sus ojos tienen la mirada perdida. Es casi como si hubiese estado aquí, oculto en la oscuridad, esperando a que llegases. \n\n Coloca la ficha de Personaje de Richard en el lugar señalado.
+EventPersonNotIdentified_T7.button1,Continuar
+EventGraceAwaken_T7.text,Grace se pone de pie a toda prisa, asustada y confundida. \n\n Descarta la ficha de Interacción y coloca la ficha de Personaje de Grace Bechman. \n\n —<i>¿Se puede saber por qué se ha colado en mi habitación a estas horas de la noche?</i> \n\n Intentas explicarle a Grace tus motivos ({influence}; 3).
+TokenGraceBAwake_T7.button1,Continuar
+EventExplainGraceB_T7.text,Te preguntas si deberías mencionar el incidente con Richard y decides posponerlo: \n\n —<i>Me despertó el ruido de algo que se rompía y me preocupé. Así que decidí mirar si todo el mundo estaba bien. Además escuché un leve... gemido. ¿No lo ha oído?</i> \n\n Aparentemente Grace se cree tu excusa. Te confiesa que desde hace poco se toma una buena cantidad de Jerez para poder dormir. Comienza a llorar y te hace una petición: \n\n —<i>Por favor, venga conmigo a ver si mi hija está a salvo. Su habitación es la que está justo al lado.</i> \n\n Richard Bechman, con una irritante parsimonia dice: \n\n —<i>Bah, seguro que es el perro, se pasa toda la noche cazando las ratas que infestan la casa.</i> \n\n Seguidamente se marcha, entrando por la puerta que está al lado de su escritorio, en el vestíbulo. \n Retira la ficha de Richard del tablero y ponla a un lado.
+EventExplainGraceB_T7.button1,Continuar
+TokenExplore2_T6.button1,{action} Explorar
+EventRemoveExplore2_T6.text,Abres la puerta de la habitación de las dos hijas de los Bechman. El mobiliario, de factura delicada, está hecho a mano y las paredes están empapeladas con lino fino. \n Hay una cama doble, que está hecha. \n\n Coloca el módulo {c:TileDaughtersBedroom} y descarta esta ficha de Exploración.
+EventRemoveExplore2_T6.button1,Continuar
+EventPlaceTokens_T8.button1,Continuar
+EventPlaceTokens_T8.text,Coloca una ficha de Puerta en el lugar señalado.
+EventPlaceSearch2_T8.text,Hay un bulto debajo de la cama, pero está demasiado lejos \n para estar seguro de lo que es. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch2_T8.button1,Continuar
+EventPlaceSearch1_T8.text,Una pequeña cómoda de niña con una gran cantidad de pequeñas notas y dibujos de colores. Seguramente son de Mildred. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_T8.button1,Continuar
+EventPlaceWall_T8.text,Coloca una ficha de Pared en el lugar señalado. \n\n Mildred no está aquí. Examinas el lugar para intentar descubrir alguna pista sobre su paradero. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceWall_T8.button1,Continuar
+TokenSearch1_T8.text,Un sobre con algo escrito: \n\n«<i>De: Gwen. \n Para: Mildred</i>». \n\n En su interior hay una carta doblada.
+TokenSearch1_T8.button1,{action} Investigar
+EventRemoveSearch1_T8.button1,Continuar
+EventRemoveSearch1_T8.text,Mirando las notas, encuentras una postal de la hermana de Mildred, Gwendolyn: \n\n «<i>Querida hermana, \n\n ha sido mi primera salida de campo con mi tutor en la UM. Hemos estado investigando el papel de los artefactos en las religiones de las culturas antiguas. Tengo un pequeño regalo para ti, pero por favor no se lo enseñes a nuestra madre o te hará un sinfín de preguntas. ¿Ves? Es de tu color favorito, el verde esmeralda. \n Una hermosa obra de arte, al igual que tú. \n\n ¡Te echo mucho de menos, pequeña diablilla! \n\n --Gwen»</i> \n\n Quizá ese artefacto esté detrás de los extraños sucesos que afectan a la casa y a la familia. Grace tiene motivos reales para estar tan preocupada por su hija. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+TokenSearch2_T8.button1,{action} Investigar
+EventRemoveSearch2_T8.button1,Continuar
+TokenDog_T8.text,—<i>¡Grrrrrrrr!</i>—el perro te empieza a gruñir suavemente. \n\n Parece decidido a proteger la caja. Tal vez puedes hacer algo para ganártelo...
+TokenDog_T8.button1,{action} Intentar calmar a Pazuzu
+EventDogInteraction_T8.text,Buscas en tus bolsillos y encuentras por casualidad algo que te puede ayudar a ganarte la confianza de Pazuzu. Suerte que llevabas un trozo de cecina. Quizá así puedas alcanzar la caja. \n Te acercas lentamente a Pazuzu, \n enseñándole el regalo que tienes para él ({influence}; 3).
+EventDogInteraction_T8.button1,¡Éxito!
+EventDogInteraction_T8.button2,Fallo...
+EventDogFriend_T8.text,El perro se come el trozo de comida que le das con sumo placer. En ese momento te das cuenta de que hay una llave de latón que cuelga de su correa. Seguramente le puedas quitar la llave, Pazuzu no te hará daño en este momento. \n\n Mueve la ficha de Personaje Perro al lugar señalado. Ganas el Objeto único {c:QItemSmallKey_T8}.
+EventDogFriend_T8.button1,Continuar
+TokenDog2_T8.text,El perro está jadeando y te mira con desprecio.
+TokenDog2_T8.button1,Continuar
+EventDogEnemy_T8.button1,Continuar
+EventDogEnemy_T8.text,El perro ignora el pequeño trozo de cecina y se echa encima de ti, tratando de morderte. \n\n Sufres 2 de Daño boca abajo y 1 de Horror boca abajo (anulados por {agility}). \n\n De repente, el perro comienza a contorsionarse de forma dolorosa, acompañado del sonido de los huesos rompiéndose. La criatura se convulsiona, gruñe y su piel por completo se le cae a tiras. Pazuzu está creciendo en tamaño, transformándose en algo maligno.
+TokenPuzzleBox_T8.text,Una cajita cerrada con un candado.
+TokenPuzzleBox_T8.button1,Continuar
+EventPuzzleBox_T8.text,El rompecabezas parece sencillo. Puedes intentar resolverlo usando tu {lore}.
+EventPuzzleBox_T8.button1,¡Hecho!
+EventRemoveCouple_T7.button1,Continuar
+EventMissingMildred_T8.text,Irrumpes en la habitación y te encuentras con una visión inquietante... \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMissingMildred_T8.button1,Continuar
+EventRoomUnexplored_T8.button1,Continuar
+EventRemoveSearch3_T8.text,—<i>¡Cielo santo! ¿Qué es lo que ha podido pasar aquí?</i>—te preguntas. Te das cuenta de que las paredes están llenas de arañazos, como si los hubiese hecho una bestia. \n\n En ese momento comienzas a enfrentarte la dolorosa verdad: una fuerza maligna está tratando de corromper esta familia. \n Gana 2 pistas {clue}. \n\n Descarta esta ficha de Búsqueda. \n Ganas el Objeto único {c:QItemEvidencia3_T8} y sufres 3 de Horror (anulados por {will}).
+TokenSearch3_T8.button1,{action} Investigar
+TokenSearch3_T8.text,La habitación está completamente destrozada: la cama y los muebles están rotos, las sábanas, ropa y cortinas están desgarradas. Hace unos instantes, cuando saliste de ella, estaba en perfecto estado. Echas un vistazo entre los restos para ver si puedes encontrar algo que te ayude a entender que ha pasado.
+EventRemoveSearch3_T8.button1,Continuar
+TokenGraceBFainted_T8.button1,Continuar
+TokenGraceBFainted_T8.text,Puedes oír a Grace balbuceando: \n\n —<i>Mi hija pequeña... mi marido...¡Por favor, Dios, líbrame de este mal...! </i>—se queda muy quieta, con la mirada clavada en el techo—, <i>Salve a mi familia. ¡Creo que sólo usted puede lograrlo!</i>—su voz es apenas un susurro.
+TokenGraceB_T6.text,—<i>Por favor, mire usted dentro. Tengo demasiado miedo para hacerlo yo</i>—solloza Grace—.<i> ¿Qué le he hecho a Dios para que me castigue de esta manera?</i>
+TokenGraceB_T6.button1,Continuar
+EventGraceB_T8.button1,Continuar
+EventBadEnding1.text,Grace comienza a temblar incontrolablemente. \n\n Con voz titubeante te pregunta: \n\n —<i> No sé qué se supone que significa esto ¿Es usted una especie de pervertido?</i> \n\n Sale corriendo de la habitación y te da un empujón que te tira al suelo.\n\n —<i>¡Richard! ¡Voy a llamar a la policía!</i> \n\n Sufres 1 de Daño. \n Mueve la ficha de Personaje de Grace Bechman al lugar señalado.
+EventBadEnding1.button1,Continuar
+TokenGraceBAwake_T7.text,—<i>¿Qué hace usted entrando a hurtadillas en mi habitación a estas horas de la noche? </i>
+EventBadEnding1_1.text,Justo cuando te estabas intentando poner de pie, Richard Bechman viene hacia ti cegado por la rabia.\n\n Descarta la ficha de Personaje de Richard y coloca un maníaco en el mismo espacio que el investigador en la localización {c:TileMasterBedroom}.
+EventBadEnding1_1.button1,Continuar
+TokenGraceRunning_T6.text,Grace corre como si su vida dependiera de ello. Trata de alcanzar el teléfono que está en el vestíbulo para llamar a la policía.
+TokenGraceRunning_T6.button1,Continuar
+SpawnRichardManiac_T7.button1,Continuar
+SpawnRichardManiac_T7.text,—<i>¡Lo sabía¡ ¡Usted es la rata! Haciendo ruidos, husmeando a escondidas. ¡Te voy a matar, condenada criatura!</i>
+EventBadEnding1_2.text,Tenéis <b>dos turnos</b> para escapar de Richard y evitar que Grace llame a la policía. \n\n El teléfono está en el escritorio del vestíbulo. Coloca una ficha de Interacción en el lugar señalado.
+EventBadEnding1_2.button1,Continuar
+TokenTelephone_T2.text,Un teléfono en el que no habías reparado antes.
+TokenTelephone_T2.button1,{action} Arrancar los cables
+EventBadEndingCutPhone_T2.text,Llegas al telefóno antes que Grace. La única cosa que se te ocurre es arrancar los cables de la pared {strength}.
+EventBadEndingCutPhone_T2.button1,Continuar
+SpawnGraceWitchBadEnding_T2.text,Grace llega rápidamente desde atrás e intenta agarrarte. Habla en un idioma extranjero y actúa como si estuviese poseída. Debes detenerla o te matará. \n\n Descarta la ficha de Personaje de Grace y coloca una bruja en el lugar señalado.
+SpawnGraceWitchBadEnding_T2.button1,Continuar
+TokenSearch_T2.button1,{action} Investigar
+EventCutWires_PASS_T2.text,Arrancas los cables, inutilizando el teléfono. \n\n Descarta esta ficha de Interacción. Adquieres el estado <i>Concentrado</i>.
+EventCutWires_PASS_T2.button1,Continuar
+EventCutWires_FAILED_T2.button1,Continuar
+EventCutWires_FAILED_T2.text,En ti crece la desesperación al darte cuenta de que no te comprenden y te arrepientes de que las cosas hayan llegado hasta este punto. Sufres 1 de Horror boca abajo.
+EventSolvePuzzleBox_T8.button1,Continuar
+PuzzleBox_T8.button1,Continuar
+EventSolvePuzzleBox_T8.text,Hay un objeto envuelto en un trapo harapiento. Es una especie de ídolo... \n\n Ganas el Objeto único {c:QItemStatue_T8}. A continuación descarta esta ficha de Búsqueda.
+EventSpawnPazuzu_T3.text,Pazuzu sale corriendo por la puerta y desaparece. Casi se tropieza contigo antes de salir. \n\n Descarta la ficha de Personaje Perro.
+EventSpawnPazuzu_T3.button1,Continuar
+SpawnPazuzu_T3.text,A lo lejos, se oye un aullido acompañado de un quebranto de huesos. \n\n Coloca un perro de Tíndalos en el lugar señalado. Antes era Pazuzu, pero ahora su cuerpo está poseído una entidad maligna.
+SpawnPazuzu_T3.button1,Continuar
+TokenExplore2_T2.text,Esta puerta está cerrada, pero se oyen unos ruidos al otro lado. ¿Serán las ratas de las que habla Richard?
+TokenSight1_T5.text,Los ruidos que has estado escuchando provienen de arriba. Es un cántico. La luz que sale de la puerta entreabierta parpadea de vez en cuando...
+EventForceDoor_PASSED_T2.text,Las bisagras estaban un poco flojas. Golpeas con el hombro y la puerta se abre con un crujido sordo. \n\n Sufres 1 de Daño boca abajo. A continuación descarta esta ficha de Exploración.
+TokenSight1_T5.button1,Revelar
+EventPlaceTokens_NOKEY_T5.text,En la parte superior de la escalera, hay una puerta de la que sale algo de luz a través de su marco. \n\n Coloca una ficha de Vistazo en el lugar señalado.\n Un investigador en la parte superior de la escalera puede revelar la zona adyacente.
+EventPlaceTokens_NOKEY_T5.button1,Continuar
+EventRemoveSight_T5.text,El canto es constante. Es hipnótico. Tienes la sensación de que podrías escucharlo toda la vida... \n\n Descarta esta ficha de Vistazo y coloca el módulo {c:TileAttic} en el lugar señalado.
+EventRemoveSight_T5.button1,Continuar
+EventForceDoor_FAILED_T2.text,El golpe no ha sido lo suficientemente fuerte. La puerta sigue cerrada, pero tú te has hecho daño. \n\n Sufres 1 de Daño.
+EventForceDoor_FAILED_T2.button1,Continuar
+EventPlaceSearch1_T5.text,Los escalones están salpicados con algo que no puedes distinguir a tanta distancia. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceSearch1_T5.button1,Continuar
+TokenInteractRitual_T9.text,Los restos de un ritual para convocar a un antiguo demonio.
+TokenInteractRitual_T9.button1,{action} Detener la invocación del demonio
+EventStopRitual_T9.button1,Continuar
+EventStopRitual_T9.text,Apagas las velas de un soplido y seguidamente las rompes. Pisoteas los restos de animales muertos y arrojas unas gotas de agua bendita sobre la estrella de cinco puntas. En ese momento oyes un silbido seguido por un grito ronco y diabólico que resuena por toda la casa. Has interrumpido el ritual de invocación. Esta vez el diablo no conseguirá lo que se propone. \n\n Descarta esta ficha de Interacción.
+EventStopRitual_FAIL_T9.text,Intentas romper el ritual, pero todos tus esfuerzos parecen fútiles. Quizá deberías fortalecer tu fe y esforzarte más...
+EventStopRitual_FAIL_T9.button1,Continuar
+SpawnPossessedMildred_T9.text,Mildred, que te oyó llegar, estaba oculta detrás de las cajas. Se echa encima tuyo gritando en varios idiomas diferentes al mismo tiempo. Está poseída por un demonio. Vas a tener que exorcizarla. \n\n Sufres 2 de Horror (anulados por {will} -1). \n\n Coloca una hija de la cabra en el lugar señalado: es Mildred poseída.
+SpawnPossessedMildred_T9.button1,Continuar
+TokenFallenMildred_T9.button1,Continuar
+EventDevilIn_T9.text,Mildred está levitando, con su mirada clavada en ti.
+EventMildredExorcism_T9.text,Buscas las palabras adecuadas, tratando de recordar el rito romano que leíste hace años ({lore}; 2). \n\n Si la tirada tiene éxito, sigues con el rito. Si la tirada falla, sufres 1 de Horror boca abajo y 1 de Daño (anulados por {observation}). \n\n Debes superar una prueba de {will} para realizar el exorcismo. \n\n El investigador que realiza el exorcismo puede descartar cualquier carta de <i>Prueba</i> para convertir cualquier resultado de {clue} en un {success}.
+EventMildredExorcism_T9.button1,Continuar
+EventExorcism_SUCCESS_T9.button1,Continuar
+EventExorcism_FAILED1_T9.button1,Continuar
+EventExorcism_SUCCESS_T9.text,Mildred deja de gritar y cae suavemente hasta el suelo. Sus ojos vuelven a ser verdes. Mira a su alrededor, confundida. \n\n —<i>¿Mamá?</i>—susurra—.<i>¿Qué hago aquí? </i> \n\n Mildred ya no está poseída. \n El exorcismo ha terminado.
+EventExorcism_FAILED2_T9.button1,Continuar
+EventMildredPossessedDefeated.text,Mildred se desploma. Está en shock, su cuerpo está lleno de cortes, y tiene la mirada perdida. Tienes que ayudarla antes de que sea demasiado tarde.
+EventMildredPossessedDefeated.button1,Continuar
+EventPlaceInteract_T9.button1,Continuar
+EventRemoveExplore2_KEY_T2.text,Se oye un clic. La puerta está abierta. \n\n Descarta esta ficha de Exploración.
+EventRemoveExplore2_KEY_T2.button1,Continuar
+EventKeyFound_T2.button2,Cancelar
+EventKeyNotFound_T2.button2,Cancelar
+TokenCompletedRitual_T9.text,Identificas los restos como parte de un ritual de invocación del demonio.
+TokenCompletedRitual_T9.button1,{action} Investigar
+EventRemoveSearch2_T9.text,Recoges todo lo que puedes del ritual completado con la intención de examinarlo más tarde. \n\n Ganas el Objeto único {c:QItemRitualComp_T9}. A continuación descarta esta ficha de Búsqueda.
+EventRemoveSearch2_T9.button1,Continuar
+EventPlaceDevil_T9.button1,Continuar
+SpawnDevil_T9.text,La presencia te mira de forma tan intensa que casi parece que pudiese ver a través de tu alma. \n\n —<b>¡Deja en paz a mi niña! </b>—susurra dentro de tu cabeza—.<b> Ya no hay nada que puedas hacer. Ella ahora es mía.</b> \n\n Oyes una risotada diabólica. \n\n Coloca un ángel descarnado de la noche en el lugar señalado.
+SpawnDevil_T9.button1,Continuar
+EventMildredIsFallen.text,El diablo centra su mirada en el cuerpo yaciente de Mildred y entra en él. Ella ahora está poseída.
+EventDevilDefeated_T9.button1,Button1
+EventDevilOut_T9.text,Mildred se ha desmayado. Expulsa al demonio de esta casa.
+EventDevilOut_T9.button1,Continuar
+EventDevilIn_T9.button1,{action} ¡Exorcizarla!
+EventPlaceGrace_T9.text,Grace llega y enmudece al encontrarse con la estampa de su hija poseída. \n\n Coloca la ficha de Personaje Grace en el lugar señalado.
+EventPlaceGrace_T9.button1,Continuar
+TokenGraceB_T9.button1,Continuar
+TokenGraceB_T9.text,—<i>Por Dios bendito...</i>—murmura. \n Grace está en estado catatónico.
+EventGraceOutside_T6.text,Grace te pregunta: \n\n —<i>¿Dónde está mi hija?</i> \n\n Entra en la habitación, abrumada.
+EventGraceOutside_T6.button1,Continuar
+EventDogDefeated.text,La criatura se desploma, agitándose durante unos momentos. Poco a poco se transforma de nuevo en Pazuzu, para a continuación derretirse en el suelo dejando únicamente una sustancia viscosa verde que desprende un olor fétido. No queda nada del perro de Mildred...
+EventDogDefeated.button1,Continuar
+EventWitchDefeated.text,Grace se desploma sobre el suelo, muerta. El marido y el perro han muerto, la hija ha desaparecido. ¿Qué harás? ¿Cómo vais a explicar estos hechos a la policía? \n Las cosas se os han ido completamente de las manos. \n\n Desesperado, te vas hacia el sótano. Encuentras una cuerda en una caja. \n\n Regresas a la cocina y atas la cuerda alrededor de una viga, te subes a un taburete, te anudas la cuerda alrededor del cuello y le das una patada al taburete...\n\n Justo antes de que acabe todo, lo último que escuchas es una risa diabólica... \n\n ¡La investigación ha fracasado!
+EventWitchDefeated.button1,Continuar
+EventNoDevil_T9.button1,{action} ¡Exorcizarla!
+EventAlternateEnding_T9.text,Grace se recupera de la conmoción y se centra en Mildred. Sostiene a su hija, tratando de calmarla. Mirándote, Grace te dice: \n\n —<i>Haré todo lo que esté en mi mano para averiguar quién, o qué, está detrás de todo esto. Cuento con usted para que me ayude.</i> \n\n Jurándolo, le aseguras que le ayudarás a descifrar el caso. \n\n Para ello tendrás que reunirte con un viejo amigo tuyo que fue cura. Le expulsaron de la iglesia después de revelar algún oscuro secreto que nadie debía saber.\n Pero ahora lo urgente es llamar a una ambulancia para que curen a Mildred...
+EventNoDevil_T9.text,Mildred está semiinconsciente, boca abajo sobre el suelo. De repente, su cuello gira en un ángulo imposible para que su cara pueda ahora mirar a la tuya. Sus ojos, abiertos de par en par, están completamente en blanco.
+EventAlternateEnding_T9.button1,EPÍLOGO
+EventRichard_T9.text,Richard aparece de repente por las otras escaleras de acceso al desván. Está muy alterado. Se queda mirando al desastre que hay montado, y con un gesto serio exclama: \n\n —<i>Llevo toda la noche buscando a esas malditas ratas. Estoy seguro de que el ruido viene de aquí. ¿Ha visto a alguna? </i> \n\n ¡La investigación ha sido un éxito! \n\n\n  <b>(Este es el final bueno, pero hay otros...).</b>
+EventRichard_T9.button1,Continuar
+EventEnding_T9.text,Te sientes como si te hubiesen apaleado, el corazón te late tan fuerte que casi lo puedes oír fuera de tu pecho. \n\n Mildred está en malas condiciones. Intenta hablar, pero es incapaz de articular palabra. Grace se agacha cerca de Mildred y la abraza contra su cuerpo: \n\n —<i> Shhh, cálmate, mi pequeña, mamá está aquí... Nada malo volverá a pasarte, nunca más</i>. \n\n Tienes que llamar urgentemente a una ambulancia para Mildred. Grace te da las gracias. Le prometes que investigarás el ritual y que averiguarás qué hay detrás de los acontecimientos de esta noche. Quizá podrías visitar a un viejo amigo, un antiguo sacerdote expulsado de la iglesia por dedicarse con demasiado ahínco al estudio de las ciencias ocultas...\n\n Es extraño: Richard se ha ido.
+EventEnding_T9.button1,EPÍLOGO
+EventRichardGone_T9.text,A pesar de que has intentado hacerlo lo mejor posible, este ha sido tu primer exorcismo. \n\n La ambulancia llega y se lleva a Mildred al hospital. Su madre va con ella, sosteniendo sus pequeñas manos. Antes de que la ambulancia se vaya, Grace te pide un favor: \n\n —<i>¿Podrían, por favor, échele un vistazo si Richard, para ver si está bien? Por lo general pierde la noción del tiempo cuando se enfrenta a sus propios demonios... </i> \n\n Encuentras en el sótano a Richard, inconsciente y desnudo, sosteniendo un hacha y cubierto de suciedad y sangre.\n —<i>Este hombre necesita urgentemente ayuda profesional</i>—reflexionas en voz alta. \n Le ayudas a ponerse en pie y a limpiarse. Ahora parece estar lúcido. Confuso acerca de su propia situación, te pregunta:\n\n —<i>¿Qué estoy haciendo aquí? ¿Dónde están mi esposa y mi hija?</i> \n Le explicas lo sucedido, pero él asegura que no recuerda nada. Los días pasan lentamente. Richard se comporta de modo normal. Mildred sigue todavía en el hospital. Grace se pasa todo el día con ella. \n\n Organizas un grupo de oración en la comunidad para pedir por la recuperación de Mildred. El padre Mateo está muy preocupado. No se tomó muy en serio el tema de los demonios y ahora tiene serias dificultades para hacer frente a lo que vio en la casa de los Bechman. \n\n Después de una semana de cuidados intensivos, te cuentan que Mildred no ha sobrevivido a sus heridas. Grace, desesperada, acude a ti y te dice las que fueron las últimas palabras de Mildred: \n\n —<i>Antes de morir, me agarró la mano con fuerza, tiró de mi para acercarme el oído a su cara y susurró con un hilo de voz, una voz satánica «Dile al cura esto no ha hecho más que empezar».</i> \n\n ¡La investigación ha sido un éxito! \n\n <b>(Aunque ha terminado mal. Hay un final mejor).</b>
+EventRichardGone_T9.button1,Continuar
+EventInitialTile.text,Coloca el módulo {c:TileEntry}. \n\n Los Bechman os han invitado a cenar a su casa en French Hill, cerca de la iglesia. Son una familia muy religiosa, y sienten la necesidad de estar cerca de su nuevo cura. \n\n Grace Bechman se ha vestido elegantemente para la ocasión. Oe recibe con una alegre sonrisa. Lleva un collar de perlas y un vestido blanco de corte fino con detalles en azul claro y oro. Sus zapatos son unos brillantes tacones blancos que combinan a la perfección con el resto de ropa y joyas. \n\n Richard, su marido, parece mucho mayor que Grace. De aspecto muy tranquilo, exhibe una sonrisa discreta al veros. Richard lleva una camisa blanca de seda y unos sobrios pantalones grises. Ya está sentado a la mesa y su mirada es distante. \n\n Grace se dirige a la cocina y uno a uno trae los platos: una ensalada césar, pollo asado y un plato de guisantes frescos. \n\n —<i>¡Dios mío, huele divinamente!</i>—exclamas antes de tomar asiento.
+UIContinue.uitext,Continuar
+EventRemoveBoard.button1,Continuará...
+EventRemoveBoard.text,Fin de la primera parte
+EventDoor2_UNLOCKED_T1.button2,Cancelar
+TokenExplore1_T1.button2,Cancelar
+EventTalkToGraceAtKitchen1_T1.button1,{action} —<i>¿Se encuentra bien?</i>
+EventTalkToGraceAtKitchen1_USED_T1.text,Grace comienza a llorar de manera compulsiva: \n\n —<i>No estoy ni remotamente bien... Lo siento, siento mucho lo de esta noche. No ha sido fácil tratar con Richard desde su infarto. Cuando no le está gritando a su propia sombra en la pared, diciendo que le está persiguiendo, está mirando a la nada con el rostro desencajado por el terror...</i>.\n\n Intentas que se calme un poco diciéndole que seguro que es algo temporal, algún tipo de secuela del infarto, y que seguro que se recuperará pronto. \n\n —<i>También está lo de esta casa y sus ruidos por la noche, es casi como si tratase de decir que no somos bien recibidos en ella... Sí, soy consciente de cómo suena eso, pero no estoy loca...</i>—añade Grace. Hace una pausa, como para reunir algo de valor antes de hablar—. <i>¿Podrían, por favor, quedarse aquí esta noche? ¡Estoy muy asustada!</i>. \n\n Tomas la decisión de quedarte a pasar la noche en la casa para ver si ocurre algo extraño, y de paso echarle una mano a una amiga desesperada. \n\n Ganas 1 pista {clue}.
+EventTalkToGraceAtKitchen1_USED_T1.button1,Continuar
+EventTalkToGraceAtKitchen1_NoOptions_T1.text,Grace se siente mejor ahora. Se va a terminar de colocar la vajilla antes de irse a dormir.
+EventTalkToGraceAtKitchen1_NoOptions_T1.button1,Continuar
+EventTalkToGraceAtKitchen1_T1.button2,Cancelar
+EventGraceAsleep_T7.text,Crees que sería muy raro despertarla en mitad de la noche.
+EventGraceAsleep_T7.button1,{action} ¡Despertar a Grace Bechman de todos modos!
+EventMythos1.button1,Continuar
+EventMythos3Major.text,Una tormenta se acerca. Ves un destello a través de la ventana. El rayo cae sobre un viejo y enorme árbol en el patio trasero, incendiándolo. El estallido te coge por sorpresa, haciendo que pierdas el equilibrio momentáneamente. Sufres 1 de Daño y 1 de Horror (anulados por {agility}). \n\n Un extraño canto rompe el silencio. Parece proceder del piso de arriba, acompañado de un gorgoteo.
+EventMythos5Deadly.button1,Continuar
+EventStairsAndAtticNotPlaced.button1,Continuar
+TokenExplore2_T5.button1,{action} Explorar
+EventStairsAndAtticNotPlaced.text,Un ritual demoníaco se acaba de completar en el desván. Debes actuar ahora mismo para detener a lo que quiera que ha sido convocado \n\n Coloca el módulo {c:TileUpstairs} y una ficha de Exploración en el lugar señalado.
+TokenExplore2_T5.text,La puerta apenas se sostiene de sus goznes, como si algún tipo de fuerza inimaginable la hubiese empujado.
+EventMythosR20.button1,Continuar
+UITextEnd.uitext,Desafortunadamente, todos vuestros esfuerzos fueron en vano.\n Habéis sucumbido ante las fuerzas del mal \n y ahora el diablo está entre nosotros. \n Tal vez alguien más pueda luchar contra él, \n pero desde luego vosotros no estaréis aquí \n para ver si tiene éxito... \n\n ¿FIN?
+EventLose.button1,Continuar
+UIContinueEnd.uitext,<Haz clic aquí para terminar...>
+SpawnGoatGirl.text,Aparece un súcubo. Está protegiendo la puerta del desván. \n\n Coloca un engendro cabrío en el lugar señalado.
+SpawnGoatGirl.button1,Continuar
+UIContinue.button1,Continuar
+EventMythosR20.text,Vuestra investigación ha durado demasiado tiempo y no habéis conseguido derrotar al enemigo. Se acabó...
+EventExorcizeAccum_T9.button1,Button1
+EventDoor1_UNLOCKED_T1.button2,Cancelar
+EventPlaceSearch1_T7.text,Hay un objeto apoyado contra la pared.
+EventPlaceSearch1_T7.button1,Continuar
+TokenSearch1_T7.text,La forma del objeto es alargada. ¿Será un bate?
+TokenSearch1_T7.button1,{action} Investigar
+EventRemoveSearch1_T7.text,Tocas el objeto, está pegajoso. Cuando lo miras de cerca, te das cuenta de que es el hacha de Richard, ¡y está cubierta de sangre! \n\n Sufres 1 de Horror boca abajo (anulado por {will}) \n\n Ganas el Objeto común {c:QItemAxe_T7}. A continuación descarta esta ficha de Búsqueda .
+EventRemoveSearch1_T7.button1,Continuar
+EventPlaceSearch1b_T8.text,Observas un papel arrugado debajo de la ropa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1b_T8.button1,Continuar
+EventDogLeaves_T8.text,Pazuzu, el perro de Mildred, sale corriendo de la habitación llevando una caja de metal en la boca. Se podía ver el miedo en sus ojos.
+EventDogLeaves_T8.button1,Continuar
+EventRitualStopped.button1,Continuar
+EventRitualOngoing.text,Vacías entera la botella de agua bendita, y luego pisoteas y pateas los restos del ritual demoníaco. Un humo fétido llena el aire y se desvanece.
+EventRitualOngoing.button1,Continuar
+EventMythos3Major.button1,Continuar
+EventMythos2MinToMaj.button1,Continuar
+EventMildredIsFallen.button1,Continuar
+EventMildredNotFallen_T9.text,El diablo se ríe malévolamente y desaparece en una fétida nube de humo rojo...
+EventMildredNotFallen_T9.button1,Continuar
+TokenExplore2_T2b.text,Esta puerta está cerrada, pero se oyen unos ruidos al otro lado. ¿Serán las ratas de las que habla Richard?
+TokenExplore2_T2b.button1,{action} Continuar
+EventNoDevil_T9.button2,Cancelar
+EventDevilIn_T9.button2,Cancelar
+EventRitual_T9.text,Interrumpir el ritual usando {lore}. Un investigador con el Objeto común <i>Agua bendita</i> puede añadir un dado extra a cualquier tirada con la intención de detener la invocación.
+EventRitual_T9.button1,Continuar
+UIContinueEnd.button1,¿FIN?
+EventExorcism_FAILED1_T9.text,Pronuncias las palabras del rito exhortando a la entidad que ahora habita en Mildred: \n\n —<i>¡En el nombre de Jesús, libera esta alma!</i> \n\n Mildred te lanza un espumarajo verdoso a la cara.\n\n El exorcismo debe continuar.
+EventExorcism_FAILED3_T9.text,—<i>¡Por el poder de Dios, arroja al infierno a Satanás y a todos los demás espíritus malignos que viven en este cuerpo profanado! </i>—suplicas mientras rocías gotas de agua bendita sobre el cuerpo de Mildred. \n\n Mildred grita como una bestia, retorciéndose y maldiciendo. \n\n El exorcismo debe seguir.
+EventExorcism_FAILED2_T9.text,—<i>¡Arcángel Miguel, salva el alma de esta niña!</i>—imploras al tiempo que coges tu cruz y apuntas con ella a Mildred. \n\n En ese momento, la niña escupe por la boca un vómito con restos podridos de pequeños animales. Se te revuelve el estómago, pero debes continuar con el rito sagrado. \n\n El exorcismo debe seguir.
+EventExorcism_FAILED3_T9.button1,Continuar
+EventMildredAttacks_T9.text,La presencia es fuerte y parece estar bloqueando tus devotos esfuerzos por poner fin a esta pesadilla. Mildred se eleva, frenética, apartándose de ti...
+EventMildredAttacks_T9.button1,Continuar
+SpawnUnchainedMildred_T9.text,Coloca la ficha de Personaje de Mildred a un lado del tablero y coloca una hija de la cabra en su lugar...
+SpawnUnchainedMildred_T9.button1,Continuar
