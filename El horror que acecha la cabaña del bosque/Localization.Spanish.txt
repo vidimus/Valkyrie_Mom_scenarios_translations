@@ -1,0 +1,420 @@
+.,Spanish
+TokenExploreWell.button1,Echar un vistazo
+EventAddExploreWellToken.button1,Continuar
+EventStartTile.text,Por favor, selecciona el nivel de dificultad:
+EventInvestigators.button1,Continuar
+EventStartTile.button2,MEDIA - Sé lo que hago ({success}{success}{success}{success})
+EventAddExploreWellToken.text,Aunque por culpa de la oscuridad no puedes ver lo que hay más adelante, recuerdas que el pozo y el cobertizo de tu abuelo estaban en esa dirección. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+TokenExploreWell.text,Aunque por culpa de la oscuridad no puedes ver lo que hay más adelante, recuerdas que el pozo de tu abuelo estaba en esa dirección.
+EventPlaceWell.text,El pozo ya estaba allí mucho antes de que nacieras. Si no lo recuerdas mal, tu abuelo te dijo que lo había hecho su abuelo hacía mucho tiempo. \n\n Coloca el módulo {c:TileWell} en el lugar señalado.
+EventPlaceWell.button1,Continuar
+SpawnCultist.button1,Continuar
+TokenExplorePorch.button1,Echar un vistazo
+EventPlacePorch.button1,Continuar
+EventAddExploreYardToken.text,Si la cabaña sigue aún en pie, tiene que estar en esta dirección.\n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventAddExploreYardToken.button1,Continuar
+EventAddExploreShed2Token.text,Recuerdas vagamente que tu abuelo tenía una pequeña caseta de herramientas que estaba en esa dirección. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventAddExploreShed2Token.button1,Continuar
+TokenMailbox.text,Un enorme arbusto ha crecido cubriendo por completo algo.
+TokenMailbox.button1,{action} Examinar
+EventAddMailboxToken.text,Un enorme arbusto ha crecido cubriendo por completo algo.\n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddMailboxToken.button1,Continuar
+EventInvestigateMailbox.text,Oculto por la vegetación encuentras un viejo buzón de correos. El buzón está lleno a reventar de viejos periódicos locales. Un periódico de hace 10 años apenas es legible. Consigues descifrar partes del texto: «<i>Profesor de lo oculto presumiblemente muerto. El reconocido profesor Charles Vanderbilt ha sido dado por muerto después de estar desaparecido durante meses. El profesor, conocido por su secretismo, dejó su trabajo hace tres meses para dedicarse a estudiar ocultismo "en un lugar tranquilo y apartado", como declaró su hijo, James Vanderbilt. \n El profesor Vanderbilt llevaba toda su vida proponiendo una teoría sobre el multiuniverso, que afirmaba que hay un número infinito de universos que existen todos a la vez en paralelo y que cada vez que se toma una decisión, un nuevo universo es creado. A pesar de que su teoría era tachada como inverosímil e imposible de demostrar, el profesor Vanderbilt estaba convencido de su existencia y estaba obsesionado con la idea de encontrar portales que llevasen de un universo al otro. Su aproximación a la búsqueda de dichos portales había sido considerada heterodoxa por sus colegas». \n Ganas una Pista {clue}. \n\n Objetivo del escenario: Gana este escenario descubriendo pruebas que expliquen lo que ha pasado en este lugar.
+EventInvestigateMailbox.button1,Continuar
+TokenWell.text,Una inspección más de cerca revela que la obra realizada es una auténtica chapuza. Quien quiera que fuese el que cubrió el pozo lo hizo a la carrera. No hay un tablón cortado igual a otro y cada clavo está puesto en una dirección diferente. Es evidente que era más importante cubrirlo que hacerlo bien. \n\n Necesitas una <i>Palanca</i> para poder quitar los tablones.
+TokenWell.button1,{action} Quitar usando la <i>Palanca</i>
+EventAddWellToken.text,Alguien cubrió el pozo con pesados tablones de madera. Parece ser que fue hace bastante tiempo por el aspecto que presentan. Los tablones son viejos pero sólidos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddWellToken.button1,Continuar
+EventWellRemovePlanks.text,Incluso con la palanca de hierro será difícil quitar los tablones ({strength}).
+EventWellRemovePlanks.button1,Continuar
+EventWellOpeningSuccess.text,Haciendo palanca retiras los tablones y dejas al descubierto el pozo. Sin estrellas en el cielo apenas puedes ver un par de metros pozo adentro. Sólo hay negrura en su interior. Sin una <i>fuente de luz</i> adecuada eres incapaz de ver si hay algo en el pozo.
+EventWellOpeningSuccess.button1,Continuar
+TokenWell2.text,Haciendo palanca retiras los tablones y dejas al descubierto el pozo. Sin estrellas en el cielo apenas puedes ver un par de metros pozo adentro. Sólo hay negrura en su interior. Sin una <i>fuente de luz</i> adecuada eres incapaz de ver si hay algo en el pozo.
+TokenWell2.button1,{action} Examinar usando una <i>Fuente de luz</i>
+EventWellLightInvestigation.text,Usas la fuente de luz para alumbrar el interior del pozo. Tiene unos 7 metros de profundidad, justo como recordabas. Del agua sombría que hay en el fondo sobresale un palo de madera del que cuelga una cadena con una vieja llave. La llave te recuerda mucho a la de la cabaña. \n\n Necesitarás una <i>Soga</i> para bajar hasta ella.
+EventWellLightInvestigation.button1,Continuar
+TokenWell3.text,Usas la fuente de luz para alumbrar el interior del pozo. Tiene unos 7 metros de profundidad, justo como recordabas. Del agua sombría que hay en el fondo sobresale un palo de madera del que cuelga una cadena con una vieja llave. La llave te recuerda mucho a la de la cabaña. \n\n Necesitarás una <i>Soga</i> para bajar hasta ella.
+TokenWell3.button1,{action} Examinar bajando con la <i>Soga</i>
+EventWellRopeInvestigation.text,Amarras la cuerda en la parte superior del pozo y lentamente desciendes por las paredes mojadas y resbaladizas. En tu camino hacia el fondo observas unas marcas de arañazos que surcan las paredes del pozo. En lo más profundo del pozo es donde más marcas hay. \n\n El agua del pozo apenas cubre y te llega a la altura de las rodillas. Justo cuando estás a punto de coger la cadena con la llave, el palo se mueve de forma repentina. \n\n En ese momento te das cuenta de que el palo en realidad es el brazo de un putrefacto cadáver. La huesuda mano se cierra en torno a la llave mientras que la otra mano sale disparada del agua y te agarra por la camisa. \n Poco a poco, el apestoso y podrido cadáver intenta sumergirte en el agua, intentando que te ahogues tal y como él se ahogó hace mucho tiempo.
+EventWellRopeInvestigation.button1,Continuar
+TokenExploreShed1.button1,{action} Forzar la cerradura ({observation})
+EventAddExploreShed1Token.text,Tu abuelo siempre decía: «Hay que guardar las herramientas buenas siempre bajo siete llaves».\n\n El candado sigue aquí, tal y como lo puso. Pero tienes serias dudas de que alguien aún pueda tener la llave.
+EventAddExploreShed1Token.button1,Continuar
+EventShed1DoorPuzzleComplete.text,Con un último clic de la cerradura, la puerta se abre. Chirría mientras se arrastra sobre el viejo suelo de madera. \n\n Coloca el módulo {c:TileShed1} en el lugar señalado. \n\n Está tal y como lo recordabas. Dirías que hasta las telarañas son las mismas, aunque seguramente se han ido añadiendo más y más a lo largo de las últimas décadas. Te preguntas si todavía habrá alguna herramienta en buen estado que puedas usar. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada..
+EventShed1DoorPuzzleComplete.button1,Continuar
+TokenShed1Bench.text,El banco de trabajo de tu abuelo. Todo sigue en su lugar y está pulcramente ordenado. Te pica la curiosidad por saber qué guardaría en la caja que hay debajo del banco.
+TokenShed1Bench.button1,{action} Examinar
+EventInvestigateWorkbench.text,Entre un montón de piezas y herramientas inútiles encuentras una soga de buena calidad. \n Ganas el <color=Cyan>Objeto único Soga</color>.
+EventInvestigateWorkbench.button1,Continuar
+TokenShed1Shelf.text,Tu abuelo era una especie de coleccionista. Nunca tiró nada. En ese estante es donde guardaba sus mejores herramientas. Quizá todavía haya alguna en buenas condiciones.
+TokenShed1Shelf.button1,{action} Examinar
+EventShed1InvestigateShelf.text,El tiempo no ha sido muy clemente con la mayoría de las herramientas. Hay un hacha que puede que sea útil. \n\n Ganas el <color=Cyan>Objeto común Hacha</color>.
+EventShed1InvestigateShelf.button1,Continuar
+EventShed1AddWorkbenchToken.text,El banco de trabajo de tu abuelo. Todo está en su sitio y pulcramente ordenado. Te preguntas qué guardaría en la caja que está debajo del banco.
+EventShed1AddWorkbenchToken.button1,Continuar
+EventShed1AddShelfToken.text,Tu abuelo era una especie de coleccionista. Nunca tiró nada. En ese estante es donde guardaba sus mejores herramientas. Quizá todavía haya alguna en buenas condiciones.
+EventShed1AddShelfToken.button1,Continuar
+EventShed1AddGardenDoorToken.text,Una puerta de madera que conduce al jardín.
+EventShed1AddGardenDoorToken.button1,Continuar
+TokenShed1GardenDoor.text,Una puerta de madera que conduce al jardín.
+TokenShed1GardenDoor.button1,{action} Examinar
+EventShed1GardenDoorInvestigated.text,Se abre la puerta. \n\n Tienes la oportunidad de avanzar 1 espacio hacia el jardín.
+EventShed1GardenDoorInvestigated.button1,Continuar
+TokenExploreShed2.button1,Echar un vistazo
+EventPlaceShed2.text,El cobertizo más pequeño donde tu abuelo guardaba herramientas ha visto días mejores. Tienes serias dudas que el techo siga impidiendo que entre el agua. Las paredes están combadas y la puerta está entreabierta. Los arbustos crecen por todas partes.\n\n Coloca el módulo {c:TileShed2}.
+TokenExploreShed2.text,Recuerdas vagamente que tu abuelo tenía una pequeña caseta de herramientas que estaba en esa dirección. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventPlaceShed2.button1,Continuar
+EventPlaceShed2DoorToken.text,El cobertizo tiene una puerta de metal oxidada. El marco está completamente torcido. Tienes serias dudas de que todavía se pueda abrir.
+EventPlaceShed2DoorToken.button1,Continuar
+TokenShed2Door.text,El cobertizo tiene una puerta de metal oxidada. El marco está completamente torcido. Tienes serias dudas de que todavía se pueda abrir.
+TokenShed2Door.button1,{action} Examinar
+EventForceShed2DoorOpen.text,La puerta está muy atascada. Se necesitará un poco de maña para conseguir abrirla ({agility})
+EventForceShed2DoorOpen.button1,Continuar
+EventShed2DoorOpenSuccess.text,Consigues abrir la puerta, que se arrastra arañando el viejo suelo de madera. El interior está todo cubierto de telarañas. \n\n Tienes la oportunidad de avanzar 1 espacio hacia el cobertizo.
+EventShed2DoorOpenSuccess.button1,Continuar
+EventShed2PlaceShovel.text,Tu abuelo guardaba sus herramientas de jardinería en ese rincón. Tal vez haya algo que siga siendo útil.
+EventShed2PlaceShovel.button1,Continuar
+TokenShed2Shovel.text,Tu abuelo guardaba sus herramientas de jardinería en ese rincón. Tal vez haya algo que siga siendo útil.
+TokenShed2Shovel.button1,{action} Examinar las herramientas
+EventShed2TakeShovel.text,Entre una gran cantidad de herramientas rotas hay algo que todavía puede servir. \n Ganas el <color=Cyan>Objeto común Pala</color>.
+EventShed2TakeShovel.button1,Continuar
+EventPlaceLightsourceToken.text,El viejo banco de trabajo de tu abuelo. Es donde solías hacer manualidades. Aún puedes ver las marcas que le hiciste con un martillo cuando eras un crío. \n\n Pero ahora todo está echado a perder. El agua se ha filtrado por el techo y las plantas han crecido en las grietas. La naturaleza reclama lo que es suyo. Entre malas hierbas y telarañas ves algo que brilla.
+EventPlaceLightsourceToken.button1,Continuar
+TokenShed2LightsourceToken.text,El viejo banco de trabajo de tu abuelo. Es donde solías hacer manualidades. Aún puedes ver las marcas que le hiciste con un martillo cuando eras un crío. \n\n Pero ahora todo está echado a perder. El agua se ha filtrado por el techo y las plantas han crecido en las grietas. La naturaleza reclama lo que es suyo. Entre malas hierbas y telarañas ves algo que brilla.
+TokenShed2LightsourceToken.button1,{action} Examinar el banco de trabajo
+EventShed2TakeLightsource.text,Las arañas huyen despavoridas a medida que destruyes sus redes, dejando libre el camino a lo que queda por debajo. La fiable linterna sorda de tu abuelo. Algunas cosas se hacen para durar. Todavía tiene dentro un montón de aceite. La enciendes. Tras un breve parpadeo, la luz de la linterna ilumina el cobertizo. \n\n Ganas el Objeto común <i>Linterna sorda</i>.
+EventShed2TakeLightsource.button1,Continuar
+TokenGardenSightMarkerSouth.text,La parcela sigue.
+TokenGardenSightMarkerSouth.button1,Echar un vistazo
+EventPlaceGardenTile.text,El patio continúa hasta un jardín invadido por las malas hierbas, al lado de la cabaña. \n\n Coloca el módulo {c:TileGarden}.
+EventPlaceGardenTile.button1,Continuar
+TokenGardenEast.button1,Echar un vistazo
+EventGardenPlaceCrowbarToken.text,Hay una caja con unas viejas herramientas de jardinería.
+TokenGardenEast.text,La parcela sigue.
+EventGardenPlaceCrowbarToken.button1,Continuar
+TokenGardenCrowbar.text,Hay una caja con unas viejas herramientas de jardinería.
+EventGardenInvestigateCrowbar.text,La caja fue vaciada hace mucho tiempo. Sin embargo, escondida detrás de la caja encuentras la palanca empleada para abrirla. \n\n Ganas el <color=Cyan>Objeto común Palanca</color>.
+EventGardenInvestigateCrowbar.button1,Continuar
+TokenGardenCrowbar.button1,{action} Examinar la caja
+EventBrassKeyUsed.text,Con dificultad consigues abrir la cerradura. La puerta araña el viejo suelo de madera al abrirse.\n El interior no es tan acogedor como recordabas. La mayoría de los muebles de tu abuelo están en mal estado. Sobre una de las mesas puedes ver un montón de latas y botellas, algunas abiertas y otras cerradas. Ni tu abuelo ni tu tío habrían sido tan descuidados. Es evidente que no fueron los últimos en estar aquí \n\n Coloca el módulo {c:TileCabin}. \n Coloca las fichas de Puerta que llevan al porche y al jardín. \n\n Tienes la oportunidad de moverte 1 espacio hacia el interior de la cabaña.
+EventBrassKeyUsed.button1,Continuar
+TokenPorchDoorGotKey.text,La puerta está cerrada. Se necesita una llave de latón para abrirla.
+TokenPorchDoorGotKey.button1,{action} Usar la <i>Llave de latón</i>
+TokenExplorePorch.text,Si la cabaña sigue aún en pie, tiene que estar en esta dirección.
+EventPlaceporchDoor.text,La puerta está cerrada. Se necesita una llave de latón para abrirla.
+TokenPorchPlant.text,Sobre la carcomida mesa hay una maceta con una planta muerta. La llave debería estar dentro.
+TokenPorchPlant.button1,{action} Examinar la planta
+EventPorchPlantInvestigation.text,Destrozas la planta, mirando por todas partes, pero la llave no está.\n\n Ganas 1 Pista {clue}.
+EventPorchPlantInvestigation.button1,Continuar
+EventPorchPlant.text,Una maceta con una planta muerta descansa sobre la mesa. Se supone que la llave debería estar escondida en ella.
+EventPorchPlant.button1,Continuar
+EventPlacePorch.text,El porche ha visto mejores días. La escayola está cubierta por el musgo. El mobiliario de madera está casi todo podrido. Sobre la mesa hay una maceta con una planta muerta, que es donde se supone que debe de estar escondida la llave.
+EventPlaceporchDoor.button1,Continuar
+EventporchWestSight.text,La parcela continúa hacia el oeste.
+EventporchWestSight.button1,Continuar
+EventPorchPlaceEastSight.text,La parcela continúa hacia el este.
+EventPorchPlaceEastSight.button1,Continuar
+TokenPorchEastSight.text,La parcela sigue.
+TokenPorchEastSight.button1,Echar un vistazo
+TokenCabinBedroomDoor.button1,{action} Examinar
+EventCabinInvestigateBedroom.text,La puerta conduce a una austera habitación. La cama está sin hacer. Las polillas y los ratones han dado buena cuenta de las sábanas y las cortinas. Hay ropa encima de una silla que claramente no es ni de tu tío ni de tu abuelo. \n\n Coloca el módulo {c:TileBedroom}. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenCabinBedroomDoor.text,Una desgastada puerta de madera lleva a una habitación adyacente.
+EventCabinInvestigateBedroom.button1,Continuar
+TokenTowerDoor.text,Una sólida puerta de madera. Parece que está completamente atascada.
+TokenTowerDoor.button1,{action} Examinar
+EventPlaceTowerTile.text,La puerta lleva a unas escaleras que suben hasta la torre. \n\n Coloca el módulo {c:TileBelltower} en el lugar señalado. \n\n Tienes la oportunidad de moverte 1 espacio hacia las escaleras.
+EventPlaceTowerTile.button1,Continuar
+TokenCabinBasementDoor.text,Una puerta de hierro oxidado. Está cerrada con una intrincada cerradura plateada. Será mejor encontrar la llave. Aunque quizá también podrías intentar forzar la cerradura.
+TokenCabinBasementDoor.button1,{action} Abrir con la <i>Llave de Plata</i>
+EventPlaceBasementTile.text,La puerta conduce a un sótano sin ventanas donde las arañas han estado durante años tejiendo un laberinto de telarañas. \n\n Coloca el módulo {c:TileBasement} en el lugar señalado.\n Coloca fichas de Pared en los lugares señalados. \n\n Tienes la oportunidad de avanzar 1 espacio hacia el sótano.
+EventPlaceBasementTile.button1,Continuar
+EventPlaceBedroomDoor.text,Una puerta de madera en mal estado.
+EventPlaceBedroomDoor.button1,Continuar
+EventPlaceTowerDoor.text,Una sólida puerta de madera.
+EventPlaceTowerDoor.button1,Continuar
+EventPlaceBasementDoor.text,Una oxidada puerta de metal.
+EventPlaceBasementDoor.button1,Continuar
+EventOldTapes.text,El cajón de la mesita de noche sobresale un poco, como si lo hubiesen usando hace poco y no lo hubiesen cerrado correctamente.
+EventOldTapes.button1,Continuar
+TokenNightstandTapes.text,El cajón de la mesita de noche sobresale un poco, como si lo hubiesen usando hace poco y no lo hubiesen cerrado correctamente.
+TokenNightstandTapes.button1,{action} Examinar la mesita de noche
+EventNightstandInvestigation.text,Dentro de la mesita de noche encuentras la Biblia del rey Jaime de tu abuelo. Es una versión antigua, que heredó de su padre. Crees que sería mejor aprovechar la ocasión para llevarte esta herencia familiar a un lugar más seguro. Sobre la Biblia alguien ha dejado una pequeña caja de seguridad, que no recuerdas haberla visto antes. Es una antigua caja rompecabezas hecha en madera con una elegante imagen que forma un rompecabezas que a su vez es el mecanismo de apertura. \n Ganas el <color=Cyan>Objeto común Biblia del rey Jaime </color>.También ganas el <color=Cyan>Objeto único Caja enigmática </color>(se puede interactuar con ella a través del inventario).
+EventNightstandInvestigation.button1,Continuar
+EventInspectLockBox.text,La caja tiene aproximadamente el tamaño de una caja de zapatos. Está hecha de una vieja pero robusta madera. La parte superior de la caja está finamente tallada, formando una especie de dibujo, pero es difícil discernir lo que es.
+EventInspectLockBox.button1,{action} Forzar la cerradura ({observation})
+EventLockBoxPuzzleCompleted.text,Tras una observación detallada el dibujo revela sus secretos. Un sudor frío recorre tu espalda cuando te das cuenta de que en el dibujo hay pintadas una pila de viejas cintas de audio. Las cintas están fechadas y numeradas. Los números van del 1 al 65 y las fechas son de hace 10 años. \n\n Todos los investigadores ganan 1 Pista {clue}. \n\n Las cintas parecen ser una prueba. Ganas el <color=Cyan> Objeto único Prueba circunstancial</color>.
+EventLockBoxPuzzleCompleted.button1,Continuar
+EventPlaceDiarryToken.text,Un libro encuadernado en cuero negro donde parece que se ha acumulado un poco menos de polvo, en comparación con lo que le rodea.
+EventPlaceDiarryToken.button1,Continuar
+TokenBedroomDiarry.text,Un libro encuadernado en cuero negro donde parece que se ha acumulado un poco menos de polvo, en comparación con lo que le rodea.
+TokenBedroomDiarry.button1,{action} Examinar el libro
+EventBedroomInvestigatePapers.text,Abres el libro. En la primera página pone: «Cuaderno de investigación - Charles Vanderbilt». \n Las páginas iniciales están escritas con un estilo pasado de moda y que, a medida que vas pasando páginas, se vuelve cada vez más y más descuidado hasta que se termina siendo casi ilegible. Hacia el final ni siquiera parece el texto escrito, sino una serie de pequeños bocetos.\n En la primera entrada puedes leer: \n «<i>Esta cabaña aislada es perfecta para mis estudios. Nadie me molestará aquí. Por fin voy a ser capaz de descifrar los secretos del "Libro impío", como yo lo llamo. Estoy convencido de que el libro es de uno de los múltiples universos distintos al nuestro. No sé como llegó hasta aquí, pero voy a averiguarlo. \n Los caracteres del "Libro impío" me recuerdan a los de la antigua Sumeria</i>».\n Las siguientes páginas narran los sucesivos intentos de traducción. \n\n Ganas 1 Pista {clue} y el <color=Cyan>Objeto único Prueba concluyente</color>. \n\n Para obtener más información acerca de la investigación del profesor Vanderbilt, usa la aplicación y pulsa en el botón de inventario el dibujo de la <i>Prueba concluyente</i>, que representa el cuaderno de investigación (diario) del profesor Vanderbilt.
+EventBedroomInvestigatePapers.button1,Continuar
+EventBasementPlaceCircle.text,Han dibujado un círculo ritual alrededor de un charco de agua.
+EventBasementPlaceCircle.button1,Continuar
+TokenBasementCircle.text,Han dibujado un círculo ritual alrededor de un charco de agua.
+TokenBasementCircle.button1,{action} Examinar el círculo
+EventBasementInvestigateCircle.text,El círculo ha sido rayado sobre el suelo de arcilla. En el centro se excavó un agujero que se llenó con una especie de agua negra, que bien podría haber sido incluso sangre. Es difícil saber cuándo se llevó a cabo el ritual, lo que sí que está claro es que se completó hace mucho tiempo. \n\n Ganas 1 pista {clue} y sufres 1 de Horror.
+EventBasementInvestigateCircle.button1,Continuar
+EventBasementPlaceRecorderToken.text,Hay un viejo equipo estéreo cerca del círculo.
+EventBasementPlaceRecorderToken.button1,Continuar
+TokenBasementHifiEquipment.text,Hay un viejo equipo estéreo cerca del círculo.
+TokenBasementHifiEquipment.button1,Investigar el equipo de sonido
+EventInvestigateHiFiEquipment1.text,Este viejo estéreo no ha sido nunca ni compacto ni moderno. Te preguntas si las pilas seguirán funcionando después de tanto tiempo. Lo pones en marcha y sorprendentemente se enciende. \n Aparte de los enormes altavoces, el equipo tiene una pletina para cintas y radio. Dentro de la pletina hay una cinta etiquetada como «66». \n\n Con el equipo estéreo puedes hacer varias cosas:
+EventInvestigateHiFiEquipment1.button1,{action} Reproducir la cinta hacia adelante
+EventInvestigateHiFiEquipment1.button2,{action} Reproducir la cinta hacia atrás
+TokenBasementHifiEquipmentForward.button1,{action} Parar la cinta
+TokenBasementHifiEquipmentForward.button2,{action} Reproducir la cinta hacia atrás
+TokenBasementHifiEquipmentForward.text,Has puesto en marcha el equipo estéreo. La cinta reproduce las palabras de un hombre de voz sombría llamando a algún tipo de entidad de nombre «Cthulhu» y rezando para su advenimiento: \n —<i>Oh, Cthulhu, el grande \n tú que estás al otro lado, \n ilumíname con tu poder, \n muéstrame tu camino, \n haz tu voluntad con mi alma, \n mutila mi cuerpo como desees, \n haz de este mundo tu dominio. \n ¡Acude, Cthulhu, acude a mi llamada!</i>
+EventBasementPlayTapeForward.text,Presionas el botón de reproducción. La cinta comienza a reproducir las palabras de un hombre de voz sombría llamando a algún tipo de entidad de nombre «Cthulhu» y rezando para su advenimiento: \n —<i>Oh, Cthulhu, el grande \n tú que estás al otro lado, \n ilumíname con tu poder, \n muéstrame tu camino, \n haz tu voluntad con mi alma, \n mutila mi cuerpo como desees, \n haz de este mundo tu dominio. \n ¡Acude, Cthulhu, acude a mi llamada!</i> \n\n En ese momento, cruza tu mente la idea de que el ritual se pudo completar con éxito. Te estremeces al pensar que quizá Cthulhu ya esté aquí. \n\n Todos los investigadores ganan 1 Pista {clue} y sufren 1 de Horror.
+EventBasementPlayTapeForward.button1,Continuar
+EventBasementPlayTapeBackwards.text,Pulsas los botones de «reproducción» y «rebobinado» al mismo tiempo. El estéreo emite un chirrido, como si le molestase desempeñar esta función. Las palabras que oyes en ese momento parecen provenir del mismísimo infierno, pronunciadas por el diablo en persona. La sangre de tus venas se hiela y un sudor frío recorre toda tu espalda. Aunque no comprendes las palabras, tienes la sensación de que algo maligno y tenebroso está siendo invocado.\n En ese momento se oye un eco. Como si fuese una respuesta. \n\n Todos los investigadores sufren 3 de Horror (anulados por {will} -1).\n Todos los investigadores ponen boca arriba 3 de Horror. \n\n Ahora que ya sabes lo que contiene la cinta, tienes una <color=Cyan>Prueba incriminatoria</color> de lo que el profesor hizo aquí.
+EventBasementPlayTapeBackwards.button1,Continuar
+TokenBasementHiFiEquipmentBackwards.text,Las palabras que escuchas suenan como si procediesen directamente del infierno y entonadas por el mismísimo demonio en persona. La sangre de tu venas se congela mientras un escalofrío recorre toda tu espalda. Aunque no entiendes ni una sola palabra, tienes la sensación de que algo incomprensiblemente oscuro y malvado está siendo llamado. \n En ese momento oyes un eco, como si fuese una respuesta.
+TokenBasementHiFiEquipmentBackwards.button1,{action} Reproducir la cinta hacia adelante
+TokenBasementHiFiEquipmentBackwards.button2,{action} Parar la cinta
+EventBasementStopTapeFromBackwards.text,Abrumado por el pánico pulsas el botón de parada. A pesar de que el aparato estéreo se apaga al instante, el eco permanece. \n\n Tu nivel de pánico aumenta. \n Todos los investigadores sufren 1 de Horror.
+EventBasementStopTapeFromBackwards.button1,Continuar
+EventBasementStopTapeFromForward.text,Después de haber escuchado lo suficiente paras la cinta.
+EventBasementStopTapeFromForward.button1,Continuar
+SpawnBasement1stHuntingHorrorMedium.button1,Continuar
+SpawnWell1stDeepOneMedium.button1,Continuar
+SpawnBasement2ndHuntingHorrorMedium.button1,Continuar
+SpawnLakeStarSpawn.button1,Continuar
+SpawnWell2ndDeepOneMedium.button1,Continuar
+EventWinConditionNotification.text,Viendo la interminable marea de monstruos que salen arrastrándose del interior de las oscuras aguas, te das cuenta de que sólo hay algo que podréis salvar hoy: vuestras vidas. \n\n Sin embargo, te sientes responsable de lo que ha pasado. Te niegas a abandonar este sitio sin llevarte contigo el libro que ha causado todo esto. \n\n Para ganar el escenario deberás encontrar el «Libro impío» y ponerlo a salvo.
+SpawnLakeStarSpawn.text,Justo cuando creías que las cosas no podían empeorar, un gigantesco monstruo emerge del lago. Sólo tiene un propósito. ¡Destruiros!
+EventWinConditionNotification.button1,Continuar
+TokenSafety.text,Habrás ganado cuando todos los jugadores y el «Libro impío» estén en este espacio.
+TokenSafety.button1,Victoria: Todos están aquí
+EventEndLoose.text,Has sido eliminado. ¡Has perdido!
+EventEndLoose.button1,Continuar
+EventInvestigateHiFiEquipment1.button3,{action} Destruir la cinta
+SpawnBasement2ndHuntingHorrorMedium.text,Al principio tenías miedo de que el mismísimo Cthulhu todopoderoso apareciese. Casi se puede decir que te sientes aliviado al ver que sólo es otra serpiente alada la que sale reptando del estanque.
+SpawnWell1stDeepOneMedium.text,Como si no fuese suficiente con que el cuerpo del Prof. Vanderbilt se haya arrastrado fuera del pozo, aparece ahora otra monstruosidad, un horror de las profundidades.
+SpawnWell2ndDeepOneMedium.text,Y otro más.
+SpawnLakeHybrid1Medium.text,Surgiendo de las oscuras aguas del lago, un cadáver putrefacto se acerca a la cabaña caminando lentamente.
+quest.description,Sinopsis: Después de investigar muchos casos misteriosos te mereces unas vacaciones. Uno de sus tíos ha heredado la vieja cabaña del bosque que era de tus abuelos. Hace mucho que no vas, y tu tío te avisó de que la cabaña no estaría en las mejores condiciones...\n\n--------------------------------------\n\n Comentario recibido favorito del autor: «Increíble escenario. Seguro que lo volveré a jugar. He disfrutado también mucho con los efectos de sonido».\n\n -------------------------------------- \n\n Unas palabras del autor: Esta es la primera parte de la trilogía "El horror acecha". Tienes la oportunidad de elegir entre tres niveles de dificultad, que influyen en la dureza de los monstruos, dificultad de las pruebas y en la complejidad de los rompecabezas. En el modo fácil que no deberías tener problemas para ganar. La opción de dificultad media debería suponer un desafío. El modo difícil sólo ha sido superado una vez. ¿Crees que serás el siguiente? \n Fallos en el escenario conocidos (cualquier ayuda para resolverlos es bienvenida):\n -Las fichas de Vistazo no desaparecen de forma correcta.\n \n --------------------------------------\n Últimos cambios:\n 2.9 Añadido epílogo. \n 2.10 Bajados los puntos de Daño del Fantasma, corrección de algunos errores.\n2.11 Pequeños cambios realizados. \n 2.12 Comprobación ortográfica (en inglés). \n 2.13 Ligero ajuste en las condiciones de victoria.
+quest.synopsys,Escalofriantes secretos aguardan en la oscuridad de la cabaña. Escenario con 3 niveles de dificultad
+EventPlaceRandomItem.text,Una vieja caja de madera llena de trastos. Quizá puedas encontrar algo valioso.
+EventPlaceRandomItem.button1,Continuar
+TokenRandomItem1.text,Una vieja caja de madera llena de trastos. Quizá puedas encontrar algo valioso.
+TokenRandomItem1.button1,{action} Examinar
+EventInvestigateRandom1.text,Encuentras algo que te puede servir.
+EventInvestigateRandom1.button1,Continuar
+EventPlaceRandom2.text,Hay algo de equipo en la parte superior de la torre.
+EventPlaceRandom2.button1,Continuar
+TokenRandomItem2.button1,{action} Examinar
+EventInvestigateRandom2.button1,Continuar
+EventInvestigateRandom2.text,Encuentras algo interesante.
+quest.name,El Horror que acecha la cabaña del bosque (v2.13)
+EventBasementPlaceBook.text,Algo ha sido cuidadosamente envuelto en una tela de lino y colocado en una especie de mesa.
+EventBasementPlaceBook.button1,Continuar
+TokenBasementBook.text,Algo ha sido cuidadosamente envuelto en una tela de lino y colocado en una especie de mesa.
+TokenBasementBook.button1,{action} Examinar
+EventBasementBookInvestigate.text,El paño está cubierto por siglos de polvo. Lo desenrollas con mucho cuidado y el «Libro impío» queda al descubierto. Es enorme y sus tapas son de cuero. Aunque el cuero no se parece en nada a ninguno que hayas visto antes. Es suave, como la piel humana. Tiene el título impreso en un idioma que no comprendes. Un candado de metal mantiene unidas sus dos tapas. \n\n Simplemente por estar en presencia del «Libro impío», te embarga una sensación de maldad y blasfemia. Sufres 1 de Horror. \n\n Ganas el <color=Cyan>Objeto único Viejo diario</color>.
+EventBasementBookInvestigate.button1,Continuar
+EventUnholyBookInspect.text,Navegas entre las páginas del «Libro impío» buscando pistas o alguna información relevante. Para poder investigar hay que entender primero lo que hay escrito dentro él ({lore}).
+EventUnholyBookInspect.button1,{action} Leer el «Libro impío»
+EventUnholyBookInspect.button2,Cancel​ar
+EventUnholyBookReadTest.text,Escoges un capítulo y tratas de intuir qué puede ser lo que está escrito en él. El lenguaje en el que está escrito es muy difícil de entender ({lore}) y sin la ayuda para la traducción del diario del profesor Vanderbilt no tendrás ninguna posibilidad.
+EventUnholyBookReadTest.button1,Continuar
+EventUnholyBookReadFail.text,Después de leer sus páginas durante un tiempo llegas a la conclusión de que es sólo un galimatías.
+EventUnholyBookReadFail.button1,Continuar
+EventUnholyBookReadSuccess.text,Las páginas te revelan un nuevo hechizo. \n\n Si ya tienes el hechizo que te ha asignado la aplicación, escoge al azar un nuevo hechizo entre los que todavía no tengas. \n\n El nuevo poder trae consigo un precio a pagar; sufres 3 de Horror (anulados por {will}). A continuación, pon boca arriba 1 de Horror.
+EventUnholyBookReadSuccess.button1,Continuar
+TokenPorchDoorNoKey.text,La puerta está cerrada. Se necesita una llave para abrirla.
+TokenPorchDoorNoKey.button1,Continuar
+TokenRandomItem2.text,Hay algo de equipo en la parte superior de la torre.
+EventEndVictory.text,Corriendo por salvar vuestro pellejo llegáis por fin al coche. Das un rápido salto a su interior y lanzas el «Libro impío» al asiento de atrás. Pisas con fuerza el acelerador. Por el espejo retrovisor ves al enorme demonio que os persigue. \n\n Suspiras aliviado cuando compruebas que se va haciendo cada vez más pequeño en el reflejo del espejo, pero en tu interior estás seguro de una cosa: esto aún no ha terminado. \n\n <i>Continuará</i>.
+EventEndVictory.button1,Continuar
+TokenSafety.button2,Derrota: No lo hemos conseguido.
+TokenCabinEvidence.text,Hay una caja de cartón sobre la mesa. Parece que no lleva tanto tiempo aquí como otras cosas de esta habitación.
+TokenCabinEvidence.button1,{action} Examinar
+EventCabinInvestigateEvidenceResult.text,La caja contiene unas velas negras, unas botellas vacías y otros objetos de ocultismo. \n\n Ganas el <color=Cyan>Objeto único Componentes de ritual</color>.
+EventCabinInvestigateEvidenceResult.button1,Continuar
+EventCabinPlaceEvidence.text,Hay una caja de cartón sobre la mesa. Parece que es de lo poco que queda en esta habitación, que no se ha usado nunca.
+EventCabinPlaceEvidence.button1,Continuar
+EventStartTile.button3,DIFÍCIL - ¡A por ellos, oeeee! ({success}{success}{success}{success}{success})
+EventStart.text,Cada investigador recibe 2 Pistas {clue}.​
+EventSetDifficultyEasy.text,Seleccionado nivel de dificultad fácil
+EventSetDifficultyEasy.button1,Continuar
+EventSetDifficultyMedium.text,Seleccionado nivel de dificultad medio - ¡Que os lo paséis bien!
+EventSetDifficultyMedium.button1,Continuar
+EventSetDifficultyHard.text,Seleccionado nivel de dificultad difícil. ¡Tú lo has querido!
+EventSetDifficultyHard.button1,Continuar
+EventInvestigators.text,Coloca a los investigadores en el lugar señalado.
+EventPlaceProchDoor.button1,Continuar
+EventPlaceProchDoor.text,La puerta está cerrada. Se necesita una llave.
+EventProchWestSight.text,La parcela continúa hacia el oeste.
+EventProchWestSight.button1,Continuar
+EventInvestigateHiFiEquipment1.button4,Cancel​ar
+EventEndDestoryTapes.text,Sacas la cinta y la destruyes. Estás convencido de que has protegido al mundo de algo tremendamente peligroso, además de haber destruido las pruebas que vinculaban de forma más directa al profesor Vanderbilt con la invocación de alguna clase de horror. \n\n <i>Acabas de llegar a un final alternativo. \n\n En la parte inferior tienes la opción de aceptar este final alternativo o de intentar obtener el final principal. Basándome en los comentarios recibidos, los jugadores que han ido a por el final principal han disfrutado más del escenario</i>.
+EventEndDestoryTapes.button1,Terminar la partida
+SpawnLakeHybrid1Medium.button1,Continuar
+SpawnLakeHybrid2Medium.text,Otro más acude a la llamada del primero. Haciendo sitio para algo más grande que está por llegar.
+SpawnLakeHybrid2Medium.button1,Continuar
+SpawnBasement1stHuntingHorrorEasy.button1,Continuar
+EventBedroomAddSilverKeyToken.text,El viejo mueble aparador de tu abuelo está a rebosar de prendas de vestir, que claramente no son de tu abuelo.
+EventBedroomAddSilverKeyToken.button1,Continuar
+TokenBedroomSilverKey.text,El viejo mueble aparador de tu abuelo está a rebosar de prendas de vestir, que claramente no son de tu abuelo.
+TokenBedroomSilverKey.button1,{action} Examinar
+EventBedroomSilverKeyInvestigate.text,Le echas un vistazo al aparador. Entre calcetines viejos, ropa interior y otras prendas de ropa encuentras una llave plateada. \n Ganas el <color=Cyan>Objeto único Llave de plata</color>.
+EventBedroomSilverKeyInvestigate.button1,Continuar
+TokenExploreShed1.text,Tu abuelo siempre decía: «Hay que guardar las herramientas buenas siempre bajo siete llaves».\n\n El candado sigue aquí, tal y como lo puso. Pero tienes serias dudas de que alguien pueda tener la llave.
+PuzzleShed1Medium.button1,Hecho
+PuzzlePuzzelShed1DoorEasy.button1,Hecho
+PuzzleShed1DoorHard.button1,Hecho
+EventEndDestoryTapes.button2,Es igual - Vamos a probar otra cosa.
+EventEnd.text,Gracias por jugar. Espero que hayas disfrutado del escenario. \n\n Me sería de gran ayuda para el desarrollo del mismo que me dejases un comentario al final sobre: \n - Qué te ha gustado del escenario y \n si has visto algo que merecería la pena mejorar. \n - Qué nivel de dificultad has elegido. \n - Qué final del escenario has visto y \n si has ganado o perdido.
+EventEnd.button1,Continuar
+PuzzleLockBoxEasy.button1,Hecho
+PuzzleLockBoxMedium.button1,Hecho
+PuzzleLockBoxHard.button1,Hecho
+EventCabinPlaceBarricade.text,Puedes usar esta estantería para hacer una barricada.
+EventCabinPlaceBarricade.button1,Continuar
+TokenCabinBarricade.button1,Continuar
+TokenCabinBarricade.text,Puedes usar esta estantería para hacer una barricada.
+EventPlaceLake.button1,Continuar
+EventPlaceLake.text,Por fin llegas a Silver Lake. Observas descorazonado que ya no queda nada plateado en este lugar. El agua se ha vuelto negra como la noche. La superficie oscura refleja el cielo nublado. \n\n El lugar no se parece en nada a lo que recordabas. Algo le ha pasado a este sitio. \n\n Coloca el módulo {c:TileLake} en el lugar señalado.
+quest.authors,<i>Creado por:</i>  Dr.ake​ \n <i>Traducción al español:</i> Vidimus \n <i>Revisión:</i> Anae y Richar
+SpawnVanderbiltZombieEasy.text,Ahora que la bestia ha despertado, tú y tus amigos tendréis que salvar vuestros pellejos entre las estrecheces del pozo.
+SpawnVanderbiltZombieEasy.button1,Continuar
+SpawnVanderbiltZombieMedium.text,Ahora que la bestia ha despertado, tú y tus amigos tendréis que salvar vuestros pellejos entre las estrecheces del pozo.
+SpawnVanderbiltZombieMedium.button1,Continuar
+SpawnVanderbiltZombieHard.text,Ahora que la bestia ha despertado, tú y tus amigos tendréis que salvar vuestros pellejos entre las estrecheces del pozo.
+SpawnVanderbiltZombieHard.button1,Continuar
+EventWellZombieDefeated.text,Finalmente acabas con tu enemigo, mandándolo de vuelta a su húmeda y fría sepultura. La adrenalina aún circula por todo tu cuerpo cuando le arrancas la llave al podrido cadáver. \n\n Ganas el <color=Cyan>Objeto único Llave de latón</color>. \n\n Examinas más de cerca el cuerpo y llegas a la conclusión de que el hombre al que acabas de matar por segunda vez se parece muchísimo al profesor Charles Vanderbilt. \n\n Ganas 1 Pista {clue}.\n\n Al darte cuenta de que este hombre acaba de regresar de entre los muertos, tomas la decisión de asegurarte de que no volverá a pasar otra vez.
+EventWellZombieDefeated.button1,Quemar el cuerpo (descartar una <i>Fuente de Luz</i>)
+EventWellZombieDefeated.button2,Cortarlo en pedazos (se necesita el <i>Hacha</i>)
+EventCabinSmashDoor.text,Realiza una prueba de {strength} y lanza dos dados adicionales si tienes el <i>Hacha</i>.
+EventCabinSmashDoor.button1,Continuar
+EventWellBurnBodyOk.button1,Continuar
+EventWellChopBodyOk.text,Impulsado por una mezcla de locura, miedo y adrenalina, troceas el cuerpo en pequeños pedazos para asegurarte por completo de que nunca, pero que nunca, regresará.\n\n Todos los investigadores sufren 2 de Horror (anulados por {will}).
+EventWellChopBodyOk.button1,Continuar
+EventWellChopBodyFail.text,No tienes un hacha. Será mejor quemar el cadáver.
+SpawnBasement1stHuntingHorrorMedium.text,Una horrible criatura sale serpenteando del interior del lago, acudiendo a la llamada. Con un aspecto parecido al de una serpiente, se endereza como una cobra... y en ese momento despliega sus alas.
+SpawnBasement1stHuntingHorrorHard.text,Una horrible criatura sale serpenteando del interior del lago, acudiendo a la llamada. Con un aspecto parecido al de una serpiente, se endereza como una cobra... y en ese momento despliega sus alas.
+SpawnBasement1stHuntingHorrorEasy.text,Una horrible criatura sale serpenteando del interior del lago, acudiendo a la llamada. Con un aspecto parecido al de una serpiente, se endereza como una cobra... y en ese momento despliega sus alas.
+SpawnBasement1stHuntingHorrorHard.button1,Continuar
+SpawnBasement2ndHuntingHorrorEasy.button1,Continuar
+SpawnWell1stDeepOneEasy.text,Como si no fuese suficiente con que el cuerpo del Prof. Vanderbilt se haya arrastrado fuera del pozo, aparece ahora otra monstruosidad, un horror de las profundidades.
+SpawnBasement2ndHuntingHorrorEasy.text,Al principio tenías miedo de que el mismísimo Cthulhu todopoderoso apareciese. Casi se puede decir que te sientes aliviado al ver que sólo es otra serpiente alada la que sale reptando del estanque.
+SpawnWell1stDeepOneEasy.button1,Continuar
+SpawnWell2ndDeepOneEasy.text,Y otro más.
+SpawnWell2ndDeepOneEasy.button1,Continuar
+SpawnLakeHybrid1Easy.text,Surgiendo de las oscuras aguas del lago, un cadáver putrefacto se acerca a la cabaña caminando lentamente.
+SpawnLakeHybrid1Easy.button1,Continuar
+SpawnLakeHybrid2Easy.text,Otro más acude a la llamada del primero. Haciendo sitio para algo más grande que está por llegar.
+SpawnLakeHybrid2Easy.button1,Continuar
+SpawnBasement2ndHuntingHorrorHard.text,Al principio tenías miedo de que el mismísimo Cthulhu todopoderoso apareciese. Casi se puede decir que te sientes aliviado al ver que sólo es otra serpiente alada la que sale reptando del estanque.
+SpawnBasement2ndHuntingHorrorHard.button1,Continuar
+SpawnWell1stDeepOneHard.text,Como si no fuese suficiente con que el cuerpo del Prof. Vanderbilt se haya arrastrado fuera del pozo, aparece ahora otra monstruosidad, un horror de las profundidades.
+SpawnWell1stDeepOneHard.button1,Continuar
+SpawnWell2ndDeepOneHard.text,Y otro más.
+SpawnWell2ndDeepOneHard.button1,Continuar
+SpawnLakeHybrid1Hard.button1,Continuar
+SpawnLakeHybrid2Hard.text,Otro más acude a la llamada del primero. Haciendo sitio para algo más grande que está por llegar.
+SpawnLakeHybrid1Hard.text,Surgiendo de las oscuras aguas del lago, un cadáver putrefacto se acerca a la cabaña caminando lentamente.
+SpawnLakeHybrid2Hard.button1,Continuar
+EventDestroyTapes.text,Sacas la cinta 66 del equipo estéreo. La cinta parece tan vieja como la propia cabaña, y la etiqueta apenas es legible. Desenrollas la cinta y le pegas fuego. Comienza a arder con una pequeña llama que desprende gran cantidad de humo negro. Finalmente se pone tan caliente que tienes que tirarla sobre el suelo de arcilla. \n\n Sigue desprendiendo el humo negro, pero comienza a tomar la forma de algo. Una forma humanoide. La forma de un fantasma con un inquietante parecido al profesor Vanderbilt.
+EventDestroyTapes.button1,Continuar
+EventDestoryTapes2.text,A medida que el fantasmas se materializa la llama explota. \n Coloca fichas de Fuego en todos los espacios del sótano y además en todos los espacio de la cabaña.
+EventDestoryTapes2.button1,Continuar
+SpawnVanderbiltGhostEasy.text,—Gracias —la voz del fantasma reverbera por todas partes, —por liberar mi alma del otro mundo. Le recompensaré como se merece: ¡Con una muerte rápida!
+SpawnVanderbiltGhostEasy.button1,Continuar
+EventDestroyTapeVictoryConditionUpdate.text,Preparas tus armas. Es hora de que el profesor Vanderbilt muera... otra vez. Y esperas que sea la última vez. \n\n <i>Para ganar el escenario hay que eliminar al fantasma de Vanderbilt y conseguir el «Libro impío»</i>.
+EventDestroyTapeVictoryConditionUpdate.button1,Continuar
+SpawnVanderbiltGhostMedium.text,—Gracias —la voz del fantasma reverbera por todas partes, —por liberar mi alma del otro mundo. Le recompensaré como se merece: ¡Con una muerte rápida!
+SpawnVanderbiltGhostMedium.button1,Continuar
+SpawnVanderbiltGhostHard.text,—Gracias —la voz del fantasma reverbera por todas partes, —por liberar mi alma del otro mundo. Le recompensaré como se merece: ¡Con una muerte rápida!
+SpawnVanderbiltGhostHard.button1,Continuar
+EventVanderbiltMoves1.text,Mueve al profesor Vanderbilt al pozo tal y como se señala. \n\n El profesor mira dentro del pozo. \n\n —<i>¿Qué han hecho con mi cuerpo? ¿Dónde está? ¿Dónde lo han escondido?</i>—grita lleno de ira.
+EventVanderbiltMoves1.button1,Continuar
+SpawnVanderbiltSummons1.text,—<i>¿Por qué no juega un rato con mi amigo?</i> \n\n El profesor agita sus manos y abre un portal a otro mundo. Una serpiente con alas cruza el portal reptando. \n\n Coloca un horrendo cazador en el mismo espacio que fantasma del profesor Vanderbilt.
+SpawnVanderbiltSummons1.button1,Continuar
+SpawnVanderbiltSummons2.text,—<i>¡Va a pagar muy caro por lo que le ha hecho a mi cuerpo! </i>\n\n El profesor agita sus manos y abre un portal a otro mundo. Una criatura de las profundidades responde a su llamada. \n\n Coloca un profundo en el mismo espacio que el fantasma del profesor Vanderbilt.
+SpawnVanderbiltSummons2.button1,Continuar
+EventVanderbiltMoves2.text,—<i>¿No lo habrá hundido en el lago? \n —Si no puedo encontrar mi cuerpo, ¡tendré que usar el suyo!</i>\n\n Mueve al fantasma de Vanderbilt al lugar señalado.
+EventVanderbiltMoves2.button1,Continuar
+EventVanderbiltMoves3.text,—<i>¿Lo ha enterrado detrás del granero? ¿Sería usted tan estúpido como para hacer eso?</i> \n\n Mueve al fantasma del profesor Vanderbilt al lugar señalado.
+EventVanderbiltMoves3.button1,Continuar
+EventVanderbiltMoves4.button1,Continuar
+EventVanderbiltMoves5.text,—<i>¿Qué ha hecho con mi cuerpo? ¡Devuélvame mi cuerpo!</i> \n\n Mueve al fantasma del profesor Vanderbilt al lugar señalado.
+EventVanderbiltMoves4.text,—<i>Un romántico como usted seguramente lo ha enterrado aquí, entre las rosas silvestres</i>.\n\n Mueve al fantasma del profesor Vanderbilt al lugar señalado.
+EventVanderbiltMoves5.button1,Continuar
+SpawnVanderbiltSummons3.text,—<i>¡Aquí están los demonios que se merece alguien como usted!</i> \n\n El profesor golpea el suelo con su mano y saca de ella un híbrido de profundo. Coloca un híbrido de profundo en el mismo espacio que el profesor Vanderbilt.
+SpawnVanderbiltSummons3.button1,Continuar
+SpawnVanderbiltSummons4.text,—<i>¿Cansado de respirar? ¡Déjeme que alivie su sufrimiento!</i> \n\n El profesor agita sus manos y abre un portal a otro mundo. Una serpiente con alas se desliza a través de él.\n\n Coloca un horrendo cazador en el mismo espacio que el fantasma del profesor Vanderbilt.
+SpawnVanderbiltSummons4.button1,Continuar
+SpawnVanderbiltSummons5.text,—<i>¿No le parece que su cabeza pesa demasiado para sus pobres hombros? ¡Deje que esta criatura de las profundidades alivie su carga! </i>\n\n El Profesor hace unos extraños gestos con sus manos y abre un portal a otro mundo. Una criatura parecida a un batracio gigante cruza a este lado, husmea el aire y clava su mirada en ti. \n\n Coloca un profundo en el mismo espacio que el fantasma del profesor Vanderbilt.
+SpawnVanderbiltSummons5.button1,Continuar
+SpawnVanderbiltSummons6.text,—<i>¿Quiere conocer a sus antepasados? Le puedo enseñar como hacerlo. </i> \n\n El profesor crea una horrible figura con barro y la hace crecer hasta que alcanza el tamaño de una persona.\n\n Coloca un híbrido de profundo en el mismo espacio que fantasma del profesor Vanderbilt .
+SpawnVanderbiltSummons6.button1,Continuar
+SpawnVanderbiltSummons7.text,—<i>Es usted como un chicle pegado a la suela de mi zapato. Es complicado deshacerse de usted. ¡Enfréntese a su destino final! </i> \n\n El profesor alza sus manos hacia las estrellas y hace un gesto como si tirase de ellas hacia el suelo. Una de las estrellas cae del cielo y una enorme nube de humo envuelve el lugar. Cuando el humo se disipa, aparece ante ti una enorme criatura alada con tentáculos. \n\n Coloca una semilla estelar en el mismo espacio que el fantasma del profesor Vanderbilt.
+SpawnVanderbiltSummons7.button1,Continuar
+EventVandebiltDefeated.text,—<i>¡Nooooo! ¡Insensato! ¿Quién los controlará ahora? ¡Nepheracet! ¡Véngate de mí!</i>
+EventVandebiltDefeated.button1,Continuar
+SpawnVanderbiltDeathStarSpawn.text,Como dijo el profesor, no hay nadie para controlarlos ahora y ha pedido ayuda a Nepheracet para que le vengue. Y parece que ha respondido a la llamada. Una horrible criatura sale del lago. La negra agua gotea por su cuerpo escamoso. \n\n Coloca una semilla estelar en el lugar señalado.
+SpawnVanderbiltDeathStarSpawn.button1,Continuar
+TokenCabinBasementDoor.button2,{action} Forzar la cerradura ({agility})​
+PuzzleCabinBasementDoor.button1,Hecho
+EventUnholyBookOpen.text,Un antiguo candado de metal mantiene cerrado el libro, protegiendo su contenido de miradas indiscretas.
+EventUnholyBookOpen.button1,{action} Examinar
+PuzzleUnholyBookEasy.button1,Hecho
+PuzzleUnholyBookMedium.button1,Hecho
+PuzzleUnholyBookHard.button1,Hecho
+EventWellBurnBodyOk.text,Usando el aceite de la linterna sorda le prendes fuego al cadáver. Complacido ves como poco a poco queda reducido a humo y cenizas. \n\n Descarta el <color=Cyan>Objeto común Linterna sorda</color>.
+EventWellBurryBody.text,Tomas la decisión de enterrarlo como es debido.
+EventWellBurryBody.button1,Continuar
+EventWellChopBodyFail.button1,Quemar el cuerpo
+EventUnholyBookReReceive.text,Después de aprender el nuevo hechizo cierras el libro y lo dejas a un lado para estudiarlo de nuevo en otra ocasión.
+EventUnholyBookReReceive.button1,Continuar
+EventStartTile.button1,FÁCIL - Soy novato en esto ({success}{success}{success})
+EventStart.button1,Continuar
+EventVanderbiltDiarryInteractMaster.text,Estás convencido de que el diario aún contiene muchos secretos. Continúas leyéndolo para intentar descubrirlos.
+EventVanderbiltDiarryInteractMaster.button1,{action} Leer
+EventVanderbiltDiarryInteract1.text,Pasadas varias páginas con los intentos de traducción encuentras la entrada siguiente:\n «<i>Esta noche, no pude dormir muy bien. Había unos ruidos procedentes del exterior. Hay algo en estos bosques. Lo sé. Será mejor mantener las persianas y la puerta cerradas por el momento</i>».\n\n Algunas páginas más con intentos de traducciones fallidos prosiguen hasta que encuentras otra entrada.\n «<i>Simplemente no me puedo concentrar. Los ruidos continúan atormentándome. Ahora sé lo que hace que suenen tan aterradores: es ese eco extraño, como si alguien estuviese gritando a través de una chimenea</i>». \n\n A continuación hay más páginas con intentos de traducción. Una entrada escrita con caligrafía apresurada aparece a continuación.\n «<i>Sé de dónde viene. No es una chimenea. Es el pozo. Algo está gritando dentro. No puedo dejar que se escape</i>». \n\n En la siguiente página, el texto continúa. \n «<i>Arranqué unos tablones del cobertizo más pequeño y usé los clavos y las herramientas que había dentro. Ahora está bien sellado</i>». \n\n Más páginas con intentos de traducción. La escritura vuelve a la normalidad.\n El siguiente cambio repentino en la escritura, que vuelve a degenerar, se inicia con el siguiente texto:\n «<i>Hoy me sorprendí a mí mismo mirando fijamente un vaso de agua... durante horas</i>». \n Ganas 1 Pista {clue}.
+EventVanderbiltDiarryInteract1.button1,{action} Continuar
+EventVanderbiltDiarryInteract2.text,«<i>Hoy me sorprendí a mí mismo mirando fijamente un vaso de agua... durante horas. Juro que el agua me ha hipnotizado. Hay algo en el agua de este sitio que no está bien. \n\n He revisado el pozo y sigue sellado. El lago, sin embargo, se ha vuelto negro, completamente negro. No entiendo por qué. Algo pasa con el agua. \n\n Hoy casi me ahogo en el lago. No sé como ha sucedido. El agua debe de haberme hipnotizado otra vez. No puedo permitir que eso suceda de nuevo. He pasado la tarde atrancando la puerta para evitar que vuelva a salir a deambular por los alrededores</i>».\n\n Las siguientes páginas están dobladas y contienen diversos dibujos. Te lleva un rato encontrar la continuación del texto.\n «<i>Todo tiene que ver con el agua. Todo está conectado. Está tratando de decirme algo. Fui un idiota al no hacerle caso. Ahora todo está tan claro...¡El agua es la clave! </i>»\n \n Por la caligrafía de la última parte del texto, parece evidente que se le estaba yendo la cabeza. \n\n Ganas 1 Pista {clue}.
+EventVanderbiltDiarryInteract2.button1,{action} Continuar
+EventVanderbiltDiarryInteract3.text,«<i>Todo esto tiene que ver con el agua. El agua actúa como un espejo. Es una barrera entre nuestro mundo y el otro. Todo se invierte. Lo he hecho todo mal. Tengo que mirar las letras a través de un espejo. Ahora todo tiene sentido. \n Los caracteres se parecen mucho a los de la antigua Sumeria, tal y como pensaba. Finalmente lo entiendo</i>».\n\n Las siguientes páginas son frases traducidas, símbolos y palabras escritas de forma especular del sumerio al inglés. Toda esta información será muy útil para leer el «Libro impío».\n\n «<i>Es hermoso. Todo es verdad. Este libro es de otro mundo. Ha sido escrito por Nepheracet. Parece ser algún tipo de sumo sacerdote o mago. Adora a un dios llamado Cthulhu. Hay muchos hechizos útiles e invocaciones. Pero eso ya no importa. Nepheracet y yo tenemos la misma forma de pensar. Los dos queremos viajar a otros mundos. Debe de haber estado en nuestro Universo en el pasado. Así es como el libro llegó hasta aquí. Si pudiese entender como funciona su ritual, la manera en la que abrió el portal</i>».\n\n Ganas 1 Pista {clue}.\n Ahora ya puedes leer el «Libro impío».
+EventVanderbiltDiarryInteract3.button1,{action} Continuar
+EventVanderbiltDiarryInteract4.button1,Continuar
+EventVanderbiltDiarryReadingDone.text,Ya has leído todo lo que había que leer. \n Recuperas la {action} que has gastado para seguir leyendo el libro.
+EventVanderbiltDiarryInteract4.text,«<i>Me he equivocado de pleno. Nepheracet es mi amigo. Cuando me estaba ahogando en el lago era porque él me estaba llamando. Me mostró el camino. Pronto me reuniré con él</i>».\n A continuación hay un boceto de un círculo ritual, incluyendo una lista de componentes y como realizarlo. \n «<i>Por fin llegaron los componentes. Ahora puedo tratar de abrir el portal. Lo único que me falta es aprender a hablar ese extraño idioma</i>». \n A continuación hay algo de información sobre como crear el círculo.\n «<i>Al fin he terminado el círculo en el sótano. He comenzado a usar el viejo equipo de música para grabar mi voz mientras practico el idioma. Sólo espero que Nepheracet lo entienda</i>». \n Seguidamente hay una tabla con la lista de las grabaciones. \n Tras la tabla, hay otro párrafo de texto que apenas es legible. Simplemente parece que no tiene sentido alguno. \n\n «<i>Onier ut ne rartne emajéd, latrop le erba. Ím arap erbmon ut. It arap erbmon im. Osrevinu la osrevinu. Auga la auga</i>».\n\n Ganas 1 Pista {clue} y sufres 1 de Horror.
+EventVanderbiltDiarryReadingDone.button1,Continuar
+EventUnholyBookReadNotUnderstand.text,Le echas un vistazo al libro. Nunca habías visto antes una caligrafía como ésta. Sin algún tipo de piedra de Rosetta es imposible que puedas leer o entender nada.
+EventUnholyBookReadNotUnderstand.button1,Continuar
+EventAnyTestFail.text,Las fuerzas del mal de este universo y del otro se han aliado contra ti. Tu intento fracasa.
+EventAnyTestFail.button1,Continuar
+EventCabinNoSilverKey.text,No puedes abrir la cerradura sin la llave de plata. A menos que quieras intentar forzar la cerradura.
+EventCabinNoSilverKey.button1,Continuar
+EventVanderbiltDiarryInteract1.button2,Cancel​ar
+EventVanderbiltDiarryInteract2.button2,Cancel​ar
+EventVanderbiltDiarryInteract3.button2,Cancel​ar
+UIIntroductionBackgroundContinue.button1,Button1​
+UIIntroductionText.uitext,Cuando tu abuelo murió, tu tío heredó su cabaña en el bosque. Al no ser precisamente un amante de los bosques, tu tío nunca se preocupó mucho por la cabaña y la alquilaba, hasta hace unos 10 años, cuando de repente dejó de hacerlo. \n\n Recuerdas que cuando eras un niño disfrutabas bañándote en las aguas cristalinas del pequeño lago que había cerca de la cabaña. Te encantaba correr a través de los exuberantes prados del claro donde estaba la cabaña. En la mayor parte de tus recuerdos estabas sentado en el porche, en las rodillas de tu abuelo, escuchando sus historias. Eran historias sobre monstruos que se ocultaban en el bosque. Horrores que rondaban este lugar. \n\n A pesar de la advertencia de tus tíos de que la cabaña podría estar en mal estado, te decidiste a pasar un fin de semana allí con tus amigos. Tu tío te dijo que escondía la llave en una maceta que está en el porche de la cabaña. Igualito que lo que hacía tu abuelo.\n Llegáis con la caída del día. Aparcáis el coche en el camino y termináis a pie el último tramo del recorrido. \n ​El mal estado en el que está la propiedad es evidente desde lejos. Incluso de noche. El césped lleva siglos sin cortarse. Por todas partes hay signos de abandono. \n A medida que camináis y os acercáis más, os percatáis del extraño silencio que envuelve este lugar. Quizá sea verdad y puede que haya un horror que acecha la cabaña del bosque...
+UIIntroductionButtonContinue.uitext,Continuar
+UIIntroductionButtonContinue.button1,Button1​
+quest.authors_short,Dr.ake​
+EventMythosCustomListOutside.button1,Button1​
+EventMythos1.button1,Continuar
+EventMythos7.text,Sobre la mesa hay un vaso con agua. No lo puedes evitar y te acercas para observarlo con más detenimiento. Tu cara se refleja en su maravillosa superficie. Tu reflejo mueve la boca, está intentando decirte algo. Pones toda tu atención para intentar entender lo que te está diciendo. Momentos después, uno de tus compañeros investigadores te devuelve a la realidad. Una realidad en la que estás mirando fijamente a un deslustrado y viejo vaso de agua que está vacío.\n\n El investigador con la puntuación más baja en {will} sufre 1 de Horror (anulado por {will}).
+EventMythos2.text,No puedes evitar la sensación de que algo te está mirando. Algo en el bosque. ¿Podría ser el monstruo aquel del que solía hablar tu abuelo? Tal vez sea real. \n\n El investigador con la puntuación más alta en {observation} sufre 1 de Horror (anulado por {will}).
+EventMythos2.button1,Continuar
+EventMythos3.text,Un aullido rasga la noche. Sabes que hay algo ahí fuera. Has leído cosas sobre una criatura que aúlla así. Y sabes que ahora se está acercando. Y viene a por ti. \n\n El investigador con la puntuación más alta en {lore} sufre 1 de Horror (anulado por {will}).
+EventMythos3.button1,Continuar
+EventMythos4.text,Llegas a la conclusión de que tus compañeros investigadores son un puñado de tontos ingenuos. Creer que hay un monstruo escondido en estos bosques. ¡Es absurdo! El verdadero monstruo está entre vosotros. Todavía no sabes de quién se trata. Pero estás completamente seguro de que no te puedes permitir el lujo de quitarles el ojo de encima. \n\n Este evento de los Mitos afecta al investigador que tenga la <i>Soga</i> o la <i>Linterna sorda</i>. En caso de empate, el investigador que tenga menos {influence}. \n\n Sufres 1 de Horror (anulado por {influence}).
+EventMythos4.button1,Continuar
+EventMythos5.text,Algo grita en la lejanía. Suena como un grito ahogado, muy lejos, bajo tus pies. ¿Habrán enterrado aquí algo siniestro? Temiendo darte de bruces con un zombi o algo peor, das cada paso con cautela.\n\n El investigador con la puntuación más alta en {strength} sufre 1 de Horror (anulado por {will}).
+EventMythos5.button1,Continuar
+EventMythos6.text,Hasta ahora no le habías prestado mucha atención a las oscuras aguas del lago. Un grave error. Decides poner remedio a esta situación y decides investigar más de cerca el lago. \n El agua está completamente en calma, negra como la obsidiana. No puedes dejar de mirar de reojo tu reflejo en el lago. Tu imagen reflejada se va acercando más y más y comienza a susurrarte al oído. Te acercas para escuchar lo que te tienes que decir. \n De repente tu imagen se convierte en la cara de un monstruo con tentáculos en lugar de labios. Los tentáculos envuelven tu cabeza, intentando arrastrarte bajo el agua, intentando ahogarte. \n\n El investigador con la puntuación más baja en {will} sufre 1 de Daño (anulado por {strength}).
+EventMythos6.button1,Continuar
+EventMythos1.text,La arboleda te rodea como si fuese un ejército de gigantes. A pesar de todo, el bosque está extrañamente en calma esta noche. ¿Quizá algo ha espantado a todos los animales de la zona? \n\n Sin efectos adicionales.
+EventMythos7.button1,Continuar
+UIEndButtonContinue.uitext,FIN
+UIVictoryText.uitext,Huis de la cabaña en el bosque, perseguidos por Nepheracet y sus secuaces. Os persigue por el bosque. Le lanzáis todo lo que tenéis a mano intentado frenar su persecución. Os habéis desecho de todo vuestro equipo. Lo único que os queda son las pruebas que habéis recopilado y el Libro impío. \n Por fin llegáis al coche y de un salto entráis en él. Viendo como se agitan las copas de los árboles sabéis exactamente dónde está Nepheracet en este momento. Se está acercando rápidamente. \n Giras la llave, pero el motor no arranca. Los árboles más cercanos al coche comienzan a agitarse. Un horrendo cazador sale de la maleza y se posa sobre el capó del coche. \n Vuelves a girar la llave, el motor arranca. \n Presa del pánico, pisas el pedal a fondo. El coche da un salto hacia delante, pasando por encima del horrendo cazador y aplastándolo con las ruedas delanteras. Frenas justo a tiempo para evitar estrellarte contra los árboles. Das marcha atrás, las ruedas chirrían y sales derrapando. En ese momento, los faros del coche iluminan a Nepheracet, que se aproxima al coche. Metes la marcha atrás y el motor emite un quejido cuando pisas a fondo el gas. En cuanto puedes, derrapas y haces un giro de 180º, y aceleras mientras te alejas rápidamente. \n Con alivio compruebas en el espejo retrovisor que el reflejo de la criatura se va haciendo cada vez más pequeño. De todos modos, sabes perfectamente que esto no ha terminado. \n\n <i>Continuará...</i> \n\n ------------------------------------------------ \n\n Gracias por jugar. Espero que hayas disfrutado del escenario. \n Me sería de gran ayuda para la mejora del escenario que me dejases un comentario al final sobre: \n - Qué te ha gustado del escenario y \n si has visto algo que merecería la pena mejorar. \n - Qué nivel de dificultad has elegido. \n - Qué final del escenario has visto y \n si has ganado o perdido.
+TokenSafety.button3,Aún no han llegado.
+UIDefeatText.uitext,Los horrores os acechan, os dan caza y os atrapan, arrastrándoos a través de la oscuridad del lago hacia el otro lado. \n Al final lo entendéis. No todos vuestros amigos encontraron la misma sabiduría. Algunos de ellos fueron golpeados hasta la muerte, o comidos vivos antes de que se dieran cuenta de la verdad: \n Nepheracet es vuestro amigo. \n Aunque no del modo que creíais al principio, él quiere un mundo en paz. En la paz ulterior, donde no hay gorjeos de aves, no hay aullidos de lobos. Una paz sin llantos de bebé, sin risas de niños y sin nadie que hable. \n Ahora que os ha traído al otro lado y entendéis sus maneras, estaréis encantados de ayudarle con su propósito...\n\n ------------------------------------------------ \n\n Gracias por jugar. Espero que hayas disfrutado del escenario, aunque hayas perdido. Puedes intentarlo de nuevo con nivel de dificultad diferente o usar de forma distinta el equipo estéreo. \n Me sería de gran ayuda para la mejora del escenario que me dejases un comentario al final sobre: \n - Qué te ha gustado del escenario y si has visto algo que merecería la pena mejorar. \n - Qué nivel de dificultad has elegido. \n - Qué final del escenario has visto y si has ganado o perdido.
+EventVanderbiltDiarryInteractMaster.button2,Cancelar
