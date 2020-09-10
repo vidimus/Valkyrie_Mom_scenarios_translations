@@ -1,0 +1,1033 @@
+.,Spanish
+TokenToStudy.text,<i>Este era un lugar donde ibas cuando querías centrarte un poco. ¿Acaso lo conseguías?</i>
+TokenToStudy.button1,{action} Abrir la puerta
+TokenCabinetOnBedroom.button1,{action} Examinar
+TokenSofaOnBilliards.button1,{action} Examinar
+TokenCabinetOnBedroom.text,<i>El armario de tu habitación donde guardas cosas de la noche que llegaste al manicomio</i>.
+TokenStudyImage.button1,{action} Mirar más de cerca
+TokenSofaOnBilliards.text,<i>No te gustaba jugar, ese recuerdo lo tienes muy nítido. Te sentabas aquí y observabas a los otros. Quizá algo se cayese dentro del sofá</i>.
+TokenStudyFireplace.button1,{action} Buscar
+TokenStudyImage.text,<i>Una foto del manicomio de Providence. Muestra su fachada pero la imagen es lo suficientemente amplia como para mostrar el tamaño del edificio</i>.
+TokenBathroomCabinet.button1,{action} Encontrar algo útil
+TokenStudyFireplace.text,<i>Cuando te sentabas en esta habitación te quedabas mirando a la chimenea durante horas. ¿Sería tal vez porque podría servir como un buen escondite para algo que nadie más debería saber?</i>
+TokenBathroomMirror.button1,{action} Mirarte en el espejo
+TokenBathroomCabinet.text,<i>El armario que hay antes de los aseos es donde se guardan los medicamentos y los tratamientos para cosas sencillas como un dolor de cabeza.</i>
+TokenToLibrary.text,<i>No solías venir por aquí, es una puerta de paso, si no te equivocas.</i>
+TokenBathroomMirror.text,<i>Hace mucho tiempo que no te miras en el espejo. Aquí tienes la oportunidad de verte frente a frente. \n\n ¿Y si después de todo no estás loco? \n\n ¿Y si la respuesta está dentro de ti?</i>
+TokenToLibrary.button1,{action} Abrir
+TokenToLivingRoom.button1,{action} Abrir
+TokenToMoreBedroooms.button1,Continuar
+TokenToLivingRoom.text,<i>Este lugar te produce cierta ansiedad. No consigues recordar cuál es el motivo.</i>
+TokenToOutside.text,<i>Por las mañanas podías oír el trinar de las aves que venía del otro lado de esa puerta</i>.
+TokenToMoreBedroooms.text,Esta puerta conduce a algunas habitaciones más, pero parece estar bloqueada y sólo se abre desde el interior.
+TokenToOutside.button1,{action} Abrir
+TokenToOffice.button1,{action} Intentar echarla abajo
+TokenPapersAtOffice.button1,{action} Examinar
+TokenToOffice.text,En la puerta hay un cartel: «Dra. Little - Psiquiatra». \n\n La puerta está cerrada con llave y tiene una cerradura de latón.
+TokenChest.button1,{action} Intentar abrirlo
+TokenPapersAtOffice.text,Algunos papeles sobre la mesa. Deben de ser importante, después de todo, son de la Dra. Little.
+TokenCorridorCarpet.button1,{action} Mirar debajo de la alfombra
+TokenChest.text,Un baúl en un rincón de la habitación. Parece que no está cerrado con llave.
+TokenBrokenVase.button1,{action} Examinar
+TokenCorridorCarpet.text,<i>La alfombra nunca ha sido algo muy práctico en este pasillo. Los pacientes se tropiezan con ella, incluido tú.</i>
+TokenBilliardTable.button1,{action} Intentar abrirla
+TokenBrokenVase.text,<i>Parece que hubo un malentendido a la hora de llevar a alguien a la fuerza a su habitación, ha quedado todo por medio. \n\n ¿Te sucedió a ti? \n\n No tienes ninguna marca en el cuerpo, asi que no, no has sido tú, pero te ayuda a entender mejor cómo funciona el manicomio.</i>
+EventEventAddPlayer1.text,Coloca el primer investigador en la localización {c:TileT1_Bedroom1} en el lugar señalado.
+TokenBilliardTable.text,<i>Un pequeño baúl. Tal vez contenga algo útil, pero parece cerrado con llave</i>.
+TokenPlayer1StartingLocation.button1,Continuar
+TokenEndOfCorridorPapers.button1,{action} Examinar
+TokenDrLittleImage.button1,{action} Mirar más de cerca
+TokenEndOfCorridorPapers.text,<i>Hay unos papeles tirados en un rincón. \n\n No te queda claro si se le cayeron del bolsillo a un médico o un paciente, las letras no son muy legibles.</i>
+TokenSmokingTable.button1,{action} Buscar algo en la mesa que te pueda servir
+TokenDrLittleImage.text,<i>Una foto de una persona vestida de médico. No recuerdas muy bien quién es esa persona, pero tienes la sensación de haberla visto por aquí</i>.
+TokenExit0.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+TokenSmokingTable.text,<i>En el manicomio de Providence se permite fumar, esta mesa era la favorita de los fumadores</i>.
+TokenToKitchen.button1,{action} Abrir
+EventAddExitWithSecondNumber.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+TokenBooksAtLibrary.button1,{action} Buscar algo entre los libros
+TokenToKitchen.text,<i>Esta es la cocina, sin duda, era uno de tus lugares favoritos</i>.
+TokenCabinetRoom3.button1,{action} Examinar
+TokenBooksAtLibrary.text,<i>Estantes llenos de libros, ¡cuánto amabas los libros cuando aún podías mantener tu concentración en ellos!</i>
+TokenCabinetRoom4.text,<i>Tu mesa auxiliar, las pertenencias de la noche que llegaste deberían estar allí</i>.
+TokenCabinetRoom3.text,<i>Un pequeño armario que usas para guardar tus pertenencias</i>.
+TokenCabinetRoom4.button1,{action} Examinar
+TokenOutsideFire.button1,{action} Examinar
+TokenLovecraftImage.button1,{action} Ver más de cerca
+TokenOutsideFire.text,<i>Sólo recuerdas haber venido aquí una vez. Fue en una terapia de despedida, los internos leían mensajes y luego los tiraban al fuego. ¿Se quemarían todos? </i>
+TokenWindowToStreets.button1,{action} Mirar por la ventana
+TokenLovecraftImage.text,<i>Una foto de uno de los fundadores del manicomio de Providence. \n Sus iniciales son: H.P.L. </i>.
+TokenPiano.button1,{action} Tocar el piano
+TokenWindowToStreets.text,<i>Ventanas. Hace mucho que no ves la calle.</i>
+TokenOldMan.button1,Hablar
+TokenPiano.text,<i>Un piano. ¿Todavía recuerdas cómo se toca? Era algo que siempre te ha gustado</i>.
+TokenFireplaceLady.button1,Hablar
+TokenOldMan.text,<i>Un hombre que permanece en silencio. Si no haces ruido, él tampoco lo hará. No es alguien del que recuerdes cómo es su personalidad</i>.
+TokenVictorBlake.button1,Hablar
+TokenFireplaceLady.text,Una mujer tratando de calentarse en la chimenea. <i>Ella siempre está aquí de noche, eso lo recuerdas bien</i>.
+TokenToParty.text,<i>Recuerdas esta habitación como un lugar con música, y que te hacía sentirte bien por dentro.</i>
+TokenVictorBlake.text,<i>El cocinero Víctor Blake. No se ha dado cuenta de que estás aquí. Por lo general nadie viene aquí tan tarde.</i>
+TokenToParty.button1,{action} Abrir
+TokenDraLittle.text,La Dra. Little, médico psiquiatra del manicomio. Está un poco borracha y no se ha dado cuenta de que no estás sedado.
+TokenCornerSit.button1,{action} Examinar
+TokenCrazyManInGarden.button1,Hablar
+TokenDraLittle.button1,Hablar
+TokenCornerSit.text,<i> A pesar de que eres alguien discreto, de vez en cuando te permitías alguna extravagancia: te sentabas siempre en una punta de la mesa. Ese era tu sitio favorito</i>.
+EventTalkWithLittleAllQuestions.button2,{action} —<i>¿Dónde están mis cosas?</i>
+TokenCrazyManInGarden.text,<i>Un paciente mirando los árboles. A pesar de ser un jardín, la valla es demasiado alta para poder escapar de aquí... Parece que está dudando</i>.
+EventTalkWithLittleAllQuestions.text,—<i>Jajaja, otro que no está en su cama. Me vais a matar. A ver, ¿qué quieres, cariño?</i>
+TokenDraLittle.button2,—<i>No importa</i>
+EventTalkWithLittleAllQuestions.button3,—<i>No importa</i>
+EventTalkWithBlake.text,—<i>¿Qué hace aquí? ¿Qué hora es? ¿Es tan tarde? Oh, no importa, estaba distraído</i>.
+EventTalkWithBlake.button1,{action} —<i>¿Se acuerda de mí? </i>
+EventTalkWithBlake.button2,{action} —<i>¿Por qué estás despierto?</i>
+EventTalkWithBlake.button3,—<i>No importa</i>
+EventTalkWithFireladyAllQuestions.button1,{action} —<i> Yo no debería estar aquí.</i>
+EventTalkWithFireladyAllQuestions.button2,{action} —<i>Yo no debería estar ahí fuera</i>
+EventFireLadyNotHere.text,—<i>Aquí estoy tan calentita, ¿usted no? Sabe, creo que no debería estar aquí. \n\n Pero bueno, qué más da, tampoco creo que debiera estar ahí fuera. Lo cierto es que no tengo ni idea de cuál es mi lugar.</i>
+EventTalkOldManAllQuestions.button1,{action} —<i>¿Por qué está aquí, en el manicomio?</i>
+EventTalkOldManAllQuestions.button2,{action} —<i>¿Cómo puedo salir de aquí?</i>
+EventTalkOldManAllQuestions.button3,—<i>Eh, nada</i>.
+EventTalkOldManHowToEscape.button1,{action} —<i>¿Cómo puedo escapar de aquí?</i>
+EventTalkCrazyManAllQuestions.button1,{action} —<i>¿Tiene usted mis pertenencias? </i>
+EventTalkCrazyManAllQuestions.button2,{action} —<i>¿Y para qué quieres cortarlos?</i>
+EventTalkCrazyManAllQuestions.button3,Escabullirse
+EventTalkCrazyManAxe.button1,{action} —<i>¿Por qué quieres cortarlas?</i>
+EventTalkWithLittleLeaveMeAlone.text,—<i>Ah, sí, sí, está bien... Déjeme descansar un poquito, ¿de acuerdo, cariño?
+TokenBedroom1ChairToken.button1,{action} Examinar
+EventStartGame.button1,Continuar
+EventAddSearchTokenOnChairBedroom1.button1,Continuar
+EventStartGame.text,Coloca el módulo {c:TileT1_Bedroom1} en el lugar señalado.
+EventPlaceSideHallCorner1.button1,Continuar
+EventAddSearchTokenOnChairBedroom1.text,<i>Una silla con ropa puesta encima</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlaceSideHallEnd.button1,Continuar
+EventPlaceSideHall1.button1,Continuar
+EventPlaceSideHallCorner1.text,<i>El pasillo central del manicomio tiene varias partes</i>. \n\n Coloca el módulo {c:TileT2_Corridor1} en el lugar señalado.
+EventPlaceSideHall1.text,<i>La parte central del pasillo está aquí</i>. \n\n Coloca el módulo {c:TileT4_MiddleCorridor} en el lugar señalado.
+EventPlaceSideBedroom2.button1,Continuar
+EventPlaceSideHallEnd.text,<i>La parte final del pasillo</i>. \n\n Coloca el módulo {c:TileT5_EndOfCorridor} en el lugar señalado.
+EventPlacePlayer2.text,Coloca al segundo investigador en la localización {c:TileT6_Bedroom2} en el lugar señalado.
+EventPlaceSideBedroom2.text,<i>Otra habitación del manicomio</i>. \n\n Coloca el módulo {c:TileT6_Bedroom2} en el lugar señalado.
+EventPlaceBedroom2SearchToken.button1,Continuar
+EventPlacePlayer2.button1,Continuar
+EventPlaceSearchTokenPapersOnEndOfCorridor.text,Algunos papeles en el suelo. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en la localización {c:TileT5_EndOfCorridor} en el lugar señalado.
+EventPlaceBedroom2SearchToken.text,Coloca una <color=yellow> ficha de Búsqueda </color> en el armario de la localización {c:TileT6_Bedroom2}.
+EventEventAddPlayer1.button1,Continuar
+EventPlaceCarpetSearchToken.text,<i>Una alfombra bastante desgastada</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en la localización {c:TileT4_MiddleCorridor} en el lugar señalado.
+EventPlaceCarpetSearchToken.button1,Continuar
+EventPlaceBrokenVaseSearchToken.text,Una mesa caída y un vaso roto. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado de la localización {c:TileT2_Corridor1}.
+EventPlaceBrokenVaseSearchToken.button1,Continuar
+EventPlaceLastPieceofStart.text,Coloca el módulo {c:TileT3_CorridorCorner1} en el lugar señalado.
+EventPlaceLastPieceofStart.button1,Continuar
+EventPlaceSearchTokenOnCabinet.button1,Continuar
+EventPlaceSearchTokenOnMirror.text,<i>El espejo, a veces todavía tienes miedo de mirarlo, de ver dentro de ti y encontrar cosas que deseas olvidar</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceSearchTokenOnCabinet.text,<i>Se trata de un pequeño armario utilizado para algunos remedios sencillos. Aquí es donde venías a que tus simples dolores de cabeza terminasen</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceSearchTokenOnMirror.button1,Continuar
+EventTriggerFirstRound.text,Cada investigador comienza con 2 Pistas <color=green>{clue}</color>.
+EventTriggerFirstRound.button1,Comenzar
+quest.description,Las secuelas del horror es un escenario de 2 a 5 jugadores donde todos empiezan con el estado <i>Loco</i>. \n\n La investigación termina cuando al menos uno de los investigadores consigue abandonar el Manicomio de Providence con las pruebas suficientes. El tiempo apremia y debéis hacerlo durante la noche. Todo comienza a las 10 de la noche y termina a las 6 de la mañana, cuando todo el mundo se despierta y ya no hay ocasión para escapar. \n\n Si se alcanza el límite de Horror en este escenario, se gana una nueva carta de Locura, aunque el investigador quedará eliminado si dobla la cantidad total de Horror. El Daño funciona de forma normal. \n\n En el primer turno del juego se mostrarán las cartas de estado <i>Loco</i> que se usarán en este escenario, las cuales se repartirán entre los jugadores y deberán permanecer en secreto hasta el final de la investigación. \n\n Si juegan 3 o más jugadores, uno de ellos tendrá un propósito distinto al resto, dependiendo de la carta de estado <i>Loco</i> que le toque. Ese jugador no tiene ninguna intención de dejar el manicomio porque ganará si la investigación falla. Los investigadores pueden hablar libremente entre ellos acerca de quién creen que puede ser el traidor, pero no pueden nunca mostrar sus cartas de <i>Loco</i> hasta que la investigación termine. \n\n Para jugar a este escenario sólo es necesario el juego base. La expansión «Calles de Arkham» añade una variación en el escenario.
+EventSearchOnTokenBedroom1.button1,Éxito
+EventSearchOnTokenBedroom1.button2,Fallo
+EventSuccessSearchBedroom1.text,<i>Encuentras algo que te puede servir. No es una prueba, pero te recuerda que eres una persona religiosa. \n\n Ganas <color=green>1 Pista {clue}</color>. Descarta esta <color=yellow>ficha de Búsqueda</color>
+EventSearchOnTokenBedroom1.text,<i>Todavía estás un poco confuso, sin saber qué buscar</i> {observation} (2).
+EventSuccessSearchBedroom1.button1,Continuar
+EventFailedSearchBedroom1.text,<i>Todavía no puedes entender qué son esas cosas y de qué modo están relacionadas contigo</i>.
+EventFailedSearchBedroom1.button1,Continuar
+TokenBedroom1ChairToken.text,<i>Colgada de la silla está la chaqueta que llevabas la noche en la que te ingresaron en el manicomio de Providence</i>.
+EventLookInTheMirror.text,<i>Te miras en el espejo, pero tu mente no logra todavía entender lo que está viendo. Intentas concentrarte</i> {will}.
+EventLookInTheMirror.button1,Continuar
+EventLookMirrorPass.button1,Continuar
+EventLookMirrorPass.text,<i>Te reconoces sin duda alguna</i>. \n\n Descarta todas las cartas de Horror y el estado Loco. No le enseñes a nadie tu carta de Loco. \n\n Todavía tienes que conseguir salir del manicomio. \n\n Ganas 2 Pistas <color=green>{clue}</​color>. A continuación descarta esta <color=yellow> Ficha de Búsqueda </color>.
+EventLookMirrorFail.text,<i>Te reconoces al verte, pero no recuerdas nada más</i>. \n\n Ganas <color=green> 1 Pista {clue} </color>. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventLookMirrorFail.button1,Continuar
+EventLookMirrorZeroOrOne.text,<i>Creías que estabas mejor, que te estabas recuperando, pero parece que no es el caso. ¿Quién es esa persona del espejo? ¿Quién es esa persona que está detrás de ti?</i> \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+SpawnCultistInThBathroom.text,<i>No sabes si esta persona es real o no. No importa, porque ti es suficientemente real</i>. \n\n Coloca en la localización {c:TileT3_CorridorCorner1} a un sectario en el lugar señalado.
+SpawnCultistInThBathroom.button1,Continuar
+EventLookMirrorZeroOrOne.button1,Continuar
+EventSearchCabinetInBathroom.text,<i>Quien quiera que esté a cargo de mantener ordenado este pequeño armario, hace fatal su trabajo {observation}.
+EventSearchCabinetInBathroom.button1,Continuar
+EventSearchBathroomCabinetSuccess.button1,Continuar
+EventSearchBathroomCabinetFail.text,<i>Nada, nada que puedas usar. Solamente encuentras una nota que no sabes de quién será</i>: \n\n <i> «Contraseña:... 5...». </i> \n\n <i>No puedes leerlo todo, ya que lo que está al principio y lo que está al final es ilegible. \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventSearchBathroomCabinetFail.button1,Continuar
+EventSearchBathroomCabinetSuccess.text,Miras dentro del pequeño armario y encuentras algo. \n\n Ganas el Objeto común {c:QItemBathroomCabinet}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventSearchCabinetBedroom2.text,<i>No sabes a ciencia cierta qué es lo que estás buscando, así que decides mirar por todas partes. \n\n Encuentras unos papeles arrugados.</i> {observation} (1).
+EventSearchCabinetBedroom2.button1,Éxito
+EventSearchCabinetBedroom2.button2,Fallo
+EventSearchFailBedroom2.text,<i>No, nada que valga la pena. Aunque a lo mejor deberías volver a mirar con más tranquilidad.</i>
+EventSearchFailBedroom2.button1,Continuar
+EventSearchSuccessBedroom2.text,<i>Te sedaban tanto que ni siquiera se molestaban en cerrar el armario. \n\n Recuerdas algunas palabras arcanas útiles en momentos difíciles</i>. Ganas el Hechizo {c:QItemBedroom2}. \n\n Ganas <color=green> 1 Pista {clue} </color>. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventSearchSuccessBedroom2.button1,Continuar
+EventLookForArcanePapers.text,<i>Las palabras escritas en estos papeles son de alguna lengua antigua, pero sólo tú sabes qué es; la gente piensa que son sólo garabatos hechos por los médicos. \n\n ¿Por casualidad todavía te acuerdas de cómo se pronuncian?</i> {lore}.
+EventLookForArcanePapers.button1,Continuar
+EventSearchArcanePapersPass.text,<i>Pronuncias correctamente las palabras que estaban escritas y sientes que puedes controlar un poder que nadie imaginaba que tendrías. \n\n Ganas el Objeto común {c:QItemArcanePapers} y <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventSearchArcanePapersPass.button1,Continuar
+EventSearchArcanePapersFail.text,<i>Lo lees, pero nada de eso parece estar bien. Aun así, algo raro está pasando. ¿Qué será eso?</i>
+EventSearchArcanePapersFail.button1,Continuar
+SpawnArcanePaperMonsterNoSOA.text,<i>Sin duda, esto no es real, es sólo una secuela de una investigación pasada. Es necesario que todavía tengas que enfrentarte a tus horrores durante un tiempo</i>.
+EventEventSearchArcanePapersWithSOA.text,<i>Lo lees, pero nada de eso parece estar bien. Aun así, algo raro está pasado. ¿Qué será eso?</i>
+SpawnArcanePaperMonsterNoSOA.button1,Continuar
+EventEventSearchArcanePapersWithSOA.button1,Continuar
+SpawnArcanePaperMonsterSoa.text,<i>Sin duda, esto no es real, es sólo una secuela de una investigación pasada. Es necesario que todavía tengas que enfrentarte a tus horrores durante un tiempo</i>.
+SpawnArcanePaperMonsterSoa.button1,Continuar
+EventPlaceTileStudy.text,Coloca el módulo {c:TileT12_Study} en el lugar señalado.
+EventAddSeatchTokenBilliardsTable.text,Un baúl en un rincón de la habitación. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddStudyImage.text,<i>Una foto en la pared</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddStudyImage.button1,Continuar
+EventAddFireplace.button1,Continuar
+EventAddFireplace.text,<i>Una chimenea, un lugar que te hacía sentir cómodo</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddFireplaceLady.button1,Continuar
+EventAddFireplaceLady.text,Una mujer tratando de calentarse en la chimenea. \n\n Coloca la <color=orange>ficha de Personaje Mujer naranja</color> en el lugar señalado.
+EventCheckIF3Players.button1,Continuar
+EventAddSearchTokenBedroom3.text,<i>Un armario. Todos los internos tienen uno en sus cuartos. Generalmente guardan en ellos sus efectos personales.</i> \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceThirdRoomOnTheBottom.text,<i>Tenemos más investigadores en el manicomio de Providence</i>. \n\n Coloca el módulo {c:TileT9_Room_More_Players} en el lugar señalado.
+EventPlaceThirdRoomOnTheBottom.button1,Continuar
+EventAddThirdPlayerBottom.button1,Continuar
+EventAddThirdPlayerBottom.text,El tercer investigador comienza esta habitación.
+EventAddSearchTokenBedroom3.button1,Continuar
+EventAddLovecraftImage.text,<i>Una foto de un hombre cuelga de la pared</i>. \n\n Coloca el <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddLovecraftImage.button1,Continuar
+EventCheckIF2Players.text,<i>Por ahora esto es todo lo que recuerdas del manicomio</i>. \n\n Sortea las siguientes cartas de <i>Loco</i> (1 por jugador.): \n\n Obsesión \n Difundir la verdad \n Sospechoso \n Motivos egoístas.
+EventCheckIF3Players.text,<i>El manicomio es grande y continúa.</i>
+EventCheckIF4Players.text,En esta sala tenemos al cuarto investigador.
+EventCheckIF4Players.button1,Continuar
+EventPlaceFourthPlayer.text,Coloca el cuarto investigador en el lugar señalado.
+EventPlaceFourthPlayer.button1,Continuar
+EventPlaceSearchTokenFourthBedroom.button1,Continuar
+EventPlaceSearchTokenFourthBedroom.text,<i>Esta habitación es más sencilla, el espacio para almacenar artículos personales es un poco más pequeño, sólo tiene una cómoda</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventCheckIf3PlayersFinalize.text,Coloca las fichas de Pared en el lugar señalado.
+EventCheckIf3PlayersFinalize.button1,Continuar
+TokenOutOfBigBedroom.button1,{action} Abrir
+EventPlaceExploreTokenBigBedroom.button1,Continuar
+TokenOutOfBigBedroom.text,<i>Esta puerta conduce a otras habitaciones del manicomio</i>.
+EventRemoveStartToken.text,<i>Por ahora esto es lo que recuerdas del manicomio</i>. \n\n Sortea las siguientes cartas de <i>Loco</i> (1 por jugador) \n\n Crisis de conciencia \n Narcisismo \n Obsesión \n Difundir la verdad \n Sospechoso \n Motivos egoístas \n\n Si tienes la expansión «Más allá del umbral» añade: \n Pasividad {MAD23} \n Aspiraciones arcanas {MAD23} \n\n Si tienes la expansión «Calles de Arkham» añade: \n Envidia {MAD25} \n Devoción ferviente {MAD25} \n Frialdad calculadora {MAD25}.
+EventRemoveStartToken.button1,Continuar
+EventPlaceExploreTokenToGarden_Var1.button1,Continuar
+EventPlaceExploreTokenToExit_Var2.text,<i>Tal vez en algún momento escuchaste el sonido de pájaros a través de esa puerta</i>. \n\n Coloca una <color=red>ficha de Exploración</color> en el lugar señalado.
+EventPlaceExploreTokenBigBedroom.text,<i>Esta puerta conduce a otras habitaciones del manicomio</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceExploreTokenToLivingRoom.text,<i>Esta puerta conduce a una zona de uso comunitario. Eso lo recuerdas muy bien</i>. \n\n Coloca un <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceExploreTokenToLivingRoom.button1,Continuar
+EventPlaceExploreToStudy.text,<i>Esta era la sala de... mmm... no te acuerdas</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceExploreToStudy.button1,Continuar
+EventPlaceExploreTokenToLibrary.text,<i>No lo olvides, aquí hay una puerta detrás de la cual siempre había gente con libros. ¿O eran periódicos?</i> \n\n Coloca un <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceExploreTokenToLibrary.button1,Continuar
+EventCheckIF5Players.button1,Continuar
+EventCheckIF5Players.text,<i>Casi lo habíamos olvidado</i>.
+EventPlaceLastPlayer.button1,Continuar
+EventPlaceLastPlayer.text,Coloca el quinto y último investigador al lado del segundo investigador, en el lugar señalado.
+EventPlaceExploreTokenToExit_Var1.button1,Continuar
+EventPlaceExploreMiddleCorridorDoor_Var2.button1,Continuar
+TokenToStairs.text,<i>Esta puerta lleva a un lugar al que no solías ir mucho, y encima parece que está cerrada con llave</i>. \n\n Puedes tratar de encontrar la llave o echar abajo la puerta porque la cerradura no parece ser fácil de forzar, pero tal vez eso llame la atención innecesariamente. \n\n Te das cuenta de que la cerradura es plateada.
+TokenToStairs.button1,{action} Intentar echarla abajo
+TokenToStairs.button2,{action} Usar la <i>Llave de Plata</i>
+EventCheckIF2Players.button1,Continuar
+EventPlaceExploreToParty.text,<i>Este lugar se usa para celebrar para eventos. Esos días las dosis de los fármacos no son tan altas, por eso lo recuerdas</i>. \n\n Coloca una <color=red> ficha de Exploración </color>en el lugar señalado.
+EventPlaceExploreToParty.button1,Continuar
+EventPlaceBilliardsVariantion.text,Coloca el módulo {c:TileT99_Billard_Variant} en el lugar señalado.
+EventPlaceBilliardsVariantion.button1,Continuar
+EventPlaceTileStudy.button1,Continuar
+EventAddSeatchTokenBilliardsTable.button1,Continuar
+EventAddSearchTokenBilliardsSofa.text,Ah, sí, pasabas más tiempo en el sofá, viendo a otros jugar. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventAddSearchTokenBilliardsSofa.button1,Continuar
+TokenExit4_5Players0.button1,{action} Intentar abrir {will}
+TokenExit0.button1,{action} Intentar abrirla {will}
+EventSetupEnd5Players.text,<i>Por ahora esto es lo que recuerdas del manicomio</i>. \n\n Sortea las siguientes cartas de <i>Loco</i> (1 por jugador) \n\n Crisis de conciencia \n Narcisismo \n Obsesión \n Difundir la verdad \n Actitud sospechosa \n Motivos egoístas \n\n Si tienes la expansión «Más allá del umbral» añade: \n Pasividad {MAD23} \n Aspiraciones arcanas {MAD23} \n\n Si tienes la expansión «Calles de Arkham» añade: \n Envidia {MAD25} \n Devoción ferviente {MAD25} \n Frialdad calculadora {MAD25}.
+EventSetupEnd5Players.button1,Continuar
+EventSearchFirePlaceEVIDENCE.text,Pones la mano sobre los ladrillos de la chimenea. Parece que tiene un ladrillo que está algo suelto. {observation} (2) y {strength} (1). Para tener éxito tienes que superar las dos pruebas realizando tiradas por separado para cada atributo.
+EventSearchFirePlaceEVIDENCE.button1,Éxito
+EventSearchFirePlaceEVIDENCE.button2,Fallo
+EventFailMoveBrickStudy.button1,Continuar
+EventSuccessMoveBrickStudyEVIDENCE.text,Lo has conseguido. Uno de los ladrillos estaba suelto y has encontrado algo dentro que te será útil. \n\n Descarta la <color=yellow>ficha de Búsqueda</color>. Ganas <color=green>1 Pista {clue}</color>.
+EventFailMoveBrickStudy.text,<i>Hum, qué raro, no eres capaz de encontrar el ladrillo correcto o al menos uno que se mueva. Sin embargo, estás convencido de que aquí hay algo extraño.</i>
+EventSuccessMoveBrickStudyEVIDENCE.button1,Continuar
+EventGiveEvidenceIFNoEvidence.button1,Continuar
+EventCheckStudyImagePass.button1,Continuar
+EventLookCloserToStudyImage.button1,Continuar
+EventLookCloserToStudyImage.text,<i>Te concentras y llegas a la conclusión de que igual puedes recrear el camino hasta la entrada y así podrías saber dónde está la salida</i> {observation}.
+UIEliminatedText.uitext,Tu compañero ha muerto. Con todos esos horrores en su mente y con su cuerpo en decadencia que sólo servía para empeorar su maltrecha salud mental. Enfrentarse a los horrores y derrotarlos, o huir de ellos es una cosa, pero ver a tu amigo morir es demasiado. \n\n La policía trata el caso de tu amigo como si se tratase de un asesinato, y siendo vosotros de los pocos que estaban despiertos en el manicomio y estando en teoría locos, va a ser muy difícil que podáis demostrar vuestra inocencia. \n\n Te sedan y esa misma noche te trasladan a la prisión manicomio de Providence. Ahora ya es oficial, nunca más volverás a ver las calles, nunca más volverás a tener contacto con el mundo. \n\n ¡La investigación ha fracasado!
+EventGiveEvidenceIFNoEvidence.text,<i>Estas fotos, sin embargo, aunque rotas a conciencia, son pruebas de que los horrores existen. Esto debería ser suficiente para que la gente crea en ti</i>. \n\n Ganas el Objeto único {c:QItemFirstEvidence}.
+EventCheckStudyImagePass.text,<i>Ahora tienes las cosas más claras. \n El camino hacia la salida comienza a dibujarse en tu cabeza. \n\n Tal vez esa puerta no esté aún bloqueada, \n recuerdas que en realidad estaba siempre atascada.</i> \n\n Ganas <color=green> 1 Pista {clue} </color>. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventRevealExitIF4_5Players_Variation1.text,<i>Esta es una antesala antes de llegar al interior del manicomio. La usan mucho para no asustar a la gente. Los médicos recibían aquí a los futuros clientes... pacientes, en esta parte de la mansión</i>.\n\n Coloca el módulo {c:TileT16_Stairs_4_5_Players} en el lugar señalado. Descarta la <color=red> ficha de Exploración </color> que conduce a él.
+EventPlaceLobbyRevealed.text,<i>Este es el vestíbulo del manicomio</i>. \n\n Coloca el módulo {c:TileT14_Lobby_4_5_Players} y fichas de Pared en los lugares señalados.
+EventPlaceLobbyRevealed.button1,Continuar
+EventRevealExit_Variaton1.text,Esta es la escalera que conduce a la entrada del manicomio. La escalera te costaba subirla, sobre todo cuando estabas bajo los efectos de las drogas, tal vez esa barrera física fuese intencionada. \n\n Coloca el módulo {c:TileT16_Stairs_4_5_Players} en el lugar señalado. Descarta la <color=red> ficha de Exploración </color> que lleva a él.
+EventRevealExit_Variaton1.button1,Continuar
+EventPlaceEntrance.text,Esa es la entrada del manicomio de Providence. \n\n Coloca el módulo {c:TileT11_Entrance} en el lugar señalado. Coloca fichas de Pared en el lugar señalado.
+EventPlaceExit4_5Players.button1,Continuar
+TokenExit_4_5PAlternative.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+EventPlaceKitchen.button1,Continuar
+EventPlaceKitchen.text,<i>Esta puerta... mmm... ¡Sí! Se usa en las comidas</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventAddExitWithSecondNumber.button1,Continuar
+EventAddExit.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+EventCheckStudyImageFail.text,<i>Pones empeño pero no es suficiente. \n\n Las imágenes son borrosas y no consigues recrear nada de ese modo. Sin embargo, te has ganado un buen dolor de cabeza</i>. Sufres 1 de Horror boca abajo \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventCheckStudyImageFail.button1,Continuar
+EventCheckStudyImageZeroOrOne.text,<i>Te esfuerzas pero tu mente todavía no está preparada para ello. La concentración trajo terribles imágenes de la noche en la que llegaste</i>. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventCheckStudyImageZeroOrOne.button1,Continuar
+SpawnStudyImageMonster.text,<i>Esto, a falta de una mayor concreción, parece haber llegado desde un lugar cerca del mar, pero... estáis lejos de la costa</i>.
+SpawnStudyImageMonster.button1,Continuar
+EventTryToBrakeStairsDoor.button1,Continuar
+EventCheckForSilverKey.text,Metes la llave en la cerradura y la giras.
+EventTryBrakeStairsDoorTooStrong.text,<i>Fuerzas la puerta con éxito, pero has empleado mucha energía y has hecho mucho <i>ruido</i>. Esto, sin duda, llamará la atención. \n\n Descarta esta <color=red>ficha de Exploración</color>.
+EventTryBrakeStairsDoorTooStrong.button1,Continuar
+SpawnBodyguardNoSOA4_5Players.text,<i>Has despertado a un celador del manicomio</i>. \n\n Coloca el celador en módulo {c:TileT16_Stairs_4_5_Players} en el lugar señalado. <i>Al menos este es real</i>.
+SpawnBodyguardNoSOA4_5Players.button1,Continuar
+SpawnBodyGuardSOA4_5Players.text,<i>Has despertado a un celador del manicomio</i>. \n\n Coloca el celador en módulo {c:TileT16_Stairs_4_5_Players} en el lugar señalado. <i>Al menos este es real</i>.
+SpawnBodyGuardSOA4_5Players.button1,Continuar
+SpawnBodyGuardNoSOA3Players.text,<i>Has despertado a un celador del manicomio</i>. \n\n Coloca el celador en módulo {c:TileT10_Stairs} en el lugar señalado. <i>Al menos este es real</i>.
+SpawnBodyGuardNoSOA3Players.button1,Continuar
+SpawnBodyGuardSOA3Players.text,Usted se despertó la seguridad del manicomio. lo puso en {c:TileT10_Stairs} en el lugar señalado. Por lo menos alguien es real.
+SpawnBodyGuardSOA3Players.button1,Continuar
+EventAddTileStairs.text,Coloca el módulo {c:TileT10_Stairs} en el lugar señalado.
+EventAddTileStairs.button1,Continuar
+EventSpawnBodyGuardOnStairs.text,Un celador está listo para impedir que continúes.
+EventBrakeStairDoorsJustRight.text,Consigues forzar la puerta, lo suficiente como para abrirla y no hacer demasiado ruido. <i>Es un equilibrio delicado, pero lo has conseguido</i>.
+EventAddStairs4_5Players.text,Coloca el módulo {c:TileT16_Stairs_4_5_Players} y una ficha de Pared en el lugar señalado.
+EventAddStairs4_5Players.button1,Continuar
+EventSpawnBodyGuardOnStairs.button1,Continuar
+EventBrakeStairDoorsJustRight.button1,Continuar
+EventBrakeStairsDoorTooWeak.text,<i>Te da la impresión de que la puerta se ha movido, aunque no lo suficiente para abrirla. Vas a necesitar aplicar más fuerza o usar la llave.
+EventBrakeStairsDoorTooWeak.button1,Continuar
+EventTryToBrakeStairsDoor.text,Intentas echar abajo la puerta {strength} (+1 si tienes un Arma pesada).
+EventCheckForSilverKey.button1,Continuar
+EventHasSilverKey.button1,Continuar
+EventHasSilverKey.text,Con un clic, la puerta se abre sin problemas.
+EventDontHaveSilverKey.text,<i>Debes de estar rematadamente loco... No tienes la llave de plata</i>. Sufres 1 de Horror boca abajo.
+EventDontHaveSilverKey.button1,Continuar
+EventLookDownTheCarpet.text,Además de una gran cantidad de polvo, parece que también hay algo plateado {observation}.
+EventLookDownTheCarpet.button1,Continuar
+EventCarpetCheckPassNoStairs.button1,Continuar
+EventCarpetCheckPassWithStairs.text,Con el camino hasta la salida despejado, ya no necesitas más la llave de plata. Este trozo de madera suelta puede ser mucho más útil \n\n Ganas el Objeto común {c:QItemCarpetWood}. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>. \n\n Al arrancar la madera hiciste algo de <i>ruido</i>, no lo suficiente como para llamar la atención de un celador, pero sin duda no has sido muy silencioso que digamos.
+EventCarpetCheckFail.text,<i>No encuentras nada de lo que buscas y desistes en tu búsqueda. Adviertes que uno de los tablones está suelto y que oculta algo debajo. \n\n Ganas el Objeto común {c:QItemCarpetCheckFail}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventCarpetCheckFail.button1,Continuar
+EventRevealLibraryFromBigRoom.button1,Continuar
+EventToLibraryFromMainCorridor.text,<i>La pequeña biblioteca del manicomio, sí, sí, ahora lo recuerdo</i>. \n\n Coloca el módulo {c:TileT8_Library} en el lugar señalado. \n\n Descarta la <color=red> ficha de Exploración </color>.
+EventPlaceLibrarySearchTokenOnBooks.text,<i>Quizás entre estos libros puedas encontrar algo útil</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlaceLibrarySearchTokenOnBooks.button1,Continuar
+TokenSearchLibraryChair.text,<i>Sobre la silla hay un diario. ¿Es tuyo o es el de otro paciente?</i> \n\n Tal vez en su interior haya alguna prueba que demuestre que estás cuerdo.
+TokenSearchLibraryChair.button1,{action} Leer el diario
+EventPlaceSearchLibraryChair.text,<i>Una silla con un diario</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlaceSearchLibraryChair.button1,Continuar
+EventRevealLibraryFromBigRoom.text,Coloca el módulo {c:TileT8_Library} en el lugar señalado. \n\n Descarta las <color=red> fichas de Exploración </color> que conducen a él.
+EventToLibraryFromMainCorridor.button1,Continuar
+EventCheck2PlayersTokenOnLibrary.text,<i>El manicomio no es tan grande como pensabas.</i> Coloca una ficha de Pared en el lugar señalado.
+EventCheck2PlayersTokenOnLibrary.button1,Continuar
+EventAddGardenTile.text,<i>Venías poco al jardín, pero aunque hubieses venido mucho tampoco lo recordarías</i>. \n\n Coloca el módulo {c:TileAlternativeGarden} como se indica y descarta la <color=red>ficha de Exploración</color>.
+EventAddGardenTile.button1,Continuar
+EventAddCrazyMan.button1,Continuar
+EventAddOutsideSearchToken.text,<i>Un lugar utilizado para encender un pequeño fuego. Tal vez has estado aquí antes</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddCrazyMan.text,<i>Un hombre en el jardín. ¿Era un interno o un empleado? Te encantaría poder recordarlo para hacerle las preguntas adecuadas, pero no lo recuerdas</i>. \n\n Coloca la <color=grey> ficha de Personaje Hombre gris</color> en el lugar señalado.
+EventAddOutsideSearchToken.button1,Continuar
+EventYouCanWalkOutside.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventYouCanWalkOutside.button1,Continuar
+EventFreeEnterLibrary.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEnterLibrary.button1,Continuar
+EventCheckMorePlayersLibrary.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventCheckMorePlayersLibrary.button1,Continuar
+EventFreeEnterStudyBilliard.button1,Continuar
+EventFreeEntranceStairs.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEnterStudyBilliard.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceStairs.button1,Continuar
+EventFreeEntranceStairsMUSTDO.text,<b>Avanza obligatoriamente 1 espacio hacia la zona explorada</b>.
+EventFreeEntranceStairsMUSTDO.button1,Continuar
+EventCarpetCheckPassNoStairs.text,<i>Estupendo, esta llave de plata te será útil</i>. \n\n Ganas el Objeto único {c:QItemSilverKey}. \n\n A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventCarpetCheckPassWithStairs.button1,Continuar
+EventPlaceEntrance.button1,Continuar
+EventPlaceLivingRoom.text,<i>La sala de estar comunal. Aquí el ambiente era relajado, los médicos hablaban con los pacientes, los pacientes podían fumar y, a veces, incluso podían mirar por la ventana...</i>
+EventPlaceLivingRoom.button1,Continuar
+EventAddChest.text,Un baúl en un rincón de la habitación. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddChest.button1,Continuar
+EventAddExploreDraLittle.text,<i>Parece ser la puerta a un despacho. Te llevaron allí con cierta frecuencia, tu caso era especial</i>. \n\n Coloca una <color=red>ficha de Exploración</color> en el lugar señalado.
+EventAddExploreDraLittle.button1,Continuar
+EventAddSearchWindow.text,<i>Estas ventanas dan a la calle, tal vez si miras un poco a través de ellas puedas recordar algo de los alrededores.</i> \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventAddSearchWindow.button1,Continuar
+EventAddCigarreteTable.text,<i>Una mesa en la que la gente se reunía cuando quería fumar</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddCigarreteTable.button1,Continuar
+EventAddDraLittleImage.text,<i>Una foto, tienes la impresión de que conoces a esa persona de algo</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventAddDraLittleImage.button1,Continuar
+EventPlaceOldMan.text,<i>Un paciente, sentado con expresión ausente</i>. \n\n Coloca la <color=purple>ficha de Personaje Hombre morado</color> en el lugar señalado.
+EventPlaceOldMan.button1,Continuar
+EventPlaceOffice.text,<i>El despacho de la Dra. Little.</i> \n\n Coloca el módulo {c:TileT13_Office}. A continuación descarta esta <color=red> ficha de Exploración </color>.
+EventPlaceOffice.button1,Continuar
+EventAddPapersOnTheOffice.text,Hay unos papeles sobre el escritorio de la Dra. Little. Estás de suerte, hoy no está trabajando hasta tarde. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventAddPapersOnTheOffice.button1,Continuar
+EventOpenChest.text,Está cerrado, pero no hay problemas, la cerradura parece sencilla. Usando la fuerza bruta no crees que puedas abrirlo, ya que el cofre es extremadamente robusto. \n\n Tendrás que intentarlo de un modo más... inteligente {agility}.
+EventOpenChest.button1,Continuar
+EventOpenChestSuccess.text,<i>Consigues abrir el cofre. ¡Seguro que le vas a dar un buen uso a esto! \n\n Ganas el Objeto común {c:QItemChestLight}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventOpenChestSuccess.button1,Continuar
+EventOpenChestFail.button1,Continuar
+EventBrokenVase.button2,Fallo
+EventSearchSmokingTable.text,<i>Vaya, cuántos cigarrillos, algunos incluso están encendidos, así que será mejor que tengas cuidado {observation}.
+EventSearchSmokingTable.button1,Continuar
+EventCheckSmokingTablePass.text,<i>De acuerdo, tal vez eso sirva.</i> \n\n Ganas el Objeto común Velas.
+EventCheckSmokingTablePass.button1,Continuar
+EventCheckSmokingTableFail.text,¡Qué desastre, se te han caído los cigarrillos que aún estaban encendidos en la alfombra! Tu descuido tiene consecuencias sobre la vieja alfombra. \n\n Sin duda vas a llamar la atención del manicomio, menudo barullo, no ha sido suficiente para traer a alguien aquí, pero has hecho ruido</i>. \n\n Coloca un <color=orange>ficha de Fuego</color> en el lugar de la <color=yellow>ficha de Búsqueda</color>.
+EventCheckSmokingTableFail.button1,Continuar
+EventTalkCrazyManAllQuestions.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventTalkCrazyManAxe.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventTalkCrazyManHowToGetOut.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventTalkCrazyManHowToGetOut.button1,{action} —<i>¿Cómo puedo salir de aquí?</i>
+EventWhyYouWantToCut.text,—<i>¡Cortar! ¡Vaya! ¡Porque me encanta cortar cosas! JAJA. Creo que te voy a hacer picadillo a ti también. JAJA
+EventWhyYouWantToCut.button1,Continuar
+EventHowToGetOutCrazyMen.text,—<i>¿De qué estás hablando? Y luego dicen que el loco soy yo..</i>.
+EventHowToGetOutCrazyMen.button1,Continuar
+EventCrazyManDamage.text,El viejo loco intenta morderte. Sufres 1 de Daño boca abajo (anulado por {agility}).
+EventCrazyManDamage.button1,Continuar
+EventCrazyManNoTalk.text,—<i>¡Déjeme en paz!</i>
+EventCrazyManNoTalk.button1,Continuar
+EventTalkCrazyManAxe.button2,—<i>No importa</i>
+EventTalkCrazyManHowToGetOut.button2,—<i>No importa</i>
+EventFourthBedroomPapers.text,Algunos papeles como extrañas letras. Todavía estás embotado por los efectos de las drogas, pero intentas leer los papeles ({lore}; 2).
+EventFourthBedroomPapers.button1,Éxito
+EventFourthBedroomPapers.button2,Fallo
+EventFourthBedroomSeachFail.text,<i>No...nada... no entiendes nada de nada</i>.
+EventFourthBedroomSeachFail.button1,Continuar
+EventFourthBedroomSearchSuccess_VAR1.button1,Continuar
+EventFourthBedroomSearchSuccess_VAR2.text,<i>Son notas que tomaste cuando tratabas de ocultar las pruebas por todo el manicomio. Lees una:</i> <i>«...Los celadores y la Dra. Little no suelen pasar por el jardín, voy a dejar algo allí, o puedo ponerlo en el bolsillo del interno que visita el jardín cada noche. Nunca se cambia de ropa, ni se dará cuenta». </i> \n\n Ganas <color=green> 1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventThirdRoomCabinet.text,<i>Parece estar atascado. Tendrás que hacer algo de fuerza si quieres abrirlo</i> {strength} (1).
+EventThirdRoomCabinet.button1,Éxito
+EventThirdRoomCabinet.button2,Fallo
+EventOpenThirdBedroomCabinetFail.text,No tienes fuerza suficiente para abrirla.
+EventOpenThirdBedroomCabinetFail.button1,Continuar
+EventOpenThirdBedroomCabinetSuccess.text,Una ayudita extra. Esto te puede ayudar en tu caminata nocturna. Ganas el Objeto común {c:QItemThirdRoom}. \n\n Ganas <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventOpenThirdBedroomCabinetSuccess.button1,Continuar
+EventSearchOutsideEVIDENCE.text,Buscas entre las brasas y encuentras un papel casi intacto. \n Intentas sacarlo {agility} (1) y {observation} (1). \n\n Para tener éxito debes pasar ambas pruebas realizando tiradas por separado para cada atributo.
+EventSearchOutsideEVIDENCE.button1,Éxito
+EventSearchOutsideEVIDENCE.button2,Fallo
+EventOutsideEvidenceFail.text,Metes los dedos entre las brasas, pero no eres lo suficientemente rápido y te quemas los dedos. Sufres 1 de Daño boca abajo.
+EventOutsideEvidenceFail.button1,Continuar
+EventOutsideEvidencePass.text,Hábilmente separas las brasas y recoges el papel, parece ser importante. Sí, sin duda, son las hojas de tu viejo diario. \n\n Ganas el Objeto único {cQItemGiveEvidenceOutside}. \n\n Descarta la <color=yellow> ficha de Búsqueda </color> y ganas <color=green> 1 Pista {clue} </color>.
+EventOutsideEvidencePass.button1,Continuar
+EventLastFailOutside.text,<i>Te has quemado ya los dedos tantas veces tratando de conseguir el papel, que crees que pueda no ser tan relevante. Renuncias</i>. Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventLastFailOutside.button1,Continuar
+TokenBooksAtLibrary.button2,{action} Leer algo útil
+EventReadInTheLibrary.text,Coges unos libros e intentas leerlos. Te encantaba leer, entiendes lo que pone en ellos, ¿pero acaso te podrían servir de algo? {lore} (1).
+EventReadInTheLibrary.button1,Éxito
+EventReadInTheLibrary.button2,Fallo
+EventSearchInTheLibrary.text,<i>Hum, vamos a ver lo que hay aquí, puede que haya algo que me ayude a recordar los días cuando no estaba aquí.</i> {observation} (2).
+EventSearchInTheLibrary.button1,Éxito
+EventSearchInTheLibrary.button2,Fallo
+EventSearchInLibraryPass.text,Encuentras un estupendo libro en la estantería. \n\n Ganas el Objeto común {c:QItemFoundBook}. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>. \n\n Además encuentras una cajita muy curiosa.
+EventSearchInLibraryPass.button1,Continuar
+EventSearchInLibraryFail.text,<i>No, desafortunadamente no encuentras nada. ¿Pero qué pasa contigo? \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventSearchInLibraryFail.button1,Continuar
+EventReadInLibrarySuccess.text,<i>Un libro de medicina. Bueno, era de esperar que alguien tuviese uno en un manicomio. Lo mejor es que puedes poner en práctica lo que enseña el libro</i>. \n\n Ganas el Objeto común {c:QItemReadInLibrary}.\n\n A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventReadInLibrarySuccess.button1,Continuar
+EventOpenDoorToKitchen.text,<i>¡La cocina y el comedor! ¡Por supuesto!</i> \n\n Coloca el módulo {c:TileT11_DiningRoom} y descarta la <color=red> ficha de Exploración</color> en el lugar señalado.
+EventOpenDoorToKitchen.button1,Continuar
+EventPlaceSearchKitchen.text,Algunas de tus pertenencias están en una esquina de la mesa de comer. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceSearchKitchen.button1,Continuar
+EventLookCloserLovecraft.text,<i>Mirando más de cerca te das cuenta de que se trata de un famoso escritor. Incluso algunas personas del manicomio son lectores suyos. Hay algo raro en el cuadro </i> {observation}.
+EventLookCloserLovecraft.button1,Continuar
+EventLovecraftTestPass.text,<i>Sí, como sospechabas, es un cuadro falso. Descuelgas el cuadro de la pared y pones una mano sobre el fondo falso. Sin duda, no esperaban que alguien lo encontrase</i>. \n\n Ganas el Objeto común {c:QItemLovecraftItem}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventLovecraftTestPass.button1,Continuar
+EventLovecraftOk.text,<i>Hum, no hay nada que te resulte muy sorprendente en este cuadro, pero hace te sientas más seguro</i>. \n\n Ganas <color=green> 1 Pista {clue} </color>. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventLovecraftOk.button1,Continuar
+EventLovecraftFail.text,<i>No... no... ¿Sería él el padre de todas esas cosas horribles que te aterrorizan cada noche? ¿Qué es eso? ¿Es un truco de tu mente o es real?</i> \n\n Descarta esta <color=yellow> ficha de Búsqueda. </color>
+EventLovecraftFail.button1,Continuar
+SpawnCultistLovecraft.button1,Continuar
+EventSearchLittleEvidence.text,<i>Buscas entre los papeles algo que te pueda sacar de este sitio. Sabes que la Dra. Little no cree que estés loco, bueno, quizá un poco, pero eso no viene ahora a cuento</i>. \n\n Para descubrir algo útil debes pasar una prueba de {will} (1) y de {observation} (1). \n\n Para tener éxito debes superar ambas pruebas realizando tiradas por separado para cada atributo.
+SpawnCultistLovecraft.text,<i>Es uno de sus seguidores, ¿o era seguidor mío? ¡Lo veo por todas partes!</i>
+EventSearchLittleEvidence.button1,Éxito
+EventSearchLittleEvidence.button2,Fallo
+EventLittleSearchPass.text,¡Ajá! ¡Encontraste algo útil!
+EventLittleSearchPass.button1,Continuar
+EventNoFailOutside.text,<i>Has encontrado una prueba irrefutable: La Dra. Little escribió que no estás loco. ¿Y por qué no le dice eso a los demás para que te dejen salir?</i>\n\n Ganas el Objeto único {c:QItemConclusiveEVIDENCE} y <color=green>1 Pista {clue}</color>. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventNoFailOutside.button1,Continuar
+EventCheckIFOutsideFail.text,La Dra. Little no tiene uno, sino dos informes que demuestran que tú y los otros investigadores hospitalizados no estáis locos. Esto debería ser más que suficiente para salir de aquí. \n\n Ganas los Objetos únicos {c:QItemMissingLinkEVIDENCE}, {c:QItemConclusiveEVIDENCE} y <color=green> 1 Pista {clue} </color> \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventCheckIFOutsideFail.button1,Continuar
+EventPlaceBallroom.button1,Continuar
+EventLittleSearchFailFirst.button1,Continuar
+EventPlaceBallroom.text,Coloca el módulo {c:TileT15_LateralRoom_4_5_Players} en el lugar señalado.
+EventLittleSearchFailSecond.button1,Continuar
+EventLittleFailCount.button1,Continuar
+EventLittleFailCount.text,<i>Maldita sea, aquí nada tiene sentido, tendrás que centrarte más</i>. \n\n Sufres 1 de Horror boca abajo.
+EventPlacePianoToken.text,En un rincón hay un piano de cola. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlacePianoToken.button1,Continuar
+EventPlaceJoyceLittle.text,<i>La Dra. Joyce Little. Parece que ha bebido un poco</i>. \n\n Coloca la <color=orange> ficha de Personaje de Joyce </color> en el lugar señalado.
+EventPlaceJoyceLittle.button1,Continuar
+EventLittleFailSearchThird.text,<i>Estás cansado de buscar. Es inútil.\n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventLittleFailSearchThird.button1,Continuar
+EventTalkWithLittleAllQuestions.button1,{action} —<i>¿Puede usted darme el alta? </i>
+EventTalkWithLittleLeaveMeAlone.button1,Continuar
+EventTalkWithLittleWhereIsMyStuff.button1,{action} —<i>¿Dónde están mis cosas?</i>
+EventTalkWithLittleWhereIsMyStuff.button2,—<i>No importa</i>
+EventTalkWithLittleWhereIsMyStuff.text,—<i>Jajaja, otro que no está en su cama. Me vais a matar. A ver, ¿qué quieres, cariño?</i>
+EventTalkWithLittleRelease.text,—<i>Jajaja, otro que no está en su cama. Me vais a matar. A ver, ¿qué quieres, cariño?</i>
+EventTalkWithLittleRelease.button1,{action} —<i>¿Puede usted darme el alta? </i>
+EventWhereIsMyStuffAllQuestions.text,—<i>No tengo idea de lo que estás hablando, vuelve a dormirte de nuevo</i>.
+EventWhereIsMyStuffAllQuestions.button1,Continuar
+EventAskLittleRelease.button1,Éxito
+EventAskLittleRelease.button2,Fallo
+EventAskLittleReleasePass.text,—<i>Ah, sí, tú. De hecho, esto iba a pasar tarde o temprano, tengo el informe en mi oficina. Podemos verlo... luego, ¿de acuerdo, cariño?</i> \n\n Ganas <color=green> 1 Pista {clue} </color>.
+EventAskLittleRelease.text,<i>Empiezas tu tarea de intentar convencer a la Dra. Little de que debería dejarte salir, y que incluso sería una buena idea</i> {influence} (2)
+EventAskLittleReleasePass.button1,Continuar
+EventYouAskTooMuch.text,—<i>Haces muchas preguntas, cariño. Voy a llamar a alguien para que te lleve a la cama</i>. \n\n Descarta la <color=orange>ficha de Personaje de Joyce Little</color>.
+EventYouAskTooMuch.button1,Continuar
+SpawnDraLittleBodyguard.text,Alguien ha venido para llevarte a la cama. Los métodos empleados para ello no son nada, digámoslo así, delicados. \n\n Coloca un celador en el lugar señalado. Estos celadores son unos cavernícolas, llegan haciendo <i>ruido</i>.
+SpawnDraLittleBodyguard.button1,Continuar
+EventCountEvidenceFirePlaceFive.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCountEvidenceFirePlaceFive.button1,Continuar
+EventCountEvidenceFirePlaceFour.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCountEvidenceFirePlaceFour.button1,Continuar
+EventCountEvidenceFirePlaceThree.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCountEvidenceFirePlaceThree.button1,Continuar
+EventCountEvidenceFirePlaceTwo.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCountEvidenceFirePlaceTwo.button1,Continuar
+EventCountEvidenceFirePlaceOne.text,<i>La primera prueba. Por algo se empieza</i>.
+EventCountEvidenceFirePlaceOne.button1,Continuar
+EventSearchTableEVIDENCE.text,<i>Ah, sí, ahora recuerdas por qué te sentabas siempre aquí: cada vez que tenías una oportunidad, dentro de una pata hueca de la mesa, escondías las pruebas que te pudiesen sacar de este lugar</i>. \n\n Para conseguir cogerlas necesitarás poner a prueba tu {strength} (1) y tu {agility} (1). \n\n Para tener éxito debes pasar ambas pruebas, haciendo una tirada por separado para cada atributo.
+EventSearchTableEVIDENCE.button1,Éxito
+EventSearchTableEVIDENCE.button2,Fallo
+EventLiftKitchenTablePass.text,<i>Bien, has conseguido levantar la mesa y sacar la prueba \n que dejaste guardada aquí, ¡muy bien! </i> \n\n Ganas <color=green> 1 Pista {clue} </color>. A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventLiftKitchenTablePass.button1,Continuar
+EventKitchenEvidenceFail.text,<i>No has sido ni lo suficientemente rápido ni fuerte para coger la prueba. \n Quizá deberías descansar un poco, sí.</i> \n\n Sufres 1 de Daño boca abajo.
+EventKitchenEvidenceFail.button1,Continuar
+EventFailKitchenThree.text,<i>Lo has intentado pero estás agotado, será mejor dejarlo estar. Seguro que aquí no hay nada relevante</i>. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventFailKitchenThree.button1,Continuar
+EventCountEvidenceKitchen5.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCountEvidenceKitchen5.button1,Continuar
+EventCountEvidenceKitchen4.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCountEvidenceKitchen4.button1,Continuar
+EventCountEvidenceKitchen3.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCountEvidenceKitchen3.button1,Continuar
+EventCountEvidenceKitchen2.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCountEvidenceKitchen2.button1,Continuar
+EventCountEvidenceKitchen1.text,Primera pista, por algo se empieza.
+EventCountEvidenceKitchen1.button1,Continuar
+EventCountEvidenceOutside5.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCountEvidenceOutside5.button1,Continuar
+EventCountEvidenceOutside4.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCountEvidenceOutside4.button1,Continuar
+EventCountEvidenceOutside3.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCountEvidenceOutside3.button1,Continuar
+EventCountEvidenceOutside2.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCountEvidenceOutside2.button1,Continuar
+EventCountEvidenceOutside1.text,Tu primera pista, por algo se empieza.
+EventCountEvidenceOutside1.button1,Continuar
+EventLookLittleImage.text,<i>Posas tu mirada sobre la foto de la Dra. Little. ¿Es una buena médico? ¿O sus métodos son poco ortodoxos? Buscando respuestas intentas sacar esta información a la luz desde lo más profundo de tu mente {will} (1).
+EventLookLittleImage.button1,Éxito
+EventLookLittleImage.button2,Fallo
+EventLittleImageFail.text,<i>No hay duda de que no es la persona más dulce que hayas conocido</i>. Sufres 1 de Horror boca abajo. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventLittleImageFail.button1,Continuar
+EventLittleImagePass.text,<i>Ella no le haría daño ni a una mosca, es algo que te reconforta</i>.\n Descarta 1 de Horror boca abajo. \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventLittleImagePass.button1,Continuar
+EventEnoughEvidences.text,¡Has logrado abrirlo y tienes suficientes pruebas!
+EventEnoughEvidences.button1,Continuar
+EventNotEnoughEvidences.text,Has logrado abrir el candado, pero todavía no tienes suficientes pruebas...
+EventNotEnoughEvidences.button1,Continuar
+EventPlaceBallroomWindow.text,<i>Una ventana que da a la parte de atrás del manicomio</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlaceBallroomWindow.button1,Continuar
+EventFreeEntranceBallroom.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceBallroom.button1,Continuar
+TokenWindowBallroom.text,<i>Esta ventana da a la calle de detrás del manicomio. No tienes ni idea de para qué puede valer mirar eso, pero...</i>
+TokenWindowBallroom.button1,{action} Mirar por la ventana
+EventLookBallroomWindow.text,<i>Miras por la ventana y piensas en lo agradable que sería poder dar una vuelta por la calle. Eh, espera, ¿qué es eso? </i>{observation} (1).
+EventLookBallroomWindow.button1,Éxito
+EventLookBallroomWindow.button2,Fallo
+EventBallroomWindowFail.text,<i>Has visto una de esas pesadillas caminando por la calle. A pesar de que sabes que existen, es la primera vez que ves una andando por la calle</i>. \n\n Sufres 1 de Horror y descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventBallroomWindowFail.button1,Continuar
+EventBallroomWindowPass.text,Es sólo una ancianita caminando por la calle. Debería estar en casa a estas horas, pero al menos te alegra saber que es seguro caminar por las calles de este barrio por la noche. \n\n Descarta 1 de Horror. A continuación, descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventBallroomWindowPass.button1,Continuar
+EventSearchSofaEVIDENCE.text,<i>Metes las manos entre los cojines del sofá. Parece que hay algo ahí, pero apenas consigues palparlo. \n\ Pones a prueba tu {observation} (2) y tu {strength} (2). Para tener éxito tienes que superar las dos pruebas realizando tiradas por separado para cada atributo.
+EventSearchSofaEVIDENCE.button1,Éxito
+EventSearchSofaEVIDENCE.button2,Fallo
+EventSuccessBilliardsEVIDENCE.button1,Continuar
+EventFailBilliardsEVIDENCE.text,<i>Hum, qué raro, no eres capaz de encontrar lo que estás buscando. Sin embargo, estás convencido de que aquí hay algo extraño.</i>
+EventSuccessBilliardsEVIDENCE.text,<i>Lo lograste. Realmente sí que tenías algo que no fuese basura. Son fotos que prueba que no estás loco. \n\n Ganas el Objeto único {c:QItemFirstEvidence}. Descarta esta <color=yellow>ficha de Búsqueda</color>. Ganas <color=green>1 Pista {clue}</color>.
+EventFailBilliardsEVIDENCE.button1,Continuar
+EventBrokenVase.text,Buscas algo útil en medio de este lío {observation} (1).
+EventBrokenVase.button1,Éxito
+EventOpenChestFail.text,<i>No... todavía no es suficiente. Tendrás que darte más prisa</i>.
+EventBrokenVaseSuccess.text,<i>Vaya, esto puede que te sirva</i>. \n\n Ganas el Objeto común {c:QItemBrokenVase}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventBrokenVaseSuccess.button1,Continuar
+EventBrokenVaseFail.text,<i>No, aquí no hay nada que te sirva. \n\n Mientras tanto, recuerdas un poco de lo que pasó. Fue esa noche, justo después de haber escondido una pequeña caja en la biblioteca. ¿Te acuerdas de eso? Te llevaron a esa habitación por el lío que estabas armando, pero no se dieron cuenta de lo que escondiste. ¡Qué panolis!</i>. \n\n <i>En aquella ocasión se emplearon con mucha fuerza. Tu brazo te está doliendo otra vez</i>. Sufres 1 de Daño boca abajo. \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventBrokenVaseFail.button1,Continuar
+TokenPiano.button2,{action} Buscar pruebas
+EventPlayPiano.text,<i>Comienzas a tocar, y tus dedos se mueven con facilidad pulsando las teclas. \n\n Parece que tocando las teclas en el orden correcto has movido algo que estaba dentro del piano</i>. \n\n Aunque has tenido cuidado, tocar el piano ha hecho <i>ruido</i>, aunque parece que no ha molestado a nadie en el manicomio.
+EventPlayPiano.button1,Continuar
+EventCheckIfPlayed.text,Después de tocar un par de notas observas que hay algo  atascado entre las palancas. No te gustaría hacer mucho ruido tratando de cogerlo. \n\n Pones a prueba tu {agility} (1) y tu {strength} (1). \n\n Para tener éxito debes pasar ambas pruebas, realizando tiradas por separado para cada atributo.
+EventCheckIfPlayed.button1,Éxito
+EventCheckIfPlayed.button2,Fallo
+EventSearchPianoDidntPlay.text,<i>No, no hay nada que te haga pensar que ese piano pueda tener algo que te sirva como prueba.</i>
+EventSearchPianoDidntPlay.button1,Continuar
+EventPianoSuccessEVIDENCE.text,Consigues sacar lo que estaba escondido sin hacer ruido. Es una prueba obtenida en una anterior investigación que llevabas a cabo, pero que nunca se la enseñaste a nadie.\n\n Ganas el Objeto único {c:QItemPianoEVIDENCE}. \n\n A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventPianoSuccessEVIDENCE.button1,Continuar
+EventPianoFailEVIDENCE.text,Metes tus dedos entre las cuerdas del piano, pero sin querer te lastimas. Sufres 1 de daño boca abajo.
+EventPianoFailEVIDENCE.button1,Continuar
+EventPianoFailTwo.text,A pesar de que vuelves a fallar, consigues sacar algo, pero has hecho mucho ruido, despertando una enfermera que está como loca para llevarte cariñosamente a dormir. \n\n Descarta la <color=yellow> ficha de Búsqueda </color> y la <color=orange> ficha de Personaje de Joyce</color>.
+EventPianoFailTwo.button1,Continuar
+EventCountPianoEvidence5.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCountPianoEvidence5.button1,Continuar
+EventCountPianoEvidence4.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCountPianoEvidence4.button1,Continuar
+EventCountPianoEvidence3.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCountPianoEvidence3.button1,Continuar
+EventCountPianoEvidence2.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCountPianoEvidence2.button1,Continuar
+EventCountPianoEvidence11.text,Tu primera pista, por algo se empieza.
+EventCountPianoEvidence11.button1,Continuar
+EventTalkWithFireladyAllQuestions.text,—<i>Aquí estoy tan calentita, ¿usted no? Sabe, creo que no debería estar aquí. \n\n Pero bueno, qué más da, tampoco creo que debiera estar ahí fuera. Lo cierto es que no tengo ni idea de cuál es mi lugar.</i>
+EventFireLadyNotHere.button1,{action} —<i>Yo no debería estar aquí</i>
+EventFireLadyNotOutside.text,—<i>Aquí estoy tan calentita, ¿usted no? Sabe, creo que no debería estar aquí. \n\n Pero bueno, qué más da, tampoco creo que debiera estar ahí fuera. Lo cierto es que no tengo ni idea de cuál es mi lugar.</i>
+EventFireLadyNotOutside.button1,{action} —<i>Yo no debería estar ahí fuera</i>
+EventFireLadyWantsToRest.text,—<i>Eh, quiero descansar un poco, no hablar</i>.
+EventFireLadyWantsToRest.button1,—<i>De acuerdo</i>
+EventShouldntBeHere.text,—<i>Aah, todos dicen eso, yo tampoco debería estar aquí, pero ya se sabe, es mejor así. La comida es excelente, te gusta, confiésalo, no sales de la cocina</i>. \n\n Ganas <color=green> 1 Pista {clue} </color>.
+EventShouldntBeHere.button1,Continuar
+EventShouldntBeOutside.text,—<i>¿De verdad crees que quien fuese capaz de ver eso debería estar ahí?</i> \n\n La imagen de la mujer comienza a desvanecerse en tu mente. \n\n Descarta la <color=orange>ficha de Personaje</color>.
+EventShouldntBeOutside.button1,Continuar
+EventCheckEvidenceLittle5.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCheckEvidenceLittle5.button1,Continuar
+EventCheckEvidenceLittle4.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCheckEvidenceLittle4.button1,Continuar
+EventCheckEvidenceLittle3.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle3.button1,Continuar
+EventCheckEvidenceLittle2.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle2.button1,Continuar
+EventCheckEvidenceLittle1.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle1.button1,Continuar
+EventCheckEvidenceLittle51.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCheckEvidenceLittle51.button1,Continuar
+EventCheckEvidenceLittle41.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle41.button1,Continuar
+EventCheckEvidenceLittle31.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle31.button1,Continuar
+EventCheckEvidenceLittle21.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCheckEvidenceLittle21.button1,Continuar
+EventCheckEvidenceLittle11.text,Tu primera pista, por algo se empieza.
+EventCheckEvidenceLittle11.button1,Continuar
+EventReadLibraryJournal.text,<i>Este diario no es el tuyo, es de otra persona. Leer este diario es entrometerse en la vida de alguien</i> {influence} (1).
+EventReadLibraryJournal.button1,Éxito
+EventReadLibraryJournal.button2,Fallo
+EventReadLibraryJournalFail.text,<i>Opinas que leer el diario de alguien es ser demasiado entrometido, mejor dejarlo pasar. Te sientes mal por haber intentado invadir la privacidad de alguien</i>. \n\n Sufres 1 de Horror boca abajo. \n\n A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventReadLibraryJournalFail.button1,Continuar
+EventReadLibraryJournalPass.text,<i>Decides leerlo. No da demasiados detalles de la vida personal, pero hay algunas notas sobre ti: \n\n «<i>El sujeto de estudio no está loco, sé que esas cosas que él cuenta existen y voy a poner todas las pruebas en un informe. \n\n Dra. Little</i>». \n\n Ganas <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventReadLibraryJournalPass.button1,Continuar
+EventAddVitorBlake.text,<i>Este es el cocinero</i>. \n\n Coloca la <color=green> ficha de Personaje de Víctor Blake </color> en el lugar señalado.
+EventAddVitorBlake.button1,Continuar
+EventAddSearchTokenKitchenCabinet.text,<i>La alacena de la cocina está abierta, quizá puedas encontrar algo interesante</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventAddSearchTokenKitchenCabinet.button1,Continuar
+TokenKitchenCabinet.text,<i>La alacena de la cocina está desordenada, como siempre. Quizá puedas encontrar algo interesante.</i>
+TokenKitchenCabinet.button1,{action} Buscar
+EventSearchKitchenToken.text,Mientras estás buscando en el armario de la cocina, varias cosas comienzan a caer sobre ti {agility}(1).
+EventSearchKitchenToken.button1,Éxito
+EventSearchKitchenToken.button2,Fallo
+EventKitchenCabinetPass.text,Consigues esquivar todo lo que se ha caído y, lo que es más importante, no has hecho ruido y has encontrado algo que te será útil más adelante. \n\n Ganas el Objeto común {c:QItemKitchenCabinet}. A continuación descarta esta <color=yellow>ficha de Búsqueda </color>.
+EventKitchenCabinetPass.button1,Continuar
+EventKitchenCabinetFail.text,<i>No consigues apartarte de la avalancha de cuchillos y ollas. Uno de los cuchillos te hiere en el brazo</i>. Sufres 1 de Daño boca abajo. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>. \n\n El <i>ruido</i> que has hecho ha llamado la atención. \n\n El cocinero ha salido corriendo. Descarta la <color=green>ficha de Personaje de Víctor Blake</color>. \n\n Los celadores encargados de la seguridad del manicomio vendrán a ver qué ha pasado.
+EventKitchenCabinetFail.button1,Continuar
+SpawnKitchenSecurity.text,Coloca un celador en la puerta de la cocina.
+SpawnKitchenSecurity.button1,Continuar
+EventTalkOldManAllQuestions.text,—<i>Hum, ¿Qué pasa?</i>
+EventTalkOldManWhyHere.button1,{action} —<i>¿Por qué está aquí, en el manicomio?</i>
+EventLeaveMeAlone.text,—<i>Oh, hijo, son muchas preguntas para mi cerebro a estas horas de la noche. Pregúnteme mañana, ¿de acuerdo?
+EventLeaveMeAlone.button1,—<i>De acuerdo</i>
+EventWhyOldManIsHere.text,—<i>Verá, yo no estoy loco, simplemente me abandonaron aquí. Mi familia no tiene tiempo para mí, tampoco es que yo quisiera mucho, sólo unos pocos minutos de conversación todos los días. \n Aquí los tengo. \n ¿Acaso pido mucho?</i> \n\n Su historia te conmueve. Pon boca abajo 1 de Horror. \n\n Prosigue con su relato: \n\n —<i>Puedo irme en cualquier momento, el código del candado de la salida es... ah, vaya, ahora no lo recuerdo, pero seguro que tiene un 3</i>.
+EventWhyOldManIsHere.button1,Continuar
+EventFeelThePain.button1,Continuar
+EventOldManHowToEscape.text,—<i>¿Qué? ¿Qué quiere escaparse? \n\n ¡Eso no está bien! ¡Seguridad! ¡Seguridad!</i>
+EventFeelThePain.text,<i>Sientes el dolor que está sintiendo</i>. Pon boca arriba 1 de Horror
+EventOldManHowToEscape.button1,Continuar
+SpawnBodyGuardLivingRoom.text,Con todo el <i>ruido</i> que has hecho, aparece un celador para llevarte a la cama. \n\n Y parece decidido a poner fin a tus viajes nocturnos. \n\n Descarta la <color=purple> ficha de Personaje Hombre morado</color>.
+SpawnBodyGuardLivingRoom.button1,Continuar
+EventTalkOldManHowToEscape.text,—<i>Hum, ¿Qué pasa?</i>
+EventTalkOldManWhyHere.text,—<i>Hum, ¿Qué pasa?</i>
+TokenInteractionExitAlternative0.button1,{action} Intentar abrirla {will}
+TokenExit4_5Players0.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+Event0SetupAlternatives.button1,Continuar
+EventRandomScenario1.text,Estáis separados dentro del manicomio.
+Event0SetupAlternatives.text,<i>Estás en el manicomio de Providence y recuerdas sólo algunas partes de él. \n\n Pasar la mayor parte del tiempo bajo el efecto de drogas te ha amansado y ha borrado tu memoria reciente, especialmente los lugares a los que sueles ir aquí. \n\n Las siguientes partes son las que todavía recuerdas.</i>
+EventRandomScenario1.button1,Continuar
+EventRandomScenario2_3orMorePlayers.button1,Continuar
+EventRandomScenario2_2Players.button1,Continuar
+EventRandomScenario3.text,Estáis separados dentro del manicomio.
+EventRandomScenario3.button1,Continuar
+EventRevealExitIF4_5Players_Variation1.button1,Continuar
+TokenExploreMiddleCorridorVariation2.button1,{action} Abrir
+EventPlaceExploreTokenToExit_Var1.text,<i>Esta puerta, ¡ah, sí! No... no recuerdas haber ido allí muy a menudo</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+TokenExploreMiddleCorridorVariation2.text,<i>Esta puerta lleva a un lugar al que no solías ir mucho, y encima parece que está cerrada con llave</i>.
+EventPlaceExploreMiddleCorridorDoor_Var2.text,<i>Esta puerta, ¡ah, sí! No... no recuerdas haber ido allí muy a menudo</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceExploreTokenToGarden_Var1.text,<i>Tal vez en algún momento escuchaste el sonido de pájaros a través de esa puerta</i>. \n\n Coloca una <color=red>ficha de Exploración</color> en el lugar señalado.
+EventPlaceExploreTokenToExit_Var2.button1,Continuar
+TokenToExit_Var2.text,<i>Esta puerta lleva a un lugar al que no solías ir mucho, y encima parece que está cerrada con llave</i>. \n\n Puedes tratar de encontrar la llave o forzar la puerta porque la cerradura no parece ser fácil de descifrar, pero tal vez eso llame la atención innecesariamente. \n\n Te das cuenta de que la cerradura es plateada.
+TokenToExit_Var2.button1,{action} Intentar echarla abajo
+EventTryToExit_VAR2.button1,Continuar
+TokenToExit_Var2.button2,{action} Usar <i>Llave de Plata</i>
+EventPlaceExit_VAR2.text,<i>Esta es la entrada del manicomio. Algunos clientes o pacientes esperan aquí antes de ser llevados a las habitaciones. Caminar por aquí estaba, en cierto modo, permitido.</i> \n\n Coloca el módulo {c:TileLobbyExitAlternative} en el lugar señalado y descarta todas las <color=red> fichas de Exploración </color> que conducen a él.
+EventPlaceExit_VAR2.button1,Continuar
+EventTryToExit_VAR2.text,Intentas echar abajo la puerta {strength}.
+EventSpawnBodyGuardExit_VAR2.text,Has hecho mucho ruido y has llamado la atención.
+EventSpawnBodyGuardExit_VAR2.button1,Continuar
+SpawnBodyGuardExitNOSOA_VAR2.text,<i>Has despertado a un celador del manicomio</i>. \n\n Coloca el celador en módulo {c:TileLobbyExitAlternative} en el lugar señalado. <i>Al menos este es real</i>.
+SpawnBodyGuardExitNOSOA_VAR2.button1,Continuar
+SpawnBodyGuardExitSOA_VAR2.text,<i>Has despertado a un celador del manicomio</i>. \n\n Coloca el celador en módulo {c:TileLobbyExitAlternative} en el lugar señalado. <i>Al menos este es real</i>.
+SpawnBodyGuardExitSOA_VAR2.button1,Continuar
+EventPlaceExitToken_VAR2.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+EventPlaceExitToken_VAR2.button1,Continuar
+EventPlaceKitchen_VAR2.text,<i>Esta puerta... mmm... ¡Sí! Se usa en las comidas</i>. \n\n Coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceKitchen_VAR2.button1,Continuar
+EventPlaceGarden_VAR2.text,Por las mañanas se oye el canto de los pájaros al otro lado de esta puerta. \n\n Coloca un <color=red>ficha de Exploración</color> en el lugar señalado.
+EventPlaceGarden_VAR2.button1,Continuar
+EventPlaceWallTokensExit_VAR2.text,Coloca las fichas de Pared en el vestíbulo.
+EventPlaceWallTokensExit_VAR2.button1,Continuar
+EventCheckIf3PlayersFinalize_VAR2.button1,Continuar
+EventCheckIf3PlayersFinalize_VAR2.text,<i>Tal vez en algún momento escuchaste el sonido de pájaros a través de esa puerta</i>. \n\n Coloca una <color=red>ficha de Exploración</color> en el lugar señalado.
+TokenToGarden_VAR2.text,<i>Por las mañanas podías oír el trinar de las aves que venía del otro lado de esa puerta</i>.
+TokenToGarden_VAR2.button1,{action} Abrir
+EventToGarden_VAR2.text,<i>Venías poco al jardín, pero aunque hubieses venido mucho tampoco lo recordarías</i>. \n\n Coloca el módulo {c:TileT99_Garden_5Players} como se indica.
+EventToGarden_VAR2.button1,Continuar
+TokenToKitchen_VAR2.text,<i>Parece que todavía falta algo en el manicomio, para que sea de verdad un manicomio. Creo que esta habitación es la que le falta al manicomio para tener todo lo necesario<i>.
+TokenToKitchen_VAR2.button1,{action} Abrir
+EventToKitchen_VAR2.text,<i>¡La cocina y el comedor! ¡Por supuesto!</i> \n\n Coloca el módulo {c:TileKitchenAlternative} y descarta la <color=red> ficha de Exploración</color> en el lugar señalado.
+EventToKitchen_VAR2.button1,Continuar
+EventExitAlreadyRevealed.text,Aunque esta información ahora sale a la superficie en tu mente, nada de esto es nuevo en este momento. Tu aguda observación no te ayudó mucho esta vez. \n\n Ganas <color=green> 2 Pistas {clue} </color>.
+EventExitAlreadyRevealed.button1,Continuar
+EventWindowLookOutLivingRoom.text,<i>Miras por la ventana tratando de encontrar algo que tenga sentido, tratando de recrear una escena en tu mente. \n\n Quizá encuentres a alguien que te pueda ayudar, tal vez recuerdes cómo salir</i> {observation}.
+EventWindowLookOutLivingRoom.button1,Continuar
+EventPlayBilliard.text,<i>Cerrada, está claro</i>. Quizá puedas forzarla {strength} (2).
+EventPlayBilliard.button1,Éxito
+EventPlayBilliard.button2,Fallo
+EventBilliardDidntHit.text,<i>Genial, no ha sido muy elegante, incluso has hecho algo de <i>ruido</i>, pero al menos se ha abierto.</i>
+EventBilliardDidntHit.button1,Continuar
+EventBilliardHit.text,Parece que la cerradura no se ha movido siquiera. Al mover el baúl observas que tiene el nombre de la propietaria escrito: <i>«Dra. Little»</i>.
+EventBilliardHit.button1,Continuar
+EventEarnItemBilliard.text,Encuentras una llave. No parece ser la llave de la puerta del pasillo, su color no coincide con el de la cerradura. <i>¿Será una llave maestra? ¿Será para usarla en otro sitio?</i> \n\n Ganas el Objeto único {c:QItemBilliard}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventEarnItemBilliard.button1,Continuar
+SpawnStudyImageMonster2.text,<i>Esto no se parece a nada de lo que hay en la Tierra, parece ser algo de otra dimensión. ¿O será algo que tu mente está creando? No importa, parece muy real.</i>
+SpawnStudyImageMonster2.button1,Continuar
+EventFourthBedroomSearchSuccess_VAR1.text,<i>¡Son hechizos! Palabras que sólo tú sabes pronunciar. No te van a servir como prueba, pero seguro que les encuentras otra utilidad</i>. \n\n Ganas <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventFourthBedroomSearchSuccess_VAR2.button1,Continuar
+TokenCrazyManInGarden2.text,<i>Un paciente mirando los árboles. A pesar de ser un jardín, la valla es demasiado alta para poder escapar de aquí... Parece que está dudando</i>.
+TokenCrazyManInGarden2.button1,Hablar
+TokenOutsideFlowers2.text,Algunas flores en el arriate. Te llaman la atención y parece que las han revuelto, o al menos no están en la posición en la que las había plantado el jardinero.
+TokenOutsideFlowers2.button1,{action} Examinar
+EventPlaceFlowersOutside_VAR2.text,Algunas flores, sin duda, no están en su posición original. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceFlowersOutside_VAR2.button1,Continuar
+EventAddCrazyManOutside_2.text,<i>Un hombre en el jardín. ¿Era un interno o un empleado? Te encantaría poder recordarlo para hacerle las preguntas adecuadas, pero no lo recuerdas</i>. \n\n Coloca la <color=orange> ficha de Personaje Hombre gris</color> en el lugar señalado.
+EventAddCrazyManOutside_2.button1,Continuar
+EventCrazyManNoTalk_VAR2.button1,Continuar
+EventTalkCrazyManAllQuestions_VAR2.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventCrazyManNoTalk_VAR2.text,—<i>¡Déjeme en paz!</i>
+EventTalkCrazyManAllQuestions_VAR2.button1,{action} —<i>¿Tiene usted mis pertenencias? </i>
+EventTalkCrazyManAllQuestions_VAR2.button2,{action} —<i>¿Y para qué quieres cortarlos?</i>
+EventTalkCrazyManAllQuestions_VAR2.button3,Escabullirse
+EventTalkCrazyManAxe_VAR2.button1,{action} —<i>¿Y para qué quieres cortarlos?</i>
+EventTalkCrazyManAxe_VAR2.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventTalkCrazyManHowToGetOut_VAR2.text,—<i>¡Guau! ¡Estos árboles son enormes! Si tuviera un hacha seguramente los cortaría!</i>
+EventTalkCrazyManHowToGetOut_VAR2.button1,{action} —<i>¿Tiene usted mis pertenencias? </i>
+EventDoYoHaveMyBelonging.text,—<i>Hum... ¿Y cómo sé que usted es usted? ¿Cómo sé que yo soy yo? ¿Cómo se si lo que me está pidiendo es lo que tengo en el bolsillo? Hay tantas preguntas...</i> \n\n Vas a tener que convencer al viejo usando tu {influence} (1) y tu {will} (1). \n\n Para tener éxito debes pasar ambas pruebas, realizando una tirada por separado para cada atributo.
+EventDoYoHaveMyBelonging.button1,Éxito
+EventDoYoHaveMyBelonging.button2,Fallo
+EventSuccessCrazyManOutside.button1,Continuar
+EventSuccessCrazyManOutside.text,El hombre parece confiar en ti. Saca de su bolsillo un cuaderno arrugado. Sin duda, son hojas de tu antiguo diario. \n\n Ganas la prueba {c:QItemGiveEvidenceOutside} y <color=green>1 Pista {clue}</color>.
+EventOutsideBelongingFail3.button1,Continuar
+EventOutsideBelongingFail3.text,Después de insistirle tanto al viejo, parece enojado, tal vez él no quiera hablar más.
+EventFailOutsideCrazyMan.text,—<i>Lo siento, no puedo confiar en usted.</i>
+EventFailOutsideCrazyMan.button1,Continuar
+EventRandomScenario2_3orMorePlayers.text,Estáis separados dentro del manicomio.
+EventRandomScenario2_2Players.text,Estáis separados dentro del manicomio.
+EventSuccessSearchBedroom1Evidence.text,<i>Encuentras unas notas, son tuyas, tienen tu letra, no son una prueba, pero pueden ser útiles. \n\n «Me gusta ir a la habitación que está en la mitad del pasillo, me encantaría poder ir todos los días». \n\n Parece algo inconexo, pero te acuerdas de que, si alguien encontrase esas notas, le parecería que no tienen sentido, pero tú sabes que sí que valen para algo</i>. \n\n Ganas <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda </color>.
+EventSuccessSearchBedroom1Evidence.button1,Continuar
+EventPlaceSearchCabinet.text,<i>Un armario donde sin duda la Dra. Little guarda los documentos importantes y los remedios más fuertes</i>. \n\n Coloca una <color=yellow>ficha de Búsqueda</color> en el lugar señalado.
+EventPlaceSearchCabinet.button1,Continuar
+EventEnterLittleOffice.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventEnterLittleOffice.button1,Continuar
+EventPlaceBellTower.text,<i>Este es el campanario del manicomio de Providence, no recuerdas si has estado aquí antes. ¿Para qué ibas a venir? </i> \n\n Coloca el módulo {c:TileBellTower} en el lugar señalado y descarta esta <color=red> ficha de Exploración </color>.
+EventPlaceBellTower.button1,Continuar
+EventPlaceSearchBellTower.text,<i>Esta es la campana, funciona, recuerdas claramente los momentos en los que suena la campana. Por lo general, para identificar el almuerzo, tu momento favorito</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceSearchBellTower.button1,Continuar
+EventMoveBellTower.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMoveBellTower.button1,Continuar
+EventOpenDoorToKitchenSOA.text,—<i>¡El comedor! ¡Por supuesto!</i>\n Coloca el módulo {c:TileDinnerSOA} como se indica y descarta la <color=red> ficha de Exploración </color>.
+EventOpenDoorToKitchenSOA.button1,Continuar
+EventAddSearchPreferedTableSOA.button1,Continuar
+TokenPreferedDinnerPlaceSOA.text,<i>Este era tu lugar favorito cuando venías a cenar. Es posible que hayas dejado algo escondido aquí</i>.
+EventAddSearchPreferedTableSOA.text,<i>Esa era tu mesa favorita, de eso sí que te acuerdas</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+TokenPreferedDinnerPlaceSOA.button1,{action} Examinar
+EventAddBlakeSOA.text,<i>Es de Víctor Blake, el cocinero. No se da cuenta de tu presencia, está distraído organizando la encimera</i>. \n\n Coloca la <color=green> ficha de Personaje de Víctor Blake </color> en el lugar señalado.
+EventAddBlakeSOA.button1,Continuar
+TokenKitchenCabinetSOA.text,<i>El armario que está debajo del mostrador está, como siempre, desordenado. Pero quizá puedas encontrar algo interesante aquí</i>.
+TokenKitchenCabinetSOA.button1,{action} Buscar
+EventPlaceKitchenCabinetSOA.text,Hay un armario donde se almacenan algunos utensilios de cocina. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceKitchenCabinetSOA.button1,Continuar
+EventFreeEntranceKitchenSOA.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceKitchenSOA.button1,Continuar
+SpawnKitchenSecuritySOA.text,Coloca un celador en la puerta de la cocina.
+SpawnKitchenSecuritySOA.button1,Continuar
+TokenVictorBlakeSOA.text,<i>El cocinero Víctor Blake. No se ha dado cuenta de que estás aquí. Por lo general nadie viene aquí tan tarde.</i>
+TokenVictorBlakeSOA.button1,Hablar
+TokenCornerSit_VAR2.text,<i> A pesar de que eres alguien discreto, de vez en cuando te permitías alguna extravagancia: te sentabas siempre en una punta de la mesa. Ese era tu sitio favorito</i>.
+TokenCornerSit_VAR2.button1,{action} Examinar
+TokenKitchenCabinet_VAR2.text,<i>La alacena de la cocina está desordenada, como siempre. Quizá puedas encontrar algo interesante.</i>
+TokenKitchenCabinet_VAR2.button1,{action} Buscar
+TokenVictorBlake_VAR2.text,<i>El cocinero Víctor Blake. No se ha dado cuenta de que estás aquí. Por lo general nadie viene aquí tan tarde.</i>
+TokenVictorBlake_VAR2.button1,Hablar
+EventAddCornerSit_VAR2.text,Algunas de tus pertenencias están en una esquina de la mesa de comer. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventAddCornerSit_VAR2.button1,Continuar
+EventAddVictorBlake_VAR2.text,<i>Este es el cocinero</i>. \n\n Coloca la <color=green> ficha de Personaje de Víctor Blake </color> en el lugar señalado.
+EventAddVictorBlake_VAR2.button1,Continuar
+EventPlaceKitchenCabinet_VAR2.text,<i>La alacena de la cocina está abierta, quizá puedas encontrar algo interesante</i>. \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceKitchenCabinet_VAR2.button1,Continuar
+TokenBell.text,<i>Esta es la campana del manicomio de Providence. \n Parece que es la primera vez que la ves</i>.
+TokenBell.button1,{action} Golpear la campana
+EventHitTheBell.text,Golpeas la campana, es muy pesada {strength}.
+EventHitTheBell.button1,Continuar
+EventBellStrengthTooWeak.text,<i>Nada, como si nada. No se ha movido ni un milímetro</i>.
+EventBellStrengthTooWeak.button1,Continuar
+EventBellStrengthJustRight.text,Golpeas la campana, que se sacude pero no emite ningún sonido, lo cual supone en realidad un gran alivio para ti. <i>¿Pero qué se te ha podido pasar por la cabeza para tocar la campana a estas horas de la noche? Bueno, al menos parece que algo que te podría servir y que estaba oculto en la campana se ha caído al golpearla</i>. \n\n Ganas el Objeto común {c:QItemBell}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventBellStrengthJustRight.button1,Continuar
+EventBellStrengthToStrong.text,Golpeas la campana, que se sacude y hace un gran <i> ruido </i>. Esto llamará la atención de la gente que hay en el manicomio. <i>¿Pero qué se te ha podido pasar por la cabeza para tocar la campana a estas horas de la noche? Bueno, al menos parece que algo que te podría servir y que estaba oculto en la campana se ha caído al golpearla</i>. \n\n Ganas el Objeto común {c:QItemBell}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventBellStrengthToStrong.button1,Continuar
+SpawnBellTower.button1,Continuar
+SpawnBellTowerSOA.text,Coloca un celador del manicomio en la entrada del campanario en el lugar señalado.
+SpawnBellTower.text,Coloca un celador del manicomio en la entrada del campanario en el lugar señalado.
+SpawnBellTowerSOA.button1,Continuar
+EventFreeEntranceKitchen_VAR2.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceKitchen_VAR2.button1,Continuar
+TokenLittleOfficeCabinet.text,<i>El armario del despacho de la Dra. Little.</i>
+TokenLittleOfficeCabinet.button1,{action} Examinar
+EventSearchDraLittleCabinet.text,Buscas algo que te pueda servir: un medicamento, una prescripción, cualquier cosa que te sirva para salir de aquí {observation} (1).
+EventSearchDraLittleCabinet.button1,Continuar
+EventDraLittleCabinetFail.text,<i>No, no hay nada</i>. Desistes en tu búsqueda.\n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventDraLittleCabinetFail.button1,Continuar
+EventDraLittleCabinetTooMuch.text,<i>Has encontrado algo de información, pero lo que encontraste... no es lo que querías. Son pruebas que demuestran que los horrores son reales. Eso ya lo sabías. Pero todas esas imágenes te perturban más de lo debido</i>. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventDraLittleCabinetTooMuch.button1,Continuar
+EventDraLittleCabinetPass.text,Encontraste algo que la Dra. Little guarda en este armario. Te fijas en que el diario de la Dra. Little está abierto por la página de hoy: \n\n «<i>{rnd:hero} no sufre ningún tipo de patología, pero yo, bajo mi punto de vista, prefiero mantenerlo sedado. El informe debe de ser suficiente para que esta persona se vaya ya».</i> " \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>. Ganas <color=green>1 Pista {clue}</color>.
+EventDraLittleCabinetPass.button1,Continuar
+EventDraLittleItemSOA.text,Además de la información también puedes coger el Objeto común {c:QItemDraLittleCabinetItemSOA}
+EventDraLittleItemSOA.button1,Continuar
+EventDraLittleItem.text,Además de la información también puedes coger el Objeto común {c:QItemDraLittleCabinetItem}
+EventDraLittleItem.button1,Continuar
+SpawnDraLittleMonster.text,Coloca un monstruo en la entrada de la oficina de la Dra. Little, en el lugar señalado.
+SpawnDraLittleMonster.button1,Continuar
+SpawnDraLittleMonsterSOA.text,Coloca un monstruo en la entrada de la oficina de la Dra. Little, en el lugar señalado.
+SpawnDraLittleMonsterSOA.button1,Continuar
+EventDoYouRememberMe.text,—<i>Vaya, pues claro que me acuerdo de usted. De hecho creo que es usted el que no recuerda las cosas—se encoge de hombros—. Bueno, no importa, coja lo que necesite de la cocina y váyase, no voy a unirme a su plan, pero tampoco voy a tratar de detenerlo.</i> \n\n Descarta la <color=green> ficha de Personaje de Víctor Blake </color>.
+EventDoYouRememberMe.button1,Continuar
+EventWhyAwake.text,—<i>Habíamos acordado que le ayudaría, ¿o ya lo ha olvidado? \n\n Bueno, no importa, coja lo que necesita de la cocina y me voy distraer a cualquier celador que me encuentre por el camino. Buena suerte</i>. \n\n Descarta la <color=orange>ficha de Personaje de Víctor Blake</color>. Ganas 1 Pista <color=green>{clue}</color>.
+EventWhyAwake.button1,Continuar
+EventRemoveSecurity.text,Si hay un celador andando por la mansión, le puedes causar un daño igual a su vida y retirarlo de la partida.
+EventRemoveSecurity.button1,Continuar
+EventTimingCountDown.text,El tiempo avanza a medida que tratáis salir.
+EventTimingCountDown.button1,Continuar
+EventCD_2P_One.text,Son las 23:00 horas.
+EventCD_2P_One.button1,Continuar
+EventCD_2P_Two.text,Es medianoche.
+EventCD_2P_Two.button1,Continuar
+EventCD_2P_Three.text,Es la 01:00, tienes otras 5 horas.
+EventCD_2P_Three.button1,Continuar
+EventCD_2P_Four.text,Son las 2:00 de la madrugada. El tiempo vuela.
+EventCD_2P_Four.button1,Continuar
+EventCD_2P_Five.text,Son las 03:00. Tres horas más en esta mansión y todo estará perdido.
+EventCD_2P_Five.button1,Continuar
+EventCD_2P_Eight.text,Son las 6:00 a.m.. Todo el mundo está despierto, ahora será imposible salir.
+EventCD_2P_Eight.button1,Continuar
+EventCD_2P_Six.text,Son las 04:00. El tiempo se está acabando.
+EventCD_2P_Six.button1,Continuar
+EventCD_2P_Seven.text,Son las 5:00, los pájaros empiezan a trinar en el exterior. A las 6:00 a.m. todo el mundo estará de despierto.
+EventCD_2P_Seven.button1,Continuar
+EventCD_3P_4P_One.text,Son las 23:00 horas.
+EventCD_3P_4P_One.button1,Continuar
+EventCD_3P_4P_Two.text,Es medianoche.
+EventCD_3P_4P_Two.button1,Continuar
+EventCD_3P_4P_Three.text,Es la 01:00, tienes otras 5 horas.
+EventCD_3P_4P_Three.button1,Continuar
+EventCD_3P_4P_Four.text,Son las 2:00 de la madrugada. El tiempo vuela.
+EventCD_3P_4P_Four.button1,Continuar
+EventCD_3P_4P_Eight.text,Son las 6:00 a.m.. Todo el mundo está despierto, ahora será imposible salir.
+EventCD_3P_4P_Eight.button1,Continuar
+EventCD_3P_4P_Seven.text,Son las 5:00, los pájaros empiezan a trinar en el exterior. A las 6:00 a.m. todo el mundo estará de despierto.
+EventCD_3P_4P_Seven.button1,Continuar
+EventCD_3P_4P_Six.text,Son las 04:00. El tiempo se está acabando.
+EventCD_3P_4P_Six.button1,Continuar
+EventCD_3P_4P_Five.text,Son las 03:00. Tres horas más en esta mansión y todo estará perdido.
+EventCD_3P_4P_Five.button1,Continuar
+EventCD_5P_Eight.text,Son las 6:00 a.m.. Todo el mundo está despierto, ahora será imposible salir.
+EventCD_5P_Eight.button1,Continuar
+EventCD_5P_Seven.text,Son las 5:00, los pájaros empiezan a trinar en el exterior. A las 6:00 a.m. todo el mundo estará de despierto.
+EventCD_5P_Seven.button1,Continuar
+EventCD_5P_Six.text,Son las 04:00. El tiempo se está acabando.
+EventCD_5P_Six.button1,Continuar
+EventCD_5P_Five.text,Son las 03:00. Tres horas más en esta mansión y todo estará perdido.
+EventCD_5P_Five.button1,Continuar
+EventCD_5P_Four.text,Son las 2:00 de la madrugada. El tiempo vuela.
+EventCD_5P_Four.button1,Continuar
+EventCD_5P_Three.text,Es la 01:00, tienes otras 5 horas.
+EventCD_5P_Three.button1,Continuar
+EventCD_5P_Two.text,Es medianoche.
+EventCD_5P_Two.button1,Continuar
+EventCD_5P_One.text,Son las 23:00 horas.
+EventCD_5P_One.button1,Continuar
+UIUIIntroductionContinueText.uitext,Continuar
+UIUIIntroductionContinueText.button1,Continuar
+UIUIIntroductionText.uitext,<i>Te miras en el espejo pero ya no eres el mismo, no eres capaz de reconocer a quien quiera que sea, <b>ése no eres tú</b>. \n\n Después de varias investigaciones, algunas resueltas de manera más exitosa que otras, estás convencido de que necesitas un descanso. \n\n Dormir una noche entera es algo que no te sucede desde tu última aventura. Fue entonces cuando tuviste la certeza de que la humanidad no fue la primera especie inteligente en la Tierra. Y lo que es peor: que aún siguen aquí, y que se les adora como si fuesen dioses. ¿Qué futuro estarán planeando esos dioses? Las pesadillas son cada vez más frecuentes y sigues sin encontrar respuestas. \n\n En una de esas noches, cierras los ojos, y las pesadillas vienen de nuevo, de algún modo son más vivas que en otras ocasiones, de algún modo te sientes como si te estuvieran arrastrando con ellas, gritan tu nombre... pero... no son horrores... son personas...
+UIIntroductionContinueText2.uitext,Continuar
+UIUIIntroductionText1.uitext,No fue un sueño. Tu amigo, preocupado por tu estado mental, decidió hospitalizarte de forma obligatoria. Se encargó de todo junto con la Dra. Little, sin hablarlo contigo. \n Tú no estás loco, esas cosas existen, pero sin duda todos esos horrores afectaron a tu cordura y te volvieron un poco loco, loco quizá para vivir en sociedad. \n\n Tus días en el manicomio de Providence son opacos, la mayor parte del tiempo estás bajo sedación pero hoy en particular te sientes lo suficientemente bien como para ser capaz de caminar solo. Incluso has conseguido razonar y tomar tus propias decisiones.\n Esta puede ser tu oportunidad de demostrar que, a pesar de todo lo sucedido, no eres un peligro para la sociedad. \n\n Salir del manicomio no será lo más difícil. Luchar contra tu mente, en cambio, sí que lo será. \n Cuando te sacaron de tu casa también se llevaron unas pertenencias que no te preguntaron para qué servían. Si consiguieses encontrarlas y pudieses contar tu versión de la historia, quizá haya muchas posibilidades de que te comprendan.
+UIIntroductionContinueText2.button1,Continuar
+SpawnBodyGuardLivingRoom_2.text,Con todo el <i>ruido</i> que has hecho, aparece un celador para llevarte a la cama. \n\n Y parece decidido a poner fin a tus viajes nocturnos. \n\n Descarta la <color=purple> ficha de Personaje Hombre morado</color>.
+SpawnBodyGuardLivingRoom_2.button1,Continuar
+EventAskLittleReleaseFail.text,—<i>Oh, sois tan graciosos, me encanta trabajar con vosotros. Pero hoy no, cariño, ¿de acuerdo? \n\n Voy a llamar a alguien para que te lleve a la cama, \n\n Descarta la <color=orange> ficha de Personaje de Joyce</color>.
+EventAskLittleReleaseFail.button1,Continuar
+EventCheckNoise.text,<i>Has hecho mucho ruido en el manicomio de Providence a lo largo de la noche. La posibilidad de salir por la puerta principal, con la cabeza bien alta, queda cada vez más lejos. Tal vez deberías pensar en algo más drástico y dramático. ¿Qué tal una fuga?</i>
+EventCheckNoise.button1,Continuar
+EventPlaceAlternativeExit.text,<i>Podrías romper la ventana, aunque eso creará aún más confusión, pero ¡qué demonios!</i> \n\n Coloca una <color=yellow> ficha de Búsqueda </color> en el lugar señalado.
+EventPlaceAlternativeExit.button1,Continuar
+TokenWindowEscape.text,<i>Si no puedes salir por las buenas, será por las malas</i>. Puedes tratar de romper el cristal para salir de aquí.
+TokenWindowEscape.button1,{action} Romper el cristal
+EventBrakeWindow.button1,Éxito
+EventBrakeWindow.button2,Fallo
+EventBrakeWindow.text,El cristal no es muy resistente, aun así tendrás que hacer algo de fuerza {strength}.
+EventBrokeWindowFail.text,No ha sido suficiente como para romperla.
+EventBrokeWindowFail.button1,Continuar
+EventBrokeWindowPass.text,<i>Bien hecho, has roto el cristal, ahora además de loco eres un vándalo. Pero no importa, lo importante es salir</i>. \n\n Descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventBrokeWindowPass.button1,Continuar
+EventRevealOutside.text,<i>La calle, la libertad te espera</i>. \n\n Coloca el módulo {c:TileOutsideStreet} en el lugar señalado.
+EventRevealOutside.button1,Continuar
+EventRevealOutsideSOA.text,<i>La calle, la libertad te espera<i>. \n\n Coloca el módulo {c:TileOutsideStreetSOA} en el lugar señalado.
+EventRevealOutsideSOA.button1,Continuar
+EventOutsideStreetTwo.text,<i>Para asegurarte de que nadie te seguirá tendrás que alejarte lo suficiente \n\n Coloca el módulo {c:TileOutsideStreetTwo} en el lugar señalado.
+EventOutsideStreetTwo.button1,Continuar
+TokenOutsideExit.text,Aquí se está lo suficientemente lejos.
+TokenOutsideExit.button1,{action} Huir
+EventPlaceOutsideExitToken.text,Aquí se está lo suficientemente lejos, coloca una <color=cyan> ficha de Interacción </color> en el lugar señalado.
+EventPlaceOutsideExitToken.button1,Continuar
+EventJumpFromWindow.text,Debes avanzar obligatoriamente 1 espacio hacia la zona explorada. \n\n Si posees el Objeto único <i>Soga</i>, desciendes usando la soga y llegas a la calle sin problemas. \n\n En caso contrario, debes saltar. Sufres 2 de Daño (anulados por {agility}).
+EventJumpFromWindow.button1,Continuar
+EventOutsideStreetTwoSOA.text,<i>Para asegurarte de que nadie te seguirá tendrás que alejarte lo suficiente \n\n Coloca el módulo {c:TileOutsideStreetTwoSOA} en el lugar señalado.
+EventOutsideStreetTwoSOA.button1,Continuar
+EventPlaceOutsideTokenSOA.text,Aquí se está lo suficientemente lejos, coloca una <color=cyan> ficha de Interacción </color> en el lugar señalado.
+EventPlaceOutsideTokenSOA.button1,Continuar
+TokenOutsideExitSOA.text,Aquí se está lo suficientemente lejos.
+TokenOutsideExitSOA.button1,{action} Huir
+UIGameOverText.uitext,FIN
+UIGameOverText.button1,FIN
+UIEndTextSuccess.uitext,Habéis conseguido salir del manicomio de Providence con todas las pruebas y por la puerta principal, como personas dignas que han demostrado su cordura y su inocencia. \n\n La Dra. Little es la primera en disculparse. Los informes que en los que había estado trabajando, sin darse mucha prisa, llegaban a esa conclusión, pero para ella erais unos buenos pacientes ¿o más bien unos buenos clientes? \n\n Al regresar a casa, volvéis a dormir por fin de un tirón. Quizá después de todo el tratamiento ha funcionado, de algún modo. \n\n Es difícil saber cuánto tiempo va a durar, tal vez hasta la próxima aventura. Al fin y al cabo, no sabéis estaros quietos y sabéis que ahí fuera hay terribles horrores y falsos dioses que deben ser combatidos. \n\n <b>¡La investigación ha sido un éxito! ¡Felicidades! </b> \n
+UIEndGameWinAlternativeText.uitext,Habéis conseguido salir del manicomio de Providence, pero ni con todas las pruebas y ni por la puerta principal, como personas dignas que hubiesen demostrado su cordura y su inocencia. \n\n Ahora hay varias personas en las calles, tratando de apresaros. Los periódicos de la ciudad publican titulares como el de «Locos se fugan del manicomio de Providence». Os parece de lo más curioso que al lado hay otro titular que pone «El presidente aprueba el uso de medicamentos no seguros». Una curiosa coincidencia. \n\n Probablemente será difícil que os mantengáis ocultos durante mucho tiempo, así que tal vez sea mejor que reunáis las pruebas necesarias para demostrar vuestra cordura volviendo al manicomio. \n\n <b>Este es un final alternativo. La investigación ha sido un éxito parcial</b>.
+UIGameOverLongText.uitext,Es el fin, ya es demasiado tarde, ya no se puede escapar, al menos no esta noche. \n\n A pesar de todos tus intentos por reunir pruebas, por desgracia, la historia no puede ser contada en su totalidad, todavía hay partes que no están suficientemente claras y la Dra. Little manda que te den una gran dosis de drogas. \n\n Quizá ella tenga razón, tal vez nada de esto existe y todo es producto de tu mente. Para ti es tan real que quizá tal vez sería mejor que simplemente permanezcas fuera de la circulación. La sociedad ya tiene suficientes locos andando sueltos por ahí, y en algunos lugares hasta llegan a presidentes... eh... espera, esto último igual no es tan mala idea. \n\n ¿Quién sabe? Tal vez tengas la ocasión de escapar del manicomio de Providence en otra ocasión.
+quest.name,Las secuelas del horror v1.03
+quest.authors,<i>Creado por:</i> Revokee \n <i>Traducción al español:</i> Vidimus
+quest.authors_short,Revokee
+EventFlowerSearch.text,Comienzas a buscar entre las flores y los arbustos {observation} (2).
+EventFlowerSearch.button1,Éxito
+EventFlowerSearch.button2,Fallo
+EventSearchFlowersSuccess.text,Encontraste algo que podría servirte. \n\n Ganas el Objeto común {c:QItemFlowers}. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventSearchFlowersSuccess.button1,Continuar
+EventSearchFlowersFail.text,<i>No... no parece tener nada relevante</i>.
+EventSearchFlowersFail.button1,Continuar
+TokenCatState0.button1,{action} Acariciar
+EventPetCatFirstTime.text,<i>El gato ronronea. Recuerdas que le tienes un cariño especial al animal.</i> \n\n Descarta 1 Horror boca abajo.
+TokenCatState0.text,—<i>¡MIAAAAAU!</i>
+EventPetCatFirstTime.button1,Continuar
+EventCheckLivingRoom.text,El gato se mueve hacia su lugar favorito.
+EventCheckLivingRoom.button1,Continuar
+EventMoveTheCat.text,Coloca la ficha de Personaje Gato sobre la silla en el lugar señalado.
+EventMoveTheCat.button1,Continuar
+EventPlaceCatOnLivingRoom.text,Ahora que le has abierto la puerta al gato, éste se va a su silla favorita. \n\n Mueve la <color=orange>ficha de Personaje Gato</color> a la silla, en el lugar señalado.
+EventPlaceCatOnLivingRoom.button1,Continuar
+EventPlaceCat.text,<i>Tal vez ha sido el gato del manicomio. El recuerdo que tienes de él es que es manso</i>. \n\n Coloca la <color=orange>ficha de Personaje Gato</color> en el lugar señalado.
+EventPlaceCat.button1,Continuar
+EventAddDog.text,<i>Un perro, y como no venías mucho al jardín no sabrías decir si era manso o no</i>. \n\n Coloca la <color=orange> ficha de Personaje Perro</color> en el lugar señalado.
+EventAddDog.button1,Continuar
+TokenDogState0.text,—<i>¡Guau, guau, guau! Grrrr...</i>
+TokenDogState0.button1,{action} Acariciar
+EventPetDog.text,Intentas acariciarlo, pero el perro recula. No es muy manso, te lanza una dentellada y comienza a ladrar, haciendo mucho <i>ruido</i>. \n\n Es normal que los perros ladren por la noche, nadie viene a comprobar qué está pasando, por suerte. \n\n Sufres 1 de Daño boca abajo (anulado por {agility}) y descarta la <color=orange>ficha de Personaje Perro</color>.
+EventPetDog.button1,Continuar
+EventPlacePuzleLibrary.text,<i>Esta caja era tuya, la habrás escondido aquí en algún momento. Sabías que estaría a salvo, porque sólo tú eres capaz de entender su modo de apertura</i>. \n\n Coloca la <color=cyan>ficha de Interacción</color> en el lugar señalado.
+EventPlacePuzleLibrary.button1,Continuar
+TokenLibraryPuzle.text,<i>Una pequeña caja cerrada, que una vez fue tuya</i>.
+TokenLibraryPuzle.button1,Intentar abrir {lore}.
+PuzzleLibrary.button1,Abrir
+EventGiveExtraEvidence.text,<i>Abres la cajita. En su interior habías guardado una prueba que te ayudará a probar tu cordura</i>. \n\n Ganas el Objeto único {c:QItemExtraEvidence} y 1 Pista <color=green>{clue}</color>. A continuación descarta esta <color=cyan>ficha de Interacción</color>.
+EventGiveExtraEvidence.button1,Continuar
+TokenCatState1.text,—<i>Miaaaaau.</i>
+TokenCatState1.button1,{action} Acariciar
+EventPetCatSecondTime.text,<i>El gato ronronea. Recuerdas que le tienes un cariño especial al animal.</i> \n\n Descarta 1 Horror boca abajo.
+EventPetCatSecondTime.button1,Continuar
+EventMoveTheCat2.text,<i>Por supuesto, el gato es de la Dra. Little</i>. \n\n Se va hasta la silla y se sienta. \n\n Mueve la <color=orange>ficha de Personaje Gato</color> al lugar señalado.
+EventMoveTheCat2.button1,Continuar
+TokenCatState2.text,—<i>Miaaaaau.</i>
+TokenCatState2.button1,Cancelar
+EventCheckCatPet.text,<i>Parece que el gato no estaba de acuerdo con tu búsqueda entre las pertenencias de su propietaria. Empieza a maullar muy alto, llamando la atención, por lo que hace ruido. \n\n La gente del manicomio suele ignorar los maullidos del gato, pero no estos que seguramente llamarán la atención de alguien.</i>
+EventCheckCatPet.button1,Continuar
+EventCheckExtraEvidenceCount5.text,Ahora tienes al menos 5 pruebas. Debería ser suficiente para que todos podáis salir del manicomio.
+EventCheckExtraEvidenceCount5.button1,Continuar
+EventCheckExtraEvidenceCount4.text,Ahora tienes 4 pruebas. ¿Serán suficientes?
+EventCheckExtraEvidenceCount4.button1,Continuar
+EventCheckExtraEvidenceCount3.text,Ahora tienes 3 pruebas. ¿Serán suficientes?
+EventCheckExtraEvidenceCount3.button1,Continuar
+EventCheckExtraEvidenceCount2.text,Ahora tienes 2 pruebas. ¿Serán suficientes?
+EventCheckExtraEvidenceCount2.button1,Continuar
+EventCheckExtraEvidenceCount1.text,Tu primera pista, por algo se empieza.
+EventCheckExtraEvidenceCount1.button1,Continuar
+SpawnBrokenWindowBodyGuards.text,El personal del manicomio no está dispuesto a dejarte escapar. \n\n Coloca un celador en la entrada de la sala de estar, en el lugar señalado. \n\n Recuerda que nadie puede morir.
+SpawnBrokenWindowBodyGuards.button1,Continuar
+EventOpenChestExtraSuccessKey.button1,Continuar
+EventOpenChestExtraSuccessNoKey.text,<i>Consigues abrir el cofre. ¿Pero esto qué es, un manicomio o un cuartel militar? ¡Fíjate en todo este armamento! ¿Lo tendrán aquí para usarlo en caso de un motín?</i> \n\n Ganas el Objeto común {c:QItemChestWeapon}. \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventOpenChestExtraSuccessKey.text,<i>Este baúl guarda muchas cosas, y seguramente la mayoría te serán útiles.</i> \n\n Ganas el Objeto único {c:QItemKeyToDrLittle} y el Objeto común {c:QItemChestWeapon}.\n\n A continuación descarta esta <color=yellow> ficha de Búsqueda </color>.
+EventOpenChestExtraSuccessNoKey.button1,Continuar
+EventFreeEntranceLivingRoom.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceLivingRoom.button1,Continuar
+EventSearchArcanePapersPassExtra.text,<i>Pronuncias correctamente las palabras que estaban escritas y sientes que puedes controlar un poder que nadie imaginaba que tendrías. \n\n Además eres capaz de leer unos garabatos de un médico</i>. <i> «La nueva cerradura del manicomio es ideal para los internos pero terrible para nosotros. En mi caso, es que no soy capaz de recordar nunca la combinación. La clave es... 3...». </i> Lo único legible es el segundo número de la combinación. \n\n Ganas el Hechizo <color=yellow>{c:QItemArcanePapers}</color> y <color=green>1 Pista {clue}</color>. A continuación descarta esta <color=yellow>ficha de Búsqueda</color>.
+EventSearchArcanePapersPassExtra.button1,Continuar
+EventPlaceKitchenSOA.text,<i>Esta puerta... mmm... ¡Sí! Se usa en las comidas</i>. \n\n Coloca una ficha de Pared y una ficha de Puerta. A continuación coloca una <color=red> ficha de Exploración </color> en el lugar señalado.
+EventPlaceKitchenSOA.button1,Continuar
+TokenToKitchenSOA.text,<i>Esta es la cocina, sin duda, era uno de tus lugares favoritos</i>.
+TokenToKitchenSOA.button1,{action} Abrir
+EventFreeEntranceKitchen.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventFreeEntranceKitchen.button1,Continuar
+EventCarpetCheckZero.text,<i>Nada, quizá si te concentras un poco más en la búsqueda puedas encontrar algo</i>.
+EventCarpetCheckZero.button1,Continuar
+EventDraLittleCabinetPass2.button1,Continuar
+TokenToOffice.button2,{action} Usar la <i>Llave de latón</i>
+EventDraLittleCabinetPass2.text,Encontraste algo que la Dra. Little guarda en este armario. Te fijas en que el diario de la Dra. Little está abierto por la página de hoy: \n\n «<i>{rnd:hero} no sufre ningún tipo de patología, pero yo, bajo mi punto de vista, prefiero mantenerlo sedado. El informe debe de ser suficiente para que esta persona pueda irse ya».</i> \n\n Descarta esta <color=yellow>ficha de Búsqueda</color>. Ganas <color=green>1 Pista {clue}</color>.
+EventTryToBrakeLittleOffice.text,<i>Vas a tener que usar la fuerza si quieres entrar</i> {strength} (+1 si tienes un Arma pesada).
+EventTryToBrakeLittleOffice.button1,Continuar
+EventLittleOfficeCheckPass.text,<i>Consigues abrirlo, pero haces algo de <i>ruido</i>.\n\n Es el tipo de cosas que llama la atención en el silencio de la noche.
+EventLittleOfficeCheckPass.button1,Continuar
+EventLittleOfficeCheckFail.text,<i>Nada, no se ha movido siquiera</i>.
+EventLittleOfficeCheckFail.button1,Continuar
+EventCheckIfBrokeTheOfficeDoor.text,El ruido que has hecho al intentar entrar a llamado la atención de los celadores del manicomio.
+EventCheckIfBrokeTheOfficeDoor.button1,Continuar
+EventPetDogAlternative.text,Intentas acariciarlo, pero el perro recula. No es muy manso, te lanza una dentellada y comienza a ladrar, haciendo mucho <i>ruido</i>. \n\n Es normal que los perros ladren por la noche, nadie viene a comprobar qué está pasando, por suerte. \n\n Sufres 2 de Daño boca abajo (anulados por {agility}) y descarta la <color=orange>ficha de Personaje Perro</color>.
+EventPetDogAlternative.button1,Continuar
+EventPetDogAlternative2.text,Intentas acariciarlo, pero el perro desconfía {influence} (1). \n\n Si la tirada tiene éxito, el perro se acerca, aunque desconfiado; aun así es para reconfortarte. Descarta 1 de Horror boca abajo. \n Si la tirada falla, no sucede nada.
+EventPetDogAlternative2.button1,Continuar
+PuzzleExitPuzzle.button1,Abrir
+EventPlaceSearchTokenPapersOnEndOfCorridor.button1,Continuar
+EventPlaceExit4_5Players.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+TokenInteractionExitAlternative0.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+EventAddExit.button1,Continuar
+TokenExitNoTip.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+TokenExitNoTip.button1,{action} Intentar abrirla {will}
+PuzzleExitAlternative.button1,Abrir
+TokenExit_4_5PAlternative.button1,{action} Intentar abrirla {will}
+TokenExitAlternative_VAR2.text,<i>Recuerdas que esta es la salida, pero le han puesto un candado</i>. \n\n Se puede abrir la puerta aunque no se tengan todas las pruebas. \n\n Además de poner a prueba tu {will}, cada prueba que tengas te da un paso adicional a la hora de resolver el rompecabezas. \n
+TokenExitAlternative_VAR2.button1,{action} Intentar abrirla {will}
+EventPlaceExit4_5Players_NoTip.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+EventPlaceExit4_5Players_NoTip.button1,Continuar
+EventPlaceExit_VAR2NoTip.text,<i>Esta es la salida, está cerrada con un candado con combinación numérica</i>. \n\n Coloca una <color=Cyan> ficha de Interacción </color> en el lugar señalado.
+EventPlaceExit_VAR2NoTip.button1,Continuar
+EventCheckForBrassKey.text,Metes la llave en la cerradura y la giras.
+EventCheckForBrassKey.button1,Continuar
+EventHasBrassKey.text,Con un clic, la puerta se abre sin problemas.
+EventHasBrassKey.button1,Continuar
+EventDontHaveBrassKey.text,<i>Debes de estar bien loco... No tienes la llave de esta puerta</i>. Sufres 1 de Horror boca abajo.
+EventDontHaveBrassKey.button1,Continuar
+UITraitorText.uitext,Al abrir la puerta te encuentras al otro lado con la policía. \n\n A pesar de todo el cuidado que has puesto, al final has llamado la atención, y la policía de Providence se toma muy en serio los disturbios dentro del manicomio. La Dra. Little llega rápidamente para ver lo que está pasando. \n\n Ve tus pruebas, pero nada parece tener sentido para ella. Te volverán a encerrar en el manicomio, probablemente bajo el efecto de un número aún mayor de fármacos a partir de ahora. Has abierto la puerta en el momento equivocado. Sin duda de haber tenido todas las pruebas en la mano la doctora te habría creído. \n\n ¡La investigación ha fracasado! Si había un traidor entre los investigadores, el traidor ha ganado ya que su objetivo era que la investigación fracasase.
+EventCheckBeforePlaceKitchen.text,<i>La cocina estaba por aquí...</i>
+EventCheckBeforePlaceKitchen.button1,Continuar
+SpawnSecurityExitVAR1_3P.button1,Continuar
+SpawnSecurityVAR1_4_5P.text,Has hecho demasiado ruido y los celadores van a seguir apareciendo. \n\n Coloca un celador en el lugar señalado.
+SpawnSecurityExitVAR1_3P.text,Has hecho demasiado ruido y los celadores van a seguir apareciendo. \n\n Coloca un celador en el lugar señalado.
+SpawnSecurityVAR1_4_5P.button1,Continuar
+SpawnSecurityVAR2_4_5P.text,Has hecho demasiado ruido y los celadores van a seguir apareciendo. \n\n Coloca un celador en el lugar señalado.
+SpawnSecurityVAR2_4_5P.button1,Continuar
+SpawnHorror.text,<i>Tu mente te ha vuelto a jugar una mala pasada. \n\n ¿Acaso esto es real? Por lo menos parece muy real</i>. \n\n Coloca un horrendo cazador en mitad del manicomio, en el lugar señalado.
+SpawnHorror.button1,Continuar
+quest.synopsys,Demostrar que se está cuerdo puede ser complicado. Algunos en cambio están seguros de que están locos
+SpawnLibraryOpen3P.text,<i>Lo habías olvidado, pero la habitación de al lado tenía un celador al que tus andanzas nocturnas han despertado</i>. \n\n Coloca un celador adyacente a la habitación que estaba vacía al principio.
+SpawnLibraryOpen3P.button1,Continuar
+SpawnFirePlace.text,La mujer es ahora una criatura, coloca el monstruo cerca de la chimenea.
+SpawnHuntingHorrorP1.button1,Continuar
+SpawnHuntingHorrorP2.text,<i>Uno de los horrores que te atormentan todas las noches ha escapado de tus pesadillas y ha venido a buscarte</i>. \n\n Coloca un horrendo cazador en el lugar señalado.
+SpawnHuntingHorrorP1.text,<i>Uno de los horrores que te atormentan todas las noches ha escapado de tus pesadillas y ha venido a buscarte</i>. \n\n Coloca un horrendo cazador en el lugar señalado.
+SpawnHuntingHorrorP2.button1,Continuar
+SpawnFirePlace.button1,Continuar
