@@ -1,7 +1,7 @@
 .,Spanish
 quest.name,Los salvadores (v1.8)
 quest.description,\n Una aventura para «Las Mansiones de la Locura», 2ª Edición \n Juego Base \n (Se usan componentes de la expansión «El santuario del Crepúsculo» si es posible). \n\n Durante vuestra estancia en un pueblo cercano a un lago, Víctor Denton, un viejo amigo y reciente residente del pueblo, aparece en vuestra puerta, presa de la desesperación. Su hija ha sido secuestrada y necesita ayuda para rescatarla. \n\n CARACTERÍSTICAS: \n 2 Monstruos personalizados y originales \n 3 Historia por capítulos \n Eventos de los Mitos creados para la historia \n Finales alternativos \n\n Espacio sobre la mesa: 2 x 3 módulos de largo \n\n Más cambios basados en los excelentes comentarios de los jugadores. Aumentada la dificultad a partir de las estadísticas hasta la fecha. \n ¡Gracias!
-quest.synopsys,Un amigo acude a ti en mitad de la noche: salvar a su hija secuestrada.
+quest.synopsys,Un amigo acude a ti en mitad de la noche: salva a su hija secuestrada.
 quest.authors,<i>Historia y diseño:</i> \n James Davenport \n <i>Traducción al español:</i> Anae y Vidimus
 quest.authors_short,James Davenport
 EventHeadingOut.button1,Continuar
