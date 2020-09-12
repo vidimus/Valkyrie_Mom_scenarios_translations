@@ -1,0 +1,294 @@
+.,Spanish
+quest.name,El rescate tenebroso
+quest.description,Tu esposa ha sido secuestrada. ¿Conseguirás salvarla? ¿Descubrirás acaso el final secreto? \n\n\n Este escenario tiene 3 posibles finales. Se recomienda jugar con 1 o 2 investigadores. Es una aventura introductoria para jugadores novatos. \n\n P.S.: El escenario original estaba en un archivo de Ludopedia, y como la aplicación de Valkyrie fue actualizada, este escenario se perdió. Lo que he hecho ha sido recuperar el archivo y corregir unos errores que tenía con las imágenes. \n El resto se ha dejado tal y como lo creó el autor.
+quest.authors,Autor: Fernando Pereira Heculano \n\n Escenario recuperado por: \n Paulo José de Paula Moraes Santos \n André Hanke do Amaral \n\n\n <i>Traducción al español:</i>  Vidimus
+Event0.text,EL RESCATE
+Event0.button1,Continuar
+UI0.text,Al llegar a casa, te encuentras que está toda revuelta. Asustado, buscas enseguida a tu esposa pero no la encuentras. Sobre la mesa hay una nota: \n\n «<i>Tenemos a su mujer. Diríjase a San Gonzalo, 10 km en dirección norte. Traiga la escultura. Si llama a la policía, ella morirá</i>». \n\n La escultura fue un regalo de tu abuelo, el cual solía decir que la figura otorgaba un conocimiento sobrenatural. \n\n Los secuestradores debieron tener prisa o estaban asustados porque olvidaron un arma junto a la nota. ¿O habrá sido adrede? \n\n Cada investigador recibe 2 Pistas {clue}.
+UI0.button1,Continuar
+UI1.text,Tú y un familiar de tu esposa os dirigís hacia el lugar con la escultura y el arma. \n Al llegar descubrís una pequeña casa. Todo está a oscuras y sólo la tenue luz de la luna guía vuestros pasos hasta la entrada...
+UI1.button1,Continuar
+Token1.text,La puerta conduce a una pequeña habitación.
+Token1.button1,Continuar
+EventPORTILE1.text,Al entrar en la casa encuentras una estancia poco iluminada y destartalada. Coloca los módulos {c:Tile0} y {c:Tile1} en los lugares señalados.
+EventPORTILE1.button1,Continuar
+Event1.text,Coloca una ficha de Pared en el lugar señalado
+Event1.button1,Continuar
+Event2.text,Coloca una ficha de Exploración en el lugar señalado
+Event2.button1,Continuar
+Event3.text,El recibidor tiene 4 puertas que dan acceso a otras tantas estancias de la casa.\n Coloca las fichas de Búsqueda en los lugares señalados.
+Event3.button1,Continuar
+Event4.text,Coloca las miniaturas de los investigadores en el lugar señalado.
+Event4.button1,Continuar
+Event5.text,Te das cuenta de que hay un hombre sentado en una butaca, oculto entre las sombras. \n Coloca la ficha de <b>Personaje Hombre blanco</b> en el lugar señalado.
+Event5.button1,Continuar
+Token4.text,Explorar
+Token4.button1,Continuar
+Token3.text,La puerta está entreabierta.
+Token3.button1,Continuar
+Event6.text,La puerta da a una habitación polvorienta. Descarta la ficha de Exploración y coloca el módulo {c:Tile3} y una ficha de Pared en el lugar señalado.
+Event6.button1,Continuar
+Token13.text,Te llama la atención la cama porque, a diferencia del resto de la habitación, no es vieja y mohosa.\n 
+Token13.button1,{action} Buscar
+Event7.text,Buscas y encuentras al pie de la cama algo que te puede servir. \n Ganas el Objeto {c:QItem8} y el Objeto único <i>Escultura grotesca</i>. A continuación, descarta esta ficha de Búsqueda.
+Event7.button1,Continuar
+Event8.text,Te llama la atención la cama. Coloca una ficha de Búsqueda en el lugar señalado. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event8.button1,Continuar
+Token5.text,—<i>¿Ha traído la escultura?</i>
+Token5.button1,{action} —<i>Sí, está aquí<i>.
+Token5.button2,{action} —<i>Enséñeme primero a mi esposa</i>.
+Token5.button3,{action} Atacar al hombre
+Eventmpc1.text,Cuando le muestras la estatuilla al hombre, éste sonríe.\n\n —<i>Ya no le necesito para nada más</i>—te espeta. \n\n Descarta la <b>ficha de Personaje Hombre blanco</b> y coloca un sectario en su lugar.
+Eventmpc1.button1,Continuar
+Spawn0.text,—<i>¡Muere, desdichado!</i>
+Spawn0.button1,Continuar
+EventOhomemChama.button1,Continuar
+EventMPC2.text,Saca una foto y te la enseña. Cuando te acercas para verla, intenta sorprenderte lanzándote un cabezazo ({agility}; 2).
+EventOhomemChama.text,El hombre te llama.
+EventMPC2.button1,Éxito
+EventMPC2.button2,Fallo
+EventMPC2SUC.text,Con un acto reflejo consigues desviar el golpe. \n\n Descarta la <b>ficha de Personaje Hombre blanco</b> y coloca un sectario en su mismo espacio.
+EventMPC2SUC.button1,Continuar
+EventMPC3.text,—<i>¡Maldito seas!</i>. \n\n Sacas el arma y encañonas al hombre. \n Descarta la <b>ficha de Personaje Hombre blanco</b> y coloca en su lugar un sectario.
+EventMPC3.button1,Continuar
+EventMPC2FRAC.text,No consigues desviar el golpe, que acierta de pleno en tu nuca y te deja inconsciente. \n Todos los investigadores sufren 1 de Daño boca abajo. \n\n Descarta la <b>ficha de Personaje Hombre blanco</b>.
+EventMPC2FRAC.button1,Continuar
+Event10.text,Te despiertas y te das cuenta de que estás atado al pie de un lavabo. \n hombre te quitó la escultura. \n Devuelve el Objeto único <i>Escultura grotesca</i> al mazo de Objetos únicos.\n\n Por suerte no encontró el arma que llevabas escondida. \n\n Coloca todas las miniaturas de investigadores en el lugar señalado del {c:Tile1}.
+Event10.button1,Continuar
+Token16.text,La puerta está entreabierta.
+Token16.button1,{action} Explorar
+Event11.text,La puerta está entreabierta. \n Coloca una ficha de Exploración en el lugar señalado.
+Event11.button1,Continuar
+Event12.text,En un rincón, entre la pared y la bañera hay un cuchillo oxidado caído. Logras empujarlo con el pie. \n\n Coloca el Objeto común {c:QItem6} en el lugar señalado. \n
+Event12.button1,Continuar
+Event13.text,Puedes usar aquí el cuchillo. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Event13.button1,Continuar
+Token17.text,Deslizas el cuchillo por detrás de tu cuerpo usando los pies. Intentas cortar las cuerdas con él {will}.
+Token17.button1,{action} Cortarlas
+Event14.text,Consigues soltarte. \n Ganas el Objeto único {c:Qitem7}. A continuación descarta esta ficha de Interacción.
+Event14.button1,Continuar
+Event15.text,Consigues liberarte, pero el esfuerzo realizado con las manos te deja agotado. \n Sufres 1 de Daño boca abajo. A continuación descarta esta ficha de Interacción.
+Event15.button1,Continuar
+Event16.text,Te puedes quedar las cuerdas. \n Ganas el Objeto único {c:QItem7}
+Event16.button1,Continuar
+Event17.text,Abres la puerta y regresas al pasillo principal. \n\n El hombre que te golpeó te ve salir. \n Coloca un sectario en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Event17.button1,Continuar
+Event18.text,Explorar
+Event18.button1,{action} Continuar
+Token2.button1,Continuar
+Spawn1.button1,Continuar
+Event19.text,Explorar
+Event19.button1,{action} Continuar
+Event20.text,La puerta está abierta. La habitación tiene una luz brillante en comparación con el resto de la casa. Descarta esta ficha de Exploración y coloca el módulo {c:Tile5} en el lugar señalado.
+Event20.button1,Continuar
+Event21.text,Coloca una ficha de Pared en el lugar señalado
+Event21.button1,Continuar
+Token19.text,Hay varios objetos, quizás puedas encontrar algo útil.
+Token19.button1,{action} Continuar
+EventItensAleatorios23.button1,Continuar
+Eventaleatorio1.text,Descarta la ficha de Búsqueda. Has encontrado...
+EventITEM2.button1,Continuar
+EventITEMES1.button1,Continuar
+EventITEM2.text,{c:QItem2}
+EventITEM3.text,{c:QItemest2}
+EventITEMES1.text,{c:QItemest1}
+EventITEM3.button1,Continuar
+EventITEM03.button1,Continuar
+Event22.text,{c:QItem4}
+EventITEM03.text,{c:QItem3}
+Event22.button1,Continuar
+Event23.text,{c:QItem5}
+Event23.button1,Continuar
+Event24.text,{c:QItem8}
+Event24.button1,Continuar
+Event25.text,La puerta está bloqueada. Tendrás que usar la fuerza bruta.
+Event25.button1,{action} Continuar
+Event26.text,{action} Intentas echar abajo la puerta {strength}
+Event26.button1,Continuar
+Event27.text,Consigues abrir la puerta. Descarta la ficha de Búsqueda y coloca el módulo {c:Tile4} en el lugar señalado.
+Event27.button1,Continuar
+Event29.text,Coloca una ficha de Pared en el lugar señalado
+Event29.button1,Continuar
+Token20.text,Sobre el escritorio hay varias carpetas con papeles.
+Token20.button1,{action} Ojear los papeles
+Event30.text,Echas un vistazo buscando algo que te pueda ser útil {observation}.
+Event30.button1,Continuar
+Event31.text,Encuentras un reportaje sobre una secta demoníaca. En el periódico hay una foto con algunos de los miembros de la secta que son buscados por las autoridades. \n Reconoces a uno de ellos: es el que te recibió en la entrada. \n\n Ganas 1 Pista {clue} y algo más...
+Event31.button1,Continuar
+Token21.text,—<i>¡Estás haciendo ruido!</i>—dice una voz procedente del cesto.
+Token21.button1,{action} Mirar
+Spawn2.text,Una sombra emerge del cesto y sobrevuela la estancia. \n Coloca un fantasma en el mismo espacio que el cesto. \n\n Sufres 2 de Horror (anulados por {will}).
+Spawn2.button1,Continuar
+Event32.text,Te llaman la atención varias carpetas que hay sobre un escritorio. Coloca una ficha de Búsqueda en el lugar señalado.
+Event32.button1,Continuar
+Event33.text,En la esquina se escucha a una mujer llorando. \n Parece que el sonido procede de una cesta. \n Coloca una ficha de Búsqueda en el lugar señalado.\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event33.button1,Continuar
+Token2.text,Al otro lado de la puerta te ha parecido oír la voz de alguien.
+Token9.button1,Continuar
+Event34.text,{action} Explorar
+Event34.button1,Explorar
+Event35.text,Descarta la ficha de Búsqueda y coloca el módulo {c:Tile2}, una ficha de Pared y otra de Puerta en el lugar señalado.
+Event35.button1,Continuar
+Token22.text,Hay algo en el sofá.
+Token22.button1,{action} Mirar en el sofá
+Token23.text,Tiene algunos objetos en la estantería.
+Token23.button1,Continuar
+Event37.text,Cuando te aproximas encuentras un mechón de cabellos iguales que los de tu esposa. \n\n Sufres 1 de Horror boca abajo. A continuación descarta la ficha de Búsqueda del sofá.
+Event37.button1,Continuar
+Event38.text,Escuchas unos ruidos apagados ({observation}; 3).
+Event38.button1,Éxito
+Event38.button2,Fallo
+Event39.text,Ves a una persona agachada al otro lado de la cama. ¿Qué vas a hacer?
+Event39.button1,Atacar
+Event39.button2,Acercarte con cuidado
+Event40.text,Sacas tu arma y disparas... \n\n Cuando te acercas descubres que era un hombre amarrado a la pata de la cama y con la boca amordazada. Por desgracia, tu tiro fue certero y el hombre está muerto.
+Event40.button1,Continuar
+Event41.text,El ruido del disparo parece que ha llamado la atención de los secuestradores. \n\n Coloca un híbrido de profundo en el lugar señalado.
+Event41.button1,Continuar
+Spawn3.text,—<i>¡Lo encontré, ha matado al traidor!</i>—croa al verte.
+Spawn3.button1,Continuar
+Spawn4.text,—<i>¡Lo encontré, ha matado al traidor!</i>—croa al verte.
+Spawn4.button1,Continuar
+Event42.text,Te convences de que son sólo imaginaciones tuyas. Descarta la ficha de Búsqueda del sofá.
+Event42.button1,Continuar
+Event43.text,Al acercarte descubres a un hombre atado a la pata de la cama y amordazado. \n Coloca la <color=cyan>ficha de Personaje Hombre azul</color> en el lugar señalado.
+Event43.button1,Continuar
+Event36.text,En la esquina hay un estante con algunos objetos. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Event36.button1,Continuar
+Event44.text,Observas algo en el sofá.\n Coloca una ficha de Búsqueda en el lugar señalado. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event44.button1,Continuar
+Token24.text,El hombre está atado de pies y manos. No se puede soltar. Le podrias quitar la mordaza, pero temes que pueda gritar y llamar la atención de los secuestradores.
+Token24.button1,{action} Quitar la mordaza
+Event45.text,Le quitas la mordaza al hombre, que tiene un aspecto muy demacrado. \n\n —<i>Por favor, ayúdeme...</i>—dice mientras hace muecas tratando de recuperar la sensibilidad de la cara.\n\n —<i>¿Quién es usted? ¿Dónde está mi esposa?</i> \n\n —<i>Mi nombre es Jacob, trabajaba con ellos pero...</i>—hace una pausa—, <i>pero... están locos... . Creí que lo que buscaban era conseguir poderes ocultos... pero en realidad lo que quieren es invocar a un monstruo terrible, y van a sacrificar a una mujer...</i>\n\n —<i>¿Una mujer?</i>—gritas mientras zarandeas al hombre—. <i>¡Es mi esposa! ¡Dígame dónde está!</i> \n\n —<i>Tranquilícese, para el ritual necesitan tres esculturas, pero he escondido una. Sin ella no podrán completar el sacrificio</i>. \n\n Ganas 2 Pistas {clue} y adquieres el estado <i>Concentrado</i>.
+Event45.button1,Continuar
+Event46.button1,{action} —<i>¿Dónde está la estatuilla?</i>
+Event46.button2,{action} —<i>¿Dónde está mi esposa?</i>
+Event47.text,Desconfía de ti, cree que si te lo cuenta podrías matarlo. Intentas convencerle de que no será así {influence}.
+Event47.button1,Continuar
+Event48.text,—<i>De acuerdo, la puse dentro de la cisterna del inodoro, nunca buscarían ahí</i>. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n El hombre se desmaya. Ya no es posible seguir hablando con él. Descarta esta ficha de Personaje.
+Event48.button1,Continuar
+Token26.text,Inodoro
+Token26.button1,{action} Abrir la tapa de alcantarilla
+Event49.text,Has encontrado una escultura que estaba escondida aquí. \n Descarta esta ficha de Búsqueda.
+Event49.button1,Continuar
+Event50.text,Tiene miedo, cree que le matarás aunque te cuente algo. Necesitarás convencerle {influence}.
+Event50.button1,Continuar
+Event51.text,—<i>Ella... ella está en el desván. Es la puerta que está enfrente del cuarto de baño... ¡Ayúdeme! ¡Sáqueme de aquí!</i>—el hombre se desmaya. \n No puedes seguir hablando con él. \n\n Descarta la <color=cyan>ficha de Personaje Hombre azul</color>. Ganas 2 Pistas {clue}.
+Event51.button1,Continuar
+Event52.text,Hay una estantería con diversos objetos. \n Coloca una ficha de Exploración en el lugar señalado. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event52.button1,Continuar
+Puzzle0.button1,Hecho
+Event53.text,La puerta está abierta. Descarta la ficha de Exploración y coloca el módulo {c:Tile6} y una ficha de Pared en el lugar señalado.
+Event53.button1,Continuar
+Token7.text,Esta puerta conduce al desván.
+Token7.button1,Continuar
+Event55.text,La cerradura parece ser algún tipo de mecanismo.
+Event55.button1,{action} Intentar
+Event54.text,Está cerrada.
+Event54.button1,Continuar
+Event56.text,¿LOS INVESTIGADORES TIENEN ENTRE TODOS \n AL MENOS 3 ESCULTURAS GROTESCAS?
+Event56.button1,Sí
+Event56.button2,No
+EventNAO.text,En el desván hay 
+EventNAO.button1,Continuar
+Event57.text,Al entrar en el desván el sectario te mira fijamente.\n\n —<i>Demasiado tarde. Ya he completado el ritual con 3 estatuas. La suya ya no es necesaria</i>—te dice sin disimular su desprecio.
+Event57.button1,Continuar
+Event58.text,Coloca un sectario en el lugar señalado.
+Event58.button1,Continuar
+Event59.text,Es demasiado tarde, tu esposa se ha transformado en una grotesca criatura.\n Coloca un profundo en el lugar señalado.
+Event59.button1,Continuar
+Event60.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event60.button1,Continuar
+Spawn5.button1,Continuar
+Spawn6.button1,Continuar
+Event61.text,Al entrar en el desván te encuentras cara a cara con un sectario.\n\n —<i>¡Maldito sea! ¡Deme las esculturas!</i>—te grita furioso.
+Event61.button1,Continuar
+Event62.text,Coloca un sectario en el lugar señalado.
+Event62.button1,Continuar
+Spawn7.button1,Continuar
+Event63.text,Tu esposa está echada sobre una cama, rodeada de diversos objetos rituales. \n Sufres 1 de Horror boca abajo.
+Event63.button1,Continuar
+Event64.text,Un investigador que posea 3 esculturas grotescas puede intentar parar el ritual. \n Coloca una ficha de Interacción en el lugar señalado.
+Event64.button1,Continuar
+Puzzle1.button1,Hecho
+Event65.text,Descarta la ficha de Exploración de la puerta. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event65.button1,Continuar
+Token30.text,Tu esposa parece asustada y algo aturdida. Apenas puede moverse.
+Token30.button1,Continuar
+Puzzle2.button1,Hecho
+Event66.text,Consigues descifrar las piezas y las esculturas encajan a la perfección. Una luz azulada comienza a rodear a tu esposa. Instantes después se despierta. \n\n Descarta esta ficha de Interacción.
+Event66.button1,Continuar
+Event67.text,Está sumida en un trance.
+Event67.button1,Continuar
+Event68.text,—<i>¡Sácame de este lugar, por favor!</i>
+Event68.button1,Continuar
+Event69.text,Está muy débil, tendrás que cargar con ella.\n El investigador que cargue con ella sólo se podrá mover 1 espacio al realizar una acción de movimiento.
+Event69.button1,{action} Cargar
+Event69.button2,Dejarla de momento.
+Event70.text,Retira la <color=orange>ficha de Personaje Mujer naranja</color> y coloca la ficha en el mismo espacio que tu investigador.
+Event70.button1,Continuar
+Token31.text,Un investigador que posea 3 esculturas grotescas puede interactuar con esta ficha {observation}.
+Token31.button1,{action} Intentar
+Event71.text,Para terminar la partida debes salir de la casa. \n Coloca una ficha de Exploración en el lugar señalado.
+Event71.button1,Continuar
+TokenFINAL.button1,Oyes a alguien que grita pidiendo ayuda
+TokenFINAL.button2,{action} Salir
+Event72.text,Una criatura ha sido invocada durante el ritual.\n Coloca un profundo en el lugar señalado.
+Event72.button1,Continuar
+EventMEAJUDE.text,Cuando pones la mano sobre la maneta de la puerta, Jacob, el hombre que está amarrado a la pata de la cama te grita:\n —<i>¡Socorro! ¡No me deje aquí!</i>
+EventMEAJUDE.button1,Volver a buscarlo
+EventMEAJUDE.button2,Salir de la casa
+TokenFINAL.text,La puerta principal de la casa. Puedes salir por ella.
+Event85.text,{observation} Buscas algo interesante
+Event75.text,Te convences de que ese sonido es simplemente fruto de tu imaginación.
+Event73.text,Tu esposa está echada sobre una cama, rodeada de diversos objetos rituales. \n Coloca la <color=orange>ficha de Personaje Mujer naranja</color> en el lugar señalado. Ésta es tu esposa.
+Event73.button1,Continuar
+Event74.text,Un investigador que posea 3 esculturas grotescas puede intentar parar el ritual. \n Coloca una ficha de Interacción en el lugar señalado.
+Event74.button1,Continuar
+Event75.button1,Continuar
+UISOZINHOtexto.uitext,Sales corriendo de la casa. Todavía no te puedes creer que tu esposa se transformara en un monstruo. \n\n Nadie te va a creer. Has logrado escapar con vida, pero pasarás el resto de tus días lamentándote por su pérdida. \n\n\n\n FIN.
+Spawn9.button1,Continuar
+UICOMESPOSATEXTO.uitext,Sales de casa cargando con tu esposa. Lo que parecía un simple delito en realidad era algo más macabro. La policía probablemente pensará que tu historia es una locura, así que será mejor que destruyas las esculturas y te mudes con tu esposa a un lugar donde nunca os encuentren... \n\n\n\n FIN.
+Event76.text,No puedes dejar a Jacob en un sitio como este. Compruebas que no hay moros en la costa y dejas a tu esposa junto a la puerta.
+Event76.button1,Continuar
+Token34.text,—<i>¡Desáteme!</i>
+Token34.button1,{action} Intentar liberar a Jacob
+Event77.text,Coloca la <color=cyan>ficha de Personaje Hombre azul</color> en el lugar señalado. \n Tienes la oportunidad de avanzar 2 espacios usando una {action}, siempre y cuando no estés <i>Herido</i>.
+Event77.button1,Continuar
+Event78.text,Usas tus conocimientos para intentar desatarlo {lore}.
+Event78.button1,Continuar
+Puzzle3.button1,Hecho
+Event79.text,Liberas a Jacob. Descarta esta ficha y coloca la <color=cyan>ficha de Personaje Hombre azul</color> en el mismo espacio que tu investigador.
+Event79.button1,Continuar
+Event80.text,Mientras Jacob esté con el investigador, puedes añadir 2 de Daño a un monstruo cuando realices una {action} de ataque.
+Event80.button1,Continuar
+TokenFINALJACOB.text,¿Salir de la casa?
+TokenFINALJACOB.button1,{action} Sí
+UIFINALJACOBTEXTO.uitext,Habéis conseguido salir... Con ayuda de Jacob pones en pie a tu esposa y os subís en el coche. \n\n Destruyes las esculturas, sin creerte todavía todo lo que ha pasado... El viaje de vuelta a la ciudad es silencioso. Ninguno de vosotros tiene ganas de hablar. \n\n Al llegar a la ciudad, Jacob se baja del coche y se pierde entre la niebla. Miras a tu esposa y mientras la abrazas, le susurras al oído que ya todo ha terminado...\n\n\n\n FIN.
+Spawn1.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventItensAleatorios23.text,Descarta la ficha de Búsqueda. Has encontrado...
+Eventaleatorio1.button1,Continuar
+Event84.text,Encuentras...
+Event84.button1,Continuar
+Eventfeitico.button1,Continuar
+Eventfeitico.text,Ganas el Hechizo {c:QItem9}
+Event85.button1,Continuar
+Spawn10.button1,Continuar
+Spawn11.button1,Continuar
+TokenJCOBSEMMODACA.text,Jacob está cansado.
+TokenJCOBSEMMODACA.button1,Continuar
+Event87.text,Buscas entre los objetos, quizá haya algo interesante.
+Event87.button1,Continuar
+Event88.text,Jacob intenta liberarse forcejeando con las cuerdas. Está muy débil y cae al suelo, cerca de unas cajas. \n Coloca la <color=cyan>ficha de Personaje Hombre azul</color> en el lugar señalado.
+Event88.button1,Continuar
+Event46.text,Todavía puede hablar, aunque con dificultad.
+UI1.uitext,
+quest.synopsys,Tu esposa ha sido secuestrada. Escenario introductorio recomendado para 1 o 2 investigadores.
+quest.authors_short,Fernando Pereira Heculano
+EventFinalsozinho.text,Sales corriendo de la casa. Todavía no te puedes creer que tu esposa se transformara en un monstruo. \n\n Nadie te va a creer. Has logrado escapar con vida, pero pasarás el resto de tus días lamentándote por su pérdida. \n\n\n\n FIN.
+EventComEsposa.text,Sales de casa cargando con tu esposa. Lo que parecía un simple delito en realidad era algo más macabro. La policía probablemente pensará que tu historia es una locura, así que será mejor que destruyas las esculturas y te mudes con tu esposa a un lugar donde nunca os encuentren... \n\n\n\n FIN.
+EventComEsposa.button1,Continuar
+Event86.text,Habéis conseguido salir... Con ayuda de Jacob pones en pie a tu esposa y os subís en el coche. \n\n Destruyes las esculturas, sin creerte todavía todo lo que ha pasado... El viaje de vuelta a la ciudad es silencioso. Ninguno de vosotros tiene ganas de hablar. \n\n Al llegar a la ciudad, Jacob se baja del coche y se pierde entre la niebla. Miras a tu esposa y mientras la abrazas, le susurras al oído que ya todo ha terminado...\n\n\n\n FIN.
+Event86.button1,Continuar
+Eventfinal_investigador_morre.text,Con la muerte de un pariente cercano, desistes en tu búsqueda y te marchas con la amargura de la derrota.
+Eventfinal_investigador_morre.button1,Continuar
