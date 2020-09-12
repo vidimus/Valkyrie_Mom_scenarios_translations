@@ -1,0 +1,648 @@
+.,Spanish
+quest.name,Los salvadores (v1.8)
+quest.description,\n Una aventura para «Las Mansiones de la Locura», 2ª Edición \n Juego Base \n (Se usan componentes de la expansión «El santuario del Crepúsculo» si es posible). \n\n Durante vuestra estancia en un pueblo cercano a un lago, Víctor Denton, un viejo amigo y reciente residente del pueblo, aparece en vuestra puerta, presa de la desesperación. Su hija ha sido secuestrada y necesita ayuda para rescatarla. \n\n CARACTERÍSTICAS: \n 2 Monstruos personalizados y originales \n 3 Historia por capítulos \n Eventos de los Mitos creados para la historia \n Finales alternativos \n\n Espacio sobre la mesa: 2 x 3 módulos de largo \n\n Más cambios basados en los excelentes comentarios de los jugadores. Aumentada la dificultad a partir de las estadísticas hasta la fecha. \n ¡Gracias!
+quest.synopsys,Un amigo acude a ti en mitad de la noche: salvar a su hija secuestrada.
+quest.authors,<i>Historia y diseño:</i> \n James Davenport \n <i>Traducción al español:</i> Anae y Vidimus
+quest.authors_short,James Davenport
+EventHeadingOut.button1,Continuar
+EventPlacePier.button1,Continuar
+EventTokenShackGuy.button1,Continuar
+EventSternMan.button1,Continuar
+EventPlacePier.text,Corres calle abajo, hacia el lago. Víctor Denton jadea:\n —<i>Los seguí hasta aquí. Parecían dirigirse directamente hacia el muelle. Me di cuenta que empujaban a Rose. Se tropezaba y trataba de resistirse. Pero luego me atacaron antes de que pudiera alcanzarles y decidí que... ¡necesitaba ayuda!<i> \n\n Te encaminas hacia el muelle pesquero que hay a la orilla de la oscura masa de agua conocida como Mystic Lake. \n\n Coloca el módulo {c:TilePier} en el lugar señalado.
+EventShackDoor.text,Se puede acceder al quiosco por una puerta en la parte de atrás. \n\n Coloca una ficha de Exploración en la puerta trasera del quiosco.
+EventTokenShackGuy.text,Dentro del quiosco que usan los pescadores locales ves la sombra de una persona. Está agazapada, y no puedes verla desde aquí.
+EventShackDoor.button1,Continuar
+EventPlaceDock.text,El muelle para los barcos se extiende hacia Mystic Lake. \n\n Coloca el módulo {c:TileDock} en el lugar señalado.
+EventPlaceDock.button1,Continuar
+EventPlaceBoat.text,Un barco de pesca descansa junto al muelle. Puedes escuchar el motor al ralentí. \n\n Coloca el módulo {c:TileBoat} en el lugar señalado.
+EventPlaceBoat.button1,Continuar
+EventBoatCabinDoor.text,Debe de haber una puerta que dé al interior del camarote. \n\n Coloca una ficha de Exploración en la puerta del camarote del barco.
+EventBoatCabinDoor.button1,Continuar
+EventPlaceInvestigators.text,Colocad las miniaturas de los investigadores en el lugar señalado.
+EventPlaceInvestigators.button1,Continuar
+EventPlaceVictorDenton.text,Víctor Denton te insta a pasar a la acción. \n —<i>¡Vamos, encontrémosla antes de que sea demasiado tarde!<i> \n\n Coloca la ficha de Personaje de Víctor Denton en el lugar señalado.
+EventPlaceVictorDenton.button1,Continuar
+EventAddDockSearch.text,Hay varios sitios donde podría haber algo de utilidad. \n\n Coloca dos fichas de Búsqueda, una en el muelle y otra en el barco, en los lugares señalados.
+EventAddDockSearch.button1,Continuar
+TokenDockSearch.button1,{action} Buscar entre las cajas.
+TokenDockSearch.text,Quizá haya algo útil entre las cajas que hay apiladas en el muelle.
+EventSearchDock.text,Rebuscas en las cajas del muelle y encuentras algo útil, ganas el Objeto común {c:QItemSearchDockEquip}.
+EventSearchDock.button1,Continuar
+TokenPierSearch.text,El tipo grande podría haber escondido algo entre estos barriles.
+TokenPierSearch.button1,{action} Buscar entre los barriles.
+EventSearchPier.text,¡Ajá! ¡Sin duda esto servirá! Ganas el Objeto {c:QItemSearchPierWeap}
+EventSearchPier.button1,Continuar
+TokenShackGuy.text,Una figura se esconde en el quiosco. Un investigador fuera del quiosco puede interactuar con esta figura a través del mostrador.
+TokenShackGuy.button1,{action} Intentar hablar con la figura que se esconde en el quiosco.
+EventSpawnThugsBoat.text,La puerta del camarote del barco se abre y dos hombres de aspecto rudo suben a la cubierta. \n —<i>¡Estos fueron los que se llevaron a mi hija!—grita Víctor—¿Dónde está?<i> \n\n ¡Los dos matones se disponen a atacar!. \n\n Coloca dos híbridos de profundo en el lugar señalado.
+EventSpawnThugsBoat.button1,Continuar
+CustomMonsterThug.info,-
+CustomMonsterThug.Attack_bladed_1,Golpeas con rapidez al matón con tu afilada hoja ({agility}:2). \n Si superas la tirada, atraviesas con ella al matón; el matón sufre el Daño de tu arma +1. \n Si fallas la tirada, tu torpe ataque no encuentra carne.
+CustomMonsterThug.monstername,Matón Corpulento
+SpawnBoatThug1.text,Oyes el motor del barco apagándose. La puerta del camarote del barco se abre y dos hombres de aspecto rudo suben a la cubierta y se dirigen a la proa. \n —<i>¡Ellos son los que se llevaron a mi hija!—grita Víctor—¿Dónde la tenéis?<i> \n El primer matón responde burlándose de Víctor. \n\n Coloca un Híbrido de profundo en el lugar señalado.
+SpawnBoatThug1.button1,Continuar
+TokenBoatThug2.text,—<i>¡Llegáis demasiado tarde, idiotas!—dice el otro matón.<i>
+TokenBoatThug2.button1,Continuar
+EventThugHorror.button1,Continuar
+EventThugEvade.button1,Continuar
+CustomMonsterThug.Attack_bladed_2,Observas al matón cuidadosamente, estudiando sus movimientos, y luego atacas en el momento adecuado ({observation}:2). \n Si superas la tirada, el golpe le sorprende y le desgarras profundamente con tu arma. El matón recibe un daño igual al resultado de tu tirada más el daño del arma. \n Si fallas la tirada, te esquiva y quedas expuesto. Sufres 1 de Daño.
+CustomMonsterThug.Attack_firearm_1,El matón te mira asustado mientras preparas tu arma y aprietas el gatillo ({observation}:2). \n Si superas la tirada, tu puntería es buena y el matón recibe un daño igual al daño del arma. \n Si fallas la tirada, suena un 'Clic', tu arma no se dispara, el matón te sonríe con una cara maliciosa.
+SpawnBoatThug2.text,El segundo matón sale empuñando un gran anzuelo —<i>¡Es demasiado tarde, idiotas!<i>\n\n Coloca al segundo Híbrido de profundo en el lugar señalado.
+SpawnBoatThug2.button1,Continuar
+EventPlacePierSearch.text,Detrás del hombre de aspecto rudo hay un barril con objetos que sobresalen de él. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlacePierSearch.button1,Continuar
+EventThugAttacks.text,El matón ataca al investigador que se encuentre en su espacio o se mueve hasta 2 espacios hacia el investigador más cercano y luego ataca.
+EventThugAttacks.button1,El matón ataca al investigador
+EventThugAttackHook.text,El matón arremete contra el investigador con la mayor puntuación de {influence} con un largo bichero con el que intenta desgarrarte. \n Elige entre realizar una prueba de: \n\n ({agility}:2) \n Si superas la tirada, te agachas por el latigazo que te hacen con el bichero. \n\n O de ({strength}:2) \n Si superas la tirada, agarras el bichero, se lo arrancas de las manos del matón y lo partes en dos. \n Si fallas la tirada, sufres 1 Daño boca abajo, luego pon boca arriba 1 de Daño.
+EventThugAttackHook.button1,Continuar
+CustomMonsterThug.Attack_bladed_3,Con un movimiento rápido le cortas y la sangre fluye. \n ({agility}:1) \n Si superas la tirada, la sangre fluye y el matón sufre un Daño igual al resultado de tu tirada. \n Si fallas la tirada, el matón se agacha y fallas, cortando el aire.
+CustomMonsterThug.Attack_bladed_4,Empujas al matón con todas tus fuerzas con el filo de tu arma. \n ({strength}:2) \n Si superas la tirada, tu arma se hunde profundamente en el matón causando el daño del arma más el resultado de tu tirada. \n Si fallas la tirada, en tu ataque tropiezas hacia adelante y el matón aprovecha para golpearte por detrás. Sufres 2 de Daño boca abajo.
+EventThugAttacks.button2,No hay ningún investigador al alcance.
+EventThugAttackKnife.text,El matón saca un cuchillo afilado y curvo usado para destripar peces y golpea al investigador con la mayor puntuación de {strength}. Aparentemente TÚ eres el pescado esta noche. \n Sufres 2 de Daño boca abajo, anulado por ({agility}).
+EventThugAttackKnife.button1,Continuar
+EventThugAttackFists.button1,Continuar
+EventThugAttackBullrush.text,Los matones gritan y se abalanzan hacia el investigador con menor puntuación de {strength}. \n Realiza una prueba de: ({observation}:2) \n Si superas la tirada, te apartas cuando el matón corre hacia ti, cae y recibe 1 de Daño. \n Si fallas la tirada, toda la fuerza de la embestida te golpea. Sufres 3 de Daño boca abajo, anulado por ({strength}).
+EventThugAttackBullrush.button1,Continuar
+TokenVictorDenton.text,Víctor Denton está desesperado por encontrar a su hija Rose.
+TokenVictorDenton.button1,Interroga a Víctor para obtener información útil.
+EventQuestionVictorBoth.button1,{action} —<i>¿Por qué no le ayudó la policía?<i>
+EventQuestionVictorBoth.button2,{action} —<i>¿Tiene más información que pueda sernos de utilidad?<i>
+EventVictorSad.text,Víctor te mira con ojos profundos y tristes y luego se da vuelta.
+EventVictorSad.button1,Continuar
+EventVictorMoreInfo.text,—<i>He visto a esos hombres antes por aquí. Creo que son trabajadores itinerantes que vienen a la ciudad de vez en cuando. ¿Pero, por qué estarían acosando a mi hija? ¿Por qué se la llevaron? ¿Qué está pasando?<i>\n\n Ganas 1 Pista {clue}.
+EventVictorMoreInfo.button1,Continuar
+EventVictorPolice.text,Víctor te dice: —<i>No podía creerlo. Parecía que todos se preparaban para pasar la noche como si no planearan ir a ningún lado. Todo lo que dijeron fue: 'Tendrá que esperar hasta mañana. No podemos investigarlo esta noche. Váyase a casa".<i> \n —<i>Qué cosa más extraña.<i> \n\n Ganas 1 Pista {clue}.
+EventVictorPolice.button1,Continuar
+EventQuestionVictorBoth.text,Intentas obtener algo más de información de Víctor Denton.
+TokenVictorDenton.button2,—<i>No se preocupe, Víctor. La encontraremos.<i>
+EventQuestionVictor1st.text,Intentas obtener más información de Víctor.
+EventQuestionVictor1st.button1,{action} —<i>¿Por qué no le ayudó la policía?<i>
+EventQuestionVictor2nd.text,Intentas obtener más información de Víctor.
+EventQuestionVictor2nd.button1,{action} —<i>¿Tiene más información que pueda sernos de utilidad?<i>
+EventVictorNoMoreInformation.text,Víctor dice: —<i>No tenemos tiempo para esto. ¡Vayamos a encontrar a mi hija!<i>
+EventVictorNoMoreInformation.button1,Continuar
+EventQuestionVictorBoth.button3,—<i>No importa…<i>
+EventQuestionVictor2nd.button2,—<i>No importa<i>
+EventQuestionVictor1st.button2,—<i>No importa<i>
+EventMoveVictorRound1.text,Víctor se mueve hacia el quiosco con un puño en alto gritando: —<i>¡Liberen a mi hija, sinvergüenzas!<i> \n\n Mueve la ficha de Personaje de Víctor Denton 2 espacios hasta el lugar señalado.
+EventMoveVictorRound1.button1,Continuar
+TokenVictorDenton2.text,Víctor Denton da voces: —<i>Rose! ¿Dónde estás?<i>
+TokenVictorDenton2.button1,Interrogar a Víctor
+TokenVictorDenton2.button2,—<i>¡Anímese amigo! Le ayudaremos.<i>
+EventSearchBoatDeck.text,Explorando los objetos dispersos por la cubierta del bote encontráis el suéter de una chica. —<i>¡Eso le pertenece a mi Rose!<i> Grita Víctor. Rose ha estado en este bote. \n\n Obtienes {c:QItemBoatDeckItem} y 2 Pistas {clue}.
+TokenBoatDeckSearch.text,Puede haber algo de interés en la cubierta del barco de pesca.
+EventBeachSearch.button1,Continuar
+TokenBoatDeckSearch.button1,{action} Examinar.
+EventStart.button1,Comenzar
+UIOpeningText.uitext,Os alojáis en una posada de una pequeña ciudad de Nueva Inglaterra cuando Víctor Denton, un viejo amigo, aparece ante vuestra puerta sollozando y angustiado. \n —<i>Debéis ayudarme. No sé a quién más recurrir. Mi... hija adolescente, Rose... Se la han llevado. La vi salir de la casa acompañada por dos hombres con aspecto rudo. Traté de seguirles , pero cuando me acerqué a los muelles, alguien me dejó inconsciente. ¡Regresé y acudí a la policía, pero se niegan a ayudar hasta mañana por la mañana! Por favor... ¡rápido... vengan, ayúdenme a salvarla!—<i>
+EventHeadingOut.text,Con una profunda empatía por la difícil situación de vuestro amigo, rápidamente agarras algunas cosas y os dirigís hacia la oscura noche. \n A medida que os adentráis en la penumbra, esto trae consigo una sensación incómoda, pero también lleva el apremio para ayudarlo en lo que podáis. \n\n Cada Investigador comienza con 1 ficha de Pista {clue}.
+TokenShadyMan.button1,Intentar hablar con él.
+TokenShadyMan.button2,¡Atacarle!
+SpawnSternThug.text,El tipo duro grita: —<i>¡Escogieron una mala noche para causar problemas!</i> \n\n Retira la ficha de Personaje Tipo duro y coloca un Híbrido de profundo en su lugar.
+EventPlaceSternThug.text,¡Mientras os movéis con agresividad hacia él, se prepara para el ataque!
+EventPlaceSternThug.button1,Continuar
+TokenShadyMan.text,La hosca figura te está mirando. Parece enfadado.
+SpawnSternThug.button1,Continuar
+TokenBoatCabinDoor.text,Esta puerta conduce al camarote del barco de pesca.
+TokenBoatCabinDoor.button1,{action} Abrir la puerta y echar un vistazo al camarote.
+TokenBoatCabinWindow.text,A través de esta amplia ventana se puede ver la parte delantera del barco o dentro del camarote.
+EventBoatCabinWindow.text,Una amplia ventana ofrece una vista del interior del camarote del barco. A través de esta ventana, puedes ver un par de sombras moviéndose dentro. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventBoatCabinWindow.button1,Continuar
+TokenBoatCabinWindow.button1,{action} Mirar dentro del camarote...
+EventThugAttackFists.text,El matón levanta los puños y ataca al investigador con la puntuación más baja de {strength}. \n Intentas esquivar el golpe ({agility}:2) \n Si fallas la tirada, el matón te acierta y sufres 2 de Daño boca abajo.
+EventStart.text,«Los Salvadores». \n Una aventura para «Las Mansiones de la Locura». \n De James Davenport \n Parte 1 - Rose
+EventInteractShackFigure.text,La figura se oculta de tu vista mientras intentas hablar con ellos a través de la ventana del camarote. \n Realiza una tirada de {influence} e indica el número de {success}.
+EventInteractShackFigure.button1,Continuar
+EventInteractShackFigure.button2,Continuar
+EventRevealCaptainGarvey.text,La figura del camarote se incorpora y ves que es un hombre con una gorra de capitán. \n\n —<i>Soy el Capitán Garvey, y éste es mi barco, así que fuera de aquí.</i> \n\n Parece que no hay nada más de utilidad en el camarote. \n\n Retira la ficha de Interacción y coloca la ficha de Personaje Capitán Garvey en el lugar señalado. \n Retira la ficha de Exploración de la puerta del camarote.
+EventRevealCaptainGarvey.button1,Continuar
+TokenCaptainGarvey.text,Este es el Capitán Garvey, el viejo capitán del barco de pesca. Parece preocupado y claramente está reflexionando sobre cosas importantes. \n\n Un investigador en un espacio exterior adyacente al camarote puede interactuar con el Capitán Garvey a través de la ventana de servicio.
+TokenCaptainGarvey.button1,Preguntar al Capitán Garvey.
+EventShackGuyNotConvinced.text,Las figuras se encogen al adentrarse más en el quiosco y luego dice una voz grave: —<i>¡Deberías dejarme en paz y alejarte lo más posible de Mystic Lake!<i> \n\n La persona no está convencida …
+EventShackGuyNotConvinced.button1,Continuar
+TokenShackDoor.text,Esta puerta conduce al interior del pequeño quiosco.
+TokenShackDoor.button1,{action} Abrir y mira en el interior.
+EventOpenShackDoor.text,Abres la puerta y miras dentro del quiosco. En el interior ves a un anciano con sombrero de capitán. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventOpenShackDoor.button1,Continuar
+EventMythosPart1A.text,La niebla envuelve Mystic Lake. Todos escuchaisun alarido sobrenatural a lo lejos, desde el otro lado del agua, ¿eso era un chapoteo?, ha sido casi imperceptible. \n\n Cada investigador recibe 1 Horror boca abajo anulado por ({will}-1).
+EventMythosPart2.button1,Continuar
+EventMythosFiller.text,La noche oscura y profunda es una visión aterradora. \n Sin efecto.
+EventMythosFiller.button1,Continuar
+TokenCaptainGarvey.button2,Dejadle con sus pensamientos.
+EventQuestionGarveyAll.text,Tienes la atención de Garvey y le presionas para que te cuente lo que sabe.
+EventQuestionGarveyAll.button1,{action} —<i>¿Viste a dónde se llevaron a la niña, Rose?<i>
+EventQuestionGarveyAll.button2,{action} —<i>¿Qué está pasando en Mystic Lake?<i>
+EventQuestionGarveyAll.button3,—<i>No importa<i>
+EventQuestionGarveyNoMoreInfo.text,—<i>Te he dicho todo lo que puedo, por ahora.<i>
+EventQuestionGarveyNoMoreInfo.button1,Continuar
+EventQuestionGarvey1st.text,Intentas conseguir más información del Capitán Garvey.
+EventQuestionGarvey1st.button1,{action} —<i>¿Viste a dónde se llevaron a la chica, Rose?<i>
+EventQuestionGarvey2nd.button1,{action} —<i>¿Qué está pasando en Mystic Lake?<i>
+EventQuestionGarvey2nd.button2,—<i>No importa<i>
+EventQuestionGarvey1st.button2,—<i>No importa<i>
+EventGarveyGirlResult.text,Garvey baja la vista hacia las tablas del muelle. \n —<i>Si no fuera un hombre tan viejo... <i>\n —<i>Estos matones insistieron en usar mi barco esta noche, dijeron que solo lo necesitaban para un viaje rápido y que simplemente no aceptarían un 'no' por respuesta. Pero cuando dos de ellos aparecieron con una chica, les dije '¡De ninguna manera!' pero solo se rieron de mí y me arrojaron a este quiosco. Hubiera pedido ayuda, pero todos los pescadores han abandonado el lago y la policía... no ayudará. No esta noche... <i> \n —<i> Se llevaron mi barco a una isla en el lago y acaban de regresar. No he visto a la chica desde entonces...<i> \n\n Ganas 1 Pista {clue}.
+EventGarveyGirlResult.button1,Continuar
+EventGarveyLakeResult.button1,Continuar
+EventGarveyLakeResult.text,—<i>¿No lo sabes?<i> \n —<i>Pues esto te va a sonar a locura, pero cada año en este día, la noche del Equinoccio de Otoño, suceden cosas extrañas en Mystic Lake. Todos los pescadores saben que deben llegar temprano y salir del lago cuanto antes en este día. En el pasado, la gente relataba haber visto cosas terribles y muchas buenas personas de esta ciudad desaparecieron.<i> \n —<i>La policía ya ni siquiera intentó investigar o salvar a alguien. Han perdido demasiados hombres a lo largo de las décadas y ya no se arriesgan.<i> \n —<i>Escucha mis palabras. No deberías aventurarte en Mystic Lake esta noche.<i> \n\n Ganas 1 Pista {clue}.
+EventInsideCabin.text,Echas un vistazo al interior del camarote del barco. No hay ni rastro de Rose. \n Miras los controles que encienden el motor para conducir el barco. \n\n Coloca una ficha de Interacción en el lugar señalado. \n Retira la ficha de Exploración de la puerta del camarote del barco y la ficha de Vistazo.
+EventInsideCabin.button1,Continuar
+TokenBoatsControls.text,Un investigador que esté en el camarote del barco puedes usar los controles para encender el motor y poder conducirlo.
+TokenBoatsControls.button1,{action} Encender el motor.
+TokenBoatCabinSearch.text,Puedes buscar entre los papeles y registros del camarote del barco.
+TokenBoatCabinSearch.button1,{action} Buscar entre los papeles del camarote.
+EventBoatCabinSearch.text,Podrías encontrar algo útil en el camarote del barco. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventBoatCabinSearch.button1,Continuar
+EventBoatEngineStart.text,Al motor le cuesta un poco y luego, después de un chisporroteo, comienza a funcionar. Parece que hay mucho combustible para el motor.
+EventBoatEngineStart.button1,Continuar
+TokenBoatSteering.text,El motor está funcionando y los controles se pueden usar para acoplar las hélices y dirigir la embarcación. \n\n Podéis abandonar el muelle cuando TODOS los investigadores estén listos para abandonarlo.
+TokenBoatSteering.button1,{action} —<i>¡Vamos a rescatarla!<i>
+EventTransitionPhase2.text,Coloca a todos los investigadores en el módulo {c:TileBoat} en un espacio de su elección. \n\n Retira todas las fichas de los módulos {c:TileDock} y {c:TilePier}. \n Retira los módulos {c:TileDock} y {c:TilePier}.
+EventTransitionPhase2.button1,Continuar
+EventStartPhase2.button1,Continuar
+EventLastThugDies.text,Cuando el último de los matones es derrotado, uno de ellos se arrastra por el muelle diciendo: —<i>No más... tú ganas...<i> \n\n Coloca una ficha de Personaje que represente al Matón herido en el lugar señalado.
+EventLastThugDies.button1,Continuar
+EventInvestigatorMoveChamber.button1,Continuar
+EventMoveVictorOnly.text,Victor Denton se mueve por el bote buscando a su hija cada vez más desesperado. \n\n Mueve la ficha de Personaje de Victor Denton al barco en el lugar señalado.
+TokenWoundedThug.text,Este es el último Matón herido, indefenso en el muelle.
+TokenWoundedThug.button1,{action} Presionar para obtener información.
+UIPhase2Text.uitext,Alejais el barco del muelle y comenzaisa cruzar el lago turbio y brumoso tratando de encontrar la isla. Rezais para que todavía haya tiempo suficiente de salvar a Rose, pero podéis ver la esperanza menguante en los ojos de Victor Denton mientras mira fijamente a la niebla. A medida que os movéis por Mystic Lake, se vuelve mortalmente silencioso, sin contar el desigual sonido del motor del barco.
+EventStartPhase2.text,"Los Salvadores" \n\n Parte 2 - La Travesía
+EventSetupPhase2.button1,Continuar
+EventSetupPhase2.text,Con cuidado, gira el módulo del barco 180º como se muestra. El barco está en aguas abiertas del Mystic Lake. \n\n Retira la ficha de Interacción del camarote del barco y cualquier otra ficha de Búsqueda que quedara (el barco ha zarpado).  \n\n El Capitán Garvey ha tomado el control.
+EventBoatCabinFindChart.text,Pasas el tiempo mirando entre los papeles en el camarote y encuentras una carta náutica de Mystic Lake en el que están representadas varias islas. Una isla pequeña está rodeada por un círculo con la palabra "entrega" escrita al lado. \n De leer la carta correctamente, la isla está aproximadamente a una milla de distancia hacia el noroeste. \n\n Ganas1 ficha de Pista {clue}.
+EventBoatCabinFindChart.button1,Continuar
+EventSetWatchStations.text,Sientes que es necesario vigilar a conciencia mientras cruzaisel lago. Hay algo ahí afuera...  \n\n Coloca una ficha de Vistazo en el lugar señalado. \n\n Comienza la <b> Parte 2: La Travesía <b> con una Fase de Investigadores nueva por completo.
+EventSetWatchStations.button1,Continuar
+TokenWatchStarboardBow.button1,{action} Vigilar.
+TokenWatchPortBow.text,Alguien debería vigilar la proa de babor del barco.
+TokenWatchStarboardBow.text,Alguien debería vigilar la proa de estribor del barco.
+TokenWatchPortBow.button1,{action} Vigilar.
+TokenWatchPortStern.text,Alguien debería vigilar la popa babor del barco.
+TokenWatchStarboardStern.button1,{action} Vigilar.
+TokenWatchAft.button1,{action} Vigilar.
+TokenWatchPortStern.button1,{action} Vigilar.
+TokenWatchStarboardStern.text,Alguien debería vigilar la popa de estribor del barco.
+EventLookoutPortBow.text,Observas en esta dirección las posibles amenazas. \n\n Realiza una tirada de {observation} e indica el número de {success}.
+TokenWatchAft.text,Alguien debería vigilar a popa.
+EventLookoutPortBow.button1,Continuar
+EventLookoutFail.button1,Continuar
+EventLookoutPortBow.button2,Continuar
+EventLookoutFail.text,Miras atentamente la niebla y el agua.
+EventLookoutPortStern.text,Observas en esta dirección las posibles amenazas. \n\n Realiza una tirada de {observation} e indica el número de {success}.
+EventLookoutPortStern.button1,Continuar
+EventLookoutPortStern.button2,Continuar
+EventLookoutAft.text,Observas en esta dirección las posibles amenazas. \n\n Realiza una tirada de {observation} e indica el número de {success}.
+EventLookoutAft.button1,Continuar
+EventLookoutAft.button2,Continuar
+EventLookoutStarboardStern.text,Observas en esta dirección las posibles amenazas. \n\n Realiza una tirada de {observation} e indica el número de {success}.
+EventLookoutStarboardStern.button1,Continuar
+EventLookoutStarboardStern.button2,Continuar
+EventLookoutStarboardBow.text,Observas en esta dirección las posibles amenazas. \n\n Realiza una tirada de {observation} e indica el número de {success}.
+EventLookoutStarboardBow.button1,Continuar
+EventLookoutStarboardBow.button2,Continuar
+SpawnTentacleStarboardStern.button1,Continuar
+EventMythosTentacleAttackSurprise.text,¡Te das cuenta con horror que en tu guardia no has podido ver un peligro inminente! ¡Sin previo aviso, el barco se tambalea cuando una cosa enorme surge directamente desde abajo y unos enormes tentáculos tocan a tientas el casco del barco mientras brotan del lago y atacan violentamente al barco! \n\n Cada Investigador sufre 1 de Daño boca abajo, 2 de Horror boca abajo anulados por ({will}-1), luego pon boca arriba 1 carta de Horror.
+EventTalkShady2nd.button1,{action} —<i>¿Quién eres y qué está pasando aquí?<i>
+EventSternGuyAngry.button1,Continuar
+EventSternGuyAngry.text,—<i>¡Basta de preguntas! <i> ¡El tipo duro ataca!
+EventTalkShady1st.button1,{action} —<i>¡Dinos dónde está la chica o si no...!<i>
+EventTalkShadyBoth.text,A pesar del odio en su mirada, intentas obtener información de este tipo duro.
+EventTalkShadyBoth.button1,{action} —<i>¡Dinos dónde está la chica o si no...!<i>
+EventTalkShadyBoth.button2,{action} —<i>¿Quién eres y qué está pasando aquí?<i>
+EventForceSternGuyGirl.text,Realiza una tirada de ({strength}:3) para intimidarle. \n Añade un dado adicional por cada Investigador en tu espacio.
+EventForceSternGuyGirl.button1,Éxito
+EventForceSternGuyGirl.button2,Fracaso
+EventSternGuyIntimidated.text,El hombre comienza a parecer inseguro de sí mismo. \n —<i>Vale, pero es demasiado tarde. ¡Se la han llevado a la isla y no hay ninguna posibilidad de sacarla de allí ahora! <i> \n Escupe en el suelo cerca de tus pies. \n\n Ganas 1 Pista {clue}
+EventSternGuyIntimidated.button1,Continuar
+EventSternGuyNotImpressed.text,—<i>No le gustaría saberlo<i> dice. Luego mira a Víctor. —<i>¡Hey usted?!¿No recibió el mensaje la primera vez, ¿eh?<i> \n Se cruza los brazos mientras mira a Victor Denton.
+EventSternGuyNotImpressed.button1,Continuar
+EventSternWhoAreYou.text,—<i>Mis amigos y yo solo estamos intentando ganar algo de dinero. Un simple acuerdo para llevar a una chica a dar una vuelta por el lago. Aquí está lejos de su hogar, así que será mejor que se vaya. Ella estará bien. <i> \n Cambia su posición como si estuviera listo para pelear. \n\n  Ganas 1 Pista {clue}.
+EventSternWhoAreYou.button1,Continuar
+EventTalkShady1st.button2,—<i>No importa<i>
+EventTalkShady1st.text,Está enfadado, pero no te importa. Necesitas más información de este acosador.
+EventTalkShady2nd.text,Está enfadado, pero no te importa. Necesitas más información de este acosador.
+EventTalkShady2nd.button2,—<i>No importa<i>
+CustomMonsterThug.Attack_heavy_1,Balanceas tu arma con todas tus fuerzas con la intención de derribar al matón de un poderoso golpe ({strength}-1:2) \n Si superas la tirada, asestas un golpe sólido y el matón sufre un daño igual al daño del arma más el resultado de tu tirada. \n Si fallas la tirada, el matón esquiva tu arma que golpea un objeto no deseas que te perturba y que puede volver a abrir una vieja herida. Pon boca arriba 1 carta de Daño.
+CustomMonsterThug.Attack_spell_1,Intentas reunir energía y concentrarte para lanzar un hechizo antiguo ({lore}:1) \n Si superas la tirada, lanzas el Hechizo con éxito. Da la vuelta a tu carta de Hechizo y resuelve cualquier efecto adicional. \n Si fallas la tirada, tu enfoque vacila y el hechizo fracasa completamente. No des la vuelta a tu carta de Hechizo.
+CustomMonsterThug.Attack_unarmed_1,Levantas los puños, intentas dar una serie de golpes y ganchos al matón ({agility}:2) \n Si superas la tirada, tus golpes dan en el blanco y el matón sufre un daño igual a tu puntuación de Fuerza. \n Si fallas la tirada, el matón bloquea tus golpes y no tienen efecto. Se burla de ti: —<i>Golpeas como un pececito<i>.
+CustomMonsterThug.Attack_heavy_2,Manejas tu arma como una vara y golpeas al matón con un extremo y luego con el otro ({strength}:1) \n Si superas la tirada, tus golpes caen sobre el matón y sufre un daño igual al resultado de tu tirada más 1. \n Si fallas la tirada, el matón te bloquea el arma y te golpea con uno de sus extremos. Adquieres el estado Aturdido.
+CustomMonsterThug.Attack_firearm_2,Mueves tu arma rápidamente y disparas un tiro rápido al matón ({agility}:2) \n Si superas la tirada, ¡Tu disparo da en el blanco! El matón sufre un daño igual al daño del arma. \n Si fallas la tirada, tu disparo sale descontrolado, un tiro errado.
+CustomMonsterThug.Attack_firearm_3,Apuntas tu arma directamente hacia tu enemigo y lo coges en un momento de vulnerabilidad ({will}:2) \n Si superas la tirada, con determinación, aprietas el gatillo. Si estás en el mismo espacio que el matón, sufre un daño igual al daño del arma más el resultado de tu tirada. Si hay uno o más espacios de distancia sufre un daño igual al daño del arma. \n Si fallas la tirada, dudas..., no es fácil dispararle a alguien. Pierdes esta oportunidad de oro.
+CustomMonsterThug.Attack_firearm_4,Llegas a tu objetivo y disparas a su trayectoria de movimiento ({observation}:2) \n Si superas la tirada, tu disparo está bien colocado. El matón sufre un daño igual al daño del arma más 1. \n Si fallas la tirada, tu intento de impactar al matón da lugar a una carambola cuando la bala sale disparada, rebota en un objeto y regresa a ti. Sufres 1 de Daño.
+CustomMonsterThug.Attack_spell_2,Con confianza, haces gestos y dices las antiguas palabras para invocar un hechizo sobre tu enemigo ({will}:2) \n Si superas la tirada, el efecto del hechizo tiene lugar según lo previsto. Por cada Éxito en tu tirada superior a 2, el hechizo causa un daño adicional. Dale la vuelta al hechizo y resuelve cualquier efecto adicional. \n Si fallas la tirada, lanzaste el hechizo con confianza, pero pronunciaste mal "leviosa". El matón sufre 1 de daño. Da la vuelta a la carta de hechizo y resuelve cualquier efecto adicional.
+CustomMonsterThug.Attack_unarmed_2,Te apresuras y agarras al matón en un fuerte abrazo de oso ({strength}:2) \n Si superas la tirada, el matón sufre un daño igual al resultado de tu tirada más 1. \n Si fallas la tirada, el matón se libera violentamente. Sufres 1 de Daño boca abajo.
+EventThugEvade1.button1,Continuar
+EventThugEvade2.text,Buscas un hueco por donde escapar y mides el tiempo que te tomará hacer tu movimiento para evitar al matón ({observation}:2) \n Si superas la tirada, te mueves con precisión y le evitas fácilmente. \n Si fallas la tirada, tu sincronización es imperfecta y tu movimiento no sale según lo planeado. Debes renunciar a tu acción.
+EventThugEvade1.text,Intentas esquivar al matón, que te ataca ({agility}:2) \n Si superas la tirada, evitas al matón y continúas tu acción. \n Si fallas la tirada, el matón te tira a un lado y sufres 1 de Daño boca abajo.
+EventThugEvade2.button1,Continuar
+EventThugEvade3.text,Levantas un dedo y le haces al matón la señal de: "Shhh" ({influence}:1) \n Si superas la tirada, el matón confundido duda y puedes actuar según lo previsto. \n Si fallas la tirada, el matón se enfada y encuentra un nuevo objetivo. Si el matón ha sufrido daño, reduce ese daño en 1. Debes renunciar a tu acción.
+EventThugEvade3.button1,Continuar
+EventThugHorror1.text,Estos tipos son duros y malvados, pero nada en comparación con otras cosas que has visto. Sin efecto.
+EventThugHorror1.button1,Continuar
+EventThugHorror2.text,El matón corpulento blandió un cuchillo afilado, hizo el gesto de cortarse la garganta y luego te señaló. \n Sufres 1 de Horror boca abajo anulado por ({will}).
+EventThugHorror2.button1,Continuar
+EventThugHorror3.text,El matón de repente comienza a pronunciar palabras en un lenguaje extraño y enfermizo. Te preguntas si este hombre ha sido influenciado por el verdadero mal. \n Sufres 1 de Horror boca abajo anulado por {lore}, luego pon una carta de Horror boca arriba.
+EventThugHorror3.button1,Continuar
+TokenCaptainGarvey2.text,El Capitán Garvey está de pie en el muelle mirando hacia Mystic Lake.
+TokenCaptainGarvey2.button1,Es posible que el Capitán pueda ayudarte.
+EventGarveyWhere.text,El Capitán Garvey suspira, —<i>Se la llevaron a Sorrow Island, es una pequeña isla rocosa que se cuenta que está encantada. Solo hay una playa buena. El problema es que cualquiera que quisiera coger un barco para atravesar el lago en este momento sería un loco. Hay... cosas... en el agua esta noche. Lo he visto con mis propios ojos a lo largo de los años y una vez casi estuve a punto de caer... <i> Se estremece y se calla.
+EventGarveyWhere.button1,Continuar
+TokenCaptainGarvey2.button2,Déjalo estar.
+EventGarveyDriveBoat.text,Se te ocurre que sería mucho más fácil tener al capitán del barco contigo, ya que sabe manejarse en las aguas del lago, si es lo que quieres hacer... ({influence}) e indica el número de {success}.
+EventGarveyDriveBoat.button1,Continuar
+EventGarveyDriveBoat.button2,Continuar
+EventGarveyGoFail.text,El Capitán Garvey solo mira hacia el suelo y no dice nada. Claramente no está convencido en arriesgarse. \n —<i>Tome mi barco si quiere, pero yo no puedo salir esta noche.</i>
+EventGarveyGoFail.button1,Continuar
+EventGarveyGoSuccess.text,El Capitán Garvey murmura: —<i>Supongo que he tenido una vida decente...</i>—Te mira y añade: —<i>Suba a bordo y salgamos antes de que sea demasiado tarde, tal vez aún sea seguro cruzarlo</i>. \n Parece que intenta convencerse a sí mismo.
+EventGarveyGoSuccess.button1,Continuar
+EventMoveGarveyBoat.text,Mueve la ficha del Personaje del Capitán Garvey hacia el camarote del barco.
+EventMoveGarveyBoat.button1,Continuar
+TokenCaptainGarvey3.text,El capitán Garvey toma el control del barco.
+TokenCaptainGarvey3.button1,Continuar
+EventTalkGarvey2Both.button1,{action} —<i>¿Puede ahora decirnos exactamente a dónde se llevaron esos hombres a la chica?</i>
+EventTalkGarvey2Both.button2,{action} —<i>¿Nos llevará por el lago en su barco?</i>
+EventTalkGarvey2Both.button3,—<i>No importa.<i>
+EventTalkGarvey2Go.button1,{action} —<i>¿Nos llevará por el lago en su barco?</i>
+EventTalkGarvey2Both.text,Tal vez se pueda convencer a este viejo capitán del pesquero para ayudar a rescatar a la chica.
+EventTalkGarvey2Go.text,Tal vez ese viejo capitán del pesquero te sea de ayuda.
+TokenCaptainGarvey4.text,El Capitán Garvey gobierna el barco mirando nerviosamente a su alrededor. \n —<i>¡Vigilad bien!</i>
+TokenCaptainGarvey4.button1,Continuar
+TokenVictorDenton3.text,Victor Denton está de pie en la proa del pesquero. \n —<i>Ella no está aquí. Deben habérsela llevado del lago. ¡Vamos!</i>
+TokenVictorDenton3.button1,Continuar
+TokenVictorDenton4.text,Victor mira atentamente entre la niebla. Ocasionalmente, lo escuchas llamar en voz baja: —<i>Rose, Rose... ¿Dónde estás? </i>
+TokenVictorDenton4.button1,Continuar
+EventMythosTentacleAttackSurprise.button1,Continuar
+SpawnTentacleStarboardBow.text,Se escucha un gorgoteo burbujeante desde el agua en la proa de estribor del barco. De repente, un enorme tentáculo que chorrea emerge del agua y comienza a tantear alrededor de la cubierta del barco. \n\n Coloca una ficha de Interacción junto al barco para representar el Tentáculo.
+EventMythosTentacleAttackWarning.button1,Continuar
+SpawnTentacleStarboardBow.button1,Continuar
+CustomMonsterLakeTentacle.info,-
+CustomMonsterLakeTentacle.monstername,Tentáculo del Lago
+EventMythosTentacleAttackWarning.text,Gracias a tus habilidades para la vigilancia alertas cuando las aguas del lago comienzan a burbujear y moverse alrededor del barco. Notas como una enorme criatura sube por debajo del barco desde las aguas turbias del fondo. ¡Eres capaz de gobernar el barco para dejarlo fuera del camino directo de ascenso de la criatura, sin embargo, sus enormes tentáculos brotan del lago y comienzan a atacar al barco! \n\n Cada Investigador sufre 2 de Horror boca abajo anulados por ({will}) luego pon boca arriba 1 carta de Horror.
+SpawnTentacleStarboardStern.text,Suena un ruido como si rasparan una superficie de madera, cuando un tentáculo aterrador emerge del lago deslizándose a lo largo del costado del barco y se enrosca como una serpiente a lo largo de la cubierta. \n\n Coloca una ficha de Interacción y otra ficha que represente al monstruo Tentáculo del lago junto al barco.
+SpawnTentaclePortStern.text,Se escucha un gran chapoteo proveniente de la popa de babor, otro horrible tentáculo emerge del lago y golpea el barco haciendo que se balancee violentamente. \n\n Coloca una ficha de Interacción y otra ficha que represente al monstruo Tentáculo del lago junto al barco.
+SpawnTentaclePortStern.button1,Continuar
+EventQuestionGarvey2nd.text,Intentas obtener más información del Capitán Garvey.
+EventCaptainGarveyNevermind.text,El capitán Garvey tiene la mirada triste y perdida en las aguas de Mystic Lake.
+EventCaptainGarveyNevermind.button1,Continuar
+EventSetupPhase2NoGarvey.button1,Continuar
+TokenControlBoatCrossing.text,Un investigador debe quedarse en el camarote y gastar sus 2 acciones controlando el barco en cada ronda.
+UIPhase3Text.uitext,Todos intentais recuperar la compostura de esa horrenda travesía. El barco se acerca a una isla baja y rocosa. Habéis llegado a vuestro destino, pero ¿os atrevéis a continuar? \n El agua cercana a la playa irradia un resplandor verde enfermizo. Podéis ver una pequeña caseta mohosa en la playa y la forma borrosa de otra estructura que se encuentra cerca del centro de la isla. Tienes la corazonada de que algo muy malo sucede aquí.
+EventStartPhase3.text,"Los Salvadores" \n\n Parte 3 - Sorrow Island
+EventEndPhase2.button1,Continuar
+EventStartPhase3.button1,Continuar
+EventMadeItPhase3.text,El barco dañado y con fugas atraviesa el lago, llegando al cabo de un tiempo a una pequeña isla con un inquietante resplandor que emana de las aguas que la rodean. \n\n Víctor exclama:—<i>¿Qué demonios está pasando aquí?</i>
+EventBoatEngineFail.button1,Continuar
+EventSetupPhase3Garvey.button1,Continuar
+EventBoatEngineFail.text,Aún no puedes hacer que el motor funcione todavía.
+EventSetupPhase3Garvey.text,El pesquero se acerca a la playa. \n\n Coloca el módulo {c:TileBeach} junto al barco en el lugar señalado.
+TokenBeachShackDoor.button1,{action} Abrir la puerta y mirar en el interior.
+EventDoorOldBeachShack.button1,Continuar
+TokenBeachShackDoor.text,Esta puerta descompuesta lleva a una cabaña junto a la playa con un techo parcialmente derruido.
+EventDoorOldBeachShack.text,La vieja caseta está parcialmente derrumbada, tiene una puerta que aguantan débilmente las bisagras. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlacePondTile.text,Más allá de la playa, hay un camino que pasa por un estanque de agua. Esa agua también brilla con ese verde espeluznante. \n\n Coloca el módulo {c:TileTidePool} en el lugar señalado.
+EventPlacePondTile.button1,Continuar
+TokenPondSearch.text,Un investigador puede observar las aguas de este estanque.
+TokenPondSearch.button1,{action} —<i>¿Qué hay ahí abajo? <i>
+EventPlacePondSearch.text,A causa del resplandor, podría ser fácil ver el agua del estanque si te inclinas y miras. \n\n Coloca una ficha de Búsqueda en el centro del estanque. Se puede interactuar con esta ficha desde cualquier espacio adyacente a ella.
+EventPlacePondSearch.button1,Continuar
+EventPlacePondTileSight.text,Debido a la niebla y a la oscuridad, no puedes ver lo que hay en el estanque hasta que te acercas. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventPlacePondTileSight.button1,Continuar
+TokenSightShed.text,Cualquier Investigador que se mueva a un espacio adyacente a la ficha de Vistazo puede interactuar con ella.
+TokenSightShed.button1,Revelar
+TokenBeachSearch.text,Este barco viejo podría tener algo útil dentro.
+TokenBeachSearch.button1,{action} Examinar el barco podrido.
+TokenShedSearch1.text,Algunas abrazaderas y tenazas viejas están organizadas en esta pared. \n\n Puedes mirar y escuchar atentamente en este lugar...
+TokenShedSearch1.button1,{action} Examinar el sitio.
+TokenShedSearch2.text,Un estante con herramientas viejas cuelga sobre un banco. \n Puedes mirar y escuchar atentamente en este lugar...
+TokenShedSearch2.button1,{action} Examinar este lugar.
+TokenShedSearch3.text,Algunas ropas viejas de trabajo cuelgan de ganchos en esta pared. \n\n Puedes mirar y escuchar atentamente en este lugar...
+TokenShedSearch3.button1,{action} Examinar el sitio.
+TokenShedSecretDoor.button1,{action} Bajar hacia la penumbra.
+TokenSecretDoorDestination.text,Aquí hay una escalera que conduce al cobertizo.
+TokenShedSecretDoor.text,Esta trampilla revela una escalera que conduce a un espacio que se encuentra por debajo del cobertizo.
+TokenSecretDoorDestination.button1,Continuar
+TokenSearchLowerChamber.text,Puedes buscar algún objeto inusual en esta esquina.
+TokenSearchLowerChamber.button1,{action} Buscar entre los objetos.
+TokenChamberCrateSearch.button1,{action} Realizar una búsqueda.
+TokenRitualCultist2.button1,Continuar
+TokenChamberCrateSearch.text,Puede realizar una búsqueda rápida en la zona.
+TokenRitualCultist2.text,Sectario2
+TokenRoseDenton.text,Rose derrama gota a gota su sangre en el suelo.
+TokenRoseDenton.button1,Continuar
+TokenRitualPriest.text,Sacerdote Ritual.
+TokenRitualPriest.button1,Continuar
+EventPlaceShed.button1,Continuar
+EventPlaceShedDoor.text,A pesar de haber estado a la intemperie, con un vistazo más cercano adviertes que este cobertizo está en excelentes condiciones y que la puerta ha sido reforzada. No hay ventanas. \n\n Puedes escuchar muy vagamente el sonido de un canto que emana del cobertizo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceShedDoor.button1,Continuar
+TokenShedDoor.text,Esta puerta reforzada está en buen estado. Un elaborado mecanismo de bloqueo evita que se abra. \n\n Puedes intentar abrir esta puerta. \n Puedes escuchar un leve ruido que proviene de dentro. Suena como una especie de canto.
+TokenShedDoor.button1,{action} Forzar la cerradura.
+TokenShedDoor.button2,{action} Usar la llave de latón.
+TokenShedDoor.button3,{action} ¡Echarlo abajo!
+EventPlaceShedSearches.text,Cuando miras y escuchas atentamente, te das cuenta que puedes escuchar el sonido del canto y que proveniente de algún lugar más abajo. Un poco más fuerte de lo que sonaba fuera, así que te preguntas si hay una puerta oculta aquí... en algún lugar. \n\n Coloca las 3 fichas de Búsqueda de la caseta en los lugares señalados.
+EventPlaceShedSearches.button1,Continuar
+CustomMonsterThug.Attack_spell_3,Con un porte poderoso invocas energías oscuras ({lore}:3). \n Si superas la tirada, sientes el poder que proviene del lago ayudando en tu ataque. De repente el matón es arrojado impotente al agua profunda y desaparece de la vista. El matón sufre tanto daño como sea necesario para que sea derrotado. Dale la vuelta al Hechizo y resuelve cualquier efecto adicional. \n Si fallas la tirada, sientes una resonancia con el lago, pero no puedes enfocar la energía correctamente. Pon boca arriba 1 carta de Daño y 1 carta de Horror. No le des la vuelta a la carta de Hechizo.
+CustomMonsterThug.Attack_unarmed_3,Golpeas al matón inesperadamente. \n El matón sufre 2 de Daño.
+CustomMonsterThug.Attack_heavy_3,Con una serie de empujones cortos, atacas con tu arma repetidamente aprovechando cada oportunidad que te da el enemigo ({observation}:2). \n Si superas la tirada, golpeas varias veces y el enemigo sufre 1 de Daño más el resultado de tu tirada. \n Si fallas la tirada, pierdes una oportunidad y el matón te empuja a un lado. Adquieres el estado Desconcertado.
+CustomMonsterThug.Attack_heavy_4,Balanceas tu arma con la esperanza de derribar a tu oponente ({agility}:2). \n Si superas la tirada, el matón intenta esquivar tu ataque, pero lo atrapas y lo arrojas a la cubierta. Él sufre 3 de Daño y adquieres el estado Concentrado. \n Si fallas la tirada, el matón esquiva tu torpe ataque.
+CustomMonsterThug.Attack_spell_4,Tus ojos brillan con una luz extraña mientras lanzas el hechizo al enemigo ({influence}:2). \n Si superas la tirada, tus ojos fijan al enemigo y sufre el efecto completo del hechizo. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional. \n Si fallas la tirada, tu enemigo desvía tu mirada y te agita mientras lanzas el hechizo. El enemigo sufre 2 de Daño y tú sufres 1 de Daño boca abajo. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional.
+CustomMonsterThug.Attack_unarmed_4,Intentas patear fuerte al rufián ({strength}:2). \n Si superas la tirada, le pegas una patada y el matón grita de dolor. Sufre un Daño igual al resultado de tu tirada más 1. \n Si fallas la tirada, pierdes el equilibrio por el intento torpe de dar una patada. El matón hace crujir sus nudillos y se te acerca amenazadoramente. Adquieres el estado Desconcertado.
+EventThugHorror4.text,El hombre se sacude la cara limpiándose la sangre, luego se ríe a carcajadas con ojos de loco. \n Sufres 1 de Horror boca abajo anulado por ({will}-1)
+EventThugHorror4.button1,Continuar
+EventTentacleAttacks.text,El Tentáculo ataca a un investigador aleatorio que esté en un espacio adyacente del barco.
+EventTentacleAttacks.button1,El Tentáculo ataca a un Investigador.
+EventTentacleAttacks.button2,Ningún Investigador está presente para atacar.
+EventTentacleSqueeze.button1,Continuar
+CustomMonsterLakeTentacle.Attack_bladed_1,Esperas a que el tentáculo se balancee, luego lo golpeas con una enérgica desesperación ({agility}:2). \n Si superas la tirada, lo cortas y sufre un daño igual al daño del arma más el resultado de tu tirada. \n Si fallas la tirada, tu movimiento se descontrola y solo cortas la niebla.
+CustomMonsterLakeTentacle.Attack_firearm_1,Intentas mantenerte firme en la cubierta inclinada para alinear un disparo con tu arma ({strength}:2). \n Si superas la tirada, te estabilizas y obtienes un tiro bien dirigido. El monstruo sufre un daño igual al daño del arma. \n Si fallas la tirada, no puedes estabilizar el tiro y los disparos se dispersan en la niebla.
+CustomMonsterLakeTentacle.Attack_heavy_1,Levantas tu arma e intentas golpear el tentáculo con grandes movimientos ({will}:1). \n Si superas la tirada, te mantienes firme y golpeas el apéndice. El monstruo sufre un daño igual al daño del arma. \n Si fallas la tirada, no tienes el tiempo suficiente para realizar un golpe sólido. Te echas atrás.
+CustomMonsterLakeTentacle.Attack_spell_1,Cuando lanzas el hechizo, el lago te hace sentir peligrosamente empoderado ({lore}) y registra tus Éxitos. \n 0: Sientes la energía del lago succionándote el alma. Sufres 1 de Horror boca abajo, luego pon 1 carta de Horror boca arriba \n 1-2: Tu hechizo se activa con normalidad e inflige 1 de Daño adicional. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional. \n 3: Tu hechizo se activa con normalidad, recoge una increíble oleada de energía del lago e inflige el doble del daño normal. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional, utiliza un dado más si el efecto de la carta te exige una tirada adicional. \n 4: Una oleada de energía te inunda, pero es más de lo que puedes controlar. Sufres Daño boca abajo igual al daño del Hechizo. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional, utiliza un dado menos si el efecto de la carta te exige una tirada adicional.
+CustomMonsterLakeTentacle.Attack_unarmed_1,Te apresuras hacia el apéndice y luego se forma una pregunta en tu mente. <i>¿Por qué estoy atacando algo como eso sin un arma?<i> ({will}:2) \n Si superas la tirada, ¡por qué no! Agarras a esa cosa e infliges 2 de Daño más el resultado de tu tirada. \n Si fallas la tirada, ¡de ninguna manera! Pierdes todo ímpetu y adquieres el estado Desconcertado. ¿En qué estabas pensando?
+EventTentacleHorror.text,TODOS los investigadores en el barco deberán realizar una tirada de Horror.
+EventTentacleHorror.button1,Continuar
+EventTentacleEvade.text,La cubierta del barco es una escena de caos total. Intentas esquivar un tentáculo inmenso ({agility}:2). \n Si superas la tirada, avanzas por la cubierta evitando el caos. \n Si fallas la tirada, a medida que avanzas por la cubierta, un tentáculo retorcido te golpea de lleno. Sufres 1 de Daño boca abajo.
+EventTentacleEvade.button1,Continuar
+EventSetupPhase3NoGarvey.text,El barco pesquero se acerca a la playa. \n\n Coloca el módulo {c:TileBeach} junto al barco. \n
+EventSetupPhase3NoGarvey.button1,Continuar
+EventSetupPhase2NoGarvey.text,Con cuidado, gira el módulo del barco 180º. El barco está ahora en aguas abiertas en Mystic Lake. \n\n NOTA: Un investigador debe permanecer en el camarote y gobernar el barco en cada ronda, interactuando con los controles. \n\n Retira cualquier ficha de Búsqueda que quedase, el barco ha zarpado.
+TokenControlBoatCrossing.button1,Dos {action}es: Gobernar y dirigir el barco.
+SpawnTentaclePortBow.text,Sale bruscamente del lago un tentáculo y se agita momentáneamente en el aire, pero luego parece enfocarse en las personas en la cubierta. \n\n Coloca una ficha de Interacción y otra ficha que represente al Tentáculo del lago junto al barco.
+SpawnTentaclePortBow.button1,Continuar
+EventTentacleHorror1.text,Los tentáculos comprimen el barco desde los dos lados. Está claro que es la misma criatura monstruosa. El casco del barco cruje y se tensa. \n \Cada investigador pone boca arriba 1 carta de Horror.
+EventTentacleHorror1.button1,Continuar
+EventTentacleHorror2.text,Un tentáculo se para, parece estar estudiando el barco, luego se divide en múltiples tentáculos más pequeños ({observation}:2). \n Si superas la tirada, te das cuenta con horror que la cantidad de nuevos tentáculos coinciden con la cantidad de personas del barco. ¿Ese bicho es inteligente? Sufres 2 de Horror boca abajo. \n Si fallas la tirada, es un espectáculo horrible. Sufres 2 de Horror boca abajo anulados por ({will})
+EventTentacleHorror2.button1,Continuar
+EventTentacleHorror3.text,Un tentáculo se estrella contra la borda del barco que lo astilla. Se desprende un trozo del tentáculo y quedas aterrorizado cuando le brotan piernas y corre por la cubierta por un instante antes de quedarse quieto. Intentas encontrar una explicación lógica de lo que está sucediendo para tranquilizar tu mente. \n\n  Sufres 2 de Horror boca abajo anulados por ({lore})
+EventTentacleHorror3.button1,Continuar
+EventDamageBoat.text,Sin un objetivo claro en la cubierta, el tentáculo se enfoca en el barco y se estrella contra el casco del barco. Escuchas el chasquido de la madera astillada. \n Victor Denton grita: —<i>¡Está tratando de hundirnos!<i>.
+EventDamageBoat.button1,Continuar
+EventTentacleSqueeze.text,El enorme tentáculo se desliza alrededor de tu cuerpo y comienza a apretarte haciendo crujir tus huesos. Intentas liberarte de la presión aplastante. \n Sufres 2 de Daño boca abajo anulados por ({strength})
+EventEndPhase2.text,Cuando el último de los tentáculos gigantes se sumerge en el lago, te desplomas sobre la borda del barco. Has vencido el asalto furioso y gigantesco del monstruo del lago. \n\n Retira cualquier ficha de Interacción y ficha que represente al Tentáculo de las cercanías del módulo del barco. \n Cada investigador recibe 1 Pista {clue}.
+EventMadeItPhase3.button1,Continuar
+EventBoatSinksEND.text,¡El barco está completamente destrozado y comienza a hundirse! Te das cuenta con absoluto horror de que ha sufrido demasiado daño por el ataque de la criatura y se está hundiendo rápidamente en las aguas abisales del lago. La monstruosa criatura se encuentra cerca, chapotea como si esperara alegremente un festín. \n Mientras el motor chisporrotea y muere y el agua del lago se eleva a su alrededor, se escucha a Victor Denton decir delicadamente: —<i>Lo siento, amigos... <i> \n\n HABÉIS PERDIDO.
+EventBoatSinksEND.button1,Continuar
+UITextEND.uitext,Realmente espero que hayas disfrutado de este escenario de Mansiones de Locura.
+EventTentacleWhip.button1,Continuar
+EventTentacleSuction.text,El tentáculo se cierne sobre ti y luego se despliega revelando docenas de pequeñas fauces succionadoras que se abren a medida que descienden sobre ti ({observation}:2). \n Si superas la tirada, coges un objeto en la cubierta y te proteges de las voraces fauces. \n Si fallas la tirada, sin nada a mano para usar como escudo, el tentáculo te agarra y gritas mientras las fauces te muerden como pirañas hambrientas. Sufre 1 de Daño y 1 de Horror boca abajo.
+EventTentacleWhip.text,Con un movimiento rápido como un látigo, el extremo escamoso del tentáculo te ataca ({agility}:2). \n Si superas la tirada, lo esquivas y solo se te rasga un poco la ropa. \n Si fallas la tirada, el ataque rasga tu carne haciéndote una herida larga y sangrienta. Sufre 1 de Daño, luego pon boca arriba 1 de Daño.
+EventTentacleSuction.button1,Continuar
+EventTentacleDrop.text,De repente, el tentáculo intenta sacarte de la cubierta ({agility}:2). \n Si superas la tirada, te agachas y te alejas justo a tiempo. \n Si fallas la tirada, te envuelve las piernas y te levanta boca abajo en el aire. El tentáculo te sacude violentamente y te arroja al espacio del lado opuesto del barco donde te encontrabas. Mueve al investigador a otro espacio del barco fuera del camarote. Sufre 2 de Daño boca abajo y pon boca arriba 1 de Daño.
+EventTentacleDrop.button1,Continuar
+EventTentacleMouse.text,El tentáculo se centra en ti y comienza a perseguirte por la cubierta como si estuvierais jugando un juego mortal del gato y ratón ({lore}:2). \n Si superas la tirada, te las arreglas para adelantarte y pierde tu rastro, el tentáculo golpea la cubierta con frustración. \n Si fallas la tirada, calculaste mal tus movimientos y el tentáculo los predice, te atrapa y te tira a la cubierta. Sufres 1 de Daño y adquieres el estado Aturdido.
+EventTentacleMouse.button1,Continuar
+EventTentacleHorror4.text,El barco se tambalea cuando una enorme burbuja de aire estalla alrededor del barco. Escuchas un aullido sobrenatural, de asombroso poder. Un hedor como décadas de podredumbre pantanosa abruma tus fosas nasales ({will}:2). \n Si superas la tirada, sufre 1 de Horror boca abajo. Esto es casi imposible de soportar. \n Si fallas la tirada, te tambaleas y tropiezas, arañando las tablas debajo de tus pies en una desesperación completa. Sufre 2 de Horror boca abajo y pon boca arriba 1 de Horror.
+EventTentacleHorror4.button1,Continuar
+CustomMonsterLakeTentacle.Attack_bladed_2,Estudias el tentáculo en busca de un punto débil y luego le golpeas con tu arma afilada ({observation}:3). \n Si superas la tirada, ¡ahí está! Le apuñalas en un lugar blando que inflige el daño de las armas más 1. \n Si fallas la tirada, apuñalas en lo que parece ser un lugar vulnerable pero solo descubres que tu filo se desvía como si apuñalaras una piedra.
+CustomMonsterLakeTentacle.Attack_bladed_3,Saltas sobre un tentáculo y lo montas como a un toro mecánico, tratas de agarrarte mientras apuñalas repetidamente a la criatura ({strength}:3). \n Si superas la tirada, ¡aguantas lo suficiente como para causar un daño igual al doble del daño del arma! \n Si fallas la tirada, infliges 2 de daño antes de ser arrojado contra la pared del camarote del barco. Sufres 1 de Daño boca abajo.
+EventInvestigatorMoveChamber.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMoveVictorOnly.button1,Continuar
+EventMoveGarveyOut.button1,Continuar
+EventMoveGarveyOut.text,El Capitán Garvey sale del cobertizo y se dirige al muelle. \n\n Mueve la ficha de Personaje del Capitán Garvey al muelle. \n 
+EventSternManAttack.button1,Continuar
+EventSternManAttack.text,¡Cuando cae el primer matón, el tipo duro se une repentinamente a la pelea!
+CustomMonsterLakeTentacle.Attack_firearm_2,Rápidamente disparas con tu arma esperando darle al tentáculo({agility}-1:2). \n Si superas la tirada, tu disparo da en el blanco y el tentáculo retrocede de dolor. Inflige un daño igual al daño del arma más el resultado de tu tirada. \n Si fallas la tirada, eres demasiado lento para poder darle al apéndice con tu disparo. La bala se pierde en el aire.
+CustomMonsterLakeTentacle.Attack_firearm_3,Si consiguieras quedarte quieto el tiempo suficiente para apuntar... ({will}:1). \n Si superas la tirada, infliges un daño igual al daño del arma. \n Si fallas la tirada, quedarse quieto no era una buena idea. El tentáculo te golpea. Sufres 2 de Daño boca abajo, anulados por ({strength}.
+TokenWoundedThug.button2,{action} ¡Acabar con él!
+TokenWoundedThug.button3,{action} Darle atención médica.
+TokenWoundedThug.button4,{action} Dejarlo sufrir.
+EventWoundedThugPress.text,El matón se queja mientras lo miras amenazadoramente. —<i>Nosotros... nosotros... la llevamos a la isla. Dos hombres con túnicas nos esperaban en la playa. La llevaron hacia el centro de la isla... Yo... <i> \n El matón cae inconsciente.  \n\n Retira la ficha de Interacción del Matón Herido. \n Ganas 1 Pista {clue}.
+EventWoundedThugPress.button1,Continuar
+EventWoundedThugHelp.text,Haces todo lo posible para aliviar su dolor y se vendar sus heridas. \n El matón se muestra agradecido y te dice: —<i>Mira... nosotros... la llevamos a la isla. Dos hombres con túnicas nos esperaban en la playa. La llevaron hacia el centro de la isla y nos dijeron que nos fuéramos del lago lo más rápido posible.<i> \n —<i>Sin embargo, debo decirte que NO secuestramos a esa chica. Nos dijeron que la ayudáramos a llevarla a salvo a la isla. Ella sabía perfectamente lo que estaba haciendo... <i> \n El matón pierde el conocimiento. \n\n Retira la ficha de Interacción del Matón Herido. \n Ganas 2 Pistas {clue}.
+EventWoundedThugHelp.button1,Continuar
+EventThugFinish.text,En un ataque de ira, golpeas al matón hasta que deja de moverse. Está muerto. Victor Denton asiente con aprobación, pero luego el impacto de lo que acabas de hacer os perturba. \n\n Todos los investigadores sufren 1 de Horror boca abajo. \n Retira la ficha de Interacción del Matón Herido.
+EventThugFinish.button1,Continuar
+TokenVictorDenton5.text,Victor Denton mira a su alrededor llamándola. —<i>Rose... Rose... ¿estás aquí?<i>
+TokenVictorDenton5.button1,Continuar
+TokenVictorDenton6.text,Víctor dice: —<i>Puedo escuchar algo. Parece que algún tipo de ritual está en proceso. DEBEMOS darnos prisa... <i> \n Parece que esté listo para avanzar de manera imprudente, lo que te preocupa.
+TokenVictorDenton6.button1,{action} Decirle a Víctor que se quede aquí y que deje que los investigadores se encarguen de esto.
+TokenVictorDenton7.button1,Continuar
+TokenVictorDenton7.text,Víctor os empuja con ansia de continuar. —<i>¿¡A qué están esperando!?<i>
+TokenVictorDenton8.text,Víctor mira a su hija con un sentimientos encontrados de alegría y extrema preocupación.
+TokenVictorDenton8.button1,Continuar
+EventSearchBoatDeck.button1,Continuar
+EventBeachSearch.text,¿Qué hace esto aquí? \n\n Ganas {c:QItemBeachFind}.
+TokenVictorDenton6.button2,Déjalo solo y avanza.
+EventVictorWait.text,—<i>Victor, es mejor que espere aquí y déjenos rescatar a Rose. Va a arruinar cualquier posibilidad que tengamos de sorprenderlos.<i> \n Victor asiente a regañadientes —<i>Solo daros prisa - rescatad a mi Rose.<i>
+EventVictorWait.button1,Continuar
+EventPlaceRottingShackSearch.button1,Continuar
+EventPlaceRottingShackSearch.text,Hay montones de escombros en esta caseta. Puedes buscar alrededor, pero el lugar parece estar al borde del derrumbe. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+CustomMonsterLakeTentacle.Attack_heavy_2,Con un grito de ira, corres hacia adelante y hundes tu arma con toda la fuerza que llegas a reunir ({strength}:2). \n Si superas la tirada, consigues dar un golpe brutal. Infliges Daño igual al daño del arma más el resultado de tu tirada. \n Si fallas la tirada, tu golpe no llega a impactar y el tentáculo se escapa. Adquieres el estado Desconcertado.
+CustomMonsterLakeTentacle.Attack_heavy_3,Bloqueas el apéndice empujándolo ({strength}:2). \n Si superas la tirada, empujas a esa cosa a un lado infligiéndole 2 de Daño y adquieres el estado Concentrado. \n Si fallas la tirada, el tentáculo tiembla como si se riera de tu intento y luego te abofetea. Sufres 2 de Daño boca abajo anulados por ({agility}).
+CustomMonsterLakeTentacle.Attack_spell_2,Te preparas en la caótica cubierta e intentas darte prisa con las frases correctas de tus hechizos({strength}:2). \n Si superas la tirada, el Hechizo inflige el Daño que se indica en la carta. Dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional. \n Si fallas la tirada, pierdes el equilibrio, la concentración y te desplomas la cubierta. Adquieres el estado Desconcertado. No des la vuelta al Hechizo.
+CustomMonsterLakeTentacle.Attack_spell_3,Reúnes la confianza para lanzar magia contra ese monstruoso tentáculo ({will}:2). \n Si superas la tirada, el monstruo sufre 2 de Daño, más el resultado de tu tirada. Si obtienes menos de 4 Éxitos, dale la vuelta a la carta de Hechizo y resuelve cualquier efecto adicional. Si obtienes 4 o más Éxitos puedes elegir si le das la vuelta a la carta de Hechizo y resolver el efecto adicional.
+CustomMonsterLakeTentacle.Attack_unarmed_2,Tratas de agarrar el tentáculo con un abrazo de oso mientras lo golpeas en la cubierta repetidamente ({strength}:2). \n Si superas la tirada, obtienes ventaja y lo golpeas sobre la cubierta, ¡el monstruo sufre 2 de Daño más el resultado de tu tirada! \n Si fallas la tirada, te da la vuelta y te golpea contra la cubierta. Sufres 1 de Daño.
+CustomMonsterLakeTentacle.Attack_unarmed_3,Intentas idear una manera de dañar a esta cosa sin un arma, se te ocurre un plan desesperado. Te colocas frente a un gancho de metal fijado al barco y te conviertes en un blanco fácil ({agility}:2). \n Si superas la tirada, cuando el tentáculo se lanza por ti, de repente lo esquivas hacia un lado y lo golpeas contra el gancho que le hace un corte profundo. El monstruo sufre 3 de Daño. \n Si fallas la tirada, has sincronizado mal el movimiento y el golpe que recibes te tira a un lado. Sufres 2 de Daño boca abajo anulados por ({strength}).
+TokenRottingShackSearch1.text,Decides buscar entre el desorden de esta caseta mohosa.
+TokenRottingShackSearch1.button1,Continuar
+EventRottingShackSearch1.text,¡Te las arreglas para descubrir un arma! \n\n Ganas {c:QItemShackWeapon}.
+EventRottingShackSearch1.button1,Continuar
+EventRottingShackSearch2.text,Al apartar cuidadosamente el contenido enmohecido de la caseta, encuentras algo bastante sorprendente. \n\n Ganas {c:QItemShackRandom}.
+EventRottingShackSearch2.button1,Continuar
+EventRottingShackSearch3.text,Perturbas un nido de arañas que salen corriendo en todas direcciones, trepan con rapidez hasta tus brazos. Intentas quitártelos de encima rápidamente. \n\n Sufres 1 de Horror boca abajo.
+EventRottingShackSearch3.button1,Continuar
+EventRottingShackSearch4.button1,Continuar
+TokenRottingShackSearch2.text,Decides buscar entre el desorden de esta caseta mohosa.
+EventRottingShackSearch4.text,¡Retiras un pedazo de madera y toda la cabaña se inclina y se derrumba! \n\n Cada investigador en la caseta sufre 3 de Daño boca abajo. \n Puedes intentar anular este daño con la habilidad: \n Fuerza {strength} de cada investigador, tratando de sostener los escombros y creando una salida O con \n Agilidad {agility} saliendo rápidamente de la caseta \n\n Cada investigador pone boca arriba 1 de Daño.
+TokenRottingShackSearch2.button1,Continuar
+TokenRottingShackSearch3.text,Decides buscar entre el desorden de esta caseta mohosa.
+TokenRottingShackSearch3.button1,Continuar
+EventSpawnDeepOne.text,Algo te mira fijamente, de repente nada hacia la superficie y emerge del estanque turbio. \n\n Sufres 1 de Horror.
+EventSpawnDeepOne.button1,Continuar
+SpawnDeepOnePool.text,¡Un profundo hambriento y furioso por las molestias sale del estanque! \n\n Coloca un Profundo en el lugar señalado.
+SpawnDeepOnePool.button1,Continuar
+EventPlaceShed.text,Puedes ver un camino por una ladera pedregosa que conduce a un almacén expuesto al clima. Este es el centro de la isla. \n\n Coloca el módulo {c:TileShed} en el lugar señalado.
+EventVictorMoveShed.text,Con un grito de esperanza, Víctor grita: —<i>¡Debe de estar en ese cobertizo!<i> \n Victor corre hacia la puerta del cobertizo sin prestar atención a lo que podría haber delante.
+EventVictorMoveShed.button1,Continuar
+EventRottingShackSearch5.text,¡Casi por casualidad encuentras una llave hábilmente escondida entre los objetos de la caseta de la playa! \n Ganas el Objeto único {c:QItemBrassKey} y 1 Pista {clue}.
+EventRottingShackSearch5.button1,Continuar
+EventPickShedLock.text,Intentas abrir la cerradura de esta puerta {agility} e indica el número de {success}.
+EventPickShedLock.button1,Continuar
+EventBreakDownShedDoor.text,¡Con un fuerte empujón intentas derribar la puerta! {strength} e indica el número de {success}.
+EventBreakDownShedDoor.button1,Continuar
+EventShedDoorKey.text,Sacas la {c:QItemBrassKey} que encontraste antes y la insertas en la cerradura. Giras suavemente y escuchas un satisfactorio "clic" cuando la cerradura se desbloquea.
+EventShedDoorKey.button1,Continuar
+EventShedDoorOpen.text,La puerta se abre y descubres que la idea que estabas formando en tu cabeza de la escena que ibas a presenciar ha sido una pérdida de tiempo. ¡Este sitio está completamente vacío y no parece ser más que un simple cobertizo para herramientas!
+EventShedDoorOpen.button1,Continuar
+EventShedSearch2.button1,Continuar
+EventShedSearch2.text,Encuentras el Objeto Común {c:QItemShovel}, pero no encuentras señales de que haya otra salida en este cobertizo.
+EventShedSearch1.text,No encuentras nada útil y al escuchar atentamente te das cuenta de que estás en el lugar equivocado.
+EventShedSearch1.button1,Continuar
+EventShedSearch3Find.text,Comienzas a buscar entre la ropa de trabajo. Uno de los ganchos en los que cuelgan se inclina hacia abajo como si fuera una palanca y se abre una trampilla secreta. \n Una escalera conduce hacia más abajo a una cámara bajo el cobertizo. El canto se puede escuchar ahora con mayor claridad. \n Ganas 1 Pista {clue}.
+EventShedSearch3Find.button1,Continuar
+TokenTokenSecretDoor2.text,Esta trampilla da acceso a una escalera que conduce a la cámara inferior debajo del cobertizo de las herramientas.
+TokenTokenSecretDoor2.button1,Continuar
+EventPlaceLowerChamber.text,Bajas al espacio inferior y te encuentras descendiendo a un espacio considerable, con paredes de ladrillo. Parece que la gente ha estado viviendo aquí y almacenado suministros. \n Los extraños símbolos grabados en las paredes sobre la cámara te perturban. \n\n Coloca el módulo {c:TileLowerChamber} en el lugar señalado.
+EventPlaceLowerChamber.button1,Continuar
+EventPlaceTrapdoorEnd.text,Puedes moverte desde la cámara al cobertizo de arriba usando la escalera como 1 parte de acción de movimiento. \n\n Coloca una ficha de Pasadizo secreto en el lugar señalado.
+EventPlaceTrapdoorEnd.button1,Continuar
+EventPlaceLowerChamberWall.text,Coloca una ficha de Pared en el lugar señalado.
+EventPlaceLowerChamberWall.button1,Continuar
+EventPlaceRitualRoomDoor.text,Una puerta vieja con grabados extraños parece ser la única salida en esta cámara. El canto ritualista que escuchas viene claramente de detrás de esta puerta. \n A medida que te acercas, te recorren unos escalofríos por la columna vertebral. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceRitualRoomDoor.button1,Continuar
+EventPlaceLowerChamberSearch1.text,Puede ser fascinante examinar algunas de las cosas extrañas y antiguas de esta habitación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceLowerChamberSearch1.button1,Continuar
+EventPlaceLowerChamberSearch2.button1,Continuar
+EventPlaceLowerChamberSearch2.text,Algunos objetos extraños están ordenados en el escritorio de la esquina. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMoveDentonLowerChamber.button1,Continuar
+EventMoveDentonLowerChamber.text,Víctor se precipita hacia la caseta, baja por la escalera empujando a los investigadores hacia un lado y al llegar al fondo de la escalera se detiene y grita con una voz resonante: —<i>¡ROSE!.<i> \n El canto se detiene de repente.
+EventSearchLowerChamber.text,¡Encuentras el secreto de un antiguo hechizo! \n\n Ganas el Hechizo {c:QItemSpellFind}.
+EventSearchLowerChamber.button1,Continuar
+EventLowerChamberSnakeAttack.text,Cuando comienzas a examinar los objetos, algo se desliza ante tu vista. Es una serpiente larga y colorida que gotea veneno de los colmillos. Se levanta preparada para atacar. \n\n Sufres 1 de Horror boca abajo, luego pon boca arriba 1 de Horror. \n\n Intentas evadirla ({agility}:2). \n Si superas la tirada, te las arreglas para salir del rango de ataque mientras la serpiente arremete. Se desliza fuera de tu vista. \n Si fallas la tirada, los colmillos de la serpiente se clavan en el dorso de tu mano mientras intentabas alejarte. Te sientes mareado. Sufres 3 de Daño boca abajo y adquieres el estado Desconcertado y Aturdido.
+EventLowerChamberSnakeAttack.button1,Continuar
+TokenDoorToRitualRoom.text,El canto se hace cada vez más fuerte a medida que te acercas a esta puerta adornada. Te preguntas ¿cuál podría ser el propósito del canto?, después de lo que has visto temes lo peor.
+TokenDoorToRitualRoom.button1,{action} Abrir la puerta.
+TokenDoorRitualRoom2.text,Parece inquietantemente tranquilo desde que cesaron los cánticos. La tensión crece a medida que te acercas a esta puerta adornada. Te preguntas ¿cuál podría haber sido el propósito del canto?, después de lo que has visto temes lo peor.
+TokenDoorRitualRoom2.button1,{action} Abrir la puerta.
+EventSoTYES.button1,Continuar
+EventSoTNO.button1,Continuar
+EventPlaceRitualRoomTile.text,Coloca el módulo {c:TileRitualRoom} en el lugar indicado.
+EventPlaceRitualRoomTile.button1,Continuar
+EventPlaceEntryHallTile.text,Coloca el módulo {c:TileEntryHall} en el lugar señalado. \n Las cuatro puertas de este módulo son fachadas talladas, se corresponden con fichas de Pared.
+EventPlaceEntryHallTile.button1,Continuar
+EventRitualReveal.text,Tras la puerta ves un sitio muy inquietante. Tres hombres con túnicas rodean a una chica que yace en el suelo. La chica tiene varios cortes profundos en su cuerpo que gotean sangre mientras los sectarios cantan junto a ella en un lenguaje olvidado. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventRitualReveal.button1,Continuar
+EventRitualHalted.text,Tras la puerta te encuentras con un sitio muy inquietante. Tres hombres vestidos con túnicas permanecen en silencio mirando hacia la puerta mientras rodean a una chica que está goteando sangre en el suelo. Tiene cortes profundos en su cuerpo y se balancea sin apenas estabilidad. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventRitualHalted.button1,Continuar
+EventVictorRushIn.text,Victor Denton grita estridentemente: —<i>¡Rose! ¿Qué te están haciendo?<i> \n\n Mueve la ficha de Personaje de Victor Denton al lugar señalado.
+EventVictorRushIn.button1,Continuar
+EventPlaceRose.text,Coloca una ficha de Personaje que represente a la chica (Rose) en el lugar señalado.
+EventPlaceRose.button1,Continuar
+EventPlaceCultist1.button1,Continuar
+EventPlaceCultist2.text,Una segunda figura con túnica levanta los brazos en dirección a la chica. \n\n Coloca un segundo monstruo Sectario en el lugar señalado.
+EventPlaceCultist1.text,Una figura con una gruesa túnica se queda parada tras detenerse en medio de un gesto y gira la cabeza para mirarte con desdén. \n\n Coloca un monstruo Sectario en el lugar señalado.
+EventPlaceCultist2.button1,Continuar
+EventPlacePriest.text,Uno de ellos es claramente el líder y sostiene una daga larga que gotea sangre. Te mira impasible. \n\n Coloca un Sacerdote de Dagón en el lugar señalado. \n NOTE: Los Sectarios y el Sacerdote no han sido activados, por lo que no se consideran enemigos.
+EventPlacePriest.button1,Continuar
+EventRoseConfrontation.button1,Permitir completar el ritual y sacrificar a Rose.
+EventRoseConfrontation.text,La chica abre los ojos y grita: —<i>¡No! ¡No puedes estar aquí!, No entiendes que vine aquí voluntariamente.<i> \n Se arrodilla ante ti y te suplica. \n —<i>Si este ritual no se completa, el monstruo del lago podrá reproducirse y extenderse por todo el mundo. \n ¡Este culto nos salvará! ¡Dejadles acabar o todos estaréis en peligro!<i> \n\n Se vuelve hacia el sacerdote: —<i>Es casi demasiado tarde. Yo, Rose, me entrego para salvar el mundo.<i> \n Se tumba exponiéndose a la daga en la mano del sacerdote. Los sectarios reanudan su cántico.
+EventRoseConfrontation.button2,¡Atacar a los sectarios e intentar rescatar a Rose!
+EventRoseConfrontation.button3,¡Amenaza a los sectarios para detener esto y liberarla!
+EventVictorStartsFight.text,Víctor Denton grita: —<i>¡Mi hija no te pertenece!<i> ¡Victor se precipita hacia el sectario más cercano y se enzarzan en un combate cuerpo a cuerpo!
+EventVictorStartsFight.button1,Continuar
+SpawnCultist1.text,¡Los sectarios entran en acción decididos a detener esta intrusión!
+EventRitualCompletes.text,Convencido por las palabras de Rose, te alejas y miras mientras el ritual continúa. El sacerdote retoma el liderazgo del ritual y el canto se eleva en un crescendo cada vez más intenso. \n\n Te desesperas por lo que le tengas que decir a Víctor, que os está esperando al inicio de las escaleras, después de haberte dado su confianza, pero debes seguir tus instintos. Haces una mueca cuando Rose se vuelve hacia el sacerdote y acepta voluntariamente que le atraviesen el corazón entonces, una ola de puro poder emana de ella hacia las paredes y hacia más allá del lago. \n\n La habitación se silencia y los sectarios te hacen un ademán, ofreciéndote a que te lleves el cuerpo sin vida de Rose a casa.
+SpawnCultist2.text, \n Los dos Sectarios ahora son enemigos activos.
+SpawnCultist2.button1,Continuar
+SpawnPriest.text,¡El sacerdote parece llenar la habitación con un poder que brota mientras ataca! \n\n El sacerdote es ahora un enemigo activo.
+SpawnPriest.button1,Continuar
+EventInvestigtorsStartFight.text,¡Sin creer una palabra de lo que dice, y decididos a rescatar a la chica, lanzas tu ataque contra los malvados sectarios!
+EventInvestigtorsStartFight.button1,Continuar
+SpawnCultist1.button1,Continuar
+EventRitualCompletes.button1,Continuar
+EventRitualCompletedEND.text,Con profunda tristeza, sales de la caseta llevando el cuerpo de Rose. Victor solloza desesperado y os maldice —<i>¿Por qué confié en vosotros?<i> \n\n Victor corre hacia la habitación del ritual para cobrarse su venganza, pero descubrís que los sectarios han desaparecido. \n Víctor se niega a acompañaros de vuelta al barco. De mala gana, cogéis el barco para regresar con la intención de enviar ayuda a Victor. Sabéis que habéis perdido a un amigo para siempre. El lago está tranquilo y todas las extrañas sensaciones de poder han disminuido, al menos por otro año. \n\n <b>Habéis GANADO.<b>
+EventRitualCompletedEND.button1,Continuar
+UITextEND.button1,<b>FIN<b>
+EventThreatenCult.text,¡Exiges a los sectarios que liberen a la chica de inmediato! \n\n Elige un portavoz de los investigadores que se encuentren en las cámaras subterráneas ({influence}:3).
+EventThreatenCult.button1,Tirada de influencia superada.
+EventThreatenCult.button2,Tirada de influencia fallada.
+EventCultistsBeginFight.text,¡En un desafío violento de un idioma desconocido, el sectario te ataca!
+EventCultistsBeginFight.button1,Continuar
+EventOfferToSwap.text,Los sectarios te miran con ojos penetrantes. \n El sacerdote habla despacio, forcejeando con tu idioma. \n —<i>Puedes llevarte a la chica, pero solo si hay un voluntario dispuesto a ser sacrificado en su lugar.<i> \n\n Rose solloza: —<i>No, no, estoy preparada para esto. Debo ser yo... <i>
+EventOfferToSwap.button1,Un investigador se ofrece como voluntario para ser el sacrificio.
+EventOfferToSwap.button2,Victor Denton se convierte en el sacrificio.
+EventOfferToSwap.button3,—<i>¿Qué? ¡De ninguna manera! ¡Dadnos a la chica!<i>
+EventVictorSacrifice.text,\n Victor Denton da un paso adelante. —<i>¡No dejaré que mi hija o mis amigos se conviertan en sacrificios! Un padre siempre está dispuesto a dar la vida por un hijo. Esta noche haré lo que deba<i>. Avanza hacia el sacerdote y le aparece lentamente una expresión de satisfacción que se extiende por todo su rostro. \n\n Los sectarios alejan a Rose, que forcejea. —<i>¡No papá! Nooo...<i> solloza. \n\n Retrocedes y contemplas como continúa el ritual. El sacerdote retoma el mando sobre el evento y el canto se eleva en un crescendo cada vez más intenso. \n\n Te entristece profundamente esta decisión, pero sigues tu instinto de que este ritual debe continuar. Haces una mueca cuando Víctor Denton se vuelve hacia el sacerdote y acepta voluntariamente que le atraviesen el corazón. Una ola de puro poder emana de la habitación hacia las paredes y hacia el lago. \n\n La habitación se silencia y los sectarios te hacen un ademán, ofreciéndote a que te lleves el cuerpo sin vida de tu amigo a casa. \n\n ¡Todos los investigadores sufren 2 de Horror!
+EventVictorSacrifice.button1,Continuar
+EventInvestigatorSacrifice.text,Elegid a un investigador para sea sacrificado. \n\n A medida que el investigador avanza y mira a los ojos del sacerdote, comienza a sentirse "bien" y la voluntad de morir por completar el ritual le llena. \n\n Los sectarios alejan a Rose, que forcejea. Los demás investigadores retroceden y miran mientras el ritual continúa. El canto se eleva en un crescendo cada vez más intenso. \n\n Te entristece profundamente esta decisión, haces una mueca de dolor cuando tu amigo se vuelve hacia el sacerdote y acepta voluntariamente que le atraviesen el corazón. Una ola de puro poder emana de la habitación hacia las paredes y hacia el lago. \n\n El investigador que se ofreció como voluntario es retirado del tablero. <b>¡Ese investigador ha GANADO!<b>
+EventInvestigatorSacrifice.button1,Continuar
+EventInvestigatorSacrificedEND.text,Con profunda tristeza, salís de la caseta llevando el cuerpo de vuestro amigo y acompañais a una sollozante Rose que murmura... —<i>El año que viene, el año que viene... <i> Víctor la toma entre sus brazos; —<i>No sé qué decir, os debo una deuda que nunca podré pagaros por completo.<i> \n\n El lago está tranquilo y todas las extrañas sensaciones de poder han disminuido. Al menos por otro año. Intentaisaprender más de esos sectarios, pero cuando volvéis la vista descubrís que han desaparecido. \n\n <b>Habéis GANADO.<b>
+EventInvestigatorSacrificedEND.button1,Continuar
+EventVictorSacrificedEND.text,Con profunda tristeza, salís de la caseta llevando el cuerpo de vuestro amigo y acompañaisa una sollozante Rose que murmura... —<i>El año que viene, el año que viene...<i> \n\n El lago está tranquilo y todas las extrañas sensaciones de poder han disminuido. Al menos por otro año. Intentais aprender más de esos sectarios, pero cuando volvéis la vista atrás descubrís que han desaparecido. \n\n Mientras embarcais en el barco en el viaje de regreso por el lago, reflexionais sobre el gran sacrificio de vuestro amigo y juraisencargaros de Rose.  \n\n <b>Habéis GANADO.<b>
+EventVictorSacrificedEND.button1,Continuar
+EventCultDefeated.text,Cuando el último enemigo es derrotado, Rose Denton se levanta y se acerca a los investigadores. \n —<i>Estás poniendo en riesgo a todo el mundo.<i> exclama. —<i>El ritual de esta noche es la clave para mantener al monstruo contenido. Me enseñaron las palabras. Es posible que pueda completarlo, ¡pero alguien tendrá que ser sacrificado! Yo no puedo matar a mi padre.<i>Mira fijamente a los investigadores. \n\n Te das cuenta con horror, que estaba hablando muy seria mientras se acerca para recoger la daga del sacerdote muerto.
+EventCultDefeated.button1,Revive a un sectario herido y deja que Rose los sacrifique.
+EventCultDefeated.button2,¡Mantén a raya a Rose, sácala de allí y consigue su ayuda!
+EventNoRitual2END.text,Os reunís con Rose y salís del subsuelo hacia un lugar aterrador. Cientos de criaturas con tentáculos emergen del resplandor verde que ahora se extiende aún más lejos de la isla y flotan en todas direcciones a una velocidad increíble.  \n\n Nada más llegar a la ciudad, sus luces son apenas visibles, los sonidos lejanos de gritos llegan hasta vuestros oídos. \n\n Rose te grita: —<i>Deberíais haberme escuchado, ¡todos estos descendientes se irán a buscar otros lagos para esconderse y el próximo año cada uno de ellos engendrará cientos más!<i> \n\n La fuerza insoportable de vuestro fracaso se instala profundamente en vuestra mente. ¿Salvadores? ¿Habéis condenado al mundo entero? \n\n <b>Habéis PERDIDO.<b>
+EventCultistSacrificed.text,Examinas a los sectarios y encuentras a  uno que puede ser revivido. \n\n Convencido por las palabras de Rose, retrocedes y observas cómo reanuda el ritual, ahora que ella toma el papel de sacerdote. Cuando el sectario se da cuenta de lo que está sucediendo, acepta el papel de víctima y de profesor de Rose para las palabras. Rose te insta a formar un círculo y a repetir algunas de las frases rituales. El poder comienza a llenar la habitación. \n\n Haces una mueca cuando su voz va en crescendo y ella golpea con fuerza el corazón del sectario con la daga. Una ola de poder puro emana del cuerpo y se mueve hacia las paredes y hacia el lago. \n\n La sala se silencia y Rose cae al suelo débil y exhausta.
+EventCultistSacrificed.button1,Continuar
+EventCultistSacrificedEND.text,Os reunís con Rose y Victor y emergéis del subsuelo. El lago está tranquilo y el sentimiento de poder y maldad se ha ido o al menos reprimido. \n\n Escuchaisa Rose: —<i>Creo que NOSOTROS somos ahora los sectarios... ¿A la misma hora el año que viene?<i> \n\n Os dais cuenta de que si realmente creéis a Rose, habéis asumido la responsabilidad de repetir este ritual para el próximo equinoccio de otoño cuando la criatura del lago se agite nuevamente. No queréis tener nada que ver con esto, pero sabéis que cuando llegue el momento estaréis aquí, unos salvadores. \n\n <b>Habéis GANADO.<b>
+EventCultistSacrificedEND.button1,Continuar
+EventCultistSacrificed2END.button1,Continuar
+EventCultistSacrificed2END.text,Emergéis del subsuelo para encontrar el lago agitándose mientras decenas de tentáculos se alimentan del poder que has creado. Parece que la criatura está creciendo. Rose jadea: —<i>No, esto no puede ser, el ritual fue para salvarnos de la criatura no para alimentarla. ¿Qué he hecho?—<i> \n\n Te das cuenta de que cometisteis el error de creer a Rose. Aunque derrotasteis a los sectarios y el ritual, hicisteis el trabajo por ellos.  \n\n Os refugiais en la isla toda la noche, evitando que os alcancen los enormes brazos deslizantes y por la mañana no encontrais rastros de la criatura, pero sabes que acecharán durante un año. \n\n Victor lleva a Rose a casa, pero luego no tiene más remedio que institucionalizarla. Durante los años que pasan, cada noticia sobre una misteriosa muerte en Mystic Lake es como un cuchillo en vuestro propio corazón. \n\n <b>Habéis PERDIDO.<b>
+EventNoRitualEND.button1,Continuar
+EventNoRitualEND.text,Os reunís con Rose y salís del subsuelo para escuchar al monstruo del lago aullar de rabia y dolor. Sin haber finalizado el ritual, claramente está luchando por sobrevivir. Sentís que, habiendo derrotado al culto, el monstruo de Mystic Lake morirá. \n\n Rose solloza: —<i>Me mintieron, estaba dispuesta a morir por ellos, ¡pero solo habría alimentado a la criatura!<i> Víctor la abraza y luego promete llevarla a casa y ayudarla a recuperarse de esta experiencia. \n\n Golpeados y estresados, os sentís orgullosos de vuestros esfuerzos esta noche. Realmente actuasteis como unos salvadores. \n\n Habéis GANADO.
+EventNoRitual.text,Es necesario obligar a Rose a irse, pero continúa insistiendo en completar el ritual. Por la fuerza la sacas del lugar.
+EventNoRitual.button1,Continuar
+EventNoRitual2END.button1,Continuar
+EventMythosPart1.button1,Continuar
+EventMythosPart1A.button1,Continuar
+EventMythosPart3.button1,Continuar
+EventMythosPart2A.button1,Continuar
+EventMythosPart1B.text,De repente, {rnd:hero} se vislumbra en la niebla con ojos muertos, es un cadáver. ¿Un engaño de la mente o es una profecía? \n\n Sufres 1 de Horror boca abajo anulado por ({lore}), luego pon boca arriba 1 de Horror.
+EventMythosPart2A.text,{rnd:hero} tiene la sensación de que están siendo observados. Mirando hacia el lago, ves un ojo bulboso justo bajo de la superficie del agua. \n\n Sufres 2 de Horror boca abajo anulados por ({will}).
+EventMythosPart1B.button1,Continuar
+EventMythosPart1C.text,Cuando era muy joven {rnd:hero} casi se ahoga en un lago. El poder de este lago te trae esos recuerdos. Te ahogas cuando la poderosa experiencia regresa de repente y sufres 1 de Daño boca abajo.
+EventMythosPart1C.button1,Continuar
+EventMythosPart1D.text,Este Evento de los Mitos afecta al investigador con la puntuación más alta de observación {observation}. \n\n Ves algo flotando en el agua del lago que se acerca al muelle. ¡Dios mío, es un cuerpo! \n Entonces miras de nuevo y ves que lo que flota es un tronco. Mystic Lake te está jugando malas pasadas. \n Sufres 2 de Horror boca abajo anulados por ({will}).
+EventMythosPart1D.button1,Continuar
+EventMythosPart1E.text,Este Evento de los Mitos afecta al investigador con mayor cantidad de Objetos. \n\n El lago parece llamarte exigiendo un sacrificio. Te sientes obligado a tirar algo al agua. \n\n ({lore}:1) \n Si superas la tirada, reprimes ese sentimiento de lanzar algo al lago. \n Si fallas la tirada, arrojas un objeto al azar al lago. Retíralo del juego.
+EventMythosPart1E.button1,Continuar
+EventMythosPart2B.text,{rnd:hero} siente un impulso abrumador de saltar a las oscuras aguas del lago. Si el investigador está en el camarote del barco, muévelo a uno de los espacios de la cubierta ({will}:2). \n Si fallas la tirada, apenas puedes controlar ese impulso, pero se para al chocar tu cuerpo contra la borda del barco. Sufres 1 de Daño boca abajo. \n Si superas la tirada, te sacudes la intimidación y juras que el lago no te tendrá.
+EventMythosPart2B.button1,Continuar
+EventMythosPart3A.text,Los ecos de un canto ritual oscuro hacen que {rnd:hero} se cubra la cabeza con angustia. \n\n Adquiere el estado Aturdido.
+EventMythosPart3A.button1,Continuar
+EventSoTYES.text,Incluye elementos de la expansión El Santuario del Crepúsculo si lo dispones de él.
+EventSoTNO.text,Modo Juego Base.
+EventMoveVictorBeach.text,Víctor baja del barco, camina hacia la playa y comienza a subir la cuesta hacia el estanque. Todo el tiempo, sus ojos se mueven de un lado a otro buscando a Rose. \n\n Mueve la ficha  de Personaje de Victor Denton al lugar señalado.
+EventMoveVictorBeach.button1,Continuar
+EventEND.text,<b>FIN<b>
+EventEND.button1,<b>Fin del juego<b>
+EventInvestigatorDriveBoat.text,Tomas el control del barco para mantenerlo en movimiento y dirigirte hacia la isla.
+EventInvestigatorDriveBoat.button1,Continuar
+EventBoatOutofControl.button1,Continuar
+EventBoatOutofControl.text,¡Nadie está al manejando del barco! \n\n El barco disminuye la velocidad y comienza a alejarse de la isla. De repente se escucha un crujido en la quilla. ¡Algo está golpeando el casco! ¡Te das cuenta de que alguien debe gobernar el barco en línea recta e ir lo más rápido posible si quieres cruzar el lago!
+EventSternMan.text,Cuando te acercas al muelle, ves a un hombre de aspecto sombrío con una expresión dura. Él te observa acercarte. \n\n Coloca la ficha de Personaje que representa a tipo duro en el lugar señalado. \n NOTA: Esta ficha puede encontrarse en el kit de conversión del juego base, en caso de no tenerlo coloca la ficha de Personaje que prefieras.
+EventMythosDetermination.text,{rnd:hero} tiene la epifanía de que esta noche podría estar llena de peligros y adquiere el estado Concentrado.
+EventMythosDetermination.button1,Continuar
+EventMythosNewPurpose.text,Frente a la posibilidad real de una tumba acuosa, {rnd:hero} encuentra un nuevo propósito y energía. Descarta 1 de Daño y 1 de Horror.
+EventMythosNewPurpose.button1,Continuar
+EventMythosFindingRythm.text,Este Evento de los Mitos afecta al investigador con la puntuación más alta de agilidad {agility}. \n Empiezas a sentir una sincronización natural con los movimientos del barco y adquieres el estado Concentrado.
+EventMythosFindingRythm.button1,Continuar
+EventMythosDazed.button1,Continuar
+EventMythosPart2C.text,{rnd:hero} se siente completamente inútil en el barco pesquero, por lo que se mueve hacia el camarote del barco. \n Mueve a este investigador al camarote si aún no está allí. No es necesaria una tirada de evasión.
+EventMythosDazed.text,Este Evento de los Mitos afecta al investigador con la puntuación más baja de agilidad {agility}. \n El movimiento del barco en el agua agitada te pone enfermo y adquieres el estado Desconcertado.
+EventMythosPart2C.button1,Continuar
+EventInvestigatorMovePrompt.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventInvestigatorMovePrompt.button1,Continuar
+EventPlaceBeachSearch.text,Un viejo barco lleno de agujeros se asienta al lado de la caseta. Puede valer la pena echarle un vistazo más de cerca.
+EventPlaceBeachSearch.button1,Continuar
+EventMythosPart3B.text,Este Evento de los Mitos afecta al investigador con la menor cantidad de objetos. \n\n Sientes algo desagradable en la garganta y en el estómago, de repente, vomitas violentamente y sale de ti una masa de lodo y agua del lago. \n Sufres 3 de Daño boca abajo, anulados por ({strength}). \n 
+EventMythosPart3B.button1,Continuar
+EventRetchFind.text,¡En los escombros producidos por tu violenta salida encuentras {c:QItemRetchItem}!
+EventRetchFind.button1,Continuar
+EventMythosPart3C.text,Este Evento de los Mitos afecta al investigador que tenga más fichas de Pista {clue}. \n\n Algo en esta noche simplemente no cuadra. ¿De dónde podría haber venido una criatura como esa a Mystic Lake... te quedas sin aliento al darte cuenta de la posibilidad más probable! \n\n Sufres 1 de Horror boca abajo por cada ficha de Pista {clue} que tengas, anulados por ({lore}).
+EventMythosPart3C.button1,Continuar
+EventMythosPart3D.text,Este Evento de los Mitos afecta al investigador con la puntuación más alta de Influencia {influence}. \n\n Mystic Lake te llama. Quiere ser tu amigo y que te sientas como en casa. De repente sientes que quieres vivir en el lago, en esta misma isla ({will}:3) \n Si superas la tirada, te libras de este engaño poderoso. \n Si fallas la tirada, mueve al investigador 2 espacios hacia el estanque. Si llegas al borde del estanque y aún te queda algún movimiento, sufres 2 de Daño boca abajo y 1 de Horror mientras el lago intenta ahogarte. Si no, sufre 1 de horror. \n\n 
+EventMythosPart3D.button1,Continuar
+EventEventPart3E.text,De repente, {rnd:hero} se infunde con el mismo brillo verdoso que emana del lago. La sensación es agradable al principio, pero luego notas como comienza a succionar tu alma. \n Sufres 2 de Daño boca abajo y 2 de Horror boca abajo, anulados por ({strength}).
+EventEventPart3E.button1,Continuar
+EventMythosPart3F.text,{rnd:hero} ve un destello de color proveniente del suelo, es una serpiente. \n Entonces desaparece. Saltas y te sacudes rápidamente las piernas por si acaso llegara a tu ropa ({will}:2). \n Si superas la tirada, crees que estás seguro de que evitaste a la serpiente. Sufres 1 de Horror boca abajo. \n Si fallas la tirada, sientes como si estuviera subiendo por dentro de tu ropa. Sufres 2 de Horror boca abajo y adquieres el estado Retenido mientras intentas sacarla.
+EventMythosPart3F.button1,Continuar
+EventMythosPart3G.button1,Continuar
+EventMythosPart3G.text,Este Evento de los Mitos afecta al investigador con la puntuación más alta de saber {lore}. \n Los sonidos de un canto ritual entran en tu mente y te sientes agobiado ({observation}:2). \n Si superas la tirada, te das cuenta de que es solo un eco resonante del pasado o del presente, pero logras ignorarlo. \n Si fallas la tirada, ¡profundiza en tu ser y se hace más fuerte! Sufres 2 de Horror boca abajo, luego pon boca arriba 1 de Horror.
+TokenGarveyLast.text,El capitán Garvey se queda vigilando en el camarote del barco. \n —<i>¡Buena suerte! Me quedaré aquí y les esperaré listo para partir.<i> \n\n En tu mente, escuchas "Arrrr" al final de su palabras...
+TokenGarveyLast.button1,Continuar
+EventStarboardBowLookoutSuccess.button1,Continuar
+EventStarboardBowLookoutSuccess.text,Miras atentamente hacia la niebla y a través del agua. \n\n Retira esta ficha de Vistazo.
+EventPortBowLookoutSuccess.text,Miras atentamente hacia la niebla y a través del agua. \n\n Retira esta ficha de Vistazo.
+EventPortBowLookoutSuccess.button1,Continuar
+EventStarboardSternLookoutSuccess.text,Miras atentamente hacia la niebla y a través del agua. \n\n Retira esta ficha de Vistazo.
+EventStarboardSternLookoutSuccess.button1,Continuar
+EventPortSternLookoutSuccess.text,Miras atentamente hacia la niebla y a través del agua. \n\n Retira esta ficha de Vistazo.
+EventPortSternLookoutSuccess.button1,Continuar
+EventAftLookoutSuccess.text,Miras atentamente hacia la niebla y a través del agua. \n\n Retira esta ficha de Vistazo.
+EventAftLookoutSuccess.button1,Continuar
+EventTentacleHorror5.text,Echas un vistazo a la masa que se encuentra bajo el bote y sientes el poder de esa cosa. ¡Estos tentáculos son solo la punta de un iceberg horrible! \n Sufres 1 de Horror boca abajo anulados por ({will}-1).
+EventTentacleHorror5.button1,Continuar
+EventCultDefeated2.text,Cuando el último enemigo es derrotado, Rose Denton se levanta y se acerca a los investigadores y a su padre. \n —<i>Estás poniendo en riesgo al mundo entero.<i> jadea: —<i>El ritual de esta noche es la clave para mantener al monstruo contenido. Me enseñaron las palabras rituales. Tal vez pueda recordar lo suficiente como para completarlo, ¡pero alguien tendrá que ser el sacrificio! Yo no puedo matar a mi padre, debe ser uno de ustedes.<i> Mira fijamente a los investigadores. \n\n Te das cuenta con horror, que estaba hablando muy seria mientras se acerca para recoger la daga del sacerdote muerto.
+EventCultDefeated2.button1,Revive a un sectario herido y deja que Rose lo sacrifique.
+EventCultDefeated2.button2,¡Mantén a raya a Rose, sácala de allí y consigue su ayuda!
+EventOfferToSwap2.text,Los sectarios te miran con ojos penetrantes. \n El sacerdote habla despacio, forcejeando con tu idioma. \n —<i>Puedes llevarte a la chica, pero solo si hay un voluntario dispuesto a ser sacrificado en su lugar.<i> \n\n Rose solloza: —<i>No, no, estoy preparada para esto. Debo ser yo...—<i>
+EventOfferToSwap2.button1,Un investigador se ofrece como voluntario para ser el sacrificio.
+EventOfferToSwap2.button2,—<i>¿Qué? ¡De ninguna manera! ¡Danos a la chica!<i>
+EventNoBrassKey.text,Ninguna llave que poseas puede abrir esta cerradura.
+EventNoBrassKey.button1,Continuar
+EventCultDefeated3.text,Cuando el último enemigo es derrotado, Rose Denton se levanta y se acerca a los investigadores y a su padre. \n —<i>Estás poniendo en riesgo al mundo entero<i>, jadea: —<i>El ritual de esta noche es la clave para mantener al monstruo contenido. Me enseñaron las palabras rituales. Tal vez pueda recordar lo suficiente como para completarlo, ¡pero alguien tendrá que ser el sacrificio! Yo no puedo matar a mi padre, debe ser uno de ustedes<i>. Mira fijamente a los investigadores. \n\n Te das cuenta con horror, que estaba hablando muy seria mientras se acerca para recoger la daga del sacerdote muerto.
+EventCultDefeated3.button1,Revive a un sectario herido y deja que Rose lo sacrifique.
+EventCultDefeated3.button2,¡Mantén a raya a Rose, sácala de allí y consigue su ayuda!
+EventVictorAlreadyWait.button1,Continuar
+EventVictorAlreadyWait.text,Victor te mira fijamente: —<i>No tiene que decírmelo dos veces. Esperaré si se da prisa...</i>
