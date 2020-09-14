@@ -1,6 +1,6 @@
 .,Spanish
 quest.name,La ciudad bajo la niebla - Primera parte
-quest.description,Versión 1.2 \n\n  Se os contrata para encontrar a dos hermanos desaparecidos.\n ¿Encontrarás a los niños? ¿O la niebla envolverá la ciudad?
+quest.description,Versión 1.2 \n\n Se os contrata para encontrar a dos hermanos desaparecidos.\n ¿Encontrarás a los niños? ¿O la niebla envolverá la ciudad?
 quest.synopsys,\n Se os contrata para encontrar a dos hermanos desaparecidos.\n
 quest.authors,<i>Creado por:</i> Maciej King\n <i>Traducción al español:</i> Vidimus y Richar \n
 TokenPoszukiwaczeStart.button1,Continuar
@@ -22,7 +22,7 @@ UIzdjecie.button1,Continuar
 Event2.text,Colocad las miniaturas de los investigadores en el lugar señalado.
 Event2.button1,Continuar
 Event3.button1,Continuar
-Event4.text,La niebla se entiende entre los callejones. \n Coloca una ficha de Vistazo en el lugar señalado.
+Event4.text,La niebla se extiende entre los callejones. \n Coloca una ficha de Vistazo en el lugar señalado.
 Event4.button1,Continuar
 EventEVentzkupkaSmieci.text,A oscuras rebuscas entre las cajas, al introducir la mano en el fondo de una de ellas encuentras un montón de cristales rotos ({agility}:1). \n Si la tirada tiene éxito evitas cortarte con los cristales. \n Si fallas la tirada te haces un profundo corte en un dedo. Sufres 1 de Daño boca abajo.
 EventEVentzkupkaSmieci.button1,Continuar
@@ -237,18 +237,18 @@ Event78.text,Esta habitación no difiere mucho de las anteriores salvo por el he
 Event78.button1,Continuar
 Event79.text,Echas un vistazo al periódico y al darle la vuelta encuentras una mancha roja en la última página. \n\n Con un poco de esfuerzo quizá puedas leer lo que pone en la última página.
 Event79.button1,{action} Seguir leyendo
-Event80.text,Encuentras escondida en la última página, en medio de la mancha de sangre, una frase que te llama la atención:: «Aquellos que quieran evitar la salvación deberán acudir a la imprenta». \n\n Sufres 1 de Horror (anulado por {will}). \n\n A continuación descarta esta ficha de Búsqueda.
+Event80.text,Encuentras escondida en la última página, en medio de la mancha de sangre, una frase que te llama la atención: «Aquellos que quieran evitar la salvación deberán acudir a la imprenta». \n\n Sufres 1 de Horror (anulado por {will}). \n\n A continuación descarta esta ficha de Búsqueda.
 Event80.button1,Continuar
 Event79.button2,Dejar el periódico
 TokenPodmiankaGazety.text,Echas un vistazo al periódico y al darle la vuelta encuentras una mancha roja en la última página. \n\n Con un poco de esfuerzo quizá puedas leer lo que pone en la última página {action}.
 TokenPodmiankaGazety.button1,{action} Leer
-Event82.text,Encuentras escondida en la última página, en medio de la mancha de sangre, una frase que te llama la atención:: «Aquellos que quieran evitar la salvación deberán acudir a la imprenta». \n\n Sufres 1 de Horror (anulado por {will}).
+Event82.text,Encuentras escondida en la última página, en medio de la mancha de sangre, una frase que te llama la atención: «Aquellos que quieran evitar la salvación deberán acudir a la imprenta». \n\n Sufres 1 de Horror (anulado por {will}).
 Event82.button1,Continuar
 Event83.text,Al mirar debajo de la cama encuentras una nota manuscrita. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
 Event83.button1,Continuar
 TokenKartkaPodLzkiem.text,Bajo la cama ensangrentada hay una nota manuscrita.
 TokenKartkaPodLzkiem.button1,{action} Coger
-Event84.text,\n«<i>Querida Rose, si estás leyendo esto, ve al almacén de la imprenta tan pronto como sea posible en la calle Midwich. \n Antes de que oscurezca, dile a Walter que cierre la puerta y que luego paséis por el viejo pasadizo hacia la parte trasera de la escuela. El pasadizo está al final del  almacén, detrás de un armario con herramientas... Es  la única manera de escapar de la ciudad, ¡date prisa! \n\n Tu Harry</i>». \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Event84.text,\n«<i>Querida Rose, si estás leyendo esto, ve al almacén de la imprenta tan pronto como sea posible en la calle Midwich. \n Antes de que oscurezca, dile a Walter que cierre la puerta y que luego paséis por el viejo pasadizo hacia la parte trasera de la escuela. El pasadizo está al final del almacén, detrás de un armario con herramientas... Es la única manera de escapar de la ciudad, ¡date prisa! \n\n Tu Harry</i>». \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
 Event84.button1,Continuar
 Event86.text,Por la descripción, ésta debe de ser la localización del pasadizo secreto. \n\n Coloca el módulo {c:TileDrukarnia3} y una ficha de Pared en el lugar señalado.
 Event86.button1,Continuar
@@ -276,7 +276,7 @@ Event95.text,Antes de que la oscuridad se apoderase por completo de la habitaci�
 Event95.button1,Continuar
 Event96.text,La oscuridad parece absorberlo todo y a todos. El estruendo aterrador de las sirenas se extiende por toda la ciudad. \n <b>Si alguno de los investigadores se encuentra en un espacio con Oscuridad al comienzo de la fase de Mitos, la investigación habrá fracasado</b>.
 Event96.button1,Continuar
-Event97.text,La oscuridad comienza a engullir toda el lugar. \n <b>La oscuridad se extiende 2 espacios en todas las direcciones posibles a partir de cualquier otra ficha de oscuridad. Puede pasar a través de Pasadizos secretos si están conectados entre sí. La oscuridad no puede pasar a través de las paredes. \n\n Si un investigador termina su turno en un espacio que contenga Oscuridad, será eliminado y la investigación fracasará</b>.
+Event97.text,La oscuridad comienza a engullir toda el lugar. \n\n <b>Si es la primera vez que sale este texto, todos los investigadores pueden realizar inmediatamente una {action} de movimiento. \n\n La oscuridad se extiende 2 espacios en todas las direcciones posibles a partir de cualquier otra ficha de oscuridad. Puede pasar a través de Pasadizos secretos si están conectados entre sí. La oscuridad no puede pasar a través de las paredes. \n\n Si un investigador termina su turno en un espacio que contenga Oscuridad, será eliminado y la investigación fracasará</b>.
 Event97.button1,Continuar
 Event98.text,Tu única manera de escapar es por donde viniste. Todos los investigadores deben estar en el mismo espacio que la ficha de interacción para poder usarla. \n\n Coloca una ficha de interacción en el lugar señalado.
 Event98.button1,Continuar
@@ -322,7 +322,7 @@ Event109.button1,Continuar
 Event109.button2,button2
 Event110.text,Estás a punto de caer pero en el último minuto consigues mantener el equilibrio.
 Event110.button1,Continuar
-Event111.text,Cuando estabas a punto de llegar resbalas y caes de espalda de la peor manera posible.\n Sufres 4 de Daño. \n\n A continuación descarta esta ficha de Búsqueda.
+Event111.text,Cuando estabas a punto de llegar resbalas y caes de espalda de la peor manera posible.\n Sufres 2 de Daño. \n\n A continuación descarta esta ficha de Búsqueda.
 Event111.button1,Continuar
 TokenCiao.text,Otra persona muerta, sin embargo, parece que este hombre se llevó consigo a varios demonios. Sus cuerpos inertes yacen junto a él. Uno de los monstruos tiene la hoja de un hacha incrustada. Seguramente el hombre perdió su arma antes de que pudiese matarlos a todos. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
 TokenCiao.button1,Continuar
