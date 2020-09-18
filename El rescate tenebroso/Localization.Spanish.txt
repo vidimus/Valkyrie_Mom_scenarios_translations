@@ -249,7 +249,7 @@ Event75.button1,Continuar
 UISOZINHOtexto.uitext,Sales corriendo de la casa. Todavía no te puedes creer que tu esposa se transformara en un monstruo. \n\n Nadie te va a creer. Has logrado escapar con vida, pero pasarás el resto de tus días lamentándote por su pérdida. \n\n\n\n FIN.
 Spawn9.button1,Continuar
 UICOMESPOSATEXTO.uitext,Sales de casa cargando con tu esposa. Lo que parecía un simple delito en realidad era algo más macabro. La policía probablemente pensará que tu historia es una locura, así que será mejor que destruyas las esculturas y te mudes con tu esposa a un lugar donde nunca os encuentren... \n\n\n\n FIN.
-Event76.text,No puedes dejar a Jacob en un sitio como este. Compruebas que no hay moros en la costa y dejas a tu esposa junto a la puerta.
+Event76.text,No puedes dejar a Jacob en un sitio como este. 
 Event76.button1,Continuar
 Token34.text,—<i>¡Desáteme!</i>
 Token34.button1,{action} Intentar liberar a Jacob
