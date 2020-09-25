@@ -1,0 +1,159 @@
+.,Spanish
+quest.name,La última cena
+quest.description,La doctora Joyce Little, profesora de Ciencias Ocultas de la Universidad de Miskatonic en Arkham, te ha invitado a su mansión para una cena con colegas con el fin de compartir un descubrimiento extraordinario. \n\n\n Partida pensada como introducción para nuevos jugadores.
+TokenCercaTavolino.text,Sobre esta mesa de café están los sobres con las invitaciones que le entregasteis al mayordomo anoche. Están cubiertos de polvo.
+TokenCercaTavolino.button1,{action} Investigar
+TokenPortaBiliardo.button1,{action} Abrir
+TokenPortaBiliardo.text,La placa que hay sobre esta puerta pone «<i>Sala de billar</i>».
+EventApriPortaBiliardo.text,La puerta se abre con un chirrido. Una gran mesa clásica de billar domina el centro de la sala. Un viejo sofá y algunos sillones de cuero se colocan junto a las paredes. En un rincón, un pequeño bar aún alberga botellas, probablemente con alcohol. \n\n Coloca el módulo {c:TileSalaBiliardo}, una ficha de Búsqueda en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+EventApriPortaBiliardo.button1,Continuar
+EventCercaTavolino.button1,Continuar
+TokenPortaBiblioteca.text,En esta puerta, una placa opaca y polvorienta con la inscripción «<i>Biblioteca</i>».
+TokenPortaBiblioteca.button1,{action} Abrir
+EventApriPortaBiblioteca.text,La polvorienta biblioteca parece estar todavía intacta, casi como si alguien la hubiera usado la noche anterior, excepto por el hecho de que todo parece haber sufrido la típica decadencia del paso del tiempo.\n\n Descarta la ficha de Exploración. Coloca el módulo {c:TileBiblioteca} y las fichas de Búsqueda en los lugares señalados. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventApriPortaBiblioteca.button1,Continuar
+TokenSearchPergamena.text,Sobre un sofá de cuero hay un libro. Una hoja de papel sobresale entre sus páginas.
+TokenSearchPergamena.button1,{action} Inspeccionar
+EventTokenSearchPergamena.text,El libro es la biografía de Abdul Alhazred, el mago autor del Necronomicón y apodado el árabe loco. Sacas el papel que hay entre las páginas del libro y lo examinas. Es un antiguo hechizo que aumenta la concentración de la menta.\n\n Ganas el Hechizo <i>Alimentar la mente</i> y 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventTokenSearchPergamena.button1,Continuar
+EventCercaTavolino.text,La reconoces. Entre ellas está la invitación recibida por correo una semana antes. El papel y la escritura son iguales. Aparte de estar cubierta de polvo, la invitación no parece tener marcas del paso del tiempo como el resto de la casa. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+TokenCercaWhisky.text,A pesar de la prohibición, los estantes están llenos de todo tipo de licores. Aparentemente, la familia de Joyce tiene los contactos para conseguirlos.
+TokenCercaWhisky.button1,{action} Buscar
+EventTokenCercaWhisky.text,Entre las botellas encuentras una que contiene whisky de doble malta escocés. \n\n Ganas el Objeto común <i>Whisky</i>. A continuación descarta esta ficha de Búsqueda.
+EventTokenCercaWhisky.button1,Continuar
+TokenCarabina.text,Sujeto con unos ganchos, un viejo fusil está colocado sobre el sofá.
+TokenCarabina.button1,{action} Examinar
+EventTokenCarabina.text,La tarjeta bajo el arma señala a William Joyce como el dueño de ese rifle. Concretamente es una carabina alemana. \n\n Ganas el Objeto común <i>Carabina</i>. A continuación descarta esta ficha de Búsqueda.
+EventTokenCarabina.button1,Continuar
+TokenPortaSoggiorno.text,La placa que hay sobre esta puerta indica que se trata del salón.
+TokenPortaSoggiorno.button1,{action} Abrir
+EventApriPortaSoggiorno.text,El espacioso salón tiene cuatro grandes ventanas que dan al exterior, pero parece que no se ve nada desde allí. Un cuadro a la derecha y un rifle colgado en la pared a tu izquierda te llaman la atención. Aquí tampoco parece haber nadie. \n\n Descarta esta ficha de Exploración. \n Coloca el módulo {c:TileSoggiorno} y las fichas de Búsqueda en los lugares señalados. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventApriPortaSoggiorno.button1,Continuar
+quest.authors,\n<i>Creado por:</i> Cara Jamte \n\n\n <i>Traducción al español</i>: Vidimus \n
+quest.authors_short,Cara Jamte
+quest.synopsys,Joyce y sus colegas se reúnen para hablar de su último descubrimiento.
+EventStart.text,Accedes al piso superior donde están los dormitorios. Un extraño silencio reina en la casa. Miras alrededor y todo parece haber envejecido. Las paredes están ajadas y desconchadas aquí y allá. La madera de los muebles también está cuarteada y la pintura se ha levantado en varios lugares, mientras que en otros está completamente ausente. Las alfombras están descoloridas. El aire está saturado de una niebla verdosa que te hace toser cuando tomas la primera bocanada al entrar. No hay rastro de Joyce, la anfitriona ni de tus colegas. Dos puertas cerradas, una a la izquierda y otra a la derecha, conducen al vestíbulo y al estudio respectivamente. \n\n Coloca el módulo {c:TileDisimpegno} y dos fichas de Exploración en los lugares señalados. \n\n Cada investigador comienza con 2 Pistas {clue}.
+EventStart.button1,Continuar
+TokenPortaSalaBallo.text,Esta es la puerta del salón de baile, como bien indica una placa desgastada que hay en ella.
+TokenPortaSalaBallo.button1,{action} Examinar
+EventEsaminaPortaSalaBallo.text,De la rendija de la parte inferior de la puerta emana un fuerte resplandor verdoso y más allá del panel de madera de la puerta que te separa de la sala oyes voces cantando unas plegarias en un idioma desconocido.
+EventEsaminaPortaSalaBallo.button1,{action} Abrir
+EventEsaminaPortaSalaBallo.button2,Volver más tarde
+EventApriPortaSalaBallo.text,Al final de la habitación, bajo el gran ventanal, hay dispuesto un altar sobre el que está colocada una escultura que representa una horrible criatura. De pie frente a ella, Joyce Little gira sus brazos hacia el cielo mientras, detrás de ella, tres criaturas arrodilladas en medio de sendos círculos compuestos de símbolos arcanos se mecen implacablemente susurrando. \n\n Coloca el módulo {c:TileSalaBallo}. \n\n Coloca 2 sectarios, un hijo de Dagón y un sacerdote de Dagón. El sacerdote representa a Joyce Little. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventApriPortaSalaBallo.button1,Continuar
+TokenCercaChiave.text,La colección de autores contemporáneos de esta biblioteca es impresionante. Numerosas obras de Mark Twain, Ernest Hemingway, William Faulkner y John Steinbeck están en la colección. Sin embargo, es un tomo de frontispicio vacío el que atrae tu atención.
+TokenCercaChiave.button1,{action} Examinar
+EventCercaChiave.text,Extraes el tomo y tus dedos notan la aspereza de la cubierta. El color verde aguamarina hace tiempo que desapareció. Al abrirlo te llevas una sorpresa: en un su interior se encuentra escondida una llave. \n\n Ganas el Objeto único <i>Llave de oro</i>. \n\n A continuación descarta este ficha de Búsqueda.
+EventCercaChiave.button1,Continuar
+TokenCercaFinestra.text,Afuera, al otro lado de la ventana, está oscuro.
+TokenCercaFinestra.button1,{action} Examinar
+EventCercaFinestra.text,Oscuro es un eufemismo. Tratas de encontrar alguna figura a través de la ventana, pero no puedes ver nada más allá de tu propia mano. Ni siquiera puedes oír los ruidos procedentes del exterior. Parece casi como si toda la casa estuviese cubierta por un manto de negrura. \n\n Ganas 1 Pista {clue}. \n\n A continuación descarta esta ficha.
+EventCercaFinestra.button1,Continuar
+TokenDipintoSoggiorno.button1,{action} Examinar
+EventEsaminaQuadroSoggiorno.text,Notas de inmediato el parecido entre este hombre y la Dra. Joyce. Examinando la placa que acompaña a la pintura al óleo, te das cuenta de que la desaparición del hombre se remonta a cinco años antes, cuando la Dra. Little comenzó sus varios viajes alrededor del mundo en busca de reliquias.\n\n Al mirarla, la imagen comienza a desdibujarse y, a veces, se superpone a la del propio hombre, pero con su apariencia completamente alterada por verrugas, ojos huecos, piel verde pálida y tentáculos en lugar de la nariz y la boca. Cuando descuelgas el cuadro, vuelve a la normalidad. \n\n Ganas 1 Pista. A continuación, sufres 1 de Horror boca abajo. \n Descarta esta ficha de Búsqueda.
+EventEsaminaQuadroSoggiorno.button1,Continuar
+TokenDipintoSoggiorno.text,Esta pintura representa a un hombre de avanzada edad.
+TokenPortaBagno.button1,{action} Abrir
+EventApriPortaBagno.text,En este pequeño pasillo sólo hay un sillón de cuero, un aparador y un mueble para sostener una lámpara de mesa. La puerta de enfrente está entreabierta. \n\n Descarta esta ficha de Exploración.\n Coloca el módulo {c:TileBagno} y una ficha de Pared y otra de Búsqueda en los lugares señalados. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenPortaBagno.text,Detrás de esta puerta está el aseo.
+EventApriPortaBagno.button1,Continuar
+TokenCercaBagno.text,La puerta del armario del baño se abre con un chirrido.
+TokenCercaBagno.button1,{action} Examinar
+EventCercaBagno.text,Un puñado de medicamentos caducados que incluyen algunas gasas de algodón útiles. \n\n Ganas el Objeto común <i>Vendas</i> y 1 Pista {clue}.
+EventCercaBagno.button1,Continuar
+SpawnFiglioDagon.text,Coloca un hijo de Dagón en el lugar señalado.
+EventJoyce.button1,Continuar
+EventIdolo.text,La figura está rodeada de un aura verdosa. Los tentáculos de energía conectan la horrible escultura con las cabezas de los presentes. La reconoces. Esta es la fuente del poder de la que Joyce hablaba en su delirante diario.
+EventIdolo.button1,Continuar
+TokenJoyce.button1,Continuar
+EventJoyce.text,—<i>¡Bienvenidos!</i>—exclama la doctora al veros. Lleva un curioso vestido que recuerda al de los sacerdotes egipcios—. <i>¡Estábamos aguardando su llegada! </i>— añade con los brazos en alto. Su cara refleja una expresión de alegre locura y sonríe mostrando unos dientes podridos y amarillentos. \n\n Cuando habla de nuevo, su voz se quiebra y se diluye, cada vez más ronca y profunda. \n\n —<i>Ven e inmólate. ¡Inmólate y que tu su sangre sirva para despertar al durmiente!</i> \n\n La puerta de la habitación se cierra de golpe tras de ti. El canto de las criaturas se eleva como un trueno, sacudiendo las paredes y el suelo de madera. Tu única posibilidad de salvación es destruir la escultura que ha causado la locura de la Dra. Little.
+EventApriPortaStudio.text,La puerta está cerrada con llave
+EventApriPortaStudio.button1,{action} Usar la <i>Llave de oro</i>.
+EventApriPortaStudioChiave.text,En el estudio hay un pequeño y ordenado escritorio con una pila de documentos que cubren la mesa. Se respira un olor a papel viejo.
+EventApriPortaStudioChiave.button1,Continuar
+TokenPortaStudio.text,En la puerta hay una placa dorada: «<i>Estudio</i>». \n Por desgracia está cerrada.
+TokenCercaScrivania.button1,{action} Examinar
+EventScassinaSerratura.text,La cerradura se abre. En el interior del cajón encuentras un viejo diario. \n\n Ganas el Objeto único <i>Viejo diario</i>. Puede interactuar con él en la aplicación desde el menú de Objetos. \n\n Descarta esta ficha de Búsqueda.
+EventEsaminaScrivaniaStudio.text,Entre los documentos no parece que haya nada interesante. Pero cuando estás a punto de abandonar reparas en un cajón con una pequeña cerradura. Puedes intentar abrirlo a la fuerza o forzar la cerradura.
+EventEsaminaScrivaniaStudio.button1,Puedes intentar resolver el rompecabezas usando tu {observation}.
+EventEsaminaScrivaniaStudio.button2,Intentas forzar la cerradura ({strength}; 2).
+EventForzaSerratura.button1,Sí
+TokenCercaScrivania.text,Una pila de papeles cubre el suelo de este viejo escritorio de caoba.
+PuzzleSerraturaCassettoStudio.button1,Hecho
+EventScassinaSerratura.button1,Continuar
+EventLeggiDiario.button1,Gastar una {action} para leerlo
+EventForzaSerratura.text,¿Has superado la prueba?
+EventForzaSerraturaSuccesso.text,La madera cede y deja al descubierto un viejo diario en el interior del cajón. \n\n Ganas el Objeto único <i> Viejo diario</i>. \n\n A continuación descarta esta ficha de Búsqueda.
+EventForzaSerratura.button2,No
+EventForzaSerraturaSuccesso.button1,Continuar
+EventForzaSerraturaFallito.text,La madera se resiste a tus intentos, se niega a revelar su secreto.
+EventForzaSerraturaFallito.button1,Continuar
+TokenInvestigatori.text,Coloca los investigadores en el lugar señalado
+TokenInvestigatori.button1,Continuar
+EventPiazzareInvestigatori.text,Coloca a los investigadores en el espacio de abajo como se señala.
+EventPiazzareInvestigatori.button1,Continuar
+TokenPortaDisimpegno.text,Desde aquí se entra al vestíbulo.
+TokenPortaDisimpegno.button1,{action} Abrir
+EventApriPortaDisimpegno.text,El gran vestíbulo está extrañamente tranquilo. Todas las puertas están cerradas y la misma bruma que encontraste en el pasillo inunda el aire de este lugar. Esta estancia también parece llevar abandonada mucho tiempo.\n\n Tus pasos recorren la ahora descolorida alfombra roja en la que apenas es visible la trama que la decora. Caminas más despacio, observando el opaco parqué del suelo y los dos aparadores que adornan este lugar. \n Aunque lo que de verdad llama tu atención es una pila de papeles que hay sobre la mesita de café que preside el centro del vestíbulo. \n\n Coloca el módulo {c:TileAtrio} y fichas de Exploración y Búsqueda en los lugares señalados.
+EventApriPortaDisimpegno.button1,Continuar
+EventSpawnMostri.text,Coloca el monstruo en el lugar señalado.
+EventSpawnMostri.button1,Continuar
+SpawnCultisti.button1,Continuar
+SpawnFiglioDagon.button1,Continuar
+SpawnJoyce.text,Coloca un sacerdote de Dagón en el lugar señalado. Representa a la doctora Joyce.
+SpawnJoyce.button1,Continuar
+SpawnCultisti.text,Coloca 2 sectarios en el lugar señalado.
+TokenStatuina.text,El objeto es liso y brillante; un oscuro poder emana de él.
+TokenStatuina.button1,Coger la estatua
+TokenStatuina.button2,Golpear la estatua
+EventProvaSparaStatuina.text,Realizar una prueba de ({agility}; 2).
+EventProvaSparaStatuina.button1,Éxito
+EventProvaSparaStatuina.button2,Has fallado
+EventStatuinaRotta.text,La escultura se cae a pedazos. Los fragmentos caen en el altar y puedes sentir como su oscuro poder se disuelve en el éter.
+EventStatuinaRotta.button1,Continuar
+EventFinal.text,Un rugido ensordecedor sacude la habitación. \n\n —<i>¡No! ¡¿Qué ha hecho?!</i>—grita Joyce—.<i> ¡La fuente de mi poder! ¡Perdida para siempre!</i>— el grito de la mujer se convierte en un rugido que se funde con el trueno. \n\n La habitación comienza a temblar y los escombros caen sobre tu cabeza. El cuerpo de la doctora comienza a llenarse de grietas de las cuales sale una luz verde cegadora. Un silbido agudo te perfora los oídos durante unos interminables segundos hasta que Joyce finalmente explota. Te acercas y lo único que queda es un montón de cenizas. Cualquier criatura que estuviese atacando ha sufrido el mismo destino. \n\n La investigación ha terminado.
+EventFinal.button1,Terminar
+EventLeggiDiario.text,La cubierta de cuero está alisada por el paso del tiempo y de los elementos. Las gruesas páginas parecen haber sobrevivido junto con su contenido. Llevar este diario te produce una extraña sensación...
+EventLeggiDiario1.text,«<i>Viernes, 29 de febrero de 1924. \n\n Finalmente, después de años de investigación, ¡mi búsqueda ha tenido éxito! Ya estaba perdiendo la esperanza, debido a mis fracasos, uno tras otro, a la hora de localizar el ídolo. \n Sin embargo, gracias a la tabla que inesperadamente encontré entre los documentos escondidos por mi padre, ¡lo logré! \n\n La escultura se encuentra cerca de Ur, en Mesopotamia. \n ¡Mi experiencia en la traducción de textos asirio-babilonios ha sido providencial en este caso! Aunque es muy antiguo, los jeroglíficos grabados en él están misteriosamente en muy buen estado. Eso ha acelerado el proceso de transposición, ahorrando meses de trabajo. Me pregunto por qué lo guardaba mi padre... Iremos allí mañana. \n\n Estoy en El Cairo, donde me trajo una pista falsa que seguía. Tomaremos el avión y desde allí un guía nos llevará a Ur. Entonces alquilaremos un vehículo en el que sólo viajará mi equipo de búsqueda. \n\n Quiero mantener este descubrimiento en la más absoluta confidencialidad porque quiero que lleve mi nombre</i>».
+EventLeggiDiario1.button1,Gastar una {action} para seguir leyendo
+EventLeggiDiario2.text,«<i>Lunes, 3 de marzo de 1924. \n\n El campamento está listo. Hoy cavaremos para dejar al descubierto la entrada de la cripta que se menciona en las notas de mi padre. Me pregunto cuánto tiempo nos llevará, ¡estoy tan ansiosa por encontrar el ídolo! \n\n Ya es de noche. La excavación está progresando rápidamente, a pesar del calor. Hemos despejado una parte de la entrada y estoy segura de que conseguiremos despejar la entrada dentro de dos días</i>».
+EventLeggiDiario2.button1,Gastar una {action} para seguir leyendo
+EventLeggiDiario3.text,«<i>Sábado, 8 de marzo de 1924 \n\n ¡La estructura es más grande de lo que imaginaba! Los esfuerzos para despejar la entrada se han extendido a todo el perímetro de lo que parece ser un templo más antiguo de lo que cabría pensar.\n\n Domingo, 14 de marzo de 1924. Finalmente despejamos el terreno lo suficiente como para pensar en desbloquear la entrada. Parece estar sellado por algún tipo de enigma mecánico de naturaleza poco clara. Ni siquiera el experto egipcio en mecanismos antiguos puede determinar qué tipo de cerradura es. Seguramente implica a toda la fachada del templo</i>». \n\n Ganas 1 Pista {clue}.
+EventLeggiDiario3.button1,Gastar una {action} para seguir leyendo
+EventLeggiDiario4.text,«<i>Martes, 23 de marzo de 1924. \n\n Estamos en un punto muerto. Ninguno de nosotros puede averiguar cómo abrir la entrada al templo. Estoy perdiendo la esperanza. Además, una extraña enfermedad parece afligirnos a todos desde el momento en que encontramos la puerta. Cada noche nuestro sueño está lleno de pesadillas de sombras y criaturas horribles. \n\n Como si eso no fuera suficiente, desde hace unos días una entidad invisible parece comunicarse conmigo a través de los pensamientos. ¡¿Cómo es eso posible?! \n Mi teoría más plausible es que estoy perdiendo la cabeza debido al cansancio y a este inhóspito clima</i>».
+EventLeggiDiario4.button1,Gastar una {action} para seguir leyendo
+EventLeggiDiario5.text,«<i>Miércoles, 31 de marzo de 1924. \n\n ¿Era así de simple entonces? El enigma fue mucho más fácil de lo que pensaba. \n Sin embargo, carecía del conocimiento apropiado para resolverlo. El Durmiente me reveló gradualmente todo lo que necesitaba. Ahora sé que está de mi lado. Tendré ese ídolo. \n\n Sábado 6 de abril de 1924. \n\n El eclipse está programado para hoy, aunque será un evento imprevisto para los estudiosos. El Durmiente me ha revelado que las estrellas se alinearán hoy para permitirme entrar y conseguir el ídolo. \n No necesito a los incompetentes de mi equipo. De hecho, me deshice de ellos con un poco de veneno de escorpión en la cena de anoche. Ahora están todos durmiendo el sueño de la muerte. Seré la única que tenga acceso al poder que la escultura me dará</i>».
+EventLeggiDiario5.button1,Gastar una {action} para seguir leyendo
+EventLeggiDiario6.text,«<i>Día desconocido, mes desconocido, ¿1924? \n\n El templo está abierto. He deambulado por sus estancias, con sus inmensos tesoros de conocimiento más antiguos que la propia humanidad, durante lo que me pareció una eternidad. He llenado las páginas de este diario, con la intención de llevármelo conmigo cuando regrese a los Estados Unidos</i>». \n\n Ganas 1 Pista {clue}. \n\n No hay más anotaciones en esta página, pero observas que prosigue en las siguientes.
+EventLeggiDiario6.button1,{action} Inspeccionar
+EventLeggiDiario7.text,A partir de aquí, las páginas del diario están llenas de diagramas y símbolos ocultistas, cuyo significado se te escapa por ahora. \n\n Ganas 1 Pista {clue} y sufres 1 de Horror.
+EventLeggiDiario7.button1,Guardar el diario
+EventLeggiDiario6.button2,Guardar el diario
+EventLeggiDiario.button2,Guardar el diario
+EventLeggiDiario1.button2,Guardar el diario
+EventLeggiDiario2.button2,Guardar el diario
+EventLeggiDiario3.button2,Guardar el diario
+EventLeggiDiario4.button2,Guardar el diario
+EventLeggiDiario5.button2,Guardar el diario
+EventHeroes.text,Coloca a los investigadores en el lugar señalado
+EventHeroes.button1,Hecho
+EventStatuinaDistrutta.text,La escultura se rompe en mil pedazos, que se desparraman en el suelo de la sala. El sonido de los fragmentos resuena en la habitación y el poder oscuro del ídolo se disipa.
+EventStatuinaDistrutta.button1,Terminar
+EventEndWin.text,Dejáis la mansión de la Dra. Little conscientes de que habéis detenido una poderosa y oscura locura. Os preguntáis cuántos artefactos de este tipo estarán escondidos en lugares remotos del mundo y quién será el próximo en encontrar uno. Al regresar a vuestros hogares, no podéis evitar reflexionar sobre las terribles maneras en las que esta experiencia os ha cambiado en lo más profundo de vuestro ser.
+EventEndWin.button1,FIN
+EventProvaColpisciStatuina.text,Realizar una prueba de ({strength}; 2).
+EventProvaColpisciStatuina.button1,Continuar
+EventStatuinaRotta0.button1,Sí
+EventStatuinaRotta0.button2,No
+EventProvaColpisciStatuinaFallita.button1,Continuar
+EventStatuinaRotta0.text,¿Has superado la prueba?
+EventProvaColpisciStatuinaFallita.text,Tu golpe no ha sido lo suficientemente fuerte. El ídolo permanece intacto.
+TokenPortaStudio.button1,{action} Usar la <i>Llave de oro</i>.
+EventPlacePortaStudio.button1,Continuar
+EventPlacePortaAtrio.text,Al otro lado del pasillo hay una puerta.
+EventPlacePortaStudio.text,A tu derecha ves otra puerta.
+EventPlacePortaAtrio.button1,Continuar
+EventRimuoviTokenInvestigatori0.text,\n Cada investigador comienza con 2 Pistas {clue}. \n\n
+EventRimuoviTokenInvestigatori0.button1,Continuar
+EventEndLose.text,Tu colega cae en los horrores de este lugar. Desafortunadamente, sin él, no puedes hacer nada. Sales de la casa apresuradamente, maldiciendo a Joyce Little por involucrarte en tales monstruosidades. \n\n FIN
+EventEndLose.button1,Continuar
