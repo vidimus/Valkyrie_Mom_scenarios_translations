@@ -1,0 +1,523 @@
+.,Spanish
+quest.name,Buscando a un amigo desaparecido - V2.1
+quest.description,Este escenario cuenta con varios eventos aleatorios para aumentar la rejugabilidad. También hay un límite de tiempo que varía en longitud dependiendo del número de investigadores. \n\n Además cuenta con el estado «Envenenado» de la expansión «La senda de la serpiente», pero se proporciona una alternativa para usarlo en caso de no tener esa expansión. \n\n V2.1 - Aumentado de forma significativa el límite de tiempo para todos los números de investigadores para hacer el escenario más fácil, y corrección de un pequeño error.
+EventScenarioStart.text,Al entrar en la mansión, te sorprendes al ver el estado de deterioro en el que está. Las paredes están desconchadas, el suelo está agrietado, y te da la impresión de que esas manchas que hay repartidas por la entrada son de sangre. \n\n Coloca el módulo {c:TileEntryHall} y una ficha de Estantería (Pared) en el lugar señalado.
+EventScenarioStart.button1,Continuar
+EventAddEntryHallSearchToken.button1,Continuar
+TokenSearchEntryHallMess.button1,{action} Buscar
+EventAddEntryHallSearchToken.text,Hay signos de lucha en el suelo. Hay una mesa volcada con lo que tenía encima esparcido sobre las baldosas rotas del suelo. Quizá puedas encontrar alguna pista entre los restos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchEntryHallMess.text,Tal vez puedas encontrar algo en lo que parece el resultado de una violenta refriega.
+TokenInvestigatorsStart.text,Entras en la mansión expectante, tratando de pisar con cuidado con la esperanza de que nadie advierta tu presencia. Coloca a los investigadores en el lugar señalado.
+TokenInvestigatorsStart.button1,Continuar
+EventAddExploreTokenEntryHallLeft.text,A tu izquierda hay una puerta ligeramente entreabierta, y un olor que te recuerda a un puro encendido parece provenir de su interior. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventAddExploreTokenEntryHallLeft.button1,Continuar
+EventAddExploreTokenEntryHallTop.text,La puerta que está a continuación del pasillo está cerrada. Observas marcas de desgaste en el suelo que conduce directamente a la misma. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventAddExploreTokenEntryHallTop.button1,Continuar
+EventAddSightTokenEntryHall.text,El pasillo sigue a tu izquierda. Te pone nervioso el pensar qué podría estar al acecho al otro lado de la esquina. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventAddSightTokenEntryHall.button1,Continuar
+TokenExploreEntryHallLeft.text,Al acercarte a la puerta, el olor del humo del puro se hace más intenso... y también más extraño...
+TokenExploreEntryHallLeft.button1,{action} Explorar
+TokenExploreEntryHallTopLocked.text,Parece que la puerta está cerrada con llave. Seguramente la llave estará en algún lado, aunque prefieres que ese sitio no sea el bolsillo del dueño de la mansión.
+TokenSightEntryHall.button1,Echar un vistazo a la esquina
+EventAddInvestigators.button1,Continuar
+EventAddInvestigators.text,Entras con sigilo en la mansión, con el corazón latiendo con fuerza, y con la esperanza de que nadie note tu presencia. \n\n Coloca a los investigadores en el lugar señalado.
+EventAddSearchTokenStudyDesk.button1,Continuar
+EventAddBrassKeySearchToken.button1,Continuar
+TokenSearchStudyDesk.text,Los cajones no tienen cerraduras por lo que puedes revisarlos a placer. Pero el extraño olor del humo embriaga tu mente.
+TokenSearchStudyDesk.button1,{action} Buscar
+EventSearchingTokenStudyDesk.text,Examinas los cajones mientras haces lo posible por aguantar el humo del puro encendido. Está claro que no es un tabaco corriente y que en realidad parece que trata de repelerte usando algún tipo de fuerza arcana. Es tan fuerte que ni siquiera te puedes acercar lo suficiente como para tocarlo, y querrías poder quitarlo de en medio ({will}; 2).
+EventFailedSearchTokenStudyDesk.text,Los vapores parecen sobrepasar tu mente y te mantienen a raya.
+EventFailedSearchTokenStudyDesk.button1,Continuar
+EventPassedSearchTokenStudyDesk.button1,Continuar
+EventAddSearchTokenStudyDesk.text,Un cenicero descansa sobre un desgastado escritorio que ha tenido mucho uso. Podrías comprobar los cajones con la esperanza de encontrar algo útil para tu investigación. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPassedSearchTokenStudyDesk.text,Fuerzas a tu mente a que pase por alto la natural aversión al humo, y sigues buscando hasta que encuentras documentos que muestran los nombres de varias personas que no conoces. Sin embargo, también encuentras el nombre de tu amigo en la parte inferior, rodeado con un círculo. ¿Qué significará esto? \n\n Ganas 2 pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventObservationCheckStudyFireplace.text,La mayoría de los trozos de papel no son particularmente interesantes, o simplemente son ilegibles. Pero sin duda aquí debe de haber algo que merezca que pierdas tu tiempo y que te ensucies las manos ({observation}).
+EventObservationCheckStudyFireplace.button1,Continuar
+TokenExploreEntryHallTopLocked.button1,Continuar
+TokenSightEntryHall.text,Un investigador en un espacio adyacente puede echar un vistazo al resto del pasillo.
+EventUseSightTokenEntryHall.text,Echas un vistazo al otro lado de la esquina, asustado por lo que te puedas encontrar al otro lado. \n\n Coloca el módulo {c:TileHallOffEntryway} y una ficha de Pared en el lugar señalado.
+EventUseSightTokenEntryHall.button1,Continuar
+TokenExploreHallTop.text,Al llegar a la puerta, tienes la impresión de que se oye algo en su interior. Sin embargo, el sonido no es muy nítido.
+TokenExploreHallTop.button1,{action} Explorar
+EventOpenDoorEntryHallLeft.text,Empujas suavemente la puerta abierta, tratando de hacer el menor ruido posible. Te encuentras en un despacho que parece que se ha usado hace poco, a juzgar por el puro aún encendido que hay en un cenicero. \n\n Coloca el módulo {c:TileStudy} en el lugar señalado.
+EventOpenDoorEntryHallLeft.button1,Continuar
+EventFirePlaceCheck0.text,Llegas a la conclusión de que aquí estás perdiendo el tiempo. \n\n Descarta esta ficha de Búsqueda.
+EventFirePlaceCheck0.button1,Continuar
+TokenExploreStudyTop.button1,{action} Explorar
+EventExploreTokenStudyTop.text,Accedes al pasillo principal de la mansión. El suelo es viejo y está muy gastado. Las paredes son de un enfermizo color amarillento. \n\n Coloca el módulo {c:TileHallOffEntryway} y una ficha de Pared en el lugar señalado.
+EventSearchTokenEntryHallMess.text,Examinando los restos observas un reloj de bolsillo que pertenecía a tu amigo. Debes de estar en el lugar correcto. \n\n Ganas el Objeto común <i>Reloj de bolsillo</i> y 1 Pista {clue}.
+EventSearchTokenEntryHallMess.button1,Continuar
+EventAddExploreTokenStudyTop.text,Una puerta en el otro extremo del estudio debe de conducir a las principales habitaciones de la mansión. Coloca una ficha de Exploración en el lugar señalado.
+EventAddExploreTokenStudyTop.button1,Continuar
+EventFirePlaceCheck1.button1,Continuar
+EventFirePlaceCheck2.text,«—¿Qué es esto?— te preguntas a ti mismo»\n\n Encuentras trozos quemados de recortes de periódico sobre casos de personas desaparecidas en la zona. Los nombres de las personas desaparecidas están rodeados por un círculo rojo y tachados. \n\n Ganas el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. \n\n A continuación descarta esta ficha de Búsqueda.
+EventFirePlaceCheck1.text,Algo en las cenizas llama tu atención. Observas unos trozos de papel chamuscados que parecen haber sido escondidos a propósito. Te da escalofríos pensar qué clase de cosas puedes encontrar en un lugar abandonado como este. Sufres 2 de Horror (anulados por {will}). \n\n A continuación descarta esta ficha de Búsqueda
+EventFirePlaceCheck2.button1,Continuar
+EventFirePlaceCheck3.button1,Continuar
+EventFirePlaceCheck3.text,Tu instinto te lleva directamente a un pergamino quemado. El texto es casi ilegible, pero crees que puedes reunir suficiente información como para aprender las artes místicas que proporciona. Gana el Hechizo {c:QItemSpellFireplace} y 1 Pista {clue}.
+EventMove1Space.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMove1Space.button1,Continuar
+EventAddDoorsHallAfterSightToken.text,El pasillo se adentra en la mansión. El suelo está manchado y deformado, mostrando signos del paso del tiempo y de la falta de cuidado. Las paredes son de un enfermizo color amarillento.
+EventAddDoorsHallAfterSightToken.button1,Continuar
+EventAddExploreTokensAfterSightTokenNoStudy.button1,Continuar
+EventSpawnFirstPossibleCultist.button1,Continuar
+EventSpawnFirstPossibleCultist.text,¿Te ha visto? {agility}
+EventAddExploreTokensAfterSightTokenStudyRevealed.text,Ves otras dos puertas al final del pasillo. Te llegan unos sonidos amortiguados procedentes de una de las puertas. \n\n Coloca una ficha de Exploración en el lugar señalado \n\n También hay un escritorio cubierto de papeles en el lado izquierdo de la sala. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCultistAwarenessPassed.text,Has sido lo suficientemente silencioso para que el hombre con la túnica no se diese cuenta. Se desliza por la puerta que hay en el lado derecho y desaparece de tu vista.
+EventCultistAwarenessPassed.button1,Continuar
+EventCultistAwarenessFailed.text,El sectario se da media vuelta al escuchar los crujidos del suelo bajo tus pies. Se acerca a dónde estás para investigar el ruido. Mueve al sectario un espacio hacia el vestíbulo (Entrada).
+EventCultistAwarenessFailed.button1,Continuar
+EventAddExploreTokensAfterSightTokenNoStudy.text,Al final del pasillo hay varias puertas. \n\n Coloca fichas de Exploración en los lugares señalados \n\n También puedes ver que unos papeles sobre el escritorio que hay a la izquierda.\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddExploreTokensAfterSightTokenStudyRevealed.button1,Continuar
+TokenExploreHallBottom.text,Un olor parecido al de un puro procede del otro lado de esta puerta.
+TokenExploreHallBottom.button1,{action} Explorar
+EventSearchingTokenStudyDesk.button1,Éxito
+EventSearchingTokenStudyDesk.button2,Fallo
+EventRevealSanctum1.text,Al abrir la puerta, ves una habitación que sin lugar a dudas se destina a la celebración de reuniones de carácter oculto. Hay runas grabados en las paredes y cerca del atril hay marcas de quemaduras de incienso. \n\n Coloca el módulo {c:TileSanctuary} y 2 fichas de Pared en los lugares señalados.
+EventRevealSanctum1.button1,Continuar
+EventRevealSanctum2.text,Al abrir la puerta, ves una habitación que sin lugar a dudas se destina a la celebración de reuniones de carácter oculto. Hay runas grabados en las paredes y cerca del atril hay marcas de quemaduras de incienso. \n\n Coloca el módulo {c:TileSanctuary} y 2 fichas de Pared en el lugar señalado.
+EventRevealSanctum2.button1,Continuar
+EventRevealSanctum3.text,Al abrir la puerta, ves una habitación que sin lugar a dudas se destina a la celebración de reuniones de carácter oculto. Hay runas grabados en las paredes y cerca del atril hay marcas de quemaduras de incienso. \n\n Coloca el módulo {c:TileSanctuary} y 2 fichas de Pared en el lugar señalado.
+EventRevealSanctum3.button1,Continuar
+EventSanctum1Contents.text,Has interrumpido una reunión del culto. Los sectarios de la habitación se giran para encararte, poseídos por una furia casi sobrenatural. Sufres 3 de Horror (anulados por {will}).
+EventSanctum1Contents.button1,Continuar
+SpawnCultLeader.button1,Continuar
+SpawnCultistSanctum1.text,Un sectario levanta su bastón, preparándose para descargar su furia en ti. Coloca un sectario en el lugar señalado.
+SpawnCultLeader.text,El líder del grupo lleva ropas elegantes, pero eso no impide que trate de matarte. Coloca un líder de la secta en el lugar señalado.
+SpawnCultistSanctum1.button1,Continuar
+SpawnCultistSanctum2.text,Un segundo miembro de la secta te mira de arriba a abajo con un intenso odio reflejado en su rostro. Con una voz silbante, te apunta con el dedo y exclama: \n\n —<i>¡Este no es tu sitio!<i> \n\n Coloca un sectario en el lugar señalado.
+SpawnCultistSanctum2.button1,Continuar
+EventCultLeaderDies.button1,Continuar
+EventAddBrassKeySearchToken.text,Oyes un chirrido que procede del vestíbulo de la entrada. Un panel se abre en la pared. \n Coloca una ficha de Búsqueda en el lugar señalado.
+SpawnFirstPossibleCultist.text,Doblas la esquina cuando te das cuenta de que, al final del pasillo, hay alguien vestido con una túnica.
+SpawnFirstPossibleCultist.button1,Continuar
+TokenSearchPodium.text,Un panel electrónico emerge en lo más alto del atril. Pide que se introduzca una contraseña. Los símbolos rúnicos que hay que combinar te resultan familiares. Puedes tratar de resolver el rompecabezas usando {lore}.
+TokenSearchPodium.button1,{action} Intentar
+PuzzlePodiumMastermind.button1,Hecho
+EventSanctum3Components.text,En el atril del santuario ves a un hombre vestido con ropas sacerdotales. \n Está leyendo un libro en un idioma que resuena diabólico y opresivo en tu mente. \n Sufres 2 de Daño boca abajo (anulados por {will}). \n\n Coloca una ficha de Interacción en el lugar señalado. Esta ficha representa al hombre de la túnica. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenHiddenSearchEntryHall.text,Hay una llave en el interior de una pequeña oquedad de la pared.
+TokenHiddenSearchEntryHall.button1,{action} Coger la llave
+TokenExploreEntryHallTopUNLOCKED.text,La puerta está cerrada. El investigador con la Llave de latón puede abrir esta puerta.
+TokenExploreEntryHallTopUNLOCKED.button1,{action} Abrir con la Llave de latón
+EventTakeKey.text,Coges la llave, pero en ese momento una ráfaga de dardos sale del lugar donde estaba la llave. Sufres 2 de Daño (anulados por {agility}). \n\n Si has sufrido daño, si tienes la expansión «La senda de la serpiente», adquieres el estado <i>Envenenado</i>. \n\n De lo contrario, ganas 2 cartas de estado <i>Estresado</i> (sólo se aplican los efectos de <i>Estresado</i> una vez, incluso si tienes más de una carta de estado). Descarta una sola carta al final de cada ronda. \n\n Ganas el Objeto único <i>Llave de latón</i>. A continuación descarta esta ficha de Búsqueda.
+EventTakeKey.button1,Continuar
+EventSanctum2Contents.text,No ves a nadie en la habitación. ¿De dónde proceden los sonidos? {observation}.
+EventSanctum2Contents.button1,Continuar
+EventSanctum2ObservationCheckFailed.text,No adviertes la criatura que está detrás de la cortina, y el sonido de una palanca siendo empujada indica un peligro inminente. Una gran piedra cae del techo sobre ti. Sufres 2 de Daño y 1 de Horror boca abajo (anulados por {strength}).
+EventSanctum2ObservationCheckFailed.button1,Continuar
+SpawnThrallSanctum2.button1,Continuar
+EventThrallDies.button1,Continuar
+SpawnThrallSanctum2.text,De repente, una figura irrumpe desde detrás de las cortinas te amenaza profiriendo un grito sobrenatural. Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Coloca un subyugado en el lugar señalado.
+EventCultLeaderDies.text,Tan pronto como el líder de la secta expira, se escucha un sonido que proviene del atril del santuario interior. Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchSanctumCurtains.text,La criatura parece tener tatuadas unas runas en su gigantesco brazo con garras. Si las examinas quizá puedas averiguar su propósito, usando tu {lore}.
+TokenSearchSanctumCurtains.button1,{action} Intentar
+EventThrallDies.text,La criatura se desploma sobre el suelo. En ese momento oyes un zumbido proveniente de detrás de las cortinas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+PuzzleRunesBehindCurtain.button1,Hecho
+EventSanctum3Components.button1,Continuar
+EventInteractSanctumPriest.button1,Continuar
+TokenInteractPriest.button1,{action} Interactuar
+EventNewBloodPassed.text,Has resultado muy convincente, a pesar de que el sudor recorría tu frente. Una sonrisa maliciosa se abre paso en el extraño rostro del hombre. \n\n —<i>Ah, muy bien. Espere aquí, en la comodidad de nuestro santuario. Volveré con los componentes apropiados para su ritual de iniciación</i> — se da media vuelta y se aleja lentamente, saliendo de la estancia. \n\n Descarta esta ficha de Interacción.
+EventNewBloodPassed.button1,Continuar
+TokenInteractPriest.text,La figura de pie en el atril ni siquiera te ha mirado mientras continúa leyendo su manuscrito místico.
+EventInteractSanctumPriest.text,A medida que te acercas al siniestro hombre que está vestido con una elegante túnica, casualmente se gira y te mira a la cara. \n\n —<i>¿Es usted la persona nueva que está interesada en unirse a nuestro culto? Tengo entendido que vamos a recibir a nuevos reclutas para nuestra orden.<i> \n\n Intentas convencerle de que eres uno de los nuevos {influence}.
+EventAddSearchTokenSanctum3.text,Al salir de la habitación, miras con detenimiento el lugar y encuentras unos cuadrados hechos en el atril. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenSanctum3.button1,Continuar
+TokenSearchPodiumImagePuzzle.text,Puedes intentar resolver el rompecabezas usando ({lore}).
+TokenSearchPodiumImagePuzzle.button1,{action} Intentar
+EventNewBloodFailed.text,A medida que el miedo se apodera de ti, te cuesta más trabajo encontrar las palabras necesarias. Está claro que no vas a convencer a nadie con tu pobre actuación. \n\n Sufres 1 de Horror boca abajo, a continuación pon boca arriba 1 de Horror. Adquieres el estado <i>Estresado</i>.
+EventNewBloodFailed.button1,Continuar
+SpawnPriestOfDagon.text,—<i>¿Por quién me toma? ¿Por un tonto? ¡Usted no pertenece a esto, intruso! ¡Prepárase para morir!</i> \n\n Coloca el Sacerdote de Dagón en el lugar señalado.
+SpawnPriestOfDagon.button1,Continuar
+EventPriestOfDagonKilled.text,Para tu alivio, el sacerdote cae al suelo inerte. Ahora puedes explorar el atril sin prisas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPriestOfDagonKilled.button1,Continuar
+TokenExploreStudyTop.text,Esta puerta conduce de nuevo al pasillo principal de la mansión.
+EventExploreTokenStudyTop.button1,Continuar
+EventAddExploreTokensToHallAfterOpeningStudyTop.text,Escuchas un ruido procedente de la puerta que tienes delante, mientras que en la puerta de la izquierda no ves nada digno de mención.\n\n Coloca 2 fichas de Exploración en el lugar señalado \n\n También ves un escritorio cubierto de papeles a tu derecha. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddExploreTokensToHallAfterOpeningStudyTop.button1,Continuar
+EventRemoveCultistSanctum2.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventRemoveCultistSanctum2.button1,Continuar
+EventSanctum2ObservationCheckPass.text,Observas algo que se mueve por detrás, al fondo del santuario. Unos pies casi imperceptibles asoman por debajo del borde de la cortina de color rojo sangre. Te acercas con cuidado tratando de echar un vistazo para comprobar si, por fortuna, podría ser tu amigo.
+EventSanctum2ObservationCheckPass.button1,Continuar
+TokenExploreHallLeft.text,Un delicioso olor proviene del otro lado de esta puerta.
+TokenExploreHallLeft.button1,{action} Explorar
+EventOpenExploreHallLeft.text,Entras en un comedor conectado con lo que debe de ser una cocina a juzgar por los aromas que llenan tus fosas nasales. Alguien debe de estar cocinando algo en la habitación de al lado. \n\n Coloca el módulo {c:TileKitchen}, una ficha de Pared y una ficha de Exploración en el lugar señalado.
+EventOpenExploreHallLeft.button1,Continuar
+EventAddDiningRoomSearchToken1.text,Ves algo brillante sobre la mesa que podría resultar útil. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddDiningRoomSearchToken1.button1,Continuar
+TokenSearchDiningRoom1.text,Sobre la mesa hay una daga llena de runas. Emana un aura maligna cuando te acercas a ella.
+TokenSearchDiningRoom1.button1,{action} Buscar
+EventGainItemFromDiningRoomSearchToken1.text,Se te erizan los pelos de la nuca y sientes un dolor punzante que te recorre el brazo mientras te lo sujetas con la otra mano. \n Una voz siniestra resuena en tu mente. Trata de persuadirte para que realices un sacrificio de sangre cortándote con la hoja. \n\n Sufres 2 de Horror boca abajo y 2 de Daño (anulados por {influence}+{will}). \n Si no sufres ni Daño ni Horror, adquieres el estado <i>Concentrado</i>. \n\n Ganas el Objeto común <i>Daga ritual</i> y 1 Pista {clue}.\n\n A continuación descarta esta ficha de Búsqueda.
+EventGainItemFromDiningRoomSearchToken1.button1,Continuar
+EventAddDiningRoomSearchToken2.text,Tal vez valdría la pena emplear algo de tu tiempo en investigar el armario de la porcelana.
+EventAddDiningRoomSearchToken2.button1,Continuar
+TokenDiningRoomSearchToken2.text,Las puertas del armario están cerradas con llave. Pero quizá puedas forzar la cerradura. Puedes intentar resolver el rompecabezas usando tu {observation}.
+TokenDiningRoomSearchToken2.button1,{action} Intentar resolver el rompecabezas
+EventResolveDiningRoomSearchToken2.text,Las puertas del armario se abren para revelar una vajilla de porcelana barata. Pero también puedes ver rastros de sangre seca en algunos platos. \n\n —«<i>¿Qué será exactamente lo que estarán comiendo en este sitio?</i>» \n\n Ganas el Objeto único <i>Prueba circunstancial y 2 Pistas {clue}. \n\n A continuación descarta esta ficha de Búsqueda
+PuzzleSlidePuzzleDiningRoom.button1,Hecho
+EventResolveDiningRoomSearchToken2.button1,Continuar
+TokenExploreDiningRoomToKitchen.button1,{action} Explorar
+quest.authors,\n\n<i>Creado por:</i> Strategywizard \n\n\n <i>Traducción al español:</i> Vidimus \n\n
+quest.synopsys,Estás buscando a un amigo tuyo, Víctor Blake. Tu investigación te lleva a una inquietante mansión.
+EventOpenDiningToKitchenDoor.text,Al abrir la puerta descubres una vieja y anticuada cocina que necesita una reparación urgente. Sin embargo, observas como una sirvienta trabaja diligentemente para cocinar una comida usando el oxidado fogón. Tararea para sí misma mientras lanza trozos de carne sanguinolenta dentro de una olla. ¿Eso que acaba de echar era una oreja humana? \n\n Coloca la ficha de Personaje Mujer blanca en el lugar señalado.
+SpawnWitchOnKitchenRevealMultiEnemy.button1,Continuar
+TokenMaid.text,La criada no se ha dado cuenta que te has acercado por detrás mientras trabajaba.
+TokenMaid.button1,{action} Hablar
+TokenMaid.button2,{action} Dejarla inconsciente
+EventSpeakToMaid.text,La sirvienta se da la vuelta y se queda perpleja ante tu inesperada presencia. \n\n —<i>¿Quién es usted? ¿Es usted uno de nuestros nuevos miembros?</i> {influence}.
+EventSpeakToMaid.button1,Continuar
+EventPersuadeMaidFail.text,—<i>¿Cómo se atreve a venir a mi cocina y tratar de engañarme? Sabe que no puedo dejar que se vaya sin más, ¿verdad?</i> \n\n Coloca una bruja en el lugar señalado.
+EventPersuadeMaidFail.button1,Continuar
+EventPersuadeMaidPass.text,—<i>Oh, bueno, es un placer conocerle. Supongo que debería usted saber que soy algo más que una humilde sirvienta. Si necesita ayuda con cualquier cosa, hágamelo saber.</i>
+EventPersuadeMaidPass.button1,Continuar
+TokenMaidAfterPassing.text,—<i>¿Le puedo ayudar en algo?</i>
+TokenMaidAfterPassing.button1,{action} Pedir la llave del cuarto de almacenaje.
+EventAskMaidForKey.text,—<i>Oh, ¿necesita algo del cuarto de almacenaje? Allí hay una serie de paneles de control muy importantes, así que tenga mucho cuidado. Pero bueno, seguro que eso ya se lo habrá explicado nuestro líder, ¿verdad? Debe de ser por eso que se le necesita allí. Por favor, aquí tiene la llave.</i> \n\n Ganas del Objeto único <i>Llave de Plata</i> y 2 Pistas {clue}.
+EventAskMaidForKey.button1,Continuar
+TokenMaidInactive.text,—<i>En realidad tengo que seguir preparando la comida.</i>
+TokenMaidInactive.button1,Continuar
+EventKnockOutMaid.text,Intentas darle un golpe con la suficiente fuerza como para dejarla inconsciente durante unas horas {strength}.
+EventKnockOutMaid.button1,Continuar
+EventAccidentlyKillMaid.button1,Continuar
+EventKnockMaidOutAsIntended.text,Tal y como habías previsto, la sirvienta queda fuera de combate. No te molestará en las próximas horas. Ahora puedes buscar cosas que te puedan servir. \n\n Descarta la ficha de Personaje y coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchMaidsBody.text,Tienes la corazonada de que la sirvienta puede llevar algo que sea útil.
+TokenSearchMaidsBody.button1,{action} Buscar
+EventFindKeyFromMaidsBody.text,Justo lo que esperabas encontrar. \n Ganas el Objeto único <i>Llave de plata</i>. A continuación descarta esta ficha de Búsqueda.
+EventFindKeyFromMaidsBody.button1,Continuar
+EventKnockMaidOutAsIntended.button1,Continuar
+EventKnockOutMaidFailure.text,La sirvienta deja escapar un gruñido cuando le das un golpe en la cabeza. Se vuelve enfadada con el ceño fruncido y te lanza una estocada con un cuchillo de carnicero. Sufres 3 de Daño boca abajo (anulados por {strength}). \n\n Descarta la ficha de Personaje y coloca una bruja en el lugar señalado.
+EventAccidentlyKillMaid.text,La sirvienta cae al suelo, con la sangre saliendo a borbotones de su cráneo. Le tomas el pulso y descubres que el golpe ha sido tan fuerte que ha muerto al instante. En ese momento, el cuerpo se desvanece sin dejar rastro. Sufres 2 de Horror. \n\n Descarta la ficha de Personaje y coloca una ficha de Búsqueda en el lugar señalado.
+EventKnockOutMaidFailure.button1,Continuar
+EventAddKitchenSearchToken1.text,La nevera parece vieja e inservible, pero puede haber algo dentro que merezca que empleas algo de tiempo.
+EventAddKitchenSearchToken1.button1,Continuar
+TokenKitchenSearchToken1.text,Quizá encuentres algo útil o algo repugnante en su interior. Sólo hay una forma de averiguarlo.
+TokenKitchenSearchToken1.button1,{action} Buscar
+EventWitchDisappearsUponDeath.text,La bruja exhala su último aliento y se disuelve en el aire sin dejar rastro.\n\n Te quedas de piedra al ver como una llave plateada se cae de su bolsillo, desapareciendo ante tus ojos. En lo único que piensas ahora es que puede que sea la llave de la zona de almacenaje de la cocina.
+EventWitchDisappearsUponDeath.button1,Continuar
+EventAddKitchenSearchToken2.text,Aunque están cubiertos por lo que parecen ser manchas de sangre, merecería la pena echarle un vistazo también a los cajones que están detrás de la sirvienta.
+EventAddKitchenSearchToken2.button1,Continuar
+TokenKitchenSearchToken2.text,Los cajones son viejos y tienen marcas de moho. Pero quizá haya algo útil en su interior.
+TokenKitchenSearchToken2.button1,{action} Buscar
+EventKitchenSearchToken2Possibility1.text,Al abrir los cajones, descubres un cuchillo ensangrentado con lo que parece ser carne humana todavía colgando de la punta de la hoja. Te da tanto asco que te niegas a tocarlo aunque podría ser un arma valiosa.\n Sufres 2 de Horror (anulado por {will}). \n\n A continuación descarta esta ficha de Búsqueda y ganas 2 Pistas {clue}.
+EventKitchenSearchToken2Possibility1.button1,Continuar
+EventKitchenSearchToken2Possibility2.text,No tienes ni idea de por qué esto está aquí, pero te alegra poder llevártelo. \n\n Ganas el Objeto común <i>Sedante</i>. A continuación descarta esta ficha de Búsqueda.
+EventKitchenSearchToken2Possibility2.button1,Continuar
+EventKitchenSearchToken1Gun25Automatic.text,Tal vez la sirvienta esconde esto para su autoprotección. \n\n Ganas el Objeto común <i>Automática del 25</i>. A continuación descarta esta ficha de Búsqueda.
+EventKitchenSearchToken1Gun25Automatic.button1,Continuar
+EventKitchenSearchToken1PainKillers.text,¿Tal vez la sirvienta padece dolores de cabeza? ¿O podrían ser usados para otros fines? \n\n Ganas el Objeto común <i>Analgésicos</i>. A continuación descarta esta ficha de Búsqueda.
+EventKitchenSearchToken1PainKillers.button1,Continuar
+EventKitchenSearchToken1BodyParts.button1,Continuar
+EventKitchenSearchToken1BodyParts.text,Tan pronto como se abre la puerta, una monstruosidad voladora que se está comiendo los sesos de una cabeza humana te mira con sus ojos parecidos a los de un insecto. Jurarías que se está preparando para un nuevo festín de sangre fresca y caliente. \n\n Coloca un Mi-go en el lugar señalado. A continuación descarta esta ficha de Búsqueda.
+EventSpawnWitchIfMiGoSpawned.text,En el momento en el que el Mi-go se prepara para atacar, la sirvienta se da media vuelta para ver a quién está mirando la criatura. \n\n —<i>¡Si no le gusta a nuestra mascota, está claro que no es un miembro de nuestro culto! ¡Nos vamos a asegurar de que no escapes de una pieza!<i> \n\n Descarta la ficha de Personaje y coloca en su lugar una bruja.
+EventSpawnWitchIfMiGoSpawned.button1,Continuar
+SpawnMiGoAndWitch.text,Por desgracia, los seseantes sonidos del Mi-go atraen la atención de la sirvienta.
+SpawnMiGoAndWitch.button1,Continuar
+EventKitchenSearchToken2Possibility3.text,Encuentras algo bastante fuera de lugar. ¿No son estos los zapatos de deporte de Víctor? \n\n Ganas el Objeto común <i>Zapatillas de atletismo</i> y 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventKitchenSearchToken2Possibility3.button1,Continuar
+EventAddExploreTokenToKitchenStorage.text,Al fondo hay una puerta que lleva a la despensa. Hay un candado asegurando la puerta, por lo que seguramente hay algo importante oculto detrás.
+EventAddExploreTokenToKitchenStorage.button1,Continuar
+TokenExploreKitchenStorageRoom.text,Está claro que hay algo importante en esta sala. \n\n Un investigador con la <i>Llave de plata</i> puede abrir esta puerta. \n\n Por otro lado, la puerta parece vieja y bastante débil. También se podría tratar de echar abajo usando la fuerza.
+TokenExploreKitchenStorageRoom.button1,{action} Abrir con llave de plata
+TokenExploreKitchenStorageRoom.button2,{action} Intentar romper la puerta
+EventEnterKitchenStorage.text,Enseguida te das cuenta de que no hay ninguna fuente de luz en esta sala. \n\n Coloca fichas de Oscuridad en los espacios de la despensa. \n\n La despensa rezuma humedad y todo en su interior está cubierto de polvo. Todo a excepción de un artilugio rúnico que está claro que se ha usado recientemente. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventEnterKitchenStorage.button1,Continuar
+EventBreakingIntoKitchenStorageMaidAngry.text,Justo cuando comienzas a romper la puerta, la sirvienta se da la vuelta y arremete contra ti con un cuchillo de carnicero en las manos. Sufres 3 de Daño y 1 de Horror boca abajo (anulados por {agility} + {observation}). \n\n Descarta la ficha de Personaje y coloca una bruja en el lugar señalado.
+EventBreakingIntoKitchenStorageMaidAngry.button1,Continuar
+EventBreakingIntoKitchenStorage.text,Cargas contra la puerta con todas tus fuerzas {strength}.
+EventBreakingIntoKitchenStorage.button1,Continuar
+EventBreakDoorWeak.text,Por mucho que lo intentas, lo único que consigues es magullarte contra la resistente puerta. \n\n Sufres 1 de Daño boca abajo.
+EventBreakDoorWeak.button1,Continuar
+EventBreakDoorMedium.text,La puerta se rompe, pero no tienes la suficiente fuerza como para evitar hacerte daño con el impacto. \n\n Sufres 1 de Daño boca abajo.
+EventBreakDoorMedium.button1,Continuar
+EventBreakDoorStrong.text,La puerta se derrumba bajo el peso de tu cuerpo, despejando el camino hacia la sala de almacenamiento.
+EventBreakDoorStrong.button1,Continuar
+TokenKitchenStorageSearch.text,Las arcaicas runas del dispositivo no son tan fáciles de entender. \n Puedes intentar resolver el rompecabezas usando {lore}.
+TokenKitchenStorageSearch.button1,{action} Intentar
+EventPuzzleSolvedKitchenStorageTowerRoomNotRevealed.text,A medida que completas la alineación de las runas, un ruido suena en el interior de la mansión. \n\n Descarta esta ficha de Búsqueda
+PuzzleKitchenStorageCode.button1,Hecho
+EventPuzzleSolvedKitchenStorageTowerRoomNotRevealed.button1,Continuar
+EventPuzzleSolvedKitchenStorageTowerRoomRevealed.text,A medida que se completa la alineación de las runas oyes un ruido procedente del interior de la mansión. Una puerta oculta queda a la vista cuando una librería se hunde en el suelo. \n\n Descarta esta ficha de Búsqueda y la ficha de Pared del cuarto del altillo. \n\n Coloca una ficha de Pared y una ficha de Exploración encima, tal y como se señala.
+EventPuzzleSolvedKitchenStorageTowerRoomRevealed.button1,Continuar
+EventEnterSanctumCultistNOTSeenInHall.text,Un extraño santuario que supone una afrenta para tus ojos.
+EventEnterSanctumCultistNOTSeenInHall.button1,Continuar
+EventEnteringSanctumCultistSeen.text,Lentamente comienzas a abrir la puerta...
+EventEnteringSanctumCultistSeen.button1,Continuar
+EventRevealAtticTile.text,Con cuidado, empujas la puerta abierta, sin saber muy bien qué encontrarás. Después de lo que has visto, no puedes ni imaginarte que debe haber aquí para que esté bajo llave tras esta puerta. Avanzas por una escalera que sube adentrándose más en la mansión. Las paredes y el suelo tienen aún peor aspecto que el resto de la casa. La madera está podrida, dejando al descubierto las entrañas de la estructura. Observas marcas de desgaste que van desde el vestíbulo de entrada y suben por las escaleras, como si alguien hubiese sido arrastrado contra su voluntad. \n\n Coloca el módulo {c:TileUniqueHallAndBedroom} en el lugar señalado.
+EventRevealAtticTile.button1,Continuar
+EventAddTowerStairsContents.text,Ves dos puertas en mal estado a través del hueco de la escalera. En la parte superior de la escalera, ves una mesa y sobre ella una vieja y deslustrada foto. \n\n Coloca una ficha de Búsqueda y 2 fichas de Exploración en el lugar señalado.
+EventAddTowerStairsContents.button1,Continuar
+TokenSearchTowerStairs.text,El cuadro es un retrato de un hombre de aspecto pomposo, y viste un traje que reafirma su alto estatus. ¿No te resulta familiar?
+TokenSearchTowerStairs.button1,{action} Examinar más de cerca
+EventSearchTokenTowerStairs.text,Lo miras más de cerca y tratas de encontrarlo en los recovecos de tu memoria, luchando para conseguir recordar quién es el hombre del retrato {lore}.
+EventSearchTokenTowerStairs.button1,Continuar
+EventPortaitTestFail.text,Por mucho que te estrujas el cerebro, no consigues recordar...
+EventPortaitTestFail.button1,Continuar
+EventEventPortraitTestPass.button1,Continuar
+TokenExploreAtticStorage.text,Una placa en la puerta con la palabra «<i>Almacenaje</i>»
+EventEventPortraitTestPass.text,Poco a poco vas recordando. Este hombre es Benjamín Linus. Hace años era un acaudalado ciudadano de Arkham. Falleció hace unos cinco años, envuelto en rumores de que estaba involucrado en extrañas actividades ocultistas. \n Al final parece que los rumores eran ciertos. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. A continuación descarta esta ficha de Búsqueda.
+TokenExploreAtticStorage.button1,{action} Explorar
+EventExploreAtticStorage.text,Abres la puerta con la esperanza de encontrar algo útil. Parece que es lo normal que las estancias que se usan para almacenar cosas en esta mansión carezcan de luz. \n Coloca fichas de Oscuridad en todos los espacios del trastero del desván.
+EventExploreAtticStorage.button1,Continuar
+EventAddSearchTokenAtticStorage.text,En un rincón puedes ver una pequeña caja. Parece que la han abierto recientemente. Tal vez haya algo relevante para la investigación en su interior. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \nTienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventAddSearchTokenAtticStorage.button1,Continuar
+TokenSearchAtticStorage.text,Te preguntas qué habrá dentro de esta pequeña caja.
+TokenSearchAtticStorage.button1,{action} Buscar
+EventAtticStorageSearchBrains.text,En el interior de la caja encuentras ojos y cerebros conservados en varios frascos de vidrio. Se te revuelven las tripas y a duras penas evitas vomitar. \n\n Sufres 2 de Horror boca abajo (anulados por {will}). A continuación, pon boca arriba 1 de Horror. \n\n Ganas 1 Pista {clue}. Descarta esta ficha de Búsqueda.
+EventAtticStorageSearchBrains.button1,Continuar
+EventAtticStorageSearchBindingPowder.text,A medida que hurgas en la caja, te das cuenta de que este es el sitio donde este culto almacena algunos de sus equipos de defensa personal. Pero, ¿de qué tendrían que protegerse? \n\n Ganas el Objeto común <i>Cachiporra</i> y el Objeto común <i>Polvo de atadura</i>. A continuación descarta esta ficha de Búsqueda
+EventAtticStorageSearchBindingPowder.button1,Continuar
+EventAtticStorageSearchBandages.text,En la caja contiene los restos de un botiquín de primeros auxilios. Es evidente que en esta secta la gente se hiere con frecuencia si todo esto es lo que queda en el botiquín. \n\n Ganas el Objeto común <i>Vendas</i>. A continuación descarta esta ficha de Búsqueda.
+EventAtticStorageSearchBandages.button1,Continuar
+TokenExploreTowerBedroom.text,El letrero en la puerta dice: \n\n <i>SÓLO para miembros de Nivel de Maestría Alto</i>.
+TokenExploreTowerBedroom.button1,{action} Explorar
+EventExploreTowerBedroomPuzzleAlreadySolved.text,Un dormitorio descuidado en el que flota un insoportable hedor a carne podrida. \n\n Coloca una ficha de Pared en el lugar señalado y descarta esta ficha de Exploración.
+EventExploreTowerBedroomPuzzleAlreadySolved.button1,Continuar
+EventTowerBedroomContents.text,Ves a alguien hurgando en unas cajas en la esquina de la habitación. Oyes cómo se queja acerca de ser elegido otra vez para la tarea de dar de comer. El sonido de tus pasos atrae su atención. Inmediatamente se da cuenta de que no deberías estar aquí, y blande su bastón preparándose para pelear. \n\n Coloca un líder de la secta y 2 fichas de Búsqueda en los lugares señalados.
+EventTowerBedroomContents.button1,Continuar
+EventExploreTowerBedroomPuzzleNOTSolved.text,Un dormitorio descuidado en el que flota un insoportable hedor a carne podrida. \n\n Coloca una ficha de Pared en el lugar señalado y descarta esta ficha de Exploración.
+EventExploreTowerBedroomPuzzleNOTSolved.button1,Continuar
+SpawnCultLeaderTowerBedroom.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+SpawnCultLeaderTowerBedroom.button1,Continuar
+TokenSearchTowerBedroom.text,El líder de la secta estaba buscando algo en este rincón de la habitación.
+TokenSearchTowerBedroom.button1,{action} Buscar
+EventSearchTowerBedroomElderWard.button1,Continuar
+EventSearchTowerBedroomElderCreepy.text,Te topas con una caja llena de cráneos humanos, algunos todavía con restos de cuero cabelludo y pelo, y otros en cambio tienen las cuencas de los ojos rellenas con una sustancia viscosa de color rojizo. Sufres 2 de Horror (anulados por {will}). \n\n Ganas 1 Pista {clue}. \n\n A continuación descarta esta ficha de Búsqueda
+TokenExploreTokenSecretDoorTowerBedroom.text,El hedor de la carne podrida se hace más fuerte a medida que te acercas a la puerta.
+TokenExploreTokenSecretDoorTowerBedroom.button1,{action} Explorar
+EventExploreSecretDoor1.text,La pintoresca habitación de un niño parece completamente fuera de lugar en esta oscura mansión. A medida que observas la habitación, te das cuenta de que hay una extraña criatura al otro lado de la cama. Su alargada boca está abierta y una grotesca baba azul gotea sobre la cama. \n\n Coloca un perro de Tíndalos en el lugar señalado.
+EventExploreSecretDoor1.button1,Continuar
+SpawnHoundofTindalos.text,Al fondo de la sala hay una librería. A su alrededor hay marcas de desgaste. Definitivamente merece la pena investigarla. Coloca una ficha de Búsqueda en el lugar señalado.
+SpawnHoundofTindalos.button1,Continuar
+EventExploreSecretDoor.text,Esto definitivamente no es lo que te esperabas. \n\n Coloca el módulo {c:TileBedroomAndCloset} y una ficha de Librería (Pared) en el lugar señalado.
+EventExploreSecretDoor.button1,Continuar
+EventExploreSecretDoor2.text,Las salpicaduras de la sangre por toda la habitación te resultan demasiado difíciles de soportar. Cada investigador en el espacio de esta ficha de Exploración sufre 2 de Horror boca abajo. A continuación dale la vuelta a una carta de Horror. \n\n Una librería en el fondo de la sala está rodeada de marcas de desgaste. Quizá merezca la pena sobreponerse al horror e investigarlo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventExploreSecretDoor2.button1,Continuar
+EventExploreSecretDoor3.text,Al abrir la puerta, una fuerza invisible te impide entrar en la habitación. Es evidente que hay un hechizo de protección con el propósito de mantener alejados a los intrusos. Tratas de abrirte paso a empujones {will}+{strength}.
+EventExploreSecretDoor3.button1,Continuar
+EventSecretDoorSpellTestFail.text,Tu fuerza de voluntad para encontrar a tu amigo y tu fortaleza son suficientes para destruir el hechizo, pero no lo suficiente para evitar que las fuerzas mágicas te produzcan graves quemaduras. Sufres 4 de Daño boca abajo.
+EventSecretDoorSpellTestFail.button1,Continuar
+EventExploreAfterForcefieldTest.text,Caes en lo que parece la habitación de un niño, lo que parece totalmente fuera de lugar en esta espeluznante mansión. \n\n <b>Tienes la OBLIGACIÓN de moverte 1 espacio hacia la zona explorada</b>. \n\n Una curiosa librería al fondo de la habitación tiene a su alrededor marcas de arrastre. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventExploreAfterForcefieldTest.button1,Continuar
+EventSecretDoorSpellTestMediocre.text,Tu desesperación le ayuda a medida que empujas a través del campo de energía mística, que se disipa por completo. Sin embargo, se te deja unas feas cicatrices de recuerdo. Sufres 2 de Daño boca abajo.
+EventSecretDoorSpellTestMediocre.button1,Continuar
+EventSecretDoorSpellTestSuccess.text,No vas a dejar un poco de abracadabra invisible te impida buscar a tu amigo. Te abres paso con facilidad, sufriendo sólo un leve dolor. Sufres 1 de Daño boca abajo y adquieres el estado <i>Concentrado</i>.
+EventSecretDoorSpellTestSuccess.button1,Continuar
+TokenSearchBookshelfSecretPassage.text,Está claro que esta librería se ha arrastrado muchas veces sobre este viejo suelo de madera.
+TokenSearchBookshelfSecretPassage.button1,{action} Empujar
+EventPushSecretBookshelf1.text,A medida que desliza la librería de la pared posterior, una ráfaga de aire frío trae consigo un fuerte olor a carne en descomposición y un hedor a algo pútrido que no eres capaz de reconocer y que embota tus sentidos y hace que te ardan los pulmones. Sufres 1 de Horror y 2 de Daño boca abajo (anulados por {strength}).
+EventPushSecretBookshelf1.button1,Continuar
+EventSecretBookshelfMoved.text,Tal y como esperabas, hay un pasadizo secreto detrás de la librería. \n\n Descarta la ficha Estantería y coloca una ficha de Pasaje Secreto con una ficha de Exploración encima, en el lugar señalado.
+EventSecretBookshelfMoved.button1,Continuar
+TokenExploreSecretPassageBookshelf.text,Una puerta es visible detrás del hueco de la pared. Claramente te estás acercando a la fuente del molesto hedor que te han obligado a soportar.
+TokenExploreSecretPassageBookshelf.button1,{action} Explorar
+EventPushSecretBookshelf2.text,Consigues mover la librería, dejando al descubierto un hueco en la pared y una vieja puerta que se adentra aún más en esta casa de los horrores. \n\n Descarta la ficha de Librería (Pared) y coloca una ficha de Pasadizo secreto en el lugar señalado con una ficha de Exploración encima.
+EventPushSecretBookshelf2.button1,Continuar
+EventMiGoAtSecretPassage.text,Emocionado y nervioso por descubrir lo que hay detrás de esta puerta secreta, entras y en ese momento oyes tras de ti un sonido como el aleteo de insecto grande. No te habías dado cuenta de que una enorme criatura te observa desde el techo.\n\n Coloca un Mi-go en el lugar señalado.
+EventMiGoAtSecretPassage.button1,Continuar
+EventPushSecretBookshelf3.text,Echas a un lado con facilidad la librería. El darte cuenta de que estás a punto de llegar al final de tu investigación te anima pero al mismo tiempo te abruma. \n\n Adquieres el estado <i>Hipnotizado</i> y pones boca arriba 2 de Horror.
+EventPushSecretBookshelf3.button1,Continuar
+EventRevealSecretPassage.text,El pasillo que se abre ante ti te lleva aún más adentro hacia los horrores que te has comprometido a investigar. \n\n Coloca el módulo {c:TileSecretPassage} y una ficha de Pared en el lugar señalado.
+EventRevealSecretPassage.button1,Continuar
+EventAddSearchTokenInSecretPassageSpells.button1,Continuar
+EventAddSearchTokenSecretPassageHall.text,Te topas con varios metros de oscuridad, interrumpidos por algunos rayos de luz que se filtran al final del pasillo. \n\n Coloca fichas de Oscuridad en los lugares señalados. \n\n Te abres paso poco a poco a través de la oscuridad tratando de ver qué tienes a tu alrededor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchSecretPassageSpell.text,Tantos libros, pero sólo unos pocos parecen ser particularmente prometedores.
+TokenSearchSecretPassageSpell.button1,{action} Buscar
+EventFindingTheBestSpell.text,Echas un vistazo a los manuscritos y pergaminos, que parecen más interesantes. Pero descubres que este tipo de textos no son fáciles de entender {lore}.
+EventFindingTheBestSpell.button1,Continuar
+EventSecretPassageWeakSpell.text,A medida que lees las palabras en lenguas antiguas, encuentras un hechizo que eres capaz de entender. \n\n Ganas el Hechizo <i>Atadura</i>. A continuación descarta esta ficha de Búsqueda.
+EventSecretPassageWeakSpell.button1,Continuar
+EventSecretPassageMediumSpell.text,Tu conocimiento te lleva a un hechizo que parece bastante potente. \n\n Ganas el Hechizo <i>Cuchilla espectral</i>. A continuación descarta esta ficha de Búsqueda.
+EventSecretPassageMediumSpell.button1,Continuar
+EventSecretPassageBestSpell.text,Tus vastos conocimientos han dado sus frutos. Este es precisamente el tipo de hechizo que esperabas encontrar. \n\n Ganas el Hechizo <i>Niebla venenosa</i>. A continuación descarta esta ficha de Búsqueda.
+EventSecretPassageBestSpell.button1,Continuar
+EventAddDoorToDungeonFromSecretPassage.text,En el lado izquierdo del pasillo hay una puerta de metal cubierta de óxido. Da la impresión de ser la entrada de un calabozo. Lo único que deseas es que Víctor esté todavía vivo, aunque no puedes evitar preocuparte después de todo lo que has visto en este sitio. \n\n Coloca una ficha de Exploración en el lugar señalado. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventAddDoorToDungeonFromSecretPassage.button1,Continuar
+TokenExploreDungeonEntrance.text,La puerta de metal está cubierto de óxido. \n El olor a rancio es más fuerte aquí que en cualquier otro sitio.
+TokenExploreDungeonEntrance.button1,{action} Explorar
+EventRevealDungeon.text,Un sucio pasillo conecta con otras tres puertas metálicas. Restos de carne y sangre humana tapizan el interior. Para tu horror, te das cuenta de que podría ser la comida de lo que sea que se encuentre en esta mazmorra. Sólo esperas que Víctor no haya formado todavía parte del menú de la cena. Sufres 3 de Horror (anulados por {will}). \n\n Coloca el módulo {c:TileDungeon}, una ficha de Pared y 3 fichas de Exploración en los lugares señalados.
+EventRevealDungeon.button1,Continuar
+TokenDungeonCell1.text,Tienes delante una puerta de metal oxidado.
+TokenDungeonCell1.button1,{action} Explorar
+TokenDungeonCell2.text,Al frente ves una puerta de metal oxidado.
+TokenDungeonCell2.button1,{action} Explorar
+TokenDungeonCell3.text,Una puerta de metal oxidado está delante de ti.
+TokenDungeonCell3.button1,{action} Explorar
+EventDungeonDoorCthonian3.button1,Continuar
+EventAddSearchToken2KitchenStorage.button1,Continuar
+EventDungeonDoor1Opens.text,La puerta chirría al abrirse, revelando una oscura celda. Coloca fichas de Oscuridad en todos los espacios de la habitación explorada.
+EventDungeonDoor1Opens.button1,Continuar
+EventDungeonCell2Opens.text,La puerta chirría al abrirse, revelando una oscura celda. Coloca fichas de Oscuridad en todos los espacios de la habitación explorada.
+EventDungeonCell2Opens.button1,Continuar
+EventDungeonCell3Opens.text,La puerta chirría al abrirse, revelando una oscura celda. Coloca fichas de Oscuridad en todos los espacios de la habitación explorada.
+EventDungeonCell3Opens.button1,Continuar
+EventDungeonDoorCthonian3.text,La chirriante puerta se abre y ante ti aparece una horrible criatura más allá de tu imaginación. Los tentáculos que sobresalen de su boca se sacuden con una energía frenética que hace que te invada el terror. Sufres 2 de Horror (anulados por {will}). \n\n Coloca un Chthonian en el lugar señalado.
+TokenSearchKitchenStorageJunk.text,¿Podría haber algo útil en este desastre lleno de polvo?
+EventDungeonDoorHoundOfTindalos3.text,La puerta chirría al abrirse y en ese momento comienzas a distinguir los sonidos de gruñidos viscosos procedentes del interior de la celda. Tus ojos se posan sobre una de las mascotas horribles de la secta. \n\n Coloca un sabueso de Tíndalos en el lugar señalado.
+EventDungeonDoorHoundOfTindalos3.button1,Continuar
+SpawnHoundOfTindalosDungeon.button1,Continuar
+SpawnCthonian.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+SpawnCthonian.button1,Continuar
+EventDungeonDoorVictorBlake3.text,La puerta chirría al abrirse y la felicidad te embarga al ver a Víctor Blake sentado, apoyado contra la pared de piedra. Está magullado, pero levanta la vista y te mira. Está claro que sus heridas son poco importantes. Hay incredulidad en su mirada, como si no creyese que estuvieses ahí. Todo cambia cuando una dolorida sonrisa cruza su rostro.\n\n Adquieres el estado <i>Concentrado</i>. Coloca la ficha de Personaje de Víctor Blake en el lugar señalado.
+SpawnHoundOfTindalosDungeon.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventDungeonDoorVictorBlake3.button1,Continuar
+EventEventDungeonDoor2Cthonian.text,La chirriante puerta se abre y ante ti aparece una horrible criatura más allá de tu imaginación. Los tentáculos que sobresalen de su boca se sacuden con una energía frenética que hace que te invada el terror. Sufres 2 de Horror (anulados por {will}). \n\n Coloca un Chthonian en el lugar señalado.
+EventEventDungeonDoor2Cthonian.button1,Continuar
+EventEventDungeonDoor2HoundOfTindalos.text,La puerta chirría al abrirse y en ese momento comienzas a distinguir los sonidos de gruñidos viscosos procedentes del interior de la celda. Tus ojos se posan sobre una de las mascotas horribles de la secta. \n\n Coloca un sabueso de Tíndalos en el lugar señalado.
+EventEventDungeonDoor2HoundOfTindalos.button1,Continuar
+EventEventDungeonDoor2VictorBlake.text,La puerta chirría al abrirse y la felicidad te embarga al ver a Víctor Blake sentado, apoyado contra la pared de piedra. Está magullado, pero levanta la vista y te mira. Está claro que sus heridas son poco importantes. Hay incredulidad en su mirada, como si no creyese que estuvieses ahí. Todo cambia cuando una dolorida sonrisa cruza su rostro.\n\n Adquieres el estado <i>Concentrado</i>. Coloca la ficha de Personaje de Víctor Blake en el lugar señalado.
+EventEventDungeonDoor2VictorBlake.button1,Continuar
+EventDungeonDoor1Cthonian.text,La chirriante puerta se abre y ante ti aparece una horrible criatura más allá de tu imaginación. Los tentáculos que sobresalen de su boca se sacuden con una energía frenética que hace que te invada el terror. Sufres 2 de Horror (anulados por {will}). \n\n Coloca un Chthonian en el lugar señalado.
+EventDungeonDoor1Cthonian.button1,Continuar
+EventDungeonDoor2HoundOfTindalos.text,La puerta chirría al abrirse y en ese momento comienzas a distinguir los sonidos de gruñidos viscosos procedentes del interior de la celda. Tus ojos se posan sobre una de las mascotas horribles de la secta. \n\n Coloca un sabueso de Tíndalos en el lugar señalado.
+EventDungeonDoor2HoundOfTindalos.button1,Continuar
+EventDungeonDoor1VictorBlake.button1,Continuar
+TokenVictorBlakeDungeon1.text,A medida que te acercas a él, la sonrisa de Víctor se transforma en una mirada de sospecha.
+EventDungeonDoor1VictorBlake.text,La puerta chirría al abrirse y la felicidad te embarga al ver a Víctor Blake sentado, apoyado contra la pared de piedra. Está magullado, pero levanta la vista y te mira. Está claro que sus heridas son poco importantes. Hay incredulidad en su mirada, como si no creyese que estuvieses ahí. Todo cambia cuando una dolorida sonrisa cruza su rostro.\n\n Adquieres el estado <i>Concentrado</i>. Coloca la ficha de Personaje de Víctor Blake en el lugar señalado.
+TokenVictorBlakeDungeon1.button1,{action} Hablar
+EventFirstWordsToVictor.text,Víctor se aleja cuando te acercas a él.\n\n —<i>¿Cómo me has encontrado? No puedes en realidad ser tú, ¿verdad? Después de todo lo que he visto aquí, ¿cómo puedo realmente saber que no eres producto de mi imaginación o una aparición conjurada para darme falsas esperanzas?</i> \n\n Debes convencerle de que eres real, pero tú mismo estás al borde de un ataque de nervios. No tienes muy claro cómo vas a convencerlo {influence}. \n\n Un investigador que posea al menos 1 carta de <i>Prueba<i> puede añadir 2 dados a la tirada para superar la prueba.
+EventFirstWordsToVictor.button1,Continuar
+EventConvinceVictorPass.text,Templas tus nervios para tranquilizar a Víctor y convencerle de que estás aquí para salvarlo. Le cuentas el cómo llegaste a la conclusión de que tenías que venir a esta mansión. Tus palabras suenan convincentes, y ves como una sonrisa regresa al rostro de tu amigo. \n\n Todos los investigadores pueden poner boca abajo 2 cartas de Horror.
+EventConvinceVictorPass.button1,Continuar
+EventConvinceVictorFail.text,Estás demasiado alterado como para calmarte. Tú mismo dudarías si estuvieses en su pellejo, teniendo en cuenta tus palabras carentes de confianza. Víctor sigue sospechando de ti.
+EventConvinceVictorFail.button1,Continuar
+TokenExploreDiningRoomToKitchen.text,La puerta no está cerrada del todo, permitiendo que los aromas de la cocina inunden el comedor.
+TokenVictorBlakeDungeon2.text,A medida que te acercas a él, la sonrisa de Víctor se transforma en una mirada de sospecha.
+TokenVictorBlakeDungeon2.button1,{action} Hablar
+TokenVictorBlakeDungeon3.text,A medida que te acercas a él, la sonrisa de Víctor se transforma en una mirada de sospecha.
+TokenVictorBlakeDungeon3.button1,{action} Hablar
+EventVictorComesWithYou.text,Víctor se levanta del frío suelo de piedra. \n\n —<i>Tenemos que salir de aquí, pero hay algo que tenemos que hacer primero. En una de estas celdas hay una criatura que debemos matar antes de que la usen para hacerse más poderosos. Los miembros de la secta lo llaman «Chthonian», pero lo único que sé de ella es que es una criatura vermiforme con tentáculos. Por lo que he podido oírles, lo están alimentando con algo que lo hace crecer en tamaño y poder. No podemos permitir que lo sigan haciendo. Si ya te lo has cargado, estupendo entonces. Otra cosa, debemos conseguir pruebas para acabar con esta secta para que nadie más tenga que pasar por este sufrimiento. </i> \n\n La investigación se completará con éxito si todos los investigadores alcanzan la salida del Hall, llevan entre todos al menos 2 <i>Pruebas<i> y el Chthonian ha sido eliminado. \n\n Descarta la ficha de Personaje de Víctor Blake y coloca una ficha de Interacción en el lugar señalado.
+EventVictorComesWithYou.button1,Continuar
+TokenInteractEscape.text,Si todos los investigadores están en este espacio, poseen al menos 2 <i>Pruebas<i> y el Chthonian ha sido derrotado, es posible completar la investigación.
+TokenInteractEscape.button1,La investigación ha sido completada con éxito
+TokenInteractEscape.button2,Seguir intentándolo
+EventSpawnEndGameMonster2.button1,Continuar
+EventSpawnEndGameMonster2.text,El vigilante deambula por la mansión, preguntándose dónde estará su esclavo subyugado. Al entrar en el vestíbulo de entrada, empieza a olfatear el aire. \n\n —<i>Puedo olerte. ¡No saldrás de aquí con vida!</i> —resopla con voz profunda y áspera el hombre deforme.\n\n Coloca un hijo de Dagón en el lugar señalado.
+EventInvestigatorEliminated.button1,Continuar
+EventInvestigatorEliminated.text,Os desmoralizáis y os veis abrumados por la desesperación causada por la muerte de vuestro compañero. Con la cabeza hundida entre las manos, caéis de rodillas presa de un terror que todo lo consume. \n\n La investigación ha fracasado.
+EventVictory.text,Te las arreglas para escapar de la mansión de una sola pieza con Víctor aún vivo. Con la prueba que has recogido no deberías tener problemas para convencer a las autoridades de que investiguen a este culto. En silencio rezas una oración, agradecido, mientras conduces adentrándote en la noche. \n\n La investigación se ha completado con éxito.
+EventVictory.button1,Continuar
+EventIntro.text,Cada investigador comienza el juego con 1 Pista {clue}.
+EventIntro.button1,Continuar
+UIIntroContinueText.button1,Continuar
+UIIntroText.uitext,Estáis buscando a vuestro amigo Víctor Blake. Teníais una reunión \n de negocios programada con él  a primera hora de la tarde, pero \n ni apareció ni avisó de que fuese a llegar tarde. \n Es algo impropio de él. \n No deja de rondaros en la cabeza la idea de que algo no va bien, \n y teniendo en cuenta las horripilantes historias que circulan \n acerca de vuestra ciudad natal, Arkham, teméis que algo \n particularmente extraño  pueda estar detrás de su ausencia. \n Llamáis a su casa y os atiende su mujer. Os comenta que tenía una \n pequeña comida justo antes de la reunión con vosotros. \n Os dais prisa y llegáis al restaurante con la esperanza de que todavía quede alguien. \n Numerosos testigos afirman que vieron a unos hombres vestidos con túnicas \n que se acercaron a Víctor y lo empujaron \n hacia el interior de un coche. Basándoos en las descripciones de los \n empleados del restaurante, tenéis claro adónde os debéis dirigir. \n Una mansión abandonada envuelta en multitud de rumores es \n vuestro próximo destino. \n Aparcáis el coche a una distancia prudencial y os aproximáis sigilosamente \n hacia la puerta, intentando que no os descubra \n ni el guarda de la finca ni ningún otro... humanoide \n que pueda estar de su lado. \n Advertís además que hay un vigilante que hace la ronda por la parcela acompañado \n de una disparatada criatura. Sin duda está aquí para evitar intrusos \n como vosotros. La puerta de entrada está entreabierta, y hay luz dentro. \n Sin llamar a la puerta, os coláis en el interior de la mansión.
+UIIntroText.button1,Continuar
+EventEndGameMonster1.button1,Continuar
+EventEndGameMonster1.text,Un esclavo del culto entra en la mansión al oír el sonido de la muerte de la bestia. El deformado ser rastrea el lugar en busca de invitados no deseados que necesiten una muerte lenta y dolorosa. \n\n Coloca un monstruo subyugado en la entrada de la mansión.
+SpawnEndGameMonster2.button1,Continuar
+EventAddSearchTokenInSecretPassageSpells.text,Al final del pasillo hay una carcomida librería llena de libros antiguos. Te preguntas qué tipo de tomos guardarán en un lugar tan hermético como éste. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenSecretPassageHall.button1,Continuar
+TokenSearchSecretPassageHall.text,Te pica la curiosidad por saber qué podría haber oculto en la oscuridad.
+TokenSearchSecretPassageHall.button1,{action} Buscar
+EventSearchSecretPassageHall.text,La oscuridad dificulta tu búsqueda {observation}.
+EventSearchSecretPassageHall.button1,Continuar
+EventSecretPassageHallSearchFail.text,No observas nada que sea interesante.
+EventSecretPassageHallSearchFail.button1,Continuar
+EventSecretPassageHallSearchPartialPass.text,Topas con unas salpicaduras de sangre y unos dedos cortados en el suelo. \n\n Sufres 3 de Horror boca abajo (anulados por {voluntad}). Ganas 2 Pistas {clue}.
+EventSecretPassageHallSearchPartialPass.button1,Continuar
+EventSecretPassageHallSearchSuccess.text,Notas una pequeña hornacina, apenas visible con esta iluminación, y con el tamaño justo para meter tu mano. En su interior encuentras el tipo de equipo que te ayuda a sentirte más seguro. \n\n Descarta 1 de Horror y ganas el Objeto común <i>Escopeta</i>. \n\n A continuación descarta esta ficha de Búsqueda
+EventSecretPassageHallSearchSuccess.button1,Continuar
+EventForcedIntoBedroom.text,De repente, la puerta se cierra de golpe con si tuviese voluntad propia y tirador de la puerta se desvanece \n\n \n\n Coloca una ficha de Exploración en el lugar señalado. \n\n Por desgracia no estás solo en esta habitación. Una aparición espectral es la encargada de proteger esta sala en el caso de que alguien fuese capaz de romper el campo de fuerza. \n\n Coloca un alma en pena en el lugar señalado.
+EventForcedIntoBedroom.button1,Continuar
+TokenExploreTrapTowerToChildsRoom.text,La puerta no tiene manilla. La única forma que tienes de entrar es por la fuerza.
+TokenExploreTrapTowerToChildsRoom.button1,{action} Abrirla a la fuerza
+EventBreakDownMagicDoor.button1,Continuar
+EventBreakMagicDoorPass.text,Haces acopio de todas tus fuerzas y cargas contra la puerta a la desesperada. La puerta cae ante tu brutal embate y se hace trizas al chocar contra el suelo.
+EventBreakDownMagicDoor.text,No tienes idea de lo que costará echar abajo la puerta, pero tienes que intentarlo {strength}. \n\n Si tienes un arma pesada puedes añadir 2 dados adicionales a tu tirada.
+EventBreakMagicDoorPass.button1,Continuar
+EventBreakMagicDoorFail.text,Parece que no importa lo que le hagas. Esta maldita puerta no cede.
+EventBreakMagicDoorFail.button1,Continuar
+EventAddSearchTokenHiddenBedroom2.text,Un pequeño cofre en un rincón está en mejores condiciones que la mayoría de lo que has visto en este decrépito edificio. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenHiddenBedroom2.button1,Continuar
+TokenSearchChestInSecretBedroom.text,Este cofre parece nuevo y limpio, a diferencia de lo que le rodea. Pero eso no significa necesariamente que haya algo bueno dentro.
+TokenSearchChestInSecretBedroom.button1,{action} Buscar
+EventItemDropWraithDeath.text,A medida que el alma en pena comienza a desaparecer de tu vista, oyes como te susurran con una voz clara e inocente: \n\n —<i>Gracias por liberarme de este cautiverio. Espero que esto sirva para destruir a este malvado culto.<i>. \n\n Un objeto cae al suelo. \n\n Coloca el Objeto común <i>Espada encantada</i> en el espacio en el que fue derrotada el alma en pena.
+EventItemDropWraithDeath.button1,Continuar
+EventOpenSecretBedroomChest1.text,En su interior se encuentran pertenencias de personas al azar y que no conoces: carteras, relojes y otros efectos personales {observation}.
+EventOpenSecretBedroomChest1.button1,Continuar
+EventSecretBedroomChest1Pass.text,El baúl está lleno de efectos personales de gente que no conoces. Sin embargo, tu entrenada vista encuentra en la parte superior de un montón de objetos una cartera perteneciente a Víctor Blake Es evidente que Víctor es sólo uno de tantos que han sido secuestrados por estos locos. \n\n Todos los investigadores ganan 1 Pista {clue} \n\n A continuación descarta esta ficha de Búsqueda.
+EventSecretBedroomChest1Pass.button1,Continuar
+EventSecretBedroomChest1Fail.text,Rebuscas en lo que parece ser un montón de objetos perdidos pero no encuentras nada particularmente interesante. \n\n Descarta esta ficha de Búsqueda.
+EventSecretBedroomChest1Fail.button1,Continuar
+EventOpenSecretBedroomChest2.text,Las serpientes se deslizan y se deslizan unas sobre otras en una masa enmarañada de escamas y colmillos. Una cobra ensancha la cabeza y se prepara para atacar. Te apresuras para intentar cerrar la tapa antes de que sea demasiado tarde. {agility} + {observation}.
+EventOpenSecretBedroomChest2.button1,Continuar
+EventDodgeSnakePassed.text,Tu aguda vista te avisa inmediatamente de la cobra, y rápidamente reaccionas cerrando la tapa, convirtiendo la cabeza de la cobra en una masa sanguinolenta. Tu confianza y valor aumenta después de comprobar tu rápida reacción. \n Puedes poner boca abajo 1 de Horror y descartar 1 de Horror boca abajo. \n\n A continuación descarta esta ficha de Búsqueda.
+EventDodgeSnakePassed.button1,Continuar
+EventDodgeSnakesFailed.button1,Continuar
+EventAddSearchToken2KitchenStorage.text,Ves un montón de basura polvorienta, pero a veces lo que para algunos es basura, para otros es un tesoro. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventDodgeSnakesFailed.text,Eres incapaz de anticipar el ataque de la cobra. Justo antes de que cerrases la tapa, aplastando el cuello del reptil, sientes un dolor agudo en el brazo. Los colmillos han perforando la piel, y el horror se apodera de ti. \n\n Si tienes la expansión «La senda de la serpiente», adquieres el estado <i>Envenenado</i>. \n\n De lo contrario, ganas 3 cartas de estado <i>Estresado</i> (sólo se aplican los efectos de <i>Estresado</i> una vez, incluso si tienes más de una carta de estado). Descarta una sola carta al final de cada ronda. \n\n Descarta esta ficha de Búsqueda.
+TokenSearchKitchenStorageJunk.button1,{action} Buscar
+EventSearchKitchenStorageJunk.text,Nubes de polvo amenazan con sofocarte a medida que empujas a un lado fregonas, cubos, barriles y algo que quizá pueda serte útil para tu investigación ({strength}+{will}).
+EventSearchKitchenStorageJunk.button1,Continuar
+EventSearchKitchenStorageJunkPass.text,Contienes la respiración mientras empujas a un lado la chatarra inútil. Por fin encuentras algo de valor. \n\n Ganas el Objeto común <i>Almádena</i>. A continuación descarta esta ficha de Búsqueda.
+EventSearchKitchenStorageJunkPass.button1,Continuar
+EventSearchKitchenStorageJunkFail.text,El polvo y el peso de los barriles es demasiado. Te tomas un descanso para recuperar el aliento.
+EventSearchKitchenStorageJunkFail.button1,Continuar
+TokenAdditionalSearchHallDesk.text,Un pequeño escritorio cubierto de papeles.
+TokenAdditionalSearchHallDesk.button1,{action} Buscar
+EventSearchDeskHall.text,Los papeles están todos revueltos. Los revisas por encima con rapidez buscando algo de información relevante para tu investigación ({observation}; 2).
+EventSearchDeskHall.button1,Éxito
+EventSearchDeskHall.button2,Fallo
+EventSearchDeskHallPass.text,Das con una página titulada «<i>Horario de alimentación<i>». En ella se enumeran las horas en las que se debe alimentar a la «<i>criatura<i>», seguidas de las partes del cuerpo que se deben servir durante cada alimentación. No puedes quitarte de la cabeza la pregunta de si serán partes humanas. Sufres 1 Horror (anulado por {will}). \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda
+EventSearchDeskHallPass.button1,Continuar
+EventSearchDeskHallFail.text,Le echas un vistazo a las páginas en el escritorio, pero nada parece despertar tu interés.
+EventSearchDeskHallFail.button1,Continuar
+EventAddSearchTokenSecretBedroomStorage.text,Justo cuando la estantería deja de moverse escuchas un clic. Un compartimento secreto queda a la vista en la sala de almacenaje. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+PuzzleSlidePuzzleAfterPriestOfDagonLeaves.button1,Hecho
+EventAddSearchTokenSecretBedroomStorage.button1,Continuar
+TokenSearchSecretBedroomStorage.text,Un compartimiento secreto surge de la pared, pero está cerrado con llave. Quizá puedas forzar la cerradura {observation}.
+TokenSearchSecretBedroomStorage.button1,{action} Intentar
+EventSecretBedroomStorageReward.text,A medida que se abre el compartimiento, tu mente es asaltada por alguna entidad alienígena.\n Adquieres el estado <i>Hipnotizado</i>. \n\n Pero todavía tienes la suficiente compostura como para coger el objeto que hay en el interior. \n Ganas el Objeto común <i>Anillo de la suerte</i>.
+PuzzleSecretBedroomStorageLock.button1,Hecho
+EventSecretBedroomStorageReward.button1,Continuar
+SpawnWatchman.text,De repente, el vigilante que viste en el patio entra en la mansión y mira a su alrededor cargado de arrogancia. \n\n —<i>Estoy seguro de que vi a alguien entrar aquí</i> —anuncia en un tono amenazante. \n\n Al parecer no has sido tan sigiloso como creías. \n\n Coloca el monstruo {c:SpawnWatchman} en el lugar señalado.
+SpawnWatchman.button1,Continuar
+TokenSearchTowerBedroom2.text,El líder de la secta estaba buscando algo en este rincón de la habitación.
+TokenSearchTowerBedroom2.button1,{action} Buscar
+EventSearchTokenTowerBedroom2.text,Eliges una caja al azar y sacas de su interior una brillante piedra que emana un poder arcano. Esto debe de ser lo que buscabas. \n\n Ganas el Objeto común <i>Símbolo arcano</i>. A continuación descarta esta ficha de Búsqueda
+EventSearchTokenTowerBedroom2.button1,Continuar
+EventSearchTowerBedroomElderWard.text,Eliges una caja al azar y sacas de su interior una brillante piedra que emana un poder arcano. Esto debe de ser lo que buscabas. \n\n Ganas el Objeto común <i>Símbolo arcano</i>. A continuación descarta esta ficha de Búsqueda
+EventSearchTowerBedroomElderCreepy.button1,Continuar
+EventSearchTowerBedroom2Skulls.text,Te topas con una caja llena de cráneos humanos, algunos todavía con restos de cuero cabelludo y pelo, y otros en cambio tienen las cuencas de los ojos rellenas con una sustancia viscosa de color rojizo. Sufres 2 de Horror (anulados por {will}). \n\n Ganas 1 Pista {clue}. \n\n A continuación descarta esta ficha de Búsqueda
+EventSearchTowerBedroom2Skulls.button1,Continuar
+SpawnHoundofTindalosWithWatchman.text,Ha traído a su perro de caza consigo. \n\n —<i>¡A por ellos!</i> —le grita el guardián a su mascota.\n\n La criatura husmea el aire y babea al captar el olor de su presa. \n\n Coloca un sabueso de Tíndalos en el lugar señalado.
+SpawnHoundofTindalosWithWatchman.button1,Continuar
+SpawnWitchOnKitchenRevealMultiEnemy.text,Irrumpiendo a través de la puerta, con un furioso clamor tus enemigos siguen tu estela. La criada se da la vuelta, y rápidamente te mira de arriba a abajo. Al darse cuenta de tu inconfundible expresión de miedo dibujada en tu cara, te cierra el paso. \n\n —<i>¡Debes de ser una de nuestras víctimas recientes! Está escapando, ¿verdad? ¡No por mucho tiempo!</i> —chilla. \n\n Descarta la ficha de Personaje y coloca una bruja en el lugar señalado.
+SpawnWitchOnKitchenRevealOneEnemy.text,Irrumpiendo a través de la puerta, con un furioso clamor tus enemigos siguen tu estela. La criada se da la vuelta, y rápidamente te mira de arriba a abajo. Al darse cuenta de tu inconfundible expresión de miedo dibujada en tu cara, te cierra el paso. \n\n —<i>¡Debe de ser una de nuestras víctimas recientes! Está escapando, ¿verdad? ¡No por mucho tiempo!</i> —chilla. \n\n Descarta la ficha de Personaje y coloca una bruja en el lugar señalado.
+SpawnWitchOnKitchenRevealOneEnemy.button1,Continuar
+EventEnteringKitchenNoEnemies.button1,Continuar
+EventOpenDiningToKitchenDoor.button1,Continuar
+EventAddSearchTokenStudyFireplace.text,Esta habitación cuenta con una gran chimenea llena de cenizas y pedazos quemados de papel. A primera vista parece que algunos restos quemados pueden ser parcialmente legibles. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenStudyFireplace.button1,Continuar
+TokenSearchStudyFireplace.text,Vas a tener que ensuciarse las manos, pero la chimenea puede albergar algo de interés.
+TokenSearchStudyFireplace.button1,{action} Buscar
+EventTimeLimit2Players.button1,Continuar
+EventTimeLimitWarning2Players.text,El reloj corre. Temes que el tiempo se esté agotando y con él la esperanza de poder encontrar con vida a Víctor.
+EventTimeLimitWarning2Players.button1,Continuar
+EventTimeLimit2Players.text,De repente, mientras te abres paso a través de la mansión, oyes los gritos agónicos de Víctor procedentes de algún lugar de esta tumba. Segundos después, súbitamente, el terrible sonido cesa. Has llegado demasiado tarde para salvarlo. Desesperado, te clavas de rodillas en el suelo y hundes tu cabeza entre tus manos. \n\n La investigación ha fracasado.
+EventTimeLimit3Players.text,De repente, mientras te abres paso a través de la mansión, oyes los gritos agónicos de Víctor procedentes de algún lugar de esta tumba. Segundos después, súbitamente, el terrible sonido cesa. Has llegado demasiado tarde para salvarlo. Desesperado, te clavas de rodillas en el suelo y hundes tu cabeza entre tus manos. \n\n La investigación ha fracasado.
+EventTimeLimit3Players.button1,Continuar
+EventTimeLimit4Players.text,De repente, mientras te abres paso a través de la mansión, oyes los gritos agónicos de Víctor procedentes de algún lugar de esta tumba. Segundos después, súbitamente, el terrible sonido cesa. Has llegado demasiado tarde para salvarlo. Desesperado, te clavas de rodillas en el suelo y hundes tu cabeza entre tus manos. \n\n La investigación ha fracasado.
+EventTimeLimit4Players.button1,Continuar
+EventTimeLimit5Players.text,De repente, mientras te abres paso a través de la mansión, oyes los gritos agónicos de Víctor procedentes de algún lugar de esta tumba. Segundos después, súbitamente, el terrible sonido cesa. Has llegado demasiado tarde para salvarlo. Desesperado, te clavas de rodillas en el suelo y hundes tu cabeza entre tus manos. \n\n La investigación ha fracasado.
+EventTimeLimit5Players.button1,Continuar
+EventTimeLimitWarning3Players.text,El reloj corre. Temes que el tiempo se esté agotando y con él la esperanza de poder encontrar con vida a Víctor.
+EventTimeLimitWarning3Players.button1,Continuar
+EventTimeLimitWarning4Players.text,El reloj corre. Temes que el tiempo se esté agotando y con él la esperanza de poder encontrar con vida a Víctor.
+EventTimeLimitWarning4Players.button1,Continuar
+EventTimeLimitWarning5Players.text,El reloj corre. Temes que el tiempo se esté agotando y con él la esperanza de poder encontrar con vida a Víctor.
+EventTimeLimitWarning5Players.button1,Continuar
+UISuccessfulEndingText.uitext,A medida que os alejáis en coche, Víctor se gira y se queda mirando \n fijamentela estructura que ha sido brevemente su prisión. \n A pesar de tu oportuno rescate, la horrible experiencia parece que ha dejado \n secuelas en su mente.\n\n — <i>Sé que era lo que tenían planeado... \n me iban a usar como pasto para esa... cosa</i> —murmura en un tono tembloroso—. \n <i>Nunca te lo podré agradecer lo suficiente.</i> \n\n Intentas animarle, pero su gesto sigue siendo grave. \n De repente, Víctor parece recuperar algo de confianza. \n\n —<i>Mi vida tiene que cambiar ahora. Voy a hacer lo que esté \n  en mi poder para detener cualquier otra actividad ocultista en esta ciudad. \n ¿Me ayudarás?</i> \n\n Parece que este es el comienzo de una nueva relación de negocios \n con Víctor. Le entregas las pruebas que has recopilado sobre \n esta casa de los horrores a la policía, pero en las semanas siguientes \n pones en marcha tu propia investigación\n con Víctor como un igual. \n Ya sólo os queda esperar a que comiencen a llegar los casos.
+UIContinueEndGame.uitext,Continuar
+TokenTest.text,Probar el final
+TokenTest.button1,Continuar
+UIIntroContinueText.uitext,Continuar
+UIContinueEndGame.button1,Button1
+UIEndGameFailureText.uitext,Vuestras almas, drenadas de los últimos restos de valor que todavía \n os quedaban, quedan rápidamente subyugadas por los miembros de la secta \n que os arrastran a una mazmorra carente de toda luz y esperanza. \n\n ¿Cómo, después de todo lo que habías conseguido superar,\n habéis podido fallar así a vuestro amigo? Ya da igual. \n Vuestra mente se sumerge en una tranquila apatía,\n aceptando que vais a correr la misma suerte que Víctor. \n\n Nadie os encontrará a tiempo. No le dijisteis a nadie adónde ibais \n y dudáis de que alguien siga las pistas hasta este horrible lugar.\n\n Os echáis al suelo para contemplar \n cuánto tiempo tendréis que esperar para que llegue \n el momento de que os toque ser la cena.
+EventAddBarricades.text,Varios estantes y unas sillas sobrantes arrinconadas en las esquinas de la habitación podrían ser usadas para bloquear las puertas si fuese necesario. \n\n Coloca 2 fichas de Obstrucción en los lugares señalados.
+EventAddBarricades.button1,Continuar
+EventWitchDies2.text,La bruja exhala su último aliento y se disuelve en el aire sin dejar rastro.\n\n Te quedas de piedra al ver como una llave plateada se cae de su bolsillo, desapareciendo ante tus ojos. En lo único que piensas ahora es que puede que sea la llave de la zona de almacenaje de la cocina.
+EventWitchDies2.button1,Continuar
+EventWitchDies3.text,La bruja exhala su último aliento y se disuelve en el aire sin dejar rastro.\n\n Te quedas de piedra al ver como una llave plateada se cae de su bolsillo, desapareciendo ante tus ojos. En lo único que piensas ahora es que puede que sea la llave de la zona de almacenaje de la cocina.
+EventWitchDies3.button1,Continuar
+quest.authors_short,Strategywizard
+EventWarnings.text,Eres consciente de que el peligro acecha a la vuelta de cada esquina, y que sin saber quién podría estar en la casa, sería mejor evitar abrir demasiadas puertas a la vez. No quieres arriesgarte más de lo necesario. \n\n Por otro lado, sabes que el tiempo es crucial. Quizá tengas suficiente tiempo para salvar a tu amigo si te mueves más rápido.
+EventWarnings.button1,Continuar
