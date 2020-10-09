@@ -2,8 +2,8 @@
 quest.name,La última cena
 quest.description,La doctora Joyce Little, profesora de Ciencias Ocultas de la Universidad de Miskatonic en Arkham, te ha invitado a su mansión para una cena con colegas con el fin de compartir un descubrimiento extraordinario que hizo en su último viaje. \n\n\n Partida pensada como introducción para nuevos jugadores.
 TokenCercaTavolino.text,En esta mesa de café están los sobres con las invitaciones que le entregaste al mayordomo anoche. Están cubiertos de polvo.
-TokenCercaTavolino.button1,{qst:Investiga} {action}
-TokenPortaBiliardo.button1,{qst:Apri} {action}
+TokenCercaTavolino.button1,{action} {qst:Investigar}
+TokenPortaBiliardo.button1,{action} {qst:Abrir}
 TokenPortaBiliardo.text,Está habitación se usa para jugar al billar.
 EventApriPortaBiliardo.text,La puerta se abre con un chirrido. Una gran mesa clásica de billar domina el centro de la sala. Un viejo sofá y algunos sillones de cuero colocados junto a las paredes. En un rincón, un pequeño bar aún alberga botellas, probablemente con alcohol. \n\n Coloca el módulo {c:TileSalaBiliardo}.
 EventApriPortaBiliardo.button1,Continuar
@@ -19,7 +19,7 @@ EventTokenSearchPergamena.button1,Continuar
 EventCercaTavolino.text,La reconoces. Entre ellas está la invitación recibida por correo una semana antes. El papel y la escritura son iguales. Aparte de estar cubierta de polvo, la invitación no parece tener marcas del paso del tiempo como el resto de la casa. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
 TokenCercaWhisky.text,A pesar de la prohibición, los estantes están llenos de todo tipo de licores. Aparentemente, la familia de Joyce tiene los contactos para conseguirlos.
 TokenCercaWhisky.button1,{qst:Buscar} {action}
-EventTokenCercaWhisky.text,Entre las botellas encuentras una que contiene whisky de doble malta escocés. 
+EventTokenCercaWhisky.text,Entre las botellas encuentras una que contiene whisky de doble malta escocés.
 EventTokenCercaWhisky.button1,{qst:Coger} {action}
 TokenCarabina.text,Sujeto con unos ganchos, un viejo fusil está colocado sobre el sofá.
 TokenCarabina.button1,{action} Examinar
@@ -31,7 +31,7 @@ EventApriPortaSalotto.button1,Continuar
 EventRimuoviTokenPortaAtrio.text,{qst:Descarta esta ficha de Exploración. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.}
 quest.authors,\n<i>Creado por:</i> Cara Jamte \n\n\n <i>Traducción al español</i>: Vidimus \n
 quest.authors_short,Cara Jamte
-quest.synopsys,Joyce y sus colegas se reúnen para hablar de su último descubrimiento, pero algo no cuadra.
+quest.synopsys,Tu colega Joyce te invita para enseñarte su último descubrimiento, pero algo no cuadra. Escenario introductorio.
 EventStart.text,Accedes al piso superior donde están los dormitorios. Un extraño silencio reina en la casa. Miras alrededor y todo parece haber envejecido. Las paredes están ajadas y desconchadas aquí y allá. La madera de los muebles también está cuarteada y la pintura se ha levantado en varios lugares, mientras que en otros está completamente ausente. Las alfombras están descoloridas. \n\n El aire está saturado de una niebla verdosa que te hace toser cuando tomas la primera bocanada al entrar. No hay rastro de Joyce, la anfitriona ni de tus colegas. Dos puertas cerradas, una a la izquierda y otra a la derecha, conducen al vestíbulo y al estudio respectivamente. \n\n Coloca el módulo {c:TileDisimpegno} y una ficha de Pared en el lugar señalado.
 EventStart.button1,Continuar
 TokenPortaSalaBallo.text,Esta es la puerta del salón de baile, como bien indica una placa desgastada que hay en ella.
@@ -98,16 +98,15 @@ EventPlaceCultists.button1,Continuar
 EventPlaceJoyce.text,Coloca un Sacerdote de Dagón en el lugar señalado. Representa a Joyce Little.
 SpawnCultista0.button1,Continuar
 SpawnFiglioDagon.button1,Continuar
-EventDistruggiStatuina1a.button2,Button2
 SpawnJoyce.button1,Continuar
-TokenStatuina2.button2,Golpear la escultura
+EventScegliArmaDistruggereStatuina.button1,Arma a distancia.
 TokenStatuina2.text,La escultura es lisa y brillante, y parece irradiar un oscuro poder.
-TokenStatuina2.button1,Disparar a la escultura
+TokenStatuina2.button1,Destruir la escultura
 EventProvaSparaStatuina.text,Realiza una prueba de {agility}.
 EventProvaSparaStatuina.button1,Superada
 EventProvaSparaStatuina.button2,Fallo
-EventStatuinaRotta.text,La escultura se hace pedazos. Los fragmentos caen en el altar y puedes sentir como su oscuro poder se disuelve en el éter.
-EventStatuinaRotta.button1,Continuar
+EventStatuinaRotta.text,La estatua se hace pedazos. Los fragmentos caen en el altar y sientes como su poder oscuro se disuelve el éter y tu mente queda liberada.
+EventStatuinaRotta.button1,Continua
 EventFinal.text,Un rugido ensordecedor sacude la habitación. \n\n —<i>¡No! ¡¿Qué ha hecho?!</i>—grita Joyce—.<i> ¡La fuente de mi poder! ¡Perdida para siempre!</i>— el grito de la mujer se convierte en un rugido que se funde con el trueno. \n\n La habitación comienza a temblar y los escombros caen sobre tu cabeza. El cuerpo de la doctora comienza a llenarse de grietas de las cuales sale una luz verde cegadora. Un silbido agudo te perfora los oídos durante unos interminables segundos hasta que Joyce finalmente explota. Te acercas y lo único que queda es un montón de cenizas. Cualquier criatura que estuviese atacando ha sufrido el mismo destino. \n\n La investigación ha terminado.
 EventFinal.button1,Terminar
 EventLeggiDiario.text,La cubierta de cuero está alisada por el paso del tiempo y de los elementos. Las gruesas páginas parecen haber sobrevivido junto con su contenido. Llevar este diario te produce una extraña sensación...
@@ -140,10 +139,7 @@ UIFinalContinueText.uitext,Continuar
 UIFinalTextLose.uitext,Intentáis salir por la puerta, pero la maldita puerta no se abre. Los monstruos se abalanzan sobre vosotros, inmovilizándoos con sus tentáculos, mientras que Joyce Little se acerca a cada uno de vosotros blandiendo una daga ritual. Uno por uno, gritáis de forma agónica mientras la mujer os abre el vientre y os saca las entrañas. \n\n —<i>¡Aliméntate de esta sangre, la sangre vital, la energía de este mundo!</i>— entorna en un salmo mientras os destripa. \n\n Un lamento se eleva y parece venir de las profundidades de la tierra. El suelo comienza a temblar, pero no se os concede el privilegio de ver ver el fin del mundo ya que pronto os engulle el olvido de la inexistencia.
 EventProvaColpisciStatuina.text,Realiza una prueba de ({strength}; 2).
 EventProvaColpisciStatuina.button1,Continuar
-EventStatuinaRotta0.button1,Sí
-EventStatuinaRotta0.button2,No
 EventProvaColpisciStatuinaFallita.button1,Continuar
-EventStatuinaRotta0.text,¿Has superado la prueba?
 EventProvaColpisciStatuinaFallita.text,Tu golpe no ha sido lo suficientemente fuerte. El ídolo permanece intacto.
 TokenPortaStudio.button1,{action} Usar la <i>Llave de oro</i>.
 EventPlacePortaStudio.button1,Continuar
@@ -158,7 +154,7 @@ UIIntroductionContinueText.uitext,Continuar
 UIIntroductionText.uitext,La profesora Joyce Little, profesora de ciencias ocultas de la Universidad de Miskatonic en Arkham y colega vuestra, os ha invitado cenar en la Mansión Little para compartir un extraordinario descubrimiento hecho durante su último viaje. Sin embargo, esa noche os despierta una inexplicable agitación que os priva del sueño. Un silencio antinatural y apagado reina en la casa. Aunque temerosos, abandonáis vuestras habitaciones y decidís investigar más a fondo el asunto.
 UIIntroductionContinueButton.button1,Continuar
 EventSerraturaStudioScassinata.text,Sientes como el mecanismo se mueve con tus manos, guiado por tu excepcional habilidad. Ahora puedes abrir la puerta.
-EventSerraturaStudioScassinata.button1,Continuar
+EventSerraturaStudioScassinata.button1,Continua
 EventPortaStudioSbloccata.button1,Continuar
 EventPortaStudioSbloccata.text,La llave abre la cerraduda sin problemas.
 TokenPortaStudio1.button1,Button1
@@ -218,22 +214,15 @@ EventOttieniWhisky.text,Ganas el Objeto común {c:QItemWhisky}.\n\n Descarta est
 EventOttieniWhisky.button1,Continuar
 EventPlaceStatuina0.button1,Continuar
 EventRimuoviPortaBiliardo.button1,Continuar
-TokenStatuina0.text,La escultura está hecha de un material que te resulta desconocido. Sólo con mirarla, incluso estando de pie junto a ella, te da un mal presentimiento.
-TokenStatuina0.button1,Continuar
 EventReplaceTokenStatuina0.text,Dale la vuelta a esta ficha de Búsqueda.
 EventReplaceTokenStatuina0.button1,Continuar
-TokenStatuina0a.text,La escultura está hecha de un material que te resulta desconocido. Sólo con mirarla, incluso estando de pie junto a ella, te da un mal presentimiento.
 EventPlaceCultists.text,Coloca un sectario en el lugar señalado.
 EventPlaceDagonChild.text,Coloca un Hijo de Dagón en el lugar señalado.
 EventPlaceJoyce.button1,Continuar
 EventPlaceTokenStatuina1.text,Un objeto encima de esta mesa emite un brillo verdoso.
 EventPlaceTokenStatuina1.button1,Continuar
-TokenStatuina1.text,Esta escultura del tamaño de un puño representa a una criatura monstruosa.
-TokenStatuina1.button1,Continuar
 EventCapovolgiStatuina1.text,Dale la vuelta a esta ficha de Búsqueda.
 EventCapovolgiStatuina1.button1,Continuar
-TokenStatuina1a.text,La escultura está hecha de un material que te resulta desconocido. Sólo con mirarla, incluso estando de pie junto a ella, te da un mal presentimiento.
-TokenStatuina1a.button1,{action} Destruir el objeto
 EventPortaSalaBalloChiusa.text,Rodeado por un halo verde, desde detrás de esta puerta se oyen sonidos de cantos y chirridos inquietantes y gritos de criaturas.
 EventPlaceStatuina0.text,En la mesa de café hay una escultura que representa a una criatura grotesca que, sin lugar a dudas, no es de este mundo.
 EventRimuoviPortaBiliardo.text,Descarta esta ficha de Exploración. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
@@ -241,27 +230,36 @@ EventSpawnCultista1.button1,Button1
 EventSpawnCultista0.button1,Button1
 SpawnCultista1.button1,Button1
 EventSpawnDagonChild.button1,Button1
-TokenStatuina0a.button1,{action} Destruir la escultura
 EventPortaSalaBalloChiusa.button1,Continuar
-EventDistruggiStatuina1a.text,Sujetas el objeto con todas tus fuerzas {strength}.
-EventDistruggiStatuina1aSuperata.button1,Continuar
-EventDistruggiStatuina1aFallita.button1,Continuar
-EventDistruggiStatuina0a.button1,Continuar
-EventDistruggiStatuina0aSuperata.text,La estatua se rompe en pedazos.
-EventDistruggiStatuina1aSuperata.text,La escultura se rompe en mil pedazos.
 UIFinalEndButton.button1,FIN
-EventDistruggiStatuina0a.text,Sujetas el objeto con todas tus fuerzas {strength}.
-EventDistruggiStatuina1a.button1,Continuar
 EventRimuoviPortaSalaBallo.text,Descarta esta ficha de Exploración. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
 EventRimuoviPortaSalaBallo.button1,Continuar
-EventDistruggiStatuina0aSuperata.button1,Continuar
-EventDistruggiStatuina01Fallita.text,El objeto no se rompe.
-EventDistruggiStatuina0a.button2,Cancelar
-EventDistruggiStatuina01Fallita.button1,Continuar
 EventStatuinaNonRotta.text,Fallaste el blanco.
-EventDistruggiStatuina1aFallita.text,La escultura no se rompe.
 EventStatuinaNonRotta.button1,Continuar
-EventProvaColpisciStatuina.button2,Button2
+EventProvaColpisciStatuina.button2,Button1
 EventInvestigatoreMorto.button1,Continuar
 EventRimuoviPortaBagno1.text,Descarta esta ficha de Exploración. \n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
 EventRimuoviPortaBagno1.button1,Continuar
+EventMonstersDead.text,Los cadáveres de los monstruos yacen sin vida en el suelo. Ya no pueden amenazarte, pero aún así sientes la energía oscura que viene del artefacto que hay al final de la habitación. Lo escuchas susurrando palabras desconocidas para ti, proyectando en tu mente imágenes sacadas de tus deseos más ocultos. Su influencia está haciendo mella en ti. La única manera de hacer que pare es destruir el artefacto...
+EventMonstersDead.button1,Continuar
+EventScegliArmaDistruggereStatuina.button2,Arma de cuerpo a cuerpo o sin armas
+EventScegliArmaDistruggereStatuina.text,Elije el arma que usarás
+EventCultist1Dead.text,La criatura se derrumba al suelo, exhalando su último aliento. Descarta esta ficha de Monstruo.
+EventChildDagonDead.button1,Continuar
+EventChildDagonDead.text,El cuerpo flácido de esta monstruosidad cae de lado con un sonido húmedo y pesado. Descarta esta ficha de Monstruo.
+EventCultist2Dead.text,La criatura cae al suelo con un sonido sordo, exhalando su último aliento. Descarta esta ficha de Monstruo.
+EventCultist1Dead.button1,Continuar
+EventCultist2Dead.button1,Continuar
+EventJoyceDeadAfterMonsters.button1,Continua
+EventJoyceDeadBeforeMonsters.button1,Continuar
+EventJoyceDeadAfterMonsters.text,Cuando das el golpe fatal, la Dra. Joyce Little se queda completamente rígida y todo se queda en silencio. Sus ojos recorren su cuerpo y se quedan fijos en la herida. A continuación alza sus manos y las posa sobre su verdugo: \n\n —<i>Esto...</i>—los borbotones de sangre ahogan sus palabras—, <i>no será suficiente para detenernos...</i>—su respiración se vuelve pesada—. <i>El durmiente... debe ser despertado...</i>. \n\n Con estas palabras, la que un día fue tu colega cae de rodillas, tratando de resistir la presa de la funesta parca, que reclama su alma. Finalmente su cuerpo cede. Una oscura mancha de sangre se derrama en el suelo alrededor de su cuerpo. \n\n Descarta esta ficha de Monstruo.
+EventMinorMonstersDead.text,Las criaturas en la habitación comienzan a gritar, sosteniendo sus cabezas con las manos. Uno por uno caen de rodillas, mientras que los lazos etéreos que los conectaban al ídolo se retraen lentamente hacia él.
+EventJoyceDeadBeforeMonsters.text,Cuando das el golpe fatal, la Dra. Joyce Little se queda completamente rígida y todo se queda en silencio. Sus ojos recorren su cuerpo y se quedan fijos en la herida. A continuación alza sus manos y las posa sobre su verdugo: \n\n —<i>Esto...</i>—los borbotones de sangre ahogan sus palabras—, <i>no será suficiente para detenernos...</i>—su respiración se vuelve pesada—. <i>El durmiente... debe ser despertado...</i>. \n\n Con estas palabras, la que un día fue tu colega cae de rodillas, tratando de resistir la presa de la funesta parca, que reclama su alma. Finalmente su cuerpo cede. Una oscura mancha de sangre se derrama en el suelo alrededor de su cuerpo.\n\n Descarta esta ficha de Monstruo.
+EventMinorMonstersDead.button1,Continuar
+EventProvaVolontDistruggiStatuina.text,Realiza una prueba de {will}.
+EventProvaVolontDistruggiStatuina.button1,Continuar
+EventProvaVolontDistruggiStatuinaSuperata.text,El poder de atracción del ídolo es poderoso, pero tu fuerza de voluntad lo es más.
+EventProvaVolontDistruggiStatuinaSuperata.button1,Continuar
+EventProvaVolontDistruggiStatuina.button2,Pulsante2
+EventProvaVolontDistruggiStatuinaFallita.text,A pesar de todos tus esfuerzos, te resulta imposible poner las manos encima de la escultura. Te ves obligado a alejarte. Mueve a tu investigador un espacio alejándote del ídolo.
+EventProvaVolontDistruggiStatuinaFallita.button1,Continuar
