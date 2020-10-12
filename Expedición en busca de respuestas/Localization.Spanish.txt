@@ -1,0 +1,782 @@
+.,Spanish
+quest.name,Expedición en busca de Respuestas
+quest.description,<b>[IMPORTANTE]</b> \n\n Este escenario es la secuela de «Expedición en busca del Horror», \n por lo que es aconsejable jugar previamente a ese escenario para una mejor experiencia. \n\n La Fase de Mitos está personalizada y \n contiene eventos aleatorios para aumentar la rejugabilidad. \n\n Si durante la aventura adquieres una carta de estado «Loco» \n que requiera Fuego, descártala y roba otra carta. \n\n ---------- \n\n Llevas la reliquia que encontraste en el templo de Brasil a la Universidad de Miskatonic en Arkham, con la esperanza de que alguno de tus colegas de la facultad pueda ayudarte a desentrañar los misterios que encierra.
+UIIntroContinueButton.button1,Continuar
+UIIntroContinueButton.uitext,Continuar
+EventClueTokensStart.text,Cada investigador comienza el escenario con 1 Pista {clue} \n\n Debido a los traumas físicos y psicológicos sufridos por los eventos transcurridos durante «Expedición en busca del Horror», cada investigador comienza el juego con: \n\n 2 de Horror boca arriba. \n o \n 2 de Daño boca arriba. \n o \n 1 de Horror y 1 de Daño boca arriba. \n\n Afortunadamente, las experiencias vividas también te ayudaron a perfeccionar tus habilidades. Cada investigador mejora 1 Habilidad de su elección. \n\n ** <b>Nota: no puedes soltar o descartar el Calendario sideral voluntariamente a menos que el escenario te indique específicamente que lo hagas. Si un efecto te hiciera soltar el Calendario sideral, en su lugar, sufres 1 de Daño boca abajo</b>.
+EventClueTokensStart.button1,Continuar
+quest.synopsys,[SECUELA] Llevas la reliquia a la Universidad de Miskatonic en busca de respuestas.
+quest.authors,\n\n <i>Creado por:</i> Strategywizard \n\n <i>Traducción al español:</i> T.García \n <i>Revisión:</i> Vidimus \n\n
+quest.authors_short,Strategywizard
+UIIntroText.uitext,Desde que escapaste del templo y regresaste de la peligrosa selva \n con el artefacto en tu poder, has evitado manipularlo \n por temor a abrir un portal hacia alguna horrible dimensión. \n Percibes que la energía del Calendario sideral ha aumentado \n recientemente, por lo que finalmente has decidido mostrar la reliquia \n a tu buen amigo y colega, Eugene Clemens, \n decano de la universidad de Miskatonic. \n Quizá él pueda arrojar algo de luz sobre su misteriosa naturaleza. \n\n Poco después de tu regreso a Arkham, \n empezaste a oír rumores de que la reliquia que \n buscaba el Culto del Ojo Verde había sido encontrada. \n Su poderosa influencia se ha extendido rápidamente por toda \n la ciudad y sabes que debes ocultarla a toda costa, \n pero, lamentablemente, no sabes de quién te puedes fiar. \n Seguramente matarán sin contemplación a cualquiera que se cruce \n en su camino con tal de hacerse con el preciado obsequio. \n\n Eugene sabe que irás a reunirte con él en breve, \n pero fuiste precavido al no darle detalles concretos de tu visita. \n\n Conduciendo velozmente por las oscuras y sinuosas calles, \n sientes como si cada persona te acechara en las sombras. \n ¿Sabrán que llevas el artefacto que tan desesperadamente buscan? \n Rezas para que tu identidad pase desapercibida y para que \n Eugene pueda ayudarte. Sin embargo, también él podría haber \n caído bajo el influjo de la secta. Si así fuera, deberías poder encontrar \n a alguien más dentro de la universidad digno de tu confianza.
+EventPlaceYardTiles.text,Después de aparcar tu coche, te acercas lentamente a uno de los edificios más pequeños del recinto universitario. Aquí se encuentra la oficina del decano, donde te espera Eugene Clemens. Te aseguraste de llegar temprano para dedicar algo de tiempo a investigar el lugar antes de confiarle directamente el Calendario sideral. \n Esperas encontrarte aquí más amigos de la facultad. \n\n No puedes evitar la tentación de estar constantemente atento a cualquier movimiento en las sombras y, de repente, una figura vestida con túnica sale del edificio y pasa a toda prisa por delante de ti. Vislumbras un emblema, parecido a un ojo verde, colgando de su cinturón. Presupones que el Culto del Ojo Verde ha logrado difundir su corrupción por la Universidad de Miskatonic. Por el momento, pensando que es mejor no levantar sospechas, decides no contar nada a nadie. Sabes que tendrás que ser extremadamente cauteloso. Tal vez de esta manera puedas encontrar a alguien de tu confianza. \n\n Al acercarte a la puerta, analizas por última vez la zona antes de entrar al edificio. \n\n Coloca el módulo {c:TileFrontYard}, el módulo {c:TileLibraryYard} y las miniaturas de los investigadores en los lugares señalados.
+EventPlaceYardTiles.button1,Continuar
+EventAddSearchTokensYard.text,Ves restos de papel quemado en el brasero de tu izquierda. Algunos de los trozos parecen lo suficientemente grandes como para que aún se pueda leer algo. \n\n A la derecha, observas una mesa con varios objetos. Quizá puedas encontrar algo útil. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
+EventAddSearchTokensYard.button1,Continuar
+EventAddExploreTokensYard.text,Dos entradas conducen al interior. \n La puerta de la izquierda es la entrada principal, mientras que la puerta de la derecha es la entrada de la biblioteca. \n\n Coloca 2 Fichas de Exploración en los lugares señalados.
+EventAddExploreTokensYard.button1,Continuar
+TokenSearchFirePit.text,Aún quedan algunos trozos de papel sin quemar en el brasero.
+TokenSearchFirePit.button1,{action} Buscar
+EventSearchFirePit.text,Encuentras varios trozos de papel quemado que son ilegibles, pero si rebuscas a conciencia quizá puedas encontrar algo que valga la pena ({observation}).
+EventSearchFirePit.button1,Continuar
+EventFirePitFail.text,Apartas algunos trozos de papel chamuscado sin valor pero no encuentras nada interesante entre las cenizas. \n\n Descarta esta Ficha de Búsqueda.
+EventFirePitFail.button1,Continuar
+EventFirePitMedium.text,Apartas algunos trozos de papel chamuscado sin valor y encuentras algunas partes de un artículo de periódico donde se menciona al Culto del Ojo Verde. El informe detalla la creciente influencia de esta secta por toda Arkham. Además, señala que el culto permanece libre de delitos demostrables y que la gente debe tratarlos en consecuencia. Te preguntas si el periódico en sí ya ha sido corrompido por miembros de la secta. \n\n Conoces los rumores. Secuestros, sacrificios humanos y magia oscura han sido relacionados con este enigmático culto. Pero hasta que no aparezcan pruebas sólidas, estos actos no cesarán. \n Esperas que no sea demasiado tarde y que su creciente influencia no se haya extendido ya por toda la Universidad de Miskatonic. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventFirePitMedium.button1,Continuar
+EventFirePitBest.text,Apartas algunos trozos de papel chamuscado sin valor y encuentras los restos de un pergamino con la insignia del Culto del Ojo Verde. También observas un texto apenas legible que hace referencia a la Universidad de Miskatonic. ¿Es posible que haya una conexión entre la macabra secta y este respetado establecimiento académico? \n\n Sufres 1 de Horror (anulado por {will}). \n\n Conoces los rumores. Secuestros, sacrificios humanos y magia oscura han sido relacionados con este enigmático culto. Pero hasta que no aparezcan pruebas sólidas, estos actos no cesarán. \n Esperas que no sea demasiado tarde y que su creciente influencia no se haya extendido ya por toda la Universidad de Miskatonic. \n\n Todos los investigadores ganan 1 Pista {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventFirePitBest.button1,Continuar
+TokenSearchYardTable.text,Hay varios objetos encima la mesa. Quizá encuentres algo útil para tu investigación.
+TokenSearchYardTable.button1,{action} Buscar
+EventSearchYardTable1.text,Al mirar por encima de la mesa, una vasta pieza de metal llama tu atención. Una herramienta poderosa como esta podría ser de gran ayuda durante tu visita. \n\n Ganas el Objeto Común Palanca. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchYardTable1.button1,Continuar
+EventSearchYardTable2.text,La hoja brillante de una daga resplandece a la luz de la luna. La coges y observas que tiene unas extrañas runas grabadas en la empuñadura. \n ¿Qué hace esta extraña daga en un lugar como éste? \n\n Ganas el Objeto Común Daga ritual y 1 Pista {clue}
+EventSearchYardTable2.button1,Continuar
+EventSearchYardTable3.text,Una pequeña caja luce fuera de lugar encima de la mesa. Te resulta bastante misteriosa aunque parece estar cerrada. \n ¿Por qué estará aquí? Quizá contenga algún objeto que alguien quiso ocultar. \n\n Ganas el Objeto Único Caja enigmática. \n A continuación, descarta esta Ficha de Búsqueda. \n\n El investigador que posea la Caja enigmática puede interactuar con ella mediante la aplicación.
+EventSearchYardTable3.button1,Continuar
+EventPuzzleBoxInteraction.text,La cerradura requiere conocimientos sobre runas antiguas. \n Puedes intentar resolver el rompecabezas utilizando ({lore}).
+EventPuzzleBoxInteraction.button1,{action} Resolver
+EventOpenPuzzleBox.text,La caja se abre con un clic, revelando su interior. Encuentras un elixir, muy parecido al que te dieron los lugareños durante tu expedición en busca del Calendario sideral. \n ¿Podría ser que alguien más hubiera estado allí al mismo tiempo que tú y regresara con una de esas mismas pociones? \n Quizá llegaste justo a tiempo a ese templo maldito para mantener el artefacto alejado de las manos del mal. \n\n Ganas un Elixir y el Objeto Único Prueba incriminatoria.
+PuzzleBox.button1,Resolver
+EventOpenPuzzleBox.button1,Continuar
+EventMove1Space.button1,Continuar
+EventMove1Space.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventPuzzleBoxInteraction.button2,Cancelar
+TokenExploreEntranceRight.text,Esta es la entrada a la pequeña biblioteca del edificio del decano.
+TokenExploreEntranceRight.button1,{action} Explorar
+EventDoctorInnocent.button1,Continuar
+EventDeanInnocent.button1,Continuar
+EventLibrarianInnocent.button1,Continuar
+EventEnterLibrary.button1,Continuar
+EventProfessorInnocent.button1,Continuar
+TokenExploreEntranceLeft.text,Esta puerta conduce a la entrada principal del edificio del decano.
+EventAddLibrarySearchTokenLeft.button1,Continuar
+EventAddLibrarySearchTokenMiddle.text,Podría valer la pena echar un vistazo a la literatura o los manuscritos que hay en los estantes, después de todo esto es una biblioteca. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddLibrarySearchTokenLeft.text,Observas algunos lugares de interés donde buscar pistas. \n\n Un pequeño escritorio frente a ti está lleno de libros que podrían ser interesantes. Uno de ellos se titula «<i>Antiguas tribus de Brasil</i>» \n ¿No es mucha coincidencia que alguien esté interesado en este libro después de tu regreso de la expedición? \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddLibrarySearchTokenMiddle.button1,Continuar
+EventAddLibrarySearchTokenRight.text,Una pila de papeles está esparcida por el suelo en el otro extremo de la biblioteca. \n\n Coloca un Ficha de Búsqueda en el lugar señalado.
+EventAddLibrarySearchTokenRight.button1,Continuar
+EventAddLibrarian.button1,Continuar
+EventAddExploreTokenLibraryToEntryHall.text,Una puerta a tu izquierda conduce al vestíbulo de la entrada principal del edificio. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddLibrarian.text,Observas a uno de tus antiguos compañeros de la facultad, Howard Bechman. Está examinando unos documentos con tanta atención que ni siquiera aparta la vista de ellos cuando abres la puerta. \n\n Coloca una Ficha de Personaje en el lugar señalado. Este es Howard Bechman, el bibliotecario jefe.
+EventAddExploreTokenLibraryToEntryHall.button1,Continuar
+TokenExploreHallToLibrary.text,Esta puerta conduce a la pequeña biblioteca del edificio del decano.
+TokenExploreHallToLibrary.button1,{action} Explorar
+EventEnterLibrary.text,El olor a libros viejos y polvorientos es inconfundible. Como era de esperar, ves una sala llena de estantes llenos de todo tipo de libros y manuscritos. Sin embargo, para tu sorpresa, ves que la biblioteca está muy desordenada. Hay papeles y libros esparcidos por toda la habitación. Alguien debe haber estado investigando intensamente para justificar tal desbarajuste. \n\n Coloca el módulo {c:TileLibrary} y una Ficha de Pared en los lugares señalados.
+TokenExploreEntranceLeft.button1,{action} Explorar
+EventEnterEntryHall.text,El vestíbulo de entrada está limpio, ordenado y es acogedor, con tu reflejo casi visible sobre el piso de baldosas recién pulidas. Sin embargo, un inquietante silencio llena la habitación, únicamente interrumpido por el eco de tus pasos resonando entre las envejecidas paredes. \n\n Coloca el módulo {c:TileUniversityEntrance} en el lugar señalado.
+EventEnterEntryHall.button1,Continuar
+EventAddSearchTokenEntryHall.text,Hay un papel sobre un pequeño escritorio situado en el lado izquierdo del pasillo. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenEntryHall.button1,Continuar
+EventAddExploreTokenHallToBathroomLobby.button1,Continuar
+EventAddExploreTokenHallToLargeClass.text,Esta puerta tiene una placa que pone «Aula 101». \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenHallToBathroomLobby.text,Esta puerta tiene una placa que pone «Aseo». \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenHallToLargeClass.button1,Continuar
+EventAddExploreTokenHallToDean.text,La puerta al final del pasillo tiene una placa dorada que pone «Oficina del decano». \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenHallToDean.button1,Continuar
+EventAddExploreTokenHallToMedOffice.text,Esta puerta tiene una placa que pone «Consultorio Médico». \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenHallToMedOffice.button1,Continuar
+EventAddExploreTokenHallToLibrary.text,Esta puerta tiene una placa que pone «Biblioteca». \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenHallToLibrary.button1,Continuar
+TokenExploreLibraryToHall.text,Esta puerta conduce a la entrada principal del edificio.
+TokenExploreLibraryToHall.button1,Continuar
+TokenSearchLibraryLeft.text,Un libro titulado <i>«Antiguas tribus de Brasil»</i> ha sido sacado de su estante y está sobre el escritorio.
+TokenSearchLibraryLeft.button1,{action} Buscar
+EventLibraryBookBrazil.text,Examinas el libro con la esperanza de encontrar algunas pistas entre sus páginas ({observation}).
+EventLibraryBookBrazil.button1,Continuar
+EventBrazilianBookFail.text,Hojeas algunas páginas, pero no encuentras nada de interés.
+EventBrazilianBookFail.button1,Continuar
+EventBrazilianBookPass.text,Al hojear el libro, ves un marcador en una de las páginas posteriores. En ella se relata una peculiar leyenda sobre un templo en lo profundo de la selva que las tribus antiguas creían que estaba conectado dimensionalmente a un perverso mundo lleno de horrores sobrenaturales. Sin duda, se refiere al templo donde encontraste el Calendario sideral. Claramente, alguien ha estado aquí indagando sobre esta reliquia por su cuenta, y sabes que no simpatizará con tus intenciones. \n\n Ganas 2 Pistas {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventBrazilianBookPass.button1,Continuar
+TokenSearchLibraryMiddle.text,Podría haber algo interesante entre tantos libros y páginas sueltas de manuscritos.
+TokenSearchLibraryMiddle.button1,{action} Buscar
+EventSearchLibraryShelves.text,Te tomaría horas leer todos los textos que tienes ante ti, pero tal vez puedas encontrar algo útil si sabes qué buscar ({lore}).
+EventSearchLibraryShelves.button1,Continuar
+EventSearchLibraryShelvesFail.button1,Continuar
+EventSearchLibraryShelvesMedium.text,Puede que no seas el mejor en este campo, pero sabes algo sobre literatura antigua. Encuentras un libro que te parece especialmente macabro como para que esté en una biblioteca académica. Sin embargo, esta es la conocida Universidad de Miskatonic, por lo que tampoco te sorprende demasiado. \n\n Ganas el Objeto Común Tomo de los Horrores. \n A continuación, descarta esta Ficha de Búsqueda.
+EventSearchLibraryShelvesFail.text,Buscas entre el montón de libros pero ninguno de ellos te hace más sabio.
+EventSearchLibraryShelvesMedium.button1,Continuar
+EventSearchLibraryShelvesPass.text,Tus estudios sobre magia arcana han valido la pena. Encuentras una página desgastada, suelta de la encuadernación y cubierta de extraños símbolos. Reconoces un hechizo oculto, y que además puede ser muy peligroso. ¿Es posible que el la secta del Culto del Ojo Verde esté escondiendo conocimientos de magia oscura en esta biblioteca? \n\n Ganas el Hechizo {c:QItemAttackSpell} y 1 Pista {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventSearchLibraryShelvesPass.button1,Continuar
+TokenSearchLibraryRight.text,Varios papeles están esparcidos por el suelo cerca de Howard Bechman. Parecen haber sido sacados de una carpeta cercana con el nombre de «<i>Howard</i>», por lo que deben ser sus notas personales. Probablemente no querrá que los husmees, así que tendrás que hacerlo con sumo cuidado si quieres obtener algo de información de estos documentos.
+TokenSearchLibraryRight.button1,{action} Buscar
+EventLibraryPapersGuiltyEvidence.text,Howard Bechman está concentrado en el libro que está leyendo, por lo que es posible que tengas una buena oportunidad de obtener algunos detalles de sus notas ({observation}).
+EventLibraryPapersGuiltyEvidence.button1,Continuar
+EventLibraryPapersNoEvidence.button1,Continuar
+EventLibraryPapersGuiltyEvidenceFail.text,Cuando empiezas a analizar las páginas, te olvidas de Howard. Éste, al darse cuenta de que estás mirando sus notas, las recoge del suelo y las guarda de nuevo en su carpeta. \n\n Mirándote con sospecha, sarcásticamente comenta: \n\n —<i>Estas son mis notas personales. ¿Intentaba husmear en ellas?</i> \n\n Intentas tranquilizarlo, haciéndole saber que no tenías malas intenciones. Pero no parece muy dispuesto a creerte ({influence}).
+EventLibraryPapersGuiltyEvidenceFail.button1,Continuar
+EventConvinceLibrarianFail.text,Tus palabras no convencen a Howard Bechman en absoluto y, sacando una larga lengua bífida te grita: \n\n —<i>¡Cómo te atreves! ¡Podrás buscar conocimientos sobre el Culto del Ojo Verde, pero nunca obtendrás ninguna información de mí!</i> El bibliotecario sale rápidamente del edificio, siseando mientras huye. \n\n Quedas atónito ante el suceso que acabas de presenciar. \n\n Sufres 2 de Horror (anulados por {will}) y ganas 2 Pistas {clue}. \n A continuación, descarta la ficha de Howard Bechman y esta Ficha de Búsqueda.
+EventConvinceLibrarianFail.button1,Continuar
+EventConvinceLibrarianPass.text,Tus palabras resultan convincentes y Howard estalla en carcajadas. \n\n —<i>¿Cómo pude haber dudado de usted, dada nuestra larga amistad? Gracias por ayudarme con mis papeles, y perdóneme por cuestionarle de esta manera.</i> \n\n Howard vuelve a centrarse en los documentos que estaba leyendo con tanta atención. Sin embargo, durante su ataque de risa, pudiste observar una lengua bífida igual a la de las de serpientes agitándose en su boca. \n Puede que te hayas ganado su confianza, pero él ha perdido la tuya por completo. \n\n Sufres 1 de Horror (anulado por {will}) y ganas 2 Pistas {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventConvinceLibrarianPass.button1,Continuar
+EventLibraryPapersGuiltyEvidencePass.text,Te las arreglas para vigilar a Howard Bechman mientras revisas sus notas. Sorprendentemente, encuentras referencias a su pertenencia al Culto del Ojo Verde. Por lo que parece, el culto le asignó la tarea de investigar sobre el Calendario sideral. \n Para nada hubieras imaginado que Howard pudiera estar implicado en esta secta. Al menos ahora sabes que no puedes confiar en él. \n\n Ganas 2 Pistas y el Objeto Único Prueba circunstancial. \n A continuación, descarta esta Ficha de Búsqueda.
+EventLibraryPapersGuiltyEvidencePass.button1,Continuar
+EventLibraryPapersInnocentTestFail.text,Mientras hojeas las páginas, tu curiosidad delata la dirección de tu mirada. Howard se da cuenta y amablemente recoge las páginas del suelo y las vuelve a colocar en su carpeta. \n\n —<i>Lo siento, pero estas son mis notas personales de investigación</i> —comenta con voz tranquila—. <i>Aunque sea un amigo, debo mantener todo esto en privado por ahora. Mis descubrimientos me han llevado a revelaciones inesperadas, y quiero llegar a sus conclusiones antes de compartir o publicar mis hallazgos. Estoy seguro que lo entiende</i>. \n\n Ganas 1 Pista {clue}. A continuación descarta esta Ficha de Búsqueda.
+EventLibraryPapersInnocentTestFail.button1,Continuar
+EventLibraryPapersInnocentTestPass.text,Con buen ojo, logras vigilar a Howard al tiempo que analizas las páginas a fondo. \n\n Las páginas detallan su investigación sobre el Calendario sideral, aunque se refiere a él como el «Artefacto Dimensional». Sus notas afirman que puede ser de origen sobrenatural. Esto explicaría las extrañas constelaciones grabadas en su superficie y que son sospechosamente diferentes a cualquier constelación conocida que se pueda observar desde la Tierra. \n\n Ganas 1 Pista {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventLibraryPapersInnocentTestPass.button1,Continuar
+TokenLibrarian.text,Su amigo, Howard Bechman, ha sido el bibliotecario jefe de la Universidad de Miskatonic durante muchos años. Aunque quisieras confiar en él, los recientes acontecimientos han obligado a cuestionarte la lealtad de tus conocidos. \n\n En este momento, está especialmente concentrado en el papel que tiene en sus manos. \n\n Un investigador que posea el Calendario sideral podría revelárselo a Howard si lo considera digno de confianza.
+TokenLibrarian.button1,{action} Hablar
+EventSpeakToLibrarian.text,Aclarándote educadamente la garganta, atraes la atención de Howard. Una gran sonrisa se dibuja en su rostro y exclama: \n\n —<i>¡Ah, ha pasado mucho tiempo! Qué bueno verle de nuevo. Se rumorea que ha estado en un viaje por Brasil recientemente. ¿Es así?</i> \n\n Le relatas mínimamente algunos detalles de tu viaje y, a propósito, evitas mencionar el Calendario sideral o tu descubrimiento del templo que lo albergaba. \n\n —<i>Bueno, qué coincidencia. Últimamente he estado investigando sobre una extraña reliquia que se dice que reside en las profundidades de la jungla brasileña. Sospecho que debe de haberla estado buscando usted mismo, pero esconde bien sus cartas, así que no puedo culparle de nada. Sepa que los miembros del Culto del Ojo Verde podrían estar en cualquier parte,</i> —susurra—. \n\n Asientes comprensivamente y, después de decirle a Howard Bechman que estás aquí para reunirte con el decano Clemens, te desea lo mejor y regresa a su lectura. \n\n Ganas 1 Pista {clue}
+EventSpeakToLibrarian.button1,Continuar
+TokenLibrarian2.text,Howard Bechman continúa centrado en su investigación. \n\n Un investigador que posea el Calendario sideral puede revelárselo si cree que es digno de confianza.
+TokenLibrarian2.button1,{action} Revelar el Calendario sideral
+TokenSearchEntryHallTable.text,Una lista de registro de las entradas y salidas de los miembros del personal descansa sobre el pequeño escritorio del vestíbulo.
+TokenSearchEntryHallTable.button1,{action} Buscar
+EventReadSignInList.text,Ves que todavía quedan 4 personas registradas en el edificio a estas horas: \n el decano Eugene Clemens, el bibliotecario jefe Howard Bechman, la Dra. Rose Barnett y el Profesor Smith. \n Eres un buen amigo de todos ellos y cualquiera de ellos podría ayudarte a encontrar respuestas sobre el Calendario sideral. Sin embargo, sospechas que alguno de ellos puede haber sido ya corrompido y convertido en miembro de la secta. \n\n Tu objetivo es encontrar un aliado de confianza y mostrarle el Calendario sideral. \n\n Nota: No todas las pruebas estarán en el mismo lugar en cada partida de este escenario. Debes buscar evidencias de culpabilidad sobre los miembros de personal corruptos (en caso de que los haya), pero es posible que pierdas alguna pista crucial, dejándote con menos pruebas de las que necesitas para llegar a una conclusión acertada. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventReadSignInList.button1,Continuar
+TokenExploreHallToBathroomLobby.text,Esta puerta conduce al baño.
+TokenExploreHallToBathroomLobby.button1,{action} Explorar
+EventEnterBathroomLobby.text,Fuera del baño hay una pequeña sala de espera. Es bastante simple, con una silla de cuero y un pequeño escritorio. \n\n Coloca el módulo {c:TileBathroom} y una Ficha de Pared en los lugares señalados.
+EventEnterBathroomLobby.button1,Continuar
+EventAddSearchTokenBathroomLobby.text,El cajón del escritorio está ligeramente abierto. Quizá haya algo útil en su interior. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenBathroomLobby.button1,Continuar
+EventAddExploreTokenLobbyToBathroom.button1,Continuar
+EventSearchDeskBathroomLobby1.text,Al abrir el cajón un poco más, ves una pequeña cruz. Encontrarla te reconforta y te hace pensar que aún quedan personas en este mundo deseosas de combatir el mal en todas sus formas. \n\n Ganas el Objeto Común Cruz sagrada y adquieres el estado Virtuoso. A continuación, descarta esta Ficha de Búsqueda.
+TokenExploreLobbyToBathroom.text,Fuera del baño hay una pequeña sala de espera. Es bastante simple, con una silla de cuero y un pequeño escritorio. \n\n Coloca el módulo {c:TileBathroom} y una Ficha de Pared en los lugares señalados.
+TokenExploreLobbyToBathroom.button1,{action} Explorar
+TokenSearchBathroomLobbyDesk.text,El cajón del escritorio está ligeramente abierto.
+TokenSearchBathroomLobbyDesk.button1,{action} Buscar
+EventSearchDeskBathroomLobby1.button1,Continuar
+EventSearchDeskBathroomLobby2.text,Al abrir el cajón un poco más, ves una botella con agua bendita. Encontrarla te reconforta y te hace pensar que aún quedan personas en este mundo deseosas de combatir el mal en todas sus formas. \n\n Ganas el Objeto Común Agua bendita y adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
+EventAddExploreTokenLobbyToBathroom.text,La puerta del baño está en el lado opuesto de la sala de espera. Coloca una Ficha de Exploración en el lugar señalado.
+EventSearchDeskBathroomLobby2.button1,Continuar
+EventEnterBathroom.text,El pequeño baño está bien mantenido. Estás francamente impresionado con la limpieza, salvo por algunas manchas que hay en el espejo.
+EventEnterBathroom.button1,Continuar
+EventAddSearchTokenBathroomMirror.text,Mirando más de cerca, tal vez no sean simples manchas. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenBathroomMirror.button1,Continuar
+EventAddSearchTokenBathroomDrawers.text,Un grupo de cajones en el tocador pueden contener algo útil. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenBathroomDrawers.button1,Continuar
+TokenLibrarian.button2,{action} Revelar el Calendario sideral
+TokenSearchBathroomDrawers.text,Seguro que en estos cajones puedes encontrar algo útil.
+TokenSearchBathroomDrawers.button1,{action} Buscar
+EventSearchBathroomDrawersItem1.text,Recuperando la compostura después del horrible flashback, regresas a tu búsqueda entre los cajones y te topas con un frasco con un extraño fluido. \n\n Ganas el Objeto Común Estimulante mental. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchBathroomDrawersItem1.button1,Continuar
+EventSearchBathroomDrawersItem2.text,Recuperando la compostura después del horrible flashback, regresas a tu búsqueda entre los cajones y te topas con un frasco con un extraño fluido. \n\n Ganas el Objeto Común Suero potenciador. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchBathroomDrawersItem2.button1,Continuar
+EventSearchBathroomDrawersItem3.text,Recuperando la compostura después del horrible flashback, regresas a tu búsqueda entre los cajones y te topas con un frasco con un extraño fluido. \n\n Ganas el Objeto Común Poción lunar. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchBathroomDrawersItem3.button1,Continuar
+EventSearchBathroomDrawersItem4.text,Recuperando la compostura después del horrible flashback, regresas a tu búsqueda entre los cajones y te topas con un frasco con un extraño fluido. \n\n Ganas el Objeto Común Fórmula mutagénica. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchBathroomDrawersItem4.button1,Continuar
+EventSearchBathroomDrawersItem5.text,Recuperando la compostura después del horrible flashback, regresas a tu búsqueda entre los cajones y te topas con un frasco con un extraño fluido. \n\n Ganas el Objeto Común Extracto ocular. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchBathroomDrawersItem5.button1,Continuar
+TokenSearchBathroomMirror.text,Al acercarte al espejo, lo que pensabas que eran simples manchas, en realidad parecen ser borrones intangibles en el reflejo del espejo. Te recuerda a las distorsiones visuales que presenciaste durante tu reciente expedición.
+TokenSearchBathroomMirror.button1,{action} Tocar el Espejo
+EventApproachMirror.text,Justo antes de que tus dedos rocen tu reflejo, aparece una visión en el espejo. \n Ves a la Dra. Rose Barnett dibujando algo en el cráneo del esqueleto humano de demostración que se encuentra en la pequeña sala de reuniones, al lado de la oficina del decano. La visión te sorprende, pero por inexplicable que parezca, aunque no puedas estar seguro de que sea completamente real, sabes que podría valer la pena investigar allí. \n\n Ganas 2 Pistas {clue}
+EventApproachMirror.button1,Continuar
+EventTouchMirror.button1,Continuar
+EventAddSkeletonSearchTokenIfSmallClassRevealed.text,El falso esqueleto de demostración está exactamente donde la visión te mostró. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSkeletonSearchTokenIfSmallClassRevealed.button1,Continuar
+EventFinallyTouchMirrorAfterVision.text,A medida que la visión se disipa, tus dedos rozan el espejo. \n Está frío al tacto y los vellos de tu brazo comienzan a erizarse.
+EventFinallyTouchMirrorAfterVision.button1,Continuar
+EventTouchMirror.text,El espejo está frío al tacto y los vellos de tu brazo comienzan a erizarse.
+EventTouchMirror1.text,Tocas el espejo por un instante y tu dedo se hunde en un líquido plateado donde antes estaba el cristal del espejo. Un silbido resuena en la habitación y cada vez va haciéndose más fuerte, como si algo se acercara desde el otro lado del espejo.
+EventTouchMirror1.button1,Continuar
+SpawnFlyingSerpentMirror.button1,Continuar
+EventAddSearchTokenSkeleton.text,Ves un falso esqueleto de demostración cerca del atril. Al recordar la visión de la Dra. Barnett, sabes que podría ser buena idea mirar dentro de su cráneo. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+TokenLockedBathroomDoor.text,La puerta está protegida por un extraño campo de energía y no se puede abrir.
+TokenLockedBathroomDoor.button1,Continuar
+EventTouchMirror2.text,En el lugar donde debía estar tu reflejo, se muestra otra entidad. Quiere comunicarse contigo de forma inaudible a través de tu mente e intenta convencerte de que eres otra persona totalmente diferente. Razonas con el reflejo, tratando de fundamentarte en la realidad ({influence}; 2).
+EventTouchMirror2.button1,Superas la prueba
+EventTouchMirror2.button2,Fallas la prueba
+EventApparitionMirrorPass.text,Sobreponiéndote a los ridículos argumentos de la aparición, tu determinación se fortalece. Adquieres el estado Concentrado. \n\n A continuación, descarta esta Ficha de Búsqueda.
+EventApparitionMirrorPass.button1,Continuar
+EventApparitionMirrorFailBTT.text,Luchas mentalmente contra la persuasión del reflejo pero la confianza en tu razonamiento empieza a menguar. \n\n Adquieres el estado Hipnotizado y sufres 2 de Horror boca abajo. \n A continuación, descarta esta Ficha de Búsqueda.
+EventApparitionMirrorFailBTT.button1,Continuar
+EventApparitionMirrorFailTwilight.text,Luchas mentalmente contra la persuasión del reflejo pero la confianza en tu razonamiento empieza a menguar. \n\n Termina tu turno inmediatamente y sufres 2 de Horror boca abajo. \n A continuación, descarta esta Ficha de Búsqueda.
+EventApparitionMirrorFailTwilight.button1,Continuar
+EventApparitionMirrorFail.text,Luchas mentalmente contra la persuasión del reflejo pero la confianza en tu razonamiento empieza a menguar. \n\n Sufres 3 de Horror. A continuación, descarta esta Ficha de Búsqueda.
+EventApparitionMirrorFail.button1,Continuar
+EventKillMirrorSerpent.button1,Continuar
+TokenExploreHallToMedOffice.text,Esta puerta conduce al consultorio médico de la Dra. Barnett, una vieja amiga suya.
+TokenExploreHallToMedOffice.button1,{action} Explorar
+EventEnterMedicalOffice.text,El olor que inunda tus fosas nasales es todo menos agradable, y las manchas de sangre que hay en la silla designada a los pacientes no es particularmente propicia para abrir el apetito. Parece que la Dra. Barnett ha estado lidiando con algo más que visitas médicas mundanas. \n\n Coloca el módulo {c:TileMedicalOffice} en el lugar señalado.
+EventEnterMedicalOffice.button1,Continuar
+EventAddSearchTokensMedicalOffice.text,Los estantes están repletos de instrumental médico. Quizá a la amable doctora no le importará compartir algo contigo. \n\n La mesa de la sala tiene un bloc de notas que puede proporcionar información sobre las actividades recientes de la Dra. Barnett. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
+EventAddSearchTokensMedicalOffice.button1,Continuar
+EventAddExploreTokenMedOfficeToWarehouse.text,A tu izquierda, otra puerta conduce a la sala de almacenamiento. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenMedOfficeToWarehouse.button1,Continuar
+EventAddDoctorToken.text,De pie frente a ti está tu amiga, la doctora Rose Barnett. Es conocida por brindar excelentes servicios médicos, además de por tener un vasto conocimiento académico, en parte debido a los cursos gratuitos que se le permite asistir como miembro del personal de la Universidad de Miskatonic. \n\n Coloca una Ficha de Personaje en el lugar señalado. Esta es la doctora Rose Barnett.
+EventAddDoctorToken.button1,Continuar
+TokenSearchMedOfficeLeft.text,Mientras examinas el equipo médico, le preguntas cortésmente a la Dra. Barnett si puedes coger algo que pueda resultarte útil. \n\n —<i>Por supuesto</i>, —exclama en tono serio—. <i>Pero esto es material de la universidad, así que no se lleve más de lo que necesita.</i> \n\n NOTA: Sólo puedes ganar el Objeto Común Analgésicos si tienes la expansión El Santuario del Crepúsculo.
+TokenSearchMedOfficeLeft.button1,{action} Coger el Bisturí
+TokenSearchMedOfficeLeft.button2,{action} Coger las Vendas
+TokenSearchMedOfficeLeft.button3,{action} Coger el Whisky
+EventTakeScalpel.text,Encuentras algo que podrías usar en defensa propia. Se lo agradeces a la doctora y coges el bisturí. \n\n Ganas el Objeto Común Bisturí. A continuación, descarta esta Ficha de Búsqueda.
+EventTakeScalpel.button1,Continuar
+EventTakeBandages.text,Coges unos cuantos vendajes limpios del estante. Se lo agradeces a la doctora y los guardas en tu bolsillo. \n\n Ganas el Objeto Común Vendas. A continuación, descarta esta Ficha de Búsqueda.
+EventTakeBandages.button1,Continuar
+EventTakeWhiskey.text,Los pacientes de la Dra. Barnett seguramente lo aprecien más por sus efectos inhibidores del dolor, pero es posible que tú lo necesites para mantenerte cuerdo durante la noche. Agradecido, guardas la botella en el bolsillo de tu abrigo. \n\n Ganas el Objeto Común Whisky. A continuación, descarta esta Ficha de Búsqueda.
+EventTakeWhiskey.button1,Continuar
+TokenDoctor.text,La Dra. Rose Barnett está limpiando algunos de sus instrumentos médicos que parecen estar manchados de sangre reciente, al igual que la silla médica. Ella se da cuenta de tu presencia, pero permanece concentrada en su tarea. Nunca fue muy habladora ni una persona muy sociable, por lo que no te sorprende especialmente su apatía. \n Lo único que te cuestionas en estos momentos es de dónde procede toda esta sangre. \n\n Un investigador que posea el Calendario sideral podría revelárselo a la Dra. Barnett si cree que es digna de confianza.
+TokenDoctor.button1,{action} Preguntar por la sangre
+TokenDoctor.button2,{action} Revelar el Calendario sideral
+TokenSearchMedOfficeLeft.button4,{action} Coger los Analgésicos
+EventTakePainkillers.text,Has estado teniendo dolores de cabeza desde que escapaste del templo. \n Estas pastillas podrían ayudar. \n\n Ganas el Objeto Común Analgésicos. A continuación, descarta esta Ficha de Búsqueda.
+EventTakePainkillers.button1,Continuar
+EventAskAboutBlood.text,Aprovechando el saludo a la Dra. Barnett, le preguntas sobre la sangre en la silla y en sus instrumentos médicos. \n\n —<i>Hola, es bueno verle a usted también,</i> —murmura en un tono mundano pero ligeramente nervioso—. <i>El origen de esta sangre...No estoy segura de si debería compartir esto con usted..., a pesar de que es usted un viejo amigo. Esto es... asunto de la policía y la universidad...</i> \n\n Intentas con astucia persuadir a la Dra. Barnett para sacarle más información. Sin embargo, parece decidida a mantener los detalles en secreto. Temes que solo tendrás una única oportunidad ({influence}).
+EventAskAboutBlood.button1,Continuar
+EventAskAboutBloodFail.text,La Dra. Barnett se mantiene firme y ni se inmuta. \n\n —<i>Lo siento, pero sería prudente por mi parte guardar silencio sobre el asunto.</i> \n\n Llegas a la conclusión de que algún tipo de violencia debe haber ocurrido recientemente en la universidad. \n\n Ganas 1 Pista {clue}
+EventAskAboutBloodFail.button1,Continuar
+EventAskAboutBlood.button2,Cancelar
+EventAskAboutBloodPass.text,Mientras hablas, sientes que tus palabras alivian los temores de tu vieja amiga. Relajando sus hombros, la Dra. Barnett comienza a hablar en voz baja. \n\n —<i>¿Conoce el Culto del Ojo Verde? Su influencia se está extendiendo por toda Arkham y parece que tienen cierto interés en la Universidad de Miskatonic. Aparentemente, uno de sus miembros interactuó con algunos de nuestros estudiantes, tal vez en un intento de reclutar nuevos adeptos. Por lo que cuentan, una pelea estalló después de que surgieran amargas discusiones entre ellos. Al final, uno de nuestros estudiantes resultó gravemente herido, se llamó a la policía y el miembro de la secta escapó. Lamentablemente, una capucha ensombrecía el rostro del agresor por lo que su identidad sigue siendo un misterio. Atendí al estudiante lo mejor que pude, pero finalmente lo llevaron al hospital para recibir más atención</i>. \n\n Mirándote fijamente, la doctora te implora: \n\n —<i>Por favor, no comparta esta información con nadie. No queremos que ninguna noticia sobre las actividades de esta secta llegue a oídos de la gente de los alrededores a menos que la policía considere oportuno difundir los detalles ellos mismos</i>. \n\n Ganas 2 Pistas {clue}
+EventAskAboutBloodPass.button1,Continuar
+TokenDoctor2.text,La Dra. Barnett sigue limpiando las manchas de sangre de su equipo médico.
+TokenDoctor2.button1,{action} Revelar el Calendario sideral
+TokenSearchMedOfficeRight.text,La Dra. Barnett dejó su bloc de notas sobre la zona de trabajo. Si pudieras echar un vistazo sin que ella se diera cuenta, podrías encontrar información valiosa.
+TokenSearchMedOfficeRight.button1,{action} Buscar
+EventLibraryPapersNoEvidence.text,Howard Bechman está muy concentrado en el libro que está leyendo, por lo que es posible que tengas una buena oportunidad de obtener algunos detalles de sus notas ({observation}).
+EventSearchLibraryPapersLibrarianGuilty.button1,Continuar
+EventLibraryPapersInnocent.text,Howard Bechman está muy concentrado en el libro que está leyendo, por lo que es posible que tengas una buena oportunidad de obtener algunos detalles de sus notas ({observation}).
+EventLibraryPapersInnocent.button1,Continuar
+EventDoctorGuiltyEvidenceNotepad.text,Fingiendo mostrar interés en el equipo médico que se exhibe por toda la habitación, intentas leer sus notas sin que ella se dé cuenta ({observation}).
+EventDoctorGuiltyNotepad.button1,Continuar
+EventDoctorGuiltyEvidenceNotepad.button1,Continuar
+EventDoctorNoEvidenceNotepad.text,Fingiendo mostrar interés en el equipo médico que se exhibe por toda la habitación, intentas leer sus notas sin que ella se dé cuenta ({observation}).
+EventDoctorNoEvidenceNotepad.button1,Continuar
+EventDoctorInnocentNotepad.text,Fingiendo mostrar interés en el equipo médico que se exhibe por toda la habitación, intentas leer sus notas sin que ella se dé cuenta ({observation}).
+EventDoctorInnocentNotepad.button1,Continuar
+EventNotepadGuiltyEvidenceTestFail.text,Totalmente absorto en las notas de la Dra. Barnett, no logras mantener la precaución necesaria. Al darse cuenta de que estás leyendo su bloc de notas, se acerca y rápidamente lo coge, lo coloca en el bolsillo de su abrigo y sigue limpiando su equipo médico. \n\n —<i>No ha sido muy amable por su parte,</i> —exclama—. <i>Estas son mis notas médicas personales, así que debo solicitarle que las trate como información confidencial. Entiendo su curiosidad, y supongo que debe estar haciéndose preguntas acerca de las manchas de sangre que hay en la habitación, pero por favor comprenda que debo mantener los detalles en privado.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventNotepadGuiltyEvidenceTestFail.button1,Continuar
+EventNotepadNoEvidenceFail.text,Totalmente absorto en las notas de la Dra. Barnett, no logras mantener la precaución necesaria. Al darse cuenta de que estás leyendo su bloc de notas, se acerca y rápidamente lo coge, lo coloca en el bolsillo de su abrigo y sigue limpiando su equipo médico. \n\n —<i>No ha sido muy amable por su parte,</i> —exclama—. <i>Estas son mis notas médicas personales, así que debo solicitarle que las trate como información confidencial. Entiendo su curiosidad, y supongo que debe estar haciéndose preguntas acerca de las manchas de sangre que hay en la habitación, pero por favor comprenda que debo mantener los detalles en privado.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventNotepadNoEvidenceFail.button1,Continuar
+EventNotepadGuiltyEvidenceTestPass.text,Tu paciencia y astucia han valido la pena. La Dra. Barnett no se da cuenta de que lees sus notas. \n\n Tu lectura revela una pista importante. Durante un incidente reciente en los recintos de la universidad, un estudiante resultó herido por alguien a quien la Dra. Barnett se refiere como un <i>«compañero»</i> miembro del culto. Claramente ella está aliada con el siniestro y macabro grupo, lo que significa que ya no puedes confiar en ella. \n\n Ganas 2 Pistas {clue} y el Objeto Único Información reveladora. \n A continuación, descarta esta Ficha de Búsqueda.
+EventNotepadGuiltyEvidenceTestPass.button1,Continuar
+EventNotepadNoEvidencePass.text,La Dra. Barnett no se percata de que estás leyendo sus notas. En ellas se detallan los eventos que rodearon a un estudiante apuñalado en un enfrentamiento en el recinto de la universidad. Aunque no fue fatal, parece que la herida fue realizada con gran precisión a fin de causar un fuerte dolor y una larga y lenta recuperación para la víctima. Teniendo en cuenta que los testigos afirmaron que el culpable era miembro del macabro culto que estás intentando evitar, no te sorprende la crueldad de la agresión. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventNotepadNoEvidencePass.button1,Continuar
+TokenExploreMedToWarehouse.text,El trastero se encuentra detrás de esta puerta.
+TokenExploreMedToWarehouse.button1,{action} Explorar
+EventEnterStorageRoom.text,La habitación está algo polvorienta, como era de esperar. No estás seguro de lo que puedes encontrar aquí, pero hay algunos lugares donde valdría la pena buscar. \n\n Un escritorio en la parte de atrás de la habitación podría contener algo interesante.. Dos cajas, una en el medio de la habitación y otra en la esquina a tu derecha, parecen bastante recientes. \n\n Coloca el módulo {c:TileStorageRoom}, una Ficha de Pared y 3 Fichas de Búsqueda en los lugares señalados.
+EventEnterStorageRoom.button1,Continuar
+TokenSearchWarehouseTopLeft.text,Observas que uno de los cajones de este escritorio no tiene polvo en su tirador. Alguien debe haberlo abierto recientemente.
+TokenSearchWarehouseTopLeft.button1,{action} Buscar
+EventWarehouseDeskGuiltyEvidence.text,Dentro del cajón hay una tela oscura. A medida que tiras de ella se va desplegando hasta revelar una larga túnica. En uno de sus bolsillos encuentras una nota dirigida al profesor Smith que dice: \n\n «<i>Como nuevo miembro de nuestra orden, acepta esta túnica de aprendiz y este emblema. Úsalos con orgullo al servicio de Yig</i>». \n\n Profundizando en el bolsillo, encuentras el emblema al que hace referencia la nota. Observas que está adornado con un gran ojo verde. \n\n Ganas el Objeto Único Emblema de sectario y 2 Pistas {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventSearchDeskProfessorGuilty.button1,Continuar
+EventWarehouseDeskGuiltyEvidence.button1,Continuar
+EventWarehouseDeskNoGuiltyEvidence.text,Para su sorpresa, el cajón está vacío. Sea lo que sea lo que estaba aquí dentro debe haber sido sacado recientemente ({observation}).
+EventWarehouseDeskNoGuiltyEvidence.button1,Continuar
+EventWarehouseDeskObservationFail.text,No ves nada más que un cajón vacío. \n\n Descarta esta Ficha de Búsqueda.
+EventWarehouseDeskObservationFail.button1,Continuar
+EventWarehouseDeskObservationPass.text,¿Qué es esto? Ves un trozo de tela que parece ser del mismo color y textura que la túnica que llevaba la persona que salió corriendo del edificio cuando llegaste a la universidad. \n ¿Podría ser ésta la túnica de un sectario? \n\n Ganas 1 Pista {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventWarehouseDeskObservationPass.button1,Continuar
+EventSearchDeskProfessorInnocent.text,Para tu sorpresa, el cajón está vacío. Sea lo que sea que estuviera aquí parece que lo sacaron recientemente ({observation}).
+EventSearchDeskProfessorInnocent.button1,Continuar
+TokenSearchWarehouseTopRight.text,Esta caja es bastante resistente, por lo que podrías intentar abrirla a la fuerza. Observándola mejor, ves un agujero en uno de los laterales por el que podrías meter la mano y tocar lo que hay dentro.
+TokenSearchWarehouseTopRight.button1,{action} Romperla a la fuerza
+TokenSearchWarehouseTopRight.button2,{action} Meter la mano
+EventBreakWarehouseCrateTop.text,Al golpear la caja, intentas ejercer justo la fuerza necesaria para romperla sin dañar lo que pueda haber dentro. Si tuvieras el tipo de herramienta correcta, podrías controlar mejor tu golpeo ({strength}). Puedes modificar tu resultado en +1 o -1 si tienes un arma pesada.
+EventBreakWarehouseCrateTop.button1,Continuar
+EventBreakWarehouseCrateTopFail.text,Controlas demasiado tu fuerza y las resistentes tablas desvían tu golpe.
+EventBreakWarehouseCrateTopFail.button1,Continuar
+EventBreakWarehouseCrateTopPass.text,Ejerces la cantidad justa de fuerza, rompiendo la madera con una presión lo suficientemente ligera como para evitar daños colaterales. Dentro de la caja encuentras un juego de agujas con la etiqueta «<i>Sedantes</i>». Teniendo en cuenta lo que has pasado, coges una como medida. \n\n Ganas el Objeto Común Sedante. A continuación, descarta esta Ficha de Búsqueda.
+EventBreakWarehouseCrateTopPass.button1,Continuar
+EventBreakWarehouseCrateTopExcessive.text,Golpeas con demasiada fuerza y destrozas la estructura exterior de la caja de madera haciendo que el contenido de su interior quede totalmente inservible. Accidentalmente rompiste un juego de jeringuillas sedantes que la Dra. Barnett debió haber pedido recientemente. \n\n Eres el único culpable del desastre ocasionado pero sacas lo mejor de la situación y te quedas con una de las tablas de madera que se desprendieron de la caja al romperla. \n\n Ganas el Objeto Común Tablón de madera. \n A continuación, descarta esta Ficha de Búsqueda.
+EventBreakWarehouseCrateTopExcessive.button1,Continuar
+EventReachInTopWarehouseCrate.text,Cuidadosamente metes la mano y buscas dentro, preguntándote qué podrías encontrar ({observation} + {agility}).
+EventReachInTopWarehouseCrate.button1,Continuar
+EventReachInTopWarehouseCrateFail.text,A tientas, te das cuenta de que eres bastante más torpe de lo que pensabas y, de repente, sientes unos agudos pinchazos en tu mano. Tus reflejos hacen que tu mano dolorida quiera separarse de la caja y al querer sacarla de su interior, te haces un rasguño en un brazo con una astilla y acabas volcando la caja. Se escucha el sonido de cristales rotos. Examinas el destrozo y compruebas que la caja estaba llena de jeringuillas, pero ninguna permanece ya intacta. \n\n Sufres 2 de Daño boca abajo. A continuación, descarta esta Ficha de Búsqueda.
+EventReachInTopWarehouseCrateFail.button1,Continuar
+EventReachInTopWarehouseCratePass.button1,Continuar
+TokenSearchWarehouseBottomRight.text,Hay una gran caja en la esquina de la habitación. Por la ausencia de polvo deduces que la han traído aquí recientemente. Sin embargo, la caja muestra signos de deterioro ya que la madera parece estar algo podrida. No debería ser demasiado difícil abrirla. Puedes intentar romper la caja, pero golpearla con demasiada fuerza podría destruir lo que hay en su interior.
+EventReachInTopWarehouseCratePass.text,Metes la mano profundamente en la caja y con mucho cuidado sacas un objeto cilíndrico con una aguja afilada en su extremo. \n\n Ganas el Objeto Común Sedante. A continuación, descarta esta Ficha de Búsqueda.
+TokenSearchWarehouseBottomRight.button1,{action} Romper Caja
+EventBreakBottomCrateWarehouse.text,Golpeas la frágil caja. Si tuvieras el tipo de herramienta correcta, podrías controlar mejor tu golpeo ({strength}). Puedes modificar tu resultado en +1 o -1 si tienes un arma pesada.
+EventBreakBottomCrateWarehouse.button1,Continuar
+EventBreakBottomWarehouseCrateFail.text,La caja parece estar pudriéndose, pero se necesitará al menos un pequeño impacto para abrirla.
+EventBreakBottomWarehouseCrateFail.button1,Continuar
+EventBreakBottomWarehouseCratePass.text,Ejerciendo la cantidad justa de fuerza, accedes al interior de la caja. Para tu sorpresa, encuentras varios artefactos que parecen ser de origen sudamericano. Deduces que deben haber sido recaudados en otras búsquedas de artefactos poderosos como el Calendario sideral. Te preocupa la presencia de estos objetos en la Universidad de Miskatonic y temes que el Culto del Ojo Verde haya echado ya profundas raíces dentro de este recinto académico. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventBreakBottomWarehouseCratePass.button1,Continuar
+EventBreakBottomWarehouseCrateTooStrong.text,La frágil caja se rompe en pedazos, dejando su contenido hecho añicos. Los restos parecen ser una especie de cerámica y arcilla, pero no puedes deducir mucho más de los escombros que tienes ante ti. \n\n Descarta esta Ficha de Búsqueda.
+EventBreakBottomWarehouseCrateTooStrong.button1,Continuar
+TokenWarehouseDoorLocked.text,La puerta está protegida por una barrera de energía que impide incluso tocarla.
+TokenWarehouseDoorLocked.button1,Continuar
+EventWarehouseDoorLocks.text,Tan pronto como cierras el cajón, la puerta del almacén se sella con una energía sobrenatural. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventWarehouseDoorLocks.button1,Continuar
+SpawnWarehouseHuntingDeepOne.button1,Continuar
+EventUnlockWarehouseDoor.text,La criatura se convierte en un charco de agua y se evapora en cuestión de segundos. Tan pronto como las últimas gotas de humedad se disipan de la habitación, la energía que protege la puerta también se desvanece. Pero la habitación no vuelve a su estado original, lo que te obliga a aceptar que el Calendario sideral es aún más poderoso de lo que pensabas. \n\n Sufres 1 de Horror boca abajo. \n A continuación, descarta la Ficha de Exploración del lugar señalado.
+SpawnWarehouseHuntingDeepOne.text,Una criatura acuosa emerge por una brecha en el techo y cae al suelo como si fuera una pesada gota de agua. Recuerdas estas horribles criaturas del templo, y, por lo que parece, han encontrado un camino hacia ti a pesar de la distancia que te separa de su hogar. \n\n De repente, incluso la propia sala de almacenamiento comienza a parecerse al templo, transformándose en una cámara de piedra ruinosa. El frío se acentúa y ves el vaho de tu aliento frente a ti. \n\n Sufres 1 de Daño boca abajo (anulado por {strength}). \n Termina tu turno inmediatamente y adquieres el estado Restringido. \n\n Sustituye la Sala de almacenamiento por el módulo {c:TileBrokenTemple} \n A continuación, aparece un Profundo Cazador en el lugar señalado.
+EventUnlockWarehouseDoor.button1,Continuar
+TokenExploreEntryHallToDean.text,Esta puerta conduce a la oficina del decano.
+TokenExploreEntryHallToDean.button1,{action} Explorar
+EventEnterDeansOffice.text,Una oficina impecable, con un lujoso escritorio, se muestra frente a ti. También ves un gran estante de caoba, repleto de varios libros y baratijas. Sí, definitivamente es la oficina de Eugene. Siempre fue un fanático de los muebles antiguos de calidad. \n\n Coloca el módulo {c:TileDeanOffice}, una Ficha de Puerta y una Ficha de Pared en los lugares señalados.
+EventEnterDeansOffice.button1,Continuar
+EventAddDeansOfficeSearchTokenDesk.button1,Continuar
+EventAddDeansOfficeSearchTokenBottom.text,Los grandes estantes de caoba contienen bastantes objetos y libros interesantes. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddDeansOfficeSearchTokenDesk.text,Para confirmar tus sospechas sobre la implicación del decano en los actos de la secta, sabes que el mejor lugar para buscar es en su escritorio de granito. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddDeansOfficeSearchTokenBottom.button1,Continuar
+EventAddEugeneClemens.text,Sentado detrás de su magnífico escritorio, ves a Eugene Clemens revisando algunos papeles. Él se fija en ti cuando entras y exclama: \n\n —<i>¡Ah! Llega temprano para nuestra reunión. Es bueno verle, pero tendrá que esperar unos minutos a que termine algunas tareas que tengo pendientes.</i> \n\n Coloca una Ficha de Personaje en el lugar señalado. \n Este Eugene Clemens, decano de la universidad.
+EventAddEugeneClemens.button1,Continuar
+EventAddDoorDeanToMeetingRoom.text,En la parte de atrás de la habitación hay otra puerta. Si tu memoria no te falla, lleva a la sala de reuniones del personal. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddDoorDeanToMeetingRoom.button1,Continuar
+TokenSearchDeanDesk.text,Con Eugene sentado aquí, no hay forma de que puedas buscar nada en su escritorio.
+TokenSearchDeanDesk.button1,Continuar
+TokenSearchDeanBottom.text,Ves estantes llenos de antigüedades, artefactos y libros antiguos. Seguro que aquí encontrarás algo de interés. Dada tu larga amistad con Eugene, sabes que a él no le importará si te llevas algo de aquí.
+TokenSearchDeanBottom.button1,{action} Coges una biblia
+TokenSearchDeanBottom.button2,{action} Coges una brújula
+TokenSearchDeanBottom.button3,{action} Coges una calavera
+TokenSearchDeanBottom.button4,{action} Coges un tomo
+EventGainBible.text,Dado los traumas mentales que has estado experimentado durante las últimas semanas, quizá algunas bendiciones puedan ser de gran ayuda. \n\n Ganas el Objeto Común Biblia del rey James. \n A continuación, descarta esta Ficha de Búsqueda.
+EventGainBible.button1,Continuar
+EventGainOtherworldlyCompass.text,Esta brújula es más especial de lo que parece. \n\n Ganas el Objeto Común Brújula de otro mundo. \n A continuación, descarta esta Ficha de Búsqueda.
+EventGainOtherworldlyCompass.button1,Continuar
+EventGainJeweledSkull.text,Esta calavera te recuerda a uno de los tesoros que encontraste durante tu expedición. \n\n Ganas el Objeto Común Calavera enjoyada. \n A continuación, descarta esta Ficha de Búsqueda.
+EventGainJeweledSkull.button1,Continuar
+EventGainMedicalTextbook.text,Teniendo en cuenta los traumas físicos que has sufrido últimamente, resulta bastante oportuno aprender algunos tratamientos médicos. \n\n Ganas el Objeto Común Manual de medicina. \n A continuación, descarta esta Ficha de Búsqueda.
+EventGainMedicalTextbook.button1,Continuar
+TokenDean.text,Eugene Clemens está sentado en su lujoso escritorio hojeando algunos documentos universitarios mientras bebe un vaso de té helado. Sabes que necesitas registrar su escritorio por lo que piensas alguna manera de sacarlo fuera de la oficina. \n Te vienen dos ideas a la cabeza. \n\n Sin embargo, en caso de que ya confíes plenamente en él, el investigador que posea el Calendario sideral podría revelárselo a Eugene.
+TokenDean.button1,{action} Verter el té sobre Eugene
+TokenDean.button2,{action} Su camisa está manchada
+EventKnockTeaOver.text,Si pudieras arrojar el té en su regazo de manera rápida y precisa, Eugene tendría que ir al baño a limpiarse ({agility}).
+EventKnockTeaOver.button1,Continuar
+TokenDean.button3,{action} Revelar el Calendario sideral
+EventConvinceDeanCollarDirty.text,Si pudieras convencerlo de que la mancha del cuello de su camisa es muy desagradable, lo más probable es que fuera al baño a comprobarlo él mismo ({influence}).
+EventConvinceDeanCollarDirty.button1,Continuar
+EventKnockTeaFail.text,Finges tropezar mientras te acercas a su escritorio y mueves tu brazo hacia el vaso para intentar golpearlo disimuladamente. Sin embargo, tu destreza no es del todo efectiva y tiras el té al suelo. Eugene se ríe cortésmente, e inmediatamente te disculpas y comienzas a limpiar el desastre.
+EventCollarDirtyFail.button1,Continuar
+TokenDeanTeaFailed.text,Tu plan con el té puede que haya fallado, pero aún tienes otra oportunidad. \n\n De todos modos, un investigador que posea el Calendario sideral podría revelárselo a Eugene si lo considera digno de confianza.
+TokenDeanTeaFailed.button1,{action} Su camisa está manchada
+TokenDeanTeaFailed.button2,{action} Revelar el Calendario sideral
+EventKnockTeaFail.button1,Continuar
+EventKnockTeaPass.text,Al fingir magistralmente un falso tropiezo con la alfombra de la oficina, tiras el té directamente en el regazo de Eugene. Con un sobresalto, salta de su silla y gruñe un poco. Después de disculparte insistentemente por tu error, te asegura que todo está bien. \n\n —<i>No pasa nada. Iré al baño a limpiarme. Regresaré en breve.</i>
+EventKnockTeaPass.button1,Continuar
+TokenDeanReadyToMove.text,El decano Clemens no parece interesado en hablar mientras se dirige hacia el baño.
+TokenDeanReadyToMove.button1,Continuar
+EventCollarDirtyFail.text,Tu persuasión es escasa y no eres demasiado convincente. Eugene está demasiado concentrado en su trabajo y no parece importarle mucho lo que dices. \n\n —<i>Seguro que no es para tanto, no se preocupe</i> —te asegura mientras vuelve a su lectura.
+EventCollarDirtyPass.text,Le aseguras al decano Clemens que tiene una mancha en el cuello de su camisa bastante desagradable. Éste aparta su silla alejándose del escritorio y se dirige hacia el espejo más cercano. \n\n —<i>Gracias por hacérmelo saber. Voy a remediarlo de inmediato.</i>
+EventCollarDirtyPass.button1,Continuar
+TokenDeanHall1stTime.text,—<i>Volveré en un momento después de limpiarme.</i>
+TokenDeanHall1stTime.button1,Continuar
+EventDeanMovesToHall1stTime.text,El decano Clemens se apresura hacia el baño para limpiarse. Podrías aprovechar ahora para investigar su escritorio en busca de alguna pista. Sin embargo, sabes que tu tiempo es limitado antes de que regrese. \n\n Mueve a Eugene Clemens al lugar señalado.
+EventDeanMovesToHall1stTime.button1,Continuar
+EventDeanBathroomLobby.text,Eugene prosigue con su marcha hacia el baño.
+EventDeanBathroomLobby.button1,Continuar
+TokenDeanBathroomLobby.text,—<i>Volveré en un momento después de limpiarme.</i>
+TokenDeanBathroomLobby.button1,Continuar
+EventDeanMovesToBathroom.button1,Continuar
+EventDeanEntersBathroom.text,Eugene llega al baño, examina y limpia su camisa y se prepara para regresar a su oficina. \n\n Mueve a Eugene Clemens al lugar señalado.
+EventDeanEntersBathroom.button1,Continuar
+TokenDeanBathroom.text,Eugene está demasiado concentrado limpiando su camisa como para hablar contigo.
+TokenDeanBathroom.button1,Continuar
+EventDeanBathroomLobbyRevealed.text,Mueve a Eugene Clemens al lugar señalado.
+EventDeanBathroomLobbyRevealed.button1,Continuar
+EventDeanBathroomLobbyNOTRevealed.text,Eugene desaparece de tu vista y entra por la puerta del baño. \n\n Retira a Eugene Clemens del tablero.
+EventDeanBathroomLobbyNOTRevealed.button1,Continuar
+EventAddDeanTokenBathroomLobby.text,Eugene se dirige hacia el baño. \n\n Coloca a Eugene Clemens en el lugar señalado.
+EventAddDeanTokenBathroomLobby.button1,Continuar
+EventDeanReturnsBathroomLocked.text,Al comprobar que la puerta está cerrada, el decano Clemens asume que el baño está ocupado y empieza a regresar a su oficina. \n\n Mueve a Eugene Clemens al lugar señalado.
+EventDeanReturnsBathroomLocked.button1,Continuar
+EventDeanDisappearsIntoBathroom.text,Eugene finalmente llega a su destino, desapareciendo por la puerta del baño. \n\n Retira a Eugene Clemens del tablero.
+EventDeanDisappearsIntoBathroom.button1,Continuar
+EventDeanEarlyReturn.text,Al no poder limpiar su camisa, el decano Clemens regresa a su oficina. Al suponer que su regreso sería inminente, te aseguraste de colocar sus pertenencias en su lugar original. \n\n Eugene se sienta en su silla de cuero y regresa de nuevo a su trabajo. \n\n Mueve a Eugene Clemens al lugar señalado. \n A continuación, descarta cualquier Ficha de Búsqueda de su escritorio (si queda alguna).
+EventDeanEarlyReturn.button1,Continuar
+TokenDeanAfterReturn.text,Eugene Clemens ha vuelto a su trabajo. \n\n —<i>Estaré listo para nuestra reunión en breve</i>, —dice con una sonrisa—. \n\n Un investigador que posea el Calendario sideral podría mostrárselo si lo considera digno de su confianza.
+TokenDeanAfterReturn.button1,{action} Revelar el Calendario sideral
+EventDeanLeavesBathroom.text,Después de limpiarse en el baño, Eugene regresa a su oficina. \n\n Mueve a Eugene Clemens al lugar señalado.
+EventDeanLeavesBathroom.button1,Continuar
+TokenDeanHall2ndTime.text,—<i>Si desea hablar, por favor, vaya a verme a mi oficina</i>
+TokenDeanHall2ndTime.button1,Continuar
+EventDeanReturnsFullPath.text,Eugene finalmente regresa a su oficina. Al suponer que regresaría pronto, te aseguraste de ordenar su escritorio sin dejar ni rastro de tu búsqueda. \n\n Mueve a Eugene Clemens al lugar señalado. \n A continuación, descarta cualquier Ficha de Búsqueda de su escritorio.
+EventDeanReturnsFullPath.button1,Continuar
+TokenSearchDeanDeskDrawerLock.text,El cajón está bloqueado con una cerradura algo inusual, pero podrías intentar abrirlo. Eugene debe guardar algo importante aquí. \n Puedes intentar resolver el rompecabezas utilizando ({agility}).
+TokenSearchDeanDeskDrawerLock.button1,{action} Resolver
+EventUnlockDeanDeskDrawer.text,Abres el cajón y ves un maletín en su interior. También parece requerir una combinación para abrirse.
+PuzzleUnlockDeanDeskDrawer.button1,Resolver
+EventUnlockDeanDeskDrawer.button1,Continuar
+TokenSearchDeanBriefcase.button1,{action} Resolver
+EventDeanGuiltyEvidence.text,Logras abrir el maletín con nerviosismo, pero enseguida te arrepientes de tu hazaña al ver un pequeño frasco de vidrio. En su interior, ves un dedo ensangrentado que debe haber sido cortado recientemente. Imaginas el destino que debe haber sufrido el resto del cuerpo. \n\n Ves una nota en un pequeño bolsillo que hay en el forro del maletín. La coges y, para tu disgusto, encuentras el siguiente texto dirigido a los líderes del Culto del Ojo Verde: \n\n «<i>Yo, Eugene Clemens, decano de la Universidad de Miskatonic, he realizado el sacrificio de iniciación. Este dedo es la prueba de que realice la tarea solicitada. Acepte mi membresía en su estimado grupo</i>». \n\n Eres consciente de que ya no puedes confiar en tu viejo amigo y agachas la cabeza consternado. Después vuelves a colocar el maletín y el cajón en su posición original, esperando que no se dé cuenta de que lo has manipulado. \n\n Ganas 2 Pistas {clue} y el Objeto Único Prueba forense. \n A continuación, descarta esta Ficha de Búsqueda. \n\n Termina tu turno inmediatamente y adquieres el estado Aturdido.
+TokenSearchDeanBriefcase.text,Es un maletín de cuero, pero no se abrirá sin la combinación correcta de su candado. \n Puedes intentar resolver el rompecabezas utilizando ({observation}).
+PuzzleBriefcaseCode.button1,Resolver
+EventDeanGuiltyEvidence.button1,Continuar
+EventDeanNoEvidence.text,Para tu alivio, lo único que encuentras en el maletín son documentos oficiales sobre la Universidad de Miskatonic y algunos papeles relacionados con empresas filantrópicas de Eugene. Rápidamente devuelves el maletín y cierras el cajón dejándolo tal como lo encontraste para ocultar cualquier evidencia de su manipulación. \n\n Sin embargo, aún no estás convencido. Recuerdas que hace años Eugene te confió un escondite secreto donde guardaba las cosas que quería mantener bien alejadas de las miradas indiscretas de sus compañeros de la universidad. \n Lamentablemente, los años han nublado tu memoria. ¿Dónde estaba? \n\n Adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
+EventDeanNoEvidence.button1,Continuar
+TokenExploreMeetingRoomToDean.text,Esta puerta conduce a la oficina del decano Clemens.
+TokenExploreMeetingRoomToDean.button1,{action} Explorar
+TokenExploreDeanToMeetingRoom.text,Esta puerta debe conducir a la sala de reuniones del personal.
+TokenExploreDeanToMeetingRoom.button1,{action} Explorar
+EventRememberDeansHidingPlace.text,Indagando en lo más profundo de tu memoria, intentas recordar dónde estaba el escondite secreto de Eugene ({lore}).
+EventRememberDeansHidingPlace.button1,Continuar
+EventRememberHidingPlaceFail.text,Por más que lo intentas, no logras recordar dónde estaba.
+EventRememberHidingPlaceFail.button1,Continuar
+EventRememberHidingPlaceDecent.text,Tus recuerdos son vagos, pero quizá pueda estar en el atril de la sala de reuniones del personal o en el globo terráqueo del aula grande. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
+EventRememberHidingPlaceDecent.button1,Continuar
+EventRememberHidingPlacePass.text,¡Ahora lo recuerdas! Estaba dentro del globo terráqueo del aula grande. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventRememberHidingPlacePass.button1,Continuar
+EventRememberHidingPlacePass2.text,¡Ahora lo recuerdas! Estaba dentro del globo terráqueo del aula grande.
+EventRememberHidingPlacePass2.button1,Continuar
+EventRememberHidingPlaceDecent2.text,Tus recuerdos son vagos, pero quizá pueda estar en el atril de la sala de reuniones del personal o en el globo terráqueo del aula grande.
+EventRememberHidingPlaceDecent2.button1,Continuar
+EventRememberHidingPlaceDecent3.text,Tus recuerdos son vagos, pero quizá pueda estar en el atril de la sala de reuniones del personal o en el globo terráqueo del aula grande. \n\n Coloca 1 Ficha de Búsqueda en el lugar señalado.
+EventRememberHidingPlaceDecent3.button1,Continuar
+EventRememberHidingPlaceDecent4.text,Tus recuerdos son vagos, pero quizá pueda estar en el atril de la sala de reuniones del personal o en el globo terráqueo del aula grande. \n\n Coloca 1 Ficha de Búsqueda en el lugar señalado.
+EventRememberHidingPlaceDecent4.button1,Continuar
+TokenEntryHallToClass.button1,{action} Explorar
+EventEnterClassroom.text,El aula es grande y vieja y necesita algunas reparaciones. Sin embargo, la naturaleza antigua de la habitación tiene su encanto. \n\n Coloca el módulo {c:TileLargeClass} en el lugar señalado.
+EventEnterClassroom.button1,Continuar
+EventAddBlackboardSearchToken.text,La pizarra contiene varias anotaciones. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddBlackboardSearchToken.button1,Continuar
+EventAddSchoolDeskSearchToken.text,Un escritorio en el fondo de la habitación tiene varios papeles encima. \n ¿Es posible que un estudiante se haya olvidado de recoger sus apuntes? \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSchoolDeskSearchToken.button1,Continuar
+EventAddProfessorSmith.text,Tu antiguo mentor, el profesor Smith, está revisando algunas de sus notas. \n\n Coloca una Ficha de Personaje en el lugar señalado. Este es el profesor Smith.
+EventAddProfessorSmith.button1,Continuar
+EventAddExploreTokenMeetingRoomToClass.text,La puerta de la parte de atrás del aula debe llevar a la sala de reuniones del personal. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenMeetingRoomToClass.button1,Continuar
+EventAddGuaranteedGlobe.text,El globo donde Eugene te confió su secreto está en la esquina. Deberías analizarlo antes de llegar a una conclusión acertada sobre su culpabilidad o inocencia. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddGuaranteedGlobe.button1,Continuar
+EventAddGlobePartialMemory.text,Ahí está el globo terráqueo. \n ¿Era ahí donde Eugene tenía su escondite secreto? ¿O era en el atril de la sala de reuniones del personal? No lo recuerdas con claridad. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddGlobePartialMemory.button1,Continuar
+TokenSearchClassBlackboard.text,Hay una gran cantidad de anotaciones en la pizarra. ¿Es esta la letra del profesor Smith?
+TokenSearchClassBlackboard.button1,{action} Buscar
+EventReadBlackboard.text,El texto se presenta casi como un diagrama de flujo de información relacionada con diferentes cultos en Brasil y sus conexiones entre sí, así como los rumores sobre misteriosas reliquias de poder que pertenecen a estos cultos. Claramente, los rumores del Calendario sideral han seguido creciendo, despertando la curiosidad de todos. Esperas que nadie encuentre la manera de activar el poder oscuro que encierran este tipo de artefactos. \n De cualquier manera, saber que el objeto que posees pueda ser el foco de una investigación tan detallada te hace sentir particularmente incómodo. \n\n Ganas 2 Pistas {clue} y sufres 1 de Horror boca abajo. \n A continuación, descarta esta Ficha de Búsqueda.
+EventReadBlackboard.button1,Continuar
+TokenProfessor.text,El profesor Smith está muy concentrado en los papeles que tiene delante. \n\n Podrías simplemente saludarlo o bien mostrarle el Calendario sideral si crees que es digno de tu confianza.
+TokenProfessor.button1,{action} Hablar
+TokenProfessor.button2,{action} Revelar el Calendario sideral
+EventSpeakToProfessorSmith.text,Te acercas a tu antiguo mentor, saludándolo con un apretón de manos y una sonrisa amistosa. \n\n —<i>¡Ha pasado mucho tiempo desde que estuvo en esta aula! ¡Qué bueno verle de nuevo!</i> \n\n Con una risa jovial, pregunta: \n\n —<i>¿Ha venido aquí en busca de más conocimiento de su antiguo profesor?</i> \n\n Su expresión facial se vuelve más seria cuando se da cuenta de que no estás de humor. \n\n —<i>Se rumorea que recientemente estuvo fuera del país en alguna expedición. ¿No habrá ido usted en busca de esa extraña reliquia de la que ciertas personas andan detrás?</i> \n\n Intentas desviar la pregunta, hablando de tu interés por las reliquias y los manuscritos antiguos, con la esperanza de que esos intereses compartidos con el profesor hagan que se olvide de la expedición, al menos hasta que te sientas cómodo hablando del tema por ti mismo ({influence}).
+EventSpeakToProfessorSmith.button1,Continuar
+EventDeflectProfessorFail.text,Tu incómodo gesto a la pregunta del profesor Smith le hace levantar una ceja. \n\n —<i>¿Esquivando la pregunta, eh? Si no se siente cómodo hablando de eso, le entiendo. Pero recuerde que puede confiar en mí si sabe algo sobre ese artefacto.</i> \n\n ¿Puedes realmente confiar en él? \n\n Pon boca arriba 1 de Horror.
+EventDeflectProfessorFail.button1,Continuar
+TokenProfessor2.text,El profesor Smith todavía sigue concentrado en su lectura. \n\n Si confía en él, el investigador que posea el Calendario sideral podría optar por revelárselo.
+TokenProfessor2.button1,{action} Revelar el Calendario sideral
+EventDeflectProfessorMedium.text,Tu artimaña parece distraerlo de su indiscreta pregunta y conversa contigo sobre recientes investigaciones y artefactos de interés para la universidad. \n\n —<i>Sabe,</i> —exclama—, <i>recientemente se donó a la universidad un nuevo e interesante artefacto. Tenga, tal vez le sea de utilidad. Sé que es usted un fanático de toda clase de objetos antiguos. Después de todo, yo no soy muy aficionado a las joyas</i>. \n\n Ganas el Objeto Común Brazalete de serpiente y 1 Pista {clue}
+EventDeflectProfessorMedium.button1,Continuar
+EventDeflectProfessorPass.text,Tu pasión por el tema cautiva completamente al profesor en la conversación. Después de una breve discusión, el profesor Smith sonríe y te ofrece un manuscrito de la pila de trabajos que ha estado leyendo. \n\n —<i>Debería llevarse esto con usted. Ya no lo necesito. Seguro que lo encuentra fascinante.</i> \n\n Ganas el Hechizo Aprendizaje forzoso y 1 Pista {clue}
+EventDeflectProfessorPass.button1,Continuar
+TokenMeetingRoomToClass.text,Esta puerta conduce a un aula especial para clases de posgrado.
+TokenMeetingRoomToClass.button1,{action} Explorar
+TokenSearchClassTopRight.text,Hay algunas notas encima del escritorio. Alguien debe haberlas olvidado por error.
+TokenSearchClassTopRight.button1,{action} Buscar
+EventClassNotesProfessorGuilty.text,Las notas parecen estar escritas en portugués, con el que tienes algo de experiencia. Puedes intentar leer las notas resolviendo el rompecabezas utilizando ({lore}).
+EventClassNotesProfessorGuilty.button1,Continuar
+EventClassNotesProfessorInnocent.text,Las notas parecen estar escritas en portugués, con el que tienes algo de experiencia. Puedes intentar leer las notas resolviendo el rompecabezas utilizando ({lore}).
+EventClassNotesProfessorInnocent.button1,Continuar
+EventStudentNotesReadNoEvidenceYet.button1,Continuar
+PuzzleStudentNotes.button1,Resolver
+EventStudentNotesReadGuiltyEvidence.button1,Continuar
+EventStudentNotesReadGuiltyEvidence.text,Tu ligera noción del portugués ha merecido la pena. Descifras lo suficiente del texto como para saber que el propietario de estas notas ha visto al profesor Smith asociarse con miembros del Culto del Ojo Verde. Parece ser que este estudiante consideró informar del asunto al decano, pero no estaba seguro de si se podía confiar en él. \n\n Ganas el Objeto Único Prueba Concluyente y 2 Pistas {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventStudentNotesReadNoEvidenceYet.text,Al leer el texto, descubres que los miembros del Culto del Ojo Verde han estado frecuentando los dormitorios y otros recintos de la universidad en busca de nuevos miembros. El autor de estas notas también afirma que estas figuras vestidas con túnicas se han visto interactuando con personal de la universidad. Esto refuerza tu temor de que muy pocos quedan ya que merezcan tu confianza. \n\n Sufres 2 de Horror boca abajo (anulados por {will}). \n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventStudentNotesInnocent.text,Al leer el texto, descubres que los miembros del Culto del Ojo Verde han estado frecuentando los dormitorios y otros recintos de la universidad en busca de nuevos miembros. El autor de estas notas también afirma que estas figuras vestidas con túnicas se han visto interactuando con personal de la universidad. Esto refuerza tu temor de que muy pocos quedan ya que merezcan tu confianza. \n\n Sufres 2 de Horror boca abajo (anulados por {will}). \n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+PuzzleStudentNotes2.button1,Resolver
+EventStudentNotesInnocent.button1,Continuar
+TokenSearchClassGlobeOnly.text,Recuerdas que Eugene te enseñó una manera secreta de desbloquear el globo, permitiendo el acceso a un compartimento oculto. \n El profesor Smith está tan absorto en su lectura que no debería prestar importancia al hecho de verte toquetear un objeto tan mundano. \n Puedes intentar resolver el rompecabezas utilizando {observation}.
+TokenSearchClassGlobeOnly.button1,Continuar
+PuzzleGlobeOnly.button1,Resolver
+EventGlobeOnlyGuilty.text,Una pequeña parte del globo sobresale a medida que completas el rompecabezas. En el interior, ves un dedo ensangrentado dentro de un frasco de cristal que debe haber sido cortado recientemente. Imaginas el destino que debe haber sufrido el resto del cuerpo. \n\n Ves una nota envuelta alrededor el frasco. La coges y, para tu disgusto, encuentras el siguiente texto dirigido a los líderes del Culto del Ojo Verde: \n\n «<i>Yo, Eugene Clemens, decano de la Universidad de Miskatonic, he realizado el sacrificio de iniciación. Este dedo es la prueba de que realicé la tarea solicitada. Acepte mi membresía en su estimado grupo</i>». \n\n Eres consciente de que ya no puedes confiar en tu viejo amigo y agachas la cabeza consternado. Después de colocar la nota y el frasco tal como lo habías encontrado, devuelves el globo a su configuración original. \n\n Ganas 2 Pistas {clue} y el Objeto Único Prueba forense. \n A continuación, descarta esta Ficha de Búsqueda. \n\n Tu turno termina inmediatamente. A continuación, adquieres el estado Aturdido.
+EventGlobeOnlyGuilty.button1,Continuar
+EventGlobeOnlyInnocent.text,Para tu alivio, no encuentras nada dentro más que polvo. Sin otro lugar donde buscar los secretos de Eugene, concluyes que aún no debe haber sido corrompido. \n\n Adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
+EventGlobeOnlyInnocent.button1,Continuar
+TokenGlobePossible.text,¿Estará aquí el escondite secreto de Eugene?
+TokenGlobePossible.button1,{action} Buscar
+EventGlobeNotPossibleHidingPlace.button1,Continuar
+EventGlobeISPossibleHidingPlace.text,Al examinar el globo, te acuerdas del candado de rompecabezas que el decano Clemens siempre usaba para abrir el compartimento secreto. \n El profesor Smith está tan absorto en su lectura que no debería prestar importancia al hecho de verte toquetear un objeto tan mundano. Puedes intentar resolver el rompecabezas utilizando ({observation}).
+EventGlobeNotPossibleHidingPlace.text,Al examinar el globo, te das cuenta de que este no era el lugar del escondite secreto. \n\n Descarta esta Ficha de Búsqueda.
+EventGlobeISPossibleHidingPlace.button1,Continuar
+TokenExploreClassToMeetingRoom.text,Esta puerta debe conducir a la sala de reuniones del personal.
+TokenExploreClassToMeetingRoom.button1,{action} Buscar
+EventEnterMeetingRoom.text,Puede deducirse que aquí se han celebrado muchas reuniones a lo largo de los años. El suelo está rayado debajo de las sillas, la mesa está llena de manchas de café y las paredes están ligeramente descoloridas. Sin embargo, la habitación permanece libre de polvo y, aparte de los papeles esparcidos sobre la mesa, la habitación está bastante bien cuidada. \n\n Coloca el módulo {c:TileSmallClass} en el lugar señalado.
+EventEnterMeetingRoom.button1,Continuar
+EventAddSearchTokenMeetingRoomDesk.text,Puede que valga la pena echarle un vistazo a los papeles del escritorio. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenMeetingRoomDesk.button1,Continuar
+EventAddSearchTokenMeetingRoomShelves.text,Los estantes están llenos de diversas rarezas y libros. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenMeetingRoomShelves.button1,Continuar
+EventAddExploreTokenDeanToMeeting.text,Una puerta a la derecha conduce a la oficina del decano. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenDeanToMeeting.button1,Continuar
+EventAddExploreTokenMeetingToClass.text,La puerta que hay cerca del atril conduce a la única aula de este edificio. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenMeetingToClass.button1,Continuar
+SpawnFlyingSerpentMirror.text,Deslizándose por el aire, una enorme serpiente entra a través del espejo y se cierne frente a ti. Algo rojo parece estar pegado a su cuello. Para tu horror, la puerta se cierra y se bloquea detrás de ti, y un campo de energía surge alrededor de la puerta impidiéndote alcanzar el pomo. \n\n Aparece una Serpiente Emplumada. A continuación, coloca una Ficha de Exploración en el lugar señalado y descarta esta Ficha de Búsqueda.
+EventAddSearchTokenSkeleton.button1,Continuar
+EventAddSearchTokenPodium.text,¡Casi lo olvidas! El atril podría ser el escondite secreto del que te habló Eugene hace años. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenPodium.button1,Continuar
+TokenSearchMeetingTable.text,Al observar los papeles, reconoces la letra de Howard Bechman, el bibliotecario jefe, en algunas anotaciones. Quizás se le cayó de su carpeta de notas.
+TokenSearchMeetingTable.button1,{action} Buscar
+EventMeetingRoomPapersLibrarianGuilty.text,Al leer los papeles, adviertes que hay escrito algún tipo de código. Al estar familiarizado con la forma de pensar de Howard, es posible que puedas descubrir lo que esconde con un poco de esfuerzo mental ({lore}; 2).
+EventMeetingRoomPapersLibrarianGuilty.button1,Superas la prueba
+EventMeetingRoomPapersLibrarianGuilty.button2,Fallas la prueba
+EventMeetingRoomPapersFail.text,Desafortunadamente, Howard parece haber utilizado un cifrado muy intrincado que no eres capaz de descifrar. \n\n Descarta esta Ficha de Búsqueda.
+EventMeetingRoomPapersFail.button1,Continuar
+EventMeetingRoomPapersPassGuiltyEvidence.text,No te lleva mucho tiempo en comprender el código de Howard. Sorprendentemente, encuentras referencias a su pertenencia al Culto del Ojo Verde. Por lo que parece, el culto le asignó la tarea de investigar acerca del Calendario sideral. \n Para nada hubieras imaginado que Howard pudiera estar implicado en esta secta. Al menos ahora sabes que no puedes confiar en él. \n\n Ganas 2 Pistas {clue} y el Objeto Único Prueba incriminatoria. \n A continuación, descarta esta Ficha de Búsqueda.
+EventMeetingRoomPapersPassGuiltyEvidence.button1,Continuar
+EventMeetingRoomPapersPassNOEvidence.text,Las páginas detallan su investigación sobre el Calendario sideral, aunque se refiere a él como el «Artefacto Dimensional». Sus notas afirman que puede ser de origen sobrenatural. Esto explicaría las extrañas constelaciones grabadas en su superficie y que son sospechosamente diferentes a cualquier constelación conocida que se pueda observar desde la Tierra. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventMeetingRoomPapersPassNOEvidence.button1,Continuar
+EventMeetingRoomPapersLibrarianInnocent.text,Las páginas detallan su investigación sobre el Calendario sideral, aunque solo refiere a él como el «Artefacto Dimensional». Sus notas afirman que puede ser de origen sobrenatural. Esto explicaría las extrañas constelaciones grabadas en su superficie y que son sospechosamente diferentes a cualquier constelación conocida que se pueda observar desde la Tierra. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+EventMeetingRoomPapersLibrarianInnocent.button1,Continuar
+TokenSearchMeetingShelves.text,Percibes un extraño zumbido y una misteriosa luz púrpura a medida que te acercas al estante.
+TokenSearchMeetingShelves.button1,{action} Buscar
+EventSearchMeetingRoomShelves.text,¿Qué es esto? Ves un extraño artefacto de donde proviene el zumbido y la luz. \n ¿Es posible que esté reaccionando a la proximidad del Calendario sideral?
+EventSearchMeetingRoomShelves.button1,Cogerlo
+EventSearchMeetingRoomShelves.button2,Dejarlo
+EventTakeArtifact.text,Tan pronto como agarras el artefacto, sientes una energía abrumadora surgiendo de tu cuerpo. El impulso por poseerlo es irresistible. Lo colocas en tu bolsillo para mantenerlo a salvo, aunque parece ser una fuente de poder maligno. \n La energía que te atraviesa es sanadora y destructiva al mismo tiempo. \n\n Descarta todo tu Daño <b>u</b> Horror. \n Si descartas tu Horror, sufres la misma cantidad de Daño boca abajo. \n Si descartas tu Daño, sufres la misma cantidad de Horror boca abajo. \n\n Ganas el Objeto Único {c:QItemRelic} y 2 Pistas {clue}. \n A continuación, descarta esta Ficha de Búsqueda. \n\n Nota: este objeto está maldito y no se puede intercambiar ni descartar. Si un evento requiere que pierdas este objeto, en su lugar, sufres 1 de Daño boca abajo.
+EventTakeArtifact.button1,Continuar
+EventLeaveArtifact.text,Temiendo lo que pueda suceder si lo coges, te alejas esperando haber tomado la decisión correcta.
+EventLeaveArtifact.button1,Continuar
+TokenSearchSkeleton.text,La visión te mostró a la Dra. Barnett dibujando algo en el cráneo de este esqueleto de demostración.
+TokenSearchSkeleton.button1,{action} Buscar
+EventSearchSkeleton.text,Analizas detenidamente la calavera en busca de algún tipo de simbología extraña.
+EventSearchSkeleton.button1,Continuar
+EventSearchSkeletonDoctorGuilty.button1,Continuar
+EventSearchSkeletonDoctorInnocent.text,No llegas a ver ninguna marca dentro del cráneo. Sin embargo, al tocar el esqueleto para intentar ver mejor, sientes que sus huesos comienzan a vibrar y, de repente, una mano esquelética te agarra del brazo. Ahora entiendes que la visión de la Dra. Barnett fue una simple ilusión óptica creada por los poderes del Calendario sideral para atraerte a una trampa. El esqueleto cobra vida y las puertas de la habitación se sellan con una energía sobrenatural. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). \n Coloca dos Fichas de Exploración en los lugares señalados.
+EventSearchSkeletonDoctorInnocent.button1,Continuar
+TokenMeetingRoomLeftLocked.text,Es imposible alcanzar el pomo de la puerta debido al campo de energía que la protege.
+TokenMeetingRoomLeftLocked.button1,Continuar
+TokenMeetingRoomRightLocked.text,Es imposible alcanzar el pomo de la puerta debido al campo de energía que la protege.
+TokenMeetingRoomRightLocked.button1,Continuar
+SpawnSkeleton.text,Las cuencas de los ojos del esqueleto se iluminan de rojo a medida que desciende del gancho que lo mantenía en su lugar. Su intención es malévola. \n\n Aparece un Esqueleto en el lugar señalado. \n A continuación, descarta esta Ficha de Búsqueda.
+SpawnSkeleton.button1,Continuar
+EventSkeletonNoEvidenceYet.text,No llegas a ver ninguna marca dentro del cráneo. Sin embargo, al tocar el esqueleto para intentar ver mejor, sientes que sus huesos comienzan a vibrar y, de repente, una mano esquelética te agarra del brazo. Ahora entiendes que la visión de la Dra. Barnett fue una simple ilusión óptica creada por los poderes del Calendario sideral para atraerte a una trampa. El esqueleto cobra vida y las puertas de la habitación se sellan con una energía sobrenatural. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). \n\n Coloca dos Fichas de Exploración en los lugares señalados.
+EventSkeletonNoEvidenceYet.button1,Continuar
+EventKillSkeleton.text,Tan pronto como el esqueleto se desmorona en un montón de huesos sin vida, desaparece y vuelve a su apariencia original, suspendido en el gancho donde lo encontraste. Las puertas se liberan de la energía siniestra que las protegía, dejando la habitación como estaba cuando entraste por primera vez. \n\n Descarta de nuevo la(s) Ficha(s) de Exploración que habías colocado. Mantén en el tablero las que aún no habías explorado.
+EventKillSkeleton.button1,Continuar
+EventSkeletonGuiltyEvidence.text,Al analizar el cráneo del esqueleto descubres unos extraños símbolos dibujados. Los reconoces como marcas rituales que han sido relacionadas con el Culto del Ojo Verde. No sabes lo que significan, pero sabes que esto prueba la culpabilidad de la Dra. Barnett. \n\n Ganas el Objeto Único Componentes de ritual y 2 Pistas {clue} \n A continuación, descarta esta Ficha de Búsqueda.
+EventSkeletonGuiltyEvidence.button1,Continuar
+TokenSearchMeetingPodium.text,¿Podría ser ésta la ubicación del escondite secreto de Eugene?
+TokenSearchMeetingPodium.button1,Continuar
+EventPodiumNOTPossibleHidingPlace.text,Al examinar el atril, compruebas que este no era el lugar del escondite de Eugene. \n\n Descarta esta Ficha de Búsqueda.
+EventPodiumNOTPossibleHidingPlace.button1,Continuar
+EventPodiumISPossibleHidingPlace.text,Al examinar el atril, recuerdas el candado de rompecabezas que el decano Clemens siempre usaba para abrir el compartimiento secreto. Puedes intentar resolver el rompecabezas utilizando ({observation}).
+EventPodiumISPossibleHidingPlace.button1,Continuar
+TokenSearchPodiumPuzzle.text,Puedes seguir intentando resolver el rompecabezas utilizando ({observation}).
+PuzzlePodiumPuzzle.button1,Resolver
+TokenSearchPodiumPuzzle.button1,{action} Resolver
+EventPodiumInnocent.text,Para tu alivio, no encuentras nada dentro más que polvo. Sin otro lugar donde buscar los secretos de Eugene, concluyes que aún no debe haber sido corrompido. \n\n Adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
+EventPodiumInnocent.button1,Continuar
+EventPodiumGuilty.text,Una pequeña parte del atril sobresale a medida que completas el rompecabezas. En el interior, ves un dedo ensangrentado en un frasco de cristal que debe haber sido cortado hace unas pocas horas. Imaginas el destino que debe haber sufrido el resto del cuerpo. \n\n Hay una pequeña nota envuelta alrededor del frasco. La desenvuelves y, para tu disgusto, encuentras un texto dirigido a los líderes del Culto del Ojo Verde: \n\n «<i>Yo, Eugene Clemens, decano de la Universidad de Miskatonic, he realizado el sacrificio de iniciación. El dedo de este frasco es la prueba de que realicé la tarea solicitada. Acepte mi membresía en su estimado grupo</i>». \n\n Te preguntas si puedes confiar en tu viejo amigo pero agachas la cabeza consternado. Después de colocar la nota y el frasco tal como lo habías encontrado, devuelves el atril a su configuración original. Ganas 2 Pistas {clue} y el Objeto Único Prueba Forense. A continuación, descarta esta Ficha de Búsqueda. \n\n Tu turno termina inmediatamente. A continuación, adquieres el estado Aturdido.
+EventPodiumGuilty.button1,Continuar
+EventMythosStarCalendar.button1,Button1
+EventTeleport1stTime.button1,Continuar
+EventMythosStarCalendarTeleport.button1,Continuar
+SpawnSerpentAfterTeleport.text,Uno de los «hijos» a los que se refería la voz se desliza hacia ti. Claramente, parece que estás destinado a ser sacrificado en este altar como muchos otros deben haber sido antes. \n\n Aparece un Hombre Serpiente en el lugar señalado.
+EventTeleport1stTime.text,Una voz siniestra susurra en la mente del investigador que posea el Calendario sideral. \n\n —<i>¡Tu cuerpo insignificante me pertenece! ¡Mis hijos cosecharán tu sangre y recuperarán lo que es nuestro!</i> \n\n El investigador que posea el Calendario sideral se desvanece silenciosamente en el aire, junto con cualquier otro investigador que estuviera en su espacio. \n\n Todos los investigadores afectados son teletransportados a una ubicación desconocida, rodeados por una oscura y densa niebla. Distingues un altar cubierto de manchas de sangre. \n\n Sufres 2 de Horror boca abajo (anulados por {will}). \n A continuación, coloca el módulo {c:TileAltar} y a los investigadores afectados en el lugar señalado.
+SpawnSerpentAfterTeleport.button1,Continuar
+SpawnSerpentPersonTeleport2nd3rdEtc.button1,Continuar
+SpawnSerpentPersonTeleport2nd3rdEtc.text,De nuevo, oyes la voz que sisea amenazando tu vida. El investigador que posea el Calendario sideral, y cualquier investigador en su espacio, son teletransportados de regreso al horrible lugar que desearían poder olvidar para siempre. \n\n Sufres 1 de Horror boca abajo (anulados por {will}). \n Coloca a los investigadores en el espacio del altar. \n A continuación, aparece un Hombre Serpiente en el lugar señalado.
+EventKillSerpentPersonAfterTeleport.text,Te deshaces de la terrible criatura y su espesa sangre verde fluye hacia la tierra. De repente, escuchas el atronador sonido de miles de serpientes silbando desde el cielo. \n Empiezas a desaparecer y reapareces nuevamente fuera del edificio. \n\n Coloca a los investigadores en el lugar señalado.
+EventKillSerpentPersonAfterTeleport.button1,Continuar
+EventKillSerpentPersonAfterTeleport2.text,Te deshaces de la terrible criatura y su espesa sangre verde fluye hacia la tierra. De repente, escuchas el atronador sonido de miles de serpientes silbando desde el cielo. \n Empiezas a desaparecer y reapareces nuevamente fuera del edificio. \n\n Coloca a los investigadores en el lugar señalado.
+EventKillSerpentPersonAfterTeleport2.button1,Continuar
+EventMythosStarCalendarImmobilize.text,De repente, el Calendario sideral se vuelve extraordinariamente pesado. El investigador que posea el Calendario sideral lucha contra la abrumadora carga durante largos segundos hasta que de repente vuelve a la normalidad. \n\n Sufres 2 de Daño (anulados por {strength}). A continuación, adquieres el estado Restringido.
+EventMythosStarCalendarImmobilize.button1,Continuar
+EventMythosStarCalendarTorment.text,Horribles visiones atormentan al investigador que sostiene el Calendario sideral. El mal que viste en el templo cuando tocaste por primera vez esta maldita reliquia acecha tu mente y se filtra en los rincones más profundos de tu psique. \n\n Sufres 4 de Horror (anulados por {will}).
+EventMythosStarCalendarTorment.button1,Continuar
+EventMythosRndmHaunting.text,A {rnd:hero} le siguen atormentando los horrores experimentados durante la reciente expedición. Las horribles criaturas, la sangre y el aura cruel del templo no se olvidan con facilidad. \n\n Sufres 1 de Horror boca abajo. A continuación, pon boca arriba 1 de Horror.
+EventMythosRndmHaunting.button1,Continuar
+EventMythosRndmScars.text,{rnd:hero} siente como las viejas heridas sufridas durante la última expedición se desgarran y empiezan a sangrar. Casi como si el templo las estuviera arañando desde la distancia para tratar de destruirte antes de que descubras la verdadera naturaleza del Calendario sideral. \n\n Sufres 3 de Daño boca abajo (anulados por {strength}). \n A continuación, pon boca arriba 1 de Daño.
+EventMythosRndmScars.button1,Continuar
+EventMythosRndmWandering.text,De repente, todos los investigadores quedan bajo el control de una misteriosa entidad. Tus piernas te obligan a caminar hacia la entrada del edificio, como si algo quisiera que abandonaras este lugar. Lo que más temes es adónde te llevará finalmente. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). \n Por cada Horror que sufras, muévete 2 espacios hacia la ubicación exterior más cercana.
+EventMythosRndmWandering.button1,Continuar
+EventMythosRndmFearless.text,Por un instante, los eventos de la investigación paralizan de miedo a {rnd:hero}. \n ¿Podrás estar a salvo con un artefacto tan peligroso sabiendo que continuamente serás perseguido por aquellos que ansían su poder? \n La responsabilidad de mantener a salvo la reliquia es muy peligrosa, pero tomar riesgos también conlleva algunos beneficios. \n\n Sufres 3 de Horror (anulados por {will}). \n Si no sufres Horror, adquieres 2 copias del estado Intrépido. \n Descarta sólo uno de ellos por turno.
+EventMythosRndmFearless.button1,Continuar
+EventMythosRndmPoison.text,{rnd:hero} ve como una pequeña grieta espacial se abre el tiempo suficiente como para que una víbora le ataque e intente infligir su veneno. Luego retrocede hacia el portal, desapareciendo tan repentinamente como apareció ({observation} + {agility}; 4). \n\n Si fallas la tirada, sufres 1 de Daño boca abajo y adquieres el estado Envenenado.
+EventMythosRndmPoison.button1,Continuar
+EventMythosRndmObsess.button1,Continuar
+EventEventMythosRndmStunned.text,Una voz sisea y atraviesa la mente de {rnd:hero}. \n\n —<i>¡No puedes escapar de mi ira! ¡Sufre y muere sumido en la miseria!</i> \n\n Una sensación penetrante y abrasadora fluye dentro de tu cabeza, pero no puedes gritar a pesar del insoportable dolor. La única señal visible de tu sufrimiento proviene de la lágrima que se forma en tu ojo. \n\n Sufres 2 de Daño boca abajo y 2 de Horror boca abajo (anulados por {strength} + {will}). \n Si sufres al menos 1 de Daño, adquieres el estado Aturdido.
+EventEventMythosRndmStunned.button1,Continuar
+EventMythosRndmVisions.text,Extrañas visiones de escamas y colmillos se proyectan ante los ojos de {rnd:hero}. A continuación, escuchas palabras en un idioma antiguo. Te esfuerzas por entender el lenguaje vagamente familiar y esperas que ello te produzca algo de paz y serenidad. \n\n Sufres 3 de Horror boca abajo (anulados por {lore}). \n Si no sufres Horror, ganas 1 Pista {clue}
+EventMythosRndmVisions.button1,Continuar
+EventMythosStarCalendarStrikeAlly.text,El investigador que sostiene el Calendario sideral siente repentinamente una obsesiva necesidad de atacar a sus aliados. Intentas controlarte ({agility} + {strength}). \n Por cada éxito que falte para llegar a 5, debes infligir 1 de Daño boca abajo a otro investigador que esté en tu espacio o en un espacio adyacente (este daño se puede dividir entre varios investigadores). \n\n Si atacas a un investigador en un espacio adyacente, debes moverte a ese espacio. \n\n En caso de que tuvieras que infligir daño a otro investigador pero no hubiera ninguno lo suficientemente cerca para atacarle, sufres 1 de Daño boca abajo (sin importar cuántos éxitos menos de 5 hayas obtenido) y a continuación, pon boca arriba 1 de Daño.
+EventMythosStarCalendarStrikeAlly.button1,Continuar
+EventShowLibrarianStarCalendar.text,¿Estás seguro de que quieres mostrarle el Calendario sideral a Howard Bechman?
+EventShowLibrarianStarCalendar.button1,¡Sí!
+EventShowLibrarianStarCalendar.button2,¡No!
+EventStarCalendarLibrarianGuilty.text,Después de explicarle con detalle tu reciente expedición y todos los eventos ocurridos, finalmente le revelas el Calendario sideral a Howard Bechman. Descarta el Calendario sideral. \n\n Howard fija su mirada en el artefacto y te lo arrebata antes de que puedas reaccionar. La malévola sonrisa que se extiende por su rostro hace que tu corazón se hunda. \n\n —<i>Resulta entonces que encuentra este precioso artefacto, intenta ocultárnoslo hábilmente, y luego, sin embargo, ¿me lo entrega en bandeja de plata?</i> —Se ríe amenazadoramente—. <i>No tiene ni idea de lo que es este artefacto, ¿verdad? Pues con mucho gusto se lo diré. Es el camino hacia el mundo de Yig, el Maestro de las Serpientes. Debidamente utilizada, esta antigua reliquia nos permitirá traer a Yig a nuestro mundo!</i> \n\n Furioso por tu grave error, intentas recuperar el Calendario sideral, pero ya es demasiado tarde. Howard pronuncia unas extrañas palabras mientras se aleja de ti. \n La oscuridad te envuelve.
+EventStarCalendarLibrarianGuilty.button1,Continuar
+EventFinalBattleSetup.text,Las palabras malditas te teletransportan lejos de la universidad, dejándote en un paisaje espantoso. Estás junto a un enorme altar, en medio de una oscuridad creciente y con vientos caóticos. \n\n Coloca el módulo {c:TileFinalBattle} y las miniaturas de todos los investigadores en el lugar señalado.
+EventFinalBattleSetup.button1,Continuar
+SpawnYig.text,A medida que recuperas la compostura, ves una criatura espantosa sobre el altar mirando con malicia cada centímetro de su ser. Sisea en voz alta: \n\n —<i>Tu mundo está lleno de estúpidos sacos de carne dispuestos a seguirme, y ahora me han enviado otro nuevo sacrificio. ¡Soy Yig, Maestro de las Serpientes! Una vez que haya saciado mi sed con tu sangre, mis seguidores me invocarán a tu mundo donde seré el Gran Destructor, deleitándome incansablemente con vuestra carne humana!</i> \n\n Al temer que pudiera pasar lo peor cuando planeaste visitar la Universidad de Miskatonic, te preparaste a consciencia. Dadas las circunstancias, este puede ser el momento perfecto para exponer todo tu armamento pesado. \n\n Un investigador gana el Objeto Común Escopeta y otro investigador gana el Objeto Común Metralleta. \n A continuación aparece un Lloigor en el lugar señalado. \n Este es Yig, Maestro de Serpientes.
+SpawnYig.button1,Continuar
+CustomMonsterYig.monstername,Yig
+EventYigAttacks.button1,Button1
+CustomMonsterYig.info,-
+EventYigAttack1.text,Yig, el Maestro de las Serpientes lanza su cola formando un enorme arco. Todos los investigadores intentan saltar el inmenso apéndice antes del impacto, con la esperanza de evitar las afiladas hojas que hay incrustadas en él. \n\n Cada investigador sufre 3 de Daño (anulados por {agility}). Si sufres al menos 1 de Daño, muévete 1 espacio.
+EventYigAttack1.button1,Continuar
+EventYigAttack2.text,Yig inhala profundamente, y luego, con una violenta ráfaga, exhala una niebla verde y tóxica. Cada investigador en el espacio de Yig y en el espacio adyacente donde haya más investigadores adquieren el estado Envenenado y el estado Aturdido.
+EventYigAttack2.button1,Continuar
+EventYigAttack3.text,Levantando sus garras hacia las negras nubes que cubren el campo de batalla, Yig invoca una lluvia de colmillos venenosos. \n\n Todos los investigadores que NO estén en el espacio central sufren 3 de Daño boca abajo (anulados por {observation}). Si sufres al menos 1 de Daño, adquieres el estado Envenenado.
+EventYigAttack3.button1,Continuar
+EventYigAttack4.text,Con una violenta energía, Yig corta el altar con sus afiladas garras, largas como espadas. Todos los investigadores en su espacio sufren 6 de Daño (anulados por {agility} + {observation}).
+EventYigAttack4.button1,Continuar
+EventYigAttack5.text,Una poderosa energía comienza a tirar de ti hacia la monstruosa forma de Yig. Todos los investigadores deben realizar una prueba de ({strength}; 3). \n\n Si superas la tirada, te mantienes firme. \n Si la fallas, muévete al espacio central. A continuación, sufres 1 de Daño boca abajo. \n Si ya estabas en el espacio central, sufres 1 de Daño boca abajo. \n A continuación, pon boca arriba 1 de Daño.
+EventYigAttack5.button1,Continuar
+EventEvadeYig.button1,Button1
+EventYigHorror1.text,La ominosa presencia de Yig es abrumadora. Su figura serpenteante no se parece a nada que hayas visto antes, y el simple hecho de saber de su existencia ya es una tortura para tu mente. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). \n A continuación, pon boca arriba 1 de Horror.
+EventYigHorror1.button1,Continuar
+EventYigHorror2.text,Yig cesa en su ataque e intenta persuadirte para que te unas a él como uno de sus hijos. Tan solo tendrías que aceptar el cuerpo de serpiente que te concede. \n\n Sufres 2 de Horror boca abajo (anulados por {influence}).
+EventYigHorror2.button1,Continuar
+EventYigHorror3.text,Yig habla en varios dialectos sudamericanos antiguos. Temes sus palabras, pero entender algunas de ellas aliviaría la tensión en tu mente. \n\n Sufres 2 de Horror boca abajo (anulados por {lore}).
+EventYigHorror3.button1,Continuar
+EventYigHorror.button1,Button1
+EventEvadeYig1.text,Mirándote fijamente, Yig te agarra y envuelve tu cuerpo mientras tú intentas escapar por debajo de su masa opresiva. \n\n Sufres 2 de Daño boca abajo (anulados por {strength}). \n Si sufres al menos 1 de Daño, pierdes tu acción.
+EventEvadeYig1.button1,Continuar
+EventEvadeYig2.text,Yig provoca un barrido con su enorme cola de púas para evitar que te escapes. \n\n Sufres 2 de Daño boca abajo (anulados por {agility}). \n Si sufres al menos 1 de Daño, pierdes tu acción.
+EventEvadeYig2.button1,Continuar
+CustomMonsterYig.Attack_bladed_1,-
+EventStarCalendarLibrarianInnocent.text,Con la máxima urgencia, finalmente le cuentas la verdad sobre el Calendario sideral y tu expedición a Howard Bechman. \n Howard queda asombrado por tu historia, pero no parece muy conmovido. \n\n —<i>Desde que los rumores de esta reliquia cobraron importancia en Arkham, muchas personas y grupos han investigado su veracidad y el inmenso poder que la envuelve.</i> —explica—. <i>Incluso aquí en la Universidad de Miskatonic, hemos aprendido más de lo que se podría esperar. Me alegro de que me haya puesto al corriente sobre esto, ya que tendremos que llevar a cabo un ritual de inmediato para sofocar el poder maligno del artefacto y desterrarlo al mundo de donde proviene para siempre. ¿Cree que deberíamos contar con la ayuda del resto del personal?</i> \n\n Rápidamente convences a Howard de que no se puede confiar en nadie más. \n\n Por cada Prueba que hayáis encontrado, cada investigador puede poner boca abajo 1 de Horror o descartar 1 de Horror boca abajo.
+EventStarCalendarLibrarianInnocent.button1,Continuar
+EventBeginRitualWithLibrarian.text,Descarta el Objeto Único Calendario sideral. \n Colocándolo con cuidado en el suelo, te preparas para seguir las instrucciones de Howard Bechman. \n\n Howard continúa: \n\n —<i>La investigación que hemos realizado colectivamente me lleva a creer que este artefacto es una conexión entre mundos. La leyenda cuenta que una poderosa entidad, conocida como Yig, pudo enviar el artefacto a nuestro planeta hace cientos de años. Con una comprensión adecuada de sus poderes, Yig podría ser invocado a nuestro mundo. Este parece ser el motivo que hay detrás del interés del Culto del Ojo Verde por este artefacto. Son seguidores de este ser infame y creen que marcarán el comienzo de una nueva era donde mantendrán importantes cargos bajo el oscuro gobierno de Yig</i>. \n\n —<i>¡Ahora, desterremos esta piedra maligna de regreso al reino de Yig! Cuanto más claro pronunciemos la magia ritual, más efectivos seremos. Sin embargo, antes debemos dibujar las extrañas constelaciones que aparecen en el Calendario sideral en el suelo. Una vez que hayamos completado ambas partes del ritual, colocaremos el artefacto en el centro de las constelaciones, lo cual debería hacer que se teletransportase de regreso a Yig, destruido en cientos de pedazos</i>. \n\n Coloca 2 Fichas de Interacción en los lugares señalados.
+EventBeginRitualWithLibrarian.button1,Continuar
+EventAddBarricades.text,Algunos estantes y muebles podrían usarse para bloquear alguna puerta en caso de necesidad. \n\n Coloca 2 Fichas de Obstrucción en los lugares señalados.
+EventAddBarricades.button1,Continuar
+EventAlertCultists.text,Mientras tu aliado pronuncia las primeras palabras del ritual mágico, el Calendario sideral emite un sonido atronador y vibra violentamente en el suelo. Alertados por la onda expansiva, tus enemigos se dan cuenta de tu propósito.
+EventAlertCultists.button1,Continuar
+EventEnemiesAlerted.button1,Button1
+EventEugeneToMonster.button1,Button1
+SpawnDeanWarlockHall1stTime.button1,Button1
+SpawnDeanWarlockHall1stTime.text,Buscando la fuente de la perturbación, Eugene siente el poder del Calendario sideral. \n\n —<i>Entonces, por eso vino aquí esta noche. Creo que ya estoy listo para nuestra reunión.</i> —dice con una sonrisa siniestra—. \n\n Aparece un Brujo en el lugar señalado.
+SpawnDeanWarlockHall2ndTime.text,Buscando la fuente de la perturbación, Eugene siente el poder del Calendario sideral. \n\n —<i>Entonces, por eso vino aquí esta noche. Creo que ya estoy listo para nuestra reunión.</i> —dice con una sonrisa siniestra—. \n\n Aparece un Brujo en el lugar señalado.
+SpawnDeanWarlockHall2ndTime.button1,Continuar
+SpawnDeanWarlockBathroomLobby.text,Buscando la fuente de la perturbación, Eugene siente el poder del Calendario sideral. \n\n —<i>Entonces, por eso vino aquí esta noche. Creo que ya estoy listo para nuestra reunión.</i> —dice con una sonrisa siniestra—. \n\n Aparece un Brujo en el lugar señalado.
+SpawnDeanWarlockBathroomLobby.button1,Continuar
+SpawnDeanWarlockBathroom.text,Buscando la fuente de la perturbación, Eugene siente el poder del Calendario sideral. \n\n —<i>Entonces, por eso vino aquí esta noche. Creo que ya estoy listo para nuestra reunión.</i> —dice con una sonrisa siniestra—. \n\n Aparece un Brujo en el lugar señalado.
+SpawnDeanWarlockBathroom.button1,Continuar
+SpawnDeanWarlockOffice.text,Buscando la fuente de la perturbación, Eugene siente el poder del Calendario sideral. \n\n —<i>Entonces, por eso vino aquí esta noche. Creo que ya estoy listo para nuestra reunión.</i> —dice con una sonrisa siniestra—. \n\n Aparece un Brujo en el lugar señalado.
+SpawnDeanWarlockOffice.button1,Continuar
+EventProfessorSmithToMonster.button1,Button1
+SpawnProfessorSerpentPerson.text,El cuerpo del profesor se ondula cuando una energía antinatural atraviesa el edificio. Grandes trozos de carne caen de su cuerpo, revelando su verdadera naturaleza como seguidor de Yig. \n\n Aparece un Hombre Serpiente en el lugar señalado.
+SpawnProfessorSerpentPerson.button1,Continuar
+EventDoctorToMonster.button1,Button1
+SpawnDoctorFeatheredSerpent.button1,Continuar
+EventLibrarianToMonster.button1,Button1
+SpawnDoctorFeatheredSerpent.text,La Dr. Barnett grita mientras el artefacto vibra desprendiendo su energía oscura. \n Dos enormes alas le brotan de la espalda y su piel humana se desprende sobre el frío suelo. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
+SpawnLibrarianSerpentPerson.text,El bibliotecario jefe cae al suelo y su lengua bífida se retuerce en el aire. Su forma escamosa brota desde su cuerpo humano, y sus ojos verdes están llenos de la ira de Yig. \n\n Aparece un Hombre Serpiente en el lugar señalado.
+SpawnLibrarianSerpentPerson.button1,Continuar
+EventLibrarianBringsFriends.text,Lleno de furia, Howard Bechman regresa con otros miembros de la secta. \n\n —<i>¡Sacrificaremos tu cadáver a Yig, el Maestro de las Serpientes!</i> —grita.
+EventLibrarianBringsFriends.button1,Continuar
+SpawnLibrarianSerpentPersonOutside.text,El cuerpo de Howard se retuerce incontrolablemente mientras su verdadera forma serpentina se desliza desde el interior de su cadáver humano. \n\n Aparece un Hombre Serpiente en el lugar señalado.
+SpawnLibrarianSerpentPersonOutside.button1,Continuar
+SpawnAllyWarlock.text,Aparece un Brujo en el lugar señalado.
+SpawnAllyWarlock.button1,Continuar
+SpawnAllyHumanoid.text,Aparece un {c:SpawnAllyHumanoid} en el lugar señalado.
+SpawnAllyHumanoid.button1,Continuar
+EventNoMythos1.button1,Continuar
+EventNoMythos2.button1,Continuar
+EventNoMythos3.button1,Continuar
+EventStarCalendarDestroyItem.button1,Continuar
+EventNoMythos6.button1,Continuar
+EventNoMythos5.button1,Continuar
+EventStarCalendarDestroyItem.text,Siseando amenazadoramente, una voz insta al investigador que posea el Calendario sideral a destruir sus pertenencias. \n\n —<i>Deshazte de estas cosas materiales. Sólo necesitas la reliquia que llevas contigo.</i> ({influence}; 2) \n\n Si fallas la tirada, mezcla tus Objetos Comunes, Objetos Únicos (excluyendo el Calendario sideral) y Hechizos. \n A continuación, descarta uno de ellos al azar y sufres 1 de Horror.
+EventNoMythos4.button1,Continuar
+TokenInteractLibraryRitual.button1,{action} Ayudar con el ritual
+EventRitualComplete.text,Tus palabras finalmente han activado el Calendario sideral. Empieza a brillar intensamente y las vibraciones finalmente cesan. \n\n Descarta esta Ficha de Interacción.
+EventParticipateInRitual.text,Al escuchar la letanía que recita tu aliado, intentas repetir las mismas palabras lo mejor que puedes ({lore}). \n\n *Nota: después de cada intento, suma el nuevo resultado de éxitos al total de éxitos acumulados de intentos anteriores.
+EventParticipateInRitual.button1,Continuar
+EventRitualInProgress.text,Debéis seguir intentándolo. Cuanto más trabajéis juntos, antes podréis devolver el horrible artefacto de vuelta al reino de Yig.
+EventRitualInProgress.button1,Continuar
+TokenInteractLibraryRitual.text,Puedes ayudar con en el ritual.
+EventRitualComplete.button1,Continuar
+EventVictoryAfterRitual.button1,Button1
+TokenInteractLibraryEtching.text,Debes dibujar en el suelo un diagrama con las constelaciones que tiene grabadas el Calendario sideral. \n Puedes intentar resolver el rompecabezas utilizando ({lore}).
+TokenInteractLibraryEtching.button1,{action} Resolver
+PuzzleEtching2to3.button1,Resolver
+EventCompleteEtching.text,Finalmente completas el diagrama. \n\n Descarta esta Ficha de Interacción.
+PuzzleEtching4to5.button1,Resolver
+EventCompleteEtching.button1,Continuar
+EventVictoryAfterEtching.button1,Button1
+TokenInteractDoctorRitual.text,Puedes ayudar con en el ritual.
+TokenInteractDoctorRitual.button1,{action} Ayudar con el ritual
+TokenInteractDeanRitual.text,Puedes ayudar con en el ritual.
+TokenInteractDeanRitual.button1,{action} Ayudar con el ritual
+TokenInteractClassRitual.text,Puedes ayudar con en el ritual.
+TokenInteractClassRitual.button1,{action} Ayudar con el ritual
+TokenInteractDoctorEtching.text,Debes dibujar en el suelo un diagrama con las constelaciones que tiene grabadas el Calendario sideral. \n Puedes intentar resolver el rompecabezas utilizando ({lore}).
+TokenInteractDoctorEtching.button1,{action} Resolver
+TokenInteractDeanEtching.text,Debes dibujar en el suelo un diagrama con las constelaciones que tiene grabadas el Calendario sideral. \n Puedes intentar resolver el rompecabezas utilizando ({lore}).
+TokenInteractDeanEtching.button1,{action} Resolver
+TokenInteractClassEtching.text,Debes dibujar en el suelo un diagrama con las constelaciones que tiene grabadas el Calendario sideral. \n Puedes intentar resolver el rompecabezas utilizando ({lore}).
+TokenInteractClassEtching.button1,{action} Resolver
+EventShowDoctorStarCalendar.text,¿Estás seguro de que quieres mostrarle el Calendario sideral a la Dra. Barnett?
+EventShowDoctorStarCalendar.button1,¡Sí!
+EventShowDoctorStarCalendar.button2,¡No!
+EventRevealStarCalendarToDean.text,¿Estás seguro de que quieres mostrarle el Calendario sideral a Eugene Clemens?
+EventRevealStarCalendarToDean.button1,¡Sí!
+EventRevealStarCalendarToDean.button2,¡No!
+EventRevealStarCalendarToProfessor.text,¿Estás seguro de que quieres mostrarle el Calendario sideral al profesor Smith?
+EventRevealStarCalendarToProfessor.button1,¡Sí!
+EventRevealStarCalendarToProfessor.button2,¡No!
+EventRevealStarCalendarProfessorInnocent.button1,Continuar
+EventRevealStarCalendarDoctorGuilty.button1,Continuar
+EventRevealStarCalendarDoctorGuilty.text,Después de explicarle con detalle tu reciente expedición y todos los eventos ocurridos, finalmente le revelas el Calendario sideral a la Dra. Barnett. Descarta el Calendario sideral. \n\n Rose fija su mirada en el artefacto y te lo arrebata antes de que puedas reaccionar. La malévola sonrisa que se extiende por su rostro hace que tu corazón se hunda. \n\n —<i>Resulta entonces que encuentra este precioso artefacto, intenta ocultárnoslo hábilmente, y luego, sin embargo, ¿me lo entrega en bandeja de plata?</i> —Se ríe amenazadoramente—. <i>No tiene ni idea de lo que es este artefacto, ¿verdad? Pues con mucho gusto se lo diré. Es el camino hacia el mundo de Yig, el Maestro de las Serpientes. Debidamente utilizada, esta antigua reliquia nos permitirá traer a Yig a nuestro mundo!</i> \n\n Furioso por tu grave error, intentas recuperar el Calendario sideral, pero ya es demasiado tarde. Rose pronuncia unas extrañas palabras mientras se aleja de ti. \n La oscuridad te envuelve.
+EventRevealStarCalendarDeanGuilty.text,Después de explicarle con detalle tu reciente expedición y todos los eventos ocurridos, finalmente le revelas el Calendario sideral a Howard Bechman. Descarta el Calendario sideral. \n\n Howard fija su mirada en el artefacto y te lo arrebata antes de que puedas reaccionar. La malévola sonrisa que se extiende por su rostro hace que tu corazón se hunda. \n\n —<i>Resulta entonces que encuentra este precioso artefacto, intenta ocultárnoslo hábilmente, y luego, sin embargo, ¿me lo entrega en bandeja de plata?</i> —Se ríe amenazadoramente—. <i>No tiene ni idea de lo que es este artefacto, ¿verdad? Pues con mucho gusto se lo diré. Es el camino hacia el mundo de Yig, el Maestro de las Serpientes. Debidamente utilizada, esta antigua reliquia nos permitirá traer a Yig a nuestro mundo!</i> \n\n Furioso por tu grave error, intentas recuperar el Calendario sideral, pero ya es demasiado tarde. Howard pronuncia unas extrañas palabras mientras se aleja de ti. \n La oscuridad te envuelve.
+EventRevealStarCalendarDeanGuilty.button1,Continuar
+EventRevealStarCalendarProfessorGuilty.text,Después de explicarle con detalle tu reciente expedición y todos los eventos ocurridos, finalmente le revelas el Calendario sideral al profesor Smith. Descarta el Calendario sideral. \n\n Smith fija su mirada en el artefacto y te lo arrebata antes de que puedas reaccionar. La malévola sonrisa que se extiende por su rostro hace que tu corazón se hunda. \n\n —<i>Resulta entonces que encuentra este precioso artefacto, intenta ocultárnoslo hábilmente, y luego, sin embargo, ¿me lo entrega en bandeja de plata?</i> —Se ríe amenazadoramente—. <i>No tiene ni idea de lo que es este artefacto, ¿verdad? Pues con mucho gusto se lo diré. Es el camino hacia el mundo de Yig, el Maestro de las Serpientes. Debidamente utilizada, esta antigua reliquia nos permitirá traer a Yig a nuestro mundo!</i> \n\n Furioso por tu grave error, intentas recuperar el Calendario sideral, pero ya es demasiado tarde. Smith pronuncia unas extrañas palabras mientras se aleja de ti. \n La oscuridad te envuelve.
+EventRevealStarCalendarProfessorGuilty.button1,Continuar
+EventRevealStarCalendarDoctorInnocent.text,Con la máxima urgencia, finalmente le cuentas la verdad sobre el Calendario sideral y tu expedición a la Dra. Barnett. \n Rose queda asombrada por tu historia, pero no parece muy conmovida. \n\n —<i>Desde que los rumores de esta reliquia cobraron importancia en Arkham, muchas personas y grupos han investigado su veracidad y el inmenso poder que la envuelve.</i> —explica—. <i>Incluso aquí en la Universidad de Miskatonic, hemos aprendido más de lo que se podría esperar. Me alegro de que me haya puesto al corriente sobre esto, ya que tendremos que llevar a cabo un ritual de inmediato para sofocar el poder maligno del artefacto y desterrarlo al mundo de donde proviene para siempre. ¿Cree que deberíamos contar con la ayuda del resto del personal?</i> \n\n Rápidamente convences a la doctora de que no se puede confiar en nadie más. \n\n Por cada Prueba que hayáis encontrado, cada investigador puede poner boca abajo 1 de Horror o descartar 1 de Horror boca abajo.
+EventRevealStarCalendarDoctorInnocent.button1,Continuar
+EventRevealStarCalendarDeanInnocent.text,Con la máxima urgencia, finalmente le cuentas la verdad sobre el Calendario sideral y tu expedición a Eugene Clemens. \n Eugene queda asombrado por tu historia, pero no parece muy conmovido. \n\n —<i>Desde que los rumores de esta reliquia cobraron importancia en Arkham, muchas personas y grupos han investigado su veracidad y el inmenso poder que la envuelve.</i> —explica—. <i>Incluso aquí en la Universidad de Miskatonic, hemos aprendido más de lo que se podría esperar. Me alegro de que me haya puesto al corriente sobre esto, ya que tendremos que llevar a cabo un ritual de inmediato para sofocar el poder maligno del artefacto y desterrarlo al mundo de donde proviene para siempre. ¿Cree que deberíamos contar con la ayuda del resto del personal?</i> \n\n Rápidamente convences al decano de que no se puede confiar en nadie más. \n\n Por cada Prueba que hayáis encontrado, cada investigador puede poner boca abajo 1 de Horror o descartar 1 de Horror boca abajo.
+EventRevealStarCalendarDeanInnocent.button1,Continuar
+EventRevealStarCalendarProfessorInnocent.text,Con la máxima urgencia, finalmente le cuentas la verdad sobre el Calendario sideral y tu expedición al profesor Smith. \n Smith queda asombrado por tu historia, pero no parece muy conmovido. \n\n —<i>Desde que los rumores de esta reliquia cobraron importancia en Arkham, muchas personas y grupos han investigado su veracidad y el inmenso poder que la envuelve.</i> —explica—. <i>Incluso aquí en la Universidad de Miskatonic, hemos aprendido más de lo que se podría esperar. Me alegro de que me haya puesto al corriente sobre esto, ya que tendremos que llevar a cabo un ritual de inmediato para sofocar el poder maligno del artefacto y desterrarlo al mundo de donde proviene para siempre. ¿Cree que deberíamos contar con la ayuda del resto del personal?</i> \n\n Rápidamente convences al profesor de que no se puede confiar en nadie más. \n\n Por cada Prueba que hayáis encontrado, cada investigador puede poner boca abajo 1 de Horror o descartar 1 de Horror boca abajo.
+EventBeginRitualWithDoctor.text,Descarta el Objeto Único Calendario sideral. \n Colocándolo con cuidado en el suelo, te preparas para seguir las instrucciones de la Dra. Barnett. \n\n Rose continúa: \n\n —<i>La investigación que hemos realizado colectivamente me lleva a creer que este artefacto es una conexión entre mundos. La leyenda cuenta que una poderosa entidad, conocida como Yig, pudo enviar el artefacto a nuestro planeta hace cientos de años. Con una comprensión adecuada de sus poderes, Yig podría ser invocado a nuestro mundo. Este parece ser el motivo que hay detrás del interés del Culto del Ojo Verde por este artefacto. Son seguidores de este ser infame y creen que marcarán el comienzo de una nueva era donde mantendrán importantes cargos bajo el oscuro gobierno de Yig</i>. \n\n —<i>¡Ahora, desterremos esta piedra maligna de regreso al reino de Yig! Cuanto más claro pronunciemos la magia ritual, más efectivos seremos. Sin embargo, antes debemos dibujar las extrañas constelaciones que aparecen en el Calendario sideral en el suelo. Una vez que hayamos completado ambas partes del ritual, colocaremos el artefacto en el centro de las constelaciones, lo cual debería hacer que se teletransportase de regreso a Yig, destruido en cientos de pedazos</i>. \n\n Coloca 2 Fichas de Interacción en los lugares señalados.
+EventBeginRitualWithDoctor.button1,Continuar
+EventStartRitualWithDean.text,Descarta el Objeto Único Calendario sideral. \n Colocándolo con cuidado en el suelo, te preparas para seguir las instrucciones de Eugene Clemens. \n\n Eugene continúa: \n\n —<i>La investigación que hemos realizado colectivamente me lleva a creer que este artefacto es una conexión entre mundos. La leyenda cuenta que una poderosa entidad, conocida como Yig, pudo enviar el artefacto a nuestro planeta hace cientos de años. Con una comprensión adecuada de sus poderes, Yig podría ser invocado a nuestro mundo. Este parece ser el motivo que hay detrás del interés del Culto del Ojo Verde por este artefacto. Son seguidores de este ser infame y creen que marcarán el comienzo de una nueva era donde mantendrán importantes cargos bajo el oscuro gobierno de Yig</i>. \n\n —<i>¡Ahora, desterremos esta piedra maligna de regreso al reino de Yig! Cuanto más claro pronunciemos la magia ritual, más efectivos seremos. Sin embargo, antes debemos dibujar las extrañas constelaciones que aparecen en el Calendario sideral en el suelo. Una vez que hayamos completado ambas partes del ritual, colocaremos el artefacto en el centro de las constelaciones, lo cual debería hacer que se teletransportase de regreso a Yig, destruido en cientos de pedazos</i>. \n\n Coloca 2 Fichas de Interacción en los lugares señalados.
+EventStartRitualWithDean.button1,Continuar
+EventBeginRitualWithProfessor.text,Descarta el Objeto Único Calendario sideral. \n Colocándolo con cuidado en el suelo, te preparas para seguir las instrucciones del profesor Smith. \n\n Smith continúa: \n\n —<i>La investigación que hemos realizado colectivamente me lleva a creer que este artefacto es una conexión entre mundos. La leyenda cuenta que una poderosa entidad, conocida como Yig, pudo enviar el artefacto a nuestro planeta hace cientos de años. Con una comprensión adecuada de sus poderes, Yig podría ser invocado a nuestro mundo. Este parece ser el motivo que hay detrás del interés del Culto del Ojo Verde por este artefacto. Son seguidores de este ser infame y creen que marcarán el comienzo de una nueva era donde mantendrán importantes cargos bajo el oscuro gobierno de Yig</i>. \n\n —<i>¡Ahora, desterremos esta piedra maligna de regreso al reino de Yig! Cuanto más claro pronunciemos la magia ritual, más efectivos seremos. Sin embargo, antes debemos dibujar las extrañas constelaciones que aparecen en el Calendario sideral en el suelo. Una vez que hayamos completado ambas partes del ritual, colocaremos el artefacto en el centro de las constelaciones, lo cual debería hacer que se teletransportase de regreso a Yig, destruido en cientos de pedazos</i>. \n\n Coloca 2 Fichas de Interacción en los lugares señalados.
+EventBeginRitualWithProfessor.button1,Continuar
+EventEliminated.button1,Button1
+EventKillYig.text,La monstruosa entidad, Yig, cae al suelo cubierta de sangre púrpura que gotea por todo su cuerpo escamoso. Gimiendo y silbando de dolor, la criatura gorjea: \n\n —<i>Tu fuerza...es mayor de lo que esperaba.</i> \n\n La criatura consigue arrastrarse hacia la oscuridad, desapareciendo de tu vista. \n\n La investigación se ha completado con éxito.
+EventKillYig.button1,Continuar
+EventVictorySequenceStart.button1,Continuar
+EventEliminatedFinalBattle.text,Con la muerte de tu compañero, no quedan esperanzas de superar el poder de Yig. \n\n La investigación no se ha completado con éxito.
+EventEliminatedFinalBattle.button1,Continuar
+EventEliminatedStandard.text,La muerte de tu amigo marca el comienzo de tu perdición. \n\n La investigación no se ha completado con éxito.
+EventEliminatedStandard.button1,Continuar
+EventVictoryAfterKillingYig.button1,Continuar
+EventVictoryBanishingArtifact.text,¡Por fin completas el ritual! \n Colocas el Calendario sideral en el centro del diagrama que dibujaste en el suelo y éste empieza a levitar, emitiendo multitud de destellos de luz púrpura. Un sonido cada vez más estridente hace temblar los cristales de todo el edificio. Cuando crees que tus oídos no podrán resistir más el ruido atronador que proviene del artefacto, de repente, se desvanece en el aire dejando sólo pequeñas motas de polvo y un silencio sepulcral. \n\n La investigación se ha completado con éxito.
+EventVictoryBanishingArtifact.button1,Continuar
+UIContinueEndGame.uitext,Continuar
+UIContinueEndGame.button1,Continuar
+UIKilledByYigText.uitext,Desolado por la muerte de tu amigo, \n pierdes la concentración a medida que el \n horror se apodera de tu mente. \n ¿Cómo poder superar a una entidad así? \n Yig ríe, sintiendo tu desesperación. \n\n —<i>Nunca tuviste la oportunidad</i>, —sisea—. \n <i>Eres un sacrificio digno. \n ¡Debería recompensar a mis seguidores \n de tu mundo deleitándome con ellos también!</i> \n\n Yig arroja vuestros cuerpos a un lago lleno de \n voraces serpientes. \n\n —<i>Mis hijos disfrutarán de vuestra carne humana. \n Ahora, seré invocado a tu mundo. Me aseguraré \n de que todo lo que amabas quede completamente destruido</i>. \n Yig se ríe sarcásticamente mientras desaparece. \n\n A medida que los colmillos de las serpientes perforan \n cada parte de tu cuerpo, \n te vas hundiendo en las profundas aguas. \n El único consuelo que te queda es saber \n que no estarás presente para ver tu casa y tus seres queridos \n siendo aniquilados ante tus propios ojos.
+UIStandardDeathText.uitext,Obteniendo poder del cadáver de tu amigo muerto, \n el Calendario sideral te succiona a través de \n un portal hacia su mundo natal. \n El cielo es oscuro, el paisaje estéril, \n pero lo más horrible que ves se eleva ante ti. \n Parte serpiente, parte criatura sobrenatural, un monstruo \n como nunca antes habías visto, se muestra ante a ti. \n\n Siseando con deleite, la criatura habla con una voz perturbadora: \n\n —<i>Bienvenidos a mi hogar, humanos. \n Soy Yig, Maestro de las Serpientes, y tú debes \n ser el que ha estado llevando mi reliquia contigo. \n Te sentí a través de tu conexión con mi mundo. \n Ahora, te ha traído a mí. Serás un delicioso \n sacrificio para mí y para mis hijos</i>. \n\n Cientos de serpientes se deslizan a tu alrededor, \n con sus bífidas lenguas agitándose en el aire. \n Tu destino está sellado, pero lo mínimo que puedes \n hacer es llevarte algunos de ellos contigo. \n Utilizando todo lo que tienes, asestas varios golpes mortales, pero \n finalmente, sucumbes rápidamente al veneno de sus colmillos. \n A medida que tu conciencia se desvanece, \n la horrible risa de Yig hace eco en tu mente.
+UIKillYigText.uitext,De repente eres transportado de regreso al edificio del decano \n en la Universidad de Miskatonic. Los miembros del Culto \n del Ojo Verde se apiñan alrededor del Calendario sideral, \n tan concentrados en él que ignoran tu repentina aparición. \n Muchos de ellos han adquirido una apariencia serpentina, \n claramente otorgada por el mismo Yig. \n\n A los pocos segundos, el artefacto se convierte en polvo, \n y una sucesión de jadeos y gritos resuenan por la habitación \n mientras los sectarios caen al suelo aturdidos y consternados. \n No sabes si Yig ha muerto o si sólo resultó herido, \n pero claramente tu éxito en la lucha contra la perversa \n entidad ha ocasionado la desaparición del Calendario sideral. \n\n Sabes que tu vida estará en riesgo si descubren que has \n sobrevivido y, dados los despiadados actos de la secta, \n tienes claro que no merecen misericordia. \n Preparas tus armas y, en cuestión de segundos, los aniquilas \n a todos sin piedad. \n\n Con sus muertes y la destrucción del Calendario sideral, \n exhalas un suspiro de alivio. \n Aprendiste y viste más de lo que querías, pero al menos \n lograste tu propósito. \n Has detenido los malvados planes de la secta y \n la reliquia ya no es un peligro para Arkham.
+UIArtifactBanishedText.uitext,El Calendario sideral desaparece en un instante, engullido \n por alguna grieta dimensional que abriste al completar el ritual. \n Tras unos segundos de opresiva calma, los infames \n seguidores de Yig, reaccionan a la repentina desaparición del \n artefacto, casi como si escucharan la ira de Yig en sus mentes \n y caen al suelo, retorciéndose en una eterna agonía. \n\n Te liberas de la tensión acumulada y analizas la situación. \n Sabes que no sería buena idea dejar escapar \n con vida a los corruptos que quedan en el recinto académico. \n Jamás lo has tenido tan claro, este es tu momento de atacar. \n\n Te deshaces rápidamente de los miembros \n del Culto del Ojo Verde que aún quedan en la universidad. \n Sumidos en una tumultuosa locura e incapaces de \n contraatacar, los despachas a todos uno a uno con una peculiar \n sonrisa de placer y satisfacción dibujada en tu rostro. \n\n Una vez regresa la calma, llamas a las autoridades y te preparas \n para explicarles el demente espectáculo que tienen delante. \n No sabes cómo vas a convencerlos, ni siquiera si van a creerte. \n Posiblemente acabes encerrado en una húmeda y fría celda \n para el resto de tu vida, pero eso ya no importa. Sabes la verdad. \n Tu mente descansa en paz sabiendo que la reliquia \n ya no será una amenaza para Arkham. Al menos por ahora...
+EventKillMirrorSerpent.text,Mientras la criatura se retuerce frente a ti, su cuerpo se derrite en el suelo y el espejo vuelve a su estado original. La puerta se abre de nuevo como si nada hubiera pasado. \n\n Te das cuenta de que el objeto rojo que estaba pegado a su cuello era una pequeña serpiente, que infligía veneno a tu enemigo. Se desliza por el suelo, dando la bienvenida a tu presencia. Dicen que el enemigo de tu enemigo es tu amigo. Quizá no todas las criaturas de este horrible lugar sean malvadas. \n\n Coloca el Objeto Único Víbora misteriosa en este espacio.
+EventMythosRndmObsess.text,El ansia por poseer el Calendario sideral se apodera de {rnd:hero}. \n La obsesión es insaciable. \n\n Sufres 2 de Horror (anulados por {will} -1). \n\n Si no tienes el Calendario sideral, muévete 2 espacios hacia el investigador que lo tenga por cada Horror que sufras. \n Si llegas a su espacio, le robas el Calendario sideral a este investigador. \n\n Si ya tienes el Calendario sideral, sufres 1 de Horror boca abajo por cada Horror que hayas sufrido. \n A continuación, adquieres el estado Aturdido.
+EventNoMythos1.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 estado positivo.
+EventNoMythos3.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 Pista {clue}
+EventNoMythos2.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 Pista {clue}
+EventNoMythos4.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 Pista {clue}
+EventNoMythos5.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 estado positivo.
+EventNoMythos6.text,El peso de la investigación es mentalmente agotador. Todos los investigadores realizan una prueba de ({will}: 2). Si fallas, descarta 1 Pista {clue}
+EventMythosRandomInvestigator.button1,Continuar
+EventTeleportToEntrance.text,El investigador que posea el Calendario sideral siente como el artefacto empieza a vibrar violentamente. En un instante, la vibración se detiene. Sin embargo, una vez más te encuentras fuera del edificio del decano. Sientes como si el tiempo se hubiera invertido, pero ¿es posible que el tiempo se invirtiera solo para ti? Te sientes más enérgico que antes, pero algo horrorizado por lo que acaba de pasar. \n\n Pon 1 de Daño boca abajo o descarta 1 de Daño boca abajo. \n A continuación, sufres 1 de Horror boca abajo. \n Coloca al investigador en el lugar señalado.
+EventTeleportToEntrance.button1,Continuar
+EventStarCalendarInsanity.text,El artefacto que llevas encima está maldito y te muestra horrores que hacen que tus peores pesadillas parezcan agradables sueños. Criaturas grotescas, cadáveres ensangrentados y el tormento de las almas arrasan tu mente como un torrente de desesperación. \n El investigador que posea el Calendario sideral pierde el control de sus facultades mentales. \n\n <b>*** Nota: antes de hacer clic en «Continuar», asegúrate de que el investigador que posea el Calendario sideral sea el único que lea lo que viene a continuación</b>.
+EventStarCalendarInsanity.button1,Continuar
+EventInsanity3Plus.button1,Continuar
+EventInsanity2Players.button1,Continuar
+EventCrisisInsanity.text,Pon boca arriba 1 de Horror. A continuación, descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Crisis de Conciencia (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventCrisisInsanity.button1,Continuar
+EventFearOfSnakesInsanity.text,Pon boca arriba 1 de Horror. A continuación, descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Ofidiofobia (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: <i>«Ganas o pierdes la partida normalmente»</i> queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventFearOfSnakesInsanity.button1,Continuar
+EventForbiddenWordsInsanity.text,Pon boca arriba 1 de Horror. A continuación, descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Palabras Prohibidas (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventForbiddenWordsInsanity.button1,Continuar
+EventMiseryInsanity.text,Pon boca arriba 1 de Horror. A continuación, descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Mal de Muchos (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventMiseryInsanity.button1,Continuar
+EventObsessiveInsanity.text,Descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Obsesión (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente»</i> queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado
+EventObsessiveInsanity.button1,Continuar
+EventRestlessInsanity.text,Descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Ansiedad Galopante (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventRestlessInsanity.button1,Continuar
+EventTreasureInsanity.text,Descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Buscador de tesoros (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventTreasureInsanity.button1,Continuar
+EventSuspicious.text,Descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Actitud Sospechosa (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. \n Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventSuspicious.button1,Continuar
+EventMythosRndmDropItem.text,Silbando furiosamente, una fuerza invisible intenta arrebatar las pertenencias de {rnd:hero}. Intentas resistirte, pero la fuerza de tu enemigo invisible es como la de una enorme boa constrictor. \n\n Sufres 4 de Daño boca abajo (anulados por {strength} + {agility}). \n\n A continuación, mezcla todos tus Objetos Comunes, Objetos Únicos (a excepción del Calendario sideral) y Hechizos. \n Por cada Daño que hayas sufrido, suelta una carta al azar en tu espacio.
+EventMythosRndmDropItem.button1,Continuar
+EventPullInsanityConditions.button1,Button1
+EventPullInsanity3PlusPlayers.text,Pon a parte las siguientes cartas de Locura del mazo (si un investigador fuera a volverse loco por medios normales del juego, no podría coger ninguna de estas cartas): \n\n Crisis de Conciencia \n Ofidiofobia \n Palabras Prohibidas \n Mal de Muchos \n Pasividad \n (Nota: Pasividad sólo es aplicable si tienes la expansión Más Allá del Umbral). \n\n Recuerda la acción de «Robar». Es posible que en algún momento quieras llevar tú el Calendario sideral en lugar de otro investigador.
+EventPullInsanity3PlusPlayers.button1,Continuar
+EventPullInsanity2Players.text,Pon a parte las siguientes cartas de Locura del mazo (si un investigador fuera a volverse loco por medios normales del juego, no podría coger ninguna de estas cartas): \n\n Obsesión \n Ansiedad Galopante \n Buscador de Tesoros \n Actitud Sospechosa \n Hostilidad \n (Nota: Hostilidad sólo es aplicable si tienes la expansión El Santuario del Crepúsculo). \n\n Recuerda la acción de «Robar». Es posible que en algún momento quieras llevar tú el Calendario sideral en lugar de otro investigador.
+EventPullInsanity2Players.button1,Continuar
+EventPassiveInsanity.button1,Continuar
+EventAggressiveInsanity.text,Descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Hostilidad (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventPassiveInsanity.text,Pon boca arriba 1 de Horror. A continuación, descarta todo el Horror que tengas boca abajo y adquiere el <i><b>estado Loco</b></i> Pasividad (de la pila especial separada al comienzo del juego). Ningún otro jugador puede saber qué Locura has adquirido. \n\n Este efecto podría provocar que tuvieras más de una carta de Locura. Sin embargo, si esta Locura entra en conflicto con la condición de victoria de la otra Locura que ya tienes, descarta la Locura anterior y reemplázala por esta. Cualquier carta de Locura con el texto: «<i>Ganas o pierdes la partida normalmente</i>» queda anulado por cualquier condición de victoria especial en cualquier otra carta de Locura que tengas. \n\n Para el resto del escenario, si sufres tanto Horror como tu Cordura, quedas eliminado.
+EventAggressiveInsanity.button1,Continuar
+EventMythosStarCalendarClueLost3Players.text,El investigador que sostiene el Calendario sideral siente como si sus pensamientos y recuerdos estuvieran siendo absorbidos por el artefacto. \n\n Descarta 1 Pista {clue}
+EventMythosStarCalendarClueLost2Player.text,El investigador que sostiene el Calendario sideral siente como si sus pensamientos y recuerdos estuvieran siendo absorbidos por el artefacto. \n\n Descarta 1 Pista {clue}
+EventMythosRndmSwapStarCalendar.text,Escuchas un zumbido extraño que proviene del Calendario sideral. De repente desaparece, para instantes después volver a aparecer junto a uno de tus compañeros. Da el Calendario sideral al investigador que se encuentre más alejado de ti. En caso de empate, dáselo al investigador de tu izquierda. \n\n Ambos investigadores afectados sufren 2 de Horror boca abajo (anulados por {will}).
+EventMythosStarCalendarClueLost2Player.button1,Continuar
+EventMythosStarCalendarClueLost3Players.button1,Continuar
+EventMythosRndmSwapStarCalendar.button1,Continuar
+EventEvadeYig3.text,Yig no está centrado en ti en este momento, pero los movimientos erráticos de su masa atroz aún representan un peligro en tu huida. \n\n Sufres 2 de Daño (anulados por {observation}). Si sufres al menos 1 de Daño, pierdes tu acción.
+EventEvadeYig3.button1,Continuar
+CustomMonsterYig.Attack_firearm_1,-
+EventCustomInsanity.text,A menos que otro investigador use la acción <i>Robar</i> y te quite con éxito el Calendario sideral, no puedes intercambiarlo, soltarlo o «Revelar» el Calendario sideral a un miembro de la facultad. Una vez que te lo hayan robado, esta condición no se aplicará si lo recuperas nuevamente. \n\n No puedes dar NINGUNA razón de por qué no realizarás estas acciones a los demás investigadores.
+EventCustomInsanity.button1,Continuar
+EventOpenBathroomDrawer.text,Al meter la mano en uno de los cajones para rebuscar entre los diversos objetos, de repente sientes un fuerte tirón en tu brazo que te recuerda al instante a las grietas dimensionales del templo que te absorbían y te transportaban de un lado a otro. Aunque la sensación dura un instante, sientes que los poderes del Calendario sideral siguen activos, aun estando a miles de leguas de distancia de su tumba brasileña. \n\n Sufres 2 de Horror boca abajo. A continuación pon boca arriba 1 de Horror. \n\n Ganas 1 Pista {clue}
+EventOpenBathroomDrawer.button1,Continuar
+TokenEntryHallToClass.text,Esta puerta conduce a un aula especial para clases de posgrado.
