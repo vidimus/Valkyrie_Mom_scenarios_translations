@@ -1,0 +1,641 @@
+.,Spanish
+quest.name,El embate (v2.2)
+quest.description,Después de resolver el misterio de la mansión Vanderbilt, sales corriendo de la mansión en ruinas con un sospechoso clave. El siguiente paso, contactar con los federales. \n\n Este escenario tiene mucha acción y combates. Recomendado de 3 (mínimo) a 5 investigadores.
+EventStart.button1,Continuar
+EventStart.text,El crepúsculo cae sobre la ciudad. El caos desatado en la mansión del Sr. Vanderbilt. \n\n Os las arreglasteis para huir con pruebas incriminatorias y con vuestro principal sospechoso, William Vanderbilt. \n\n No fue nada fácil. Hechos polvo y magullados, avanzáis a trompicones por las calles de Arkham. El agente Craven, de los federales, prometió que enviaría a la caballería. Solo necesitáis encontrar una forma de contactar con él. \n\n Coloca el módulo {c:TileSideAlleyCorner1} y {c:TileSideAlleyCorner2} el los lugares señalados.
+EventStart2.text,Todos los investigadores ganan 2 Pistas {clue}. \n\n Coloca a los investigadores y una ficha de Vistazo en los lugares señalados.
+EventStart2.button1,Continuar
+EventStart3.button1,Continuar
+EventStart3.text,Coloca la ficha de Personaje en el mismo espacio que los investigadores. Esta ficha de Personaje es el Sr. Vanderbilt. \n Su presencia está envuelta en una inquietante aura. \n\n Elige a un investigador para escoltar al Sr. Vanderbilt. El Sr. Vanderbilt se mueve de forma conjunta con ese investigador. \n\n <b>Regla:</b> Cualquier investigador que esté en el mismo espacio que el Sr. Vanderbilt tira un dado menos cuando tenga que realizar una prueba.
+TokenSight1.text,La calle continúa hacia el sur. A un lado de la calle está tu oficina y al otro una tienda.
+TokenSight1.button1,Explorar hacia el sur
+EventExploreSideAlleyCorner1toSideAlley2.text,Descarta esta ficha de Vistazo. \n\n <b>En la aplicación, el Sr. Vanderbilt se coloca fuera del tablero pero cualquier investigador en su mismo espacio puede interactuar con él</b>. \n\n Coloca el módulo {c:TileSideAlley2}, y fichas de Exploración, Pared y Vistazo en los lugares señalados.
+EventExploreSideAlleyCorner1toSideAlley2.button1,Continuar
+EventExploreSideAlleyCorner1toSideAlley22.text,La calle está vacía. Una espeluznante quietud flota en el aire. Al oeste, una puerta reforzada de acero. Al este, la fachada de tu edificio de oficinas. \n\n La calle continúa hacia el sur.
+EventExploreSideAlleyCorner1toSideAlley22.button1,Continuar
+TokenRemingtonOfficeDoor1.text,Una puerta reforzada con acero conduce a una oficina. Hay una placa al lado de la puerta con la inscripción «Remington y Cía».
+TokenRemingtonOfficeDoor1.button1,{action} Intentar abrir la puerta
+EventForceRemmingtonDoor1.text,La puerta tiene un peso considerable. Si consiguieses hacer palanca, podrías sacarla de sus bisagras. Requerirá una fuerza considerable. \n\n Te lanzas con todas tus fuerzas contra la puerta {strength}.
+EventForceRemmingtonDoor1.button1,Confirmar
+EventForceRemmingtonDoor2.text,La puerta se abre con un sonoro estruendo, revelando un estudio bien ordenado. No hay nadie. Numerosos estantes se alinean en las paredes. Todo tipo de libros y folletos sobre armas, caza y actividades al aire libre. \n\n Descarta esta ficha de Exploración. \n\n Coloca el módulo {c:TileSideLibrary} en el lugar señalado.
+EventForceRemmingtonDoor2.button1,Continuar
+EventForceRemmingtonDoor3.text,El sudor recorre copiosamente tu frente. \n Con un considerable y doloroso esfuerzo, has logrado abrir la puerta. \n\n Sufres 1 de Daño boca abajo.
+EventForceRemmingtonDoor3.button1,Continuar
+EventForceRemmingtonDoor4.text,Te llama la atención un rifle expuesto en una vitrina de cristal. Coloca una ficha de Búsqueda en el lugar señalado.
+EventForceRemmingtonDoor4.button1,Continuar
+EventForceRemmingtonDoor1.button2,Fallo
+EventForceRemmingtonDoor5.text,Chocas contra la puerta maciza. Creías que dando un empujón la puerta cedería, pero lo único que has conseguido ha sido reavivar el dolor de una antigua lesión en el hombro. Por suerte, el marco de la puerta ha cedido un poco. \n\n Sufres 1 de Daño boca abajo.
+EventForceRemmingtonDoor5.button1,Continuar
+TokenRemmington1.text,Un rifle está bajo llave dentro de una vitrina. La cerradura parece sencilla.
+TokenRemmington1.button1,{action} Romper el cristal
+TokenRemmington1.button2,{action} Intentar forzar la cerradura
+EventRemmington2.text,«¡Crag!». Rompes el cristal con demasiada facilidad... aunque un afilado trozo te hace un corte en un brazo. \n\n Sufres 2 de daño boca abajo.
+EventRemmington2.button1,Continuar
+EventRemmington3.text,El esfuerzo ha merecido la pena. \n\n Ganas el Objeto común <i>Carabina</i>. A continuación descarta esta ficha de Búsqueda.
+EventRemmington4.text,La cerradura es bastante sencilla {agility}.
+EventRemmington4.button1,Confirmar
+EventRemmington4.button2,Fallo
+EventRemmington3.button1,Continuar
+EventRemmington5.text,¡Maldición! Por mucho que lo intentas, esta vez no has podido abrir la cerradura.
+EventRemmington5.button1,Continuar
+TokenSight2.text,La calle continúa hacia el sur.
+TokenSight2.button1,Explorar hacia el sur
+EventExploreSideStreetAlley2toSideStreetCorner1.text,Siguiendo adelante, llegas a una bifurcación en el camino. Al oeste, un pequeño callejón con una tienda. Al este, la fachada delantera de tu oficina. En el extremo sur del callejón hay un gran almacén. Tus oídos hormiguean cuando el viento corretea por la calle... ¿o son voces? \n\n Coloca el módulo {c:TileCorner1}. A continuación descarta esta ficha de Vistazo.
+EventExploreSideStreetAlley2toSideStreetCorner1.button1,Continuar
+EventExploreSideStreetAlley2toSideStreetCorner12.text,Coloca fichas de Vistazo, Exploración y Pared en los lugares señalados.
+EventExploreSideStreetAlley2toSideStreetCorner12.button1,Continuar
+TokenSight3.text,La calle se extiende al oeste hasta la fachada de una tienda y un callejón.
+TokenSight3.button1,Explorar hacia el oeste
+EventCorner1toSideStoreFront.text,Aunque tu instinto te dice que corras lo más rápido posible hacia la oficina, decides que puede ser una buena idea parar un momento para explorar hacia el oeste. \n\n Ganas 1 Pista {clue}. Coloca el módulo {c:TileSideStoreFront} y descarta esta ficha de Vistazo.
+EventCorner1toSideStoreFront.button1,Continuar
+EventCorner1toSideStoreFront2.text,Este callejón también está desierto. Tiene un escaparate con la puerta orientada al norte. Junto a la puerta, una placa dice: «Remington y Cía». La tienda está cerrada por la tarde. Eres un cliente habitual del Sr. Remington. Como tú, también es un entusiasta de la caza. Su tienda siempre tiene artículos útiles. \n\n Algo extraño te llama la atención en el sumidero al final del callejón. \n\n Coloca fichas de Búsqueda y Exploración en los lugares señalados.
+EventCorner1toSideStoreFront2.button1,Continuar
+TokenStreetRubbish1.text,Encajado en el sumidero hay algún tipo de hueso extraño.
+TokenRemmingtonDoor2.text,Esta puerta conecta a «Remington y Cía» con la calle. No está cerrada con llave.
+TokenRemmingtonDoor2.button1,{action} Abrir la puerta
+EventRemmingtonStore1.text,La tienda está apenas iluminada por la luz de la luna, que se refleja en varias vitrinas. \n\n Descarta esta ficha de Exploración y coloca fichas de Búsqueda en los lugares señalados.
+EventRemmingtonStore1.button1,Continuar
+TokenStreetRubbish1.button1,{action} Intentar sacar el objeto
+EventStreetRubbish1.text,Liberas el objeto. Es una pata de conejo. Tienes la sensación de que podría resultarle útil antes de que termine la noche. \n\n Ganas el Objeto común <i>Pata de conejo</i>. Luego descarta esta ficha de Búsqueda.
+EventStreetRubbish1.button1,Continuar
+EventRemmingtonStore2.text,Esta otra puerta conduce al interior de la tienda.
+EventRemmingtonStore2.button1,Continuar
+TokenRemmingtonOfficeandStore.text,Esta puerta conecta la oficina con la tienda.
+TokenRemmingtonOfficeandStore.button1,{action} Abrir la puerta
+EventRemmingtonStoretoOffice.text,Entras en una oficina pulcramente ordenada. No hay nadie dentro. Numerosos estantes se alinean en las paredes. Contienen todo tipo de libros y folletos que tratan sobre armas, caza y actividades al aire libre. \n\n Descarta esta ficha de Exploración. \n\n Coloca el módulo {c:TileSideLibrary} y coloca fichas de Exploración en los lugares señalados.
+EventRemmingtonStoretoOffice.button1,Continuar
+TokenRemmingtonOfficeandStore2.text,Esta puerta conecta la tienda con la oficina.
+TokenRemmingtonOfficeandStore2.button1,{action} Abrir la puerta
+EventRemmingtonDoor6.text,Coloca una ficha de Exploración en el lugar señalado.
+EventRemmingtonDoor6.button1,Continuar
+EventRemmington6.text,La tienda está débilmente iluminada por la luz de la luna, que se refleja en varias vitrinas. \n\n Coloca el módulo {c:TileSideStoreFront}, descarta esta ficha de Exploración y coloca fichas de Búsqueda en los lugares señalados.
+EventRemmington6.button1,Continuar
+EventRemmington7.text,Otra puerta lleva a la calle que hay junto a la tienda. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRemmington7.button1,Continuar
+TokenRemmingtonStore1.text,Una caja abierta descansa en el suelo. Está repleta de artículos para los aficionados al tiro.
+TokenRemmingtonStore1.button1,{action} Buscar en la caja
+EventRemmingtonStore11.text,Encontraste unas vendas. Ganas el Objeto común <i>Vendas</i>. Descarta esta ficha de Búsqueda.
+EventRemmingtonStore11.button1,Continuar
+TokenRemmingtonStore2.text,En la vitrina abierta descansa algo que ayuda a luchar contra las adversidades y que es el sumun de los entusiastas de las técnicas de supervivencia.
+TokenRemmingtonStore2.button1,{action} Buscar en la vitrina
+EventRemmingtonStore22.text,Buscando en la vitrina encuentras unas nudilleras de bronce. \n\n Ganas el Objeto común <i>Nudilleras</i>. A continuación descarta esta ficha de Búsqueda.
+EventRemmingtonStore22.button1,Continuar
+TokenRemmingtonDoor3.text,Esta puerta lleva a la calle.
+TokenRemmingtonDoor3.button1,{action} Abrir la puerta
+EventRemmington8.text,Este callejón también parece deiserto. Al este, tu oficina. Al oeste, algo en un desagüe te llama la atención, al fondo del callejón. \n\n Descarta esta ficha de Exploración y la ficha de Vistazo. Coloca una ficha de Búsqueda en el lugar señalado.
+EventRemmington8.button1,Continuar
+EventRemmingtonStoreFront1.text,Descarta esta ficha de Exploración.
+EventRemmingtonStoreFront1.button1,Continuar
+TokenSight5.text,La calle se extiende al oeste hasta la fachada de una tienda y un callejón.
+TokenSight5.button1,Explorar hacia el oeste
+EventRemmingtonStoreFront2.text,Aunque tu instinto te dice que corras lo más rápido posible hacia la oficina, decides que puede ser una buena idea parar un momento para explorar hacia el oeste. \n\n Ganas 1 Pista {clue}. Coloca el módulo {c:TileSideStoreFront} y descarta esta ficha de Vistazo.
+EventRemmingtonStoreFront2.button1,Continuar
+EventRemmingtonStoreFront3.text,Este callejón también está desierto. Tiene un escaparate con la puerta orientada al norte. Junto a la puerta, una placa dice: «Remington y Cía». Eres un cliente habitual del Sr. Remington. Como tú, también es un entusiasta de la caza. Su tienda siempre tiene artículos útiles. \n\n Algo extraño te llama la atención en el sumidero al final del callejón. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRemmingtonStoreFront3.button1,Continuar
+TokenSight4.text,La calle se extiende hacia el este a lo largo de la fachada de tu oficina.
+TokenSight4.button1,Explorar hacia el este
+EventStreetCornertoSideStreet1.text,Giras la esquina en dirección a tu oficina, acercándote a la puerta principal. Está más hacia el este. La fachada de tu oficina tiene numerosas ventanas de un tamaño considerable. \n Por un momento, te ha dado la impresión de que alguien te observaba desde el interior de la oficina. Luego desechas la idea y lo atribuyes a tu propio reflejo. \n\n Coloca el módulo {c:TileSideStreet2} y una ficha de Pared y otra de Vistazo en los lugares señalados. A continuación, descarta esta ficha de Vistazo.
+EventStreetCornertoSideStreet1.button1,Continuar
+EventDroppedKeys1.button1,Continuar
+EventDroppedKeys2.text,Notas que tu bolsillo está demasiado vacío. Tu mano te confirma lo que tu mente ya sabe. Se te cayó el llavero de latón en algún lugar de la calle. \n\n Si las llaves que llevas en él no podrás acceder a tu oficina.
+EventDroppedKeys1.text,Inconscientemente te das palmaditas en el bolsillo mientras continúas tu camino hacia tu oficina. Sientes como el desanimo comienza a apoderarse de ti...
+EventDroppedKeys2.button1,Continuar
+EventDroppedKeys3.text,Debes volver atrás para encontrar tus llaves. Tu corazón da un vuelco. \n\n Todos los investigadores sufren 1 de Horror boca abajo.
+EventDroppedKeys3.button1,Continuar
+EventCrow1.text,En la dirección de la mansión del Sr. Vanderbilt, alguien o algo ha perturbado a unos cuervos.
+EventCrow1.button1,Continuar
+EventCrow2.text,El Sr. Vanderbilt inclina la cabeza hacia un lado... y sonríe. \n\n —<i>No pensaría que iba a ser tan fácil, ¿verdad? —dice al tiempo que se da la vuelta lentamente. \n\n Comienza la siguiente ronda.
+EventCrow2.button1,Continuar
+TokenSight6.text,Tu oficina se encuentra más adelante en esta calle.
+TokenSight6.button1,Explorar hacia el este
+EventStreet1toSideStreet1.text,Por fin llegas a la parte delantera de tu oficina. Una gran puerta de roble se eleva sobre la calle. Resulta intimidante a la luz de la luna. \n\n Descarta esta ficha de Vistazo. Coloca el {c:TileSideStreet1}, y fichas de Pared, Puerta y Exploración en los lugares señalados.
+EventStreet1toSideStreet1.button1,Continuar
+TokenDoortoEntryHall.text,Dejas escapar un suspiro de alivio. Logras llegar a la puerta principal de tu oficina.
+TokenDoortoEntryHall.button1,Continuar
+EventDoortoEntryHall2.text,Sientes como la sangre abandona tu rostro lívido. Por primera vez notas la brisa de la noche acariciando tu cara. Sin la llave de latón no podrás abrir la puerta.
+EventDoortoEntryHall2.button1,Continuar
+EventDoortoEntryHall3.text,Esta puerta conduce al vestíbulo de tu oficina.
+EventDoortoEntryHall3.button1,{action} Abrir la puerta
+EventDoortoEntryHall4.text,Al entrar en el vestíbulo del edificio de oficinas donde está la tuya, la tensión, aunque sea momentáneamente, se disipa. Una visión familiar que supone un alivio para tus doloridos ojos. De día, en horario de trabajo, este lugar es un hervidero de actividad. Por suerte te ha tocado resolver este caso durante la noche. \n\n Coloca el módulo {c:TileSideLobby} y fichas de Exploración, Interacción y Búsqueda en los lugares señalados. A continuación, descarta esta ficha de Exploración.
+EventDoortoEntryHall4.button1,Continuar
+TokenDroppedKeys.text,Vuelves frenéticamente sobre tus pasos por las calles. Algo brilla en el suelo a la luz de la luna. Un tenue rayo de esperanza.
+TokenDroppedKeys.button1,{action} Buscar tus llaves en la calle
+EventDroppedKeys4.text,Realiza una prueba de {observation}.
+EventDroppedKeys4.button1,Confirmar
+EventDroppedKeys4.button2,Fallo
+EventDroppedKeys5.text,Buscas frenéticamente pero no sirve para nada. Hacia el oeste, unas oscuras figuras, envueltas por la niebla, comienzan a congregarse. \n\n Sufres 1 de Horror boca abajo.
+EventDroppedKeys5.button1,Continuar
+EventDroppedKeys6.button1,Continuar
+EventDroppedKeys6.text,¡Lo lograste! ¡Has encontrado tus llaves! \n\n Ganas el Objeto único <i>Llave de latón</i>. A continuación, descarta esta ficha de Búsqueda.
+EventDoortoEntryHall5.text,Se necesita la <i>Llave de latón</i> para abrir la puerta.
+EventDoortoEntryHall5.button1,{action} El investigador tiene la llave de latón.
+EventDoortoEntryHall5.button2,Cancelar
+TokenBilliardsDoor.text,Esta puerta conduce a una sala de uso común con una mesa de billar y un bar bien surtido. Quizás esto último es justo lo que necesitas.
+TokenBilliardsDoor.button1,{action} Abrir la puerta
+EventEntryHalltoBilliards1.text,La puerta se abre para revelar una estancia que invita a la relajación gracias a su cálida luz. Delante de ti hay una mesa de billar. A la derecha, una barra. Tu sofá favorito se encuentra al fondo de la habitación, bajo una ventana que da a la calle. \n\n Descarta esta ficha de Exploración. Coloca el módulo {c:TileBilliardsRoom}, una ficha de Búsqueda y otra de Interacción en los lugares señalados.
+EventEntryHalltoBilliards1.button1,Continuar
+TokenBilliards1.button1,{action} Buscar en el bar
+EventBilliardsRoom1.text,¡Encontraste tu bebida preferida! Ganas el Objeto común <i>Whisky</i>. A continuación descarta esta ficha de Búsqueda.
+EventBilliardsRoom1.button1,Continuar
+TokenBilliards1.text,Te detienes un momento delante del bar. Como es habitual, está bien abastecido para cualquier ocasión.
+TokenBilliards2.text,Ha sido una larga noche. ¿No es acaso suficiente motivo para un pequeño descanso en el sofá?
+TokenBilliards2.button1,{action} Descansar en el sofá
+EventBilliardsRoom2.text,Echas una partida al billar y al terminar te dejas caer un rato en el sofá. \n\n Ganas 1 Pista {clue}. Cada investigador presente en esta habitación puede descartar 1 de Horror boca abajo. \n\n A continuación descarta esta ficha de Búsqueda.
+EventBilliardsRoom2.button1,Continuar
+TokenAdditionalOfficeDoor1.text,Esta puerta lleva a otra oficina.
+TokenAdditionalOfficeDoor1.button1,{action} Abrir la puerta
+EventAdditionalOfficeSpace.text,Este ala del edificio de oficinas la utilizan otros profesionales, aunque a estas horas está vacía. \n\n Coloca el módulo {c:TileSideInteriorHall}, y fichas de Búsqueda y Pared en los lugares señalados. Descarta todas las fichas de Exploración que conduzcan a él.
+EventAdditionalOfficeSpace.button1,Continuar
+TokenAdditionalOfficeDoor2.button1,{action} Abrir la puerta
+TokenAdditionalOfficeDoor2.text,Esta puerta lleva a otra oficina.
+TokenSideInteriorHall1.text,Un robusto escritorio descansa al lado de una mesa en una de las estancias auxiliares de la oficina.
+TokenSideInteriorHall1.button1,{action} Buscar en el escritorio
+EventSideInteriorHall1.text,Buscando en el escritorio, ¡encuentras una pitillera! \n\n Descarta esta ficha de Búsqueda. Ganas el Objeto común <i>Pitillera de la suerte</i>.
+EventSideInteriorHall1.button1,Continuar
+TokenSideInteriorHall2.text,Un robusto escritorio descansa en un rincón de esta habitación.
+TokenSideInteriorHall2.button1,{action} Buscar en el escritorio
+EventSideInteriorHall2.text,El cajón del escritorio está a rebosar de trastos. Te llevará algún tiempo buscar algo de utilidad {observation}.
+EventSideInteriorHall2.button1,Confirmar
+EventSideInteriorHall2.button2,Fallo
+EventSideInteriorHall3.text,¡Encontraste una pistola! \n\n Descarta esta ficha de Búsqueda. Ganas el Objeto común <i>Automática del .45</i>.
+EventSideInteriorHall3.button1,Continuar
+EventSideInteriorHall4.text,¡Encontraste un cuchillo!. Descarta esta ficha de Búsqueda. Ganas el Objeto común <i>Cuchillo</i>.
+EventSideInteriorHall4.button1,Continuar
+TokenSideEntryHallDoor1.text,Esta puerta lleva a lo más profundo del edificio de oficinas.
+TokenSideEntryHallDoor1.button1,{action} Abrir la puerta
+TokenSideEntryHallDoor2.text,Esta puerta lleva a lo más profundo del edificio de oficinas.
+TokenSideEntryHallDoor2.button1,{action} Abrir la puerta
+EventSideLobbytoSideEntryHall1.text,Entras en el recibidor. Tu oficina es la que tienes justo de frente, y la de la izquierda es la oficina del Sr. Thompson. \n\n Coloca el módulo {c:TileSideEntryHall}, una ficha de Pared y 2 de Exploración en los lugares señalados. Descarta todas las fichas de Exploración que conduzcan a esta localización.
+EventSideLobbytoSideEntryHall1.button1,Continuar
+TokenThompsonDoor1.text,Esta puerta conduce a la oficina del Sr. Thompson. A veces lo has escuchado a través de las paredes gritando furiosamente a sus clientes. \n\n La puerta del Sr. Thompson tiene cerradura.
+TokenThompsonDoor1.button1,Intentar forzar la cerradura {observation}
+EventHallwaytoThompson1.text,La puerta se abre para revelar una oficina bien ordenada. Te sorprende bastante, teniendo en cuenta la intensa actividad que se suele oír desde fuera cada día. \n\n Descarta esta ficha de Exploración. Coloca el módulo {c:TileSideOffice} y una ficha de Búsqueda en el lugar señalado.
+EventHallwaytoThompson1.button1,Continuar
+TokenThompsonOffice1.text,En un rincón de la oficina hay un armario con una puerta tallada con numerosos adornos.
+TokenThompsonOffice1.button1,{action} Buscar en el armario
+EventThompson1.text,¡El armario contenía una metralleta Thompson! \n\n Descarta esta ficha de Búsqueda. Ganas el Objeto común <i>Metralleta</i>.
+EventThompson1.button1,Continuar
+TokenYourOfficeDoor1.text,La puerta de tu oficina. En su interior hay un teléfono. Puedes usarlo para contactar con los federales.
+TokenYourOfficeDoor1.button1,{action} Abrir la puerta
+EventYourOffice1.text,Al retirarte a la comodidad de tu oficina, te sientes mucho más relajado. \n\n Descarta esta ficha de Exploración. Coloca el módulo {c:TileSideOffice} y coloca las fichas de Búsqueda en los lugares señalados.
+EventYourOffice1.button1,Continuar
+TokenYourOffice1.text,En tu escritorio está el teléfono. Tu contacto en los federales, el agente Craven, está esperando a que le llames. Después de que le confirmes que tienes al Sr. Vanderbilt bajo custodia, enviará una escolta.
+TokenYourOffice1.button1,{action} Confirmar la captura del Sr. Vanderbilt. El Sr. Vanderbilt debe estar en este espacio.
+EventYourOffice2.button1,Continuar
+EventTimerCheck1.button1,Continuar
+EventYourOffice2.text,—<i>Así que tiene a ese malnacido, ¿eh?</i> —dice con satisfacción el agente Craven—. <i>No dudé de usted ni un segundo, muchacho. No le quite el ojo de encima. Se sabe muchos... trucos. Mis hombres llegarán al amanecer.</i> \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventYourOffice3.text,A menos que interactúes con él, el Sr. Vanderbilt permanecerá en tu oficina. \n\n Coloca al Sr. Vanderbilt en tu oficina junto al escritorio. En la Aplicación, la ficha de Personaje Sr. Vanderbilt se colocará fuera del tablero, pero un investigador que comparta su mismo espacio puede interactuar con él.
+EventYourOffice3.button1,Continuar
+EventBrute1a2.text,«El Bruto» da un fuerte pisotón en el suelo, brama y carga contra los investigadores. Mueve al «Bruto» como se indica. Los investigadores que se encuentren en su camino, saltan para quitarse de en medio ({agility}; 3). Si superan la tirada, esquivan con éxito al «Bruto» con un movimiento digno de un corredor de los Sanfermines. Si fallan la tirada, pueden dejar caer un objeto al azar para tener éxito automáticamente. De lo contrario, sufren 2 de Daños boca abajo y se mueven al mismo espacio que ocupa «el Bruto».
+EventBrute1a1.button1,Button1
+EventTimerCheck2.text,No hay duda de que el sol está saliendo por el este. \n\n ¿Dónde están esos federales?
+EventTimerCheck2.button1,Continuar
+EventTimerCheck3.text,Una sirena resuena en la noche acompañada por unos destellos luminosos, llamando la atención de todos. ¡Han llegado los federales!
+EventTimerCheck3.button1,Continuar
+EventTimerCheck4.text,Una lluvia de disparos se destapa cuando los federales irrumpen en la Plaza mayor. ¡Las calles se convierten en un caos! ¡Lamentas haber aceptado el caso de manos de las autoridades locales! \n\n Coloca la ficha de Personaje del agente Craven en el lugar señalado. Elimina a cualquier monstruo que esté en el módulo Calle 1.
+EventTimerCheck4.button1,Continuar
+EventTimerCheck40.text,—<i>¡Vamos! ¡Pongan sus traseros en marcha! —grita el agente Craven. \n\n <b>Lleva al Sr. Vanderbilt donde se encuentra el agente Craven es una de las formas de terminar este escenario</b>.
+EventTimerCheck40.button1,Continuar
+EventTimerCheck1.text,El sudor gotea por tu frente. Algo interrumpe tu concentración. Al este, el cielo oscuro parece iluminarse. \n\n ¿Dónde están esos federales?
+PuzzleThompsonDoorPuzzle.button1,Hecho
+TokenWhiteMan1.text,El Sr. Vanderbilt se burla de ti con desprecio.
+TokenWhiteMan1.button1,Continuar
+EventVanderbiltTalk1.button2,{action} Registrar al Sr. Vanderbilt
+EventVanderbiltTalk1.text,Puedes notar la intensidad de la ira del Sr. Vanderbilt.
+EventVanderbiltTalk1.button1,{action} —<i>¿Qué es el Club de Astronomía Vanderbilt?</i>
+EventVanderbiltTalk2.text,Puedes notar la intensidad de la ira del Sr. Vanderbilt.
+EventVanderbiltTalk2.button1,{action} Registrar al Sr. Vanderbilt
+EventVanderbiltTalk3.text,—<i>Se está entrometiendo con fuerzas más allá de su comprensión<i> —estalla el Sr. Vanderbilt lleno de frustración—. </i>Mi implicación en el Club de Astronomía, aparte de otras cosas, y el delicado equilibrio alterado por su intromisión, están más allá del alcance de su pobre entendimiento</i>. \n\n Ganas 1 Pista {clue}. A continuación sufres 1 de Horror boca abajo.
+EventVanderbiltTalk3.button1,Continuar
+EventVanderbiltTalk4.text,El Sr. Vanderbilt se retuerce intentando zafarse. En ese momento descubres que ha escondido en uno de sus bolsillo una extraña piedra. Registrar a los sospechosos fue una lección que nunca olvidarás de la academia de policía. \n\n Ganas el Objeto único <i>Escultura grotesca</i>. A continuación ganas 1 Pista {clue}.
+EventVanderbiltTalk4.button1,Continuar
+EventVanderbiltTalk1.button3,Cancelar
+EventVanderbiltTalk2.button2,Cancelar
+TokenWhiteMan3.text,El Sr. Vanderbilt se burla de ti con desprecio.
+TokenWhiteMan3.button1,Continuar
+EventVanderbiltEscape1.text,¡El Sr. Vanderbilt te da un codazo en las tripas! ¡Se está escapando! ({strength}; 3). Si superas la tirada, bloqueas al Sr. Vanderbilt y sufres 1 de Daño boca abajo. Si fallas la tirada, mueve al Sr. Vanderbilt 2 espacios en dirección a su mansión y sufres 1 de Daño boca abajo.
+EventVanderbiltEscape1.button1,El Sr. Vanderbilt huyó hacia un espacio de exterior
+EventVanderbiltEscape1.button2,El Sr. Vanderbilt huyó hacia un espacio de interior
+EventVanderbiltEscape2.text,El primer investigador que entre en el espacio del Sr. Vanderbilt lo detendrá y lo escoltará. Si está solo al final de un turno, el Sr. Vanderbilt se moverá 1 espacio hacia su mansión.
+EventVanderbiltEscape2.button1,Continuar
+EventVanderbiltEscape3.text,El Sr. Vanderbilt se lanza a la calle. \n\n —<i>¡Escapismus maximus!</i> —grita. \n\n De repente las calles se llenan de una espesa y correosa niebla. \n\n Coloca fichas de Oscuridad en cada espacio de exterior.
+EventVanderbiltEscape3.button1,Continuar
+EventVanderbiltEscape4.text,La niebla no se parece a nada que haya visto antes. \n\n Descarta la ficha de Personaje del Sr. Vanderbilt del tablero. Coloca fichas de Búsqueda en el lugar señalado. <b>Una de estas fichas de Búsqueda es el Sr. Vanderbilt</b>. \n\n El investigador que dejó escapar al Sr. Vanderbilt sufre 1 de Horror.
+EventVanderbiltEscape4.button1,Continuar
+EventVanderbiltEscape5.text,Coloca una ficha de Búsqueda en el lugar señalado.
+EventVanderbiltEscape5.button1,Continuar
+TokenFog5.text,Una figura sombría aparece ante ti.
+TokenFog5.button1,{action} Atrapar la figura
+TokenFog3.text,Una figura, apenas una sombra, se mueve entre la niebla.
+TokenFog3.button1,{action} Atrapar la figura
+TokenFog2.text,Entre la niebla,vislumbras una figura.
+TokenFog2.button1,{action} Atrapar la figura
+TokenFog4.text,Una figura en la niebla, poco más que una sombra.
+TokenFog4.button1,{action} Atrapar la figura
+TokenFog1.text,Una figura se recorta en la niebla.
+TokenFog1.button1,{action} Atrapar la figura
+EventVanderbiltEscape6.text,¡Has capturado al Sr. Vanderbilt! Reemplaza esta ficha de Búsqueda por su ficha de Personaje. Descarta las demás fichas de Búsqueda de las calles. \n\n Ahora escoltas al Sr. Vanderbilt.
+EventVanderbiltEscape6.button1,Continuar
+EventVanderbiltEscape7.text,Encontraste a un hombre, pero no era el Sr. Vanderbilt. El hombre te grita: —<i>¡Se debe permitir que el Sr. Vanderbilt termine su trabajo!<i> \n\n Descarta esta ficha de Búsqueda.
+EventVanderbiltEscape7.button1,Continuar
+EventVanderbiltEscape8.button1,Continuar
+EventVanderbiltEscape9.button1,Continuar
+EventVanderbiltEscape8.text,¡Has capturado al Sr. Vanderbilt! Reemplaza esta ficha de Búsqueda con una ficha de Personaje. Descarta las demás fichas de Búsqueda. \n\n Ahora escoltas al Sr. Vanderbilt.
+EventVanderbiltEscape9.text,Por un momento la niebla parece tomar forma, con un sorprendente parecido a un familiar tuyo trágicamente perdido. Los segundos parecen siglos. La niebla te llama. Y así, de repente, como si nada, se disipa. \n\n Sufres 1 de Horror boca abajo. A continuación descarta esta ficha de Búsqueda.
+EventVanderbiltEscape10.text,¡Has capturado al Sr. Vanderbilt! Reemplaza esta ficha de Búsqueda con una ficha de Personaje. Descarta las demás fichas de Búsqueda. \n\n Ahora escoltas al Sr. Vanderbilt.
+EventVanderbiltEscape10.button1,Continuar
+EventVanderbiltEscape11.button1,Continuar
+EventVanderbiltEscape11.text,Nada excepto un jirón de niebla. Descarta esta ficha de Búsqueda.
+EventVanderbiltEscape12.text,¡Has capturado al Sr. Vanderbilt! Reemplaza esta ficha de Búsqueda con una ficha de Personaje. Descarta las demás fichas de Búsqueda. \n\n Ahora escoltas al Sr. Vanderbilt.
+EventVanderbiltEscape12.button1,Continuar
+EventVanderbiltEscape13.button1,Continuar
+EventVanderbiltEscape13.text,Nada excepto un jirón de niebla. Descarta esta ficha de Búsqueda.
+EventVanderbiltEscape14.text,¡Has capturado al Sr. Vanderbilt! Reemplaza esta ficha de Búsqueda con una ficha de Personaje. Descarta las demás fichas de Búsqueda. \n\n Ahora escoltas al Sr. Vanderbilt.
+EventVanderbiltEscape14.button1,Continuar
+EventVanderbiltEscape15.button1,Continuar
+EventVanderbiltEscape15.text,¡A través de la espesa niebla, vislumbras las fauces de una bestia indescriptible! Cierras los ojos y solo te estremeces... antes de escuchar el familiar sonido de un perro. \n\n Descarta 1 de Horror boca abajo. Descarta esta ficha de Búsqueda.
+EventVanderbiltEscape16.text,—<i>¡Diantres!</i> —murmura el Sr. Vanderbilt. La niebla se disipa. Descarta todas las fichas de Oscuridad de los espacios de exterior.
+EventVanderbiltEscape16.button1,Continuar
+SpawnHybrid2.text,El rostro del hombre se retuerce con una rabia casi grotesca. Su piel, púrpura y brillante, parece resbaladiza al tacto. \n\n Aparece un Híbrido de profundo en el lugar señalado.
+SpawnHybrid2.button1,Continuar
+EventDroppedKeys7.text,Tu euforia al encontrar las llaves dura menos de lo que te gustaría. Unos exaltados cánticos comienzan a reverberar por la calle, provenientes de la mansión Vanderbilt. De repente, aparece una turba de sectarios. \n\n Coloca una Turba en el lugar señalado. <b>La Turba de sectarios no puede ser dañada, pero un investigador dentro de su alcance puede interactuar con ella</b>.
+EventDroppedKeys7.button1,Continuar
+EventRiot1.text,Tu euforia al encontrar las llaves dura menos de lo que te gustaría. Los cánticos furiosos comienzan a reverberar por la calle, resonando desde la mansión del Sr. Vanderbilt. De repente, aparece una turba de sectarios. \n\n Coloca una Turba en el lugar señalado. La Turba de sectarios no puede ser dañada, pero un investigador dentro de su alcance puede interactuar con ella.
+EventRiot1.button1,Continuar
+EventRiot2.text,Las antorchas, horquillas y todo tipo de herramientas ordinarias que porta la turba tienen ahora un propósito más violento. De forma caótica, la Turba de secatarios avanza por la calle. \n\n Mueve a la Turba de Sectarios 2 espacios hacia la puerta principal de tu oficina. Cualquier investigador en el mismo espacio se mueve junto con la Turba de Sectarios y sufre 2 de Daño.
+EventRiot2.button1,Continuar
+EventRiot3.text,Un integrante de la turba sale corriendo en dirección a tu oficina.
+EventRiot3.button1,Continuar
+SpawnHybrid3.text,Recia y curvada, la piel púrpura de este hombre brilla a la luz de la luna. No parece estar muy feliz. \n\n Coloca un Híbrido de profundo en el lugar señalado.
+SpawnHybrid3.button1,Continuar
+SpawnCultist1.text,Ese hombre, ataviado con una túnica, corre hacia ti. Sus ojos están llenos de locura. \n\n Aparece un Sectario en el lugar señalado.
+SpawnCultist1.button1,Continuar
+EventDroppedKeys8.text,De repente, un hombre atraviesa una valla en el callejón sur.
+EventDroppedKeys8.button1,Continuar
+SpawnHybrid4.text,Recia y curvada, la piel púrpura de este hombre brilla a la luz de la luna. No parece feliz. \n\n Coloca un Híbrido de profundo en el lugar señalado.
+SpawnHybrid4.button1,Continuar
+EventDoortoEntryHall6.text,Un gran ventanal que da a la calle. Coloca una ficha de Vistazo en el lugar señalado. \n\n <b>Regla: Un investigador en un espacio adyacente puede atacar usando un arma a distancia o un Hechizo a un monstruo situado en la localización adyacente</b>.
+EventDoortoEntryHall6.button1,Continuar
+EventAdditionalOfficeSpace2.text,Dos grandes ventanales brindan una vista de las calles. Coloca fichas de Vistazo en los lugares señalados.
+EventAdditionalOfficeSpace2.button1,Continuar
+EventHallwaytoThompson2.text,Una ventana al fondo de la oficina proporciona una vista de la calle. Coloca una ficha de Vistazo en el lugar señalado.
+EventHallwaytoThompson2.button1,Continuar
+EventRiot4.text,¡Parado bajo la ventana de la oficina del Sr. Thompson, un miembro de la turba de sectarios lanza de repente una antorcha por la ventana! \n\n Coloca fichas de Fuego en los lugares señalados. Descarta las fichas de Búsqueda, si las hay, de la oficina de Thompson. \n\n <b>Regla:</b> Este fuego debe propagarse obligatoriamente hacia tu oficina, y este fuego puede propagarse a través de las paredes.
+EventRiot4.button1,Continuar
+EventRiot6.text,Haciendo un alto en la calle, los sectarios de repente empiezan a lanzarse contra las paredes de tu oficina, poseídos por una furia ciega. \n ¡El horror! ¡Han derribado una de las paredes! \n\n Descarta las fichas de Pared de los lugares señalados. Coloca una ficha de Pasadizo secreto.
+EventRiot6.button1,Continuar
+SpawnHybrid5.text,Babeando de rabia, un hombre salta poseído por un frenesí hacia el edificio de oficinas.\n Coloca un Híbrido de profundo en el lugar señalado.
+SpawnHybrid5.button1,Continuar
+EventDoortoEntryHall3.button2,Cancelar
+EventVanderbiltEscape1.button3,El Sr. Vanderbilt no ha conseguido liberarse
+SpawnCultist2.text,—<i>Esta extradición no puede continuar</i> —exclama un sectario mientras sale de entre los arbustos. \n\n Coloca un sectario en el lugar señalado.
+SpawnCultist2.button1,Continuar
+quest.authors,\n\n <i>Creado por:</i> Gwan \n\n <i>Traducción al español:</i> Anae y Vidimus \n\n
+EventBilliardsCultist.text,¡Hay un estruendo en el salón comunitario!
+EventBilliardsCultist.button1,Continuar
+SpawnCultist3.text,¡Un hombre ha saltado por la ventana! Pero se pisa su propia túnica marrón y se tropieza con la mesa de billar. \n\n Coloca un Sectario en el lugar señalado. Descarta la ficha de Búsqueda del sofá, si la hubiera.
+SpawnCultist3.button1,Continuar
+EventCultist4.text,Apareciendo en la misma dirección en la que está el Sr. Vanderbilt, un hombre se acerca corriendo.
+EventCultist4.button1,Continuar
+SpawnCultist4.text,Un hombre vestido con una elegante túnica corre por la calle. Su grado de fanatismo queda claro al ver la mirada salvaje de sus ojos. \n\n—<i>¡Intruso! ¡Tu hora ha llegado, piltrafa!</i> \n\n Coloca un Sectario en el lugar señalado.
+SpawnCultist4.button1,Continuar
+EventVanderbiltStone1.text,¿Está el Sr. Vanderbilt solo en un espacio?
+EventVanderbiltStone1.button1,Sí
+EventVanderbiltStone1.button2,No
+EventVanderbiltStone2.text,El Sr. Vanderbilt de repente salta hacia adelante, sacando de un bolsillo una escultura de piedra verde. \n\n —<i>¡Cthulhu, te elijo a ti!</i> —grita, mientras arroja la estatua al suelo, donde rebota salvajemente.
+EventVanderbiltStone2.button1,Continuar
+SpawnHuntingHorror1.text,Cuando la estatua finalmente se para en el suelo, comienza a brillar. ¡Se agrieta y de su interior brotan rayos de ardiente luz! Hay un destello repentino y un estruendo ensordecedor. En el lugar donde estaba la estatua ahora hay una extraña bestia. \n\n Coloca un Horrendo Cazador en el lugar señalado.
+SpawnHuntingHorror1.button1,Continuar
+SpawnStarSpawn1.text,Cuando la estatua se para en el suelo del vestíbulo de tu oficina. ¡Se agrieta y de su interior brotan rayos de ardiente luz! Hay un destello repentino y un estruendo ensordecedor. En el lugar donde estaba la estatua ahora hay una extraña bestia.\n\n Coloca una Semilla Estelar en el lugar señalado.
+SpawnStarSpawn1.button1,Continuar
+EventVanderbilt1.text,Aunque todavía está enfadado contigo, el Sr. Vanderbilt parece preocupado por los eventos que se desarrollan a su alrededor.
+EventVanderbilt1.button1,{action} Obligar al Sr. Vanderbilt a seguirte
+EventVanderbilt1.button2,Cancelar
+EventVanderbilt2.text,<b>El Sr. Vanderbilt se moverá ahora al unísono contigo. En la aplicación, la ficha del Sr. Vanderbilt permanecerá en esta localización</b>.
+EventVanderbilt2.button1,Continuar
+EventAdditionalOffice1.text,¡Un miembro de la turba entra a trompicones en el espacio adicional de la oficina, perdiendo el control de su antorcha! \n\n Coloca una ficha de Fuego en el lugar señalado. Descarta las fichas de Búsqueda, si las hay, de toda esta localización. \n\n <b>Regla:</b> Este fuego debe propagarse obligatoriamente hacia tu oficina, y este fuego puede propagarse a través de las paredes.
+EventAdditionalOffice1.button1,Continuar
+SpawnCultist5.text,¡Con su vestimenta iluminada por el fuego crepitante que se extiende ahora en tu oficina, el hombre tropieza de nuevo y continúa corriendo hacia ti! \n\n Coloca un sectario en el lugar señalado.
+SpawnCultist5.button1,Continuar
+TokenFireExtinguisher.button1,{action} Coger el extintor
+TokenFireExtinguisher.text,En un rincón del vestíbulo, debajo de una mesa, hay un extintor de incendios.
+EventFireExtinguisher1.text,Ganas el Objeto común <i>Extintor</i>. Descarta esta ficha de Búsqueda.
+EventFireExtinguisher1.button1,Continuar
+EventVanderbiltStone3.text,Observas que el Sr. Vanderbilt tiene los ojos cerrados y murmura para sí mismo. Sus palabras te resultan extrañas, de un lugar lejano. De repente, agarra y suelta de sus manos una extraña estatua verde. \n\n Coloca el Objeto único <i>Escultura Grotesca</i> en el espacio del Sr. Vanderbilt.
+EventVanderbiltStone3.button1,Continuar
+EventVanderbiltStone4.text,El suelo tiembla, y un extraño resplandor azul ilumina tu oficina. En la calle, un pilar azul ardiente se ha levantado del suelo. Sus zarcillos se extienden hasta el cielo. \n\n Coloca el módulo {c:TileStreetCorner3} y una ficha de Interacción en el lugar señalado.
+EventVanderbiltStone4.button1,Continuar
+EventVanderbiltStone5.text,Toda clase de extraños seres se retuercen en la llama de la pila. Y como si fuese inmune al fuego, una bestia avanza hacia la calle.
+EventVanderbiltStone5.button1,Continuar
+TokenWhiteMan4.text,El Sr. Vanderbilt está en estado catatónico. Tiembla ligeramente y sus músculos están rígidos. De alguna manera ha levantado un portal a otra dimensión. \n\n Nunca más volverás a confundir Astronomía con Astrología.
+TokenWhiteMan4.button1,Intentas romper su concentración {lore}.
+PuzzlePortal.button1,Hecho
+EventPortalPuzzle1.text,Logras romper la concentración del Sr. Vanderbilt. La llama del Portal está agotada. \n\n Descarta esta ficha de Interacción.
+EventPortalPuzzle1.button1,Continuar
+TokenPortal1.text,El calor del portal en llamas es... ¿frío? Cuando miras el portal, todo tipo de seres te observan desde el interior del mismo. Buscas una forma de cerrar el portal {observation}. \n\n Si tienes una <i>Escultura grotesca</i>, descártala y añade dos {success} al resultado de la tirada.
+TokenPortal1.button1,Confirmar
+TokenPortal1.button2,Fallo
+EventVanderbiltStone6.text,¡Lo conseguiste! Lanzaste todas las chucherías que tenías al Portal. No debería haber funcionado, pero extinguiste el fuego. \n\n Descarta esta ficha de Interacción. Un investigador descarta un objeto.
+EventVanderbiltStone6.button1,Continuar
+EventVanderbiltStone7.text,¡Otro monstruo emerge del Portal!
+EventVanderbiltStone7.button1,Continuar
+SpawnCultist6.text,Un hombre con túnica sale del Portal. Parece desconcertantemente familiar... como uno que enviaste al Abismo hace solo unas horas. \n\n Aparece un Sectario en el lugar señalado.
+SpawnCultist6.button1,Continuar
+SpawnDeepOne1.text,Una bestia acecha por las calles. Olfatea el aire y fija su mirada en ti. \n\n Coloca un profundo en el lugar señalado.
+SpawnDeepOne1.button1,Continuar
+EventVanderbiltStone8.text,¡Otro monstruo emerge del Portal!
+EventVanderbiltStone8.button1,Continuar
+SpawnHybrid6.text,Un hombre corpulento sale tambaleándose del Portal. Definitivamente lo recuerdas. ¡Te tendió una emboscada frente a tu oficina! Su aspecto ahora está más desmejorado. \n\n Aparece un Híbrido de Profundo en el lugar señalado.
+SpawnHybrid6.button1,Continuar
+SpawnHybrid7.button1,Continuar
+SpawnHybrid7.text,¡Otro corpulento hombre irrumpe en el callejón! \n\n Coloca un Híbrido de profundo en el lugar señalado.
+CustomMonsterArchWizard1.monstername,El Archibrujo
+SpawnCustom2.text,Otro miembro de la secta hace acto de presencia. Éste viste con unas ropas más elegantes que los otros. \n\n <b>Coloca al Archibrujo en el lugar señalado, usando la miniatura del sacerdote de Dagón.</b>
+EventTimerCheck7.text,Coloca el módulo {c:TileTownSquare1} en el lugar señalado.
+EventTimerCheck6.button1,Continuar
+EventTimerCheck7.button1,Continuar
+EventTimerCheck8.text,Coloca el módulo {c:TileTownSquare2} en el lugar señalado.
+EventTimerCheck8.button1,Continuar
+EventTimerCheck9.text,Coloca el módulo {c:TileTownSquare3} en el lugar señalado.
+EventTimerCheck9.button1,Continuar
+EventTimerCheck10.text,Una lluvia de disparos cae cuando los federales irrumpen en la Plaza mayor. ¡Las calles se convierten en un caos! ¡Lamentas haber aceptado el caso de manos de las autoridades locales! \n\n Coloca la ficha de Personaje del agente Craven en el lugar señalado. Elimina a cualquier monstruo que esté en la localización Calle 1.
+EventTimerCheck10.button1,Continuar
+EventTimerCheck11.text,Una lluvia de disparos cae cuando los federales irrumpen en la Plaza mayor. ¡Las calles se convierten en un caos! ¡Lamentas haber aceptado el caso de manos de las autoridades locales! \n\n Coloca la ficha de Personaje del agente Craven en el lugar señalado. Elimina a cualquier monstruo que esté en la localización Calle 1.
+EventTimerCheck11.button1,Continuar
+EventVanderbiltStone10.text,El Portal parece estar agotado. Se desvanece y el estado catatónico del Sr. Vanderbilt termina. \n\n Descarta esta ficha de Interacción. \n\n ¡Antes de que desaparezca por completo, un último Monstruo lo atraviesa!
+EventVanderbiltStone10.button1,Continuar
+SpawnCultist8.text,Un arma de fuego se intuye bajo la túnica de este hombre. Coloca un Sectario en el lugar señalado.
+SpawnCultist8.button1,Continuar
+EventRiot8.text,Uno de los sectarios sostiene una antorcha sobre su cabeza. Por un momento, parece inseguro de sí mismo. Al instante siguiente, ¡ha arrojado la antorcha contra tu oficina! Afortunadamente, golpea inofensivamente contra el suelo. \n\n Todos los investigadores sufren 1 de Horror boca abajo.
+EventRiot8.button1,Continuar
+EventRiot9.text,Otro miembro de la turba de sectarios levanta una antorcha por encima de su cabeza. Parece que está calculando la distancia que hay hasta el techo de tu edificio de oficinas.
+EventRiot9.button1,Continuar
+TokenRiot3.text,¡El sectario parece que podría lanzar la antorcha en cualquier momento! \n\n Un investigador dentro del alcance puede realizar una prueba de {observation}. Añade el Daño del arma de fuego del investigador, si tiene alguna, al resultado de la prueba.
+TokenRiot3.button1,Confirmar
+TokenRiot3.button2,Fallo
+EventRiot10.button1,Continuar
+EventRiot11.text,¡Los sectarios lanzan una antorcha al techo de tu oficina! El fuego comienza a extenderse inmediatamente. \n\n Coloca una ficha de Fuego en un espacio dentro del edificio de oficinas. \n\n <b>Regla: este Fuego puede propagarse a través de las paredes. También debe propagarse dentro de tu oficina, si es posible, antes de propagarse al exterior</b>.
+EventRiot10.text,Con tu intervención la antorcha cae al suelo sin poder causar daño. ¡Desastre evitado!
+EventRiot11.button1,Continuar
+EventRiot12.button1,Continuar
+EventRiot13.text,Otro sectario levanta una antorcha por encima de su cabeza. Parece como si estuviera calculando la distancia hasta el techo de tu edificio de oficinas.
+EventRiot12.text,Tu intervención parece debilitar la determinación de los sectarios, pero no pone fin a ella. Sus antorchas bajan solo momentáneamente.
+EventRiot13.button1,Continuar
+TokenRiot4.text,¡El sectario parece que podría lanzar la antorcha en cualquier momento! \n\n Un investigador dentro del alcance puede realizar una prueba de {observation}. Añade el Daño del arma de fuego del investigador, si tiene alguna, al resultado de la prueba.
+TokenRiot4.button1,Confirmar
+TokenRiot4.button2,Fallo
+EventRiot14.text,¡Los miembros de la secta se dirigen hacia tu oficina!
+EventRiot14.button1,Continuar
+SpawnCultist10.text,¡Un hombre vestido con túnica se separa del grupo hacia la entrada de tu oficina! Aparece un Sectario en el lugar señalado.
+SpawnCultist10.button1,Continuar
+TokenWarehouseDoor.text,Esta puerta lleva a un gran almacén que, por lo que sabes, lleva mucho tiempo sin usarse.
+TokenWarehouseDoor.button1,{action} Abrir la puerta
+EventWarehouse1.text,Hay cosas tiradas por todos lados, pero parece que nadie ha estado usando este sitio desde hace unos meses.\n\n ¡Oyes un ruido en la esquina suroeste! \n Un hombre se levanta, sorprendido al verte. Deja caer algo y pasa corriendo por delante de ti, desapareciendo en la oscuridad de la calle. \n\n Coloca el módulo {c:TileWarehouse} y fichas de Búsqueda en los lugares señalados. A continuación descarta esta ficha de Exploración.
+EventWarehouse1.button1,Continuar
+TokenWarehouse1.text,Una caja abierta descansa en el suelo. Está llena a rebosar de papeles envejecidos.
+TokenWarehouse1.button1,{action} Buscar en la caja
+EventWarehouse2.text,La caja contiene todo tipo de manuscritos que parecen representar puertas... o portales... ¿o estrellas? Te cuesta mucho encontrarle sentido a lo que tienen escrito. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventWarehouse2.button1,Continuar
+TokenWarehouse2.text,El hombre que viste estaba parado al lado de esta caja, que tiene la tapa entreabierta. En el suelo hay un cartucho de dinamita. Debe de habérsele caído. Sin embargo, le falta el cable del detonador. Así es completamente inservible.
+TokenWarehouse2.button1,{action} Buscar en la caja
+EventWarehouse3.text,La caja contiene numerosas antorchas. Faltan algunas. No parece que te vayan a servir para algo.\n En la caja también hay varios planos de edificios. ¡Uno de ellos es del edificio de oficinas! Tu oficina privada se encuentra en el extremo norte del edificio. \n ¡Qué extraña coincidencia! \n\n Descarta esta ficha de Búsqueda. Gana 2 Pistas {clue}.
+EventWarehouse3.button1,Continuar
+TokenRiot2.text,Por el momento, no ves ninguna utilidad en interactuar con los sectarios.
+TokenRiot2.button1,Continuar
+EventInvestigatorDie.button1,Continuar
+UI1.uitext,Saltas por la ventana lateral de tu oficina. Los cánticos demoníacos de tus adversarios reverberan por todo el callejón. El fuego emerge de las ventanas cuando los cristales saltan por los aires. Un compañero sigue todavía dentro. Tu fracaso es iluminado por el crepitar del fuego que consume tu oficina. \n\n Te refugias en la oscuridad de la noche.
+UI0.button1,Continuar
+EventInvestigatorDie3.button1,Continuar
+UI2.uitext,Continuar
+UI2.button1,Button1
+TokenAgentCraven3.text,El agente Craven y sus hombres consiguen mantener el perímetro mientras corres hacia tu oficina. El tiroteo rompe el silencio de la noche. \n\n —<i>¡Investigar un club astronómico! Será divertido</i>—mascullas entre dientes mientras maldices tu estampa—. <i>Esta es la última vez que les hago un encargo a los federales</i>.
+TokenAgentCraven3.button1,Confirmar que el Sr. Vanderbilt está en el mismo espacio que el agente Craven.
+TokenAgentCraven2.text,El agente Craven y sus hombres consiguen mantener el perímetro mientras corres hacia tu oficina. El tiroteo rompe el silencio de la noche. \n\n —<i>¡Investigar un club astronómico! Será divertido</i>—mascullas entre dientes mientras maldices tu estampa—. <i>Esta es la última vez que les hago un encargo a los federales</i>.
+TokenAgentCraven2.button1,Confirmar que el Sr. Vanderbilt está en el mismo espacio que el agente Craven.
+TokenAgentCraven.button1,Confirmar que el Sr. Vanderbilt está en el mismo espacio que el agente Craven.
+TokenAgentCraven.text,El agente Craven y sus hombres consiguen mantener el perímetro mientras corres hacia tu oficina. El tiroteo rompe el silencio de la noche. \n\n —<i>¡Investigar un club astronómico! Será divertido</i>—mascullas entre dientes mientras maldices tu estampa—. <i>Esta es la última vez que les hago un encargo a los federales</i>.
+UI4.uitext,Ha salido el sol. Por primera vez desde que comenzó la tarde, el silencio ha retornado a las calles. Agente federales pululan frente a tu oficina. Ahora el Sr. Vanderbilt está bajo la custodia del Gobierno Federal. \n\n —<i>¡Buen trabajo, sí señor!</i> —dice eufórico el Agente Craven, mientras empuja al Sr. Vanderbilt hacia el interior de un furgón policial. \n\n Supones que fue hiciste un buen trabajo... pero en el crepúsculo, algo se revuelve. Sientes que no has visto el final del Club de Astronomía Vanderbilt.
+UI5.uitext,Continuar
+UI5.button1,Button1
+EventVanderbiltFlight1.text,¿Está el Sr. Vanderbilt solo en un espacio?
+EventVanderbiltFlight1.button1,Sí
+EventVanderbiltFlight1.button2,No
+EventVanderbiltFlight2.text,De repente, una criatura con forma de serpiente voladora rasga las nubes, ¡y aterriza directamente sobre el Sr. Vanderbilt! La bestia se aferra a los hombros del Sr. Vanderbilt.
+EventVanderbiltFlight2.button1,Continuar
+EventVanderbiltFlight3.text,Coloca un Horrendo cazador en el mismo espacio que el Sr. Vanderbilt. No se considera un monstruo. Cualquier investigador que lo tenga dentro de su alcance puede interactuar con él.
+EventVanderbiltFlight3.button1,Continuar
+TokenHorrorFlight1.text,La bestia agita sus alas, como si se preparara para alzar el vuelo. \n\n Un investigador que esté dentro de su alcance puede realizar una prueba de {agility}. Añade el daño del arma de fuego del investigador, si tiene alguna, al resultado de la prueba.
+TokenHorrorFlight1.button1,Confirmar
+TokenHorrorFlight1.button2,Fallo
+EventVanderbiltFlight4.text,¡Lo conseguiste! Golpeas a la bestia en todo el hocico. Libera la presa que había hecho sobre los hombros del Sr. Vanderbilt. \n\n Ganas 1 Pista {clue}.
+EventVanderbiltFlight4.button1,Continuar
+SpawnHuntingHorror2.text,¿Pifia? La bestia ahora dirige su atención directamente hacia a ti. \n\n La aplicación ha generado un Horrendo cazador en el mismo espacio que la miniatura. Mueve a este Horrendo cazador un espacio hacia el investigador que interactuó con él.
+SpawnHuntingHorror2.button1,Continuar
+EventVanderbiltFlight5.text,Tu intento por intervenir parece que ha enojado a la bestia, pero no rompe la presa que tiene sobre el Sr. Vanderbilt.
+EventVanderbiltFlight5.button1,Continuar
+EventVanderbiltFlight6.text,De repente, dos criaturas con forma de serpientes voladoras rasgan las nubes, ¡y aterrizan directamente sobre el Sr. Vanderbilt! La bestia se aferra a los hombros del Sr. Vanderbilt. La segunda también aterriza en el mismo espacio que el Sr. Vanderbilt.
+EventVanderbiltFlight6.button1,Continuar
+EventVanderbiltFlight7.text,Coloca un Horrendo cazador en el mismo espacio que el Sr. Vanderbilt. No se considera un monstruo. Cualquier investigador que lo tenga dentro de su alcance puede interactuar con él.
+EventVanderbiltFlight7.button1,Continuar
+SpawnHuntingHorror3.text,La segunda bestia ignora al Sr. Vanderbilt y dirige su atención hacia ti. \n\n Aparece un Horrendo Cazador en el espacio del Sr. Vanderbilt.
+SpawnHuntingHorror3.button1,Continuar
+EventVanderbiltFlight9.text,La bestia se lanza de nuevo hacia los cielos, ¡con sus garras aferrando al Sr. Vanderbilt! En un abrir y cerrar de ojos, se desvanecen en en la oscuridad. Has fallado en la misión encomendada por el agente Craven, pero aún puedes escapar con vida. \n\n Descarta la ficha de Personaje del Sr. Vanderbilt y la del Horrendo cazador que se lo ha llevado.
+EventVanderbiltFlight9.button1,Continuar
+TokenAgentCraven3.button2,Confirmar que el Sr. Vanderbilt ha escapado.
+TokenAgentCraven2.button2,Confirmar que el Sr. Vanderbilt ha escapado.
+TokenAgentCraven.button2,Confirmar que el Sr. Vanderbilt ha escapado.
+UI8.uitext,Sobreviviste a la noche, pero no puedes evitar sentir que has defraudado al Agente Craven, a la Agencia y a tus compañeros. \n\n El Sr. Vanderbilt escapó de la custodia... \n\n... ¿o no? Ahora que lo piensas, sus rescatadores no parecían tan amables.
+UI9.uitext,Continuar
+UI9.button1,Button1
+EventDynamite1.text,Un hombre aparece corriendo a toda velocidad. No te habías dado cuenta, pero lleva algo en la cabeza que crepita como una bengala. Su expresión es una mezcla de euforia y terror. \n\n Coloca una ficha de Personaje en el lugar señalado. \n\n Todos los investigadores sufren 1 de Horror boca abajo, anulado por {will}.
+EventDynamite1.button1,Continuar
+EventDynamite2.text,Echas un vistazo al loco que corre por la calle. Su bengala aún brilla con intensidad. \n\n Mueve la ficha de Personaje 3 espacios hacia la puerta principal de tu oficina.
+EventDynamite2.button1,Continuar
+EventDynamite3.text,Echas un vistazo al loco que corre por la calle. Su bengala aún brilla con intensidad. \n\n Mueve la ficha de Personaje 3 espacios hacia la puerta principal de tu oficina.
+EventDynamite3.button1,Continuar
+EventDynamite4.text,Echas un vistazo al loco que corre por la calle. Su bengala aún brilla con intensidad. \n\n Mueve la ficha de Personaje 3 espacios hacia la puerta principal de tu oficina.
+EventDynamite4.button1,Continuar
+EventDynamite5.text,¡El loco de la bengala salta por la ventana al vestíbulo! \n\n Descarta esta ficha de Personaje.
+EventDynamite5.button1,Continuar
+EventDynamite6.text,Una apariencia maníaca de triunfo aparece en el rostro del hombre, y luego él también explota. ¡La bengala era dinamita! \n\n La terrible explosión, te ensordece. \n\n Todos los investigadores adquieren el estado <i>Desconcertado</i>.
+EventDynamite6.button1,Continuar
+EventDynamite7.text,¡El vestíbulo ha sido destruido! Descarta el módulo {c:TileSideLobby} y todas las fichas que haya en él. Cualquier monstruo en el {c:TileSideLobby} es derrotado. Cualquier investigador en el {c:TileSideLobby} sufre 2 de Daño. Los investigadores del {c:TileSideLobby} se mueven a un espacio adyacente al {c:TileSideLobby}.
+EventDynamite7.button1,Continuar
+EventDynamite8.text,Descarta los módulos {c:TileSideAlleyCorner1} y {c:TileSideAlleyCorner2}. Cualquier investigador en estas localizaciones se mueve a un espacio adyacente. \n\n Coloca el módulo {c:TileSideAlleyCorner2} en el lugar señalado. \n\n ¡El {c:TileLobby2} ha sido reducido a escombros! Coloca fichas de Puerta en los lugares señalados.
+EventDynamite8.button1,Continuar
+EventDynamite9.text,¿Estaba el Sr. Vanderbilt en el vestíbulo?
+EventDynamite9.button1,Sí
+EventDynamite9.button2,No
+EventDynamite10.text,El Sr. Vanderbilt ha sido asesinado por la explosión. Descarta la ficha de Personaje del Sr. Vanderbilt.
+EventDynamite10.button1,Continuar
+EventDynamite11.text,¿Está el Sr. Vanderbilt en la parte norte del edificio de oficinas y no puede acercarse al agente Craven?
+EventDynamite11.button1,Sí
+EventDynamite11.button2,No
+EventDynamite12.text,¿Hay algún investigador que todavía pueda acceder y escoltar al Sr. Vanderbilt?
+EventDynamite12.button1,Sí
+EventDynamite12.button2,No
+EventDynamite13.text,Coloca fichas de Exploración y Vistazo en los lugares señalados. La ficha de Exploración es la ventana que lleva al patio que hay detrás del edificio de oficinas. La ficha de Vistazo funciona como una ventana, permitiendo que un investigador en un espacio adyacente pueda atacar con un arma a distancia a cualquier monstruo en el espacio que antes era el vestíbulo. \n\n ¡Para tener éxito, un investigador debe escapar con el Sr. Vanderbilt al abrigo de la noche!
+EventDynamite13.button1,Continuar
+TokenEscapeRoute1.text,Esta ventana conduce al patio trasero del edificio de oficinas. El desnivel es pronunciado, pero teniendo en cuenta las circunstancias, no crees que tengas otra alternativa.
+TokenEscapeRoute1.button1,Saltar al patio
+EventDynamite14.text,Coloca el módulo {c:TileYard2} y una ficha de Vistazo en el lugar señalado. \n ¡Tu rodilla reacciona con un repulsivo crujido seco cuando caes al patio! Ganas el estado <i>Herido</i>. Si ya estabas Herido, sufres 2 de Daño boca abajo. \n\n Los investigadores que te estuviesen siguiendo ganan esa misma condición o sufren el mismo Daño si ya estaban Heridos.
+EventDynamite14.button1,Continuar
+TokenEscapeRoute2.text,Una valla en la esquina sureste de tu patio se adentra en un terreno no urbanizado que hay detrás de tu edificio de oficinas.
+TokenEscapeRoute2.button1,Continuar explorando hacia el este
+EventDynamite15.text,El sol naciente proyecta una sombra espeluznante sobre el terreno sin urbanizar en la trasera de tu edificio de oficinas. En la esquina noreste se encuentra la entrada a un estrecho callejón. ¡Si consigues llegar hasta allí, es posible que puedas escapar! \n\n Coloca el módulo {c:TileParkPond} una ficha de Interacción en el lugar señalado. Descarta esta ficha de Vistazo.
+EventDynamite15.button1,Continuar
+TokenEscapeRoute3.text,¡Los sabuesos del infierno te pisan los talones, mientras corres por el parque hacia la entrada del callejón!
+TokenEscapeRoute3.button1,{action} Confirmar que has huido con el Sr. Vanderbilt
+TokenEscapeRoute3.button2,{action} Confirmar que has huido sin el Sr. Vanderbilt
+UI10.uitext,Tropiezas con la ventana lateral de tu oficina. Los cánticos demoníacos de tus adversarios reverberan por todo el callejón. El fuego emerge de las ventanas estalladas. Un compañero sigue todavía dentro. \n\n No estás seguro de querer quedarte a solas con el Sr. Vanderbilt en el callejón. \n\n Te refugias en la oscuridad de la noche.
+SpawnHuntingHorror4.text,Una bestia alada se estrella en la oficina, buscando al Sr. Vanderbilt. \n Coloca un Horrendo cazador en el lugar señalado.
+SpawnHuntingHorror4.button1,Continuar
+EventDynamite18.text,No serás capaz de transportar al Sr. Vanderbilt bajo la custodia del Agente Craven. Tu única esperanza es huir hacia la seguridad que te ofrece el Agente Craven.
+EventDynamite18.button1,Continuar
+EventDynamite19.text,¿Hay algún investigador en la parte norte del edificio de oficinas y que no pueda moverse en dirección al agente Craven?
+EventDynamite19.button1,Sí
+EventDynamite19.button2,No
+EventDynamite20.text,Coloca fichas de Exploración y Vistazo en los lugares señalados. La ficha de Exploración es la ventana que lleva al patio que hay detrás del edificio de oficinas. La ficha de Vistazo funciona como una ventana, permitiendo que un investigador en un espacio adyacente pueda atacar con un arma a distancia a cualquier monstruo en el espacio que antes era el vestíbulo. \n\n ¡Para tener éxito, cualquier investigador que esté en la parte norte del edificio de oficinas debe escapar a través de esta ventana!
+EventDynamite20.button1,Continuar
+SpawnHuntingHorror5.text,Otra abominación se abre paso a través del techo de tu edificio de oficinas y llega al recibidor. Coloca un Horrendo cazador en el lugar señalado.
+SpawnHuntingHorror5.button1,Continuar
+TokenRiot.text,Por el momento, no ves ninguna utilidad en interactuar con los sectarios.\n\n La primera vez que leas este mensaje ganas 1 Pista {clue}.
+TokenRiot.button1,Continuar
+SpawnChildofDagon1.button1,Continuar
+SpawnChildofDagon1.text,—<i>¡Considere esto como mi carta de renuncia!</i> —grita McGrath, el conserje de tu oficina, mientras salta de un apartamento hacia el callejón. \n Recuerdas que últimamente McGrath había estado actuando sospechosamente en la oficina. \n\n Coloca un hijo de Dagón en el lugar señalado. \n Los investigadores eligen a un investigador para que gane 2 pistas {clue}.
+TokenYourOffice2.text,Tu equipaje de montería se encuentra en el suelo, ocupando la esquina de tu oficina.
+TokenYourOffice2.button1,{action} Buscar en el equipaje
+EventYourOffice4.text,Como el buen vino y el buen queso, tu afición y tu trabajo combinan perfectamente. \n\n Ganas el Objeto común <i>Escopeta</i>. A continuación descarta esta ficha de Búsqueda.
+EventYourOffice4.button1,Continuar
+SpawnDeepOne2.text,El hombre parece estar paseando una especie de lagarto, un animal. ¿o cosa?. que se asemeja a un perro... ¿O es esa cosa la que guía al hombre? \n\n Aparece un Profundo en el lugar señalado.
+SpawnDeepOne2.button1,Continuar
+SpawnCultist11.text,Los gritos siguen resonando por la calle procedentes de la mansión del Sr. Vanderbilt. Aparece otro hombre enloquecido. \n\n Coloca un sectario en el lugar señalado.
+SpawnCultist11.button1,Continuar
+EventExplore.button1,Continuar
+EventExplore.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+TokenAgentCraven.button3,Confirmar que el Sr. Vanderbilt ha muerto.
+UI11.uitext,Sobreviviste a la noche, pero no puedes evitar sentir que has defraudado al Agente Craven, a la Agencia y a tus compañeros. \n\n El Sr. Vanderbilt ha sido enterrado entre los escombros de tu antiguo vestíbulo. \n\n... ¿o no era él? Nunca llegaste a ver su cuerpo.
+TokenAgentCraven2.button3,Confirmar que el Sr. Vanderbilt ha muerto.
+TokenAgentCraven3.button3,Confirmar que el Sr. Vanderbilt ha muerto.
+EventSideLobbytoSideEntryHall2.text,Por primera vez en lo que va de noche, el Sr. Vanderbilt parece preocupado.\n\n —<i>¡No entiende lo que ha hecho!</i> —balbucea—. <i>Cree que todos sus perseguidores son mis salvadores. Ni por asomo. ¡Son mis carceleros!</i>
+EventSideLobbytoSideEntryHall2.button1,Continuar
+EventSideLobbytoSideEntryHall3.text,—<i>Tiene que liberarme</i> —suplica el Sr. Vanderbilt mientras unas gotas de sudor aparecen en su frente.
+EventSideLobbytoSideEntryHall3.button1,Continuar
+EventTimerCheck12.text,El Sr. Vanderbilt renueva sus peticiones: \n\n —<i>Mantuve un delicado equilibrio de poder hasta que usted apareció y quemó mi mansión... ¡mi santuario! Permitir que las autoridades me encarcelen destruirá por completo lo que queda de ese equilibrio. ¡Se arriesga a que esta ciudad sea engullida por una oscuridad sin final!</i>
+EventTimerCheck12.button1,Continuar
+EventTimerCheck13.text,—<i>¡Libéreme ahora o todos ustedes sufrirán para toda la eternidad! </i>
+EventTimerCheck13.button1,Continuar
+TokenWhiteMan5.text,— <i>¡Por favor, suélteme!</i> —suplica el Sr. Vanderbilt—. <i>¡No lo entiende! ¡Le están manipulando!</i>
+TokenWhiteMan5.button1,{action} Obligar al Sr. Vanderbilt a seguirte
+TokenWhiteMan5.button2,{action} Liberar al Sr. Vanderbilt
+EventVanderbiltRelease1.text,Mientras le quitas las esposas al Sr. Vanderbilt, una sonrisa se asoma por su rostro. \n\n —<i>Myrddraal-retrocessus</i> —susurra. \n\n Retrocediendo hacia un rincón de la habitación, las sombras se arremolinan alrededor de él. Se esfuma de tu vista. \n\n Descarta la ficha de Personaje del Sr. Vanderbilt. Coloca una ficha de Oscuridad en el espacio que ocupaba Vanderbilt.
+EventVanderbiltRelease1.button1,Continuar
+TokenAgentCraven4.text,Curiosamente, el agente Craven se coloca delante del perímetro de seguridad. Te hace señas para que te reúnas con sus hombres que están envueltos en un tiroteo con los sectarios que se dirigen calle abajo hacia tu oficina. \n\n —<i>Esta es la última vez que acepto un trabajo de los federales</i> —te dices a ti mismo.
+TokenAgentCraven4.button1,Confirmar que el Sr. Vanderbilt no puede ser capturado.
+UI13.uitext,Lo más importante es que sobreviviste a la noche. Los sucesos en la mansión del Sr. Vanderbilt ahora parecen involucrar a más actores de lo que pensabas. Te metiste, o te engañaron, para que te metieras en medio de una lucha mucho más grande que esta ciudad. Tienes serias dudas de que no volverás a tener noticias del Sr. Vanderbilt. \n\n ¿Demostrará el agente Craven ser un amigo o un enemigo?
+EventVanderbiltRelease2.text,De repente la cara del agente Craven se retuerce de dolor y, como empujado por una fuerza fantasmagórica, avanza dejando atrás el perímetro y se dirige hacia la parte delantera de tu oficina. \n\n Mueve al agente Craven al lugar señalado.
+EventVanderbiltRelease2.button1,Continuar
+quest.synopsys,Continúa la huida de la mansión Vanderbilt. De 3 a 5 jugadores.
+EventStart4.text,¿Qué se llevaron los investigadores de la mansión del Sr. Vanderbilt?
+EventStart4.button1,Armas
+EventStart4.button2,Reliquias
+EventStart4.button3,<b>¡A duras penas habéis escapado con vida! (Difícil) </b>
+EventStart5.text,Los investigadores ganan los Objetos comunes <i>Revólver del 38, Linterna sorda y Dinamita</i>.
+EventStart5.button1,¡Comenzar!
+EventStart6.text,Los investigadores ganan los Objetos comunes <i>Velas, Símbolo arcano y Daga ritual</i>.
+EventStart6.button1,¡Comenzar!
+EventStart7.text,Los investigadores ganan los Objetos comunes <i>Antorcha</i> y <i>Biblia del rey Jorge</i>.
+EventStart7.button1,Continuar
+EventStart8.text,Cada investigador roba cartas de Horror o de Daño (cada investigador elige un tipo) hasta que saque una carta que contenga el texto <i>Mantener boca arriba</i>. Se queda con esa carta y a continuación devuelve el resto de las cartas que haya robado a su mazo correspondiente.
+EventStart8.button1,¡Comenzar!
+SpawnCustom1.text,Alguien se te ha adelantado y ha llegado antes a la oficina. En medio de la calle hay un hombre alto y corpulento. Su piel es púrpura y brilla a la luz de la luna. \n\n —<i>¡Entrégame a tu detenido o prepárate para sufrir la condenación eterna!</i> —grita mientras hace crujir sus nudillos. \n\n <b>Coloca al «Bruto», usando una miniatura de Híbrido de profundo, en el lugar señalado.\n</b>
+SpawnCustom1.button1,Continuar
+CustomMonsterBrute1.info,-
+EventBrute1a2.button1,Continuar
+CustomMonsterBrute1.monstername,«El Bruto»
+EventBrute1a3.text,«El Bruto» resopla, flexiona su cuello y busca a los Investigadores. Mueve al «Bruto» 2 espacios hacia el investigador más cercano. «El Bruto» entonces ataca a un investigador en su espacio.
+EventBrute1a3.button1,«El Bruto» ataca
+EventBrute1a3.button2,No hay investigadores en su mismo espacio
+EventBrute1a4.text,«El Bruto» agarra al Investigador, golpeándolo contra la pared. Sufre tanto Daño boca arriba como la Rabia del «Bruto» ({var:BruteRage}) + 2 (anulados por {strength}).
+EventBrute1a4.button1,Continuar
+EventBrute1a5.text,«El Bruto» aúlla con rabia. El tono de su cara cambia de púrpura a un rojo intenso.
+EventBrute1a5.button1,Continuar
+CustomMonsterArchWizard1.info,-
+SpawnCustom2.button1,Continuar
+EventArchwizard1a2.button1,Continuar
+EventArchwizard1a1.button1,Button1
+EventArchwizard1a2.text,El Archibrujo sostiene un bastón brillante sobre su cabeza y grita: \n\n—<i>¡Tú, {rnd:hero}, tu destino está marcado!</i>\n\n {rnd:hero} comienza a sudar profusamente. Coloca una ficha de Oscuridad en el mismo espacio que {rnd:hero}.
+EventArchwizard1a3.text,¿Está {c:EventArchwizard1a2} en un espacio que contiene una ficha de Oscuridad?
+EventArchwizard1a3.button1,Sí
+EventArchwizard1a3.button2,No
+EventArchwizard1a4.text,{c:EventArchwizard1a2} se queda paralizado por el miedo cuando las sombras se arremolinan en la habitación. Sufre 3 de Horror boca abajo (anulados por {will}).
+EventArchwizard1a4.button1,Continuar
+EventArchwizard1a5.text,El Archibrujo sostiene un bastón brillante sobre su cabeza y grita un conjuro arcano. Coloca una ficha de Oscuridad en el mismo espacio que {c:EventArchwizard1a2}. El Archibrujo mueve 2 espacios hacia {c:EventArchwizard1a2}.
+EventArchwizard1a5.button1,Continuar
+EventArchwizard1a6.text,El Archibrujo se sumerge en las sombras de la noche y desaparece. De repente, sale de la sombra de un rincón de la localización donde está {c:EventArchwizard1a2}. \n\n Mueve al Archibrujo y a los monstruos que estén en el mismo espacio que el Archibrujo al espacio más cercano a {c:EventArchwizard1a2} y que contenga una ficha de Oscuridad.
+EventArchwizard1a6.button1,Continuar
+EventArchwizard1a7.text,El Archibrujo se mueve 2 espacios hacia el Investigador más cercano. El Archibrujo entonces ataca al investigador que haya sufrido más Daño.
+EventArchwizard1a7.button1,El Archibrujo ataca
+EventArchwizard1a7.button2,No hay investigadores a los que atacar
+EventArchwizard1a8.text,El Archibrujo te lanza un zarpazo ({agility}; 2). Si la tirada tiene éxito, te apartas del camino. Si fallas la tirada, te araña la cara. Sufre 2 de Daños boca abajo.
+EventArchwizard1a8.button1,Continuar
+UIChangeLog1.uitext,<b>HISTORIAL DE CAMBIOS</b> \n\n V2.1: Elementos adicionales en la trama. \n\n V2.0: Mejorados los monstruos creados para el escenario. \n\n V1.5 - V1.9: Monstruos personalizados, incluyendo el Bruto y el Archibrujo. \n\n V1.4: Añadida variabilidad de eventos aleatorios para cada sesión. \n\n V1.0 - V1.3: Arreglados fallos y ajustada la dificultad.
+UIChangeLog2.uitext,Continuar
+UIChangeLog2.button1,Button1
+EventSleuth1a1.text,Mientras tanto, una asociada de los investigadores, la Sra. Drew, hábilmente se escapa de una celda de la comisaría local. \n\n <b>Regla: No coloques ninguna ficha o módulo. Si lo que quieres es un escenario más corto, este evento es sólo un añadido opcional a la historia que tiene lugar por completo en la aplicación. Por tanto, puede ser omitido si se desea.</b>
+EventSleuth1a1.button1,Proceder
+EventSleuth1a1.button2,Salir
+EventSleuth1a3.text,La Sra. Drew le echa un vistazo a los alrededores de la celda de la cárcel. Los papeles en la pared llaman su atención, así como las oficinas del agente Craven y del sargento. \n\n Los investigadores pueden elegir <b>UNA</b> ficha para que la Sra. Drew interactúe con ella.
+EventSleuth1a3.button1,Continuar
+TokenSleuthtoOffice2.text,La oficina del agente Craven.
+TokenSleuthtoOffice2.button1,Entrar
+TokenSleuthtoOffice1.text,La oficina del sargento.
+TokenSleuthtoOffice1.button1,Entrar
+TokenSleuthSearch1.text,Un boletín de noticias.
+TokenSleuthSearch1.button1,Leer
+TokenSleuthSearch5.text,Un boletín de noticias.
+TokenSleuthSearch5.button1,Leer
+EventSleuthSearch1a1.text,El boletín describe inusuales sucesos que ocurren alrededor de Arkham: locos que exclaman que escaparon de una desconcertante cámara de tortura; un escándalo en el manicomio local; una creciente ola de crímenes; etc. \n\n Todos los investigadores ganan 2 Pistas {clue}.
+EventSleuthSearch1a1.button1,Continuar
+EventSleuthSearch5a1.text,El boletín tiene una foto de un joven que lleva una mochila a la espalda. El pie de foto dice: «Pete "Cubo de basura" - sigue desaparecido». \n\n Todos los investigadores ganan 2 Pistas {clue}.
+EventSleuthSearch5a1.button1,Continuar
+EventSleuthtoOffice2a1.text,La Sra. Drew abre la cerradura y entra en la oficina del agente Craven.
+EventSleuthtoOffice2a1.button1,Continuar
+EventSleuthtoOffice1a1.text,La Sra. Drew consigue abrir la cerradura y entra en la oficina del sargento.
+EventSleuthtoOffice1a1.button1,Continuar
+EventSleuth2a1.text,La Sra. Drew escucha pasos que vienen del vestíbulo de la comisaría. \n\n Los investigadores pueden elegir <b>UNA</b> ficha para que la Sra. Drew interactúe con ella.
+EventSleuth2a1.button1,Continuar
+TokenSleuthSearch2.text,El agente Craven ha colocado un buen puñado de fotografías en un tablero. Algunas están conectadas con hilos.
+TokenSleuthSearch2.button1,Examinar
+TokenSleuthSearch3.text,En la esquina de la oficina del Sargento hay un armario etiquetado como "INFORMES DEL PERSONAL".
+TokenSleuthSearch3.button1,Examinar
+EventSleuthSearch2a1.text,Las fotos conectadas crean una mareante maraña. Reconoces a algunas personas como importantes ciudadanos de Arkham, incluyendo a políticos y médicos. En la parte superior de la telaraña hay una foto intimidante del Sr. Vanderbilt. \n\n Todos los investigadores ganan 1 Pista {clue}.
+EventSleuthSearch2a1.button1,Continuar
+TokenSleuthSearch4.text,Varios carteles tapizan la pared.
+TokenSleuthSearch4.button1,Leer
+EventSleuthSearch4a1.text,Uno de los carteles informa que el prominente erudito de Arkham, el Dr. Henry Armitage, ha sido enviado a investigar un disturbio en el aislado pueblo de Dunwich. \n\n Todos los investigadores obtienen 2 Pistas {clue}.
+EventSleuthSearch4a1.button1,Continuar
+EventSleuthSearch3a1.text,La Sra. Drew da vuelta a la lista de personal hasta llegar a «Craven, Wes». El archivo de personal indica que el agente Craven lleva toda la vida residiendo en Arkham. Recibió la Medalla de Honor de Massachusetts y entró en la policía tras la misteriosa desaparición de su padre. \n\n Todos los investigadores ganan 1 Pista {clue}.
+EventSleuthSearch3a1.button1,Continuar
+EventSleuth3a1.button1,Button1
+EventSleuth3a2.text,Un oficial de policía está a punto de descubrir a la Sra. Drew mientras patrulla por el recinto. Maldiciendo para sus adentros, la Sra. Drew roba el documento más cercano y se lanza ágilmente por una ventana cercana y desapareciendo en la oscuridad de la noche. El documento era una famosa declaración de James Riley:\n\n —<i>Cuando veo un pájaro que camina como un pato... llamo a ese pájaro pato</i>. \n\n Todos los investigadores ganan 1 Pista {clue}.
+EventSleuth3a2.button1,Continuar
+EventSleuth3a3.text,Un oficial de policía casi tropieza con la Sra. Drew mientras patrulla por el recinto. Con una maldición, roba el documento más cercano y se lanza ágilmente por una ventana cercana. Ella desaparece en la oscuridad de la noche. El documento era una famosa declaración de James Riley: —<i>Cuando veo un pájaro que camina como un pato... llamo a ese pájaro un pato<i>. \n\n Todos los investigadores ganan 1 Pista {clue}.
+EventSleuth3a3.button1,Continuar
+EventSleuth3a4.text,Un oficial de policía casi tropieza con la Sra. Drew mientras patrulla por el recinto. Con una maldición, roba el documento más cercano y se lanza ágilmente por una ventana cercana. Ella desaparece en la oscuridad de la noche. El documento era una famosa declaración de James Riley: —<i>Cuando veo un pájaro que camina como un pato... llamo a ese pájaro un pato<i>. \n\n Todos los investigadores ganan 1 Pista {clue}.
+EventSleuth3a4.button1,Continuar
+TokenWindow1.text,Un gran ventanal que da a la calle. \n\n <b>Regla: Un investigador en un espacio adyacente puede atacar usando un arma a distancia o un Hechizo a un monstruo situado en la localización adyacente</b>.
+TokenWindow1.button1,Continuar
+TokenWindow3.text,Un gran ventanal que da a la calle. \n\n <b>Regla: Un investigador en un espacio adyacente puede atacar usando un arma a distancia o un Hechizo a un monstruo situado en la localización adyacente</b>.
+TokenWindow3.button1,Continuar
+TokenWindow2.text,Un gran ventanal que da a la calle. \n\n <b>Regla: Un investigador en un espacio adyacente puede atacar usando un arma a distancia o un Hechizo a un monstruo situado en la localización adyacente</b>.
+TokenWindow2.button1,Continuar
+TokenWindow4.text,Un gran ventanal que da a la calle. \n\n <b>Regla: Un investigador en un espacio adyacente puede atacar usando un arma a distancia o un Hechizo a un monstruo situado en la localización adyacente</b>.
+TokenWindow4.button1,Continuar
+TokenBarricade1.text,Observas los elegantes muebles. Si fuese necesario, podrías usarlos para levantar barricadas en las puertas.
+TokenBarricade1.button1,{action} Crear barricada
+EventBarricade1a1.button1,Button1
+EventBarricade1a2.text,Rompes y apilas los muebles para crear una barricada. \n\n Coloca una ficha de Obstrucción en cualquier puerta del edificio de oficinas. No descartes esta ficha de Interacción.
+EventBarricade1a2.button1,Continuar
+EventBarricade1a3.text,Destruyes el último mueble para crear una barricada. \n\n Coloca una ficha de Obstrucción en cualquier puerta del edificio de oficinas. Descarta esta ficha de Interacción.
+EventBarricade1a3.button1,Continuar
