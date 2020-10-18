@@ -1,0 +1,444 @@
+.,Spanish
+quest.name,El santuario de las aflicciones
+quest.description,Este es un escenario inspirado en la segunda misión del juego «Las Mansiones de la locura», primera edición («El santuario interior»). \n\n Recibís una llamada de auxilio enviada desde una remota localidad donde un gran santuario parece ser la fuente del misterio que envuelve ese lugar. \n Entrar en ese antiguo edificio es la única forma de descubrir la verdad sobre este pueblo maldito. \n\n PS_1: Este escenario usará monstruos del juego base y de la expansión «Pesadillas recurrentes». \n\n PS_2: El creador del escenario nunca jugó a la primera edición de «Las Mansiones de la locura», por lo que el escenario está inspirado en segunda misión de dicho juego, aunque la historia y los eventos son creación del autor. \n\n PS_3: Sobre la dificultad del escenario. \n 2 investigadores: Puede ser un desafío (Difícil). \n 3 o 4 investigadores: Un enfrentamiento más equilibrado (Medio). \n 5 investigadores: Jugar para ver cuál es la historia, ya que la dificultad no supone un reto (Fácil). \n
+Eventintroduo_1.text,Al llegar a casa por la noche, después de un largo día de trabajo, encuentras un sobre sellado sobre la mesa y que sólo tiene tu dirección y la firma del remitente: «<i>Firmado: Rachel</i>». \n\n Feliz de recibir un mensaje de tu vieja amiga y también investigadora, abres la carta rápidamente. \n\n Sin embargo, al leer el contenido de la carta tu corazón se acelera y tienes la sensación de que te falta el aliento. \n\n «<i>Este es mi último intento de averiguar la verdad, querido amigo. Si recibes esta carta significará que mi asistente no tiene noticias mías y, como le ordené, ha enviado el sobre a tu dirección. \n\n Por favor, pásate por mi antigua oficina y coge mis últimas notas que dilucidarán mejor la desesperación en la que ahora me encuentro. \n\n Ahora eres mi última esperanza, sólo tú puedes rescatarme. ¡Por favor, ayúdame!» \n\n\n Sin dudarlo un instante, descuelgas el teléfono y llamas a tus compañeros de investigación. Una vez reunidos, os dirigís hacia la oficina de Rachel. \n\n Al llegar, enseguida os dais cuenta de que algo va mal. La puerta está abierta y al entrar encontráis todo patas arriba. No hay señales ni de Rachel ni de su asistente. \n\n Cuando la investigación estaba a punto de llegar a un callejón sin salida, uno de tus colegas encuentra una dirección en un papel roto y arrugado. Se trata de una gran catedral en un pueblo llamado Dunwich, y donde Rachel pasaba sus vacaciones. Sin más pistas y con el futuro de tu amiga en vuestras manos, os marcháis hacia la pequeña localidad sin mirar atrás, sólo con la esperanza de que todavía se pueda hacer algo para salvarla.
+Eventintroduo_1.button1,Continuar
+Eventintroduo_fim.button1,Continuar
+EventT1_capela_surge.text,La entrada de la capilla es grande y está muy ornamentada, pero al mirar más de cerca observas que las figuras no corresponden con ninguna religión conocida. Representan criaturas deformes con rostros grotescos y repulsivos. \n\n Coloca el módulo {c:TileT1_capela} en el lugar señalado. \n Cada investigador recibe 2 Pistas {clue}.
+Eventintroduo_fim.text,El pueblo es un lugar incómodo y macilento, y extrañamente hay pocas mujeres y las que se observáis se comportan de forma mecánica e impasible, sin demostrar ningún tipo de emoción. \n\n La catedral sobresale de los otros edificios y buscáis un refugio donde permanecéis ocultos hasta que la noche cae. \n\n Al anochecer, las campanadas llaman a misa y unos hombres encapuchados entran en el edificio. Aguardáis unos instantes antes de salir de vuestro escondrijo y avanzáis hasta la entrada...
+EventT1_capela_surge.button1,Continuar
+quest.synopsys,Respondiendo a una llamada de auxilio, te enfrentas a un horror nunca imaginado.
+quest.authors,Autor: Paulo José Moraes de Paula Santos. \n\n Narración: Lucas M. Carvalho. \n\n Agradecimientos: Gracias a todos los amigos, familia e integrantes \n del grupo de traducción «MoM Brasil» por los partidas de prueba.\n\n <i>Traducción al español:</i> Vidimus \n
+EventT1_surgem_investigadores.button1,Continuar
+EventT1_surge_marcador_procura_vela.text,El candelabro con velas parece estar ligeramente suelto, es posible que con un poco de fuerza se pueda sacar del pedestal. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT1_surgem_investigadores.text,Colocad a los investigadores en el espacio señalado.
+EventT1_surge_marcador_procura_vela.button1,Continuar
+EventT1_surge_explorar_porta_frontal.text,La puerta principal lleva al interior del templo. Unas manchas rojas destacan en la puerta de color blanco. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT1_surge_explorar_porta_frontal.button1,Continuar
+EventT1_explorar_porta_lateral.text,Más a la izquierda, en un oscuro rincón hay una puerta. Se puede oír un murmullo muy débil que proviene de esa dirección \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT1_explorar_porta_lateral.button1,Continuar
+TokenT1_procurar_vela.button1,{action} Examinar el candelabro
+TokenT1_procurar_vela.text,Puedes liberar el candelabro usando un poco de fuerza. \n
+EventT1_teste_fora_vela.text,Te das cuenta de que hay un tornillo suelto en el candelabro y piensas que con un poco de esfuerzo podrías llevártelo {strength}. \n
+EventT1_teste_fora_vela.button1,Continuar
+EventT1_passou_teste_fora_vela.text,Controlando tu fuerza, tiras con cuidado del candelabro, dejándolo a tu alcance. \n\n Ganas el Objeto común {c:QItemT1_velas}. A continuación descarta esta ficha de Búsqueda.
+EventT1_passou_teste_fora_vela.button1,Continuar
+EventT1_teste_fora_vela_falhou.text,Tiras del candelabro torpemente y terminas quemándote ligeramente. \n\n Ganas el Objeto común {c:QItemT1_velas}. Sufres 1 de Daño boca abajo. A continuación descarta esta ficha de Búsqueda.
+EventT1_teste_fora_vela_falhou.button1,Continuar
+EventT1_teste_fora_vela.button2,Continuar
+TokenT1_procura_2_quadro_mulher.button1,{action} Buscar
+EventT1_procurar_quadro_surge.button1,Continuar
+TokenT1_procura_2_quadro_mulher.text,Un gran cuadro con un ornamentado marco, que representa a una hermosa mujer. Quizá sería buena idea verlo más de cerca.
+EventT1_procurar_quadro_surge.text,Un extraño cuadro al final de la capilla te transmite una sensación familiar. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT1_resoluo_quadro.text,Al mirar más de cerca el cuadro observas que se trata de un retrato de una mujer hermosa. Sin saber exactamente por qué, este cuadro te resulta familiar. \n\n Ganas 1 ficha de Pista {clue}. A continuación descarta esta ficha de Búsqueda. \n
+EventT1_resoluo_quadro.button1,Continuar
+TokenT1_explorar_portadianteira.text,La puerta principal lleva al fondo de la capilla. Las manchas de sangre parecen formar un rastro que va hacia adentro.
+TokenT1_explorar_portadianteira.button1,{action} Abrir
+EventT2_corredor_surge.button1,Continuar
+TokenT2_porta_banheiro.text,La primera puerta lleva a un baño. Una observación más detallada revela que los charcos de sangre aumentan y que son más oscuros.
+TokenT2_porta_banheiro.button1,{action} Abrir
+TokenT2_porta_fundo_corredor_1.text,La segunda puerta lleva al final del pasillo.
+TokenT2_porta_fundo_corredor_1.button1,{action} Abrir
+EventT2_porta_banheiro_surge.text,La primera puerta lleva a un baño. Una observación más detallada revela que los charcos de sangre aumentan y que son más oscuros. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT2_porta_banheiro_surge.button1,Continuar
+EventT2_porta_fundo_corredor_1_surge.text,La segunda puerta lleva al final del pasillo. Coloca una ficha de Exploración en el lugar señalado.
+EventT2_porta_fundo_corredor_1_surge.button1,Continuar
+EventT2_mover_1_espao.text,El investigador tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT2_mover_1_espao.button1,Continuar
+EventT2_corredor_surge.text,La puerta se abre con un pequeño chirrido y te encuentras con un amplio pasillo que tiene 2 puertas. El rastro de sangre va hacia la más cercana. La segunda puerta está al final del pasillo y parece dar continuación al pasillo. \n\n Coloca el módulo {c:TileT2_corredor} y descarta la ficha de Exploración. \n\n
+EventT2_banheiro_auxiliar_surge.text,Al abrir la puerta te encuentras con una visión horrorosa: el cuerpo moribundo del asistente de Rachel sobresaliendo de una bañera llena de sangre negra coagulada, que cae salpicando el suelo blanco. \n Coloca la ficha de Personaje Azul en el lugar señalado. \n\ Quedas impresionado por lo que ves ({will}). Si la tirada tiene éxito, consigues mantener la calma. Si fallas la tirada, lo que ves te deja una profunda marca; sufres 1 de Horror boca abajo. \n A continuación descarta la ficha de Exploración,\n
+EventT2_banheiro_auxiliar_surge.button1,Continuar
+EventT2_banheiro_aviso_assistente.text,Incluso con el frágil estado del asistente se puede ver que está balbuceando algunas palabras...
+EventT2_banheiro_aviso_assistente.button1,Continuar
+EventT2_banheiro_item_surge.button1,Continuar
+TokenT2_banheiro_assistente.text,Con una voz muy débil dice: \n\n —<i>Espero que ustedes sean los investigadores, no tengo mucho tiempo (cof,cof)...</i>—dice con voz muy débil—. <i>Vengan rápido para que les ayude, trataré de decirles todo lo que sé sobre lo que pasa aquí. (cof,cof)... Creo que las respuestas a sus preguntas serán mis últimas palabras</i>. \n\n Después de eso, tose involuntariamiente arrojando un esputo de sangre negra y apestosa al suelo.
+TokenT2_banheiro_assistente.button1,{action}—<i>¿Qué le ha pasado?</i>
+EventT2_banheiro_assistente_pergunta1.text,—<i>No podría decirlo exactamente... después de enviar el mensaje de ayuda de Rachel creo que me siguieron de vuelta a la oficina... tras eso sólo recuerdo estar en una cueva iluminada... había hombres encapuchados cantando palabras extrañas... sintiendo que iba a morir...</i> —tose pesadamente—. <i>Ahora sé que moriré o algo peor... pero tal vez Rachel aún pueda ser salvada... Para averiguar el resto encuentre su informe, la llave del maletín está en mi...</i>—una terrible tos termina la conversación. Con estas últimas palabras el asistente suelta su último suspiro y muere. \n\n Ganas 1 ficha de Pista {clue}.
+EventT2_banheiro_assistente_pergunta1.button1,Continuar
+EventT2_banheiro_item_surge.text,En un rincón, entre los trapos y el material quirúrgico, encuentras un botiquín de primeros auxilios que puede ser útil. \n\n Coloca el Objeto común {c:QItemT2_banheiro_itens_cura} en el suelo del baño.
+TokenT2_banheiro_assistente.button2,{action}—<i>¿Qué le pasó a Rachel?</i>
+EventT2_banheiro_assistente_pergunta2.text,—<i>No lo sé exactamente... estaba pasando sus vacaciones en este pueblo...</i>—la tos interrumpe su relato—. <i>Dijo que este pequeño pueblo le traía buenos recuerdos.., pero que de repente empezó a preocuparse más por los cambios repentinos en el entorno y decidió investigar sola... Con el paso del tiempo me dio la orden de contactar con ustedes en caso de que desapareciera... y eso es exactamente lo que he hecho</i> —tose repetidas veces—. <i>El informe tiene más datos sobre el mal que habita en este santuario... La llave del maletín está en...</i> —abre los ojos de par en par y exhala su último aliento. El asistente ha fallecido. \n\n Ganas 1 Pista {clue}.
+EventT2_banheiro_assistente_pergunta2.button1,Continuar
+TokenT2_banheiro_assistente.button3,{action}—<i>¿Qué le pasó a ese santuario?</i>
+EventT2_banheiro_assistente_pergunta3.text,—<i>No lo sé exactamente, por lo poco que vi mientras me llevaban drogado, había unas salas y unas criptas oscuras donde entonaban cánticos que me daban muy mala espina. Rachel está perdida en algún lugar de este maldito santuario. Debe encontrar su informe, creo que ahí encontrará las respuestas —comienza a toser—.La llave de mi maletín... está en... —las toses interrumpen la frase hasta que el asistente exhala su último aliento y muere. \n\n Ganas 1 Pista {clue}.
+EventT2_banheiro_assistente_pergunta3.button1,Continuar
+SpawnT2_banheiro_assistente_monstro.text,Después de escuchar con pesar y preocupación la respuesta del ayudante, cierras los ojos y te das la vuelta para seguir con la búsqueda. En ese instante, el cuerpo se levanta y, con una sonrisa maligna, el que una vez fuese un joven amable ahora es pura maldad. \n\n Coloca un Maníaco en el lugar señalado y descarta la ficha de Personaje Azul.
+SpawnT2_banheiro_assistente_monstro.button1,Continuar
+EventT2_banheiro_derrotar_assistente_maniaco.text,A pesar del dolor que supone hacerlo, acabas con la vida de esta criatura. Te parece incluso escuchar una especie de «gracias» cuando el cuerpo cae al suelo.
+EventT2_banheiro_derrotar_assistente_maniaco.button1,Continuar
+TokenT2_banheiro_chave_cai_maniaco.button1,{action} Buscar
+TokenT2_banheiro_chave_cai_maniaco.text,Hay algo brillante en el suelo, dentro de un charco de sangre. La idea de meter la mano te repugna inmensamente {will}.
+EventT2_banheiro_teste_pegarachave.text,Cuando te acercas a la sangre podrida, tus manos comienzan a temblar y sientes que el peso del remordimiento cae sobre ti.
+EventT2_banheiro_teste_pegarachave.button1,Continuar
+EventT2_banheiro_teste_pegarachave.button2,Continuar
+EventT2_banheiro_pegar_chave_passou.text,A pesar de la culpa, rápidamente coges la llave y te levantas para continuar tu búsqueda. \n\n Ganas el Objeto único {c:QItemT2_banheiro_chave_bronze}. A continuación descarta esta ficha de Búsqueda.
+EventT2_banheiro_pegar_chave_passou.button1,Continuar
+EventT2_banheiro_chave_bronze_falhou.text,La culpa te abruma y aunque tomas la llave te preguntas qué clase de maldad le ha podido hacer eso a un ser humano. \n\n Sufres 1 de Horror boca abajo y ganas el Objeto único {c:QItemT2_banheiro_chave_bronze}. A continuación descarta esta ficha de Búsqueda.
+EventT2_banheiro_chave_bronze_falhou.button1,Continuar
+TokenT2_procura_corredor_2.text,Un montón de papeles sobre un escritorio. Hay unos que parecen manuscritos antiguos. Quizá encuentres el modo de poder usarlos. \n
+TokenT2_procura_corredor_2.button1,{action} Buscar
+EventT2_corredor_procura_surge.text,Un montón de papeles sobre un escritorio. Hay unos que parecen manuscritos antiguos. Quizá encuentres el modo de poder usarlos.\n\n Descarta esta ficha de Exploración y coloca una ficha de Búsqueda en el lugar señalado.
+EventT2_corredor_procura_surge.button1,Continuar
+EventT2_corredor_procura_teste.text,La difícil escritura requerirá un poco más de conocimiento de lo esperado {lore}.
+EventT2_corredor_procura_teste.button1,Prueba
+EventT2_corredor_procura_teste.button2,Continuar
+EventT2_corredor_feitio_teste_passou.text,Entre palabras extrañas y símbolos góticos que nunca habías visto, encuentras algo de magia que podría ayudarte. \n\n Ganas el hechizo {c:QItemT2_corredor_2_feitio}. A continuación descarta esta ficha de Búsqueda.
+EventT2_corredor_feitio_teste_passou.button1,Continuar
+EventT2_corredor_2_feitio_falhou.text,Las extrañas palabras y los crípticos símbolos góticos son demasiado para tu comprensión.
+EventT2_corredor_2_feitio_falhou.button1,Continuar
+EventT3_sala_estudos_surge.text,Cuando abres la puerta te encuentras con una hermosa sala de estudio. El ruido de antes parece ser cada vez más fuerte. \n\n Coloca el módulo {c:TileT3_sala_estudos} y descarta esta ficha de Exploración. \n
+EventT3_sala_estudos_surge.button1,Continuar
+TokenT1_explorar_portalateral.button1,{action} Abrir
+TokenT1_explorar_portalateral.text,Al acercarte a la puerta, un extraño sonido parece ser más audible. Te preguntas qué puedes haber al otro lado.
+TokenT3_procurar_1.button1,{action} Buscar
+EventT3_procurar_2_teste.button1,Continuar
+EventT3_procurar_1_teste.button1,Intentarlo
+EventT3_procurar_1_teste_passou.text,Al leer más detenidamente, descubres que en los papeles se habla de un ser que puede ser considerado un Dios y que su existencia brinda el poder a los que lo idolatran, aunque eso signifique la pérdida de su humanidad. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT3_procurar_1_surge.text,Delante de ti, una pila de documentos que parecen ser estudios sobre textos de cultos antiguos. \n\n Coloca una ficha de búsqueda en el lugar señalado.
+EventT3_procurar_1_surge.button1,Continuar
+EventT3_sala_estudos_mover_extra.text,El investigador tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT3_sala_estudos_mover_extra.button1,Continuar
+EventT3_explorar_1_surge.text,La puerta lleva a la otra estancia de esta sala. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT3_explorar_1_surge.button1,Continuar
+TokenT3_sala_estudo_explorar_1.text,La puerta lleva a la otra estancia de esta gran sala.
+TokenT3_sala_estudo_explorar_1.button1,{action} Abrir
+TokenT3_procurar_2_livros.text,La librería contiene varios libros corrientes pero al mirar más de cerca te llama la atención una hermosa encuadernación con el título «Ritos, Dioses y Cultos Olvidados».
+TokenT3_procurar_2_livros.button1,{action} Buscar
+EventT3_procurar_2_surge.button1,Continuar
+EventT3_explorar_2_surge.text,Se oyen fuertes voces por toda la habitación, que parecen proceder de la puerta trasera. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenT3_explorar_2_porta_lateral.text,Los susurros se detienen de repente y al tratar de abrir la puerta te das cuenta de que está cerrada. \n Sopesas las dos opciones que ahora mismo tienes: intentar abrir la puerta o echarla abajo usando la fuerza bruta.
+TokenT3_explorar_2_porta_lateral.button1,{action} Forzar la cerradura
+EventT3_procurar_2_surge.text,Al final de la habitación hay una estantería con varios libros corrientes pero al mirar con más cuidado observas que hay uno con una hermosa encuadernación. \n\n Descarta la ficha de Exploración y coloca una ficha de Búsqueda en el lugar señalado.
+EventT3_explorar_2_surge.button1,Continuar
+TokenT3_procurar_1.text,Un montón de documentos con estudios que parecen textos sobre antiguos cultos.
+EventT3_procurar_2_teste.button2,button2
+TokenT3_explorar_2_porta_lateral.button2,{action} Forzar la puerta
+PuzzleT3_puzzle_porta.button1,Hecho
+EventT3_destrancar_porta_teste.text,Coges impulso y cargas contra la puerta para tratar abrirla a la fuerza {strength}.
+EventT3_destrancar_porta_teste.button1,Continuar
+EventT3_destrancar_porta_teste.button2,Fallo
+EventT3_forar_porta_passsou.text,Calculando bien tu fuerza e ímpetu, la puerta se abre, aunque de forma bastante ruidosa.
+EventT3_forar_porta_passsou.button1,Continuar
+EventT3_forar_porta_falhou.text,Aunque logras derribar la puerta con tu fuerza, sientes que tu costado palpita y te duele a rabiar. \n Sufres 1 de Daño boca abajo.
+EventT3_forar_porta_falhou.button1,Continuar
+TokenT2_corredor_2_avistamento.text,Este punto del pasillo comienza a escasear la luz. Un investigador en el mismo espacio que esta ficha con una fuente de luz puede interactuar con ella. \n\n
+TokenT2_corredor_2_avistamento.button1,Iluminar
+EventT2_corredor_2_avistamento_surge.text,El pasillo continúa, pero está demasiado oscuro para ver lo que hay. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventT2_corredor_2_avistamento_surge.button1,Continuar
+EventT4_porao_surge.text,Cuando te adentras en las sombras acompañado sólo por una débil luz, observas que se trata de un sótano en malas condiciones. \n Es un sitio frío y oscuro. \n\n Coloca el módulo {c:TileT4_porao} y descarta esta ficha de Vistazo.
+EventT4_porao_surge.button1,Continuar
+EventT4_mover_extra_1.text,El investigador tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT4_mover_extra_1.button1,Continuar
+TokenT4_explorar_1.text,Una simple puerta de madera que hace de separación.
+TokenT4_explorar_1.button1,{action} Abrir
+EventT4_explorar_porta1_surge.text,Una simple puerta de madera que hace de separación del sótano. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT4_explorar_porta1_surge.button1,Continuar
+EventT4_marcadores_escuridao_surge.button1,Continuar
+EventT4_marcador_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT4_marcador_parede_surge.button1,Continuar
+EventT4_marcadores_escuridao_surge.text,Coloca fichas de Oscuridad en los lugares señalados.
+EventT4_parede_2_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT4_parede_2_surge.button1,Continuar
+TokenT4_procura_1_porao.text,A pesar de la oscuridad, entre los trastos ves algunos objetos afilados y pesados. Quizá merezca la pena echar un vistazo.
+TokenT4_procura_1_porao.button1,{action} Buscar
+EventT4_marcador_procura_1_surge.text,A pesar de la oscuridad, entre los trastos intuyes algunos objetos afilados y pesados. Puede que valga la pena echar un vistazo. \n\n Descarta esta ficha de Exploración y coloca una ficha de Búsqueda en el lugar señalado. \n
+EventT4_marcador_procura_1_surge.button1,Continuar
+EventT4_procurar_1_porao_teste_arma.text,Miras más de cerca los trastos, buscando algo que puedas usar {observation}. \n
+EventT4_procurar_1_porao_teste_arma.button1,Continuar
+EventT4_procurar_1_porao_arma_passou.text,Para su sorpresa todavía hay algo utilizable entre tantos trastos y basura. \n\n Ganas el Objeto común {c:QItemT4_arma_corpo_a_corpo}. A continuación descarta esta ficha de Búsqueda.
+EventT4_procurar_1_porao_arma_passou.button1,Continuar
+EventT4_procura_1_arma_falhou.text,Incluso mirando con mucho cuidado parece que es imposible distinguir la basura de las cosas útiles.
+EventT4_procura_1_arma_falhou.button1,Continuar
+EventT4_procurar_1_porao_teste_arma.button2,button2
+TokenT4_explorar_2_porta_baixa.text,Una pequeña puerta con un cartel escrito: «<i>DESPENSA</i>».
+TokenT4_explorar_2_porta_baixa.button1,{action} Abrir
+EventT4_explorar_2_surge.text,Una pequeña y sencilla puerta con un cartel escrito: «DESPENSA» \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT4_explorar_2_surge.button1,Continuar
+TokenT4_marcador_pessoa_cinza.text,—<i>Pero, ¿qué está pasando? ¿Cómo ha entrado y qué hace aquí?</i>. \n\n A pesar de sus preguntas precipitadas, el hombre tiene un aspecto agotado y en sus ojos puedes ver un cierto arrepentimiento.
+TokenT4_marcador_pessoa_cinza.button1,{action}—<i>¿Qué está pasando en este Santuario?</i>
+EventT4_marcador_pessoa_cinza_surge.text,Al abrir la puerta te encuentras con un hombre agachado, que se te queda mirando e intenta esconder algo bajo la estantería. \n Descarta la ficha de Exploración del lugar señalado.
+EventT4_marcador_pessoa_cinza_surge.button1,Continuar
+EventT4_pessoa_cinza_teste.button1,Continuar
+EventT4_pessoa_cinza_teste.button2,Fallo
+EventT4_pessoa_cinza_pergunta1_passou.text,—<i>Perdóneme, yo no sabía que él era un loco, sólo queríamos mejorar nuestras vidas, ahora me temo que es demasiado tarde</i> —después de una pausa, el hombre toma la decisión de contar lo que sabe—..<i>El antiguo sacerdote era muy influyente en el pueblo, y a lo largo de los años empezó a sugerir que debíamos buscar más poder y sabiduría y que necesitábamos aceptar un nuevo orden universal, incluso que los sacrificios eran necesarios. Cuanto más hablaba, más le creía nuestro humilde pueblo, especialmente los hombres. Lo siento mucho, déjeme ir. Prometo entregarme a las autoridades y decirles lo que sé</i>..
+EventT4_pessoa_cinza_teste.text,—<i>A pesar del miedo que siento, no sé si puedo confiar en usted</i> {influence}.
+EventT4_pessoa_cinza_pergunta1_passou.button1,Dejar que se marche
+EventT4_pessoa_cinza_pergunta1_passou.button2,Impedir que se marche
+EventT4_deixar_pessoa_cinza_ir.text,Los ojos del hombre se llenan de lágrimas, agradeciéndote mucho antes de irse. Te entrega el maletín de Rachel. \n Ganas el Objeto único {c:QItemT4_maleta_rachel} y 1 Pista {clue}. \n\n —<i>Hay una contraseña para entrar en una habitación aquí, en el santuario, no sé exactamente dónde está pero 3 números de la contraseña son 1, 8, 2</i>. \n\n Descarta la ficha de Personaje Hombre gris \n\n Sólo la persona con la <i>Llave de latón</i> pueden abrir el maletín (Caja enigmática).
+EventT4_deixar_pessoa_cinza_ir.button1,Continuar
+EventT4_pessoa_cinza_pergunta1_impedir.text,—<i>Lo sabía, sólo ha venido aquí para matarnos a todos sin preocuparse por la gente que está arrepentida</i>.\n
+EventT4_pessoa_cinza_pergunta1_impedir.button1,Continuar
+SpawnT4_pessoa_cinza_vira_cultista.text,La ira del hombre es tan grande que su cara se vuelve gris y sus ojos son sólo esferas de un blanco fantasmal. \n\n Coloca un sectario en el espacio señalado y descarta la ficha de Personaje Hombre Gris.
+SpawnT4_pessoa_cinza_vira_cultista.button1,Continuar
+EventT4_pessoa_cinza_pergunta_teste_falhou.text,A pesar del aparente miedo que tiene el hombre, se resiste a contestar a tu pregunta. De repente, sus ojos se tornan blancos y una fuerza externa toma el control de su cuerpo.
+EventT4_pessoa_cinza_pergunta_teste_falhou.button1,Continuar
+EventT4_item_maleta_rachel.text,Al convertirse en una persona malvada, el sectario termina confesando que escondía un maletín con la investigación de Rachel. \n\n Coloca el Objeto único {c:QItemT4_maleta_rachel} en el mismo espacio que ocupa el sectario. \n\n Sólo la persona con la <i>Llave de latón</i> puede interactuar con el maletín (Caja enigmática).
+EventT4_item_maleta_rachel.button1,Continuar
+EventT4_abrir_maleta.text,Cuando inspeccionas el maletín de Rachel descubres una pequeña ranura para una llave. \n\n El investigador con la <i>Llave de latón</i> puede abrir el maletín. \n
+EventT4_abrir_maleta.button1,{action} Abrir
+EventT4_pessoa_cinza_teste2_passou.button1,Dejar
+EventT4_pessoa_cinza_teste2_passou.text,—<i>No estoy seguro, se la llevaron a la sala de ceremonias, pero no sé exactamente dónde está. Para entrar hay que activar un dispositivo en la cripta, al final de la cueva. No sé el código completo, sólo conozco 3 dígitos que son «1, 8, 2»</i>—se queda callado un rato, mirándote con ojos suplicantes —<i> Disculpe por favor, siento mucho haber participado en todo esto, deje que me vaya y prometo entregarme y decirle a las autoridades todo lo que sé</i>.
+EventT4_abrir_maleta.button2,No tienes la llave
+TokenT4_marcador_pessoa_cinza.button2,{action}—<i>¿Dónde está Rachel?</i>
+EventT4_pessoa_cinza_teste_2.text,—<i>A pesar del miedo que siento, no sé si puedo confiar en usted</i> {influence}.
+EventT4_pessoa_cinza_teste_2.button1,Continuar
+EventT4_pessoa_cinza_teste2_passou.button2,Impedir
+EventT4_pessoa_cinza_teste_2.button2,button2
+EventT5_passagem_surge.text,Entras en el estrecho pasillo procurando guardar silencio cuando oyes el ruido de algo pesado que está siendo empujado. Además, te encuentras con figuras humanas que se dan la vuelta y parecen no percatarse de tu presencia. \n\n Tras observarlos durante unos instantes, tienes la sensación de que desprenden un aura negativa y hostil hacia todo lo viviente. \n\n Coloca el módulo {c:TileT5_passagem} y descarta esta ficha de Exploración.
+EventT5_passagem_surge.button1,Continuar
+SpawnT5_hibrido_surge.text,Coloca un híbrido de profundo en el lugar señalado.
+SpawnT5_hibrido_surge.button1,Continuar
+SpawnT5_cultista_passagem_surge.text,Coloca un sectario en el lugar señalado.
+SpawnT5_cultista_passagem_surge.button1,Continuar
+EventT5_explorar_1_passagem_surge.button1,Continuar
+EventT5_evento_especial_passagem.text,El investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada y tiene la oportunidad de realizar una {action} de ataque extra en esta ronda.
+EventT5_evento_especial_passagem.button1,Continuar
+EventT5_explorar_1_passagem_surge.text,Al final del pasillo, en un recodo a la izquierda, hay una puerta de aspecto rústico y llena de polvo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT5_passagem_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT5_passagem_parede_surge.button1,Continuar
+EventT5_passagem_surge_2.text,Entras a la fuerza y golpeas al tipo que está delante de ti directamente (el Híbrido de profundo sufre 2 de Daño). Otro individuo se gira y te mira directamente a los ojos con una macabra mirada. \n\n A pesar de estar asustado, consigues ponerte de pie ágilmente y te preparas para lo que pueda venir. \n\n Coloca el módulo {c:TileT5_passage} y descarta esta ficha de Exploración.
+EventT5_passagem_surge_2.button1,Continuar
+EventT4_receber_pesquisa_Rachel.text,Cuando abres el maletín te fijas en un cuaderno y observas que son las notas y el informe de Rachel. \n Ganas el Objeto único {c:QItemT4_pesquisa_rachel}. \n\n El jugador con este objeto puede interactuar con él a través del menú de objetos de la aplicación. \n\n Descarta el Objeto único {c:QItemT4_maleta_rachel}.
+EventT4_receber_pesquisa_Rachel.button1,Continuar
+EventT4_pesquisa_rachel_ler.text,A medida que lees descubres qué páginas son importantes. \n\n IMPORTANTE: <b>¡Después de la primera lectura de cada página del diario puedes pulsar el botón de continuar sin gastar una acción para leerlo de nuevo!</b>
+EventT4_pesquisa_rachel_ler.button1,{action} Leer
+EventT4_pesquisa_rachel_ler.button2,Continuar
+EventT4_pesquisa_rachel_pagina_1.button1,{action} Seguir leyendo
+EventT4_pesquisa_rachel_pagina_1.button2,Continuar
+EventT4_pesquisa_rachel_pagina_3.text,«<i>Cada vez que vengo al pueblo a revivir mis buenos recuerdos el sacerdote quiere hablar conmigo. Pero a él no le gusta salir del santuario así que las conversaciones siempre tienen que ser dentro». \n\n «No sé por qué voy allí, siempre habla del tema de la muerte de mi hija y de que debo entregarme más a la religión local y aceptar otras posibilidades. Odio todas esas cosas. Lo único que consiguen es traer a mi memoria malos recuerdos, pena y resentimiento». \n\n «No pude evitar darme cuenta de que veo cada vez menos mujeres aquí, en el pueblo, y cada vez que me encuentro con una parece desconcertada, como si no fuesen capaces de organizar sus pensamientos de forma correcta</i>». Ganas 1 ficha de Pista {clue}. Puedes seguir leyendo el informe.
+EventT4_pesquisa_rachel_pagina2.button1,{action} Seguir leyendo
+EventT4_pesquisa_rachel_pagina2.button2,Continuar
+EventT4_pesquisa_rachel_pagina_1.text,«<i>Encontré este pequeño pueblo en mis viajes por el estado, es muy acogedor y tan alejado de todo. Sus sencillas casas son un reflejo de las gentes que viven aquí, poco preocupadas por el mundo más allá de sus asuntos cotidianos. \n\n El gran santuario, por contra, es exactamente lo contrario. Destaca por encima del resto de construcciones y su interior es muy elegante y lujoso, algo que es muy del gusto del sacerdote local. \n\n A pesar de eso me encanta este lugar... he decidido que aquí es donde pasaré mis vacaciones siempre que pueda». \n\n Al final de la página dice: «Necesito escribir la dirección exacta aquí, este lugar parece intencionadamente difícil de encontrar</i>». \n\n Ganas 1 Pista {clue}. \n Puedes seguir leyendo.
+EventT4_pesquisa_rachel_pagina2.text,«<i>Con los años le he cogido cariño a este lugar, no sé exactamente por qué, pero siento una atracción constante por este lugar, debe de ser porque a mi hija le encanta venir aquí a pasear». \n\n «Visitamos el santuario de nuevo, sólo que ahora he visto una escultura extraña en la capilla, me han parecido interesante, pero al mismo tiempo algo aterradora. Hablando de ello con el sacerdote, me ha dicho que sólo es una antigua estatua de un ser universal que posiblemente vivió mucho antes de que el propio planeta Tierra existiera. Cuanto más hablábamos, más se interesaba por mí». \n\n «Estos años no han sido fáciles, la tragedia de la muerte de mi pequeña hija ha sido un golpe demasiado duro. Nunca he sentido tanta tristeza en mi interior. Tal vez vuelva al pueblo que tanto amaba y visite el gran santuario</i>».
+EventT4_pesquisa_rachel_pagina_3.button1,{action} Seguir leyendo
+EventT4_pesquisa_rachel_pagina_3.button2,Continuar
+EventT4_pesquisa_rachel_pagina_4.text,«<i>En mi último viaje al pueblo empecé a hacer algunas preguntas a la gente del lugar (la mayoría hombres). Todos fingen que no pasa nada, pero obviamente no es así, creo que el sacerdote esconde algo en el interior del santuario. Necesito entrar y verlo por mí misma». \n\n «Como una forma de mantenerme a salvo he dejado unas indicaciones para mi asistente en caso de que me pase algo, dudo que las necesite». \n\n «Infelices, ahora lo entiendo todo, van a pagar por lo que he hecho...</i>». \n\n La frase está inacabada, como si Rachel dejara de escribir de repente. \n\n Ganas 1 Pista {clue}. \n Hay algo más al final del cuaderno.
+EventT4_pesquisa_rachel_pagina_4.button1,{action} Pasar la página
+EventT4_pesquisa_rachel_pagina_4.button2,Continuar
+PuzzleT4_foto_filha_rachel.button1,Hecho
+EventT4_foto_filha_rachel_rasgada.text,Al pasar la última página encuentras una foto hecha trizas. \n Quizá puedas recomponerla {observation}.
+EventT4_foto_filha_rachel_rasgada.button1,Ordenar
+EventT4_foto_filha_rachel_rasgada.button2,Cancelar
+EventT4_foto_filha_rachel_concluida.button1,Continuar
+EventT4_foto_filha_rachel_concluida.text,Juntando los pedazos de la foto, te encuentras con la imagen de una hermosa niña. \n\n ¡Es la hija de tu amiga Rachel! \n Por alguna razón decides guardar la foto contigo. \n\n Descarta el Objeto único {c:QItemT4_pesquisa_rachel}.
+EventT4_pesquisa_rachel_ler.button3,Cancelar
+EventT4_pesquisa_rachel_pagina_1.button3,Cancelar
+EventT4_pesquisa_rachel_pagina2.button3,Cancelar
+EventT4_pesquisa_rachel_pagina_3.button3,Cancelar
+EventT4_pesquisa_rachel_pagina_4.button3,Cancelar
+CustomMonsterT4_pessoa_cinza_cultista.monstername,Sectario
+EventT4_procura_morre_pessoa_cinza_surge.text,El hombre ha dejado caer una extraña nota al morir. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+CustomMonsterT4_pessoa_cinza_cultista.info,-
+EventT4_procura_morre_pessoa_cinza_surge.button1,Continuar
+TokenT4_procura_morre_pessoa_cinza.text,Parece ser un pedazo de papel con una peculiar anotación.
+TokenT4_procura_morre_pessoa_cinza.button1,{action} Buscar
+EventT4_procurar_senha_corpo_pessoa_cinza.text,Recoge una pequeña nota, en la que está escrito: \n\n «<i>Siento mucho haber participado en todo esto, ese cura está loco, me dijo que me deshiciera de los informes sobre la mujer elegida, pero ya no quiero hacerlo». \n\n «Creo que la llevaron a esa oscura cueva, no sé el código completo, pero 3 de los dígitos son 1, 8, 2.</i>» \n\n Con un hondo pesar por el acto que acabas de cometer, te lamentas y te sientas en el suelo para reflexionar acerca de tus actos. \n\n Adquieres el estado <i>Aturdido</i>. A continuación descarta esta ficha de Búsqueda.
+EventT4_procurar_senha_corpo_pessoa_cinza.button1,Continuar
+EventT2_banheiro_chave_surge.text,Recuperando la calma recuerdas haber visto algo brillante cayendo del bolsillo del ayudante en el suelo del baño, en el momento en que se convirtió en esa criatura. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT2_banheiro_chave_surge.button1,Continuar
+EventT6_cavera_surge.text,Cuando abres la puerta notas que algunas piedras y madera empiezan a caer sobre tu cabeza ({agility}; 2). Si la tirada tiene éxito, rápidamente sales corriendo y escapas de las piedras. Si la tirada falla, una piedra te golpea en el hombro; sufres 1 de Daño boca abajo. \n\n\n Coloca el módulo {c:TileT6_caverna} y descarta esta ficha de Exploración. \n\n Mirando a tu alrededor te das cuenta de que estás dentro de una cueva. En el aire flota un olor muy penetrante, como el de un cuerpo en descomposición.
+EventT6_cavera_surge.button1,Continuar
+TokenT5_passagem_explorar.text,Una puerta rústica, malamente encajada en la abertura de la pared.
+TokenT5_passagem_explorar.button1,{action} Abrir
+EventT6_caverna_procura_1_surge.text,A lo lejos vislumbras algo brillante, puede ser una herramienta útil para la investigación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_caverna_procura_1_surge.button1,Continuar
+EventT6_caverna_procura_2_surge.text,Hay una madera un poco suelta, quizá puedes arrancarla. \n\n Coloca una ficha de búsqueda en el lugar señalado.
+EventT6_caverna_procura_2_surge.button1,Continuar
+EventT6_caverna_parede_surge.button1,Continuar
+EventT6_caverna_avistamento_surge.text,Puedes ver que hay un camino hacia este lado, pero está demasiado oscuro para distinguir algo. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventT6_caverna_movimento_extra.text,El investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT6_caverna_avistamento_surge.button1,Continuar
+TokenT6_caverna_procura_1.text,Un pequeño dibujo atrae tu atención.
+TokenT6_caverna_procura_1.button1,{action} Buscar
+EventT6_procurar_achar_lanterna.text,Buscando cuidadosamente encuentras una linterna que puede serte útil en esta oscuridad. \n\n Ganas el Objeto común {c:QItemT6_caverna_lanterna}. A continuación descarta esta ficha de búsqueda.
+EventT6_procurar_achar_lanterna.button1,Continuar
+TokenT6_caverna_procurar_2.text,La tabla suelta de la pared podría serte útil para defenderte si fuese necesario. Intentas arrancarla {strength}.
+TokenT6_caverna_procurar_2.button1,{action} Buscar
+EventT6_procurar_2x4_teste.text,Sujetas la madera con ambas manos y empiezas a arrancarla de la pared.
+EventT6_procurar_2x4_teste.button1,Continuar
+EventT6_procurar_2x4_teste.button2,Continuar
+EventT6_procurar_2x4_teste_passou.text,Tu fuerza es suficiente y arrancas la madera. Sopesando el tablero, te das cuenta de que te puede servir para protegerte.\n\n Ganas el Objeto común {c:QItemT6_caverna_tabua_2x4}. A continuación descarta esta ficha de Búsqueda.
+EventT6_procurar_2x4_teste_passou.button1,Continuar
+EventT6_procura_2x4_teste_falhou.text,A pesar de la inmensa fuerza que empleas para sacar la madera, no consigues moverla.
+EventT6_procura_2x4_teste_falhou.button1,Continuar
+TokenT6_caverna_avistamento.text,La cueva continúa en esta dirección, pero debido a la pertinaz oscuridad es imposible avanzar sin una luz adecuada, además un fuerte hedor a putrefacción viene de esta dirección. \n\n Un investigador que esté en este espacio y posea una fuente de luz, puede interactuar con la ficha de Vistazo.
+TokenT6_caverna_avistamento.button1,Iluminar
+EventT6_caverna_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT6_caverna_movimento_extra.button1,Continuar
+EventT7_cripta_surge.text,Definitivamente el horrible olor viene de este lugar, unas tumbas abiertas desprenden un hedor que parece de otro mundo. \n\n Coloca el módulo {c:TileT7_cripta} y descarta la ficha de Vistazo.
+EventT7_cripta_surge.button1,Continuar
+EventT7_cripta_procura_1_surge.text,Ante ti hay un sarcófago de piedra que está en un estado de conservarción algo mejor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT7_cripta_procura_1_surge.button1,Continuar
+EventT7_cripta_interacao_surge.text,Todas las estatuas que decoran la cripta parecen iguales, pero ésta tiene un pequeño panel en la zona de pecho. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventT7_cripta_interacao_surge.button1,Continuar
+TokenT7_cripta_procura_1.text,A pesar del fuerte hedor, tu intuición te dice que mires con más atención dentro del sarcófago de piedra. \n Pero incluso así, sabes que será algo muy desagradable.
+TokenT7_cripta_procura_1.button1,{action} Buscar
+EventT7_cripta_procurar_1_concluido.button1,Continuar
+SpawnT7_cripta_zumbi.text,En el momento en que quitas la mano del interior de la tumba, algo comienza a moverse y a salir. Tus ojos no pueden creer lo que están viendo, una criatura muerta y viva al mismo tiempo. \n\n Coloca un zombi en el lugar señalado.
+EventT7_cripta_procurar_1_concluido.text,Al empujar la tapa de piedra, que se va desmoronando de lo vieja que es, descubres unos pergaminos que sobresalen en medio de los cuerpos podridos. \n\n Ganas el Objeto único {c:QItemT7_cripta_sacerdote_texto} . A continuación descarta esta ficha de Búsqueda.\n\n El investigador que posea el Objeto único {c:QItemT7_cripta_sacerdote_texto} puede interactuar con él en el menú de objetos de la aplicación.
+SpawnT7_cripta_zumbi.button1,Continuar
+EventT7_cripta_escuridao_surge.text,Coloca fichas de Oscuridad en los lugares señalados.
+EventT7_cripta_escuridao_surge.button1,Continuar
+TokenT7_cripta_interacao.text,Mirando más de cerca la estatua encuentras un panel para teclear una especie de contraseña. \n\n Sólo podrás interactuar con este panel si consigues averiguar la contraseña.
+TokenT7_cripta_interacao.button1,{action} Teclear
+EventT7_cripta_texto_sacerdote.button1,{action} Leer
+EventT7_puzzle_porta_secreta_surge.button1,Continuar
+EventT7_puzzle_porta_secreta_surge.text,Con las manos temblando por el cansancio y las cosas horribles que has experimentado esta noche, presionas el último botón. En ese momento, se oye un fuerte sonido de piedras moviéndose. \n\n Descarta esta ficha de la Pared y coloca una ficha de Pasadizo Secreto en el lugar señalado. \n\n <b>Puedes interactuar con esta ficha de Pasaje Secreto</b>. n\n Descarta esta ficha de Interacción.
+EventT7_cripta_texto_sacerdote.button2,Continuar
+EventT7_cripta_senha_2_sacerdote.text,«<i>No puedo creer que vaya a pasar los restos de mis días aquí, en esta pocilga del pueblo, odio a todos aquí, especialmente a las mujeres. Pasé unos días mirando textos antiguos, nada me interesaba hasta que encontré una obra que prometía poder eterno a través de sacrificios hechos a una deidad llamada Shoggoth». \n\n «Parece absurdo, pero nadie se dará cuenta si algún loco desaparece de esta ciudad podrida».\n\n «Increíble, funcionó. Esa mujer enferma fue asesinada de la forma que indicaba el antiguo texto y ahora mágicamente las cosas han empezado a cambiar a mi alrededor. A cuantos más mate, más poder conseguiré</i>».\n\n Ganas 1 ficha de Pista {clue}. \n El texto continúa...
+PuzzleT7_cripta_puzzle_interacao.button1,Probar
+EventT7_cripta_texto_sacerdote.text,Separando las velas oscuras, los cráneos humanos y los símbolos antiguos, coges el pergamino y lo desenrollas. \n\n \n <b>IMPORTANTE: Después de la primera lectura de cada página del pergamino, se puede hacer clic en el botón «Continuar» sin gas una acción para volver a leerlo.</b>.
+EventT7_cripta_senha_2_sacerdote.button1,{action} Leer
+EventT7_cripta_texto_sacerdote.button3,Cancelar
+EventT7_cripta_senha_2_sacerdote.button2,Continuar
+EventT7_cripta_senha_2_sacerdote.button3,Cancelar
+EventT7_cripta_texto_sacerdote_pagina_2.text,«<i>Con el paso de los años mi influencia sobre este pueblo inculto aumenta, pero los sacrificios no están generando grandes cambios como antes, debo estudiar más sobre esta magia antigua</i>». \n\n «<i>Ja, ja, ja. He descubierto lo que debo hacer. Mis investigaciones posteriores me han permitido descubrir que una mujer elegida, una REINA para Shoggoth, debe ser sacrificada. Esa mujer con una niña que viene a pasar un tiempo en el pueblo sería perfecta. Me recuerda a la vieja reina que he visto representada en los viejos grabados, pero para que esto funcione necesita pasar por el peor dolor, la peor aflicción que puede sufrir una madre</i>». \n\n «<i>La maldición se ha completado y esa niña perecerá, con el vínculo creado, es sólo cuestión de tiempo que nuestra REINA regrese al santuario</i>». \n\n Ganas 1 Pista {clue}. \n\n El pergamino tiene todavía una parte final.
+EventT7_cripta_texto_sacerdote_pagina_2.button1,{action} Leer
+EventT7_cripta_texto_sacerdote_pagina_2.button2,Continuar
+EventT7_cripta_texto_sacerdote_pagina_2.button3,Cancelar
+EventT7_cripta_texto_sacerdote_pagina3.text,«<i>Ahora que está atrapada entre nosotros y con las emociones a flor de piel, el sacrificio puede hacerse. Por si acaso le dije a ese idiota que se deshiciera de la investigación sobre nuestra reina y que luego escondiera mis notas donde enterramos a las mujeres que no sobrevivieron al ritual. Las que sobreviven se convierten en meras marionetas sujetas a nuestra voluntad,,, ¡Ja, ja, ja, ja!»</i> \n\n En la parte inferior del pergamino, una anotación borrosa dice lo siguiente: «La contraseña para la cámara de sacrificio es el nombre de nuestra REINA en secuencia numérica sin repetición de números» \n\n Ya no hay más texto para leer. Ganas 1 Pista {clue} y a continuación descarta el Objeto único {c:QItemT7_cripta_sacerdote_texto}.\n
+EventT7_cripta_texto_sacerdote_pagina3.button1,Continuar
+TokenT5_passagem_passagemsecreta.text,Por un mecanismo desconocido la pared se ha movido y ahora puedes oír de nuevo los murmullos que te traen los sonidos de un sombrío cántico. \n\n <b>PUEDES INTERACTUAR CON ESTE PASADIZO SECRETO.</b> \n\n
+TokenT5_passagem_passagemsecreta.button1,{action} Entrar sigilosamente
+EventT8_camara_frase_efeito.button1,Continuar
+EventT8_camara_surge_silenciosamente.text,Una estancia iluminada por velas negras y rojas, presidida por un altar de piedra completamente ensangrentado. Quedas hondamente impresionado por la escena. Unos hombres encapuchados cantan palabras nunca antes escuchadas por el ser humano y en el centro de todo esto está tu amiga Rachel, que se debate y grita atada al altar de piedra. \n\n Coloca el módulo {c:TileT8_cerimonial} en el lugar señalado.
+EventT8_camara_frase_efeito.text,Sin saber exactamente lo que te espera detrás de este pasaje, respiras profundamente y te adentras en lo desconocido.
+EventT8_camara_surge_silenciosamente.button1,Continuar
+EventT8_camara_parade_1_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT8_camara_parade_1_surge.button1,Continuar
+EventT8_camara_parede_2_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT8_camara_parede_2_surge.button1,Continuar
+EventT8_camara_rachel_surge.text,Sin lugar a dudas, Rachel está herida y aterrorizada, pero todavía está viva. \n\n Coloca la ficha de Persona Mujer naranja en el lugar señalado. \n\n Sólo podrás interactuar con Rachel después de eliminar a los monstruos que han aparecido en esta localización.
+EventT8_camara_rachel_surge.button1,Continuar
+SpawnT8_camara_sacerdote_dagon.button1,Continuar
+TokenT8_camara_rachel_presa.text,Sin lugar a dudas, Rachel está herida y aterrorizada, pero todavía está viva.
+SpawnT8_camara_sacerdote_surge.text,—<i>¡¡¡Qué está haciendo aquí!!!</i> —<i>grita el sacerdote—.<i> No se interpondrá en el camino del sacrificio final. Ahora nuestra reina debe morir</i>. \n\n Coloca un líder de la secta en el lugar señalado.
+SpawnT8_camara_sacerdote_surge.button1,Continuar
+EventT8_camara_movimento_extra.text,El investigador que activó la ficha de Pasaje secreto tiene la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n Descarta la ficha de Pasaje secreto del lugar señalado.
+EventT8_camara_movimento_extra.button1,Continuar
+EventT8_libertar_rachel.text,Después de una intensa lucha, liberas a Rachel de sus ataduras. \n Se levanta y aunque está en estado de shock, parece que puede hablar contigo. \n\n Mueve la ficha de Personaje al lugar señalado.
+EventT8_libertar_rachel.button1,Continuar
+EventT8_morre_lider_cultista.text,El líder de la secta ha sido eliminado.
+EventT8_morre_lider_cultista.button1,Continuar
+EventT8_morte_bruxa.text,La bruja ha sido eliminada.
+EventT8_morte_bruxa.button1,Continuar
+EventT8_morte_sacerdote.text,El sacerdote de Dagón ha sido eliminado.
+EventT8_morte_sacerdote.button1,Continuar
+TokenT8_camara_rachel_presa.button1,{action} Liberar a Rachel
+TokenT8_camara_rachel_solta.text,—<i>Oh Dios mío, no puedo creer que todo esto me haya pasado, después de tantas desgracias que he sufrido a lo largo de mi vida, este pueblo maldito resultó ser el destino de mi hija, mi mayor tristeza y aflicción. Hay algo dentro de mí que tengo la sensación de que va a explotar en cualquier momento. Siento que es un dolor maligno. Si pudiera ver la cara de mi pequeña niña una vez más. Sentir la alegría de su mirada... tal vez así ese mal que me atenaza se fuese</i>.
+SpawnT8_camara_sacerdote_dagon.text,Un hombre con una hermosa túnica sobresale entre el resto de miembros de este macabro culto. \n\n Coloca un Sacerdote de Dagón en el lugar señalado.
+TokenT8_camara_rachel_solta.button1,{action} Entregar la foto
+EventT8_camara_pergunta_rachel_final_bom.button1,{action} Entregar la foto
+EventT8_camara_rachel_pergunta_final_medio.button1,{action} No tengo la foto conmigo
+EventT8_camara_pergunta_rachel_final_bom.text,—<i>Querido amigo mío, ¿tienes algo con lo que pueda recordarla?</i>
+EventT8_camara_rachel_pergunta_final_medio.button2,Cancelar
+EventT8_camara_pergunta_rachel_final_bom.button2,{action} No entregar la foto
+EventT8_final_bom_prestes_surgir.button1,Continuar
+EventT8_camara_pergunta_rachel_final_bom.button3,Cancelar
+Eventmitos_round_1.text,A pesar de lo ominoso de las cosas que has encontrado, no te dejas abatir. No hay efecto inmediato.
+Eventmitos_round_1.button1,Continuar
+TokenT5_passagem_passagemsecreta.button2,{action} Entrar a la fuerza
+EventT8_frase_efeito_invadindo.text,Sin saber exactamente lo que te espera detrás de este pasaje, respiras profundamente y te adentras en lo desconocido.
+EventT8_frase_efeito_invadindo.button1,Continuar
+EventT8_camara_surge_invadindo.text,Una estancia iluminada por velas negras y rojas, presidida por un altar de piedra completamente ensangrentado. Quedas hondamente impresionado por la escena. Unos hombres encapuchados cantan palabras nunca antes escuchadas por el ser humano y en el centro de todo esto tu amiga Rachel, que se debate y grita atada al altar de piedra. \n\n Coloca el módulo {c:TileT8_cerimonial} en el lugar señalado.
+EventT8_camara_surge_invadindo.button1,Continuar
+EventT8_camara_parade_1_surge_invadindo.text,Coloca una ficha de Pared en el lugar señalado.
+EventT8_camara_parade_1_surge_invadindo.button1,Continuar
+EventT8_camara_invadindo_parede_2_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT8_camara_invadindo_parede_2_surge.button1,Continuar
+EventT8_camara_rachel_surge_invadindo.text,Sin lugar a dudas, Rachel está herida y aterrorizada, pero aún está viva. \n\n Coloca la ficha de Personaje Mujer naranja en el lugar señalado. \n\n Sólo podrás interactuar con Rachel después de haber eliminado a los monstruos que aparecieron en la estancia.
+EventT8_camara_rachel_surge_invadindo.button1,Continuar
+SpawnT8_sacerdote_dagon_surge_invadindo.button1,Continuar
+SpawnT8_sacerdote_dagon_surge_invadindo.text,Un hombre con una hermosa túnica sobresale entre el resto de miembros de este macabro culto. \n\n Coloca un Sacerdote de Dagón en el lugar señalado.
+SpawnT8_camara_sacerdote_surge_invadindo.text,—<i>¡¡¡Qué está haciendo aquí!!!</i> —<i>grita el sacerdote—.<i> No se interpondrá en el camino del sacrificio final. Ahora nuestra reina debe morir</i>. \n\n Coloca un líder de la secta en el lugar señalado.
+SpawnT8_camara_sacerdote_surge_invadindo.button1,Continuar
+EventT8_camara_invadindo_ataque_extra.text,—<i>Malnacidos, ¿qué clase de locura es esta? No importa, protegeremos a Rachel a toda costa</i> —dice el investigador. \n\n El investigador que interactuó con el Pasaje secreto puede mover 1 espacio al lugar explorado y hacer una acción de ataque extra. \n\n Descarta la ficha del Pasaje secreto del lugar señalado. \n\n
+EventT8_camara_invadindo_ataque_extra.button1,Continuar
+EventT8_camara_shoggoth_prestes_surgir.button1,Continuar
+EventT8_camara_shoggoth_prestes_surgir.text,—<i>¡Oh, Dios mío, hay tanta tristeza y aflicción que no puedo soportarla! ¡Este maldito dolor dentro de mí! ¡Ya no puedo contenerlo!</i>
+SpawnT8_shoggot_surge.button1,Continuar
+SpawnT8_shoggot_surge.text,—<i>¡Rachel, nooooo!</i> —gritas con todas tus fuerzas. \n\n Pero a pesar de tu grito Rachel comienza a convertirse en algo que nunca debió existir. Una criatura tan espantosa que sólo su visión pone a prueba toda tu creencia en la existencia de algo bueno en este mundo. \n\n Coloca un Shoggoth en el lugar señalado y descarta la ficha de Personaje Mujer naranja. \n\n No hay otra cosa que puedas hacer más que luchar contra esta horrible criatura.
+EventT8_shoggoth_morre.text,Al retorcerse, emite sonidos y gruñidos desconcertantes. La criatura sufre ante tus ojos mientras agoniza y finalmente muere. Aunque la hayas vencido, no puedes evitar sentir lástima por lo que le pasó a Rachel.
+EventT8_shoggoth_morre.button1,Continuar
+EventT8_final_medio.text,Después de salir medio muertos del santuario y de ese pueblo olvidado por Dios, regresáis a vuestras casas y pasáis algunas noches en blanco.\n\n Aunque habéis resuelto el caso, no podéis evitar llorar la pérdida de vuestra amiga Raquel y os preguntáis qué hubiera pasado si hubieras encontrado algo para aliviar el dolor y la tristeza que sentía. \n\n La investigación se completó parcialmente.
+EventT8_final_medio.button1,FIN
+EventT8_camara_rachel_pergunta_final_medio.text,—<i>Querido amigo, ¿tienes algo con lo que pueda recordarla?
+EventT8_final_bom_prestes_surgir.text,—<i>¡Oh, Dios mío, ésa es mi pequeña! Muchas gracias, amigos. Esta foto alivia el dolor que tengo dentro de mí. Salgamos ahora mismo de este santuario maldito</i>.
+EventT8_camara_final_bom.text,Salís del santuario lo más rápidamente posible, sintiendo una sensación de horror mezclada con alivio. \n\n Los días pasan y parece que las cosas regresan a la normalidad. Tras huir del santuario, Rachel es llevada al hospital. Cuando las fuerzas del orden llegaron al lugar lo único que encontraron fue el santuario vacío. \n\n Por fin recibís una pequeña nota firmada por vuestra amiga Rachel. \n «<i>Gracias, amigos. Cada vez me encuentro mejor y ahora sólo guardo buenos recuerdos de mi hija sin las penas que me atormentaban. No dejaré que nuestra experiencia se olvide, escribiré un libro diciendo toda la verdad. Y se titulará "El Santuario de las Aflicciones". Un gran abrazo</i>». \n\n <b>¡La investigación ha sido un éxito! ¡Felicidades!</b> \n\n
+EventT8_camara_final_bom.button1,FIN
+EventInvestigador_eliminado.text,A pesar de todos vuestros intentos, sucumbís a este inexplicable mal y los adoradores os arrastran a la oscuridad eterna. \n\n La investigación ha fracasado.
+EventInvestigador_eliminado.button1,FIN
+EventT7_movimento_extra.text,El investigador que reveló la ficha de Vistazo tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT7_movimento_extra.button1,Continuar
+EventT7_resolverpuzzle.text,Mirando más de cerca la estatua encuentras un panel para teclear una especie de contraseña.
+EventT7_resolverpuzzle.button1,Teclear el código
+Eventaviso_rodada_10.text,El santuario parece estar cada vez más tenebroso, empiezas a preocuparte por lo que pueda pasar.
+Eventaviso_rodada_10.button1,Continuar
+Eventaviso_rodada_20.text,Con el retraso en la investigación, tu mente no puede evitar pensar que algo malo podría suceder en cualquier momento.
+Eventaviso_rodada_20.button1,Continuar
+Spawncultista_surge_1.button1,Continuar
+Spawncultista_surge_1.text,{action}—<i>¿Qué es lo que pasa? ¿Quién ha profanado nuestro santuario?</i> \n\n Coloca un sectario en el lugar señalado.
+TokenT5_passagem_procurar.text,Una estantería distinta a las otras. Parece que en ella se guardan libros y notas importantes.
+TokenT5_passagem_procurar.button1,{action} Buscar
+EventT5_passagem_procurar_livro.text,Por extraño que parezca, crees que hay alguna información relevante para tu investigación en esta estantería {observation}.
+EventT5_passagem_procurar_livro.button1,Probar
+EventT5_passagem_procura_surge.text,Al fondo del pasillo hay una llamativa estantería donde parecen guardarse libros y notas importantes. \n Coloca una ficha de búsqueda en el lugar señalado.
+EventT5_passagem_procura_surge.button1,Continuar
+EventT3_procurar_1_teste.text,Estos viejos y arcaicos textos necesitan un poco más de conocimiento para ser entendidos {lore}. \n\n
+EventT3_procurar_1_teste_passou.button1,Continuar
+EventT3_procurar_1_teste.button2,button2
+EventT3_procurar_1_teste_falhou.text,Le echas un ojo a los papeles pero nada parece llamar tu atención.
+EventT3_procurar_1_teste_falhou.button1,Continuar
+EventT3_procurar_2_teste_passou.text,Al hojear las páginas no consigues hacerte una idea clara del asunto. Hay notas y garabatos de símbolos que no te dicen nada...Ya estabas cerrando el libro cuando te das cuenta de algo... Un pasaje del libro habla sobre un antiguo ritual donde los sacrificios son necesarios y sobre todo habla de un SER ESPECIAL, portador de un poder más allá de lo imaginable. \n\n Ganas 1 Pista {clue} y descarta esta ficha de Búsqueda.
+EventT3_procurar_2_teste_passou.button1,Continuar
+EventT5_procurar_teste_passou.text,Mirando con más atención descubres un cuaderno que parece haber sido usado recientemente. Hay una página marcada. Lees lo que está escrito en ella: \n\n «<i>El secreto del poder está en la tristeza del otro, cuanto más dolor y daño sufre el SER ESPECIAL, mayor es el poder obtenido</i>». \n\n Ganas 1 Pista {clue}. A continuación descarta ese ficha de Búsqueda.
+EventT3_procurar_2_teste_falhou.text,El libro es demasiado denso y terminas renunciando a la búsqueda de alguna información relevante.
+EventT3_procurar_2_teste_falhou.button1,Continuar
+EventT3_procurar_2_teste.text,El libro parece contener información útil, sin embargo, necesitarás tiempo para examinarlo con detenimiento {observation}.
+EventT5_procurar_teste_passou.button1,Continuar
+EventT5_passagem_procurar_livro.button2,button2
+EventT5_procurar_teste_falhou.text,Parece que tu presentimiento fue sólo un error, nada te llama la atención.
+EventT5_procurar_teste_falhou.button1,Continuar
+Eventaviso_rodada_25.text,El sentimiento de maldad domina el santuario, sabes que algo muy malo está a punto de suceder.
+Eventaviso_rodada_25.button1,Continuar
+EventT2_corredor_1_procurar_surge.text,Más a la derecha hay una estantería con algunos utensilios peculiares, tal vez valga la pena echar un vistazo. \n\n Coloca una ficha de búsqueda en el lugar señalado.
+EventT2_corredor_1_procurar_surge.button1,Continuar
+TokenT2_procura_corredor_1.text,Una estantería con algunos utensilios peculiares, tal vez valga la pena echar un vistazo.
+TokenT2_procura_corredor_1.button1,{action} Buscar
+EventT2_corredor_1_procurar_teste.text,Hay un montón de baratijas y aparatos extraños. Buscas con más atención tratando de encontrar algo de valor {observation}.
+EventT2_corredor_1_procurar_teste.button1,Prueba
+EventT2_corredor_1_procurar_teste_passou.text,Tu búsqueda no ha sido en vano y en medio de estas baratijas encuentras algo que te puede ayudar. \n\n Ganas el Objeto común {c:QItemT2_corredor_1_equipamento}. A continuación descarta esta ficha de Búsqueda.
+EventT2_corredor_1_procurar_teste_passou.button1,Continuar
+EventT2_corredor_1_procurar_teste.button2,button2
+EventT2_corredor_1_procurar_teste_falhou.text,Aparentemente son sólo cosas viejas e inútiles.
+EventT2_corredor_1_procurar_teste_falhou.button1,Continuar
+EventT4_procurar_2_surge.text,En el fondo, detrás de esa extraña persona se pueden ver algunos objetos en buen estado, quizá alguno te pueda ser útil. \n Coloca una ficha de búsqueda en el lugar señalado.
+EventT4_procurar_2_surge.button1,Continuar
+TokenT4_procura_2.text,Algunos artículos en buen estado, quizá algo puede ser útil.
+TokenT4_procura_2.button1,{action} Buscar
+EventT4_procura_2_ganhar_item.text,No es lo que esperabas encontrar, pero para hacer frente a lo que has visto aquí esta noche, quizá lo mejor sea echar un trago. \n\n Ganas el Objeto común {c:QItemT4_procura_2_item}. A continuación descarta esta ficha de Búsqueda.
+EventT4_procura_2_ganhar_item.button1,Continuar
+TokenT1_interacao.text,Debajo de la alfombra, un tablón suena hueco.
+TokenT1_interacao.button1,Continuar
+EventT1_interacao_surge.text,La alfombra parece estar un poco torcida. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventT1_interacao_surge.button1,Continuar
+TokenT3_procura_2_corda.text,Un baúl sin nada destacable descansa en un rincón. Puede que haya algo interesante dentro.
+TokenT3_procura_2_corda.button1,{action} Buscar
+EventT3_procurar_corda_teste.text,Buscas en el contenido del baúl algo que pueda ayudarte en tu misión {observation}.
+EventT3_procurar_corda_teste.button1,Continuar
+EventT3_corda_passou.text,Mirando con atención, encuentras una soga que, incluso sin saber la razón, finalmente decides llevarte contigo. \n\n Ganas el Objeto único {c:QItemT3_corda}. A continuación descarta esta ficha de Búsqueda.
+EventT3_corda_passou.button1,Continuar
+EventT3_procurar_corda_teste.button2,button2
+EventT3_corda_falhou.text,Rebuscando entre los trastos del baúl encuentras una soga, pero cuando cierras la tapa la dejas caer torpemente sobre tus dedos. \n\n Ganas el Objeto único {c:QItemT3_corda) y sufres 1 Daño boca abajo. A continuación descarta esta ficha de Búsqueda.
+EventT3_corda_falhou.button1,Continuar
+EventT3_procurar_corda_surge.text,Un baúl de lo más corriente descansa en un rincón. Sin duda habrá algo dentro que sea interesante. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT3_procurar_corda_surge.button1,Continuar
+TokenT6_interacao.text,En el fondo de la cueva se nota que hay un pasaje elevado, un rayo de luz viene de esa dirección. \n\n Coloca una ficha de Interacción en el lugar señalado. \n\n El investigador con el objeto especial <i>Soga</i> puede interactuar con esta ficha.
+TokenT6_interacao.button1,{action} Interactuar
+EventT6_interacao_surge.text,En el fondo de la cueva se nota que hay un pasaje elevado, un rayo de luz viene de esa dirección. \n\n Coloca una ficha de Interacción en el lugar señalado. \n\n El investigador con el objeto especial <i>Soga</i> puede interactuar con esta ficha.
+EventT6_interacao_surge.button1,Continuar
+EventT6_alaapao_surge.text,Haciendo un nudo en la soga, la lanzas con la esperanza de dar en el blanco. Sorprendentemente se queda enganchada a la primera y crees que puedes usarla para escalar. \n\n Al final de la escalada encuentras una luz que se va haciendo cada vez más intensa y con las manos empujas hacia arriba la madera del techo. \n\n Coloca la ficha de Trampilla y descarta las fichas de Interacción de los lugares señalados. \n\n El final de la cueva y la trampilla se consideran ahora localizaciones adyacentes.
+EventT6_alaapao_surge.button1,Continuar
+UIfinal_investigador_eliminado.button1,Continuar
+Eventmov_extra_padrao.text,El investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Eventmov_extra_padrao.button1,Continuar
