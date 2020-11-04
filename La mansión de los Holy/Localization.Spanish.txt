@@ -1,0 +1,348 @@
+.,Spanish
+quest.name,La mansión de los Holy
+EventPrologo1.text,Entras en el jardín de la villa de la familia Holy. La noche está despejada aunque la luna nueva hace que eches en falta su plateada luz. \n\n Coloca el {c:TileT1_entrance} en el lugar señalado.
+EventPrologo1.button1,Continuar
+EventPrologo2_token.text,Entras en el jardín de la casa a través de una puerta que cruje al abrirse. Es un jardín bien cuidado. En la oscuridad de la noche consigues ver que el jardín continúa. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventPrologo2_token.button1,Continuar
+EventPrologo3_posizioneinvestigatori.text,Coloca a los investigadores en la entrada del jardín.
+EventPrologo3_posizioneinvestigatori.button1,Continuar
+TokenTO1_Entrance.text,El jardín continúa delante de ti. Una parcela más grande te lleva hacia la casa que puedes ver en la distancia. Una vieja casa de campo, probablemente usada para herramientas, se encuentra en el medio del lugar. \n\n Coloca el módulo {c:TileT2_Garden}.
+TokenTO1_Entrance.button1,Continuar
+EventGiardinoelementi.text,A tu izquierda observas unas manchas amarillas en el suelo, como de marcas de colillas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventGiardinoelementi.button1,Continuar
+EventGiardino_tracceumane.text,A juzgar por el aspecto de las pisadas, parece que podrían ser de los niños que vienen a jugar al jardín de la mansión.
+EventGiardino_tracceumane.button1,Continuar
+EventGiardinoCasottino1.text,La puerta del cobertizo está entreabierta, invitándote a entrar y echar un vistazo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventGiardinoCasottino1.button1,Continuar
+EventGiardinoallacasa.text,El camino hacia la casa continúa. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventGiardinoallacasa.button1,Continuar
+TokenTracceumane.text,Podría valer la pena emplear unos minutos en examinar el césped.
+TokenTracceumane.button1,{action} Buscar en el césped
+TokenMozziconiearma.text,Ves un montón de algo que parece colillas de cigarrillos. Para ser una casa abandonada, frecuentada sólo por niños amantes de las emociones, tiene mucha «vida». \n
+TokenMozziconiearma.button1,{action} Mirar en el suelo
+EventCercaarmatramozziconi.text,En la oscuridad, no puedes ver bien lo que hay ({observation}; 3).
+EventTrovaarmatramozziconi.text,Entre las colillas y los hierbajos encuentras un objeto bastante inusual, y más teniendo en cuenta que se trata de una casa abandonada. \n Ganas el Objeto común <i>Automática del .45</i>. A continuación descarta esta ficha de Búsqueda.
+EventTrovaarmatramozziconi.button1,Continuar
+TokenMainAltar.text,¡Cuando entras en el cobertizo encuentras todo inusualmente limpio! En el centro de la pequeña habitación destaca una especie de mesita con una estatuilla que esconde un mecanismo secreto.
+TokenMainAltar.button1,{action} Manipular el mecanismo
+EventPuzzleGiardino.button1,Continuar
+PuzzlePuzzlegiardino.button1,Hecho
+EventPuzzleGiardino.text,Después de unos pocos intentos logras activar un mecanismo dentro de la escultura. Cuando la abres, encuentras un extraño emblema. \n\n Ganas el Objeto único <i>Emblema de sectario</i>. A continuación descarta esta ficha de Búsqueda.
+TokenAvvistamentoserranda.text,Avanzas y ante ti se alza la casa de la familia Holy. En la oscuridad de la noche, el edificio parece enseñorearse de las tinieblas que lo envuelven. \n\n Coloca el módulo {c:TileT3_Serranda}.
+TokenAvvistamentoserranda.button1,Continuar
+EventSerrandaDuke.text,A tu derecha te das cuenta de que los arbustos se mueven. de forma siniestra... no estás muy seguro de lo que estás viendo.
+EventSerrandaDuke.button1,Continuar
+EventSerrandaingressocasa.text,Al final te fijas en la puerta cerrada que lleva al interior de la mansión.
+EventSerrandaingressocasa.button1,Continuar
+TokenCespugliocane.text,Te acercas a los arbustos con precaución. En ese momento oyes el sonido de una rama que se parte.
+TokenCespugliocane.button1,{action} Acercarte al arbusto con decisión
+EventIncontroconDuke.text,Te acercas a los arbustos con precaución. En un momento dado oyes el sonido de una rama rompiéndose, y una figura se abalanza sobre ti. \n Puedes intentar atrapar a la figura ({strength}; 2) \n o intentar esquivarla ({agility}; 3).
+EventIncontroconDuke.button1,Intentas atrapar la figura {strength}
+EventArrivaDuke.text,¡Un cuadrúpedo se agita en tus brazos hasta que te tira al suelo y comienza a lamer tu cara de manera juguetona! Es Duke. \n Ganas el Objeto único <i>Duke</i> (si no estaba ya en juego).
+EventArrivaDuke.button1,Continuar
+EventDukescappa.text,No puedes identificar la sombra que pasa rápidamente a tu lado y huye hacia la noche...
+EventDukescappa.button1,Continuar
+EventDukefamale.button1,Continuar
+EventDukefamale.text,La figura te golpea en la cara antes de escabullirse en la noche. Sufres 2 de Daño (anulados por {strength}).
+UIIntro1testo.uitext,Aparcáis a un lado el coche a las afueras de la finca de la familia Holy.\n La noche es oscura, casi fantasmal. Os repetís en vuestra mente que no debéis sugestionaros \n Sólo tenéis que entrar en la casa abandonada y rescatar a un mocoso \n que desafortunadamente quedó atrapado bajo una viga. \n Mientras le dais vueltas a este pensamiento...
+UIIntro1testo.button1,Continuar
+UIIntro1continua.uitext,Continuar
+UIIntro2testo.uitext,Tu mente rememora unas horas antes, cuando el Sr. Thompson entró de repente en tu oficina. Era una noche tranquila y relajada hasta que sus gritos llenaron la habitación. \n\n —<i>¡MI HIJO! ¡MI HIJO!—gritaba angustiado. \n\n Intentaste calmar al Sr. Thompson, sólo fue posible con una copa de buen coñac.  \n Una vez «calmado», el Sr. Thompson te dijo que su hijo Jeremías se solía reunir con su pandilla de amigos en el jardín de la finca abandonada de la familia Holy. El pobre Thompson nunca le había dado mucha importancia, pero anoche Jeremiah no regresó. \n\n Thompson subió a la finca de la familia Holy, pero cuando llegó vio muchos coches fuera, con las ventanas con luces encendidas.  \n Su historia continuaba: —<i>Una figura encapuchada se me acercó, tenía un libro en la mano, dijo algunas palabras extrañas... yo... me escapé, por favor ayúdeme, por favor ayude a mi hijo</i>. \n\n Tomado por la ansiedad del momento en que Thompson se relaja.  \n Aún te preguntas si su historia se basaba en su fantasía o en un vaso de coñac de más... de tu coñac.
+UIIntro2continua.uitext,Continuar
+UIIntro2continua.button1,Continuar
+UIIntro1continua.button1,Button1
+EventIncontroconDuke.button2,Esquivar la figura {agility}
+EventIncontroconDuke.button3,Has fallado en tu intento
+EventCercaarmatramozziconi.button1,Fallo
+EventTraccenelprato.text,Un rastro aún fresco de huellas, muy inusual dado el supuesto estado de abandono de la casa. \n\n Ganas 2 Pistas {clue}.
+EventTraccenelprato.button1,Continuar
+TokenIngressocasa.text,La puerta parece estar cerrada con llave, pero cuando te acercas te das cuenta de que no lo está. Hay algo detrás que la mantiene cerrada.
+TokenIngressocasa.button1,{action} Forzar la puerta 
+EventApriportacasa.text,Intenta forzar la puerta principal  ({strength}; 1).
+EventApriportacasa.button1,Consigues abrir la puerta
+EventApriportacasa.button2,Has fallado en tu intento
+EventCorridioingresso.text,Con un golpe seco empujas la puerta y consigues acceder a la casa. Compruebas que las luces que viste desde fuera en las ventanas eran de verdad. \n\n Coloca el módulo {c:TileT4_Corridoio_ingresso}.
+EventCorridioingresso.button1,Continuar
+EventScrivaniacorridoioingresso.button1,Continuar
+EventIngressoprincipaleportadestra.text,A tu derecha, una puerta que lleva a otras estancias de la mansión.\n Coloca una ficha de Exploración en el lugar señalado.
+EventScrivaniacorridoioingresso.text,A tu izquierda hay un escritorio con varios documentos sobre él. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventIngressoprincipaleportadestra.button1,Continuar
+EventIngressoprincipaleportasinistra.text,A la izquierda, al final del pasillo, una puerta lleva a las habitaciones privadas de la casa. \n Coloca una ficha de Exploración en el lugar señalado.
+EventIngressoprincipaleportasinistra.button1,Continuar
+EventIngressoprincipalecontinuocorridoio.text,El pasillo continúa hacia delante. \n Coloca una ficha de Vistazo en el lugar señalado.
+EventIngressoprincipalecontinuocorridoio.button1,Continuar
+EventCluegenerico.button1,Continuar
+EventCercaarmatramozziconi.button2,Prueba superada
+EventCluegenerico.text,No encuentras nada interesante, aparte del hecho de que hay colillas recientes. \n\n Ganas 2 Pistas {clue}.
+TokenPortasalalettura.text,Estás parado frente a una puerta cerrada, pero no da la impresión de estar bloqueada.
+TokenPortasalalettura.button1,{action} Abrir la puerta
+EventEntrasalalettura.text,Entras en otro pasillo. Para ser una casa abandonada, todos los muebles están bien cuidados y todo está ordenado. \n\n Coloca el módulo {c:TileT7_Sala_lettura} en el lugar señalado.
+EventEntrasalalettura.button1,Continuar
+EventSalaletturaquadro.text,Coloca un cuadro (ficha de Pared) en el lugar señalado.
+EventSalaletturaquadro.button1,Continuar
+EventSalaletturaquadroazione.text,Un cuadro en la pared que tienes a tu izquierda te llama la atención.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventSalaletturaquadroazione.button1,Continuar
+Eventsalaletturacomodino.text,A la izquierda, cerca de ti, hay una pequeña mesita de café. Tiene pinta de que se usa para guardar documentos. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalaletturacomodino.button1,Continuar
+EventSalaletturealtreporte.text,Tres puertas conducen a otras tantas estancias de la mansión.  \n Coloca fichas de Exploración en los lugares señalados.
+EventSalaletturealtreporte.button1,Continuar
+TokenPortasaleservit.text,La puerta parece muy sólida y robusta.
+TokenPortasaleservit.button1,{action} Abrir la puerta
+EventPortaservitbloccata.text,La puerta está cerrada y parece que no hay manera de abrirla
+EventPortaservitbloccata.button1,Continuar
+TokenComodinosalalettura.text,El cajón de la mesita de café tiene una cerradura de combinación.
+TokenComodinosalalettura.button1,{action} Intentar abrir la cerradura
+EventSbloccaportaservit.text,Dentro de la mesita de café encuentras una llave que probablemente sirve para abrir una de las puertas de la casa. Encuentras otros documentos que hablan de la compra y venta de acciones de la familia Holy. Las fechas son muy recientes. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+PuzzlePuzzlecomodino.button1,Hecho
+EventSbloccaportaservit.button1,Continuar
+TokenPortasalaservitaperta.text,La puerta parece muy sólida y robusta.
+TokenPortasalaservitaperta.button1,{action} Abrir la puerta
+EventApristanzeservizio.text,Introduces la llave que encontraste en la sala de lectura, la giras y la puerta se abre inmediatamente, dando acceso a una nueva estancia.\n\n Coloca el módulo {c:TileT5_Stanze_servizio}.
+EventApristanzeservizio.button1,Continuar
+EventTokenmurosalaservizio.text,Coloca una ficha de Pared en el lugar señalado.
+EventTokenmurosalaservizio.button1,Continuar
+Eventstanzadiservizioletto.text,Un dormitorio bien ordenado. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventstanzadiservizioletto.button1,Continuar
+EventStanzaservizioquadri.text,Unos cuadros muy particulares. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventStanzaservizioquadri.button1,Continuar
+Eventingressostanzaservit.text,Una puerta cerrada que conduce a otra estancia de la casa.  \n Coloca una ficha de Exploración en el lugar señalado.
+Eventingressostanzaservit.button1,Continuar
+EventSpawnmostroservizio.text,Oyes un ruido extraño, algo grande se mueve por la habitación.
+EventSpawnmostroservizio.button1,Continuar
+Spawn0.text,Te lanza una terrible mirada y se abalanza sobre ti. \n\n Coloca un Horrendo cazador en el lugar señalado.
+Spawn0.button1,Continuar
+TokenIngressostanzaservit.text,La puerta no está cerrada con llave.
+TokenIngressostanzaservit.button1,{action} Abrir la puerta
+EventCameraservitapri.text,Ves una pequeña habitación, el ambiente está caldeado y te sorprendes a encontrar a otras personas. \n\n Coloca el módulo {c:TileT6_Camera_servit} en el lugar señalado.
+EventCameraservitapri.button1,Continuar
+EventCameraservitarmadio.text,Un viejo armario medio abierto se encuentra a tu derecha. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCameraservitarmadio.button1,Continuar
+EventCameraservitstatuetta.text,Un escritorio sobre el que hay una vieja escultura y un tomo. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCameraservitstatuetta.button1,Continuar
+EventCameraservitletto.text,Una cama que no está muy ordenada. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCameraservitletto.button1,Continuar
+Eventcameraservitcultisti.text,Una figura se mueve rápidamente por la habitación en tu dirección. \n\n —<i>Usted, usted, cómo osa perturbar el ritual de esta noche, USTED será también sacrificado, junto con este mocoso</i>. \n\n No parecen muy dispuestos a hablar contigo...
+Eventcameraservitcultisti.button1,Continuar
+TokenQuadrosalaletturaazione.text,El cuadro es muy extraño. Representa a un ser gigante que no habías visto nunca antes. La representación es tan realista que hace que te estremezcas y sientas el impulso de mirar hacia otro lado.
+TokenQuadrosalaletturaazione.button1,{action} Observar el cuadro fijamente
+EventQuadrosalalettura.text,Tienes que poner todo tu empeño para observar el cuadro sin apartar la mirada ({will}; 3).
+EventQuadrosalalettura.button1,Éxito
+EventQuadrosalalettura.button2,Has fallado
+EventFolliagenerica.text,Sientes un profundo dolor que sale de tu interior, el suelo comienza a temblar y también tus piernas. Empiezas a parpadear rápidamente tratando de volver en ti. \n Un instante después, recuperas la lucidez, aunque parece que algo se ha colado en tu mente. \n\n Ganas 2 Pistas {clue}. \n Sufres 1 de Horror. A continuación pon boca arriba 1 de Horror. \n\n Descarta esta ficha de Búsqueda.
+EventFolliagenerica.button1,Continuar
+EventCluequadro.text,La belleza del cuadro se apodera de ti y pareces ganar un conocimiento que creías no tener. \n\n Ganas 2 Pistas {clue} y un Hechizo. A continuación descarta esta ficha de Búsqueda.
+EventCluequadro.button1,Continuar
+TokenStanzadiservizioletto.text,La cama parece haber sido usada recientemente aunque la habitación parece ordenada.
+TokenStanzadiservizioletto.button1,{action} Buscar en la habitación
+Eventcercacameraservizio.text,Buscas en la cama y en el armario para ver si hay algo interesante. Encuentras algo. \n\n Ganas el siguiente Objeto. A continuación descarta esta ficha de Búsqueda.
+Eventcercacameraservizio.button1,Continuar
+TokenStanzadiservizioquadri.text,Los cuadros alineados en la pared te infunden una mezcla de miedo y curiosidad.
+TokenStanzadiservizioquadri.button1,{action} Examinar los cuadros
+EventSalaservitquadri.text,Reconoces un nexo común en los cuadros. Identificas 4 objetos: un especie de amuleto, una escultura, un libro y una llave. Es muy extraña la manera en la que están colgados los cuadros. \n\n Ganas 2 Pistas {clue}.  A continuación descarta esta ficha de Búsqueda.
+EventSalaservitquadri.button1,Continuar
+TokenCameraservitarmadio.text,Un viejo armario abierto.
+TokenCameraservitarmadio.button1,{action} Inspeccionar el armario
+EventCameraservituarmadio.text,Cuando abres el armario, sientes que estás entrando en un mundo paralelo hecho de gritos, horrores y sangre. \n\n Sufres 3 de Horror (anulados por {will}).
+EventCameraservituarmadio.button1,No has sufrido Horror
+EventCameraservituarmadio.button2,Has sufrido 1 de Horror
+EventCameraservituarmadio.button3,Has sufrido 3 de Horror
+EventCameraservitarmadio0.text,Lo que ves en el armario abre tu mente a infinitas posibilidades. \n Sabes que las estrellas te favorecerán. \n\n Ganas el siguiente Hechizo. A continuación descarta esta ficha de Búsqueda.
+EventCameraservitarmadio0.button1,Continuar
+EventCameraservitarmadio1o2.text,Tu mente vacila, pero te las arregla para mantener tu consciencia en el mundo que te rodea. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventCameraservitarmadio1o2.button1,Continuar
+EventCameraservitarmadio3.text,Tu mente se pierde en el vacío del espacio. La oscuridad del armario envuelve la habitación, y cuando ésta desaparece, una bestia monstruosa aparece ante ti. A continuación descarta esta ficha de Búsqueda.
+EventCameraservitarmadio3.button1,Continuar
+TokenCameraservitgiocoperstatuetta.text,Una escultura y un tomo colocados sobre el escritorio.
+TokenCameraservitgiocoperstatuetta.button1,{action} Coger los objetos
+Eventcameraservitstatuetta.button1,Continuar
+Eventcameraservitstatuetta.text,En el momento en que recoges los objetos sientes un escalofrío que recorre tu espalda. \n\n Sufres 4 de Horror (anulados por {will}).
+TokenCameraservitletto.text,La cama está deshecha
+TokenCameraservitletto.button1,{action} Comprobar la cama
+EventCameraservitletto0.text,Encuentras la gorra de un niño, podría pertenecer a Jeremy. \n\n Ganas 2 pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventCameraservitletto0.button1,Continuar
+Eventstanzaservitoggetti.text,Ganas lo siguiente:
+Eventstanzaservitoggetti.button1,Continuar
+Eventcameraservitoggettoincantesimo.button1,Continuar
+Eventcameraservitoggettoincantesimo.text,Ganas lo siguiente:
+TokenIngressosaladate.text,La puerta parece que no está cerrada con llave.
+TokenIngressosaladate.button1,{action} Abrir la puerta
+EventSaladateposizionamento.text,La puerta se abre a un pequeño salón de té. Las luces están encendidas, aunque la habitación está desierta. \n\n Coloca el módulo {c:TileT9_saladate} en el lugar señalado.
+EventSaladateposizionamento.button1,Continuar
+TokenMurosaladate.text,Coloca una ficha de Pared en el lugar señalado.
+TokenMurosaladate.button1,Continuar
+EventMessaggiopassaggiosegreto.text,Una inscripción en la pared llama tu atención.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMessaggiopassaggiosegreto.button1,Continuar
+Eventsaladatearmadiettodroghe.text,Hay una vitrina con las puertas cerradas al fondo de la habitación.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsaladatearmadiettodroghe.button1,Continuar
+EventSaladatelibromagie.text,Alguien dejó un viejo libro abandonado sobre el sillón.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventSaladatelibromagie.button1,Continuar
+EventMurodasaladate.text,Coloca una ficha de Pared en el lugar señalado.
+EventMurodasaladate.button1,Continuar
+TokenSPaziopassaggiosegretosaladate.text,En la pared observas un dibujo de un emblema y una escultura. Tal vez tener estos objetos te permita descubrir algo más.
+TokenSPaziopassaggiosegretosaladate.button1,{action} Tienes el <i>Emblema de sectario</i> y la <i>Escultura grotesca</i>
+EventAperturapassaggiosegreto.text,A medida que te acercas a la pared, notas en tus entrañas unas vibraciones procedentes de la escultura y del emblema. Una especie de luz surge de la pared, dejando a la vista un pasaje secreto.\n\n Sufres 3 de Horror (anulados por {will}). \n\n Coloca una ficha de Pasaje secreto en el lugar señalado.
+EventAperturapassaggiosegreto.button1,Continuar
+EventSotterraneo1.text,Un pasaje hacia el sótano se abre ante ti. \n\n Coloca el {c:TileTile10_sotterraneo} y {c:TileT11_sotterraneo2} en el lugar señalado.
+EventSotterraneo1.button1,Continuar
+EventSotterraneoportamurata.text,Coloca fichas de Exploración en los lugares señalados.
+EventSotterraneoportamurata.button1,Continuar
+Eventsotterraneiavanzidicibo.text,Observas que hay unas pequeñas cajas en un rincón.   \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsotterraneiavanzidicibo.button1,Continuar
+Eventsotterraneoarmi.text,Un mueble con algunas cosas dentro. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsotterraneoarmi.button1,Continuar
+EventSotterraneomuro2.text,Coloca una ficha de Pared en el lugar señalado del almacén.
+EventSotterraneomuro2.button1,Continuar
+EventOggettisotterraneo2.text,Una pila de objetos en un rincón.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventOggettisotterraneo2.button1,Continuar
+EventSotterraneorituale.text,Un gran dibujo en el suelo.  \n Coloca una ficha de Interacción en el lugar señalado.
+EventSotterraneorituale.button1,Continuar
+TokenPortamurata2.text,Puedes intentar abrir la puerta.
+TokenPortamurata2.button1,{action} Abrir la puerta
+EventPortaMurata.text,Abres la puerta, pero el acceso está tapiado por una pared de ladrillos.
+EventPortaMurata.button1,Continuar
+TokenPortamurata1.text,Puedes intentar abrir la puerta.
+TokenPortamurata1.button1,{action} Abrir la puerta
+TokenSotterraneo1armi.text,En el mueble hay varias armas expuestas, pero seguramente son inservibles.
+TokenSotterraneo1armi.button1,{action} Buscar un arma que esté en buen estado
+Eventarmasotterranea.text,Encuentras una que te puede servir. \n Ganas el arma que se indica.
+Eventarmasotterranea.button1,Continuar
+TokenSotterraeo2arma.text,Un montón de objetos desordenados.
+TokenSotterraeo2arma.button1,{action} Buscar entre los objetos
+EventOggettigenericisotterraneo.text,Encuentras un objeto que puede serte útil.\n\n Ganas 1 Pista {clue} y el Objeto mostrado.
+EventOggettigenericisotterraneo.button1,Continuar
+TokenSotterraneo1avanzidicibo.text,Parecen restos de comida. Puede que encuentres algo útil...
+TokenSotterraneo1avanzidicibo.button1,{action} Buscar en las cajas
+Eventsotterraneoscatolette.text,Empieza a buscar entre las latas y cajas con la esperanza de encontrar algo útil. De repente te das cuenta de que hay sangre en una de las cajas, por lo que empiezas a examinar con más cuidado el resto de las cajas. Descubres horrorizado que algunas están llenas de tripas y pedazos de órganos. \n\n Sufres 2 de Horror (anulados por {will}). \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventsotterraneoscatolette.button1,Continuar
+TokenEvocazionesotterraneo2.text,El dibujo en el suelo no presagia nada bueno, pero en tu cabeza no consigues hacerte una idea clara de su propósto. Cerca del dibujo descubres pedazos de una hoja de papel con indicaciones, pero están completamente desordenados.
+TokenEvocazionesotterraneo2.button1,{action} Poner en orden los trozos de papel
+EventSpawnsotterraneo.text,Cuando colocas el último pedazo en su sitio, el dibujo comienza a brillar. Instantes después, un destello de luz muy intenso sale del dibujo del suelo. Un alarido producido por algún tipo de bestia retumba en la habitación y cierras los ojos para protegerte de la intensa luz. Cuando abres los ojos de nuevo, encuentras ante ti una espantosa criatura.
+Puzzleritualesotterraneo.button1,Hecho
+EventSpawnsotterraneo.button1,Continuar
+SpawnSpawnsotterraneo.text,Un monstruo a medio camino entre un ser humano y algún tipo irreconocible de criatura aparece ante ti. No parece que sus intenciones sean amistosas. \n\n Coloca un Híbrido de profundo en el lugar señalado.
+SpawnSpawnsotterraneo.button1,Continuar
+TokenArmadiettocondroghe.text,La vitrina tiene botellas y otros materiales, posiblemente de primeros auxilios.
+TokenArmadiettocondroghe.button1,{action} Forzar el cierre de la vitrina
+EventSaladatearmadietto.text,Intentas forzar las puertas de la vitrina para que se abra ({strength}; 1).
+EventSaladatearmadietto.button1,Éxito. Abres la vitrina
+EventSaladatearmadietto0.text,En el interior de la vitrina encuentras un objeto útil. \n\n Ganas este Objeto común.
+EventSaladatearmadietto0.button1,Continuar
+TokenLibromagiesaladate.text,El libro es un viejo tomo escrito con caracteres indescifrables. Sólo con mirarlos, tu mente comienza a vagar entre conocimientos indecibles.
+TokenLibromagiesaladate.button1,{action} Seguir leyendo el tomo
+EventSaladatelibroaperto.button1,Continuar
+EventSaladatelibrooggettodentro.text,Los tentáculos desaparecen. ¿O nunca estuvieron realmente? \n\n El conocimiento que obtienes, aunque caro, te aporta algo único. \n\n Ganas 1 Pista {clue} y 1 Hechizo.
+EventSaladatelibroaperto.text,Tu mente se abre a un conocimiento desconocido para ti. Del interior del libro salen unos tentáculos que intentan ahogarte. \n\n Sufres 2 de Daño (anulados por {agility}).
+EventSaladatelibrooggettodentro.button1,Continuar
+EventSaladatearmadietto.button2,Fallo
+TokenIngressosalagioco.text,La puerta parece que no está cerrada con llave. Oyes voces procedentes del interior.
+TokenIngressosalagioco.button1,{action} Abrir la puerta
+EventPosizionesalagioco.text,La puerta conduce a una sala de juegos. \n Coloca el módulo {c:TileT8_salagioco}.
+EventPosizionesalagioco.button1,Continuar
+EventSalagiocoalcool.text,A tu derecha hay un mueble bar de esquina. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventSalagiocoalcool.button1,Continuar
+Eventsaladagiocobiliardo.button1,Continuar
+TokenTraccesangueBiliardo.text,Una vieja mesa de billar con poco uso.
+Spawnsaladagiococultisti.text,Una figura encapuchada te mira con asombro al verte entrar aquí. \n\n Coloca un sectario en el lugar señalado.
+Spawnsaladagiococultisti.button1,Continuar
+TokenScrivaniaingressoprincipale.text,Un viejo escritorio con papeles.
+TokenScrivaniaingressoprincipale.button1,{action} Buscar entre los papeles
+Eventingressoprincipalescrivania.text,Buscando entre los papeles encuentras algunos documentos sobre la familia Holy. Parece que la última descendiente es una mujer que tomó su apellido de su marido. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventingressoprincipalescrivania.button1,Continuar
+TokenSalagiocoalcool.text,Parece que hay muchas botellas interesantes en el mueble bar.
+TokenSalagiocoalcool.button1,{action} Buscar entre las botellas
+EventSalagiocoalcool0.text,Encuentras una botella de whisky del bueno. \n\n Ganas el Objeto común <i>Whisky</i>. A continuación descarta esta ficha de Búsqueda.
+EventSalagiocoalcool0.button1,Continuar
+Eventsaladagiocobiliardo.text,En el centro de la sala hay una mesa de billar. \n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenTraccesangueBiliardo.button1,{action} Examinar la mesa
+EventSaladagiocobiliardotracce.text,La mesa no se ha usado mucho para jugar últimamente. Un examen más detallado te revela que tiene rastros de sangre. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventSaladagiocobiliardotracce.button1,Continuar
+EventChiaveargento.button1,Continuar
+EventPosizionasaladapranzo.text,Ante ti se abre un comedor con una cocina adyacente. \n Coloca el módulo {c:TileT17_sala_pranzo}.
+TokenIngressosalapranzodalettura.text,La puerta parece que no está cerrada con llave.
+TokenIngressosalapranzodalettura.button1,{action} Abrir la puerta
+EventChiaveargento.text,El híbrido emite un último grito y luego cae al suelo. \n\n Una llave plateada rebota en el suelo. \n\n Coloca el Objeto único <i>Llave de plata</i> en el mismo espacio que ocupaba el híbrido al morir.
+EventPosizionasaladapranzo.button1,Continuar
+EventCucinaapparetoken.text,Un olor a comida proviene de la cocina. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCucinaapparetoken.button1,Continuar
+TokenSalapranzocoltello.text,Puedes mirar en la despensa.
+TokenSalapranzocoltello.button1,{action} Buscar en la despensa
+EventDispensa.text,Buscando encuentras un ingrediente de lo más curioso. \n\n Ganas el Objeto común <i>Sedante</i>. A continuacion descarta esta ficha de Búsqueda.
+EventDispensa.button1,Continuar
+TokenContinuocorridoio.text,El pasillo continúa.
+TokenContinuocorridoio.button1,Continuar
+EventCorridoiotappeto.text,El pasillo principal de la casa. \n\n Coloca el módulo {c:TileT12_corridoio_tappeto}.
+EventCorridoiotappeto.button1,Continuar
+EventIngressosalainterna.text,Una puerta que conduce a una habitación interior. \n Coloca una ficha de Exploración en el lugar señalado.
+EventIngressosalainterna.button1,Continuar
+Eventscale.text,El pasillo continúa delante tuyo. \n Coloca una ficha de Vistazo en el lugar señalado.
+Eventscale.button1,Continuar
+TokenPortasalainterna.text,La puerta parece estar cerrada con llave.
+TokenPortasalainterna.button1,{action} Forzar la cerradura
+TokenPortasalainterna.button2,{action} Echar abajo la puerta
+EventScassinaportainterna.text,Intentar entrar por las bravas {agility}.
+EventScassinaportainterna.button1,Consigues forzar la cerradura
+EventPortainternaaperta.text,Echas abajo la puerta. Entras en una pequeña sala. \n\n Coloca el módulo {c:TileT13_sala_interna}.
+EventPortainternaaperta.button1,Continuar
+Eventsalainternascrivania.text,Un escritorio con papeles te llama la atención.  \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalainternascrivania.button1,Continuar
+EventSfondaportainterna.text,Intenta echar la puerta abajo ({strength}; 4).
+EventSfondaportainterna.button1,Éxito. Echas abajo la puerta.
+EventSfondaportainterna.button2,Fallo. No consigues tirar la puerta.
+TokenScale.text,El pasillo continúa.
+TokenScale.button1,Continuar por el pasillo
+EventScale.text,Ante ti están las escaleras que conducen a la planta superior. \n\n Coloca el módulo {c:TileT14_SCale}.
+EventScale.button1,Continuar
+TokenIngressosalasuperiore.text,La puerta de acceso al piso superior.
+TokenIngressosalasuperiore.button1,{action} Abrir la puerta
+Eventingressosalasuperiore.text,Una puerta da acceso al piso superior. \n Coloca una ficha de Exploración en el lugar señalado.
+Eventingressosalasuperiore.button1,Continuar
+EventPianosuperiore.text,Ves una gran sala ante ti.\n\n Coloca el módulo {c:TileT15_pianosopra} en el lugar señalado.
+EventPianosuperiore.button1,Continuar
+TokenSalainterna_duke.text,Parecen notas dispersas
+TokenSalainterna_duke.button1,{action} Leer las notas
+EventSalainternaappunti.text,Encuentras una particularmente interesante: \n\n «<i>El sacrificio vino aquí por voluntad propia. \n Pronto la llave, el tomo, la escultura y el emblema se reunirán. \n Si no fuera por la inestabilidad de los portales \n que hacen aparecer a esas extrañas criaturas, \n ya habríamos logrado nuestro objetivo</i>». \n\n Ganas 3 Pistas {clue}.
+EventSalainternaappunti.button1,Continuar
+TokenIngressosoffittasegreta.text,Una fuerza sobrenatural hace que esta puerta permanezca cerrada.
+TokenIngressosoffittasegreta.button1,{action} Si tienes la <i>Llave de plata</i> y la <i>Escultura grotesca</i>, puedes abrir la puerta
+EventAprisoffittasegreta.text,Al abrir la puerta ves un viejo desván. \n\n Coloca el módulo {c:TileT16_soffitasegreta} en el lugar señalado.
+EventAprisoffittasegreta.button1,Continuar
+Eventtentacoli.text,Unos oscuros tentáculos emergen del interior de un libro que hay en el suelo. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventtentacoli.button1,Continuar
+Eventportasoffita.text,A tu derecha ves una puerta. \n Coloca una ficha de Exploración en el lugar señalado.
+Eventportasoffita.button1,Continuar
+EventCorpo.text,En el medio de la habitación yace el cuerpo desgarrado de un niño pequeño. \n Coloca una ficha de Interacción en el lugar señalado.
+EventCorpo.button1,Continuar
+SpawnPianosopra.text,Un monstruo está de pie, al lado del cuerpo, con la sangre goteando de sus garras y boca. \n\n Coloca un Hijo de Dagón en el lugar señalado.
+SpawnPianosopra.button1,Continuar
+TokenPianosopraevocazione.text,El cuerpo que crees que puede ser de Jeremy está tirado en el suelo. El rostro ensangrentado hace que sea difícil distinguir bien sus rasgos faciales.\n\n Ganas 3 Pistas {clue}. A continuación descarta esta ficha de Interacción.
+TokenPianosopraevocazione.button1,Continuar
+EventSacerdotedidagon.text,\n—<i>¿Quién? ¿QUIÉN SE ATREVIÓ A INTERRUMPIR EL RITUAL? Van a rodar muchas cabezas, empezando por las de los intrusos. ¡Más sacrificios!</i> —grita alguien al otro lado de la puerta principal.\n\n Coloca un sacerdote de Dagón en el lugar señalado.
+EventSacerdotedidagon.button1,Continuar
+TokenSoffitasegretaevocazione.text,Del libro salen unos tentáculos indescriptibles. Puedes intentar leer la página del libro para ver si así puedes impedir que la criatura atraviese a nuestro mundo {lore}.
+TokenSoffitasegretaevocazione.button1,{action} Leer el libro
+EventBloccalibro.text,Pones todo tu empeño y energía en la lectura de la página, consiguiendo que el libro se cierre y con él los tentáculos desaparecen. Apararentemente la calma regresa a la habitación. \n\n Cambia la ficha de Interacción por una ficha de Búsqueda.
+EventBloccalibro.button1,Continuar
+EventGuadagnatomo.text,Recoges el libro del suelo, sin que ocurra nada. \n\n Ganas el Objeto común <i>Manuscrito arcano</i>.  A continuación descarta esta ficha de Búsqueda.
+EventGuadagnatomo.button1,Continuar
+TokenTomo.text,El libro descansa en el suelo, delante de ti
+TokenTomo.button1,{action} Coger el libro
+EventMostroFinale.text,Sientes una fuerte vibración que proviene del suelo. Escuchas un sonido que recuerda a un estertor, emitido por uno de los cuerpos que yacen en el suelo de la mansión:  \n\n —<i>El sacrificio... las cuatro reliquias, el ritual... el ritual comienza</i>. \n\n ¡Un grito sordo se eleva desde el jardín!
+EventMostroFinale.button1,Continuar
+SpawnProlestellare.text,¡Un enorme monstruo aparece en el jardín, en un el altar que han creado en medio del cobertizo! \n\n Coloca una Semilla estelar en el lugar señalado.
+SpawnProlestellare.button1,Continuar
+EventFINE2.text,Volvéis a la casa para recuperar el cuerpo demacrado del pobre Jeremy... lo único que podéis hacer es devolvérselo a su padre. Por mucho que os pese, no hay nada más que podáis hacer para arreglar tanto sufrimiento y horror.
+EventFINE.text,Cuando la noche se acerca a su fin, se oye un ruido sordo. La criatura que tienes delante se derrumba. Sientes como el aire te quema en los pulmones y después... el silencio.
+EventFINE2.button1,Continuar
+EventFINE.button1,Continuar
+EventFINE3.text,Os subís en vuestro coche y os marcháis mientras la primera luz del amanecer se filtra por el parabrisas deslumbrando vuestros ojos, que se habían acostumbrado a la oscuridad. \n\n\n FIN.
+EventFINE3.button1,Continuar
+quest.authors,\n\n <i>Creado por:</i> Fabio L. \n\n\n <i>Traducción al español:</i> Vidimus \n\n
+quest.synopsys,Una casa que había estado abandonada...hasta ahora. De 2-5 investigadores novatos.
+quest.description,\n\n Se acerca la noche cuando el Sr. Thompson irrumpe en tu habitación. Su hijo, Jeremy, ha desaparecido, probablemente en la finca abandonada de la familia Holly, en las afueras de la ciudad...\n\n\n De 2 a 5 investigadores.
+EventScassinaportainterna.button2,Fracasas en tu intento
+UIIntro1testo.uitext,Aparcáis a un lado el coche a las afueras de la finca de la familia Holy. \n La noche es oscura, casi fantasmal. Os repetís en vuestra mente que no debéis sugestionaros \n Sólo tenéis que entrar en la casa abandonada y rescatar a un mocoso \n que desafortunadamente ha quedado atrapado bajo una viga. \n Mientras le dais vueltas a este pensamiento...
+UIIntro2testo.uitext,Tu mente rememora unas horas antes, cuando el Sr. Thompson entró \n de repente en tu oficina. Era una noche tranquila y relajada hasta \n que sus gritos llenaron la habitación. \n\n —<i>¡MI HIJO! ¡MI HIJO!</i> —gritaba angustiado. \n\n Intentaste calmar al Sr. Thompson, sólo fue posible con una copa de buen coñac.  \n Una vez «calmado», el Sr. Thompson te dijo que su hijo Jeremy \n se solía reunir con su pandilla de amigos en el jardín de la finca abandonada \n  de la familia Holy. El pobre Thompson nunca le había dado mucha importancia,\n pero anoche Jeremiah no regresó. \n\n Thompson subió a la finca de la familia Holy, pero cuando llegó \n vio muchos coches fuera, con las ventanas con luces encendidas.  \n Su historia continúa: —<i>Una figura encapuchada se me acercó, \n tenía un libro en la mano, dijo algunas palabras extrañas... yo... me escapé, por favor ayúdeme, por favor ayude a mi hijo</i>. \n\n Pasado el momento de ansiedad, Thompson parece relajarse.  \n Aún te preguntas si su historia se basaba en su fantasía o en un vaso de coñac de más... de tu coñac.
+EventPuzzleGiardino.text,Después de unos pocos intentos logras activar un mecanismo dentro de la escultura. Cuando lo abras, encuentras un extraño emblema. \n\n Ganas 3 Pistas {clue}.
+Eventcercacameraservizio.text,Miras debajo de la cama y en el armario, y encuentras algo interesante.\n\n Ganas 1 Pista {clue}.
+EventCameraservituarmadio.text,Cuando abres el armario, de repente sientes que estás entrando en un mundo paralelo de gritos, horrores y sangre.\n\n Sufres 2 de Horror (anulados por {will}).
+EventCameraservituarmadio.button3,Has sufrido 2 de Horror.
