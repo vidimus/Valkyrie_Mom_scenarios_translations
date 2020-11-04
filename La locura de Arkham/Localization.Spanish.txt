@@ -1,0 +1,1739 @@
+.,Spanish
+quest.name,La locura de Arkham
+quest.description,\n\n Explora la ciudad de Arkham y descubre el misterio que esconde. \n\n De 1 a 4 investigadores. \n\n Se necesitan las expansiones «Calles de Arkham», «Más allá del umbral», «Recuerdos reprimidos» (o las expansiones de la primera edición) y «Pesadillas recurrentes» (o la primera edición del juego).\n\n
+quest.authors,\n\n <i>Diseñado y creado por:</i> David G. \n\n\n <i>Traducción al español:</i> Vidimus \n\n
+UI2.uitext,La ciudad de Arkham está envuelta en el misterio. \n El periódico local informa en la primera página de un robo \n en el Museo de Arqueología, una noticia más abajo, \n el escándalo de una tumba en el cementerio \n que ha sido profanada. Un artículo en la segunda página cuenta \n una noticia curiosa: algunas personas declaran que \n han visto una extraña criatura deambulando por los muelles de \n la ciudad. \n\n Todos los investigadores están reunidos en una cafetería \n y, como ya es habitual desde hace unos días, \n el lugar está casi desierto.
+UI3.uitext,INICIO
+UI3.button1,button1
+Eventinizio0.text,Os reunís todos en una cafetería. Es la favorita de {rnd:hero}, que conoce muy bien esta parte de la ciudad porque vive en una calle cercana. \n\n Coloca el módulo {c:Tile0} en el lugar señalado.
+Eventinizio0.button1,Continuar
+Eventinizio1.text,Los investigadores comienzan en este lugar. \n\n Cada investigador comienza con 2 Pistas {clue}. \n\n {c:Eventinizio0} comienza con 3 Pistas {clue} ya que conoce bien esta parte de la ciudad.
+Eventinizio1.button1,Continuar
+Eventinizio2.text,Dos puertas conducen al exterior del local. \n\n Coloca fichas de Exploración en los lugares señalados.
+Eventinizio2.button1,Continuar
+Eventinizio3.text,Una puerta conduce a los aseos del local. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventinizio3.button1,Continuar
+Eventinizio4.text,El camarero está trabajando detrás de la barra. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventinizio4.button1,Continuar
+Eventinizio5.text,Un hombre está en la cafetería, deleitándose con su comida. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventinizio5.button1,Continuar
+Tokenbagno.text,El aseo del local.
+Tokenbagno.button1,{action} Entrar
+Eventbagno.text,La puerta está cerrada con llave.
+Eventbagno.button1,Continuar
+Token3.text,Un señor mayor está sentado comiendo.
+Token3.button1,Continuar
+Tokenbarman.text,El camarero de la cafetería.
+Tokenbarman.button1,{action} Hablar
+Eventbarman.text,—<i>¿Sí?</i> —te pregunta el <i>camarero</i> desconcertado
+Eventbarman.button1,Preguntar rumores
+Eventpettegolezzi.text,\n—<i>Escuché que en el cementerio alguien trató de robar dentro de una tumba... Si ahora roban a los muertos, ¿qué no harán con los vivos?</i>\n
+Eventpettegolezzi.button1,Continuar
+Eventpettegolezzi0.text,\n—<i>He oído que han robado un artefacto muy valioso en el Museo de Arqueología... quién sabe de qué se tratará... </i>\n
+Eventpettegolezzi0.button1,Continuar
+Eventpettegolezzi1.text,\n—<i>Dicen que la mansión de la colina está embrujada por un fantasma... pero sólo son rumores... creo...</i>\n
+Eventpettegolezzi1.button1,Continuar
+Eventpettegolezzi2.text,—<i>No sé me ocurre nada que pueda contarle ahora mismo</i>.
+Eventpettegolezzi2.button1,Continuar
+Tokenuscita.text,Desde aquí se puede llegar a otras partes de la ciudad. \n\n Si te vas por esta calle, todos los investigadores deberán irse juntos al mismo sitio.
+Tokenuscita.button1,{action} Ir al mapa
+UI6.uitext,Bosque
+UI8.uitext,Cementerio
+EventUSCITA.text,Descarta todos los componentes del tablero y despeja la mesa.
+UI9.uitext,Mansión
+UI11.uitext,Muelle
+UI12.uitext,OFICINA
+Eventinizio6.text,Tendrás que investigar la ciudad de Arkham, recogiendo pistas \n en distintos lugares de la misma. Tienes un objetivo final que cumplir \n y depende de ti averiguar cuál es. Una vez conseguido, la partida terminará.
+Eventufficioinizio.text,Descansar en la oficina cuesta 1 Pista {clue}, que la puede descartar cualquier investigador. Esto permite recuperar todas las heridas y la cordura de todos los investigadores. \n Si ningún investigador puede gastar una pista, no se recuperan ni las heridas ni la cordura, pero se puede descansar de todos modos. Si se gastan 3 Pistas {clue} en lugar de una, también se puede eliminar el estado <i>Herido y/o Loco</i>. \n\n El Día cambiará a la Noche o viceversa, dependiendo de la situación.
+Eventufficio.button1,button1
+UI14.button1,Continuar
+EventNOTTE.text,La noche llega a Arkham
+EventGIORNO.text,Un nuevo día comienza en Arkham
+EventGIORNO.button1,Continuar
+EventTELEFONATA.text,La tranquilidad de la mañana se interrumpe con el sonido del teléfono. \n {rnd:hero} recibe una llamada de una persona desconocida. \n\n —<i>Hola. He oído hablar de su capacidad para resolver, digamos, enigmas bastante inusuales. Tengo algo para usted. Reúnase conmigo en el cementerio esta noche. ¡Si no acude al encuentro, le entregaré el caso a otra persona!</i>
+Eventcimitero.button1,button1
+Eventcimitero0.text,Observas la entrada del cementerio. En este lugar desolado se respira una extraña atmósfera. Parece que no hay nadie y el silencio parece casi surrealista. \n\n Coloca el módulo {c:Tile1}.
+Eventcimitero0.button1,Continuar
+Eventcimitero1.text,Coloca a los investigadores en el lugar señalado.
+Eventcimitero1.button1,Continuar
+Eventcimitero2.text,El cementerio continúa hacia el norte \n\n Coloca una ficha de Vistazo.
+Eventcimitero2.button1,Continuar
+Tokennord.button1,Explorar
+Eventcimitero5.text,El camino continúa hasta llegar a una serie de lápidas \n\n Coloca el módulo {c:Tile2}. A continuación descarta esta ficha de Vistazo.
+Eventcimitero3.text,Al este del cementerio, el camino continúa hasta un pequeño cobertizo. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+Eventcimitero3.button1,Continuar
+Eventcimitero4.text,Al sur se encuentra la salida del cementerio. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventcimitero4.button1,Continuar
+Tokenuscita1.text,La salida del cementerio. \n\n Al salir del cementerio, todos los investigadores seguirán la misma dirección.
+Tokenuscita1.button1,{action} Ir al mapa
+Tokennord.text,El rastro continúa hacia el norte \n\n Un investigador en el módulo {c:Tile1} puede revelar la zona adyacente.
+Eventcimitero5.button1,Continuar
+Eventcimitero6.text,Rodeada por una pequeña cerca hay una tumba parcialmente abierta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcimitero6.button1,Continuar
+Tokencimitero.text,El cementerio prosigue hacia el este, hasta un cobertizo. \n\n Un investigador en la localización {c:Tile1} puede revelar una zona adyacente.
+Tokencimitero.button1,Explorar
+Eventcimitero7.text,Hay un pequeño cobertizo más allá del sendero. \n\n Coloca el módulo {c:Tile3}. A continuación descarta esta ficha de Vistazo.
+Eventcimitero7.button1,Continuar
+Eventcimitero8.text,Cerca del cobertizo un hombre mueve unas cajas de madera. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventcimitero8.button1,Continuar
+Eventcimitero9.text,Una puerta de madera bloquea el paso hacia el interior del cobertizo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventcimitero9.button1,Continuar
+Tokentomba.text,Una tumba entreabierta. En la lápida pone: \n\n «28/06/1929 \n James Marsh».\n
+Tokentomba.button1,{action} Examinar
+Eventtomba.text,La tumba está medio abierta pero dentro no parece haber nada extraño {observation} <Prueba Acumulativa>
+Eventtomba.button1,Continuar
+Eventtomba0.text,A primera vista no ves nada especial.
+Eventtomba0.button1,Continuar
+Eventtomba1.text,Examinas la tumba al milímetro. Finalmente, das con una abertura secreta en un lateral del interior de la tumba. Escondida en ella hay un libro. \n\n Ganas el Objeto único {c:QItemdiario}. Puedes interactuar con el {c:QItemdiario} usando el menú de Objetos de la aplicación. \n\n A continuación descarta esta ficha de Búsqueda.
+Eventtomba1.button1,Continuar
+Tokencapanno.text,La puerta del cobertizo.
+Tokencapanno.button1,{action} Abrir
+Eventcapanno.text,Abres la puerta y entras en el pequeño cobertizo \n\n Descarta esta ficha de Exploración.
+Eventcapanno.button1,Continuar
+Eventcapanno0.text,En un rincón del cobertizo ves algo que te llama la atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcapanno0.button1,Continuar
+Tokenarma.button1,{action} Coger
+Tokenscatolina.text,Encima del mostrador hay una pequeña caja.
+Eventarma.text,Ganas el Objeto común {c:QItem0}. A continuación descarta esta ficha de Búsqueda.
+Eventarma.button1,Continuar
+Tokenbecchino.text,Un anciano vestido de negro.
+Tokenbecchino.button1,{action} Hablar
+Eventcimitero10.text,De noche no es el momento \n para visitar el cementerio.
+Eventcimitero10.button1,Continuar
+UI18.uitext,Manicomio
+UI20.uitext,Museo Arqueología
+UIcimitero.button1,Continuar
+UI7.uitext,Callejones
+Eventforesta12.text,El denso bosque se aclara hasta dar paso a un pequeño río que lo atraviesa por el centro. Un gran puente de madera permite cruzar el río sin dificultad. \n\n Coloca el módulo {c:Tile12}. A continuación descarta la ficha de vistazo.
+Eventbecchino.text,No le quitas ojo al sepulturero mientras sigue ocupándose de las cajas. Te mira con atención antes de dejar a un lado lo que está haciendo. \n\n —<i>¿Qué quiere?</i> \n\n Está claro que no desea que le molestes.
+Eventbecchino.button1,Preguntarle por la tumba abierta
+Eventbecchino.button2,Preguntarle por el último fallecido.
+Eventbecchino0.text,\n—<i>No tengo ni idea de quién pudo haberlo hecho. Seguramente alguien buscaba algo en el interior, pero yo no vi nada fuera de lo normal</i>.\n
+Eventbecchino0.button1,Continuar
+Eventbecchino1.text,\n—<i>El último funeral fue hace unos días. Se celebró en recuerdo de un tal James Marsh. Vivía en la vieja mansión que hay al este. Ahora seguramente no habrá nadie allí...</i>\n
+Eventbecchino1.button1,—<i>¿Causa de la muerte?</i>
+Eventbecchino2.text,\n—<i>El Sr. Marsh aparentemente se suicidó saltando de un puente. No lo conocía, pero me dijeron que estaba loco. Y no fue el único</i>.\n
+Eventbecchino2.button1,Continuar
+Eventcimitero11.text,Al este las filas de lápidas continúan. \n\n Coloca una ficha de Vistazo.
+Eventcimitero11.button1,Continuar
+Eventcimitero12.text,El cementerio continúa hacia el norte. \n\n Coloca una ficha de Vistazo.
+Eventcimitero12.button1,Continuar
+Tokentombe0.text,El cementerio continúa hacia el norte. \n Un investigador colocado en el módulo {c:Tile3} puede revelar una zona adyacente.
+Tokentombe0.button1,Explorar
+Tokentombe.text,El cementerio continúa hacia el este. \n\n Un investigador en la localización {c:Tile2} puede revelar una zona adyacente.
+Tokentombe.button1,Explorar
+Eventcimitero13.text,Otra fila de lápidas se extiende por esta parte del cementerio. \n\n Coloca el módulo {c:Tile4}. A continuación descarta las fichas de Vistazo.
+Eventcimitero13.button1,Continuar
+Eventcimitero14.text,Al oeste hay más lápidas del cementerio. \n\n Coloca una ficha de Vistazo.
+Eventcimitero14.button1,Continuar
+Eventcimitero15.text,Han cavado un gran hoyo bajo una lápida. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcimitero15.button1,Continuar
+Eventcimitero16.text,Al sur del cementerio hay un pequeño cobertizo. \n\n Coloca una ficha de Vistazo.
+Eventcimitero16.button1,Continuar
+Tokenovest.text,El cementerio prosigue hacia el oeste. Otra hilera de lápidas y tumbas se encuentran en esa zona. \n\n Un investigador en la localización {c:Tile4} puede revelar una zona adyacente.
+Tokenovest.button1,Explorar
+Tokensud.text,Un poco más adelante hay un pequeño cobertizo. n\n Un investigador en la localización {c:Tile4} puede revelar una zona adyacente.
+Tokensud.button1,Explorar
+Tokenfossa.text,Aquí han excavado un hoyo profundo.
+Tokenfossa.button1,{action} Examinar
+Eventfossa.text,Parece que está lista para recibir a un féretro. \n En la lápida, sin embargo, no hay ningún nombre escrito. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventfossa.button1,Continuar
+Eventdiariocultista.text,Un viejo y mohoso diario. Rápidamente te das cuenta de que faltan algunas páginas. Han sido arrancadas. \n\n El investigador que posea el <i>Diario de sectario</i> puede examinar las páginas del Diario usando el menú de Objetos de la aplicación.
+Eventdiariocultista.button1,{action} Examinar las páginas
+Eventbarman.button2,Preguntar por el hombre que está solo
+Eventbarman0.text,\n—<i>No sé quién es, pero lo he visto aquí a menudo en los últimos días. Siempre se sienta allí y se queda un par de horas. Pero nunca ha molestado a nadie. No es muy sociable...</i>\n
+Eventbarman0.button1,Continuar
+UImolo.button1,button1
+Eventmolo.text,Al final del calle hay un pequeño muelle a orillas del río Miskatonic. \n\n Coloca el módulo {c:Tile10}.
+Eventmolo.button1,Continuar
+Eventmolo0.text,Coloca a los investigadores en el lugar señalado.
+Eventmolo0.button1,Continuar
+Eventmolo1.text,Al sur puedes ver los muelles de madera del puerto. \n\n Coloca una ficha de Vistazo.
+Eventmolo1.button1,Continuar
+Eventmolo2.text,Una puerta en la fachada este del edificio conduce al interior de un almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmolo2.button1,Continuar
+Eventmolo3.text,Al oeste, la calle lleva a otros barrios de Arkham. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmolo3.button1,Continuar
+Tokenuscita2.text,La salida del muelle. \n\n Al salir del muelle, todos los investigadores seguirán la misma dirección.
+Tokenuscita2.button1,{action} Ir al mapa
+Tokenmagazzino.text,La puerta de un almacén. Una placa de metal al lado de la puerta dice: «<i>Almacén 27</i>».
+Tokenmagazzino.button1,{action} Entrar
+Eventmagazzino.text,La puerta está cerrada con llave. \n\n El investigador que posea la <i>Palanca</i> puede intentar forzar la puerta.
+Eventmagazzino.button1,Usar la Palanca
+Tokenmolo.text,Al sur puedes ver de los muelles. \n\n Un Investigador en la localización {c:Tile10} puede revelar una zona adyacente.
+Tokenmolo.button1,Explorar
+Eventmolo4.text,Caminas por el muelle, respirando el aire salado. Una débil brisa sopla desde el sur y el mar ligeramente agitado hace que los pocos barcos presentes se balanceen y choquen sus cascos unos contra otros. \n\n Coloca el módulo {c:Tile5}. A continuación descarta esta ficha de Vistazo.
+Eventmolo4.button1,Continuar
+Eventmolo5.text,El embarcadero sigue hacia el este. \n\n Coloca una ficha de Vistazo.
+Eventmolo5.button1,Continuar
+Eventmolo6.text,Un pequeño quiosco está justo al lado del muelle. \n Desafortunadamente está cerrado a esta hora de la noche. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmolo6.button1,Continuar
+Eventmolo7.text,Un pequeño quiosco está justo al lado del muelle. \n\n Un viejo sentado en un taburete parece ser el encargado del negocio. \n Coloca una ficha de Personaje en el lugar señalado.
+Eventmolo7.button1,Continuar
+Eventmolo8.text,Un muchacho está pescando sentado en el muelle. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventmolo8.button1,Continuar
+Eventmolo9.text,Un pequeño bote amarrado al muelle. Está cubierto por una lona y parece que lleva algún tiempo sin ser usado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmolo9.button1,Continuar
+Tokenuomo.text,Un anciano sentado en un taburete.
+Tokenuomo.button1,{action} Hablar
+Tokenragazzo.text,Un niño sentado en el muelle, pescando con una caña.
+Tokenragazzo.button1,Continuar
+Tokenbarca1.text,Un pequeño bote cubierto con una lona.
+Tokenbarca1.button1,{action} Examinar
+Eventbarca.text,Desde la distancia no parece haber nada extraño. \n Intentas subir en el bote para examinarlo con más detenimiento {agility}.
+Eventbarca.button1,Continuar
+Eventbarca0.text,Subir al bote ha resultado ser más difícil de lo que parecía. Tal vez sea mejor intentarlo una vez más.
+Eventbarca0.button1,Continuar
+Eventbarca1.text,Con un bonito y atlético salto subes al bote. Levantas la lona para mirar dentro. \n Varias manchas de sangre están esparcidas por todo el bote y algunos trozos de carne se amontonan en un rincón. \n\n Sufres 1 de Horror (anulado por {lore}). \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventbarca1.button1,Continuar
+Eventbarca2.text,Estás a punto de subir al bote cuando el encargado de quiosco comienza a gritar: \n\n —<i>¡Eh! ¿A dónde cree que va? ¡No puede subir a mi bote!</i> \n\n Tal vez no sea el momento adecuado para subir al bote.
+Eventbarca2.button1,Continuar
+Tokenmolo2.button1,Explorar
+Tokenmolo2.text,El muelle continúa hacia el norte \n\n Un investigador en la localización {c:Tile7} puede revelar una zona adyacente
+Eventmolo24.button1,Continuar
+Eventmolo24.text,Una pequeña caseta abandonada está rodeada por algunos botes en mal estado. \n\n Coloca el módulo {c:Tile54}. A continuación descarta esta ficha de Vistazo.
+Tokenuomo.button2,{action} Mirar dentro del quiosco
+Eventuomo.text,El viejo te mira bastante molesto. \n —<i>Si quiere alquilar un bote tendrá que esperar bastante... ¡En estos días están todos alquilados!</i>
+Eventuomo.button1,Preguntar por los sucesos del muelle
+Eventuomo0.text,\n—<i>No ocurre nada extraño en el muelle. Si ha oído algo, es sólo un rumor que alguien ha estado propagando por ahí. De hecho, los turistas nunca vienen aquí. Ahora que lo pienso... es extraño que esté usted aquí</i>.\n
+Eventuomo0.button1,Continuar
+Eventuomo.button2,Preguntar por el niño que está pescando
+Eventuomo1.text,\n—<i>El chico es mi nieto, le gusta pescar, ¡como a su abuelo!</i> —el viejo le hace un gesto cómplice al chico—. <i>Es una lástima que nunca pesca nada... No se puede encontrar nada bajo estas aguas... ¡nada en absoluto!</i>\n
+Eventuomo1.button1,Continuar
+Eventuomo.button3,Preguntar por el hombre del barco
+Eventuomo2.text,\n—<i>El tipo del barco se llama Zadoc, y prácticamente vive allí, se pasa en él todo el tiempo. Es difícil verlo fuera de allí. Le aconsejo que no subas a su barco sin su permiso: ¡está armado y es peligroso!</i> \n\n Ganas 1 Pista {clue}.\n
+Eventuomo2.button1,Continuar
+Eventuomo.button4,Preguntar por el monstruo de anoche
+Eventuomo3.text,\n—<i>Ah, sí... una leyenda como siempre. No existe tal monstruo. Son historias, sólo historias para asustar a los niños. Pero ahora que lo pienso, recuerdo a otro tipo hablando de ello. Pero no sé dónde podría estar ahora... tal vez en la plaza del centro, o en los callejones</i>.\n
+Eventuomo3.button1,Continuar
+Tokencapanno0.text,La robusta puerta de madera del quiosco.
+Tokencapanno0.button1,{action} Abrir
+Eventcapanno1.text,La puerta está cerrada con llave. Debajo de la maneta hay una cerradura corriente.
+Eventcapanno1.button1,Continuar
+Eventmagazzino0.text,A pesar de todo el esfuerzo, no puedes abrir la puerta. \n Sufres 1 de Daño boca abajo (anulado por {will}).
+Eventmagazzino0.button1,Continuar
+Eventmagazzino1.text,El interior del almacén es sombrío y oscuro. \n No hay muchas cajas y probablemente nadie ha estado aquí desde hace bastante tiempo. \n\n Coloca el módulo {c:Tile9} y una ficha de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventmagazzino1.button1,Continuar
+Eventmolonotte.button1,button1
+Eventmolo10.text,Una puerta que conduce a un almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmolo10.button1,Continuar
+Tokenmagazzinoaperto.text,La puerta del almacén parece abierta. La cerradura ha sido forzada. \n Parece que alguien ha entrado a las bravas.
+Tokenmagazzinoaperto.button1,{action} Entrar
+Eventmagazzino2.text,En una esquina del almacén hay una caja que podría contener algo interesante \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmagazzino2.button1,Continuar
+Tokencassa0.text,Una caja sospechosa. Parece que vino de Brasil. Su contenido está sellado.
+Tokencassa0.button1,{action} Examinar
+Eventmagazzino3.text,En otra esquina hay algo. Coloca el Objeto común {c:QItem1} en el lugar señalado.
+Eventmagazzino3.button1,Continuar
+Eventmagazzino4.text,En otra esquina hay algo. Coloca el Objeto común {c:QItem2} en el lugar señalado.
+Eventmagazzino4.button1,Continuar
+Eventcassa.text,Un extraño mecanismo impide la apertura de la caja. Quizá puedas abrirlo {observation}.
+Eventcassa.button1,Continuar
+Puzzle0.button1,Hecho
+Eventcassa0.text,Consigues abrir la caja. En su interior encuentras unas armas. De todas ellas, la que más te atrae es una escopeta. \n Ganas el Objeto común {c:QItemfucile}. A continuación descarta esta ficha de Búsqueda.
+Eventcassa0.button1,Continuar
+EventMUOVERE.button1,Continuar
+Eventlibri.text,Prueba de {lore}.
+Eventuomo.button5,El bote tapado por la lona.
+Eventuomo4.text,\n—<i>Eh, ¿qué le ha hecho a mi bote? ¡Por supuesto que está todo lleno de sangre y pescado! ¡No lo he limpiado y hace tiempo que no lo uso! ¡Y no intente volver a acercarse por aquí!</i>\n
+Eventuomo4.button1,Continuar
+Eventuomo5.text,El viejo te mira bastante molesto. \n —<i>Si quiere alquilar un bote tendrá que esperar bastante... ¡En estos días están todos alquilados!</i>
+Eventuomo5.button1,Sucesos en el muelle
+Eventuomo5.button2,El niño que está pescando
+Eventuomo5.button3,El hombre del barco
+Eventuomo6.text,El viejo te mira bastante molesto. \n —<i>Si quiere alquilar un bote tendrá que esperar bastante... ¡En estos días están todos alquilados!</i>
+Eventuomo6.button1,Sucesos en el muelle
+Eventuomo6.button2,El niño que está pescando
+Eventuomo6.button3,El monstruo de anoche
+Eventuomo7.text,El viejo te mira bastante molesto. \n —<i>Si quiere alquilar un bote tendrá que esperar bastante... ¡En estos días están todos alquilados!</i>
+Eventuomo7.button1,Sucesos en el muelle
+Eventuomo7.button2,El niño que está pescando
+Eventuomo7.button3,El bote tapado por la lona.
+Eventuomo8.text,El viejo te mira bastante molesto. \n\n —<i>Si quiere alquilar un bote, tendrá que esperar mucho tiempo... ¡En estos días están todos alquilados!</i>
+Eventuomo8.button1,Sucesos en el muelle
+Eventuomo8.button2,El niño que está pescando
+Eventuomo8.button3,El hombre del barco
+Eventuomo8.button4,El monstruo de anoche
+Eventuomo9.text,El viejo te mira bastante molesto. \n\n —<i>Si quiere alquilar un bote, tendrá que esperar mucho tiempo... ¡En estos días están todos alquilados!</i>
+Eventuomo9.button1,Sucesos en el muelle
+Eventuomo9.button2,El niño que está pescando
+Eventuomo9.button3,El hombre del barco
+Eventuomo9.button4,El bote tapado por la lona.
+Eventuomo10.text,El viejo te mira bastante molesto. \n\n —<i>Si quiere alquilar un bote, tendrá que esperar mucho tiempo... ¡En estos días están todos alquilados!</i>
+Eventuomo10.button1,Sucesos en el muelle
+Eventuomo10.button2,El niño que está pescando
+Eventuomo10.button3,El bote tapado por la lona.
+Eventuomo10.button4,El monstruo de anoche
+Eventuomo11.text,Desafortunadamente no se puede ver muy bien qué hay en interior del puesto, pero descubres un letrero que dice «Abierto de 10 a 12 y de 15 a 19».
+Eventuomo11.button1,Continuar
+Eventmologiorno.button1,button1
+Eventmolo11.text,Al final del calle hay un pequeño muelle a orillas del río Miskatonic. \n\n Coloca el módulo {c:Tile10}.
+Eventmolo11.button1,Continuar
+Eventuomo12.text,El viejo te mira bastante molesto. \n\n —<i>Si quiere alquilar un bote, tendrá que esperar mucho tiempo... ¡En estos días están todos alquilados!</i>
+Eventuomo12.button1,Sucesos en el muelle
+Eventuomo12.button2,El niño que está pescando
+Tokenmolo0.text,El muelle continúa hacia el este \n\n Un investigador en la localización {c:Tile5} puede revelar una zona adyacente
+Tokenmolo0.button1,Explorar
+Eventmolo12.text,Llegas al final del muelle. \n\n Coloca el módulo {c:Tile7}. A continuación descarta esta ficha de Vistazo.
+Eventmolo12.button1,Continuar
+Eventmolo13.text,El muelle continúa hacia el sur y el norte. \n\n Coloca fichas de vistazo en los lugares señalados.
+Eventmolo13.button1,Continuar
+Eventmolo14.text,Una gran caja de madera descansa en el borde del muelle. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmolo14.button1,Continuar
+Tokencassa.text,Una gran caja de madera
+Tokencassa.button1,{action} Examinar
+Eventcassamolo.text,La caja no tiene tapa, y varias de sus tablas muestran signos de grandes arañazos, como si hubiera contenido un gran felino en su interior. El olor a pescado, sin embargo, te hace pensar en otro tipo de animal. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventcassamolo.button1,Continuar
+Tokenmolo1.text,El muelle termina justo delante de ti. \n\n Un investigador colocado en la localización {c:Tile7} puede revelar la zona adyacente.
+Tokenmolo1.button1,Explorar
+Eventmolo15.text,El muelle termina aquí. Amarrado en el lado este hay un pequeño barco. \n\n Coloca los módulos {c:Tile6}y {c:Tile8}. A continuación descarta esta ficha de Vistazo.
+Eventmolo15.button1,Continuar
+Eventmolo16.text,En el muelle hay un barril sellado de forma rudimentaria. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmolo16.button1,Continuar
+Eventmolo17.text,El barco tiene una pequeña cabina. Dos pequeñas puertas conducen al interior. \n\n Coloca fichas de Exploración en los lugares señalados.
+Eventmolo17.button1,Continuar
+Eventmolo18.text,Un viejo caballero está descansando sobre una vieja y oxidada tumbona. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventmolo18.button1,Continuar
+Tokenbarile.text,Un viejo barril cerrado de forma rudimentaria.
+Tokenbarile.button1,{action} Abrir
+Eventbarile.text,Te fijas en algunos clavos oxidados y púas de hierro que podrían hacerte bastante daño. No te parece que sea una buena idea abrir el barril con tus propias manos. \n\n Un investigador con un <i>Arma pesada</i> puede abrir el barril.
+Eventbarile.button1,Usar un arma pesada
+Eventbarile0.text,Golpeas la tapa podrida, pero el interior del barril está completamente lleno de agua. No parece haber nada de interés. \n Una sensación de tranquilidad recorre el muelle. Te convences de que no pasa nada malo en esta parte de la ciudad. \n\n Descarta 1 de Horror. A continuación descarta esta ficha de Búsqueda.
+Eventbarile0.button1,Continuar
+TokenZadocAllen.text,Un anciano está descansando en una tumbona
+TokenZadocAllen.button1,Continuar
+Tokenbarca0.text,La pequeña puerta de la cabina.
+Tokenbarca0.button1,{action} Entrar
+Tokenbarca.text,La pequeña puerta de la cabina.
+Tokenbarca.button1,{action} Entrar
+Eventcabina.text,Te acercas a la puertecita cuando el viejo nota tu presencia. \n\n —<i>Ladronzuelo, ¿qué demonios está haciendo en mi barco? ¡Salga de aquí o tendrá que vérselas con mi querida Lucille! —oyes una voz a tu espalda y cuando te vuelves ves al viejo sosteniendo un gran rifle y amenazando con disparar. \n\n Te alejas para evitar más problemas. \n Mueve a tu investigador a un espacio adyacente a la localización {c:Tile6}.
+Eventcabina.button1,Continuar
+Eventcabina0.text,No se ve a nadie en el barco, así que puede que sea fácil entrar a hurtadillas. Te acercas para abrir la puerta de la cabina cuando un viejo de aspecto desaliñado con una gruesa barba blanca aparece de repente en la puerta apuntándote con un gran rifle. \n\n —<i>¡Maldito seas, pequeño ladrón! ¡Piérdete o probarás a mi querida Lucille! ¡No te lo voy a repetir!</i> \n\n Te alejas de inmediato del lugar y el viejo cierra la puerta de la cabina. \n Mueve a tu investigador a un espacio adyacente a la localización {c:Tile6}.
+Eventcabina0.button1,Continuar
+Eventcabina1.text,El viejo aparece de nuevo pero esta vez no duda ni un segundo y dispara con su rifle. \n —<i>Mi Lucille no perdona</i> —dice el viejo con una sonrisa burlona, y cerrando de nuevo la puerta de la cabina. \n\n Sufres 4 de Daño (anulados por {agility}).
+Eventcabina1.button1,Continuar
+Spawnmostroacqua.text,De repente, un fuerte ruido de agua atrae su atención. Una criatura horrible sube al muelle. \n\n Coloca un monstruo {c:Spawnmostroacqua} en el lugar señalado.
+Eventmostroacqua.text,Le das un golpe mortal, pero el monstruo consigue escapar saltando al agua y dejando tras de sí numerosos restos. \n Ganas 2 Pistas {clue}.
+Spawnmostroacqua.button1,Continuar
+Eventmostroacqua.button1,Continuar
+Eventbarile.button2,Cancelar
+Eventmagazzino.button2,Cancelar
+Eventmagazzino5.text,Prueba de {strength}.
+Eventmagazzino5.button1,Continuar
+Eventuomo13.text,\n—<i>Ya le he dicho que se llama Zadoc, no sé nada más sobre él</i>.\n
+Eventuomo13.button1,Continuar
+Eventcapanno2.text,La puerta está cerrada con llave. \n\n El investigador que posea las <i>Llaves antiguas</i> puede usarlas para abrir la puerta.
+Eventcapanno2.button1,Usar las Llaves antiguas
+Eventcapanno2.button2,Cancelar
+Eventcapanno3.text,Abres la puerta y entras en el viejo cobertizo. \n Descarta esta ficha de Exploración.
+Eventcapanno3.button1,Continuar
+Eventcapanno4.text,Bajo el mostrador que da a la ventana hay una pequeña caja de metal \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcapanno4.button1,Continuar
+Tokenarma.text,Apoyado en la pared hay algo que te podría servir.
+Tokenscatolina.button1,{action} Examinar
+Eventscatolina.text,La pequeña caja está finamente tallada y también parece muy valiosa. Es extraño que un hombre tan viejo pueda permitirse un objeto así. \n Ganas el Objeto único {c:QItemscatola}. A continuación descarta esta ficha de Búsqueda.
+Eventscatolina.button1,Continuar
+Eventscatolina0.text,Una pequeña caja de metal con aspecto de ser muy valiosa. Un pequeño mecanismo bloquea su apertura. \n\n El investigador que posea la caja puede intentar abrirla resolviendo un rompecabezas {observation}.
+Eventscatolina0.button1,{action} Abrir
+Eventcapanno5.text,La puerta del puesto está cerrada con llave. La cerradura parece haber sido cambiada recientemente. \n Al otro lado del cobertizo, un cartel colgado en la ventana con el texto «<i>Cerrado por robo</i>».
+Eventcapanno5.button1,Continuar
+Eventmolo19.text,El quiosco está cerrado. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmolo19.button1,Continuar
+Eventnotte0.button1,button1
+Eventgiorno0.button1,button1
+UIufficio.button1,button1
+Eventinizio6.button1,Continuar
+Eventinizio7.text,Una vez fuera de un lugar, se abrirá un mapa con el que interactuar. Los distintos lugares pueden ser visitados tantas veces como se quiera. \n\n Salir de un lugar permitirá que el tiempo pase. El día se convertirá en noche y viceversa. \n\n Algunos lugares sólo pueden ser visitados a ciertas horas del día, y pueden ser más peligrosos por la noche que durante el día. \n\n Finalmente hay un recuento de los días que pasan. \n\n Algunos eventos sólo pueden ocurrir en determinados días.
+Eventinizio7.button1,Continuar
+UIgiorni.button1,button1
+Eventgiorni.text,Hoy es {var:Tempogiorni} de julio de 1929
+Eventgiorni.button1,Continuar
+Eventufficioinizio.button1,Descansar
+Eventufficioinizio.button2,Cancelar
+UIgiorni.uitext,Fecha del día
+Eventgiorno1.button1,button1
+Eventgiorni0.text,Hoy es {var:Tempogiorni} de agosto de 1929
+Eventgiorni0.button1,Continuar
+Eventgiorni1.text,Hoy es {var:Tempogiorni} de septiembre de 1929
+Eventgiorni1.button1,Continuar
+UImanicomio.button1,button1
+Eventmanicomio.text,Durante la noche el manicomio está cerrado.
+Eventmanicomio.button1,Continuar
+Eventmanicomio0.button1,button1
+Eventmanicomio1.text,Llegas al porche de entrada al Manicomio de Arkham. \n\n Coloca el módulo {c:Tile21}.
+Eventmanicomio1.button1,Continuar
+Eventmanicomio2.text,Coloca a los investigadores en el lugar señalado.
+Eventmanicomio2.button1,Continuar
+Eventmanicomio3.text,La puerta principal está al final del camino empedrado. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmanicomio3.button1,Continuar
+Tokeningressomanicomio.text,La puerta principal del manicomio.
+Tokeningressomanicomio.button1,{action} Entrar
+Eventuscita0.text,Al sur se encuentra la salida del manicomio. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventuscita0.button1,Continuar
+Tokenuscita3.text,La salida del manicomio. \n\n Al salir del manicomio, todos los investigadores seguirán la misma dirección.
+Tokenuscita3.button1,{action} Ir al mapa
+Eventdiario.text,«<i>24 de junio de 1929. \n\n Reunimos todo lo necesario para realizar el ritual y traer a una criatura alienígena de otro universo a este mundo. El libro que lo explica todo parece ser auténtico. También tenemos los objetos necesarios y somos tres, como se describe en el libro: Yo, James Marsh, mi compañero Víctor Blake y Adam McGwenty. \n\n Esperaremos hasta mañana por la noche, la luna estará llena y tendremos la oportunidad de realizar el ritual</i>». \n\n Ganas 1 Pista {clue}.
+Eventdiario.button1,Continuar
+Eventdiario0.text,No hay más pistas en el diario.
+Eventdiario0.button1,Continuar
+Eventingressomanicomio.text,Llamas a la puerta y esperas. \n La puerta se abre de golpe. Una mujer grande, de al menos 2 metros de altura y con la cara ligeramente desfigurada, cierra el paso. \n\n —<i>¿Qué quiere? ¿Busca a alguien?</i>
+Eventingressomanicomio.button1,—<i>Me gustaría echar un vistazo por aquí</i>.
+Eventingressomanicomio.button2,—<i>Busco a un tal Víctor Blake</i>.
+Eventingressomanicomio0.text,\n—<i>Sin una buena razón no puedo dejarle entrar... ¡Y ahora piérdase!</i> —dicho esto, la enfermera te cierra la puerta en la cara.\n
+Eventingressomanicomio0.button1,Continuar
+Eventingressomanicomio1.text,\n—<i>Víctor Blake, ¿eh? ¿Por casualidad es pariente suyo?</i>\n\n Intentas convencer a la enfermera de que eres un pariente ({influence}: 2).
+Eventingressomanicomio1.button1,Éxito
+Eventingressomanicomio1.button2,Fallo
+Eventingressomanicomio2.text,La desagradable mujer te mira de arriba a abajo y a continuación emite un pequeño gruñido.\n\n —<i>VÍCTOOOOR, ¡maldito idiota! ¡TIENE VISITA!</i> —grita sin ningún pudor hacia el interior de la sala principal.
+Eventingressomanicomio2.button1,Continuar
+Eventingressomanicomio3.text,\n—<i>¡No creo que esté emparentado con él en absoluto! ¡Fuera de mi vista!</i> —dicho esto, la enfermera te cierra la puerta en las narices.\n
+Eventingressomanicomio3.button1,Continuar
+Eventingressomanicomio4.text,Llamas a la puerta y esperas. \n La puerta se abre de golpe. Una mujer grande, de casi dos metros de altura y con la cara ligeramente desfigurada, cierra el paso. \n\n —<i>¿Qué quiere? ¿Busca a alguien?</i>
+Eventingressomanicomio4.button1,—<i>Me gustaría echar un vistazo por aquí</i>.
+Eventsalagrande.text,Cruzas la puerta principal y entras en la sala de espera del manicomio. \n\n Coloca el módulo {c:Tile20} en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventsalagrande.button1,Continuar
+Eventingressomanicomio5.text,Vuelves a llamar a la puerta y se abre de golpe.
+Eventingressomanicomio5.button1,Continuar
+Eventsalagrande0.button1,Continuar
+Eventsalagrande1.text,Sentado en la silla está un caballero entrado en la cuarentena. \n\n Coloca la ficha de Personaje en el lugar señalado. Es Víctor Blake.
+Tokeninfermiera.button1,{action} Hablar
+Tokeninfermiera0.text,La enfermera está ocupada tranquilizando a Víctor. Parece que no se fija en ti.
+Eventsalagrande0.text,La desagradable mujer está al lado de la puerta y no te quita ojo. \n\n Coloca una ficha de Personaje en el lugar señalado. Esta es la enfermera de guardia.
+Eventsalagrande1.button1,Continuar
+Tokenvictor.text,El Sr. Víctor Blake
+Tokenvictor.button1,{action} Hablar
+Eventsalagrande2.text,Un anciano está leyendo un libro. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventsalagrande2.button1,Continuar
+Tokenanziano.button1,{action} Hablar
+Eventanziano.text,Observas atentamente al viejo. Al principio te da la impresión de que no está mal de la cabeza hasta que te das cuenta de que el libro que está leyendo está del revés. Cuando se da cuenta de que le estás mirando, empieza a canturrear una extraña canción de cuna: \n\n —<i>Voy solo en mi camino, \n en la noche a lo largo del muelle, \n ¿oyes el sonido del mar? \n Ya estoy llegando, no te vayas. \n ¿No te has dado cuenta aun? \n Oh, ¿será porque ya estás... muerto?</i> \n\n Tras la extraña canción, el loco retoma la lectura del libro, que sigue del revés.
+Eventsalagrande3.text,Una puerta de madera que conduce a otras estancias del manicomio. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventsalagrande3.button1,Continuar
+Tokencorridoio.button1,{action} Abrir
+Eventcorridoio.button1,Continuar
+Eventcorridoio0.text,Aprovechas la distracción de la enfermera para salir de la recepción y entrar en el manicomio. \n\n Coloca el módulo {c:Tile25} en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Tokenanziano.text,Un anciano leyendo un libro...
+Eventanziano.button1,Continuar
+Eventvictor.text,Víctor parece en trance. Tiene la mirada perdida y no parece darse cuenta de tu presencia.
+Eventvictor.button1,—<i>¿Conoce a James Marsh?</i>
+Eventvictor.button2,—<i>¿Sabe por qué está aquí?</i>
+Eventvictor.button3,Saludar
+Eventvictor0.text,Víctor se da la vuelta de repente. Te mira con los ojos desencajados.\n\n —<i>James, James...ya te lo dije... te lo dije...era muy peligroso...muy peligroso.</i>.
+Eventvictor0.button1,—<i>¿Qué le había dicho?</i>
+Eventvictor1.text,\n<i>Queríamos llamar de nuevo al Faraón Negro... pero era demasiado peligroso... demasiado peligroso.... ahora vendrá... y otros... ahora vendrán...</i>\n
+Eventvictor1.button1,—<i>¿Quién vendrá?</i>
+Eventvictor2.text,La mirada de Víctor parece volver a la normalidad. Pero entonces reanuda la conversación jadeando con fuerza: \n\n —<i>Monstruos... criaturas alienígenas.... vendrán y se llevarán nuestras mentes... ¡Será el fin de todo! ¡Tiene que detenerlos! Quiere hacerlo de nuevo, quiere repetir el ritual, va a intentarlo de nuevo...</i> \n\n Dicho esto Víctor sufre convulsiones severas que obligan a la enfermera a darle una dosis de sedante. \n\n En ese momento te das cuenta de que de uno de los bolsillos del pantalón de Víctor cae un pedazo de papel. Lo coges rápidamente con disimulo. Reconoces las páginas rasgadas del <i>Diario de sectario</i>. \n\n El <i>Diario de sectario</i> ha sido actualizado con nueva información. El investigador que lo posea puede interactuar con él a través de la aplicación.
+Eventvictor2.button1,Continuar
+Eventvictor3.text,La mirada de Víctor sigue perdida en el vacío. Entonces comienza a hablar de una manera atropellada y sin sentido:\n\n —<i>Yonosoyelculpableyonoqueríayonoqueríayonoqueríaquefueranelloslosquevinieranvinieranynopodremoshacernadanadayseráelfinalelfinaldetododetodo.</i> ({influence}:2)
+Eventvictor3.button1,Éxito
+Eventvictor3.button2,Fallo
+Eventvictor4.text,De repente, Víctor tiene un fuerte ataque con convulsiones, obligando a la enfermera a darle una dosis de sedante. \n Te percatas de que un pedazo de papel se cae del bolsillo de la bata de Víctor. Lo coges rápidamente. \n Concuerda con las páginas arrancadas del <i>Diario de sectario</i>. \n\n El <i>Diario de sectario</i> ha sido actualizado con nuevas páginas. El investigador que lo tenga puede interactuar con él a través de la aplicación.
+Eventvictor4.button1,Continuar
+Eventvictor5.text,Víctor está semiinconsciente, bajo los efectos del sedante administrado por la enfermera. Sigue repitiendo la misma frase:\n <i> ÉL quiere repetir el ritual... ¡Él, que nos ha traicionado!</i>
+Eventvictor5.button1,Continuar
+Eventvictor6.text,Víctor parece estar un poco desconcertado. Tal vez ya te ha visto antes o le recuerdas a alguien que conoce.
+Eventvictor6.button1,—<i>¿Sabe alguna manera de distraer a la enfermera?</i>
+Eventvictor7.text,Víctor te mira asombrado, a continuación, mira a la enfermera y se tira al suelo fingiendo ser víctima de unos ataques y convulsiones. La enfermera corre hacia Víctor para calmarlo. \n\n Coloca la ficha de Personaje Enfermera en el lugar señalado.
+Eventvictor7.button1,Continuar
+Tokeninfermiera.text,Una mujer de no menos de metro ochenta de altura y con el rostro ligeramente desfigurado. Lleva gafas. Una enfermera bastante inusual. Es la que decide quién entra y quién sale del manicomio.
+Tokeninfermiera0.button1,Continuar
+Eventcorridoio.text,¡Intentas abrir la puerta pero la enfermera te bloquea la mano casi sin inmutarse! \n\n —<i>Nadie entra aquí sin mi permiso... ¡Y usted no tiene mi permiso!</i> \n\n La mujer muestra todo su poder y con un empellón te aleja de la puerta.
+Eventcorridoio0.button1,Continuar
+Eventcorridoio1.text,El corredor continúa hacia el norte, pero allí sólo hay dormitorios y no es necesario visitarlos. \n\n Otras dos puertas atraen tu atención: la del sur tiene un cartel en el centro con la palabra «Dirección», mientras que la otra del este tiene la palabra «Morgue». \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventcorridoio1.button1,Continuar
+Eventcorridoio2.text,Un pequeño mueble está en la esquina del pasillo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcorridoio2.button1,Continuar
+Puzzle1.button1,Hecho
+Eventscatola.text,Dentro de la caja hay una extraña flauta hecha de huesos. \n\n Ganas el Objeto común {c:QItemflauto} \n\n Descarta el Objeto único {c:QItemscatola}
+Eventscatola.button1,Continuar
+Tokenmobiletto.text,Un pequeño mueble de madera. Tiene un par de cajones.
+Tokenmobiletto.button1,{action} Examinar
+Eventmobiletto.text,Revisas los cajones en busca de algo útil ({observation}:2).
+Eventmobiletto.button1,Éxito
+Eventmobiletto.button2,Fallo
+Eventmobiletto0.text,A primera vista no ves nada interesante.
+Eventmobiletto0.button1,Continuar
+Eventmobiletto1.text,Dentro de un cajón encuentras algo. Ganas el Objeto común {c:QItem3}. \n\n Descarta esta ficha de Búsqueda.
+Eventmobiletto1.button1,Continuar
+Eventdiariocultista.button2,Cancelar
+Eventscatolina0.button2,Cancelar
+Tokendirezione.text,En la puerta, una placa con la palabra «Dirección».
+Tokendirezione.button1,{action} Abrir
+Eventdirezione.text,Cuando abres la puerta, entras en una pequeña oficina. La habitación está ordenada y perfumada. Parece que no hay nadie. \n\n Coloca el módulo {c:Tile24} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventdirezione.button1,Continuar
+Eventdirezione0.text,Un lado de la pared está ocupado por un gran estante donde se guarda un gran número de informes y expedientes. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventdirezione0.button1,Continuar
+Eventdirezione1.text,Sobre el escritorio hay varios documentos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventdirezione1.button1,Continuar
+Tokenscrivania.text,Un bonito escritorio con algunos documentos.
+Tokenscrivania.button1,{action} Examinar
+Tokenfascicoli.text,Un gran mueble con varios informes en su interior. Puede que encuentres información sobre los pacientes del Manicomio.
+Tokenfascicoli.button1,{action} Buscar pacientes
+Eventdirezione2.text,Al lado del escritorio hay una pequeña estantería para libros. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventdirezione2.button1,Continuar
+Tokenlibreria.text,Una pequeña estantería para libros.
+Tokenlibreria.button1,{action} Examinar
+Eventfascicoli.text,<i>¿De qué paciente quieres buscar información?</i>
+Eventfascicoli.button1,James Marsh
+Eventfascicoli.button2,Víctor Blake
+Eventfascicoli0.text,James Marsh, varón caucásico, nacido el 4 de enero de 1890 en Arkham. Reside en el 34 de la calle Franklin. \n Afectado por un grave daño cerebral. \n\n Adjunta al archivo hay una foto con varias personas, con lo que parece ser la Universidad de Miskatonic de fondo. \n\n Ganas el Objeto único {c:QItemprovafoto}.
+Eventfascicoli0.button1,Continuar
+Eventfascicoli1.text,Descarta esta ficha de Búsqueda.
+Eventfascicoli1.button1,Continuar
+Eventfascicoli2.text,Víctor Blake, varón caucásico, nacido el 12 de marzo de 1888 en Arkham. Residente en Washington Street 2. \n Afectado por daño cerebral severo. Sigue gritando por la muerte de James Marsh e insiste en que era demasiado peligroso. Continúa repitiendo que está llegando. Aún en terapia. \n\n Ganas 1 Pista {clue}.
+Eventfascicoli2.button1,Continuar
+Eventfascicoli3.text,<i>¿De qué paciente quieres buscar información?</i>
+Eventfascicoli3.button1,James Marsh
+Eventfascicoli4.text,<i>¿De qué paciente quieres buscar información?</i>
+Eventfascicoli4.button1,Víctor Blake
+Eventscrivania.text,Al acercarte al escritorio encuentras unos documentos relacionados con pacientes en tratamiento. No parece haber muchos pacientes, pero en el último mes las llamadas sobre notificaciones de personas con problemas mentales han aumentado exponencialmente. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventscrivania.button1,Continuar
+Eventlibreria.text,Examinar usando {observation}.
+Eventlibreria.button1,Continuar
+Eventlibreria0.text,No encuentras nada que te llame la atención. \n\n Descarta esta ficha de Búsqueda.
+Eventlibreria0.button1,Continuar
+Eventlibreria1.text,Entre los libros encuentras uno que puede ser útil. \n\n Ganas el Objeto común {c:QItem4}. A continuación descarta esta ficha de Búsqueda.
+Eventlibreria1.button1,Continuar
+Tokenlaboratorio.text,En la placa de la puerta está escrita la palabra «Morgue».
+Tokenlaboratorio.button1,{action} Abrir
+Eventlaboratorio.text,Tal y como indica la placa que hay en la puerta, es la morgue y parece que hace mucho tiempo que no se usa. Sobre las camas hay muñecos de goma cubiertos con sábanas blancas manchadas de sangre. Una puerta abierta da a una pequeña habitación. \n\n Coloca el módulo {c:Tile22} y una ficha de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventlaboratorio.button1,Continuar
+Eventlaboratorio0.text,Un gran mueble con varios artículos de uso médico.
+Eventlaboratorio0.button1,Continuar
+Tokenmedicine.text,Un mueble con varios objetos de uso médico
+Tokenmedicine.button1,{action} Examinar
+Eventmedicine.text,Encontrarás algo útil. \n\n Ganas el Objeto común {c:QItem5}. A continuación descarta esta ficha de Búsqueda.
+Eventmedicine.button1,Continuar
+Eventlaboratorio1.text,Sobre el mueble hay algo. \n\n Coloca el Objeto común {c:QItem6} en el lugar señalado.
+Eventlaboratorio1.button1,Continuar
+Tokencorridoio.text,Una puerta de madera
+UImuseo.button1,button1
+Eventmuseo.text,Por la noche, el museo está cerrado.
+Eventmuseo.button1,Continuar
+Eventmuseo0.button1,button1
+Eventmuseo1.text,Tardas poco tiempo en llegar al Museo de Arqueología de Arkham. El museo está cerrado al público después de un robo, pero gracias a tus contactos en la policía has conseguido un permiso para entrar. En la entrada del edificio, un hombre que parece ser el director del museo te saluda. Coloca los módulos {c:Tile28}, {c:Tile29} y {c:Tile30} así como fichas de Pared en los lugares señalados.
+Eventmuseo1.button1,Continuar
+Eventmuseo2.text,Coloca a los investigadores en el lugar señalado.
+Eventmuseo2.button1,Continuar
+Eventmuseo3.text,Dos puertas conducen al lado norte del museo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmuseo3.button1,Continuar
+Eventmuseo4.text,Otras dos puertas más conducen a otra sala del museo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmuseo4.button1,Continuar
+Eventmuseo5.text,Detrás de ti está la salida del museo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmuseo5.button1,Continuar
+Tokenuscita4.text,La salida del museo. \n\n Al salir del museo, todos los investigadores seguirán la misma dirección.
+Tokenuscita4.button1,{action} Ir al mapa
+Eventmuseo6.text,El director del museo se te acerca. Es un hombre de cincuenta años, con pelo gris y constitución fuerte. Su elegante atuendo resalta su estatus social de clase media alta. \n\n —<i>Buenos días, caballero, usted debe de ser el investigador del que me habló la policía. Bienvenido a mi museo de Arqueología. Permítame presentarme. Soy Eugene Clemens, el director del museo</i>. \n\n Coloca una ficha de Personaje en el lugar señalado. Este es Eugene Clemens, el director del museo.
+Eventmuseo6.button1,Continuar
+Tokendirettore.button1,{action} Hablar
+Eventmuseo7.text,El esqueleto de una criatura prehistórica se encuentra en el lado norte de la sala principal de exposiciones. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Tokendirettore.text,El director del museo.
+Eventmuseo7.button1,Continuar
+Eventmuseo8.text,El esqueleto de una criatura prehistórica se encuentra en el lado norte de la sala principal de exposiciones. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmuseo8.button1,Continuar
+Eventmuseo9.text,En el ala este se han instalado varios expositores con instrumentos históricos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmuseo9.button1,Continuar
+Tokenstrumenti.button1,{action} Examinar
+Eventstrumenti.text,Los instrumentos expuestos son todos réplicas y no piezas originales. Representan prototipos de teléfonos y lámparas eléctricas. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+TokenscheletroA.button1,{action} Examinar
+EventscheletroA.text,El esqueleto representa un Velociraptor, uno de los dinosaurios más rápidos de la prehistoria. La placa lleva una inscripción: «Cortesía de la familia Marsh» \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+TokenscheletroB.button1,{action} Examinar
+EventscheletroB.text,El esqueleto representa un Estegosaurio. No parece haber nada especial en él. \n\n Descarta esta ficha de Búsqueda.
+Eventmuseo10.text,La puerta norte está custodiada por un vigilante. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventmuseo10.button1,Continuar
+Tokenpoliziotto.button1,{action} Hablar
+Eventpoliziotto.text,\n—<i>Me temo que el otro lado de esta puerta es un lugar de acceso restringido. Tengo prohibido dejar entrar a nadie</i>.\n
+Tokenstrumenti.text,Unas vitrinas con instrumentos históricos
+Eventstrumenti.button1,Continuar
+Eventmuseo11.text,Detrás del mostrador de recepción se sienta una joven. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventmuseo11.button1,Continuar
+Tokenreception.text,La joven da la bienvenida a los visitantes del museo.
+Tokenreception.button1,{action} Pedir hablar con el director
+TokenscheletroA.text,El esqueleto de un dinosaurio
+EventscheletroA.button1,Continuar
+TokenscheletroB.text,El esqueleto de un gran dinosaurio
+EventscheletroB.button1,Continuar
+Eventdirettore.text,El Director explica la situación, hablándote sobre el robo. El objeto que falta es un libro muy raro y caro, el «De Vermis Mysteriis». La ceremonia de presentación fue ayer por la mañana, y durante la noche el libro desapareció.
+Eventdirettore.button1,Preguntar sobre el libro
+Eventdirettore.button2,Preguntar por el lugar del robo
+Eventdirettore0.text,—<i>El «De Vermis Mysteriis» es uno de los libros más poderosos de la historia de Egipto. Se dice que recoge el conocimiento de Nephren-Ka, el «Faraón Negro». Además, al parecer en sus páginas hay un ritual para abrir un portal entre este y otros mundos, con el fin de traer a nuestro mundo a criaturas alienígenas. Por supuesto que son sólo leyendas, pero aun así el libro tiene un valor inmenso porque es también la única copia existente en el mundo.</i>
+Eventdirettore0.button1,Continuar
+Eventdirettore1.text,\n—<i>El libro se guardaba en el ala norte del museo. ¿Ve dónde está el vigilante? Ahí, detrás de esa puerta. Si el vigilante le causa problemas, dígale que tiene mi permiso</i>.\n
+Eventdirettore1.button1,Continuar
+Eventdirettore2.text,\n—<i>Ahora discúlpeme, estoy muy ocupado. Si me necesitas me encontrará en mi oficina, cruzando esa puerta de la izquierda, en dirección norte</i> —dicho esto, el director se aleja de la gran sala y se marcha cruzando la puerta del noroeste. \n\n Descarta la ficha de Personaje del lugar señalado.
+Eventdirettore2.button1,Continuar
+Eventdirettore3.text,\n—<i>Ahora discúlpeme, estoy muy ocupado. Si me necesitas me encontrará en mi oficina, cruzando esa puerta de la izquierda, en dirección norte</i> —dicho esto, el director se aleja de la sala grande y se marcha cruzando la puerta del noroeste. \n\n Descarta la ficha de Personaje del lugar señalado.\n
+Eventdirettore3.button1,Continuar
+Tokenpoliziotto.text,El vigilante está custodiando la puerta.
+Eventpoliziotto.button1,Continuar
+Eventpoliziotto0.text,\n—<i>Me temo que el otro lado de esta puerta es un lugar de acceso restringido. Tengo prohibido dejar entrar a nadie</i>.\n
+Eventpoliziotto0.button1,—<i>Estoy autorizado por el director</i>.
+Eventpoliziotto1.text,Prueba de {influence}
+Eventpoliziotto1.button1,Continuar
+Eventpoliziotto2.button1,Continuar
+Eventpoliziotto3.text,El vigilante te mira desconcertado. Pero al final tu carisma saca lo mejor de ti. Con un movimiento de mano, te invita a entrar.
+Eventpoliziotto2.text,\n—<i>Lo siento, pero tendrá que hacer mucho más que eso para convencerme</i>.\n
+Eventpoliziotto3.button1,Continuar
+Eventpoliziotto4.button1,Continuar
+Eventpoliziotto4.text,El vigilante no tiene nada que decirte.
+Tokensalalettura0.text,Una puerta de madera que conduce a la sala de lectura del museo
+Tokensalalettura0.button1,{action} Abrir
+Tokensalalettura.text,Una puerta de madera que conduce a la sala de lectura del museo
+Tokensalalettura.button1,{action} Abrir
+Eventsalalettura.text,La sala de lectura destila paz y tranquilidad. A lo largo de todas las paredes hay estantes llenos de libros, y unas mesas y sillas permiten disfrutar de la lectura cómodamente. \n\n Coloca el módulo {c:Tile35} y una ficha de Pared en el lugar señalado. A continuación descarta la ficha de Exploración.
+Eventsalalettura.button1,Continuar
+Eventsalalettura0.text,Unos libros encima de una mesa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalalettura0.button1,Continuar
+Tokenlibri.text,Algunos libros apoyados en la mesa
+Tokenlibri.button1,{action} Examinar
+Eventsalalettura1.text,La librería de esta pared tiene otros libros interesantes \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalalettura1.button1,Continuar
+Tokenlibreria0.text,Una estantería con algunos volúmenes interesantes.
+Tokenlibreria0.button1,{action} Examinar
+Eventsalalettura2.text,Una joven ocupa la mesa central, absorta en la lectura de un libro. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventsalalettura2.button1,Continuar
+Tokenragazzalegge.button1,{action} Hablar
+EventMUOVERE.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Tokenragazzalegge.text,Una joven absorta con en la lectura de un libro sobre los descubrimientos y encuentros con razas alienígenas.
+Eventlibri.button1,Un {success} o menos
+Eventlibri.button2,De 2 a 4 {success}
+Eventlibri.button3,5 {success}
+Eventlibri0.text,No hay ningún libro interesante.\n\n Descarta esta ficha de Búsqueda.
+Eventlibri0.button1,Continuar
+Eventlibri1.text,Muchos de los libros que hay sobre la mesa están abiertos y versan sobre rituales que se llevaban a cabo en el Antiguo Egipto. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventlibri1.button1,Continuar
+Eventlibri2.text,Rebuscas entre los libros y encuentras un libro en particular que podría ser útil para tu investigación. \n\n Ganas el Objeto común {c:QItem7}. A continuación descarta esta ficha de Búsqueda.
+Eventlibri2.button1,Continuar
+Eventlibreria2.text,Hay algo inusual en un estante de la librería. Algunos libros tienen extraños símbolos en sus lomos. \n Parece que hay un orden preciso para colocarlos, pero hay 5 espacios y sólo 4 libros. Falta uno.
+Eventlibreria2.button1,Continuar
+Tokensalafurto.text,Una puerta de madera corriente y moliente.
+Tokensalafurto.button1,{action} Abrir
+Eventsalafurto.text,Te acercas a la puerta y en ese momento el vigilante levanta la mano y te cierra el paso: —<i>Lo siento, pero nadie puede entrar sin autorización.
+Eventsalafurto.button1,Continuar
+Eventsalafurto0.text,Entras en la habitación donde tuvo lugar el robo. La habitación ha sido saqueada. El ladrón dañó algunos muebles y objetos, quizá víctima de la prisa o la furia. \n\n Coloca el módulo {c:Tile34} y fichas de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventsalafurto0.button1,Continuar
+Eventsalafurto1.text,Esta es la parte de la sala donde ocurrió el robo. El libro estaba guardado dentro de una vitrina de cristal, que ahora está destrozada. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventsalafurto1.button1,Continuar
+Tokenzonafurto.text,Se pueden buscar pistas en la habitación.
+Tokenzonafurto.button1,{action} Examinar
+Eventsalafurto2.text,Dejaron una palanca en el suelo. Tal vez fue usada por el ladrón para entrar en la habitación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalafurto2.button1,Continuar
+Tokenpiedeporco.text,Puedes coger la palanca.
+Tokenpiedeporco.button1,{action} Recoger
+Eventpiedeporco.text,Ganas el Objeto común {c:QItem8}. A continuación descarta esta ficha de Búsqueda.
+Eventpiedeporco.button1,Continuar
+Eventfurto.text,Prueba de {observation}. \n\n Puedes añadir 1 {success} al resultado si posees el Objeto único <i>Prueba circunstancial</i>.
+Eventfurto.button1,Continuar
+Eventfurto0.text,Miras a lo largo y ancho, buscando pistas. Intentas reconstruir en tu mente cómo ocurrió el robo. El guardia de la puerta te cuenta lo que sabe: \n\n —<i>La puerta fue forzada desde el exterior a pesar de que estaba cerrada, el ladrón necesitó mucha fuerza física para hacerlo. Las huellas de zapatos que hay en la habitación sugieren que se trata de una persona alta</i>. \n\n Ganas el Objeto único {c:QItemfurtoA} \n
+Eventfurto0.button1,Continuar
+Eventfurto1.text,Miras a lo largo y ancho, buscando pistas. Intentas reconstruir en tu mente cómo ocurrió el robo. El guardia de la puerta te cuenta lo que sabe: \n\n La puerta fue forzada desde el exterior a pesar de que estaba cerrada, el ladrón necesitó mucha fuerza física para hacerlo. Las huellas de zapatos que hay en la habitación sugieren que se trata de una persona alta. \n\n Ganas el Objeto único {c:QItemfurtoA} \n
+Eventfurto1.button1,Continuar
+Eventfurto2.text,No encuentras nada útil en este momento.
+Eventfurto2.button1,Continuar
+Eventalbero10.button1,Continuar
+Eventalbero10.text,Pero no hay nada dentro de la cavidad. \n\n Recoges la extraña tablilla y la raíz se mueve para ocultar el agujero secreto de nuevo.
+Eventreception.text,—<i>El director está en su oficina</i>.
+Eventreception.button1,Continuar
+Eventfurto4.text,Algunos cristales rotos tienen manchas de sangre: el ladrón debe de haberse herido al romper el cristal de la vitrina que contenía el libro. \n\n Ganas el Objeto único {c:QItemfurtoB}.
+Eventfurto4.button1,Continuar
+Tokenala.button1,{action} Abrir
+Eventala0.text,Algunas de las puertas del pasillo conducen a otras salas del museo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventala.text,El ala oeste conduce a un pequeño corredor, que termina con una puerta al final de las escaleras. \n\n Coloca los módulos {c:Tile32}y {c:Tile33}. A continuación descarta esta ficha de Exploración.
+Eventala.button1,Continuar
+Tokenala.text,La puerta lleva al ala oeste del museo
+Eventala0.button1,Continuar
+Eventala1.text,Al final de las escaleras parece que hay algo. \n\n Coloca el Objeto común {c:QItem9} en el lugar señalado.
+Eventala1.button1,Continuar
+Tokenlab.text,Hay una placa sobre la puerta que dice «Laboratorio».
+Tokenlab.button1,{action} Abrir
+Tokendirezione0.text,La puerta es sólida y está hecha de madera noble. Junto a ella hay una placa que dice «Eugene Clemens, Director».
+Tokendirezione0.button1,{action} Entrar
+Eventdirezione3.text,La puerta está cerrada con llave.
+Eventdirezione3.button1,Continuar
+Eventdirezione4.text,Llamas a la puerta. En respuesta, desde el interior oyes la voz del director. \n\n —<i>¡Adelante, está abierto!</i> \n\n Cruzas la puerta y entras en la oficina del director. \n\n Coloca el módulo {c:Tile36} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventdirezione4.button1,Continuar
+Eventdirezione5.text,El Director está sentado detrás del escritorio. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventdirezione5.button1,Continuar
+Tokendirettore0.text,El director del museo.
+Tokendirettore0.button1,{action} Hablar
+Eventdirezione6.text,Detrás del escritorio cuelgan algunos cuadros. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventdirezione6.button1,Continuar
+Tokenquadri.text,Unos cuadros colgados de las paredes.
+Tokenquadri.button1,{action} Observar
+Eventquadri.text,Los cuadros son todos los diplomas y honores ganados por el director durante sus años académicos. También puedes ver una foto de grupo con la famosa Universidad de Miskatonic al fondo. \n\n Ganas el Objeto único {c:QItemprovafoto}. A continuación descarta esta ficha de Búsqueda.
+Eventquadri.button1,Continuar
+UIistruzioni.uitext,Para continuar, selecciona \n la imagen del lugar \n que deseas visitar. \n
+Eventdirettore4.text,—<i>¿Sí? ¿Qué necesita?</i>
+Eventdirettore4.button1,—<i>¿Qué han estado robando?</i>
+Eventdirettore4.button2,—<i>¿Dónde tuvo lugar el robo?</i>
+Eventdirettore4.button3,—<i>¿Quién más trabaja aquí, además de usted?</i>
+Eventdirettore4.button4,—<i>Sé quién cometió el robo</i>.
+Eventdirettore5.text,\n\n—<i>El libro que fue robado es «De Vermis Mysteriis». Es uno de los libros más poderosos de la historia de Egipto. Se dice que recoge el conocimiento de Nephren-Ka, el «Faraón Negro». Además, al parecer en sus páginas hay un ritual para abrir un portal entre este y otros mundos, con el fin de traer a nuestro mundo a criaturas alienígenas. Por supuesto que son sólo leyendas, pero aun así el libro tiene un valor inmenso porque es también la única copia existente en el mundo.</i>\n\n
+Eventdirettore5.button1,Continuar
+Eventdirettore6.text,\n—<i>El libro se guardaba en el ala norte del museo. ¿Ve dónde está el vigilante? Ahí, detrás de esa puerta. Si el vigilante le causa problemas, dígale que tiene mi permiso</i>.\n
+Eventdirettore6.button1,Continuar
+Eventdirettore7.text,\n—<i>Aparte de mí, dentro del museo las únicas personas autorizados son la joven de la recepción y la restauradora, la profesora Joyce. La profesora está a veces en la sala de lectura</i>.\n
+Eventdirettore7.button1,Continuar
+Eventdirettore8.button1,—<i>No, aun no</i>.
+Eventdirettore9.text,—<i>¿De verdad sabe quién lo hizo?</i>
+Eventlab.text,La gran sala cuadrada es el taller de restauración del museo. Algunos bancos en el centro de la sala están equipados con lavabos, mientras que en otros hay varios productos químicos. Unas vitrinas a lo largo de las paredes completan el mobiliario esencial del laboratorio. \n\n Coloca el módulo {c:Tile31} y una ficha de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventlab.button1,Continuar
+Eventlab0.text,Hay otra puerta a la derecha. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventlab0.button1,Continuar
+Eventlab1.text,Uno de los armarios con puerta de cristal que hay en la sala muestra en su interior varios productos químicos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventlab1.button1,Continuar
+Tokenbacheca.text,Un mueble vitrina. Hay unas sustancias químicas expuestas en su interior
+Tokenbacheca.button1,{action} Examinar
+Eventbacheca.text,Prueba de {lore}.
+Eventbacheca.button1,Continuar
+Eventbacheca1.text,Ninguno de estos productos químicos te llama atención. \n\n Descarta esta ficha de Búsqueda.
+Eventbacheca0.text,Entre los viales encuentras uno con una etiqueta que te llama la atención. Ganas el Objeto común {c:QItem10}. A continuación descarta esta ficha de Búsqueda.
+Eventbacheca0.button1,Continuar
+Eventbacheca1.button1,Continuar
+Tokenportalab.button1,{action} Abrir
+Eventportalab1.text,El almacén es de tamaño modesto. Tal vez podría haber algo escondido entre las diversas cajas y contenedores esparcidos en su interior. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventportalab.text,La puerta está cerrada con llave.
+Eventportalab.button1,Continuar
+UIforesta.button1,button1
+Eventforestanotte.button1,button1
+Eventforestagiorno.button1,button1
+Eventforestaculto.button1,button1
+Eventforestagiorno0.button1,Continuar
+Eventforestanotte0.text,Más allá de los límites de la ciudad hay un denso bosque. Es un lugar remoto y la noche hace que sea aún más tenebroso. Es difícil distinguir algo en el interior de la foresta. \n\n Coloca el módulo {c:Tile11}.
+Eventforestagiorno0.text,Más allá de los límites de la ciudad hay un denso bosque. Es un lugar aislado y aunque sea de día, la luz apenas consigue atravesar las densas copas de los árboles, dejando el bosque en penumbra. Una sensación de perenne incomodidad te envuelve. \n\n Coloca el módulo {c:Tile11}.
+Eventforestanotte0.button1,Continuar
+Eventforestanotte1.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
+Eventforestanotte1.button1,Continuar
+Eventforesta.text,Coloca a los investigadores en el lugar señalado.
+Eventforesta.button1,Continuar
+Eventforesta0.text,El bosque continúa a lo largo de un camino que se dirige hacia el norte. \n\n Coloca una ficha de Vistazo.
+Eventforesta0.button1,Continuar
+Tokennord0.text,El camino continúa hacia el norte. \n\n Un investigador en el módulo {c:Tile11} puede revelar la zona adyacente.
+Tokennord0.button1,Explorar
+Eventforesta1.text,Otro camino lleva al sur. \n\n Coloca una ficha de Vistazo.
+Tokensud0.text,El camino continúa hacia el sur. \n\n Un investigador en el módulo {c:Tile11} puede revelar la zona adyacente.
+Eventforesta1.button1,Continuar
+Eventforesta2.text,El camino principal continúa hacia el oeste. Un sonido de agua es apenas perceptible más adelante. \n\n Coloca una ficha de Vistazo.
+Eventforesta2.button1,Continuar
+Tokenovest0.text,El camino continúa hacia el oeste. \n\n Un investigador en el módulo {c:Tile11} puede revelar la zona adyacente.
+Tokenovest0.button1,Explorar
+Eventforesta3.text,Abandonada en la hierba hay una pequeña bolsa de cuero. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Tokensud0.button1,Explorar
+Eventforesta3.button1,Continuar
+Eventforesta4.text,Un montón de tierra y hojas parece estar escondiendo algo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventforesta4.button1,Continuar
+Eventforesta5.text,Los árboles son cada vez más grandes y densos, haciendo que sea más complicado ir más lejos. \n\n Coloca el módulo {c:Tile15}. A continuación descarta esta ficha de Vistazo.
+Eventforesta5.button1,Continuar
+Eventforesta6.button1,Continuar
+Eventforesta7.text,Apoyado en el tronco de un árbol hay algo. Coloca el Objeto común {c:QItem11} en el lugar señalado.
+Eventforesta6.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
+Eventforesta7.button1,Continuar
+Eventforesta8.text,Ante ti aparece un pequeño claro. Un gran roble domina en este rincón del bosque. El árbol tiene señales del paso del tiempo, pero parece estar en buen estado. \n\n Coloca el módulo {c:Tile13} en el lugar señalado. \n\n Descarta la ficha de Vistazo.
+Eventforesta8.button1,Continuar
+Eventforesta9.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
+Eventforesta9.button1,Continuar
+Eventforesta10.text,El gran roble tiene una gran oquedad. Tal vez haya algo que se pueda meter en ella. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventforesta10.button1,Continuar
+Tokenalbero.button1,{action} Examinar
+Eventalbero0.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero.button1,No tienes ningún artículo para insertar
+Tokenpietra.button1,{action} Examinar
+Eventforesta11.text,Puedes volver a la ciudad siguiendo este camino. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventforesta11.button1,Continuar
+Tokenuscita5.text,La salida del bosque. \n\n Al salir del bosque, todos los investigadores seguirán la misma dirección.
+Tokenuscita5.button1,{action} Ir al mapa
+EventUSCITA.button1,Continuar
+Eventforesta12.button1,Continuar
+Eventforesta13.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
+Eventforesta13.button1,Continuar
+Eventforesta14.button1,button1
+Eventforesta16.button1,button1
+Eventforesta15.button1,button1
+Eventforesta17.text,Más allá del puente, el camino continúa hacia el bosque. \n\n Coloca una ficha de Vistazo.
+Eventforesta17.button1,Continuar
+Tokenovest1.button1,Explorar
+Eventforesta22.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
+Eventforesta18.text,Cerca de un árbol hay algo. \n\n Coloca el Objeto común {c:QItem12}. en el lugar señalado.
+Eventforesta18.button1,Continuar
+Eventforesta19.text,En el puente hay un pedazo de papel que te resulta sospechoso. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventforesta19.button1,Continuar
+Tokenfoglio.text,Un trozo de papel arrugado y rasgado
+Tokenfoglio.button1,{action} Examinar
+Eventfoglio.text,Hay escrito lo siguiente: \n\n «<i>Lo que busca ya está en mi poder, según lo acordado. Le veré en el club, en el callejón. Estaré allí después del anochecer hasta el Día de la Luna de...</i>» \n\n La frase termina ahí. Falta la parte del papel que completa la frase. \n\n Ganas el Objeto único {c:QItemfurtoC}, a continuación descarta esta ficha de Búsqueda.
+Eventfoglio.button1,Continuar
+Spawndruido.button1,Continuar
+EventDRUIDOMORTO.button1,Continuar
+Spawndruido.text,Una figura encapuchada aparece en un recodo del bosque. \n\n —<i>¡Maldito intruso! ¡Pagarás caro el venir aquí!</i> \n\n Coloca un {c:Spawndruido} en el lugar señalado.
+Eventdruido1.button2,Si NADIE tiene la «Prueba fotográfica»
+Eventdruido.text,Intentas establecer una conversación con el druida, pero en respuesta comienza a recitar los versos de un hechizo. El cuerpo del druida desaparece repentinamente, mientras uno de los versos, particularmente perturbador, te llama la atención.
+Eventdruido.button1,Continuar
+Spawnbyakhee.text,Una inmunda criatura humanoide se manifiesta en el bosque. \n Coloca un monstruo {c:Spawnbyakhee} en el lugar señalado.
+Spawnbyakhee.button1,Continuar
+Eventdruido0.text,Ahora que el hombre parece calmado, puedes hacerle algunas preguntas.
+Eventdruido0.button1,—<i>¿Qué es lo que está pasando en el bosque?</i>
+Eventdruido1.text,El hombre se presenta como el Druida del Bosque, Guardián de los Árboles y Protector de la Madre Naturaleza. No sabes si tomarlo en serio o no. Pero el druida continúa su historia: \n\n—<i>Hace unos días, un grupo de tres hombres se reunieron en el interior del bosque, más allá del puente</i> —el hombre apunta su mano al otro lado del río— <i>Allí mismo realizaron un ritual, pero algo debió de salir mal, porque dos de ellos se volvieron locos y el tercero, ¡se convirtió en una horrible criatura acuática!</i>
+Eventdruido1.button1,Si alguien tiene la «Prueba fotográfica»
+Eventdruido2.text,El hombre se presenta como el Druida del Bosque, Guardián de los Árboles y Protector de la Madre Naturaleza. No sabes si tomarlo en serio o no. Pero el druida continúa su historia: \n\n—<i>Hace unos días, un grupo de tres hombres se reunieron en el interior del bosque, más allá del puente</i> —el hombre apunta su mano al otro lado del río— <i>Allí mismo realizaron un ritual, pero algo debió de salir mal, porque dos de ellos se volvieron locos y el tercero, ¡se convirtió en una horrible criatura acuática!</i>
+Eventdruido2.button1,Describir al monstruo del muelle.
+Eventdruido3.text,El hombre hace memoria. \n\n —<i>¡Sí, eso es! Eso era muy propio de él. Pobre alma. ¡Espero que encuentre la paz lo antes posible!</i>
+Eventdruido3.button1,Si alguien tiene la «Prueba fotográfica»
+Eventforesta20.button1,button1
+Eventgatto0.text,A pesar de usar tus mejores trucos, el gato no parece querer moverse de debajo del sofá.
+Eventgatto.button1,Continuar
+Tokenbibli.button2,{action} Pedir ayuda
+Eventgatto1.text,Te acercas de nuevo al gato, que reacciona escapándose por un agujero que hay en la pared. \n\n Descarta la ficha de Personaje Gato.
+Eventgatto0.button1,Continuar
+Eventgatto2.text,El gato parece sentirse atraído por tus amables maneras y sale. Al acercarse te das cuenta de que hay algo en su collar. En cuanto le quitas un pequeño trozo de papel que llevaba enrollado en el collar, lo dejas marchar. El gato corre a refugiarse dentro de en un agujero de la pared. \n\n Descarta la ficha de Personaje Gato.
+Eventgatto1.button1,Continuar
+Eventforesta21.text,La vegetación se hace más tupida a medida que avanzas. El camino casi ha desaparecido por completo cuando observas que termina en un claro en medio de los árboles. Un altar de piedra preside el lugar. \n\n Coloca los módulos {c:Tile17} y {c:Tile18}. A continuación descarta esta ficha de Vistazo.
+Eventforesta21.button1,Continuar
+Tokenovest1.text,El camino continúa hacia el oeste. \n\n Un investigador en el módulo {c:Tile12} puede revelar la zona adyacente.
+Eventforesta22.button1,Continuar
+Eventforesta23.button1,button1
+Eventforesta24.text,Hay algo en la orilla del río que te llama la atención. \n\n Coloca el Objeto común {c:QItem13} en el lugar señalado.
+Eventforesta24.button1,Continuar
+Eventforesta25.text,En el centro del claro hay algo sospechoso. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventforesta25.button1,Continuar
+Eventforesta26.text,Observas tres figuras vestidas con largas túnicas que se mueven alrededor de la mesa de piedra. Una de ellas esconde su cara con una máscara blanca de marfil mientras sostiene un gran libro. Las otras dos figuras están manipulando unos objetos que hay sobre la mesa.
+Eventforesta26.button1,Continuar
+Tokenculto.button2,{action} Esperar
+SpawnAPPARIZIONE.button1,Continuar
+Spawn0.text,Coloca un monstruo {c:Spawn0} en el lugar señalado.
+Spawn0.button1,Continuar
+Spawn1.text,Coloca un monstruo {c:Spawn0} en el lugar señalado.
+Spawn1.button1,Continuar
+SpawnCapoculto.button1,Continuar
+Eventculto0.text,En los arbustos podrías esconderte sin que te vean. \n\n Coloca una ficha de Interacción en el lugar señalado.
+SpawnCapoculto.text,\n—<i>¡¡¡Loco!!! ¿Quién se atreve a interrumpir nuestro ritual? Nada ni nadie puede detenernos ahora. La criatura vendrá y caminará entre nosotros, sumiendo a la ciudad en el caos y la locura. ¡Me dará poder para controlarlos a todos! ¡Ja, ja, ja, ja!</i>\n
+Eventculto0.button1,Continuar
+Tokenculto.text,Observas a las tres figuras desde detrás de los arbustos.
+Tokenculto.button1,{action} Atacar por sorpresa
+Eventculto4.button1,Continuar
+Eventculto1.text,Interrumpes lo que sea que estaban haciendo, atacando a los tres hombres primero sin pensar demasiado. \n\n Descarta esta ficha de Interacción.
+Eventculto1.button1,Continuar
+Eventculto2.text,Al haber atacado por sorpresa, realizas una prueba de {strength}, {agility} u {observation}, a tu elección. \n Luego añade el resultado de tu tirada al daño de un arma que poseas y asigna el daño total a un solo monstruo de tu elección.
+Eventculto2.button1,Continuar
+Eventculto4.text,Permaneces escondido detrás del arbusto unos momentos más, pero al tratar de encontrar una posición más cómoda cometes el error de pisar una rama, atrayendo la atención de los hombres con túnica. \n\n —<i>¡Eh, hay alguien ahí!</i> \n\n Los tres hombres se dan cuenta de tu presencia. \n\n Descarta la ficha de Interacción del lugar señalado.
+Eventculto3.button1,Continuar
+EventRITUALE.text,De repente se abre un portal mágico junto al altar. En su interior, una luz de color púrpura oscuro se arremolina formando un círculo. Lentamente alguien, o algo, parece salir de ese portal. Una gran criatura de aspecto aterrador que pone a prueba tu cordura. \n\n Cada investigador sufre 3 de Horror (anulados por {will}) \n\n Descarta la ficha de Interacción.
+EventRITUALE.button1,Continuar
+Spawnprogenie.text,Un lloigor aparece a través del portal. La criatura se aproxima al líder de la secta y parece seguir sus órdenes. \n\n —<i>Ahora que has acudido a la llamada, ¡recorre la ciudad portando el CAOS y la LOCURA!</i> \n\n Coloca un monstruo {c:Spawnprogenie} en el lugar señalado. \n\n La criatura es muy poderosa. Las armas normales no lo derrotarán. Por ahora, será mejor escapar.
+Spawnprogenie.button1,Continuar
+Eventculto3.text,Te escondes detrás de los arbustos sin ser visto, esperando el momento oportuno.
+Eventculto.button1,button1
+Tokenaltare.text,Unos rastros en la tierra.
+Tokenaltare.button1,{action} Examinar
+Eventaltare.text,Hay algunas marcas en el suelo: los rastros de algo grande que fue arrastrado hasta aquí y luego se lo volvieron a llevar. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventaltare.button1,Continuar
+Eventforesta27.text,Parece que hay unos objetos sobre el altar. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventforesta27.button1,Continuar
+Tokenaltare2.text,El altar de piedra. Parece que alguien lo ha estado usando recientemente.
+Tokenaltare2.button1,{action} Examinar
+Eventaltare0.text,Sobre el altar parece que han dejado abandonados algunos objetos. \n\n Ganas el Objeto único {c:QItemrituale}, a continuación descarta esta ficha de Búsqueda.
+Eventaltare0.button1,Continuar
+EventMORTECULTO.button1,Continuar
+Eventsacchetto.text,Dentro de la bolsa, envuelta en hojas de periódico, hay una estatua de piedra con una forma particular. \n\n Ganas el Objeto único {c:QItempietra}. \n\n Descarta esta ficha de Búsqueda.
+Tokenfoglie.button1,{action} Examinar
+Eventfoglie.text,Prueba de {will}.
+EventMORTECULTO.text,Con un golpe seco logras alcanzar la cara del líder de la secta. Le quitas la máscara que le cubría el rostro.
+Eventsacchetto.button1,Continuar
+Tokenpietra.text,Una pequeña bolsa de cuero.
+Spawnsegugio.button1,Continuar
+Spawnmigo.text,Una sucia criatura alada se manifiesta en el bosque. \n Coloca un monstruo {c:Spawnmigo} en el lugar señalado.
+Spawnsegugio.text,Una repulsiva criatura se manifiesta en el bosque. \n Coloca un monstruo {c:Spawnsegugio} en el lugar señalado.
+Spawnmigo.button1,Continuar
+Spawnshoggoth.button1,Continuar
+EventMORTEPROG.text,No sabes cómo, pero te las has arreglado para matar a la criatura. \n\n Los efectos del ritual ahora parecen desaparecer y aunque no tengas idea de quiénes son los sectarios, la ciudad de Arkham está a salvo... por ahora.
+Spawnshoggoth.text,Una pútrida y asquerosa criatura se manifiesta en el bosque. \n Coloca un monstruo {c:Spawnshoggoth} en el lugar señalado.
+EventMORTEPROG.button1,Continuar
+Tokenalbero.text,El majestuoso árbol se eleva hacia el cielo, con el viento agitando sus ramas en todas las direcciones. El gran tronco tiene un surco tallado con precisión. Tal vez haya algo en su interior.
+Eventalbero0.button1,Probar con la Escultura grotesca
+Eventalbero1.text,Intentas encajar el objeto que llevas contigo pero no coincide con el hueco del árbol.
+Eventalbero1.button1,Continuar
+Eventalbero0.button2,Probar con la Tablilla extraña
+Tokenfoglie.text,Un montón de tierra y hojas parece estar escondiendo algo en su interior.
+Eventfoglie.button1,Continuar
+Eventfoglie0.text,Empiezas a hurgar en las hojas, con la esperanza de encontrar algo valioso entre ellas. Con un mal sabor de boca abandonas tu búsqueda al no encontrar nada. \n\n Descarta esta ficha de Búsqueda.
+Eventfoglie0.button1,Continuar
+Eventfoglie1.text,Empiezas a hurgar en las hojas, con la esperanza de encontrar algo valioso entre ellas. Tus suposiciones demuestran ser ciertas. Ganas el Objeto común {c:QItem14}. A continuación descarta esta ficha de Búsqueda.
+Eventfoglie1.button1,Continuar
+UIvicoli.button1,button1
+Eventvicoligiorno.button1,button1
+Eventvicolinotte.button1,button1
+Eventvicoli.text,Después de un corto paseo llegas a los callejones del distrito central de Arkham. Las calles son estrechas y no hay muchas personas que las frecuenten. El ambiente, sin embargo, es amistoso y alegre, lo cual hace que visitar este lugar sea una experiencia amena. \n\n Coloca los módulos {c:Tile37}, {c:Tile38} y {c:Tile39}.
+Eventvicoli.button1,Continuar
+Eventvicoli0.text,Coloca a los investigadores en el lugar señalado.
+Eventvicoli0.button1,Continuar
+Eventvicoli1.text,Cerca de ti está la entrada de un bar. Siempre está abierto y se pueden oír las voces de varias personas que están en su interior. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventvicoli1.button1,Continuar
+Eventvicoli2.text,Cerca de ti se encuentra la entrada de una tienda. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventvicoli2.button1,Continuar
+Eventvicoli3.text,La calle continúa a la vuelta de la esquina. \n\n Coloca una ficha de Vistazo.
+Eventvicoli3.button1,Continuar
+Eventvicoli4.text,Un hombre bastante desaliñado está apoyado en la pared leyendo un periódico. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventvicoli4.button1,Continuar
+Tokenpub.text,La entrada de un bar abierto 24 horas al día.
+Tokenpub.button1,{action} Entrar
+Eventpub.text,El bar es pequeño pero acogedor. Casi todas las mesas están ocupadas. Los ojos de los clientes se detienen en ti cuando atraviesas la puerta. \n\n Coloca el módulo {c:Tile46} y fichas de Pared en los lugares señalados. A continuación descarta esta ficha de Exploración.
+Eventpub.button1,Continuar
+Eventpub0.text,Detrás del mostrador se encuentra la camarera, una joven de mirada perspicaz. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventpub0.button1,Continuar
+Tokenbarista.text,La camarera del bar te sonríe cuando te acercas.
+Tokenbarista.button1,{action} Pedir de beber
+Eventpub1.text,Dos caballeros están tomando un trago en la mesa junto a la barra. \n\n Coloca las fichas de Personaje en el lugar señalado.
+Eventpub1.button1,Continuar
+Tokensignori.text,Dos caballeros bebiendo.
+Tokensignori.button1,Continuar
+Eventpub2.text,Un caballero vestido con sombrero e impermeable, con un físico imponente, está sentado en la mesa redonda en un rincón del bar. Parece estar esperando a alguien. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventpub2.button1,Continuar
+Tokensignore.text,Un caballero con sombrero e impermeable está sentado en la mesa redonda. Tiene el físico de un jugador de rugby.
+Tokensignore.button1,{action} Hablar
+Eventpub3.text,Un caballero de edad bastante avanzada está comiendo en la mesa. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventpub3.button1,Continuar
+Tokenuomo0.button1,{action} Hablar
+Eventpub4.text,El gestor del puerto marítimo está sentado en la mesa de atrás, intentando comer algo. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Tokenuomo0.text,Un caballero ocupado comiéndose su cena.
+Eventpub4.button1,Continuar
+Eventpub5.text,Una pareja bastante mayor está brindando sentada en la mesa cerca de la camarera. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventpub5.button1,Continuar
+Tokencoppia.button1,Continuar
+Tokennegozio.text,La puerta principal de una tienda de comestibles. Durante la noche la tienda está cerrada.
+Tokencoppia.text,Una joven pareja que se dispone a brindar está sentada en la mesa.
+Tokennegozio.button1,{action} Entrar
+Eventnegozio.text,Por la noche, la tienda está cerrada.
+Eventnegozio.button1,Continuar
+Eventnegozio0.text,La tienda de comestibles parece tener una amplia gama de productos, aunque en estos momentos no tiene muchas existencias. La fruta y las verduras son sus principales productos, pero algunas estanterías tienen un poco de todo. \n\n Coloca el módulo {c:Tile44} y fichas de Pared en los lugares señalados. A continuación descarta esta ficha de Exploración.
+Eventnegozio0.button1,Continuar
+Eventnegozio1.text,Una atractiva joven es la dependienta que dirige la tienda. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventnegozio1.button1,Continuar
+Tokencommessa.text,La dependienta de la tienda. No hay nada de qué hablar con ella.
+Tokencommessa.button1,Continuar
+Eventnegozio2.button1,Continuar
+Eventnegozio3.text,En la pared del fondo hay una puerta que conduce al almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Tokenbottiglia.button1,{action} Examinar
+Eventnegozio2.text,Entre los estantes de licor hay una botella de whisky de alta calidad. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Tokenbottiglia.text,Entre varias botellas de alcohol encuentras una de whisky,
+Eventnegozio3.button1,Continuar
+Eventnegozio4.text,Podría haber algo útil en este estante. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventnegozio4.button1,Continuar
+Tokenscaffale.text,En este estante hay varias herramientas de uso común
+Tokenscaffale.button1,{action} Examinar
+Eventbottiglia.text,La dependienta centra su atención en ti. La botella de whisky está a la venta por 2 Pistas {clue}.
+Eventbottiglia.button1,Comprar la botella de whisky
+Eventbottiglia.button2,Cancelar
+Eventbottiglia0.text,Descarta 2 Pistas {clue}. Ganas el Objeto común {c:QItem2}. A continuación descarta esta ficha de Búsqueda.
+Eventbottiglia0.button1,Continuar
+Eventscaffale.text,Al observar los objetos expuestos en el estante, la vendedora te anima a que hagas alguna compra. \n De todos los artículos que hay expuestos, sólo uno atrae tu atención. \n\n Si quieres, puedes comprar el Objeto común {c:QItem15} pagando por él 3 Pistas {clue}.
+Eventscaffale.button1,Comprar
+Eventscaffale.button2,Cancelar
+Eventscaffale0.text,Descarta 3 Pistas {clue}. Ganas el Objeto común {c:QItem15}. A continuación descarta esta ficha de Búsqueda.
+Eventscaffale0.button1,Continuar
+Tokenbancone.text,La puerta trasera que lleva al almacén. No hay forma de que puedas acceder a él.
+Tokenbancone.button1,Continuar
+Tokenvagabondo.text,Un hombre apoyado en la pared, leyendo un periódico. Parece un vagabundo.
+Tokenvagabondo.button1,{action} Hablar
+Eventvagabondo.text,El vagabundo te mira, y con algo de arrogancia te suelta: —<i>Bueno, mi garganta está seca. Me vendría bien un trago...</i> \n\n El investigador que posea el Objeto común <i>Whisky</i> puede dárselo al vagabundo...
+Eventvagabondo.button1,Darle la botella de whisky
+Eventvagabondo.button2,Cancelar
+Eventvagabondo0.text,El vagabundo te mira, y con algo de arrogancia, te suelta: \n\n —<i>Bueno, es sólo que mi garganta está seca. Me vendría bien un trago...</i>
+Eventvagabondo0.button1,Continuar
+Eventvagabondo1.text,El hombre se abalanza sobre la botella con avidez, y la apura casi por completo de un trago. Luego te vuelve a prestar atención. \n\n —<i>¿Está buscando a alguien grande? Jajajaja. He visto un par de ellos últimamente, uno en el bar y otro en la taberna. Grandes y peligrosos, sí, sí, sí, sí, sí. ¡Sin mencionar a la enfermera del manicomio! ¡Un verdadero monstruo! \n\n Ganas 1 Pista {clue}.
+Eventvagabondo1.button1,Continuar
+Tokenvagabondo0.text,El borracho está ocupado bebiendo una botella de whisky.
+Tokenvagabondo0.button1,Continuar
+Tokenangolo.text,El camino continúa al otro lado de la esquina. \n\n Un investigador colocado en la localización {c:Tile39} puede revelar una zona adyacente.
+Tokenangolo.button1,Explorar
+Eventvicoli5.text,La calle sigue rodeando las casas, hace esquina y continúa hasta otra calle. \n\n Coloca los módulos {c:Tile40}, {c:Tile41} y una ficha de Pared en el lugar señalado. A continuación, descarta esta ficha de Vistazo.
+Eventvicoli5.button1,Continuar
+Eventvicoli6.text,Un pequeño cartel indica que es una librería. Se puede acceder a su interior a través de una puerta de color rojizo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventvicoli6.button1,Continuar
+Tokenlibreria1.text,Una puerta de color rojizo lleva al interior de una librería.
+Tokenlibreria1.button1,{action} Abrir
+Eventsignore.button1,Continuar
+Eventsignore.text,El caballero de la mesa está leyendo el periódico. \n Cuando le hablas, su única respuesta es: \n\n —<i>No me moleste, estoy esperando a alguien</i>.\n
+Eventvicoli7.text,A la vuelta de la esquina, la calle continúa. \n\n Coloca una ficha de vistazo en el lugar señalado.
+Eventvicoli7.button1,Continuar
+Tokenangolo0.text,El camino continúa al otro lado de la esquina. \n\n Un investigador colocado en la localización {c:Tile41} puede revelar una zona adyacente.
+Tokenangolo0.button1,Explorar
+Eventvicoli8.text,Por aquí se puede salir de los callejones \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventvicoli8.button1,Continuar
+Tokenuscita6.text,La salida de los callejones. \n\n Saliendo de los callejones, todos los investigadores seguirán la misma dirección.
+Tokenuscita6.button1,{action} Ir al mapa
+Eventvicoli9.text,El camino continúa unos pocos metros más hasta que finalmente se abre y se ramifica en otras calles. \n\n Coloca los módulos {c:Tile42} y {c:Tile43}. A continuación descarta esta ficha de Vistazo.
+Eventvicoli9.button1,Continuar
+Eventvicoli12.button1,Continuar
+EventSOSPETTOMORTO.text,Te las arreglas para herir al sospechoso obligándolo a bajar el arma. Esperando a que llegue la policía para arrestarlo, consigues arrancarle una confesión del robo. Descubres que el autor del encargo es un hombre de clase alta cuyo nombre ignora. Ya ha tenido lugar la reunión y el intercambio. Lo único que sabe es que el libro fue usado para algún tipo de experimento, y que el que le contrató repetía a menudo que tenía que conseguirlo antes de la «luna de sangre». \n\n Ganas el Objeto único {c:QItemprovaD}. \n\n Descarta todas las cartas de «Prueba» del juego.
+Eventvicoli10.text,Desde esta calle se llega a la carretera y de ahí a otras zonas de la ciudad. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventvicoli10.button1,Continuar
+Tokenuscita7.text,La salida de los callejones. \n\n Todos los investigadores seguirán la misma dirección al salir de los callejones.
+Tokenuscita7.button1,{action} Ir al mapa
+Eventvicoli11.text,Un caballero de aspecto jovial pero distinguido está decidido a husmear, desde la calle, el interior de la tienda de curiosidades. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventvicoli11.button1,Continuar
+Tokencurioso.text,Un caballero de aspecto juvenil. ¡Está husmeando en la tienda de curiosidades!
+Tokencurioso.button1,{action} Hablar
+Eventcurioso.text,Cuando el hombre se fija en ti, parece un poco sorprendido, como si tuviera miedo de algo. Pero después se calma y parece encontrarse cómodo. Te dice que se llama Bobby, y que es reportero de un periódico local. Quiere escribir un artículo de primera plana, pero no encuentra ningún tema interesante. Ha oído rumores de una criatura aterradora que deambula por los muelles. Si tan sólo tuviera algunos testigos para entrevistar...
+Eventcurioso.button1,Continuar
+Eventcurioso0.text,Cuando el hombre se fija en ti, parece un poco sorprendido, como si tuviera miedo de algo. Pero después se calma y parece encontrarse cómodo. Te dice que se llama Bobby, y que es reportero de un periódico local. Quiere escribir un artículo de primera plana, pero no encuentra ningún tema interesante. Ha oído rumores de una criatura aterradora que deambula por los muelles. Si tan sólo tuviera algunos testigos para entrevistar...
+Eventcurioso0.button1,Hablarle del monstruo de los muelles
+Eventcurioso1.text,Bobby parece emocionado por tu testimonio y no deja de tomar notas ni un segundo. Luego se dirige a los muelles a toda prisa para poder tomar algunas fotos del lugar. \n\n Ganas 2 Pistas {clue}. A continuación descarta la ficha de Personaje.
+Eventcurioso1.button1,Continuar
+Eventlibreria3.text,A estas horas de la noche la librería está cerrada.
+Eventlibreria3.button1,Continuar
+Eventlibreria4.text,Entras en la librería. El olor del papel impreso mezclado con un aroma a incienso impregna toda la habitación. Las estanterías están perfectamente ordenadas y todo está impoluto. \n\n Coloca el módulo {c:Tile47} y fichas de Pared en los lugares señalados. A continuación descarta esta ficha de Exploración.
+Eventlibreria4.button1,Continuar
+Eventlibreria5.text,Una joven te saluda cuando entras. La propietaria de la librería es una muchacha joven y encantadora, de trato agradable. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventlibreria5.button1,Continuar
+Tokenbibli.text,La joven y encantadora dueña de la librería.
+Tokenbibli.button1,{action} Hablar
+Eventlibreria6.text,Puede que haya libros interesantes en alguno de los estantes \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventlibreria6.button1,Continuar
+TokenscaffaleA.text,Un buen montón de libros.
+TokenscaffaleA.button1,{action} Examinar
+Eventlibreria7.text,Algunos libros puede que contengan alguna pista interesante. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventlibreria7.button1,Continuar
+TokenscaffaleB.text,Un buen montón de libros.
+TokenscaffaleB.button1,{action} Examinar
+EventscaffaleA.button1,Continuar
+EventscaffaleA.text,Prueba de {observation}. \n Es una prueba acumulativa.
+EventscaffaleA0.text,Revisas los libros buscando algo interesante pero no pareces notar nada en particular.
+EventscaffaleA0.button1,Continuar
+EventscaffaleA1.text,Examinas con atención los libros y encuentras uno que tiene un extraño símbolo en su dorso, y que es similar al de algunos libros que recuerdas haber visto antes. \n Después de conseguir el permiso de la librera, te llevas el libro contigo. \n\n Ganas el Objeto común {c:QItem16}. A continuación descarta esta ficha de Búsqueda.
+EventscaffaleA1.button1,Continuar
+EventscaffaleA2.text,Examinas con atención los libros y encuentras uno que tiene un extraño símbolo en su dorso, y que es similar al de algunos libros que recuerdas haber visto antes. \n Después de conseguir el permiso de la librera, te llevas el libro contigo. \n\n Ganas el Objeto común {c:QItem16}. A continuación descarta esta ficha de Búsqueda.
+EventscaffaleA2.button1,Continuar
+EventscaffaleB.text,No hay nada interesante entre los libros. Descarta esta ficha de Búsqueda.
+EventscaffaleB.button1,Continuar
+EventscaffaleB0.text,Mirando los libros, descubres uno interesante. Después de pedirle permiso a la librera, lo añades a tu equipo. \n\n Ganas el Objeto común {c:QItem17}. A continuación descarta esta ficha de Búsqueda.
+EventscaffaleB0.button1,Continuar
+Eventmolo20.text,El periodista que encontraste en los callejones está ocupado tomando notas y lleva su cámara lista para captar cualquier movimiento en el agua \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventmolo20.button1,Continuar
+Tokencurioso0.text,El periodista está ocupado con su cámara
+Tokencurioso0.button1,Continuar
+Eventmolo21.text,El viejo está ocupado hablando con el reportero. \n\n Coloca fichas de Personaje en el lugar señalado.
+Eventmolo21.button1,Continuar
+Tokenzadoc.text,El caballero está ocupado en una conversación con otra persona...
+Tokenzadoc.button1,Continuar
+Tokencurioso1.text,El periodista está ocupado en una conversación con otra persona
+Tokencurioso1.button1,Continuar
+Eventmolo22.text,El muelle termina aquí. \n\n Coloca el módulo {c:Tile6}. A continuación descarta esta ficha de Vistazo.
+Eventmolo22.button1,Continuar
+Eventmolo23.text,El barco de Zadoc ya no está. Tal vez fue a buscar al monstruo con el periodista. \n\n Ganas 1 Pista {clue} y tienes la posibilidad de mejorar 1 punto una habilidad que no haya sido ya mejorada.
+Eventmolo23.button1,Continuar
+Eventlibreria8.text,Hay algo inusual en un estante de la librería. Algunos libros tienen extraños símbolos en sus lomos. \n Parece que hay un orden preciso para colocarlos, pero hay 5 espacios y sólo 4 libros. Falta uno. \n\n Te viene a la memoria el Viejo diario que encontraste en la tienda de libros del callejón. Tiene un símbolo parecido a estos. \n\n El investigador que posea el <i>Viejo Diario</i> puede usarlo aquí.
+Eventlibreria8.button1,Usar el Viejo diario
+Eventlibreria8.button2,Cancelar
+Eventlibreria9.button1,Continuar
+Eventlibreria10.text,Resolver el código de los libros usando {lore}.
+Puzzle2.button1,Hecho
+Eventlibreria9.text,Descarta de tu inventario el Objeto {c:QItem16}. \n\n Ahora que tienes el último libro puedes resolver la combinación usando tu {lore}.
+Eventlibreria10.button1,Continuar
+Eventcodicelibri.text,Consigues organizar los libros en la secuencia correcta. Un pequeño cajón secreto se abre bajo el estante y muestra una pequeña estatua de color oscuro y apariencia misteriosa. Sin que te vean, te metes el objeto misterioso en un bolsillo. \n\n Ganas el Objeto único {c:QItemidolo}. A continuación descarta esta ficha de Búsqueda.
+Eventcodicelibri.button1,Continuar
+Eventbibli.text,—<i>¿En qué puedo ayudarle?— te pregunta amablemente la librera.
+Eventbibli.button1,Preguntar sobre el libro robado
+Eventbibli0.text,\n—<i>¡Oh, sí, conozco el libro! El «De Vermis Mysteriis». Perteneció a Nephren-Ka, el «Faraón Negro». Según una leyenda egipcia, se usaba para convocar a criaturas alienígenas de mundos distantes. También se dijo que Nephren-Ka estaba en conexión con Nyarlathotep, una antigua deidad capaz de causar la locura en las mentes humanas. Sólo son historias y mitos, por supuesto. El libro parece que fue donado al museo por un benefactor desconocido. Este robo ha supuesto un golpe terrible para el museo. Esperemos que no tenga que cerrarse por este incidente</i>. \n\n Ganas 1 Pista {clue}.\n
+Eventbibli0.button1,Preguntar sobre el robo
+Eventmaniero0.button1,Continuar
+Eventmaniero0.text,Una hermosa pintura preside el centro del vestíbulo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventbibli2.text,La dependienta parece estar ocupada y no parece apropiado molestarla en este momento.
+Eventbibli2.button1,Continuar
+Eventragazza.text,Te acercas con discreción. Casi odias interrumpir a la joven que parece absorta en su lectura. \n Pero se da cuenta de tu presencia justo antes de que empieces a hablar. \n\n —<i>No es de buena educación el espiar a las jovencitas mientras leen, ¿no le parece? ¿Necesita algo?</i>\n\n
+Eventragazza.button1,Preguntar sobre el robo
+Eventragazza0.text,\n\n—<i>¿Se refiere al robo del libro? Lo siento, pero no sé mucho sobre eso. Acabo de volver de un viaje al Amazonas. Ni siquiera estuve presente en la ceremonia de presentación del libro, así que no sabría cómo ayudarle. Si quiere saber más sobre el libro, debería preguntarle a mi hermana. Tiene una preciosa librería en un callejón del centro. Sabe mucho más de libros que yo. Tal vez podría decirle más cosas sobre ese libro.\n\n
+Eventragazza0.button1,—<i>Gracias</i>
+Eventragazza1.text,La joven está ocupada leyendo y por el momento no tienes ningún asunto interesante que tratar con ella.
+Eventragazza1.button1,Continuar
+Eventbibli3.text,La dependienta parece estar ocupada. Además, no parece que tengas ningún tema interesante para hablar con ella ahora mismo.
+Eventbibli3.button1,Continuar
+Tokenbarista.button2,{action} Hablar
+Eventbarista.text,\n—<i>Lo siento, pero si quiere una botella de whisky ya no nos quedan. Pregunte en la tienda de al lado, puede que le queden algunas botellas</i>.\n
+Eventbarista.button1,Continuar
+Eventbarista0.text,\n —<i>¡Si quiere nuestra mejor bebida, se la prepararé ahora mismo! Es un poco cara pero vale la pena. ¡Se sentirá mejor después!</i> \n\n\n Si quieres beber la bebida, puedes descartarte de 1 Pista {clue} para adquirir a cambio los estados <i>Aturdido</i> y <i>Concentrado</i>. \n
+Eventbarista0.button1,Continuar
+Eventbarista1.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista1.button1,Preguntar sobre el robo del museo
+Eventbarista1.button2,Preguntarle por el hombre del impermeable
+Eventbarista1.button3,Preguntarle por el hombre que come
+Eventbarista2.text,—<i>Lo siento, pero no conozco los detalles</i>.
+Eventbarista2.button1,Continuar
+Eventbarista3.text,\n —<i>Nunca lo había visto antes. Viene prácticamente todas las noches a la misma hora y siempre pide lo mismo para beber, y luego se va a la misma hora de la noche. No es muy hablador y nunca lo he visto con nadie más</i>.\n
+Eventbarista3.button1,Continuar
+Eventbarista4.text,\n —<i>Es un cliente habitual. Dirige un quiosco en el muelle y sólo viene aquí para comer y después se va a su casa. No creo que esté casado, o tal vez lo esté, y por eso viene aquí todas las noches... Jajajaja</i>.\n
+Eventbarista4.button1,Continuar
+Eventbarista5.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista5.button1,Preguntar sobre el robo del museo
+Eventbarista5.button2,Preguntarle por la persona del impermeable
+Eventbarista6.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista6.button1,Preguntar sobre el robo del museo
+Eventbarista6.button2,Preguntarle por el hombre que come
+Eventbarista7.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista7.button1,Preguntarle por la persona del impermeable
+Eventbarista7.button2,Preguntarle por el hombre que come
+Eventbarista8.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista8.button1,Preguntar sobre el robo
+Eventbarista9.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista9.button1,Preguntarle por la persona del impermeable
+Eventbarista10.text,Desde el principio de los tiempos, los camareros han sido una fuente inagotable de información. Te preguntas si esta camarera será una buena fuente.
+Eventbarista10.button1,Preguntarle por el hombre que come
+Eventbarista11.text,Parece que no hay nada que le puedas pedir ahora mismo al camarero. Quizá sea mejor volver en otro momento.
+Eventbarista11.button1,Continuar
+Eventuomo14.text,Saludas al caballero, que se vuelve. Empiezas a hacerle algunas preguntas, pero no parece tener ningún interés por contestarlas.
+Eventuomo14.button1,Continuar
+Eventuomo15.text,Sigues hablando con él, haciéndole algunas preguntas. A veces el viejo te mira y parece querer contestarte, pero luego se concentra en su comida otra vez.
+Eventuomo15.button1,Continuar
+Eventuomo16.button1,Continuar
+Eventuomo17.text,El viejo se levanta bastante molesto.\n\n —<i>¡Basta! ¡Estoy harto de usted!</i> \n\n A continuación se dirige al camarero, ignorándote, y tras pagar su cena, sale del bar insultándote. En la silla en la que estaba sentado ha dejado olvidado un pequeño manojo de llaves. Probablemente no se ha dado cuenta de que se le ha caído. Examinas las llaves y en una de ellas hay una etiqueta que pone «quiosco». \n\n Ganas el Objeto único {c:QItemchiavi}. A continuación descarta la ficha de Personaje.
+Eventuomo16.text,Sigues tratando de entablar una conversación con el viejo, que parece estar visiblemente molesto en estos momentos.
+Eventuomo17.button1,Continuar
+Eventuomo18.text,Tal vez sea mejor no molestar al caballero mientras come...
+Eventuomo18.button1,Continuar
+Tokenuomo.button3,{action} Darle algo al viejo
+Eventuomo19.text,No tienes nada que darle al viejo ahora mismo.
+Eventuomo19.button1,Continuar
+Eventuomo20.text,El Investigador que posea las <i>Llaves Antiguas</i> puede entregárselas al viejo
+Eventuomo20.button1,Entregar las Llaves antiguas
+Eventuomo20.button2,Cancelar
+Eventuomo21.text,A la vista de las llaves, el anciano parece calmarse. Por suerte, tenía algunos de sobra. \n\n —<i>¡Qué bien que las ha encontrado! ¡Si hubiera sido un atacante malintencionado, no sé qué podría haber hecho! ¡Tome, esto es por las molestias! \n\n Descarta el Objeto único <i>Llaves Antiguas</i>. \n\n Ganas el Objeto común {c:QItem18}.
+Eventuomo21.button1,Continuar
+Eventuomo22.text,Tal vez sea mejor no molestar al caballero mientras come...
+Eventuomo22.button1,Continuar
+Tokenuomo0.button2,{action} Darle algo
+Tokencuriosita.text,La puerta principal de una tienda que vende objetos exóticos de diferentes partes del mundo. Está cerrada por la noche.
+Tokencuriosita.button1,{action} Abrir
+Eventcuriosita.text,La tienda está cerrada durante la noche.
+Eventcuriosita.button1,Continuar
+Eventcuriosita0.text,La pequeña tienda tiene un aire muy peculiar, casi surrealista. Los diversos objetos expuestos tienen un no sé qué esotérico. Detrás del mostrador de la tienda un hombre de aspecto extravagante te invita a entrar. \n\n Coloca el módulo {c:Tile45} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventcuriosita0.button1,Continuar
+Eventcuriosita1.text,Un extravagante caballero detrás del mostrador te invita a entrar. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventcuriosita1.button1,Continuar
+Tokenstranotipo.button1,{action} Hablar
+Eventstranotipo.text,\n—<i>¡Oh, saludos! Bienvenido a mi humilde tienda. Permítame presentarme. Soy el «Mercader de las rarezas». ¡Todo lo que encuentre en mi tienda no lo encontrará en ningún otro lugar! ¡Objetos de todo el mundo, artefactos raros, adornos religiosos de antiguas civilizaciones, piedras preciosas de las selvas perdidas de Sudamérica! Y bien ¿en qué puedo ayudarle?</i>\n
+Tokenstranotipo.text,El extravagante propietario de la tienda
+Eventstranotipo.button1,—<i>Nada, gracias</i>.
+Eventstranotipo0.text,\n—<i>¡Oh, saludos! Bienvenido a mi humilde tienda. Permítame presentarme. Soy el «Mercader de las rarezas». ¡Todo lo que encuentre en mi tienda no lo encontrará en ningún otro lugar! ¡Objetos de todo el mundo, artefactos raros, adornos religiosos de antiguas civilizaciones, piedras preciosas de las selvas perdidas de Sudamérica! Y bien ¿en qué puedo ayudarle?</i>\n
+Eventstranotipo0.button1,Preguntar por el «De Vermis»
+Eventstranotipo1.text,\n —<i>¡Oh, sí, conozco el libro, por supuesto, y también sé lo del robo. Por supuesto que no fui yo quien lo hizo, si es eso lo que sospecha. No habría mercado para ello, ¿sabe a lo que me refiero? No tengo ni idea de quién pudo haberlo robado</i>. \n
+Eventstranotipo1.button1,Continuar
+Eventstranotipo2.text,\n—<i>¡Oh, saludos! Bienvenido a mi humilde tienda. Permítame presentarme. Soy el «Mercader de las rarezas». ¡Todo lo que encuentre en mi tienda no lo encontrará en ningún otro lugar! ¡Objetos de todo el mundo, artefactos raros, adornos religiosos de antiguas civilizaciones, piedras preciosas de las selvas perdidas de Sudamérica! Y bien ¿en qué puedo ayudarle?</i>\n
+Eventstranotipo2.button1,Preguntarle por el «Diario de sectario»
+Eventstranotipo3.text,\n—<i>Oh sí, un culto antiguo que cree en los Dioses Antiguos, o Primigenios como ellos dicen. No creo que nadie aquí vaya en serio. Estos son fenómenos peligrosos, pero altamente improbables. De todos modos, si le interesa, acabo de conseguir un amuleto en particular con los mismos símbolos que su diario. Parece que perteneció a un hombre que ha fallecido, así que no creo que lo necesite más, jajajaja. Podríamos hacer un intercambio si está interesado. Estoy buscando estatuas únicas y poco comunes</i>.\n
+Eventstranotipo3.button1,Continuar
+Eventstranotipo4.text,\n—<i>¡Oh, saludos! Bienvenido a mi humilde tienda. Permítame presentarme. Soy el «Mercader de las rarezas». ¡Todo lo que encuentre en mi tienda no lo encontrará en ningún otro lugar! ¡Objetos de todo el mundo, artefactos raros, adornos religiosos de antiguas civilizaciones, piedras preciosas de las selvas perdidas de Sudamérica! Y bien ¿en qué puedo ayudarle?</i>\n
+Eventstranotipo4.button1,Preguntar por el «De Vermis»
+Eventstranotipo4.button2,Preguntarle por el «Diario de sectario»
+Tokenstranotipo.button2,{action} Intercambiar
+Eventstranotipo5.text,No hay nada que puedas intercambiar con el tendero.
+Eventstranotipo5.button1,Continuar
+Eventstranotipo6.text,De momento no tienes nada que puedas ofrecer al comerciante
+Eventstranotipo6.button1,Continuar
+Eventstranotipo7.text,La piedra encontrada en el bosque podría ser un buen objeto para hacer un trueque por el <i>Emblema de sectario</i> que vende el mercader. \n\n El investigador que posea el Objeto único <i>Escultura Grotesca</i> puede hacer el intercambio.
+Eventstranotipo7.button1,Intercambiar
+Eventstranotipo7.button2,Cancelar
+Eventstranotipo8.text,Descarta el Objeto único <i>Escultura grotesca</i>. \n\n Ganas el Objeto único {c:QItemsimbolo}
+Eventstranotipo8.button1,Continuar
+Eventstranotipo9.text,De momento no tienes nada que puedas ofrecer al comerciante
+Eventstranotipo9.button1,Continuar
+Eventsignore0.button1,Fingir que eres la persona que está esperando
+Eventsignore0.text,El caballero de la mesa está leyendo el periódico. Cuando le hablas, su única respuesta es: \n\n —<i>No me moleste, estoy esperando a alguien</i>.
+Eventsignore1.text,Prueba de {influence}. \n\n Puedes añadir 1 {success} al resultado por cada <i>Prueba</i> que poseas.
+Eventsignore1.button1,Continuar
+Eventsignore2.text,El tipo sospecha. Baja el periódico y te mira fijamente a los ojos. Luego levanta de nuevo el periódico. \n\n —<i>Usted no es a quien espero, ¡así que piérdase si no quiere problemas!</i>
+Eventsignore2.button1,Continuar
+Eventsignore3.text,El tipo sospecha. Baja el periódico y te mira fijamente a los ojos. Luego levanta de nuevo el periódico. \n\n Mientras tanto, vigilas al caballero con atención.
+Eventsignore3.button1,Si alguien tiene la «Prueba circunstancial»
+Eventsignore3.button2,Si NADIE tiene la «Prueba circunstancial»
+Eventsignore4.text,Te fijas en que el hombre tiene una complexión fuerte y es bastante musculoso. Incluso el número de pie que calza parece ser muy grande. \n\n —<i>Si tal cosa fuese cierta, ¿cuál sería la razón para nuestro encuentro?</i>
+Eventsignore4.button1,Si alguien tiene la «Prueba concluyente»
+Eventsignore5.text,Observas al hombre con más detenimiento. Su mano derecha tiene una pequeña venda que apenas es visible debajo del guante que lleva puesto. \n\n Si tienes los Objetos únicos <i>Prueba incriminatoria</i>, <i>Prueba circunstancial</i> y <i>Prueba concluyente</i> puede acusar al sospechoso.
+Eventsignore5.button1,Acusar
+Eventsignore5.button2,Cancelar
+Eventsignore7.text,Te quedas sin palabras durante un momento. El tipo de la gabardina levanta el periódico y continúa su lectura. \n\n —<i>En ese caso, ¡piérdase y déjeme en paz!</i>
+Eventsignore7.button1,—<i>Perdone, le he confundido con otra persona</i>.
+Eventsignore6.text,Como consecuencia de ello, acusas al hombre de estar involucrado en el robo del libro en el museo. \n El sujeto dobla el periódico y con mucha calma lo pone sobre la mesa. \n\n —<i>No sé de qué está hablando. No puede entrar aquí acusando a la gente sin tener una mísera prueba</i>—dicho esto, el tipo se levanta de la mesa y se acerca a ti con un aspecto amenazador—. <i>Yo me lo pensaría dos veces antes de meter la nariz en cosas que no me conciernen</i>.
+Eventsignore6.button1,Continuar
+Eventsignore8.text,Después de eso, el tipo sospechoso se dirige a la salida. Su comportamiento ha despertado más sospechas en ti. \n ¡Quizás sea hora de actuar! \n\n Descarta la ficha de Personaje del lugar señalado.
+Eventsignore8.button1,Detener al tipo
+Eventsignore8.button2,Perseguir al tipo
+Eventsignore9.text,Sin que se dé cuenta, comienzas a seguir al sujeto. Después de unos momentos observas cómo un coche de color oscuro se acerca al tipo. Puedes ver la silueta de un hombre a través de la ventanilla trasera del coche. Los dos parecen estar intercambiando objetos. Entonces el coche se pone en marcha de nuevo. Alcanzas al sospechoso y, sin pensártelo dos veces, te preparas para detenerlo.
+Eventsignore9.button1,Continuar
+Eventblocco.button1,Continuar
+Eventblocco.text,No puedes abandonar el escenario o el sospechoso huirá.
+Eventsignore11.text,Te acercas a él tratando de detenerlo, pero en respuesta a tu movimiento, el sospechoso saca un arma de dentro de su impermeable.
+Eventsignore11.button1,Continuar
+Spawn2.text,Coloca un sicario en el lugar señalado. \n\n Se trata del tipo sospechoso del bar.
+Spawn2.button1,Continuar
+Eventsignore12.text,Al notar el peligro en el que estás, la camarera cierra el bar. \n\n Descarta el módulo {c:Tile46} y todas las fichas que haya en él. \n\n Mueve las miniaturas de los investigadores que estuviesen dentro del bar a la localización {c:Tile37} en el espacio que hay frente a la puerta del bar. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventsignore12.button1,Continuar
+Eventpub6.text,La puerta del bar está cerrada con llave. La camarera cerró el bar por seguridad. \n Nadie podrá entrar hoy.
+Eventpub6.button1,Continuar
+EventSOSPETTOMORTO.button1,Continuar
+Eventdirettore14.text,El Director está muy ocupado en este momento, pero no se cansa de agradecerte que le devolvieras el libro.
+Eventdirettore8.text,—<i>¿De verdad sabe quién lo hizo?</i>
+Eventdirettore9.button1,Sí
+Eventdirettore10.text,Le hablas al director sobre la reunión que tuvo lugar en el bar y de cómo te enteraste de quién era el ladrón del libro, pero no de la persona que se lo encargó. Al oír tus palabras, el director se queda pensativo. \n\n —<i>Ha hecho suficiente identificando al culpable del robo. Tal vez con un poco de suerte la policía pueda descubrir dónde está escondido el libro</i>. \n\n Ganas 2 Pistas {clue} y puedes mejorar en 1 punto un atributo que no haya sido mejorado previamente.
+Eventdirettore10.button1,Continuar
+Eventdirettore11.text,El Director está ocupado.
+Eventdirettore11.button1,Continuar
+CustomMonsterladro.info,-
+Spawn3.button1,Continuar
+CustomMonsterladro.monstername,Tipo Sospechoso
+Spawn3.text,Al final de la calle se encuentra un grupo de borrachos armando jaleo y bronca. \n\n Coloca el monstruo {c:Spawn3} en el lugar señalado.
+Tokenuscita8.text,La salida de la mansión. \n\n Al salir de la mansión todos los investigadores seguirán la misma dirección
+Tokenuscita8.button1,{action} Ir al mapa
+UImaniero.button1,button1
+Eventquadro1.text,Mueves el cuadro lentamente. Detrás de él hay escondido un pequeño compartimento. \n En su interior hay algo. \n\n Ganas el Objeto común {c:QItem19}, a continuación descarta esta ficha de Búsqueda.
+Eventmanieronotte.button1,Continuar
+Eventmanierogiorno.button1,button1
+Eventmaniero.text,La suntuosa mansión en la cima de la colina es propiedad de James Marsh. La villa parece abandonada y no hay indicios de que haya nadie en su interior.
+Eventmaniero.button1,Continuar
+Eventquadro.button1,Continuar
+Eventquadro.text,Prueba de {will}.
+Tokenquadro.button1,{action} Examinar
+Tokenquadro.text,Un hermoso cuadro de tamaño modesto representa a una hermosa mujer sonriente.
+Eventmaniero2.text,Con un crujido ensordecedor de la puerta, entras despacio al interior de la mansión. \n\n Coloca el módulo {c:Tile14} en el lugar señalado.
+Eventmaniero2.button1,Continuar
+Eventquadro0.button1,Continuar
+Eventquadro0.text,Mueves el cuadro esperando que esconda un compartimento secreto, pero desafortunadamente no hay nada. \n\n Descarta esta ficha de Búsqueda.
+Eventalbero2.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero2.button1,Probar el Ídolo misterioso
+Eventalbero3.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero3.button1,Probar la Escultura grotesca
+Eventalbero3.button2,Probar el Ídolo misterioso
+Eventalbero3.button3,Probar la Tablilla extraña
+Eventalbero2.button2,Probar la Tablilla extraña
+Eventmaniero4.text,Coloca a los investigadores en el lugar señalado.
+Eventmaniero4.button1,Continuar
+Eventmaniero5.text,El atrio de la mansión es imponente y majestuoso. Un par de escaleras conducen a la parte superior de la casa donde hay dos puertas que llevan a las estancias de arriba. A los lados del vestíbulo, dos puertas llevan a las habitaciones de la planta baja. \n\n Coloca 4 fichas de Exploración en los lugares señalados.
+Eventmaniero5.button1,Continuar
+Eventquadro1.button1,Continuar
+Tokensalapranzo.text,Una puerta de madera.
+Tokensalapranzo.button1,{action} Entrar
+Eventsalapranzo.text,Abre la puerta con cuidado. Es una habitación amueblada con una enorme mesa de comedor que ocupa la mayor parte del espacio. Un pequeño arco lleva a una cocina desordenada y sucia. \n\n Coloca el módulo {c:Tile16} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventsalapranzo.button1,Continuar
+Eventsalapranzo0.text,En un rincón de la cocina hay algunas cajas en buen estado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalapranzo0.button1,Continuar
+Tokenscatole.button1,{action} Examinar
+Eventscatole.text,Miras las cajas. Te das cuenta de que su posición es especial. \n\n Resuelve el rompecabezas usando {strength}.
+Eventsalapranzo1.text,Un armario de la cocina tiene una puerta abierta. En el interior, algo brillante llama tu atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalapranzo1.button1,Continuar
+Tokenmensola.button1,{action} Examinar
+Eventmensola.text,En una de las repisas del armario hay una pequeña llave. \n\n Ganas el Objeto único {c:QItemchiaveottone}. \n\n Descarta esta ficha de Búsqueda.
+Eventsalapranzo2.text,Avanzas obligatoriamente 1 espacio hacia el interior de la habitación.
+Eventsalapranzo2.button1,Continuar
+Eventsalapranzo3.text,De repente, la puerta del comedor se cierra abruptamente, bloqueando el paso. \n\n Coloca una ficha de Exploración en el lugar señalado \n\n (<b>Un investigador no puede pasar por una puerta que tenga encima una ficha de Exploración</b>).
+Eventsalapranzo3.button1,Continuar
+Tokensalapranzobloccato.text,La puerta del comedor está cerrada con llave.
+Tokensalapranzobloccato.button1,Continuar
+Tokensalotto.text,Una puerta de madera.
+Tokensalotto.button1,{action} Abrir
+Eventsalotto.text,Cruzas la puerta y entras en una sala de estar de aspecto agradable. Aunque se dice que la mansión está deshabitada, parece que los muebles del interior están bien conservados. \n\n Coloca el módulo {c:Tile23} y una ficha de Pared en el lugar señalado. \n A continuación descarta esta ficha de Exploración.
+Eventsalotto.button1,Continuar
+EventuscitaNO.text,La mansión no puede ser abandonada con un investigador atrapado.
+EventuscitaNO.button1,Continuar
+Eventsalotto0.text,El ruido sordo proviene del interior del vestidor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalotto0.button1,Continuar
+Tokenrumore.text,Un ruido sordo proviene del interior del vestidor.
+Tokenrumore.button1,{action} Examinar
+Eventsalotto1.text,El sillón del fondo está cubierto con una tela blanca empapada de sangre. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalotto1.button1,Continuar
+Tokenpoltrona.text,Una tela blanca empapada de sangre cubre el sillón...
+Tokenpoltrona.button1,{action} Examinar
+Tokenballo.text,Una puerta de madera.
+Tokenballo.button1,{action} Abrir
+Eventsalaballo.text,La habitación que hay tras la puerta resulta ser un salón de baile. El suelo de parquet pulido y liso contrasta con las paredes descoloridas y mal cuidadas. \n\n Coloca el módulo {c:Tile26} y una ficha de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventsalaballo.button1,Continuar
+Eventsalaballo0.text,Hay un gran piano al fondo de la habitación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalaballo0.button1,Continuar
+Tokenpiano.text,Un hermoso piano. Quizá deberías echarle un vistazo más de cerca.
+Tokenpiano.button1,{action} Examinar
+Eventsalaballo1.text,Parece que hay algo en la mesa de café que tiene un mantel rojo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsalaballo1.button1,Continuar
+Tokentavolino.text,Una mesa de café con un mantel rojo. Hay algo encima de ella.
+Tokentavolino.button1,{action} Examinar
+Tokencorridoio0.text,Una puerta de madera.
+Tokencorridoio0.button1,{action} Abrir
+Eventcorridoio3.text,Abres la puerta y te encuentras en un pequeño pasillo. \n\n Coloca el módulo {c:Tile19}, una ficha de Puerta y fichas de Pared en los lugares señalados. \n\n Descarta esta ficha de Exploración.
+Eventcorridoio3.button1,Continuar
+Eventcorridoio4.text,Tres puertas conducen a otras tantas habitaciones de la mansión. Coloca fichas de Exploración en los lugares señalados.
+Eventcorridoio4.button1,Continuar
+Eventcorridoio5.text,El silencio de la villa es interrumpido por un lamento espectral que viene de detrás de la puerta que hay al fondo.
+Eventcorridoio5.button1,Continuar
+TokencameraB.text,Una puerta de madera.
+TokencameraB.button1,{action} Abrir
+EventcameraB.text,La puerta está cerrada y bloqueada. No hay manera de abrirla.
+EventcameraB.button1,Continuar
+TokencameraA.text,Una puerta de madera.
+TokencameraA.button1,{action} Abrir
+EventcameraA.text,La puerta está cerrada con llave.
+EventcameraA.button1,Continuar
+EventcameraA0.text,La puerta está cerrada con llave. \n\n El investigador que tenga en su poder la <i>Llave de latón</i> puede abrir la puerta.
+EventcameraA0.button1,Usar la llave
+EventcameraA0.button2,Cancelar
+EventcameraA1.text,Abre la puerta con cuidado y entras en un pequeño dormitorio. \n\n Descarta esta ficha de Exploración.
+EventcameraA1.button1,Continuar
+EventcameraA2.button1,button1
+EventcameraA3.text,Mientras que la noche se apodera del exterior de la villa, dentro de la habitación una pequeña vela emite una mortecina luz. \n Entonces, de repente, un brillo cegador revela una figura cerca de la cama. Por un momento te pareció que había alguien allí, luego la luz de la vela se hace un poco más fuerte, y ante tu mirada desconcertada, una repugnante criatura hace acto de presencia al lado de la cama. \n\n Coloca un Ángel descarnado de la noche en el lugar señalado. \n Puedes interactuar con el Ángel descarnado de la Noche como si fuera una ficha de Personaje.
+EventcameraA3.button1,Continuar
+Tokenbambina.button1,{action} Hablar
+Eventbambina.text,La criatura tiene una voz aguda y espectral. \n\n —<i>Perdí algo que me dieron, \n perdí algo porque me lo robaron, \n en esta forma entonces me transformé, \n pero lo que deseo es que me lo den, \n no un arma poderosa o un libro viejo y anticuado, \n sino un símbolo que alguien me dio, \n una señal de pertenencia que me mantuvo atado, \n a un culto que se reivindica en la noche. \n </i> \n\n La criatura continúa recitando los versos ininterrumpidamente. \n Probablemente haya algo que quiera recuperar.
+EventcameraA4.text,Cerca de la cama, una criatura de aspecto aterrador espera impaciente.
+EventcameraA4.button1,Continuar
+Tokenbambina.text,Una criatura aterradora cerca de la cama.
+Eventbambina.button1,Continuar
+Eventbambina0.text,La criatura tiene una voz aguda y espectral. \n\n —<i>Perdí algo que me dieron, \n perdí algo porque me lo robaron, \n en esta forma entonces me transformé, \n pero lo que deseo es que me lo den, \n no un arma poderosa o un libro viejo y anticuado, \n sino un símbolo que alguien me dio, \n una señal de pertenencia que me mantuvo atado, \n a un culto que se reivindica en la noche. \n </i> \n La criatura continúa recitando los versos ininterrumpidamente. \n\n Probablemente haya algo que quiera recuperar.\n\n El investigador que posea el Objeto único <i>Emblema de sectario</i> puede darle el objeto al fantasma.
+Eventbambina0.button1,Darle el objeto que quiere
+Eventbambina0.button2,Cancelar
+Eventbambina1.text,\n—<i>¡Entonces no puedo confiar en nadie!</i>\n\n El fantasma emite una luz cegadora. \n\n Descarta el Ángel descarnado de la noche del lugar señalado.\n
+Eventbambina1.button1,Continuar
+Eventsalotto2.button1,Continuar
+Eventsalotto2.text,Un gato negro se afila las uñas en la alfombra cuando nota su presencia y se esconde bajo el sofá. \n\n Coloca la ficha de Personaje Gato en el lugar señalado.
+Eventgatto.text,Intentas que el gato se te acerque. \n\n Elige entre usar tu {influence} o tu {agility}.
+Eventbambina2.text,Le muestras el objeto a la niña, que con los ojos abiertos de par en par comienza a gritar. \n\n —<i>¡Devuélvemelo!! ¡DEVUÉLVEMELOOOOOO</i>—chilla con furia mientras las paredes de la habitación comienzan a temblar y la luz de las velas parpadea. \n Con una fuerza sobrenatural, el emblema que tenías en la mano sale disparado hacia la mano de la niña, que cierra sus dedos sujetándolo con fuerza. \n\n Descarta el Objeto único <i>Emblema de sectario</i>. A continuación, descarta la ficha de Personaje.
+Eventbambina2.button1,Continuar
+Spawn5.text,El fantasma comienza a levantarse del suelo, quedando para tu sorpresa suspendido a unos pocos centímetros del suelo. \n\n —<i>¡Lo siento, pero quien está involucrado no puede sobrevivir! ¡Déjeme que le lleve conmigo! </i>\n\n Coloca el monstruo {c:Spawn5} en el lugar señalado.
+Spawn5.button1,Continuar
+EventcameraA5.button1,button1
+Tokengatto.button1,{action} Examinar
+Tokengatto.text,Un gato negro escondido bajo el sofá.
+Spawn7.text,El fantasma se manifiesta ante de ti. \n\n Coloca el monstruo {c:Spawn5} en el lugar señalado.
+Spawn7.button1,Continuar
+EventDEMONEMORTO.text,Con el último golpe puedes derrotar a la criatura. Cuando el cuerpo del fantasma se disuelve en la nada, un extraño objeto aparece en su lugar. \n\n Coloca el Objeto único {c:QItemtavoletta} en el espacio que ocupa el fantasma.
+EventDEMONEMORTO.button1,Continuar
+EventFANTASMAMORTO.text,Con el último golpe puedes derrotar a la criatura. Cuando el cuerpo del fantasma se disuelve en la nada, un extraño objeto aparece en su lugar. \n\n Coloca el Objeto único {c:QItemtavoletta} en el espacio que ocupa el fantasma.
+EventFANTASMAMORTO.button1,Continuar
+Eventalbero3.button4,Cancelar
+Eventalbero0.button3,Cancelar
+Eventalbero2.button3,Cancelar
+Eventalbero4.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero4.button1,Probar la Escultura grotesca
+Eventalbero4.button2,Probar el Ídolo misterioso
+Eventalbero5.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero5.button1,Probar la Escultura grotesca
+Eventalbero6.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero6.button1,Probar el Ídolo misterioso
+Eventalbero7.text,Puedes intentar introducir un objeto que poseas para ver si coincide.
+Eventalbero7.button1,Probar la Tablilla extraña
+Eventalbero8.text,Pruebas a introducir la <i>Tablilla extraña</i> e increíblemente encaja en el interior del hueco. \n La escritura de la tablilla comienza a emitir un destello amarillo brillante, hasta que finalmente la tablilla se incrusta en el interior del árbol y desaparece misteriosamente. \n\n Una gran raíz de árbol se mueve unos centímetros, dejando a la vista un pequeño agujero.
+Eventalbero8.button1,Continuar
+Eventalbero9.text,En el interior se esconde un libro: es un artefacto antiguo y poderoso \n\n Ganas el Objeto común {c:QItemdevermis}. \n\n Descarta la ficha de Interacción del lugar señalado. \n\n El investigador con el libro <i>De Vermis Mysteriis</i> puede interactuar con él a través de la aplicación.
+Eventalbero9.button1,Continuar
+EventDRUIDOMORTO.text,Le haces al druida el daño justo para poder reducirlo y que deje de atacarte. Ahora le intentas convencer para que hable contigo {influence}.
+Eventdruido4.text,Le enseñas la foto al hombre. Tal vez pueda reconocer a algunas de las personas que realizaron el ritual. El hombre coge la foto y la examina. \n\n —<i>Sí, las dos personas que se han vuelto locas son estas dos</i> —dice señalado con un dedo las figuras de James Marsh y Víctor Blake. \n\n Dicho esto, da por terminada la conversación y el druida se aleja hacia el interior del bosque. \n\n Ganas 2 Pistas {clue}.
+Eventdruido3.button2,Si NADIE tiene la «Prueba fotográfica»
+Eventdruido5.text,Termina la conversación y el druida desaparece en el bosque. \n\n Ganas 1 Pista {clue}.
+Eventdruido4.button1,Continuar
+Eventvicoli12.text,Una puerta de madera con un aire misterioso conduce al interior de una extraña tienda llamada «Curiosidades del Mundo». \n\n La otra puerta parece llevar a una especie de club social. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventdirettore14.button1,Continuar
+Eventmuseo12.text,Tardas poco en llegar al Museo de Arqueología de Arkham. \n\n Coloca los módulos {c:Tile28}, {c:Tile29} y {c:Tile30}, así como fichas de Puerta en los lugares señalados.
+Eventmuseo12.button1,Continuar
+Eventsalafurto3.text,La sala donde tuvo lugar el robo está ahora cerrada. \n Un cartel en la puerta dice «Cerrada por reformas».
+Eventsalafurto3.button1,Continuar
+Tokenbiblioteca.text,Una simple puerta de madera
+Tokenbiblioteca.button1,{action} Abrir
+Eventbiblioteca.text,La habitación que hay al otro lado de la puerta es un pequeño santuario de libros. Dos grandes estanterías rodean la habitación y una gran alfombra completa la decoración junto con un sillón de lectura. \n\n Coloca el módulo {c:Tile48} y una ficha de Pared en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventbiblioteca.button1,Continuar
+Eventbiblioteca0.text,En un rincón de la biblioteca hay una puerta de madera. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventbiblioteca0.button1,Continuar
+Tokenstudio.text,Una puerta de madera.
+Tokenstudio.button1,{action} Abrir
+Eventbiblioteca1.text,Entre los libros podría haber algo interesante \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventbiblioteca1.button1,Continuar
+Tokenincantesimo.text,Algunos libros apilados en la librería.
+Tokenincantesimo.button1,{action} Examinar
+Eventincantesimo.text,Prueba de {lore}.
+Eventincantesimo.button1,Continuar
+Eventincantesimo0.text,Buscas en los libros, página a página, pero no encuentras nada que te pueda valer. \n\n Descarta esta ficha de Búsqueda.
+Eventincantesimo0.button1,Continuar
+Eventincantesimo1.text,Entre los libros encuentras un pergamino con una escritura arcana. \n\n Ganas el Hechizo {c:QItem20}. A continuación descarta esta ficha de Búsqueda.
+Eventincantesimo1.button1,Continuar
+Eventstudio.text,Entras en un estudio bien equipado. Algunos rincones de la habitación están llenos de telarañas pero el resto está extrañamente bien conservado. \n\n Descarta esta ficha de Exploración.
+Eventstudio.button1,Continuar
+Eventstudio0.text,En la parte inferior de la pared hay un estante que contiene unas extrañas estatuas. Da la impresión de que hay un hueco vacío para otra estatua. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventstudio0.button1,Continuar
+Tokenidolo.button1,{action} Examinar
+Eventcalendario.text,La extraña piedra parece esconder un secreto. \n\n El investigador que posea el Objeto único <i>Calendario sideral</i> puede resolver el rompecabezas con {observation}.
+Eventstudio1.text,Un escritorio moderno y en buen estado. Puede que haya algo en los cajones. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventstudio1.button1,Continuar
+Tokenscrivania0.button1,{action} Examinar
+Eventscrivania0.text,Dentro de un cajón se encuentran algunas páginas arrancadas de un diario. \n\n Descarta esta ficha de Búsqueda.
+Eventpiano.text,Descubres que algunas teclas tienen números. \n\n Puedes intentar resolver el rompecabezas usando tu {agility}.
+Eventpiano.button1,Continuar
+Puzzle3.button1,Hecho
+Eventpiano0.text,Al parecer has encontrado la combinación correcta. \n\n La puerta del comedor se desbloquea. \n\n Descarta esta ficha de Exploración.
+Eventpiano0.button1,Continuar
+Eventpiano2.text,Descarta esta ficha de Búsqueda.
+Eventpiano2.button1,Continuar
+Eventpiano1.text,Das con la combinación correcta. \n Un cajón secreto se abre en un lateral del piano. \n Dentro hay un pequeño objeto. \n\n Ganas el Objeto común {c:QItem21}. A continuación descarta esta ficha de Búsqueda.
+Eventpiano1.button1,Continuar
+Tokenscrivania0.text,Un escritorio con varios cajones.
+Eventtavolino.button1,Continuar
+Eventscrivania0.button1,Si ALGUIEN tiene el «Diario de sectario»
+Eventtavolino.text,Sobre la mesa de café hay una tablilla de madera, con una sola palabra grabada en ella: «AYUDA». \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventpoltrona.button1,Continuar
+Eventpoltrona.text,Levantas la tela, que resulta ser una sábana, pero lamentablemente no encuentras nada debajo. \n\n Descarta esta ficha de Búsqueda.
+Eventrumore.button1,Continuar
+Tokenmensola.text,Una puerta abierta muestra algo que brilla en el interior del armario.
+Eventrumore.text,Echa un vistazo dentro del vestidor y te sorprendes cuando te encuentras con un gato negro que sale corriendo y se escabulle bajo el sofá del salón. \n\n Descarta esta ficha de Búsqueda. Coloca la ficha de Personaje Gato en el lugar señalado.
+Eventmensola.button1,Continuar
+Tokenscatole.text,Unas cajas en buen estado.
+Eventscatole.button1,Continuar
+Puzzle4.button1,Hecho
+Eventscatole0.text,Colocas la última caja. Ahora que todo parece estar en orden, descubres algo en el suelo. \n\n Ganas el Objeto común {c:QItem22}. A continuación descarta esta ficha de Búsqueda.
+Eventscatole0.button1,Continuar
+Eventidolo.text,Al parecer no tienes nada que pueda encajar en el hueco que hay.
+Eventidolo.button1,Continuar
+Eventidolo0.text,Te das cuenta de que las otras figuras son similares a una que ya posees. \n\n El investigador que posea el Objeto único <i>Ídolo Misterioso</i> puede colocarlo en el estante.
+Eventidolo0.button1,Usar el Ídolo misterioso
+Eventidolo0.button2,Cancelar
+Eventidolo1.text,Colocas el ídolo que falta en su ranura. Un compartimento secreto se abre en la pared cercana. \n Una pequeña vitrina revela una extraña piedra negruzca. \n\n Ganas el Objeto único {c:QItemcalendario}. \n Puedes examinarlo usando el menú del Objetos de la aplicación. \n\n A continuación descarta esta ficha de Búsqueda.
+Eventidolo1.button1,Continuar
+Tokenidolo.text,Un estante con algunas figuritas sobre ella. Parece que hay sitio para poner otra.
+Eventcalendario.button1,{action} Examinar
+Puzzle5.button1,Hecho
+Eventcalendario0.text,Una vez que el calendario está alineado observas algunos símbolos asociados con varios números: \n Una luna negra asociada con el 18 \n Un sol verde asociado con el 5 \n Una luna roja asociada con el 10 \n Un sol púrpura asociado con el 23 \n\n Ganas 1 Pista {clue}.
+Eventcalendario0.button1,Continuar
+Tokenlocale.text,La puerta de salida de la cafetería.
+Tokenlocale.button1,{action} Salir
+Tokenlocale0.text,La puerta lleva al exterior de la cafetería.
+Tokenlocale0.button1,{action} Salir
+Eventstrade0.button1,Continuar
+Eventstrade1.text,Desde la plaza se puede acceder a otras partes de la ciudad. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventTELEFONATA.button1,Continuar
+EventNOTTE.button1,Continuar
+Eventstrade0.text,En el exterior de la cafetería hay una acogedora plaza con una fuente. La luz de sol se refleja en el agua cristalina. No muy lejos hay un pequeño mercado lleno de gente. \n\n Coloca los módulos {c:Tile27}, {c:Tile49} y {c:Tile50} en el lugar señalado. \n\n Descarta las fichas de Exploración.
+Eventstrade1.button1,Continuar
+Eventstrade2.text,El mercado que hay a continuación de la plaza está lleno de puestos y rebosante de gente. Un hombre parece querer atraer tu atención. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventstrade2.button1,Continuar
+Tokenaiuto.button1,{action} Escuchar al hombre
+Eventstrade3.text,La fuente del centro de la plaza le da un aire de placidez al lugar. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Tokenaiuto.text,El hombre intenta llamar tu atención. Parece que necesita ayuda.
+Eventstrade3.button1,Continuar
+Tokenfontana.text,La fuente del centro de la plaza le da un aire de placidez al lugar.
+Tokenfontana.button1,{action} Examinar
+Eventstrade4.text,Cerca de la puerta de un edificio hay un barril. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventstrade4.button1,Continuar
+Tokenbarile0.text,Un gran barril de madera
+Tokenbarile0.button1,{action} Examinar
+UI19.uitext,Cafetería
+UItavolacalda.button1,button1
+Eventtavolacalda.text,Os encontráis de nuevo en la cafetería. \n\n Coloca el módulo {c:Tile0} en el lugar señalado.
+Eventtavolacalda.button1,Continuar
+Eventtavola.text,Coloca a los investigadores en el lugar señalado.
+Eventtavola.button1,Continuar
+Eventtavolanotte.text,Durante la noche no se puede visitar la cafetería.
+Eventaiuto.text,El hombre se presenta: \n\n—<i>Me llamo Bruce, y le agradecería que me ayudara. Perdí mi flauta, un antiguo instrumento hecho de huesos de mamut. Si la encuentra, le agradecería que me la devolviera. ¡Le recompensaré como es debido!</i>\n\n
+Eventaiuto.button1,—<i>La encontraré</i>.
+Eventaiuto0.text,El hombre se presenta: \n\n—<i>Me llamo Bruce, y le agradecería que me ayudara. Perdí mi flauta, un antiguo instrumento hecho de huesos de mamut. Si la encuentra, le agradecería que me la devolviera. ¡Le recompensaré como es debido!</i>\n\n El investigador que posea la <i>Flauta de huesos</i> puede dársela a Bruce.\n\n
+Eventaiuto0.button1,Entregar la Flauta
+Eventaiuto0.button2,Cancelar
+Eventaiuto1.text,El hombre te agradece que hayas encontrado su flauta. Como prometió, te da tu recompensa. \n\n Ganas el Objeto común {c:QItem23}. A continuación descarta esta ficha de Personaje.
+Eventaiuto1.button1,Continuar
+Eventfontana.text,El fondo de la fuente está lleno de monedas. La vieja costumbre de creer que tirando una moneda a la fuente tendrás buena suerte. \n Lanzas una moneda esperando que la suerte te sonría. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventfontana.button1,Continuar
+Eventbarile1.text,El barril está cerrado y sellado. Abrirlo con las manos desnudas es casi imposible. \n\n Un investigador que posea un Arma Pesada podría abrirlo.
+Eventbarile1.button1,Usar un arma pesada
+Eventbarile1.button2,Cancelar
+Eventbarile2.text,El barril está lleno de peces. Nada que te sirva. \n\n Descarta esta ficha de Búsqueda.
+Eventbarile2.button1,Continuar
+Eventtavolagiorno.button1,button1
+Eventtavolanotte.button1,Continuar
+Eventbecchino3.text,El sepulturero está ocupado en este momento y no tiene nada más que decirte.
+Eventbecchino3.button1,Continuar
+Eventmaniero1.text,La salida de la mansión. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventmaniero1.button1,Continuar
+Eventvictor8.text,Víctor sigue con su farsa, fingiendo los dolores.
+Eventvictor8.button1,Continuar
+Eventfascicoli5.text,James Marsh, varón caucásico, nacido el 4 de enero de 1890 en Arkham. Reside en el 34 de la calle Franklin. \n Afectado por un grave daño cerebral.\n\n Adjunta al archivo hay una foto con varias personas, con lo que parece ser la Universidad de Miskatonic de fondo. \n\n Reconoces la foto. Es la misma que se encuentra en la oficina del director. Ganas 1 Pista {clue}.
+Eventfascicoli5.button1,Continuar
+Eventquadri0.text,Los cuadros son todos los diplomas y honores ganados por el director durante sus años académicos. También puedes ver una foto de grupo con la legendaria Universidad de Miskatonic al fondo. \n\n Te das cuenta de que la foto es idéntica a la que viste en el manicomio. \n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventquadri0.button1,Continuar
+Eventdiario1.text,«<i>25 de junio de 2018.\n\n Algo salió mal. Adam se ha convertido en un monstruo. ¡Una criatura con escamas y aletas! Escapó al río. Tal vez ha perdido la cabeza. Víctor también está enloqueciendo. Está gritando cosas raras. Mi cabeza está a punto de explotar. ¡No sé qué hicimos mal! Tal vez no fue la noche correcta, o tal vez... \n espera... ¡Maldito sea! ¡Nos dio un libro falso! ¡¡¡Ese bastardo!!! \n Ah... me duele la cabeza. \n\n ¡Por suerte tengo mi amuleto alrededor del cuello! ¡Me protegerá! Como siempre... eso espero. \n\n ¡Oh, Dios mío! Me duele la cabeza...</i>». \n\n Ganas 1 Pista {clue}.
+Eventdiario1.button1,Continuar
+Eventdiario2.text,No hay más pistas en el diario.
+Eventdiario2.button1,Continuar
+Eventgatto2.button1,Continuar
+Eventgatto3.text,El pedazo de papel tiene el siguiente texto escrito: \n\n «Recuerda que la llave de la cocina abre el dormitorio». \n\n Ganas 1 Pista {clue}.
+Eventgatto3.button1,Continuar
+Eventtavola0.text,Un hombre fuerte y musculoso está sentado en una mesa bebiendo una gran jarra de gran cerveza. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventtavola0.button1,Continuar
+TokensospettoB.text,Un hombre fuerte y musculoso
+TokensospettoB.button1,{action} Hablar
+Eventalbero11.text,Pero no hay nada dentro de la cavidad. \n\n Recoges la extraña tablilla y la raíz se mueve para ocultar el agujero secreto de nuevo.
+Eventalbero11.button1,Continuar
+Eventsignore4.button2,Si ALGUIEN tiene la «Prueba concluyente»
+Eventsignore13.button1,Continuar
+Eventsignore13.text,Averiguaste quién perpetró el robo al museo, pero parece que alguien más está detrás de ello. La identidad del verdadero autor sigue oculta. \n Además, el libro se usará para algún «experimento». \n ¡Tu próximo objetivo será evitar que esto suceda! \n\n El director del museo quizá siga queriendo saber quién cometió el robo.
+EventsospettoB.text,El hombre está a punto de tomarse una cerveza cuando, visiblemente irritado por tu interrupción, te espeta: \n\n —<i>¡Es que no se puede uno beber una cerveza tranquilo! ¡Déjeme en paz! Estoy esperando alguien importante</i>.
+EventsospettoB.button1,Continuar
+EventsospettoB0.text,El hombre está a punto de tomarse una cerveza cuando, visiblemente irritado por tu interrupción, te espeta: \n\n —<i>¡Es que no se puede uno beber una cerveza tranquilo! ¡Déjeme en paz! Estoy esperando alguien importante</i>.
+EventsospettoB0.button1,Fingir que eres la persona que está esperando
+EventsospettoB1.text,Prueba de {influence}. \n\n Puedes añadir 1 {success} al resultado por cada <i>Prueba</i> que poseas.
+EventsospettoB1.button1,Continuar
+EventsospettoB2.text,\n—<i>En realidad no creo que pueda ser ella. Por favor, déjame en paz</i>.\n
+EventsospettoB2.button1,Continuar
+EventsospettoB3.text,Mientras te sientas en la misma mesa que el hombre, lo observas con atención.
+EventsospettoB3.button1,Si alguien tiene la «Prueba circunstancial»
+EventsospettoB3.button2,Si NADIE tiene la «Prueba circunstancial»
+EventsospettoB4.text,Tienes la impresión de que te has equivocado de persona. Te levantas de la mesa pidiéndole perdón al hombre.
+EventsospettoB4.button1,Continuar
+EventsospettoB5.text,Te fijas en que el hombre tiene una complexión fuerte y es bastante musculoso. Incluso el número de pie que calza parece ser muy grande. \n\n —<i>No creo que nos hayamos visto nunca. No sé quién es usted, pero será mejor que tenga un buen motivo</i> —te dice con un tono duro.
+EventsospettoB5.button1,Si alguien tiene la «Prueba concluyente»
+EventsospettoB5.button2,Si ALGUIEN tiene la «Prueba concluyente»
+EventsospettoB6.text,Examinas por segunda vez al hombre, esta vez con más detenimiento. Pero no adviertes ninguna herida en su cuerpo. \n\n Si posees los Objetos únicos <i>Prueba incriminatoria, Prueba circunstancial y Prueba concluyente</i> puedes acusar al sospechoso.
+EventsospettoB6.button1,Acusar
+EventsospettoB6.button2,Cancelar
+EventsospettoB7.text,Tus sospechas se basan en las pruebas que tienes en tu poder. Estás casi seguro de que el hombre estuvo involucrado en el robo del museo, aunque no estás del todo convencido. \n Acusas formalmente al hombre del robo del museo, que airadamente clama su inocencia. Está a punto de llegar a las manos contigo cuando le recuerdas un detalle. En el lugar del robo, se encontraron rastros de la sangre del culpable, pero este hombre no tiene heridas. Antes de que el furibundo hombre te maldiga hasta el día del juicio final, proclamas tu hondo pesar diciendo que te equivocaste y le compensarás por tu error. \n\n El duro golpe que ha supuesto cometer un error tan grave repercute en ti y en tu grupo. Cada detective pierde 4 Pistas {clue} y sufre 1 de Horror.
+EventsospettoB7.button1,Continuar
+EventsospettoB8.text,El hombre está a punto de tomarse una cerveza cuando, visiblemente irritado por tu interrupción, te espeta: \n\n —<i>¡Es que no se puede uno beber una cerveza tranquilo! ¡Déjeme en paz! Estoy esperando alguien importante</i>.
+EventsospettoB8.button1,Continuar
+Eventinfermiera.text,La mujer es muy poco habladora y te mira de forma amenazadora. Su única recomendación es que no vayas más allá de la puerta de la sala de espera. Sólo se permite entrar al personal.
+Eventinfermiera.button1,Si alguien tiene la «Prueba circunstancial»
+Eventinfermiera.button2,Si NADIE tiene la «Prueba circunstancial»
+Eventinfermiera0.text,El físico de la enfermera coincide con la descripción del sospechoso del robo.
+Eventinfermiera0.button1,Si alguien tiene la «Prueba concluyente»
+Eventinfermiera0.button2,Si ALGUIEN tiene la «Prueba concluyente»
+Eventinfermiera1.text,No tienes ninguna otra evidencia para hacer una acusación concreta.
+Eventinfermiera1.button1,Continuar
+Eventinfermiera2.text,La enfermera tiene un gran corte muy visible en su brazo derecho. \n\n Si posees los Objetos Únicos <i>Prueba incriminatoria, Prueba circunstancial y Prueba concluyente </i> puedes acusar al sospechoso o sospechosa.
+Eventinfermiera2.button1,Acusar
+Eventinfermiera2.button2,Cancelar
+Eventinfermiera3.text,Tus sospechas se basan en las pruebas que tienes en tu poder. Estás casi seguro de que la mujer estuvo involucrada en el robo del museo, aunque no estás del todo convencido. \n Acusas formalmente a la enfermera del robo del museo, que afirma airadamente su inocencia. \n\n —<i>Imposible, se equivoca. Nunca podría haber sido yo. ¡Estaba trabajando ese día y mis pacientes y colegas pueden confirmarlo!</i> \n\n Vuelves a examinar las pistas que tienes en tu poder, cuando recuerdas un detalle: el culpable tuvo que reunirse en un bar por la noche. \n\n El duro golpe que ha supuesto cometer un error tan grave repercute en ti y en tu grupo. Cada detective pierde 4 Pistas {clue} y sufre 1 de Horror.
+Eventinfermiera3.button1,Continuar
+Eventinfermiera4.text,La mujer es muy poco habladora y te mira de forma amenazadora. Su única recomendación es que no vayas más allá de la puerta de la sala de espera. Sólo se permite entrar al personal.
+Eventinfermiera4.button1,Continuar
+Eventstranotipo10.text,\n—<i>¡Oh, saludos! Bienvenido a mi humilde tienda. Permítame presentarme. Soy el «Mercader de las rarezas». ¡Todo lo que encuentre en mi tienda no lo encontrará en ningún otro lugar! ¡Objetos de todo el mundo, artefactos raros, adornos religiosos de antiguas civilizaciones, piedras preciosas de las selvas perdidas de Sudamérica! Y bien ¿en qué puedo ayudarle?</i>\n
+Eventstranotipo10.button1,—<i>Nada, gracias</i>.
+EventMORTECULTO0.text,¡El hombre que está detrás de todo esto es Eugene Clemens, el director del museo! En su cuerpo también encuentras un libro. \n\n Ganas el Objeto único {c:QItemdevermis}.
+EventMORTECULTO0.button1,Continuar
+EventRITUALECOMPIUTO.button1,Continuar
+Eventreception0.text,\n—<i>No tengo ni idea de dónde puede estar el director, ¡hoy no lo he visto siquiera!</i>\n
+Eventreception0.button1,Continuar
+Eventdirezione7.text,La puerta está cerrada con llave.
+Eventdirezione7.button1,Continuar
+Eventdruido5.button1,Continuar
+UI17.uitext,La ciudad de Arkham está a salvo. \n FELICIDADES \n Habéis completado el escenario de la mejor manera posible, \n encontrando a quien robó el libro y derrotando a la secta.
+UI21.uitext,Continuar
+UI21.button1,button1
+UI23.uitext,Eugene Clemens era el líder de una secta secreta, junto con James Marsh y Víctor Blake. \n La foto en la oficina del director es la primera prueba. También estuvieron presentes otros miembros, de los cuales sólo conoces la identidad de uno: el monstruo del muelle, Adam McGwenty. \n James, Víctor y Adán de hecho trataron de convocar a una criatura, pero se equivocaron en el ritual, fallando en la fecha correcta y en el libro original (libro que les fue dado por Eugene y que él sabía que no era el original). Así que el ritual se volvió contra ellos y se volvieron locos como resultado del mismo, convirtiendo a Adam en un monstruo. \n Eugene quería repetir el ritual para convocar a la criatura y obtener todo el poder para él solo. Lo que necesitaba era el libro original: el «De Vermis Mysteriis», que pertenecía al museo.\n Al no poder robarlo, ideó la escenificación del robo, contratando a un vulgar ladrón \n de medio pelo del barrio, para estar fuera de toda sospecha. \n Habiendo obtenido el libro y sabiendo la fecha exacta para realizar el ritual, sólo le faltaba \n convocar a la criatura.
+UI24.uitext,FIN
+UI25.uitext,La ciudad de Arkham está a salvo. \n FELICIDADES \n Habéis completado el escenario, pero no habéis encontrado al ladrón del museo. Pulsa el botón de «Continuar» para conocer la historia completa.
+UI26.uitext,La ciudad de Arkham está a salvo. \n FELICIDADES \n Derrotasteis a la criatura, pero dejasteis que los sectarios se escapasen. Pulsa el botón de «Continuar» para conocer la historia completa.
+UI29.uitext,El grupo está molesto por la pérdida de un compañero. \n La investigación no termina como esperabais. \n\n Arkham se sumergirá en un caos total, \n envuelta en muerte y destrucción. \n\n\n FIN
+UI29.button1,button1
+Eventaiuto2.text,La librera te está esperando. \n\n —<i>Sí, en efecto necesita mi ayuda.</i> \n\n Si aceptas, obtendrás el control de un nuevo Investigador.
+Eventaiuto2.button1,Aceptar
+Eventaiuto2.button2,Cancelar
+Eventaiuto3.text,\n—<i>¡Oh, pero no necesita mi ayuda! </i> —exclama—<i> Ya tiene usted más que suficiente. Lo hará bien por su cuenta</i>.\n
+Eventaiuto3.button1,Continuar
+Eventaiuto4.text,Descarta la ficha de Personaje del lugar señalado. \n\n A partir de ahora tomas el control de la investigadora Mandy Thompson. \n Coloca su miniatura en el mismo espacio que ocupaba la ficha de Personaje que acabas de descartar. La nueva investigadora termina su turno inmediatamente.
+Eventaiuto4.button1,Continuar
+Eventaiuto5.text,Descarta la ficha de Personaje del lugar señalado. \n\n A partir de ahora tomas el control de la investigadora Carolyn Fern. \n Coloca su miniatura en el mismo espacio que ocupaba la ficha de Personaje que acabas de descartar. La nueva investigadora termina su turno inmediatamente.
+Eventaiuto5.button1,Continuar
+Eventragazza2.button1,Preguntar sobre el robo
+Eventragazza2.text,Te acercas con discreción. Casi odias interrumpir a la joven que parece absorta en su lectura. \n Pero se da cuenta de tu presencia justo antes de que empieces a hablar. \n\n —<i>No es de buena educación el espiar a las jovencitas mientras leen, ¿no le parece? ¿Necesita algo?</i>\n
+Eventprogenie.text,Mientras vuestras mentes se debaten entre la locura y la desesperación, los tres sectarios logran escapar aprovechando la llegada del Lloigor. \n\n Descarta las miniaturas de los sectarios.
+Eventprogenie.button1,Continuar
+Eventaiuto7.text,Averiguas que la librera tiene una gran experiencia en todo lo concerniente al ocultismo y especialmente a los rituales. \n\n Si es necesario, podrías pedirle ayuda. \n\n Aunque en este momento no necesitas su ayuda.
+Eventaiuto7.button1,Continuar
+Eventdevermis.text,El libro ha sido usado para invocar a la gigantesca criatura que está destruyendo la ciudad de Arkham. \n En sus páginas interiores también se explica cómo interrumpir el ritual y expulsar a la criatura convocada: \n\n Para realizar el contraritual es necesario que participen al menos dos investigadores, que deben estar en posesión de los <i>Componentes de Ritual</i> y el libro «De Vermis Mysteriis». Además, tienen que estar en el mismo lugar que la criatura impura. \n Si estás solo, no te preocupes, podrás pedir ayuda a un personaje de la trama. \n Podrás encontrar a esa persona en los callejones.
+Eventdevermis.button1,{action} Todos los requerimientos cumplidos
+Eventdevermis.button2,Cancelar (falta al menos uno de los requisitos)
+Eventforesta28.text,La vegetación se hace más tupida a medida que avanzas. El camino casi ha desaparecido por completo cuando observas que termina en un claro en medio de los árboles. Un altar de piedra preside el lugar. \n\n Coloca los módulos {c:Tile51} y {c:Tile18}. A continuación descarta esta ficha de Vistazo.
+Eventforesta28.button1,Continuar
+EventRITUALECOMPIUTO.text,El cielo sobre ti se oscurece de repente. \n Los truenos y relámpagos comienzan a extenderse por toda la zona, los destellos de luz verdes y azules se alternan con estallidos ensordecedores similares a explosiones. \n Un rayo de luz rojizo parece venir del bosque, elevándose hacia el cielo. Después de unos momentos, todo se calma de golpe. \n El cielo permanece nublado y ahora todo parece estar en silencio. \n El silencio se rompe con el grotesco grito de una criatura repugnante. \n\n En algún lugar de la ciudad se ha realizado un ritual invocando a una criatura malvada para que entre en nuestro mundo. \n Debes eliminarla antes de que destruya la ciudad y el tiempo apremia. La criatura deambula sin rumbo fijo por campo abierto.
+Eventfurto3.text,No encuentras nada útil en este momento.
+Eventfurto3.button1,Continuar
+EventcameraB0.text,Abres la puerta y entras en una pequeña habitación completamente vacía. Sólo hay un armario en una pared. \n\n Descarta esta ficha de Exploración.
+EventcameraB0.button1,Continuar
+EventcameraB1.text,Un gran armario se encuentra en la pared sur. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventcameraB1.button1,Continuar
+Tokenarmadio.text,Un gran armario de madera.
+Tokenarmadio.button1,{action} Examinar
+Eventarmadio.text,Abres el armario y miras dentro. Sólo hay ropa, posiblemente perteneciente al difunto James Marsh. \n\n Ganas el Objeto común {c:QItem24}\n\n Descarta esta ficha de Búsqueda.
+Eventarmadio.button1,Continuar
+Eventbambina3.text,Vacilas durante un momento antes de sacar el símbolo que estabas buscando. Lo pones delante de la criatura, que se inclina para recogerlo. \n\n —<i>Gracias</i>—dice la criatura con voz sombría.\n\n La criatura comienza a asumir una forma humana y etérea, hasta que aparece a tus ojos como un fantasma. \n\n —<i>No confíes en la gente que parecen ser tus amigos, uno de ellos me traicionó. Y por culpa de él estoy ahora condenado y perdí a mis compañeros. Uno acabó loco y el otro convertido en una horrible criatura acuática. No sabíamos que necesitábamos el libro correcto</i>. \n\n Descarta el Emblema de sectario. \n\n —<i>Ahora necesito averiguar si puedo confiar también en usted. Si es cierto que me conoce, entonces responderá de forma correcta</i>—hace una pausa—. <i>¿Cuándo he muerto? </i>
+Eventbambina3.button1,26/08/1929
+Eventbambina3.button2,29/06/1928
+Eventbambina3.button3,28/06/1929
+Eventbambina3.button4,26/09/1929
+Eventbambina3.button5,28/09/1929
+Eventbambina4.text,\n—<i>Tal vez pueda confiar en alguien. Tome, esto le ayudará. En el bosque hay un gran árbol: ésta es la clave para acceder a sus secretos</i>. \n\n Ganas el Objeto Único {c:QItemtavoletta} \n\n Después de esto, el fantasma se desvanece en el aire. \n Descarta el Ángel descarnado de la noche.\n
+Eventbambina4.button1,Continuar
+Eventstrade5.button1,Continuar
+Eventstrade5.text,Al otro lado de la plaza hay una antigua iglesia gótica. Una gran puerta de metal parece ser la única forma de entrar. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Tokenchiesa.text,La puerta principal de la iglesia
+Tokenchiesa.button1,{action} Entrar
+Eventchiesa.text,La pequeña iglesia huele a incienso. La luz en su interior es suave y cálida y el silencio parece casi surrealista. \n\n Coloca el módulo {c:Tile52}. A continuación descarta esta ficha de Búsqueda.
+Eventchiesa.button1,Continuar
+Eventchiesa0.text,Una puerta en el lado norte lleva a la torre de la iglesia. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventchiesa0.button1,Continuar
+Eventchiesa1.text,Un precioso altar de mármol se encuentra al final de la iglesia. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventchiesa1.button1,Continuar
+Tokenaltarechiesa.text,Un precioso altar de mármol.
+Tokenaltarechiesa.button1,{action} Examinar
+Eventchiesa2.text,En uno de los bancos parece haber algo \n\n Coloca el Objeto común {c:QItem25} en el lugar señalado.
+Eventchiesa2.button1,Continuar
+Eventaltarechiesa.button1,Continuar
+Eventaltarechiesa.text,Prueba de {lore}. \n\n Añade 2 {success} al resultado de la tirada si tu investigador es el Padre Mateo, la hermana Mary, William Yorick o Diana Stanley.
+Eventaltarechiesa0.text,Examinas los objetos que están sobre el altar. También hay un gran libro, pero no crees que haya algo que puedas usar. \n\n Descarta esta ficha de Búsqueda.
+Eventaltarechiesa0.button1,Continuar
+Eventaltarechiesa1.text,Echas un vistazo al altar y encuentras un libro que puede serte útil. \n\n Ganas el Objeto común {c:QItem26}. A continuación descarta esta ficha de Búsqueda.
+Eventaltarechiesa1.button1,Continuar
+Tokencampanile.text,Una puerta de madera conduce al campanario de la iglesia.
+Tokencampanile.button1,{action} Abrir
+Eventcampanile.text,Una escalera de caracol que atraviesa la pequeña torre. Al final de la escalera hay una pequeña habitación donde está una campana de gran tamaño. \n\n Coloca el módulo {c:Tile53}. \n\n Descarta esta ficha de Exploración.
+Eventcampanile.button1,Continuar
+Eventcampanile0.text,Unas bolsas de arpillera colocadas al lado de la escalera. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcampanile0.button1,Continuar
+Tokensacchi.text,Unas bolsas de arpillera
+Tokensacchi.button1,{action} Examinar
+Eventsacchi.text,Revisas las bolsas para ver si hay algo útil. \n Dentro de ellas sólo hay trigo y harina. \n Nada útil, en cualquier caso. \n\n Descarta esta ficha de Búsqueda.
+Eventsacchi.button1,Continuar
+Eventchiesa3.text,El párroco de la iglesia se encuentra cerca del altar. \n\n Coloca la ficha de Personaje en el lugar señalado.
+Eventchiesa3.button1,Continuar
+Tokenparroco.text,El párroco de la iglesia. Un hombre calvo de cincuenta años vestido con la típica túnica de sacerdote.
+Tokenparroco.button1,{action} Hablar
+Eventparroco.text,El sacerdote le da la bienvenida amablemente. \n\n —<i>¿Qué puedo hacer por usted?</i>
+Eventparroco.button1,Pedirle su bendición
+Eventparroco.button2,Nada
+Eventparroco0.text,El párroco levanta las manos al cielo e invoca la bendición del Señor. \n\n Adquieres el estado <i>Concentrado</i>.
+Eventparroco0.button1,Continuar
+Eventdiario3.text,Las páginas del Diario describen un ritual: \n\n «Esto es lo que se necesita: \n 1) El "De Vermis Mysteriis", el libro mágico que permite invocar criaturas de otro universo. \n 2) Unos componentes que suministran los fundadores del culto. \n 3) Tres personas tendrán que recitar juntos los versos del libro para realizar el ritual. \n 4) La llamada de la criatura sólo puede tener lugar en la noche de la Luna de Sangre. \n\n Tenemos un calendario para este propósito y hemos descifrado la fecha correcta. Ahora su secreto está escondido en las paredes de la casa de Marsh, pero hemos perdido la llave para acceder a ella». \n\n Ganas 2 Pistas {clue}.
+Eventdiario3.button1,Continuar
+Eventbibli1.text,\n—<i>No tengo ni idea de quién pudo haberlo hecho. El museo siempre ha tenido un gran número de visitantes. Podría haber sido cualquiera</i>.\n
+Eventbibli1.button1,—<i>Gracias por su ayuda</i>
+Eventscrivania0.button2,Si NADIE tiene el «Diario de sectario»
+Eventscrivania1.button1,Continuar
+Eventscrivania2.text,Las páginas del Diario describen un ritual: \n\n «Esto es lo que se necesita: \n 1) El "De Vermis Mysteriis", el libro mágico que permite invocar criaturas de otro universo. \n 2) Unos componentes que suministran los fundadores del culto. \n 3) Tres personas tendrán que recitar juntos los versos del libro para realizar el ritual. \n 4) La llamada de la criatura sólo puede tener lugar en la noche de la Luna de Sangre. \n\n Tenemos un calendario para este propósito y hemos descifrado la fecha correcta. Ahora su secreto está escondido en las paredes de la casa de Marsh, pero hemos perdido la llave para acceder a ella». \n\n Ganas 2 Pistas {clue}.
+Eventscrivania1.text,El Diario de sectario ha sido actualizado con nuevos elementos. El investigador que lo posea puede interactuar con él a través de la aplicación.
+Eventscrivania2.button1,Continuar
+Eventmolo25.text,Puedes echarle un vistazo a la caseta abandonada. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmolo25.button1,Continuar
+Tokencapanno1.text,El interior de la caseta es frío y húmedo. Las paredes se caen a pedazos y el olor a animales muertos hace que el lugar sea nauseabundo.
+Tokencapanno1.button1,{action} Examinar
+Eventmolo26.text,Entre los botes encuentras algo: el cadáver en descomposición de un gran pez espada. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmolo26.button1,Continuar
+Tokencarcassa.button1,{action} Examinar
+Eventcapanno6.text,Hay bastantes cosas dentro, entre ellas hay ropa, probablemente de un hombre. Examinando las prendas de ropa encuentras que presentan varios desgarros, como si las usase una persona varias tallas más grande. En uno de los bolsillos encuentras también un documento que muestra la identidad del dueño de la ropa. Un tal Adam. \n\n Ganas 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+Tokencarcassa.text,El cadáver en descomposición de un gran pez.
+Eventcapanno6.button1,Continuar
+Eventcarcassa.text,Prueba de {observation}. \n Es una prueba acumulativa.
+Eventcarcassa.button1,Continuar
+Eventcarcassa0.text,No ves nada destacable.
+Eventcarcassa0.button1,Continuar
+Eventcarcassa1.text,Examinas el pez con cuidado: reúnes valor para sujetarlo entre tus manos y examinar sus entrañas. Casi no te crees los que estás viendo cuando encuentras entre las tripas del pez una pequeña llave. \n\n Sufres 1 de Horror boca abajo. \n\n Ganas el Objeto único {c:QItemchiaveoro}. A continuación descarta esta ficha de Búsqueda.
+Eventcarcassa1.button1,Continuar
+Eventlab2.text,El armario que hay entre las dos puertas está medio abierto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventlab2.button1,Continuar
+Tokenarmadietto.button1,Continuar
+Eventportalab0.text,Abres la puerta y entras en una pequeña habitación que sirve como almacén de materiales. \n\n Coloca el módulo {c:Tile55} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Tokenarmadietto.text,Una taquilla con una puerta abierta.
+Eventportalab0.button1,Continuar
+Tokenportalab.text,Una puerta de madera.
+Eventportalab1.button1,Continuar
+Tokenricerca.text,Tal vez podría haber algo escondido entre las cajas y contenedores esparcidos por la estancia. Echas un vistazo {observation}.
+Tokenricerca.button1,{action} Examinar
+Eventricerca.button1,Continuar
+Eventricerca0.text,Pierdes unos minutos buscando algo que te pueda ser útil. Finalmente encuentras algo. \n\n Ganas el Objeto común {c:QItem27}. A continuación descarta esta ficha de Búsqueda.
+Eventricerca.text,Registras toda la habitación, pero no encuentras nada útil. \n\n Descarta esta ficha de Búsqueda.
+Eventricerca0.button1,Continuar
+Eventcimitero17.text,\n—<i>¡¡Por aquí!! </i>\n\n Reconoces la voz del hombre. Es el que llamó por teléfono. Parece que está al otro lado del cementerio.\n
+Eventcimitero17.button1,Continuar
+SpawnAPPARIZIONE.text,Una criatura aterradora se materializa de repente ante ti. Una abominación de otro mundo. ¡Esta es la criatura que ha sido invocada por el ritual! \n\n Coloca un Lloigor en el mismo espacio que la ficha de Exploración que es la salida. \n\n Destruir esta criatura con armas ordinarias puede resultar inútil. Debes encontrar la manera de mandar de nuevo fuera de nuestro mundo a esta criatura.
+Eventcimitero18.text,La llamada telefónica que recibiste te ha parecido muy preocupante. Llegas al cementerio y aunque ya es casi de madrugada, la cancela está abierta.
+Eventcimitero18.button1,Continuar
+Eventcaso.text,Un hombre vestido con un largo impermeable parece estar esperando a alguien. A su lado parece haber algo. \n\n —<i>¡Por aquí! ¡Menos mal que ha venido!</i> \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventcaso.button1,Continuar
+Tokenmisterioso.text,El hombre del teléfono. A su lado parece haber un extraño objeto de procedencia mística.
+Tokenmisterioso.button1,{action} Hablar
+Eventcaso0.text,El hombre misterioso mira a su alrededor, sospechando. \n\n —<i>Nadie le ha seguido, ¿verdad? ¿Está solo?\n\n Asientes con la cabeza y respondes a su pregunta. \n\n —<i>¡Bien, bien! ¿Ve lo que tengo a mi lado, en el suelo? </i>—el hombre señala lo que parece un cofre de piedra—. <i>Aquí está, me las arreglé para conseguir este cofre de una banda de delincuentes. Sospecho que se dedican al contrabando de artefactos antiguos o algo así. Pero me están buscando y no puedo quedármelo más tiempo</i>.
+Eventcaso0.button1,Continuar
+Eventcaso1.text,\n—<i>Tengo que deshacerme de esta cosa. Si me encuentran, seguramente se lo llevarán, pero en sus manos estará más segura, ¡y nunca le buscarán a usted!</i> —el rostro del hombre palidece cuando el sonido de un coche atrae su atención—. <i>¡Podrían ser ellos, no puedo quedarme más tiempo aquí! ¡Dese prisa, cójalo y lárguese de aquí corriendo! ¡Los distraeré mientras usted se da a la fuga! \n\n Ganas el Objeto único {c:QItemscrigno}. \n El investigador que recibe el Objeto único {c:QItemscrigno} puede interactuar con él a través de la aplicación. \n\n Descarta la ficha de Personaje.
+Eventcaso1.button1,Continuar
+Eventscrigno.text,Un cofre de piedra dejado por un misterioso hombre. Nadie sabe qué secretos hay en su interior. Parece que hay varios mecanismos que bloquean su apertura e incluso una pequeña cerradura de plata. \n\n El investigador que posea el Objeto único <i>Cofre de piedra</i> puede intentar abrirlo.
+Eventscrigno.button1,{action} Resolver el PRIMER rompecabezas usando {lore}
+Eventscrigno.button2,{action} Resolver el SEGUNDO rompecabezas usando {will}
+Eventscrigno.button3,{action} Usar la Llave de plata
+Puzzle6.button1,Hecho
+Eventscrigno1.text,La primera combinación ha sido resuelta.
+Eventscrigno0.button1,Continuar
+Eventscrigno1.button1,Continuar
+Puzzle7.button1,Hecho
+Eventscrigno2.button1,button1
+Eventscrigno3.text,La segunda combinación ha sido resuelta.
+Eventscrigno3.button1,Continuar
+Eventscrigno4.text,Se necesita una Llave de plata que nadie tiene.
+Eventscrigno4.button1,Continuar
+Eventscrigno5.text,La llave de plata encaja perfectamente en la cerradura. \n\n Descarta el Objeto único <i>Llave de plata</i>.
+Eventscrigno5.button1,Continuar
+Eventscrigno6.text,La llave de plata ya está metida en la cerradura.
+Eventscrigno6.button1,Continuar
+Eventscrigno7.text,Logras combinar los tres cierres y desbloqueas la apertura del cofre. \n\n Hay algo verdaderamente extraordinario en su interior: \n Es un cráneo humano hecho de un desconocido material negro brillante que parece palpitar con luz propia. No tienes ni idea del posible valor de esta maravilla, pero eres consciente de que este objeto no puede permanecer en las manos equivocadas. Tal vez alguien con más experiencia en esta materia podría arrojar algo de luz sobre el origen de este artículo en particular. \n\n Ganas el Objeto único {c:QItemteschio}. Este Objeto representa al cráneo negro.
+Eventscrigno7.button1,Continuar
+Eventragazza2.button2,Preguntar sobre el cráneo
+Eventragazza3.button1,Contarle la historia.
+Eventragazza3.text,Cuando le hablas de la calavera negra, la joven no parece creerse la historia, pero cuando le muestras el arcaico artefacto se le queda una cara con una mueca que es una mezcla de estupor e incredulidad. \n\n —<i>No es posible, ¿cómo la ha conseguido?</i>
+Eventragazza5.text,Te acercas con discreción. Casi odias interrumpir a la joven que parece absorta en su lectura. \n Pero se da cuenta de tu presencia justo antes de que empieces a hablar. \n\n —<i>No es de buena educación el espiar a las jovencitas mientras leen, ¿no le parece? ¿Necesita algo?</i>
+Eventragazza5.button1,Preguntar sobre el cráneo negro
+Eventragazza4.text,\n—<i>¡Increíble! ¿Tiene idea siquiera de lo que es? No, ¿verdad? Entonces escuche con atención. Parece ser el cráneo del «Faraón Negro». Tiene un valor incalculable y se dice que tiene inmensos poderes. Aunque nadie sabe lo que es ni qué poderes tiene en realidad. \n\n Cada investigador gana 3 Pistas {clue}.\n
+Eventragazza4.button1,Continuar
+EventRESSURREZIONE.button1,Continuar
+EventRESSURREZIONE.text,El cráneo negro que llevas contigo comienza a iluminarse y a emitir una luz azulada intermitente. \n El poder del cráneo se manifiesta ante ti. \n\n {rnd:hero} descarta todo el Daño y el Horror, incluyendo cualquier estado de Herido o Loco. \n\n Un monstruo al azar sufre 20 de Daño.
+Token15.button1,button1
+Eventsegreto0.button1,Continuar
+Eventcircolo1.text,El pequeño club consta de dos salas de reducido tamaño: la sala principal con una gran mesa en el centro y otra sala presidida por una mesa de billar. \n\n Coloca los módulos {c:Tile57} y {c:Tile58}. \n\n A continuación descarta esta ficha de Exploración.
+Eventpassaggio.text,En medio de una pequeña mesa hay una llave con una etiqueta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpassaggio.button1,Continuar
+Tokensegreto.text,Una llave con una nota.
+Tokensegreto.button1,{action} Recoger
+Eventsegreto.text,La nota dice: \n\n «Llegará el momento en que deberás usarme». \n\n Ganas el Objeto único {c:QItemchiaveargento} \n\n Descarta esta ficha de Búsqueda.
+Eventsegreto.button1,Continuar
+Tokencircolo.text,Una puerta de madera del club «Sólo para ricos». \n Una placa al lado de la puerta indica que tiene horario de apertura nocturno.
+Tokencircolo.button1,{action} Abrir
+Eventcircolo.text,La puerta está cerrada con llave. El club sólo abre de noche.
+Eventcircolo.button1,Continuar
+Eventcircolo0.text,Llamas a la puerta esperando que la abran. A través de una pequeña mirilla en la puerta, puedes ver un par de ojos que se clavan en ti. \n\n —<i>No parece la clase de persona apropiada para un sitio como este. ¡Esfúmese!</i> \n\n El investigador que posea el Objeto común <i>Ropa Elegante </i> o que se haga pasar por Preston Fairmont o Jenny Barnes puede entrar en el club.
+Eventcircolo0.button1,Tienes el Objeto común <i>Ropa elegante</i>.
+Eventcircolo0.button2,Fingir que eres Preston Fairmont o Jenny Barnes.
+Eventcircolo0.button3,Cancelar
+Eventsegreto0.text,¡Un pasadizo secreto! ¡Parece que nadie se había dado cuenta! \n\n Coloca el módulo {c:Tile56}. A continuación descarta la ficha de Pared del lugar señalado.
+Eventcircolo1.button1,Continuar
+Eventcontrorituale.text,Pones los componentes del ritual frente a ti mientras comienzas a recitar los versos del contraritual. \n La criatura que tienes delante comienza a ralentizarse mientras un pequeño portal se abre sobre ella. \n\n La criatura es absorbida en un abrir y cerrar de ojos y desaparece de tu vista. \n Todo está en silencio. \n El cielo se ilumina y todo está en calma otra vez.
+Eventcontrorituale.button1,Continuar
+UI32.uitext,A pesar de vuestros esfuerzos e intentos por salvar la ciudad, \n la criatura invocada con el ritual ha destruido todo lo \n que había a su paso. No queda nada de la ciudad, e incluso \n ahora vuestras vidas dejarán de existir. \n\n \n FIN
+Eventcircolo2.text,El club parece medio desierto y sólo una persona se interesa por ti cuando entras. \n\n Coloca las fichas de Personajes en los lugares señalados.
+Eventcircolo2.button1,Continuar
+Token67.text,Un elegante joven está jugando en solitario al billar.
+Token67.button1,Continuar
+Tokenriccone.button1,{action} Hablar
+Eventriccone.text,<i>—¿Qué quiere saber?</i>
+Token65.text,Un caballero leyendo el periódico.
+Token65.button1,Continuar
+Token18.text,Es el hombre que te abrió la puerta. Parece ser el menos rico de todos.
+Token18.button1,Continuar
+Eventcircolo3.text,\n —<i>¡Por favor, por favor! Bienvenido. Siempre es agradable ver a gente de cierto nivel, ya sabes a lo que me refiero... </i>—el hombre que te da la bienvenida parece ser el que tiene más autoridad en la sala—. <i>Sí, lo sé, parece extraño que haya tan poca gente, pero verá, uno de nuestros miembros ha desaparecido y muchos temen por sus vidas... prefieren quedarse en casa a salvo</i>.\n
+Eventcircolo3.button1,Continuar
+Tokenriccone.text,El hombre que te ha recibido con tanto entusiasmo.
+Eventriccone.button1,Acerca de los otros miembros del club
+Eventriccone.button2,Acerca del hombre desaparecido
+Eventriccone0.text,\n—<i>Como puede ver, sólo quedamos unos pocos. Soy Howard, y este que está ahí sentado es el viejo Sergei, y Tom, el de la mesa de billar. Somos clientes habituales. A veces venían James y Víctor, nuestro amigo desaparecido.\n
+Eventriccone0.button1,El hombre desaparecido
+Eventriccone1.text,\n—<i>Su nombre es Adam McGwenty. Rara vez venía. Prefirió quedarse en los muelles, ya sabe, tiene muchas propiedades allí, incluyendo el viejo almacén y algunos barcos.\n
+Eventriccone1.button1,Continuar
+Eventriccone2.text,\n—<i>Oh, ahora que lo pienso, dejó algo aquí hace unos días... Aquí...</i> —el hombre recoge una vieja maleta de cuero de un rincón y la pone sobre la mesa—. <i>Desafortunadamente no tenemos la llave, probablemente Adam la tenía</i> —el hombre señala con el dedo la cerradura dorada que cierra la maleta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventriccone2.button1,Continuar
+Tokenvaligia.text,Una vieja maleta de cuero. Tiene un cierre dorado que impide que se abra.
+Tokenvaligia.button1,{action} Abrir
+Eventvaligia.button1,Continuar
+Eventvaligia0.text,El investigador que posea la <i>{c:QItemchiaveoro}</i> puede usarla para abrir la maleta.
+Eventvaligia.text,No tienes la llave para abrirla.
+Eventvaligia0.button1,Usar la <i>Llave de oro</i>
+Eventvaligia0.button2,Cancelar
+Eventvaligia1.text,Desbloqueas la cerradura y la maleta se abre lentamente. \n Dentro, sin embargo, sólo hay hojas y documentos. \n Incluso el hombre que te recibió parece no estar conforme. \n\n —<i>Bah, todo cosas inútiles. Puede llevárselo si quiere, al fin y al cabo era usted el que tenía la llave. Adam probablemente se ahogaría en algún sitio. No creo, de todos modos, que venga a reclamar el contenido de esta maleta...</i>
+Eventvaligia1.button1,Continuar
+Eventvaligia2.text,Mientras revisas los documentos, das con un papel escrito en un peculiar alfabeto. Tal vez esa página pueda ser útil. \n\n Ganas el Objeto único {c:QItem28} \n\n En el fondo de la maleta también encuentras unos fajos de billetes. Ganas 5 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+Eventvaligia2.button1,Continuar
+Eventcircolo4.text,Sobre la mesa está la vieja maleta de cuero. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcircolo4.button1,Continuar
+Spawn4.text,Un montón de huesos andantes se dirige hacia ti. \n\n Coloca un monstruo {c:Spawn4} en el lugar señalado.
+Spawn4.button1,Continuar
