@@ -1,0 +1,631 @@
+.,Spanish
+quest.name,La ciudad bajo la niebla - Segunda parte (v1.6)
+quest.description,\n Escapar de la oscuridad de la ciudad sólo ha supuesto un respiro momentáneo. \n Te has perdido y no encuentras el camino, aunque jurarías que ibas en la dirección correcta. \n\n Has visto a los niños y están vivos, pero ¿y qué? Están en ese lugar maldito. \n ¿Vas a intentar encontrarlos? \n¿O acaso vas a buscar una manera de escapar? \n\n La elección es tuya.\n\n De 2 a 5 investigadores.
+quest.authors,\n\n Creado por: <i>Maciej King.</i> \n\n Traducido por: <i> Richar y Vidimus</i>. \n\n
+UI1.uitext,Continuar
+UItekst1.uitext,Corres tan rápido como te permiten tus piernas.\n Dejas atrás casas, calles, árboles, coches abandonados... \n hasta que llega un momento en el que de repente \n te ves envuelto por la oscuridad. \n\n Y con la oscuridad rodeándote pierdes el conocimiento.
+UI1.button1,Continuar.
+UI2.uitext,Continuar
+UITekst2.uitext,Te despiertas en el interior de lo que parece ser un edificio. \n Tras una breve inspección, te das cuenta de que se trata de una cafetería. \n Casi todo lo que hay dentro es viejo e inservible. \n Te aseguras de que nada ni nadie te ha seguido hasta aquí y te sientas un momento en una mesa. \n Te preguntas qué vas a hacer ahora. \n La sirena ha dejado de sonar... Estás a salvo de momento. \n <b>Reglas especiales: «Niebla densa». \n El investigador que posea una Fuente de Luz tiene la oportunidad de revelar una zona adyacente.\n Si no dispone de una Fuente de luz deberá gastar una {action} para revelar la zona adyacente</b>.
+UI2.button1,Continuar
+EventSTART.button1,Continuar
+Event2.text,Hay algo encima de la mesa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Event1.button1,INICIO
+TokenGazeta.text,Sobre la mesa ves un viejo periódico y un plato de comida en descomposición.
+TokenGazeta.button1,{action} Buscar
+Event3.text,En el periódico no encuentras nada interesante, pero si justo debajo de él. Hay un cuchillo muy afilado con un grabado en su mango. \n\n Ganas el Objeto común <i>Cuchillo</i>. \n\n\n La suciedad te impide leer la inscripción, tal vez si lo limpias puedas leer lo que pone. \n\n El investigador que posea el <i>Cuchillo</i> puede utilizar una {action} para examinar el cuchillo usando el botón de Objetos de la aplicación. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event3.button1,Continuar
+Event4.text,Hay una inscripción en el mango del cuchillo.
+Event4.button1,{action} Leer la inscripción
+Event5.text,No hay manera de leer lo que pone. Necesitarás disolvente o alcohol para poder limpiar el mango.
+Event5.button1,Continuar
+EventSTART.text,El silencio sepulcral de lugar sólo es roto por el sonido de tu respiración entrecortada. Tomas asiento en un banco de la desvencijada cafetería. A tu alrededor, una gruesa capa de polvo lo cubre todo. \n\n Coloca el módulo {c:Tilestart} y fichas de Pared en los lugares señalados.
+Event2.button1,Continuar
+TokenKartkadziecka.text,Hay un dibujo en el armario.
+TokenKartkadziecka.button1,{action} Buscar
+Event6.text,Es un pedazo de papel de un bloc de notas. Tiene un dibujo que representa un gran edificio con una cruz roja en el centro. \n Hay dos hombres de pie en la puerta y detrás de los hombres se puede ver una figura negra. \n\n Ganas 1 Pista {clue}.
+Event6.button1,Continuar
+TokenCZarwbarze.text,Sobre la mesa hay montones de periódicos, cajas y basura.
+TokenCZarwbarze.button1,{action} Buscar
+Event7.text,Te llevará un buen rato revisar todo este lío {observation}.
+Event7.button1,Continuar
+Event7.button2,Continuar
+Event8.text,No hay nada interesante.
+Event8.button1,Continuar
+Event9.text,Vas apartando cosas y tirándolas al suelo cuando, para tu sorpresa, descubres que hay unos extraños símbolos grabados en la mesa. \n\n Ganas el Hechizo {c:QItemczar1}. A continuación, descarta esta ficha de Búsqueda.
+Event9.button1,Continuar
+Event10.text,Hay algunas cosas sobre el mostrador y al fondo, en la cocina. \n\n Coloca fichas de Búsqueda en los lugares señalados.
+Event10.button1,Continuar
+Tokendrzwizbarunaulice.button1,{action} Explorar
+TokenRadio.text,En el mostrador hay una pequeña radio.
+Event11.text,Sales de la cafetería a un callejón completamente a oscuras a excepción del débil fulgor de unos jirones de niebla que aún quedan en este sitio. \n Apoyados sobre la pared ves algunos barriles y un poco más allá hay una puerta. \n\n Coloca el módulo {c:TileUlica1}, una ficha de Exploración, una ficha de Búsqueda y fichas de Vistazo en los lugares señalados. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Event11.button1,Continuar
+Tokendrzwizbarunaulice.text,Un investigador que posea la <i>Llave de Plata</i> puede abrir la puerta.
+TokenRadio.button1,{action} Buscar
+Event12.text,Coges la pequeña radio y la revisas, pero no funciona. Sin embargo encuentras que la radio tiene pegada en su parte inferior una pequeña llave. \n\n Descarta esta ficha de Búsqueda.
+Event12.button1,Continuar
+TokenbarDrzwiZamknite.text,Una puerta que conduce al exterior de la cafetería. \n Coloca una ficha de Exploración en el lugar señalado.
+TokenbarDrzwiZamknite.button1,{action} Explorar
+Event13.text,La puerta está cerrada con llave.
+Event13.button1,Continuar
+Event14.text,Ganas el Objeto único <i>Llave de Plata</i>. \n Justo en el momento en el que coges la llave, la radio zumba con un desagradable ruido de estática. Algo pasa volando muy cerca de la ventana. \n\n De repente, una silueta negra entra a través de un agujero en el techo, provocando la caída de multitud de tablones, escombros y trozos del techo.
+Event14.button1,Continuar
+Spawndziecienocywbarze.text,En un instante, todo se torna oscuridad y se marchita lo que hay alrededor del monstruo. \n\n El monstruo mira a su alrededor durante unos segundos y después se dirige hacia ti. \n\n Coloca un monstruo Ángel Descarnado en el lugar señalado.
+Spawndziecienocywbarze.button1,Continuar
+Event15.text,Colocad las miniaturas de los investigadores en los lugares señalados.
+Event15.button1,Continuar
+Event16.text,En la cafetería compruebas que hay una puerta que lleva al exterior. El resto de puertas están obstruidas por escombros y restos metálicos que se han caído de la estructura del edificio. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event16.button1,Continuar
+Event19.text,Cuando el monstruo cae muerto, el zumbido de la radio se detiene. Parece que la radio advierte de la aparición de las criaturas.
+Event19.button1,Continuar
+Token7.text,Un montón de barriles viejos.
+Token7.button1,{action} Buscar
+Event20.text,Uno de los barril está lleno de agua turbia, pero te ha parecido que hay algo en el fondo. Intentas volcar el barril {agility}.
+Event20.button1,Continuar
+Event21.text,Ya casi lo tienes.
+Event21.button1,Continuar
+Event20.button2,Continuar
+Event22.text,Vacías el barril y recoges el objeto que estaba en el fondo. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event22.button1,Continuar
+Token6.text,Una puerta de metal bastante grande.
+Token6.button1,{action} Abrir
+Event23.text,Imposible abrirla o moverla.
+Event23.button1,Continuar
+Token5.text,La calle se hunde en la niebla... \n Ver lo que hay más allá es complicado y es necesario hacer un esfuerzo extra. Debes gastar una {action} para explorar lo que hay más allá. \n\n La radio emite un suave zumbido.
+Token5.button1,{action} Explorar
+Event24.text,Más adelante, casi oculto por completo por la niebla, observas un pequeño edificio. \n\n Coloca el módulo {c:Tile0} en el lugar señalado. A continuación, descarta esta ficha de Vistazo.
+Event24.button1,Continuar
+Token8.text,Una puerta que conduce a una pequeña tienda.
+Token8.button1,{action} Explorar
+Token11.text,Una estantería anclada a la pared.
+Token11.button1,{action} Buscar
+Token13.text,Encima del mostrador hay un objeto metálico que capta tu atención. Parece un arma.
+Token13.button1,{action} Buscar
+Event25.text,Coges el preciado objeto, sujetándolo con fuerza. Compruebas que está cargado. Tenerlo en tu mano hace que te sientas mejor. \n\n Ganas el Objeto común <i>Revólver del .38</i>. Descarta 2 de Horror. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event25.button1,Continuar
+Event26.text,La mayoría son materiales de enfermería inservibles, pero entre lo que ahora son harapos encuentras algo útil. \n Ganas el Objeto común <i>Vendas</i>. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event26.button1,Continuar
+Token12.text,Una puerta que conduce a la trastienda.
+Token12.button1,{action} Explorar
+Event27.text,Está cerrada, parece que algo la bloquea desde el exterior.
+Event27.button1,Continuar
+Event28.text,Entras en una pequeña tienda. Además del fuerte olor a rancio de la ciudad, aquí en la tienda huele como si estuvieses en un hospital, rodeado de material médico.
+Event28.button1,Continuar
+Event29.text,Unas estanterías llaman tu atención. Además, parece que hay algo detrás del mostrador. \n\n Coloca una ficha de Exploración y fichas de Búsqueda en los lugares señalados. \n\n Tienes la oportunidad de moverte 1 espacio hacia el interior de la tienda. \n\n A continuación, descarta esta ficha de Exploración.
+Event29.button1,Continuar
+Event30.text,El oscuro callejón continua y dobla la esquina. \n Hay una puerta que conduce a una pequeña tienda. \n\n Coloca una ficha de Exploración y fichas Vistazo en los lugares señalados.
+Event30.button1,Continuar
+Token10.text,Cuando te acercas al callejón, la radio comienza a zumbar con fuerza. \n\n Un investigador situado en la localización {c:Tile0} y que posea una <i>Fuente de Luz</i> tiene la oportunidad de revelar la zona adyacente. Si no dispone de una, debe gastar una {action} para revelar la zona adyacente.
+Token10.button1,{action} Explorar
+Event31.text,El callejón continúa un poco más. Coloca el módulo {c:Tile1} en el lugar señalado. \n\n A continuación, descarta esta ficha de Vistazo.
+Event31.button1,Continuar
+Event32.text,La radio zumba como si estuviera maldita. De la niebla emerge una criatura. Detrás de ella observas que hay un agujero en el suelo y una gran puerta que conduce a enorme edificio. \n\n Coloca una ficha de Exploración y una ficha de Búsqueda en los lugares señalados.
+Event32.button1,Continuar
+Token14.text,Una gran puerta. Parece que conduce al hospital.
+Token14.button1,{action} Examinar
+Event33.text,La puerta está cerrada con varias cadenas gruesas, todas ellas sujetas por un candado de combinación de cuatro dígitos. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event33.button1,{action} Utilizar el código 4538
+Token4.text,La calle prosigue paralela a la cafetería. \n\n Un investigador situado en el módulo {c:TileUlica1} tiene la oportunidad de revelar la zona adyacente.
+Token4.button1,{action} Explorar
+Token16.text,Un socavón en la calle.
+Token16.button1,Continuar
+Event34.text,Cuando te aproximas, observas con sorpresa que la calle está completamente destrozada, como si se la hubiese tragado un terremoto. Seguir por aquí es imposible. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Event34.button1,Continuar
+Token9.text,La calle lleva a la parte de atrás de la cafetería. En el lado opuesto se puede ver un gran edificio. \n\n Un investigador situado en la {c:Tile0} y que posea una <i>Fuente de Luz</i> tiene la oportunidad de revelar la zona adyacente. En caso contrario, debe gastar una {action} para revelar la zona adyacente.
+Token9.button1,{action} Explorar
+Event35.text,Caminas calle abajo rodeado de mucha basura. De momento todo está en calma. Encuentras que más adelante hay un almacén. Una puerta conduce a su interior. \n Parece que el callejón prosigue. \n\n Coloca el módulo {c:Tile3}, una ficha de Exploración y una de Vistazo en los lugares señalados. \n\n A continuación, descarta esta ficha de Vistazo.
+Event35.button1,Continuar
+Token15.text,Una puerta que conduce al almacén.
+Token15.button1,{action} Explorar
+Event36.button1,Continuar
+Token17.text,Una puerta que conduce a lo que parece ser un almacén.
+Token17.button1,{action} Explorar
+Event37.text,Caminas por un almacén oscuro y desordenado. En todas partes se acumulan cajas y barriles apilados. \n Hay algunas piezas de maquinaria y también está lleno de tornillos y fragmentos de metal. \n\n Coloca el módulo {c:Tile9} en el lugar señalado. \n\n A continuación, descarta esta ficha de Exploración.
+Event37.button1,Continuar
+Event38.text,Mirando a tu alrededor encuentras varios sitios que podrían ser interesantes. Te llega un olor a alcohol y vómito. No tardas en encontrar la fuente del hedor: hay un anciano sentado entre unas cajas. \n\n Coloca una ficha de Personaje y fichas de Búsqueda y fichas de Pared en los lugares señalados. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Event38.button1,Continuar
+Event39.text,La puerta lateral conduce a la calle. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event39.button1,Continuar
+Token22.text,La puerta lleva a la calle.
+Token22.button1,{action} Explorar
+Token23.text,La puerta lleva a la calle.
+Token23.button1,Continuar
+Event40.text,Una puerta que da a la calle. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event40.button1,Continuar
+Event44.text,Una puerta que da acceso a un almacén. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event44.button1,Continuar
+Spawn0.button1,Continuar
+Token24.text,La calle continúa más allá del almacén y de la cafetería. \n La radio emite un suave zumbido.\n Un investigador situado en la localización {c:Tile3} tiene la oportunidad de revelar la zona adyacente.
+Token24.button1,{action} Explorar
+Event45.text,La calle gira por detrás de la cafetería y termina en un callejón sin salida. \n\n Coloca el módulo {c:Tile6} en el lugar señalado. \n\n A continuación, descarta esta ficha de Vistazo.
+Event45.button1,Continuar
+Event46.text,Hay algo colgando de esta pared. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Event46.button1,Continuar
+Event47.text,Por este lado, el calle continúa. \n Coloca una ficha de Vistazo en el lugar señalado.
+Event47.button1,Continuar
+Token20.text,Un montón de estanterías y de cajas. Un fuerte olor a grasa flota en el aire.
+Token20.button1,{action} Buscar
+Event48.text,Buscar entre todo este caos te podría llevar perfectamente entre uno y dos días {observation}
+Event48.button1,{action} Buscar
+Event49.text,Alguien dejó una caja de aspecto extraño y con un cierre poco común. \n Ganas el Objeto único <i>Caja Enigmática</i>. \n\n El investigador que posea la <i>Caja Enigmática</i> puede interactuar con él mediante la aplicación gastando una {action}. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event49.button1,Continuar
+Event48.button2,button2
+Event50.text,Está todo muy sucio y no hay nada interesante.
+Event50.button1,Continuar
+Puzzle0.button1,Hecho
+Event52.text,Puedes tratar de abrir la caja {lore}.
+Event52.button1,{action} Continuar
+Event53.text,Consigues abrir la caja y en su interior encuentras una llave con un llavero que pone «Cafetería, entrada principal», una foto y una pistola completamente desmontada en piezas. \n\n Descarta esta ficha de Búsqueda.
+Event53.button1,Continuar
+Event54.text,Quizá puedas reconstruir la foto {observation}.
+Event54.button1,{action} Continuar
+Puzzle1.button1,Hecho
+Event55.text,La parte posterior de la foto tiene una firma, «Sharon», y un código, «4538». \n También tiene algo escrito que parece posterior. La letra es distinta: «<i>Cuando hayas perdido toda esperanza, usa este código. \n Tras el candado hay algo que lo mantendrá bajo control si todavía no estuviera todo perdido. \n\n Firmado: Peterson</i>».\n\n Será mejor apuntar el código por si es útil más adelante.
+Event55.button1,Continuar
+Token18.text,Hay varias cajas con botellas de alcohol.
+Token18.button1,{action} Explorar
+Event56.text,Rebuscando dentro de este caos te haces un corte en una mano. \n\n Sufres 1 de Daño boca abajo (anulado por {agility}). \n A continuación, descarta esta ficha de Búsqueda.
+Event56.button1,Continuar
+Token21.text,El viejo está sentado en lo alto de las cajas.
+Token21.button1,{action} Hablar
+EventRozmowaP1.button1,Continuar
+EventRozmowaBrakP.text,El anciano asoma solamente su cabeza entre las cajas, desvelando su largo pelo gris. \n\n —<i>¿Es usted capaz de matar a los demonios?</i> —El anciano parece reunir algo de valor ante tu gesto afirmativo y sale de detrás de las cajas—. <i>Me buscan por lo que le hicimos a aquella niña...</i>.
+EventRozmowaP1.text,El anciano se inclina detrás de las cajas y mira a su alrededor.\n\n —<i>¡Los oigo!</i> —farfulla con la mirada perdida en el techo—. <i>¡Están aquí para castigarme!</i> —grita horrorizado—. <i>Acabe primero con esos demonios y sólo entonces podremos hablar</i>.
+EventRozmowaBrakP.button1,—<i>¿De qué está hablando?</i>
+EventRozmowaBrakP.button2,—<i>¿Ha visto por aquí a dos niños pequeños?</i>
+EventRozmowaBrakP.button3,—<i>¿Cómo se puede salir de la ciudad?</i>
+Event57.text,Sus ojos inyectados en sangre se abren de par en par. \n\n —<i>¡Viene a por mí! ¡Tengo que escapar!</i> —grita—. <i>A la iglesia. ¡Sí, a la iglesia! Es el único sitio donde la oscuridad no me atrapará... </i> \n\n Rápidamente se levanta y sale corriendo hacia la niebla \n\n Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta la ficha de Personaje.
+Event57.button1,Continuar
+Token19.text,Una máquina de tamaño considerable está colocada junto a la pared, al lado de varias cajas y barras de metal.
+Token19.button1,{action} Buscar
+Event58.text,Encuentras una palanca sujeta por un soporte de metal. Si pudieses hacer con ella, te podría ser muy útil {strength},
+Event58.button1,Éxito
+Event58.button2,Fallo
+Event59.text,Consigues mover la barra pero no lo suficiente para liberarla.
+Event59.button1,Continuar
+Event60.text,Con un poco de fuerza consigues liberar la barra. Ganas el objeto común <i>Palanca</i>. \n\n A continuación descarta esta ficha de Búsqueda.
+Event60.button1,Continuar
+Token26.text,Una figura cuelga de la pared.
+Token26.button1,{action} Investigar
+Event61.text,Te acercas a la pared para ver mejor lo que cuelga de ella. El insoportable hedor de un cuerpo en descomposición te asalta. Se trata del cuerpo de un hombre enredado en alambre de espino. Lleva puesta una máscara de gas. Durante una fracción de segundo, te ha parecido que ha movido los ojos, pero seguramente ha sido un reflejo en los cristales de la máscara de gas. Sufres 2 de Horror (anulados por {will}). \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Event61.button1,Continuar
+Token25.text,La calle continúa. \n\n Un investigador situado en la {c:Tile6} tiene la oportunidad de revelar la zona adyacente.
+Token25.button1,{action} Explorar
+Event62.text,Justo cuando das el primer paso, la radio empieza a emitir fuertes zumbidos. \n\n Coloca el módulo {c:Tile5} en el lugar señalado.
+Event62.button1,Continuar
+Event63.button1,Continuar
+Event63.text,De la niebla surge una criatura hambrienta de carne humana, y se dirige hacia ti.
+Spawn1.button1,Continuar
+Event64.text,La calle continúa hacia el centro de la ciudad. \n Coloca una ficha de Vistazo en el lugar señalado.
+Event64.button1,Continuar
+Token30.text,El callejón continúa con un pequeño giro. \n\n Un investigador situado en la {c:Tile5} tiene la oportunidad de revelar la zona adyacente.
+Token30.button1,{action} Explorar
+Event65.text,Caminas por el callejón y puedes ver un pequeño café contiguo a la cafetería. A través de una ventana, observas que encima de una mesa del café hay algo que parece un rifle militar. También te llama la atención un poste que hay en la calle que tiene un papel clavado. \n\n Coloca el módulo {c:Tile2} y una ficha de Búsqueda en el lugar señalado. \n\n A continuación, descarta esta ficha de Vistazo.
+Event65.button1,Continuar
+Token35.text,La puerta del café está cerrada con llave.\n\n El investigador que posea las <i>Llaves Antiguas</i> puede utilizarlas para abrir la puerta.
+Token35.button1,{action} Abrir la puerta
+Event67.text,Usas la llave que estaba dentro de la caja. Se ajusta perfectamente a la cerradura. \n Descarta esta ficha de Exploración.
+Event67.button1,Continuar
+Event69.text,La puerta está cerrada con llave.
+Event69.button1,Continuar
+Event70.text,Nunca viene mal tener un arma. \n Ganas el Objeto común <i>Automática del .45</i>.
+Event70.button1,Continuar
+Event71.text,Una llaves que seguro que te serán de utilidad más adelante. \n Ganas el Objeto único <i>Llaves Antiguas</i>.
+Event71.button1,Continuar
+Token31.text,Un fusil militar con un poco de polvo.
+Token31.button1,{action} Buscar
+Event72.text,Ya sabes que es de lo más efectiva matando humanos. Ahora habrá que comprobar si es igual de mortífera con los demonios. \n\n Ganas el Objeto común <i>Carabina</i>. A continuación, descarta esta ficha de Búsqueda.
+Event72.button1,Continuar
+Token32.text,Una noticia en un periódico local.
+Token32.button1,{action} Leer
+Event73.text,La policía confirmó que el viernes pasado hubo un terrible acto criminal. Al parecer no fue un accidente, La hija de la familia (texto borroso) fue bañada primero en gasolina y luego, brutalmente, le prendieron fuego. Según los testigos, la niña fue secuestrada en la escuela donde estudiaba. Como después se ha sabido, nadie hizo nada para detener a los autores del secuestro. Afortunadamente, un agente de policía, Alex Shorud, presenció los hechos y al ver lo que estaba sucediendo actuó para salvar a la niña. El policía tuvo que disparar a los dos sospechosos, que trataron de impedirle que salvase a la niña y antes de apagar el fuego del cuerpo de la niña, quien rápidamente fue llevada al hospital. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+Event73.button1,Continuar
+Token33.text,Un trozo de papel clavado en un poste.
+Token33.button1,{action} Coger el papel
+Event74.text,"Miras el papel. Parece un folleto. \n\n <i> Bienvenidos al mágico lago Lisandra. \n Situado en el encantador bosque de Brandeburgo. \n Les invitamos a pasar sus vacaciones en el complejo turístico «Bosque de Sow""</i>. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda."
+Event74.button1,Continuar
+Token34.text,La calle continúa... \n La radio crepita y comienza a zumbar con más fuerza. \n\n Un investigador situado en el {c:Tile2} tiene la oportunidad de revelar la zona adyacente.
+Token34.button1,{action} Explorar
+Event75.text,Este parece ser el final del callejón. \n Coloca el módulo {c:Tile4} en el lugar señalado. \n\n A continuación, descarta esta ficha de Vistazo.
+Event75.button1,Continuar
+Spawn2.text,Desde el cielo una criatura cae en picado sobre el suelo del callejón, en busca de algún desafortunado. \n\n Aparece un monstruo Byakhee en el lugar señalado.
+Spawn2.button1,Continuar
+Token36.text,A través del agujero en la pared puedes ver un descampado que lleva directamente a un bosque sombrío. \n\n Los investigadores puedes decidir ir al bosque, huyendo de la ciudad, pero esto pondrá fin a la campaña «<i>La ciudad bajo la niebla»</i>, y dará comienzo al escenario «<i>El bosque maldito</i>». \n Para escapar, todos los investigadores deben estar en este espacio. <b>Nota: el escenario está en preparación, la fecha de lanzamiento prevista es la primavera de 2020.</b> \n\n\n <i>(Nota del traductor: no hay ninguna noticia al respecto sobre el escenario en el momento de esta traducción, que es noviembre de 2020)</i>.
+Token36.button1,{success} Salir {success}
+Token37.text,Hay unas maderas apiladas al lado de la pared.
+Token37.button1,{action} Buscar
+Event76.text,Parece que detrás de las maderas de la pared hay un pasadizo secreto. \n\n Un investigador que posea la <i>Palanca</i> puede añadir 2 {success} al resultado de la tirada para romper las maderas {strength}.
+Event76.button1,Probar
+Event77.text,¡Lo has conseguido! \n\n Descarta la ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+Event77.button1,Continuar
+Event78.text,Huís de la ciudad, sin mirar atrás...\n
+Event78.button1,Continuar
+UIENDtekst1.uitext,<b>Dejáis atrás la ciudad y sus secretos sin resolver.. \n\n Corréis entre los árboles, atravesando la espesa vegetación. Por suerte, uno de vosotros conoce el camino y salís del bosque</b>.
+UIENDKLAWISZ1.uitext,¿FIN?
+Event76.button2,button2
+Event81.text,Consigues quitar unas pocas tablas, pero sigue pequeño para poder pasar a través.
+Event81.button1,Continuar
+Spawn0.text,Con un movimiento sinuoso, el monstruo se mueve hacia ti. \n\n Coloca un monstruo Reptante en el lugar señalado.
+Spawn1.text,Coloca un monstruo Reptante en el lugar señalado. \n A continuación, descarta esta ficha de Vistazo.
+Event83.text,La calle parece desaparecer entre la niebla, que se arremolina y ondula. \n Coloca el módulo {c:Tile7} en el lugar señalado. \n\n A continuación, descarta esta ficha de Vistazo.
+Event83.button1,Continuar
+Event84.text,Al final de la calle encuentras un par de puertas. \n Coloca fichas de Exploración en los lugares señalados.
+Event84.button1,Continuar
+Token39.text,Una vieja puerta de metal oxidado. El color hace que sea casi indistinguible de la pared de ladrillos. Está cubierta por completo por la hiedra, que hace imposible abrir la puerta.
+Token39.button1,{action} Explorar
+Event85.text,Giras el pomo, pero la puerta no se mueve. Haces algo de fuerza pero te quedas con el pomo en la mano. \n Descarta esta ficha de Exploración.
+Event85.button1,Continuar
+Token38.text,Una puerta que conduce a una pequeña casa.
+Token38.button1,{action} Explorar
+Event86.text,Probar el código «4538»
+Event86.button1,Continuar
+Event87.text,Sin el código es imposible abrir esta puerta.
+Event87.button1,Continuar
+Event88.text,Introduces el código pero parece que no es correcto.
+Event88.button1,Continuar
+Event144.button1,Introducir el código
+Event144.text,La puerta está llena de cadenas, todas ellas sujetas en el centro con un gran candado de combinación.
+Event89.text,La puerta cruje, pero al final cede. La casa está a oscuras. Los abrigos colgados de las perchas y los zapatos perfectamente colocados al lado de la puerta te indican que estuvo habitada por una familia. Pero a juzgar por el estado general de la vivienda, eso fue hace mucho tiempo. \n\n Coloca el módulo {c:Tile8} en el lugar señalado. \n\n A continuación, descarta esta ficha de Exploración.
+Event89.button1,Continuar
+Token40.text,En la mesa hay algo de gran tamaño cubierto por trapos.
+Token40.button1,{action} Echar un vistazo
+Event91.text,A medida que apartas los apestosos trapos, observas horrorizado como una mano cae de la mesa. Te embarga el miedo cuando descubres que sobre la mesa hay una espantosa criatura que parece estar pegada a otras. Es como si fuesen los cuerpos de cinco personas cosidas o pegadas de maneras imposibles. Al parecer alguien luchó contra este monstruo a juzgar por la oscura mancha que hay debajo de ella y que parece sangre. \n\n Sufres 3 de Horror (anulados por {will}). \n\n A continuación, descarta esta ficha de Búsqueda.
+Event91.button1,Continuar
+Event90.text,Hay algo sobre la mesa y descubres que hay varias puertas. Todas menos una parecen estar bloqueadas. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event90.button1,Continuar
+Token43.text,La puerta lleva al sótano.
+Token43.button1,{action} Explorar
+Event92.text,La puerta se abre con un sonoro crujido. Tienes la sensación de que algo se ha movido detrás de ti. \n\n Coloca el módulo {c:Tile10} en el lugar señalado. \n\n A continuación, descarta esta ficha de Exploración.
+Event92.button1,Continuar
+Token41.text,Un montón de basura.
+Token41.button1,{action} Buscar
+Token42.text,Un montón de basura.
+Token42.button1,{action} Buscar
+Token44.text,Un montón de basura.
+Token44.button1,{action} Buscar
+Event94.text,Encuentras algo interesante.
+Event94.button1,Continuar
+Event95.text,No sólo no encuentras nada útil, sino que además te haces un profundo arañazo. \n Sufres 1 de Daño boca abajo. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event95.button1,Continuar
+Event96.text,Buscar entre todo esto te llevará un poco de tiempo {agility}.
+Event96.button1,Continuar
+Event96.button2,Continuar
+Event98.text,No hay nada interesante, pero puedes seguir buscando.
+Event98.button1,Continuar
+Event97.text,Encuentras una lata, y por el olor crees que puede ser un disolvente. Quizá lo puedas usar con algo. \n\n Descarta esta ficha de Búsqueda.
+Event97.button1,Continuar
+Event100.text,Ahora que tienes el disolvente puedes limpiar el mango. \n\n Te das cuenta de que tiene unos números grabados en él. \n\n El investigador que posea el <i>Cuchillo</i> tiene la oportunidad de interactuar en la aplicación para ver los números.
+Event100.button1,Continuar
+Event93.text,En la oscuridad del sótano se pueden ver unos cubos de basura. \n\n Coloca fichas de Búsqueda en los lugares señalados.
+Event93.button1,Continuar
+Event101.text,Introduces el código. El candado se abre y quitas las cadenas dejándolo todo en el suelo. \n La puerta se abre.
+Event101.button1,Continuar
+Event102.text,La puerta está abierta. Para entrar, todos los investigadores deben estar en el módulo {c:Tile1}. <b>NOTA: Si se selecciona esta acción (entrar) ya no hay vuelta atrás</b>. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Token46.text,La entrada está abierta. Para poder entrar, todos los investigadores deben estar en el módulo {c:Tile1}. \n\n<b>NOTA: Después de esta acción no hay vuelta atrás</b>.
+Token46.button1,{action} Entrar en la oscuridad
+Event103.text,Te adentras en las tinieblas, el sonido de tus pasos resuenan en la oscuridad. \n Descarta todas las fichas y módulos de tablero sobre la mesa.
+Event103.button1,Continuar
+Event104.text,Una sensación innatural de tristeza te embarga al contemplar el pasillo. Las luces apenas rasgan la oscuridad y todo está en penumbra. \n\n Coloca el módulo {c:Tile14} y las miniaturas de los investigadores en el lugar señalado.
+Event104.button1,Continuar
+Event105.text,Al final del pasillo hay una puerta. \n\n Coloca fichas de Exploración y de Oscuridad en los lugares señalados.
+Event105.button1,Continuar
+CustomMonsterlepapielegniarka.info,-
+Token47.text,La puerta del hospital.
+CustomMonsterlepapielegniarka.monstername,Enfermera tenebrosa
+Token47.button1,{action} Abrir
+Event107.text,Consigues pasar, pero tu vista sólo alcanza a ver lo que tienes a menos de medio metro por delante. Sólo ves las mismas baldosas y paredes blancas y sucias. \n\n Coloca el módulo {c:Tile11} y fichas de Oscuridad en los lugares señalados. \n A continuación, descarta esta ficha de Exploración.
+Event107.button1,Continuar
+EventAktywacjaPP.button1,Continuar
+EventRuchppATAK.text,La macabra figura se ha movido, atraída por la luz y el movimiento. Se mueve 1 espacio en dirección al investigador que tenga una <i>Fuente de luz</i>, o hacia el que se haya movido dos espacios durante su turno, o que haya atacado. El monstruo sólo atacará al investigador si ha realizado alguna de las acciones o posee una fuente de luz. La prioridad de la criatura siempre será moverse dos espacios y atacar a un investigador.
+EventRuchppATAK.button1,El monstruo ataca
+EventAtak1.button1,Continuar
+EventAtak2.text,La enfermera abalanza sobre ti y tratar de clavarte el bisturí en las costillas. \n El monstruo ataca al investigador que posea el mayor número de Objetos ({strength}: 1). Si tienes éxito, consigues esquivar el ataque y la empujas hacia atrás cayéndose y cortándose con el bisturí; el monstruo sufre 3 de Daño. Si fallas la tirada, consigue clavarte el bisturí unos pocos centímetros en el abdomen; sufres 2 de Daño.
+EventAtak1.text,La enfermera deforme lanza estocadas a ciegas mientras carga contra ti. Los destellos del bisturí destacan en la negra oscuridad. \n El monstruo ataca al investigador que haya sufrido menos Daño {agility}. Si la tirada tiene éxito, la estocada impacta en el cuello de otro monstruo que esté en tu mismo espacio; el monstruo sufre 2 de Daño. Si fallas la tirada, el bisturí te golpea directamente en la mano que tienes levantada para protegerte produciéndote un profundo corte; sufres 3 de Daño boca abajo.
+EventAtak2.button1,Continuar
+EventRuchppATAK.button2,No hay investigadores dentro de su alcance. \n / Nadie se ha movido dos espacios.\n  / No hay una <i>Fuente de luz</i>.
+Eventruch1.text,El monstruo, incapaz de localizar a los investigadores, se queda completamente quieto, como si fuese un maniquí.
+Eventruch1.button1,Continuar
+Eventruch2.text,El monstruo sólo se mueve en dirección a la fuente de luz (incluso si ningún investigador la lleva consigo).
+Eventruch2.button1,Continuar
+EventUnik.text,Si sólo te has movido un espacio, la enfermera se queda quieta. Si te has movido dos espacios, el monstruo ataca al investigador que esté en su espacio usando un bisturí ({agility}:2). Si la tirada tiene éxito, consigues esquivarla. Si fallas la tirada, te pilla desprevenido y te hace un feo corte con la afilada hoja. Sufres 2 de Daño.
+EventUnik.button1,Continuar
+EventHorror1.button1,Continuar
+Event106.text,Sabes que algo va mal cuando abres la puerta. El pasillo está lleno de mujeres con uniformes blancos de hospital, completamente manchados de sangre. Te horrorizas al descubrir que tienen el rostro desfigurado y no tienen ojos. \n\n Son las Enfermeras tenebrosas (utiliza las miniaturas de zombies para representarlas o cualquier miniatura que tengas como brujas o hijas de la Cabra).
+EventHorror1.text,Unas macabras personas sin rostro están paradas delante de ti. Te miran, aunque no estás seguro del todo. Algunas están contra la pared, otras en los rincones. Pero todas te inspiran miedo. Pensar que eran gente normal como tú y que ahora están aquí, en el corazón de esta negrura, hace que quieras escapar lo más lejos posible de este lugar ({will}:2). \n\n Si fallas la tirada sufres 2 de Horror. Si no sacas al menos un éxito, mueve a tu investigador 2 espacios hacia la salida.
+Event106.button1,Continuar
+Event108.text,En el pasillo se pueden ver algunos objetos y un par de puertas más. \n\n Coloca fichas de Búsqueda y Exploración en los lugares señalados.
+Event108.button1,Continuar
+Token49.text,Debajo de la camilla hay un montón de papeles del hospital. Las hojas tienen dibujados unos extraños símbolos.
+Token49.button1,{action} Examinar
+Event109.text,Miras debajo de la camilla, pero sólo es un dibujo infantil, nada extraordinario. Aunque al fijarte con más atención descubres que hay algo que asoma entre los desperdicios de un rincón {observation}.
+Event109.button1,Continuar
+Event110.text,Encuentras un carta. Es un comodín. \n Ganas 1 Pista {clue}, a continuación descarta esta ficha de Búsqueda.
+Event110.button1,Continuar
+Event112.text,Es sólo una simple mancha, nada más.
+Event112.button1,Continuar
+SpawnMroczna1.text,Coloca una Enfermera siniestra en el lugar señalado.
+SpawnMroczna1.button1,Continuar
+SpawnMroczna2.text,Coloca una Enfermera siniestra en el lugar señalado.
+SpawnMroczna2.button1,Continuar
+SpawnMroczna3.text,Coloca una Enfermera siniestra en el lugar señalado.
+SpawnMroczna3.button1,Continuar
+Token50.text,Un hacha clavada en un armario de madera. Debajo del hacha yace la mano cortada de una persona.
+Token50.button1,{action} Examinar
+Event113.text,Quizá con un poco de esfuerzo podrías sacar el hacha {strength}
+Event113.button1,Continuar
+Event114.text,Consigues sacar el hacha sin problemas. \n\n Ganas el Objeto común <i>Hacha</i>. A continuación, descarta esta ficha de Búsqueda.
+Event114.button1,Continuar
+Event102.button1,Continuar
+UI4.uitext,Cada investigador empieza con 2 Pistas {clue}.
+UI5.uitext,Continuar
+UI5.button1,Continuar
+Token51.text,"En la puerta cuelga una placa que pone:<i>""Dr. Mah""</i>. La inscripción está algo borrosa."
+Token51.button1,{action} Buscar
+Event118.text,Al abrir la puerta ves un consultorio médico, que sería de lo más corriente si no fuera por la oscuridad que lo envuelve y las palabras pintadas con sangre que hay en las paredes. Un escalofrío recorre tu cuerpo. Sufres 2 de Horror (anulados por {will}). \n\n Coloca una ficha de Búsqueda en el lugar señalado. Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n A continuación, descarta esta ficha de Exploración.
+Event118.button1,Continuar
+Token56.text,Montones de informes médicos.
+Token53.text,Todas las paredes están cubiertas con inscripciones y símbolos.
+Event120.text,Estás convencido de aquí hay algo interesante {observation}.
+Event120.button1,Continuar
+Event121.text,Miras a tu alrededor y por todas partes se repite el mismo símbolo: una serpiente. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Event121.button1,Continuar
+Event122.text,Quien hizo esto seguramente estaba loco. Es imposible entender una sola palabra de lo que pone.
+Event122.button1,Continuar
+Token52.text,Una gran puerta con una ventana de cristal.
+Token52.button1,{action} Examinar
+Event123.text,La puerta se abre con facilidad, pero en ese momento una sensación de tristeza te embarga. \n\n Coloca el módulo {c:Tile12} en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+Event123.button1,Continuar
+Event124.text,Al final del pasillo hay otra puerta. \n En uno de los rincones hay gran cantidad de equipamiento médico. \n\n Coloca una ficha de Exploración y fichas de Búsqueda en los lugares señalados.
+Event124.button1,Continuar
+Token54.text,Otra puerta que conduce a una sala del hospital.
+Token54.button1,{action} Examinar
+Event125.text,Entras en una habitación que está a oscuras. A pesar de ello, puedes ver que por todas partes hay equipo médico. Probablemente sea la sala de operaciones. Por suerte no hay nadie acostado en la mesa de operaciones. \n\n Coloca fichas de Exploración en los lugares señalados. A continuación, descarta esta ficha de Exploración.
+Event125.button1,Continuar
+Token53.button1,{action} Examinar
+Token56.button1,{action} Examinar
+Event119.text,No hay nada interesante, la mayor parte de las palabras son ilegibles. \n\n A continuación, descarta esta ficha de Búsqueda.
+Event119.button1,Continuar
+Token55.text,Sobre la mesa encuentras un botiquín de primeros auxilios que está abierto.
+Token55.button1,{action} Examinar
+Event126.text,En el botiquín encuentras algo útil. \n Ganas el Objeto común <i>Manual de Medicina</i>. A continuación, descarta esta ficha de Búsqueda.
+Event126.button1,Continuar
+Token57.text,Una cámara frigorífica.
+Token57.button1,{action} Explorar
+Event127.text,Te acercas a la cámara y abres la puerta. En ese momento, lanzas un imporperio cuando ves como una figura resguardada por la penumbra te apunta con un revólver. \n\n Coloca la ficha del Personaje Niño en el lugar señalado. Esta ficha representa a los dos niños desaparecidos.
+Event127.button1,Continuar
+Event128.text,¿Cómo reaccionas?
+Event128.button1,Levantas las manos
+Event128.button2,Das un paso atrás
+Event129.text,Levantas las manos lentamente. Qué remedio. Te das cuenta de que tu asaltante no está solo. Hay otra persona más apuntándote, un poco más alta que la anterior. Tus ojos se acostumbran a la penumbra y en ese instante los reconoces.
+Event129.button1,Continuar
+Event130.text,—<i>¡Sois vosotros! Estabais en la escuela cuando pasó todo esto. Os he reconocido</i>. \n\n Al mirarlos te das cuenta de que acabas de encontrar a Mark y Sam.
+Event130.button1,—<i>Vamos, tenemos que salir de aquí tan pronto como sea posible</i>.
+Token66.button1,Button1
+Event131.button1,1
+Event131.button2,2
+Event131.button3,3
+Event131.button4,4
+Event131.button5,5
+Event131.button6,6
+Event131.button7,7
+Event131.button8,8
+Event131.button9,9
+Event131.text,Selecciona el dígito.
+Event132.text,Selecciona el dígito.
+Event132.button1,1
+Event132.button2,2
+Event132.button3,3
+Event132.button4,4
+Event132.button5,5
+Event132.button6,6
+Event132.button7,7
+Event132.button8,8
+Event132.button9,9
+Event133.text,Selecciona el dígito.
+Event133.button1,1
+Event133.button2,2
+Event133.button3,3
+Event133.button4,4
+Event133.button5,5
+Event133.button6,6
+Event133.button7,7
+Event133.button8,8
+Event133.button9,9
+Event134.text,Selecciona el dígito.
+Event134.button1,1
+Event134.button2,2
+Event134.button3,3
+Event134.button4,4
+Event134.button5,5
+Event134.button6,6
+Event134.button7,7
+Event134.button8,8
+Event134.button9,9
+Event140.text,Código erróneo.
+Event140.button1,Continuar
+Event138.text,Selecciona el dígito.
+Event138.button1,1
+Event138.button2,2
+Event138.button3,3
+Event138.button4,4
+Event138.button5,5
+Event138.button6,6
+Event138.button7,7
+Event138.button8,8
+Event138.button9,9
+Event141.text,Selecciona el dígito.
+Event141.button1,1
+Event141.button2,2
+Event141.button3,3
+Event141.button4,4
+Event141.button5,5
+Event141.button6,6
+Event141.button7,7
+Event141.button8,8
+Event141.button9,9
+Event142.text,Selecciona el dígito.
+Event142.button1,1
+Event142.button2,2
+Event142.button3,3
+Event142.button4,4
+Event142.button5,5
+Event142.button6,6
+Event142.button7,7
+Event142.button8,8
+Event142.button9,9
+Event143.text,Hecho
+Event143.button1,Continuar
+Token66.text,Ficha de prueba. No debería salir. En caso de que lo haga, ignórala.
+UI7.button1,Continuar
+UI7.uitext,Continuar
+Event147.button1,Continuar
+EventAtak3Zasieng.text,La oscura figura lanza un bisturí y ataca al investigador que haya sufrido más Daño {observation}. Si la tirada tiene éxito, evitas ser golpeado. Si fallas la tirada, el bisturí se clava en tu cuerpo; sufres 1 de Daño y 1 de Horror boca abajo.
+EventAtak3Zasieng.button1,Continuar
+Spawnmroczna4.button1,Continuar
+Event148.text,Apoyada contra la pared, una figura vestida de blanco parece estar esperándote.
+Spawnmroczna5.button1,Continuar
+Spawnmroczna4.text,Coloca una Enfermera siniestra en el lugar señalado.
+Spawnmroczna5.text,Coloca una Enfermera siniestra en el lugar señalado.
+Event148.button1,Continuar
+Eventruch3.text,El monstruo se mueve 2 espacios hacia un investigador que esté a su alcance.
+Eventruch3.button1,Continuar
+Event149.text,—<i>La única salida es a través de esa puerta</i> —el chico señala la puerta al otro lado del quirófano—. <i>Ahora está cerrada pero mi hermano es capaz de abrirla</i> —Mark mira a su hermano—. <i>Iremos con usted si nos saca de esta ciudad</i>—dice con un evidente miedo en su voz. \n\n Coloca la ficha del Personaje Niño (niños) en el lugar señalado.
+Event149.button1,Continuar
+Token58.text,Una gran puerta de metal.
+Token58.button1,{action} Examinar
+Event152.text,Es como si la oscuridad se filtrase a través de las rendijas de la puerta. Sin embargo, no hay manera de abrir la puerta. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event152.button1,Continuar
+Token45.text,La puerta tiene ahora el aspecto de un muro negro.
+Token45.button1,{action} Examinar
+Event154.text,Entras en una habitación completamente a oscuras. \n Coloca el módulo {c:Tile13} y una ficha de Oscuridad en el lugar señalado. \n\n A continuación, descarta esta ficha de Exploración.
+Event154.button1,Continuar
+Event155.text,En el centro de la habitación hay una camilla, y a su alrededor hay gran cantidad de material médico. Deduces que alguien fue operado aquí. En ese momento adviertes que hay una persona de pie junto a la cama. Es otra enfermera, pero tiene los ojos arrancados de cuajo y goterones de sangre caen de sus cuencas vacías, manchando su rostro y su ropa.
+Event155.button1,Continuar
+Event156.text,En la cama, algo se mueve. \n\n —<i>Yo... Ella...</i> —trata de disculparse mientras gimotea.
+Event156.button1,Continuar
+Event157.text,Por un momento se hace el silencio, que es interrumpido por el estruendo y el resplandor rojizo de una explosión procedente de la cama. Ua figura negra, envuelta en la oscuridad, aparece ahora de pie, junto a la cama. \n Tiene el cuerpo completamente quemado, y va dejando un reguero de sangre. \n\n Te mira. \n\n Sonríe. \n
+Event157.button1,Continuar
+Event158.text,En un abrir y cerrar de ojos, una oscuridad densa como el alquitrán envuelve toda la habitación. La cama se hunde en el suelo, succionada por un extraño agujero que se abre paso hasta nuestra realidad. Las baldosas del suelo salen disparadas hacia su interior. \n\n Poco después, una monstruosa silueta cruza el agujero.
+Event158.button1,Continuar
+CustomMonsterTheThing.info,-
+Spawn4.text,Algo muy malo y aterrador, probablemente salido del mismísimo infierno, atraviesa el agujero. \n\n Aparece un monstruo, La cosa (representado por la miniatura del Horror de Dunwich) en el lugar señalado.
+CustomMonsterTheThing.monstername,Monstruo «La Cosa»
+Spawn4.button1,Continuar
+Event160.text,El monstruo, gravemente herido, se lanza hacia la puerta en un último intento desesperado. Con su último aliento, arremete contra la puerta del vestíbulo, arrancando de cuajo el candado y lanzándolo al infierno que en ese instante comienza a cerrarse.
+Event160.button1,Continuar
+Event161.text,La oscuridad ha sido indulgente, y ahora sólo quedan los restos de la batalla librada en la habitación. Encuentras inconsciente al hermano mayor. El más joven ha desaparecido junto con el demonio quemado.
+Event161.button1,Continuar
+UI10.uitext,Has logrado llegar hasta aquí. \n Sin embargo, entrar en el hospital es sólo el primer paso. \n Todavía queda mucho por hacer. \n Te preguntas qué vas a hacer a continuación. \n ¿Escapar con uno de los hermanos?\n  ¿Intentar buscar al otro para salir de aquí con ambos? \n ¿O tal vez hay una tercera opción?
+UI11.uitext,FIN
+UI11.button1,FIN
+Token60.text,Una puerta con un extraño cierre. Al acercarte observas que emite un brillo tenue.
+Token60.button1,{action} Examinar
+Event164.text,El candado transmite un claro resplandor. Ahora, cuando lo compruebas, ves que está ligeramente agrietado.
+Event164.button1,Introducir el código
+Event165.button1,1
+Event165.text,Selecciona el primer dígito.
+Event165.button2,2
+Event165.button3,3
+Event165.button4,4
+Event165.button5,5
+Event165.button6,6
+Event165.button7,7
+Event165.button8,8
+Event165.button9,9
+Event166.text,Selecciona el segundo dígito.
+Event166.button1,1
+Event166.button2,2
+Event166.button3,3
+Event166.button4,4
+Event166.button5,5
+Event166.button6,6
+Event166.button7,7
+Event166.button8,8
+Event166.button9,9
+Event167.button1,1
+Event167.button2,2
+Event167.button3,3
+Event167.button4,4
+Event167.button5,5
+Event167.button6,6
+Event167.button7,7
+Event167.button8,8
+Event167.button9,9
+Event168.button1,1
+Event168.text,Selecciona el tercer dígito.
+Event168.button2,2
+Event168.button3,3
+Event168.button4,4
+Event168.button5,5
+Event168.button6,6
+Event168.button7,7
+Event168.button8,8
+Event168.button9,9
+Event170.text,Código erróneo. Sin embargo, el resplandor que sale de la cerradura parece dañar a la criatura. \n\n La criatura sufre 1 de Daño.
+Event170.button1,Continuar
+Event167.text,Selecciona el dígito 5.
+Event171.text,Selecciona el dígito 6.
+Event171.button1,1
+Event171.button2,2
+Event171.button3,3
+Event171.button4,4
+Event171.button5,5
+Event171.button6,6
+Event171.button7,7
+Event171.button8,8
+Event171.button9,9
+Event172.text,Selecciona el dígito.7
+Event172.button1,1
+Event172.button2,2
+Event172.button3,3
+Event172.button4,4
+Event172.button5,5
+Event172.button6,6
+Event172.button7,7
+Event172.button8,8
+Event172.button9,9
+Event173.text,Selecciona el dígito.8
+Event173.button1,1
+Event173.button2,2
+Event173.button3,3
+Event173.button4,4
+Event173.button5,5
+Event173.button6,6
+Event173.button7,7
+Event173.button8,8
+Event173.button9,9
+Event174.text,¡Código correcto! En el último clic, un estampido de luz envuelve a la criatura. Los pasillos del hospital quedan despejados y sólo se escuchan los extraños ruidos que emiten los moribundos demonios.
+Event174.button1,Continuar
+Event176.text,Nota: espero que te haya gustado. Puedes enviarme cualquier comentario o sugerencia al correo electrónico maciejkrol21@gmail.com. \n Quisiera agradecer a todos la buena acogida que tuvo la primera parte, a mi grupo de juego, a mi esposa y a todos los miembros de Github sin los que este escenario no habrá sido posible.\n\n Saludos de Maciej King.
+Event176.button1,FIN
+Token67.text,Hay un símbolo extraño en la mesa.
+Token67.button1,{action} Examinar
+Event178.text,Mueves la tapa y descubres el símbolo de una garza dibujado en su parte de atrás. \n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Event178.button1,Continuar
+Event68.text,Abres la puerta entras en la cafetería. El suelo de madera cruje bajo tus pies. \n\n Coloca fichas de Búsqueda en los lugares señalados.
+Event68.button1,Continuar
+Tokenchopacy2.button1,{action} Hablar
+Tokenchopacy2.text,Sam y Mark
+Event181.text,Sam se mantiene tranquilo sin moverse, y mira con calma hacia la puerta. Mark, un poco más nervioso, sostiene un revólver y de vez en cuando le echa una mirada a su hermano.
+Event181.button1,—<i>¿Qué hay detrás de esta puerta?</i>
+Event181.button2,—<i>Ya estáis a salvo, puedes entregarme tu arma</i>.
+Event182.text,—<i>La salida...</i> —Mark se detiene ante la mirada de su hermano y luego termina la frase—. <i>El camino de la salvación. Nos está esperando a todos.</i> \n\n —<i>No le escuche, le prendió fuego sin didarlo al viejo. Algo le pasa a su cabeza desde que entramos en esta ciudad, pero no es peligroso</i> —asegura su hermano mayor. \n\n Si es la primera vez que lees este texto, ganas 2 Pistas {clue}.
+Event182.button1,Continuar
+Event183.text,—<i>Preferiría no hacerlo</i>—dice con desconfianza. \n\n Intentas convencerlo {influence}
+Event183.button1,Continuar
+Event184.text,—<i>Está bien, se la daré. Supongo que usted sabrá usarla mejor que yo. \n\n Ganas el Objeto común Derringer del 18.
+Event184.button1,Continuar
+Event185.text,—<i>Tengo que defenderme a mí mismo y a mi hermano</i>.
+Event185.button1,Continuar
+Event186.text,Tras caer uno de los vuestros, el resto no tarda en seguir su mismo destino. Vuestros cuerpos fueron cubiertos por la fina lluvia blanquecina que cayó durante el día. Sin embargo, por la noche, los cuerpos desaparecieron. La ciudad los engulló. Lo que les pasó a los niños a continuación será siempre un misterio. \n\n Quizá alguien envíe a un equipo en vuestra búsqueda. La ciudad los recibirá gustosamente... para no dejarlos marchar nunca más.
+Event186.button1,Continuar
+quest.authors_short,Maciej King
+quest.synopsys,¿Serás consumido por la ciudad bajo la niebla o lograrás escapar con éxito? (De 2 a 5 jugadores).
+Event17.text,Al acercarte, observas los rastros del combate: en las paredes y en la puerta puedes ver los grandes surcos y agujeros que dejaron las balas. La pelea tuvo lugar en el jardín. Tras examinar durante un momento la zona, concluyes que la pelea continuó en el interior del edificio que tienes delante. \n Te das cuenta de que cerca de un agujero de la pared hay un brillante emblema de con forma de zorro. \n\n Ganas 3 Pistas {clue}.
+Event17.button1,Continuar
+Event4.button2,Cancelar
+Event109.button2,Button2
+Event113.button2,Button2
+Event115.text,Alguien muy fuerte atascó la hoja. Para poder sacarla necesitarás emplear más fuerza.
+Event115.button1,Continuar
+Event183.button2,Button2
