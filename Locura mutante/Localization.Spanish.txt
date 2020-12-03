@@ -1,0 +1,293 @@
+.,Spanish
+quest.name,Locura mutante
+TokenTheMan.button3,—<i>De acuerdo. ¡Adiós!</i>
+EventBrownAsk.button1,—<i>¿Qué problema tiene?</i>
+TokenSueClamer.button1,{action} —<i>¿Tiene usted idea de lo que está pasando?</i>
+TokenTheManDisarmed.button1,{action} —<i>¿Usted sabe lo que está pasando?</i>
+TokenTheMan.button1,{action} —<i>Deme la pistola...</i>
+TokenBrown.button1,{action} —<i>¿Qué?</i>
+TokenTheManDisarmed.button2,{action} —<i>¿De dónde provienen estas cosas?</i>
+TokenNorthSearch.button1,{action} ¡Romperlo!
+TokenSue.button1,{action} —<i>Cálmese, señora</i>
+TokenTheMan.button2,{action} Desarmarlo
+TokenEastExplore.button1,{action} Explorar
+TokenBossDoor.button1,{action} Explorar
+TokenNorthEastExplore.button1,{action} Explorar
+TokenCellerDoor.button1,{action} Explorar
+TokenAlchemySearch.button1,{action} Volver al trabajo
+TokenBrown.button2,{action} Aquí tiene
+TokenWestSearch.button1,{action} Buscar
+TokenSearchEast.button1,{action} Buscar
+TokenMedical.button1,{action} Buscar
+TokenSue.button2,{action} Abofetearla
+TokenNorthExplore.button1,{action} Abrir la puerta
+EventTheManWhere2.text,—<i>Le dije lo que sé...</i>
+TokenBrown.text,—<i>Yo, yo no tengo mucho tiempo, yo... ¡necesito el antídoto! </i>
+EventBrownAsk.text,—<i>Yo... ¡traté de mejorarlos! Todo iba perfectamente hasta ahora... ¡pero el último lote provocó algunos efectos secundarios imprevistos!</i> —la voz del Dr. Brown comienza a ahogarse y se pone a llorar—. <i>¡Dios mío! Esto no puede ser...</i>  \n\n Ganas 1 Pista {clue}.
+EventSueSpeaks.text,—<i>No mucho... era mi primera vez aquí. Fue sólo una reunión de la Liga Junior de Baloncesto Femenino. El Dr. Brown repartió algunos de esos viales. Algunas chicas se los bebieron y luego ellas empezaron a... Oh, Dios...</i>—Sue se derrumba sobre el suelo, cubriendo su rostro con las manos y dejando caer un pequeño vial, lleno de un líquido verde claro.  \n\n Ganas el Objeto común <i>Suero Potenciador</i> y 1 Pista {clue}.
+EventAskTheMan2.text,—<i>Ya me preguntó eso.</i>
+EventBrownSaved.text,Un fuerte ruido proviene de la otra habitación.  \n\n —<i>Rápido</i> —dice el Dr. Brown—. <i>¡Se están reanimando! Coja esto, usted quizá pueda usarlo mejor que yo</i>.  \n\n El Dr. Brown saca una funda de la estantería y la abre, enseñándote su contenido.  \n\n Ganas el Objeto común <i>Pistola Tommy</i> y 1 Pista {clue}.
+EventOuttaTime01.text,Se escucha un grito extraño al otro lado del parque, y tienes la sensación de que éste proviene de la casa club al norte del estanque.
+EventRevealWest2.text,Un camino de piedra que conduce a la puerta del edificio.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventEnd.text,Después de una lucha desgarradora, la cosa sigue siendo repugnante. Sientes asco, pero también lástima por aquellos que han sufrido un destino tan espantoso.
+EventRevealBossHall2.text,Hay un libro abierto sobre la silla que parece cerrarse por su propia voluntad.  \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventThrallFight2.text,Otro cuerpo se estremece y, gimiendo, se levanta sobre sus pies.
+EventAlchemySearchReward.text,Por lo que sabes, alguien ha estado tratando de desarrollar un suero para mejorar las propiedades físicas de un individuo. Identificas un vial como antídoto para dicha sustancia.  \n\n Ganas el Objeto común <i>Elixir</i>.
+EventTheManInfluenceFail.text,Mientras hablas, el hombre te pilla desprevenido y te golpea con la culata del arma.  \n\n Sufres 1 de Daño boca abajo.
+EventEnterCellar.text,Cuando empiezas a abrir la puerta, de repente ésta se cierra de golpe sobre ti. Una voz de una mujer grita desde el otro lado:  \n\n —<i>¡LÁRGUESE!</i>
+EventBrownTransformed.text,La carne de Brown se deforma ante tus ojos. Su carne se retuerce como las otras pobres criaturas que ya has visto, pero mientras se balancea por el pasillo, los cuerpos que estaban esparcidos por la sala se van pegando a él. A medida que retrocedes lentamente, una monstruosa amalgama de carne va amasándose ante ti.  \n\n A continuación descarta la ficha de Personaje del Dr. Brown.
+TokenBrownSaved.text,El Dr. Brown está aterrado.  \n\n —<i>Nunca me advirtieron que esto podría suceder...</i> —dice murmurando.
+EventEnd3.text,El Dr. Brown, al menos, sobrevivió, y trata de defenderse ante ti diciendo que era lo que ellos querían. Sin embargo, cuando le presentas a la policía la prueba que encontraste, deciden ir a hablar con él... más detenidamente.
+EventSueSlapFail.text,Para ser una mujer menuda, el puño impacta con una fuerza sorprendente contra el lateral de tu cabeza.  \n\n Sufres 1 de Daño boca abajo.
+EventSightSeeNW2.text,Desde aquí se va hacia el oeste.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventCreateSeeNW.text,Desde aquí se va hacia el norte.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventOuttaTime5.text,Desde la casa club se puede ir hacia el oeste.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+TokenTheManDisarmed.text,Él es inofensivo ahora. 
+Spawn0.text,Su cuerpo palpita y unos salvajes gruñidos emergen de su garganta.  \n\n Coloca un monstruo Subyugado en el lugar señalado.
+UI8.uitext,El texto reza: \n <i>Ellos me han proporcionado un nuevo ingrediente, algo que mejorará todo en lo que he estado trabajando. Planeo tener una nueva muestra lista para las chicas la semana que viene.</i>
+EventAlchemySearchReward3.text,En el texto pone: \n <i>Ellos me han proporcionado un nuevo ingrediente, algo que mejorará todo en lo que he estado trabajando. Planeo tener una nueva muestra lista para las chicas la semana que viene.</i>
+TokenNorthSearch.text,Es un cofre grande. La cerradura está muy oxidada. Podrías intentar forzarla {strength}.  \n\n Si posees un <i>Arma de fuego</i> o un <i>Arma pesada</i> puedes añadir 2 dados adicionales a tu tirada.
+TokenMedical.text,Un montón de suministros médicos. 
+UI5.text,Es demasiado. Tú y tus amigos estáis abrumados, dispersos. Huís a ciegas hacia el bosque, escuchando cómo los gritos se desvanecen en la distancia.
+EventSearchEastPass.text,Está claro que no fue asesinado por ningún arma convencional. Te imaginas unas grandes garras que arrancaron a pedazos la carne de su cuerpo. Encuentras una llave en uno de sus bolsillos.  \n\n Ganas 1 Pista {clue} y el Objeto común <i>Llave de Latón</i>. A continuación descarta esta ficha de Búsqueda.
+TokenNorthEastExplore.text,Está desbloqueado. 
+Spawn4.text,Justo cuando parece que la situación no puede empeorar, otra de las cosas se arrastra por debajo de la mesita de café...  \n\n Aparece un Subyugado en el lugar señalado.
+SpawnThrallFight.text, Uno de los cuerpos se tambalea repentinamente. Su rostro mutado se vuelve hacia ti. Hay un hambre atroz en su mirada.  \n\n Aparece un Subyugado en el lugar señalado.
+EventWestConservatoryReveal.text,Aquí es donde se cultivan las plantas, el edificio es un invernadero. De pie, en medio de las flores, puedes ver a una mujer, pero algo extraño está sucediendo con ella. De repente se abalanza sobre ti, gritando. 
+EventRevealWest3.text,Alguien ha estado trabajando en el macizo de flores. ¿Tal vez podrías encontrar un arma improvisada?  \n\n Coloca una ficha de Búsqueda en el lugar indicado.
+TokenSueClamer.text,Sue se tranquiliza, pero en el momento en que se calma comienza a llorar.  \n\n —<i>Están muertos...</i>—solloza. 
+TokenSueCrying.text,Sue se sienta en el suelo meciéndose hacia atrás y hacia adelante.  \n\n —<i>Yo no bebí... Yo no bebí...</i> 
+Spawn3.text,Los cuerpos del salón no sólo se han reanimado, ¡se han fusionado en una abominación horrible!  \n\n Aparece una Semilla informe en el lugar señalado.
+EventSearchEastAttempt.text,El cuerpo está en un estado lamentable. Con tus nervios de acero te acercas para examinarlo.  \n\n Prueba de {will}: 1
+UI4.text,La criatura yace muerta. Las palabras no pueden expresar el horror que estas pobres almas sufrieron. Tal vez fue obra suya, pero aún así te compadeces de ellos. </i>
+TokenNorthExplore.text,La puerta tiene una cerradura plateada.  \n\n Necesitas la <i>Llave de Plata</i> para poder entrar.
+TokenStuckDoor.text,La puerta se ha quedado atascada, y no se puede abrir. 
+TokenEastExplore.text,La puerta está abierta.
+EventRevealEast1.text,La puerta del cobertizo parece estar abierta.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventTheManDisarmed.text,El hombre está desarmado. Da un paso hacia atrás, murmurando. 
+EventTheManForceFail.text,El hombre aprieta el gatillo. Salvas tu vida sólo porque te das cuenta de tu error a tiempo, lanzándote a un lado, golpeando contra la pared.  \n\n Sufres 1 de Daño boca abajo.
+EventTheManInfluencePass.text,El hombre entra en razón, entregándote su arma.  \n\n Ganas el Objeto común </i> Escopeta</i>.
+EventAskTheMan.text,El hombre sacude la cabeza.  \n\n —<i>No, ah, yo estaba haciendo la mochila para ir a cazar cuando los vi salir en estampida de la casa. Acabé con uno pero... eran tantos.... No son humanos, ¿no se da cuenta?</i>  \n\n Ganas 1 Pista {clue}.
+EventSearchEastFail.text,Cuanto más estudias el cuerpo, más aterrorizado te sientes. </i>  \n\n Sufres 1 de Horror.
+EventNorthEastExplore2.text,La habitación está desordenada, contiene lo que parece ser un experimento alquímico en proceso, con viales y probetas de un líquido extraño. También hay montones de notas.  \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n A continuación descarta esta ficha de Exploración.
+EventDefeatThrall.text,La cosa cae muerta. En su cuerpo encuentras una llave.  \n\n Ganas el Objeto único <i>Llave de Plata</i>.
+EventOuttaTime2.text,La cosa es enorme.  \n\n A continuación descarta esta ficha de Exploración de la localización {c:TileNorth}.
+EventEnd0.text,La cosa yace muerta a tus pies. Tus compañeros están agitados y miras a cada uno de ellos totalmente desconcertado. Con tu experiencia en... sucesos poco usuales, no estás tan sorprendido como la policía, pero aún así no tienes ni idea de lo que ocurrió.  \n\n Por lo menos estás vivo.
+TokenSue.text,La mujer está histérica, golpeando y tirando de una puerta del sótano que parece estar cerrada desde el interior. Su vestido azul está manchado de sangre. 
+EventSueCalmPass.text,Consigues ganarte la confianza de la mujer.  \n\n —<i>¿Cuál es su nombre?</i>—le preguntas—. <i>¿Qué ha ocurrido?</i>  \n\n La mujer trata de hablar aunque está jadeando para respirar.  \n\n —<i>Soy Sue.... Ellos se transformaron... todos empezaron a cambiar... ¿Voy a ser la siguiente?</i> \n Ganas 1 Pista {clue}.
+TokenWestSearch.text,Hay algunas herramientas aquí.
+EventRevealEast3.text,Es posible que haya algo de interés hacia el norte.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventRevealEast2.text,Hay un cuerpo en el suelo...  \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevealNorth3.text,También hay un gran armario en la parte trasera del porche.  \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventEastShedReveal.text,Hay un hombre en el cobertizo, apoyado contra la pared. Él se asusta por tu entrada y te apunta con una escopeta.  \n\n Coloca una ficha de Personaje en el lugar señalado, éste es El Hombre.  \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada, a continuación descarta esta ficha de Exploración.
+TokenBossDoor.text,Esta puerta conduce al interior de la casa. 
+TokenWestExplore.text,Una puerta maciza de madera. Con la manilla y la cerradura de latón.  \n\n Sin la <i>Llave de Latón</i> no crees que puedas abrirla.
+EventNorthDoorWithKey.text,Utilizas la <i>Llave de Plata</i> y abres la puerta revelando lo que parece ser un gran salón.  \n\n Coloca el módulo {c:TileBoss} en el lugar señalado. \n A continuación descarta esta ficha de Exploración.
+EventEnd4.text,Cuando llega la policía, le indicas que crees que el Dr. Brown pudo ser el responsable de estos eventos. Sin embargo, cuando explicas tus sospechas, tú mismo te das cuenta de lo difícil que sería creerte. Las pruebas no son las adecuadas y el Dr. Brown es liberado.  \n\n Te preguntas si continuará con su trabajo. 
+EventNorthSearchFail.text,¡Uf! Es un estudio más pequeño de lo que pensabas...
+EventAlchemySearchReward2.text,También encuentras algunas notas que indican que los componentes son parte de un experimento peligroso llevado a cabo por el Dr. Brown. La última página te llama la atención.  \n\n Ganas el Objeto único <i>Prueba Circunstancial</i>, y 1 Pista {clue}.
+Event2.text,Estás en un claro, por lo que puedes ver todo lo que hay a tu alrededor.  \n\n Coloca fichas de Vistazo en los lugares señalados.
+Event1.text,Estás sentado junto al estanque cuando oyes unos gritos extraños. Pegas un salto, pero no consigues averiguar en el acto que los ha causado.  \n\n Colocad las miniaturas de los investigadores en los lugares señalados.  \n\n Cada investigador empieza con 2 Pistas {clue}.
+EventTheManInfluence.text,Le hablas al hombre con calma, diciéndole que no eres un peligro para nadie, y que tenga cuidado para no herir a alguien.  \n\n Prueba de {influence}: 2
+EventBoss.text,Te encuentras cara a cara con una visión horrible. Hay varios cuerpos esparcidos al otro lado de la habitación. Detectas cómo una figura huye a través de una puerta cruzando la habitación.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventSightWFromNW.text,Desde aquí se va hacia el sur.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+TokenSeeNW2.text,Desde aquí se va hacia el oeste.  \n\n Un investigador situado en {c:TileNorth} tiene la oportunidad de revelar la zona adyacente.
+EventSightNFromNW.text,Desde aquí se va hacia el este.  \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventSueCalm.text,Haces todo lo posible para tratar de calmar a la mujer.  \n\n Prueba de {influence}: 2
+EventSueSlapPass.text,Esquivas su golpe y retrocedes un paso mientras la mujer vuelve a levantar el puño, lista para atacar de nuevo.  \n\n Te alejas 1 espacio de la mujer.
+EventBrownNoAntidote.text,No tienes nada que pueda ayudarle. 
+EventNorthDoorNoKey.text,No tienes la llave y la puerta no se puede abrir. 
+EventNorthChestReward2.text,Encuentras en un sobre algunas fotos, de mujeres jóvenes participando en varios deportes. El sobre se titula "Sujetos".  \n\n Ganas el Objeto único <i>Prueba Fotográfica</i>, y 1 Pista {clue}. \n A continuación descarta esta ficha de Búsqueda.
+EventMedicalReward.text,Encuentras algunos sedantes.  \n\n Ganas el Objeto común <i>Sedante</i>.  \n\n A continuación descarta esta ficha de Búsqueda.
+EventNorthChestContents.text,Encuentras un líquido extraño.  \n\n Ganas el Objeto común <i>Formula Mutagénica</i>.
+EventWestSearchFail.text,Tus manos están un poco sucias. 
+EventAlchemySearchFail.text,Todavía no lo has resuelto... 
+EventOuttaTime0.text,Se oye un fuerte golpeteo que viene desde el norte del estanque, seguido de un estruendo. Una cosa enorme y grotesca ha roto la pared de la casa club del norte, gritando desde una docena de bocas mientras el edificio se derrumba detrás de ella. </i>
+EventEnterCellar2.text,Escuchas voces desde el otro lado, por lo que deduces que hay varias mujeres ahí dentro. Entonces percibes que algo bastante pesado está siendo empujado contra la puerta. Intentas llamarlas, pero no responden.  \n\n A continuación descarta esta ficha de Exploración.
+UI1.text,Sólo esperas que ninguna de esas cosas se haya escapado...
+EventBossHallSearchPass.text,Miras el libro y asientes con la cabeza. Ahora ya lo entiendes.  \n\n Ganas el Hechizo indicado. \n A continuación descarta esta ficha de Búsqueda.
+Event9.text,Descubres un montón de suministros médicos sobre el sofá.  \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMedicalSupplies.text,Rebuscas entre los diferentes suministros.  \n\n Prueba de {observation}: 2
+EventTheManForce.text,Te lanzas contra el hombre, tratando de arrebatarle el arma.  \n\n Prueba de {agility}: 2
+EventRevealNorthEast3.text,Ves una puerta que conduce a una zona más al interior de la casa.  \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventRevealNorthEast2.text,Ves una puerta, y nada parece presagiar que haya algo fuera de lo común.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRevealBossHall.text,El pasillo presenta una escena dantesca, con los cuerpos recubriendo las paredes.  \n\n Coloca el módulo {c:Tile2} en el lugar señalado. \n A continuación descarta esta ficha de Exploración.
+EventRevealWest.text,Puedes ver una pequeña estructura.  \n\n Coloca el módulo {c:TileWest} en el lugar señalado; a continuación descarta todas las fichas de Vistazo que conduzcan a {c:TileWest}.
+EventRevealBossHall1.text,Ves a un hombre de pelo largo y oscuro al final de la sala, que está luchando con la puerta, que parece estar atascada.  \n\n Coloca la ficha del Personaje Dr. Brown en el lugar señalado.
+EventRevealNorthWest2.text,Ves a una mujer gritando mientras golpea la puerta de un sótano.  \n\n Coloca una ficha de Persona en el lugar señalado. Ella es Sue.
+EventRevealNorth.text,Puedes ver la parte trasera del porche de la pequeña casa del parque. Mientras observas, escuchas unos gritos que vienen desde esa dirección.  \n\n Coloca el módulo {c:TileNorth} en el lugar señalado, a continuación descarta todas las fichas de Vistazo que conduzcan a la zona.
+EventRevealNorth2.text,Ves la puerta trasera de un edificio.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRevealNorthEast.text,Ves el lado este de la casa que está al norte, parece que hay una entrada.  \n\n Coloca el módulo {c:Tile1} en el lugar señalado. \n A continuación descarta esta ficha de Vistazo.
+EventSueSlap.text,La abofeteas, con la esperanza de sacarla de su estado. Se vuelve contra ti rápidamente, y te lanza un gancho de derecha.  \n\n Prueba de {agility}: 2
+EventBrownGiveAntidote.text,Aún tienes la suficiente cantidad de ese elixir para él. Le proporcionas uno al Dr. Brown, que se lo bebe de un trago. A continuación te mira preocupado.  \n\n —<i>Usted no bebió nada, ¿verdad?</i> —os miráis fijamente el uno al otro durante un momento.
+EventUnlockWestDoor2.text,Consigues desbloquear la puerta.  \n\n A continuación descarta esta ficha de Exploración.
+EventTheManForceSuccess.text,Eres muy ágil, y antes de que el hombre pueda reaccionar, le quitas su arma.  \n\n Ganas el Objeto común <i>Escopeta</i>.
+EventSueCalmFail.text,—<i>Sus esfuerzos son inútiles</i> —la mujer te grita—<i>¡Están muertos! ¡¿Eres estúpido?!
+EventBossHallSearchFail.text,Tu mente está inundada de imágenes y palabras confusas que no puedes entender. La experiencia te deja desorientado.  \n\n Sufres 1 de Horror boca abajo.
+EventTheManWhere.text,—<i>Los ví venir de la casa que está al norte. Me alejaría de allí si fuese usted. Podríamos escondernos aquí...</i>  \n\n Ganas 1 Pista {clue}.
+TokenBossHallSearch.text,Al examinar el libro, sientes que los pelos de la nuca se te erizan. Lo abres y ves unas runas alienígenas que, de repente, brillan con una luz de color azul pálido.  \n\n Prueba de {lore}: 2.
+EventEnd2.text,El Dr. Brown está muerto, pero como sospechas que fue el responsable de todo esto, sientes un poco de remordimiento. Te arrepientes de que, con su muerte, nadie podrá nunca entender lo que acaba de tener lugar.  \n\n Aunque, tal vez, eso sea lo mejor. </i>
+TokenSearchEast.text, Es el cuerpo de un hombre joven, con unas graves heridas que le cruzan el pecho.
+EventWestConservatoryReveal2.text,Frente de ti hay una puerta que conduce al interior del edificio.  \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenCellerDoor.text,La puerta está entreabierta.
+TokenTheMan.text,El hombre te apunta con la escopeta tan pronto como te aproximas.  \n\n —<i>¡No se acerque más!</i>
+EventRevealEast.text,Hay un pequeño cobertizo delante de ti.  \n\n Coloca el módulo {c:TileEast} en el lugar señalado, a continuación descarta esta ficha de Vistazo.
+EventRevealNorthWest.text,Puedes ver la zona situada entre la sede del club que está al norte y el edificio anexo al invernadero.  \n\n Coloca el módulo {c:Tile3} en el lugar señalado. \n A continuación descarta todas las fichas de Vistazo que conduzcan a {c:Tile3}.
+TokenNorth.text,Un investigador situado en {c:Tile0} tiene la oportunidad de revelar la zona adyacente.
+TokenWest.text,Un investigador situado en {c:Tile0} tiene la oportunidad de revelar la zona adyacente.
+TokenEast.text,Un investigador situado en {c:Tile0} tiene la oportunidad de revelar la zona adyacente.
+TokenSeeWFromNW.text,Un investigador situado en {c:Tile3} tiene la oportunidad de revelar la zona adyacente.
+TokenSeeNFromNW.text,Un investigador situado en {c:Tile3} tiene la oportunidad de revelar la zona adyacente.
+TokenNorthEastSight.text,Un investigador situado en {c:TileEast} tiene la oportunidad de revelar la zona adyacente.
+TokenSeeNW.text,Un investigador situado en {c:TileWest} tiene la oportunidad de revelar la zona adyacente.
+Event0.button1,Continuar
+Event1.button1,Continuar
+Event2.button1,Continuar
+EventRevealNorth.button1,Continuar
+EventRevealWest.button1,Continuar
+EventRevealWest2.button1,Continuar
+EventRevealWest3.button1,Continuar
+EventWestSearchReward.button1,Continuar
+EventWestSearchFail.button1,Continuar
+EventUnlockWestDoor.button1,Continuar
+EventUnlockWestDoor2.button1,Continuar
+EventRevealEast.button1,Continuar
+EventRevealEast2.button1,Continuar
+EventSearchEastFail.button1,Continuar
+EventSearchEastPass.button1,Continuar
+EventEastShedReveal.button1,Continuar
+EventTheManInfluencePass.button1,Continuar
+EventTheManInfluenceFail.button1,Continuar
+EventTheManForceSuccess.button1,Continuar
+EventTheManForceFail.button1,Continuar
+EventWestConservatoryReveal.button1,Continuar
+Spawn0.button1,Continuar
+EventTheManDisarmed.button1,Continuar
+EventAskTheMan.button1,Continuar
+EventTheManWhere.button1,Continuar
+EventAskTheMan2.button1,Continuar
+EventTheManWhere2.button1,Continuar
+EventDefeatThrall.button1,Continuar
+EventRevealNorth2.button1,Continuar
+EventNorthDoorNoKey.button1,Continuar
+EventNorthDoorWithKey.button1,Continuar
+EventBoss.button1,Continuar
+SpawnThrallFight.button1,Continuar
+EventRevealNorth3.button1,Continuar
+EventNorthChestContents.button1,Continuar
+EventRevealBossHall.button1,Continuar
+EventRevealBossHall1.button1,Continuar
+EventBrownGiveAntidote.button1,Continuar
+EventBrownNoAntidote.button1,Continuar
+EventRevealNorthEast.button1,Continuar
+EventRevealNorthEast2.button1,Continuar
+EventNorthEastExplore2.button1,Continuar
+EventAlchemySearchReward.button1,Continuar
+EventAlchemySearchReward2.button1,Continuar
+EventRevealNorthEast3.button1,Continuar
+Event7.button1,Continuar
+EventRevealEast3.button1,Continuar
+EventBrownTransformed.button1,Continuar
+Spawn2.button1,Continuar
+EventEnd.button1,Continuar
+UI4.button1,Continuar
+Event9.button1,Continuar
+EventMedicalReward.button1,Continuar
+EventBrownSaved.button1,Continuar
+Spawn3.button1,Continuar
+UI1.button1,Continuar
+UI5.button1,Continuar
+EventEnd3.button1,Continuar
+UI6.button1,Continuar
+EventEnterLouge.button1,Continuar
+EventThrallFight2.button1,Continuar
+Spawn1.button1,Continuar
+EventGenericMove.button1,Continuar
+Spawn4.button1,Continuar
+Event6.button1,Continuar
+EventNorthChestReward2.button1,Continuar
+EventGameOver.button1,Continuar
+EventEnd4.button1,Continuar
+EventSueCalmFail.button1,Continuar
+EventSueCalmPass.button1,Continuar
+EventSueSlapFail.button1,Continuar
+EventSueSlapPass.button1,Continuar
+EventSueSpeaks.button1,Continuar
+EventRevealNorthWest.button1,Continuar
+EventRevealNorthWest2.button1,Continuar
+EventSightSeeNW2.button1,Continuar
+EventCreateSeeNW.button1,Continuar
+EventSightNFromNW.button1,Continuar
+TokenSeeWFromNW.button1,Continuar
+EventSightWFromNW.button1,Continuar
+EventWestConservatoryReveal2.button1,Continuar
+EventEnterCellar.button1,Continuar
+EventEnterCellar2.button1,Continuar
+Spawn5.button1,Continuar
+EventOuttaTime.button1,Continuar
+EventOuttaTime2.button1,Continuar
+EventEnd0.button1,Continuar
+EventOuttaTime5.button1,Continuar
+EventRevealBossHall2.button1,Continuar
+EventBossHallSearchFail.button1,Continuar
+EventBossHallSearchPass.button1,Continuar
+TokenBrownSaved.button1,Continuar
+EventRevealEast1.button1,Continuar
+EventOuttaTime01.button1,Continuar
+EventAlchemySearchFail.button1,Continuar
+EventNorthSearchFail.button1,Continuar
+EventAlchemySearchReward3.button1,Continuar
+EventEnd2.button1,Continuar
+quest.authors,  \n\n <i>Creado por</i>: CrosisDePurger  \n\n <i>Traducción al español</i>: Richar y Mauch8  \n\n 
+quest.authors_short,CrosisDePurger
+EventWestSearchAttempt.button2,Fallo
+EventSearchEastAttempt.button2,Fallo
+EventTheManInfluence.button2,Fallo
+EventTheManForce.button2,Fallo
+TokenAlchemySearch.button2,Fallo
+EventMedicalSupplies.button2,Fallo
+EventSueCalm.button2,Fallo
+EventSueSlap.button2,Fallo
+TokenBossHallSearch.button2,Fallo
+TokenNorthSearch.button2,Fallo
+TokenWestExplore.button1,¡Tengo la llave!
+Event0.text,Era un día hermoso. Viniste al parque a disfrutar del sol, pero al acercarse la noche, una conmoción estalló en las cercanías. Escuchaste gritos, y de repente la gente en el parque entró en pánico. En pocos minutos, la mayoría había huido.
+TokenSueCrying.button1,Dejarla en paz
+TokenSeeNW2.button1,Revelar
+TokenSeeNW.button1,Revelar
+TokenSeeNFromNW.button1,Revelar
+TokenNorth.button2,—<i>No importa</i>
+TokenEast.button2,—<i>No importa</i>
+TokenWest.button2,—<i>No importa</i>
+TokenNorthEastSight.button2,—<i>No importa</i>
+TokenMedical.button2,—<i>No hay tiempo</i>
+EventOuttaTime0.button1,—<i>¡Oh, mierda!</i>
+EventWestSearchAttempt.button1,Éxito
+EventSearchEastAttempt.button1,Éxito
+EventTheManInfluence.button1,Éxito
+EventTheManForce.button1,Éxito
+EventMedicalSupplies.button1,Éxito
+EventSueCalm.button1,Éxito
+EventSueSlap.button1,Éxito
+TokenBossHallSearch.button1,Éxito
+EventOuttaTime.text,Coloca el módulo {c:TileNorth} en el lugar señalado.  \n\n A continuación descarta todas las fichas de Vistazo que conduzcan a {c:TileNorth}.
+Spawn5.text,Aparece una Semilla informe en el lugar señalado.
+Spawn1.text,Aparece un Subyugado en el lugar señalado.
+Spawn2.text,Aparece una Semilla informe en el lugar señalado.
+TokenNorthEastSight.button1,Echar un vistazo
+TokenNorth.button1,Echar un vistazo
+TokenEast.button1,Echar un vistazo
+TokenWest.button1,Echar un vistazo
+EventWestSearchAttempt.text,Prueba de {observation}: 2
+UI6.text,FIN
+EventGameOver.text,FIN
+quest.description,Éste es mi primer escenario, es bastante sencillo pero traté de hacerlo de una hora aproximada de duración. Hay dos finales diferentes relacionados con la cantidad de pruebas que encontréis, y un «temporizador» que aparecerá si estáis mucho tiempo en una misma zona antes de llegar a otra zona, pero no es una carrera contrarreloj. ¡Espero que os guste! Los comentarios serán bienvenidos.
+TokenStuckDoor.button1,Bueno, en ese caso...
+quest.synopsys,Viniste al parque para disfrutar de un poco de paz y sol, pero en vez de eso eres testigo de un horror indescriptible.
+TokenAlchemySearch.text,Puedes tratar de darle sentido a todo esto.  \n\n Prueba de {lore}.
+EventUnlockWestDoor.text,No lo haces no hacer nada?
+EventWestSearchReward.text,¡Encuentras una pala!  \n\n Ganas el Objeto común <i>Pala</i>. A continuación descarta esta ficha de Búsqueda.
+EventEnterLouge.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event7.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventGenericMove.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Event6.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
