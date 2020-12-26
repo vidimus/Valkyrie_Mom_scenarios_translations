@@ -1,0 +1,752 @@
+.,Spanish
+quest.name,Reservando habitación para un crimen V1.6
+quest.description,Este escenario está inspirado en el «Asesinato en el hotel Excelsior» del juego Arkham Horror LCG, y contiene eventos de los Mitos personalizados.\n\nSi se elige a alguno de los investigadores que se citan a continuación para jugar esta aventura, habrá consecuencias en el texto de la historia, en la aparición de algunos eventos de los Mitos y en el final del juego (si se elige a más de un investigador de la lista, el escenario elegirá al azar a uno para que sea el que altere la historia): \n\n Tommy Muldoon \n Charlie Kane \n Carolyn Fern \n Padre Mateo \n Joe Diamond \n\n V1.3 - Parece que un evento era demasiado difícil a tenor de los comentarios de los jugadores, así que se ha ajustado su dificultad. \n V1.4 - Se ha arreglado un problema que hacía que el escenario fuese más difícil de lo normal para 2 jugadores, y se ha hecho otro cambio para que sea más sencillo el escenario para cualquier número de jugadores. \n V1.5 - El escenario es ahora más fácil y se ha añadido texto adicional a petición de los jugadores. \n V1.6 - Las acciones a llevar a cabo en la escena del crimen son ahora más fáciles para los grupos de jugadores menos numerosos.
+quest.synopsys,Te despiertas en una extraña habitación de hotel, con las manos cubiertas de sangre.
+quest.authors,\n\n<i>Creado por</i>: Strategywizard \n\n\n <i>Traducción al español</i>: Vidimus \n\n <i>Correcciones</i>: Mauch8 \n\n
+quest.authors_short,Strategywizard
+EventClueTokens.text,Cada investigador comienza con 0 Pistas {clue} y 1 de Horror boca abajo o 1 de Daño boca abajo.
+EventClueTokens.button1,Continuar
+UIIntroContinueButton.uitext,Continuar
+UIIntroText.uitext,Te despiertas en el suelo de una extraña habitación. \n Apenas recuerdas algo, todo parece haber sido un sueño.\n ¿Dónde estás y qué haces aquí?\n Tratas de guardar la compostura al notar cómo tu visión se emborrona. \n Cuando por fin te recuperas, empiezas a recordar algo. \n ¿No estabas siguiendo a alguien o planeabas quedar con alguien \n antes de que te desmayases? \n Te parece recordar cómo llegaste al viejo hotel \n de la calle McNally por alguna razón, \n una muy buena si tenemos en cuenta los horripilantes rumores \n que envuelven a este establecimiento. \n Cuando tu visión se aclara un poco, encuentras a medias la respuesta. \n Tienes las manos llenas de sangre y\n a pocos centímetros de ti hay cuerpo inerte. \n El hombre ha sido apuñalado varias veces \n y el cuchillo descansa sobre el suelo, junto a ti. \n ¿Acaso lo has matado tú? \n No, seguro que no. \n Estás convencido de que todo esto es un montaje para inculparte. \n Tu confusa mente se niega a darte las respuestas, \n pero sin duda hay una buena explicación para todo esto. \n
+UIIntroContinueButton.button1,Button1
+EventPlaceStartingBedroom.text,Echas un vistazo por toda la habitación. Observas que la cama está perfectamente hecha y que la pintoresca habitación está en perfecto estado, si pasamos por alto la sangre fresca que hay esparcida por el suelo. \n\n Coloca el módulo {c:TileBedroom} y 1 ficha de Pared. Coloca también a los investigadores en el lugar señalado.
+EventPlaceStartingBedroom.button1,Continuar
+EventAddBodyAndKnifeTokens.text,Tu cabeza está a punto de estallar, pero te obligas a ponerte en pie. La víctima parece reciente, a juzgar por la sangre que sigue saliendo por sus heridas abiertas. El arma del crimen, una pequeña daga, descansa junto a ti, cubierta de sangre. \n\n Coloca dos fichas de Búsqueda en los lugares señalados.
+EventAddBodyAndKnifeTokens.button1,Continuar
+EventAddInteractTokenCleanUpScene.text,No estás seguro de cuál debería ser tu siguiente paso. ¿Deberías limpiar la escena del crimen y tratar de ocultar el cuerpo de la víctima, o deberías recopilar toda la información necesaria para contar lo sucedido a las autoridades? De cualquier modo, deberías examinar más de cerca a la víctima para ver si puedes reunir algo más de información antes de que te vayas de la habitación.
+EventAddInteractTokenCleanUpScene.button1,Continuar
+EventAddExploreTokensToBedroom.text,Sería conveniente encontrar un lugar para lavarte la sangre de las manos. ¿Dónde estaba el baño? Tres puertas conducen fuera de la cada vez más claustrofóbica habitación. \n\n Coloca 3 fichas de Exploración en los lugares señalados. \n\n <b>Nota: Sólo {rnd:hero} tiene las manos cubiertas de sangre. Esta persona gana el Objeto único <i>Prueba circunstancial</i> como recordatorio de este hecho. Este objeto no se puede soltar, intercambiar o perder de ninguna manera.
+EventAddExploreTokensToBedroom.button1,Continuar
+EventPrepareToStart.text,A medida que trazas un plan, te das cuenta de que no tienes ni idea de si la muerte se debe a algún asunto turbio o no. Es posible que tengas visitantes no deseados, en forma de huéspedes curiosos, deseosos de meter sus narices en esta habitación. Como parece que no hay ninguna llave a la vista, tendrás que buscar alguna manera de bloquear la puerta para asegurarte de que nadie entra. \n\n Tal vez la solución sea vigilar el pasillo y asegurarse de que nadie se acerca a este cuarto. Si por casualidad alguien oyó un violento grito, es probable que la policía venga en camino. Si decides que no vas a limpiar la escena del crimen, puede que sea una buena idea reunir tantas pruebas como sea necesario para demostrar tu inocencia.
+EventPrepareToStart.button1,Continuar
+TokenBody.text,La víctima yace sin vida en el suelo. Al acercarte, te das cuenta de que, además de las mortales puñaladas que ha sufrido, su cara está tan deformada por el horror que es casi imposible reconocer al desdichado.
+TokenBody.button1,{action} Buscar
+TokenMurderWeapon.text,El cuchillo descansa en el suelo, cubierto con la sangre de la víctima. ¿Deberías recoger el arma del crimen o deberías evitar tocarla? Emana una extraña energía que hace que tu mano tiemble en dirección al cuchillo, como si quisiera que lo agarrases. La idea de lo que podría pasar si lo tocases te horroriza, pero no es menos cierto que sería muy peligroso dejarlo ahí tirado, sin más.
+TokenMurderWeapon.button1,{action} Coger el cuchillo
+EventPickUpKnife.text,Recoges el cuchillo, limpiando la sangre fresca con tu pañuelo. En ese momento, y sin previo aviso, tu mente se ve sacudida por unos horrores indescriptibles y un doloroso tormento. \n\n Ganas el Objeto común <i>Cuchillo</i>. A continuación, descarta esta ficha de Búsqueda. \n\n <b>Nota: el investigador que tenga el <i>Cuchillo</i> no lo puede perder bajo ninguna circunstancia. Si un evento dice que debe perder el control del <i>Cuchillo</i>, en lugar de eso sufre 1 de Daño boca abajo.              Quiere decir perder o soltar el Cuchillo?
+EventPickUpKnife.button1,Continuar
+EventTommyRecognizes.text,Afortunadamente, la víctima lleva una identificación personal, revelando que su nombre es Jack Grimsby. Tommy Muldoon reconoce el nombre: se trata de un informante de la policía. Seguramente te habías reunido aquí con él con el fin de obtener alguna información acerca de los sombríos rumores que rodean a este hotel, pero tus recuerdos siguen siendo muy confusos. \n\n Ahora debes decidir si vas a ocultar el cuerpo y limpiar la escena del crimen, o lo vas a dejar todo relativamente intacto para que lo investigue la policía. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventTommyRecognizes.button1,Continuar
+EventCharlieRecognizes.text,Afortunadamente, la víctima lleva una identificación personal, revelando que su nombre es Jack Grimsby. \n\n Charlie Kane reconoce el nombre de inmediato. Era un periodista político, especialista en meter su nariz donde no le llamaban y destapar la corrupción en Arkham. Por muy hábil que fuese, está claro que se topó con la gente equivocada, y que no le iban a dejar que publicase algo. Probablemente quedó contigo para pedirte ayuda antes de que terminase de forma trágica. \n\n Ahora debes decidir si vas a ocultar el cuerpo y limpiar la escena del crimen, o lo vas a dejar todo relativamente intacto para que lo investigue la policía. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventCharlieRecognizes.button1,Continuar
+EventCarolynRecognizes.text,Lo que todavía es más horrible, es que te das cuenta de que no tiene ojos, sólo dos cuencas oculares ensangrentadas. Intentas apartar tu vista de la desagradable visión mientras buscas algo que te permita identificarlo. Por suerte, encuentras algo que te dice que su nombre es Jack Grimsby. \n\n Carolyn Fern recuerda ese nombre. Hace algún tiempo fue paciente suyo en su consulta psicológica. Nadie, ni siquiera Carolyn, le creyó cuando afirmaba que unos horrores de otro mundo acechaban en este viejo hotel. ¿Acaso fue él quien te llamó para quedar aquí con la intención de demostrarte que no estaba loco, después de todo? \n\n Debes decidir si ocultas el cuerpo por ahora y limpias la escena del crimen o bien lo dejas todo como está para que la policía lo investigue. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca una ficha de Interacción en el lugar señalado.
+EventCarolynRecognizes.button1,Continuar
+EventMateoRecognizes.text,Examinas el cuerpo, buscando algún tipo de identificación. Durante el registro te das cuenta de que le han cortado uno de los dedos. Dejando al lado este desagradable descubrimiento, por suerte la víctima lleva una identificación personal, revelando que su nombre es Jack Grimsby. El padre Mateo se persigna al oír el nombre, ya que era uno de sus feligreses. ¿Para qué habrías quedado con él aquí? Recuerdas vagamente algo sobre que decía que había sido testigo de una posesión diabólica. ¿Acaso creía que el hotel estaba poseído por fuerzas demoníacas? \n\n Ahora debes decidir si vas a ocultar el cuerpo y limpiar la escena del crimen, o lo vas a dejar todo relativamente intacto para que lo investigue la policía. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventMateoRecognizes.button1,Continuar
+EventJoeDiamondRecognizes.text,Afortunadamente, la víctima lleva una identificación personal, revelando que su nombre es Jack Grimsby.\n\n Joe Diamond menea la cabeza. Conoce perfectamente ese nombre. Habrás seguido a Jack hasta aquí porque era uno de tus encargos más recientes. Estaba envuelto en siniestras actividades relacionadas con una secta y te encargaron seguirle para averiguar qué tipo de horribles actos estaba perpetrando. Con su cuerpo tendido delante de ti, está claro que ya no podrás sacarle ninguna información. \n\n Ahora debes decidir si vas a ocultar el cuerpo y limpiar la escena del crimen, o lo vas a dejar todo relativamente intacto para que lo investigue la policía. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventJoeDiamondRecognizes.button1,Continuar
+EventNoBodySpecificRemembers.text,Afortunadamente, la víctima lleva una identificación personal, revelando que su nombre es Jack Grimsby. \n\n Sí, era uno de tus clientes. Te pidió que te reunieses en secreto con él en este sitio. Por desgracia, no recuerdas cuál era el motivo y si te lo contó antes de que te desmayases. \n\n Ahora debes decidir si vas a ocultar el cuerpo y limpiar la escena del crimen, o lo vas a dejar todo relativamente intacto para que lo investigue la policía. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventNoBodySpecificRemembers.button1,Continuar
+TokenExploreBedroomBottomInitial.text,Quizá sea mejor comprobar el cuerpo antes de dejar la habitación.
+TokenExploreBedroomBottomInitial.button1,Continuar
+TokenExploreBedroomRightInitial.text,Quizá sea mejor comprobar el cuerpo antes de dejar la habitación.
+TokenExploreBedroomRightInitial.button1,Continuar
+TokenExploreBedroomTopInitial.text,Quizá sea mejor comprobar el cuerpo antes de dejar la habitación.
+TokenExploreBedroomTopInitial.button1,Continuar
+TokenExploreBedroomRight.text,Una puerta sin nada destacable está delante de ti. A tenor de la ausencia de luz que observas por debajo de la puerta, dirías que la zona que hay a continuación no está iluminada.
+TokenExploreBedroomRight.button1,{action} Explorar
+TokenExploreBedroomTop.text,Una puerta sin nada destacable está delante de ti. A tenor de la escasa la luz que se filtra por debajo de la puerta, dirías que la zona que hay a continuación no está bien iluminada.
+TokenExploreBedroomTop.button1,{action} Explorar
+TokenExploreBedroomBottom.text,Una puerta sin nada destacable está delante de ti. A tenor de la luz que se filtra por debajo de la puerta, dirías que la zona que hay a continuación está bien iluminada.
+TokenExploreBedroomBottom.button1,{action} Explorar
+TokenInteractHideBody.button1,{action} Esconder el cuerpo
+TokenInteractCleanBlood.text,Todavía tienes que limpiar la sangre si quieres ocultar lo que ha pasado aquí.
+EventHideBody.text,Intentas meter el cuerpo debajo de la cama, pero en ese momento la culpa te pesa demasiado. Estás alterando la escena de un crimen {strength}-1. \n\n <b>Nota: Cada intento se acumula con los resultados anteriores</b>.
+EventHideBody.button1,Continuar
+EventMoveCorpseFail.text,Poco a poco. Aunque pesa bastante más de lo que parece.
+EventMoveCorpseFail.button1,Continuar
+EventMoveCorpsePassed.text,Por fin consigues meter por completo el cadáver debajo de la cama. Ahora sólo tienes que limpiar la sangre.
+EventMoveCorpsePassed.button1,Continuar
+TokenInteractHideBody.text,Si quieres limpiar la escena del crimen, primero necesitarás esconder el cuerpo. Pero aún te sientes débil tras haberte desmayado y caído al suelo.
+TokenInteractCleanBlood.button1,{action} Limpiar la sangre
+EventCleanBlood.text,Intentas limpiar hasta el más mínimo rastro de sangre, tratando de no dejar huellas, pero tus nervios te traicionan y te cuesta concentrarte {observation}-1. \n\n <b>Nota: Cada intento se acumula con los resultados anteriores</b>.
+EventCleanBlood.button1,Continuar
+EventCleanBloodPass.text,Consigues limpiar todas los restos de sangre y ahora la habitación tiene un aspecto tan inofensivo como de costumbre. Sin embargo, no puedes evitar la amarga sensación de culpabilidad por haber eliminado las pruebas de lo sucedido. \n\n Todos los investigadores sufre 1 de Horror boca abajo. \n\n Descarta esta ficha de Interacción.
+EventCleanBloodPass.button1,Continuar
+EventCleanBloodFail.text,Parece que todavía tienes más sangre que limpiar.
+EventCleanBloodFail.button1,Continuar
+EventKnifeInsanity3PlusPlayers.text,Tus colegas te miran con desconfianza cuando ven la locura en tus ojos. En ese momento comienzan a murmurar; \n\n —<i>Quizá ahora no deberíamos quedarnos a solas con él</i>. \n\n\n <b>Nota: SÓLO el investigador que ha cogido el cuchillo lee lo que viene a continuación</b>.\n
+EventKnifeInsanity3PlusPlayers.button1,Continuar
+EventKnifeInsanity2Players.button1,Continuar
+EventDeepOneHybridInsanity.text,Adquieres la carta de Locura <i>Híbrido de Profundo</i>. \n <b>Los otros investigadores no pueden saber qué carta de Locura has ganado. Sobre el requisito de tener 2 Pruebas, no puedes contabilizar la Prueba circunstancial como una de ellas (en caso de que seas el investigador con las manos cubiertas de sangre)</b>. \n\n Descarta todo el Horror boca abajo que tengas. A partir de ahora, si vuelves a sufrir una cantidad de Horror igual a tu Cordura, quedas eliminado del juego. \n\n <b>Nota: Si la carta de Locura no estuviese disponible porque ya la tuviese otro investigador, roba al azar una carta de Locura.
+EventKnifeInsanity2Players.text,Tu colega te mira con recelo. Hay algo en tu mirada que es distinto. \n\n\n <b>Nota: SÓLO el investigador que ha cogido el cuchillo lee lo que viene a continuación</b>.\n
+EventDeepOneHybridInsanity.button1,Continuar
+EventOneOfTheThousandInsanity.text,Adquieres la carta de Locura <i>Uno del Millar</i>. \n\n <b>Los otros investigadores no pueden saber qué carta de Locura has ganado. Nota: Si estás Retenido por la Soga o las Esposas, no podrás activar la condición de victoria de esta Locura</b>. \n\n Descarta todo el Horror boca abajo que tengas. A partir de ahora, si vuelves a sufrir una cantidad de Horror igual a tu Cordura, quedas eliminado del juego. \n\n <b>Nota: Si la carta de Locura no estuviese disponible porque ya la tuviese otro investigador, roba al azar una carta de Locura.
+EventOneOfTheThousandInsanity.button1,Continuar
+EventSuspiciousInsanity.text,Adquieres la carta de Locura <i>Actitud sospechosa</i>. \n\n <b>Los otros investigadores no pueden saber qué carta de Locura has ganado</b>. \n\n Descarta todo el Horror boca abajo que tengas. A partir de ahora, si vuelves a sufrir una cantidad de Horror igual a tu Cordura, quedas eliminado del juego. \n\n <b>Nota: Si la carta de Locura no estuviese disponible porque ya la tuviese otro investigador, roba al azar una carta de Locura.
+EventSuspiciousInsanity.button1,Continuar
+EventSelfishMotivesInsanity.text,Adquieres la carta de Locura <i>Motivos egoístas</i>. \n\n <b>Los otros investigadores no pueden saber qué carta de Locura has ganado</b>. \n\n Descarta todo el Horror boca abajo que tengas. A partir de ahora, si vuelves a sufrir una cantidad de Horror igual a tu Cordura, quedas eliminado del juego. \n\n <b>Nota: Si la carta de Locura no estuviese disponible porque ya la tuviese otro investigador, roba al azar una carta de Locura.
+EventSelfishMotivesInsanity.button1,Continuar
+EventMiseryLovesCompanyInsanity.text,Adquieres la carta de Locura <i>Mal de muchos</i>. \n\n <b>Los otros investigadores no pueden saber qué carta de Locura has ganado</b>. \n\n Descarta todo el Horror boca abajo que tengas. A partir de ahora, si vuelves a sufrir una cantidad de Horror igual a tu Cordura, quedas eliminado del juego. \n\n <b>Nota: Si la carta de Locura no estuviese disponible porque ya la tuviese otro investigador, roba al azar una carta de Locura.
+EventMiseryLovesCompanyInsanity.button1,Continuar
+EventRevealBathroom.text,Has encontrado el cuarto de baño. Es pequeño, pero bastante funcional. ¿Pero por qué motivo está tan sucio? \n\n Coloca el módulo {c:TileBathNursery} y 2 fichas de Pared en los lugares señalados.
+EventRevealBathroom.button1,Continuar
+EventAddSinkSearchToken.text,Ahora te puedes limpiar la sangre de las manos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSinkSearchToken.button1,Continuar
+EventNurseryNoisesInformant.text,La pared que tienes a tu izquierda te llama la atención. A través de ella te parece oír gruñidos y golpes, como si alguien se estuviese moviendo en el otro lado. ¿Qué diantres estará pasando ahí?
+EventNurseryNoisesInformant.button1,Continuar
+EventMove1Space.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMove1Space.button1,Continuar
+EventNurseryNoisesJournalist.text,La pared que tienes a tu izquierda te llama la atención. ¿No oyes el ruido de unos niños jugando y riendo al otro lado del muro?
+EventNurseryNoisesJournalist.button1,Continuar
+TokenSearch4thHallTable.text,Varios libros descansan sobre una mesita.
+EventNurseryNoisesPatient.button1,Continuar
+EventNurseryNoisesParishoner.text,La pared que tienes a tu izquierda te llama la atención. Oyes un inquietante ruido que hace que se te erice el pelo. Sufres 1 de Horror boca abajo (anulado por {will}-1).
+EventNurseryNoisesParishoner.button1,Continuar
+EventNurseryNoisesCriminal.text,La pared tu izquierda atrae tu atención. \n\n Un ruido sobrenatural se oye a través de ella, haciendo que un escalofrío recorra tu espalda. Sufres 1 de Horror (anulado por {will}-1).
+EventNurseryNoisesCriminal.button1,Continuar
+EventNurseryNoisesGeneric.button1,Continuar
+TokenSearchSink.text,El investigador que posea la <i>Prueba circunstancial</i> puede limpiarse la sangre de las manos usando este lavabo.
+TokenSearchSink.button1,{action} Lavarse las manos
+EventWashHands.text,Mientras observas cómo el chorro de agua escarlata se va por el sumidero del lavabo y tus manos vuelven a su color original, notas una sensación de alivio recorriendo todo tu cuerpo. \n Pon boca abajo 1 de Horror o descarta 1 de Horror boca abajo. \n A continuación, descarta esta ficha de Búsqueda. 
+EventWashHands.button1,Continuar
+EventEnterBalcony.text,Al abrir la puerta, la fresca brisa de la noche golpea tu cara mientras contemplas cómo la luna derrama su luz sobre las copas de los árboles que rodean el hotel. Tiritas mientras te frotas vigorosamente los hombros, oteando desde el balcón del hotel el paisaje que te rodea. \n\n Coloca el módulo {c:TileBalcony} en el lugar señalado.
+EventEnterBalcony.button1,Continuar
+EventAddBalconySearchTokens.text,Observas algo tirado en el suelo del balcón. Además, hay otra cosa sobre la mesa que tienes a tu derecha. \n\n Coloca 2 fichas de Búsqueda en el lugar señalado.
+EventAddBalconySearchTokens.button1,Continuar
+TokenSearchFootprintsOrNot.text,En el suelo del balcón hay algo inusual.
+TokenSearchFootprintsOrNot.button1,{action} Buscar
+EventBalconyEvidenceInformant.text,Arrodillándote para examinar más de cerca, observas algo parecido a una mezcla de carne humana y escamas de pez. ¿Qué clase de locura mutante es esto? ¿Acaso trepó el balcón algún tipo de criatura híbrida y mató a Grimsby antes de que pudiese reunir suficientes pruebas incriminatorias? \n\n Sufres 1 de Horror boca abajo (anulados por {will}-1). Ganas el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidenceInformant.button1,Continuar
+EventBalconyEvidenceJournalist.text,Arrodillándote para examinar más de cerca, observas que hay unas tenues huellas de zapatos impresas en el barro. n\n ¿Sería posible que alguien trepase por el balcón y matase a Grimsby antes de que pudiese contarle a alguien su historia? Ganas el Objeto único <i>Prueba incriminatoria</i> y 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidenceJournalist.button1,Continuar
+EventBalconyEvidencePatient.text,Arrodillándote para examinar más de cerca, observas un reguero de lodo verdoso. Quizá Grimsby no estuviese loco, después de todo. Esta sustancia no se parece a nada que hayas a nada que hayas visto antes ni de lo que hayas oído hablar. \n\n Sufres 3 de Horror boca abajo (anulados por {will}). Ganas el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidencePatient.button1,Continuar
+EventBalconyEvidenceParishoner.text,Arrodillándote para examinar más de cerca, observas unas marcas pintadas sobre las baldosas del balcón. Con la evidencia clara de que Grimsby tenía razón sobre las actividades demoníacas, tu miedo ahora se centra en los posibles efectos del ritual. ¿Forzarían a Grimsby a quitarse la vida? \n\n Sufres 2 de Horror (anulados por {will}). Ganas el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidenceParishoner.button1,Continuar
+EventBalconyEvidenceCriminal.text,Arrodillándote para examinar más de cerca, observas que en el suelo hay un rastro de un polvo brillante. Estas partículas parecen ser los restos de algún tipo de magia ocultista. No tienes ni idea de si esto puede ser importante o no, pero lo que es seguro es que está relacionado con la muerte de Grimsby. \n\n Ganas el Objeto único <i>Prueba incriminatoria</i> y 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidenceCriminal.button1,Continuar
+EventBalconyEvidenceGeneral.text,Arrodillándote para examinar más de cerca, observas que hay unas tenues huellas de zapatos impresas en el barro. n\n ¿Sería posible que alguien trepase por el balcón y matase a Grimsby antes de que pudiese contarle a alguien su historia? \n\n Ganas el Objeto único <i>Prueba incriminatoria</i> y 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventBalconyEvidenceGeneral.button1,Continuar
+TokenSearchBalconyTable.text,Hay varios objetos repartidos sobre la mesa del balcón.
+TokenSearchBalconyTable.button1,{action} Buscar
+EventSearchBalconyTableBladedWeapon.text,Echando a un lado toda la basura inútil de la mesa, ves algo que refleja la pálida luz de la luna. Sin duda es algo que te ayudará a sobrevivir esta noche en este horripilante lugar. \n\n Ganas el Objeto común <i>Daga ritual</i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearchBalconyTableBladedWeapon.button1,Continuar
+EventSearchBalconyTableBook.text,Hay un libro sobre la mesa. Sin estar seguro de cuál ha podido ser la intención real del dueño, deduces que es un libro sagrado. Quizá puedas usar sus poderes ocultos para tus propósitos/en tu beneficio. \n\n Adquieres el estado <i>Virtuoso</i> y ganas el Objeto común <i>Manuscrito arcano</i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearchBalconyTableBook.button1,Continuar
+EventSearchBalconyTableLuckyCigCase.text,Bajo la luz de la luna observas una elegante pitillera que alguien ha perdido. \n\n Ganas el Objeto común <i>Pitillera de la suerte</i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearchBalconyTableLuckyCigCase.button1,Continuar
+EventRevealHallsAndLobby.text,Al abrir la puerta, recuerdas buena parte de la distribución del hotel. \n\n Coloca los módulos {c:Tile1stHall}, {c:Tile2ndHall}, {c:Tile3rdHall}, {c:Tile4thHall} y{c:TileLobby}, 1 ficha de Obstrucción y 2 fichas de Pared en los lugares señalados.
+EventRevealHallsAndLobby.button1,Continuar
+EventAddHallExploreTokens.text,Una serie de puertas se disponen a lo largo del pasillo, la mayoría de las cuales conducen a otras habitaciones del hotel. Quizá puedas interrogar a otros huéspedes para obtener información valiosa. \n\n Coloca 6 fichas de Exploración en los lugares señalados.
+EventAddHallExploreTokens.button1,Continuar
+EventAddLobbyExploreTokens.text,También recuerdas que hay dos puertas en el vestíbulo que llevan a dos habitaciones desconocidas. \n\n Coloca 2 fichas de Exploración en los lugares señalados.
+EventAddLobbyExploreTokens.button1,Continuar
+EventAddSearchToken1stHallTable.text,Al fondo, en una esquina del pasillo, ves una mesa con algo encima. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchToken1stHallTable.button1,Continuar
+EventAddSearchTokenToppledTable.text,Hay una mesa volcada. ¿Algo o alguien ha pasado por aquí a la carrera? \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenToppledTable.button1,Continuar
+EventAddSearchToken3rdHallTable.text,Una mesita cercana al vestíbulo con unos papeles encima. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchToken3rdHallTable.button1,Continuar
+EventAddSearchToken4thHallDesk.text,Más adelante, en el pasillo, ves una mesita cubierta de libros. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchToken4thHallDesk.button1,Continuar
+EventAddSearchTokenLobbyCenter.text,Te parece recordar que había un libro inusual en el vestíbulo del hotel. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenLobbyCenter.button1,Continuar
+EventAddPersonTokenUponHallEntry.text,Parece ser que uno de los huéspedes de una habitación cercana ha oído algo, y se está acercando cautelosamente a tu habitación. \n\n —<i>¿Va todo bien? —dice una voz temblorosa al otro lado de la puerta.\n\n Sin duda sería mejor que no entrase en la habitación si no has limpiado la escena del crimen y recogido el cuchillo. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventAddPersonTokenUponHallEntry.button1,Continuar
+EventCopsAlreadyArrived.text,La policía debe de haber llegado ya. Les oyes en el vestíbulo hablando con alguien, seguramente el gerente del hotel. No puedes entender toda la conversación, pero hablan suficientemente alto como para que te lleguen algunas palabras: «molestias», «grito» y «subiendo las escaleras». Parece que tendrás que enfrentarte a la policía antes de lo que pensabas. \n\n Todos los investigadores sufren 1 de Horror. Coloca las 3 fichas de Personaje en el lugar señalado.
+EventCopsAlreadyArrived.button1,Continuar
+EventPoliceArrive.text,Dos agentes de policía irrumpen en el vestíbulo. Sus pisadas resuenan en la enorme sala mientras se encaminan hacia las escaleras. El gerente del hotel sale a recibirles y comienzan a discutir sobre la llamada de un huésped informando de ruidos y molestias. Parece que te las tendrás que ver con la policía más pronto de lo que pensabas. \n\n Coloca las fichas de Personaje Policía azul, Tetsuo Mori y Leland Williams en los lugares señalados.
+EventPoliceArrive.button1,Continuar
+EventGuestStumblesIn.text,Sin previo aviso, un hombre corpulento irrumpe en la habitación. Con voz firme pero preocupada, grita: \n\n —<i>¡He oído un grito procedente de esta habitación! ¿Qué está pasando aquí?</i>
+EventGuestStumblesIn.button1,Continuar
+EventGuestStumblesInSeesKnife.text,Con un ojo puesto en el cuchillo ensangrentado que hay en el suelo, se lanza a por él instintivamente. Tan pronto como lo coge sufre una pequeña y silenciosa convulsión. Recuperando la compostura, da un paso atrás, y en su mirada puedes ver un destello de malicia, como si fuese un hombre distinto. \n\n Descarta esta ficha de Búsqueda.
+EventGuestStumblesInSeesKnife.button1,Continuar
+SpawnGuestStumblesInManiac.text,Blandiendo el cuchillo, el hombre trata de intimidarte lamiendo la sangre de la hoja y mirándote con una sonrisa maligna. \n\n Coloca un Maníaco en el lugar señalado y descarta esta ficha de Búsqueda.
+SpawnGuestStumblesInManiac.button1,Continuar
+EventGuestStumblesInMessNotCleaned.text,Ante la imagen de caos y violencia de la habitación se pone a gritar: \n\n —<i>¡Aquí han asesinado a alguien!</i> \n\n Si algún investigador está en el espacio ocupado por la cama, el hombre le lanza con furia un puñetazo antes de salir corriendo por la puerta. Sufres 2 de Horror y 3 de Daño (anulados por {will}+{agility}). \n\n Los demás investigadores sufren 2 de Horror boca abajo (anulados por {will}-1).
+EventGuestStumblesInMessNotCleaned.button1,Continuar
+EventGuestStumblesInBloodyHands.text,¿El investigador que lleva la <i>Prueba circunstancial</i> está en el dormitorio?
+EventGuestStumblesInBloodyHands.button1,Sí
+EventGuestStumblesInBloodyHands.button2,No
+EventGuestStumblesInSeesBloodyHands.text,Al ver tus manos cubiertas de sangre, el hombre te señala con un dedo acusatorio. \n\n —<i>¡Asesino!</i> —te grita al tiempo que te atiza un puñetazo justo antes de salir corriendo por la puerta. \n Sufres 2 de Horror y 3 de Daño (anulados por {will}+{agility}). \n\n El resto de investigadores sufren 2 de Horror boca abajo (anulados por {will}).
+EventGuestStumblesInSeesBloodyHands.button1,Continuar
+EventGuestStumblesInNoEvidence.text,Al no ver señales de violencia, el hombre se disculpa por entrar en la habitación y se marcha en silencio.
+EventGuestStumblesInNoEvidence.button1,Continuar
+TokenTable1stHall.text,Sobre la mesa ves un recipiente para beber.
+TokenTable1stHall.button1,{action} Buscar
+EventTakeThermosOrFlask.text,Podrías intentar coger el recipiente, pero no estás seguro de dónde podría estar el propietario. Tendrás que estar atento para que no te pillen ({observation}; 2).
+EventTakeThermosOrFlask.button1,Éxito
+EventTakeThermosOrFlask.button2,Fallo
+EventTakeThermosOrFlaskFail.text,Cada ruido que oyes hace que te pares y mires a todos lados. ¿Eso ha sido alguien acercándose a la esquina?
+EventTakeThermosOrFlaskFail.button1,Continuar
+EventTakeThermos.text,Prestando especial atención a los sonidos del misterioso hotel, agarras rápidamente el objeto y la escondes debajo de tu abrigo.\n\n Ganas el Objeto común <i>Termo</i>. A continuación, descarta esta ficha de Búsqueda.
+EventTakeThermos.button1,Continuar
+EventTakeFlask.text,Prestando especial atención a los sonidos del misterioso hotel, agarras rápidamente el objeto y la escondes debajo de tu abrigo.\n\n Ganas el Objeto común <i>Petaca</i>. A continuación, descarta esta ficha de Búsqueda.
+EventTakeFlask.button1,Continuar
+TokenSearchToppledTable.text,Todas las cosas de la mesa están esparcidas por el suelo.
+TokenSearchToppledTable.button1,{action} Buscar
+EventSearchToppledTable.text,Las flores están esparcidas por todas partes, pero lo que más te llama la atención es una pequeña lámpara de aceite. Servirá como una excelente fuente de luz, así que la enciendes inmediatamente para iluminar el sitio. \n\n Ganas el Objeto común <i>Lámpara de aceite</i> (puedes interactuar con ella usando el menú de Objetos en la aplicación). Después descarta esta ficha de Búsqueda.
+EventSearchToppledTable.button1,Continuar
+EventRubLamp.text,No puedes resistir la tentación de frotar la lámpara, recordando la historia de Aladino y su genio mágico. Sueñas que así podrías dejar atrás toda esta horrible situación. Increíblemente, tus acciones son seguidas por una voz siniestra que sólo tú pareces escuchar. Una presencia sobrenatural ha habitado este recipiente de oro, probablemente aprovechándose de la avaricia humana. Horrorizado, ahora te das cuenta más que nunca de las terribles historias que rodean a este hotel. \n\n Ganas 1 Pista {clue}. \n\n <b>Nota: Sólo el investigador que tiene la lámpara de aceite puede leer lo que viene a continuación.</b>
+EventRubLamp.button1,Continuar
+EventGenieSpeaks.text,La voz te seduce con una oferta: \n\n —<i>Te puedo otorgar un gran poder, pero todo tiene un precio. ¡Elige sabiamente!</i>
+EventGenieSpeaks.button1,Pedir mejoras personales
+EventGenieSpeaks.button2,Pedir invencibilidad física
+EventGenieSpeaks.button3,Pedir magia poderosa
+EventGenieSpeaks.button4,Rechazar la oferta
+EventWishImprovement.text,El espíritu susurra dentro de tu mente: «<i>Concedido</i>». \n\n Su risa resuena a medida que se desvanece poco a poco hasta desaparecer. \n\n Mejoras todas tus habilidades y descartas 1 de Daño y 1 de Horror. Ganas la carta de Locura <i>Palabras prohibidas</i>. No puedes interactuar con fichas de Personaje o llamar a las puertas de las habitaciones del hotel hasta el final de la partida (usa una nota u otra cosa como recordatorio). Usa esta carta como si fuese un estado permanente y no como una locura. Puedes, de todos modos, volverte loco siguiendo las reglas normales (a menos que ya lo estés). \n\n <b>Nota: Si este estado de Locura no estuviese disponible porque ya la tuviese otro investigador, en lugar de eso sufres 3 de Horror).
+EventWishImprovement.button1,Continuar
+EventWishInvincibility.text,El espíritu susurra dentro de tu mente: «<i>Concedido</i>». \n\n Su risa resuena a medida que se desvanece poco a poco hasta desaparecer. \n\n Para lo que queda de escenario, no puedes sufrir ningún tipo de Daño y puedes moverte 1 espacio adicional por cada acción de movimiento (puedes usar algo para recordarte esa posibilidad). \n\n Ganas la carta de Locura <i>Ansiedad galopante</i>. \n\n Usa esta carta como si fuese un estado permanente y no como una locura. Puedes, de todos modos, volverte loco siguiendo las reglas normales (a menos que ya lo estés). \n\n <b>Nota: Si este estado de Locura no estuviese disponible porque ya la tuviese otro investigador, en lugar de eso sufres 3 de Horror).
+EventWishInvincibility.button1,Continuar
+EventWishMagic.text,El espíritu susurra dentro de tu mente: «<i>Concedido</i>». \n\n Su risa resuena a medida que se desvanece poco a poco hasta desaparecer. \n\n Ganas 2 Hechizos a tu elección y una mejora de {lore}. \n\n Ganas la carta de Locura <i>Pasividad</i>. \n\n Usa esta carta como si afectase a todos los jugadores, no sólo al que tienes a tu izquierda. Además, no podrás llevarle la contraria a nadie y sufres una penalización de -1 a todas tus tiradas de {influence} (usa una nota u otra cosa como recordatorio). Usa esta carta como si fuese un estado permanente y no como una locura. Puedes, de todos modos, volverte loco siguiendo las reglas normales (a menos que ya lo estés). \n\n <b>Nota: Si este estado de Locura no estuviese disponible porque ya la tuviese otro investigador, en lugar de eso sufres 3 de Horror).
+EventWishMagic.button1,Continuar
+EventWishRefuse.text,—<i>Muy bien.</i> —contesta calmadamente la voz demoníaca. —<i>Tuvo su oportunidad.</i> La voz se queda en silencio, pero te queda un resquemor mientras te preguntas qué clase de espíritu sería. \n\n Sufres 1 de Horror.
+EventWishRefuse.button1,Continuar
+EventAddDarknessInHalls.text,De repente las luces se apagan, sumiendo al pasillo en una completa oscuridad. \n\n Coloca 8 fichas de Oscuridad (1 en cada espacio del pasillo).
+EventAddDarknessInHalls.button1,Continuar
+TokenSearch3rdHallDesk.text,Hay unos papeles esparcidos sobre la mesa.
+TokenSearch3rdHallDesk.button1,{action} Buscar
+EventSearchPapersTable3rdHall.text,Hay muchos papeles para revisar. Pero quizá tu ojo entrenado de investigador pueda encontrar algo que merezca la pena sin tener que perder mucho tiempo {observation}.
+EventSearchPapersTable3rdHall.button1,Continuar
+Event3rdHallPapersFail.text,Nada de lo que ves mientras revisas los papeles te llama la atención.
+Event3rdHallPapersFail.button1,Continuar
+Event3rdHallPapersPass.button1,Button1
+EventTable3rdHallInformant.text,Una página con un líquido baboso en una esquina te llama la atención. No estás seguro de qué puede ser la sustancia pegajosa, pero desprende un olor a pescado podrido. El documento incluye detalles sobre un cargamento recién llegado que debe ser devuelto a la «sala de juegos» del hotel. \n Tiene que tratarse de algún tipo de mercancía de contrabando, y es probable que sea lo que Jack Grimsby trataba de indicarte. Te das cuenta de que tendrás que descubrir en qué consistía este envío a fin de resolver este misterio. \n\n Ganas el Objeto único <i>Diario de sectario</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventTable3rdHallInformant.button1,Continuar
+EventTable3rdHallJournalist.text,Una página manchada llama tu atención. El documento proporciona instrucciones para reclutar más «voluntarios» y llevarlos a la «sala de juegos» del hotel. En el pie de página ves una firma de un importante miembro del ayuntamiento de Arkham. Está claro que aquí está pasando algo sospechoso, y que Jack Grimsby sabía algo y ha muerto por ese motivo. Para poder resolver este misterio tendrás que averiguar qué está pasando en la «sala de juegos». \n\n Ganas el Objeto único <i>Diario de sectario</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventTable3rdHallJournalist.button1,Continuar
+EventTable3rdHallPatient.text,Una página con un ligerísimo olor a azufre te llama la atención. El documento detalla la necesidad de «especímenes» adicionales para poder ampliar las investigaciones en anatomía humana. ¿Acaso tendría razón Jack Grimsby? ¿Qué tipo de hotel necesita investigar la anatomía humana?\n Sufres 2 de Horror boca abajo (anulados por {will}). \n\n Ganas el Objeto único <i>Diario de sectario</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventTable3rdHallPatient.button1,Continuar
+EventTable3rdHallParishoner.text,Un pequeño trozo de papel enterrado en mitad de la pila y lleno de símbolos ocultistas llama tu atención. Se ordena a la plantilla del hotel dejar una «ofrenda» en la «sala de juegos» para que el negocio siga prosperando. Jack Grimsby tenía toda la razón cuando decía que en este hotel se llevan a cabo actividades demoníacas. Te preguntas qué clase de ofrendas serán y para quién, pero está claro que tendrás que llegar al fondo del asunto para saber qué se cuece en este lugar. Sufres 1 de Horror boca abajo. \n\n Ganas el Objeto único <i>Diario de sectario</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventTable3rdHallParishoner.button1,Continuar
+EventTable3rdHallCriminal.text,Una hoja de papel te llama la atención al fijarte en una extraña marca de agua que tiene en la esquina superior izquierda. No reconoces su significado, pero después de leer el papel comprendes que pertenece a una poco conocida secta de Arkham que busca obtener poderes usando la magia negra. Parece claro que Jack Grimsby participó en este grupo. El descubrimiento de su conexión con ella es tu mejor oportunidad para librarte de la culpa por su asesinato. \n\n Ganas el Objeto único <i>Diario de sectario</i> y todos los investigadores ganan 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventTable3rdHallCriminal.button1,Continuar
+EventTable3rdHallGeneric.text,Una página hecha jirones y cubierta de manchas oscuras llama tu atención. Parece ser de un viejo grimorio que asegura que contiene los secretos para obtener el poder de la resurrección. Por muy descabellada que sea la idea, no puedes pasar por alto la posibilidad de que esto sea la causa por la que tu cliente, Jack Grimsby, fue asesinado. ¿Acaso planeaba demostrar que en este hotel se llevaban a cabo oscuras artes con el fin de resucitar a los muertos? Sufres 1 de Horror (anulado por {will} -1). \n\n Ganas el Objeto único <i>Diario de cultista</i>. Todos los investigadores ganan 1 Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventTable3rdHallGeneric.button1,Continuar
+TokenSearch4thHallTable.button1,Continuar
+EventSearch4thHallTable.text,Echas un vistazo a los libros buscando alguno que te pueda servir para algo {lore}.
+EventSearch4thHallTable.button1,Continuar
+EventSearch4thHallTableFail.text,No estás seguro de que alguno de estos textos te pueda ayudar.
+EventSearch4thHallTableFail.button1,Continuar
+EventSearch4thHallTableMed.button1,Continuar
+EventSearch4thHallTablePass.button1,Continuar
+EventSearchSpaDrawersWhiskey.text,Rebuscando entre los cajones te topas con una medicina para tu cordura. \n\n Ganas el Objeto común <i>Whisky<i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearch4thHallTablePass.text,Un oscuro manuscrito, rebosante de poder místico, estaba escondido cuidadosamente entre los otros libros. No te sorprende para nada encontrar este tipo de siniestros escritos en estos sombríos pasillos. \n\n Ganas el Objeto común <i>Tomo de los secretos</i> y 1 ficha de Pista {clue}. A continuación descarta esta ficha de Búsqueda.
+TokenExplore1stHallTop.text,La puerta tiene un cartel: «Habitación 204»
+TokenExplore1stHallTop.button1,{action} Llamar a la puerta
+TokenExplore1stHallLeft.text,La puerta tiene un cartel: «Habitación 203»
+TokenExplore1stHallLeft.button1,{action} Llamar a la puerta
+TokenExplore2ndHallLeft.text,La puerta tiene un cartel: «Habitación 202»
+TokenExplore2ndHallLeft.button1,{action} Llamar a la puerta
+TokenExplore4thHallRight.text,La puerta tiene un cartel: «Habitación 205»
+TokenExplore4thHallRight.button1,{action} Llamar a la puerta
+TokenExplore4thHallTop.text,La puerta tiene un cartel: «Habitación 206»
+TokenExplore4thHallTop.button1,{action} Llamar a la puerta
+EventGuestNoAnswer.text,La única respuesta que recibes es un demoledor silencio.
+EventGuestNoAnswer.button1,Continuar
+EventKnock1stHallTopDoor.text,Llamas a la puerta con decisión. \n\n Descarta esta ficha de Exploración.
+EventKnock1stHallTopDoor.button1,Continuar
+EventKnock1stHallBottomDoor.text,Llamas a la puerta con decisión. \n\n Descarta esta ficha de Exploración.
+EventKnock1stHallBottomDoor.button1,Continuar
+EventKnock2ndHallDoor.text,Llamas a la puerta con decisión. \n\n Descarta esta ficha de Exploración.
+EventKnock2ndHallDoor.button1,Continuar
+EventKnock4thHallRightDoor.text,Llamas a la puerta con decisión. \n\n Descarta esta ficha de Exploración.
+EventKnock4thHallRightDoor.button1,Continuar
+EventKnock4thHallTopDoor.text,Llamas a la puerta con decisión. \n\n Descarta esta ficha de Exploración.
+EventKnock4thHallTopDoor.button1,Continuar
+EventGuestGift.text,Una anciana abre la puerta con cautela, con una expresión de miedo en su rostro. Con un cordial saludo, te identificas como un investigador privado y le preguntas si ha visto o escuchado algo extraño esta noche. \n\n —<i>Oh, me alegro de ver una cara nueva</i> —suspira aliviada sin apenas levantar la voz—. <i>No confío en el personal en este edificio. Cada movimiento y sonido que hacen parece calculado y sospechoso. ¡No veo el momento de que sea ya por la mañana para poder irme! Pero, por desgracia, no puedo darle detalles. Sólo le diré una cosa: tenga cuidado y vigile sus espaldas. ¡Haga todo lo que crea necesario para poner fin a lo que quiera que esté pasando en este hotel!</i> \n\n La anciana se retira rápidamente de vuelta a su habitación. \n\n Adquieres el estado <i>Virtuoso</i> y ganas 2 Pistas {clue}.
+EventGuestGift.button1,Continuar
+EventGuestWarning.text,Un hombre demacrado abre la puerta con una mirada furibunda. Antes de que puedas abrir la boca, grita de forma temblorosa: \n\n —<i>¡No puede escapar! ¡Estamos todos condenados! ¡He visto al demonio y sé que no hay esperanza! —Dicho esto se da media vuelta y cierra la puerta con un sonoro portazo. \n\n Sufres 2 de Horror (anulados por {will}).
+EventGuestWarning.button1,Continuar
+EventKnockBloodyHands1stHallTopDoor.button2,No
+EventKnockBloodyHands1stHallTopDoor.text,¿El investigador que lleva la <i>Prueba circunstancial</i> (con las manos cubiertas de sangre) está llamando a la puerta?
+EventKnock1stHallTopDoorGuestSeesBlood.text,Llamas a la puerta, pero enseguida el huésped del hotel se da cuenta de que tienes las manos ensangrentadas, suelta un grito y cierra de golpe la puerta y echa el cierre. \n\n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Exploración.
+EventKnock1stHallTopDoorGuestSeesBlood.button1,Continuar
+EventKnock1stHallLeftDoorBloodyHands.button1,Sí
+EventKnockBloodyHands1stHallTopDoor.button1,Sí
+EventKnock1stHallLeftDoorBloodyHands.button2,No
+EventKnock1stHallLeftDoorGuestSeesBlood.text,Llamas a la puerta, pero enseguida el huésped del hotel se da cuenta de que tienes las manos ensangrentadas, suelta un grito y cierra de golpe la puerta y echa el cierre. \n\n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Exploración.
+EventKnock2ndHallDoorBloodyHands.text,¿El investigador que lleva la <i>Prueba circunstancial</i> (con las manos cubiertas de sangre) está llamando a la puerta?
+EventKnock2ndHallDoorBloodyHands.button1,Sí
+EventKnock2ndHallDoorBloodyHands.button2,No
+EventKnock4thHallBottomDoorBloodyHands.text,¿El investigador que lleva la <i>Prueba circunstancial</i> (con las manos cubiertas de sangre) está llamando a la puerta?
+EventKnock4thHallBottomDoorBloodyHands.button1,Sí
+EventKnock4thHallBottomDoorBloodyHands.button2,No
+EventKnock4thHallTopDoorBloodyHands.text,¿El investigador que lleva la <i>Prueba circunstancial</i> (con las manos cubiertas de sangre) está llamando a la puerta?
+EventKnock4thHallTopDoorBloodyHands.button1,Sí
+EventKnock4thHallTopDoorBloodyHands.button2,No
+EventKnock1stHallLeftDoorGuestSeesBlood.button1,Continuar
+EventKnock2ndHallDoorGuestSeesBlood.text,Llamas a la puerta, pero enseguida el huésped del hotel se da cuenta de que tienes las manos ensangrentadas, suelta un grito y cierra de golpe la puerta y echa el cierre. \n\n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Exploración.
+EventKnock1stHallLeftDoorBloodyHands.text,¿El investigador que lleva la <i>Prueba circunstancial</i> (con las manos cubiertas de sangre) está llamando a la puerta?
+EventKnock2ndHallDoorGuestSeesBlood.button1,Continuar
+EventKnock4thHallRightDoorGuestSeesBlood.text,Llamas a la puerta, pero enseguida el huésped del hotel se da cuenta de que tienes las manos ensangrentadas, suelta un grito y cierra de golpe la puerta y echa el cierre. \n\n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Exploración.
+EventKnock4thHallRightDoorGuestSeesBlood.button1,Continuar
+EventKnock4thHallTopGuestSeesBlood.text,Llamas a la puerta, pero enseguida el huésped del hotel se da cuenta de que tienes las manos ensangrentadas, suelta un grito y cierra de golpe la puerta y echa el cierre. \n\n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Exploración.
+EventKnock4thHallTopGuestSeesBlood.button1,Continuar
+EventGuestEvidence.button1,Button1
+EventGuestEvidenceSpaRevealed.text,Un hombre joven abre la puerta, mirándote nerviosamente de arriba a abajo. Le aseguras que todo está bien y que sólo querías saber si ha visto últimamente algo sospechoso en el hotel porque eres investigador privado. \n\n Retomando la compostura te explica su situación. \n\n —<i>Estoy en viaje de negocios y éste es mi quinto día en esta habitación. En tres de los cinco días que llevo aquí he visto cómo la plantilla del hotel entraba en el spa y se quedaba dentro durante un buen rato. En una ocasión, abrí la puerta y eché un vistazo dentro para ver qué estaba pasando. No pasaba nada en su interior y el spa estaba vacío, sin agua. No sé adónde se fueron, pero lo cierto es que la situación me produjo un profundo desasosiego</i>. \n\n El hombre de negocios te da las gracias por haberle escuchado, te desea lo mejor en tu investigación y cierra la puerta, echando el seguro. Parece evidente que el spa está relacionado con las cosas raras que pasan en este establecimiento.\n\n Ganas 2 Pistas {clue} y el Objeto único <i>Mapa antiguo</i>. A continuación, coloca una ficha de Búsqueda en el lugar señalado.
+EventGuestEvidenceSpaRevealed.button1,Continuar
+EventGuestEvidenceSpaNOTRevealed.text,Un hombre joven abre la puerta, mirándote nerviosamente de arriba a abajo. Le aseguras que todo está bien y que sólo querías saber si ha visto últimamente algo sospechoso en el hotel porque eres investigador privado. \n\n Retomando la compostura te explica su situación. \n\n —<i>Estoy en viaje de negocios y éste es mi quinto día en esta habitación. En tres de los cinco días que llevo aquí he visto cómo la plantilla del hotel entraba en el spa y se quedaba dentro durante un buen rato. En una ocasión, abrí la puerta y eché un vistazo dentro para ver qué estaba pasando. No pasaba nada en su interior y el spa estaba vacío, sin agua. No sé adónde se fueron, pero lo cierto es que la situación me produjo un profundo desasosiego</i>. \n\n El hombre de negocios te da las gracias por haberle escuchado, te desea lo mejor en tu investigación y cierra la puerta, echando el seguro. Parece evidente que el spa está relacionado con las cosas raras que pasan en este establecimiento. \n\n Ganas 2 Pistas {clue} y el Objeto único <i>Mapa antiguo</i>.
+EventGuestEvidenceSpaNOTRevealed.button1,Continuar
+TokenExplore3rdHallTop.text,La puerta tiene un cartel: «Spa»
+TokenExplore3rdHallTop.button1,{action} Explorar
+EventRevealSpa.text,Un opresivo vapor llena la habitación y golpea tu cara al abrir la puerta. Contemplas un lujoso spa, muy por encima de lo que cabría esperar en un hotel como éste, a tenor del resto de las estancias. \n\n Coloca el módulo {c:TileSpa} en el lugar señalado.
+EventRevealSpa.button1,Continuar
+EventAddSearchTokenSpaSink.text,A tu derecha hay un lavabo con varios cajones en su parte inferior. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenSpaSink.button1,Continuar
+EventAddSearchTokenSpaWaterFilled.text,Al fondo de la habitación observas una bañera de hidromasaje llena de agua. Según lo que dijo el hombre de negocios, tiene que haber algo importante en ese sitio. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenSpaWaterFilled.button1,Continuar
+EventAddInteractTokenSpa.text,Al fondo de la habitación observas una bañera de hidromasaje llena de agua. Por lo que has averiguado hasta ahora, seguro que encuentras respuestas en ese sitio. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventAddInteractTokenSpa.button1,Continuar
+EventAddMaidSpa.text,A tu izquierda ves una camarera de piso que parece que ha terminado de pasar la fregona al suelo. Está ordenando sus cosas, preparándose para irse de la habitación. Cuando se da cuenta de tu presencia, se te queda mirando fijamente, como si te reconociese. Te hace una seña para que te acerques a ella. \n\n Mueve a tu investigador 1 espacio hacia el spa.
+EventAddMaidSpa.button1,Continuar
+EventConvinceMaid.text,A medida que te acercas a la camarera de piso, un escalofrío te recorre toda la espalda, a pesar del sofocante calor que hay en la habitación. \n\n —<i>¿Qué le trae por aquí?</i> —dice la mujer con una voz que parece crepitar. —<i>Usted no tiene alquilada una habitación. El spa es sólo para los clientes y el personal, ¿acaso no lo sabía usted?</i> —La criada te devuelve una mirada maliciosa, revelando una intensa maldad y un profundo odio. \n\n Tratas de buscar una rápida salida a esta situación, consciente del peligro que supone que no consigas tranquilizarla. Intentas convencerla de que simplemente te has equivocado de habitación {influence}.
+EventConvinceMaid.button1,Continuar
+EventConvinceMaidPass.text,Con voz segura, te disculpas por tan atroz error. Le aseguras que simplemente padeces unas intensas migrañas y que tan sólo estabas intentando encontrar la habitación en la que habías quedado con un amigo. \n\n Sin inmutarse, la camarera de piso te señala los cajones que hay debajo del lavabo. En ellos encuentras algo para ayudarte a mitigar el dolor. Después de darle las gracias, asiente con un gruñido y se marcha sin decir una sola palabra.
+EventConvinceMaidPass.button1,Continuar
+EventConvinceMaidFail.text,Con el sufrimiento todavía en tu cuerpo por lo que ha pasado en la habitación, tratas de convencerla. Tus astutos intentos no sirven de nada y rápidamente cierra la puerta con una llave. \n\n —<i>No, a mí no me engaña. Sé perfectamente lo que pretende.</i> —te espeta. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventConvinceMaidFail.button1,Continuar
+SpawnMaidWitch.text,—<i>Está aquí para frustrar nuestros planes, ¿no es cierto? ¡No dejaré que salga de aquí con vida!</i> \n\n Coloca una Bruja en el lugar señalado.
+SpawnMaidWitch.button1,Continuar
+SpawnMaidThrall.text,La camarera de piso se ríe como una maníaca mientras se arranca una de las mangas del vestido, dejando al descubierto un grotesco brazo. \n\n —<i>¡Voy a mostrarle qué clase de poder nos han otorgado los Primigenios!</i> \n\n Sufres 1 de Horror boca abajo. Aparece un Subyugado en el lugar señalado.
+SpawnMaidThrall.button1,Continuar
+TokenExploreSpaLocked.text,La puerta está cerrada con llave desde ambos lados.
+TokenExploreSpaLocked.button1,Continuar
+SpawnMaidMiGo.text,Mientras más y más trozos de carne humana se desprenden y caen al suelo, el cuerpo de la camarera de piso se transforma ante tus ojos en una grotesca criatura. ¿Será ésta una de las criaturas de las que te habló Jack Grimsby? \n\n Sufres 1 de Horror boca abajo. Aparece un Mi-go en el lugar señalado.
+SpawnMaidMiGo.button1,Continuar
+EventKillMaidWitch.button1,Continuar
+TokenSearchSpaSinkDrawers.text,Los cajones de debajo del lavabo podrían contener algo útil.
+EventKillMaidThrall.text,Con la muerte de la deforme camarera de piso, rápidamente te haces con la llave y abres la puerta.
+EventKillMaidThrall.button1,Continuar
+EventKillMaidMiGo.text,La criatura alienígena cae al suelo y se derrite dejando un charco de cieno verde. Recoges la llave del spa de entre el lodo y abres la puerta.
+EventKillMaidMiGo.button1,Continuar
+EventKillMaidWitch.text,Con la camarera de piso muerta, rápidamente te haces con la llave y abres la puerta.
+TokenSearchSpaSinkDrawers.button1,{action} Buscar
+EventSearchSpaDrawersPainKillers.text,Rebuscando entre los cajones encuentras algo que te ayudará a calmar el dolor. \n\n Ganas el Objeto común <i>Analgésicos<i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearchSpaDrawersPainKillers.button1,Continuar
+EventSearch4thHallTableMed.text,Echando un vistazo a los libros encuentras una biblia. Quizá te sirva para templar tus nervios en esta oscura noche. \n\n Ganas el Objeto único <i>Biblia del rey Jaime</i>. A continuación descarta esta ficha de Búsqueda.
+EventSearchSpaDrawersWhiskey.button1,Continuar
+TokenSearchSpaFilledWithWater.text,A primera vista, la bañera de hidromasaje parece bastante normal.
+TokenSearchSpaFilledWithWater.button1,{action} Buscar
+EventSearchSpa.text,Mirando con más detalle el agua que fluye, te das cuenta de que hay una tapa metálica de desagüe que recubre el fondo. Parece sospechosamente grande para una bañera tan pequeña. Estás seguro de que una persona pequeña podría bajar por ella. \n\n Coloca la ficha Alcantarillado en el lugar señalado. Ganas 2 Pistas {clue} y a continuación, descarta esta ficha de Búsqueda.
+EventSearchSpa.button1,Continuar
+EventKillManiac.text,El hombre se desploma, y en ese momento, tanto el cuerpo como el arma asesina se desvanecen en el aire antes de que toquen el suelo. Aunque estremecido por el terrible poder de la hoja, te alivia saber que al menos no tendrás que esconder otro cuerpo más. \n\n Todos los investigadores ponen boca abajo 1 de Horror o descartan 1 de Horror boca abajo.
+EventKillManiac.button1,Continuar
+EventTooAfraidToLeaveRoom.text,Con el loco frente a ti, llegas a la conclusión de que lo peor que podrías hacer sería irte de la habitación y dejar que se escape y recorra todo el hotel. \n\n Recuperas la acción que acabas de gastar.
+EventTooAfraidToLeaveRoom.button1,Continuar
+TokenExploreLobbyLeft.text,La puerta tiene un cartel: «Comedor»
+TokenExploreLobbyLeft.button1,{action} Explorar
+EventRevealDiner.text,Abres la puerta y contemplas un pequeño restaurante para los huéspedes del hotel y para el personal. En el aire flota una mezcla de olores a comida y alcohol. \n\n Coloca el módulo {c:TileDiningArea} en el lugar señalado.
+EventRevealDiner.button1,Continuar
+EventAddSearchTokenDiner.text,Parece que alguien ha dejado algo detrás de la mesa del comedor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAddSearchTokenDiner.button1,Continuar
+EventAddBartender.text,Detrás del mostrador, ves un miembro de la plantilla del hotel que da la impresión de ser muy educado y amistoso. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventAddBartender.button1,Continuar
+EventFinishReadingLobbyBook.text,Tras leer varias páginas en este enigmático y críptico idioma encuentras un hechizo que al parecer se usa para acceder a un pasadizo secreto en el spa. Sin duda ese pasadizo te permitirá encontrar alguna respuesta. \n\n También aprendes un poderoso y destructivo hechizo que te puede venir muy bien. \n\n Ganas el Hechizo {c:QItemAttackSpell}. A continuación, descarta esta ficha de Búsqueda.
+TokenSearchLobbyCenter.text,Encuentras un extraño libro que no tiene nada escrito ni en sus tapas ni en su lomo.
+TokenSearchLobbyCenter.button1,{action} Buscar
+EventReadLobbyBookUnkownLanguage.text,Al abrir el libro encuentras un texto ilegible. Seguramente esté encriptado con un código o se trate de algún idioma extraño.
+EventReadLobbyBookUnkownLanguage.button1,Continuar
+TokenExploreLobbyRight.text,La puerta tiene una placa que indica que es la «Oficina del gerente»,
+TokenExploreLobbyRight.button1,{action} Explorar
+EventKnockOnManagersOffice.text,Llamas a la puerta del gerente, dudando en si deberías molestarle, presentándote así, sin avisar.
+EventKnockOnManagersOffice.button1,Continuar
+EventCantAccessManagersOffice.text,Leland Williams te observa mientras te acercas a su puerta.\n\n —<i>Por favor, tenga paciencia. Sólo me llevará un momento hablar con estos agentes</i>.
+EventCantAccessManagersOffice.button1,Continuar
+EventLelandResponds.text,—<i>Puede pasar</i> —la voz de Leland Williams suena al otro lado, con tono serio. \n\n Coloca el módulo {c:TileManagerOffice}, 1 ficha de Pared y otra de Puerta en los lugares señalados. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventLelandResponds.button1,Continuar
+EventAddLeland.text,Leland Williams, el gerente del hotel, está sentado detrás de un escritorio con encimera de mármol. Cuando entras en la habitación te mira de manera aviesa. No puedes contar con él como aliado, así que decides centrarte en buscar la manera de poder registrar su escritorio. \n\n Coloca la ficha de Personaje Leland Williams en el lugar señalado.
+EventAddLeland.button1,Continuar
+TokenLelandOffice.text,Leland Williams te mira fijamente, desconfiando de cuáles pueden ser tus motivos para estar en su oficina. Si quieres registrar su escritorio, primero tendrás que buscar un modo de desviar su atención. Quizá podrías dejarlo fuera de combate o atarlo con la <i>Soga</i> (amordazándolo durante el proceso para evitar que pueda gritar pidiendo ayuda).
+TokenLelandOffice.button1,{action} Noquearlo
+TokenLelandOffice.button2,{action} Atarlo
+EventAttemptKnockOutManger.text,Te abalanzas sobre el gerente sin previo aviso, golpeándolo en la cabeza, con la esperanza de dejarlo sin sentido y sabiendo que si le atizas con demasiada fuerza podrías matarlo por accidente {strength}+{agility}.
+EventAttemptKnockOutManger.button1,Continuar
+EventKnockOutManagerKill.text,Con un duro golpe, el cuerpo de Leland se estrella contra el suelo. Compruebas su pulso esperando lo mejor. Sin embargo, está muerto. A pesar de que era un enemigo mortal, sólo le habrías matado en caso de defensa propia. Sacudes la cabeza ante el pensamiento de que con éste puede que ya sean dos los asesinatos cometidos por ti. Sufres 2 de Horror. \n\n Descarta la ficha de Personaje de Leland Williams y coloca una ficha de Búsqueda en el lugar señalado.
+EventKnockOutManagerKill.button1,Continuar
+EventKnockOutManagerSuccess.text,Con un golpe contundente, Leland cae al suelo. Está inconsciente pero todavía respira. Ahora tienes tiempo para poder rebuscar en su escritorio. \n\n Descarta la ficha de Personaje Leland Williams y coloca una ficha de Búsqueda en el lugar señalado.
+EventKnockOutManagerSuccess.button1,Continuar
+EventAttemptTieUpManager.button1,Continuar
+EventAttemptTieUpManager.text,El gerente del hotel no está en buena forma, así que no debería ser difícil deshacerse de él. Te abalanzas sobre él sin previo aviso, tapando su boca para que no grite y atándolo a continuación con una soga {strength}+{agility}.
+SpawnManagerWarlock.text,No eres ni tan fuerte ni tan rápido como creías. \n\n —<i>¡Pero cómo se atreve!</i> —exclama al tiempo que se levanta de la silla. —<i>Pensaba que la policía evitaría que se entrometiese.</i> —dice al tiempo que se apresura a cerrar la puerta con llave.  —<i>¡Tendré que hacerme cargo de usted personalmente!</i> \n\nColoca un Brujo y una ficha de Exploración en el lugar señalado.
+SpawnManagerWarlock.button1,Continuar
+TokenExploreManagersOfficeLocked.text,Tienes que conseguir la llave del gerente que tiene Leland antes de poder abrir la puerta.
+TokenExploreManagersOfficeLocked.button1,Continuar
+EventTieManagerPass.text,Con la velocidad de un rayo reduces a Leland antes de que se dé cuenta de lo que está pasando. Lo atas a la silla, lo amordazas y lo echas a un lado entre sus maldiciones ahogadas por la mordaza. \n\n Descarta la ficha de Personaje Leland Williams y coloca una ficha de Búsqueda en el lugar señalado.
+EventTieManagerPass.button1,Continuar
+EventKillManagerWarlock.text,Cuando el cuerpo de Leland cae al suelo, te apresuras y coges su llave y la usas para abrir la puerta. \n\n Descarta la ficha de Exploración y coloca una ficha de Búsqueda en el lugar señalado.
+EventKillManagerWarlock.button1,Continuar
+TokenSearchManagersDesk.text,El cajón central tiene una cerradura de combinación. Quizá puedas abrirla {lore}.
+TokenSearchManagersDesk.button1,{action} Intentar romper la puerta
+EventSearchManagersDeskDrawer.text,Al abrir el cajón te das cuenta de que Leland no es precisamente alguien ordenado. El interior del cajón es un completo desastre. Pero quizá puedas encontrar algo útil en él {observation}.
+PuzzleManagersDesk.button1,Hecho
+EventSearchManagersDeskDrawer.button1,Continuar
+EventSearchManagersDrawersLevel1.text,Estás de suerte. Esta baratija, con el nombre de Leland grabado en ella, puede ser muy útil para defender tu inocencia en los sucesos de esta noche. \n\n Ganas el Objeto único <i>Emblema de sectario</i>. A continuación, descarta esta ficha de Búsqueda.
+EventSearchManagersDrawersLevel1.button1,Continuar
+EventSearchManagersDrawersLevel2.text,Además de encontrar una baratija con el nombre de Leland grabado en ella, que te ayudará a probar tu inocencia, hallas el arma de fuego personal de Leland y algo de munición. \n\n Ganas el Objeto único <i>Emblema de sectario</i>, el Objeto común <i>Escopeta</i> y 2 Objetos únicos <i>Combustible</i>. A continuación descarta esta ficha de Búsqueda. \n\n<b> Nota: El combustible cuenta como si fuese la munición. Cada vez que utilices la escopeta en combate, incluso si fallas, descarta una carta de combustible. Si no tienes combustible, no puedes utilizar la escopeta</b>.
+EventSearchManagersDrawersLevel2.button1,Continuar
+EventSearchManagersDrawersLevel3.text,Además de encontrar una baratija con el nombre de Leland grabado en ella, que te ayudará a probar tu inocencia, hallas el arma de fuego personal de Leland y algo de munición. \n\n Ganas el Objeto único <i>Emblema de sectario</i>, el Objeto común <i>Escopeta</i> y 3 Objetos únicos <i>Combustible</i>. A continuación descarta esta ficha de Búsqueda. \n\n<b> Nota: El combustible cuenta como si fuese la munición. Cada vez que utilices la escopeta en combate, incluso si fallas, descarta una carta de combustible. Si no tienes combustible, no puedes utilizar la escopeta</b>.
+EventSearchManagersDrawersLevel3.button1,Continuar
+TokenLelandWilliamsLobby.text,El gerente, Leland Williams, está demasiado ocupado hablando con los policías. No sería prudente interrumpir su conversación.
+TokenLelandWilliamsLobby.button1,Continuar
+TokenOfficerMoriLobby1.text,No sería prudente interrumpir esta conversación.
+TokenOfficerMoriLobby1.button1,Continuar
+TokenGenericCopLobby1.text,No sería prudente interrumpir esta conversación.
+TokenGenericCopLobby1.button1,Continuar
+TokenSearchDiner.text,En la mesa hay algo que no encaja.
+TokenSearchDiner.button1,{action} Buscar
+EventSearchDinerTableInformant.text,Sobre la mesa hay un pequeño tarro lleno con un extraño líquido. Tiene una etiqueta: «Demasiado floja - nueva versión más fuerte en camino». \n\n No tienes ni idea de para qué es, pero hay algo que huele muy mal en todo esto. \n\n Ganas el Objeto común <i>Fórmula mutagénica</i>, el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTableInformant.button1,Continuar
+EventSearchDinerTableJournalist.text,Sobre la mesa hay un pequeño tarro lleno con un líquido de aspecto extraño. Tiene una etiqueta con algo escrito: «Versión suave - sin deformaciones físicas». \n\n No estás seguro de qué puede ser esto, pero seguramente está relacionado en última instancia con la muerte de Grimsby. \n\n Ganas el Objeto común <i>Suero potenciador</i>, el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTableJournalist.button1,Continuar
+EventSearchDinerTablePatient.text,Sobre la mesa hay un pequeño tarro lleno con un líquido de color verde. Para tu horror compruebas que hay dos globos oculares flotando en su interior. El tarro tiene una etiqueta: \n «<b>Especímenes frescos</b>». \n\n Horrorizado, te preguntas cómo de frescos serán. Sufres 2 de Horror boca abajo (anulados por {will}).\n\n Ganas el Objeto común <i>Extracto ocular</i>, el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTablePatient.button1,Continuar
+EventSearchDinerTableParishoner.text,Sobre la mesa hay un pequeño tarro lleno con un líquido amarillo que brilla débilmente. Tiene una etiqueta pegada: «Compartir y beber para preparar el ritual». \n\n ¿Habrá compartido este líquido el personal del hotel recientemente? ¿Acaso el «ritual» está programado para esta noche? \n Sufres 2 de Horror boca abajo (anulados por {will}). Ganas el Objeto común <i>Estimulante mental</i>, el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTableParishoner.button1,Continuar
+EventSearchDinerTableCriminal.text,Encuentras lo que parece una nota de suicidio. Firmada por Jack Grimsby, cuenta que planeaba sacrificar a su mujer para mayor gloria de «la Orden». \n\n Estás convencido de que se ha matado a sí mismo por algún motivo siniestro. \n\n Ganas el Objeto único <i>Prueba incriminatoria</i> y 3 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTableCriminal.button1,Continuar
+EventSearchDinerTableGeneric.text,Sobre la mesa hay un pequeño tarro lleno con un líquido de aspecto extraño. Tiene una etiqueta con algo escrito: «Reanimador». Un escalofrío recorre tu cuerpo sólo con pensar para qué puede servir. Sufres 2 de Daño boca abajo (anulados por {will}). \n\n Ganas el Objeto común <i>Pócima lunar</i>, el Objeto único <i>Prueba incriminatoria</i> y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchDinerTableGeneric.button1,Continuar
+TokenBartender.text,Un joven de aspecto educado limpia, sin levantar la mirada, unos vasos de vino detrás del mostrador. Parece que se está preparando para cerrar el comedor, pero quizá puedas encargarle un pedido, si quieres.
+TokenBartender.button1,{action} Hablar
+TokenBartender.button2,{action} Hacer un pedido
+EventPlaceOrder.text,Le interrumpes mientras trabaja para preguntarle si puedes pedirle algo. Se gira hacia ti y te sonríe. \n\n —<i>Bueno, técnicamente ya es de noche y hemos cerrado. Pero supongo que podría atender una petición de última hora. ¿Qué puedo hacer por usted?</i>
+EventPlaceOrder.button1,Comida reconfortante
+EventPlaceOrder.button2,Algo saludable
+EventOrderComfortFood.text,Encargas un pequeño postre. Una pequeña satisfacción ayudará a apaciguar tu mente durante unos instantes y te hará olvidar momentáneamente tu terrible situación. \n\n Descarta 2 de Horror. 
+EventOrderComfortFood.button1,Continuar
+EventOrderHealthyFood.text,Tomas la decisión de hacer algo por tu salud para mejorar tu resistencia para esta larga noche. Aprovechando para descansar un poco, te preparas un pequeño bocadillo antes de seguir con tu investigación. \n\n Descarta hasta 2 de Daño.
+EventOrderHealthyFood.button1,Continuar
+TokenBartenderAfterOrder.text,El hombre sigue preparando los platos para la cena.
+TokenBartenderAfterOrder.button1,{action} Hablar
+EventSpeakToBartender.text,\n Después de presentarse, amablemente te responde: \n\n —<i>Mucho gusto, mi nombre es Daniel. Tengo prisa por irme a casa con mi mujer, pero quizá hablar con usted me ayude a que el tiempo pase más rápido. \n\n Entablas conversación con él y al final consigues llegar al punto que querías. Le preguntas por el hotel y por sus experiencias trabajando en él. Te comenta que sólo lleva en el puesto unas pocas semanas y que no sabe apenas nada. Viendo la oportunidad de profundizar sobre este tema, le preguntas si ha notado algo extraño en el hotel, y de paso le comentas que eres investigador privado. \n\n Daniel se te acerca, y en ese momento su voz se transforma en un susurro: \n\n —<i>Sí, y aunque trato de mantener las apariencias, no me siento cómodo trabajando aquí. El empleo me sirve para pagar las facturas, pero algo pasa en este hotel. ¡Si tuviese alguna prueba, sería más fácil sobrellevar todo esto! Ese libro del vestíbulo rebosa poder mágico, pero es imposible saber qué pone si no se sabe el código para descifrarlo. Pero yo lo he conseguido, aunque no pienso compartirlo con nadie. Si me trae alguna prueba, algo para poder convencer al gerente, probablemente estaré más dispuesto a ayudarle.</i> \n
+EventSpeakToBartender.button1,Continuar
+TokenBartenderAfterTalking.text,Daniel sigue limpiando el comedor. \n\n <b>**Nota: Como grupo, si tenéis el Emblema de sectario y 4 cartas de Prueba (sin contar la Prueba Circunstancial), podéis convencer a Daniel para que os ayude</b>.
+TokenBartenderAfterTalking.button1,{action} Conseguir la ayuda de Daniel
+EventDanielHelps.text,Le enseñas el <i>Emblema de sectario</i> a Daniel como prueba de las siniestras conexiones del gerente del hotel, además de otras pruebas que has recabado hasta ahora. Satisfecho con tus descubrimientos decide ayudarte. \n\n —<i>Encontré esta hoja de papel esta semana. Explica cómo descifrar el idioma encriptado en el que está escrito el libro del vestíbulo. Con esto hallará las respuestas que busca. En cualquier caso, descubra lo que descubra, tenga cuidado. No tengo ni idea de qué serán capaces de hacer estas personas</i>. \n\n Daniel te desea buena suerte y desaparece cruzando la puerta tras el mostrador, para seguir limpiando el resto de la noche.
+EventDanielHelps.button1,Continuar
+TokenLobbyBookReadable.text,Ahora puedes comenzar a descifrar el extraño libro. Puedes intentar resolver el rompecabezas usando {lore}.
+TokenLobbyBookReadable.button1,{action} Leer
+EventFinishReadingLobbyBook.button1,Continuar
+PuzzleLobbyBook.button1,Hecho
+EventFinishReadingLobbyBookSpaNotRevealed.text,Tras leer varias páginas en este enigmático y críptico idioma encuentras un hechizo que al parecer se usa para acceder a un pasadizo secreto en el spa. Sin duda ese pasadizo te permitirá encontrar alguna respuesta. \n\n También aprendes un poderoso y destructivo hechizo que te puede venir muy bien. \n\n Ganas el Hechizo {c:QItemAttackSpell}. A continuación, descarta esta ficha de Búsqueda.
+EventFinishReadingLobbyBookSpaNotRevealed.button1,Continuar
+TokenInteractSpaSpell.text,Puedes lanzar el hechizo que has aprendido para abrir el pasadizo secreto.
+TokenInteractSpaSpell.button1,{action} Lanzar hechizo
+EventCastSpellOpenSecretPassage.text,Recitas las extrañas palabras siguiendo las indicaciones del libro. Para tu sorpresa, lanzar el hechizo supone un enorme desgaste físico. Te desplomas sobre el suelo, dolorido y exhausto debido a las exigencias del hechizo. Terminas tu turno inmediatamente, adquieres el estado <i>Aturdido</i> y sufres 4 de Daño (anulados por {strength}).
+EventCastSpellOpenSecretPassage.button1,Continuar
+EventSecretPassageOpens.text,Con las palabras místicas pronunciadas, el agua burbujea y pasa a un vívido color verde, evaporándose en cuestión de segundos ante tus ojos. La tapa de metal que cubre el fondo del spa comienza a moverse sobre sí misma dejando al descubierto unos peldaños metálicos que bajan hacia un túnel secreto. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventSecretPassageOpens.button1,Continuar
+TokenInteractSecretPassage.text,Puedes entrar en el pasadizo secreto.
+TokenInteractSecretPassage.button1,{action} Interactuar
+EventEnterSecretPassage.text,Subes por el túnel que hay por debajo del spa sin saber lo que te espera al otro lado. Unos pasos más adelante te encuentras con unos nuevos escalones. Al llegar al final, empujas una trampilla y sales a una habitación que no te esperabas. \n\n Descarta la ficha de Interacción, mueve al investigador a la Sala de juegos y coloca una ficha de Trampilla secreta en el lugar señalado.
+EventEnterSecretPassage.button1,Continuar
+EventRevealPlayroomInformant.text,La estancia parece ser una habitación de juegos para niños, pero que ha sido convertida en un almacén impregnando en un fuerte hedor a pescado podrido. Descubres que un pequeño contenedor abierto parece ser el causante del mal olor y que un repulsivo líquido chorrea de uno de sus laterales. Seguramente esto era lo que te quería decir Jack Grimsby antes de que lo matasen. \n\n Dos hombres corpulentos vierten el extraño líquido sobre un ansioso miembro de la plantilla del hotel. A medida que el líquido recubre su cuerpo, comienza a convulsionar mientras unas escamas emergen poco a poco de debajo de su piel. \n\n Uno de los gorilas vocifera: \n\n —<i>¡Funciona! ¡Tenemos que decirle a Leland que tenemos listo un buen suministro de fórmula mutagénica!</i> \n\n —<i>¡Podremos crear un ejército de Profundos y reclamar Arkham en nombre de Dagón!</i> —exclama el otro, entusiasmado. \n\n Al darse la vuelta para entrar por la trampilla, advierte tu presencia y suelta una risotada: \n\n —<i>Vaya, vaya, parece ser que tendremos que hacernos cargo de un pequeño contratiempo. ¡Dagón, enciérralos para que no puedan escapar!</i> \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n <b>Objetivo: Conseguir la Prueba concluyente y entregársela al oficial Tetsuo Mori</b>.
+EventRevealPlayroomInformant.button1,Continuar
+SpawnDeepOneHybrid.text,Lanzándote una mirada desafiante, el bruto agarra un palo grande y lo blande esbozando una sonrisa enfermiza. \n\n Aparece un Híbrido de profundo en el lugar señalado.
+SpawnDeepOneHybrid.button1,Continuar
+SpawnChildOfDagon.text,Su compinche se ríe mientras avanza a trompicones hacia ti. Puedes ver la locura en sus ojos. \n\n Aparece un Hijo de Dagón en el lugar señalado.
+SpawnChildOfDagon.button1,Continuar
+SpawnHuntingDeepOne.text,Recuperándose de su transformación, una gran criatura con forma de pez aparece donde antes se encontraba un ser humano. En ese momento, deja al descubierto unos afilados colmillos sedientos de sangre humana. \n\n Aparece un Profundo cazador en el lugar señalado.
+SpawnHuntingDeepOne.button1,Continuar
+EventLobbyDoorsLock.text,Con una fuerza sobrenatural, las puertas que conducen al vestíbulo se cierran de un portazo, dejándote encerrado en este lugar. Estás seguro de que con algo de fuerza las podrías echar abajo y escapar. \n\n Coloca 2 fichas de Exploración en los lugares señalados.
+EventLobbyDoorsLock.button1,Continuar
+EventRevealPlayroomJournalist.text,La estancia es una sala de juegos para niños, y te quedas horrorizado al ver a un grupo de hombres y mujeres deformes que están jugando sobre el suelo con unas extremidades humanas cercenadas. Obviamente están locos y actúan como si fuesen niños pequeños. Es bastante probable que algún tipo de magia negra los haya deformado y transformado en semejantes criaturas grotescas. \n\n Tienes la impresión de que, en lugar de comerse la carne humana que les han dado, se están dedicando a jugar con ella. Uno de ellos comienza a olfatear el aire y en ese momento todos se giran hacia donde estás, mirándote con ojos llenos de un apetito insaciable. En un instante, todos se ponen de pie y comienzan a acercarse poco a poco hacia ti, acechando y tambaleándose, con intenciones poco amistosas. \n\n —<i>Parece que los Primigenios se quieren asegurar de que este juguete nuevo no se marchará a ningún sitio</i> —dice uno de los mutantes entre risitas. \n\n <b>Objetivo: Encuentra la Prueba concluyente y llévasela al oficial Tetsuo Mori</b>.
+EventRevealPlayroomJournalist.button1,Continuar
+EventRevealPlayroomPatient.text,La estancia parece ser una habitación de juegos para niños, pero que ha sido usada para almacenar espantosas muestras de órganos humanos, globos oculares y otras partes del cuerpo. Te percatas de que hay alguien al fondo de la sala metiendo casquería en una bolsa. \n\n —<i>Esto debería aplacar su apetito. No entiendo por qué tenemos que alimentarlos con trozos de personas, pero al menos así nos otorgarán el favor de Shub-Niggurath<i> —murmura. Está claro que estas «muestras» no son para investigación científica sino para ofrecérselas a algún tipo de incomprensible ser. En ese momento, el hombre se da la vuelta y se da cuenta de tu presencia. \n\n —<i>¡No deberías estar aquí! Tendríamos que haberte matado cuando tuvimos la ocasión, pero bueno, ¡ahora serás pasto de Shoggoths!<i> \n\n En ese momento las luces comienzan a parpadear y el edificio entero tiembla. \n\n —<i>¡Ya están aquí! ¡Prepárate para ser devorado!</i>. \n\n Coloca una ficha de Búsqueda en el lugar señalado<b>Objetivo: Conseguir la Prueba concluyente y entregársela al oficial Tetsuo Mori</b>.
+EventRevealPlayroomPatient.button1,Continuar
+EventRevealPlayroomParishoner.text,La estancia parece ser una habitación de juegos para niños, pero que ha sido convertida en algo mucho más siniestro. Alineadas en las paredes puedes ver unas velas encendidas. Las paredes y el suelo están tapizados con símbolos ocultistas. En el rincón más alejado de ti se encuentran dos miembros de la plantilla del hotel recitando un ensalmo en una pequeña capilla. Parece ser que el dedo de Jack Grimsby ha sido colocado en medio de los componentes del ritual. \n\n Uno de los empleados advierte tu presencia. \n\n —<i>¡Llega justo a tiempo para contemplar uno de nuestros logros más recientes! El portal se ha abierto. ¡Y ahora sufrirá el destino de todos aquellos se oponen a la voluntad de los Primigenios!</i> —grita entusiasmado. \n\n <b>Objetivo: Conseguir los Componentes del ritual y entregárselos al oficial Tetsuo Mori</b>.
+EventRevealPlayroomParishoner.button1,Continuar
+EventRevealPlayroomCriminal.text,Procedente de lo que parece una habitación de juegos de un niño, oyes un fragmento de una conversación entre dos miembros de la plantilla del hotel: \n\n —<i>El hechizo ha funcionado. El sacrificio de Jack Grimsby, unido a la repetición de las palabras que nos enseñó Leland, han tenido éxito y hemos conseguido lo que buscábamos. Ha sido simplemente un golpe de suerte que pudiésemos cargarle las culpas de su muerte a ese investigador. ¡Ahora los Primigenios nos han garantizado un poder que no habríamos siquiera imaginado!</i> \n\n Te da la impresión de que te ha visto por el rabillo del ojo y ahora le susurra una orden a su compinche. \n\n —<i>Presta atención</i> —dice mientras hace un gesto con las manos y tu cuerpo comienza a flotar atravesando la pared y llegando al balcón. \n\n (Mueve a tu investigador al espacio más cercano del balcón).\n\n —<i>Tendríamos que haber eliminado esos cabos sueltos cuando tuvimos la oportunidad</i> —te dice con algo de sorna—. <i>Voy a tener que descansar para poder recuperar fuerzas, y así poder usar más este nuevo poder. Por suerte he podido pedir algo de ayuda «del otro lado». \n\n Oyes unos sonidos sobrenaturales que proceden del dormitorio. Está claro que algo ha sido invocado para acabar contigo antes de que puedas escapar de este lugar maldito. \n\n <b>Objetivo:</b> Encontrar la <i>Prueba concluyente</i> y llevársela al oficial Tetsuo Mori.
+EventRevealPlayroomCriminal.button1,Continuar
+EventRevealPlayroomGeneric.text,La estancia parece ser una habitación de juegos para niños, pero lo único que ves por todas partes son restos de una carnicería. En las paredes se agolpan cadáveres y restos de huesos, todo ello salpicado de gran cantidad de sangre. En el suelo, en el centro de la habitación y rodeados de todo tipo de extraños símbolos, observas unas velas y unas reliquias. Una inquietante niebla flota en el aire. Está claro que aquí se ha llevado a cabo un ritual impío.\n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n <b>Objetivo: Conseguir los Componentes del ritual y entregárselos al oficial Tetsuo Mori</b>.
+EventRevealPlayroomGeneric.button1,Continuar
+SpawnThrall1.text,Coloca 3 Subyugados en la sala de juegos.
+SpawnThrall1.button1,Continuar
+SpawnThrall2.button1,Button1
+SpawnThrall3.button1,Button1
+EventKillThrall2.text,Cuando la enloquecida criatura se desploma sobre el suelo, te das cuenta de que lleva una etiqueta atada a la muñeca. En ella, escrito en negrita, está el siguiente texto: <b>«Prueba fallida nº 2»</b>. Esto debería ser suficiente para probar los horrores que se esconden tras las paredes de este malvado hotel. \n\n Coloca el Objeto único <i>Prueba concluyente</i> en este mismo espacio.
+EventKillThrall2.button1,Continuar
+SpawnCultistForShoggoths.text,Coloca un Sectario en el lugar señalado.
+SpawnCultistForShoggoths.button1,Continuar
+SpawnShoggoth1.text,Una horrible criatura aparece de repente en el balcón, deseosa de engullir a su ofrenda. \n\n Coloca un Shoggoth en el lugar señalado.
+SpawnShoggoth1.button1,Continuar
+SpawnShoggoth2.text,Otro horripilante monstruo se materializa, ansioso por devorar el festín que le ofrece regularmente la plantilla del hotel a cambio de las bendiciones de Shub-Niggurath. \n\n Coloca un Shoggoth en el lugar señalado.
+SpawnShoggoth2.button1,Continuar
+SpawnCultistForDemons1.text,Coloca un Sectario en el lugar señalado.
+SpawnCultistForDemons1.button1,Continuar
+SpawnCultistForDemons2.text,Coloca un segundo Sectario en el lugar señalado.
+SpawnCultistForDemons2.button1,Continuar
+SpawnHound1.text,Arrastrándose a través de una grieta en el tejido de nuestra realidad, una terrorífica criatura se abre paso por el pasillo, olfateando el aire en busca de una presa. \n\n Coloca un Perro de Tíndalos en el lugar señalado.
+SpawnHound1.button1,Continuar
+SpawnHound2.text,Procedente de otra dimensión, otro sabueso demoníaco aparece en el hotel. \n\n Coloca un Perro de Tíndalos en el lugar señalado.
+SpawnHound2.button1,Continuar
+SpawnStarSpawn.text,El demonio jefe invocado por el ritual se materializa en el balcón, ávido de destrucción y maldad. \n\n Aparece una Semilla estelar en el lugar señalado.
+SpawnStarSpawn.button1,Continuar
+SpawnMiGoCriminal.button1,Continuar
+SpawnDeepOneCriminal.button1,Continuar
+SpawnDeepOneCriminal.text,Una criatura con colmillos y cubierta de algas emerge de un segundo portal. \n\n Coloca un Profundo en el lugar señalado.
+SpawnZombieCriminal.text,Por último, cayendo desde un portal que hay en el techo, un cadáver podrido se estrella contra el suelo. Revive convertido en un ente hambriento y deseoso de ingerir carne humana. \n\n Aparece un Zombi en el lugar señalado.
+EventKillZombie1.text,Al caer el muerto viviente al suelo, uno de sus brazos se parte y sale despedido. El brazo continúa moviéndose y agitándose, como si no quisiese poner fin a su apetito por la carne humana. Sin duda esto no hace más que reforzar los motivos que te llevaron a investigar a Jack Grimsby por su actividades ocultistas. \n\n Coloca el Objeto único <i>Prueba concluyente</i> en el mismo espacio donde fue derrotado el zombi.
+EventKillZombie1.button1,Continuar
+SpawnSkeleton.text,De repente, la trampilla se cierra. Las bisagras desaparecen y la trampilla se funde con el resto del suelo sin dejar rastro. La pared a tu espalda se transforma en una puerta, que lleva fuera de la habitación. \n\n En ese momento, los restos óseos se unen y forman una criatura tambaleante, con una intensa llama rojiza en el interior de sus negras y vacías cuencas oculares. \n\n Descarta la ficha de Trampilla y la de Pared. A continuación, coloca una ficha de Puerta en el lugar señalado. \n Aparece un esqueleto en el lugar señalado.
+SpawnSkeleton.button1,Continuar
+SpawnGhost1.text,Una aparición surge de uno de los cadáveres, dispuesto a extender el mal. \n\n Coloca un monstruo {c:SpawnGhost1} en el lugar señalado.
+SpawnGhost1.button1,Continuar
+SpawnZombie.button1,Continuar
+TokenExploreLobbyTopLeftLocked.text,Un poder sobrenatural mantiene la puerta cerrada. Puedes intentar abrirla ({strength}-1). \n\n <b>Nota: Asegúrate de añadir los resultados previos a las sucesivas tiradas de esta prueba</b>.
+SpawnZombie.text,Un cadáver en descomposición se levanta de entre los cuerpos que hay esparcidos por el suelo. Este ritual debe de haber sido algún tipo de magia para resucitar a los muertos. De alguna manera Jack Grimsby supo de este mal y planeaba pedirte ayuda. Al menos tú sí tendrás la ocasión de contarle todo esto a las autoridades, si consigues escapar con vida, claro. \n\n Aparece un zombi en el lugar señalado.
+TokenExploreLobbyTopLeftLocked.button1,{action} Intentar descifrar la combinación
+TokenExploreLobbyTopRightLocked.button1,Continuar
+EventBreakRightDoorFailed.text,La puerta es resistente. Tendrás que seguir intentándolo.
+EventBreakLeftDoorFailed.text,La puerta es resistente. Tendrás que seguir intentándolo.
+EventBreakLeftDoorFailed.button1,Continuar
+EventBreakLeftDoorPassed.text,Finalmente consigues echar la puerta abajo. \n\n Descarta esta ficha de Exploración.
+EventBreakLeftDoorPassed.button1,Continuar
+TokenExploreLobbyTopRightLocked.text,Un poder sobrenatural mantiene la puerta cerrada. Puedes intentar abrirla ({strength}-1). \n\n <b>Nota: Asegúrate de añadir los resultados previos a las sucesivas tiradas de esta prueba</b>.
+EventBreakRightDoorFailed.button1,Continuar
+EventBreakRightDoorPassed.text,Consigues finalmente echar la puerta abajo. \n\n Descarta esta ficha de Exploración.
+EventBreakRightDoorPassed.button1,Continuar
+EventAfterCopsArrived.button1,Button1
+EventCopFirstMove4to5Player.button1,Button1
+EventCopFirstMove3Player.button1,Button1
+EventCopFirstMove2Player.button1,Button1
+EventCopInitialMovement.text,Los agentes terminan su conversación con el gerente del hotel. El oficial Tetsuo Mori planea montar guardia en la entrada para asegurarse de que nadie sale o entra en el hotel. El agente novato comienza a subir las escaleras para ver por qué han llamado a la policía. \n\n Mueve las fichas de Personaje de Tetsuo Mori y del Policía al lugar señalado.
+EventCopInitialMovement.button1,Continuar
+EventLelandMovesOfficeRevealed.text,El gerente del hotel regresa a su oficina. \n\n Mueve la ficha de Personaje de Leland Williams al lugar señalado.
+EventLelandMovesOfficeRevealed.button1,Continuar
+EventLelandMovesNoOffice.text,El gerente del hotel regresa a su oficina. \n\n Descarta la ficha de Personaje Leland Williams.
+EventLelandMovesNoOffice.button1,Continuar
+EventCopMovesIntoHalls.text,El agente se adentra por el pasillo. Observa que las luces están apagadas, pero parece que no le preocupa demasiado y prosigue su camino. \n\n Mueve la ficha de Personaje Policía azul hacia el lugar señalado.
+EventCopMovesIntoHalls.button1,Continuar
+EventOfficerMightSeeBloodyHands.button1,Sí
+EventOfficerMightSeeBloodyHands.button2,No
+EventOfficerSeesBloodyHands.text,Al ver tus manos manchadas de sangre, el oficial de inmediato te pone las esposas y te lee tus derechos. \n\n No te puedes mover fuera del espacio del oficial y tienes que moverte con él en todo momento hasta que se indique lo contrario. Si un efecto hiciese que te alejases del oficial, sufrirías 2 de Daño boca abajo en su lugar. \n\n Sufres 3 Horror boca abajo (anulados por {will}). Ganas el objeto único <i>Esposas</i>. A continuación, dale la vuelta a la carta de <i>Esposas</i>.
+EventOfficerMightSeeBloodyHands.text,¿El investigador que posee la <i>Prueba circunstancial</i> está en el mismo espacio que el agente que está patrullando o en uno adyacente?
+EventOfficerSeesBloodyHands.button1,Continuar
+EventCopMovesToKnockedOverTable.text,Cuando llega a la puerta que conduce a la escena del crimen, el agente de policía se percata de la mesa volcada que tiene a su izquierda. Se acerca para investigarla. \n\n Mueve la ficha de Personaje Policía azul al lugar señalado.
+EventCopMovesToKnockedOverTable.button1,Continuar
+TokenPlayroomConclusiveEvidence.text,Deberías llevarle esto como prueba al agente Tetsuo Mori.
+TokenPlayroomConclusiveEvidence.button1,{action} Buscar
+EventConclusiveEvidenceInformant.text,Sujetando una botella de vidrio que tenías cerca, la llenas con parte de la extraña sustancia, haciendo un gran esfuerzo para soportar el atroz hedor a pescado podrido. \n\n Sufres 2 de Horror (anulados por {will}). \n\n Ganas el Objeto único <i>Prueba concluyente</i>. A continuación, descarta esta ficha de Búsqueda.
+EventConclusiveEvidenceInformant.button1,Continuar
+EventConclusiveEvidencePatient.text,Escoges unas partes de cuerpo humano para enseñarselas al agente Tetsuo Mori. \n\n Ganas el Objeto único <i>Prueba concluyente</i>. A continuación descarta esta ficha de Búsqueda.
+EventConclusiveEvidencePatient.button1,Continuar
+EventRitualComponentsParishoner.text,Recoges el dedo cortado de Jack Grimsby, además de otros componentes del ritual, con la intención de mostrárselos al agente Mori. \n\n Ganas el Objeto único <i>Componentes de ritual</i>. A continuación, descarta esta ficha de Búsqueda.
+EventRitualComponentsParishoner.button1,Continuar
+EventRitualComponentsGeneric.text,Rápidamente reúnes los componentes de este atroz ritual. Deberías llevárselos al agente Mori como prueba. \n\n Ganas el Objeto único <i>Componentes de ritual</i>. A continuación descarta esta ficha de Búsqueda.
+EventRitualComponentsGeneric.button1,Continuar
+EventOfficerMovesBackTowardBedroom.text,Después de investigar la mesa volcada, el oficial comienza a caminar hacia el dormitorio. \n\n Mueve la ficha de Personaje Policía azul al lugar señalado.
+EventOfficerMovesBackTowardBedroom.button1,Continuar
+EventOfficerEntersCrimeScene.text,El oficial de policía abre la puerta del dormitorio y entra en la sala. \n\n Descarta la ficha de Personaje Oficial de policía azul.
+EventOfficerEntersCrimeScene.button1,Continuar
+EventOfficerEntersBedroomAndSeesEvidence.text,Al entrar en la escena del crimen, se queda aturdido con lo que tiene delante. Sabiendo quién estaba en la habitación gracias al gerente del hotel, el agente de policía rápidamente os reúne en el dormitorio. \n\n Coloca a todos los investigadores en un espacio del dormitorio, a elección de cada jugador.
+EventOfficerEntersBedroomAndSeesEvidence.button1,Continuar
+EventCopEntersCrimeSceneNoEvidence.text,Al no encontrar ninguna prueba de nada fuera de lo corriente, el agente de policía se va a examinar otras habitaciones, llegando a la conclusión de que ha recibido información incorrecta acerca de dónde procedía el grito. \n\n Todos los investigadores pueden descartar 1 de Horror.
+EventCopEntersCrimeSceneNoEvidence.button1,Continuar
+EventOfficerSeesBloodOrBody.text,Ante la dantesca escena de sangre y caos que contempla, el polícia os exige una explicación de lo sucedido en esta habitación, amenazando con deteneros a todos de inmediato. \n\n Elige a un investigador para tratar de convencer al agente de policía de vuestra inocencia. Se podría decir que vuestra investigación terminará de forma abrupta si no sois capaces de proclamar vuestra inocencia ({influence}+1). Añade 1 {success} por cada Prueba que el grupo haya conseguido (sin contar la Prueba circunstancial).
+EventOfficerSeesBloodOrBody.button1,Continuar
+EventConvinceOfficerFail.text,\n\n La prueba que has conseguido y tu apasionado relato de lo sucedido parece que no convencen al oficial novato. \n\n —<i>Nada de lo que dice tiene sentido</i> —dice el policía moviendo la cabeza. —<i>Dese media vuelta y ponga las manos en la espalda. Se viene conmigo al calabozo.</i> \n\n La investigación ha fracasado. \n\n
+EventConvinceOfficerFail.button1,Continuar
+EventConvinceOfficerPass.text,Las pruebas que presentas y tus convincentes argumentos hacen que el oficial de policía se decante por tu versión de la historia. \n\n —<i>Vaya, qué interesante. Si lo que dice es verdad, algo realmente siniestro está sucediendo en este hotel. No le puedo negar que he oído todo tipo de historias extrañas sobre este lugar. Aún así, no puede marcharse de este lugar hasta que la investigación esté cerrada. Voy a interrogar a algunos clientes más del hotel, y en su caso, será mejor que tenga cuidado y no se meta en ningún lío mientras tanto</i>.
+EventConvinceOfficerPass.button1,Continuar
+EventOfficerSeesKnife.text,El oficial de policía os lanza una mirada gélida: \n\n —<i>Sé que estuvieron en esta habitación anoche, y ahora mismo todos ustedes son sospechosos de asesinato. Así que será mejor que tengan una buena explicación. Adelante, les escucho.</i> \n\n Mientras habla, el policía se acerca lentamente al cuchillo, como si una fuerza invisible tirara de él. \n\n —<i>Tengo casi decidido que...</i> —termina la frase en seco en el momento en el que su mano se cierra sobre la empuñadura del arma del crimen. \n\n Descarta la ficha de Búsqueda del lugar señalado.
+EventOfficerSeesKnife.button1,Continuar
+SpawnHiredGun.text,De pie, blandiendo suavemente la hoja con la mano, da la impresión que una furia inexplicable se apodera de él. Sin decir palabra, se abalanza con el cuchillo y la pistola con la intención de matar. \n\n Aparece un Sicario en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+SpawnHiredGun.button1,Continuar
+EventKillHiredGun.text,El oficial comienza a caer, pero antes de que impacte contra el suelo, su cuerpo y el cuchillo se desvanecen por completo. Todos los investigadores sufren 1 de Horror.
+EventKillHiredGun.button1,Continuar
+TokenGenericCopLobby2.text,Parece que lo mejor será dejar al agente con su investigación.
+TokenGenericCopLobby2.button1,Continuar
+TokenGenericOfficerHallway1.text,Parece que lo mejor será dejar al agente con su investigación.
+TokenGenericOfficerHallway1.button1,Continuar
+TokenGenericOfficerKnockedOverTable.text,Parece que lo mejor será dejar al agente con su investigación.
+TokenGenericOfficerKnockedOverTable.button1,Continuar
+TokenTetsuoMoriLobbyGuarding.text,El oficial Tetsuo Mori hace guardia en la entrada del hotel, impidiendo que alguien pueda entrar o salir.
+TokenTetsuoMoriLobbyGuarding.button1,Continuar
+TokenTetsuoMoriReadyForEvidence.text,Un investigador que posea la <i>Prueba concluyente</i> o los <i>Componentes de ritual</i> puede dar por terminada la investigación entregándoselos al agente Tetsuo Mori.
+TokenTetsuoMoriReadyForEvidence.button1,{action} Conseguir prueba
+EventGiveEvidence.text,\n Te acercas al oficial Mori con la prueba que has hallado y le explicas los detalles de lo acontecido esta noche. Aturdido por tus descubrimientos, exclama: \n\n —<i>¡Vamos! ¡Marchémonos de este horripilante lugar. He oído demasiadas cosas malvadas de este hotel como para saber que lo que cuenta es plausible. Voy a pedir refuerzos y mientras tanto me acompañará a comisaría para responder a más preguntas. \n\n La investigación ha sido un éxito. \n\n
+EventGiveEvidence.button1,Continuar
+EventPurpleWomanMoves1stTime.text,La mujer se dirige hacia la escena del crimen, claramente nerviosa pero decidida a averiguar qué ha causado los ruidos. \n\n Mueve la ficha de Personaje Mujer morada al lugar señalado.
+EventPurpleWomanMoves1stTime.button1,Continuar
+EventRemoveHandcuffs.text,Al explicarle que el gerente del hotel le informó de que estabas en esta habitación en el momento del grito, el agente se disculpa por haberte acusado y te quita las esposas. Pero no puedes dejar de preguntarte cómo sabía eso Leland. \n\n Descarta el Objeto único <i>Esposas</i>.
+EventRemoveHandcuffs.button1,Continuar
+EventOfficerRemovesHandcuffs.text,Reconociendo que ya no eres el principal sospechoso, el oficial te quita las esposas y se disculpa por las molestias ocasionadas. \n\n Descarta el Objeto único <i>Esposas</i>.
+EventOfficerRemovesHandcuffs.button1,Continuar
+EventPurpleWomanMovesToDoor.text,La mujer se acerca a la puerta, mirando de un lado para otro, presa de los nervios. \n\n Mueve la ficha de Personaje Mujer morada al lugar señalado.
+EventPurpleWomanMovesToDoor.button1,Continuar
+EventPurpleWomanEntersRoom.text,La señora finalmente llega a la puerta, temblando de forma compulsiva. Abre la puerta con cuidado, muy despacio y entra. \n\n Descarta la ficha de Personaje Mujer morada.
+EventPurpleWomanEntersRoom.button1,Continuar
+EventHotelGuestSeesNoEvidence.text,Al no ver nada digno de mención en la habitación, el huésped del hotel suspira aliviado y vuelve a su habitación.
+EventHotelGuestSeesNoEvidence.button1,Continuar
+EventHotelGuestSeesEvidence.text,Al ver los restos de la escena del crimen, el gerente sale huyendo y gritando: \n\n—<i>¡Se ha cometido un asesinato!</i> \n\n Todos los investigadores sufren 2 de Horror.
+EventHotelGuestSeesEvidence.button1,Continuar
+EventOfficerHearsScream.text,Cualquier huésped de los que queda que se estuviese acercando a la escena del crimen sale corriendo de vuelta a su habitación, al tiempo que el oficial novato corre hacia el dormitorio. \n\n Descarta las fichas de Personajes que se encuentren en los pasillos.
+EventOfficerHearsScream.button1,Continuar
+EventLobbyClearsAfterScream.text,El oficial Tetsuo Mori hace guardia en la entrada del hotel, impidiendo que alguien pueda entrar o salir del hotel. \n\n Mueve la ficha de Personaje de Tetsuo Mori como se señala.
+EventLobbyClearsAfterScream.button1,Continuar
+EventLelandEntersOfficeAfterScreamNotRevealed.text,A toda prisa, el gerente del hotel desaparece cruzando la puerta de su oficina. \n\n Descarta la ficha de Personaje de Leland Williams.
+EventLelandEntersOfficeAfterScreamNotRevealed.button1,Continuar
+EventLelandEntersOfficeAfterScreamRevealed.text,Leland Williams entra a toda prisa en su oficina. \n\n Mueve la ficha de Personaje de Leland Williams al lugar señalado.
+EventLelandEntersOfficeAfterScreamRevealed.button1,Continuar
+EventYellowManExitsRoom.text,Un hombre de mediana edad sale de su habitación y pregunta: \n\n —<i>¿Pero qué diantres es ese horrible sonido?</i> \n\n Coloca la ficha de Personaje Hombre amarillo en el lugar señalado.
+EventYellowManExitsRoom.button1,Continuar
+EventYellowManTo3rdHall.text,El hombre de mediana edad se dirige hacia el origen de los molestos ruidos que escuchó antes. \n\n Mueve la ficha de Personaje Hombre amarillo hacia el lugar señalado.
+EventYellowManTo3rdHall.button1,Continuar
+EventYellowManAtDoor.text,El hombre de mediana edad camina hacia la puerta, deseando saber qué ha causado la algarada de hace unos minutos. \n\n Mueve la ficha de Personaje Hombre amarillo hacia el lugar señalado.
+EventYellowManAtDoor.button1,Continuar
+EventOldManExitsRoom.text,Un anciano sale de la habitación, mirando con curiosidad de un lado para otro. \n\n —<i>¿Alguien más ha escuchado ese horrible sonido?</i> \n\n Coloca la ficha de Personaje Hombre gris en el lugar señalado.
+EventOldManExitsRoom.button1,Continuar
+EventYellowManEntersRoom.text,El hombre de mediana edad llega por fin a la puerta. Presa de la ansiedad, abre la puerta y cruza el umbral. \n\n Descarta la ficha de Personaje Hombre amarillo.
+EventYellowManEntersRoom.button1,Continuar
+EventOldManMovesToDoor.text,El anciano arrastra los pies en dirección al dormitorio, sin apenas prestar atención a lo que le rodea. \n\n Mueve la ficha de Personaje Hombre gris hacia el lugar señalado.
+EventOldManMovesToDoor.button1,Continuar
+EventOldManEntersCrimeScene.text,El anciano agarra el pomo de la puerta, murmurando acerca de los demenciales ruidos que le mantienen despierto toda la noche.
+EventOldManEntersCrimeScene.button1,Continuar
+TokenPurpleWoman.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenPurpleWoman.button1,{action} Hablar
+EventConvincePurpleWoman.text,Tratas de convencer a la mujer de que el ruido no era nada y te disculpas por las molestias causadas ({influence}; 2).
+EventConvincePurpleWoman.button1,Éxito
+EventConvincePurpleWoman.button2,Fallo
+EventConvincePurpleWomanPass.text,Con una leve carcajada de alivio, la mujer te da las gracias por la aclaración y vuelve a su habitación. \n\n Descarta la ficha de Personaje Mujer morada.
+EventConvincePurpleWomanPass.button1,Continuar
+EventConvincePurpleWomanFail.text,La mujer te escucha, pero no parece que le convenzan tus palabras y continúa su camino hacia el dormitorio.
+EventConvincePurpleWomanFail.button1,Continuar
+TokenPurpleWoman2ndHall1.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenPurpleWoman2ndHall1.button1,{action} Hablar
+TokenPurpleWomanAtDoor.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenPurpleWomanAtDoor.button1,{action} Hablar
+TokenYellowMan1.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenYellowMan1.button1,{action} Hablar
+TokenYellowMan2.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenYellowMan2.button1,{action} Hablar
+TokenYellowMan3.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenYellowMan3.button1,{action} Hablar
+TokenOldMan2.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenOldMan2.button1,{action} Hablar
+TokenOldMan1.text,Puedes tratar de convencer al huésped de que no pasa nada y de que todo va bien.
+TokenOldMan1.button1,{action} Hablar
+EventConvinceYellowMan.text,Tratas de convencer al hombre de que era un ruido sin importancia y te disculpas por las molestias causadas ({influence}; 2).
+EventConvinceYellowMan.button1,Éxito
+EventConvinceYellowMan.button2,Fallo
+EventConvinceYellowManPass.button1,Continuar
+EventConvinceYellowManFail.text,El hombre te escucha, pero sigue sin estar convencido y sigue su camino hacia el dormitorio.
+EventConvinceYellowManPass.text,Con un fuerte apretón de manos, el hombre te da las gracias por la aclaración y vuelve a su habitación. \n\n Descarta la ficha de Personaje Hombre amarillo.
+EventConvinceYellowManFail.button1,Continuar
+EventConvinceOldMan.text,Tratas de convencer al anciano de que el ruido no tiene la menor importancia y te disculpas por las molestias que le haya podido causar ({influence}; 2).
+EventConvinceOldMan.button1,Éxito
+EventConvinceOldMan.button2,Fallo
+EventConvinceOldManPass.text,Con una débil sonrisa, el hombre te da las gracias por aclararlo todo y regresa a su habitación. \n\n Descarta la ficha de Personaje Hombre gris.
+EventConvinceOldManPass.button1,Continuar
+EventConvinceOldManFail.button1,Continuar
+EventMythosPhase.button1,Button1
+EventConvinceOldManFail.text,El hombre te escucha, pero sigue sin estar convencido y sigue su camino hacia el dormitorio.
+EventMythosParishonerMoveThroughWall.text,Este evento de los Mitos afecta al investigador con la puntuación más baja en {will} que esté en un espacio que contenga una pared o una puerta que lo separe de otra habitación explorada (<b>Nota: el investigador afectado no puede estar en una habitación que esté cerrada con llave</b>). 
+EventMythosParishonerMoveThroughWall.button1,Resolver evento
+EventMythosPersonTokenFaceMelts.text,Este evento de los Mitos afecta al investigador con la puntuación más baja en {influence} que se encuentre en el mismo espacio o en uno adyacente (sin contar a través de puertas y paredes) de una ficha de Personaje o un investigador.
+EventMythosPersonTokenFaceMelts.button1,Resolver evento
+EventMythosBloodyHands.text,La sangre en tus manos es una fuente constante de tormento. El jugador que tenga la <i>Prueba circunstancial</i> sufre 3 de Horror (anulados por {will} -1).
+EventMythosBloodyHands.button1,Continuar
+EventMythosCircumstantialEvidence.text,El investigador que posea la <i>Prueba circunstancial</i> sigue atormentado por el hecho de que tuviese las manos manchadas de sangre. \n\n Como consecuencia de una vívida alucinación, tienes la impresión de que la sangre fresca gotea por las puntas de tus dedos. Corres en busca de un lugar en el que limpiarte el líquido bermellón una vez más. Mueve a tu investigador 2 espacios en dirección al lavabo más cercano. Sufres 2 de Horror (anulados por {will}).
+EventMythosCircumstantialEvidence.button1,Continuar
+EventMythosInformantFishSmell.text,Un repugnante olor impregna el aire alrededor de {rnd:hero}. El olor acre del pescado podrido es insoportable. Sufres 5 de Daño boca abajo (anulados por {strength}+{will}).\n\n Si no estás en el balcón, mueve a tu investigador 1 espacio en dirección al balcón (si es posible) por cada punto de Daño que hayas sufrido, mientras tratas de respirar algo de aire puro. \n\n Si ya estabas en el balcón, sufres 1 de Horror al no poder comprender cómo un olor puede ser tan intenso en mitad de la fresca brisa nocturna.
+EventMythosInformantFishSmell.button1,Continuar
+EventMythosInformantScales.text,Del brazo de {rnd:hero} comienza a emerger una enorme escama de pescado. Horrorizado por lo que estás viendo, te rascas el brazo con fuerza para intentar quitártela. Sufre 2 de Daño boca abajo al levantarte la piel intentando quitar la escama, o sufre 1 de Daño boca abajo y adquiere el estado <i>Retenido</i> mientras tratas cuidadosamente de quitarte la escama de tu piel.
+EventMythosInformantScales.button1,Continuar
+EventMythosJournalistBubblingGrowingHand.text,{rnd:hero} nota cómo su brazo izquierdo comienza a borbotear y a hacerse más grande. Horrorizado ante la transformación, un dolor punzante recorre todo el brazo. Tratas de lanzar un antiguo sortilegio que crees que podría revertir la transformación. Sufres 2 de Daño y 2 de Horror boca abajo (anulados por {lore}+2).
+EventMythosJournalistBubblingGrowingHand.button1,Continuar
+EventMythosPatientLightsFlicker.text,Las luces alrededor de {rnd:hero} comienzan a parpadear. Si estás en un espacio que contenga Oscuridad, descarta la ficha de Oscuridad. En caso contrario, coloca una ficha de Oscuridad en tu mismo espacio. \n\n ¿Has colocado o descartado una ficha de Oscuridad en tu espacio?
+EventMythosPatientLightsFlicker.button1,Oscuridad añadida
+EventMythosPatientLightsFlicker.button2,Oscuridad descartada
+EventRemovedDarkness.text,Con las luces parpadeando, por el rabillo del ojo te ha parecido ver a pocos centímetros de tu cara una figura deforme babeando sangre. Desaparece tan pronto como giras la cabeza para enfocarla. No estás seguro de lo que has visto {observation}. Por cada {success}, sufres 1 de Horror boca abajo.
+EventRemovedDarkness.button1,Continuar
+EventAddedDarkness.text,A medida que la oscuridad te envuelve, un sonido alienígena copa tus oídos. Adquieres el estado <i>Hipnotizado</i>.
+EventAddedDarkness.button1,Continuar
+EventMythosPatientGreenOoze.text,Este evento de los Mitos afecta al investigador con la puntuación más baja en {observation} que se encuentre en un espacio de Dormitorio, Vestíbulo o Hall.
+EventMythosPatientGreenOoze.button1,Resolver evento
+EventMythosPatientGreenOoze.button2,Sin efecto
+EventOozeDrips.text,Un extraño cieno verde gotea del techo sobre {rnd:hero}. Sufre 4 de Daño (anulados por {observation}+{agility}). Mueve a tu investigador 1 espacio en cualquier dirección alejándote de las gotas de ácido.
+EventOozeDrips.button1,Continuar
+EventMythosParishonerMoveThroughWall.button2,Sin efecto
+EventMoveThroughWall.text,Una fuerza demoníaca desconocida hace que el investigador se desvanezca y que reaparezca en una habitación adyacente. Mueve a tu investigador a una habitación explorada adyacente de tu elección, ignorando paredes y puertas. Sufres 2 de Horror (anulados por {will}).
+EventMoveThroughWall.button1,Continuar
+EventMythosParishonerDemonicSymbolsStun.text,Unas visiones de símbolos demoníacos asaltan a {rnd:hero}. Un poder maligno penetra en tu mente y comienza a paralizar tu cuerpo. Sufres 1 de Horror y 2 de Daño (anulados por {lore}+1). Si sufres Daño, adquieres el estado <i>Aturdido</i>.
+EventMythosParishonerDemonicSymbolsStun.button1,Continuar
+EventMythosCriminalJoeDiamond.text,Joe Diamond lucha por comprender los sucesos de esta noche. Nunca tuviste suficientes pruebas para condenar a Jack Grimsby y ahora tienes la sensación de que eres un incompetente a la vista de tu fracaso. Ponderando la situación, Joe deambula hasta terminar volviendo a la escena del crimen. Sufres 2 de Horror boca abajo (anulados por {will}). Muévete dos espacios hacia el dormitorio.
+EventMythosCriminalJoeDiamond.button1,Continuar
+EventMythosGenericSpiritVoices.text,De las paredes del hotel parecen surgir las voces de unos espíritus, que penetran en la mente de {rnd:hero}. Tratan de convencerle para que traicione a sus amigos. Mueve a tu investigador 2 espacios en dirección al investigador más cercano. Sufres 2 de Horror (anulados por {influence}). Cualquier otro investigador en tu mismo espacio sufre 1 de Daño boca abajo más 1 de Daño boca abajo adicional por cada Horror que hayas sufrido.
+EventMythosGenericSpiritVoices.button1,Continuar
+EventMythosMesmerize.text,Una fuerza sobrenatural impregna el hotel con un aura maligna que afecta al cuerpo y a la mente. {rnd:hero} adquiere el estado <i>Hipnotizado</i> y sufre 1 de Daño boca abajo.
+EventMythosMesmerize.button1,Continuar
+EventMythosDarkness.text,Todos los investigadores que estén en un espacio que contenga Oscuridad se ven afectados por este evento de los Mitos.\n\n Las sombras adoptan la forma de unas figuras demoníacas. A cualquier lado que miras, sólo ves cuernos, lenguas bífidas y garras que se adentran en la oscuridad. Sufres 2 de Horror boca abajo (anulados por {will}-1). Mueve 1 espacio por cada Horror que hayas sufrido, hacia una zona que no contenga Oscuridad.
+EventMythosDarkness.button1,Continuar
+EventMythosDazed.text,{rnd:hero} se ve sacudido por unas fuerzas invisibles. Incapaz de bloquear aquello que no puedes ver, al menos intentas escapar. Mueve tu investigador un espacio en cualquier dirección. Sufres 3 de Daño (anulados por {agility}). Si sufres 1 o más de Daño, adquieres el estado <i>Desconcertado</i>.
+EventMythosDazed.button1,Continuar
+EventMythosStressed.text,El peso de la investigación es abrumador. Lo único que deseas es terminar la noche sin incidencias. Todos los investigadores sufren 1 de Horror boca abajo y adquieren el estado <i>Estresado</i>.
+EventMythosStressed.button1,Continuar
+EventMythosRighteous.text,A pesar de todo el horror que has contemplado, una oleada de confianza aviva tu ánimo. Sabes que estás aquí por una buena causa y que si consigues sobrevivir esta noche, llevarás ante la justicia al culpable. \n Todos los investigadores adquieren el estado <i>Virtuoso</i>.
+EventMythosRighteous.button1,Continuar
+EventMythosPersonTokenFaceMelts.button2,Sin efecto
+EventFaceMelts.text,Hace un segundo su cara era de lo más normal, pero ahora se derrite como si estuviese hecha de cera caliente, dejando a la vista el cráneo. La terrorífica visión hace que des un paso atrás y tropieces, cayendo al suelo. Mueve a tu investigador un espacio alejándote de la ficha de Personaje o Investigador más cercano. Sufres 2 de Daño boca abajo (anulados por {agility}-1). Pon boca arriba 1 de Daño.
+EventFaceMelts.button1,Continuar
+EventMythosClaustraphobia.text,Este evento de los Mitos afecta al investigador con la puntuación más baja en {will} que esté en una localización de 2 o menos espacios de tamaño (sin incluir el balcón).
+EventMythosClaustraphobia.button1,Resolver evento
+EventMythosClaustraphobia.button2,Sin efecto
+EventClaustrophobia.text,Las paredes parecen estrecharse a tu alrededor, cada vez más cerca. ¿Vas a morir aplastado por las paredes de esta habitación? Comienzas a dar vueltas sin saber qué hacer a pesar de que, en realidad, la habitación no ha sufrido ningún cambio. Sufres 2 de Horror boca abajo y 2 de Daño boca abajo (anulados por {will}+{observation}). Si sufres Horror, mueve a tu investigador 1 espacio en dirección a una habitación más grande (si es posible).
+EventClaustrophobia.button1,Continuar
+EventMythosLoseItems.text,La onda expansiva procedente de una fuente desconocida impacta en el cuerpo de {rnd:hero}, desplomándose. Sufres 1 de Daño boca abajo. Mientras te levantas, compruebas si se te ha caído al suelo algo del equipo que llevabas encima {agility}. Por cada {success} por debajo de 3, dejas caer 1 Hechizo u Objeto al azar (a excepción de las Pruebas).
+EventMythosLoseItems.button1,Continuar
+EventMythosLoseClueTokens.text,Nada parece tener sentido en esta investigación. Tu cabeza todavía sigue dando vueltas y te cuesta mantener una línea de pensamiento clara. {rnd:hero} sufre 2 de Horror boca abajo (anulados por {will} -1). Para cada Horror sufrido, descarta 1 Pista {clue}.
+EventMythosLoseClueTokens.button1,Continuar
+EventMythosGainClues.text,Las piezas comienzan a encajar de nuevo. Sin duda tu memoria está volviendo poco a poco. {rnd:hero} gana 2 Pistas {clue}.
+EventMythosGainClues.button1,Continuar
+EventEliminated.text,Con la muerte de tu colega, tu mente y cordura se resquebrajan al desvanecerse la última esperanza de poder sobreponerte a los horribles sucesos de esta noche. La cruel plantilla del hotel te lleva a rastras ante la policía, acusándote de haber cometido dos asesinatos: el de Jack Grimsby y el de tu colega. \n\n La investigación ha fracasado.
+EventEliminated.button1,Continuar
+UIEndingContinue.uitext,Continuar
+UIVictoryText.uitext,\n Abandonas rápidamente el hotel maldito, llevándote unos terribles \n recuerdos contigo. El oficial de policía Mori te asegura que llegará \n al fondo de este asunto gracias a las pruebas que le has dado. \n Te lleva a la oficina del sheriff para interrogarte. Allí le cuentas \n de forma detallada lo que sabías sobre el fallecido, Jack Grimsby, \n y los sucesos acontecidos desde que despertaste en la habitación \n del hotel. A pesar de que no recuerdas todos los detalles previos \n a tu llegada, tu pormenorizado relato y las pruebas recabadas \n son suficientes para limpiar por ahora tu nombre. Pero eso no consigue \n que te calmes después de lo sucedido anoche. El horror sigue ahí,\n pero no vas a dejar que el miedo te venza. Sin duda \n los dueños del hotel tratarán de quitarte de enmedio por todo \n el daño que les has causado, aunque por supuesto estarás esperándolos, \n dispuesto a dar la cara y enfrentarte a cualquier desafío. \n
+UILostText.uitext,\n Los policías te arrestan de inmediato. Tu mente \n desquiciada es incapaz de aceptar lo que está pasando. Te llevan a la \n comisaría y, sin importar lo que les dices, lo único que hacen es \n negar con la cabeza. \n\n —<i>¡Deje de mentirnos!</i> —te grita el oficial Mori \n golpeando con su puño la mesa de la sala de interrogatorios. \n Sabes que todo apunta a tu culpabilidad y que las pruebas que \n pudiste recabar han sido eliminadas por la plantilla del hotel. \n Nada de lo que digas convencerá a la policía. \n El mal que habita en ese hotel infame seguirá allí, y los dueños \n del inmueble conseguirán aquello que ansían. \n Te han usado como chivo expiatorio para esconder algo terrible \n y ahora ya no hay nada que puedas hacer para destapar \n la horrible verdad.
+SpawnZombieCriminal.button1,Continuar
+SpawnCultistCriminal1.text,Coloca un Sectario en el lugar señalado.
+SpawnCultistCriminal1.button1,Continuar
+SpawnCultistCriminal2.text,El portavoz de la plantilla del hotel augita las manos una vez más: \n\n —<i>¡Aún tengo poder suficiente como para cerrar las puertas!</i>\n\n Aparece un segundo sectario en el lugar señalado.
+SpawnCultistCriminal2.button1,Continuar
+SpawnMiGoCriminal.text,Una enorme criatura insectoide irrumpe a través del portal y aparece en el dormitorio. \n\n Coloca un Mi-go en el lugar señalado.
+TokenBartenderAfterTalking.button2,¡Necesitamos más pruebas!
+EventOfficerEntersCrimeScenePostScream.button1,Continuar
+EventOfficerEntersCrimeScenePostScream.text,El oficial de policía abre la puerta del dormitorio y entra en la sala. \n\n Descarta la ficha de Personaje Oficial de policía azul.
+EventMythosCriminalChanting.text,{rnd:hero} oye un extraño cántico procedente de algún lugar en el interior del hotel. El extraño idioma que usa te resulta perturbador y no puedes quitártelo de la cabeza. Unas voces malvadas comienzan a resonar en tu mente, haciendo que caigas al suelo hecho un ovillo, presa del terror. Sufres 3 de Horror y 1 de Daño boca abajo (anulados por {will}+{lore}). Si sufres Daño, adquieres el estado <i>Retenido</i>.
+EventMythosCriminalChanting.button1,Continuar
+EventMythosJournalistScratchingSounds.text,{rnd:hero} oye un sutil sonido como arañazos que parece provenir del interior de las paredes del hotel. Aunque al principio no parecían tener importancia, cuanta más atención le prestas, más peligrosos te parecen. ¿Qué clase de cosa puede estar causando esa clase de sonidos malsanos en el hotel? Ponen a prueba tus sentidos {observation}. Sufres 1 de Horror boca abajo por cada {success} que saques en la tirada.
+EventMythosJournalistScratchingSounds.button1,Continuar
+EventMythosKnife.text,El investigador que ha cogido el cuchillo lucha por mantener una apariencia de cordura. Su cara se retuerce y varios tics hacen que su cara adopte expresiones malignas. Todos los investigadores a su alcance sufren 3 de Horror (anulados por {will}) y se alejan 1 espacio de tu investigador.
+EventMythosKnife.button1,Continuar
+EventFearOfBeingSeen.text,Una agobiante sensación de que está siendo observado se apodera de {rnd:hero}, que siente como si hubiese ojos mirándole por todas partes. Si pudieras esconderte tras el velo de la oscuridad, seguramente podrías quitarte de encima esa opresiva sensación de vulnerabilidad. Sufres 2 de Horror (anulados por {will}). Por cada Horror que sufras, mueves 1 espacio hacia un espacio que contenga <i>Oscuridad</i>.
+EventFearOfBeingSeen.button1,Continuar
+EventMythosThrobbingPain.text,El punzante dolor que sentiste la primera vez que despertaste en este hotel regresa con más fuerza. Agarrándote la cabeza, intentas resistir el intenso dolor. {rnd:hero} sufre 4 de Daño boca abajo (anulados por {strength}. Si sufres 2 o más de Daño, adquieres el estado <i>Aturdido</i>.
+EventMythosThrobbingPain.button1,Continuar
+CustomMonsterHauntingSpirit.info,-
+EventHauntingSpiritActivation.text,El Espíritu embrujado se desvanece para volver a aparecer encima del investigador que esté más alejado de la posición actual del espectro. Cualquier investigador que termine su turno en el mismo espacio que el espíritu sufre 2 de Daño boca abajo causado por el siniestro ensalmo que recita el fantasma y que drena la fuerza vital de los vivos.
+CustomMonsterHauntingSpirit.monstername,Espíritu embrujado
+EventHauntingSpiritActivation.button1,Continuar
+CustomMonsterHauntingSpirit.Attack_bladed_1,Le lanzas un golpe al espíritu, pero lo atraviesas sin hallar resistencia. La forma incorpórea no se ve afectada por objetos materiales.
+CustomMonsterHauntingSpirit.Attack_firearm_1,Disparas al espíritu, sin que sirva para algo. Su forma incorpórea no se ve afectada por los objetos físicos.
+CustomMonsterHauntingSpirit.Attack_heavy_1,Le lanzas un golpe al espíritu, pero lo atraviesas sin hallar resistencia. La forma incorpórea no se ve afectada por objetos materiales.
+CustomMonsterHauntingSpirit.Attack_unarmed_1,Le lanzas un golpe al espíritu, pero lo atraviesas sin hallar resistencia. La forma incorpórea no se ve afectada por tus puños.
+CustomMonsterHauntingSpirit.Attack_spell_1,Pronunciando palabras antiguas invocas magia oscura para destruir al Espíritu embrujado ({lore}; 3). Si la tirada tiene éxito, el espíritu se desvanece con un estridente grito (el espíritu sufre un número de Daños igual a su salud). Si fallas la tirada, el espíritu no se ve afectado por tu conjuro.
+EventEvadeHauntingSpirit.text,Correr no te salvará, pero sientes cómo la conexión con el espíritu drena tu fuerza vital. Ejercitar tu fuerza de voluntad contra esta entidad maligna es tu única opción para escapar de ella ({will}; 2).
+EventEvadeHauntingSpirit.button1,Éxito
+EventEvadeHauntingSpirit.button2,Fallo
+EventEvadeHauntingSpiritSuccess.text,Bloqueas con tu mente la energía del espíritu, liberándote de su presa.
+EventEvadeHauntingSpiritSuccess.button1,Continuar
+EventEvadeHauntingSpiritFail.text,Por mucho que lo intentas, tu mente sigue siendo vulnerable a la fuerza sobrenatural del espíritu. \n Sufres 1 de Horror boca abajo y pierdes tu acción.
+EventEvadeHauntingSpiritFail.button1,Continuar
+EventHauntingSpiritHorror.text,La aparición se materializa en mitad del aire, invitándote a que te acerques para calmarte, abriendo sus brazos listos para acogerte {will}. Por cada {success} por debajo de 3, avanzas 1 espacio hacia el Espíritu embrujado. Si llegas al espacio ocupado por el espíritu, sufres 1 de Daño boca abajo por cada punto de movimiento que te quede sin usar.
+EventHauntingSpiritHorror.button1,Continuar
+SpawnHauntingSpirit.text,{rnd:hero} de repente siente un mareo. Mirando al cielo, te das cuenta de que un extraño espíritu te sobrevuela mientras entona un oscuro salmo. Sientes cómo se apodera de tu mente, y que a cada sílaba que pronuncia te drena vida. Sufres 2 de Horror y 1 de Daño boca abajo (anulados por {will}+{strength}).\n\n**Tu única opción contra esta entidad es evitarla o usar un hechizo ofensivo que pueda destruir su incorpórea existencia. Si un evento te obliga a moverte mientras el espíritu esté en tu mismo espacio, el espíritu embrujado te seguirá hasta tu nuevo destino. \n\n Coloca un espíritu embrujado (Fantasma) en tu mismo espacio.
+EventMythosSecond.button1,Continuar
+EventRemoveHauntingSpirit.button1,Continuar
+EventRemoveHauntingSpirit.text,Tras contrarrestar con éxito la magia negra del espíritu, una vez más, se desvanece con un siseo furioso. Sin embargo, en tu interior sigues albergando el miedo a que pueda regresar. \n\n Descarta el espíritu embrujado (Fantasma) del tablero.
+SpawnHauntingSpirit.button1,Continuar
+EventMythosHealHorror.text,Una sensación de calma invade tu mente mientras tus compañeros te consuelan y te muestran su apoyo. Juntos lo vais a conseguir. Todos los investigadores ponen boca abajo 1 de Horror o descartan 1 de Horror boca abajo.
+EventMythosHealHorror.button1,Continuar
+EventMythosHealDamage.text,Este evento afecta al investigador que haya sufrido más Daño, si el Daño sufrido es igual o superior a 3.
+EventMythosHealDamage.button1,Resolver evento
+EventMythosHealDamage.button2,Sin efecto
+EventHealDamage.text,Consciente de la gravedad de tus heridas, te planteas descansar un momento para recuperarte. Pero tienes miedo de las consecuencias que el retraso pueda tener en tu investigación. \n\n Tienes la oportunidad de poner boca abajo 1 Daño o descartar 2 de Daño boca abajo. Si lo haces, adquieres el estado <i>Retenido</i> y sufres 1 de Horror boca abajo (anulado por {will}-1).
+EventHealDamage.button1,Continuar
+EventMythosFearless.text,{rnd:hero} se va animando más a medida que el caso parece más claro por momentos. Adquieres el estado <i>Intrépido</i>.
+EventMythosFearless.button1,Continuar
+EventMythosFocused.text,{rnd:hero} se va animando más a medida que el caso parece más claro por momentos. Adquieres el estado <i>Intrépido</i>.
+EventMythosFocused.button1,Continuar
