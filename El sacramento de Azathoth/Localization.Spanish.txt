@@ -1,0 +1,642 @@
+.,Spanish
+quest.name,El Sacramento de Azathoth
+quest.description,\n Uno de los Investigadores desapareció hace varios meses, apareciendo después en un templo remoto, dedicado a Azathoth, el Dios Exterior, con sus secuestradores muertos a sus pies, y sin ningún recuerdo reciente. Pronto se hace evidente que algo siniestro acecha en su interior y que debe ser tratado, antes de que su monstruoso parásito sea liberado en el mundo. \n\n
+TokenStatueChamberExplore.text,Recuerdas la Cámara de las Estatuas que atravesaste corriendo en tu camino hacia aquí.
+Event00StatueChamberExplore.text,Recuerdas vagamente el camino que tomaste a través del templo, ya que lo cruzaste apresuradamente. Tendrás que recorrer el camino de vuelta con cuidado. Coloca el módulo Cámara de las Estatuas, una ficha de Exploración, y una ficha de Puerta como se indica.
+Event00PutBodiesdown.button1,Continuar
+quest.synopsys,La investigación que has llevado a cabo durante un mes para encontrar a tu colega desaparecido te ha llevado al templo perdido de Azathoth.
+quest.authors,  \n\n <i>Creado por:</i> DomeAcolyte  \n\n <i>Traducción al español: </i> Mauch8  \n\n 
+Tokencorpses.button1,Investigar {action}
+Event00Investigators.button1,Continuar
+Event00PutBodiesdown.text,El trono está rodeado de cadáveres vestidos con túnicas. Entre ellos, destaca un pequeño destello de metal. Coloca una ficha de Búsqueda.
+SpawnStatueCultist1.button1,Continuar
+SpawnStatueCultist2.button1,Continuar
+Event00PlaceCarving.text,Una imponente pintura decora este muro. Coloca una ficha de Búsqueda en el lugar indicado.
+TokenPainting.text,Un antiguo mural parece representar un ritual, casi como si se tratara de un manual de instrucciones.
+Event00PlaceCarving.button1,Continuar
+EventGetPendant.button1,Continuar
+Tokencorpses.text,Los cadáveres de varias personas vestidas con ropas ceremoniales rodean el trono, cada uno sobre un charco de su propia sangre.
+EventEnterStatueChamber.text,Abominables estatuas de criaturas bestiales se alzan ante ti, así como varias esculturas humanas, que parecen mirarte desde sus capuchas talladas. Retira todas las fichas de Exploración de este espacio.
+TokenStatueChamberExplore.button1,{action} Explorar
+Eventexaminingcorpses.text,Miras entre los cadáveres y encuentras ¡una daga de sacrificio!
+EventLeaveTempleBoth.text,Te invade una sensación de alivio mientras sientes de nuevo el aire fresco. Un Investigador situado en este espacio puede intentar abandonar el templo.
+EventGetPendant.text,Uno de los sectarios muertos lleva un medallón con una runa familiar en él. Ganas el objeto común Colgante con símbolo arcano; retira después esta ficha de Búsqueda.
+EventPlaceMosaicExplore.text,Elaborados azulejos decoran esta puerta. Coloca una ficha de Exploración como se indica.
+Event00BeginningGameFlavourText.text,Han pasado meses desde que viste a tu querido colega y amigo de toda la vida por última vez. Él se había mostrado ansioso e inquieto durante semanas, y de alguna manera, no pareció sorprendente cuando un día, simplemente desapareció de la faz de la tierra. Una búsqueda entre sus pertenencias reveló documentos repletos de unos extraños e ilegibles textos. Lo poco que pudo ser descifrado hablaba de contactos con un culto siniestro y sobre fuerzas sobrenaturales.  \n\n La investigación te llevó a través del planeta, revelando una oscura conspiración. Incontables sectarios trastornados se cruzaron en tu camino, arrojando incomprensibles desvaríos sobre los tiempos gloriosos que estaban por venir, y una persistente y ominosa frase: <i>Azathoth, el Dios Exterior</i>.  \n\n Finalmente, una pista sobre tu amigo te llevó a un antiguo templo, en lo más profundo de las selvas de Sudamérica. Tu investigación te ha enseñado que una alineación planetaria, de vital importancia para el culto, está a pocas horas de tener lugar. Tienes la profunda sensación de que si no has rescatado a tu amigo para entonces, será demasiado tarde...
+Event00BeginningFalvourText2.button1,Continuar
+Event00BeginningFalvourText2.text,Corres al corazón del templo, listo para emprender la lucha de tu vida, pero para tu sorpresa, tu amigo está sentado en un trono, ileso, rodeado por varios cultistas, muertos en el suelo. Coloca el módulo Cámara del Trono como se indica.  \n\n Tu amigo (al que de ahora en adelante llamaremos "El Ungido") se sienta perfectamente quieto, mirando a la distancia. No muestra ningún signo de vida, hasta que te acercas, momento en el que parpadea varias veces y casualmente reconoce tu presencia. Le interrogas frenéticamente, pero parece que no recuerda los meses anteriores, desde la última vez que lo viste.
+Event00Investigators.text,Coloca a los Investigadores alrededor del trono. El Ungido será representado por el Investigador con la puntuación más alta de Cordura.
+Event00StatueChamberExplore.button1,Continuar
+Event00PlaceThroneRoomExplore2.button1,Continuar
+EventAzathothPossession.text,El cuerpo del Ungido se retuerce y se eleva lentamente en el aire, mientras es envuelto en un humo negro. Mil gritos resuenan en el templo, y la realidad misma parece temblar y estremecerse. Cada Investigador sufre 1 de Horror.
+TokenStorageChamberExplore.button1,Explorar {action}
+EventLeaveTempleBoth.button1,Abandonar el Templo (El Ungido) {action}
+EventPlaceStorageChamber.text,Encuentras un antiguo almacén, con estanterías y contenedores primitivos. Coloca el módulo Cámara de Almacenaje, una ficha de Puerta y una de Pared, en los lugares indicados. Retira todas las fichas de Exploración que conducen a este espacio.
+EventPlaceStorageChamber.button1,Continuar
+EventPlaceStorageToken.text,Hay una pequeña posibilidad de que haya algo útil en los antiguos contenedores. Coloca una ficha de Búsqueda, como se indica.
+EventPlaceStorageToken.button1,Continuar
+TokenStorage.button1,Abrir un contenedor {action}
+EventCrackedChamberExplore.text,Un gran arco de piedra, con una grieta que lo cruza centralmente, da paso a una amplia cámara.
+EventCrackedChamberExplore.button1,Continuar
+TokenCrackedChamberExplore.button1,Explorar {action}
+Event00PlaceThroneRoomExplore2.text,Dos puertas más conducen a lo más profundo del templo. Coloca sendas fichas de Exploración en los lugares indicados.
+TokenCrackedChamberExplore.text,El arco de piedra conduce a lo más profundo del templo.
+TokenBurialChamberExplore.text,Formas de esqueletos humanos están talladas en el marco de esta puerta.
+TokenBurialChamberExplore.button1,Explorar {action}
+EventEnterStatueChamber.button1,Continuar
+EventMoveIntoPool.button1,Continuar
+TokenStatuePoolExplore.text,Puedes escuchar cómo el agua gotea al otro lado de esta puerta.
+TokenStatuePoolExplore.button1,Explorar {action}
+EventPoolExplore.button1,Continuar
+EventKilledCultists.button1,Continuar
+EventKilledCultists.text,¡Evento!
+EventPlaceExplorePool.button1,Continuar
+EventPlaceExplorePool.text,Se puede escuchar el goteo de agua en la cámara adyacente. Coloca una ficha de Exploración como se indica.
+EventMoveIntoPool.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceBurialChamber.text,Entras en una pequeña cámara funeraria. El hedor de la muerte pesa en el aire. Coloca el módulo Cámara funeraria, una ficha de Pared y una de Puerta, como se indica. Retira todas las fichas de Exploración que conduzcan a esta zona.
+EventPlaceBurialChamber.button1,Continuar
+TokenSkeleton.button1,Investigar el esqueleto {action}
+EventPlaceSkeleton.button1,Continuar
+TokenSkeleton.text,Entre los esqueletos que descansan en esta habitación, hay uno que destaca. Ha sido modificado de tal forma que cuesta reconocerlo como humano, o es que nunca lo fue.
+EventPoolExplore.text,Entras en una caverna espaciosa, con un lago subterráneo. Coloca el módulo Cámara del estanque y una ficha de Pared como se indica, y retira todas las fichas de Exploración que llevan a esta zona.
+TokenStorageChamberExplore.text,Una puerta conduce a lo más profundo del templo.
+EventPlaceMosaicExplore.button1,Continuar
+EventPlaceSkeleton.text,Varios restos óseos yacen en toscos huecos realizados en el muro. Coloca una ficha de Búsqueda en el lugar indicado.
+EventPitExplore.text,Un viento frío y viciado sopla a través de esta puerta. Coloca una ficha de Exploración en el lugar señalado.
+TokenPainting.button1,Inspeccionar {action}
+TokenLeaveTemple.button1,Continuar
+EventLeaveTempleAnnointedAction.button1,Continuar
+EventLeaveTempleAnnointed.button1,Abandonar el Templo (El Ungido) {action}
+EventLeaveTempleOther.text,Estás sorprendido por lo que le pasó al Ungido, pero tienes confianza en tu investigación y estás bastante seguro de que el campo de energía no te repelerá.
+EventLeaveTempleOther.button1,Explorar (Otro Investigador) {action}
+EventLeaveTempleAnnointedAction.text,Mientras el Ungido intenta salir del templo, todo parece en calma, hasta que el aire a su alrededor se vuelve negro, un chillido inhumano llena el espacio, y éste es lanzado hacia atrás por alguna fuerza invisible. Los otros Investigadores aprendieron sobre esta magia durante su investigación. El templo está sellado por una barrera que retiene a los seres de Eldritch. Algo oscuro y apocalíptico habita dentro del Ungido, y por el bien del mundo debes limpiarlo y sacarlo del templo, o encontrar una manera de matarlo sin liberar su monstruoso parásito a este mundo.  \n\n El Ungido obtiene 1 Pista {clue} y sufre 1 de Daño boca abajo. Todos los Investigadores situados en la Cámara de las estatuas sufren 1 de Horror, anulado por {will}.
+EventLeaveTempleAnnointed.text,A pesar de no recordar los últimos meses, el Ungido tiene un fuerte sentido de la premonición, aliviado sólo por el hecho de que sus colegas serán capaces de cruzar con seguridad el umbral del templo y que, presumiblemente, él también podrá hacerlo.
+EventLeaveTempleBoth.button2,Abandonar el Templo (Otro Investigador) {action}
+EventLeaveTempleOtherAction.text,Temblando, cruzas nerviosamente el umbral, sin encontrar trampas de energía que te obliguen a mantenerte dentro. Una vez que el Ungido salga del templo, la investigación estará completa. Ganas 1 Pista {clue}.
+EventLeaveTempleOtherAction.button1,Continuar
+EventRemoveEntranceExplore.text,Vuelves a la cámara de entrada del templo, sintiendo finalmente un rayo de esperanza de que esta pesadilla pueda terminar pronto. Retira esta ficha de Exploración.
+EventRemoveEntranceExplore.button1,Continuar
+EventPlaceLeaveToken.text,La libertad está al alcance de la mano. Coloca una ficha de Interacción en el lugar indicado. El Ungido obtiene resultados únicos al interactuar con esta ficha.
+EventPlaceLeaveToken.button1,Continuar
+EventLeaveTempleAnnointed.button2,Cancelar
+EventLeaveTempleBoth.button3,Cancelar
+EventLeaveTempleOther.button2,Cancelar
+EventInspectMural.text,El ritual representado te recuerda a algunos de los actos ceremoniales ocultos que estudiaste durante la investigación que te condujo hasta aquí. Haz una tirada de {lore}.
+EventInspectMural.button1,Continuar
+EventInspectMuralFail.text,Aunque estás seguro de que los eventos representados te resultan familiares, no consigues encontrarles sentido.
+EventInspectMuralFail.button1,Continuar
+EventInspectMuralPass.text,El mural representa a un lamentable individuo, atrapado en un templo, mientras los planetas se alinean por encima de su cabeza. El sujeto está horriblemente distorsionado, y unas espirales negras le arrancan la piel. Tienes que salir de aquí, antes de que el Ungido sufra este miserable destino.  \n\n Ganas 1 Pista {clue}, después descarta esta ficha de Búsqueda.
+EventInspectMuralPass.button1,Continuar
+EventStorageOpenContainer.text,Entre la pesada tapa de piedra y las enredaderas, necesitarás todas tus fuerzas para abrir esta caja. Realiza una tirada de {strength}. Si tienes un Arma de filo, añade un éxito al resultado de tu tirada.
+EventStorageOpenContainer.button1,Continuar
+EventOpenBoxFail.text,Por mucho que lo intentas, temes herirte a ti mismo antes de conseguir mover la pesada tapa de piedra.
+EventOpenBoxFail.button1,Continuar
+EventOpenBoxPass.text,Con un tremendo empujón apartas la tapa a un lado, provocando un gran estruendo y una nube de polvo. Dentro, hay varios artefactos y libros, que los antiguos habitantes del templo habían escondido. Esperas no encontrar razones para deshacerte de ellos. Consigues el Objeto común Biblia del rey Jaime. Retira esta ficha de Búsqueda.  No entiendo esa frase ni cómo ponerla
+EventOpenBoxPass.button1,Continuar
+TokenStorage.text,A juzgar por las enredaderas y telarañas que dominan el lugar, es poco probable que estos contenedores hayan sido abiertos durante varios años.
+TokenMosaicExplore.text,Esta puerta está mejor conservada que la mayor parte del templo que la rodea.
+TokenMosaicExplore.button1,Explorar {action}
+EventPlaceMosaicChamber.text,Los brillantes azulejos son casi deslumbrantes, incluso a la escasa luz de las antorchas. Coloca el módulo Cámara del mosaico como se indica, y retira todas las fichas de Exploración que conducen al área explorada.
+EventPlaceMosaicChamber.button1,Continuar
+EventDiscoverCultistPuzzle.text,Después de que tus ojos se hayan adaptado a la luz, te das cuenta, de golpe, de que te has topado con un siniestro ritual en marcha. Ocho cultistas están de pie en una fila, en el lado opuesto de la habitación. Te preparas para el combate, descubriendo poco después que los cultistas están inmóviles. No simplemente parados, sino que parecen estar congelados en el tiempo. Incluso sus túnicas permanecen inalterables en la brisa letárgica.  \n\nTodos y cada uno de los sectarios están cubiertos de sangre, que brota de heridas de puñal. Basándote en la situación de las puñaladas, siete de los ocho deberían estar ya muertos. Sus expresiones son de una resolución sombría, como si se hubieran ofrecido voluntariamente para su horrible destino.
+EventDiscoverCultistPuzzle.button1,Continuar
+EventMosaicPuzzle1.button1,Continuar
+EventMosaicPuzzle2.text,El primero de estos sectarios fue apuñalado una vez en el estómago, y otra vez en el corazón; el siguiente fue apuñalado dos veces en el pecho y una vez en la cabeza. Coloca una ficha de Vistazo en el lugar indicado.
+EventMosaicPuzzle1.text,Cada uno de estos dos sectarios ha sido apuñalado una vez; al primero le atravesaron la cabeza con el arma, y al segundo, el corazón. Coloca una ficha de Vistazo en el lugar indicado.
+EventMosaicPuzzle2.button1,Continuar
+EventMosaicPuzzle3.text,Los siguientes cultistas están incluso peor. Uno tiene tres puñaladas en el pecho y dos en la cabeza; y el otro, a pesar de no mostrar signos de haberse defendido, tiene dos puñaladas en el brazo, así como tres en el abdomen y otras tres en la cabeza. Coloca una ficha de Vistazo en el lugar indicado.
+EventMosaicPuzzle3.button1,Continuar
+EventMosaicPuzzle4.text,El séptimo cultista es el más macabro de todos. Fue apuñalado siete veces en el pecho, dos en el hombro y cuatro en la cabeza. Si no fuera por los cortes perfectos y limpios, pensarías que éstos no son de naturaleza ritualista, sino simple salvajismo sin sentido. Coloca una ficha de Vistazo en el lugar indicado.
+EventMosaicPuzzle4.button1,Continuar
+EventMosaicPuzzle5.text,El octavo cultista es único. A pesar de haber sido apuñalado once veces, todavía no ha sido herido de muerte (sin contar la pérdida de sangre). Su postura también es única. En lugar de quedarse de pie en posición de firmes, como sus compañeros, éste se inclina en posición de rendición, con las palmas ensangrentadas sobre su cabeza, sosteniendo en ellas una daga ceremonial. Coloca el Objeto común Cuchillo de supervivencia, y una ficha de Interacción, como se indica.  \n\nColoca una ficha de Llave sobre el Cuchillo de supervivencia para indicar que no puede ser descartado, aunque puede ser soltado o intercambiado.
+EventMosaicPuzzle5.button1,Continuar
+TokenMosaicCultist12.text,Cada uno de estos dos sectarios ha sido apuñalado una vez; al primero le atravesaron la cabeza con el arma, y al segundo, el corazón.
+TokenMosaicCultist12.button1,Continuar
+TokenMosaicCultist34.text,El primero de estos cultistas fue apuñalado una vez en el estómago, y otra vez en el corazón; el siguiente fue apuñalado dos veces en el pecho y una vez en la cabeza.
+TokenMosaicCultist34.button1,Continuar
+TokenMosaicCultists56.text,El primero de estos cultistas tiene tres puñaladas en el pecho y dos en la cabeza. El otro, a pesar de no mostrar signos de haberse defendido, recibió dos puñaladas en el brazo, así como tres en el abdomen y otras tres en la cabeza.
+TokenMosaicCultists56.button1,Continuar
+TokenMosaicCultist7.text,El séptimo cultista fue apuñalado siete veces en el pecho, dos en el hombro y cuatro en la cabeza.
+TokenMosaicCultist7.button1,Continuar
+TokenMosaicPuzzleSolve.text,Seguramente, quien orquestó esta siniestra exhibición no esperaba que alguien ajeno al culto completara su espantoso ritual. Un Investigador en este espacio, que posea el Cuchillo de supervivencia, puede intentar hacerlo.
+TokenMosaicPuzzleSolve.button1,Completar el ritual {action}
+EventMosaicPuzzleAttempt.text,Te preparas para herir mortalmente al último cultista. Ya ha sido apuñalado once veces. Introduce el número de veces adicionales que te gustaría apuñalarlo.
+EventMosaicPuzzleAttempt.button1,Continuar
+EventMosaicTestSuccess.text,Después de recibir la última y fatal puñalada, el sectario asume lentamente la misma posición que sus compañeros. Entonces, para tu horror, los ocho estallan en llamas azules, uno por uno, y en pocos segundos, quedan reducidos a cenizas. De forma antinatural comprendes el dolor y el trastorno que sufrieron, y cómo puedes infligirlo a otros.  \n\n Sufres 1 de Horror boca abajo anulado por {will}, ganas el hechizo Ajar y 1 Pista {clue}. Descarta la ficha de Llave del Cuchillo de supervivencia.
+EventMosaicTestSuccess.button1,Continuar
+EventMosaicTestFailure.text,Retrocedes lentamente mientras te martiriza la duda por haber apuñalado al cultista. De repente, el sectario al que apuñalaste se pone de pie. Uno por uno, los demás cultistas regresan imprevisiblemente a la vida, antes de lanzarse, como marionetas movidas por cuerdas, directamente hacia ti, con las manos preparadas para arrancarte la carne del cuerpo. Te estremeces y te cubres los ojos. Sientes el dolor de ser golpeado por manos no muertas por una fracción de segundo, antes de que la habitación se restablezca. Cada investigador en la Cámara del mosaico sufre 2 de Daño boca abajo y 1 Horror, anulados por {will}.
+EventMosaicTestFailure.button1,Continuar
+EventMosaicTestSuccess2.text,Retira todas las fichas de Vistazo e Interacción de la Cámara del mosaico.
+EventMosaicTestSuccess2.button1,Continuar
+EventInvestigateSkeleton.text,Intentas imaginar cómo un esqueleto humano podría ser mutilado de esa manera. Haz un tirada de {lore}.
+EventInvestigateSkeleton.button1,Continuar
+EventSkeletonFail.text,Por mucho que lo intentas, no puedes encontrar una explicación para la peculiar forma del esqueleto.
+EventSkeletonFail.button1,Continuar
+EventSkeletonPass.text,Te das cuenta de que ninguna práctica o tecnología podría deformar un esqueleto de este modo, sobre todo después de haber pasado a descansar eternamente. Al pasar las manos sobre el cráneo de la criatura, éste se deshace en tus manos. De forma sorprendente, el cráneo resulta ser un tesoro enjoyado. Ganas el objeto común Calavera enjoyada, después retira esta ficha de Búsqueda.
+EventSkeletonPass.button1,Continuar
+EventPitExplore.button1,Continuar
+EventMoveIntoRuinedChamber.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenRuinedChamberExplore.text,Esta puerta lleva a una cámara detrás de la Cámara del trono.
+EventEnterStorage.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventEnterStorage.button1,Continuar
+EventMoveIntoStatue.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMoveIntoStatue.button1,Continuar
+EventMoveIntoCeramic.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMoveIntoCeramic.button1,Continuar
+EventMoveIntoEntrance.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMoveIntoEntrance.button1,Continuar
+EventReflection.button1,Continuar
+EventReflectionBoth.text,Incluso con la tenue luz y las aguas turbias, puedes ver que el movimiento de tu reflejo sobre las aguas no se corresponde con los gestos que realizas.
+EventReflection.text,Hay algo raro en tu reflejo. Esta ficha tiene resultados diferentes para el Ungido. Coloca una ficha de Búsqueda aquí.
+TokenReflection.button1,Continuar
+EventReflectionBoth.button1,Investigar (El Ungido) {action}
+EventReflectionAnnointed.text,Incluso con la tenue luz y las aguas turbias, puedes ver que el movimiento de tu reflejo no se corresponde con los gestos que realizas.
+EventReflectionAnnointed.button1,Investigar (El Ungido) {action}
+EventReflectionOther.text,Incluso con la tenue luz y las aguas turbias, puedes ver que el movimiento de tu reflejo no se corresponde con los gestos que realizas.
+EventReflectionOther.button1,Investigar (Otro Investigador) {action}
+EventReflectionBoth.button2,Investigar (Otro Investigador) {action}
+EventReflectionOutcomeAnnointed.text,Cuando el Ungido mira hacia el pozo, ve su reflejo siendo lentamente consumido por la oscuridad que lo envuelve, pero pronto se da cuenta de que no es más que agua sucia. El tiempo se agota.  \n\n Ganas 1 Pista {clue}.
+EventReflectionOutcomeAnnointed.button1,Continuar
+EventReflectionOutcomeOther.text,Tu reflejo te mira fijamente, con urgencia. No sólo está en apuros, está tratando de decirte algo. Hace gestos representando un cuchillo de sacrificio y movimientos que simulan un apuñalamiento.  \n\n Ganas 1 Pista {clue}.
+EventReflectionOutcomeOther.button1,Continuar
+EventReflectionBoth.button3,Continuar
+EventRemoveReflectionTest.button1,Continuar
+EventRemoveReflection.text,Descarta esta ficha de Búsqueda.
+EventRemoveReflection.button1,Continuar
+EventReflectionAnnointed.button2,Continuar
+EventReflectionOther.button2,Continuar
+EventLeaveTempleNoOptions.text,Descarta esta ficha de Búsqueda.
+EventLeaveTempleNoOptions.button1,Continuar
+Event01All.button1,Hablar (El Ungido) {action}
+TokenRegretfulCultist.button1,Continuar
+Event01All.button2,Hablar (Otro Investigador) {action}
+Event01All.button3,Cancelar
+Event01Annointed.button1,Hablar (El Ungido) {action}
+Event01Annointed.button2,Cancelar
+Event01Other.button1,Hablar (Otro Investigador) {action}
+Event01Other.button2,Cancelar
+Event01SpeakOther.text,La Sectaria te mira. —<i>¿Quién es usted? No es miembro del culto...</i> —Su voz traiciona un sinfín de emociones, incluyendo la desesperación, la desesperanza y, curiosamente, el escepticismo. \n\n Tú intentas explicarle que viniste a rescatar a tu amigo, y que para eso necesitas su ayuda. Haz una tirada de {influencia}.
+Event01SpeakOther.button1,Continuar
+Event01OtherFail.text,Una sonrisa torcida cruza los labios de la Sectaria, sin llegar a reflejarse en sus ojos, y después emite una risa hueca y vacía. —<i>No necesita engañarme para que confiese... Ya sabe que traicioné al Antiguo... Si va a matarme, hágalo...</i>
+Event01OtherFail.button1,Continuar
+Event01OtherPass.text,Ella parpadea varias veces. —<i>¿¡De verdad!?</i> —Ella respira. —<i>¿Está usted aquí para detenerlo?</i> —Rápidamente se pone de pie. —<i>Escúcheme con mucha atención. Su amigo ha sido poseído por una fuerza de locura y caos conocida como Azathoth. Antes de que la alineación de los planetas tenga lugar, tiene que matarlo, o Azathoth se afianzará en nuestro mundo y destruirá la realidad tal y como la conocemos.</i>  \n\n Ganas 1 Pista {clue}.
+Event01OtherPass.button1,Continuar
+Event01OtherPass2.text,—<i>Hay una habitación en el salón noroeste del templo.</i> —te explica. —<i>A menudo oía a los sacerdotes hablando de que estaban tratando de destruir algo allí, y ése es el único lugar al que los iniciados nunca se nos permitió ir. Si hay una forma de matar al Ungido, sin liberar a Azathoth, ahí es donde estará.</i>
+Event01OtherPass2.button1,Continuar
+Event01OtherPass3.text,—<i>Tome esto. No ayudará contra el Ungido, pero funcionará con los otros cultistas...</i>  \n\n Ganas el Objeto común Hierro desgastado.
+Event01OtherPass3.button1,Continuar
+EventAnnointedBrandFirst.text,La Sectaria te mira con una mezcla de asombro y horror. —<i>Usted... ¿todavía no se ha convertido?</i> —te dice en voz baja.  \n\n Sin avisar, saca un cuchillo de debajo de su túnica y lo lanza hacia ti. —<i>¡Aléjese de mí! No le quiero cerca de mí cuando Azathoth tome el control...</i>  \n\n Sufres 1 de Daño boca abajo, anulado por {agility}, y ganas 1 Pista {clue}.  \n\n La Sectaria parece ansiosa, quizás si el Ungido persiste, ésta compartirá su conocimiento del culto, aunque sólo sea para deshacerse de él.
+EventSpeakAnnointedBrand.button1,Continuar
+Event01SpeakAnnointedNoBrand2.button1,Continuar
+Event01SpeakAnnointedNoBrand1.button1,Continuar
+Event01Annointed.text,El Ungido tiene evidentes sentimientos encontrados al descubrir que hay una forma de detener el ritual: matarse. Existe la posibilidad de que la Sectaria sepa más de lo que deja entrever. Tal vez ahora que está desarmada, el Ungido pueda razonar con ella.
+Event01AnnointedFail.text,—<i>¡Vaya y ayude a sus amigos!</i> —te exige con rabia. —<i>¡No hay tiempo para esto!</i>
+Event01AnnointedFail.button1,Continuar
+Event01AnnointedFinish.button1,Continuar
+Event01SpeakAnnointedNoBrand1.text,—<i>Mira, entiendo que no quiera morir, pero por favor coopere con sus amigos.</i> —te dice con urgencia. —<i>Créame cuando le digo que la muerte es preferible a lo que le espera... a lo que nos espera a todos... si no le pone fin a esto</i>.  \n\n Realiza una tirada de {influence}.
+Event01All.text,Esta sectaria es diferente al resto. No te ataca cuando te acercas. De hecho, su reacción es la que cabría esperar de una mujer joven que acaba de ver a dos de sus colegas ser brutalmente asesinados. Ella te mira con cautela.
+Event01AnnointedPass2.text,—<i>Hay un santuario en la esquina noreste del templo, donde los Sumos Sacerdotes iban a limpiarse, cuando Azathoth empezó a tomar el control de sus mentes... bastardos hipócritas... Esto no es exactamente lo mismo, pero hay una posibilidad de que funcione para usted también.</i>
+Event01AnnointedPass2.button1,Continuar
+Event01AnnointedPass3.text,—<i>Recuerde lo que dije.</i> —te espeta de forma severa. —<i>Cuando el tiempo se acabe, tiene que dejar que le maten. ¡No puede dejar que Azathoth gane!</i> —Ella parece pensativa por un momento. —<i>Puedo ayudar mejorando las otras barreras del templo... Eso podría hacerle ganar algo de tiempo...</i>  \n\n La Sectaria toma la mano del Ungido, y la golpea con un pedazo de pedernal haciéndola sangrar, dibujando posteriormente un pequeño símbolo en el suelo con la sangre.  \n\n —<i>Buena suerte.</i> —te dice, antes de desvanecerse con un brillo de luz azul.  \n\n Ganas 1 Pista {clue}. Después coloca una Brecha dimensional en el espacio de la Sectaria, y descarta esta ficha de Personaje.
+Event01AnnointedPass3.button1,Continuar
+quest.authors_short,DomeAcolyte42
+EventPlaceDeadExplorer.text,Cerca de la entrada del templo se encuentra el cadáver relativamente fresco de un explorador cuyo estudio del templo fue mucho más breve que el tuyo. Coloca una ficha de Búsqueda en el lugar indicado.
+EventPlaceDeadExplorer.button1,Continuar
+EventPlaceStrangeStatue.text,La mayoría de las estatuas de esta habitación son siniestras, pero ésta te llama la atención por encima del resto, aunque no sabes inmediatamente por qué. Coloca una ficha de Búsqueda, como se indica.
+EventPlaceStrangeStatue.button1,Continuar
+TokenStrangeStatue.text,La estatua representa una persona. Es la única estatua humana en la cámara que no lleva túnica. Pero esa no es la razón por la que te pone tan nervioso. Seguramente, si estudias la estatua, descubrirás el motivo.
+TokenStrangeStatue.button1,Estudiar la estatua {action}
+TokenPitExplore.text,Tu investigación no descubrió nada sobre una segunda entrada al templo, pero puedes sentir una brisa fría que viene de esta puerta.
+EventStudyStatue.text,Mientras estudias la estatua, tu percepción cambia lentamente. Aunque no experimenta ningún cambio en su apariencia, lentamente te das cuenta de que la estatua que estás mirando representa una enorme masa de tentáculos. ¿Por qué pensaste que era una persona? Ganas 1 Pista {clue}, y retira después esta ficha de Búsqueda.
+EventStudyStatue.button1,Continuar
+TokenExplorerCorpse.text,El cadáver está relativamente fresco, es poco probable que haya estado aquí más de unos pocos meses. Dado que sus asesinos no llegaron a mover el cuerpo, es razonable pensar que nunca sacaron los objetos de valor de sus bolsillos.
+TokenExplorerCorpse.button1,Examinar el cadáver {acción}
+TokenPitExplore.button1,{action} Explorar
+EventGetSedatives.text,La mayoría de las posesiones del explorador están dañadas o son inútiles para ti. Sin embargo, encuentras sus suministros médicos. Ganas el Objeto común Vendas. Retira después esta ficha de Búsqueda.
+EventGetSedatives.button1,Continuar
+EventPlacePit.text,La puerta conduce a un incómodo y estrecho pasillo, con vistas a un enorme foso, que desciende por debajo de ti, en un vacío de oscuridad tan aplastante, que apenas puedes imaginar nada igual. Coloca el módulo Foso, una ficha de Puerta y una de Pared en los lugares indicados, y retira todas las fichas de Exploración de esta zona.
+EventPlacePit.button1,Continuar
+EventPlacePitSight.text,El pozo te mira como un enorme y monstruoso ojo. Coloca una ficha de Vistazo donde se indica.
+EventPlacePitSight.button1,Continuar
+TokenLookAtPit.text,Un investigador situado en el Borde del foso, podría mirar hacia el interior del precipicio.
+TokenLookAtPit.button1,Continuar
+EventLookAtPit.text,Después de unos cuantos metros de paredes rocosas, el foso da paso a una imposible y aplastante oscuridad. De alguna manera, sabes que ninguna cantidad de luz podría iluminar este vacío, ya que no es sólo oscuridad, sino un infinito e interminable abismo. Pateas un guijarro hacia el interior del pozo y, como temías, no escuchas que golpee el fondo. Sufres 1 de Horror boca abajo, anulado por {will}, y ganas 1 Pista {clue}. Descarta esta ficha de Vistazo.
+EventLookAtPit.button1,Continuar
+EventPlaceRuinedChamberExplore.text,Esta puerta conduce a una sala detrás de la Cámara del trono. Coloca una ficha de Exploración.
+EventPlaceRuinedChamberExplore.button1,Continuar
+EventPlaceSunlightNotDiscoveredStab.text,Te sientes aliviado al ver la luz del sol de nuevo, irradiando desde el otro lado de esta puerta. Coloca una ficha de Exploración.
+EventPlaceSunlightNotDiscoveredStab.button1,Continuar
+EventPlaceSunlightDiscoveredStab.text,Ésta debe ser la cámara de la que te habló tu aliada cultista. Si hay una forma de matar al Ungido, sin liberar a Azathoth, será aquí. Coloca una ficha de Exploración.
+EventPlaceSunlightDiscoveredStab.button1,Continuar
+EventSunlitDiscoveryTest.button1,Continuar
+EventExploreSunlitStab.button2,Cancelar
+EventExploreSunlitStab.button1,{action} Explorar
+EventPlaceSunlitChamberNoStab.text,La luz del sol brilla a través de varios agujeros en el techo, que se está desmoronando. La esperanza que esto destila en ti, pronto se ve anulada por la visión antinatural que tienes delante. Coloca el módulo Cámara luminosa y retira todas las fichas de Exploración que conducen a esta zona.
+EventPlaceSunlitChamberNoStab.button1,Continuar
+EventPlaceKnifePortalNoStab.text,El aire del otro lado de la cámara brilla y se agita, como el agua. A través de la distorsión, puedes ver una daga de sacrificio. Coloca una ficha de Interacción, como se indica.
+EventPlaceKnifePortalNoStab.button1,Continuar
+SpawnPiestofDagon.button1,Continuar
+SpawnPiestofDagon.text,Te sobresaltas cuando, lo que inicialmente confundiste con una estatua vigilando la entrada de la cámara, se mueve hacia ti.  \n\n —<i>¡Profanadores! ¡Blasfemos! ¡Moriréis por entrar en este sagrado santuario!</i>  \n\n Coloca un Sacerdote de Dagón en el espacio indicado.
+TokenExploreSunlit.button1,{action} Explorar
+EventExploreSunlitStab.text,Tu salvación bien podría estar esperando más allá de esta puerta. De hecho, puedes ver la luz del sol irradiando desde el otro lado.
+EventPlaceSunlitChamberStab.text,La luz del sol brilla a través de los agujeros en el techo, que se está desmoronando. Esperabas que la plaga de Azathoth buscara refugio en una fortaleza impenetrable. Si su salvación está en esta decrépita habitación, probablemente la estancia esté protegida por medios más siniestros y antinaturales. Coloca el módulo Cámara luminosa y retira todas las fichas de Exploración que lleven a esta zona.
+EventPlaceSunlitChamberStab.button1,Continuar
+EventSunlitChamberStab2.text,Por supuesto, el otro lado de la habitación está ocupado por una extraña anomalía. El aire brilla y se agita como el agua, a través del cual puedes vislumbrar una daga sacrificial. Coloca una ficha de Interacción en el lugar indicado.
+EventSunlitChamberStab2.button1,Continuar
+TokenKnifePortal.text,Una daga flota en el aire delante de ti. Sientes como si al centrar tu mente en el arma, pudieras ser capaz de acceder a ella.
+TokenKnifePortal.button1,Examinar (El Ungido) {action}
+EventAttemptKnifePortalPuzzle.button1,Continuar
+EventGetDagger.button1,Continuar
+EventGetDagger.text,Cierras los ojos y extiendes tu mano y tu mente. Lentamente, tus dedos se cierran alrededor de un elaborado mango de madera tallada. Consigues la Daga ritual. Después, descarta esta ficha de Interacción.  \n\n Coloca una ficha de Llave sobre la daga. Además de ser imposible de descartar, la daga no puede ser intercambiada, recogida o robada por el Ungido.  \n\n La distorsión en la que el cuchillo estaba escondido permanece en su lugar. Coloca una ficha de Brecha dimensional.
+PuzzleKnifePortalPuzzle.button1,Resolver
+EventAttemptKnifePortalPuzzle.text,Intentas dar sentido a la caótica distorsión que tienes ante ti. Haz clic para intentar el rompecabezas, usando tu {observation}.
+EventDaggerFlavourText.text,Esta daga fue forjada hace eones, por una raza antigua que previó estos tiempos difíciles. Es la única arma que puede matar al Ungido, sin liberar a Azathoth. Fue preservada entre los muros de la realidad, para no estar nunca lejos del Templo de Azathoth, a pesar de los intentos del culto por esconderla o destruirla.
+EventDaggerFlavourText.button1,Continuar
+EventDaggerInstructions.text,Esta información inunda tu cerebro mientras sostienes el cuchillo, junto con las instrucciones de cómo completar el contrarritual.
+EventDaggerInstructions.button1,Continuar
+EventDaggerInstructionsNotPossessed.text,El Ungido debe volver al trono y un Acólito (el Investigador que empuñe la daga) debe matarlo con el arma ceremonial. Ambos Investigadores deben comenzar su turno en este espacio y renunciar a sus acciones. El sacrificio sólo se puede intentar una vez por turno.  \n\n Si el Ungido es asesinado de esta manera, éste perderá el juego, pero todos los demás Investigadores ganarán.
+EventDaggerInstructionsNotPossessed.button1,Continuar
+EventPlaceStabNonPossessed.text,Revisa esta información, seleccionando esta ficha.
+EventPlaceStabNonPossessed.button1,Continuar
+TokenStabNonPossessed.text,El Ungido debe volver al trono y un Acólito (el Investigador que empuña la daga) debe matarlo haciendo uso de la daga ceremonial. Ambos Investigadores deben comenzar su turno en este espacio y renunciar a sus acciones.
+TokenStabNonPossessed.button1,Sacrificar al Ungido {action} {action}
+TokenKnifePortal.button2,Examinar (Otro Investigador) {action}
+EventAttemptKnifePortalAnnointed.text,Mientras el Ungido se acerca nerviosamente al cuchillo rodeado de luz, ésta explota hacia afuera violentamente, arrojando al Ungido de espaldas, y chamuscando su piel, como un ácido hirviente.  \n\n Mueve al Ungido a dos espacios de esta ficha de Interacción. Éste sufre 2 de Daño, anulados por {lore}.
+EventAttemptKnifePortalAnnointed.button1,Continuar
+TokenAzathothPossession.text,Si, en algún momento, el Ungido se volviera loco o fuera eliminado por daños físicos, en lugar de ello sería consumido por la fuerza oscura que hay en su interior. Si eso ocurre, haz clic aquí.
+TokenAzathothPossession.button1,El Ungido ha sido eliminado o está loco
+Event00BeginningGameFlavourText.button1,Continuar
+EventAzathothPossession.button1,Continuar
+EventAzathothPossession2.text,El Ungido está ahora poseído por Azathoth, el Dios Exterior. Ya no puede recibir más Daño u Horror, interactuar con los monstruos o verse afectado por los eventos de la Fase de Mitos. Su objetivo es ahora asegurarse de sobrevivir, hasta el final de la alineación.
+EventAzathothPossession2.button1,Continuar
+EventDaggerInstructionsPossessed.text,Sabes que tienes que destruir el cuerpo del Ungido, en el trono, pero Azathoth se ha apoderado de él, y dudas que coopere. Justo antes de que cedas a la desesperación, una brillante y espectral figura del Ungido aparece en el trono. Ésta mira a su alrededor, con pánico, pronunciando en silencio vuestros nombres, como si suplicara ayuda.  \n\n Algún rastro del Ungido sobrevivió. ¿Tal vez Azathoth todavía lo necesita como salvavidas? Tal vez si destierras el espíritu con la daga, antes de la alineación, la conexión de Azathoth con este reino se cortará.  \n\n Coloca una ficha de Personaje, como se indica.
+EventDaggerInstructionsPossessed.button1,Continuar
+EventPlaceAzathothEndgameToken.text,La conexión del Ungido con su verdadero cuerpo es más fuerte en el trono. Si concentra su poder aquí, puede mover los cielos, acelerando la alineación. Coloca una ficha de Interacción.
+EventPlaceAzathothEndgameToken.button1,Continuar
+TokenAzathothEndgame.button1,Mover los cielos (El Ungido) {action}
+TokenAzathothEndgame.text,Cuando se sienta en el trono, el Ungido puede sentir su verdadero poder precipitándose más rápido dentro de él.
+EventMoveGhostInstruction.text,El Ungido siente su energía fluyendo desde Azathoth, a través del antiguo espíritu que ocupa su cuerpo. Es una vulnerabilidad que debe ser protegida. Mientras esté sentado en el trono, el Ungido puede intentar doblar el espacio alrededor del espíritu, moviéndolo a una cámara diferente, interactuando con la ficha de Personaje.
+EventMoveGhostInstruction.button1,Continuar
+TokenAnnointedGhostStorage.button1,Button1
+EventGhostInteraction.text,El espíritu del Ungido parece atrapado entre los muros de la realidad. No muestra ningún signo de ser capaz de verte u oírte. Grita en silencio vuestros nombres, mientras mira a su alrededor, desesperadamente.  \n\n Ahora que la conexión de Azathoth es más vulnerable, un Acólito no necesita dedicar un turno entero al ritual. Puede apuñalar al fantasma con una sola acción.
+EventGhostInteraction.button1,Mover al Espíritu (El Ungido) {action}
+EventGhostInteraction.button2,Apuñalar al Espíritu (Otro Investigador) {action}
+EventSpawnAnnointedGhost.text,El Ungido ya no consentirá ser sacrificado en el trono, pero en su lugar se manifiesta la figura espectral de tu antiguo amigo. ¿Tal vez podrían ser sacrificados de la misma manera?  \n\n Coloca una ficha de Personaje, como se indica.
+EventSpawnAnnointedGhost.button1,Continuar
+EventRemoveNonPossessedStab.text,Descarta la ficha que se usó para sacrificar al Ungido, mientras aún esté dispuesto.
+EventRemoveNonPossessedStab.button1,Continuar
+TokenAnnointedGhostThrone.button1,Button1
+TokenAnnointedGhostStatue.button1,Button1
+EventMoveGhostHorizontal.text,El Ungido concentra todo su poder en arrancar el espacio en el que reside el espíritu maldito. Haz una tirada de {lore}.
+EventMoveGhostHorizontal.button1,Continuar
+EventMoveGhostVerticle.text,El Ungido concentra todo su poder en arrancar el espacio en el que reside el espíritu maldito. Haz una tirada de {lore}.
+EventMoveGhostVerticle.button1,Continuar
+EventMoveGhostHorizontalPass.text,A voluntad del Ungido, la realidad se desgarra y se vuelve a juntar. Selecciona una nueva ubicación para el fantasma.
+EventMoveGhostHorizontalPass.button1,Cámara de almacenaje
+EventMoveGhostFail.text,La conexión con Azathoth sigue siendo limitada, y en esta ocasión, el espacio no cede.
+EventMoveGhostFail.button1,Continuar
+EventMoveGhostHorizontalPass.button2,Cámara funeraria
+EventPlaceGhostinStorage.text,Mueve la ficha del Fantasma aquí.
+EventPlaceGhostinStorage.button1,Continuar
+EventPlaceGhostinBurial.text,Mueve la ficha del Fantasma aquí.
+EventPlaceGhostinBurial.button1,Continuar
+TokenAnnointedGhostBurial.button1,Button1
+EventMoveGhostVeticle.text,A voluntad del Ungido, la realidad se desgarra y se vuelve a juntar. Selecciona una nueva ubicación para el Fantasma.
+EventMoveGhostVeticle.button1,Cámara del trono
+EventMoveGhostVeticle.button2,Cámara de las estatuas
+EventPlaceGhostInThrone.text,Mueve la ficha del Fantasma aquí.
+EventPlaceGhostInThrone.button1,Continuar
+EventPlaceGhostInStatue.text,Mueve la ficha del Fantasma aquí.
+EventPlaceGhostInStatue.button1,Continuar
+EventPlaceRuinedChamberLockedBox.button1,Continuar
+TokenRuinedChamberExplore.button1,Explorar {action}
+EventPlaceRuinedChamber.text,Entras en una cámara pequeña sin nada remarcable. El propósito de este espacio no te queda claro de forma inmediata. Coloca el módulo Cámara en ruinas, como se indica, y retira todas las fichas de Exploración que llevan al área explorada.
+EventPlaceRuinedChamber.button1,Continuar
+EventPlaceRuinedChamberSearch.text,El suelo de esta cámara está muy dañado. Coloca una ficha de Búsqueda donde se indica.
+EventPlaceRuinedChamberSearch.button1,Continuar
+TokenRuinedChamberSearch.text,Es difícil saber qué fue lo que causó este daño.
+TokenRuinedChamberSearch.button1,Investigar {action}
+EventRuinedChamberSearch.text,"El daño se asemeja a un cráter causado por un fuerte impacto, pero no tuvo lugar recientemente. El musgo crece libremente, sobre la piedra agrietada. Aún más extraño es que la piedra de este suelo parece diferente de la piedra de la que está hecho el resto del templo, y no hay signos de que el techo haya sido dañado. Es casi como si el templo se hubiera construido alrededor de lo que fuera que impactó aquí.  \n\n Ganas 2 Pistas, después retira esta ficha de Búsqueda.
+"
+EventRuinedChamberSearch.button1,Continuar
+EventPlaceCrackedChamber.text,Entras en una caverna enorme, más destruida y decrépita que ninguna otra que hayas visto hasta ahora. Las estatuas y pilares han sido reducidos a escombros, y una grieta abierta cruza la mitad de la habitación, como una serpiente hambrienta. Coloca el módulo Cámara derruida y retira todas las fichas de Exploración que conducen a la zona explorada.
+EventPlaceCrackedChamber.button1,Continuar
+EventPlaceDiskSearchToken.text,Algo brilla entre los escombros. Coloca una ficha de Búsqueda.
+EventPlaceDiskSearchToken.button1,Continuar
+EventPlaceJumpToken.text,La grieta es amplia, y aparentemente sin fondo, pero si tienes prisa podrías arriesgarte a saltar a través de ella, sin gastar una acción {action}. Coloca una ficha de Interacción, como se indica.
+EventPlaceJumpToken.button1,Continuar
+EventPlaceAltarChamberAware.text,Ésta debe ser la habitación de la que te habló la Sectaria, en la que el Ungido podría ser purificado.
+EventPlaceAltarChamberAware.button1,Continuar
+EventPlaceAltarChamberUnaware.text,Basándote en tu estudio del templo, debes de estar acercándote a la parte de atrás. Coloca una ficha de Exploración en el lugar indicado.
+EventPlaceAltarChamberUnaware.button1,Continuar
+EventJumpUnaware.text,Un investigador situado en uno de los dos espacios adyacentes a esta ficha, puede intentar moverse al otro espacio como parte de su acción de movimiento.
+TokenJumpToken.button1,Saltar a través de la grieta.
+EventJump.text,Temeroso y con el pulso acelerado, corres hacia la grieta y saltas. Haz una tirada de {agility}.
+EventJump.button1,Continuar
+EventJump0.text,Después de poner el pie en el borde, listo para saltar, la roca bajo tus pies se desmorona y caes indefenso al fondo del barranco. Sufres 2 de Daño y adquieres el estado Perdido en el tiempo y el espacio.
+EventJump0.button1,Continuar
+EventJump1.text,Mientras caes por el aire te das cuenta, con consternación, de que el barranco es aún más ancho de lo que pensabas. Tu estómago choca dolorosamente con el borde del otro lado del acantilado y te quedas sin aliento, logrando aferrarte al filo del otro lado. Sufres 2 de Daño y terminas tu turno en el nuevo espacio.
+EventJump1.button1,Continuar
+EventJump2.text,Saltas a través del barranco, sintiéndote confiado, pero pierdes el equilibrio al llegar al otro lado, cayendo dolorosamente de rodillas. Sufres 1 de Daño boca abajo.
+EventJump2.button1,Continuar
+EventJump3Plus.text,Saltas con gracia a través de la brecha, y aterrizas ágilmente en el otro lado.
+EventJump3Plus.button1,Continuar
+TokenDisk.text,En la cámara, iluminada escasamente por una antorcha, algo llama tu atención entre los restos que se encuentran en ella.
+TokenDisk.button1,Buscar {acción}
+EventPoolSecretExit.text,—<i>Aquí, será más rápido salir por aquí.</i> —La Sectaria tira de un saliente en la pared, oculto por musgo y enredaderas, y una sección de la pared se desliza.  \n\n Coloca una ficha de Pasadizo secreto en el lugar indicado. 
+EventPoolSecretExit.button1,Continuar
+TokenExploreAltar.button1,Continuar
+EventExploreAltarUnaware.text,Esta modesta puerta lleva a la parte de atrás del templo.
+EventExploreAltarAware.button2,Cancelar
+EventExploreAltarAware.button1,Explorar {action}
+EventPlaceAltar.button1,Continuar
+EventDiscoverRitualAware.text,Éste debe ser el altar en el que el Ungido puede purgar a Azathoth de su mente. Coloca una ficha de Interacción.
+EventDiscoverRitualAware.button1,Continuar
+EventDiscoverPaintingsUnaware.text,No puedes evitar la sensación de que la historia que cuentan las pinturas es de vital importancia para tu dilema actual. Coloca una ficha de Búsqueda.
+EventDiscoverPaintingsUnaware.button1,Continuar
+Event01UnderstandCleansingRitual.text,Esto debe ser lo que describieron las pinturas de la pared. Retira esta ficha de Búsqueda y coloca una ficha de Interacción, como se indica.
+Event01UnderstandCleansingRitual.button1,Continuar
+EventPlaceAltar.text,Entras en una cámara pequeña y mal iluminada, en la que se encuentra un altar elevado. Las pinturas en las paredes parecen mostrar los rituales a través de los cuales las criaturas de Eldritch entran y salen de la mente de la gente. Coloca el módulo Cámara dormitorio, y retira todas las fichas de Exploración que conducen al área explorada.
+TokenAltarPaintings.text,El arte de las paredes consta de símbolos jeroglíficos. Representa humanos, monstruos celestiales, e informa al lector de cómo interactuar con el altar.
+TokenAltarPaintings.button1,Investigar {action}
+EventInvestigateAltar.button1,Continuar
+TokenCleansingRitual.button1,Button1
+EventAlterPass1Text.button1,Continuar
+EventAlterPass.button1,Continuar
+EventInvestigateAlter2Points.text,Comparas los antiguos símbolos con las notas hechas durante la investigación precedente. Realiza una tirada de {lore}.
+EventInvestigateAlter2Points.button1,Continuar
+EventAlterFail.text,Luchas por comprender los simples diagramas, como si, por algún medio siniestro, el texto se resistiera a ser entendido.
+EventAlterFail.button1,Continuar
+EventAlterFinish.text,Apenas puedes creer lo que te dicen los glifos, ¡hay una forma de salvar al Ungido! No será fácil, y será extremadamente peligroso. ¿Vale la pena arriesgarse para salvar a tu amigo? Descarta esta ficha de Búsqueda y coloca una ficha de Interacción, como se indica.
+EventAlterFinish.button1,Continuar
+EventInvestigateAlter1Point.text,Comparas los antiguos símbolos con las notas hechas durante la investigación precedente. Realiza una tirada de {lore}.
+EventInvestigateAlter1Point.button1,Continuar
+EventInvestigateAlter3Points.text,Comparas los antiguos símbolos con las notas hechas durante la investigación precedente. Realiza una tirada de {lore}.
+EventInvestigateAlter3Points.button1,Continuar
+EventInvestigateAlter4Points.button1,Continuar
+EventAlterPass2Text.text,Cuando una persona reza en el altar, parece que su mente permanece conectada a alguna vasta fuerza universal, aunque no a este <i>Azathoth</i> del que tanto has oído hablar. Debes seguir estudiando más.
+EventAlterPass1Text.text,Aprendes que el altar está construido sobre un punto débil en el espacio y el tiempo. Todavía necesitas estudiar más.
+EventAlterPass2Text.button1,Continuar
+EventAlterPass3Text.text,Los glifos te muestran que los sacerdotes del templo venían aquí para abrir sus mentes al universo más allá de Azathoth, y que eso de alguna manera obstaculizaba su control sobre ellos. Necesitas seguir estudiando más en detalle.
+EventAlterPass3Text.button1,Continuar
+EventAlterPass4Text.text,Empiezas a entender lo que la ceremonia lograría. Por una fracción de segundo, la mente del sujeto se convertiría en parte del universo, a escala cósmica, y el propio Azathoth apenas podría comprender aquello que intenta controlar. Casi has comprendido lo que tienes que hacer, sólo necesita unas pocas notas más sobre cómo realizar la ceremonia, sin matar al sujeto.
+EventAlterPass4Text.button1,Continuar
+EventInvestigateAltar.text,Comparas los antiguos símbolos con las notas hechas durante la investigación precedente. Realiza una tirada de {lore}.
+EventCleansingInstructionsAware.text,Los jeroglíficos de esta cámara explican la naturaleza de la ceremonia, y la razón de la reticencia de tu aliada cultista a enviarte aquí es clara. Limpiar al Ungido será un proceso difícil y delicado. Intentar abandonar la ceremonia en mitad del proceso tendrá un efecto devastador en la mente del Ungido, y aunque sobreviva, no tendrás una segunda oportunidad.
+EventCleansingInstructionsAware.button1,Empezar la Ceremonia (Ungido) {action}
+EventCleansingInstructionsUnaware.text,Los jeroglíficos te enseñaron cómo realizar el ritual, pero también te mostraron sus riesgos. Limpiar al Ungido será un proceso difícil y delicado. Intentar abandonar la ceremonia durante el proceso, tendrá un efecto devastador en la mente del Ungido, y aunque sobreviva, no tendrás una segunda oportunidad.
+EventCleansingInstructionsUnaware.button1,Empezar la Ceremonia (Ungido) {action}
+Event003BeginCleansingCeremony.button1,Continuar
+Event003BeginCleansingCeremony2.text,En la mente del Ungido, éste ve el universo extenderse ante él. Si, por un segundo, puede encontrar el sentido a la locura y al caos del cosmos, entonces Azathoth debería perder su control sobre él. El Ungido puede intentar hacerlo a través de esta ficha de Interacción.
+Event003BeginCleansingCeremony2.button1,Continuar
+Event003BeginCleansingCeremony3.text,Una vez que la ceremonia se complete, la poderosa fuerza del universo atravesará el cuerpo del Ungido, matándolo al instante, dejándolo indefenso para resistir el control de Azathoth. Por suerte, sabes lo suficiente sobre la magia de Eldritch para poder ayudar.  \n\n Puedes dibujar runas de manipulación de energía en los tres puntos focales del poder del templo. Cada una reducirá significativamente el trauma que sufra el Ungido cuando la ceremonia se complete, hasta la nada en última estancia.
+Event003BeginCleansingCeremony.text,La ceremonia ha comenzado... El Ungido puede intentar abandonar el espacio, interrumpiendo la ceremonia, si está preparado para aceptar las consecuencias...
+Event003BeginCleansingCeremony3.button1,Continuar
+Event003EnergyRune1.text,Coloca una ficha de Interacción en cada uno de los puntos focales del Templo, uno aquí...
+Event003EnergyRune1.button1,Continuar
+Event003EnergyRune2.text,...otro aquí...
+Event003EnergyRune2.button1,Continuar
+Event003EnergyRune3.text,...y el último aquí.
+Event003EnergyRune3.button1,Continuar
+Event003CeremonyPerform.text,El Ungido puede intentar dar sentido a la locura y el caos de su mente, o puede abandonar la ceremonia y, con ello, cualquier esperanza de escapar del templo con vida.
+Event003CeremonyPerform.button1,Realizar la Ceremonia {action}
+EventCleansingInstructionsAware.button2,Cancelar
+EventCleansingInstructionsUnaware.button2,Cancelar
+Event003CeremonyPerform.button2,{action} Abandonar la ceremonia
+Event003CeremonyPerform.button3,Cancelar
+Event003AbandonCeremony.text,El Ungido aparta su mente de la fuerza a la que está conectada, gritando de angustia mientras lo hace, con cada fibra de su cerebro en una ardiente agonía. La sangre sale de su nariz y sus oídos, confundiendo su propia vida con las maravillas del universo que acaba de descubrir. El Ungido sufre 5 de Horror, anulados por {will}.
+Event003AbandonCeremony.button1,Continuar
+Event003AbandonCeremony2.text,Intentar la ceremonia de nuevo mataría al Ungido al instante. Descarta las fichas de la ceremonia y de los puntos focales.
+Event003AbandonCeremony2.button1,Continuar
+Event003CeremonyPerform2.text,La caótica naturaleza del universo es insoportable de contemplar, pero es la única manera de que el Ungido preserve su mente. Intenta completar el rompecabezas usando tu {will}.
+Event003CeremonyPerform2.button1,Continuar
+PuzzleCeremony.button1,Hecho
+EventFindDisk.text,Entre los escombros, encuentras algo útil. Ganas el Objeto {c:QItemEquipment}. Después, elimina esta ficha de Búsqueda.
+EventFindDisk.button1,Continuar
+Event999AnnointedOneStabbed.text,El cuchillo se hunde en la carne del Ungido. Sus ojos se vuelven negros y un humo pútrido brota de la herida. El humo lo consume mientras se expande hacia afuera, llenando la cámara. Aunque crees que el siniestro vapor destruirá el templo, llevándote con él, finalmente se desvanece, sin dejar rastro del Ungido.  \n\n La alineación ha terminado. Azathoth no se manifestó en este mundo. La investigación se ha completado.
+Event999AnnointedOneStabbed.button1,Continuar
+TokenFocal1.text,Éste es uno de los puntos focales de la energía del templo. Una runa aquí desviará algo de esa energía, antes de que mate al Ungido.
+TokenFocal1.button1,Dibujar una runa {action}
+TokenFocal2.text,Éste es uno de los puntos focales de la energía del templo. Una runa aquí desviará algo de esa energía, antes de que mate al Ungido.
+TokenFocal2.button1,Dibujar una runa {action}
+TokenFocal3.text,Éste es uno de los puntos focales de la energía del templo. Una runa aquí desviará algo de esa energía, antes de que mate al Ungido.
+TokenFocal3.button1,Dibujar una runa {action}
+EventFocal1DrawRune.text,Agarras una roca dentada y empiezas a tallar el símbolo en el suelo de piedra. Haz una tirada de {lore}.
+EventFocal1DrawRune.button1,Continuar
+EventFocal1Fail.button1,Continuar
+EventFocal1Fail.text,Dudas de tu trabajo, por lo que revisas tus notas detenidamente. Debes haber cometido un error en alguna parte.
+EventFocal1Pass.button1,Button1
+EventRune1Complete.button1,Continuar
+EventRuneCompleteFirst.text,Con esta primera runa completada, hay una posibilidad de que una persona más fuerte que la media pueda sobrevivir a la ceremonia.
+EventRuneCompleteFirst.button1,Continuar
+EventRune1Incomplete.text,Grabas líneas en la piedra, confiado en tu trabajo, aunque no esté hecho todavía.
+EventRune1Incomplete.button1,Continuar
+EventRune1Complete.text,La runa brilla intensamente y sientes la energía que irradia. Retira esta ficha de Interacción.
+EventJumpUnaware.button1,Saltar a través de la grieta
+EventJumpAware.text,Ahora sabes que esto no es un mero daño físico al templo, sino una brecha en el Espacio y el Tiempo. Si lo decides, puedes utilizar una {action} para saltar deliberadamente en ella, intentando sufrir menos trauma que la última vez.
+EventJumpAware.button1,Saltar dentro de la grieta {action}
+EventJumpAware.button2,Saltar a través de la grieta
+EventJumpIntoFissure.text,Con el corazón en la garganta, saltas al vacío, con los pies por delante. Sufres 1 de Daño boca abajo, anulado por {agility}, y obtienes el estado Perdido en el tiempo y el espacio.
+EventJumpIntoFissure.button1,Continuar
+EventAwareofFissureVoid.text,Sabiendo que este portal existe, un Investigador puede elegir más adelante saltar a la brecha deliberadamente, evitando los acantilados rocosos mientras cae.
+EventAwareofFissureVoid.button1,Continuar
+EventJumpUnaware.button2,Cancelar
+EventJumpAware.button3,Cancelar
+EventFocal2DrawRune.button1,Continuar
+EventFocal2DrawRune.text,Agarras una roca dentada y empiezas a tallar el símbolo en el suelo de piedra. Haz una tirada de {lore}.
+EventRune2Fail.text,Dudas de tu trabajo, por lo que revisas tus notas detenidamente. Debes haber cometido un error en alguna parte.
+EventRune2Fail.button1,Continuar
+EventRune2Pass.button1,Button1
+EventRune2Complete.text,La runa brilla intensamente y sientes la energía que irradia. Retira esta ficha de Interacción.
+EventRune2Complete.button1,Continuar
+EventRune2Incomplete.text,Grabas líneas en la piedra, confiado en tu trabajo, aunque no esté hecho todavía.
+EventRune2Incomplete.button1,Continuar
+EventRuneCompleteSecond.text,Ahora que se han completado dos runas, es muy probable que el Ungido sobreviva, si no está ya muy malherido.
+EventRuneCompleteSecond.button1,Continuar
+EventFocal3DrawRune.text,Agarras una roca dentada y empiezas a tallar el símbolo en el suelo de piedra. Haz una tirada de {lore}.
+EventFocal3DrawRune.button1,Continuar
+EventRune3Fail.text,Dudas de tu trabajo, por lo que revisas tus notas detenidamente. Debes haber cometido un error en alguna parte.
+EventRune3Fail.button1,Continuar
+EventRune3Pass.button1,Button1
+EventRune3Incomplete.text,Grabas líneas en la piedra, confiado en tu trabajo, aunque no esté hecho todavía.
+EventRune3Incomplete.button1,Continuar
+EventRune3Complete.text,La runa brilla intensamente y sientes la energía que irradia. Retira esta ficha de Interacción.
+EventRune3Complete.button1,Continuar
+EventRuneCompleteThird.text,Las runas están terminadas. Asumiendo que lo hiciste correctamente, el Ungido no debería sufrir ningún daño al finalizar la ceremonia.
+EventRuneCompleteThird.button1,Continuar
+EventCeremonyCompleteNoRunes.text,Decidiste arriesgarte, completando la ceremonia antes de que las runas de energía fueran dibujadas. Al terminar, un arco de energía blanca y pura llena la habitación, matándote al instante. Ahora, sin oponer resistencia, Azathoth despierta, reanimando tu cadáver mutilado.  \n\n Retira las fichas de la ceremonia y los puntos focales.
+EventCeremonyCompleteNoRunes.button1,Continuar
+EventCeremonyComplete1Rune.text,Completas el ritual, esperando que una runa sea suficiente. Sin previo aviso, la cámara se llena de látigos de luz blanca. Sufres 8 de Daño boca abajo. A diferencia del Daño normal, el resto del Daño se transmitirá después de que el Ungido sea herido.  No acabo de pillarlo. Después de llegar a estar Herido?
+EventCeremonyComplete1Rune.button1,El Ungido ha sido eliminado
+EventCeremonyComplete1Rune.button2,El Ungido ha sobrevivido
+EventCeremonyAnnointedOneEliminated.button1,Continuar
+EventCeremonyAnnointedOneEliminated.text,Al no poder resistirse el Ungido, Azathoth toma el control total de sus restos quemados.
+EventCeremonyComplete2Runes.text,Esperas que con dos de las tres runas sea suficiente y, al terminar la ceremonia, te preparas. La cámara se llena de arcos de energía blanca. Sufres 6 de Daño. A diferencia del Daño normal, el resto del Daño se transmitirá después de que el Ungido sea herido.
+EventCeremonyComplete2Runes.button1,El Ungido ha sido eliminado
+EventCeremonyComplete2Runes.button2,El Ungido ha sobrevivido
+EventCeremonyComplete3Runes.text,Aunque las runas estén en su lugar, te preparas para terminar la ceremonia. Arcos de pura energía blanca llenan la cámara, pero, gracias a tus aliados, danzan inofensivamente a tu alrededor.
+EventCeremonyComplete3Runes.button1,Continuar
+Event999InvestigationCompleteCeremony.text,El Ungido finalmente se ha liberado del control de Azathoth, y su mente está tranquila por primera vez en meses. El resto de los sectarios ceden a la desesperación, al darse cuenta de que sus esfuerzos han sido en vano, y cesan sus ataques.  \n\n La investigación se ha completado.
+Event999InvestigationCompleteCeremony.button1,Continuar
+Event004StabSpirit.text,Con el Ungido moviendo el espíritu evasivamente, se necesitará cierta precisión para golpear directamente en el pecho, como exige el ritual. Realiza una tirada de {agility}.
+Event004StabSpirit.button1,Continuar
+EventSacrificeAnnointedOne.text,El cuchillo te susurra instrucciones, mientras te preparas para atacar, pero depende de ti ejecutarlas. El Acólito debe hacer una tirada de {observation}.
+EventSacrificeAnnointedOne.button1,Continuar
+EventSacrificeFail.text,Para tu consternación, el Ungido grita de dolor, mientras la sangre brota de la herida causada por la puñalada. Debes haber realizado el ritual incorrectamente. El Ungido sufre 1 de Daño.
+EventSacrificeFail.button1,Continuar
+Event004StabSpiritFail.text,A pesar de los consejos que te susurraba la daga, atraviesas a la aparición sin efecto.
+Event004StabSpiritFail.button1,Continuar
+Event004StabSpiritPass.text,El cuchillo golpea directamente en el centro del pecho del fantasma y, con una mirada de alarma traicionada, se desvanece con un destello de luz blanca. Momentos después, el Ungido grita y un enjambre de humo negro sale de su boca y sus ojos, subiendo al techo del templo, donde se disipa. El Ungido cae al suelo, su cuerpo es una cáscara marchita.  \n\n La investigación se ha completado.
+Event004StabSpiritPass.button1,Continuar
+CustomMonsterPriestofDagon.info,-
+CustomMonsterPriestofDagon.monstername,Sacerdote de Dagón
+CustomMonsterPriestofDagon.Attack_bladed_1,-
+EventKillPriestNoKnife.text,Debe haber una razón por la que el sacerdote guardaba esta habitación con tanta devoción. Un registro de sus posesiones revela un curioso artefacto. Ganas 1 Pista {clue}, y el Objeto único Bolsa del vacío.
+EventKillPriestNoKnife.button1,Continuar
+EventKillPriestKnife.button1,Continuar
+SpawnStatueCultist1.text,Hay muchas estatuas de personas vestidas con túnicas, por lo que no eres consciente de que una persona real con túnica te acecha, hasta que es casi demasiado tarde.  \n\n —<i>¡LA CEREMONIA NO ESTÁ COMPLETA!</i> —grita.  \n\n Coloca un Sectario en el espacio indicado.
+EventKillPriestKnife.text,La devoción del sacerdote por vigilar la Cámara luminosa sólo consolida tu confianza en el poder del cuchillo. Una búsqueda entre sus posesiones revela un curioso artefacto. Ganas 1 Pista {clue}, y el Objeto único Bolsa del vacío.
+SpawnStatueCultist2.text,Otro Sectario se aproxima desde la otra dirección.  \n\n —<i>¡NO TE IRÁS!</i>  \n\n Coloca un Sectario en el espacio indicado.
+CustomMonsterTempleGuardian.info,-
+SpawnTempleGuardian.text,Te sobresaltas cuando, lo que inicialmente confundiste con una elaborada estatua, se desenreda lentamente y se desliza por el suelo, hacia ti. Coloca un Guardián del templo, como se indica.
+CustomMonsterTempleGuardian.monstername,Guardián del templo
+SpawnTempleGuardian.button1,Continuar
+Event0001Mythos.text,El Ungido oye su propio nombre, susurrado a sus espaldas, pero cuando se da la vuelta, no hay nadie tras él... No hay un efecto inmediato.
+Event0002Mythos.button1,Continuar
+Event0002Mythos.text,{rnd:hero} mira alrededor de las siniestras pinturas de las paredes y cada una parece predecir una forma cruel y violenta en que la investigación podría terminar. Este Investigador sufre 1 de Horror, anulado por {observation}.
+Event0004Mythos.button1,Continuar
+Event0004MythosB.text,No puedes evitar sentir sospechas del Ungido. ¿Cómo puede alguien ver borrado de una forma tan clara un período tan traumático de su memoria? ¿Y si está mintiendo? ¿Y si, en definitiva, no es el amigo que viniste a rescatar? Sufres 1 de Horror boca abajo, anulado por {will}.
+Event0004MythosB.button1,Continuar
+SpawnStarSpawn.text,Con el cuchillo en tu mano, Azathoth es vulnerable, y como resultado, el universo tiembla. Todos los parientes de Azathoth se han dado cuenta de tu intromisión, y desde las profundidades del foso asciende su tatara-tatara-tatara-tataranieto. Coloca una Semilla estelar en el espacio indicado.
+Event0000MythosStarSpawn.button1,Continuar
+CustomMonsterStarSpawn.info,-
+CustomMonsterStarSpawn.monstername,Semilla estelar
+SpawnStarSpawn.button1,Continuar
+CustomMonsterWeakCultist.info,-
+CustomMonsterWeakCultist.monstername,Sectario
+Event0003Mythos.button1,Continuar
+Event0003Mythos.text,En lo alto, la alineación está cerca. El Ungido se siente incómodo. Hay algo arañando la parte posterior de su mente, tomando toda su energía para evitar ser expulsado a la superficie. El Ungido sufre 2 de Horror boca abajo, anulados por {will}.
+Event0001Mythos.button1,Continuar
+Event0003MythosB.button1,Continuar
+Event0004Mythos.text,Este Evento de los Mitos afecta al Investigador, que no sea el Ungido, con la puntuación más baja de {observation}.
+Event0003MythosB.text,Si el Ungido se volviera loco o fuera eliminado por daños físicos, en su lugar, selecciona esta ficha.
+EventMoveIntoRuinedChamber.button1,Continuar
+EventPlaceRuinedChamberLockedBox.text,Cerca de la puerta hay una pequeña caja, con un mecanismo de cierre sorprendentemente sofisticado. Coloca una ficha de Búsqueda en el lugar indicado.
+TokenRuinedChamberLockedBox.text,La caja tiene una serie de paneles deslizantes en uno de los laterales.
+TokenRuinedChamberLockedBox.button1,Investigar {action}
+EventAttemptLockBox.text,Tratas de averiguar la combinación de la cerradura. Puedes intentar realizar el rompecabezas usando tu {observation}.
+EventAttemptLockBox.button1,Continuar
+EventLockboxComplete.text,Con un clic, la tapa de piedra de la caja se desliza, revelando uno de los artefactos del culto. Obtienes el Objeto {c:QItemLockbox}. Retira esta ficha de Búsqueda.
+PuzzleLockBox.button1,Desbloquear
+EventLockboxComplete.button1,Continuar
+Event0005Mythos.button1,Continuar
+Event0005Mythos.text,Sin previo aviso, las antorchas alrededor del Ungido se apagan, y el aire se llena de sonidos que parecen latigazos. Poco después, las antorchas se encienden de nuevo, y los muros de piedra de la habitación aparecen cubiertas de innumerables espinas metálicas. Cada Investigador que se encuentre en la misma habitación que el Ungido sufre 2 de Daño boca abajo, anulados por {agility}.
+Event0006Mythos.text,El Investigador, aparte del Ungido, que haya sufrido más Daño, siente que está al límite. Algo está definitivamente mal con el Ungido, y le preocupa que pueda sufrir el mismo destino, o peor. Este Investigador sufre 2 de Horror, anulados por {will}.
+Event0006Mythos.button1,Continuar
+EventCultistAllyLeaves.text,La llegada de Azathoth saca a la Sectaria de su estado melancólico. Más por un miedo instintivo que por lógica, ella huye. Retira esta ficha de Personaje.
+EventCultistAllyLeaves.button1,Continuar
+CustomMonsterChildOfDagon.info,-
+SpawnChildofDagon.text,Desde las sombras, una macabra abominación salta sobre el Ungido.  \n\n —<i>¡VUELVE AL TRONO!</i> —ordena con una voz monstruosa.  \n\n .Aparece un Hijo de Dagón en un espacio accesible adyacente al espacio ocupado por el Ungido.
+CustomMonsterChildOfDagon.monstername,Hijo de Dagón
+Event0007Mythos.button1,Continuar
+SpawnChildofDagon.button1,Continuar
+Event0007MythosB.text,El Ungido levanta los brazos, en posición defensiva, pero, para su asombro, unas espirales de oscuridad total brotan de sus dedos, azotando a su enemigo. El Hijo de Dagón sufre 3 Daños.  \n\n El Ungido gana la carta Tormenta de espíritus; éste es el Hechizo Tormenta del Vacío. Funciona exactamente igual que siempre, excepto que, antes de resolver la tirada de ataque, el objetivo recibe inmediatamente 5 Daños, y el Ungido sufre 2 de Horror boca abajo. El Hechizo Tormenta del Vacío no puede ser soltado o intercambiado.
+Event0007MythosB.button1,Continuar
+Event0007MythosC.text,Para revisar esta información, selecciona esta ficha.
+Event0007MythosC.button1,Continuar
+TokenStormOfTheVoid.text,Usar el hechizo Tormenta del Vacío inflige 5 Daños al Monstruo, y 2 de Horror boca abajo al Ungido. Tras ello, resuelve la tirada de ataque y dale la vuelta a la carta de Tormenta de espíritus, incluso si el Monstruo fue asesinado.
+TokenStormOfTheVoid.button1,Continuar
+SpawnHuntingHorror.text,Perturbado por tu intrusión, algo se desliza fuera de la grieta. Coloca un Horrendo cazador en el espacio indicado.
+EventSpawnHuntingHorror.button1,Continuar
+CustomMonsterHuntingHorror.info,-
+CustomMonsterHuntingHorror.monstername,Horrendo cazador
+SpawnHuntingHorror.button1,Continuar
+Event0008Mythos.text,{rnd:hero} mira alrededor, en pánico, mientras el templo parece desplazarse y moverse a su alrededor, como si los pasillos fueran piezas de una caja de rompecabezas gigante. Tropieza frenéticamente, golpeándose con una pared sólida, sufriendo 2 de Daño anulados por {agility}.
+Event0008Mythos.button1,Continuar
+Event0009Mythos.button1,Button1
+Event0009MythosPossessed.text,El Ungido ve a los profanadores que se atreven a desafiar a la naturaleza. El resto de investigador se mueven un espacio hacia el Ungido, y cualquier investigador que se mueva a su espacio, sufre 2 de Daño, anulados por {strength}.
+Event0009MythosPossessed.button1,Continuar
+Event0009MythosNonPossessed.text,El Ungido está enfermo de ansiedad. No puede dejar de pensar en que es muy probable que sus amigos salgan heridos. De repente, la realidad parece doblarse y retorcerse. Todos los demás Investigadores se alejan un espacio del Ungido. Cualquiera que no pueda hacerlo, sufre 1 de Daño, anulado por {strength}.
+Event0009MythosNonPossessed.button1,Continuar
+Event0010Mythos.button1,Continuar
+SpawnStatueTempleGuardian.button1,Continuar
+SpawnStatueTempleGuardian.text,El antiguo sistema de seguridad ha visto mejores días, y probablemente una vez fue mucho más sensible. A pesar de ello, con una piedra que se desmorona, una de las estatuas de la Cámara de las estatuas cobra vida, y se desliza hacia los blasfemos intrusos.
+SpawnSpawnBurialCultist.button1,Continuar
+Event0004MythosC.button1,Button1
+SpawnSpawnBurialCultist.text,Desde las sombras, otro sectario se materializa, con el cuchillo desenvainado.  \n\n —<i>¡Vivo para servirle, señor Azathoth!</i> —dice de forma monótona.  \n\n Coloca un Sectario en el espacio indicado.
+SpawnWarlock.text,Te preparas, en respuesta a los pasos que se acercan, pero te sorprende ver a un anciano con traje y bastón, saliendo de la oscuridad.  \n\n —<i>¿Esperabas a alguien más... volátil?</i> —supone, en un tono opulento. —<i>No pensarías que sólo los lunáticos parlanchines querrían que el mundo se acabara, ¿verdad?</i>  \n\n Coloca un Mago malvado en un espacio accesible adyacente al Investigador que haya sufrido el menor Daño.
+SpawnWarlock.button1,Continuar
+Event0010Mythos.text,Después de todas las cosas siniestras que has visto hoy, nunca adivinarías que un dardo envenenado podría ser tu perdición. Si lo hubieras hecho, habrías evitado pisar una trampa activada por la presión. El proyectil vuela desde la pared hasta {rnd:héroe}, que recibe 1 de Daño y adquiere el estado Envenenado.
+Event0011Mythos.button1,Continuar
+Event0013MythosEnd.button1,Continuar
+Event0012Mythos.button1,Continuar
+Event0011Mythos.text,Los planetas están casi alineados, y {rnd:hero} tiene dudas de que aún haya tiempo. Este Investigador sufre 2 de Horror, anulados por {will}.
+Event0013Mythos.button1,Continuar
+EventMoveHeavensEndgame.button1,Continuar
+EventMoveHeavensEndgame.text,Es como si el Ungido pudiera sentir la superficie de los planetas en sus manos, invocando el poder de Azathoth, y empujándolo. Haz un tirada de {lore}.
+EventMoveHeavensPass.text,A tu orden, los planetas sobre ti se apresuran en su viaje a través del cielo. El final se acerca.
+EventMoveHeavensPass.button1,Continuar
+EventMoveHeavensFail.text,Los planetas no ceden. El cuerpo humano del Ungido sigue siendo limitado... por ahora...
+EventMoveHeavensFail.button1,Continuar
+EventAnnointedBrandFirst.button1,Interrogarla
+EventAnnointedBrandFirst.button2,Dejarla en paz
+Event01AnnointedPersuade.text,La Sectaria mantiene la hoja de su cuchillo apuntando directamente al pecho del Ungido. —<i>Por favor... Sólo váyase...</i>  \n\n Realiza una tirada de {influence}.
+Event01AnnointedPersuade.button1,Continuar
+Event01UnderstandRitual.text,Esto debe ser lo que describieron las pinturas de la pared. Retira esta ficha de Búsqueda y coloca una ficha de Interacción, como se indica.
+EventAnointedPursuadeComplete.text,La Sectaria rechina los dientes, intentando ocultar su frustración. —<i>¡Está bien!</i> —te dice finalmente, rindiéndose. —<i>Quiere saber si hay una manera de deshacer lo que le hicieron, y sacarse al Antiguo de la cabeza, ¿verdad?</i>
+EventAnointedPursuadeComplete.button1,Continuar
+Event01AnnointedPursuadeComplete2.text,—<i>La única manera de hacerlo, sería en el altar. Meditando allí es como los sacerdotes lograron mantener sus mentes intactas, mientras que todos los demás se volvieron locos...</i> —Ella muestra resentimiento en sus palabras. —<i>Está en la esquina noreste del templo.</i>
+Event01AnnointedPursuadeComplete2.button1,Continuar
+Event01AnnointedPersuade2.button1,Button1
+Event01UnderstandRitual.button1,Continuar
+Event01AnointedConvoFinished.text,—<i>Ahora, ¡aléjese de mí!</i> —te grita.  \n\n Es extraño que la Sectaria sea reacia a hablarte de esto, pero no parece que esté mintiendo...
+Event01AnointedConvoFinished.button1,Continuar
+EventAnnointedPursuadePass.button1,Continuar
+EventAnnointedPursuadeFail.text,—<i>¡VÁYASE!</i> —reitera histéricamente, blandiendo su espada de nuevo. Sufres 1 de Daño boca abajo, anulado por {agility}.
+EventAnnointedPursuadePass.text,—<i>No puedo ayudarle...</i> —murmura, sacudiendo la cabeza, pero la propia mención de ayudar traiciona su confusión interior.
+EventAnnointedPursuadeFail.button1,Continuar
+Event01AnnointedFinish.text,Ella suspira profundamente. —<i>Mire... hay una manera de purificarle... pero es arriesgada, y lleva mucho tiempo. ¡Tiene que prometerme que dejará que sus amigos le maten, si siente que pierde el control de sí mismo!</i>
+Event01AnnointedPass.text,—<i>¡No hay ot... otra manera!</i> —Ella insiste, aunque su tartamudeo y la forma en que evita mirarte directamente a los ojos, te hacen dudar.
+Event01AnnointedPass.button1,Continuar
+Event01OtherOnly.button1,Hablar (Otro Investigador) {action}
+Event01OtherOnly.text,La reacción de la Sectaria frente al Ungido fue desagradable, aunque entiendes que comprensible. ¿Quizás sea más habladora con un extraño que no esté familiarizado con el culto?
+Event01CultistLeaves.text,La Sectaria parece pensativa por un momento. —<i>Si están todos aquí, entonces tal vez haya una posibilidad... Voy a salir y mejorar la barrera, eso les dará algo de tiempo. Deséenme suerte.</i> —Corre a través de la puerta que abrió, y sale por la entrada del Templo.  \n\n Elimina esta ficha de Personaje.
+Event01CultistLeaves.button1,Continuar
+Event01OtherOnly.button2,Cancelar
+EventMoveIntoCrackedChamber.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMoveIntoCrackedChamber.button1,Continuar
+EventExploreAltarAware.text,¿Realmente habrá una forma de salvar al Ungido? Si la hay, debe estar aquí.
+EventExploreAltarUnaware.button1,Explorar {action}
+EventExploreAltarUnaware.button2,Cancelar
+EventExploreSunlitNoStab.text,La luz del sol irradia a través de esta puerta.
+EventExploreSunlitNoStab.button1,Explorar {action} 
+EventExploreSunlitNoStab.button2,Cancelar
+EventSecondCultistKilled.text,Entre las posesiones del cultista encuentras varias velas y huesos humanos. Ganas el Objeto único Componentes de ritual.
+EventKilledChildofDagon.text,El cuerpo del Hijo de Dagón cae al suelo y su puño se abre, revelando un destello metálico. Ganas el Objeto único Emblema de sectario.
+EventSecondCultistKilled.button1,Continuar
+EventKilledChildofDagon.button1,Continuar
+EventMythos0013B.button1,Button1
+Event0013MythosEnd.text,En el cielo, los planetas se han alineado, y Azathoth se ha apoderado poderosamente de este mundo. El cuerpo del Ungido estalla en una masa de humo caótico y espirales de luz que, en momentos, consumen la tierra y las estrellas más allá.  \n\n No has conseguido completar la investigación.
+Event0012Mythos.text,La alineación está a punto de tener lugar. Bajo tus pies, el suelo comienza a temblar. Cada Investigador sufre 2 de Daño boca abajo, anulados por {agility}. Cualquier investigador que sufra 1 o más Daños, debe alejarse un espacio del Ungido.
+Event0013Mythos.text,La energía que surge dentro del Ungido es visible, ya que un aura de color negro lo envuelve, ocultando sus ojos. En unos momentos, será demasiado tarde para detener a Azathoth. Cada investigador al alcance del Ungido sufre 2 de Horror, anulados por {will}.
+Event0005MythosB.text,El Ungido mira a su alrededor con consternación. ¿Es responsable de toda esta devastación? El Ungido sufre 2 de Horror boca abajo, anulado por {observation}.
+Event0005MythosB.button1,Continuar
+Event0008MythosB.text,En mitad del estrés y el trauma causado a su cerebro, el Ungido comienza a recordar fragmentos de los meses anteriores. Siente repulsión por las cosas que ha hecho, y lucha por aceptar estos recuerdos como realidad. El Ungido sufre 2 de Horror boca abajo, anulados por {lore}.
+Event0008MythosB.button1,Continuar
+EventPlaceLeaveTempleToken.text,La luz del sol brilla a través de la entrada del templo. ¡La libertad está al alcance de tu mano! Coloca una ficha de Interacción.
+EventPlaceLeaveTempleToken.button1,Continuar
+Event999EndingAnnointedOneDead.button1,Continuar
+Event999EndingAnointedOneSaved.text,Cuando el equipo abandona el templo, la atmósfera permanece agria. Puede que hayas salvado al Ungido, pero hay preguntas en el aire, preguntas que, ahora que la vida de nadie está en peligro inmediato, están saliendo a la luz.  \n\n ¿Cómo consiguió el Ungido contactar con el culto de Azathoth? ¿Había sido realmente traído aquí en contra de su voluntad? ¿Está diciendo la verdad sobre su pérdida de memoria? Y, lo más importante de todo... ¿realmente se ha acabado?
+Event999EndingAnnointedOneDead.text,La oportunidad de que el culto desate a Azathoth en este mundo ha expirado. El resto de los cultistas cede ante la consternación, cayendo de rodillas y permaneciendo inmóviles, mientras te tambaleas, ansioso por salir del templo. El alivio de haber podido evitar el apocalipsis se ve empañado por la pérdida de tu amigo, pero más aún por una duda persistente. Puede que hayas evitado que el culto de Azathoth acabe con el mundo... pero quién sabe qué más hay ahí fuera.
+Event999EndingAnointedOneSaved.button1,Continuar
+EventPlaceRegretfulCultist.text,En respuesta a la muerte de los sectarios, una joven vestida con una túnica con capucha emerge lentamente de su escondite, detrás de una estatua. No hace ningún intento de atacar o huir, y sólo te mira fijamente, con recelo. Coloca una ficha de Personaje gris en el espacio indicado.
+EventPlaceRegretfulCultist.button1,Continuar
+EventPoolPuzzle.text,Una pila de discos de piedra intrincadamente tallados yacen en la pequeña península. Coloca una ficha de Búsqueda en el lugar indicado.
+EventPoolPuzzle.button1,Continuar
+TokenPoolPuzzle.text,Los discos de roca son cada uno de un tamaño diferente. Tal vez algo suceda si se apilan correctamente.
+TokenPoolPuzzle.button1,Investigar {action}
+EventPoolPuzzleBegin.text,Intenta apilar los discos en el orden correcto usando tu {observation}.
+PuzzlePool.button1,Resolver
+EventPoolPuzzleBegin.button1,Continuar
+EventPassPoolPuzzle.text,Con las piedras apiladas correctamente, consigues canalizar la energía del templo hacia la Cámara del estanque, que irradia hacia ti. Rápidamente te das cuenta de cómo generar este poder. Ganas el hechizo Implantar sugestión.
+EventPassPoolPuzzle.button1,Continuar
