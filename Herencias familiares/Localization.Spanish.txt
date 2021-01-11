@@ -1,0 +1,782 @@
+.,Spanish
+quest.name,Herencias familiares
+quest.description,\n El suicidio de Zadok Allen da lugar a una cadena de sucesos extraños y macabros. Todos los familiares están en el lugar de los hechos y, por algún motivo, han comenzado a mostrar un comportamiento sospechoso debido a vuestra presencia en la mansión. \n\n Os veis envueltos en una desconcertante investigación donde cada detalle es importante para desentrañar el misterio que envuelve a la familia Allen. \n\n No queda otra alternativa que descubrir la verdad y que los responsables reciban su merecido castigo. \n\n <i>Nota 1: Éste es un escenario que se centra en la investigación, aunque puede tener algunos combates. Es importante prestar atención a los detalles del texto, las pruebas, e incluso la posición de las fichas y la localización de los objetos. \n\n En cualquier caso, se aconseja el uso de papel y bolígrafo para anotar aquellas informaciones que se consideren relevantes. \n\n Nota 2: El número de Investigadores recomendado es de 3 a 5. Con 2 Investigadores el escenario se vuelve más difícil. \n\n Nota 3: El tiempo medio de duración de la partida parece tener algún tipo de error en la aplicación. Es mejor tener en cuenta el tiempo de duración indicado en la pantalla de selección de escenario. \n
+EventIntroducao.text,\n Curtidos en el trabajo policial y acostumbrados a resolver crímenes de todo tipo, desde el robo de una gallina hasta asaltos a lujosas mansiones, hoy os encontráis en la puerta de una de esas viviendas de lujo. \n\n El suicidio del millonario Zadok Allen tiene pinta de ser un caso sencillo de resolver. La víctima se mató cortándose las venas con un cuchillo. La persona que encontró el cuerpo fue el ama de llaves, que inmediatamente llamó a la policía, siendo el agente Craven el primero en llegar a la escena del crimen. \n\n Con la noticia del fallecimiento de Zadok, la familia se reúne para hacer los preparativos del funeral. Aprovechando la ocasión de que están todos en la casa, será sencillo cerrar el caso una vez hechas las pesquisas oportunas. \n\n Con el equipo preparado, os dirigís a la mansión. \n
+EventIntroducao.button1,Continuar
+EventT1_hall_surge.text,La mansión posee un hermoso vestíbulo, con una alfombra roja que cubre las escaleras y la planta superior. El suelo es de mármol y salta a la vista el lujo de este sitio. \n\n Coloca el módulo {c:TileT1_hall} en el lugar señalado. \n\n Cada Investigador recibe 2 Pistas {clue}.
+EventT1_hall_surge.button1,Continuar
+EventT1_parede_1_surge.button1,Continuar
+EventT1_parede_1_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT1_parede_2_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT1_parede_2_surge.button1,Continuar
+EventT1_parede_3_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT1_parede_3_surge.button1,Continuar
+EventT1_procura_1_surge.text,Al entrar te fijas en un retrato de la familia Allen que hay colgado al final del vestíbulo de entrada. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT1_procura_1_surge.button1,Continuar
+EventT1_investigadores_surgem.text,Coloca a los Investigadores en el espacio señalado.
+EventT1_investigadores_surgem.button1,Continuar
+EventT1_Rosa_Mendes_surge.text,Desde lo alto de las escaleras os observa una mujer. \n\n —<i>Buenas noches, señores investigadores, mi nombre es Rosa Mendes y soy el ama de llaves de la mansión del señor Zadok Allen. Ya ha llegado un compañero de ustedes para asegurar el lugar del crimen, el dormitorio del señor Allen</i> —hace una pausa—. <i>Estaré en disposición de contestar a todas sus preguntas sobre la trágica muerte del señor Allen, pero antes déjenme mostrarles el resto de esta sala.</i> \n\n Coloca la ficha de Personaje Mujer gris en el lugar señalado. Ésta es Rosa Mendes. \n
+EventT1_Rosa_Mendes_surge.button1,Continuar
+EventT13_procurar_1_biblia.text,\n Tu búsqueda ha servido para algo y encuentras un libro que te será de utilidad. \n\n Ganas el Objeto común {c:QItemT13_biblia}. A continuación, descarta esta ficha de Búsqueda. \n
+EventT1_explorar_1_surge.button1,Continuar
+EventT4_shirley_resposta_zadok.text,—<i>Mi padre siempre fue conmigo un hombre parco en palabras, a pesar de todo lo que hacía por él. A medida que los años pasaban yo me parecía cada vez a mi madre, y pensaba que eso le haría feliz. Pero no, pronto comprobé que era justo lo contrario. Mi hermano Robert terminó siendo el receptor de todo el afecto de mi padre.</i> 
+EventT1_explorar_2_surge.button1,Continuar
+EventT1_rosa_mendes_vai_embora.text,—<i>Bien, si ya no desea seguir hablando conmigo, voy a volver a mis quehaceres.</i> \n\n Descarta la ficha de Personaje Mujer gris (Rosa Mendes).
+EventT1_explorar_3_surge.button1,Continuar
+TokenT5_shirley.text,Shirley está fumando y no tiene intención de decir nada más.
+EventT1_Rosa_Mendes_aviso.button1,Continuar
+TokenT1_Rosa_Mendes_cinza.button1,button1
+EventT10_craven_perguntas_zadok_confusao.text,—<i>Hola, amigo, déjeme que le explique cuál es la situación.</i>
+EventT1_rosa_mendes_pergunta_1e2.button1,{action} —<i>Hábleme de su trabajo.</i>
+EventT4_donald_studar_resposta_vida.text,—<i>Como ya le he dicho, me llamo Donald Studart, soy abogado y mi parentesco con el señor Zadok Allen es debido a mi matrimonio con su hija más joven, Shirley Allen, y tenemos un hijo que se llama Bart Allen, que hace poco que se está ganando la vida por su cuenta</i> —hace una breve pausa—. <i>Permítame decirle que estoy francamente impresionado por los sucesos acaecidos. Sabía que Zadok se sentía solo, ¡pero nunca imaginé que quisiera suicidarse! </i>
+EventT1_pergunta_trabalho.button1,Continuar
+EventT1_rosa_mendes_pergunta_1e2.button2,{action} —<i>¿Qué es lo que sabe de la muerte de Zadok Allen?</i>
+EventT4_shirley_resposta_vida.text,—<i>Me llamo Shirley Allen y soy la hija menor de Zadok Allen. Siempre fui una rebelde</i> —una débil sonrisa asoma por los labios de la mujer—. <i>Me casé como un hombre menor que yo, ése que está ahí en el sillón. ¡Donald Studart! </i>—grita la mujer—. <i>Por aquel entonces él era un joven abogado con una prometedora carrera profesional, y ahora no tanto. También tengo un hijo, que andará por ahí, deambulando por la mansión.</i>\n
+EventT1_rosa_mendes_pergunta_crime.button1,Continuar
+EventT10_crave_pergunta_so_confusao.text,—<i>Hola, amigo, déjeme que le explique cuál es la situación.</i>
+EventT1_rosa_mendes_pergunta_so_trabalho.button1,{action} —<i>Hábleme de su trabajo.</i>
+EventT1_rosa_mendes_resposta_so_trabalho.text,—<i>Llevo aquí como ama de llaves desde antes de la muerte de la esposa del señor Allen. He visto nacer a sus hijos y siempre he sido fiel a mi empleador, el señor Allen, una persona a la que admiro mucho.
+EventT1_rosa_mendes_resposta_so_trabalho.button1,Continuar
+EventT1_rosa_mendes_pergunta_so_crime.button1,{action} —<i>¿Qué es lo que sabe de la muerte de Zadok Allen?</i>
+EventT10_craven_pergunta_so_zadok.text,—<i>Hola, amigo, déjeme que le explique cuál es la situación.</i>
+EventT4_donald_jornal_teste_falhou.text,—<i>No creo que esté en la obligación de entregarle nada, además, eso ni siquiera forma parte de la investigación.</i> \n\n Con gesto algo preocupado, Donald Studart dobla el periódico y lo guarda.
+EventT1_rosa_mendes_resposta_so_crime.button1,Continuar
+TokenT2_ronald.text,—<i>Acabe de investigar el suicidio de una vez, y márchese</i> —te dice muy enojado—. <i>Mi familia está de luto.</i>
+EventT1_rosa_mendes_respondeu_perguntas.button1,Continuar
+EventT1_rosa_mendes_pergunta_1e2.button3,Cancelar
+TokenT1_procura_1.text,Al fondo del gran vestíbulo, un retrato de la familia Allen preside la sala. \n\n Quizá deberías echarle un vistazo más de cerca.
+TokenT1_procura_1.button1,{action} Examinar
+EventT1_procura_1_passou.text,Al fijarte en los detalles descubres que se trata de una hermosa pintura de la familia Allen, todos elegantemente vestidos y con miradas serias. \n\n En el marco del cuadro están escritos los nombres de los miembros de la familia: \n Zadok Allen, Ronald Allen, Shirley Allen, Donald Studart, Bart Allen y Catrina Allen. \n\n También adviertes que tanto el marco como la pintura parecen recientes. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT1_procura_1_passou.button1,Continuar
+EventT1_procura_1_teste.text,Buscas algo fuera de lo común en el retrato {observation}.
+EventT1_procura_1_teste.button1,Continuar
+EventT1_procura_1_teste.button2,button2
+EventT1_procura_1_falhou.text,A pesar del tiempo empleado, nada te llama la atención.
+EventT1_procura_1_falhou.button1,Continuar
+EventT2_cozinha_surge.text,La cocina está muy desordenada, incluso bastante más de lo que te había avisado Rosa Mendes. \n\n Coloca el módulo {c:TileT2_cozinha} y una ficha de Exploración en el lugar señalado.
+EventT2_cozinha_surge.button1,Continuar
+EventT5_perguntas_vida_colar.text,—<i>Buenas noches, ¿en qué le puedo ayudar?</i>
+EventT1_rosa_mendes_vai_embora.button1,Continuar
+EventT1_rosa_mendes_pergunta_so_trabalho.button2,Cancelar
+EventT1_rosa_mendes_pergunta_so_crime.button2,Cancelar
+TokenT1_explorar_1.text,Una refinada puerta de madera separa el comedor del vestíbulo de entrada.
+TokenT1_explorar_1.button1,{action} Abrir
+EventT2_procurar_1_surge.text,Al fondo de la cocina hay una estantería con todo desordenado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT2_procurar_1_surge.button1,Continuar
+EventT2_procurar_2_surge.text,Cerca de la mesa para comer hay un mueble bar con una portezuela de madera entreabierta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT2_procurar_2_surge.button1,Continuar
+EventT2_explorar_1_surge.text,Al fondo del comedor hay una puerta cerrada con un letrero que pone «<i>Cuarto del ama de llaves</i>». \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT2_explorar_1_surge.button1,Continuar
+EventT2_explorar_2_surge.text,Al fondo de la cocina hay una puerta que está bastante sucia. En el suelo de color blanco destacan unas manchas de barro. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT2_explorar_2_surge.button1,Continuar
+TokenT2_procura_2.text,Cerca de la mesa para comer hay un mueble bar con una portezuela de madera entreabierta. \n\n Quizá puedas encontrar algo que te ayude en tu investigación. \n
+TokenT2_procura_2.button1,{action} Buscar
+EventT2_procurar_2_teste.text,Al abrir por completo la puerta, las botellas comienzan a tambalearse, listas para caer al suelo ({agility}; 2). Si superas la tirada, rápidamente coges las botellas y las dejas de nuevo en su sitio. Si fallas la tirada, una de ellas se rompe sobre tus pies, haciéndote un pequeño corte; sufres 1 de Daño boca abajo. \n\n Ganas el Objeto común {c:QItemT2_uisque}. A continuación, descarta esta ficha de Búsqueda.
+EventT2_procurar_2_teste.button1,Continuar
+TokenT2_procurar_1.text,Una estantería con varios objetos colocados de forma desordenada.
+TokenT2_procurar_1.button1,{action} Buscar
+EventT2_procurar_1_veneno.button2,button2
+EventT2_procurar_1_veneno.text,Una gran cantidad de botellas y frascos que da la impresión de que no deberían estar aquí. Decides que merece la pena echar un vistazo más detenidamente {observation}.
+EventT2_experimentar_veneno.button2,Cancelar
+EventT2_procurar_1_passou.text,Entre los diversos recipientes encuentras algo peculiar. Se trata de una pequeña botella empleada en actos religiosos y que contiene un líquido. \n\n Ganas el Objeto común {c:QItemT2_veneno}. A continuación, descarta esta ficha de Búsqueda. \n\n <b>Este Objeto es una prueba para resolver la investigación y por lo tanto no se puede usar a lo largo de la partida</b>. \n\n El Investigador que posea el {c:QItemT2_veneno} puede examinarlo usando el menú de Objetos en la aplicación.
+EventT2_procurar_1_passou.button1,Continuar
+EventT2_procura_1_teste_falhou.text,Hay muchas botellas y frascos apilados en el mismo sitio, lo que hace complicado encontrar algo importante.
+EventT2_procura_1_teste_falhou.button1,Continuar
+EventT2_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT2_mov_extra.button1,Continuar
+EventT2_experimentar_veneno.button1,{action} Probar
+EventT2_experimentar_veneno_teste.button1,Continuar
+EventT2_experimentar_veneno.text,Hueles el líquido contenido en el frasco. El olor es mareante. \n\n Puedes probar una pequeña cantidad para saber algo más de esta sustancia.
+EventT2_experimentar_veneno_passou.text,Cuando el líquido toca tu boca lo escupes rápidamente, dándote cuenta de que se trata de algo perjudicial para la salud de una persona. \n\n Ganas 1 Pista {clue}. \n\n <i>Nota: Se trata de una posible pista para resolver la investigación.</i>
+EventT2_experimentar_veneno_teste.text,Pones una pequeña cantidad en tu boca, teniendo cuidado de no ingerirla {will}.
+EventT2_experimentar_veneno_passou.button1,Continuar
+EventT2_experimentar_veneno_teste.button2,button2
+EventT2_experimentar_veneno_falhou.text,A pesar del cuidado que pones, terminas tragándote una pequeña dosis del contenido, dándote cuenta de que se trata de algo perjudicial para la salud. \n\n Sufres 1 de Daño boca abajo y adquieres el estado <i>Aturdido.</i> \n\n Ganas 1 Pista {clue}. \n\n <i>Nota: Este objeto es una posible prueba para esta investigación.</i>
+EventT2_experimentar_veneno_falhou.button1,Continuar
+EventT2_veneno_experimentado_interagir.text,El frasco hallado en la cocina contiene un líquido perjudicial para la salud humana.
+EventT2_veneno_experimentado.button1,Continuar
+EventT2_procurar_1_veneno.button1,Continuar
+EventT2_veneno_experimentado_interagir.button1,Continuar
+TokenT2_procura_3.button1,{action} Examinar
+EventT2_procurar_3_surge.text,Unas manchas rojas en la mesa te llaman la atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT2_procurar_3_resolve.text,Al mirar más de cerca te queda claro que son manchas de sangre en una servilleta. Están secas, lo que indica que tienen tiempo. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT2_procurar_3_resolve.button1,Continuar
+TokenT2_procura_3.text,Observas unas manchas rojas sobre la mesa.
+EventT2_procurar_3_surge.button1,Continuar
+EventT3_salao_festa_surge.text,El salón de baile da la impresión de que no se usa mucho. Prácticamente no tiene muebles, sólo una mesa, una cómoda y, al fondo, un piano como único elemento destacable de la estancia. \n\n Coloca el módulo {c:TileT3_salao_festa}. A continuación, descarta la ficha de Exploración.
+EventT3_salao_festa_surge.button1,Continuar
+TokenT1_explorar_2.text,Una preciosa puerta de madera conduce al salón de baile.
+TokenT1_explorar_2.button1,{action} Abrir
+EventT3_procura_1_surge.text,Un elegante piano al fondo de la sala. Te preguntas si se habrá usado mucho en el pasado.
+EventT3_procura_1_surge.button1,Continuar
+EventT3_explorar_1_surge.text,La puerta que hay al fondo lleva al despacho del señor Zadok Allen.
+EventT3_explorar_1_surge.button1,Continuar
+EventT3_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT3_mov_extra.button1,Continuar
+TokenT3_procurar_1.button1,{action} Examinar
+EventT3_procurar_1_piano.text,El piano está sucio y tiene unas manchas rojizas. Además, el suelo de madera tiene rayones cerca de los puntos de apoyo del instrumento musical. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT3_procurar_1_piano.button1,Continuar
+TokenT3_procurar_1.text,El piano que hay al fondo de la sala es de factura elegante. Algo en él te llama la atención.
+TokenT1_explorar_3.text,A pesar de que Rosa Mendes te dijo que algunos de los parientes del señor Allen estaban en el salón, no se oye ningún ruido procedente del otro lado de la puerta.
+TokenT1_explorar_3.button1,{action} Abrir
+EventT4_sala_estar_surge.text,El salón está muy bien cuidado, su iluminación es agradable, el mobiliario es elegante y todo ello hace que seas aún más consciente de la buena situación financiera que tenía el señor Zadok. \n\n Coloca el módulo {c:TileT4_sala_estar} y descarta la ficha de Exploración del lugar señalado.
+EventT4_sala_estar_surge.button1,Continuar
+EventT4_donald_studart_surge.text,En un sillón al fondo de la sala, te fijas en un hombre de unos treinta años. Está cómodamente sentado y parece muy concentrado en la lectura del periódico, ajeno a lo que sucede a su alrededor. \n\n Coloca la ficha de Personaje Hombre amarillo en el lugar señalado.
+EventT4_donald_studart_surge.button1,Continuar
+TokenT4_donald_studart.button1,Continuar
+EventT4_donald_studar_pergunta_jornal_vida.button1,{action} —<i>¿Puede contarme algo del señor Zadok Allen? </i>
+TokenT9_Bart_Allen.text,—<i>¿Hay algún problema?</i>
+EventT4_donald_studar_pergunta_jornal_vida.text,—<i>Buenas noches, me llamo Donald Studart. ¿En qué puedo ayudarle? </i>
+EventT4_donald_studar_resposta_vida.button1,Continuar
+EventT4_donald_studar_pergunta_jornal_vida.button2,{action} —<i>¿Puedo echarle un vistazo al periódico?</i>
+EventT4_entregar_caixa_catrina.text,—<i>¡Qué melodía más bonita! Si tuviera el resto, podría tocarla.</i>
+EventT4_donald_studart_jornal_teste.button1,Continuar
+EventT5_catrina_pergunta_so_colar.text,—<i>Buenas noches, ¿en qué le puedo ayudar?</i>
+EventT4_donald_jornal_teste_passou.button1,Continuar
+EventT4_donald_studart_jornal_teste.button2,Continuar
+EventT9_bart_teste.text,—<i>¿En serio tengo que responder a esa pregunta?</i> Todo parece indicar que fue un suicidio {influence}.
+EventT4_donald_jornal_teste_falhou.button1,Continuar
+EventT4_donald_studar_pergunta_jornal_vida.button3,Cancelar
+TokenT15_Catrina_allen.text,—<i>¿Qué está pasando, investigador?</i>
+EventT4_donald_studart_so_vida.button1,{action} —<i>¿Puede contarme algo del señor Zadok Allen? </i>
+EventT4_shirley_pergunta_vida_e_zadok.text,—<i>¿Qué es lo que quiere saber?</i>
+EventT4_donald_studart_so_jornal.button1,{action} —<i>¿Puedo echarle un vistazo al periódico?</i>
+EventT5_catrina_pergunta_so_vida.text,—<i>Buenas noches, ¿en qué puedo ayudarle?</i>
+EventT4_donald_studart_respondido.button1,Continuar
+EventT4_donald_studart_so_vida.button2,Cancelar
+EventT4_donald_studart_so_jornal.button2,Cancelar
+EventT4_ler_jornal_donald.text,Hay varias noticias destacadas en el periódico. Las lees atentamente.
+EventT4_ler_jornal_donald.button1,{action} Leer
+EventT4_jornal_lido.text,En las noticias hablan del aumento de la violencia en los barrios ricos, del suicidio de un hombre solitario, de la falta de oportunidades para encontrar trabajo de los jóvenes y las quiebras de varias empresas, entre ellas varios bufetes de abogados, contabilidad y servicios generales. \n\n Ganas 1 Pista {clue}. <i>Nota: Esta información puede ser una prueba para esta investigación.</i>
+EventT4_jornal_lido.button1,Continuar
+EventT4_jornal_lido_2.button1,Continuar
+EventT4_jornal_lido_2.text,En el periódico se puede leer información sobre el aumento de la violencia en los barrios ricos, el suicidio de un hombre de avanzada edad, la falta de oportunidades laborales de los jóvenes y los apuros financieros de algunas empresas, entre ellas unos bufetes de abogados, contabilidad y mantenimiento.
+EventT4_shirley_allen_surge.text,En la barra, de pie, hay una mujer bien vestida, aparentemente más joven que el hombre que tiene delante. Con la mano mece un vaso de güisqui seco mientras su mirada perdida indica que su mente está en otro lugar. \n\n Coloca la ficha de Personaje Mujer morada en el lugar señalado.
+EventT4_shirley_allen_surge.button1,Continuar
+EventT4_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT4_mov_extra.button1,Continuar
+TokenT4_Shirley_Allen.button1,Continuar
+EventT4_shirley_pergunta_vida_e_zadok.button1,{action} —<i>Hábleme un poco de usted.</i>
+EventT4_shirley_pergunta_vida_e_zadok.button2,{action} —<i>Hábleme un poco del señor Zadok Allen.</i>
+EventT4_shirley_pergunta_vida_e_zadok.button3,Cancelar
+EventT4_fala_pos_morte.text,—<i>Estoy un poco cansada, pero si necesita algo intentaré ayudarle.</i>
+EventT4_shirley_resposta_vida.button1,Continuar
+TokenT15_ronald_allen.text,—<i>¿Hay algo que quiera saber?</i>
+EventT4_shirley_resposta_zadok.button1,Continuar
+EventT4_Catrina_piano.text,—<i>¡Vaya, qué interesante es esa cajita de música! \n ¿Puedo oírla?</i> \n\n Un Investigador con los objetos {c:QItemT12_partitura_queimada} y {c:QItemT6_procurar_3_caixa_musica} se los puede dar a Catrina Allen.
+EventT12_anotacao_zadok_allen_pag_1.text,<i>Una vez más me encuentro lamentándome sobre lo ocurrido. El dinero nunca trae la felicidad, en realidad es justo lo contrario. \n\n Amargura y rencor. Son las dos únicas cosas que he conseguido con eso. Uno de ellos ya sabe lo que hice y ahora se quiere vengar. Pero son tan ignorantes que no se dan cuenta de que mis actos del pasado han venido a por mí en forma de enfermedades. \n\n Rosa Mendes y mi hija Shirley me están dando medicinas, aunque cada vez estoy peor.</i> \n\n Te fijas en que la caligrafía de Allen es excelente y da la impresión de que ha sido hecha por alguien zurdo. \n Además de eso, por el color de la tinta estás seguro de que es algo que no se ha escrito recientemente. \n\n El texto continúa.
+EventT4_shirley_pergunta_so_vida.button1,{action} —<i>Hábleme un poco de usted.</i>
+TokenT1_Catrina_allen_surge.text,—<i>¿Qué le está pasando al tío Donald?</i>
+EventT4_shirley_pergunta_so_zadok.button1,{action} —<i>Hábleme un poco del señor Zadok Allen.</i>
+TokenT4_Shirley_Allen.button2,Cancelar
+EventT1_explorar_3_surge.text,—<i>Y a su derecha tenemos el salón. Algunos de los parientes del señor Zadok están en él.</i> \n\n Coloca una ficha de Exploración en el lugar señalado. \n
+EventT4_shirley_respondido.button1,Continuar
+EventT4_shirley_pergunta_so_vida.button2,Cancelar
+EventT4_shirley_pergunta_so_zadok.button2,Cancelar
+EventT1_procurar_telefone_surge.text,De repente oyes algo. El teléfono del vestíbulo de entrada comienza a sonar. \n\n Solamente ahora, un único Investigador se puede mover al espacio del vestíbulo donde ha aparecido la ficha de Interacción de Búsqueda sin que ello cuente como una acción del Investigador.
+EventT1_procurar_telefone_surge.button1,Continuar
+TokenT1_interacao_1_telefone.text,Con calma, descuelgas el teléfono, suponiendo que será algún periódico local que quiere hacerle una entrevista a algún familiar del fallecido.
+TokenT1_interacao_1_telefone.button1,{action} Responder a la llamada
+EventT1_interacao_telefone_resolvido.text,Justo en ese momento oyes una voz femenina que te susurra: \n\n —<i>Por favor, ayúdeme a desentrañar lo que está pasando en esa macabra mansión.</i> —El miedo se deja entrever en sus palabras. —<i>Creo que alguien trama algo contra la familia Allen.</i> \n\n El teléfono se queda mudo. Empiezas a darte cuenta de que quizá la muerte de Zadok Allen no sea un simple suicidio. \n\n Descarta esta ficha de Interacción.
+EventT1_interacao_telefone_resolvido.button1,Continuar
+EventT5_procurar_1_surge.text,Un ramo de bellas flores. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT5_procurar_1_surge.button1,Continuar
+EventT5_catrina_allen_surge.text,Observas a una muchacha en cuclillas que parece contemplar las flores. \n\n Coloca la ficha de Personaje Niña en el lugar señalado.
+EventT5_catrina_allen_surge.button1,Continuar
+TokenT2_explorar_2.text,Una puerta llena de suciedad y con huellas de barro que destacan sobre el suelo de color blanco.
+TokenT2_explorar_2.button1,{action} Abrir
+EventT1_rosa_mendes_respondeu_perguntas.text,—<i>Con su permiso, debo regresar a mis quehaceres.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Personaje Mujer gris.
+EventT5_quintal_surge.button1,Continuar
+EventT5_explorar_1_surge.text,Una sencilla puerta que conduce al interior del vivero.
+EventT5_explorar_1_surge.button1,Continuar
+EventT5_mov_extra_1.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT5_mov_extra_1.button1,Continuar
+TokenT5_procurar_1.text,Un ramo de bellas flores.
+TokenT5_procurar_1.button1,{action} Buscar
+EventT5_procurar_1_resolvido.text,Echas un vistazo más de cerca a las bellas flores y te das cuenta de que realmente son muy peculiares y exóticas. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT5_procurar_1_resolvido.button1,Continuar
+TokenT5_Catrina_allen.button1,Continuar
+EventT14_rosa_teste_falhou.text,—<i>Creo que mejor que no, ella es muy importante para mí.</i>
+EventT5_perguntas_vida_colar.button1,{action} —<i>Hábleme un poco de usted.</i>
+EventT1_rosa_mendes_pergunta_crime.text,—<i>Fui a mis aposentos la noche antes de la muerte del señor Allen. Cuando me desperté, me arreglé para trabajar. Le preparé el café de la mañana al señor Zadok y cuando llegué a su dormitorio me encontré con la terrible escena de su cuerpo tendido en la cama, con las venas cortadas.</i>
+EventT5_catrina_allen_resposta_vida.button1,Continuar
+EventT5_perguntas_vida_colar.button2,{action} —<i>¿Qué estás haciendo ahí, agachada entre las flores?</i>
+EventT10_craven_resposta_zadok.text,\n\n —<i>He aislado la habitación. Parece ser un caso sencillo. El viejo estaba extremadamente triste y era un solitario. Por lo poco que he podido ver de sus familiares, no parecía que le tuviesen mucho cariño. Eso me lleva a pensar que se quitó la vida a causa de una depresión.\n A primera vista parece que usó un cuchillo bastante sencillo, lo cual no deja de ser sorprendente en un hombre que estaba rodeado de reliquias.\n\n Cuando terminen en esta habitación, les recomiendo que examinen por su cuenta la biblioteca de la mansión. \n\n Bueno, ya he hecho mi trabajo, me voy ya, les dejo a ustedes que hagan el resto.</i> \n\n Ganas 1 Pista {clue}. \n
+EventT5_catrina_teste.button1,Continuar
+EventT5_catrina_allen_teste_passou.text,—<i>Quería enterrar algo que me regaló mi abuelo, aquí, bajo las flores que tanto le gustaban. Es una manera de despedirme de él</i> —te mira con los ojos acuosos—. <i>Pero si para usted es algo importante, puede quedárselo</i> —dice mientras te entrega un collar con una forma extraña, como si le faltase la mitad. \n\n Ganas el Objeto único {c:QItemT5_colar_metade}. El Investigador que posea la {c:QItemT5_colar_metade} puede examinarla usando el menú de Objetos de la aplicación.
+EventT5_catrina_allen_teste_passou.button1,Continuar
+EventT5_catrina_teste.button2,Continuar
+EventT10_resposta_confusao.text,—<i>Estaba discutiendo con Ronald Allen, el hijo menor de Zadok. Quería ver el cadáver a toda costa</i> —te comenta—. <i>Le expliqué que sólo se podía ver después de que fuese examinado por la policía, pero ese hombre es de lo más arrogante</i> —se encoge de hombros—. <i>Es uno de los herederos de la familia, y cree que por eso le puede dar órdenes a todo el mundo.</i>
+EventT5_catrina_teste_falhou.button1,Continuar
+TokenT3_rosa_2.text,—<i>¡Ay, Dios mío!</i>
+EventT5_catrina_pergunta_so_vida.button1,{action} —<i>Hábleme un poco de usted.</i>
+EventT9_bart_teste_falhou.text,—<i>Creo que debería tomar notas e irse de aquí, no hay nada interesante acerca de mi abuelo, más allá del hecho de que estaba aquí recluido y de que se estaba volviendo cada vez más loco.</i>
+EventT5_catrina_pergunta_so_colar.button1,{action} —<i>¿Qué estás haciendo ahí, agachada entre las flores?</i>
+TokenT5_Catrina_allen.button2,Cancelar
+EventT5_perguntas_vida_colar.button3,Cancelar
+EventT5_catrina_pergunta_so_vida.button2,Cancelar
+EventT5_catrina_pergunta_so_colar.button2,Cancelar
+EventT5_quintal_surge.text,\n Con un chirrido, la puerta se abre revelando la parte exterior de la mansión. \n\n Se trata de un bonito jardín, con el césped bien cortado y flores de infinidad de colores. \n\n Coloca el módulo {c:TileT5_quintal}. A continuación, descarta esta ficha de Exploración.
+EventT5_catrina_allen_respondeu_perguntas.button1,Continuar
+EventT4_catrina_surge_dps_3_respondidos.text,Catrina Allen sale del jardín y se reúne con su familia en el salón. \n\n Mueve la ficha de Personaje Niña al lugar señalado.
+EventT4_catrina_surge_dps_3_respondidos.button1,Continuar
+EventT5_olhar_colar.text,Un examen más detallado del collar confirma tus sospechas. Le falta un trozo, como si lo hubiesen dividido en dos de forma intencionada. \n\n <i>Nota: Este objeto es una posible prueba para esta investigación.</i>
+EventT5_olhar_colar.button1,Continuar
+TokenT5_explorar_1.text,Una sencilla puerta conduce al interior del vivero de flores.
+TokenT5_explorar_1.button1,{action} Abrir
+EventT5_parede_surge.text,Coloca una ficha de Pared en el lugar señalado. \n
+EventT5_parede_surge.button1,Continuar
+EventT5_procurar_2_surge.text,En la parte baja de la estantería hay unas herramientas que podrían venirte bien. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT5_procurar_2_surge.button1,Continuar
+EventT5_mov_extra_2.text,Abres la puerta y compruebas que el vivero está muy bien cuidado y que las flores son las mismas que hay afuera, coloridas y de aspecto exótico. \n\n El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n Descarta esta ficha de Exploración.
+EventT5_mov_extra_2.button1,Continuar
+TokenT5_procurar_2.text,El sitio es angosto y necesitas agacharte para coger una herramienta. Te fijas además en que varios de los estantes parecen muy endebles.
+TokenT5_procurar_2.button1,{action} Buscar
+EventT5_pegar_pa.text,En el momento en el que coges la herramienta, la estantería se viene abajo sobre tu cabeza ({strength}; 2). Si superas la tirada, te cubres la cabeza con las manos y evitas el daño. Si fallas la tirada, la madera te provoca un corte en la cabeza, sufres 1 de Daño y adquieres el estado <i>Aturdido.</i> \n\n Ganas el Objeto común {c:QItemT5_pa}. A continuación, descarta la ficha de Búsqueda.
+EventT5_pegar_pa.button1,Continuar
+EventT5_buraco_surge.text,La tierra de las flores parece que ha sido removida hace poco.
+EventT5_buraco_surge.button1,Continuar
+TokenT5_procurar_3.text,La tierra de las flores parece que ha sido removida hace poco. Con una herramienta adecuada quizá puedas cavar en este sitio.
+TokenT5_procurar_3.button1,{action} Buscar
+EventT5_procurar_3_resolvido.text,La tierra está blanda y es sencillo cavar en ella. Poco después encuentras un extraño collar al que parece que le falta una parte. \n\n Ganas el Objeto común {c:QItemT5_colar_metade}. A continuación, descarta esta ficha de Búsqueda. \n\n El Investigador que posea el {c:QItemT5_colar_metade} puede examinarlo usando el menú de Objetos de la aplicación.
+EventT5_procurar_3_resolvido.button1,Continuar
+TokenT3_explorar_1.text,La puerta del despacho está cerrada con llave. A pesar del aviso de Rosa Mendes, puedes intentar forzar la cerradura para abrirla.
+PuzzleT3_explorar_escritorio_zadok.button1,Probar
+TokenT3_explorar_1.button1,{action} Forzar cerradura
+EventT6_escritorio_surge.text,Al abrir la puerta encuentras una oficina desordenada, como si el propietario la usase a diario y no se tomase la molestia de arreglar el desorden. \n\n Coloca el módulo {c:TileT6_escritorio_zadok}. A continuación, descarta esta ficha de Exploración.
+EventT6_escritorio_surge.button1,Continuar
+EventT6_procurar_1_surge.text,El armario que hay delante de ti alberga una preciosa colección de armas de fuego. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_procurar_1_surge.button1,Continuar
+EventT6_procurar_2_surge.text,Sobre la mesa hay varios papeles desordenados. Quizá merezca la pena echarles un ojo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_procurar_2_surge.button1,Continuar
+EventT6_procurar_3_surge.text,Al fondo del despacho hay una caja fuerte. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_procurar_3_surge.button1,Continuar
+EventT6_explorar_1_surge.text,Una puerta cerrada por el lado de dentro del despacho. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT6_explorar_1_surge.button1,Continuar
+EventT3_rosa_surge_escritorio.text,Coloca la ficha de Personaje Mujer gris en el lugar señalado. \n\n Aparece Rosa Mendes. \n\n —<i>Por lo que veo, el señor no es capaz de cumplir una sencilla petición.</i> \n\n Intentas hablar con ella ({will}; 2). Si la tirada tiene éxito, le explicas a Rosa que sólo estabas haciendo tu trabajo; tienes la oportunidad de avanzar 1 espacio hacia la zona explorada. Si fallas la tirada, te avergüenzas de lo que has hecho; sufres 1 de Horror boca abajo y tu turno termina inmediatamente.
+EventT3_rosa_surge_escritorio.button1,Continuar
+EventT3_rosa_vai_embora.text,Rosa Mendes se marcha de la sala de baile, inquieta y preocupada.
+EventT3_rosa_vai_embora.button1,Continuar
+TokenT6_procurar_1.text,El armario que hay delante de ti alberga una preciosa colección de armas de fuego.
+TokenT6_procurar_1.button1,{action} Buscar
+EventT6_procurar_1_teste.text,Buscas algo que puedas usar en tu investigación {observation}.
+EventT6_procurar_1_teste.button1,Continuar
+EventT6_procurar_1_passou.text,Notas el peso del arma, perfecta para defenderte con ella. \n\n Ganas el Objeto común {c:QItemT6_arma_fogo}. A continuación, descarta esta ficha de Búsqueda.
+EventT6_procurar_1_passou.button1,Continuar
+EventT6_procurar_1_teste.button2,button2
+EventT6_procurar_1_falhou.text,Hay tantas opciones que es complicado encontrar algo interesante.
+EventT6_procurar_1_falhou.button1,Continuar
+TokenT6_procurar_2.text,Sobre la mesa hay varios papeles desordenados. Quizá merezca la pena echarles un ojo.
+TokenT6_procurar_2.button1,{action} Buscar
+EventT6_procurar_2_resolvido.text,En medio de tantos papeles encuentras una nota firmada por el propio Zadok Allen. \n\n «<i>Los remordimientos de lo que he hecho en mi vida están volviendo para atormentarme. Sé que no debería haber hecho eso que hice, antepuse el dinero al amor y ahora siento que eso mismo va a volver a pasar</i>». \n\n «<i>Algo o alguien trama contra mí... y me merezco lo que está por venir</i>». \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Búsqueda.
+EventT6_procurar_2_resolvido.button1,Continuar
+EventT4_explorar_1_surge.text,Al final del pasillo, una puerta conduce a otras estancias de la mansión.
+EventT4_explorar_1_surge.button1,Continuar
+TokenT4_explorar_1.text,Una puerta que conduce al interior de la mansión.
+TokenT4_explorar_1.button1,{action} Abrir
+EventT7_escadas_surgem.text,Al abrir la puerta observas una escalera que lleva a la planta superior. \n\n Coloca el módulo {c:TileT7_escadas}. A continuación, descarta esta ficha de Exploración.
+EventT7_escadas_surgem.button1,Continuar
+EventT7_procurar_surge.text,En el inicio de la escalera hay varios retratos colgados de la pared. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT7_procurar_surge.button1,Continuar
+EventT7_avistamento_surge.text,Al final de la escalera hay un pasillo.
+EventT7_avistamento_surge.button1,Continuar
+EventT7_mox_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT7_mox_extra.button1,Continuar
+TokenT7_procurar.text,En la pared cuelgan seis retratos de personas.
+TokenT7_procurar.button1,{action} Buscar
+EventT7_procurar_resolvido.text,Te fijas bien y descubres que son retratos antiguos de miembros de la familia Allen. \n\n Zadok Allen, Carol Allen, Ronald Allen, Shirley Allen, Donald Studart, Bart Allen. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT7_procurar_resolvido.button1,Continuar
+TokenT7_avistamento.text,El pasillo continúa a la derecha. Un Investigador en el módulo {c:TileT7_escadas} puede interactuar con esta ficha.
+TokenT7_avistamento.button1,Revelar
+EventT8_surge_corredor.text,El pasillo continúa a la derecha. El sonido apagado de una discusión llega desde esa dirección. \n\n Coloca el módulo {c:TileT8_corredor} en el lugar señalado.
+EventT8_porta_explorar_surge.text,La placa que hay en la puerta indica que es el despacho de Zadok Allen. \n\n Coloca una ficha de Puerta en el lugar señalado.
+EventT8_porta_explorar_surge.button1,Continuar
+EventT8_explorar_2_surge.text,La puerta que hay frente a la escalera tiene un cartel que dice «Sala de juegos». \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT8_explorar_2_surge.button1,Continuar
+EventT8_explorar_3_surge.text,Una puerta abierta. Al otro lado se oye una discusión. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT8_explorar_3_surge.button1,Continuar
+EventT8_avistamento_surge.text,El pasillo prosigue en esa dirección. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventT8_avistamento_surge.button1,Continuar
+EventT8_mov_extra.text,El Investigador que descartó la ficha de Vistazo tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT8_mov_extra.button1,Continuar
+TokenT6_explorar_1.text,Al fondo del despacho hay una puerta. Está cerrada y sólo se puede abrir desde dentro usando una llave.
+TokenT6_explorar_1.button1,{action} Abrir
+EventT8_surge_corredor.button1,Continuar
+EventT9_bart_teste.button1,Continuar
+TokenT14_rosa_pos_teste.text,—<i>Espero haberle sido de ayuda.</i>
+TokenT8_explorar_2.text,Una puerta que lleva a la sala de juegos.
+TokenT8_explorar_2.button1,{action} Abrir
+EventT9_surge.text,El salón de juegos está bien iluminado, y aunque pequeño, es un lugar ideal para el ocio. \n\n Coloca el módulo {c:TileT9_sala_jogos}. A continuación, descarta esta ficha de Exploración.
+EventT9_surge.button1,Continuar
+EventT9_Bart_surge.text,Cerca de la mesa de billar hay un hombre adulto, pero de aspecto juvenil. \n\n Levanta la vista de la mesa, te echa una mirada claramente hostil y prosigue su partida de billar como si no pasase nada en la mansión.
+EventT9_Bart_surge.button1,Continuar
+EventT9_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT9_mov_extra.button1,Continuar
+TokenT9_Bart_Allen.button1,{action} —<i>¿Qué me puede contar del señor Zadok Allen?</i>
+EventT4_donald_studart_jornal_teste.text,—<i>¿En serio lo necesita ahora? Estoy en mitad de un artículo.</i> \n\n Intentas convencerle para que te lo dé {influence}.
+EventT5_catrina_allen_resposta_vida.text,—<i>Mi nombre es Catrina Allen, y soy la hija de Ronald Allen. Soy la más pequeña de nuestra familia, y ése es el motivo por el que todos me tratan de manera condescendiente y no me muestran demasiado aprecio</i> —se interrumpe un momento, apretando los labios—. <i>La única persona que me trataba con cariño era mi abuelo y ahora está muerto.</i>
+TokenT3_shirley.text,—<i>Calma, los investigadores solucionarán esto.</i>
+EventT9_bart_teste.button2,Continuar
+EventT9_bart_sai.button1,Continuar
+EventT14_rosa_teste_passou.text,—<i>Por favor, tenga cuidado con ella.</i> \n\n Finalmente Rosa te entrega la escultura. \n\n Ganas el Objeto único {c:QItemT13_estatua_amor_odio}. \n\n Un Investigador con la {c:QItemT13_estatua_amor_odio} puede examinarla en cualquier momento usando el menú de Objetos en la aplicación.
+EventT9_bart_teste_passou.button1,Continuar
+EventT9_bart_teste_falhou.button1,Continuar
+TokenT8_explorar_3.text,Una puerta entreabierta. Al otro lado se oye una discusión.
+TokenT8_explorar_3.button1,{action} Abrir
+EventT10_surge_teste.text,Al abrir la puerta ves a un hombre que se dirige furioso hacia ti, vociferando y maldiciendo, hecho un basilisco ({agility}; 2). Si superas la tirada, te quitas de en medio y el hombre pasa de largo; tienes la oportunidad de avanzar 1 espacio hacia la zona explorada. Si fallas la tirada, el choque con el hombre hace que te caigas al suelo; sufres 1 de Daño boca abajo y tu turno termina inmediatamente. \n\n Coloca el módulo {c:TileT10_quarto_zadok}. A continuación, descarta esta ficha de Exploración.
+EventT10_surge_teste.button1,Continuar
+EventT10_Ronald_sai.text,Mueve la ficha de Personaje Hombre rojo al lugar señalado.
+EventT10_Ronald_sai.button1,Continuar
+EventT10_agente_craven_surge.text,Después de este pequeño encontronazo, observas al agente Craven en la habitación, que al verte te saluda. \n\n Coloca la ficha de Personaje del Agente Craven en el lugar señalado.
+EventT10_agente_craven_surge.button1,Continuar
+EventT10_zadok_allen_corpo_surge.text,El cuerpo de Zadok Allen está tendido sobre la cama, y todavía no ha sido examinado.
+EventT10_zadok_allen_corpo_surge.button1,Continuar
+EventT10_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT10_parede_surge.button1,Continuar
+TokenT4_bart_surge.text,Bart Allen tiene rostro serio y está bebiendo una copa.
+TokenT4_bart_surge.button1,Continuar
+TokenT4_ronald_allen.text,El hombre parece nervioso y se queda mirando por la ventana.
+TokenT4_ronald_allen.button1,Continuar
+TokenT4_donald_pos_catrina.text,Donald, sentado en la butaca, parece preocupado.
+TokenT4_donald_pos_catrina.button1,Continuar
+TokenT4_shirley_pos_catrina.text,Shirley Allen le da otro trago al güisqui.
+TokenT4_shirley_pos_catrina.button1,Continuar
+TokenT4_catrina_allen.text,Catrina tiene un semblante triste y está alejada del resto de la familia.
+TokenT4_catrina_allen.button1,Continuar
+TokenT10_agente_craven.button1,Continuar
+EventT4_shirley_pergunta_so_zadok.text,—<i>¿Qué es lo que quiere saber?</i>
+EventT10_craven_perguntas_zadok_confusao.button1,{action} —<i>¿Por qué motivo ha discutido con ese hombre?</i>
+EventT1_pergunta_trabalho.text,—<i>Llevo aquí como ama de llaves desde antes de la muerte de la esposa del señor Allen. He visto nacer a los hijos del matrimonio y siempre he sido una fiel empleada del señor Zadok, una persona digna de mi admiración.</i>
+EventT10_resposta_confusao.button1,Continuar
+EventT10_craven_perguntas_zadok_confusao.button2,{action} —<i>¿Qué me puede decir de la investigación en curso? </i>
+EventT4_shirley_respondido.text,—<i>Estoy un poco cansada, deme unos minutos y seguiré hablando con usted.</i>
+EventT10_craven_resposta_zadok.button1,Continuar
+EventT4_donald_studart_so_vida.text,—<i>¿Desea saber alguna cosa más?</i>
+EventT10_crave_pergunta_so_confusao.button1,{action} —<i>¿Por qué motivo ha discutido con ese hombre?</i>
+EventT10_crave_pergunta_so_confusao.button2,Cancelar
+TokenT10_agente_craven.button2,Cancelar
+EventT4_donald_studart_so_jornal.text,—<i>¿Desea saber alguna cosa más?</i>
+EventT10_craven_pergunta_so_zadok.button1,{action} —<i>¿Qué me puede decir de la investigación en curso? </i>
+EventT10_craven_pergunta_so_zadok.button2,Cancelar
+EventT10_craven_perguntas_zadok_confusao.button3,Cancelar
+EventT1_rosa_mendes_pergunta_so_crime.text,—<i>¿Qué es lo que quiere saber?</i>
+EventT10_craven_vai_embora.button1,Continuar
+EventT10_explorar_surge.text,Esta puerta lleva a la biblioteca personal de Zadok Allen.
+EventT10_explorar_surge.button1,Continuar
+EventT10_procurar_surge.text,A la derecha de la cama y del cuerpo de Zadok hay un objeto afilado.
+EventT10_procurar_surge.button1,Continuar
+TokenT10_procura.text,A la derecha de la cama y del cuerpo de Zadok hay un objeto afilado.
+TokenT10_procura.button1,{action} Examinar
+EventT10_procurar_resolvido.text,Cerca de las manos de Zadok encuentras un cuchillo de apariencia sencilla y lleno de sangre. \n\n Ganas el Objeto común {c:QItemT10_faca_morte}. A continuación, descarta esta ficha de Búsqueda. \n\n <i>Nota: Este objeto es una posible prueba para averiguar lo que ha sucedido aquí. Por tanto, no se puede usar como si fuese un objeto corriente</i>. \n\n El Investigador con el {c:QItemT10_faca_morte} puede examinarlo usando el menú de Objetos en la aplicación.
+EventT10_procurar_resolvido.button1,Continuar
+EventT10_olhar_faca_morte.text,Un cuchillo de aspecto sencillo, lleno de sangre, que estaba caído en el suelo, a la derecha del cuerpo de Zadok Allen.
+EventT10_olhar_faca_morte.button1,Continuar
+TokenT10_corpo_zadok_falso.button1,{action} Investigar
+EventT10_olhar_corpo_zadok.text,Mirando más de cerca descubres que el cuerpo del señor Zadok Allen está tumbado de forma rara, como si lo hubiesen colocado ahí. Además, las ropas están en muy buen estado, casi nuevas. \n\n Los cortes en las muñecas son profundos y seguramente por ellos salió una gran cantidad de sangre. Curiosamente, el suelo apenas está manchado, sólo hay un pequeño charco de sangre. \n\n Pero bueno, es un análisis preliminar y puede no ser concluyente. \n\n Ganas 1 Pista {clue}.
+EventT10_olhar_corpo_zadok.button1,Continuar
+EventT10_corpo_zadok_se_move.text,\n De repente, los ojos de Zadok se abren y su mano izquierda cae hacia un lado, por fuera de la cama ({will}; 2). Si superas la tirada, te das cuenta de que sólo son los espasmos post mortem de la musculatura. Si fallas la tirada, la visión de esos ojos sin vida te impresiona; sufres 1 de Horror y adquieres el estado <i>Aturdido.</i> \n\n Te percatas de que la mano izquierda de Allen, aunque muerta, parece señalar hacia algo. \n
+EventT10_corpo_zadok_se_move.button1,Continuar
+EventT10_procura_2_surge.text,Hay algo en el pequeño charco de sangre. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT10_procura_2_surge.button1,Continuar
+TokenT10_procurar_2.text,Hay algo en el pequeño charco de sangre.
+TokenT10_procurar_2.button1,{action} Buscar
+EventT10_procurar_2_resolvido.text,Al agacharte encuentras un par de llaves con sendas etiquetas que indican que son del despacho y de la biblioteca. A pesar de que están cerca del cuerpo, da la impresión de que llegaron aquí de otra manera. \n\n Ganas el Objeto único {c:QItemT10_chaves_cofre_zadok}. A continuación, descarta esta ficha de Búsqueda.
+EventT10_procurar_2_resolvido.button1,Continuar
+TokenT10_corpo_zadok_pos_investigacao.button1,Continuar
+TokenT10_corpo_zadok_pos_investigacao.text,El fallecido ya ha sido examinado.
+TokenT10_corpo_zadok_falso.text,El cuerpo de Zadok Allen está tendido sobre la cama
+EventT4_comeca_discussao.text,En el momento en el que todos los miembros de la familia Allen se juntan, comienza una gran discusión entre ellos.
+EventT4_comeca_discussao.button1,Continuar
+EventT4_Bart_fala_catrina.button1,Continuar
+EventT4_shirley_allen_defende_catrina.text,—<i>Cierra la boca, holgazán</i> —responde Shirley Allen—. <i>Sólo te interesa el dinero. Ella forma ahora parte de la familia y punto. Es problema de Ronald y no tuyo.</i>
+EventT15_acusacao_falsa.text,—<i>Ha perdido el juicio. No tengo nada que ver con eso...</i>
+EventT4_shirley_allen_defende_catrina.button1,Continuar
+EventT4_bart_rebate_shirley.text,—<i>Por lo menos yo era sincero y no me preocupaba por el viejo</i> —replica Bart Allen mirando a Shirley Allen—. <i>Peor eras tú, que no hacías nada de provecho y sólo venías aquí a coger flores para hacerle esos remedios de mierda a mi abuelo.</i>
+EventT4_bart_rebate_shirley.button1,Continuar
+EventT1_Rosa_Mendes_aviso.text,—<i>Pueden moverse libremente por la casa entrando en las habitaciones que estén abiertas. Les pido que tengan cuidado con los objetos personales del señor Zadok. Aunque esté muerto, sigo siendo una empleada de la casa y pretendo mantenerla en orden. En caso de que no deseen seguir hablando conmigo, me retiraré para seguir haciendo mi trabajo.</i> \n\n Al terminar esa frase, el semblante de Rosa Mendes muestra preocupación aunque en sus ojos hay un destello de determinación.
+EventT4_shirley_rebate_bart.button1,Continuar
+EventT4_donald_comeca_monstro.text,Donald comienza a sentirse molesto con la situación. \n\n Parece que lo está pasando mal.
+EventT4_donald_comeca_monstro.button1,Continuar
+EventT4_donald_comeca_monstro_2.text,Donald parece estar aún más afectado.
+EventT4_donald_comeca_monstro_2.button1,Continuar
+EventT4_ronald_fala.text,Preocupado por lo que Donald pueda hacer, Ronald Allen toma la palabra: \n\n —<i>Silencio, esta discusión no lleva a ninguna parte. Para lo único que está sirviendo es para evidenciar los problemas que tiene esta familia. En lo que respecta a Catrina, ella ahora es mi hija. Me recuerda mucho a mi amada madre, Carol Allen, y ha alegrado a mi padre en el final de su vida.</i>
+EventT4_ronald_fala.button1,Continuar
+EventT4_jornal_cai_donald.text,Donald Studart, visiblemente molesto, finalmente deja el periódico que estaba leyendo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT4_jornal_cai_donald.button1,Continuar
+TokenT4_procura_1.text,El periódico que Donald Studart estaba leyendo descansa ahora sobre el suelo.
+TokenT4_procura_1.button1,{action} Buscar
+EventT4_procurar_jornal_resolvido.text,Recoges el periódico del suelo. \n\n Ganas el Objeto único {c:QItemT4_jornal}. A continuación, descarta esta ficha de Búsqueda.
+EventT4_procurar_jornal_resolvido.button1,Continuar
+EventT4_donald_vira_monstro.text,Donald comienza a gritar y a gruñir, agonizando y cayendo al suelo. \n\n Unos instantes después, se levanta transformado en algo pavoroso. \n\n Aparece un Hijo de Dagón en el lugar señalado. A continuación, descarta la ficha de Personaje Hombre amarillo.
+EventT4_donald_vira_monstro.button1,Continuar
+SpawnT4_donald_monstro.button1,Continuar
+EventT4_aviso_monstro.text,El monstruo en el que se ha convertido Donald, a pesar de su horrible apariencia, evita atacar a los miembros de su familia. \n\n Se da la vuelta y centra toda su atención en los Investigadores. \n\n Está claro que la única manera de evitar que Donald haga algo peor es que los Investigadores se enfrenten a él.
+EventT4_aviso_monstro.button1,Continuar
+TokenT8_avistamento.text,El pasillo prosigue en esa dirección. Un Investigador en el módulo {c:TileT8_corredor} puede interactuar con esta ficha.
+TokenT8_avistamento.button1,Revelar
+EventT11_surge.text,El pasillo termina con dos puertas. Una débil luz se filtra por una de ellas. \n\n Coloca el módulo {c:TileT11_banheiro}. A continuación, descarta esta ficha de Vistazo.
+EventT11_surge.button1,Continuar
+EventT11_explorar_1_surge.text,A tu izquierda hay una puerta con una placa: «Sala de estudio»
+EventT11_explorar_1_surge.button1,Continuar
+EventT11_explorar_2.text,Una débil luz sale de la puerta de aspecto sencillo que tienes delante.
+EventT11_explorar_2.button1,Continuar
+EventT11_mov_extra.text,El Investigador que descartó la ficha de Vistazo tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT11_mov_extra.button1,Continuar
+TokenT11_explorar_2.text,Una débil luz sale de la puerta de aspecto sencillo que tienes delante.
+TokenT11_explorar_2.button1,{action} Abrir
+EventT11_surge_banheiro.button1,Continuar
+EventT11_rosa_surge_banheiro.text,Al abrir la puerta te encuentras a Rosa Mendes. Sus ojos están enrojecidos, como si hubiese estado llorando. \n\n Rápidamente coloca unos frascos en la parte superior de la bañera. \n\n —<i>Discúlpeme, ya estaba terminando. Tengo que tirar la basura urgentemente, órdenes del señor Roland Allen.</i> \n\n
+EventT11_rosa_vai_embora.text,Rosa Mendes sale del cuarto de baño triste y secándose las lágrimas.
+EventT11_rosa_vai_embora.button1,Continuar
+EventT11_procurar_surge.text,Varios frascos de medicamentos alineados. Deberías examinarlos para ver si hay algo que te pueda servir.
+EventT11_procurar_surge.button1,Continuar
+EventT11_mov_extra_banheiro.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT11_mov_extra_banheiro.button1,Continuar
+TokenT11_procurar.text,Varios frascos de medicamentos alineados. Puede que haya algo que te sirva.
+TokenT11_procurar.button1,{action} Buscar
+EventT11_procurar_teste.text,Mirando con atención crees que podrías encontrar algo útil {observation}. \n
+EventT11_procurar_teste.button1,Continuar
+EventT11_procurar_passou.text,Los frascos contienen medicamentos sencillos, tipo analgésicos, vitaminas y otros suplementos dietéticos. Todos los frascos están prácticamente vacíos. Se podría decir que son todo medicamentos para mejorar la salud. \n\n Da la impresión de que se han usado hace poco. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT11_procurar_passou.button1,Continuar
+EventT11_procurar_teste.button2,Continuar
+EventT11_procura_banheiro_falhou.text,A pesar de tu detallado escrutinio, no ves nada que te interese.
+EventT11_procura_banheiro_falhou.button1,Continuar
+TokenT11_explorar_1.text,Una puerta con una inscripción en ella: «Sala de estudios»
+TokenT11_explorar_1.button1,{action} Abrir
+EventT12_surge.text,Una estupenda sala de estudio. Probablemente Zadok Allen pasaba las horas en este sitio. \n\n Coloca el módulo {c:TileT12_sala_estudos}. A continuación, descarta esta ficha de Exploración.
+EventT12_surge.button1,Continuar
+EventT12_procurar_1_surge.button1,Continuar
+TokenT12_procurar_1.text,Unos libros y varios textos. Quizá puedas usar alguno de ellos.
+EventT12_procurar_2_surge.text,Un montón de textos escritos a mano por Zadok. Quizá escribió algo antes de suicidarse.
+EventT12_procurar_2_surge.button1,Continuar
+EventT12_procurar_3.text,Notas olor a quemado, hace poco que ha ardido algo en la chimenea.
+EventT12_procurar_3.button1,Continuar
+EventT12_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT12_mov_extra.button1,Continuar
+EventT12_procurar_1_surge.text,Unos libros y varios textos. Quizá puedas usar alguno de ellos.
+TokenT12_procurar_1.button1,{action} Buscar
+EventT12_procurar_1_teste.text,Hojeas los libros, algunos de los cuales tienen símbolos extraños o temáticas exóticas. En definitiva, cosas muy del gusto del señor Zadok Allen {lore}.
+EventT12_procurar_1_teste.button1,Continuar
+EventT12_procurar_1_teste_passou.text,Sólo consigues entender las partes más sencillas del texto. Parece ser una extraña receta para mejorar el estado de la mente. \n\n Ganas el Hechizo {c:QItemT12_feitio}. A continuación, descarta esta ficha de Búsqueda.
+EventT12_procurar_1_teste_passou.button1,Continuar
+EventT12_procurar_1_teste.button2,Continuar
+EventT12_procurar_1_teste_falhou.text,Los símbolos de los textos carecen de sentido para ti.
+EventT12_procurar_1_teste_falhou.button1,Continuar
+EventT12_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT12_parede_surge.button1,Continuar
+EventT11_surge_banheiro.text,Abres la puerta poco a poco. \n\n Descarta esta ficha de Exploración.
+EventT11_rosa_surge_banheiro.button1,Continuar
+EventT6_explorar_1_porta_aberta.text,Con un clic, la puerta se abre. \n\n Descarta esta ficha de Exploración.
+EventT6_explorar_1_porta_aberta.button1,Continuar
+TokenT3_explorar_1.button2,{action} Abrir con la llave
+EventT6_surge_chave.text,Al abrir la puerta encuentras un despacho desordenado, como si el propietario lo usase a diario y no se tomase la molestia de arreglar el desorden. \n\n Coloca el módulo {c:TileT6_escritorio_zadok}. A continuación, descarta esta ficha de Exploración.
+EventT6_surge_chave.button1,Continuar
+EventT6_procurar_1_surge_chave.text,El armario que hay delante de ti alberga una preciosa colección de armas de fuego. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_procurar_1_surge_chave.button1,Continuar
+EventT6_procurar_2_surge_chave.text,Sobre la mesa hay varios papeles desordenados. Quizá merezca la pena echarles un ojo.
+EventT6_procurar_2_surge_chave.button1,Continuar
+EventT6_procurar_3_surge_chave.text,En un rincón de la sala hay una caja fuerte. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT6_procurar_3_surge_chave.button1,Continuar
+EventT6_mov_extra_chave.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT6_mov_extra_chave.button1,Continuar
+TokenT10_explorar.text,Esta puerta lleva a la biblioteca personal de Zadok Allen. \n\n Está cerrada con llave. \n\n Sólo el Investigador que posea las llaves correctas podrá abrir la puerta.
+TokenT10_explorar.button1,{action} Abrir
+EventT13_surge.text,Al abrir la puerta te percatas del gusto peculiar y exótico que tenía Zadok Allen. \n\n A lo largo de la sala hay todo tipo de libros y utensilios de diferentes culturas. \n\n Coloca el módulo {c:TileT13_biblioteca}. A continuación, descarta esta ficha de Exploración.
+EventT13_surge.button1,Continuar
+EventT6_explorar_chave.text,Al fondo del despacho hay una puerta. Está cerrada y sólo se puede abrir desde dentro.
+EventT6_explorar_chave.button1,Continuar
+EventT1_allens_vao_hall.text,Viendo lo desesperado de la situación, los miembros restantes de la familia Allen salen corriendo y se reúnen en el vestíbulo. \n\n Mueve las fichas de Personajes al lugar señalado.
+EventT1_allens_vao_hall.button1,Continuar
+TokenT12_procurar_2.text,Un montón de textos escritos a mano por Zadok. Quizá escribió algo antes de suicidarse.
+TokenT12_procurar_2.button1,{action} Buscar
+EventT12_procurar_2_teste.button1,Continuar
+EventT12_procurar_2_teste_passou.button1,Continuar
+EventT12_procurar_2_teste.text,Una serie de textos de lo más diverso {observation}.
+EventT12_procurar_2_teste.button2,Continuar
+EventT12_procurar_2_teste_passou.text,Observando más detenidamente encuentras unas pequeñas anotaciones que parecen ser más recientes que el resto. \n\n Ganas el Objeto único {c:QItemT12_anotacao_zadok_ronald}. A continuación, descarta esta ficha de Búsqueda. \n\n El {c:QItemT12_anotacao_zadok_ronald} puede ser consultado en cualquier momento usando el menú de Objetos de la aplicación.
+EventT12_procurar_2_teste_falhou.text,Los textos son de todo tipo y parece que en ellos no vas a encontrar nada útil.
+EventT12_procurar_2_teste_falhou.button1,Continuar
+EventT12_ler_anotacoes_zadok_ronald.text,Coges las notas y comienzas a leerlas. \n\n <i>Nota: Leer por primera vez cuesta una {action}. Sucesivas lecturas no gastan {action}.
+EventT12_ler_anotacoes_zadok_ronald.button1,{action} Leer
+EventT12_anotacao_zadok_allen_pag_1.button1,{action} Leer
+EventT1_rosa_mendes_pergunta_so_trabalho.text,—<i>Pues no, ¿qué es lo que quiere saber?</i>
+EventT12_ler_anotacoes_zadok_ronald.button2,Continuar
+EventT9_bart_sai.text,—<i>No tengo muchas ganas de charlar, voy a ver si la borracha de mi madre quiere compartir conmigo su botella de güisqui.</i> \n\n Mueve la ficha de Personaje Hombre azul al lugar señalado.
+EventT12_anotacao_zadok_allen_pag_2.button1,Continuar
+EventT12_olhar_anotacao_zadok_ronald_lido.text,Primera página: \n Te fijas en la caligrafía de Zadok Allen, excelente en su ejecución y, por lo que puedes deducir, hecha por una persona zurda. \n Además, la tinta del texto está algo envejecida, así que es algo que se escribió hace tiempo. \n\n Segunda página: \n Extrañamente, esta parte del texto parece que se escribió hace poco, la letra es casi igual a la de la página anterior, pero sin embargo la escribió alguien diestro.
+EventT12_olhar_anotacao_zadok_ronald_lido.button1,Continuar
+TokenT12_procurar_3.text,Te huele a quemado, hace poco que ha ardido algo en la chimenea.
+TokenT12_procurar_3.button1,{action} Buscar
+EventT12_procurar_3_teste.text,Las brasas todavía están calientes, y para recuperar lo que han tirado dentro necesitas darte prisa ({agility}; 2). Si superas la tirada, consigues coger el papel. Si fallas la tirada, consigues el papel, pero te quemas en el intento; sufres 1 de Daño. \n\n Ganas el Objeto único {c:QItemT12_partitura_queimada}. A continuación, descarta esta ficha de Búsqueda. \n\n Puedes examinar la {c:QItemT12_partitura_queimada} usando el menú de Objetos de la aplicación.
+EventT12_procurar_3_teste.button1,Continuar
+EventT12_olhar_partitura.text,Un trozo quemado de una partitura. No la entiendes, ya que no sabes tocar ningún instrumento musical.
+EventT12_olhar_partitura.button1,Continuar
+EventT12_ler_anotacoes_zadok_ronald.button3,Cancelar
+EventT12_anotacao_zadok_allen_pag_1.button2,Cancelar
+EventT12_guardar_partitura.text,Aunque en principio no parece muy útil, acabas guardando el papel. \n\n <i>Nota: Este papel es una posible pista para averiguar lo que está pasando.</i>
+EventT12_guardar_partitura.button1,Continuar
+EventMorte_donald_studart.text,Con otro sonido gutural, la criatura comienza a transformarse de nuevo en Donald Studart, que agoniza y pronuncia sus últimas palabras. \n\n —<i>Perdónenme, nunca creí que llegaría a este punto... me han manipulado, yo sólo quería salvar mi bufete... Quien me hizo esto fue...</i> \n\n En el momento de hacer la revelación, Ronal Studart deja escapar su último aliento y abandona este mundo. \n\n Todos los Investigadores ganan 1 Pista {clue}. A continuación, descarta esta figura de Monstruo.
+EventMorte_donald_studart.button1,Continuar
+EventT4_procurar_2_surge.text,Entre tanta confusión se dejaron algo en el suelo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT4_procurar_2_surge.button1,Continuar
+TokenT4_procurar_2.text,Entre tanta confusión se dejaron algo en el suelo.
+TokenT4_procurar_2.button1,{action} Buscar
+EventT4_pegar_sedativo.text,Aunque es muy pequeña, logras encontrar una jeringa vacía caída sobre el suelo, cerca del lugar donde Donald Studart se convirtió en esa inquietante criatura. \n\n Ganas el Objeto común {c:QItemT4_sedativo}. A continuación, descarta esta ficha de Búsqueda. \n\n <b>Este Objeto es una prueba para resolver la investigación y por lo tanto no se puede usar a lo largo de la partida </b>. \n\n El Investigador que posea el {c:QItemT2_veneno} puede examinarlo usando el menú de Objetos en la aplicación.
+EventT4_pegar_sedativo.button1,Continuar
+EventT4_sedativo_inspecionar.text,Aunque está vacía, queda algo de líquido en la punta de la jeringa.
+EventT4_sedativo_inspecionar.button1,{action} Investigar
+EventT4_seringa_verificada.text,El olor que desprende la punta de la jeringuilla te recuerda al aroma de flores exóticas. \n\n <i>Este dato puede ser una posible pista para la investigación.</i>
+EventT4_seringa_verificada.button1,Continuar
+EventT4_sedativo_investigado.text,El olor que desprende la punta de la jeringuilla te recuerda al aroma de flores exóticas.
+EventT4_sedativo_investigado.button1,Continuar
+EventT5_catrina_teste.text,—<i>¿Yo? Nada importante...</i> \n\n La niña parece estar incómoda, quizá puedas ganarte su confianza {influence}.
+TokenT1_Shirley_allen_surge.button1,Continuar
+TokenT1_Shirley_allen_surge.text,—<i>Dios mío, ayuda a Donald.</i>
+TokenT1_Bart_allen_surge.button1,Continuar
+EventT14_rosa_teste.text,—<i>No sé, es muy importante para mí. Mi querido Zadok me regaló esta escultura que tiene la palabra «Amor» en la parte inferior del pedestal {influence}.
+TokenT1_Catrina_allen_surge.button1,Continuar
+EventT4_donald_jornal_teste_passou.text,—<i>De acuerdo, ya que usted es el investigador oficial del caso, creo que debo ayudarle en lo que pueda.</i> \n\n Donald Studart te entrega el periódico, aunque con ciertas reservas. \n\n Ganas el Objeto único {c:QItemT4_jornal}. \n\n El Investigador que posea el {c:QItemT4_jornal} puede examinarlo usando el botón de Objetos en la aplicación.
+TokenT1_Ronald_allen_surge.button1,Continuar
+EventT13_procurar_1_surge.text,Cerca de la puerta hay una librería llena de libros y pergaminos antiguos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT13_procurar_1_surge.button1,Continuar
+TokenT13_procurar_1.text,Una estantería llena de libros y pergaminos antiguos.
+TokenT13_procurar_1.button1,{action} Buscar
+EventT13_procurar_2_surge.text,Más adelante hay otra estantería. En ella se disponen varias esculturas de criaturas y seres de culturas que te son totalmente ajenas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT13_procurar_2_surge.button1,Continuar
+TokenT13_procurar_2.text,Hay varias esculturas de criaturas y seres de otras culturas que te son completamente desconocidas.
+TokenT13_procurar_2.button1,{action} Buscar
+EventT13_procurar_3_surge.text,Al fondo de la sala hay un sillón sobre el que descansa un cuaderno abierto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT13_procurar_3_surge.button1,Continuar
+TokenT13_procurar_3.text,Al fondo de la sala hay un sillón sobre el que descansa un cuaderno abierto.
+TokenT13_procurar_3.button1,{action} Buscar
+EventT13_parade_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT13_parade_surge.button1,Continuar
+EventT13_mov_extra.text,El Investigador que abrió la puerta tiene la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventT13_mov_extra.button1,Continuar
+EventT13_procurar_1_teste.text,Unos tomos antiguos y de contenido denso que van a requerir toda tu atención para encontrar algo {lore}.
+EventT13_procurar_1_teste.button1,Continuar
+EventT13_procurar_1_teste_passou.button1,Continuar
+EventT13_procurar_1_manual_medicina.text,Tu búsqueda no ha sido en vano y encuentras un tomo que te puede ayudar. \n\n Ganas el Objeto común {c:QItemT13_manual_medicia}. A continuación, descarta esta ficha de Búsqueda.
+EventT13_procurar_1_manual_medicina.button1,Continuar
+EventT4_Bart_fala_catrina.text,—<i>No me puedo creer que parte de la herencia vaya a parar a esa ordinaria. Ni siquiera es de nuestra familia</i> —dice Bart Allen apuntando con el dedo hacia Catrina Allen.
+EventT13_procurar_1_protecao_pele.button1,Continuar
+EventT9_bart_teste_passou.text,—<i>El anciano... era mi abuelo. No tenía mucho trato con él, cada vez era más huraño. Sólo quería la compañía del ama de llaves. Yo creo que en ocasiones compartían cama. En lo que a mí respecta, una vez que haya recibido mi herencia, me importa muy poco lo que pase.</i>
+EventT13_procurar_1_biblia.button1,Continuar
+EventT4_shirley_rebate_bart.text,—<i>Eres un desagradecido, vine a petición de tu padre para pedir ayuda con la delicada situación económica del bufete de abogados Studart. Esa receta me la dio tu tío Ronald, que tiene conocimientos farmacéuticos, y tu padre me pidió que le hiciese esos medicamentos. Tú, en cambio, lo único que querías de él era su dinero. \n\n Shirley Allen empieza a llorar.
+EventT13_procurar_1_manuscrito.button1,Continuar
+EventT13_procurar_1_teste.button2,Continuar
+EventT13_procurar_1_teste_falhou.text,A pesar de tu empeño, hay tanto donde mirar que no eres capaz de encontrar algo útil.
+EventT13_procurar_1_teste_falhou.button1,Continuar
+EventT13_procurar_2_teste.text,Es difícil distinguir algo entre tantos objetos extraños {observation}.
+EventT13_procurar_2_teste.button1,Continuar
+EventT13_procurar_2_passou.text,Entre todas destaca una escultura. Se trata de una criatura de otro mundo. \n\n En su pedestal está escrita la palabra «<i>Odio</i>». \n\n Ganas el Objeto único {c:QItemT13_estatua_amor_odio}. A continuación, descarta esta ficha de Búsqueda. \n\n El Investigador que posea la {c:QItemT13_estatua_amor_odio} puede examinarla usando el menú de Objetos en la aplicación.
+EventT13_procurar_2_passou.button1,Continuar
+EventT13_procurar_2_teste.button2,Continuar
+EventT13_procurar_2_teste_falhou.text,Las estatuas son extrañas y te producen una cierta repulsa. \n
+EventT13_procurar_2_teste_falhou.button1,Continuar
+EventT13_procurar_3_resolvido.text,Es una simple agenda, con algunas anotaciones que parecen ser de Zadok Allen. \n\n «<i>Pedirle a Rosa que me traiga la comida a la habitación. Estoy ensuciando demasiado los manteles de la cocina con sangre</i>». \n\n «<i>Mandar hacer copias de las llaves de la biblioteca para Rosa, Ronald, Donald y Shirley. Los cuatro me las han pedido</i>». \n\n «<i>Pedirle a Rosa que arregle la biblioteca, algunos de los libros estaban descolocados, principalmente los de estantería de Pociones y Rituales</i>». \n\n «<i>Hasta hoy no sabía cuál era el motivo por el que había guardado esos macabros textos</i>». \n\n «<i>Tengo que pedirle a Catrina que venga más veces a tocar el piano. Es una excelente pianista</i>». \n\n «<i>Amor mío, te echo mucho de menos, el dinero sin ti no vale nada, creo que necesito escuchar esa canción una vez más, ¿cuál era su título?... recuerda</i>». \n\n «<i>Cuando el amor y el odio chocan</i>». \n\n Descarta la ficha de Búsqueda.
+EventT13_procurar_3_resolvido.button1,Continuar
+TokenT2_explorar_1.text,Al fondo del comedor hay una puerta cerrada con un letrero que pone «<i>Cuarto del ama de llaves</i>».
+TokenT2_explorar_1.button1,Continuar
+EventT5_bart_shirley_surgem.text,Bart Allen y Shirley Allen se van al jardín de la casa. \n\n Mueve las fichas de Personaje Mujer azul y Mujer morada al lugar señalado.
+EventT5_bart_shirley_surgem.button1,Continuar
+EventT2_Ronald_surge.button1,Continuar
+EventT4_catrina_surge_pos_morte_monstro.text,Catrina se va al sofá del salón. \n\n Mueve la ficha de Personaje Niña al lugar señalado.
+EventT1_rosa_mendes_pergunta_1e2.text,—<i>¿Qué es lo que desea saber?</i>
+EventT4_catrina_surge_pos_morte_monstro.button1,Continuar
+TokenT15_Bart_allen.text,—<i>¿Qué es lo que quiere de mí?</i>
+TokenT5_bart_allen.button1,Continuar
+EventT12_anotacao_zadok_allen_pag_2.text,<i>Tengo que hacer una lista con las personas de mi familia que quieren hacerme daño. \n\n 1) Bart Allen - Engolado e impresentable, sólo viene a verme para llevarse mi dinero. \n\n 2) Donald Studart - Abogado fracasado y ególatra, se casó con mi hija para quedarse con parte de mi fortuna. \n\n 3) Rosa Mendes - No es de la familia, pero ha sido siempre mi ama de llaves. Tal vez quiera difamar de mí por nuestra perturbadora relación. \n\n 4) Ronald Allen - Mi hijo mayor, desea mi herencia, pero intenta que no se note mucho. \n\n 5) Shirley Allen - Mi hija que siempre se sintió menospreciada. Se pasa la vida bebiendo, pero no creo que me desee ningún mal. \n\n 6) Catrina Allen - Hija de Ronald y la más joven de la familia. Me recuerda tanto a mi amada Carol. Será por eso por lo que Ronald la ha elegido, para que le recordase a la madre que tanto quería y que tanto echaba de menos después de su suicidio.</i> \n\n Extrañamente, esta parte del texto parece haberse escrito hace poco, la letra es igual que la de la página anterior aunque parece haber sido escrita por una persona diestra. \n\n Ganas 1 Pista {clue}. \n\n Nota: Se trata de una posible pista para investigar lo que ha sucedido en este lugar.
+TokenT5_shirley.button1,Continuar
+EventT10_craven_vai_embora.text,—<i>Tengo que irme ya. Bueno, ya quedaremos para tomar algo</i> —dicho lo cual el agente Craven se marcha. \n\n Descarta la ficha de Personaje del Agente Craven.
+TokenT2_ronald.button1,Continuar
+TokenT1_Ronald_allen_surge.text,—<i>Será mejor que actúe rápido, por la seguridad de todos</i> —te dice con tono grave—. <i>Haga todo lo que sea necesario.</i>
+TokenT4_Catrina_pos_morte_monstro.button1,Continuar
+EventT14_surge.text,Desde el fondo de la cocina se oye un lamento. Alguien abrió la puerta. \n\n Coloca el módulo {c:TileT14_quarto_rosa} y una ficha de Puerta. A continuación, descarta esta ficha de Exploración.
+EventT14_surge.button1,Continuar
+EventT14_parede_surge.text,Coloca una ficha de Pared en el lugar señalado.
+EventT14_parede_surge.button1,Continuar
+EventT14_procurar_1_surge.button1,Continuar
+EventT14_rosa_mendes_surge.text,Rosa Mendes está sentada en la cama, llorando y sosteniendo algo en la mano. \n\n Coloca la ficha de Personaje Mujer gris en el lugar señalado.
+EventT14_procurar_1_surge.text,La basura que debería haber tirado Rosa Mendes sigue apilada en un rincón de su habitación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT14_rosa_mendes_surge.button1,Continuar
+TokenT14_procurar_1.text,La basura que debería haber tirado Rosa Mendes sigue apilada en un rincón de su habitación.
+TokenT14_procurar_1.button1,{action} Buscar
+EventT14_procurar_resolvido.text,Le pides permiso a Rosa para vaciar el cubo de basura. \n\n El olor es nauseabundo y hace que se te revuelva el estómago ({will}; 2). Si superas la tirada, observas detenidamente la basura y encuentras algo extraño. Si fallas la tirada, te dan arcadas y terminas por vomitar; sufres 1 de Horror boca abajo y adquieres el estado <i>Aturdido.</i> \n\n Ganas el Objeto único {c:QItemT14_planta_casa}. A continuación, descarta esta ficha de Búsqueda.
+EventT14_procurar_resolvido.button1,Continuar
+EventT14_planta_rasgada.text,Unos trozos de papel que parece que si se juntasen formarían algo.
+EventT14_planta_rasgada.button1,{action} Ordenar
+EventT14_planta_pronta.text,Te das cuenta de que los papeles forma un plano de la mansión de Zadok Allen.
+PuzzleT14_planta_casa.button1,Probar
+EventT14_planta_pronta.button1,Continuar
+EventT14_planta_guardada.text,Decides quedártelo como una prueba. \n\n <i>Nota: Se trata de una posible prueba para averiguar qué ha pasado.</i>
+EventT14_planta_guardada.button1,Continuar
+EventT14_planta_completa_feita.text,Una planta de la mansión de Zadok Allen.
+EventT14_planta_completa_feita.button1,Continuar
+TokenT14_rosa.text,Rosa Mendes sostiene un extraño objeto en la mano.
+TokenT14_rosa.button1,—<i>¿Me permite echar un vistazo a ese objeto, señora Mendes?</i>
+TokenT3_bart.text,—<i>Primero mi tío y ahora mi padre, ¡qué maravillosa familia!</i>
+EventT14_rosa_teste.button1,Continuar
+EventT13_procurar_1_protecao_pele.text,\n Tu búsqueda no ha sido en balde. Encuentras un texto que te puede servir. \n\n Ganas el Hechizo {c:QItemT13_protecao_pele}. A continuación, descarta esta ficha de Búsqueda. \n
+EventT14_rosa_teste_passou.button1,Continuar
+EventT14_rosa_teste.button2,Continuar
+EventT5_catrina_allen_respondeu_perguntas.text,—<i>Espero haberle sido de ayuda.</i>
+EventT14_rosa_teste_falhou.button1,Continuar
+EventT4_donald_studart_respondido.text,—<i>Si no tiene nada más que preguntar, me gustaría estar solo.</i>
+TokenT14_rosa_pos_teste.button1,Continuar
+EventAviso_destruir_estatua.text,Desde dentro de la escultura se oye un ruido de algo que palpita.
+EventAviso_destruir_estatua.button1,Continuar
+EventT14_T13_estatua.button1,Continuar
+EventT14_T13_uma_estatua.text,Una extraña escultura encontrada en la mansión de Zadok Allen.
+EventT14_T13_uma_estatua.button1,Continuar
+EventT14_T13_estatua.button2,Cancelar
+EventT14_T13_quebrar_estatua.text,Ambas estatuas son idénticas y sólo se diferencian por tener escrito «<i>Amor</i>» en una y «<i>Odio</i>» en la otra. \n\n Una extraña fuerza está atrayendo a las dos estatuas, como si fueran a chocar. \n\n Un Investigador necesita tener las dos estatuas para poder romperlas.
+EventT14_T13_quebrar_estatua.button1,{action} Dejar que choquen
+EventT14_T13_quebrar_estatua.button2,Cancelar
+EventT14_T13_soltar_estatuas.text,Las dos esculturas chocan con fuerza y algo cae al suelo. Te agachas y descubres que es una elegante llave. \n\n Ganas el Objeto único {c:QItemT14_T13_chave_cofre}. A continuación descarta los dos Objetos únicos {c:QItemT13_estatua_amor_odio}.
+EventT14_T13_soltar_estatuas.button1,Continuar
+EventT14_T13_segurar_estatuas.text,Decides no romper las esculturas.
+EventT14_T13_segurar_estatuas.button1,Continuar
+TokenT6_procurar_3.text,Una caja fuerte. Sin la llave es imposible abrirla.
+TokenT6_procurar_3.button1,{action} Abrir
+EventT6_procurar_resolvido.text,Te sorprende que en la caja fuerte no haya dinero. Lo único que contiene es una caja de música y un papel. \n\n Ganas el Objeto único {c:QItemT6_procurar_3_caixa_musica}. \n Puedes examinar la caja usando el menú de Objetos en la aplicación. \n\n En el papel hay algo escrito: \n\n «<i>Necesitaba guardar esta página del libro. Han descubierto lo que hice... ésa es la única explicación, ¿qué otro motivo hay para que alguien esté entrando a todas horas en la biblioteca? \n\n No tienen ni idea de que va a salir mal, ya que para conseguir ese grado de enriquecimiento hay que sacrificar aquello que más se ama, y no lo que más odias. \n\n Y prácticamente todos me odian.</i>» \n\n Descarta esta ficha de Búsqueda.
+EventT6_procurar_resolvido.button1,Continuar
+EventT6_caixa_musica.text,La caja de música parece antigua, pero quizá funcione. \n\n <i>Nota: Sólo necesitas gastar una {action} al usar por primera vez el objeto. Después podrás usarlo más veces sin gastar una {action}.</i>
+EventT6_caixa_musica.button1,{action} Dar cuerda
+EventT6_tocar_caixa_musica.text,Oyes una hermosa melodía, pero parece que está incompleta. Quizá alguien que sepa de música te pueda ayudar.
+EventT6_tocar_caixa_musica.button1,Continuar
+EventT6_caixa_musica.button2,Dar cuerda
+TokenT1_Bart_allen_surge.text,—<i>Mi padre...</i>
+EventT4_Catrina_piano.button1,{action} Entregar
+EventT4_fala_pos_morte.button1,Continuar
+EventT2_Ronald_surge.text,—<i>Necesito un trago.</i> \n\n Mueve la ficha de Personaje Hombre rojo al lugar señalado.
+EventT4_entregar_caixa_catrina.button1,Continuar
+EventT4_entregar_partitura.text,Rápidamente le das a Catrina la caja de música y la partitura. \n\n Descarta los Objetos únicos {c:QItemT12_partitura_queimada} y {c:QItemT6_procurar_3_caixa_musica}.
+EventT4_entregar_partitura.button1,Continuar
+EventT3_catrina_surge.text,Catrina Allen corre hacia el piano para probar su nueva partitura. \n\n Mueve la ficha de Personaje Niña al lugar señalado.
+EventT3_catrina_surge.button1,Continuar
+EventT4_Catrina_piano.button2,Cancelar
+TokenT3_catrina_allen.text,Catrina Allen está sentada al piano. \n\n —<i>¿Puedo comenzar a tocar?</i> —te pregunta.
+TokenT3_catrina_allen.button1,{action} Dejar que toque
+EventT3_catrina_toca.text,Catrina Allen, con una gracia que no le habías visto antes, toca el resto de la melodía.
+EventT3_catrina_toca.button1,Continuar
+EventT3_escada_surge.text,Al parar la música oyes un ruido y de repente el piano se echa hacia un lado, dejando al descubierto un pasaje que desciende. \n\n Coloca una ficha de Trampilla en el lugar señalado.
+EventT3_escada_surge.button1,Continuar
+EventT15_surge.text,Al final de las escaleras recién abiertas hay un sótano enorme, oscuro y con un olor nauseabundo. \n\n Coloca el módulo {c:TileT15_porao} y la ficha de Trampilla en el lugar señalado. \n\n <i>Nota: La trampilla conecta el sótano con el salón. Ambos espacios se consideran adyacentes.</i>
+EventT15_surge.button1,Continuar
+EventT15_escuridao_surge.text,Coloca fichas de Oscuridad en los lugares señalados.
+EventT15_escuridao_surge.button1,Continuar
+EventT15_vdd_zadok_surge.text,En el interior del sótano yace un cuerpo, amarrado de una manera  macabra y con unos extraños dibujos en el suelo, rodeándolo. \n\n Coloca la ficha de Personaje Hombre gris en el lugar señalado.
+EventT15_vdd_zadok_surge.button1,Continuar
+EventT15_mov_extra.text,El Investigador que ha dejado que Catrina Allen tocase el piano tiene la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n Mueve la ficha de Personaje Niña al lugar señalado.
+EventT15_mov_extra.button1,Continuar
+TokenT15_vdd_zadok.text,Un cuerpo tumbado sobre el suelo, atado de una forma macabra. Además, está rodeado por unos extraños dibujos. \n\n Puedes acercarte para examinar el cuerpo con más detalle.
+TokenT15_vdd_zadok.button1,{action} Investigar
+EventT15_vdd_zadok_resolvido.text,Examinas el cuerpo y, a pesar de que está un poco desfigurado, te resulta familiar. Un colgante pende de su cuello. Parece estar roto por la mitad. \n\n Los símbolos no parecen tener nada que ver con la escena y casi parecen algún tipo de ritual extraño. \n\n A pesar tu experiencia en escenas de crímenes, lo que ves te afecta {will}. Si la tirada tiene éxito, te concentras en tu investigación. Si la tirada falla, la escena se te queda grabada en la retina; sufres 1 de Horror boca abajo. \n\n  <i>Nota: Se trata de una posible pista para aclarar lo sucedido en este caso.</i>
+EventT15_vdd_zadok_resolvido.button1,Continuar
+EventT15_virando_monstro.text,Cuando estás a punto de salir, un extraño ruido emerge del cuerpo que está tendido en el suelo. En ese momento, se pone en pie y sus ojos sin vida se clavan en ti. \n\n Aparece un Híbrido de profundo en el lugar señalado. A continuación, descarta la ficha de Personaje Hombre gris.
+EventT15_virando_monstro.button1,Continuar
+EventT6_caixa_musica.button3,Cancelar
+EventT15_suspeitos_surgem.text,Al oír los golpes y los disparos, Rosa Mendes y el resto de la familia Allen bajan por las escaleras y se refugian en el sótano, asustados y nerviosos. \n\n Mueve todos los marcadores de Personaje a los lugares señalados.
+EventT15_suspeitos_surgem.button1,Continuar
+EventT15_aviso_incriminar_suspeito.text,—<i>¡Que nadie se mueva de su sitio!</i> —gritas—. <i>El culpable está entre nosotros.</i> \n\n Después de todo lo que has pasado en esta casa maldita ya es hora de terminar esta investigación. Ya tienes todas las pruebas necesarias para inculpar a alguien. \n\n <i>Nota: Debes acusar a uno de los presentes como causante de la muerte de Zadok Allen. Pero cuidado, ya que aunque señales correctamente al culpable, sólo si has recabado las pruebas suficientes podrás probar los hechos.</i> \n
+EventT15_aviso_incriminar_suspeito.button1,Continuar
+EventT14_planta_rasgada.button2,Cancelar
+EventAviso_tranquilo_1.text,La mansión, aunque hermosa, tiene un aura triste y deprimente. \n No hay efectos inmediatos.
+EventAviso_tranquilo_1.button1,Continuar
+Eventaviso_tranquilo_2.text,El ambiente se vuelve extraño, tu sexto sentido de investigador te avisa de que tengas cuidado en este caso.
+Eventaviso_tranquilo_2.button1,Continuar
+EventT1_telefone_paradetocar.text,Has tardado mucho en coger el teléfono. \n\n Descarta la ficha de Interacción del lugar señalado.
+EventT1_telefone_paradetocar.button1,Continuar
+EventT6_nao_abre_escritorio.text,No tienes la llave adecuada para entrar en el despacho.
+EventT6_nao_abre_escritorio.button1,Continuar
+EventT4_shirley_pergunta_so_vida.text,—<i>¿Qué es lo que quiere saber?</i>
+TokenT15_Bart_allen.button1,{action} Acusar a Bart Allen
+EventT15_acusacoes_bart.button1,—<i>Usted es la persona responsable de la muerte de Zadok Allen</i>.
+TokenT15_shirley_allen.text,—<i>¿Por qué me mira de esa manera?</i>
+EventT15_acusacao_falsa.button1,Continuar
+EventT15_tela_preta.text,En ese momento todo se vuelve oscuridad y una risotada maligna resuena. \n\n —<i>¡Habéis fracasado, investigadores! ¡El ritual se ha completado!</i> —grita una voz desde la oscuridad. \n\n Descarta todas las fichas de Personaje del tablero.
+EventT15_tela_preta.button1,Continuar
+SpawnT15_cultista_1_surge.text,Aparece un Sectario en el lugar señalado.
+SpawnT15_cultista_1_surge.button1,Continuar
+SpawnT15_cultista_2_surge.text,Aparece un Sectario en el lugar señalado.
+SpawnT15_cultista_2_surge.button1,Continuar
+SpawnT15_cultista_3_surge.text,Aparece un Sectario en el lugar señalado.
+SpawnT15_cultista_3_surge.button1,Continuar
+SpawnT15_cultista_4_surge.text,Aparece un Sectario en el lugar señalado.
+SpawnT15_cultista_4_surge.button1,Continuar
+SpawnT15_sacerdote_dagon_surge.text,Aparece un Sacerdote de Dagón en el lugar señalado.
+SpawnT15_sacerdote_dagon_surge.button1,Continuar
+EventT15_combate_final.text,Los miembros de la familia Allen se convierten en unos seres poseídos y ahora son marionetas carentes de vida. Es imposible ya reconocer a las personas que fueron una vez. \n\n Está claro que tus sospechas eran incorrectas y el responsable de este mal ha conseguido su objetivo. Vuestro error os va a costar muy caro. Para sobrevivir a esta investigación maldita, vuestra única oportunidad es derrotar a los seres horripilantes que tenéis delante.
+EventT15_combate_final.button1,Continuar
+TokenT15_interacao.text,Cuando derrotes a las criaturas que tienes delante, usa las escaleras para salir de la mansión.
+TokenT15_interacao.button1,{action} Interactuar
+EventT15_interacao_surge.text,Las escaleras son tu única salida, pero antes, por desgracia, tienes que poner fin a estos seres que un día fueron la familia Allen.
+EventT15_interacao_surge.button1,Continuar
+EventT15_fim_jogo_matar_todos.text,Sufres al darte cuenta del acto que acabas de cometer mientras subes por las escaleras, lamentándote y dándole vueltas a los errores que has cometido en tu investigación.
+EventT15_fim_jogo_matar_todos.button1,Continuar
+TokenT3_catrina_2.text,—<i>Ayúdenos, por favor.</i>
+TokenT15_shirley_allen.button1,{action} Acusar a Shirley Allen
+EventT15_acusar_shirley_allen.button1,Usted es la persona responsable de la muerte de Zadok Allen.
+TokenT15_rosa_mendes.text,Rosa Mendes te mira con una mezcla de miedo y tristeza.
+TokenT15_rosa_mendes.button1,{action} Acusar a Rosa Mendes
+EventT15_acusar_rosa.button1,Usted es la persona responsable de la muerte de Zadok Allen.
+EventT1_explorar_2_surge.text,—<i>Arriba está el salón de baile, un sitio que se ha usado poco en los últimos años. También está el despacho de señor Zadok. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenT15_Catrina_allen.button1,{action} Acusar a Catrina Allen
+EventT15_acusar_catrina.button1,Usted es la persona responsable de la muerte de Zadok Allen.
+TokenT15_ronald_allen.button1,{action} Acusar a Ronald Allen
+EventT5_catrina_teste_falhou.text,—<i>En realidad, sólo estaba mirando las flores</i> —dice Catrina Allen al tiempo que coloca las manos cruzadas por detrás de la cintura. \n\n Desconfías de ella, pero al no tener ninguna certeza, decides no insistir en el tema.
+EventT15_acusar_ronald.button1,Continuar
+EventT15_perguntas_ronald.button1,Continuar
+EventT15_pergunta_ronald_sem_provas.text,En ese momento todo se vuelve oscuridad y una risotada maligna resuena. \n\n —<i>¡Habéis fracasado, investigadores. El ritual se ha completado!</i> —grita una voz desde la oscuridad. \n\n Descarta todas las fichas de Personaje del tablero.
+EventT15_pergunta_ronald_sem_provas.button1,Continuar
+EventT15_ronald_provas_completas.text,—<i>Señor Roland Allen</i> —dices apuntándole con el dedo—. <i>Tras reunir suficientes pruebas sobre la muerte de Zadok Allen, no hay duda de que usted ha sido el responsable. \n Decidió vengarse de su padre matándolo de la misma manera en la que murió su madre, como usted descubrió en su momento: por medio de un ritual. \n Leyendo las anotaciones de su padre en la biblioteca y estudiando el suicidio de su madre, intentó simular el ritual, pero cometió errores en algunos puntos del mismo, ya que su padre guardaba celosamente las páginas más importantes en su caja fuerte. Eran aquellas que señalaban que sólo haciendo un gran sacrificio de amor tendría como resultado una gran fortuna. Fue por eso por lo que Zadok mató a Carol Allen, porque la amaba ciegamente. \n\n Más tarde, usted adoptó a Catrina, para así acercarse poco a poco a su padre y ganarse su confianza. Usó para su beneficio el hecho de que Donald Studart se había arruinado y lo convenció para que participase en su despreciable plan. \n Donald, a su vez, convenció a Shirley para que hiciese unos remedios medicinales con flores exóticas sacadas del jardín, siguiendo las recetas que el propio Ronald prescribía, con la única intención de debilitar al viejo Zadok. \n Finalmente, secuestraron a un viejo mendigo y lo mataron simulando un suicidio, pero la incompetencia de Donald le hizo tirar el cuchillo en el lado derecho del cuerpo, un error notable, ya que Zadok era zurdo y nunca se habría matado usando la mano derecha. \n Pero aquí no acabó la cosa, después trató de deshacerse de Donald envenenándolo, pero el veneno que empleó no fue suficiente y lo único que consiguió fue que se convirtiese en esa criatura; y también el propio Zadok, encerrado en el sótano, se transformó en un monstruo. \n\n Por todo esto, señor, ¡queda usted detenido! </i>\n
+EventT15_ronald_provas_completas.button1,Continuar
+EventT15_escuro_ronald.text,La oscuridad te envuelve y oyes una risotada siniestra acompañada de unas palabras: \n\n —<i>Desgraciados, ¡vais a morir todos!</i>
+EventT15_escuro_ronald.button1,Continuar
+SpawnT15_ronald_vira_monstro.text,Aparece un Sacerdote de Dagón en el lugar señalado. \n\n Éste es Ronald Allen.
+SpawnT15_ronald_vira_monstro.button1,Continuar
+EventT15_pessoas_fogem.text,Rosa y el resto de los miembros de la familia Allen huyen y se refugian en el salón de baile. \n\n Mueve las fichas de Personaje al lugar señalado.
+EventT15_pessoas_fogem.button1,Continuar
+EventT15_obj_final.text,Al darte cuenta de que Ronald se ha transformado en un ser maligno que profesa un total desprecio por la vida humana, no te queda otra alternativa. Tendrás que derrotarlo aquí y ahora.
+EventT15_obj_final.button1,Continuar
+EventT15_acusar_ronald.text,Usted es la persona responsable de la muerte de Zadok Allen.
+Eventfinal_ruim_investigador_eliminado.text,Te has visto atrapado en una trama mucho mayor de lo que habías imaginado. \n Tus capacidades como investigador no han sido suficientes para determinar qué sucedió con Zadok Allen. \n\n La investigación ha fracasado.
+Eventfinal_ruim_investigador_eliminado.button1,Continuar
+EventFinal_medio.text,Días después de lo ocurrido, aún seguís haciéndoos preguntas sobre cómo errasteis a la hora de descubrir al verdadero culpable de los acontecimientos de la mansión de Zadok Allen. \n\n A pesar de que conseguisteis salir con vida, la familia Allen ha quedado completamente dividida y esta tragedia sólo ha servido para romper el débil lazo de amor que aún los mantenía unidos. \n\n Vuestro único consuelo es un trago de güisqui y la idea de que hicisteis todo lo posible por resolver el caso. La investigación ha resultado ser la más extraña a la que os habéis enfrentado jamás. \n\n La investigación se ha completado parcialmente.
+EventFinal_medio.button1,Continuar
+EventFinal_bom.text,Días después de lo ocurrido, os encontráis en la comisaría de policía, narrando otra vez la misma historia a vuestros colegas, que siguen sin creer ni una palabra de lo que os sucedió esa macabra noche. \n\n A pesar de las muertes de Zadok Allen, Ronald Allen y Donald Studart, los restantes miembros de la familia Allen se unieron aún más en la tragedia y ahora es Shirley Allen la que lidera la familia, mientras que tanto Bart como Catrina se recuperan poco a poco de lo sucedido. \n\n Rosa Mendes sigue siendo el ama de llaves (aunque ella admitía que desconfiaba de todos los miembros de la familia y que por eso os llamó). Parece que al final el amor ha superado al odio y al rencor. \n\n A salir de la comisaría os encontráis con el agente Craven, que se para y os saluda: \n\n —<i>¡Vamos, que tenemos una copa pendiente!</i> \n\n ¡Felicidades, la investigación ha sido un éxito!
+EventFinal_bom.button1,Continuar
+TokenT5_bart_allen.text,—<i>¿Le importaría dejarme sólo? Mi padre acaba de fallecer. \n Bueno, al menos ahora ya son dos las herencias.</i>
+TokenT3_catrina_2.button1,Continuar
+EventT1_explorar_1_surge.text,—<i>A su izquierda tienen el comedor, aunque está algo desordenado. No he tenido tiempo debido a la impresión que me he llevado con lo que ha pasado. Les pido que me disculpen.</i> \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenT3_rosa_2.button1,Continuar
+EventT1_rosa_mendes_resposta_so_crime.text,—<i>Fui a mis aposentos la noche antes de la muerte del señor Allen. Cuando me desperté, me arreglé para trabajar. Le preparé el café de la mañana al señor Zadok y cuando llegué a su dormitorio me encontré con la terrible escena de su cuerpo tendido en la cama, con las venas cortadas.</i>
+TokenT3_bart.button1,Continuar
+EventT13_procurar_1_manuscrito.text,\n Tú búsqueda no ha sido en vano y encuentras un libro que te puede ser de ayuda. \n\n Ganas el Objeto común {c::QItemT13_manuscrito_arcano}. A continuación, descarta la ficha de Búsqueda. \n
+TokenT3_shirley.button1,Continuar
+quest.synopsys,El suicidio de Zadok Allen da inicio a una serie de sucesos extraños y macabros. De 2 a 5 investigadores.
+quest.authors,\n\n <i>Autor</i>: Paulo José Moraes de Paula Santos. \n\n <i>Colaboradores </i>: Júlio Montoro e Thamara Barbosa. \n\n <i>Colaborador de voz</i>: Lucas M. Carvalho.\n\n\n <i>Traducción al español</i>: Vidimus \n\n <i>Correcciones</i>: Mauch8 \n\n
+TokenT15_interacao_2.text,Las escaleras conducen a la salida de ese sótano y de la investigación.
+TokenT15_interacao_2.button1,{action} Interactuar
+EventT15_interacao_2_surge.text,Las escaleras conducen a la salida de este sótano y al final de la investigación, pero para salir de la mansión antes tendrás que defenderte de Ronald Allen
+EventT15_interacao_2_surge.button1,Continuar
+EventT15_morte_ronald.button1,Continuar
+TokenT9_procurar_1.text,Del bolsillo de Bart Allen cayó al suelo un extraño objeto.
+TokenT9_procurar_1.button1,{action} Buscar
+EventT9_pegar_amuleto.text,Un curioso objeto que se cayó del bolsillo de Bart Allen. Decides quedártelo porque podría serte útil tanto como prueba como para usarlo si se diese el caso. \n\n Ganas el Objeto común {c:QItemT9_amuletos_}. A continuación, descarta esta ficha de Búsqueda.
+EventT9_pegar_amuleto.button1,Continuar
+EventT9_procurar_surge.text,Al salir con prisa de la habitación, Bart Allen deja caer al suelo un extraño objeto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT9_procurar_surge.button1,Continuar
+TokenT5_estufa_procurar_2.text,Al fondo del vivero hay un saco de basura negro.
+TokenT5_estufa_procurar_2.button1,{action} Buscar
+EventT5_estufa_procurar_2_resolvido.text,Rebuscando en el interior de la bolsa descubres que son cosas viejas y usadas, la mayoría prendas de hombre sucias y con manchas de un tono rojizo. \n\n No parece el tipo de vestimenta que alguien de una familia rica como los Allen usaría. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventT5_estufa_procurar_2_resolvido.button1,Continuar
+EventT5_procurar_estufa_2_surge.text,Al fondo hay una bolsa negra. Está claro que la han dejado ahí para que no esté a la vista. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT5_procurar_estufa_2_surge.button1,Continuar
+EventT14_rosa_explica_corpo.text,Rosa te mira. \n\n —<i>Disculpe lo pueril de mi comportamiento, la muerte del señor Zadok Allen me ha afectado profundamente. Tan pronto como vi su cuerpo sobre su cama, con el cuchillo sobre el suelo, me apresuré a llamar a las autoridades.</i>\n
+EventT14_rosa_explica_corpo.button1,Continuar
+EventT4_sedativo_inspecionar.button2,Cancelar
+EventT4_ler_jornal_donald.button2,Cancelar
+TokenT3_Catrina_ps_piano.text,Un poco asustada, Catrina Allen cree que será mejor alejarse de la entrada del sótano.
+TokenT3_Catrina_ps_piano.button1,Continuar
