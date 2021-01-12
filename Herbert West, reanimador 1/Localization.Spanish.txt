@@ -1,0 +1,201 @@
+.,Spanish
+quest.name,Herbert West, reanimador - primera parte
+quest.description,Una llamada de teléfono urgente te lleva a la mansión Chapman, un lugar remoto a las afueras de Arkham. Allí, deberás ayudar al Dr. West a destruir las muestras de un experimento que salió terriblemente mal... \n\n Escenario breve, con pocos módulos de tablero (sólo la expansión «Pesadillas recurrentes» o su equivalente «Mansiones de la locura», primera edición) e ideal para principiantes. \n Se puede jugar en solitario.
+quest.synopsys,Investiga la mansión Chapman y ayuda al Dr. West a lidiar con un experimento fallido. 1-4 investigadores
+quest.authors,\n\n <i> Creado por:</i> André Grégio (eVader) \n\n <i>Traducción al español:</i> Vidimus \n\n
+quest.authors_short,André Grégio (eVader)
+UI0_texto.uitext,Es de madrugada. Te has quedado dormido sobre la mesa mientras revisabas tu último caso. El teléfono suena y te sobresaltas. Sorprendido, no tienes tiempo siquiera para preguntar quién puede llamar a estas horas. \n\n —<i>Soy el Dr. West West, he tenido un problema con mis experimentos y necesito ayuda... ¡Por favor, venga a la mansión Chapman de inmediato! Es necesario recuperar el control de la situación antes de que se descontrole por comple... SHHHH</i>. \n\n Un ruido de interferencia precede al brusco fin de la llamada. Ya habías oído hablar del Dr. West, un veterano médico de guerra y antiguo alumno de la Universidad de Miskatonic. La situación no parece halagüeña. No importa en qué consista el experimento que se ha descontrolado, lo mejor será investigarlo. Rápidamente te pones en marcha y conduces por las precarias carreteras secundarias de Arkham que llevan a la mansión de los Chapman. \n\n Cada investigador recibe 1 Pista {clue}.
+UI0_button.uitext,Comenzar la investigación
+UI0_button.button1,Continuar
+EventPlaceInvestigatorsStart.button1,Continuar
+EventPlaceExpl1.button1,Continuar
+EventPlaceInvestigatorsStart.text,Aparcas el coche cerca de la entrada y te bajas. El sitio está tan oscuro como silencioso. ¿Dónde demonios estará el Dr. West? \n\n Coloca el módulo {c:Tile0} y al investigador o investigadores en el lugar señalado.
+TokenExpl1.button1,{action} Abrir la puerta
+EventRemoveExpl1.text,Tocas el pomo de la puerta en el momento en el que alguien abre la puerta desde el otro lado. Te encuentras con un hombre de mirada asustada. \n\n —<i>Imagino que usted también ha recibido una llamada...</i> \n\n Descarta la ficha de Exploración. A continuación, coloca la ficha de Personaje Hombre azul en el lugar señalado.
+TokenExpl1.text,La puerta de entrada a la mansión Chapman. Parece que las luces del interior están encendidas.
+EventRemoveExpl1.button1,Continuar
+TokenAssistantDoctor.text,El hombre parece tremendamente cansado y bajo una enorme presión.
+TokenAssistantDoctor.button1,—<i>¿Dr. West?</i>
+EventRemoveBluePerson.text,Descarta la ficha de Personaje Hombre azul.
+TokenExpl2.text,Este camino conduce a la parte trasera de la casa.
+TokenExpl2.button1,{action} Explorar
+TokenExpl3.text,Este camino conduce a la parte trasera de la casa.
+TokenExpl3.button1,{action} Explorar
+EventRemoveExpl2.text,Llegas a un pequeño lugar al aire libre con una puerta que baja a lo que debe de ser el sótano de la casa. \n\n Coloca el módulo {c:Tile1}. A continuación, descarta la ficha de Exploración.
+EventTalkTo_BluePerson.text,—<i>No, el Dr. West me llamó hace poco, preocupado, y solicitó mi presencia aquí para ayudarle. Vine en cuanto pude, pero no consigo encontrarle. Soy su ayudante, el Dr...</i> \n\n <color=red>«AAAAAAA»</color> \n\n Un grito inhumano interrumpe al médico. \n\n —<i>No hay tiempo para explicaciones, es mejor que nos demos prisa antes de que sea tarde. Voy a buscar al doctor West dentro de la casa mientras usted le prende fuego a los restos de los experimentos fallidos. Busque por el exterior de la mansión unos bultos cubiertos con una lona negra. Tenga esta antorcha, la va a necesitar.</i> \n\n Ganas el Objeto común Antorcha. \n\n Sin más explicaciones, el ayudante del Dr. West desaparece dentro de la casa...
+EventRemoveExpl2.button1,Continuar
+Event3.text,Delante de la puerta adviertes un bulto cubierto por una lona negra. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Event3.button1,Continuar
+TokenSearch1.text,Un gran bulto cubierto con una lona negra. Tal vez sea mejor mirar debajo de la lona antes de prenderle fuego. Podría ser algo explosivo.
+TokenSearch1.button1,{action} Retirar la lona
+EventRemoveSearch1.button1,Continuar
+EventRemoveSearch1.text,Retiras la lona y la visión de lo que hay debajo te revuelve el estómago: un cadáver putrefacto y completamente deforme ({will}; 2). \n\n Si fallas la tirada, sufres 1 de Horror boca abajo. \n\n Sustituye la ficha de Búsqueda por una ficha de Interacción en el lugar señalado.
+EventRemoveInter1.button1,Continuar
+TokenInter1.text,Un cadáver de aspecto grotesco. Te preguntas qué clase de experimentos llevaba a cabo el Dr. West en este lugar.
+TokenInter1.button1,{action} Prender fuego
+EventRemoveInter1.text,Por el estado y el olor del cadáver, lo mejor que puedes hacer es quemarlo. \n\n Le pegas fuego. Será mejor irse ya y buscar a los demás, ¡el olor a carne quemada es insoportable! \n\n Descarta esta ficha de Interacción.
+TokenExpl4_T2door.text,Una puerta que lleva al sótano de la casa.
+TokenExpl4_T2door.button1,{action} Abrir
+EventRemoveExpl4_T2door.text,Abres cuidadosamente la puerta y descubres una escalera que conduce a un sótano mal iluminado. En el suelo hay otro bulto... \n\n Descarta esta ficha de Exploración. A continuación, coloca una ficha de Búsqueda en el lugar señalado.
+EventRemoveExpl4_T2door.button1,Continuar
+TokenSearch2.button1,{action} Tirar de la lona
+EventRemoveSearch2.text,Al quitar la lona descubres que hay otro difunto. ¿Eso ha sido un espasmo o tu mente te está jugando una mala pasada? \n\n Vuelves a mirar el cadáver para asegurarte... \n\n El finado abre los ojos y comienza a gritar. Entre los gruñidos que emite, distingues unas pocas palabras: \n\n <color=green>"<i>Weeeest... quite sus manos de encima de mí... demonio de cabeza amarilla...</i></color>. \n\n Parece que los últimos instantes de la criatura no fueron muy tranquilos. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda. \n Aparece un zombi en el lugar señalado.
+TokenSearch2.text,Un enorme bulto cubierto con una lona.
+EventRemoveSearch2.button1,Continuar
+EventYourMission.button1,Continuar
+TokenExpl0.text,Esta zona lleva a la parte delantera de la mansión Chapman.
+EventSpawnZumbi1.button1,Continuar
+EventRemoveExpl3.text,Distingues un pequeño cobertizo. \n\n Coloca el módulo {c:Tile2}. A continuación, descarta esta ficha de Exploración.
+EventRemoveExpl3.button1,Continuar
+EventPlaceExpl5.button1,Continuar
+TokenView1.text,Un investigador en cualquiera de los dos espacios en los que se encuentra esta ficha de Vistazo puede revelar la zona adyacente.
+TokenExpl5.text,La puerta del cobertizo ha sido muy maltratada por el tiempo.
+TokenExpl5.button1,{action} Abrir
+EventRemoveExpl5.text,El interior del cobertizo está completamente oscuro. No encuentras el interruptor. \n\n Coloca una ficha de Oscuridad en el interior del cobertizo.
+EventRemoveExpl5.button1,Continuar
+TokenSearch3.text,Un gran bulto cubierto con una lona negra.
+TokenSearch3.button1,{action} Retirar la lona
+EventPlaceSearch3.button1,Continuar
+EventPlaceSearch4.text,Al fondo del cobertizo hay una pequeña mesa con algunas herramientas. Quizá haya algo útil. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRemoveSearch3.text,Dos cuerpos semiputrefactos y deformados yacen en este lugar. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRemoveSearch3.button1,Continuar
+TokenInter2.text,Estos cadáveres presenta unos rostros llenos de desesperación, probablemente causada en el momento de su muerte. Un de ellos hasta tiene los ojos abiertos. ¿O acaba de abrirlos? Debe de ser cosa de tu imaginación.
+TokenInter2.button1,{action} Prender fuego
+EventRemoveInter2.text,Le pegas fuego a uno de los cadáveres. Comienza a arder. Al acercarte al otro, éste se levanta. \n\n Descarta la ficha de Interacción. Aparece un zombi en el lugar señalado.
+EventRemoveInter2.button1,Continuar
+SpawnZumbi2.text,El difunto se levanta con una inesperada rapidez e intenta morderte.
+SpawnZumbi2.button1,Continuar
+EventPlaceSearch3.text,Al entrar, estás a punto de tropezar con algo que hay en el suelo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch4.button1,Continuar
+TokenSearch4.text,Sobre la mesa descansan algunas herramientas y otros objetos.
+TokenSearch4.button1,{action} Registrar
+EventRemoveSearch4.text,Agarras con fuerza la primera cosa que crees que te será de utilidad en esta extraña noche. \n\n Ganas el Objeto común {c:QItemPesado}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch4.button1,Continuar
+EventPlaceExpl5.text,La lámpara que hay colgada en la parte delantera del cobertizo está encendida, pero la luz es muy débil. Logras distinguir la puerta. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenView1.button1,Revelar
+EventPlaceView1.text,El imposible distinguir desde aquí la zona que hay por detrás del cobertizo. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventPlaceView1.button1,Continuar
+EventRemoveView1.text,A pesar de la completa oscuridad, vislumbras las siluetas de unas lápidas. \n\n Coloca el módulo {c:Tile3Cemiterio} y fichas de Oscuridad en todos sus espacios.
+EventRemoveView1.button1,Continuar
+EventPlaceSearch5.button1,Continuar
+TokenSearch5.text,Ya te imaginabas lo que te vas a encontrar debajo de la lona.
+EventPlaceSearch5.text,Hay un antiguo cementerio detrás de la mansión Chapman. Debe de ser la fuente de materia prima para los horrendos experimentos del Dr. West. Ganas 1 Pista {clue}. \n\n Descubres otro bulto más cubierto con una lona negra. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearch5.button1,{action} Retirar la lona
+EventRemoveSearch5.text,Otro cadáver. Éste, sin embargo, está en avanzado estado de descomposición. \n\n Descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventRemoveSearch5.button1,Continuar
+TokenInter3.text,Aunque has visto cosas inimaginables, no hay nada peor que ver la descomposición de un ser humano. Sufres 1 de Horror.
+TokenInter3.button1,{action} Prender fuego
+EventPlaceItemCellar.button1,Continuar
+TokenSearchItemCellar.text,Un objeto brilla encima del barril.
+EventPlaceItemCellar.text,Hay algunos barriles y sacos depositados en el sótano. Un barril, sin embargo, llama tu atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchItemCellar.button1,{action} Coger
+EventRemoveSearchItemCellar.text,Coges el objeto y te lo guardas. Seguro que te será útil. \n\n Ganas el Objeto común {c:QItemArmaBranca}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearchItemCellar.button1,Continuar
+EventPlaceInter4.button1,Continuar
+TokenSearch6.text,Probablemente habrá un cadáver debajo de la lona.
+Event5.text,Una verja de hierro con una pequeña cancela protege un panteón. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Event5.button1,Continuar
+TokenTombGate.button1,{action} Abrir la cancela
+EventRemoveTombGate.text,La cancela chirría y se suelta de los goznes ({agility}; 2). Si fallas la tirada, la cancela cae sobre tu pie; sufres 1 de Daño. \n\n Descarta la ficha de Exploración.
+TokenTombGate.text,La cancela que rodea al panteón. La entrada al panteón sólo se puede realizar si el investigador está en este espacio.
+EventRemoveTombGate.button1,Continuar
+EventPlaceInterBoss.text,El panteón está entreabierto, alguien ha deslizado la pesada losa de mármol hacia un lado.
+EventPlaceInterBoss.button1,Continuar
+TokenInterBoss.text,Para poder mirar dentro del panteón necesitas deslizar completamente la losa de mármol.
+TokenInterBoss.button1,{action} Apartar la losa
+EventRemoveInterBoss.text,Deslizas la losa de mármol hacia un lado y encuentras que hay dentro un cadáver tumbado. Curiosamente, el cuerpo está en un estado de conservación mejor que el resto. \n\n ¿Formará parte este pobre difunto de los experimentos del Dr. West? Por si las moscas, decides que será mejor quemarlo también
+EventRemoveInterBoss.button1,{action} Prender fuego
+EventplaceFireTomb.text,Al prender fuego al cadáver, éste se levanta inmediatamente gritando, como si agonizase. Sus ojos miran a la nada y trata de atrapar algo invisible, gruñedo palabras incomprensibles. El cuerpo se desploma sobre el suelo y le pega fuego a la hierba seca del cementerio. \n\n Descarta la ficha de Interacción y coloca Fuego en el lugar señalado.
+EventplaceFireTomb.button1,Continuar
+EventPlaceFireZombie.text,El cadáver en llamas se dirige furioso hacia ti. \n\n Aparece un zombi en el lugar señalado.
+EventPlaceFireZombie.button1,Continuar
+EventYourMission.text,<b>*** TU MISIÓN***</b> \n\n Encontrar los 5 bultos que corresponden con los experimentos fallidos del Dr. West y destruirlos con fuego. \n\n Para prenderles fuego, basta con usar una acción para quitar la ficha de Interacción que representa cada experimento. \n\n La ficha de Interacción aparecerá cuando un investigador encuentre u experimento que deba ser destruído.
+TokenExpl0.button1,{action} Explorar
+EventRemoveExpl0.text,Un camino de losas te lleva a un pequeño jardín y a una de las entradas auxiliares de la casa. \n\n Coloca el módulo {c:Tile3} y descarta esta ficha de Exploración. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventRemoveExpl0.button1,Continuar
+TokenSearch0.text,Un bulto en mitad del jardín.
+TokenSearch0.button1,{action} Retirar la lona
+EventRemoveSearch0.text,Al retirar la lona te topas con la cara de una persona muerta. A primera vista parece que murió recientemente ya que ni huele mal ni su apariencia es de las peores. El fallecido parece sostener algo entre sus manos. Te acercas para intentar averiguar qué es y al descubrir de qué se trata, decides que lo mejor será quedártelo. \n\n Ganas el Objeto común {c:QItemArmaFogo}. A continuación, sustituye la ficha de Búsqueda por una ficha de Interacción en el lugar señalado.
+EventRemoveSearch0.button1,Continuar
+TokenInter0.text,El cuerpo yace sereno. ¿Qué ha sido eso? ¿Un espasmo? Tienes que estar realmente muy cansado para creer que el cadáver se ha movido... Será mejor acabar ya con esto.
+TokenInter0.button1,{action} Prender fuego
+EventRemoveInter0.text,El finado comienza a arder. Te ha parecido ver que sus manos se movían... ¡o al menos una! \n\n Descarta esta ficha de Interacción.
+EventRemoveInter0.button1,Continuar
+EventRemoveInter3.text,Te sientes aliviado al ver cómo el cuerpo se quema sin moverse. Pon boca abajo 1 de Horror. \n\n Descarta esta ficha de Interacción.
+EventRemoveInter3.button1,Continuar
+EventPlaceInter4.text,Delante de unas lápidas, al final del cementerio, hay otro bulto cubierto por una lona negra. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearch6.button1,{action} Retirar la lona
+EventRemoveSearch6.text,Retiras parte de la lona y confirmas que hay un cadáver debajo. Enseguida bajas la antorcha y le prendes fuego a las ropas del cadáver con una frialdad que pensabas que no tenías. Adquieres el estado <i>Concentrado</i>. \n\n Descarta esta ficha de Búsqueda.
+EventRemoveSearch6.button1,Continuar
+EventPlaceSearch0.button1,Continuar
+EventplaceExpl6.button1,Continuar
+EventPlaceSearch0.text,En medio del jardín descubres un bulto. Está cubierto con una lona de color negro. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenExpl6.text,La puerta auxiliar de entrada a la mansión Chapman es de madera antigua, hecha a mano.
+EventplaceExpl6.text,Más adelante observas la puerta auxiliar de entrada a la mansión Chapman. Algo, o alguien, está parado justo delante de la puerta. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRemoveExpl6.text,La puerta estaba abierta. Entras en un pequeño recibidor con un escritorio. Hay varias notas sobre él y la lamparita de lectura está encendida. \n\n Descarta esta ficha de Exploración y coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearch7.text,Sobre el escritorio hay una carta escrita a medias.
+EventRemoveExpl6.button1,Continuar
+TokenExpl6.button1,{action} Explorar
+TokenSearch7.button1,{action} Leer
+EventCorpseCounter.text,Todavía quedan experimentos que deben ser destruidos.
+EventCorpseCounter.button1,Continuar
+CustomMonsterFireZombie.info,-
+SpawnPlaceFireZombie.text,Cuando el zombi en llamas se mueva, coloca fichas de Fuego en todos los espacios por los que pase.
+CustomMonsterFireZombie.monstername,Zombi en llamas
+SpawnPlaceFireZombie.button1,Continuar
+EventZumbiEmChamasDerrotado.button1,Continuar
+EventDeuFim.text,Tras derrotar al último zombi y quemar los cuerpos, parece que tu misión aquí ha terminado. \n\n En ese momento oyes como el ayudante del Dr. West grita tu nombre.
+EventZumbiEmChamasDerrotado.text,Después de este último golpe, el fuego termina de consumir lo que queda del zombi en llamas. Sus restos carbonizados quedan esparcidos por el suelo.
+EventDeuFim.button1,Continuar
+EventEnding.button1,Continuar
+UIEndButton.uitext,Continuar...
+EventEnding.text,Llegas corriendo a la parte trasera de la mansión Chapman. El médico ayudante te está esperando. \n\n Mueve al investigador (-es) al lugar señalado.
+UIEndButton.button1,Continuar
+UIEndText.uitext,<b>—<i>¡No he encontrado al Dr. West! Debe de estar en el laboratorio nuevo...</i> \n\n <color=orange><b>~~ BUM ~~</b></color> \n\n Algo explota no muy lejos de ahí. \n No tardas en ver el humo. \n El médico ayudante tiene un semblante cansado, mezclado con preocupación y sorpresa. \n\n —<i>Tenemos que irnos</i> —dice el médico ayudante—, <i>pero no sin antes terminar esto de aquí</i>. \n\n Dicho eso, el ayudante te coge la antorcha y la lleva hasta el suelo. En ese momento ves como se prende fuego a un reguero que rápidamente se transforma en un rastro de llamas que se dirige a unos bidones de combustible que había dejado preparados en la entrada auxiliar. Te coge del brazo y te lleva corriendo como un desesperado en dirección al coche: \n\n —<i>¡Vámonos ya! No podemos perder ni un minuto más...</i> \n\n Sin otra alternativa, sigues al hombre rumbo a lo desconocido. \n\n ¡La investigación ha sido un éxito!</b>
+Event2.button1,FIN
+EventEliminatedInvestigator.button1,Button1
+EventRemoveSearch7.text,La carta está sin terminar, y hay tinta derramada sobre la hoja. \n\n «<i>Mi querido ayudante y único amigo, el Dr... ...la última versión... ...está lista y... ... \n La receta fue ... y ... ... ... basada ... \n fórmula ... ayuda ... Mayor Clapham-Lee. Sin embargo, \n el problema persiste, dado que ... ... ... \n ... ... ... ... \n ... ... ... ...</i>" \n\n El resto de la carta es ilegible. El Dr. West debía de estar escribiendo esta carta cuando sucedió el incidente. \n\n Ganas 2 Pistas {clue}. A continuación descarta esta ficha de Búsqueda.
+EventRemoveSearch7.button1,Continuar
+SpawnZumbi1.text,El zombi se prepara para atacar.
+SpawnZumbi1.button1,Continuar
+EventRemoveBluePerson.button1,Continuar
+Event4.button1,Continuar
+CustomMonsterFireZombie.Attack_unarmed_1,{rnd:hero} intenta encontrar la manera de darle un golpe sin quemarse las manos ({will}; 2). \n\n Si superas la tirada, ¡le das un golpe certero! El zombi en llamas recibe Daño igual al número de {success} de la tirada. \n\n Si fallas la tirada, intentas darle un golpe en el costado, pero te quemas la mano antes de golpear al zombi; sufres 1 de Daño boca abajo.
+CustomMonsterFireZombie.Attack_unarmed_2,-
+CustomMonsterFireZombie.Attack_spell_1,Te concentras para recordar las palabras necesarias para este hechizo ({lore}; 2). \n\n Si superas la tirada, el zombi en llamas sufre el daño del hechizo +1. \n\n Si fallas la tirada, te das cuenta de que tu mente ha sucumbido al miedo; sufres 1 de Horror boca abajo. 2N Luego dale la vuelta a la carta de Hechizo con el que acabas de atacar.
+CustomMonsterFireZombie.Attack_heavy_1,Descargas el arma contra la criatura, esperando que se caiga a pedazos con el golpe ({strength}; 2). \n\n Si superas la tirada, el impacto arranca un miembro de la criatura; el zombi en llamas sufre el daño del arma más el resultado de la tirada. Si fallas la tirada, el arma yerra el blanco y se parte al golpear contra el suelo; descarta el arma que has usado en el ataque.
+CustomMonsterFireZombie.Attack_firearm_1,Aseguras el arma con las dos manos para evitar los temblores, echas un rápido vistazo y aprietas el gatillo ({observation}; 1). \n\n Si superas la tirada, le aciertas de pleno en el pecho al zombi en llamas; sufre el daño del arma más el resultado de la tirada. Si fallas la tirada, el miedo se apodera de ti y lo único que consigues es disparar al aire...
+CustomMonsterFireZombie.Attack_bladed_1,Te cuelas entre sus brazos estirados y con un hábil requiebro, le das un golpe con tu arma blanca ({agility}; 2). \n\n Si superas la tirada, le cortas un trozo a la criatura; sufre el daño del arma + 2.  Si fallas la tirada, sólo consigues desgarrarle un trozo de ropa a la criatura.
+EventEndingCleanBoard.text,El asistente parece desolado. Coloca sus manos sobre tus hombros y suspira, pero no de alivio...
+EventEndingCleanBoard.button1,Continuar
+CustomMonsterFireZombie.Attack_bladed_2,-
+CustomMonsterFlameZombie.info,-
+CustomMonsterFlameZombie.monstername,Zombi en llamas
+Event2.text,El cadáver reanimado aprieta tu cuello. No consigues zafarte. Poco antes de perder la conciencia, un último pensamiento ronda tu mente. ¿Serás acaso el próximo espécimen del extraño experimento del Dr. West West?
+EventPlaceExpl1.text,La puerta está cerrada, pero hay luz saliendo de debajo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventFechaOBoteco.button1,Continuar
+EventRemoveInterBoss.button2,Cancelar
+EventPlaceExpl2.text,Coloca una ficha de Exploración en el lugar señalado. Este camino lleva a la parte de atrás de la casa.
+EventPlaceExpl2.button1,Continuar
+EventPlaceExpl3.text,Coloca una ficha de Exploración en el lugar señalado. Este camino lleva más allá de los límites de la casa.
+EventPlaceExpl3.button1,Continuar
+EventPlaceEmptySearch.text,Encuentras el primer bulto cubierto por una lona. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceEmptySearch.button1,Continuar
+TokenEmptySearch.button1,{action} Retirar la lona
+EventRemoveEmptySearch.text,Tiras de la lona pero no encuentras nada ({observation}; 2).
+TokenEmptySearch.text,Un bulto cubierto con una lona negra.
+EventRemoveEmptySearch.button1,Éxito
+EventRemoveEmptySearch.button2,Fracaso...
+EventPASSEDemptySearch.text,En medio del barro encuentras unas huellas de pisadas humanas. Están frescas y van en dirección a la parte norte de la finca. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventPASSEDemptySearch.button1,Continuar
+EventFAILEDemptySearch.text,Te fijas en el barro que hay debajo de la lona y te preguntas a ti mismo si has hecho bien viniendo a este sitio. Sufres 1 de Horror boca abajo. \n\n Descarta esta ficha de Búsqueda.
+EventFAILEDemptySearch.button1,Continuar
+SpawnZumbi4.button1,Continuar
+SpawnFlameZombie.text,El zombi en llamas es inmune al daño causado por el fuego.
+EventSpawnZombie4.text,La misteriosa figura golpea sin cesar la puerta y murmura algo. \n\n Aparece un zombi en el lugar señalado.
+EventSpawnZombie4.button1,Continuar
+SpawnZumbi4.text,<color=green>"<i>Weeeest... qué me ha hechooooo...</i>"</color>
+SpawnFlameZombie.button1,Continuar
+TokenInterBossReplaced.text,Para tu alivio, el cuerpo sigue tumbado. No paras de preguntarte si el difunto también fue parte de los experimentos del Dr. West West. Por si acaso, será mejor quemarlo.
+TokenInterBossReplaced.button1,{action} Prender fuego
+EventTalkTo_BluePerson.button1,Continuar...
