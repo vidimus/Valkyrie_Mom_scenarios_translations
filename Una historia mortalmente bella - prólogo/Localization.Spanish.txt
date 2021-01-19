@@ -1,7 +1,7 @@
 .,Spanish
 quest.name,Una historia mortalmente bella: Prólogo
-quest.description,\n\n Recibes una llamada de auxilio de tu amigo el escritor en la cual escuchas unos estremecedores sonidos de fondo.\n\n Prólogo.\n\n De 2 a 5 investigadores. \n\n\n Pulsa Iniciar para empezar a jugar el escenario. \n\n
-quest.synopsys,Recibes una llamada de auxilio de tu amigo el escritor en la cual escuchas unos estremecedores sonidos de fondo. De 2 a 5 investigadores.
+quest.description,Recibes una llamada de auxilio de tu amigo el escritor en la cual escuchas unos estremecedores sonidos de fondo.\n\nPrólogo. De 2 a 5 investigadores.\n\nPulsa Iniciar para empezar a jugar el escenario.
+quest.synopsys,\nRecibes una llamada de auxilio de tu amigo el escritor en la cual escuchas unos estremecedores sonidos de fondo.\n\n Prólogo.\n\n De 2 a 5 investigadores. \n\n\n Pulsa Iniciar para empezar a jugar el escenario. \n\n
 quest.authors,\n\n <i>Creado por</i>: Cara Jamte \n\n <i>Traducción al español</i>: Mauch8 \n\n <i>Revisión</i>: Vidimus \n\n
 quest.authors_short,Cara Jamte
 TokenEsploraStudio.button1,{action} Abrir
@@ -83,9 +83,9 @@ EventLuceAssente1.text,La luz no se enciende.
 EventFusibile.text,Empiezas a pensar que quizá haya saltado un fusible.
 EventLuceAssente1.button1,Continuar
 TokenCercaBagno.button1,{action} Abrir
-TokenCercaBagno.text,Un pequeño armario suspendido sobre el fregadero. La puerta está cerrada.
+TokenCercaBagno.text,Un pequeño armario suspendido sobre el lavabo. La puerta está cerrada.
 EventEsaminaBagno.text,Un rollo de gasa sobre uno de los estantes, entre varias botellas y cajas que contienen diversos medicamentos.
-EventOttieniBende.text,Ganas el Objeto común {:QItemBende}. \n\n Descarta esta ficha de Búsqueda.
+EventOttieniBende.text,Ganas el Objeto común {c:QItemBende}. \n\n Descarta esta ficha de Búsqueda.
 EventOttieniBende.button1,Continuar
 TokenEsploraBagno.button1,{action} Abrir
 EventApriPortaBagno.button1,Continuar
@@ -110,8 +110,8 @@ EventIndiziSufficienti.text,Ahora tienes suficientes pistas para dejar el aparta
 TokenUscitaAppartamento.button1,Continuar
 EventEsaminaSoggiorno.text,Observas la expresión del hombre y es una máscara de puro terror, con una horrible mueca inhumana. Los ojos y la boca están abiertos de una manera imposible y los brazos están cruzados contra el pecho, con los dedos rígidos como garras. \n ¿Qué pudo haberle sucedido?
 EventIndiziSufficienti.button1,Continuar
-UIFinaleText.uitext,Vuestro amigo el escritor ha encontrado la muerte de un modo horrible pero no conoces al responsable. \n En su diario has leído sobre los lugares en los que ha estado en los últimos días y las experiencias locas y delirantes de las que ha sido víctima. \n\n El misterio está bien lejos de ser resuelto. \n ¿Qué o quién ha provocado la muerte del escritor? \n ¿Quién ha robado la piedra con la que estaba obsesionado? \n ¿Qué contenía el cuaderno que vuestro amigo le entregó al detective? \n\n Todas estas respuestas os esperan en el próximo capítulo.
-EventLeggiDiario2.text,14 de octubre de 1935 \n\n Me siento extrañamente inquieto. En vista de mi incapacidad para escribir, he venido a visitar un último lugar de esta ciudad, una iglesia que, según los lugareños, serviría como lugar de culto para una secta dedicada al sacrificio humano. Ha sido terrible. Allí he encontrado los restos de un ser humano y, junto a ellos, un cuaderno. Me lo llevaré a casa para examinarlo. Puede contener información importante. Todavía hay mucha gente desaparecida y la policía podría hacer un buen uso de ella. También he encontrado una estantería llena de libros y una extraña piedra, encerrada en una caja en el campanario. Me pregunto por qué estaba allí. Parece valiosa, me la llevaré conmigo. \n\
+UIFinaleText.uitext,Vuestro amigo el escritor ha encontrado la muerte de un modo horrible pero no conoces al responsable. \n En su diario has leído sobre los lugares en los que ha estado en los últimos días y las experiencias locas y delirantes de las que ha sido víctima. \n\n El misterio está bien lejos de ser resuelto. \n ¿Qué o quién ha provocado la muerte del escritor? \n ¿Quién ha robado la piedra con la que estaba obsesionado? \n ¿Qué contenía el cuaderno que vuestro amigo le entregó al detective? \n\n Todas las respuestas os esperan en el próximo capítulo.
+EventLeggiDiario2.text,14 de octubre de 1935 \n\n Me siento extrañamente inquieto. En vista de mi incapacidad para escribir, he venido a visitar un último lugar de esta ciudad, una iglesia que, según los lugareños, serviría como lugar de culto para una secta dedicada al sacrificio humano. Ha sido terrible. Allí he encontrado los restos de un ser humano y, junto a ellos, un cuaderno. Me lo llevaré a casa para examinarlo. Puede contener información importante. Todavía hay mucha gente desaparecida y la policía podría hacer un buen uso de ella. También he encontrado una estantería llena de libros y una extraña piedra, encerrada en una caja en el campanario. Me pregunto por qué estaba allí. Parece valiosa, me la llevaré conmigo. \n
 EventEsameVittimaFallito.text,No llegas a entender qué ha causado esta muerte horrible.
 EventEsameVittimaFallito.button1,Continuar
 EventEsaminaVittima.button1,Continuar
@@ -257,7 +257,7 @@ EventOscuritBagno.button1,Continuar
 EventOscuritBagno2.text,Coloca una ficha de Oscuridad en cada espacio.
 EventOscuritBagno2.button1,Continuar
 EventOscuritCamera0.text,Coloca una ficha de Oscuridad en cada espacio de esta localización.
-TokenVistaBagno.text,Decides echar un vistazo al baño por si hubiera alguna cosa que pudiera serte útil. \n\n Elimina la ficha de Vistazo. \n\n Tienes la posibilidad de moverte un espacio a la zona explorada.
+TokenVistaBagno.text,Decides echar un vistazo al baño por si hubiera alguna cosa que pudiera serte útil. 
 TokenVistaBagno.button1,Continuar
 EventPoniTokenBagno.text,La puerta del baño está abierta. \n\n Coloca una ficha de Vistazo en el lugar indicado.
 EventPoniTokenBagno.button1,Continuar
@@ -364,8 +364,6 @@ TokenCercaFotografieCamera.text,Entre los fragmentos esparcidos por el suelo, ha
 TokenCercaFotografieCamera.button1,Continuar
 EventCapovovolgiSegnalinoCorpo1.text,Dale la vuelta a esta ficha de Búsqueda.
 EventAssegnaIndizi.text,El investigador con el Objeto {c:QItemDiario} puede leerlo en cualquier momento usando el botón de objetos de la aplicación.
-TokenVistaCucina.button1,Continuar
-TokenCercaCucina.button1,{action} Abrir
 EventAssegnaIndizi.button1,Continuar
 EventCorpoEsaminatoCandeleNonPrese.button1,Button1
 EventCapovovolgiSegnalinoCorpo1.button1,Continuar
@@ -374,7 +372,19 @@ EventCorpoEsaminatoCandelePrese.button1,Continuar
 RimuoviTokenCercaLettoCamera,Descarta esta ficha de Búsqueda.
 RimuoviTokenCercaFotografieCamera,Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda
 RimuoviTokenCercaArmadioCamera,Descarta esta ficha de Búsqueda.
-UscitaDisponibile,Ya dispones de suficientes pistas para abandonar el apartamento. Puedes continuar explorando la casa de tu amigo o dirigirte a la salida.
+UscitaDisponibile,Ya dispones de suficientes pistas para abandonar el apartamento. Puedes continuar explorando la\ncasa de tu amigo o dirigirte a la salida.
 EsaminaVecchioDiario,Leer el Diario requiere el uso de una {action} por página.
 EventUscita,Abrir la puerta de entrada y abandonar el apartamento
-PosizionaTokenCercaBagno,Descarta esta ficha de Vistazo. Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+PosizionaTokenCercaBagno,En un rincón, sobre el lavabo, hay un pequeño armario de color blanco. Coloca una ficha de Búsqueda en el lugar señalado.
+EventUscita.text,Abrir la puerta y salir del apartamento.
+EventEventFinalReminder.text,Todos los investigadores mantienen las cartas de Daño y Hrorror recibidas durante la aventura, así como las fichas de Pista {clue}.  Comenzarán con ellas al principio de la próxima aventura.
+EventEventFinalReminder.button1,Continuará...
+EventDiaryInspected.text,El investigador con el Objeto {c:QItemDiario} puede leerlo en cualquier momento usando el botón de objetos de la aplicación.
+EventDiaryInspected.button1,Continuar
+EventUscitaDisponibile.button2,Salir
+EventPosizionaTokenCercaBagno.text,Un pequeño armario suspendido sobre el lavabo. La puerta está cerrada.\n\nColoca una ficha de Búsqueda en el lugar señalado.
+EventPosizionaTokenCercaBagno.button1,Continuar
+EventRemoveVistaBagnoToken.text,Descarta la ficha de Vistazo.\n\nTienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventRimuoviTokenCercaArmadioCamera.text,Descarta esta ficha de Búsqueda.
+EventRimuoviTokenCercaLettoCamera.text,Descarta esta ficha de Búsqueda.
+EventRimuoviTokenCercaFotografieCamera.text,Ganas 1 Pista {clue}.\n\nDescarta esta ficha de Búsqueda.
