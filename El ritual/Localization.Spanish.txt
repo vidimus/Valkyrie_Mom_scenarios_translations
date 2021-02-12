@@ -1,7 +1,7 @@
 .,Spanish
 quest.name,El Ritual (1.25)
 quest.description,\n Suzanne, tu amiga íntima, ha estado investigando una historia sobre la desaparición de niñas y chicas jóvenes en un pequeño pueblo pesquero. Ella cree que está cerca de descubrir algo, pero se ha mostrado muy reservada en cuanto a lo que cree haber encontrado exactamente. \n\n Te ha invitado a que la acompañes a Whitby para la parte final de su investigación. A pesar del mal presentimiento que tienes sobre el viaje, finalmente decides unirte a ella... \n\n De 2 a 4 investigadores. \n
-quest.synopsys,Revelar la verdad tras la desaparición de varias niñas en el pueblo de Whitby. 2-4 investigadores
+quest.synopsys,Revela la verdad tras la desaparición de varias niñas en el pueblo de Whitby. 2-4 investigadores
 quest.authors,\n\n Escrito y creado por: Colin Baumgartner \n\n Traducción al español: Mauch8 \n Revisión: Vidimus \n\n
 TokenSpawnInvestigators.button1,Continuar
 TokenBBFrontDoor.button1,{action} Abrir la puerta
@@ -9,7 +9,7 @@ TokenSpawnInvestigators.text,Coloca las miniaturas de los investigadores donde s
 TokenBBStreetSight1.button1,Revelar
 TokenBBFrontDoor.text,La puerta principal del edificio ha sido pintada recientemente. En una pequeña placa de metal puede leerse «<i>Alquiler de habitaciones</i>».
 EventAddBBSightToken3.text,Escuchas el gorgoteo del agua más allá, en la plaza del pueblo. Coloca una ficha de Vistazo como se indica.
-EventGameStartText.text,Llegáis a Whitby justo cuando el sol se está poniendo. Vuestro grupo se registra en una sencilla pero cómoda pensión con desayuno incluido. Suzanne te dice que te instales y que más tarde te encuentres con ella en la calle. \n\n Cuando sales por la puerta principal de la pensión, el sol prácticamente ha desaparecido en el horizonte. Las calles están oscuras y los últimos rayos de luz son absorbidos por los adoquines. Caes en la cuenta de que Suzanne parecía distraída. \n 
+EventGameStartText.text,Llegáis a Whitby justo cuando el sol se está poniendo. Vuestro grupo se registra en una sencilla pero cómoda pensión con desayuno incluido. Suzanne te dice que te instales y que más tarde te encuentres con ella en la calle. \n\n Cuando sales por la puerta principal de la pensión, el sol prácticamente ha desaparecido en el horizonte. Las calles están oscuras y los últimos rayos de luz son absorbidos por los adoquines. Caes en la cuenta de que Suzanne parecía distraída. \n
 EventFirstTile.text,Coloca el módulo {c:TileFrontOfHotel} como se indica.
 TokenSightBBStreetLeft.text,El sol se está poniendo en el horizonte, impidiéndote ver lo que hay en esa dirección. Un investigador adyacente a esta ficha de Vistazo puede revelar el espacio más allá.
 EventWhiteSeenSuzanne.text,La Sra. Masterson te mira mientras le haces la pregunta. La mujer sonríe amablemente cuando ve que eres tú. \n\n <i>—Perdone, querido. ¿Qué ha dicho?</i>
@@ -30,16 +30,16 @@ EventStartingClues.button1,Continuar
 EventStartingClues.text,Cada investigador comienza con 2 Pistas {clue}.
 EventOpenBBDoor.text,La puerta se abre para revelar el vestíbulo del edificio, iluminado tenuemente. La única fuente de luz es una pequeña bombilla situada junto a la puerta. \n\n Coloca los módulos {c:TileBedandBreakfastLobby} y {c:TileBBLobby2} y una ficha de Pared como se indica.
 EventOpenBBDoor.button1,Continuar
-UIUIBorder.text, \n 
+UIUIBorder.text,\n
 EventUIIntro.button1,Continuar
 UIUIBorder.button1,Continuar
 UIUIButton.button1,Continuar
 UIIntroText2.uitext,Os subís a un tren en dirección a la costa y luego cogéis un taxi que os lleva el resto del camino hasta Whitby. Suzanne no habla durante el viaje, pero murmura para sí misma distraídamente. Todos tus intentos por entablar una conversación con ella son en vano. A medida que os acercáis a la pequeña comunidad de pescadores, tu columna vertebral hormiguea cada vez más con malos presagios. ¿En qué te has metido? Te propones que, una vez que tu grupo se haya acomodado, le pedirás a Suzanne que te explique lo que está pasando...
 EventGameStartText.button1,Continuar
-UIContinueButtonText.uitext, \n Continuar \n 
+UIContinueButtonText.uitext,\n Continuar \n
 quest.authors_short,Colin Baumgartner
 UIIntroText2.button1,Continuar
-UIIntroText1.uitext,Tu amiga Suzanne trabaja para un periódico londinense clandestino, The Scroll. Ha estado investigando las desapariciones de niñas y chicas jóvenes en el pueblo de Whitby. Cada año, una niña desaparece sin dejar rastro. Suzanne ha estado indagando sobre estos hechos obsesivamente durante varios meses. \n\n Ella cree que finalmente está cerca de hacer un gran avance en su investigación. Te ha pedido que la acompañes a Whitby y la ayudes en el último paso de su investigación. Sois tan buenos amigos que sientes que no puedes rechazar su petición, aunque tengas un mal presentimiento sobre el viaje. \n 
+UIIntroText1.uitext,Tu amiga Suzanne trabaja para un periódico londinense clandestino, The Scroll. Ha estado investigando las desapariciones de niñas y chicas jóvenes en el pueblo de Whitby. Cada año, una niña desaparece sin dejar rastro. Suzanne ha estado indagando sobre estos hechos obsesivamente durante varios meses. \n\n Ella cree que finalmente está cerca de hacer un gran avance en su investigación. Te ha pedido que la acompañes a Whitby y la ayudes en el último paso de su investigación. Sois tan buenos amigos que sientes que no puedes rechazar su petición, aunque tengas un mal presentimiento sobre el viaje. \n
 UIContinueButtonText.button1,Continuar
 EventGameStartText2.text,Suzanne salta cuando la puerta se cierra detrás de ti. Parece aliviada de verte, pero se muestra evasiva cuando le preguntas qué le preocupa. \n\n —<i>Es esta investigación</i> —responde—. <i>He descubierto algo. No estamos seguros aquí</i> —dice mirando por encima de su hombro. \n\n Antes de que le preguntes qué quiere decir, Suzanne se mueve hacia la puerta. \n\n —<i>He olvidado algunos documentos en mi habitación. No tardaré ni un minuto</i> —murmura mientras abre la puerta del edificio y desaparece. \n
 EventGameStartText2.button1,Continuar
@@ -85,7 +85,7 @@ EventRevealBathroomHall.button1,Continuar
 EventBathroomHall1.text,La puerta de la derecha, de madera gruesa, está señalizada como un baño. Se puede escuchar el débil sonido de unos sollozos al otro lado. \n\n Coloca una ficha de Interacción como se indica.
 EventBathroomHall1.button1,Continuar
 EventBR_Knock_Break.text,La puerta del baño parece sorprendentemente robusta. Oyes el sonido de sollozos apagados en el interior del baño.
-TokenBathroomDoor.button1,Continue
+TokenBathroomDoor.button1,Continuar
 EventBreakBathroomDoorPass.text,Tu cuerpo golpea la puerta con fuerza y hace añicos la pesada madera. Entras a la habitación entre una nube de astillas. \n\n La sangre cubre el suelo del baño y Suzanne yace desplomada contra la bañera, demasiado débil incluso para emitir ningún sonido cuando atraviesas la puerta. Respira superficialmente y no es capaz de moverse. \n\n Muévete un espacio hacia el interior del baño y descarta la ficha de Exploración.
 EventBreakBathroomDoorPass.button1,Continuar
 EventBathroomKnock.text,Los sollozos se detienen abruptamente y escuchas la tímida voz de Suzanne preguntar desde el otro lado de la puerta: \n\n —<i>¿Quién está ahí?</i> \n\n Puedes intentar convencer a Suzanne de que eres tú ({influence}; 2).
@@ -180,7 +180,7 @@ EventWhite_History.text,La Sra. Masterson, la propietaria de la pensión, está 
 EventWhite_History.button2,Cancelar
 EventWhiteConfront.text,La Sra. Masterson, la propietaria de la pensión, está de pie en el pasillo sujetando una escoba. No deja de barrer cuando te acercas.
 EventWhiteConfront.button1,{action} Interrogar a la Sra. Masterson sobre sus extraños hábitos nocturnos
-EventWhiteConfrontWife.text,La anciana sonríe cuando la interrogas sobre sus extraños hábitos nocturnos—. <i>Ustedes, malditos idiotas, no tienen ni idea de en qué les ha metido su amiga, ¿verdad? Voy a matarles primero a ustedes y luego mataré al estúpido de mi marido.</i> \n\n La mujer deja su trabajo y se yergue, blandiendo su escoba. De repente te das cuenta de que no es tan débil ni tan vieja como parecía antes.
+EventWhiteConfrontWife.text,La anciana sonríe cuando la interrogas sobre sus extraños hábitos nocturnos. —<i>Ustedes, malditos idiotas, no tienen ni idea de en qué les ha metido su amiga, ¿verdad? Voy a matarles primero a ustedes y luego mataré al estúpido de mi marido.</i> \n\n La mujer deja su trabajo y se yergue, blandiendo su escoba. De repente, te das cuenta de que no es tan débil ni tan vieja como parecía antes.
 EventWhiteConfrontWife.button1,Continuar
 EventBR_Open_Knock_Break.text,La puerta del baño parece sorprendentemente robusta. Oyes el sonido de apagados sollozos al otro lado de la puerta.
 EventBR_Open_Knock_Break.button1,{action} Intentar abrir la puerta
@@ -207,7 +207,7 @@ EventYourRoomSearchToken1.text,La puerta del armario de tu habitación está lig
 EventYourRoomSearchToken1.button1,Continuar
 TokenYourRoomSearchToken.text,La puerta del armario está ligeramente entreabierta. No puedes recordar si la dejaste así cuando fuiste a ver a Suzanne...
 TokenYourRoomSearchToken.button1,{action} Buscar
-EventClosetSearch.text,Es evidente que alguien ha rebuscado entre tus cosas. A primera vista no parece que te falte nada, pero es difícil estar seguro. Nervioso, buscas en tu equipaje si falta algo de lo que trajiste, sólo por si acaso. \n\n Ganas el Objeto común Carabina, luego descarta la ficha de Búsqueda.
+EventClosetSearch.text,Es evidente que alguien ha rebuscado entre tus cosas. A primera vista no parece que te falte nada, pero es difícil estar seguro. Nervioso, buscas en tu equipaje si se han llevado una de las armas que trajiste, sólo por si acaso. \n\n Ganas el Objeto {c:QItemClosetSearch}, luego descarta la ficha de Búsqueda.
 EventClosetSearch.button1,Continuar
 EventEventBBHallwayPlaceSearch.text,Al final del pasillo, una lámpara encima de un escritorio ilumina el lugar. Hay unos papeles esparcidos por el suelo. \n\n Coloca una ficha de Búsqueda como se indica.
 EventEventBBHallwayPlaceSearch.button1,Continuar
@@ -243,7 +243,7 @@ EventAddShopExplore1.text,El letrero del negocio que tienes a tu derecha dice «
 EventAddShopExplore1.button1,Continuar
 TokenExploreShop1.text,El letrero del negocio que tienes a tu derecha dice «Hobbes & Breckenridge: Proveedores de bienes de lujo». Las luces de la tienda están encendidas y se oyen voces que provienen del interior.
 TokenExploreShop1.button1,{action} Abrir la puerta
-EventInspectBook.text,Intentas descifrar los extraños escritos arcanos del libro. No sabes exactamente lo que estás leyendo, pero en una de las páginas se ha garabateado una nota con tinta roja: \n\n <i>«La sangre servirá a Ἑκάτη y Μορμώ»</i>. \n\n Desconoces el significado de esa frase, pero es evidente que parece importante. \n\n Ganas 2 Pistas {clue}. Después descarta esta ficha de Búsqueda. 
+EventInspectBook.text,Intentas descifrar los extraños escritos arcanos del libro. No sabes exactamente lo que estás leyendo, pero en una de las páginas se ha garabateado una nota con tinta roja: \n\n <i>«La sangre servirá a Ἑκάτη y Μορμώ»</i>. \n\n Desconoces el significado de esa frase, pero es evidente que parece importante. \n\n Ganas 2 Pistas {clue}. Después descarta esta ficha de Búsqueda.
 EventInspectBook.button1,Continuar
 EventEnterShop1.text,Una pequeña campana suena cuando abres la puerta del negocio. El interior de la tienda ha visto días mejores, ya que las vitrinas se encuentran cubiertas de una capa de polvo, las estanterías detrás del mostrador están llenas de chatarra, y hay un ligero olor a humedad en el aire. El único artículo nuevo en la tienda parece ser un pequeño libro rojo al otro lado del mostrador. \n\n Descarta la ficha de Exploración.
 EventEnterShop1.button1,Continuar
@@ -319,7 +319,7 @@ UISuzanneJournalButtonText.button1,Continuar
 UISuzanneJournalButtonText2.button1,Button1
 UIJournalButtonText3.uitext,Continuar
 UIJournalButtonText3.button1,Button1
-UISuzanneJournalLastPageText.uitext,<i>20 de enero. La investigación sobre la secta ha avanzando lentamente, pero tengo la convicción de que estoy en el camino correcto. El ritual parece centrarse en apaciguar a Hécate, la diosa de la noche.</i> \n\n <i>Diría que suena absurdo e infantil, pero esta gente debe creer en todas estas tonterías. Creerlo lo suficiente como para cometer un asesinato.</i> \n\n <i>Encontré un libro que alude a cómo se dirigía el ritual en la antigua Grecia. Creo que podré ser capaz de infiltrarme en la ceremonia este año.</i> \n\n <i>Necesito averiguar dónde guardan los miembros sus túnicas. Creo que el culto probablemente usará la misma contraseña que usaba el culto griego. La frase es</i>
+UISuzanneJournalLastPageText.uitext,<i>20 de enero. La investigación sobre la secta ha avanzado lentamente, pero tengo la convicción de que estoy en el camino correcto. El ritual parece centrarse en apaciguar a Hécate, la diosa de la noche.</i> \n\n <i>Diría que suena absurdo e infantil, pero esta gente debe creer en todas estas tonterías. Creerlo lo suficiente como para cometer un asesinato.</i> \n\n <i>Encontré un libro que alude a cómo se dirigía el ritual en la antigua Grecia. Creo que podré ser capaz de infiltrarme en la ceremonia este año.</i> \n\n <i>Necesito averiguar dónde guardan los miembros sus túnicas. Creo que el culto probablemente usará la misma contraseña que usaba el culto griego. La frase es</i>
 UISuzanneJournalFinalButtonText.button1,Button1
 EventSuzanneJournalFinished.text,La última página del diario está desgarrada, pero confías en que si pudieras encontrar la túnica y el código al que el diario hace referencia, serías capaz de infiltrarte en la reunión de la secta...
 EventSuzanneJournalFinished.button1,Continuar
@@ -378,7 +378,7 @@ TokenNewspaperTrap.text,Un periódico está tirado en medio de la calle vacía.
 TokenNewspaperTrap.button1,{action} Inspeccionar
 SpawnDrunkard.button1,Continuar
 CustomMonsterDrunkard.info,-
-SpawnDrunkard.text,Cuando te agachas a inspeccionar el periódico, un borracho sale de las sombras. Debe de haber estado escondido en el callejón esperando para emboscar al siguiente transeúnte. El borracho te golpea con una botella de licor barato. \n\n Sufres 2 de Daño boca abajo anulados por {observation}. Coloca un miniatura de Híbrido de profundo en el lugar indicado, representado al Borracho. A continuación, descarta la ficha de Búsqueda.
+SpawnDrunkard.text,Cuando te agachas a inspeccionar el periódico, un borracho sale de las sombras. Debe de haber estado escondido en el callejón esperando para emboscar al siguiente transeúnte. El borracho te golpea con una botella de licor barato. \n\n Sufres 2 de Daño boca abajo anulados por {observation}. Coloca un miniatura de Híbrido de profundo en el lugar indicado, representando al Borracho. A continuación, descarta la ficha de Búsqueda.
 CustomMonsterDrunkard.Attack_unarmed_1,-
 EventPlaceLibraryDoor.text,A través de las ventanas alcanzas a ver una habitación llena de estantes con libros. A pesar de lo tarde que es, las luces están todas encendidas. El pequeño cartel que cuelga de la puerta dice «Biblioteca Abierta». \n\n Coloca una ficha de Exploración en el lugar indicado.
 CustomMonsterDrunkard.monstername,Borracho
@@ -390,9 +390,9 @@ EventPlaceLibraryTile.button1,Continuar
 EventPlaceLibrarian.text,La mujer que se encuentra detrás del escritorio da un respingo cuando la puerta se abre. Con su gesto, la mujer tira una botella de whisky, que se hace añicos en el suelo, mientras intenta apresuradamente ocultar una túnica oscura que sostiene en su mano. \n\n Coloca una ficha de Personaje en el lugar indicado.
 EventPlaceLibrarian.button1,Continuar
 TokenLibrarian.button1,Saludar a la mujer
-EventLibrarian_Robe.text,La mujer mira hacia arriba y se toma un momento para centrar su atención en tu cara. \n\n —<i>Hummm... ¿Có... cómo le va la noooche?</i> —te pregunta, arrastrando sus palabras.
+EventLibrarian_Robe.text,La mujer mira hacia arriba y se toma un momento para centrar su atención en tu cara. \n\n —<i>Hummm... ¿Co... cómo le va la noooche?</i> —te pregunta, arrastrando sus palabras.
 EventLibrarian_Robe.button1,{action} Preguntar por la túnica
-EventLibrarian_Suzanne_Robe.text,La mujer mira hacia arriba y se toma un momento para centrar su atención en tu cara—. \n\n <i>Hmmm... ¿Có... cómo le va la noooche?</i> —te pregunta, arrastrando sus palabras.
+EventLibrarian_Suzanne_Robe.text,La mujer mira hacia arriba y se toma un momento para centrar su atención en tu cara. \n\n —<i>Hmmm... ¿Co... cómo le va la noooche?</i> —te pregunta, arrastrando sus palabras.
 EventLibrarian_Suzanne_Robe.button1,{action} Decirle a la mujer que conoces a Suzanne
 EventLibrarian_Suzanne_Robe.button2,{action} Preguntar a la mujer sobre la túnica
 EventLibrarian_Suzanne_Robe.button3,Cancelar
@@ -423,7 +423,7 @@ EventTarotCard.button2,—<i>Tal vez en otro momento</i>.
 EventTarotCardDraw.button1,Button1
 UITarotCardContinueText.uitext,Continuar
 UITarotCardContinueText.button1,Button1
-EventTarotCardMeaning.text,—<i>Mmmmm. El Ahorcado</i> —murmura la mujer asintiendo pensativamente con la cabeza—. <i>Sí. Sí. Ya veo. Usted es el elegido entonces... Me alegro de que haya venido. Parece que necesitará toda su fuerza esta noche</i> —dice barajando su mazo de nuevo y para después guardar las cartas.
+EventTarotCardMeaning.text,—<i>Mmmmm. El Ahorcado</i> —murmura la mujer asintiendo pensativamente con la cabeza—. <i>Sí, sí. Ya veo. Usted es el elegido entonces... Me alegro de que haya venido. Parece que necesitará toda su fuerza esta noche</i> —dice barajando su mazo de nuevo para después guardar las cartas.
 EventTarotCardMeaning.button1,Continuar
 EventGypsyWine.text,La mujer descorcha una pequeña botella que saca de su bata y te ofrece un trago. \n\n Mejora un punto tu {strength}.
 EventGypsyWine.button1,Continuar
@@ -449,8 +449,8 @@ EventBernadoGreeting.text,—<i>¡Bienvenido! ¡Bienvenido, amigo mío! Soy Bern
 EventBernadoGreeting.button1,Continuar
 EventBernadoOptions.button1,Button1
 EventBernado_Self_Shop.text,—<i>¿Qué puedo hacer por usted en esta noche mágica?</i> —pregunta Bernado con una graciosa reverencia.
-EventBernado_Self_Shop.button1,{action} —<i>Hábleme de usted.</i> 
-EventBernado_Self_Shop.button2,{action} —<i>¿Cómo encontró todas estas cosas?</i> 
+EventBernado_Self_Shop.button1,{action} —<i>Hábleme de usted.</i>
+EventBernado_Self_Shop.button2,{action} —<i>¿Cómo encontró todas estas cosas?</i>
 EventBernado_Self_Shop.button3,Cancelar
 EventBernadoSelfDialogue.text,—<i>Ah, ¿qué le hable de mí? Es imposible recordar las innumerables aventuras, los tormentosos y apasionados romances, el renombre ganado y luego perdido, sin parecer terriblemente vanidoso y engreído. No, no creo que debamos tomar ese camino esta noche.</i> \n\n —<i>¡Puedo mostrarle algo mucho más interesante! Éste es un truco de magia que aprendí en un pequeño pueblo llamado Saalbach mientras atravesaba los Alpes austriacos. Se sirve un generoso vaso de schnapps de una botella. Ahora ve el schnapps</i> —agita sus brazos dramáticamente antes de tomarse la bebida de un trago—. <i>¡Ahora no lo ve!</i> —exclama con una floritura. Luego te sirve un vaso. \n\n Puedes dar la vuelta a 1 carta de Horror o de Daño de tu elección o descartar 1 carta de Horror o de Daño boca abajo.
 EventBernadoSelfDialogue.button1,Continuar
@@ -458,20 +458,20 @@ EventZirbenSchnapps.text,—<i>Ah, un producto maravilloso. Este néctar provien
 EventZirbenSchnapps.button1,Continuar
 EventBernadoShopDialogue.text,\n—<i>¡Viajando, por supuesto! ¡Uno no puede estar sentado en el mismo lugar toda la vida! ¡Uno debe salir! Cortejar a las muchachas en tierras exóticas, beber con los bucaneros más allá de las ciudades, etc., etc. Sea lo que sea que haga, ¡asegúrese de no terminar en un lugar como éste! Sí, lamento decir que este pequeño pueblo está absorbiendo lentamente mi fuerza vital. Si está en la ciudad buscando una propiedad, recuerde mis palabras, la hierba es decididamente más verde en otros lugares.</i>\n
 EventBernadoShopDialogue.button1,Continuar
-EventBernado_Self.button1,{action} —<i>Hábleme de usted.</i> 
+EventBernado_Self.button1,{action} —<i>Hábleme de usted.</i>
 EventBernado_Self.button2,Cancelar
 EventBernado_Self.text,—<i>¿Algo más que deje perpleja a esa encantadora mente suya?<i> —te pregunta Bernado con una amable reverencia.
 EventBernado_Shop.text,—<i>¿Algo más que deje perpleja a esa encantadora mente suya?<i> —te pregunta Bernado con una amable reverencia.
-EventBernado_Shop.button1,{action} —<i>¿Cómo encontró todas estas cosas?</i> 
+EventBernado_Shop.button1,{action} —<i>¿Cómo encontró todas estas cosas?</i>
 EventBernado_Shop.button2,Cancelar
-EventBernado_Done.text,Bernado ha sacado un libro titulado «Horas de esfuerzo varonil en el Himalaya» y está estudiando el libro intensamente mientras tararea el tema del Concierto de Brandenburgo. \n\n Lo mejor será no molestarlo.
+EventBernado_Done.text,Bernado ha sacado un libro titulado «Horas de esfuerzo varonil en el Himalaya» y está estudiando el libro intensamente mientras tararea el tema del Concierto de Brandemburgo. \n\n Lo mejor será no molestarlo.
 EventBernado_Done.button1,Continuar
-EventPlaceConstructionDoor.text,Una de las tiendas está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Ésta tiene un gran letrero que dice: \n\n «<i>En construcción. \n No entrar</i>». \n\n Coloca una ficha de Exploración como se indica.
+EventPlaceConstructionDoor.text,Una de las tiendas está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Ésta tiene un gran letrero que dice: \n\n «<i>En construcción. \n No entrar.</i>» \n\n Coloca una ficha de Exploración como se indica.
 EventPlaceConstructionDoor.button1,Continuar
 TokenContructionDoor.button1,Button1
-EventConstructionDoor_NoKey.text,La tienda está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Un gran letrero dice:</i> \n\n <b>En construcción. \n No entrar.</b> \n\n Es probable que necesites una llave para la puerta.
+EventConstructionDoor_NoKey.text,La tienda está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Un gran letrero dice:\n\n «<i>En construcción. \n No entrar.</i>»\n\n Es probable que necesites una llave para la puerta.
 EventConstructionDoor_NoKey.button1,Continuar
-EventConstructionDoor_Key.text,La tienda está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Un gran letrero dice:</i> \n\n <b>En construcción. \n No entrar.</b>
+EventConstructionDoor_Key.text,La tienda está cerrada con tablas. Una gran cerradura ha sido atornillada sobre la puerta. Un gran letrero dice:\n\n «<i>En construcción. \n No entrar.</i>»
 EventConstructionDoor_Key.button1,{action} Usar la llave
 EventPlaceContructionTile.text,La llave funciona. Miras alrededor de la calle para asegurarte de que no hay nadie observando antes de deslizarte en el oscuro espacio más allá de la puerta. La tienda ha sido vaciada y las cajas de equipos de construcción y basura cubren gran parte del suelo. \n\n Coloca el módulo {c:TileConstructionSite} y una ficha de Pared en los lugares indicados y descarta la ficha de Exploración.
 EventPlaceContructionTile.button1,Continuar
@@ -521,7 +521,7 @@ EventCaught.text,Figuras encapuchadas se materializan en la oscuridad y desciend
 EventCaught.button1,Continuar
 EventAbbey_Sneak.text,Ya que no tienes suficientes túnicas para todos los investigadores, parece que la única posibilidad es intentar acercarse a la abadía sin ser detectado.
 EventAbbey_Sneak.button1,Intentar acercarse sigilosamente
-EventFailureEndPlacement.text,Vuelves en sí, y a tu mente vienen visiones borrosas de una niña pequeña que se retuerce en los brazos de una figura encapuchada; también recuerdas la terrible visión de la sangre y un grito chillón y espeluznante. Después, la nada. \n\n Intentas comprender lo que te rodea a pesar de las visiones sombrías. Pareces estar en el centro de la abadía en ruinas. Miras a tu alrededor y te haces una idea aproximada del lugar a pesar del dolor. \n\n Coloca los módulos {c:TileTempleStairs}, {c:TileMainChamber}, {c:TileMoonChamber}, {c:TileBottomRuins}, {c:TileBackRuins1}, and {c:TileBackRuins2} y una ficha de Búsqueda como se indica.
+EventFailureEndPlacement.text,Vuelves en sí, y a tu mente vienen visiones borrosas de una niña pequeña que se retuerce en los brazos de una figura encapuchada; también recuerdas la terrible visión de la sangre y un grito chillón y espeluznante. Después, la nada. \n\n Intentas comprender lo que te rodea a pesar de las visiones sombrías. Pareces estar en el centro de la abadía en ruinas. Miras a tu alrededor y te haces una idea aproximada del lugar a pesar del dolor. \n\n Coloca los módulos {c:TileTempleStairs}, {c:TileMainChamber}, {c:TileMoonChamber}, {c:TileBottomRuins}, {c:TileBackRuins1}, y {c:TileBackRuins2} y una ficha de Búsqueda como se indica.
 EventFailureEndPlacement.button1,Continuar
 EventFailurePlaceInvestigators.text,Intentas moverte y te das cuenta de que estás atado de manos y pies con una gruesa cuerda. \n\n Cada investigador debe hacer una tirada de {strength} o {will} para liberarse de las ataduras. Si consigues 2 o más éxitos, te las arreglas para liberarte. Si no superas la tirada, sufres 1 de Horror y 1 de Daño antes de liberarte. \n\n Coloca a los investigadores como se indica.
 EventFailurePlaceInvestigators.button1,Continuar
@@ -644,7 +644,7 @@ EventPillarBreak.button1,Continuar
 TokenBreakPillar.text,Uno de los pilares que aún sostienen en pie los ruinosos arcos, parece particularmente precario. Si consiguieras derribar el pilar, podrías fácilmente derrumbar los arcos e interrumpir la ceremonia. Sólo tendrás una oportunidad para hacerlo.
 TokenBreakPillar.button1,{action} Intentar destruir el pilar
 TokenBreakPillar.button2,Cancelar
-EventPillarDestroyTest.text,Te acercas a la columna, moviéndote con cuidado fuera de la vista del círculo de sectarios. El canto va ganando volumen y velocidad. Sabes que sólo tendrás una oportunidad de golpear el pilar antes de que te descubran. \n\n Realiza una prueba de {strenght} para derribar el pilar medio derruido (tira 1 dado adicional si tienes un arma pesada).
+EventPillarDestroyTest.text,Te acercas a la columna, moviéndote con cuidado fuera de la vista del círculo de sectarios. El canto va ganando volumen y velocidad. Sabes que sólo tendrás una oportunidad de golpear el pilar antes de que te descubran. \n\n Realiza una prueba de {strength} para derribar el pilar medio derruido (tira 1 dado adicional si tienes un arma pesada).
 EventPillarDestroyTest.button1,Continuar
 EventPillarTest_Pass.text,Tu golpe sólo logra dañar el pilar. La columna se inclina ligeramente y, por un momento, temes que el daño no haya sido suficiente. Entonces, el pilar se derrumba y el techo se hunde. Una nube de polvo envuelve la habitación y todo lo que puedes escuchar son los gritos y gemidos angustiados de los sectarios aplastados por la piedra caída. \n\n Retira la ficha de Interacción. \n\n Cualquier investigador situado en la {c:TileMainChamber} sufre 4 de Daño boca abajo y obtiene el estado Aturdido.
 EventPillarTest_Pass.button1,Continuar
@@ -701,13 +701,13 @@ EventRemoveIntroUIElements.button1,Button1
 EventUIIntroEventMoveToText2.button1,Button1
 UIButtonTextAgain.uitext,Continuar
 UIButtonTextAgain.button1,Button1
-EventGuardianOptions_SigilUsed_NoPaperFound.button1,<i>La luz de la luna.</i> 
-EventGuardianOptions_SigilUsed_NoPaperFound.button2,<i>Los poderes de la oscuridad.</i> 
-EventGuardianOptions_SigilUsed_NoPaperFound.button3,<i>Mi elegante apariencia.</i> 
+EventGuardianOptions_SigilUsed_NoPaperFound.button1,<i>La luz de la luna.</i>
+EventGuardianOptions_SigilUsed_NoPaperFound.button2,<i>Los poderes de la oscuridad.</i>
+EventGuardianOptions_SigilUsed_NoPaperFound.button3,<i>Mi elegante apariencia.</i>
 EventGuardianOptions_SigilUsed_NoPaperFound.button4,Intentar huir
 EventGuardianOptions_SigilUsed_NoPaperFound.button5,Atacar
 EventLoss.text,Los poderes de la oscuridad están creciendo demasiado rápido en Whitby para ser detenidos. Tus heridas son muy graves y la sangre que escapa de tu cuerpo agota las últimas fuerzas que te quedan. A medida que tu visión comienza a oscurecerse y tu vida queda momentáneamente suspendida, eres capaz de vislumbrar el futuro. Ves a tus amigos tratando de huir en vano, ves bestias de pesadilla destrozando a los habitantes de Whitby, y ves el cielo permanentemente oscurecido. \n\n No hay nada que puedas hacer. No hay esperanza. Éstas son las últimas ideas que pasan por tu mente antes de fallecer. No has conseguido completar tu misión.
-EventGuardianOptions_SigilUsed_NoPaperFound.text,La figura encapuchada asiente mientras tú le muestras el Emblema de sectario. Una voz profunda pregunta desde debajo de la capucha: \n\n —<i>¿Qué poder le permite vagar por la oscuridad? La noche está llena de peligros y el camino es largo.</i> 
+EventGuardianOptions_SigilUsed_NoPaperFound.text,La figura encapuchada asiente mientras tú le muestras el Emblema de sectario. Una voz profunda pregunta desde debajo de la capucha: \n\n —<i>¿Qué poder le permite vagar por la oscuridad? La noche está llena de peligros y el camino es largo.</i>
 EventLoss.button1,Continuar
 EventBoyFirstDialogue.button2,Cancelar
 EventReadSuzanneNotes.button2,Cancelar
