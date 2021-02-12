@@ -1,459 +1,463 @@
-.,Spanish
-quest.name,Expedición al Horror - V3
-quest.description,Este escenario presenta eventos aleatorios para aumentar la rejugabilidad. \n No hay límite de rondas y hay una cantidad bastante importante de combate (aunque éste será en ocasiones aleatorio y no siempre en las mismas cantidades). \n\n Este escenario no usa Pruebas, así que descarta cualquier carta de locura que requiera el uso de Pruebas y roba una nueva. \n\n Actualización V2: Por petición expresa de los jugadores, el escenario es ahora un poco más fácil. Particularmente para partidas de 2-3 jugadores. También ha habido algunas actualizaciones generales de calidad. \n\n Actualización V3: Se ha modificado la Fase de Mitos para que sea más personalizada para el escenario y algo más fácil en función de algunos comentarios negativos de los usuarios.
-EventScenarioStart.text,Cada investigador comienza el escenario con 2 Pistas {clue}
+Progreso de líneas,Spanish
+Variable,Expedición al Horror - V3
+.,Este escenario presenta eventos aleatorios para aumentar la rejugabilidad. \n No hay límite de rondas y hay una cantidad bastante importante de combate (aunque éste será en ocasiones aleatorio y no siempre en las mismas cantidades). \n\n Este escenario no usa Pruebas, así que descarta cualquier carta de locura que requiera el uso de Pruebas y roba una nueva. \n\n Actualización V2: Por petición expresa de los jugadores, el escenario es ahora un poco más fácil. Particularmente para partidas de 2-3 jugadores. También ha habido algunas actualizaciones generales de calidad. \n\n Actualización V3: Se ha modificado la Fase de Mitos para que sea más personalizada para el escenario y algo más fácil en función de algunos comentarios negativos de los usuarios.
+quest.name,Cada investigador comienza el escenario con 2 Pistas {clue}
+quest.description,Continuar
+EventScenarioStart.text,Rumores de una poderosa reliquia en las selvas de Brasil \n han surgido entre los círculos más adinerados de Arkham. \n Una poderosa secta de gran influencia sobre esta oscura \n ciudad, conocida como el Culto del Ojo Verde, planea hacerse con ella. \n No dispuestos a darles esa oportunidad, \n hacéis los preparativos para emprender vuestra propia aventura \n y así intentar conseguirla primero. \n\n Tú y tu grupo de investigadores alquiláis un barco y zarpáis \n hacia la supuesta ubicación de esta fuente mística de poder. \n Llegáis a la costa de Brasil recibidos por el cálido saludo de los nativos. \n Sin embargo, os asaltan vagas advertencias de energía arcana \n y horrores incognoscibles en un templo en lo profundo de la jungla. \n\n Reúnes algunos suministros y te preparas para empezar la caminata \n sin saber exactamente qué vas a encontrarte. \n Los nativos fueron muy amables al proporcionaros un extraño \n elixir que podría ayudaros en vuestra expedición, aunque evitaron \n intencionadamente entrar en detalles sobre el templo. \n\n Quizá todo esto sea pura superstición, pero cuando se trata de una \n secta de Arkham, nunca puedes dar por sentada tu seguridad.
 EventScenarioStart.button1,Continuar
-UIIntroText.uitext,Rumores de una poderosa reliquia en las selvas de Brasil \n han surgido entre los círculos más adinerados de Arkham. \n Una poderosa secta de gran influencia sobre esta oscura \n ciudad, conocida como el Culto del Ojo Verde, planea hacerse con ella. \n No dispuestos a darles esa oportunidad, \n hacéis los preparativos para emprender vuestra propia aventura \n y así intentar conseguirla primero. \n\n Tú y tu grupo de investigadores alquiláis un barco y zarpáis \n hacia la supuesta ubicación de esta fuente mística de poder. \n Llegáis a la costa de Brasil recibidos por el cálido saludo de los nativos. \n Sin embargo, os asaltan vagas advertencias de energía arcana \n y horrores incognoscibles en un templo en lo profundo de la jungla. \n\n Reúnes algunos suministros y te preparas para empezar la caminata \n sin saber exactamente qué vas a encontrarte. \n Los nativos fueron muy amables al proporcionaros un extraño \n elixir que podría ayudaros en vuestra expedición, aunque evitaron \n intencionadamente entrar en detalles sobre el templo. \n\n Quizá todo esto sea pura superstición, pero cuando se trata de una \n secta de Arkham, nunca puedes dar por sentada tu seguridad.
-UIIntroContinue.uitext,Continuar
+UIIntroText.uitext,Continuar
+UIIntroContinue.uitext,Tu viaje a través de la espesa jungla infestada de mosquitos no ha traído más que sudor, sangre y agotamiento. Sin embargo, a medida que te abres camino a través de la maleza, finalmente ves lo que andabas buscando. El templo está ante ti, cubierto de gruesas enredaderas y desgastado por el paso del tiempo. Definitivamente sientes una extraña energía que emana de su interior a medida que te vas acercando. \n\n Cuando te aproximas a un arroyo que corre desde debajo del templo, descubres señales de un terremoto que pudo haber devastado la zona años atrás. Las profundas cicatrices y desplazamientos en las paredes de piedra no hacen más que preocuparte y pensar en que su falta de integridad estructural podría presentar un peligro para tu investigación. Esperas que la reliquia sea fácil de encontrar entre el deterioro y la destrucción que tienes ante ti. \n\n Coloca el módulo {c:TileRiverWithBridge} y a los investigadores en el lugar señalado.
 UIIntroContinue.button1,Continuar
-EventAddStartTile.text,Tu viaje a través de la espesa jungla infestada de mosquitos no ha traído más que sudor, sangre y agotamiento. Sin embargo, a medida que te abres camino a través de la maleza, finalmente ves lo que andabas buscando. El templo está ante ti, cubierto de gruesas enredaderas y desgastado por el paso del tiempo. Definitivamente sientes una extraña energía que emana de su interior a medida que te vas acercando. \n\n Cuando te aproximas a un arroyo que corre desde debajo del templo, descubres señales de un terremoto que pudo haber devastado la zona años atrás. Las profundas cicatrices y desplazamientos en las paredes de piedra no hacen más que preocuparte y pensar en que su falta de integridad estructural podría presentar un peligro para tu investigación. Esperas que la reliquia sea fácil de encontrar entre el deterioro y la destrucción que tienes ante ti. \n\n Coloca el módulo {c:TileRiverWithBridge} y a los investigadores en el lugar señalado.
+EventAddStartTile.text,Todavía hay grandes enredaderas y arbustos que bloquean tu camino hacia la entrada. \n\n Coloca 6 Fichas de Maleza en los lugares señalados. \n\n A medida que cortas la espinosa vegetación para abrirte paso por el camino, crees ver algo fuera de lugar en el arroyo. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
 EventAddStartTile.button1,Continuar
-EventAddOvergrowthAndSearchTokensRiver.text,Todavía hay grandes enredaderas y arbustos que bloquean tu camino hacia la entrada. \n\n Coloca 6 Fichas de Maleza en los lugares señalados. \n\n A medida que cortas la espinosa vegetación para abrirte paso por el camino, crees ver algo fuera de lugar en el arroyo. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
-EventAddOvergrowthAndSearchTokensRiver.button1,Continuar
-EventAddSightTokenRiverToStumps.button1,Continuar
-EventAddSightTokenRiverToStumps.text,Al otro lado del puente alcanzas a ver tres grandes troncos. \n\n Coloca una Ficha de Vistazo en el lugar señalado.
-TokenSearchRiverRight.text,Ves algo en la orilla del arroyo que parece fuera de lugar.
-TokenSearchRiverRight.button1,{action} Buscar
-EventSearchRiverRightPossibility1.text,A medida que te acercas al arroyo, te sorprendes al ver los restos de un brazo humano. La mayor parte de la carne ha sido arrancada y se ven grandes marcas de mordiscos en el hueso. Parece que no eres la primera persona en explorar estas ruinas. Esperas que a ti te vaya mejor que a esta pobre alma. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n Ganas 1 Pista {clue}
+EventAddOvergrowthAndSearchTokensRiver.text,Continuar
+EventAddOvergrowthAndSearchTokensRiver.button1,Al otro lado del puente alcanzas a ver tres grandes troncos. \n\n Coloca una Ficha de Vistazo en el lugar señalado.
+EventAddSightTokenRiverToStumps.button1,Ves algo en la orilla del arroyo que parece fuera de lugar.
+EventAddSightTokenRiverToStumps.text,{action} Buscar
+TokenSearchRiverRight.text,A medida que te acercas al arroyo, te sorprendes al ver los restos de un brazo humano. La mayor parte de la carne ha sido arrancada y se ven grandes marcas de mordiscos en el hueso. Parece que no eres la primera persona en explorar estas ruinas. Esperas que a ti te vaya mejor que a esta pobre alma. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n Ganas 1 Pista {clue}
+TokenSearchRiverRight.button1,Continuar
+EventSearchRiverRightPossibility1.text,Uno de los tablones del puente parece haber quedado atrapado en la orilla. \n Esto podría resultarte útil. \n\n Ganas el Objeto Común {c:QItem2X4}. \n A continuación, descarta esta Ficha de Búsqueda.
 EventSearchRiverRightPossibility1.button1,Continuar
-EventSearchRiverRightPossibility2.text,Uno de los tablones del puente parece haber quedado atrapado en la orilla. \n Esto podría resultarte útil. \n\n Ganas el Objeto Común {c:QItem2X4}. \n A continuación, descarta esta Ficha de Búsqueda.
-EventSearchRiverRightPossibility2.button1,Continuar
-TokenSearchRiverLeft.text,Crees ver algo brillante en el borde del agua.
-TokenSearchRiverLeft.button1,{action} Buscar
-EventSearchRiverLeftPossibility1.text,Alguien perdió su reloj de bolsillo. Te das cuenta de que está manchado de sangre, por lo que no puedes evitar imaginar el destino que cayó sobre su anterior dueño. \n Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Ganas el Objeto Común {c:QItemPocketWatch}. \n A continuación, descarta esta Ficha de Búsqueda.
+EventSearchRiverRightPossibility2.text,Crees ver algo brillante en el borde del agua.
+EventSearchRiverRightPossibility2.button1,{action} Buscar
+TokenSearchRiverLeft.text,Alguien perdió su reloj de bolsillo. Te das cuenta de que está manchado de sangre, por lo que no puedes evitar imaginar el destino que cayó sobre su anterior dueño. \n Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Ganas el Objeto Común {c:QItemPocketWatch}. \n A continuación, descarta esta Ficha de Búsqueda.
+TokenSearchRiverLeft.button1,Continuar
+EventSearchRiverLeftPossibility1.text,Alguien perdió su reloj de bolsillo. Horrorizado, compruebas que a su anterior dueño también le falta un brazo. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n Ganas el Objeto Común {c:QItemPocketWatch}. A continuación, descarta esta Ficha de Búsqueda.
 EventSearchRiverLeftPossibility1.button1,Continuar
-EventSearchRiverLeftPossibility2.text,Alguien perdió su reloj de bolsillo. Horrorizado, compruebas que a su anterior dueño también le falta un brazo. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n Ganas el Objeto Común {c:QItemPocketWatch}. A continuación, descarta esta Ficha de Búsqueda.
+EventSearchRiverLeftPossibility2.text,Cuando llegas al destello que llamó tu atención, te horrorizas al descubrir que era el reflejo del sol en los ojos de una víbora. Enseñando sus colmillos, se mueve velozmente para morder tu mano extendida. Esperas haberte dado cuenta lo suficientemente rápido como para escapar de sus fauces mortales. {observation} + {agility}.
 EventSearchRiverLeftPossibility2.button1,Continuar
-EventSearchRiverLeftPossibility3.text,Cuando llegas al destello que llamó tu atención, te horrorizas al descubrir que era el reflejo del sol en los ojos de una víbora. Enseñando sus colmillos, se mueve velozmente para morder tu mano extendida. Esperas haberte dado cuenta lo suficientemente rápido como para escapar de sus fauces mortales. {observation} + {agility}.
+EventSearchRiverLeftPossibility3.text,Te diste cuenta demasiado tarde de la víbora enfurecida y ahora estás sufriendo las consecuencias. Los colmillos te atravesaron la mano y, en un instante, la serpiente se desliza y se pierde entre la hierba. \n\n Adquieres el estado Envenenado. A continuación, descarta esta Ficha de Búsqueda.
 EventSearchRiverLeftPossibility3.button1,Continuar
-EventDodgeViperFail.text,Te diste cuenta demasiado tarde de la víbora enfurecida y ahora estás sufriendo las consecuencias. Los colmillos te atravesaron la mano y, en un instante, la serpiente se desliza y se pierde entre la hierba. \n\n Adquieres el estado Envenenado. A continuación, descarta esta Ficha de Búsqueda.
+EventDodgeViperFail.text,Por suerte, estuviste particularmente atento y tus reflejos actuaron en consecuencia. Esquivas los colmillos venenosos de la víbora y aplastas su cabeza bajo tu bota. Esta pequeña victoria aumenta tu moral. \n\n Adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
 EventDodgeViperFail.button1,Continuar
-EventDodgeViperPass.text,Por suerte, estuviste particularmente atento y tus reflejos actuaron en consecuencia. Esquivas los colmillos venenosos de la víbora y aplastas su cabeza bajo tu bota. Esta pequeña victoria aumenta tu moral. \n\n Adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
-EventDodgeViperPass.button1,Continuar
-TokenSightRiverToStumps.text,Un investigador situado en un espacio adyacente puede revelar la siguiente zona.
-TokenSightRiverToStumps.button1,Revelar
-EventLookIntoStumps.button1,Continuar
-EventAddStumpOvergrowth.text,A pesar de estar agotado debido a la espesura del terreno, aún no has terminado de atravesar la gruesa maleza. \n\n Coloca 2 Fichas de Maleza en los lugares señalados.
-EventLookIntoStumps.text,Ves un grupo de tocones de árboles enormes con unas runas talladas en la corteza. Debe de tratarse de algún tipo de prácticas rituales. \n\n Coloca el módulo {c:TileTreeTrunks} y 3 Fichas de Búsqueda en los lugares señalados.
+EventDodgeViperPass.text,Un investigador situado en un espacio adyacente puede revelar la siguiente zona.
+EventDodgeViperPass.button1,Revelar
+TokenSightRiverToStumps.text,Continuar
+TokenSightRiverToStumps.button1,A pesar de estar agotado debido a la espesura del terreno, aún no has terminado de atravesar la gruesa maleza. \n\n Coloca 2 Fichas de Maleza en los lugares señalados.
+EventLookIntoStumps.button1,Ves un grupo de tocones de árboles enormes con unas runas talladas en la corteza. Debe de tratarse de algún tipo de prácticas rituales. \n\n Coloca el módulo {c:TileTreeTrunks} y 3 Fichas de Búsqueda en los lugares señalados.
+EventAddStumpOvergrowth.text,Continuar
+EventLookIntoStumps.text,Ves a un hombre, presumiblemente residente de un pueblo cercano, inspeccionando los tocones. Parece ser un arqueólogo o de alguna profesión de investigación similar. \n\n Coloca la Ficha de Clinton Freeman en el lugar señalado.
 EventAddStumpOvergrowth.button1,Continuar
 EventAddClintonFreemanNoEnemy.text,Ves a un hombre, presumiblemente residente de un pueblo cercano, inspeccionando los tocones. Parece ser un arqueólogo o de alguna profesión de investigación similar. \n\n Coloca la Ficha de Clinton Freeman en el lugar señalado.
 EventAddClintonFreemanNoEnemy.button1,Continuar
-EventAddClintonFreemanWithEnemy.text,Ves a un hombre, presumiblemente residente de un pueblo cercano, inspeccionando los tocones. Parece ser un arqueólogo o de alguna profesión de investigación similar. \n\n Coloca la Ficha de Clinton Freeman en el lugar señalado.
-EventAddClintonFreemanWithEnemy.button1,Continuar
-SpawnFirstPossibleEnemy.button1,Continuar
-TokenClintonFreeman.text,Clinton sostiene un bloc de notas cubierto con las runas arcanas que ha estado investigando.
-SpawnFirstPossibleEnemy.text,A medida que continúas analizando el terreno, escuchas algo moviéndose entre los arbustos. De repente, ves emerger una criatura aterradora que se dirige directamente hacia el nativo desprevenido. Sin embargo, al percatarse de tu presencia, su atención se centra ahora en ti. \n\n Aparece un monstruo {c:SpawnFirstPossibleEnemy} en el lugar señalado.
-TokenClintonFreeman.button1,{action} Hablar
-EventSpeakToClintonEnemiesPresent.text,Clinton se estremece y trata de esconderse detrás de uno de los tocones. \n\n —<i>¡Ese monstruo nos va a matar!</i> \n\n No importa lo que digas, no escucha tus palabras. Está completamente paralizado por la criatura que tiene delante.
+EventAddClintonFreemanWithEnemy.text,Continuar
+EventAddClintonFreemanWithEnemy.button1,Clinton sostiene un bloc de notas cubierto con las runas arcanas que ha estado investigando.
+SpawnFirstPossibleEnemy.button1,A medida que continúas analizando el terreno, escuchas algo moviéndose entre los arbustos. De repente, ves emerger una criatura aterradora que se dirige directamente hacia el nativo desprevenido. Sin embargo, al percatarse de tu presencia, su atención se centra ahora en ti. \n\n Aparece un monstruo {c:SpawnFirstPossibleEnemy} en el lugar señalado.
+TokenClintonFreeman.text,{action} Hablar
+SpawnFirstPossibleEnemy.text,Clinton se estremece y trata de esconderse detrás de uno de los tocones. \n\n —<i>¡Ese monstruo nos va a matar!</i> \n\n No importa lo que digas, no escucha tus palabras. Está completamente paralizado por la criatura que tiene delante.
+TokenClintonFreeman.button1,Continuar
+EventSpeakToClintonEnemiesPresent.text,Clinton ha completado su investigación y se está preparando para partir. Lo detienes cortésmente y le preguntas por las runas en los tocones de los árboles, pero él te mira con recelo. \n\n —<i>¿Cuáles son sus intenciones aquí? No se puede jugar con este templo. Además, este sitio ritual es particularmente peligroso para aquellos que carecen del conocimiento apropiado. Sólo aquellos que son puros de corazón deberían conocer sus secretos</i>. \n\n Explicas a Clinton el propósito de tu investigación, con la esperanza de poder convencerlo de que tus intenciones son puras. Sin embargo, deduces que tiene prisa, por lo que parece que solo tendrás una oportunidad de persuadirlo. {influence}
 EventSpeakToClintonEnemiesPresent.button1,Continuar
-EventSpeakToClintonNoEnemies.text,Clinton ha completado su investigación y se está preparando para partir. Lo detienes cortésmente y le preguntas por las runas en los tocones de los árboles, pero él te mira con recelo. \n\n —<i>¿Cuáles son sus intenciones aquí? No se puede jugar con este templo. Además, este sitio ritual es particularmente peligroso para aquellos que carecen del conocimiento apropiado. Sólo aquellos que son puros de corazón deberían conocer sus secretos</i>. \n\n Explicas a Clinton el propósito de tu investigación, con la esperanza de poder convencerlo de que tus intenciones son puras. Sin embargo, deduces que tiene prisa, por lo que parece que solo tendrás una oportunidad de persuadirlo. {influence}
+EventSpeakToClintonNoEnemies.text,Tu explicación no convence al escéptico investigador. Te ignora y se aleja. Cuando desaparece de tu vista, lo oyes gritar: \n\n —<i>Le deseo lo mejor, <i><b>si</b></i> sus palabras son ciertas</i>. \n\n Descarta la Ficha de Clinton Freeman.
 EventSpeakToClintonNoEnemies.button1,Continuar
-EventConvinceClintonFail.text,Tu explicación no convence al escéptico investigador. Te ignora y se aleja. Cuando desaparece de tu vista, lo oyes gritar: \n\n —<i>Le deseo lo mejor, <i><b>si</b></i> sus palabras son ciertas</i>. \n\n Descarta la Ficha de Clinton Freeman.
+EventConvinceClintonFail.text,La explicación de los hechos que te han traído hasta aquí resulta convincente. \n\n —<i>Muy bien</i> —exclama Clinton—. <i>Parece digno de confianza, y estoy feliz de ayudar a cualquiera que comparta mi desdén por los cultos oscuros de este mundo</i>. \n\n Emocionado, te detalla el significado del ritual que se realiza aquí. Parece ser que un poderoso artefacto fue escondido aquí para poder ser utilizado por cualquier persona digna que necesite afrontar los peligros del templo. También te enseña un encantamiento que podría ayudar a protegerte de las peligrosas runas talladas que hay en el lugar del ritual, permitiéndote también reclamar esta arma legendaria. Después de pronunciar la letanía, una luz emerge del tocón central. \n\n Clinton asiente con la cabeza en señal de aprobación y caminando hacia la opresiva jungla, te grita: \n\n —<i>¡Que Dios esté contigo usted!</i> \n\n Descarta la Ficha de Clinton Freeman. \n\n A continuación, descarta las Fichas de Búsqueda de los tocones del árbol superior e inferior si aún están presentes y coloca una Ficha de Búsqueda en el tocón del árbol central si no había ninguna presente.
 EventConvinceClintonFail.button1,Continuar
-EventConvinceClintonPass.text,La explicación de los hechos que te han traído hasta aquí resulta convincente. \n\n —<i>Muy bien</i> —exclama Clinton—. <i>Parece digno de confianza, y estoy feliz de ayudar a cualquiera que comparta mi desdén por los cultos oscuros de este mundo</i>. \n\n Emocionado, te detalla el significado del ritual que se realiza aquí. Parece ser que un poderoso artefacto fue escondido aquí para poder ser utilizado por cualquier persona digna que necesite afrontar los peligros del templo. También te enseña un encantamiento que podría ayudar a protegerte de las peligrosas runas talladas que hay en el lugar del ritual, permitiéndote también reclamar esta arma legendaria. Después de pronunciar la letanía, una luz emerge del tocón central. \n\n Clinton asiente con la cabeza en señal de aprobación y caminando hacia la opresiva jungla, te grita: \n\n —<i>¡Que Dios esté contigo usted!</i> \n\n Descarta la Ficha de Clinton Freeman. \n\n A continuación, descarta las Fichas de Búsqueda de los tocones del árbol superior e inferior si aún están presentes y coloca una Ficha de Búsqueda en el tocón del árbol central si no había ninguna presente.
-EventConvinceClintonPass.button1,Continuar
-TokenSearchStumpSpecial.text,Una magnífica luz inunda la caverna de madera, y una arma mística brilla frente a ti.
-TokenSearchStumpSpecial.button1,{action} Buscar
-EventStumpRewardSpecial.text,Encima de un pedestal, ves una antigua y resplandeciente arma cargada con energía mística. Al cogerla con tus manos, la luz brilla con más intensidad, llenándote de un poder que nunca antes habías experimentado. \n\n Mejora 1 Habilidad de tu elección y adquieres el estado Virtuoso. \n\n Ganas el Objeto Común {c:QItemTimewornBrand}. A continuación, descarta esta Ficha de Búsqueda.
-EventStumpRewardSpecial.button1,Continuar
+EventConvinceClintonPass.text,Una magnífica luz inunda la caverna de madera, y una arma mística brilla frente a ti.
+EventConvinceClintonPass.button1,{action} Buscar
+TokenSearchStumpSpecial.text,Encima de un pedestal, ves una antigua y resplandeciente arma cargada con energía mística. Al cogerla con tus manos, la luz brilla con más intensidad, llenándote de un poder que nunca antes habías experimentado. \n\n Mejora 1 Habilidad de tu elección y adquieres el estado Virtuoso. \n\n Ganas el Objeto Común {c:QItemTimewornBrand}. A continuación, descarta esta Ficha de Búsqueda.
+TokenSearchStumpSpecial.button1,Continuar
+EventStumpRewardSpecial.text,Te preguntas qué habrá dentro.
+EventStumpRewardSpecial.button1,{action} Buscar
 TokenSearchStumpTop.text,Te preguntas qué habrá dentro.
 TokenSearchStumpTop.button1,{action} Buscar
 TokenSearchStumpMiddle.text,Te preguntas qué habrá dentro.
 TokenSearchStumpMiddle.button1,{action} Buscar
-TokenSearchStumpBottom.text,Te preguntas qué habrá dentro.
-TokenSearchStumpBottom.button1,{action} Buscar
+TokenSearchStumpBottom.text,Entras lentamente en la cámara de madera. \n\n Descarta esta Ficha de Búsqueda.
+TokenSearchStumpBottom.button1,Continuar
 EventSearchStumpTop.text,Entras lentamente en la cámara de madera. \n\n Descarta esta Ficha de Búsqueda.
 EventSearchStumpTop.button1,Continuar
 EventSearchStumpMiddle.text,Entras lentamente en la cámara de madera. \n\n Descarta esta Ficha de Búsqueda.
 EventSearchStumpMiddle.button1,Continuar
-EventSearchStumpBottom.text,Entras lentamente en la cámara de madera. \n\n Descarta esta Ficha de Búsqueda.
+EventSearchStumpBottom.text,Al examinar el interior de la habitación, de repente el aire se transforma en una verde neblina. Te embarga un olor tóxico que te pone de rodillas y te hace toser y atragantarte. Te arrastras fuera de la cámara venenosa, pero no tan sano como cuando entraste. \n\n Adquieres el estado Envenenado y ganas 1 Pista {clue}
 EventSearchStumpBottom.button1,Continuar
-EventSearchStumpPoisoned.text,Al examinar el interior de la habitación, de repente el aire se transforma en una verde neblina. Te embarga un olor tóxico que te pone de rodillas y te hace toser y atragantarte. Te arrastras fuera de la cámara venenosa, pero no tan sano como cuando entraste. \n\n Adquieres el estado Envenenado y ganas 1 Pista {clue}
+EventSearchStumpPoisoned.text,Las runas del exterior del árbol emanan una intensa luz azul. De repente, recibes una descarga eléctrica que deja tus extremidades inertes. Te tomará un rato recuperar tu fuerza. \n\n Termina tu turno inmediatamente y a continuación, adquieres el estado Aturdido. \n\n Ganas 1 Pista {clue}
 EventSearchStumpPoisoned.button1,Continuar
-EventSearchStumpStunned.text,Las runas del exterior del árbol emanan una intensa luz azul. De repente, recibes una descarga eléctrica que deja tus extremidades inertes. Te tomará un rato recuperar tu fuerza. \n\n Termina tu turno inmediatamente y a continuación, adquieres el estado Aturdido. \n\n Ganas 1 Pista {clue}
+EventSearchStumpStunned.text,Eres absorbido directamente por un portal que te lleva a un lugar muy, muy lejano. Esperas poder encontrar pronto el camino de regreso. Claramente, la magia ritual vertida en las runas de estos árboles es más poderosa de lo que imaginabas. \n\n Ganas el estado Perdido en el tiempo y el espacio y 1 Pista {clue}
 EventSearchStumpStunned.button1,Continuar
-EventSearchStumpLost.text,Eres absorbido directamente por un portal que te lleva a un lugar muy, muy lejano. Esperas poder encontrar pronto el camino de regreso. Claramente, la magia ritual vertida en las runas de estos árboles es más poderosa de lo que imaginabas. \n\n Ganas el estado Perdido en el tiempo y el espacio y 1 Pista {clue}
+EventSearchStumpLost.text,Un espíritu etéreo aparece ante ti bajo una brillante aura carmesí e intenta convencerte de que debes darle el control de tu cuerpo a cambio de obtener un poder inimaginable. Percibiendo las mentiras y las horribles intenciones de la aparición, discutes con la entidad incorpórea, usando tu conocimiento de lo oculto para reforzar tu influencia. Sufres 2 de Horror y 2 de Daño (anulados por {influence}+{lore}). \n\n Después de resistir con éxito al poderoso espíritu, te apresuras en regresar a tu propio cuerpo, deseando no volver a experimentar jamás una presencia tan maligna. \n\n Ganas 2 Pistas {clue}
 EventSearchStumpLost.button1,Continuar
-EventSearchStumpPain.text,Un espíritu etéreo aparece ante ti bajo una brillante aura carmesí e intenta convencerte de que debes darle el control de tu cuerpo a cambio de obtener un poder inimaginable. Percibiendo las mentiras y las horribles intenciones de la aparición, discutes con la entidad incorpórea, usando tu conocimiento de lo oculto para reforzar tu influencia. Sufres 2 de Horror y 2 de Daño (anulados por {influence}+{lore}). \n\n Después de resistir con éxito al poderoso espíritu, te apresuras en regresar a tu propio cuerpo, deseando no volver a experimentar jamás una presencia tan maligna. \n\n Ganas 2 Pistas {clue}
+EventSearchStumpPain.text,Al entrar, ves los restos esqueléticos de una desafortunada víctima de algún ritual que debió celebrarse aquí. Sufres 1 de Horror boca abajo. \n\n Sin embargo, ves que algo valioso todavía quedaba en sus manos en el momento de su muerte. \n\n Ganas el Objeto Común {c:QItemOtherworldlyCompass} y 1 Pista {clue}
 EventSearchStumpPain.button1,Continuar
-EventSearchStumpItem.text,Al entrar, ves los restos esqueléticos de una desafortunada víctima de algún ritual que debió celebrarse aquí. Sufres 1 de Horror boca abajo. \n\n Sin embargo, ves que algo valioso todavía quedaba en sus manos en el momento de su muerte. \n\n Ganas el Objeto Común {c:QItemOtherworldlyCompass} y 1 Pista {clue}
+EventSearchStumpItem.text,Tu destino está a la vista. Puedes ver una gran escalera de piedra en la distancia. \n\n Coloca una Ficha de Vistazo en el lugar señalado.
 EventSearchStumpItem.button1,Continuar
-EventAddSightTokenToStairs.text,Tu destino está a la vista. Puedes ver una gran escalera de piedra en la distancia. \n\n Coloca una Ficha de Vistazo en el lugar señalado.
-EventAddSightTokenToStairs.button1,Continuar
-TokenSightStumpsToStairs.text,Un investigador situado en un espacio adyacente puede revelar la siguiente zona.
-TokenSightStumpsToStairs.button1,Revelar
-EventRevealStairsWithEnemy.text,Finalmente lo lograste. Te alivia ver el camino despejado sin más vegetación que atravesar. Una enorme escalera de piedra conduce a la entrada del templo. \n Está en unas condiciones sorprendentemente buenas, considerando la antigüedad que debe tener. \n\n Coloca el módulo {c:TileTempleStairs} en el lugar señalado.
-EventRevealStairsWithEnemy.button1,Continuar
+EventAddSightTokenToStairs.text,Un investigador situado en un espacio adyacente puede revelar la siguiente zona.
+EventAddSightTokenToStairs.button1,Revelar
+TokenSightStumpsToStairs.text,Finalmente lo lograste. Te alivia ver el camino despejado sin más vegetación que atravesar. Una enorme escalera de piedra conduce a la entrada del templo. \n Está en unas condiciones sorprendentemente buenas, considerando la antigüedad que debe tener. \n\n Coloca el módulo {c:TileTempleStairs} en el lugar señalado.
+TokenSightStumpsToStairs.button1,Continuar
+EventRevealStairsWithEnemy.text,Continuar
+EventRevealStairsWithEnemy.button1,Una criatura voladora como nunca antes habías visto se cierne cerca de las escaleras. Chilla estruendosamente mostrando sus colmillos tan pronto como sales de la maleza. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
 EventAddSearchTokenStairsWithEnemy.button1,Continuar
-SpawnSecondPossibleMonsterFeatheredSerpent.text,Una criatura voladora como nunca antes habías visto se cierne cerca de las escaleras. Chilla estruendosamente mostrando sus colmillos tan pronto como sales de la maleza. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
+SpawnSecondPossibleMonsterFeatheredSerpent.text,Una criatura serpentina como jamás habías visto se desliza cerca de las escaleras. Chilla estruendosamente mostrando sus colmillos tan pronto como sales de la maleza. \n\n Aparece un Hombre Serpiente en el lugar señalado.
 SpawnSecondPossibleMonsterFeatheredSerpent.button1,Continuar
-SpawnSecondPossibleMonsterSerpentPerson.text,Una criatura serpentina como jamás habías visto se desliza cerca de las escaleras. Chilla estruendosamente mostrando sus colmillos tan pronto como sales de la maleza. \n\n Aparece un Hombre Serpiente en el lugar señalado.
-SpawnSecondPossibleMonsterSerpentPerson.button1,Continuar
-EventAddSearchStairsNoEnemy.button1,Continuar
-EventEventRevealStairsNoEnemy.text,Finalmente lo lograste. Te alivia ver un camino despejado sin más vegetación que atravesar. Una enorme escalera de piedra conduce a la entrada del templo. Está en unas condiciones sorprendentemente buenas, considerando la antigüedad que debe tener. \n\n Coloca el módulo {c:TileTempleStairs} en el lugar señalado.
+SpawnSecondPossibleMonsterSerpentPerson.text,Continuar
+SpawnSecondPossibleMonsterSerpentPerson.button1,Finalmente lo lograste. Te alivia ver un camino despejado sin más vegetación que atravesar. Una enorme escalera de piedra conduce a la entrada del templo. Está en unas condiciones sorprendentemente buenas, considerando la antigüedad que debe tener. \n\n Coloca el módulo {c:TileTempleStairs} en el lugar señalado.
+EventAddSearchStairsNoEnemy.button1,Distingues una piedra suelta en la distancia. Quizá esconda algo que valga la pena investigar. O puede que no... \n\n Coloca una Ficha de Búsqueda en el lugar señalado. \n\n También ves la entrada, una puerta chapada en oro elaboradamente decorada, en la parte superior de las escaleras. Luce increíblemente brillante y no muestra signo alguno de envejecimiento o deterioro. ¿Cómo es posible? \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventEventRevealStairsNoEnemy.text,Continuar
 EventAddSearchStairsNoEnemy.text,Distingues una piedra suelta en la distancia. Quizá esconda algo que valga la pena investigar. O puede que no... \n\n Coloca una Ficha de Búsqueda en el lugar señalado. \n\n También ves la entrada, una puerta chapada en oro elaboradamente decorada, en la parte superior de las escaleras. Luce increíblemente brillante y no muestra signo alguno de envejecimiento o deterioro. ¿Cómo es posible? \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventEventRevealStairsNoEnemy.button1,Continuar
-EventAddSearchTokenStairsWithEnemy.text,Distingues una piedra suelta en la distancia. Quizá esconda algo que valga la pena investigar. O puede que no... \n\n Coloca una Ficha de Búsqueda en el lugar señalado. \n\n También ves la entrada, una puerta chapada en oro elaboradamente decorada, en la parte superior de las escaleras. Luce increíblemente brillante y no muestra signo alguno de envejecimiento o deterioro. ¿Cómo es posible? \n\n Coloca una Ficha de Exploración en el lugar señalado.
-TokenSearchStairs.text,Claramente hay algo debajo de esta piedra. Pero es un completo misterio lo que pueda ser.
-TokenSearchStairs.button1,{action} Buscar
-EventSearchStoneStairsItem.text,Al levantar la piedra, descubres que alguien debió de esconder un viejo libro aquí. \n\n Ganas el Objeto Común {c:QItemTome}. A continuación, descarta esta Ficha de Búsqueda.
+EventEventRevealStairsNoEnemy.button1,Claramente hay algo debajo de esta piedra. Pero es un completo misterio lo que pueda ser.
+EventAddSearchTokenStairsWithEnemy.text,{action} Buscar
+TokenSearchStairs.text,Al levantar la piedra, descubres que alguien debió de esconder un viejo libro aquí. \n\n Ganas el Objeto Común {c:QItemTome}. A continuación, descarta esta Ficha de Búsqueda.
+TokenSearchStairs.button1,Continuar
+EventSearchStoneStairsItem.text,Nerviosamente, levantas la piedra. La visión de una cola de reptil te genera un miedo que atraviesa tu columna, pero rápidamente te das cuenta de que es sólo un lagarto. El alivio que te envuelve te hace sentir mejor de lo que te sentías antes. \n\n Descarta 1 de Horror y adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
 EventSearchStoneStairsItem.button1,Continuar
-EventSearchStoneStairsLizard.text,Nerviosamente, levantas la piedra. La visión de una cola de reptil te genera un miedo que atraviesa tu columna, pero rápidamente te das cuenta de que es sólo un lagarto. El alivio que te envuelve te hace sentir mejor de lo que te sentías antes. \n\n Descarta 1 de Horror y adquieres el estado Concentrado. A continuación, descarta esta Ficha de Búsqueda.
-EventSearchStoneStairsLizard.button1,Continuar
-TokenExploreShrineEntry.text,Mientras subes por las escaleras, la puerta brillante de oro te paraliza, casi manipulando tu mente para que desistas en tu búsqueda. Pero te convences a ti mismo de que tienes asuntos realmente importantes que llevar a cabo. Estás aquí para encontrar una poderosa reliquia y mantenerla lejos de las manos de una malvada secta. \n\n Al extender la mano para abrir la puerta, observas una cerradura con un rompecabezas que requiere cierta comprensión de los elementos químicos. \n Puedes tratar de resolver el rompecabezas utilizando {lore}
-TokenExploreShrineEntry.button1,{action} Resolver
-EventRevealCaveIn.text,Con la cerradura resuelta, las enormes puertas se abren para revelar una sala cavernosa que parece haber sufrido mucho debido a algún fenómeno tectónico. Curiosamente, también notas que el aire en el templo parece distorsionar tu visión, casi como si estuvieras mirando a través del agua. \n\n Parte de un altar se ha derrumbado y caído a un foso, junto con la mitad de esta sala. La reliquia que buscas debe haber estado reposando en este altar, pero ahora ha caído debajo de los escombros rocosos. Miras por el borde, y aunque tu visión está limitada por la oscuridad, ves varias áreas prometedoras para buscar. \n\n Coloca el módulo {c:TileCaveIn}, una Ficha de Puerta, 4 Fichas de Búsqueda, 2 Fichas de Oscuridad y 6 Fichas de Escombros en los lugares señalados.
-PuzzleTempleEntrance.button1,Resolver
+EventSearchStoneStairsLizard.text,Mientras subes por las escaleras, la puerta brillante de oro te paraliza, casi manipulando tu mente para que desistas en tu búsqueda. Pero te convences a ti mismo de que tienes asuntos realmente importantes que llevar a cabo. Estás aquí para encontrar una poderosa reliquia y mantenerla lejos de las manos de una malvada secta. \n\n Al extender la mano para abrir la puerta, observas una cerradura con un rompecabezas que requiere cierta comprensión de los elementos químicos. \n Puedes tratar de resolver el rompecabezas utilizando {lore}
+EventSearchStoneStairsLizard.button1,{action} Resolver
+TokenExploreShrineEntry.text,Con la cerradura resuelta, las enormes puertas se abren para revelar una sala cavernosa que parece haber sufrido mucho debido a algún fenómeno tectónico. Curiosamente, también notas que el aire en el templo parece distorsionar tu visión, casi como si estuvieras mirando a través del agua. \n\n Parte de un altar se ha derrumbado y caído a un foso, junto con la mitad de esta sala. La reliquia que buscas debe haber estado reposando en este altar, pero ahora ha caído debajo de los escombros rocosos. Miras por el borde, y aunque tu visión está limitada por la oscuridad, ves varias áreas prometedoras para buscar. \n\n Coloca el módulo {c:TileCaveIn}, una Ficha de Puerta, 4 Fichas de Búsqueda, 2 Fichas de Oscuridad y 6 Fichas de Escombros en los lugares señalados.
+TokenExploreShrineEntry.button1,Resolver
+EventRevealCaveIn.text,Continuar
+PuzzleTempleEntrance.button1,La puerta se abre provocando un sonido estruendoso, seguido de una ráfaga de aire que fluye a través de la abertura recién formada. Al escuchar el ruido, Clinton Freeman mira hacia arriba aterrorizado. Inmediatamente, se da la vuelta y huye corriendo hacia la jungla. \n\n Descarta la Ficha de Clinton Freeman.
 EventRevealCaveIn.button1,Continuar
-EventClintonFreemanLeaves.text,La puerta se abre provocando un sonido estruendoso, seguido de una ráfaga de aire que fluye a través de la abertura recién formada. Al escuchar el ruido, Clinton Freeman mira hacia arriba aterrorizado. Inmediatamente, se da la vuelta y huye corriendo hacia la jungla. \n\n Descarta la Ficha de Clinton Freeman.
+EventClintonFreemanLeaves.text,Reúnes a tu equipo de expedición para que todos puedan ver el desafío que tenéis por delante. Todos corren hacia el templo y prestan atención a tus palabras mientras miran fijamente el foso que hay ante vosotros. La caída no sería demasiado alta, pero dada la superficie irregular e inestable del suelo, podría ser arriesgado saltar hacia abajo. Los restos del altar son demasiado afilados como para poder atar una soga. Sin embargo, un investigador con la soga puede ayudar a otro investigador a bajar al foso sin ningún riesgo. O, si alguien necesita ayuda para volver a subir, otro investigador con una soga podría hacerlo. Y en el último de los casos, si el investigador con la soga es el que está abajo en el foso, podría arrojarla a otro investigador situado en el espacio de entrada de la loseta. \n\n Coloca una Ficha de Interacción y a TODOS los investigadores en el lugar señalado. \n\n Nota: ignora la Maleza cuando utilices esta Ficha de Interacción.
 EventClintonFreemanLeaves.button1,Continuar
-EventAddInteractTokenCaveIn.text,Reúnes a tu equipo de expedición para que todos puedan ver el desafío que tenéis por delante. Todos corren hacia el templo y prestan atención a tus palabras mientras miran fijamente el foso que hay ante vosotros. La caída no sería demasiado alta, pero dada la superficie irregular e inestable del suelo, podría ser arriesgado saltar hacia abajo. Los restos del altar son demasiado afilados como para poder atar una soga. Sin embargo, un investigador con la soga puede ayudar a otro investigador a bajar al foso sin ningún riesgo. O, si alguien necesita ayuda para volver a subir, otro investigador con una soga podría hacerlo. Y en el último de los casos, si el investigador con la soga es el que está abajo en el foso, podría arrojarla a otro investigador situado en el espacio de entrada de la loseta. \n\n Coloca una Ficha de Interacción y a TODOS los investigadores en el lugar señalado. \n\n Nota: ignora la Maleza cuando utilices esta Ficha de Interacción.
+EventAddInteractTokenCaveIn.text,Casi no te diste cuenta al entrar, pero hay una enorme estatua de una criatura parecida a una serpiente contra la pared, a la derecha de la entrada. Algo en ella parece extrañamente intimidante para ser una simple escultura de piedra. \n\n Coloca un Guardián del Templo en el lugar señalado. Esta miniatura representa la estatua (NO es un monstruo y no se puede interactuar con ella).
 EventAddInteractTokenCaveIn.button1,Continuar
-EventAddGuardianStatue.text,Casi no te diste cuenta al entrar, pero hay una enorme estatua de una criatura parecida a una serpiente contra la pared, a la derecha de la entrada. Algo en ella parece extrañamente intimidante para ser una simple escultura de piedra. \n\n Coloca un Guardián del Templo en el lugar señalado. Esta miniatura representa la estatua (NO es un monstruo y no se puede interactuar con ella).
+EventAddGuardianStatue.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
 EventAddGuardianStatue.button1,Continuar
-EventMove1Space.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMove1Space.text,A la izquierda y a la derecha unas puertas conducen a las profundidades del templo. En la parte de atrás de la habitación se ve una puerta que conduce al foso. Tal vez podríais recorrer el camino más largo para acceder al foso en lugar de intentar saltar desde aquí. Reúnes a tu equipo para pensar y tratar de decidir el mejor curso de acción. \n\n De repente, escuchas nuevamente un sonido atronador. Te horroriza ver que la puerta por la que entraste se ha cerrado y bloqueado por sí sola. \n\n Coloca 4 Fichas de Exploración en los lugares señalados.
 EventMove1Space.button1,Continuar
-EventAddCaveInDoors.text,A la izquierda y a la derecha unas puertas conducen a las profundidades del templo. En la parte de atrás de la habitación se ve una puerta que conduce al foso. Tal vez podríais recorrer el camino más largo para acceder al foso en lugar de intentar saltar desde aquí. Reúnes a tu equipo para pensar y tratar de decidir el mejor curso de acción. \n\n De repente, escuchas nuevamente un sonido atronador. Te horroriza ver que la puerta por la que entraste se ha cerrado y bloqueado por sí sola. \n\n Coloca 4 Fichas de Exploración en los lugares señalados.
+EventAddCaveInDoors.text,De repente, la estatua comienza a moverse. Oyes el rechinar de las piedras a cada movimiento, como si hubiera engranajes de piedra controlando sus acciones. El Guardián ataca al investigador con menos {strength} ({agility}; 2) \n\n Si superas la prueba, evitas ser golpeado por el enorme guardián de piedra. \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventAddCaveInDoors.button1,Continuar
-EventStatueAttacksFirstTime.text,De repente, la estatua comienza a moverse. Oyes el rechinar de las piedras a cada movimiento, como si hubiera engranajes de piedra controlando sus acciones. El Guardián ataca al investigador con menos {strength} ({agility}; 2) \n\n Si superas la prueba, evitas ser golpeado por el enorme guardián de piedra. \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventStatueAttacksFirstTime.text,La puerta está sellada herméticamente, bloqueada y no cederá.
 EventStatueAttacksFirstTime.button1,Continuar
-TokenExploreCaveInBottomLocked.text,La puerta está sellada herméticamente, bloqueada y no cederá.
-TokenExploreCaveInBottomLocked.button1,Continuar
+TokenExploreCaveInBottomLocked.text,Continuar
+TokenExploreCaveInBottomLocked.button1,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {strength} ({agility}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianMightAttack.button1,Continuar
-EventGuardianAttacksLowestStrength.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {strength} ({agility}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestStrength.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {agility} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianAttacksLowestStrength.button1,Continuar
-EventGuardianAttacksLowestAgility.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {agility} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestAgility.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {observation} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianAttacksLowestAgility.button1,Continuar
-EventGuardianAttacksLowestObservation.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {observation} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestObservation.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {lore} ({observation}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianAttacksLowestObservation.button1,Continuar
-EventGuardianAttacksLowestLore.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {lore} ({observation}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestLore.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {influence} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianAttacksLowestLore.button1,Continuar
-EventGuardianAttacksLowestInfluence.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {influence} ({strength}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestInfluence.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {will} ({agility}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
 EventGuardianAttacksLowestInfluence.button1,Continuar
-EventGuardianAttacksLowestWill.text,De repente, la estatua del guardián comienza a moverse nuevamente. El guardián ataca al investigador de su espacio con menos {will} ({agility}; 2) \n\n Si fallas, eres empujado a cualquier espacio del foso. Sufres 3 de Daño (anulados por {strength}). A continuación, pon boca arriba 2 de Daño. \n\n Independientemente del resultado, la estatua regresa a su posición original, silenciosa pero amenazante.
+EventGuardianAttacksLowestWill.text,La puerta se abre generando un sonido estruendoso, seguido de una ráfaga de aire que fluye a través de la abertura recién formada.
 EventGuardianAttacksLowestWill.button1,Continuar
-EventClintonAlreadyGone.text,La puerta se abre generando un sonido estruendoso, seguido de una ráfaga de aire que fluye a través de la abertura recién formada.
-EventClintonAlreadyGone.button1,Continuar
-SpawnFeatheredSerpentCaveIn.text,Alertada por la conmoción, una serpiente voladora se abre camino por la sala a través de pequeñas grietas en los escombros de abajo. Mira amenazante a tu grupo, preparándose para atacar. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
-EventEliminated.text,Con tu compañero muerto, toda esperanza está perdida. \n Los investigadores no han completado la investigación.
-EventEliminated.button1,Continuar
-SpawnFeatheredSerpentCaveIn.button1,Continuar
-TokenInteractCaveIn.text,Cualquier investigador situado en módulo {c:TileCaveIn} tiene acceso a esta Ficha de Interacción. La Maleza no impide a un investigador interactuar con ella. \n\n 1. Un investigador situado en el espacio de la entrada con una soga puede ayudar a otro investigador a subir desde cualquier espacio del foso. <i><b>Ambos</b></i> investigadores involucrados gastan dos acciones para hacerlo. \n\n 2. Un investigador situado en el espacio de la entrada puede saltar a cualquier lado del foso. Sin embargo, dadas las rocas irregulares e inestables que hay abajo, podría resultar peligroso. \n\n 3. Un investigador en el foso sujetando la soga puede lanzarla a un investigador situado en el espacio de la entrada.
-TokenInteractCaveIn.button1,{action} {action} Ayudar a subir (con soga)
-TokenInteractCaveIn.button2,{action} Dejarse caer al foso (sin soga)
-TokenInteractCaveIn.button3,{action} Lanzar la soga
-EventPullInvestigatorUp.text,Lanzas un extremo de la soga al foso y ayudas a tu compañero de expedición a volver a la entrada del templo. \n\n Mueve (voluntariamente) al investigador objetivo a la entrada del templo.
+EventClintonAlreadyGone.text,Alertada por la conmoción, una serpiente voladora se abre camino por la sala a través de pequeñas grietas en los escombros de abajo. Mira amenazante a tu grupo, preparándose para atacar. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
+EventClintonAlreadyGone.button1,Con tu compañero muerto, toda esperanza está perdida. \n Los investigadores no han completado la investigación.
+SpawnFeatheredSerpentCaveIn.text,Continuar
+EventEliminated.text,Continuar
+EventEliminated.button1,Cualquier investigador situado en módulo {c:TileCaveIn} tiene acceso a esta Ficha de Interacción. La Maleza no impide a un investigador interactuar con ella. \n\n 1. Un investigador situado en el espacio de la entrada con una soga puede ayudar a otro investigador a subir desde cualquier espacio del foso. <i><b>Ambos</b></i> investigadores involucrados gastan dos acciones para hacerlo. \n\n 2. Un investigador situado en el espacio de la entrada puede saltar a cualquier lado del foso. Sin embargo, dadas las rocas irregulares e inestables que hay abajo, podría resultar peligroso. \n\n 3. Un investigador en el foso sujetando la soga puede lanzarla a un investigador situado en el espacio de la entrada.
+SpawnFeatheredSerpentCaveIn.button1,{action} {action} Ayudar a subir (con soga)
+TokenInteractCaveIn.text,{action} Dejarse caer al foso (sin soga)
+TokenInteractCaveIn.button1,{action} Lanzar la soga
+TokenInteractCaveIn.button2,Lanzas un extremo de la soga al foso y ayudas a tu compañero de expedición a volver a la entrada del templo. \n\n Mueve (voluntariamente) al investigador objetivo a la entrada del templo.
+TokenInteractCaveIn.button3,Continuar
+EventPullInvestigatorUp.text,Buscas una zona relativamente llana en los escombros para aterrizar. Aunque la caída es breve, sabes que podría ser dolorosa, así que te preparas para el impacto. Sufres 2 de Daño (anulados por {strength}). A continuación, pon boca arriba 1 de Daño. \n\n Muévete a cualquier espacio del foso.
 EventPullInvestigatorUp.button1,Continuar
-EventJumpIntoPit.text,Buscas una zona relativamente llana en los escombros para aterrizar. Aunque la caída es breve, sabes que podría ser dolorosa, así que te preparas para el impacto. Sufres 2 de Daño (anulados por {strength}). A continuación, pon boca arriba 1 de Daño. \n\n Muévete a cualquier espacio del foso.
+EventJumpIntoPit.text,Lanzas la soga a un investigador de tu elección situado en el espacio de la entrada del templo. \n\n Da al investigador elegido el Objeto Único Soga.
 EventJumpIntoPit.button1,Continuar
-EventThrowRope.text,Lanzas la soga a un investigador de tu elección situado en el espacio de la entrada del templo. \n\n Da al investigador elegido el Objeto Único Soga.
-EventThrowRope.button1,Continuar
+EventThrowRope.text,Uno de los trozos del altar destruido parece haber caído aquí. Quizá sea aquí también donde haya caído la reliquia.
+EventThrowRope.button1,{action} Buscar
 TokenSearchCaveIn2.text,Uno de los trozos del altar destruido parece haber caído aquí. Quizá sea aquí también donde haya caído la reliquia.
 TokenSearchCaveIn2.button1,{action} Buscar
 TokenSearchCaveIn1.text,Uno de los trozos del altar destruido parece haber caído aquí. Quizá sea aquí también donde haya caído la reliquia.
 TokenSearchCaveIn1.button1,{action} Buscar
 TokenSearchCaveIn4.text,Uno de los trozos del altar destruido parece haber caído aquí. Quizá sea aquí también donde haya caído la reliquia.
 TokenSearchCaveIn4.button1,{action} Buscar
-TokenSearchCaveIn3.text,Uno de los trozos del altar destruido parece haber caído aquí. Quizá sea aquí también donde haya caído la reliquia.
-TokenSearchCaveIn3.button1,{action} Buscar
-EventGoalExplanation.text,<b>Objetivo:</b> \n Para completar con éxito la investigación, tu equipo de expedición debe encontrar la reliquia, desbloquear la entrada y escapar del templo (con la reliquia en su poder). \n\n <b>Nota:</b> Si algún efecto del juego te permite colocar a tu investigador "en cualquier espacio explorado" (como al resolver el estado "Perdido en el tiempo y el espacio"), no puedes colocar a tu investigador fuera del templo mientras la entrada esté cerrada.
+TokenSearchCaveIn3.text,<b>Objetivo:</b> \n Para completar con éxito la investigación, tu equipo de expedición debe encontrar la reliquia, desbloquear la entrada y escapar del templo (con la reliquia en su poder). \n\n <b>Nota:</b> Si algún efecto del juego te permite colocar a tu investigador "en cualquier espacio explorado" (como al resolver el estado "Perdido en el tiempo y el espacio"), no puedes colocar a tu investigador fuera del templo mientras la entrada esté cerrada.
+TokenSearchCaveIn3.button1,Continuar
+EventGoalExplanation.text,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
 EventGoalExplanation.button1,Continuar
-EventRemoveSearchTokenCaveIn2.text,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenCaveIn2.text,Continuar
 EventRemoveSearchTokenCaveIn2.button1,Continuar
-EventRemoveSearchTokenCaveIn1.button1,Continuar
-EventRemoveSearchTokenCaveIn4.button1,Continuar
+EventRemoveSearchTokenCaveIn1.button1,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenCaveIn4.button1,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveSearchTokenCaveIn1.text,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
-EventRemoveSearchTokenCaveIn3.text,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
-EventRemoveSearchTokenCaveIn4.text,Empiezas a apartar los escombros del camino, con la esperanza de encontrar la reliquia enterrada debajo. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenCaveIn3.text,Continuar
+EventRemoveSearchTokenCaveIn4.text,A medida que avanzas a través de los escombros, tus brazos se exponen repetidamente a algunas rocas irregulares y afiladas. Sufres 2 de Daño boca abajo (anulados por {observation}). \n\n Lamentablemente, no encuentras nada que justifique el riesgo.
 EventRemoveSearchTokenCaveIn3.button1,Continuar
-EventSearchForRelicJaggedRocks.text,A medida que avanzas a través de los escombros, tus brazos se exponen repetidamente a algunas rocas irregulares y afiladas. Sufres 2 de Daño boca abajo (anulados por {observation}). \n\n Lamentablemente, no encuentras nada que justifique el riesgo.
+EventSearchForRelicJaggedRocks.text,Mueves roca tras roca, tras roca, pero todo lo que encuentras son piedras inútiles.
 EventSearchForRelicJaggedRocks.button1,Continuar
-EventSearchForRelicNothing.text,Mueves roca tras roca, tras roca, pero todo lo que encuentras son piedras inútiles.
+EventSearchForRelicNothing.text,Tus esfuerzos dan como resultado algo más que una vieja piedra. Un cráneo humano de una época desconocida del pasado yace ante ti. La reliquia que persigues debe haber sido buscada en muchas otras ocasiones. \n Únicamente esperas poder escapar de esta tumba con vida. \n\n Sufres 1 de Horror boca abajo (anulado por {will}). A continuación, pon boca arriba 2 de Horror. \n\n Ganas 2 Pistas {clue}
 EventSearchForRelicNothing.button1,Continuar
-EventSearchForRelicSkull.text,Tus esfuerzos dan como resultado algo más que una vieja piedra. Un cráneo humano de una época desconocida del pasado yace ante ti. La reliquia que persigues debe haber sido buscada en muchas otras ocasiones. \n Únicamente esperas poder escapar de esta tumba con vida. \n\n Sufres 1 de Horror boca abajo (anulado por {will}). A continuación, pon boca arriba 2 de Horror. \n\n Ganas 2 Pistas {clue}
+EventSearchForRelicSkull.text,Mueves exhaustivamente cada piedra de este trozo de altar roto hasta que tu sudor y lágrimas finalmente dan sus frutos. Tienes en tus manos una extraña piedra con grabados de constelaciones que nunca antes habías visto. Sientes una poderosa energía que emana del artefacto de piedra mientras lo sostienes en tus manos. No sabes cómo funciona ni qué hace. De lo que sí estás seguro es que de ninguna manera puedes dejar que la secta consiga poner sus manos en él. Lo escondes rápidamente para mantenerlo a salvo, de momento. \n\n Ganas el Objeto Único Calendario Sideral y adquieres el estado Concentrado. \n\n A continuación, descarta todas las Fichas de Búsqueda restantes en el foso.
 EventSearchForRelicSkull.button1,Continuar
-EventSearchForRelicSuccess.text,Mueves exhaustivamente cada piedra de este trozo de altar roto hasta que tu sudor y lágrimas finalmente dan sus frutos. Tienes en tus manos una extraña piedra con grabados de constelaciones que nunca antes habías visto. Sientes una poderosa energía que emana del artefacto de piedra mientras lo sostienes en tus manos. No sabes cómo funciona ni qué hace. De lo que sí estás seguro es que de ninguna manera puedes dejar que la secta consiga poner sus manos en él. Lo escondes rápidamente para mantenerlo a salvo, de momento. \n\n Ganas el Objeto Único Calendario Estelar y adquieres el estado Concentrado. \n\n A continuación, descarta todas las Fichas de Búsqueda restantes en el foso.
-EventSearchForRelicSuccess.button1,Continuar
-TokenExploreCaveInLeft.text,Una gran puerta de madera conduce a las profundidades del templo.
-TokenExploreCaveInLeft.button1,{action} Buscar
-EventAddStorageHallTile.text,Al abrir la puerta, se revela una habitación llena de cofres y estantes de piedra. Signos de un terremoto se aprecian en esta habitación evidenciados por las profundas grietas en las paredes y suelo. \n\n Coloca el módulo {c:TileStorageHall}, una Ficha de Puerta y una Ficha de Pared en los lugares señalados.
-EventAddExploreTokenStorageHallTopMosaicButtonPushed.text,Al final de la habitación, ves una puerta ornamentada con un pomo hecho de diamantes. Deduces que la siguiente habitación debe albergar algo importante. \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventAddSearchTokensStorageHall.text,Los cofres y los estantes están intactos. Como si no los hubieran tocados durante siglos. \n\n Coloca 3 Fichas de Búsqueda en el lugar señalado.
+EventSearchForRelicSuccess.text,Una gran puerta de madera conduce a las profundidades del templo.
+EventSearchForRelicSuccess.button1,{action} Buscar
+TokenExploreCaveInLeft.text,Al abrir la puerta, se revela una habitación llena de cofres y estantes de piedra. Signos de un terremoto se aprecian en esta habitación evidenciados por las profundas grietas en las paredes y suelo. \n\n Coloca el módulo {c:TileStorageHall}, una Ficha de Puerta y una Ficha de Pared en los lugares señalados.
+TokenExploreCaveInLeft.button1,Al final de la habitación, ves una puerta ornamentada con un pomo hecho de diamantes. Deduces que la siguiente habitación debe albergar algo importante. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddStorageHallTile.text,Los cofres y los estantes están intactos. Como si no los hubieran tocados durante siglos. \n\n Coloca 3 Fichas de Búsqueda en el lugar señalado.
+EventAddExploreTokenStorageHallTopMosaicButtonPushed.text,Continuar
+EventAddSearchTokensStorageHall.text,Al final de la habitación, ves una ornamentada puerta. Deduces que la siguiente habitación debe albergar algo importante. \n\n Coloca una Ficha de Exploración en el lugar señalado.
 EventAddSearchTokensStorageHall.button1,Continuar
-EventAddExploreTokenStorageHallTop.text,Al final de la habitación, ves una ornamentada puerta. Deduces que la siguiente habitación debe albergar algo importante. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenStorageHallTop.text,De repente, las extrañas distorsiones visuales en el aire abren en una brecha en la realidad. Una criatura humanoide mutante aparece ante ti, avanzando pesadamente con una mirada diabólica en sus ojos. \n\n Aparece un Vagabundo Dimensional en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
 EventAddExploreTokenStorageHallTop.button1,Continuar
-SpawnShamblerInStorageHall.text,De repente, las extrañas distorsiones visuales en el aire abren en una brecha en la realidad. Una criatura humanoide mutante aparece ante ti, avanzando pesadamente con una mirada diabólica en sus ojos. \n\n Aparece un Vagabundo Dimensional en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
+SpawnShamblerInStorageHall.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
 SpawnShamblerInStorageHall.button1,Continuar
-EventMove1SpaceIntoStorageHall.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMove1SpaceIntoStorageHall.text,De repente, unas extrañas distorsiones ópticas comienzan a reverberar salvajemente en el aire. Una energía parece estar tirando de ti y de tus pertenencias. Sufres 1 de Horror. \n\n Debes moverte 1 espacio hacia el área explorada y soltar 1 Objeto aleatorio en tu espacio.
 EventMove1SpaceIntoStorageHall.button1,Continuar
-EventDimensionalEnergyStorageHall.text,De repente, unas extrañas distorsiones ópticas comienzan a reverberar salvajemente en el aire. Una energía parece estar tirando de ti y de tus pertenencias. Sufres 1 de Horror. \n\n Debes moverte 1 espacio hacia el área explorada y soltar 1 Objeto aleatorio en tu espacio.
-EventDimensionalEnergyStorageHall.button1,Continuar
+EventDimensionalEnergyStorageHall.text,Continuar
+EventDimensionalEnergyStorageHall.button1,La comprometida infraestructura del templo parece actuar con voluntad propia. Unas piedras del techo caen directamente sobre {rnd:hero}. Sufres 2 de Daño (anulados por {observation}). A continuación, coloca 1 Ficha de Escombros en este espacio.
 EventRubbleFallsOrInvestigatorTeleports.button1,Continuar
-EventRandomRubbleFalls.text,La comprometida infraestructura del templo parece actuar con voluntad propia. Unas piedras del techo caen directamente sobre {rnd:hero}. Sufres 2 de Daño (anulados por {observation}). A continuación, coloca 1 Ficha de Escombros en este espacio.
+EventRandomRubbleFalls.text,Las energías del templo vibran en una salvaje erupción alrededor de {rnd:hero}. Este investigador es succionado por una grieta espacial y regresado a la entrada del templo como se indica. Sufres 2 de Horror boca abajo (anulados por {will}).
 EventRandomRubbleFalls.button1,Continuar
-EventRandomInvestigatorTeleports.text,Las energías del templo vibran en una salvaje erupción alrededor de {rnd:hero}. Este investigador es succionado por una grieta espacial y regresado a la entrada del templo como se indica. Sufres 2 de Horror boca abajo (anulados por {will}).
-EventRandomInvestigatorTeleports.button1,Continuar
-TokenExploreStorageHallToAltarLocked.button1,Continuar
-SpawnRandomShambler.text,De repente, el tejido de la realidad se resquebraja detrás de {rnd:hero} y una horrible criatura emerge del portal recién formado. \n\n Aparece un Vagabundo Dimensional en el mismo espacio que este investigador. A continuación, coloca una Ficha de Grieta en este espacio.
-TokenExploreStorageHallToAltarLocked.text,Lo que creías que era una puerta ornamentada parece más una pared que una puerta. No se ve ningún tirador o pomo en ella y, por más que lo intentas, es imposible abrirla.
-EventAddExploreTokenStorageHallTopMosaicButtonPushed.button1,Continuar
+EventRandomInvestigatorTeleports.text,Continuar
+EventRandomInvestigatorTeleports.button1,De repente, el tejido de la realidad se resquebraja detrás de {rnd:hero} y una horrible criatura emerge del portal recién formado. \n\n Aparece un Vagabundo Dimensional en el mismo espacio que este investigador. A continuación, coloca una Ficha de Grieta en este espacio.
+TokenExploreStorageHallToAltarLocked.button1,Lo que creías que era una puerta ornamentada parece más una pared que una puerta. No se ve ningún tirador o pomo en ella y, por más que lo intentas, es imposible abrirla.
+SpawnRandomShambler.text,Continuar
+TokenExploreStorageHallToAltarLocked.text,Continuar
+EventAddExploreTokenStorageHallTopMosaicButtonPushed.button1,Una pequeña y escamosa criatura emerge de la piscina, con una mirada enloquecida y hambrienta en su pálido rostro. \n\n Aparece un Profundo en el lugar señalado.
 EventAddStorageHallTile.button1,Continuar
-SpawnRandomDeepOne.text,Una pequeña y escamosa criatura emerge de la piscina, con una mirada enloquecida y hambrienta en su pálido rostro. \n\n Aparece un Profundo en el lugar señalado.
+SpawnRandomDeepOne.text,Una gran criatura parecida a un pez emerge de la piscina. Sus ojos están llenos de furia, y sus fauces abiertas sedientas de sangre. \n\n Aparece un Profundo Cazador en el lugar señalado.
 SpawnRandomDeepOne.button1,Continuar
-SpawnRandomHuntingDeepOne.text,Una gran criatura parecida a un pez emerge de la piscina. Sus ojos están llenos de furia, y sus fauces abiertas sedientas de sangre. \n\n Aparece un Profundo Cazador en el lugar señalado.
-SpawnRandomHuntingDeepOne.button1,Continuar
-quest.synopsys,Expedición a lo más profundo de la selva con el fin de encontrar una poderosa reliquia.
-quest.authors,<i>Creado por:</i> Strategywizard \n\n <i>Traducción al español:</i> T. García \n\n <i>Revisión:</i> Vidimus
-TokenExploreCaveInRight.text,Una gran puerta de madera conduce a las profundidades del templo.
-TokenExploreCaveInRight.button1,{action} Explorar
-EventRevealRuinedHall.button1,Continuar
-EventAddExploreTokenRuinedHallToJars.text,Ves una puerta al final de la sala a la izquierda. Tendrás que apartar algunos de los escombros antes de poder acceder a ella.
-EventRevealRuinedHall.text,La sala frente a ti ha experimentado su propia parte de la destrucción a causa de algún terremoto del pasado. Parte del suelo se ha derrumbado, lo que te presenta algunos obstáculos en tu camino. Pero también sabes que algo más que piedras rotas puede haber entre los restos. \n\n Coloca el módulo {c:TileRuinedHall}, una Ficha de Puerta, 2 Fichas de Escombros y 2 Fichas de Búsqueda en los lugares señalados.
-EventAddExploreTokenRuinedHallToJars.button1,Continuar
-TokenSearchStorageHallBottom.text,Este cofre de piedra muestra signos de deterioro, pero no parece haber sido alterado en muchos años.
-TokenSearchStorageHallBottom.button1,{action} Buscar
-EventSearchStorageHallLost.text,Justo cuando extiendes tu mano hacia adelante, notas un fuerte tirón en tu brazo. Sientes como te empujan hacia adelante a gran velocidad y esperas aplastarte la cabeza contra alguna fría piedra. Sin embargo, de repente apareces en otro lugar, perdido y confundido. \n\n Adquieres el estado Perdido en el tiempo y el espacio.
+SpawnRandomHuntingDeepOne.text,Expedición a lo más profundo de la selva con el fin de encontrar una poderosa reliquia.
+SpawnRandomHuntingDeepOne.button1,<i>Creado por:</i> Strategywizard \n\n <i>Traducción al español:</i> T. García \n\n <i>Revisión:</i> Vidimus
+quest.synopsys,Una gran puerta de madera conduce a las profundidades del templo.
+quest.authors,{action} Explorar
+TokenExploreCaveInRight.text,Continuar
+TokenExploreCaveInRight.button1,Ves una puerta al final de la sala a la izquierda. Tendrás que apartar algunos de los escombros antes de poder acceder a ella.
+EventRevealRuinedHall.button1,La sala frente a ti ha experimentado su propia parte de la destrucción a causa de algún terremoto del pasado. Parte del suelo se ha derrumbado, lo que te presenta algunos obstáculos en tu camino. Pero también sabes que algo más que piedras rotas puede haber entre los restos. \n\n Coloca el módulo {c:TileRuinedHall}, una Ficha de Puerta, 2 Fichas de Escombros y 2 Fichas de Búsqueda en los lugares señalados.
+EventAddExploreTokenRuinedHallToJars.text,Continuar
+EventRevealRuinedHall.text,Este cofre de piedra muestra signos de deterioro, pero no parece haber sido alterado en muchos años.
+EventAddExploreTokenRuinedHallToJars.button1,{action} Buscar
+TokenSearchStorageHallBottom.text,Justo cuando extiendes tu mano hacia adelante, notas un fuerte tirón en tu brazo. Sientes como te empujan hacia adelante a gran velocidad y esperas aplastarte la cabeza contra alguna fría piedra. Sin embargo, de repente apareces en otro lugar, perdido y confundido. \n\n Adquieres el estado Perdido en el tiempo y el espacio.
+TokenSearchStorageHallBottom.button1,Continuar
+EventSearchStorageHallLost.text,Intentas apartar la pesada tapa para poder mirar dentro del cofre. \n\n Descarta esta Ficha de Búsqueda.
 EventSearchStorageHallLost.button1,Continuar
-EventRemoveSearchTokenStorageHallBottom.text,Intentas apartar la pesada tapa para poder mirar dentro del cofre. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenStorageHallBottom.text,Después de hurgar entre una pila de papeles y escombros, tus ojos se posan en algo envuelto en una enredadera de espinas. Con esmero, intentas deshacer la robusta planta de tu premio, pero te das cuenta de que en realidad está tratando de detenerte. Tus manos están cubiertas de largas y punzantes espinas que crecen a medida que insistes en alcanzar tu objetivo. Sufres 1 de Horror y 2 de Daño boca abajo (anulados por {agility}). \n\n Ganas el Objeto Común Disco de Itzamna.
 EventRemoveSearchTokenStorageHallBottom.button1,Continuar
-EventSearchStorageHallItem.text,Después de hurgar entre una pila de papeles y escombros, tus ojos se posan en algo envuelto en una enredadera de espinas. Con esmero, intentas deshacer la robusta planta de tu premio, pero te das cuenta de que en realidad está tratando de detenerte. Tus manos están cubiertas de largas y punzantes espinas que crecen a medida que insistes en alcanzar tu objetivo. Sufres 1 de Horror y 2 de Daño boca abajo (anulados por {agility}). \n\n Ganas el Objeto Común Disco de Itzamna.
+EventSearchStorageHallItem.text,Buscas en su interior algún objeto útil, o tal vez incluso algún tesoro, pero no encuentras nada significativo. Antes de desistir, golpeas y activas sin querer una pequeña palanca que no habías visto antes.
 EventSearchStorageHallItem.button1,Continuar
-EventSearchStorageHallLever.text,Buscas en su interior algún objeto útil, o tal vez incluso algún tesoro, pero no encuentras nada significativo. Antes de desistir, golpeas y activas sin querer una pequeña palanca que no habías visto antes.
+EventSearchStorageHallLever.text,Escuchas un chirrido en las profundidades del templo. Tres pilares emergen del suelo de mosaico, cada uno con un gran hemisferio en su pináculo. \n\n Coloca 3 Fichas de Búsqueda en los lugares señalados.
 EventSearchStorageHallLever.button1,Continuar
-EventLeverSwitchedMosaicRevealed.text,Escuchas un chirrido en las profundidades del templo. Tres pilares emergen del suelo de mosaico, cada uno con un gran hemisferio en su pináculo. \n\n Coloca 3 Fichas de Búsqueda en los lugares señalados.
+EventLeverSwitchedMosaicRevealed.text,Escuchas un chirrido en las profundidades del templo.
 EventLeverSwitchedMosaicRevealed.button1,Continuar
-EventLeverSwitchedMosaicNotRevealed.text,Escuchas un chirrido en las profundidades del templo.
-EventLeverSwitchedMosaicNotRevealed.button1,Continuar
-TokenSearchStorageHallTopRight.button1,{action} Buscar
-TokenSearchStorageHallTopLeft.button1,{action} Buscar
-EventRemoveSearchTokenStorageHallTopLeft.text,Apartas la pesada tapa para poder mirar dentro del cofre. \n\n Descarta esta Ficha de Búsqueda.
-EventRemoveSearchTokenStorageHallTopLeft.button1,Continuar
-TokenSearchStorageHallTopLeft.text,El cofre está cubierto de musgo y unas grietas lo atraviesan como cristales rotos.
-TokenSearchStorageHallTopRight.text,Un gran estante de piedra reposa en una esquina de la habitación. El polvo cubre las estanterías en su mayoría vacías, pero una de ellas contiene algunos documentos y objetos que podrían ser de interés.
-EventRemoveSearchTokenStorageHallTopRight.text,Soplas para quitar el polvo antes de empezar a examinar lo que hay encima del estante. \n\n Descarta esta Ficha de Búsqueda.
-EventRemoveSearchTokenStorageHallTopRight.button1,Continuar
-TokenExploreHallWithJarsToRuinedHall.text,Esta puerta lleva más cerca de la entrada del templo.
-TokenExploreHallWithJarsToRuinedHall.button1,{action} Buscar
-TokenExploreRuinedHallToHallWithJars.text,Esta puerta presenta grandes marcas causadas por las piedras de los escombros.
-TokenExploreRuinedHallToHallWithJars.button1,{action} Explorar
-EventRevealHallWithJarsFromRuinedHall.button1,Continuar
-EventAddExploreTokenHallWithJarsToPool.text,Otra puerta al otro lado de la habitación parece está desgastada, como si hubiera permanecido durante largo tiempo en un ambiente húmedo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventRevealHallWithJarsFromRuinedHall.text,Entras en un sala de piedra con varias vasijas de barro y un esqueleto que pertenece a una de las extrañas criaturas serpiente. Estas vasijas deben de estar aquí para algún propósito, por lo que podría valer la pena mirar dentro de ellas. \n\n Coloca el módulo {c:TileHallWithJars} y 3 Fichas de Búsqueda en los lugares señalados.
+EventLeverSwitchedMosaicNotRevealed.text,{action} Buscar
+EventLeverSwitchedMosaicNotRevealed.button1,{action} Buscar
+TokenSearchStorageHallTopRight.button1,Apartas la pesada tapa para poder mirar dentro del cofre. \n\n Descarta esta Ficha de Búsqueda.
+TokenSearchStorageHallTopLeft.button1,Continuar
+EventRemoveSearchTokenStorageHallTopLeft.text,El cofre está cubierto de musgo y unas grietas lo atraviesan como cristales rotos.
+EventRemoveSearchTokenStorageHallTopLeft.button1,Un gran estante de piedra reposa en una esquina de la habitación. El polvo cubre las estanterías en su mayoría vacías, pero una de ellas contiene algunos documentos y objetos que podrían ser de interés.
+TokenSearchStorageHallTopLeft.text,Soplas para quitar el polvo antes de empezar a examinar lo que hay encima del estante. \n\n Descarta esta Ficha de Búsqueda.
+TokenSearchStorageHallTopRight.text,Continuar
+EventRemoveSearchTokenStorageHallTopRight.text,Esta puerta lleva más cerca de la entrada del templo.
+EventRemoveSearchTokenStorageHallTopRight.button1,{action} Buscar
+TokenExploreHallWithJarsToRuinedHall.text,Esta puerta presenta grandes marcas causadas por las piedras de los escombros.
+TokenExploreHallWithJarsToRuinedHall.button1,{action} Explorar
+TokenExploreRuinedHallToHallWithJars.text,Continuar
+TokenExploreRuinedHallToHallWithJars.button1,Otra puerta al otro lado de la habitación parece está desgastada, como si hubiera permanecido durante largo tiempo en un ambiente húmedo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventRevealHallWithJarsFromRuinedHall.button1,Entras en un sala de piedra con varias vasijas de barro y un esqueleto que pertenece a una de las extrañas criaturas serpiente. Estas vasijas deben de estar aquí para algún propósito, por lo que podría valer la pena mirar dentro de ellas. \n\n Coloca el módulo {c:TileHallWithJars} y 3 Fichas de Búsqueda en los lugares señalados.
+EventAddExploreTokenHallWithJarsToPool.text,Continuar
+EventRevealHallWithJarsFromRuinedHall.text,El aire comienza a ondular súbitamente a tu alrededor, y después de una ráfaga repentina, ves a una vil criatura caminar a través de un portal \n a unos pocos metros frente a ti. \n\n Aparece un Vagabundo Dimensional en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
 EventAddExploreTokenHallWithJarsToPool.button1,Continuar
-SpawnRevealHallWithJars.text,El aire comienza a ondular súbitamente a tu alrededor, y después de una ráfaga repentina, ves a una vil criatura caminar a través de un portal \n a unos pocos metros frente a ti. \n\n Aparece un Vagabundo Dimensional en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
+SpawnRevealHallWithJars.text,Después de analizar brevemente la habitación, tu mente se ve asaltada por visiones de paisajes sobrenaturales llenos de sangre y figuras demoníacas. Nunca habías soñado con tal horror, pero temes la posibilidad de que estos lugares malignos puedan existir realmente. Sufres 2 de Horror (anulados por {will}).
 SpawnRevealHallWithJars.button1,Continuar
-EventRevealHallWithJarsVisions.text,Después de analizar brevemente la habitación, tu mente se ve asaltada por visiones de paisajes sobrenaturales llenos de sangre y figuras demoníacas. Nunca habías soñado con tal horror, pero temes la posibilidad de que estos lugares malignos puedan existir realmente. Sufres 2 de Horror (anulados por {will}).
-EventRevealHallWithJarsVisions.button1,Continuar
-EventRuinedHallToHallWithJarsPoolRevealed.button1,Continuar
-TokenExplorePoolToHallWithJars.text,Esta puerta está muy desgastada debido a la humedad de habitación.
-TokenExplorePoolToHallWithJars.button1,{action} Explorar
-EventRevealHallWithJarsFromPool.text,Entras en un salón de piedra con varias vasijas de barro y un esqueleto que pertenece a una de las extrañas criaturas serpentinas. Estas vasijas deben estar aquí para algún propósito, por lo que podría valer la pena mirar dentro de ellas. \n\n Coloca el módulo {c:TileHallWithJars} y 3 Fichas de Búsqueda en los lugares señalados.
+EventRevealHallWithJarsVisions.text,Continuar
+EventRevealHallWithJarsVisions.button1,Esta puerta está muy desgastada debido a la humedad de habitación.
+EventRuinedHallToHallWithJarsPoolRevealed.button1,{action} Explorar
+TokenExplorePoolToHallWithJars.text,Entras en un salón de piedra con varias vasijas de barro y un esqueleto que pertenece a una de las extrañas criaturas serpentinas. Estas vasijas deben estar aquí para algún propósito, por lo que podría valer la pena mirar dentro de ellas. \n\n Coloca el módulo {c:TileHallWithJars} y 3 Fichas de Búsqueda en los lugares señalados.
+TokenExplorePoolToHallWithJars.button1,Continuar
+EventRevealHallWithJarsFromPool.text,Una puerta al final de la habitación conduce a la entrada del templo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
 EventRevealHallWithJarsFromPool.button1,Continuar
-EventAddExploreTokenHallWithJarsToRuinedHall.text,Una puerta al final de la habitación conduce a la entrada del templo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventAddExploreTokenHallWithJarsToRuinedHall.button1,Continuar
-EventPoolToHallWithJarsRuinedHallRevealed.button1,Continuar
+EventAddExploreTokenHallWithJarsToRuinedHall.text,Continuar
+EventAddExploreTokenHallWithJarsToRuinedHall.button1,En medio de los escombros crees ver algo más que simples piedra rotas.
+EventPoolToHallWithJarsRuinedHallRevealed.button1,{action} Buscar
 TokenSearchRuinedHall2.text,En medio de los escombros crees ver algo más que simples piedra rotas.
 TokenSearchRuinedHall2.button1,{action} Buscar
-TokenSearchRuinedHall1.text,En medio de los escombros crees ver algo más que simples piedra rotas.
-TokenSearchRuinedHall1.button1,{action} Buscar
-EventSearchRuinedHallInformation.text,Un trozo de papel llama tu atención entre las rocas. Lo sacas de debajo de una piedra y lo lees. Parece ser un diario. Una nota en un círculo escrita con grandes letras no te pasa desapercibida. En ella se lee: "Los 3 pilares en la habitación con el suelo de mosaico son peligrosos. Mi investigación en este templo me dice que dos de ellos son trampas, pero no hay ninguna manera de saber cual de ellos hay que empujar. Son idénticos, y cuando se activa la palanca para hacerlos aparecer, vuelven a mezclarse en orden aleatorio!" Te reconforta haber encontrado esta nota. \n\n Adquieres el estado Concentrado y 2 ganas Pistas {clue}
+TokenSearchRuinedHall1.text,Un trozo de papel llama tu atención entre las rocas. Lo sacas de debajo de una piedra y lo lees. Parece ser un diario. Una nota en un círculo escrita con grandes letras no te pasa desapercibida. En ella se lee: "Los 3 pilares en la habitación con el suelo de mosaico son peligrosos. Mi investigación en este templo me dice que dos de ellos son trampas, pero no hay ninguna manera de saber cual de ellos hay que empujar. Son idénticos, y cuando se activa la palanca para hacerlos aparecer, vuelven a mezclarse en orden aleatorio!" Te reconforta haber encontrado esta nota. \n\n Adquieres el estado Concentrado y 2 ganas Pistas {clue}
+TokenSearchRuinedHall1.button1,Continuar
+EventSearchRuinedHallInformation.text,Ves un largo mango de madera que sobresale entre los escombros. Después de darle un primer tirón, compruebas que no será fácil sacarlo de ahí. Deberás realizar un gran esfuerzo, pero a la vez tendrá que ser con delicadeza, para evitar que se rompa {strength} + {agility}.
 EventSearchRuinedHallInformation.button1,Continuar
-EventSearchRuinedHallItem.text,Ves un largo mango de madera que sobresale entre los escombros. Después de darle un primer tirón, compruebas que no será fácil sacarlo de ahí. Deberás realizar un gran esfuerzo, pero a la vez tendrá que ser con delicadeza, para evitar que se rompa {strength} + {agility}.
+EventSearchRuinedHallItem.text,No eres lo suficientemente cuidadoso y al final el mango se rompe. Este objeto ya no te resultará útil.
 EventSearchRuinedHallItem.button1,Continuar
-EventGainPickaxeFail.text,No eres lo suficientemente cuidadoso y al final el mango se rompe. Este objeto ya no te resultará útil.
+EventGainPickaxeFail.text,Sacando con cuidado el objeto de entre los escombros, liberas con éxito un pico que parece estar en excelente estado. Esto debería resultar útil para tu investigación. \n\n Ganas el Objeto Común Pico.
 EventGainPickaxeFail.button1,Continuar
-EventGainPickaxePass.text,Sacando con cuidado el objeto de entre los escombros, liberas con éxito un pico que parece estar en excelente estado. Esto debería resultar útil para tu investigación. \n\n Ganas el Objeto Común Pico.
+EventGainPickaxePass.text,Hay que mover varias rocas. Tienes trabajo que hacer. \n\n Descarta esta Ficha de Búsqueda.
 EventGainPickaxePass.button1,Continuar
 EventRemoveSearchTokenRuinedHall1.text,Hay que mover varias rocas. Tienes trabajo que hacer. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveSearchTokenRuinedHall1.button1,Continuar
-EventRemoveSearchTokenRuinedHall2.text,Hay que mover varias rocas. Tienes trabajo que hacer. \n\n Descarta esta Ficha de Búsqueda.
-EventRemoveSearchTokenRuinedHall2.button1,Continuar
-TokenSearchHallWithJars3.text,Es difícil ver el interior de las vasijas, aun girándolas en diferentes ángulos. Parece que tendrás que meter la mano. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenRuinedHall2.text,Es difícil ver el interior de las vasijas, aun girándolas en diferentes ángulos. Parece que tendrás que meter la mano. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenRuinedHall2.button1,{action} Buscar
+TokenSearchHallWithJars3.text,Hay varias vasijas de barro en el suelo. Quizá tengan algo de utilidad.
 TokenSearchHallWithJars3.button1,{action} Buscar
 TokenSearchHallWithJars2.text,Hay varias vasijas de barro en el suelo. Quizá tengan algo de utilidad.
 TokenSearchHallWithJars2.button1,{action} Buscar
-TokenSearchHallWithJarsTop.text,Hay varias vasijas de barro en el suelo. Quizá tengan algo de utilidad.
-TokenSearchHallWithJarsTop.button1,{action} Buscar
+TokenSearchHallWithJarsTop.text,Es difícil ver el interior de estas vasijas sin una buena iluminación.\n\nDescarta esta ficha de Búsqueda.
+TokenSearchHallWithJarsTop.button1,Continuar
+EventRemoveSearchTokenJarsRight.text,Es difícil ver el interior de las vasijas, aun girándolas en diferentes ángulos. Parece que tendrás que meter la mano. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveSearchTokenJarsRight.button1,Continuar
 EventRemoveSearchTokenJarsLeft.text,Es difícil ver el interior de las vasijas, aun girándolas en diferentes ángulos. Parece que tendrás que meter la mano. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveSearchTokenJarsLeft.button1,Continuar
-EventRemoveSearchTokenJarsTop.text,Es difícil ver el interior de las vasijas, aun girándolas en diferentes ángulos. Parece que tendrás que meter la mano. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveSearchTokenJarsTop.text,Tan pronto como tocas la vasija, las vibraciones que provocas dan como resultado una erupción de arañas a través de la abertura de la misma. Varias de ellas corren hasta tu mano. Te alejas e intentas sacudírtelas antes de que tengan la oportunidad de inyectar su veneno en tu carne. Sufres 2 de Daño boca abajo (anulados por {agility}).
 EventRemoveSearchTokenJarsTop.button1,Continuar
-EventSearchJarsSpiders.text,Tan pronto como tocas la vasija, las vibraciones que provocas dan como resultado una erupción de arañas a través de la abertura de la misma. Varias de ellas corren hasta tu mano. Te alejas e intentas sacudírtelas antes de que tengan la oportunidad de inyectar su veneno en tu carne. Sufres 2 de Daño boca abajo (anulados por {agility}).
+EventSearchJarsSpiders.text,Al meter la mano dentro de la vasija, notas una especie de pergamino. Al sacarlo, ves que está cubierto de extraños símbolos y marcas. Deduces que se trata de una especie de mapa, pero sus escrituras y garabatos te resultan inquietantes. Sufres 2 de Horror boca abajo (anulados por {lore}). \n\n Obtienes el Objeto Común Mapa de líneas ley.
 EventSearchJarsSpiders.button1,Continuar
-EventSearchJarsMapOfTheLeyLines.text,Al meter la mano dentro de la vasija, notas una especie de pergamino. Al sacarlo, ves que está cubierto de extraños símbolos y marcas. Deduces que se trata de una especie de mapa, pero sus escrituras y garabatos te resultan inquietantes. Sufres 2 de Horror boca abajo (anulados por {lore}). \n\n Obtienes el Objeto Común Mapa de líneas ley.
+EventSearchJarsMapOfTheLeyLines.text,La vasija está vacía, pero los grabados en su superficie llaman tu atención. La mayor parte parecen divagaciones de algún loco, pero tomas nota de una sección en particular. El texto detalla la conexión entre la reliquia, el templo y unos portales hacia la maldad más pura. Aunque ya has percibido que el templo en sí tiene una frágil barrera entre nuestra realidad y otros mundos, crees que tocar la reliquia podría abrir un portal, invocando criaturas más malvadas de las que las mentes humanas pueden llegar a imaginar. \n\n Ganas 2 Pistas {clue}
 EventSearchJarsMapOfTheLeyLines.button1,Continuar
-EventSearchJarsClues.text,La vasija está vacía, pero los grabados en su superficie llaman tu atención. La mayor parte parecen divagaciones de algún loco, pero tomas nota de una sección en particular. El texto detalla la conexión entre la reliquia, el templo y unos portales hacia la maldad más pura. Aunque ya has percibido que el templo en sí tiene una frágil barrera entre nuestra realidad y otros mundos, crees que tocar la reliquia podría abrir un portal, invocando criaturas más malvadas de las que las mentes humanas pueden llegar a imaginar. \n\n Ganas 2 Pistas {clue}
+EventSearchJarsClues.text,Mueves ligeramente la vasija y te percatas de que es bastante pesada. Llegas hasta el interior para sacar de ella una curiosa calavera. Para tu alivio, encontrar esta calavera no te provoca ningún temor. \n\n Ganas el Objeto Común Calavera Enjoyada.
 EventSearchJarsClues.button1,Continuar
-EventSearchJarsJeweledSkull.text,Mueves ligeramente la vasija y te percatas de que es bastante pesada. Llegas hasta el interior para sacar de ella una curiosa calavera. Para tu alivio, encontrar esta calavera no te provoca ningún temor. \n\n Ganas el Objeto Común Calavera Enjoyada.
+EventSearchJarsJeweledSkull.text,Una baratija descansa en el fondo de la vasija. Sientes una fuerza arcana que emana del metal brillante cuyo poder esperas usar a tu favor. \n\n Ganas el Objeto Común Colgante con Símbolo Arcano.
 EventSearchJarsJeweledSkull.button1,Continuar
-EventSearchJarsElderSignPendant.text,Una baratija descansa en el fondo de la vasija. Sientes una fuerza arcana que emana del metal brillante cuyo poder esperas usar a tu favor. \n\n Ganas el Objeto Común Colgante con Símbolo Arcano.
-EventSearchJarsElderSignPendant.button1,Continuar
-TokenExploreHallWithJarsToPool.text,Esta puerta está deformada debido a una prolongada exposición a la humedad.
-TokenExploreHallWithJarsToPool.button1,{action} Explorar
-EventRevealPoolFromHallWithJars.button1,Continuar
-EventAdd2SearchTknsPoolFromHallWithJars.text,Ves un papel en el borde del agua, al otro lado de la habitación. También ves un extraño pilar a tu izquierda. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
-EventRevealPoolFromHallWithJars.text,Esta habitación es extremadamente húmeda, a diferencia del resto del templo. Quedas atónito al observar múltiples portales en esta sala, cada uno generando una succión hacia algún destino desconocido. Te das cuenta de que estas anomalías realmente han arrancado los cimientos de la habitación, revelando el arroyo que corre por debajo del templo y formando una profunda piscina. \n\n Coloca el módulo {c:TilePool} y 4 Fichas de Grieta en los lugares señalados.
+EventSearchJarsElderSignPendant.text,Esta puerta está deformada debido a una prolongada exposición a la humedad.
+EventSearchJarsElderSignPendant.button1,{action} Explorar
+TokenExploreHallWithJarsToPool.text,Continuar
+TokenExploreHallWithJarsToPool.button1,Ves un papel en el borde del agua, al otro lado de la habitación. También ves un extraño pilar a tu izquierda. \n\n Coloca 2 Fichas de Búsqueda en los lugares señalados.
+EventRevealPoolFromHallWithJars.button1,Esta habitación es extremadamente húmeda, a diferencia del resto del templo. Quedas atónito al observar múltiples portales en esta sala, cada uno generando una succión hacia algún destino desconocido. Te das cuenta de que estas anomalías realmente han arrancado los cimientos de la habitación, revelando el arroyo que corre por debajo del templo y formando una profunda piscina. \n\n Coloca el módulo {c:TilePool} y 4 Fichas de Grieta en los lugares señalados.
+EventAdd2SearchTknsPoolFromHallWithJars.text,Continuar
+EventRevealPoolFromHallWithJars.text,Al otro lado del agua, ves un trozo de pergamino. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
 EventAdd2SearchTknsPoolFromHallWithJars.button1,Continuar
-EventAddSearchTknPoolFromHallWithJars.text,Al otro lado del agua, ves un trozo de pergamino. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAddSearchTknPoolFromHallWithJars.text,Otra puerta, erosionada por la humedad del aire, se puede ver a tu izquierda. \n\n Coloca una Ficha de Exploración en el lugar señalado.
 EventAddSearchTknPoolFromHallWithJars.button1,Continuar
-EventAddExpTknPoolToMosFromJars.text,Otra puerta, erosionada por la humedad del aire, se puede ver a tu izquierda. \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventAddExpTknPoolToMosFromJars.button1,Continuar
+EventAddExpTknPoolToMosFromJars.text,Continuar
+EventAddExpTknPoolToMosFromJars.button1,Ves que algo se mueve debajo del agua. De repente, de ella emerge una feroz criatura, saltando desde el arroyo y aterrizando en el suelo de tierra. \n\n Aparece un Profundo Cazador en el lugar señalado.
 EventMosaicRevealedJarsToPool.button1,Continuar
-SpawnHuntingDeepOnePoolReveal.text,Ves que algo se mueve debajo del agua. De repente, de ella emerge una feroz criatura, saltando desde el arroyo y aterrizando en el suelo de tierra. \n\n Aparece un Profundo Cazador en el lugar señalado.
+SpawnHuntingDeepOnePoolReveal.text,Por debajo de la superficie del agua, ves algo grande que se mueve de un lado a otro. De repente, ves que nada rápidamente hacia la superficie, mirándote amenazadoramente con sus amarillentos colmillos. \n\n Aparece un Profundo en el lugar señalado.
 SpawnHuntingDeepOnePoolReveal.button1,Continuar
-SpawnDeepOnePoolReveal.text,Por debajo de la superficie del agua, ves algo grande que se mueve de un lado a otro. De repente, ves que nada rápidamente hacia la superficie, mirándote amenazadoramente con sus amarillentos colmillos. \n\n Aparece un Profundo en el lugar señalado.
-SpawnDeepOnePoolReveal.button1,Continuar
-TokenExploreMosaicToPool.text,Esta puerta parece haber estado expuesta durante un largo periodo de tiempo a la humedad. La madera se está pudriendo y el moho se adhiere a sus grietas.
-TokenExploreMosaicToPool.button1,{action} Explorar
-EventRevealPoolFromMosaic.text,Esta habitación es extremadamente húmeda, a diferencia del resto del templo. Quedas atónito al observar múltiples portales en esta sala, cada uno generando una succión hacia algún destino desconocido. Te das cuenta de que estas anomalías realmente han arrancado los cimientos de la habitación, revelando el arroyo que corre por debajo del templo. \n\n Coloca el módulo {c:TilePool} y 4 Fichas de Grieta en los lugares señalados.
+SpawnDeepOnePoolReveal.text,Esta puerta parece haber estado expuesta durante un largo periodo de tiempo a la humedad. La madera se está pudriendo y el moho se adhiere a sus grietas.
+SpawnDeepOnePoolReveal.button1,{action} Explorar
+TokenExploreMosaicToPool.text,Esta habitación es extremadamente húmeda, a diferencia del resto del templo. Quedas atónito al observar múltiples portales en esta sala, cada uno generando una succión hacia algún destino desconocido. Te das cuenta de que estas anomalías realmente han arrancado los cimientos de la habitación, revelando el arroyo que corre por debajo del templo. \n\n Coloca el módulo {c:TilePool} y 4 Fichas de Grieta en los lugares señalados.
+TokenExploreMosaicToPool.button1,Continuar
+EventRevealPoolFromMosaic.text,Miras a tu izquierda y ves un trozo de pergamino cerca del borde del agua. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
 EventRevealPoolFromMosaic.button1,Continuar
-EventAdd1SearchTknPoolFrmMosaic.text,Miras a tu izquierda y ves un trozo de pergamino cerca del borde del agua. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
+EventAdd1SearchTknPoolFrmMosaic.text,Justo en frente a ti hay un pilar con extrañas runas dispuestas encima. A tu izquierda, ves un trozo de pergamino en la orilla del agua. \n\n Coloca 2 Fichas de Búsqueda en el lugar señalado.
 EventAdd1SearchTknPoolFrmMosaic.button1,Continuar
-EventAdd2SearchTknsPoolFrmMosaic.text,Justo en frente a ti hay un pilar con extrañas runas dispuestas encima. A tu izquierda, ves un trozo de pergamino en la orilla del agua. \n\n Coloca 2 Fichas de Búsqueda en el lugar señalado.
-EventAdd2SearchTknsPoolFrmMosaic.button1,Continuar
+EventAdd2SearchTknsPoolFrmMosaic.text,Continuar
+EventAdd2SearchTknsPoolFrmMosaic.button1,Una puerta puede verse al otro lado del agua. \n\n Coloca una Ficha de Exploración en el lugar señalado.
 EventHallWithJarsAlreadyRevealed.button1,Continuar
-EventAddExploreTknPoolToJarsFrmMosaic.text,Una puerta puede verse al otro lado del agua. \n\n Coloca una Ficha de Exploración en el lugar señalado.
-EventAddExploreTknPoolToJarsFrmMosaic.button1,Continuar
-TokenSearchPoolTopLeft.text,Un pergamino yace en el suelo, cerca del agua.
-TokenSearchPoolTopLeft.button1,{action} Buscar
-EventDecipherPoolSpell.text,Mientras sostienes el pergamino en tus manos, intentas descifrar la escritura arcana {lore}.
+EventAddExploreTknPoolToJarsFrmMosaic.text,Un pergamino yace en el suelo, cerca del agua.
+EventAddExploreTknPoolToJarsFrmMosaic.button1,{action} Buscar
+TokenSearchPoolTopLeft.text,Mientras sostienes el pergamino en tus manos, intentas descifrar la escritura arcana {lore}.
+TokenSearchPoolTopLeft.button1,Continuar
+EventDecipherPoolSpell.text,Tu conocimiento no es lo suficientemente profundo como para comprender el texto que tienes ante ti. \n\n Descarta esta Ficha de Búsqueda.
 EventDecipherPoolSpell.button1,Continuar
-EventPoolSpellFail.text,Tu conocimiento no es lo suficientemente profundo como para comprender el texto que tienes ante ti. \n\n Descarta esta Ficha de Búsqueda.
+EventPoolSpellFail.text,Al analizar las palabras arcanas, descifras un poderoso hechizo que te podría resultar útil. \n\n Obtienes el hechizo {c:QItemPoolSpell}. A continuación, descarta esta Ficha de Búsqueda.
 EventPoolSpellFail.button1,Continuar
-EventPoolSpellPass.text,Al analizar las palabras arcanas, descifras un poderoso hechizo que te podría resultar útil. \n\n Obtienes el hechizo {c:QItemPoolSpell}. A continuación, descarta esta Ficha de Búsqueda.
-EventPoolSpellPass.button1,Continuar
-TokenSearchPoolBottomLeft.text,Unas runas antiguas descansan en la parte superior de este pilar. Dirías que deben colocarse dentro de unas ranuras en un orden determinado. Puedes intentar resolver el rompecabezas utilizando {lore}.
-TokenSearchPoolBottomLeft.button1,{action} Resolver
-EventTempleUnlocks.text,Al alinear las runas según su orden correcto, un sonido retumbante reverbera por todo el templo. La puerta del templo se abre, permitiendo que entre aire fresco una vez más. El aura amenazadora del templo parece haber disminuido con tu éxito. \n\n Descarta esta Ficha de Búsqueda y adquieres el estado Concentrado. Luego descarta la Ficha de Exploración del lugar señalado.
-PuzzlePool.button1,Resolver
+EventPoolSpellPass.text,Unas runas antiguas descansan en la parte superior de este pilar. Dirías que deben colocarse dentro de unas ranuras en un orden determinado. Puedes intentar resolver el rompecabezas utilizando {lore}.
+EventPoolSpellPass.button1,{action} Resolver
+TokenSearchPoolBottomLeft.text,Al alinear las runas según su orden correcto, un sonido retumbante reverbera por todo el templo. La puerta del templo se abre, permitiendo que entre aire fresco una vez más. El aura amenazadora del templo parece haber disminuido con tu éxito. \n\n Descarta esta Ficha de Búsqueda y adquieres el estado Concentrado. Luego descarta la Ficha de Exploración del lugar señalado.
+TokenSearchPoolBottomLeft.button1,Resolver
+EventTempleUnlocks.text,Continuar
+PuzzlePool.button1,El templo parece cobrar vida abriendo las paredes de la cámara de la piscina para liberar algunos chorros de agua. \n\n Coloca una Ficha de Agua en cada espacio de la cámara de la piscina.
 EventTempleUnlocks.button1,Continuar
-EventWaterFillsPool.text,El templo parece cobrar vida abriendo las paredes de la cámara de la piscina para liberar algunos chorros de agua. \n\n Coloca una Ficha de Agua en cada espacio de la cámara de la piscina.
+EventWaterFillsPool.text,Ahora que la puerta del templo se ha abierto de nuevo, finalmente puedes escapar. Pero no podéis completar la expedición con éxito sin llevar la reliquia con vosotros. \n\n Coloca una Ficha de Interacción en el lugar señalado. \n\n Si todos los investigadores supervivientes están en este espacio y tienes la reliquia en tu poder, puedes completar la expedición.
 EventWaterFillsPool.button1,Continuar
-EventAddInteractToken.text,Ahora que la puerta del templo se ha abierto de nuevo, finalmente puedes escapar. Pero no podéis completar la expedición con éxito sin llevar la reliquia con vosotros. \n\n Coloca una Ficha de Interacción en el lugar señalado. \n\n Si todos los investigadores supervivientes están en este espacio y tienes la reliquia en tu poder, puedes completar la expedición.
-EventAddInteractToken.button1,Continuar
-TokenInteractEndGame.text,Si todos los investigadores que han sobrevivido están en este espacio y tienes la reliquia contigo, puedes completar la expedición.
-TokenInteractEndGame.button1,Completar la expedición
-TokenInteractEndGame.button2,Todavía no...
-EventEndGameSpawns.button1,Continuar
-SpawnEndGameSerpentPerson.button1,Continuar
-SpawnEndGameFeatheredSerpent.text,El estruendoso sonido de las puertas del templo abriéndose de nuevo ha alertado a algunos de los serpentinos habitantes de la zona. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
-SpawnEndGameSerpentPerson.text,El estruendoso sonido de las puertas del templo abriéndose de nuevo ha alertado a algunos de los serpentinos habitantes de la zona. \n\n Aparece un Hombre Serpiente en el lugar señalado.
-SpawnEndGameFeatheredSerpent.button1,Continuar
+EventAddInteractToken.text,Si todos los investigadores que han sobrevivido están en este espacio y tienes la reliquia contigo, puedes completar la expedición.
+EventAddInteractToken.button1,Completar la expedición
+TokenInteractEndGame.text,Todavía no...
+TokenInteractEndGame.button1,Continuar
+TokenInteractEndGame.button2,Continuar
+EventEndGameSpawns.button1,El estruendoso sonido de las puertas del templo abriéndose de nuevo ha alertado a algunos de los serpentinos habitantes de la zona. \n\n Aparece una Serpiente Emplumada en el lugar señalado.
+SpawnEndGameSerpentPerson.button1,El estruendoso sonido de las puertas del templo abriéndose de nuevo ha alertado a algunos de los serpentinos habitantes de la zona. \n\n Aparece un Hombre Serpiente en el lugar señalado.
+SpawnEndGameFeatheredSerpent.text,Continuar
+SpawnEndGameSerpentPerson.text,Continuar
+SpawnEndGameFeatheredSerpent.button1,De repente, el tejido de la realidad se resquebraja detrás de {rnd:hero} y una horrible criatura emerge del portal recién formado. \n\n Aparece un Vagabundo Dimensional en el mismo espacio que este investigador. A continuación, coloca una Ficha de Grieta en este espacio.
 SpawnRandomShambler.button1,Continuar
-SpawnRandomShambler2.text,De repente, el tejido de la realidad se resquebraja detrás de {rnd:hero} y una horrible criatura emerge del portal recién formado. \n\n Aparece un Vagabundo Dimensional en el mismo espacio que este investigador. A continuación, coloca una Ficha de Grieta en este espacio.
+SpawnRandomShambler2.text,Al agarrar la reliquia, el aire se arremolina y late con una energía furiosa. Un portal enorme se abre a un lugar oscuro y espantoso, permitiendo que algo horrible y malvado entre a nuestro mundo.
 SpawnRandomShambler2.button1,Continuar
 EventRelicFoundMosaicRevealedBossSpawn.text,Al agarrar la reliquia, el aire se arremolina y late con una energía furiosa. Un portal enorme se abre a un lugar oscuro y espantoso, permitiendo que algo horrible y malvado entre a nuestro mundo.
 EventRelicFoundMosaicRevealedBossSpawn.button1,Continuar
-EventRelicFoundCaveInOnlyBossSpawn.text,Al agarrar la reliquia, el aire se arremolina y late con una energía furiosa. Un portal enorme se abre a un lugar oscuro y espantoso, permitiendo que algo horrible y malvado entre a nuestro mundo.
+EventRelicFoundCaveInOnlyBossSpawn.text,Una masa de mugre gelatinosa se desliza a través de la grieta, cambiando constantemente de forma y tamaño. Sea lo que sea, sólo percibes maldad de este ser informe. \n\n Aparece una Semilla Informe en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
 EventRelicFoundCaveInOnlyBossSpawn.button1,Continuar
-SpawnFormlessSpawnCaveIn.text,Una masa de mugre gelatinosa se desliza a través de la grieta, cambiando constantemente de forma y tamaño. Sea lo que sea, sólo percibes maldad de este ser informe. \n\n Aparece una Semilla Informe en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
+SpawnFormlessSpawnCaveIn.text,Una masa de tentáculos, de composición casi etérea, flota a través de la grieta. Su gran boca abierta con múltiples colmillos está preparada para darse un festín con carne terrenal. \n\n Aparece un Vampiro Estelar en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
 SpawnFormlessSpawnCaveIn.button1,Continuar
-SpawnStarVampireCaveIn.text,Una masa de tentáculos, de composición casi etérea, flota a través de la grieta. Su gran boca abierta con múltiples colmillos está preparada para darse un festín con carne terrenal. \n\n Aparece un Vampiro Estelar en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
+SpawnStarVampireCaveIn.text,Una bulbosa criatura con múltiples ojos avanza lentamente a través de la grieta. Los oscuros ojos que sobresalen de su rostro delatan su deseo de destrucción y muerte. \n\n Aparece un Shoggoth en el lugar señalado.
 SpawnStarVampireCaveIn.button1,Continuar
 SpawnShoggothCaveIn.text,Una bulbosa criatura con múltiples ojos avanza lentamente a través de la grieta. Los oscuros ojos que sobresalen de su rostro delatan su deseo de destrucción y muerte. \n\n Aparece un Shoggoth en el lugar señalado.
 SpawnShoggothCaveIn.button1,Continuar
-SpawnShoggothMosaic.text,Una bulbosa criatura con múltiples ojos avanza lentamente a través de la grieta. Los oscuros ojos que sobresalen de su rostro delatan su deseo de destrucción y muerte. \n\n Aparece un Shoggoth en el lugar señalado.
+SpawnShoggothMosaic.text,Continuar
 SpawnShoggothMosaic.button1,Continuar
-SpawnStarVampireMosaic.button1,Continuar
-SpawnFormlessSpawnMosaic.button1,Continuar
-SpawnStarVampireMosaic.text,Una masa de tentáculos, de composición casi etérea, flota a través de la grieta. Su gran boca abierta con múltiples colmillos está preparada para darse un festín con carne terrenal. \n\n Aparece un Vampiro Estelar en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
-TokenExploreStorageHallToAltarUNLOCKED.text,Un pomo de diamante brilla intensamente en la ornamentada puerta.
-SpawnFormlessSpawnMosaic.text,Una masa de mugre gelatinosa se desliza a través de la grieta, cambiando constantemente de forma y tamaño. Sea lo que sea, sólo percibes maldad de este ser informe. \n\n Coloca una Semilla Informe en el lugar señalado, y coloca una ficha de Grieta en su espacio.
-TokenExploreStorageHallToAltarUNLOCKED.button1,{action} Explorar
-EventRevealAltar.text,Al abrir la puerta, se revela una habitación llena de piedras y viejos jarrones rotos, pero lo más destacable es un altar en la parte trasera de la habitación. Está completamente intacto y no muestra signos de deterioro, casi como si los poderes de este templo lo estuvieran preservando durante eones en la eternidad. \n\n Coloca el módulo {c:TileAltar}, una Ficha de Puerta y una Ficha de Búsqueda en los lugares señalados.
+SpawnStarVampireMosaic.button1,Una masa de tentáculos, de composición casi etérea, flota a través de la grieta. Su gran boca abierta con múltiples colmillos está preparada para darse un festín con carne terrenal. \n\n Aparece un Vampiro Estelar en el lugar señalado. A continuación, coloca una Ficha de Grieta en su espacio.
+SpawnFormlessSpawnMosaic.button1,Un pomo de diamante brilla intensamente en la ornamentada puerta.
+SpawnStarVampireMosaic.text,Una masa de mugre gelatinosa se desliza a través de la grieta, cambiando constantemente de forma y tamaño. Sea lo que sea, sólo percibes maldad de este ser informe. \n\n Coloca una Semilla Informe en el lugar señalado, y coloca una ficha de Grieta en su espacio.
+TokenExploreStorageHallToAltarUNLOCKED.text,{action} Explorar
+SpawnFormlessSpawnMosaic.text,Al abrir la puerta, se revela una habitación llena de piedras y viejos jarrones rotos, pero lo más destacable es un altar en la parte trasera de la habitación. Está completamente intacto y no muestra signos de deterioro, casi como si los poderes de este templo lo estuvieran preservando durante eones en la eternidad. \n\n Coloca el módulo {c:TileAltar}, una Ficha de Puerta y una Ficha de Búsqueda en los lugares señalados.
+TokenExploreStorageHallToAltarUNLOCKED.button1,Continuar
+EventRevealAltar.text,Una puerta a tu derecha conduce a la cámara del suelo de mosaico, pero no parece abrirse con métodos tradicionales.
 EventRevealAltar.button1,Continuar
-EventAddExploreTokenAltarToMosaic.text,Una puerta a tu derecha conduce a la cámara del suelo de mosaico, pero no parece abrirse con métodos tradicionales.
+EventAddExploreTokenAltarToMosaic.text,Esta puerta parece poder elevarse hacia el techo, pero ¿cómo podría activarse?
 EventAddExploreTokenAltarToMosaic.button1,Continuar
-TokenExploreAltarToMosaic.text,Esta puerta parece poder elevarse hacia el techo, pero ¿cómo podría activarse?
-TokenExploreAltarToMosaic.button1,Continuar
-TokenPuzzle1.text,Al inspeccionar el altar descubres una imagen astronómica de extrañas constelaciones, pero las piezas de la imagen no están alineadas correctamente. Puedes intentar resolver el rompecabezas utilizando {lore}.
-TokenPuzzle1.button1,{action} Resolver
-EventAddAltarPuzzle2.text,Completar la alineación de las constelaciones hace que el altar se mueva y se desplace. Ante ti, se eleva una pila de rocas. Parece que hay que hacer algo más antes de poder dejar este altar atrás.
-PuzzleAltarPuzzle1.button1,Resolver
-EventAddAltarPuzzle2.button1,Continuar
-TokenPuzzle2.text,Las piedras parecen claramente mantener un orden. Sólo necesitas ejercer algo de fuerza para apilarlas correctamente. Puedes tratar de resolver el rompecabezas utilizando {strength}.
-TokenPuzzle2.button1,{action} Resolver
-EventAddAltarPuzzle3.text,Una vez las piedras se equilibran correctamente, el altar comienza a moverse nuevamente. Parece que deberás resolver una tercera prueba.
-PuzzleAltar2.button1,Resolver
-EventAddAltarPuzzle3.button1,Continuar
-TokenPuzzle3.text,Es necesario deslizar correctamente un intrincado candado en una particular hendidura en la piedra. Puedes tratar de resolver el rompecabezas utilizando {observation}.
-TokenPuzzle3.button1,{action} Resolver
-Event3rdPuzzleComplete.text,Resuelto el tercer rompecabezas, ves como el altar se transforma en una simple losa con marcas antiguas. La puerta a la derecha de la habitación se eleva lentamente y oyes algo más moviéndose en las profundidades del templo. \n\n Descarta esta Ficha de Búsqueda y la Ficha de Exploración que conduce a la cámara del mosaico.
-PuzzleAltar3.button1,Resolver
+TokenExploreAltarToMosaic.text,Al inspeccionar el altar descubres una imagen astronómica de extrañas constelaciones, pero las piezas de la imagen no están alineadas correctamente. Puedes intentar resolver el rompecabezas utilizando {lore}.
+TokenExploreAltarToMosaic.button1,{action} Resolver
+TokenPuzzle1.text,Completar la alineación de las constelaciones hace que el altar se mueva y se desplace. Ante ti, se eleva una pila de rocas. Parece que hay que hacer algo más antes de poder dejar este altar atrás.
+TokenPuzzle1.button1,Resolver
+EventAddAltarPuzzle2.text,Continuar
+PuzzleAltarPuzzle1.button1,Las piedras parecen claramente mantener un orden. Sólo necesitas ejercer algo de fuerza para apilarlas correctamente. Puedes tratar de resolver el rompecabezas utilizando {strength}.
+EventAddAltarPuzzle2.button1,{action} Resolver
+TokenPuzzle2.text,Una vez las piedras se equilibran correctamente, el altar comienza a moverse nuevamente. Parece que deberás resolver una tercera prueba.
+TokenPuzzle2.button1,Resolver
+EventAddAltarPuzzle3.text,Continuar
+PuzzleAltar2.button1,Es necesario deslizar correctamente un intrincado candado en una particular hendidura en la piedra. Puedes tratar de resolver el rompecabezas utilizando {observation}.
+EventAddAltarPuzzle3.button1,{action} Resolver
+TokenPuzzle3.text,Resuelto el tercer rompecabezas, ves como el altar se transforma en una simple losa con marcas antiguas. La puerta a la derecha de la habitación se eleva lentamente y oyes algo más moviéndose en las profundidades del templo. \n\n Descarta esta Ficha de Búsqueda y la Ficha de Exploración que conduce a la cámara del mosaico.
+TokenPuzzle3.button1,Resolver
+Event3rdPuzzleComplete.text,Continuar
+PuzzleAltar3.button1,Un pilar se eleva desde la tierra en la cámara de la piscina. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
 Event3rdPuzzleComplete.button1,Continuar
-EventAddBottomLeftSearchTokenPool.text,Un pilar se eleva desde la tierra en la cámara de la piscina. \n\n Coloca una Ficha de Búsqueda en el lugar señalado.
-EventAddBottomLeftSearchTokenPool.button1,Continuar
-TokenExploreCaveInTop.text,Puedes alcanzar la puerta subido a los escombros bajo tus pies. Hay una profunda protuberancia en el centro de la puerta, por lo que temes que algo grande podría haber al otro lado.
-TokenExploreCaveInTop.button1,{action} Explorar
-EventRevealMosaic.text,Al abrir la puerta, ves una hermosa sala con el suelo de mosaico elaborado con varias piedras preciosas de distintos colores. Se encuentra en un estado tan impoluto que no llegas a comprender cómo ha evitado el deterioro que sí ha sufrido el resto del templo. Te invade un impulso opresivo de romper algunas de las piedras del lugar para llevártelas contigo, pero sabes que tienes asuntos más importantes entre manos. \n\n Después de combatir estos pensamientos dentro de tu propia mente, observas un esqueleto en una esquina de la habitación. Te preguntas qué le condujo a tal destino. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n A continuación, coloca el módulo {c:TileMosaic}, una Ficha de Puerta y una Ficha de Búsqueda en los lugares señalados.
-EventRevealMosaic.button1,Continuar
+EventAddBottomLeftSearchTokenPool.text,Puedes alcanzar la puerta subido a los escombros bajo tus pies. Hay una profunda protuberancia en el centro de la puerta, por lo que temes que algo grande podría haber al otro lado.
+EventAddBottomLeftSearchTokenPool.button1,{action} Explorar
+TokenExploreCaveInTop.text,Al abrir la puerta, ves una hermosa sala con el suelo de mosaico elaborado con varias piedras preciosas de distintos colores. Se encuentra en un estado tan impoluto que no llegas a comprender cómo ha evitado el deterioro que sí ha sufrido el resto del templo. Te invade un impulso opresivo de romper algunas de las piedras del lugar para llevártelas contigo, pero sabes que tienes asuntos más importantes entre manos. \n\n Después de combatir estos pensamientos dentro de tu propia mente, observas un esqueleto en una esquina de la habitación. Te preguntas qué le condujo a tal destino. Sufres 2 de Horror boca abajo (anulados por {will}). \n\n A continuación, coloca el módulo {c:TileMosaic}, una Ficha de Puerta y una Ficha de Búsqueda en los lugares señalados.
+TokenExploreCaveInTop.button1,Continuar
+EventRevealMosaic.text,Continuar
+EventRevealMosaic.button1,En la parte de atrás de la sala, ves tres pilares, cada uno de los cuales sostiene una especie de hemisferio en su pináculo. \n\n Coloca 3 Fichas de Búsqueda en los lugares señalados.
 EventRandomShamblers.button1,Continuar
-EventAdd3PillarsMosaic.text,En la parte de atrás de la sala, ves tres pilares, cada uno de los cuales sostiene una especie de hemisferio en su pináculo. \n\n Coloca 3 Fichas de Búsqueda en los lugares señalados.
+EventAdd3PillarsMosaic.text,Hay dos puertas que conducen a lados opuestos del templo. La puerta de la derecha parece estar pudriéndose debido a la humedad. \n\n Coloca 2 Fichas de Exploración en los lugares señalados.
 EventAdd3PillarsMosaic.button1,Continuar
-EventAdd2ExploreTokensMosaic.text,Hay dos puertas que conducen a lados opuestos del templo. La puerta de la derecha parece estar pudriéndose debido a la humedad. \n\n Coloca 2 Fichas de Exploración en los lugares señalados.
+EventAdd2ExploreTokensMosaic.text,Una puerta al lado del esqueleto conduce al otro lado del templo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
 EventAdd2ExploreTokensMosaic.button1,Continuar
-EventAddExploreTokenMosaicLeft.text,Una puerta al lado del esqueleto conduce al otro lado del templo. \n\n Coloca una Ficha de Exploración en el lugar señalado.
+EventAddExploreTokenMosaicLeft.text,Continuar
 EventAddExploreTokenMosaicLeft.button1,Continuar
-SpawnBasilisk.button1,Continuar
-SpawnTempleGuardian.button1,Continuar
-TokenExplorePoolToMosaic.text,La puerta está cubierta de moho debido a la exposición prolongada a un ambiente húmedo. También hay una gran protuberancia en el medio de la puerta, lo que sugiere que algo grande podría haberla golpeado desde el otro lado.
-SpawnTempleGuardian.text,En la parte de atrás de la habitación ves otra estatua como la de la entrada al templo. Suspiras aliviado porque está lo suficientemente lejos de ti, pero luego notas que hay algo diferente en esta. No está hecha de piedra. Respirando profundamente y siseando con ira, la criatura se desliza hacia ti con toda su furia. \n\n Aparece un Guardián del Templo en el lugar señalado.
-SpawnBasilisk.text,Mientras contemplas la habitación, no te percatas de que el olor de tu sudor te ha delatado. A través de un gran agujero en el techo, una enorme serpiente cae hacia abajo y se desliza por el suelo de mosaico. Su lengua bífida golpea repetidamente entre sus enormes colmillos mientras avanza hacia ti. \n\n Aparece un Basilisco Antediluviano en el lugar señalado.
-TokenExplorePoolToMosaic.button1,{action} Explorar
-TokenSearchMosaic.text,Un esqueleto yace desplomado en una esquina de la habitación. Sólo quedan algunos harapos de lo que algún día llevó puesto.
-TokenSearchMosaic.button1,{action} Buscar
-EventSkeleton.text,Al acercarte a los restos del esqueleto, una aparición se revela ante ti, hablando en un tono siniestro que resuena por el suelo de mosaico. \n\n —<i>Mi espíritu ha sido condenado a permanecer en esta cámara maldita. Vine aquí con avaricia, buscando las piedras preciosas que ves bajo tus pies, y el templo me castigó en consecuencia. El tesoro que buscaba tan egoístamente está ahora conmigo en todo momento, pero en esta forma espectral no me sirve de nada. He aprendido la lección y ahora existo para castigar a otros tan codiciosos como yo. \n ¿Mereces sufrir como yo he sufrido?</i> \n\n Sufres 1 de Horror boca abajo (anulado por {will}). A continuación, pon boca arriba 1 de Horror. \n\n Intentas convencer al espíritu de tus buenas intenciones {influence}.
-EventSkeleton.button1,Continuar
-SpawnSkeletonFail.button1,Continuar
-SpawnSkeletonFail.text,Tu persuasión no consigue ganarse la confianza del espectro. La aparición se desvanece en su forma esquelética, reanimándose y poniéndose de pie. \n\n —<i>Tú también mereces mi destino. ¡Entrégate a este templo y únete a mí en esta tumba maldita!</i>. \n\n Aparece un Esqueleto en el lugar señalado. A continuación, descarta esta Ficha de Búsqueda.
-EventSkeletonMedium.text,El espíritu parece concederte el beneficio de la duda. \n\n —<i>Quizá no seas sólo otro típico aventurero hambriento de tesoros. Muy bien. Sólo debes saber que reabrir la entrada al templo requiere resolver 4 pruebas. Encontrarás 3 en el altar detrás de esta puerta, y una en la habitación frente a nosotros. Si las completas todas, podrás escapar</i>. \n\n Con estas últimas palabras, el espíritu se desvanece. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+SpawnBasilisk.button1,La puerta está cubierta de moho debido a la exposición prolongada a un ambiente húmedo. También hay una gran protuberancia en el medio de la puerta, lo que sugiere que algo grande podría haberla golpeado desde el otro lado.
+SpawnTempleGuardian.button1,En la parte de atrás de la habitación ves otra estatua como la de la entrada al templo. Suspiras aliviado porque está lo suficientemente lejos de ti, pero luego notas que hay algo diferente en esta. No está hecha de piedra. Respirando profundamente y siseando con ira, la criatura se desliza hacia ti con toda su furia. \n\n Aparece un Guardián del Templo en el lugar señalado.
+TokenExplorePoolToMosaic.text,Mientras contemplas la habitación, no te percatas de que el olor de tu sudor te ha delatado. A través de un gran agujero en el techo, una enorme serpiente cae hacia abajo y se desliza por el suelo de mosaico. Su lengua bífida golpea repetidamente entre sus enormes colmillos mientras avanza hacia ti. \n\n Aparece un Basilisco Antediluviano en el lugar señalado.
+SpawnTempleGuardian.text,{action} Explorar
+SpawnBasilisk.text,Un esqueleto yace desplomado en una esquina de la habitación. Sólo quedan algunos harapos de lo que algún día llevó puesto.
+TokenExplorePoolToMosaic.button1,{action} Buscar
+TokenSearchMosaic.text,Al acercarte a los restos del esqueleto, una aparición se revela ante ti, hablando en un tono siniestro que resuena por el suelo de mosaico. \n\n —<i>Mi espíritu ha sido condenado a permanecer en esta cámara maldita. Vine aquí con avaricia, buscando las piedras preciosas que ves bajo tus pies, y el templo me castigó en consecuencia. El tesoro que buscaba tan egoístamente está ahora conmigo en todo momento, pero en esta forma espectral no me sirve de nada. He aprendido la lección y ahora existo para castigar a otros tan codiciosos como yo. \n ¿Mereces sufrir como yo he sufrido?</i> \n\n Sufres 1 de Horror boca abajo (anulado por {will}). A continuación, pon boca arriba 1 de Horror. \n\n Intentas convencer al espíritu de tus buenas intenciones {influence}.
+TokenSearchMosaic.button1,Continuar
+EventSkeleton.text,Continuar
+EventSkeleton.button1,Tu persuasión no consigue ganarse la confianza del espectro. La aparición se desvanece en su forma esquelética, reanimándose y poniéndose de pie. \n\n —<i>Tú también mereces mi destino. ¡Entrégate a este templo y únete a mí en esta tumba maldita!</i>. \n\n Aparece un Esqueleto en el lugar señalado. A continuación, descarta esta Ficha de Búsqueda.
+SpawnSkeletonFail.button1,El espíritu parece concederte el beneficio de la duda. \n\n —<i>Quizá no seas sólo otro típico aventurero hambriento de tesoros. Muy bien. Sólo debes saber que reabrir la entrada al templo requiere resolver 4 pruebas. Encontrarás 3 en el altar detrás de esta puerta, y una en la habitación frente a nosotros. Si las completas todas, podrás escapar</i>. \n\n Con estas últimas palabras, el espíritu se desvanece. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta Ficha de Búsqueda.
+SpawnSkeletonFail.text,Continuar
+EventSkeletonMedium.text,Tus palabras resultan convincentes. El espectro parece aceptar el motivo de tu expedición y expresa su deseo de ayudar. \n\n —<i>Debes resolver las cuatro pruebas. Tres en el altar que se encuentra en la sala que hay detrás de esta puerta. A continuación, podrás resolver la cuarta</i> —dice indicando la puerta en el lado opuesto de la habitación—. <i>Solo así podrás escapar de esta tumba maldita. Que Dios se apiade de tu alma</i>. \n\n A medida que el espíritu se desvanece, algo aparece en la mano huesuda del esqueleto. \n\n Ganas 3 Pistas {clue} y el Objeto Común Vendas. \n\n A continuación, descarta esta Ficha de Búsqueda.
 EventSkeletonMedium.button1,Continuar
-EventSkeletonSuccess.text,Tus palabras resultan convincentes. El espectro parece aceptar el motivo de tu expedición y expresa su deseo de ayudar. \n\n —<i>Debes resolver las cuatro pruebas. Tres en el altar que se encuentra en la sala que hay detrás de esta puerta. A continuación, podrás resolver la cuarta</i> —dice indicando la puerta en el lado opuesto de la habitación—. <i>Solo así podrás escapar de esta tumba maldita. Que Dios se apiade de tu alma</i>. \n\n A medida que el espíritu se desvanece, algo aparece en la mano huesuda del esqueleto. \n\n Ganas 3 Pistas {clue} y el Objeto Común Vendas. \n\n A continuación, descarta esta Ficha de Búsqueda.
-EventSkeletonSuccess.button1,Continuar
+EventSkeletonSuccess.text,Un hemisferio de piedra se asienta sobre un pequeño pilar. Parece funcionar como un botón.
+EventSkeletonSuccess.button1,{action} Pulsar
 TokenSearchMosaicSwitch3.text,Un hemisferio de piedra se asienta sobre un pequeño pilar. Parece funcionar como un botón.
 TokenSearchMosaicSwitch3.button1,{action} Pulsar
 TokenSearchMosaicSwitch2.text,Un hemisferio de piedra se asienta sobre un pequeño pilar. Parece funcionar como un botón.
 TokenSearchMosaicSwitch2.button1,{action} Pulsar
-TokenSearchMosaicSwitch1.text,Un hemisferio de piedra se asienta sobre un pequeño pilar. Parece funcionar como un botón.
-TokenSearchMosaicSwitch1.button1,{action} Pulsar
+TokenSearchMosaicSwitch1.text,Al presionar el hemisferio, oyes un ligero clic. \n\n Descarta esta Ficha de Búsqueda.
+TokenSearchMosaicSwitch1.button1,Continuar
 EventRemoveMosaicButton1.text,Al presionar el hemisferio, oyes un ligero clic. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveMosaicButton1.button1,Continuar
 EventRemoveMosaicButton2.text,Al presionar el hemisferio, oyes un ligero clic. \n\n Descarta esta Ficha de Búsqueda.
 EventRemoveMosaicButton2.button1,Continuar
-EventRemoveMosaicButton3.text,Al presionar el hemisferio, oyes un ligero clic. \n\n Descarta esta Ficha de Búsqueda.
+EventRemoveMosaicButton3.text,Al pulsar, sientes de repente los pinchazos de docenas de agujas clavándose en las palmas de tus manos. Rápidamente las apartas consternado y observas como el veneno gotea de tus heridas. \n\n Adquieres el estado Envenenado.
 EventRemoveMosaicButton3.button1,Continuar
-EventMosaicButtonPoison.text,Al pulsar, sientes de repente los pinchazos de docenas de agujas clavándose en las palmas de tus manos. Rápidamente las apartas consternado y observas como el veneno gotea de tus heridas. \n\n Adquieres el estado Envenenado.
+EventMosaicButtonPoison.text,Tan pronto como escuchas el clic, oyes que algo se mueve sobre ti. Un tronco, suspendido por una soga, desciende hacia ti a gran velocidad ({agility}; 2) \n\n Si fallas, sufres 2 de Daño. A continuación, pon boca arriba 1 de Daño, cancela cualquier acción restante y adquieres el estado Aturdido al comienzo de tu próximo turno.
 EventMosaicButtonPoison.button1,Continuar
-EventMosaicButtonLog.text,Tan pronto como escuchas el clic, oyes que algo se mueve sobre ti. Un tronco, suspendido por una soga, desciende hacia ti a gran velocidad ({agility}; 2) \n\n Si fallas, sufres 2 de Daño. A continuación, pon boca arriba 1 de Daño, cancela cualquier acción restante y adquieres el estado Aturdido al comienzo de tu próximo turno.
+EventMosaicButtonLog.text,Cuando pulsas, escuchas un extraño sonido por todo el templo. Ha aparecido un pomo de diamante en la puerta ornamentada.
 EventMosaicButtonLog.button1,Continuar
-EventMosaicButtonSuccess.text,Cuando pulsas, escuchas un extraño sonido por todo el templo. Ha aparecido un pomo de diamante en la puerta ornamentada.
+EventMosaicButtonSuccess.text,Continuar
 EventMosaicButtonSuccess.button1,Continuar
-UIContinueEnding.uitext,Continuar
-UIContinueEnding.button1,Continuar
-UIBadEndingText.uitext,Con los cuerpos de los miembros de tu expedición \n derrumbándose en el suelo, el templo parece gruñir \n mientras se fortalece con los cadáveres frescos. \n El suelo de piedra se abre bajo tus pies \n y caes en un profundo foso. \n De repente, varios chorros de arena brotan \n de las paredes empezando a llenar la sala. \n El templo tiene la intención de enterrarte vivo, \n sepultándote para la eternidad. \n\n Luchando por mantenerte por encima del torrente de arena, \n temes lo que será de la reliquia si no logras sobrevivir. \n ¿La encontrará la secta? ¿Para qué la usarán? \n ¿Podrás salir vivo antes de que la arena haya enterrado \n toda esperanza bajo su aplastante peso? \n La desesperación se apodera de ti \n cuando ves que el suelo de piedra vuelve a su posición, \n cubriendo el techo de la cámara una vez más. \n Cuando toda luz desaparece, sabes que el templo salió victorioso.
-UIGoodEndingText.uitext,Mientras corres a través de la jungla por el camino \n que te condujo hasta este templo maldito, \n tu alma se llena de esperanza a medida que pones \n más distancia entre tus pies y sus frías paredes de piedra. \n Regresas al pueblo que te recibió con tanta calidez. \n Nunca antes te habías dado cuenta de lo maravilloso \n que podría ser disfrutar de una vida tan simple \n como la que podrías tener aquí en la costa brasileña. \n\n A pesar de la tranquila vida que podrías disfrutar aquí, \n rechazas aceptar unas vacaciones tan tranquilas y prolongadas. \n Sabes que debes regresar a casa con la reliquia, y temes el tiempo \n que tardarán los brazos del templo en querer recuperar su tesoro. \n\n Finalmente lograste mantener la reliquia lejos de la secta, \n pero aún tienes que aprender la verdadera \n naturaleza de sus poderes. Tus amigos de la Universidad \n de Miskatonic deberían saber qué hacer con el Calendario Estelar, \n así que zarpas hacia Arkham ansioso por obtener respuestas...
+UIContinueEnding.uitext,Con los cuerpos de los miembros de tu expedición \n derrumbándose en el suelo, el templo parece gruñir \n mientras se fortalece con los cadáveres frescos. \n El suelo de piedra se abre bajo tus pies \n y caes en un profundo foso. \n De repente, varios chorros de arena brotan \n de las paredes empezando a llenar la sala. \n El templo tiene la intención de enterrarte vivo, \n sepultándote para la eternidad. \n\n Luchando por mantenerte por encima del torrente de arena, \n temes lo que será de la reliquia si no logras sobrevivir. \n ¿La encontrará la secta? ¿Para qué la usarán? \n ¿Podrás salir vivo antes de que la arena haya enterrado \n toda esperanza bajo su aplastante peso? \n La desesperación se apodera de ti \n cuando ves que el suelo de piedra vuelve a su posición, \n cubriendo el techo de la cámara una vez más. \n Cuando toda luz desaparece, sabes que el templo salió victorioso.
+UIContinueEnding.button1,Mientras corres a través de la jungla por el camino \n que te condujo hasta este templo maldito, \n tu alma se llena de esperanza a medida que pones \n más distancia entre tus pies y sus frías paredes de piedra. \n Regresas al pueblo que te recibió con tanta calidez. \n Nunca antes te habías dado cuenta de lo maravilloso \n que podría ser disfrutar de una vida tan simple \n como la que podrías tener aquí en la costa brasileña. \n\n A pesar de la tranquila vida que podrías disfrutar aquí, \n rechazas aceptar unas vacaciones tan tranquilas y prolongadas. \n Sabes que debes regresar a casa con la reliquia, y temes el tiempo \n que tardarán los brazos del templo en querer recuperar su tesoro. \n\n Finalmente lograste mantener la reliquia lejos de la secta, \n pero aún tienes que aprender la verdadera \n naturaleza de sus poderes. Tus amigos de la Universidad \n de Miskatonic deberían saber qué hacer con el Calendario Sideral, \n así que zarpas hacia Arkham ansioso por obtener respuestas...
+UIBadEndingText.uitext,Continuar
+UIGoodEndingText.uitext,Por más que lo intentas, con la criatura chillando detrás de ti, no puedes concentrarte en la complicada cerradura.
 EventRandomDeepOne.button1,Continuar
-EventMonsterPreventsDoorPuzzle.text,Por más que lo intentas, con la criatura chillando detrás de ti, no puedes concentrarte en la complicada cerradura.
-EventMonsterPreventsDoorPuzzle.button1,Continuar
-quest.authors_short,Strategywizard
-EventVinesReach.text,Las enredaderas brotan repentinamente del suelo, agarrando todo a su alcance. {rnd:hero} sufre 1 de Daño boca abajo y 1 de Horror (anulados por {agility}). Si sufres al menos 1 de Daño, adquieres el estado Retenido. \n\n A continuación, coloca una Ficha de Maleza en el espacio de este investigador.
+EventMonsterPreventsDoorPuzzle.text,Strategywizard
+EventMonsterPreventsDoorPuzzle.button1,Las enredaderas brotan repentinamente del suelo, agarrando todo a su alcance. {rnd:hero} sufre 1 de Daño boca abajo y 1 de Horror (anulados por {agility}). Si sufres al menos 1 de Daño, adquieres el estado Retenido. \n\n A continuación, coloca una Ficha de Maleza en el espacio de este investigador.
+quest.authors_short,Continuar
+EventVinesReach.text,De repente, la habitación en la que se encuentra {rnd:hero} comienza a llenarse con un gas mortal y las puertas se cierran. Todos los investigadores en esta sala tratan de aguantar la respiración esperando a que el humo tóxico desaparezca ({will}; 2). A medida que los vapores se disipan, las puertas se abren. \n\n Si tienes éxito, superar esta prueba aumenta tu valor. Adquieres el estado Intrépido. \n\n Si fallas, adquieres el estado Envenenado.
 EventVinesReach.button1,Continuar
-EventPoisonFillsRoom.text,De repente, la habitación en la que se encuentra {rnd:hero} comienza a llenarse con un gas mortal y las puertas se cierran. Todos los investigadores en esta sala tratan de aguantar la respiración esperando a que el humo tóxico desaparezca ({will}; 2). A medida que los vapores se disipan, las puertas se abren. \n\n Si tienes éxito, superar esta prueba aumenta tu valor. Adquieres el estado Intrépido. \n\n Si fallas, adquieres el estado Envenenado.
-EventPoisonFillsRoom.button1,Continuar
-EventFloorOpensUp.button1,Continuar
-EventFloorOpensUp.text,{rnd:hero} nota como el suelo tiembla. Intentas saltar mientras el suelo se resquebraja bajo tus pies, revelando un oscuro abismo que parece no tener fin {observation}+{agility}.
-EventRemoveRifts.text,Con el templo abierto, todas las brechas se cierran abruptamente. Descarta todas las Fichas de Grieta del tablero.
+EventPoisonFillsRoom.text,Continuar
+EventPoisonFillsRoom.button1,{rnd:hero} nota como el suelo tiembla. Intentas saltar mientras el suelo se resquebraja bajo tus pies, revelando un oscuro abismo que parece no tener fin {observation}+{agility}.
+EventFloorOpensUp.button1,Con el templo abierto, todas las brechas se cierran abruptamente. Descarta todas las Fichas de Grieta del tablero.
+EventFloorOpensUp.text,Continuar
+EventRemoveRifts.text,No te das cuenta a tiempo y te precipitas hacia la densa oscuridad. Despiertas en un lugar completamente desconocido. Sufres 1 de Horror boca abajo y adquieres el estado Perdido en el tiempo y el espacio.
 EventRemoveRifts.button1,Continuar
-EventJumpFail.text,No te das cuenta a tiempo y te precipitas hacia la densa oscuridad. Despiertas en un lugar completamente desconocido. Sufres 1 de Horror boca abajo y adquieres el estado Perdido en el tiempo y el espacio.
+EventJumpFail.text,Evitas caer al abismo por muy poco. Colgando del borde del foso, luchas por salir de las fauces abiertas del templo. Sufres 1 de Daño boca abajo y adquieres el estado Retenido.
 EventJumpFail.button1,Continuar
-EventJumpRestrained.text,Evitas caer al abismo por muy poco. Colgando del borde del foso, luchas por salir de las fauces abiertas del templo. Sufres 1 de Daño boca abajo y adquieres el estado Retenido.
+EventJumpRestrained.text,Saltas hábilmente fuera de peligro ante los primeros signos temblorosos de la piedra y logras evitar la trampa. Muévete 1 espacio.
 EventJumpRestrained.button1,Continuar
-EventJumpPass.text,Saltas hábilmente fuera de peligro ante los primeros signos temblorosos de la piedra y logras evitar la trampa. Muévete 1 espacio.
+EventJumpPass.text,Continuar
 EventJumpPass.button1,Continuar
-EventPoisonDarts.button1,Continuar
+EventPoisonDarts.button1,Unos dardos vuelan desde la pared cuando {rnd:hero}, sin saberlo, pisa una placa de presión de piedra. Sufres 2 de Daño boca abajo (anulados por {observation} -1). Si sufres 1 o más de Daño, adquieres el estado Envenenado.
 EventStarCalendarMythos.button1,Continuar
-EventPoisonDarts.text,Unos dardos vuelan desde la pared cuando {rnd:hero}, sin saberlo, pisa una placa de presión de piedra. Sufres 2 de Daño boca abajo (anulados por {observation} -1). Si sufres 1 o más de Daño, adquieres el estado Envenenado.
-EventGreedy.button1,Continuar
-EventStarCalendarMythos.text,El investigador que posea el Calendario Estelar queda abrumado por su energía arcana. Sufres 1 de Daño boca abajo y 1 de Horror boca abajo. Si dejas caer la reliquia en tu espacio, puedes anular el Daño o el Horror.
-EventGreedy.text,Una incontenible codicia se apodera de {rnd:hero}. Muévete 2 espacios hacia el investigador más cercano que posea, al menos, un objeto o un hechizo. Sufres 2 de Horror (anulados por {will}). Por cada Horror que sufras, roba un objeto o hechizo de un investigador en tu espacio.
+EventPoisonDarts.text,El investigador que posea el Calendario Sideral queda abrumado por su energía arcana. Sufres 1 de Daño boca abajo y 1 de Horror boca abajo. Si dejas caer la reliquia en tu espacio, puedes anular el Daño o el Horror.
+EventGreedy.button1,Una incontenible codicia se apodera de {rnd:hero}. Muévete 2 espacios hacia el investigador más cercano que posea, al menos, un objeto o un hechizo. Sufres 2 de Horror (anulados por {will}). Por cada Horror que sufras, roba un objeto o hechizo de un investigador en tu espacio.
+EventStarCalendarMythos.text,Es difícil ver el interior de estas vasijas sin una buena iluminación.\n\nDescarta esta ficha de Búsqueda.
+EventGreedy.text,
+EventRemoveSearchTokenJarsRight.text,
