@@ -1,0 +1,272 @@
+.,Spanish
+quest.name,Herbert West, reanimador - Segunda parte
+quest.description,Seis disparos a la luz de la luna. \n\n El Dr. Herbert West os pidió ayuda debido a un problema con sus experimentos, pero ahora ha desaparecido. Después de escuchar una explosión y acompañados por el ayudante del Dr. West, ponéis rumbo a la nueva casa del doctor en busca de pistas sobre su paradero. Sin embargo, lo que está a punto de suceder es algo inaudito... \n\n Encontrad el laboratorio y las anotaciones del Dr. West, e intentad salvarlo para que podáis destruir de una vez por todas lo que quede del nefasto experimento. \n\n De 2 a 5 investigadores. \n
+EventT0_PlaceSTARTTile.button1,Continuar
+TokenView2_SideHallCorner.button1,Revelar
+EventT0_PlaceInter1.text,Dejáis el coche aparcado en la calle lateral. \n\n Coloca una ficha de Interacción en el lugar señalado. Esta ficha representa el coche.
+EventT0_PlaceInter1.button1,Continuar
+TokenT0_Inter1.text,El coche está aparcado con las llaves puestas en el contacto, preparado para una eventual huida que esperas que no sea necesaria.
+TokenT0_Inter1.button1,{action} Abrir la guantera
+TokenT0_Inter1.button2,{action} Abrir el maletero
+EventT0_Inter1_carIn.button1,Button1
+EventT0_Inter1carIn_Item2.text,No encuentras nada útil en la guantera de tu coche.
+EventT0_Inter1carIn_Item2.button1,Continuar
+EventT0_Inter1carIn_Item1.text,Abres la guantera y sacas algo que te hará falta. \n\n Ganas el Objeto común {c:QItem_glove1}.
+EventT0_Inter1carIn_Item1.button1,Continuar
+EventT0_Inter1carIn_Item0.text,Recuerdas haber guardado algo para emergencias como ésta. \n\n Ganas el Objeto común {c:QItem_glove0}.
+EventT0_Inter1carIn_Item0.button1,Continuar
+EventT0_Inter1_carBack.button1,Button1
+EventT0_Inter1carBack_Item1.text,Al abrir el maletero, encuentras justo lo que estabas buscando... \n\n Ganas el Objeto común {c:QItem_Back1}. \n\n Con un gesto de satisfacción, cierras el maletero.
+EventT0_Inter1carBack_Item1.button1,Continuar
+EventT0_Inter1carBack_Item0.text,El maletero está vacío. Es increíble cómo las prisas hacen que la gente olvide lo básico...
+EventT0_Inter1carBack_Item0.button1,Continuar
+EventT0_PlaceSearch1.text,Una hoja de papel en llamas cae desde las alturas... \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventT0_PlaceSearch1.button1,Continuar
+TokenT0_Search1.text,Un pedazo de papel chamuscado que ha caído desde el tejado de la casa.
+TokenT0_Search1.button1,{action} Coger
+EventT0_PlaceExpl1.text,En el lado derecho de la calle ves la entrada de la casa recientemente alquilada por el Dr. Herbert West. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventT0_PlaceExpl1.button1,Continuar
+TokenT0_Expl1.text,La puerta de entrada a la casa del Dr. West.
+TokenT0_Expl1.button1,{action} Entrar en la casa
+EventT0_RemoveExpl1.text,Intentas abrir la puerta de madera, pero parece estar atrancada. Seguramente estará bloqueada por dentro. Cargas tu peso contra la puerta ({strength}; 1). Si superas la tirada, la puerta se abre con un golpe. Si fallas la tirada, la puerta se abre, pero a costa de una contusión en el hombro; sufres 1 de Daño boca abajo. \n\n Descarta esta ficha de Exploración.
+EventT0_RemoveExpl1.button1,Continuar
+EventT0_ChooseT1.button1,Button1
+EventT0_PlaceT1_1.text,Con la puerta de entrada abierta, te adentras en la casa del Dr. West y observas que la decoración es extremadamente modesta. \n\n Coloca el módulo {c:TileSideHallCorner1}.
+EventT0_PlaceT1_1.button1,Continuar
+EventPlaceExpl1_SideHallCorner.button1,Continuar
+EventPlaceExpl2View1_SideHallCorner.text,El pasillo de la izquierda lleva a otra puerta y gira en dirección al resto de la casa. \n\n Coloca una ficha de Exploración y otra de Vistazo en los lugares señalados.
+EventPlaceExpl2View1_SideHallCorner.button1,Continuar
+EventMoveInto_SideHallCorner.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventT1_randomSmoke.button1,Continuar
+EventT1_randomDeepOne.text,En medio de la humareda que comienza a extenderse por el cuarto, alguien corre en tu dirección y choca contra una mesa, tirándola. \n\n Aparece un Profundo en el lugar señalado. La criatura sufre 1 de Daño por haberse lastimado las patas con los trozos del jarrón de cerámica que había sobre la mesa que derribó.
+EventMoveInto_SideHallCorner.button1,Continuar
+EventMonsterStumble_SideHallCorner.button1,Continuar
+EventT1_randomDeepOne.button1,Continuar
+EventT0_PlaceT1_0.text,Han dejado abierta la puerta que tienes frente a ti. Entras en la casa del Dr. West y la decoración es extremadamente simple. \n\n Coloca el módulo {c:TileSideBathroom}.
+EventT0_PlaceT1_0.button1,Continuar
+EventPlaceView_Bathroom.button1,Continuar
+EventPlaceExpl_Bathroom.text,A la izquierda sólo hay una puerta cerrada. \n\n Coloca una ficha de Exploración en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventPlaceExpl_Bathroom.button1,Continuar
+EventT0_PlaceAssistant.button1,Continuar
+EventT0_PlaceInvestigators.text,Coloca a los Investigadores en el lugar señalado.
+TokenAssistente.button1,{action} —<i>¿A qué está esperando?</i>
+EventT0_PlaceAssistant.text,El médico ayudante se dirige hacia la puerta de entrada. \n\n Coloca la ficha de Personaje Hombre azul en el lugar señalado.
+TokenAssistente.text,El médico ayudante se queda parado frente a la puerta. Parece vacilar.
+EventT0_PlaceInvestigators.button1,Continuar
+EventTalkAssistant1.text,El médico ayudante murmura con voz temblorosa: \n\n —<i>¿A qué punto hemos llegado? ¡Que Dios tenga piedad de mi alma por todas las cosas pecaminosas en las que ayudé al Dr. West...!</i>
+EventTalkAssistant1.button1,Continuar
+TokenAssistant1.text,El semblante del médico ayudante refleja preocupación y angustia.
+TokenAssistant1.button1,Continuar
+EventT0_RemoveAssistant.text,Decides tomar la iniciativa y entrar en la casa cuando de repente se oye otra explosión. El médico ayudante te mira asustado: \n\n —<i>Vaya usted por delante</i> —te dice—, <i>a ver si consigue encontrar al Dr. West, o por lo menos sus notas. Debe de estar en el laboratorio que está en el sótano. Mientras tanto, yo voy a dar una vuelta para ver si hay otra forma de entrar. Llévese este revólver con usted...</i> \n\n Sin esperar siquiera una respuesta, se da media vuelta y desaparece. \n\n Ganas el Objeto común {c:QItemRevolver} y descarta la ficha de Personaje Hombre azul. \n\n <b>Coloca 6 fichas de Fuego sobre la carta del revólver. Cada vez que ataques usando este arma, descarta una ficha de Fuego. Al descartar la última ficha, descarta también el Objeto común {c:QItemRevolver}.</b>
+EventT0_RemoveAssistant.button1,Continuar
+EventPlaceView_Bathroom.text,\n Al frente, un pasillo conduce al resto de la casa. A la derecha hay un viejo sillón de cuero rojo desgastado. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventRemoveExplBathroom.button1,Continuar
+EventPlaceMonsterBathroom.text,En su interior, una criatura te mira fijamente con unos ojos vacíos y borrosos. Se acerca a ti. \n\n Aparece un Profundo en el lugar señalado.
+EventRemoveExplBathroom.text,Al abrir la puerta te fijas en la bañera. \n\n Descarta esta ficha de Exploración.
+EventPlaceMonsterBathroom.button1,Continuar
+EventPlaceSearch_Bathroom.text,En un rincón del cuarto de baño hay un lavabo. A su lado, un armario donde quizá se guarde algo útil. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch_Bathroom.button1,Continuar
+TokenSearchBathroom.text,Un armario con cajones.
+TokenSearchBathroom.button1,{action} Buscar
+EventRemoveSearch_Bathroom.text,El armario está casi vacío, a excepción de una pequeña caja. \n\n Ganas el Objeto común {c:QItem0}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch_Bathroom.button1,Continuar
+EventPlaceSearch2_Bathroom.text,La bañera está cubierta con su cortina, que ha sido arrancada de cuajo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch2_Bathroom.button1,Continuar
+EventRemoveSearch2_Bathroom.text,Al quitar la cortina, te topas con el cadáver grotesco de una figura inhumana. Su forma es humanoide, pero sus rasgos son de pez o de algún tipo de animal acuático. La criatura no parece que haya sido reanimada porque está seca y rígida. Y si lo fue, no sobrevivió mucho tiempo. Sufres 1 de Horror (anulado por {will}). \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch2_Bathroom.button1,Continuar
+EventMonsterStumble_SideHallCorner.text,Son chapoteos, cada vez más próximos. Alguien viene en tu dirección y tropieza contigo al salir corriendo hacia la entrada de la casa ({strength}; 2) \n\n Si superas la tirada, consigues mantenerte en pie y te das cuenta de que lo que te ha empujado no era humano; ganas 1 Pista {clue}. \n\n Si fallas la tirada, caes al suelo incapaz de ver qué te ha derribado; sufres 1 de Daño. \n\n Descarta esta ficha de Vistazo.
+EventRemoveView_Bathroom.text,Oyes un ruido e inmediatamente te quedas quieto.
+EventRemoveView_Bathroom.button1,Continuar
+EventPlaceExpl1_SideHallCorner.text,Frente a la puerta de entrada hay otra puerta y, a la derecha, una ventana que da a la calle. \n\n Coloca una ficha de Exploración, una de Pared y otra de Vistazo en los lugares señalados.
+EventNoStumble_SideHallCorner.text,Reina el más completo silencio. Debe de haber sido una tabla suelta que crujió al pisarla. \n\n Adquieres el estado <i>Concentrado</i>. A continuación, descarta esta ficha de Vistazo.
+EventNoStumble_SideHallCorner.button1,Continuar
+EventPlaceDownstairs.text,El pasillo termina en una escalera que desciende. \n\n Coloca el módulo {c:TileDownstairs} y una ficha de Puerta en el lugar señalado.
+EventPlaceDownstairs.button1,Continuar
+EventT0_PlaceSTARTTile.text,Llegáis a una casa cuya puerta de entrada da a un sucio callejón mal iluminado. Desde aquí se ve perfectamente la humareda provocada por la explosión, saliendo por el tejado. \n\n —<i>¡Pare! ¡Es aquí!</i> —dice el ayudante—. Éste es el lugar al que se mudó hace poco el Doctor. \n\n Coloca el módulo {c:TileStart} en el lugar señalado.
+TokenView1_SideHallCorner.text,Un Investigador en este espacio puede revelar una zona adyacente.
+EventPlaceDownstairs2.text,El pasillo termina en unas escaleras que descienden. \n\n Coloca el módulo {c:TileDownstairs2} en el lugar señalado. A continuación, descarta esta ficha de Vistazo.
+EventPlaceDownstairs2.button1,Continuar
+TokenView2_SideHallCorner.text,Un Investigador en este espacio puede revelar una zona adyacente.
+TokenView1_SideHallCorner.button1,Continuar
+EventRemoveView1_SideHallCorner.text,Por la ventana ves tu coche aparcado. Durante un instante te ha parecido distinguir una figura sombría que te observaba desde el fondo de la calle. Fuerzas la vista pero allí no hay nada. \n\n Coloca el módulo {c:TileRuaLateral} y descarta esta ficha de Vistazo.
+EventRemoveView1_SideHallCorner.button1,Continuar
+EventPlaceBarricade_Bathroom.text,Una mesa auxiliar de madera barata que puede ser usada como una obstrucción en caso de necesidad.
+EventPlaceBarricade_Bathroom.button1,Continuar
+TokenExpl2_SideHallCorner.text,Una puerta de madera barata.
+TokenExpl2_SideHallCorner.button1,{action} Abrir la puerta
+TokenExpl_DownstairsHall.button1,Continuar
+EventPlaceExpl_DownstairsBathroom_UNLOCKED.text,La puerta lleva al sótano y está cerrada, pero uno de los Investigadores tiene la llave que la abre.
+EventPlaceExpl_DownstairsBathroom_UNLOCKED.button1,Continuar
+EventMoveInto_Kitchen.button1,Continuar
+EventMoveInto_Kitchen.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+TokenExpl1_SideHallCorner.text,Una puerta sin nada destacable, hecha de madera.
+TokenExpl1_SideHallCorner.button1,{action} Abrir la puerta
+EventPlaceStudy.text,Entras en un pequeño despacho. Por la disposición de la silla y de la lámpara de la mesa te da la sensación de que esta estancia se ha usado hace poco. \n\n Coloca el módulo {c:TileStudy} en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+EventPlaceStudy.button1,Continuar
+EventPlaceSearch1_Study.button1,Continuar
+EventPlaceSearch2_Study.text,La chimenea todavía tiene brasas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_Study.text,Varios papeles, cartas y algunos objetos más están esparcidos sobre la mesa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch2_Study.button1,Continuar
+EventPlaceExpl1_Study.text,Una puerta a tu derecha lleva a otro aposento. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceExpl1_Study.button1,Continuar
+TokenExpl1_Study.text,Una puerta de madera que conduce al interior de la casa.
+TokenExpl1_Study.button1,{action} Abrir la puerta
+EventRemoveExpl1_Study.text,El cuarto es muy espartano, como el resto de la casa. Hay pocos muebles y todos son muy sencillos. Está claro que el Dr. West sólo piensa en su trabajo. \n\n Coloca el módulo {c:TileBedroom} y una ficha de Pared en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+EventRemoveExpl1_Study.button1,Continuar
+EventMoveInto_Study.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMoveInto_Study.button1,Continuar
+EventPlaceCat_Study.text,Descubres un bulto oscuro que se mueve sobre una estantería ({observation}; 2). Si superas la tirada, suspiras aliviado al ver que sólo es un gato. \n\n Si fallas la tirada, la ansiedad causada por tus intentos de identificar qué se ha movido hace que se te dispare el corazón; dejas caer un Objeto aleatorio. \n\n Coloca la ficha de Personaje Gato en el lugar señalado.
+TokenCat_Study.text,<color=grey>PRRRRRRRR</color> \n\n El gato negro está lleno de barro. Lleva un collar rojo con un colgante en forma de llave. Puedes intentar coger la llave con mucho cuidado.
+TokenCat_Study.button1,{action} Intentar coger la llave
+EventPlaceCat_Study.button1,Button1
+EventGetKeyFromCat.button1,¡Éxito!
+EventGetKeyFromCat.button2,Fallo...
+Spawn1.text,<color=red>AAAAAAAAAAAAAH \n AAAAAAAAAAAAAH</color> \n\n La criatura gime desesperada mientras intenta agarrarte la pierna. \n\n Aparece un Hijo de Dagón en el lugar señalado.
+EventCatStudy_PASSED.text,Cuando pones tus manos sobre el collar, el gato gira la cabeza y se te queda mirando. En ese momento te das cuenta de que lo que cubre su pelo no es barro sino sangre seca. Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Rápidamente le quitas el collar y coges la llave. Ganas el Objeto único {c:QItemSilverKey}. \n\n El gato se aleja caminando tranquilamente y sale por la puerta. \n\n Descarta la ficha de Personaje Gato.
+EventCatStudy_PASSED.button1,Continuar
+EventCat_FAIL.text,Al acercarte, el gato se gira y te mira. La cara del animal está carcomida por gusanos y tiene el pelaje manchado de sangre. Sufres 1 de Horror. \n\n La criatura bufa y da un salto. Intentas agarrarlo por el collar ({agility}; 2). \n\n Si superas la tirada, consigues quitarle el collar antes de que el gato huya. \n\n Si fallas la tirada, consigues por poco coger el collar, pero el gato, asustado, te araña el brazo antes de huir por la puerta; sufres 1 de Daño boca abajo. \n\n Ganas el Objeto único {c:QItemSilverKey}. A continuación, descarta la ficha de Personaje Gato.
+EventCat_FAIL.button1,Continuar
+TokenSearch1_Bedroom.text,Un cuerpo ensangrentado tumbado de espaldas.
+TokenSearch1_Bedroom.button1,{action} Buscar
+EventRemoveSearch1_Bedroom.text,Al girar el cuerpo descubres que no es el Dr. West, pero la visión es horrenda: sus ojos vidriosos son blanquecinos y están separados más de lo normal y su boca es alargada... Las manos de la criatura poseen unas membranas interdigitales. Sufres 2 de Horror (anulados por {lore}). \n\n Encuentras que el cuerpo tiene 4 impactos de bala en el pecho. Alguien luchó para huir con vida de esta habitación. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch1_Bedroom.button1,Continuar
+EventPlaceSearch1_Bedroom.text,En el suelo, al lado de una cama con las sábanas ensangrentadas, yace un cuerpo... ¿Será el Dr. West? \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_Bedroom.button1,Continuar
+EventPlaceCat_Bedroom.text,Te das un buen susto al ver la figura furtiva de un gato negro sobre una mesa al lado de la puerta. \n\n Coloca la ficha de Personaje Gato en el lugar señalado.
+EventPlaceCat_Bedroom.button1,Continuar
+TokenCat_Bedroom.text,<color=grey>PRRRRRRRR</color> \n\n El gato negro está lleno de barro. Lleva un collar rojo con un colgante en forma de llave. Puedes intentar coger la llave con mucho cuidado.
+TokenCat_Bedroom.button1,{action} Intentar coger la llave
+EventGetKeyFromCat.text,Caminas con cuidado en dirección al gato, intentando parecer amistoso. El minino no se mueve, simplemente te mira desconfiado. \n\n Acercas tu mano al collar. Además de la llave colgando, hay una chapa grabada con el nombre del gato: «Edgar». Intentas coger la llave ({influence}; 3).
+Spawn1.button1,Continuar
+EventRemoveExpl2_SideHallCorner.text,Entras en el comedor. La mesa está servida. \n\n Coloca el módulo {c:TileKitchen} en el lugar señalado. A continuación, descarta la ficha de Exploración.
+EventRemoveExpl2_SideHallCorner.button1,Continuar
+TokenSearch1_Kitchen.text,Hay una botella cerrada sobre la encimera.
+TokenSearch1_Kitchen.button1,{action} Coger
+EventRemoveSearch1_Kitchen.text,Miras la etiqueta y te quedas sorprendido por la calidad del whisky. Para ser alguien que lleva una vida tan sencilla, el Dr. West tiene un gusto muy caro y refinado con las bebidas. \n\n Ganas el Objeto común {c:QItemWhiskey}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch1_Kitchen.button1,Continuar
+TokenSearch2_Kitchen.button1,{action} Investigar
+TokenSearch3_Kitchen.text,Una nevera de lo más corriente.
+TokenSearch2_Kitchen.text,Otro vaso lleno y un plato con comida.
+TokenSearch3_Kitchen.button1,{action} Examinar la nevera
+TokenSearch4_Kitchen.text,Un armario con cajones para los utensilios de cocina. Quizá pueda haber algo de valor en su interior.
+TokenSearch4_Kitchen.button1,{action} Buscar
+EventRemoveSearch2_Kitchen.text,Te resulta extraño que la comida esté intacta. Al otro lado de la mesa hay un plato casi vacío. Empiezas a tener dudas de que el Dr. West estuviese solo. Al parecer su acompañante no quiso, o no pudo, probar la comida y la bebida. \n\n Ganas el Objeto único {c:QItemEvdCirc}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch2_Kitchen.button1,Continuar
+EventRemoveSearch4_Kitchen.text,Abres cajón por cajón en busca de algo más cortante que la simple cubertería, hasta que por fin lo encuentras. \n\n Ganas el Objeto común {c:QItemCutelo}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch4_Kitchen.button1,Continuar
+EventRemoveSearch3_Kitchen.text,Abres la nevera y, para tu espanto, en su interior hay una cabeza humana decapitada, aunque en buen estado de conservación. \n\n Sufres 1 de Horror. \n\n En un lateral de la puerta descubres una pequeña caja con una etiqueta: \n\n<b><i><color=red>¡NO MEZCLAR CON \n EL SUERO DE REANIMACIÓN!</color></i></b> \n\n Dentro de la caja, una jeringa con un líquido rojo. Decides llevarte la jeringa, quizá sea una pista. \n\n Ganas el Hechizo {c:QItemSecagem}. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch3_Kitchen.button1,Continuar
+EventPlaceInter_Kitchen.text,Cuando empiezas a cerrar la puerta de la nevera, los ojos de la cabeza se abren y se giran hacia ti. Con una voz ronca y susurrante, la cabeza intenta gritar: \n\n <color=lime><i>¡Eh, usted! Lléveme con mi cuerpo. Noto que está cerca. Tiene una caja allí, encima de la mesa. Colóqueme en ella y sáqueme de esta situación tan humillante.</i></color> \n\n Sufres 2 de Horror (anulados por {will}) y ganas el Objeto único {c:QItem_EvdIncr}. \n\n ¡Esta cabeza parlante es la prueba de que el Dr. Herbert West realmente tuvo éxito a la hora de reanimar cadáveres, manteniendo además sus facultades mentales! Miras la mesa que tienes detrás y, efectivamente, hay una caja. Se te debió pasar por alto antes. Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceInter_Kitchen.button1,Continuar
+TokenInter_Kitchen.button1,{action} Cumplir el deseo de la cabeza
+EventRemoveInter_Kitchen.text,Atiendes a la petición de la cabeza y la colocas en la caja. \n\n —<i><color=lime><i>Aaaah... Mucho mejor así. ¡Gracias! Ahora busquemos mi cuerpo...</i></color> \n\n La situación te parece tan absurda que te dan ganas de echarte a reír. Cierras la caja y te llevas la cabeza contigo. \n\n Pon boca abajo 1 de Horror o descarta 1 de Horror boca abajo.
+TokenInter_Kitchen.text,En la mesa auxiliar hay una caja forrada con terciopelo. Tiene un cierre y un asa de maleta para facilitar su transporte. La cabeza de la nevera quiere que la coloques ahí dentro y que la lleves en busca de su cuerpo perdido.
+EventRemoveInter_Kitchen.button1,Continuar
+EventPlaceSearch1_Kitchen.text,A la izquierda está la encimera con una ventana para pasar los platos entre la cocina y el comedor. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_Kitchen.button1,Continuar
+EventPlaceSearch2_Kitchen.text,Sobre la mesa hay un un plato con comida dejada a medias y otro que no han tocado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch2_Kitchen.button1,Continuar
+EventPlaceSearch3_Kitchen.button1,Continuar
+EventPlaceSearch4_Kitchen.text,En este lado de la cocina hay un armario para la vajilla y otro para los cubiertos y utensilios de cocina. Unos barriles sirven de soporte para unas velas y varios objetos más. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch3_Kitchen.text,Pasando la entrada de la cocina hay una nevera. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch4_Kitchen.button1,Continuar
+EventPlaceCat_Kitchen.text,Te das un buen susto al ver la figura furtiva de un gato negro sentado sobre un barril. \n\n Coloca la ficha de Personaje Gato en el lugar señalado.
+EventPlaceCat_Kitchen.button1,Continuar
+TokenCat_Kitchen.text,<color=grey>PRRRRRRRR</color> \n\n El gato negro está lleno de barro. Lleva un collar rojo con un colgante en forma de llave. Puedes intentar coger la llave con mucho cuidado.
+TokenCat_Kitchen.button1,{action} Intentar coger la llave
+EventDownstairsDoor_LOCKED.text,La puerta está cerrada con llave. Tienes que encontrar la llave para abrirla.
+EventDownstairsDoor_LOCKED.button1,Continuar
+EventDownstairsDoor_UNLOCKED.text,La puerta está cerrada con llave. El Investigador que tenga la <b><color=silver>Llave de plata</color></b> puede abrirla.
+EventDownstairsDoor_UNLOCKED.button1,{action} Desbloquear la puerta
+EventDownstairsDoor_UNLOCKED.button2,No tengo la llave.
+EventRemoveDownstairs_Expl.text,Finalmente encuentras el laboratorio del Dr. West. \n\n Coloca el módulo {c:TileLab}. A continuación, descarta la ficha de Exploración.
+EventRemoveDownstairs_Expl.button1,Continuar
+EventPlaceSearch1_Lab.text,El improvisado laboratorio está compuesto por un gran banco de trabajo y dos mesas repletas de instrumental químico. \n\n En el banco de trabajo te llaman la atención unos frascos apartados a un lado y una libreta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceSearch1_Lab.button1,Continuar
+TokenSearch1_Lab.text,Hay una receta de un tónico vigorizante con los componentes ya medidos y separados. En la receta está escrito que basta con mezclarlos para agudizar los sentidos de quien se lo tome.
+TokenSearch1_Lab.button1,{action} Preparar la receta
+EventRemoveSearch1_Lab.text,En un arrebato de curiosidad y desesperación te arriesgas y preparas la receta. Después de todo, ¿qué podría haber de malo en seguir al pie de la letra las observaciones de un científico profesional? ({lore}: 3).
+EventRemoveSearch1_Lab.button1,¡Éxito!
+EventRemoveSearch1_Lab.button2,Fallo...
+EventRemoveSearch1_Lab_PASS.text,Mezclas los coloridos líquidos en las cantidades indicadas por la receta y el resultado es un líquido incoloro e insípido. Atenazado por el miedo creciente causado por los acontecimientos, te bebes de un trago el preparado. ¡Es amargo! \n\n Al principio te sientes un poco mareado pero luego un cosquilleo comienza a recorrer tu cuerpo. Te das cuenta de algo en ti ha «cambiado». \n\n <color=lime>Escoge <b>una</b> de tus habilidades. Ganas 1 dado extra para las tiradas de la habilidad elegida hasta el final del escenario.</color> \n\n Descarta esta ficha de Búsqueda.
+EventRemoveSearch1_Lab_PASS.button1,Continuar
+EventRemoveSearch1_Lab_FAIL.text,A pesar de haber mezclado las cantidades exactas de la receta, el resultado es un líquido oscuro y de aspecto extraño. No te animas a probarlo... \n\n De repente, el líquido resultante de tu experimento entra en efervescencia y provoca una pequeña explosión, tirándote al suelo. \n\n Sufres 1 de Daño. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch1_Lab_FAIL.button1,Continuar
+EventPlaceExpl1_Lab.text,La puerta lleva a otra sala anexa al laboratorio. Oyes ruidos al otro lado, como si algo se moviese. ¿Estará ahí dentro el Dr. West? \n\n Coloca una ficha de exploración en el lugar señalado.
+EventPlaceExpl1_Lab.button1,Continuar
+EventPlaceFire_Lab.text,Un extraño olor te asalta al entrar en el lugar. Hay una gran mancha en el suelo  producida por un fuego y una pequeña llama trepa por un rollo de cable. Tus ojos instintivamente miran al techo. Hay un agujero donde debería estar el techo. Este sitio es el origen de las explosiones. Por suerte, buena parte de los productos almacenados no se ha visto afectada y el humo ya se ha dispersado. \n\n Ganas 1 Pista {clue}. A continuación, coloca una ficha de Fuego en el lugar señalado.
+EventPlaceFire_Lab.button1,Continuar
+EventMoveInto_Lab.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMoveInto_Lab.button1,Continuar
+TokenExpl1_Lab.text,Una puerta que lleva a la sala contigua al laboratorio. Oyes un golpe sordo al otro lado y un grito ahogado.
+TokenExpl1_Lab.button1,{action} Abrir la puerta
+TokenBlueMan_Lab.text,—<i>Herbert... se lo han llevado... Salgamos de aquí, se lo contaré todo cuando estemos a salvo...</i> —el médico está herido y necesita ayuda para poder moverse. \n\n <b><color=yellow>~~~ ATENCIÓN ~~~ \n\n Cualquier Investigador en el mismo espacio que el médico ayudante puede gastar una Acción {action} para ayudarle a moverse y sacarlo de la casa... \n\n El nuevo objetivo de esta investigación es sacarlo de aquí y ponerlo a salvo metiéndolo en el coche. Con cada acción gastada por un Investigador, el médico se moverá 2 espacios.</color></b>
+TokenBlueMan_Lab.button1,{action} Ayudarle a moverse
+EventRemoveExpl1_Lab.text,Abres la puerta de la sala anexa y te topas con el médico ayudante del Dr. Herbert West encogido debajo de la mesa de operaciones. Grita aterrorizado, mirando al fondo de la sala: \n\n —<i>¡Aléjate de mí, maldita criatura!</i> \n\n Te giras para ver qué hay en la dirección en la que mira el ayudante y en ese momento entiendes por qué está tan asustado... \n\n Coloca la ficha de Personaje Hombre azul en el lugar señalado. \n Aparece un Híbrido de profundo.
+EventRemoveExpl1_Lab.button1,Continuar
+Spawn2.text,<color=green>Usted... pagaaaráaaa...</color>
+Spawn2.button1,Continuar
+TokenMovedBlue1.text,—<i>Vamos, deprisa... </i>
+TokenMovedBlue1.button1,{action} Ayudarle a moverse
+EventMoveBlue1.text,Apoyas el brazo del médico en tus hombros y le ayudas a moverse. \n\n Mueve la ficha de Personaje Hombre azul al lugar señalado.
+EventMoveBlue1.button1,Continuar
+EventMoveBlue2.text,Apoyas el brazo del médico en tus hombros y le ayudas a moverse. \n\n Mueve la ficha de Personaje Hombre azul al lugar señalado.
+EventMoveBlue2.button1,Continuar
+TokenMovedBlue2.text,—<i>Rápido, no hay tiempo que perder... </i>
+TokenMovedBlue2.button1,{action} Ayudarle a moverse
+EventMoveBlue3.button1,Continuar
+EventMoveBlue4.text,Apoyas el brazo del médico en tus hombros y le ayudas a moverse. \n\n Mueve la ficha de Personaje Hombre azul al lugar señalado.
+TokenMovedBlue3.text,—<i>¡Ya casi hemos llegado!</i>
+TokenMovedBlue3.button1,{action} Ayudarle a moverse
+EventMoveBlue3.text,Apoyas el brazo del médico en tus hombros y le ayudas a moverse. \n\n Mueve la ficha de Personaje Hombre azul al lugar señalado.
+EventMoveBlue4.button1,Continuar
+EventFinal_Head.text,Llegáis al coche. El médico ayudante está paralizado por el miedo. \n\n —<i>¿Y ahora qué pasa?</i> —le preguntas. \n\n —<i>¡HA VUELTO! ¡ÉL HA VUELTO!</i> —grita el médico presa de la desesperación, señalando algo que está a vuestra espalda y sale corriendo hacia el interior del coche. \n\n Os giráis y, una vez más, encontráis un cadáver reanimado. Pero esta vez es una criatura enorme, de aspecto grotesco y con un físico muy atlético que os recuerda al de un boxeador. \n\n Descarta la ficha de Personaje Hombre azul. Aparece un Híbrido de profundo en el lugar señalado. Éste es el «Boxeador reanimado». \n\n <b>Mueve a todos los Investigadores a un espacio de exterior adyacente al Boxeador reanimado. </b>
+EventFinal_Head.button1,Continuar
+SpawnReanimatedBoxer.button1,Continuar
+EventDefeatReanimatedMonster.text,La criatura cae de espaldas al suelo. Finalmente puede descansar en paz. \n\n Tú, por contra, no tienes ni tiempo para respirar aliviado...
+CustomMonsterReanimatedBoxer.info,-
+SpawnReanimatedBoxer.text,<color=brown>Demeeee... laaaaa cabezaaaa...</color>
+CustomMonsterReanimatedBoxer.monstername,Boxeador Reanimado
+EventDefeatReanimatedMonster.button1,Continuar
+EventFimCabeca.text,Durante la pelea dejaste caer la caja que contenía la cabeza, cayendo al otro lado de la puerta de entrada. \n\n <color=green>—<i>¡Lacayos, acudid a mí!</i></color> —demanda la cabeza. \n\n De repente, una horda de reanimados aparece doblando la esquina y cogen la caja del suelo. Las criaturas están como hipnotizadas. Con la cabeza en sus manos, la horda entra en la casa del Dr. West.
+EventFimCabeca.button1,Continuar
+EventWin.text,Entras en el coche, y comienzas a preguntarle atropelladamente al médico ayudante acerca de lo que está pasando.
+EventWin.button1,Continuar
+EventFimSemCabeca.text,Sientes una punzada en el estómago por no haberte traído contigo la cabeza para obtener más información. ¿Para qué la querrán esas criaturas?
+EventFimSemCabeca.button1,Continuar
+EventFimSemAcharCabeca.text,—<i>¿Qué demonios estaba murmurando la cabeza de la criatura?</i> —te preguntas avivado por la curiosidad.
+EventFimSemAcharCabeca.button1,Continuar
+UIButton_End.uitext,Continuar...
+UIText_End.uitext,El médico ayudante comienza a hablar de forma sin parar. Consiguió encontrar la entrada a la parte baja de la casa y llegar al laboratorio. En el quirófano, un desaliñado Herbert West estaba inmerso en una acalorada discusión con un hombre de rostro extrañamente pálido e hierático, como si fuese de cera. \n\n El Dr. West le pidió a su ayudante que se marchase enseguida, que era mejor así. El hombre con el rostro de cera agarró al Dr. West por los hombros y lo empujó a la fuerza al interior de la sala adyacente al quirófano. La discusión continuó allí hasta que se oyó el ruido de una estructura cediendo, unos gritos agonizantes y después un silencio sepulcral. \n\n —<i>Cuando la puerta de la sala se abrió, vi un agujero en la pared, como si fuese un túnel. De él salió la criatura de la que huía cuando me encontró. Tenemos que volver allí para descubrir dónde termina ese túnel, rescatar al Dr. West y mandar a esos cadáveres reanimados al lugar que les corresponde</i>. \n\n Le preguntas de dónde están saliendo tantos cadáveres; si el Dr. West no cesó con sus experimentos después de tantos problemas; si acaso hay otra persona viva con el conocimiento suficiente para la reanimación... pero no responde a ninguna de tus demandas. Lo único que puedes hacer es seguir investigando... \n\n <i>¡La investigación ha sido un éxito!</i>
+UIButton_End.button1,Button1
+EventDefeatedInvestigator.button1,Continuar
+EventEliminatedText.button1,Continuar
+EventDefeatedInvestigator.text,Fue demasiado para ti... Tu visión se vuelve turbia y, de repente, la oscuridad total te envuelve. Al menos no sientes dolor... \n\n La investigación ha fracasado.
+UIButton_Start.uitext,Comenzar...
+UIButton_Start.button1,Button1
+UIText_Start.uitext,La madrugada pasada recibisteis una llamada de un hombre que se presentó como el Dr. Herbert West. El motivo de la llamada era una petición de ayuda: su experimento había salido mal y os necesitaba en la mansión Chapman. Al llegar a la finca no encontrastéis al Dr. West pero sí a su ayudante, que afirmó haber recibido la misma llamada y estar buscando al médico. \n\n Durante la investigación en la mansión descubristéis que el Dr. West había realizado experimentos de reanimación de cadáveres y que las muestras restantes debían ser destruidas por medio de la incineración. También encontrastéis una carta del Dr. West para su ayudante que estaba inacabada. \n\n Tras quemar todos los cuerpos os reunísteis con el médico ayudante y durante la conversación oísteis una explosión procedente de Arkham. Temiendo lo peor, el ayudante os convenció para investigar el lugar de la explosión: una casa recién alquilada por el Dr. West para dar continuidad a su macabro experimento. Os dirijís de vuelta a Arkham en busca del Dr. West... ¡y de respuestas! \n <b>Cada investigador recibe 2 Pistas {clue}</b>.
+EventRemove_T0_Search1.text,En la parte del papel que todavía es legible hay un fragmento de una fórmula química con el encabezado «Suero reanimador». \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventRemove_T0_Search1.button1,Continuar
+TokenSearch2_Study.button1,{action} Buscar
+TokenSearch2_Study.text,Unos pedazos de papel que no terminaron de arder en las brasas de la chimenea.
+EventRemove_Search2_Study.text,Coges los pedazos de papel e intentas ordenarlos con la esperanza de poder leer su contenido {observation}.
+EventRemove_Search2_Study.button1,Continuar
+Puzzle0.button1,Probar
+EventPuzzleSolved.text,Al ordenar la mayor parte de los pedazos que no fueron destruidos por el fuego, consigues reconstruir una carta completa. El contenido es corto y directo. \n\n «<b>Querido Herbert, \n\n Ya estoy de vuelta... y voy a por ti. \n\n Tu amigo, \n\n Eric.</b>» \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventPuzzleSolved.button1,Continuar
+TokenSearch1_Study.text,Varios sobres y un diario descansan sobre esta mesa.
+TokenSearch1_Study.button1,{action} Buscar
+EventRemoveSearch1_Study.text,En medio de unos sobres abiertos con el remitente «Mayor Sir Eric Moreland Clapham-Lee» encuentras el diario de Herbert West. Todas las hojas han sido arrancadas, menos una. En ella, una pequeña nota escrita con letra temblorosa dice así: \n\n«<i>Jamás lo tenía que haber reanimado. ¡Jamás! \n Por si no bastase con eso, aún sufro el desasosiego de estos últimos quince años, una impresión constante de estar siendo seguido por aquella criatura...</i>». \n\n Ganas 1 Pista {clue} y adquieres el estado <i>Concentrado</i>. A continuación, descarta esta ficha de Búsqueda.
+EventRemoveSearch1_Study.button1,Continuar
+EventT1_randomSmoke.text,El humo de la explosión comienza a extenderse por este lugar. En medio de la humareda, alguien que corre en dirección a la salida te empuja ({strength}; 2). Si superas la tirada, consigues mantenerte en pie y te das cuenta de que lo que te empujó no era humano; ganas 1 Pista {clue}. Si fallas la tirada, recibes un empujón, pierdes el equilibrio y caes sobre la mesa que tienes a tu izquierda; sufres 1 de Daño, a continuación mueve a tu Investigador hasta el espacio que contiene la mesa caída.
+quest.synopsys,Seis disparos a la luz de la luna. Acompaña al ayudante del Dr. West en esta búsqueda que podría costaros la vida.
+quest.authors,\n Autor: André Grégio (eVader) \n\n Traducción al español: Vidimus \n Revisión: Mauch8 \n\n Ilustración del final: Javier García Ureña (CC-SA)
+quest.authors_short,André Grégio (eVader)
+EventT0_Inter1CarBack_Item2.text,Al abrir el maletero encuentras exactamente lo que estabas buscando... \n\n Ganas el Objeto común {c:QItem_Back2}. \n\n Satisfecho, cierras el maletero.
+EventT0_Inter1CarBack_Item2.button1,Continuar
+TokenT0_Inter1a.text,El coche está aparcado con las llaves puestas en el contacto, preparado para una eventual huida que esperas que no sea necesaria.
+TokenT0_Inter1a.button1,{action} Abrir la guantera
+EventPlaceExpl_DownstairsHall.text,La escalera baja hasta una puerta de madera maciza pintada de blanco. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceExpl_DownstairsHall.button1,Continuar
+EventPlaceBarricade.text,El mueble que has empujado para abrir la puerta puede servir para bloquear una entrada. \n\n Coloca una ficha de Obstrucción en el lugar señalado.
+EventPlaceBarricade.button1,Continuar
