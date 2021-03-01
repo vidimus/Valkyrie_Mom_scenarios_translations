@@ -1,0 +1,594 @@
+.,Spanish
+quest.name,Aquél que no debe ser nombrado
+quest.description,Este escenario está inspirado en la campaña «El Camino de Carcosa» del juego de cartas «Arkham Horror LCG». \n\n Jugadores: de 2 a 4. \n\n Este escenario contiene Fases de Mitos personalizadas, montones de rompecabezas y un final desafiante. No está hecho para resultar un paseo y puede llegar a ser un reto importante. \n\n No se usan <i>Pruebas</i> en este escenario, por lo que se deben descartar las cartas de <i>Locura</i> en las que sean necesarias las cartas de <i>Pruebas</i>. Bastará con sacar una nueva carta de <i>Locura</i> en esos casos.
+quest.synopsys,¿Una nueva función en la ciudad? ¿Accidentes sospechosos y desapariciones? «El Rey de Amarillo»
+quest.authors,\n\n <i>Autor:</i> \n Strategywizard \n\n <i>Traducción al español:</i>\n Vidimus y Mauch8 \n\n
+quest.authors_short,Strategywizard
+EventStartAndClueTokens.text,Cada Investigador comienza el escenario con <b><color=green>0 {clue} Pistas </color></b> \n\n <i><b>Nota: </b></i> en este escenario <color=verde><b> {clue} las fichas de Pista</b></color> tienen más usos que únicamente modificar los resultados de los dados. Quizá os interese ahorrar algunas pistas para usarlas más adelante. \n\n Busca en el mazo de <color=blue><b>Horror</b></color> las siguientes cartas: \n Paranoia \n Nictofobia \n Nervios destrozados \n Aprehensión \n\n Deja aparte estas cartas: se usarán más tarde.
+EventStartAndClueTokens.button1,Continuar
+UIIntroText.uitext,<B><i><color=amarillo> El Rey de Amarillo </color></i></b>.\n\n Todo el mundo habla de ello. La obsesión \n por esta representación se extiende por toda la ciudad, \n casi como si hubiese sido un pilar cultural de la historia de Arkham \n durante décadas. \n\n Sólo algunas selectas ciudades en Europa \n han presentado la obra desde su creación. \n No podéis evitar preguntaros por qué Arkham sería \n la primera ciudad estadounidense en presenciar esta \n innovación teatral. \n\n Tras el estreno en el teatro local, surgen informes de noticias \n detallando horribles «accidentes» y desapariciones \n relacionados sorprendentemente en un alto porcentaje con los que \n vieron la ahora infame obra. \n\n Este es el tipo de locura para la que tu equipo fue creado, \n por lo que planeáis asistir al próximo pase \n para ver qué podéis descubrir. \n Sin lugar a dudas, estos extraños sucesos \n serán algo más que meras coincidencias. \n
+UIContinueIntro.button1,Continuar
+UIContinueIntro.uitext,Continuar
+EventEnterDiner.text,El siguiente pase de la obra tendrá lugar en unas horas y tenéis las entradas preparadas. Al salir de la oficina por la noche algo parece estar mal. Esperabais el aire frío, pero la neblina ominosa y las calles anormalmente silenciosas os inquietan. La luz de la luna apenas consigue penetrar la densa niebla. Decidís visitar el restaurante de Velma para matar el tiempo y recordar que no sois las únicas almas que quedan en Arkham. \n\n Os sentís aliviados al ver que el local de Velma está como siempre. Pintoresco, luminoso y lleno de deliciosos aromas que os han hecho regresar más veces de las que podéis recordar. \n\n Colocad el módulo <color=cyan>{c:TileCafe}</color> como se indica y colocad a los <b> Investigadores </b> como deseéis dentro del restaurante.
+EventEnterDiner.button1,Continuar
+EventDinerPersonTokens.text,Observáis a un vagabundo comportándose de manera errática fuera del restaurante. Puede que sea inofensivo, pero no podéis estar seguros. \n\n Algunos clientes parecen estar discutiendo sobre <color=amarillo><b> <i>El Rey de Amarillo </i></b> </color> en voz baja. Una pareja comienza a recoger su mesa, parecen tener prisa por irse. Es posible que podáis hacerles un par de preguntas antes de que se vayan. \n\n Coloca <b> 3 fichas de Personaje </b> como se señala.
+EventDinerPersonTokens.button1,Continuar
+EventAddInteractTokenDiner.text,Puedes irte del restaurante cuando estés listo. \n\n Coloca una <color=azul><b>ficha de Interacción</b></color> en el lugar señalado.
+EventAddInteractTokenDiner.button1,Continuar
+TokenInteractDiner.text,Cuando estéis listos para salir del restaurante de Velma, elegid dónde pasar el tiempo que os queda antes de que comience la representación. \n\n Podéis encontrar algunas pistas valiosas si socializáis en el vestíbulo. \n\n El mercadillo debería tener algunos artículos valiosos a la venta que podrían ayudaros en la investigación.
+TokenInteractDiner.button1,Mercadillo
+TokenPersonVagrant.text,El hombre de mediana edad está prácticamente histérico, moviéndose y braceando como si viese algo en la bruma. No se percata de tu acercamiento.
+TokenPersonVagrant.button1,{action} Saludarlo
+TokenPersonVagrant.button2,{action} Darle un golpecito en el hombro
+EventGreetVagrant.text,Te acercas al hombre con cautela y le ofreces un cálido saludo. Con un sorprendente y medido grado de control, gira lentamente su cuello hacia ti sin mover el resto del cuerpo. Contemplas con estupor cómo su cuello se tuerce en un ángulo imposible y en ese momento oyes un sonoro crujido y el cuerpo del hombre se desploma sin vida. Examinas el cuerpo y rápidamente determinas que tiene el cuello roto. Para tu mayor horror, sus labios comienzan a moverse y pronuncia las siguientes palabras: \n\n —<i>«Aquél que no debe ser nombrado» está aquí... </i>\n\n Su cuerpo se desintegra ante tus ojos convirtiéndose en polvo que es barrido por un viento frío. \n\n Todos los Investigadores en el mismo espacio o en uno adyacente sufren <color=blue><b>2 de Horror</b></color> (anulados por {will}-1) y ganan <color=green><b>2 Pistas {clue} </b></color>. Descarta la <b>ficha de Personaje</b> como se indica.
+EventGreetVagrant.button1,Continuar
+EventTapVagrantsShoulder.text,Alcanzas su hombro y le das un suave toque. Instintivamente, el vagabundo arremete contra ti con un enorme cuchillo. Reaccionando tan rápido como te es posible, tratas de evitar la afilada hoja. \n\n Sufres <color=red><b>4 de Daño</b></color> (anulados por {observation}+{agility}).
+EventTapVagrantsShoulder.button1,Continuar
+EventVagrantApologizes.text,Abrumado al saber que te podía haber matado, el hombre se disculpa profusamente. \n\n —<i>El Innombrable... ¡No consigo quitármelo de la cabeza!</i> \n\n En un acto de desesperación, el hombre arroja el cuchillo al suelo y huye envuelto por la bruma. \n\n Descarta la <b>ficha de Personaje</b>, ganas <color=green><b>2 Pistas {clue}</b></color> y el Objeto común <b>{c:QItemVagrantsKnife}</b>.
+EventVagrantApologizes.button1,Continuar
+TokenPersonGabriel.text,El caballero está fumando un cigarrillo y, a juzgar por lo pálido de su rostro, da la impresión de pretender que la nicotina se lleve con ella alguna clase de preocupación o de pensamientos abrumadores.
+TokenPersonGabriel.button1,{action} —<i>¿Qué le preocupa tanto?</i>
+TokenPersonMaryAnn.text,La señora, que lleva un elegante vestido para salir de viaje, parece especialmente nerviosa por algún motivo. Tendrá que ver con su discusión sobre la infame representación que pretendes ver esta noche.
+TokenPersonMaryAnn.button1,{action} —<i>¿Puedo ayudarles a limpiar su mesa?</i>
+TokenPersonMaryAnn.button2,{action} —<i>¿Qué le parece <color=yellow><b><i>El Rey de Amarillo</i></b></color>?
+TokenPersonMaryAnn.button3,{action} —<i>¿Quién es «Aquél que no debe ser nombrado»?</i>
+EventAskToHelpCleanTable.text,Le explicas que habías notado su ansiedad por marcharse, y que te habías sentido obligado a ayudarles, ya que no hay ningún asunto que requiera tu atención en este momento. La señora te lo agradece amablemente y acepta tu ayuda. Exhibe una sonrisa y colabora contigo para despejar la mesa. \n\n —<i>Es agradable ver gente de bien a estas horas. Esta noche parece maldita con esta bruma y la próxima función de esa... obra</i> —susurra. \n\n Quizá tengas algo de tiempo para hacerle alguna pregunta más. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> y adquieres el estado <b>Concentrado</b>.
+EventAskToHelpCleanTable.button1,Continuar
+EventAskMaryAboutPlayFail.text,La señora comienza a llorar. \n\n —<i>Lo siento, pero no puedo hablar del tema. El dolor sufrido es aún muy reciente... </i>\n\n Ganas <color=green><b>1 Pista {clue}</b></color> 
+EventAskMaryAboutPlay.button1,Continuar
+EventAskAboutUnspeakableOne.button1,Continuar
+TokenPersonGabriel.button2,{action} —<i>¿Qué le parece <color=yellow><b><i>El Rey de Amarillo</i></b></color>?
+TokenPersonGabriel.button3,{action} —<i>¿Quién es «Aquél que no debe ser nombrado»?</i>
+EventAskAboutUnspeakableOne.text,La pareja se mira mutuamente, reflejando puro pavor en sus rostros. \n\n—<i>¡¿Cómo sabe eso?!</i> —exclama la mujer. \n\n El hombre trata de calmar a su esposa: \n\n—<i><color=yellow><b><i>El Rey de Amarillo</i></b></color> resultó perturbadora de muchas maneras, pero nada comparable con la pronunciación de aquel nombre. Era a la vez iluminación y tormento. Y las alucinaciones... No eran unas simples pesadillas vívidas. Pero no volveremos a pronunciar ese nombre, e incluso trataremos de no volver a pensar siquiera en él. Eso es todo lo que podemos decirle</i>. \n\n Ganas <color=green><b>4 Pistas {clue}</b></color> y sufres <color=blue><b>1 de Horror boca abajo</b></color> (anulado por {will}).
+TokenInteractDiner.button2,Vestíbulo del teatro
+EventCoupleLeaves.text,Habiendo terminado con tus preguntas, la pareja te desea una buena noche y se marchan con paso firme del restaurante, sujetándose ambos del brazo como si su vida dependiera de ello. \n\n Descarta las <b>fichas de Personaje</b> del lugar señalado.
+EventCoupleLeaves.button1,Continuar
+EventAskGabrielWhyNervous.text,Dando caladas al cigarrillo mientras escucha tu petición, recupera su compostura. \n\n —<i>Bueno, los sucesos recientes alrededor de esa obra infame nos han causado muchos quebraderos de cabeza. Es más, esta noche parece la calma que precede a la tempestad, o lo que es lo mismo, la noche antes de la representación de <color=yellow><b>El Rey de Amarillo</b></color></i> —sujeta firmemente su cigarrillo y se ríe nerviosamente—. <i>Llevo tiempo queriendo dejar este vicio, y maldito sea si dejo que esta obra de teatro me haga volver a refugiarme en el tabaco... no me importa lo inquietante que haya podido ser. Aquí tiene, tome esto con toda mi gratitud. No voy a necesitarla más. Voy a darle una última calada a éste...</i> —dice suspirando. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> y el Objeto común <b>{c:QItemCigaretteCase}</b>.
+EventAskGabrielWhyNervous.button1,Continuar
+EventAskGabrielAboutPlay.text,—<i>Vimos la representación maldita la noche del estreno</i> —murmura—. <i>Nunca me perdonaré el no haber sacado de allí a mi mujer antes del segundo acto. Apenas nos fue posible superar el trauma psicológico causado. ¿Pero quién se lo iba a imaginar después de un primer acto tan anodino? Hizo que nos quedásemos como adormecidos y autocomplacientes...</i> \n\n Ganas <color=green><b>1 Pista {clue}</b></color> 
+EventAskGabrielAboutPlay.button1,Continuar
+EventAskMaryAboutPlaySuccess.button1,Continuar
+EventAskMaryAboutPlayFail.button1,Continuar
+EventAskMaryAboutPlaySuccess.text,—<i>Asistimos a la primera representación</i> —dice estremecida, con apenas un hilo de voz—. <i>Estoy segura de que ha oído lo de los accidentes y desapariciones que están asolando a sus espectadores. Algunos amigos nuestros con los que fuimos a ver la obra han desaparecido y, para ser sincera, se puede decir que mi mente ha pagado también alguna clase de peaje por ver la representación. Un extraño signo amarillo se mostró en un <b>cartel</b> durante el segundo acto, y simplemente el mirarlo tuvo en mí una influencia de lo más perturbadora...</i>\n\n Ganas <color=green><b>2 Pistas {clue}</b></color> 
+EventAskMaryAboutPlay.text,La señora parece incómoda por la pregunta. Intentas tranquilizarla acerca de tus motivos y le aseguras que cualquier ayuda que te preste te será de utilidad {influence}.
+EventEnterFleaMarket.text,Dejas el restaurante de Velma y compruebas decepcionado que la bruma se ha hecho más densa. Dando zancadas, te diriges lo más rápidamente posible en dirección al mercadillo del sur de la ciudad antes de que cierre por la noche. Quizá puedas encontrar algo útil en lo que gastar los <color=lime><b>$10</b></color> que tenéis antes de que comience la representación. \n\n Coloca el módulo <color=cyan>{c:TileMarket}</color>, <b>3 fichas de Personaje</b>, y a los <b>Investigadores</b> en el lugar señalado.
+EventEnterFleaMarket.button1,Continuar
+EventEnterLobby.text,Dejas el restaurante de Velma y compruebas decepcionado que la bruma se ha hecho más densa. Con cierta premura, entras en el interior del teatro con algo de tiempo antes de que empiece la obra. A pesar de la opresiva sensación que te embarga, dejas atrás el umbral del teatro y una inesperada calma te inunda gracias a la iluminación y a la grandeza del vestíbulo. \n\n Otros espectadores han llegado también pronto, ansiosos por tener la oportunidad de ver <color=yellow><b><i>El Rey de Amarillo</i></b></color>. Quizá puedas hacerte una idea de lo que sucede interrogando a la gente de bien que charla en esta gran estancia. Deberías tener tiempo para hacer unas pocas preguntas antes de que la función comience. Observas que hay copias del programa de hoy apiladas en una mesa que preside el centro del vestíbulo. \n\n Coloca el módulo <color=cyan>{c:TileLobby}</color>, <b>3 fichas de Personaje</b>, una <color=yellow><b>ficha de Búsqueda</b></color> y a los <b>Investigadores</b> en los lugares señalados.
+EventEnterLobby.button1,Continuar
+TokenRedMan.text,—<i>¿Ha visto algo de su gusto?</i> \n\n El espigado vendedor está detrás de un puesto en buenas condiciones, y detrás de él hay una pequeña librería. En ella están expuestos los libros que todavía tiene disponibles para la venta.
+TokenRedMan.button1,{action} Biblia del rey Jaime - <color=lime><b><i>$2</i></b></color>
+TokenInteractMarket.text,¿Estáis listos para partir hacia el teatro?
+TokenInteractMarket.button1,Sí
+TokenInteractMarket.button2,No
+TokenRedMan.button2,{action} Manual del medicina - <color=lime><b><i>$2</i></b></color>
+TokenRedMan.button3,{action} Manuscrito Arcano - <color=lime><b><i>$3</i></b></color>
+TokenRedMan.button4,{action} Diario de escriba - <color=lime><b><i>$2</i></b></color>
+TokenRedMan.button5,{action} Tomo de los Secretos - <color=lime><b><i>$2</i></b></color>
+EventBuyBible.text,—<i>¡Excelente elección! En una noche como ésta, a todos nos viene bien algo de alivio para el espíritu...</i> \n\n Ganas el Objeto común <b>Biblia del rey Jaime</b>.
+EventBuyBible.button1,Continuar
+EventBuyMedicalTextbook.text,—<i>¿Tiene pensado hacerse médico? Es una lectura densa, pero estoy seguro de que sabrá apañárselas</i>—se ríe. \n\n Ganas el Objeto común <b>Manual de medicina</b>.
+EventBuyMedicalTextbook.button1,Continuar
+EventBuyArcaneManuscript.text,—<i>Ya veo, jugando con lo oculto. Por favor, como comprenderá, no me puedo hacer responsable de cualesquiera que sean las consecuencias que le acarree leer este texto</i>. \n\n Ganas el Objeto común <b>Manuscrito arcano</b>.
+EventBuyArcaneManuscript.button1,Continuar
+TokenRedMan.button6,{action} Tomo de los Horrores - <color=lime><b><i>$2</i></b></color>
+EventBuyScribesJournal.text,—<i>No tengo ni idea de lo que puede encontrar en este diario, pero tengo entendido que fue escrito por alguien muy culto.</i> \n\n Ganas el Objeto común <b>Diario de escriba</b>.
+EventBuyScribesJournal.button1,Continuar
+EventBuyTomeOfSecrets.text,—<i>Espero que usted le saque más partido del que yo le he sacado. En mi caso, más que ilustrarme me ha dejado más confundido. No es la mejor manera de vender algo, ¡pero es la pura verdad!</i> \n\n Ganas el Objeto común <b>Tomo de los secretos</b>.
+EventBuyTomeOfSecrets.button1,Continuar
+EventBuyTomeOfHorrors.text,—<i>Ni siquiera me he atrevido a abrirlo. Vuelva algún día y cuénteme qué le ha parecido después de leerlo, ¿de acuerdo? </i>\n\n Ganas el Objeto común <b>Tomo de los horrores</b>.
+EventBuyTomeOfHorrors.button1,Continuar
+TokenGreenMan.text,—<i>Compre algo, vamos</i> —te dice el hombre alto que porta un sombrero de color oscuro y un largo abrigo desgastado por el tiempo. Hace gestos señalado a sus mercancías, y dando a entender que son supuestas reliquias y objetos sobrenaturales.
+TokenGreenMan.button1,{action} Agua bendita - <color=lime><b><i>$2</i></b></color>
+TokenGreenMan.button2,{action} Colgante con símbolo arcano - <color=lime><b><i>$1</i></b></color>
+TokenGreenMan.button3,{action} Talismán protector - <color=lime><b><i>$2</i></b></color>
+EventBuyHolyWater.text,—<i>Tengo entendido que esta agua ha sido bendecida por un cura o algo así.</i> \n\n Ganas el Objeto común <b>Agua bendita</b>.
+EventBuyHolyWater.button1,Continuar
+EventBuyElderSignPendant.text,—<i>Este colgante parece mágico, ¿no cree?</i> \n\n Ganas el Objeto común <b>Colgante con símbolo arcano</b>.
+EventBuyElderSignPendant.button1,Continuar
+EventBuyElderWard.text,—<i>¿Ve esta piedra de aquí? ¡Al parece brilla a la luz de la luna!</i> \n\n Ganas el Objeto común <b>Talismán protector</b>.
+EventBuyElderWard.button1,Continuar
+TokenBrownMan.text,—<i>¡Todo el mundo necesita una de éstas!</i> \n\n El tendero blande con orgullo una de las herramientas que tiene en venta.
+TokenBrownMan.button1,{action} Palanca - <color=lime><b><i>$2</i></b></color>
+TokenBrownMan.button2,{action} Lámpara de queroseno - <color=lime><b><i>$2</i></b></color>
+TokenBrownMan.button3,{action} Pico - <color=lime><b><i>$3</i></b></color>
+EventBuyCrowBar.text,—<i>¡Imprescindible tener una de éstas!</i> \n\n Ganas el Objeto común <b>Palanca</b>.
+EventBuyCrowBar.button1,Continuar
+EventBuyWrench.text,—<i>¡Una herramienta que no puede faltar en ningún hogar!</i> \n\n Ganas el Objeto común <b>Llave inglesa</b>
+EventBuyWrench.button1,Continuar
+EventBuyPickaxe.text,—<i>Cuando hace falta trabajar duro, nada mejor que la vieja «Bessie»</i>. \n\n Ganas el Objeto común <b>Pico</b>.
+EventBuyPickaxe.button1,Continuar
+TokenYellowMan.text,Un hombre elegantemente vestido admira un busto de piedra en uno de los rincones de la sala, ajeno a las distracciones que produce la multitud que atesta el vestíbulo.
+TokenYellowMan.button1,{action} —<i>¿Está ansioso por ver la función?</i>
+TokenYellowMan.button2,{action} —<i>¿Ha visto algo extraño?</i>
+TokenBrownWoman.text,Una anciana, impecablemente vestida, parece que no está acompañada. Está oliendo una flor que hay en una mesita auxiliar, en la parte superior del vestíbulo. Una sonrisa sincera surca su rostro.
+TokenBrownWoman.button1,{action} —<i>¿Está ansiosa por ver la función?</i>
+TokenBrownWoman.button2,{action} —<i>Le veo muy calmada.</i> 
+TokenPurpleMan.text,Un hombre de aspecto rudo permanece de pie en el rincón más alejado, dando la impresión de no querer socializar en absoluto con el resto de los asistentes.
+TokenPurpleMan.button1,{action} —<i>¿Está ansioso por ver la función?</i>
+TokenPurpleMan.button2,{action} —<i>¿Evitando al resto de invitados?</i>
+EventChildTriesToSteal.text,Justo cuando empezabas a relajarte echando un ojo a los tenderetes que aún siguen abiertos, un chico corpulento pasa a tu lado y trata de robarte el contenido de los bolsillos de tu chaqueta. No parece importarle mucho ser descarado, ya que hace poco por disimular su intento de robo. Elegid a un Investigador para que pase una prueba de {strength}+{agility} para tratar de detenerle.
+EventChildTriesToSteal.button1,Continuar
+EventCatchThiefSuccess.text,Con unos reflejos felinos, agarras al chico por el brazo. Con una sacudida, desaparece entre la bruma, murmurando algo: \n\n —<i>Exigencias del Rey</i>. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> 
+EventCatchThiefSuccess.button1,Continuar
+EventCatchThiefMedium.text,Consigues quitarte de encima al chico justo cuando acababa de meter la mano en el bolsillo de tu amigo. Desaparece envuelto en la bruma llevándose <color=lime><b>$1</b></color>, dejándoos con <color=lime><b>$9</b></color> restantes para gastar.
+EventCatchThiefMedium.button1,Continuar
+EventCatchThiefFail.text,No eres lo suficientemente rápido como para detener al ladrón, y meneas la cabeza mientras eres testigo de su huida entre la sombría bruma. \n\n Como grupo, debéis decidir qué es lo que os ha robado.
+EventCatchThiefFail.button1,<color=lime><b>$3</b></color>
+EventCatchThiefFail.button2,Cualquiera de los objetos del grupo
+TokenSearchLobbyTable.button1,{action} Revisar el programa
+EventAskYellowManAboutPlay.text,Dándose la vuelta con aire despreocupado después de haber estado examinando la escultura de piedra que tenía delante, te dice: \n\n —<i>La curiosidad mató al gato, ¿no lo sabía? Yo mismo debo de ser un felino, dada mi incapacidad para resistirme a semejante producción macabra de teatro. Las historias truculentas que han surgido a raíz de la primera representación en Arkham deberían haber bastado para disuadirme.</i> \n\n Rebuscando en su bolsillo, el hombre saca un pequeño vial lleno de un polvo fino. \n\n —<i>He traído un poco de esto para protegerme, sólo por si acaso. Tenga, debería quedarse un poco por si le hiciese falta. </i>\n\n Ganas <color=green><b>1 Pista {clue}</b></color> y el Objeto común <b>Polvo de atadura</b>.
+EventReadProgram.text,Pasas las hojas con la esperanza de encontrar algo en el libreto que te dé alguna pista {lore}.
+EventReadProgram.button1,Continuar
+EventReadProgramPass.text,Pasando las páginas encuentras una nota con el nombre «Carcosa» escrito en ella. Recordando lo que has leído sobre ese lugar, estás convencido de que se conoce como el hogar de un legendario a la vez que malvado rey. Conoces algunos rumores relativos a su ritual de invocación. Y Carcosa debe de ser el hogar del rey al que hace referencia el título de la obra. \n\n Ganas <color=green><b>2 {clue} Pistas</b></color> y descartas esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventReadProgramPass.button1,Continuar
+EventReadProgramFail.text,Pasas las páginas, pero no encuentras nada que te suene o que sea particularmente esclarecedor. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventReadProgramFail.button1,Continuar
+TokenSearchLobbyTable.text,El programa de la obra está disponible para que cualquiera lo consulte. Quizá puedas discernir algo de utilidad a partir del resumen gracias a tus conocimientos sobre lo oculto.
+EventAskYellowManStrangeEvents.button1,Continuar
+EventAskYellowManAboutPlay.button1,Continuar
+EventAskYellowManStrangeEvents.text,—<i>Curiosamente, además de los informes notificando graves accidentes y desapariciones que han afectado a los espectadores de <color=yellow><b>El Rey de Amarillo</b></color>, también he notado que, simultáneamente, hay un tipo de locura que se está extendiendo por las calles de Arkham, y que consiste en un comportamiento errático y varios tipos de esquizofrenia.</i>
+EventStrangeEventsWithoutVagrant.text,Recuerdas al vagabundo que estaba fuera del restaurante de Velma. Actuaba de un modo particularmente errático, muy parecido a lo que este hombre describe. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> 
+EventStrangeEventsWithoutVagrant.button1,Continuar
+EventStrangeEventsWithVagrant.button1,Continuar
+EventStrangeEventsWithVagrant.text,Esto despierta tu memoria, haciendo que recuerdes con detalle el comportamiento del vagabundo en los alrededores del restaurante de Velma. \n\n —<i>¡Exactamente! «Aquél que no debe ser nombrado», es de máximo interés para mí. Los rumores que recorren Arkham me llevan a pensar que el nombre real tiene algún tipo de fuerza sobrenatural, casi como si fuese un puente a otra realidad. Pero, ¿en serio se puede creer en semejante idea tan rompedora?</i> \n\n Ganas <color=green><b>3 Pistas {clue}</b></color> 
+EventAddInteractTokenMarket.text,Cuando hayas terminado de comprar, puedes irte a ver la obra. \n\n Coloca una <color=blue><b>ficha de Interacción</b></color> en el lugar señalado.
+EventAddInteractTokenMarket.button1,Continuar
+EventBrownWomanSeemsRelaxed.text,—<i>Sólo se vive una vez, cielo</i> —responde la anciana —. <i>No me quedan muchos años por delante, así que es un buen momento para arriesgarme con cosas como ver una curiosa representación que ha causado tanto revuelo estos días. No me importa las consecuencias que tenga, estaré muy tranquila con mi decisión.</i> \n\n Su sonrisa crece cuando te entrega una ornamentada cruz. \n\n —<i>Gracias por tomarse tanto interés en una anciana como yo. Por favor, tenga esto como recuerdo de nuestro encuentro. </i>\n\n Ganas el Objeto común <i>Cruz sagrada</i>.
+EventAskBrownWomanAboutPlay.button1,Continuar
+EventBrownWomanSeemsRelaxed.button1,Continuar
+EventAskBrownWomanAboutPlay.text,—<i>¡Estoy emocionada! Sí, he oído las historias de terror relacionadas con esta obra de teatro, y algo más que rumores que han circulado en algunos círculos de poder sobre un cierto </b>significado ritualístico</b> en <color=yellow><b>El Rey de Amarillo</b></color>. Pero no me da miedo emprender semejante aventura en mis años de ocaso</i>. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> 
+EventAskPurpleManAboutPlay.text,El hombre no está muy hablador, parece preocupado por algo que le aflige {influence}.
+EventAskPurpleManAboutPlay.button1,Continuar
+EventPurpleManAvoiding.text,Este hombre no es muy hablador, parece estar preocupado con algo que le ronda por la cabeza {influence}.
+EventPurpleManAvoiding.button1,Continuar
+EventPurplePlayPass.text,El hombre sale decidido de su reclusión. \n\n —<i>Bien, es un hecho que espero con ansia poder ver esta obra. Un amigo mío desapareció después de ver el estreno de la obra, y he hecho todo lo posible pare descubrir qué le ha pasado. Una cosa está clara, un sacrificio humano, de algún modo, forma parte del macabro ritual ligado a <color=yellow><b>El Rey de Amarillo</b></color>, por no mencionar el extraño símbolo que dicen que aparece en un <b>cartel</b> en el segundo acto.</i> \n\n El hombre, visiblemente frustrado, regresa inmediatamente a sus profundos pensamientos. \n\n Ganas <color=green><b>2 Pistas {clue}</b></color> 
+EventPurplePlayPass.button1,Continuar
+EventPurplePlayFail.text,El hombre te mira fijamente durante un momento, asiente, y su mirada se dirige ahora al infinito.
+EventPurplePlayFail.button1,Continuar
+EventPurpleManAvoidingPass.text,El rostro del hombre se suaviza levemente, mirando a la multitud. —<i>Míreles. Nunca sabes en quién puedes confiar. Cualquiera de estas personas relevantes, aparentemente inocentes, puede ser un sectario en secreto. Mi plan es descubrir lo que está pasando con esta trágica representación. Y tengo fuertes sospechas de que algunos de los acomodadores trabajan de forma oculta en alguna clase de siniestro plan.</i> —Te mira con determinación y te anima— <i>¡Por favor, esté alerta! ¡Cuantos más estemos atentos, más posibilidades tendremos de salir de esto con vida!</i> \n\n Apaciguando su fervor, regresa a sus profundos pensamientos. \n\n Adquieres el estado <i>Concentrado</i>.
+EventPurpleManAvoidingPass.button1,Continuar
+EventPurpleManAvoidingFail.text,Con una burla, agita su mano con desdén hacia la multitud.
+EventPurpleManAvoidingFail.button1,Continuar
+EventEnterPlayFromLobby.text,De repente, el sonido de un gran gong anuncia que los espectadores ya pueden entrar en la zona de butacas. Entras en el teatro, incapaz de resistirte a admirar la grandeza que se alza ante tus ojos. Sin embargo, un temor hace mella en ti cuando encuentras tu asiento en la platea. Las luces se atenúan, y te preparas para ver el primer acto.
+EventEnterPlayFromLobby.button1,Continuar
+EventLeaveMarketToWatchPlay.text,Comprobando la hora, te das cuenta de que debes irte hacia el teatro. Entras en el vestíbulo sólo con unos minutos de sobra.
+EventLeaveMarketToWatchPlay.button1,Continuar
+Event1stAct.text,El primer acto es relativamente tranquilo. Pero la historia se desarrolla en bastantes localizaciones extrañas que atrapan tu interés. \n\n Demhe, hogar del Byakhee y más profundo que cualquier abismo, \n se encuentra al este del lago Hali. \n\n El lago Hali, hogar de «El Guardián» y más frío que el hielo, \n se encuentra al norte de Carcosa. \n\n Carcosa, hogar de «Aquél que no debe ser nombrado» y con eones de antigüedad, \n se encuentra en la costa del lago Hali. \n\n Alar, hogar de «El Enviado», más oscuro que la noche, \n y que se encuentra al oeste de Carcosa.
+Event1stAct.button1,Continuar
+EventAct2.button1,Continuar
+EventYellowSignAware.text,Los actores comienzan a cantar en un extraño lenguaje que nunca habías oído. De repente, observas un cartel bajando por detrás del escenario, y que parece tener algún tipo de símbolo dibujado. Se os ha avisado anteriormente de esta situación, esta misma tarde, así que ahora debéis tomar una decisión como grupo.
+EventAct2.text,Después de un pequeño descanso, regresas a tu asiento esperando el segundo acto. Un creciente sentimiento de angustia se apodera de ti ante lo que pueda venir a continuación.
+EventYellowSignAware.button1,Fortaleces tu mente y miras <color=yellow><b>el signo amarillo</b></color>.
+EventYellowSignAware.button2,Apartas la vista evitando <color=yellow><b>el signo amarillo</b></color>.
+EventYellowSignUnaware.text,Los actores comienzan a entonar un cántico en un extraño lenguaje que jamás habías oído. De repente, un cartel comienza a descender por el escenario. Curiosamente, tus ojos parecen ser arrastrados inevitablemente hacia él. Con la mirada fija en <color=yellow><b>el signo amarillo</b></color>, tu mente es devastada y atormentada sin piedad. Las imágenes de una misteriosa entidad vestida con harapos de color amarillo inundan tu mente. \n\n Todos los Investigadores sufren <color=blue><b>2 de Horror</b></color>, adquieren el estado <b>Estresado</b>, y ganan <color=green><b>2 Pistas {clue} </b></color>.
+EventYellowSignUnaware.button1,Continuar
+EventChooseToSeeYellowSign.text,Preparado mentalmente para ver el enigmático símbolo, miras hacia adelante templando tus nervios. Incluso preparado para lo peor, el efecto para tus sentidos es tremendo. Algo relacionado con <color=yellow><b>el signo amarillo</b></color> parece ahondar en las profundidades de tu mente. \n\n Todos los Investigadores sufren <color=blue><b>2 de Horror</b></color> (anulados por {will}) y ganan <color=green><b>2 Pistas {clue}</b></color> 
+EventChooseToSeeYellowSign.button1,Continuar
+EventAvoidSeeingYellowSign.text,Preocupado por el daño potencial que pueda causar mirar el símbolo, esquivas la mirada para no observar directamente <color=yellow><b>el signo amarillo</b></color>.
+EventAvoidSeeingYellowSign.button1,Continuar
+EventAct2HastursName.text,Para tu alivio, el cartel desaparece rápidamente de tu vista y el cántico se detiene. A medida que el acto prosigue, te das cuenta de que el nombre del rey será finalmente revelado. El esquivo rey apenas ha sido mencionado hasta ahora, aunque te da la impresión de que es un personaje ominoso y amenazador en la trama de la obra.
+EventAct2HastursName.button1,Continuar
+EventHasturUnawareOfUnspeakableOne.text,Con una grandilocuente erupción de voces quejumbrosas, todos los actores vocalizan el nombre «Hastur». Inmediatamente después del clamor creado en el escenario, escuchas una voz ominosa sin origen discernible que repite el nombre «Hastur». Tu visión se vuelve borrosa, a medida que comienzas a comprender los verdaderos horrores de <color=yellow><b>El Rey de Amarillo</b></color>. Ves un paisaje sobrenatural ante tus ojos mientras tomas consciencia del tormento y el dolor causado por el rey maldito: su odio y crueldad son realmente ilimitados. \n\n Cada Investigador sufre <color=red><b>1 de Daño</b></color>, <color=blue><b>1 de Horror boca abajo</b></color>, adquiere el estado <b>Desconcertado</b> y gana <color=green><b>2 Pistas {clue}</b></color> 
+EventHasturUnawareOfUnspeakableOne.button1,Continuar
+EventHasturAwareOfUnspeakableOne.text,Advertido sobre los peligros de «Aquél que no debe ser nombrado», lo único que puedes asumir es que el nombre del rey es lo que ha causado tanto temor en el vagabundo que has visto antes, esta misma noche. \n\n <b>Como grupo, debéis tomar una decisión:</b>
+EventHasturAwareOfUnspeakableOne.button1,Escuchar abiertamente el nombre.
+EventHasturAwareOfUnspeakableOne.button2,Taparos los oídos.
+EventChooseToHearName.text,Preparándote para oír el nombre «que no se puede nombrar», aprietas los brazos de tu butaca hasta que tus nudillos crujen. Con una grandilocuente erupción de voces quejumbrosas, todos los artistas vocalizan el nombre «Hastur». Inmediatamente después del clamor creado en el escenario, escuchas una voz ominosa sin origen discernible que repite el nombre «Hastur». \n\n Tu visión se vuelve borrosa a medida que comienzas a comprender los verdaderos horrores de <color=yellow><b>El Rey de Amarillo</b></color>. Ves un paisaje sobrenatural ante tus ojos mientras tomas consciencia del tormento y el dolor causado por el rey maldito: su odio y crueldad son realmente ilimitados. \n\n Cada Investigador sufre <color=red><b>1 de Daño</b></color> y <color=blue><b>1 de Horror boca abajo</b></color> (anulados por {will}). Todos los Investigadores ganan <color=green><b>2 Pistas {clue}</b></color> 
+EventChooseToHearName.button1,Continuar
+EventChooseToAvoidName.text,Temiendo que los devastadores efectos de escuchar el nombre puedan afectar a tu mente, te tapas los oídos y esperas a que el ruido cese. Una vez que notas como las vibraciones que resuenan en el teatro desaparecen, te destapas los oídos, aliviado por no haber escuchado el nombre de «Aquél que no debe ser nombrado».
+EventChooseToAvoidName.button1,Continuar
+EventEndOfPlay.button1,Continuar
+EventEndOfPlay.text,A medida que la obra llega a su fin, muchos de los asistentes parecen estar confusos o en algún tipo de ensoñamiento.
+EventPlayEndsMinimalTrauma.text,Habiendo evitado la mayoría del trauma mental que conlleva <color=yellow><b><i>El Rey de Amarillo</i></b></color>, os preparáis para lo que pueda venir (devuelve las cartas de <color=blue><b>Horror</b></color> que habías apartado al mazo correspondiente). \n\n Pero para cuando os dais cuenta de las figuras encapuchadas que se mueven por los pasillos, es demasiado tarde para evitar que unas toallas impregnadas en cloroformo sean apretadas contra vuestras caras, mandándoos serenamente al reino de la inconsciencia.
+EventPlayEndsMinimalTrauma.button1,Continuar
+EventPlayEndsMediumTrauma.text,Habiendo experimentado el trauma mental que conlleva <color=yellow><b><i>El Rey de Amarillo</i></b></color>, comenzáis a sufrir una serie de miedos irracionales que no habíais sentido antes. \n\n Baraja las cartas de <color=blue><b>Horror</b></color> que habías apartado anteriormente y entrega una carta a cada Investigador. Estas cartas se consideran una condición permanente y no pueden ser descartadas. Además, no cuentan para el límite de Cordura. \n\n Unas figuras encapuchadas se mueven por los pasillos y rápidamente os someten con unas toallas impregnadas en cloroformo, mandándoos a un profundo estado de inconsciencia.
+EventPlayEndsMediumTrauma.button1,Continuar
+EventPlayEndsMuchTrauma.text,Habiendo experimentado el trauma mental que conlleva <color=yellow><b><i>El Rey de Amarillo</i></b></color>, comenzáis a sufrir una serie de miedos irracionales que no habíais sentido antes. Baraja las cartas de <color=blue><b>Horror</b></color> que habías apartado anteriormente y entrega una carta a cada Investigador. Estas cartas se consideran una condición permanente y no pueden ser descartadas. Además, no cuentan para el límite de Cordura. \n\n Unas figuras encapuchadas se mueven por los pasillos y rápidamente os someten con unas toallas impregnadas en cloroformo, mandándoos a un profundo estado de inconsciencia. \n\n Todos los Investigadores adquieren el estado <i>Aturdido</i>.
+EventPlayEndsMuchTrauma.button1,Continuar
+EventEnterDungeon.text,Te despiertas después de ser empujado a un lugar desconocido, apestando a sangre fresca y sudor. Afortunadamente, ves que tus enemigos no han tenido tiempo de revisar tus pertenencias mientras te lanzan apresuradamente de un lado a otro como si se estuvieran quedando sin tiempo para algún evento de vital importancia. Sientes que el suelo debajo de ti retumba y tiembla, y una energía arcana flota en el aire. Estos sectarios deben de haber iniciado algún malévolo ritual que está a punto de completarse. \n\n Coloca los módulos <color=cyan>{c:TileDungeon}</color> y <color=cyan>{c:TileSacrificialChamber}</color>, una <b>ficha de Puerta</b>, <i>2 fichas de Oscuridad</i> y <color=red><b>6 fichas de Exploración</b></color> en los lugares indicados.
+EventEnterDungeon.button1,Continuar
+EventAddInvestigatorSacrificalChamber.button1,Continuar
+EventAddInvestigatorDungeonCells2.button1,Continuar
+EventEnterPlayFromMarketToLobby.text,De repente, el sonido de un gran gong anuncia que la obra está a punto de empezar y es el momento de buscar vuestras butacas. Entras en el teatro, incapaz de resistirte a admirar la grandeza que se presenta ante tus ojos. Sin embargo, un temor inminente se apodera de ti cuando encuentras tu lugar en las últimas filas. Las luces bajan y te preparas para presenciar el primer acto.
+EventEnterPlayFromMarketToLobby.button1,Continuar
+EventAddInvestigatorSacrificalChamber.text,Arrojan a <b>{rnd:hero}</b> sobre el pavimento de una ornamentada habitación que sería lujosa si no fuese por la sangre seca que salpica las paredes y el suelo. \n\n Puedes colocar a tu Investigador en cualquier espacio de la Sala de ceremonias. \n\n Cuando recobras tu conciencia, descubres que uno de tus brazos está atado al frío suelo de piedra. \n\n Adquieres el estado <b>Retenido</b>.
+EventAddInvestigatorsDungeonCells3.text,Tus compañeros se encuentran en unas sucias celdas, esperando sin saberlo, el momento en el que serán parte del ritual. Una celda está tenuemente iluminada, mientras que la otra está envuelta en oscuridad. \n\n Coloca un Investigador en la celda más a la izquierda de la mazmorra y otro en la celda del centro.
+EventAddInvestigatorDungeonCells2.text,Tu compañero es arrojado a una habitación en penumbra, esperando sin saberlo el momento en el que será parte del ritual. \n\n Coloca al otro Investigador en la celda más a la izquierda de la mazmorra.
+EventAddInvestigatorsDungeonCells3.button1,Continuar
+EventAddInvestigatorsDungeonCells4.text,Tus compañeros son arrojados al interior de unas mohosas celdas, esperando sin saberlo el momento en el que serán parte del ritual. Una celda está en penumbra y las otras dos están completamente a oscuras. \n\n Coloca un Investigador en cada una de las celdas de la mazmorra.
+EventAddInvestigatorsDungeonCells4.button1,Continuar
+EventAddSearchTokensDungeon.text,Ahora que te has recompuesto tienes la oportunidad de buscar pistas en varios lugares. \n\n Coloca <color=yellow><b>4 fichas de Búsqueda</b></color> en los lugares señalados.
+EventAddSearchTokensDungeon.button1,Continuar
+SpawnDungeonMaster.button1,Continuar
+SpawnDungeonMaster.text,El bruto que te aprisionó se ríe amenazadoramente. \n\n —<i>¡Está casi terminado!</i> \n\n No sabes a qué se refiere, pero te abruma la sensación de que <b><i>el tiempo es esencial</i></b>. \n\n Aparece un <b>{c:SpawnDungeonMaster}</b> en el lugar indicado.
+SpawnDungeonCultist.button1,Continuar
+SpawnSpawnDungeonMasterHelper4.text,Un humanoide deforme se pasea por el pasillo, probablemente para vigilar a los prisioneros que intentan escapar. \n\n Coloca un <b>Thrall</b> en el lugar indicado.
+SpawnDungeonCultist.text,Una figura vestida con túnica deambula por los pasillos, mirando fijamente las puertas de la celda. \n\n Coloca un <b>Sectario</b> en el lugar indicado.
+SpawnSpawnDungeonMasterHelper4.button1,Continuar
+SpawnCultistSacrificialChamber.text,Un sectario se abalanza sobre ti, e intenta terminar de atarte a la losa de piedra. \n\n Aparece un <b>Sectario</b> en el lugar señalado.
+SpawnCultistSacrificialChamber.button1,Continuar
+TokenExploreLeftDungeon.text,Como era de esperar, la oxidada puerta está cerrada a cal y canto. Podrías intentar abrirla a la fuerza, o bien podrías forzar la cerradura.
+TokenExploreLeftDungeon.button1,{action} Abrir a la fuerza
+TokenExploreLeftDungeon.button2,{action} Forzar cerradura
+EventHasturActivates.button1,Button1
+PuzzleLeftDungeonDoor.button1,Hecho
+EventBuyLantern.text,—<i>Esta noche es perfecta para una estupenda linterna como ésta.</i> \n\n Ganas el Objeto común <b>Lámpara de queroseno</b>.
+EventBuyLantern.button1,Continuar
+EventBreakLeftDungeonDoor.text,Intentas abrir la puerta usando todas sus fuerzas. Oxidada y desgastada por el tiempo, no debería ser demasiado difícil de romper. Haz una tirada de ({strength}; 2). \n\n Suma 1 éxito al resultado de tu tirada si llevas la <b>Palanca</b>. \n\n Consigues un éxito inmediato si llevas el <b>Pico</b>.
+EventBreakLeftDungeonDoor.button1,Éxito
+EventBreakLeftDungeonDoor.button2,Fallo
+TokenExploreMiddleDungeon.text,Como era de esperar, la puerta de acero oxidado está bien cerrada. Puedes intentar abrirla a la fuerza o puedes intentar forzar la cerradura.
+TokenExploreMiddleDungeon.button1,{action} Abrir a la fuerza
+TokenExploreMiddleDungeon.button2,{action} Forzar cerradura
+EventBreakMiddleDungeonDoor.text,Intentas abrir la puerta usando todas sus fuerzas. Oxidada y desgastada por el tiempo, no debería ser demasiado difícil de romper. Haz una tirada de ({strength}; 2). \n\n Suma 1 éxito al resultado de tu tirada si llevas la <b>Palanca</b>. \n\n Consigues un éxito inmediato si llevas el <b>Pico</b>.
+EventBreakMiddleDungeonDoor.button1,Éxito
+EventBreakMiddleDungeonDoor.button2,Fallo
+TokenExploreRightDungeon.text,Esta puerta de acero no sólo es resistente, sino que parece estar bloqueada por un hechizo mágico. Puedes intentar abrirla a la fuerza o puedes intentar eliminar el encantamiento.
+TokenExploreRightDungeon.button1,{action} Abrir a la fuerza
+TokenExploreRightDungeon.button2,{action} Disipar el hechizo
+EventBreakRightDungeonDoor.text,Intentas abrir la puerta empleando todas sus fuerzas. Sin apenas marcas del paso del tiempo, esta puerta no será tan fácil de romper. Haz una tirada de ({strength}; 3). \n\n Suma 1 éxito al resultado de tu tirada si llevas la <b>Palanca</b>. \n\n Suma 2 éxitos al resultado de tu tirada si llevas el <b>Pico</b>.
+EventBreakRightDungeonDoor.button1,Éxito
+EventBreakRightDungeonDoor.button2,Fallo
+PuzzleMiddleDungeonDoor.button1,Hecho
+PuzzleRightDungeonDoor.button1,Hecho
+TokenExploreSacrificialChamber.text,La puerta de madera ha sido grabado con unas runas extrañas, y tienes una sensación que no pertenece a este mundo cuando te aproximas a ella.
+TokenExploreSacrificialChamber.button1,{action} Abrir la puerta
+EventOpenRuneDoorVoid.button1,Continuar
+EventOpenRuneDoorFlame.text,Al abrir la puerta, eres testigo de una llama sobrenatural flotando sobre un abismo. No emite calor, pero sientes el ardor debajo de tu piel como si estuviera dentro de tu cuerpo. Con un calor que se va incrementando, te llega también una oleada de energía. \n\n Sufres <color=red><b>3 de Daño boca abajo</b></color> (anulados por {strength}). \n\n Adquieres el estado <b>Concentrado</b>.
+EventOpenRuneDoorFlame.button1,Continuar
+EventOpenRuneDoorQuestion1.button1,Alar
+EventOpenRuneDoorQuestion1.button2,Demhe
+EventOpenRuneDoorOcean.text,Detrás de la puerta atisbas un océano oscuro e interminable. Escuchas el canto de sirenas que anuncian los secretos del «Señor de Carcosa», bullendo desde las profundidades. \n\n Adquieres el estado <b>Hipnotizado</b> y ganas <color=green><b>2 Pistas {clue}</b></color> 
+EventOpenRuneDoorOcean.button1,Continuar
+EventOpenRuneDoorWind.text,Tan pronto como abres la puerta, te sorprende ver un hermoso paisaje con criaturas fantásticas volando sobre él. Una antigua piedra rúnica levantada sobre el suelo emite un lamento sobre «el Rey Andrajoso». Intentas entender lo que dice la voz mientras un viento sobrenatural te golpea lacerando tu cuerpo. Mantienes la puerta abierta todo el tiempo que puedes antes de cerrarla de golpe. \n\n Sufres <color=red><b>3 de Daño boca abajo</b></color> (anulados por {strength} + {will}) y pones boca arriba <color=red><b>2 de Daño</b></color>. Ganas tantas <color=green><b>Pistas {clue}</b></color> como el resultado de tu tirada -1.
+EventOpenRuneDoorWind.button1,Continuar
+EventOpenRuneDoorQuestion1.button3,El lago de Hali
+EventOpenRuneDoorVoid.text,Tras la puerta hay un vacío infinito. Procedente de su interior, oyes unas voces que revelan escalofriantes, perturbadoras y a la vez reveladoras verdades. \n\n Sufres <color=blue><b>1 de Horror boca abajo</b></color> (descarta <color=green><b>2 Pistas {clue}</b></color> para anularlo). A continuación pon boca arriba todas tus cartas de <color=blue><b>Horror</b></color>. \n\n Prueba de {lore}. Ganas <color=green><b>1 Pista {clue}</b></color> por cada {success}.
+EventOpenRuneDoorQuestion.button1,Button1
+EventBreakThroughLeftDungeonDoor.text,La puerta chirría al abrirse. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventBreakThroughLeftDungeonDoor.button1,Continuar
+EventBreakThroughMiddleDungeonDoor.text,La puerta de acero se abre con un sonoro chirrido. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventBreakThroughMiddleDungeonDoor.button1,Continuar
+EventUnlockMiddleDungeonDoor.text,Fuerzas con éxito la cerradura. Estás libre de tu prisión temporal. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventUnlockMiddleDungeonDoor.button1,Continuar
+EventUnlockLeftDungeonDoor.text,Fuerzas con éxito la cerradura. Estás libre de tu prisión temporal. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventUnlockLeftDungeonDoor.button1,Continuar
+EventUnlockRightDungeonDoor.text,Consigues contrarrestar con éxito el hechizo de sellado. Estás libre de tu prisión temporal. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventUnlockRightDungeonDoor.button1,Continuar
+EventBreakThroughRightDungeonDoor.text,La puerta de acero cede por fin ante tus desesperados intentos por escapar. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventBreakThroughRightDungeonDoor.button1,Continuar
+TokenExploreDungeonHallRight.text,Una anodina puerta permite salir de la mazmorra.
+TokenExploreDungeonHallRight.button1,{action} Abrir la puerta
+TokenSearchLeftCell.text,La celda no es acogedora, pero si la examinas quizá puedas encontrar algo que te sirva.
+TokenSearchLeftCell.button1,{action} Buscar
+TokenSearchMiddleCell.text,La celda es claustrofóbica, pero quizá haya algo en ella que merezca la pena.
+TokenSearchMiddleCell.button1,{action} Buscar
+TokenSearchRightCell.text,La celda tiene un olor nauseabundo, pero quizá puedas encontrar algo útil si la examinas con detenimiento.
+TokenSearchRightCell.button1,{action} Buscar
+EventSearchDungeonItem.text,Unos vendajes no demasiado limpios descansan sobre el suelo, aunque eres capaz de reunir los suficientes trozos limpios como para hacer unas cuantas gasas. \n\n Ganas el Objeto común <b>Vendas</b>. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventSearchDungeonItem.button1,Continuar
+EventSearchDungeonInformation.text,Echas un vistazo a la habitación, buscando algo que te pueda valer {observation}.
+EventSearchDungeonInformation.button1,Continuar
+EventSearchDungeonNotes.text,Echas un vistazo a la habitación, buscando algo que te pueda valer {observation}.
+EventSearchDungeonNotes.button1,Continuar
+EventDungeonInformationFail.text,No consigues encontrar algo interesante. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventDungeonInformationFail.button1,Continuar
+EventDungeonInformationPass.button1,Continuar
+EventDungeonInformationPass.text,Examinando la habitación, estás a punto de pasar por alto unas palabras grabadas en la pared del fondo, dejadas probablemente por una víctima anterior. «Magia disruptiva bajo el colchón del sectario». \n\n Ganas <color=green><b>1 Pista {clue}</b></color>  A continuación, descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventDungeonNotesPass.text,Te las arreglas para encontrar un trozo de papel introducido en una grieta de las paredes de piedra. Debe de ser de una víctima encarcelada después del primer pase de la obra. Dice: \n\n «Según lo que tengo sobre mi cabeza mientras estoy en esta celda, parece que se está realizando un ritual de invocación en relación con <color=yellow><b>El Rey de Amarillo</b></color>. Empezará pronto, ya que han realizado suficientes sacrificios para iniciar la ceremonia. Este culto planea fortalecer el ritual con sacrificios adicionales en los próximos días. Tengo entendido que los componentes del ritual se encuentran detrás de una enorme puerta de metal, y allí es donde el ritual puede ser interrumpido. \n\n <b>Cuanta más información obtengo, más daño puedo causar</b> a cualquier cosa que esté siendo convocada... si pudiera escapar de esta celda...» \n\n Ganas <color=green><b>2 Pistas {clue}</b></color> y descarta esta <color=yellow><b>Ficha de Búsqueda</b></color>.
+EventDungeonNotesPass.button1,Continuar
+EventDungeonNotesFail.text,No encuentras nada interesante. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventDungeonNotesFail.button1,Continuar
+EventSearchDungeonRemains.text,Adviertes algo en la parte trasera de la celda. Al acercarte, te horrorizas al descubrir un brazo humano con sólo unos pocos restos de carne y cubierto de grandes ratas. \n\n Sufres <color=blue><b>1 de Horror boca abajo</b></color> (anulado por {will}-1). \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventSearchDungeonRemains.button1,Continuar
+EventRemoveLeftDungeonSearchToken.button1,Button1
+EventRemoveMiddleDungeonSearchToken.button1,Button1
+EventRemoveRightDungeonSearchToken.button1,Button1
+TokenSearchSacrificialChamber.text,Al fondo de la habitación encuentras trozos de ropa manchados de rojo, con toda seguridad pertenecientes a alguna alma desdichada que no consiguió salir con vida de esta tumba.
+EventOpenRuneDoorQuestion1.text,Detrás de la puerta observas una bruma densa. Vislumbras una silueta con una forma monstruosa. La silueta te pregunta: —<i>¿Qué se encuentra al norte de Carcosa?</i> \n\n Intentas recordar la obra, sobre todo los detalles de ese lugar. \n\n Como grupo, los Investigadores situados en esta habitación pueden gastar <color=green><b>2 Pistas {clue}</b></color> por Investigador en juego para responder a la pregunta (por ejemplo, 8 pistas en una partida de 4 investigadores, 4 en una partida de 2, etc.).
+TokenSearchSacrificialChamber.button1,{action} Buscar
+EventSearchSacrificialChamber.text,Con cuidado, separas los trozos de tela pegados entre sí a causa de la sangre reseca {observation}.
+EventSearchSacrificialChamber.button1,Continuar
+EventSearchSacrificialChamberSuccess.text,No sólo encuentras los restos de una entrada para <color=yellow><b>El Rey de Amarillo</b></color>, sino que también descubres una nota manuscrita que contiene el texto de un hechizo que al parecer falló a la hora de salvar a su dueño. \n\n Ganas el Hechizo <b>{c:QItemAttackSpell}</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventSearchSacrificialChamberSuccess.button1,Continuar
+EventSearchSacrificialChamberFail.text,Después de examinar los jirones de tela, no obtienes nada más que un fuerte deseo de lavarte la sangre de las manos. \n\n Descarta esta <color=yellow><b> ficha de Búsqueda</b></color>.
+EventSearchSacrificialChamberFail.button1,Continuar
+EventOpenRuneDoorQuestion1.button4,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+EventOpenRuneDoorQuestion4.button1,Demhe
+EventOpenRuneDoorQuestion2.text,Detrás de la puerta observas una niebla vaporosa. En ella se adivina la silueta de una forma monstruosa y ésta te pregunta: \n\n —<i>¿Qué es más profundo que cualquier abismo?</i> \n\n Recuerdas la obra de teatro, intentando encontrar los detalles de tal descripción. Como grupo, los Investigadores situados en esta sala pueden gastar <color=green><b>2 Pistas {clue}</b></color> por cada Investigador en el juego para responder la pregunta (por ejemplo, 8 pistas en una partida de 4 jugadores, 4 en una de 2, etc.).
+EventOpenRuneDoorQuestion4.text,Detrás de la puerta observas una niebla vaporosa. En ella se adivina la silueta de una forma monstruosa y ésta te pregunta: \n\n —<i>¿Qué se encuentra en la costa del lago de Hali?</i> \n\n Te acuerdas de la obra, intentando recordar detalles de ese lugar. Como grupo, los Investigadores situados en esta sala pueden gastar <color=green><b>2 Pistas {clue}</b></color> por cada Investigador en el juego para responder la pregunta (por ejemplo, 8 pistas en una partida de 4 jugadores, 4 en una partida de 2, etc.).
+EventOpenRuneDoorQuestion2.button1,Alar
+EventOpenRuneDoorQuestion3.text,Detrás de la puerta observas una niebla vaporosa. En ella se adivina la silueta de una forma monstruosa y ésta te pregunta: \n\n —<i>¿Dónde resido?</i> \n\n Recuerdas la obra, intentando rememorar detalles de las diferentes ubicaciones posibles. Como grupo, los Investigadores situados en esta sala pueden gastar <color=green><b>3 Pistas {clue}</b></color> por cada Investigador en el juego para responder la pregunta (por ejemplo, 12 pistas en una partida de 4 jugadores, 6 en una partida de 2, etc.).
+EventOpenRuneDoorQuestion3.button1,Alar
+EventOpenRuneDoorQuestion2.button2,Carcosa
+EventOpenRuneDoorQuestion2.button3,Demhe
+EventOpenRuneDoorQuestion2.button4,El lago de Hali
+EventOpenRuneDoorQuestion2.button5,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+EventOpenRuneDoorQuestion3.button2,Carcosa
+EventOpenRuneDoorQuestion3.button3,El lago de Hali
+EventOpenRuneDoorQuestion3.button4,Demhe
+EventOpenRuneDoorQuestion3.button5,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+EventOpenRuneDoorQuestion4.button2,Alar
+EventOpenRuneDoorQuestion4.button3,Carcosa
+EventOpenRuneDoorQuestion4.button4,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+EventAnswerQuestionIncorrectly.text,—<i>¿Osáis poner a prueba a su Enviado, necios?</i> \n\n Una oleada de energía irrumpe en la habitación y la puerta se cierra lentamente por sí sola. \n\n Todos los Investigadores situados en esta habitación sufren <color=red><b>3 de Daño</b></color> (anulados por {strength}+{will}).
+EventAnswerQuestionIncorrectly.button1,Continuar
+EventAnswerQuestionCorrectly.text,—<i>El camino está despejado</i> —susurra la entidad. \n\n Oyes el ruido de unos engranajes en la mazmorra. \n\n Coloca una <b>ficha de Puerta</b> y una <color=red><b>ficha de Exploración</b></color> en los lugares señalados.
+EventAnswerQuestionCorrectly.button1,Continuar
+EventEnterSanctuary.text,Deseoso de dejar atrás el hedor de la mazmorra, abres la puerta del santuario de los sectarios. El incienso arde, ofreciendo un olor igualmente desagradable. \n\n Coloca el módulo <color=cyan>{c:TileTwilightSanctum}</color> y una <b>ficha de Pared</b> como se indica.
+EventEnterSanctuary.button1,Continuar
+EventAddSearchTokenSanctuary.text,Sobre el púlpito del fondo de la sala hay un libro. La secta quizá ha tenido una reunión antes de representar <color=yellow><b><i>El Rey de Amarillo</i></b></color>. \n\n Coloca una <color=yellow><b>ficha de Búsqueda</b></color> en el lugar señalado.
+EventAddSearchTokenSanctuary.button1,Continuar
+EventMove1Space.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventMove1Space.button1,Continuar
+EventAddExploreTokenToLounge.text,A la derecha del púlpito hay una puerta. \n\n Coloca una <color=red><b>ficha de Exploración</b></color> en el lugar señalado.
+EventAddExploreTokenToLounge.button1,Continuar
+TokenSearchPodium.text,Un libro abierto descansa sobre el púlpito. A primera vista parece que el texto está escrito en una lengua arcaica.
+TokenSearchPodium.button1,{action} Leer
+EventAttemptToReadPodiumBook.text,Intentas traducir algo de lo escrito en esa lengua arcana {lore}.
+EventAttemptToReadPodiumBook.button1,Continuar
+EventPodiumBookFail.text,No logras, de momento, descifrar el idioma.
+EventPodiumBookFail.button1,Continuar
+EventPodiumBookPass.text,Te las arreglas para averiguar el significado básico del texto. Esta secta está preparando un ritual para invocar a un «Primigenio» a nuestro mundo. El proceso se inició tras la última representación de <color=yellow><b><i> El Rey de Amarillo</i></b></color>, y aparentemente se completará durante esta noche. El hecho de que hayas sobrevivido al sacrificio ritual planeado para ti habrá ralentizado el procedimiento, pero parece que nada puede evitar que la entidad rompa la barrera desde su reino. Debes prepararte para luchar por tu vida si pretendes sobrevivir a la noche. \n\n Sufres <color=blue><b>2 de Horror boca abajo</b></color> (anulados por {will} + {lore}) y ganas <color=green><b>2 Pistas {clue}</b></color>  \n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventPodiumBookPass.button1,Continuar
+TokenExploreSanctuaryToLounge.text,Una anodina puerta de madera conduce al interior del edificio.
+TokenExploreSanctuaryToLounge.button1,{action} Abrir la puerta
+EventOpenDoorToLounge.text,Te alegra ver por fin una habitación relativamente normal. Un cómodo salón con un cálido fuego reconforta tu mente. \n\n Pon <color=blue><b>1 de Horror</b></color> boca abajo o descarta <color=blue><b>1 de Horror boca abajo</b></color>. \n\n Coloca el módulo <color=cyan>{c:TileTwilightLounge}</color> como se indica.
+EventOpenDoorToLounge.button1,Continuar
+EventAddSearchTokenTwilightLounge.text,Han dejado una libreta sobre uno de los sillones que hay al lado de la chimenea. \n\n Coloca una <color=yellow><b>ficha de Búsqueda</b></color> en el lugar señalado.
+EventAddSearchTokenTwilightLounge.button1,Continuar
+EventAddExploreTokenLounge.text,En el otro lado de la habitación observas una puerta cubierta de runas. \n\n Coloca una <color=red><b>ficha de Exploración</b></color> en el lugar señalado.
+EventAddExploreTokenLounge.button1,Continuar
+TokenExploreRuneDoorLounge.text,La puerta de madera ha sido grabada con extrañas runas, y sientes una sensación de otro mundo cuando te acercas a ella.
+TokenExploreRuneDoorLounge.button1,{action} Abrir la puerta
+TokenSearchNotebookLounge.text,Un cuaderno descansa sobre un sillón de cuero.
+TokenSearchNotebookLounge.button1,{action} Leer
+EventReadNotebook.text,Examinas las páginas en busca de algo útil {observation}.
+EventReadNotebook.button1,Continuar
+EventReadNotebookFail.text,No encuentras nada útil en las notas garabateadas.
+EventReadNotebookFail.button1,Continuar
+EventReadNotebookPass.text,Reuniendo fragmentos de las diferentes notas, determinas que se puede abrir un pasaje secreto si «respondes a la pregunta del Enviado». Aparentemente, este enigmático ser se puede encontrar abriendo las puertas grabadas con runas que se encuentran en este edificio, las cuales conducen a extrañas dimensiones más allá del conocimiento humano. También descubres detalles de un particular encantamiento que se puede pronunciar para revelar su dimensión cada vez que se abre una de las puertas, aunque el ritual exacto no se explica completamente. \n\n Ganas tantas <color=green><b>Pistas {clue}</b></color> como la cantidad de éxitos de tu tirada y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventReadNotebookPass.button1,Continuar
+TokenExploreRuneDoorLounge2.text,La puerta de madera ha sido grabada con extrañas runas, y sientes una sensación de otro mundo cuando te acercas a ella. \n\n Puedes abrir la puerta y revelar una dimensión aleatoria, con la esperanza de toparte con el escurridizo Enviado, o puedes intentar lanzar el hechizo para acceder directamente a su dimensión. \n\n <b><i>Nota:</i></b> la dificultad del hechizo es muy alta, pero podrás gastar tus <color=green><b>Pistas {clue}</b></color> para fortalecer tu acción.
+TokenExploreRuneDoorLounge2.button1,{action} Abrir la puerta
+TokenExploreRuneDoorSacrificialChamber2.text,La puerta de madera ha sido grabada con extrañas runas, y sientes una sensación de otro mundo cuando te acercas a ella. \n\n Puedes abrir la puerta y revelar una dimensión aleatoria, con la esperanza de toparte con el escurridizo Enviado, o puedes intentar lanzar el hechizo para acceder directamente a su dimensión. \n\n <b><i>Nota:</i></b> la dificultad del hechizo es muy alta, pero podrás gastar tus <color=green><b>Pistas {clue}</b></color> para fortalecer tu acción.
+TokenExploreRuneDoorSacrificialChamber2.button1,{action} Abrir la puerta
+TokenExploreRuneDoorSacrificialChamber2.button2,{action} Mostrar la dimensión del Enviado
+EventSkipToRuneDoorQuestion.button1,Button1
+TokenExploreRuneDoorLounge2.button2,{action} Mostrar la dimensión del Enviado
+EventOpenRuneDoorQuestion5.text,Detrás de la puerta observas una bruma nebulosa. Ves la silueta de una forma monstruosa y ésta te pregunta:\n\n —<i>¿Qué es más oscuro que la noche?</i> \n\n Te acuerdas de la obra, intentando rememorar los detalles de tal descripción. Como grupo, los Investigadores situados en esta sala pueden gastar <color=green><b>2 Pistas {clue}</b></color> por cada Investigador en el juego para responder la pregunta (por ejemplo, 8 pistas en una partida de 4 jugadores, 4 en una partida de 2, etc.).
+EventOpenRuneDoorQuestion5.button1,Carcosa
+EventOpenRuneDoorQuestion6.text,Detrás de la puerta observas una bruma nebulosa. Ves la silueta de una forma monstruosa y ésta te pregunta: \n\n —<i>¿Qué se encuentra al este de Alar?</i> \n\n Te acuerdas de la obra, intentando recordar detalles de dicho lugar. Como grupo, los Investigadores situados en esta sala pueden gastar <color=green><b>2 Pistas {clue}</b></color> por cada Investigador en el juego para responder la pregunta (por ejemplo, 8 pistas en una partida de 4 jugadores, 4 en una partida de 2, etc.).
+EventOpenRuneDoorQuestion6.button1,Carcosa
+EventOpenRuneDoorQuestion5.button2,Alar
+EventOpenRuneDoorQuestion5.button3,Demhe
+EventOpenRuneDoorQuestion5.button4,El lago de Hali
+EventOpenRuneDoorQuestion5.button5,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+EventOpenRuneDoorQuestion6.button2,Demhe
+EventOpenRuneDoorQuestion6.button3,El lago de Hali
+EventOpenRuneDoorQuestion6.button4,Usar <color=green><b>Pistas {clue}</b></color> para responder correctamente.
+TokenExploreDungeonSecret.text,El muro de ladrillos se mueve hacia un lado, dejando al descubierto una puerta secreta. Se oye un extraño cántico que proviene del otro lado.
+TokenExploreDungeonSecret.button1,{action} Abrir la puerta
+EventRevealBallroom.text,Abres la puerta con cuidado para ver qué hay al otro lado. Frente a ti encuentras una gran habitación, pero está impregnada por una creciente masa en descomposición que se arrastra por el suelo. \n\n Coloca el <color=cyan>{c:TileBallroom}</color> y una <b>ficha de Puerta</b> como se indica.
+EventRevealBallroom.button1,Continuar
+EventAddExploreTokensBallroom.text,Dos puertas a los lados llevan fuera de la habitación. \n\n Coloca dos <color=red><b>fichas de Exploración</b></color> en el lugar señalado.
+EventAddExploreTokensBallroom.button1,Continuar
+EventSeeHastur.text,Envuelta en un aura oscura al fondo de la habitación se encuentra una figura amenazadora con una túnica amarilla que flota sobre el suelo putrefacto. Su apariencia es etérea, pero estás seguro de que está ganando fuerza con cada segundo que pasa. Invocar a esta entidad debe haber sido el verdadero propósito detrás de la farsa de <color=yellow><b><i>El Rey de Amarillo</i></b></color> y los sacrificios posteriores. \n\n Coloca una <b>ficha de Personaje</b> como se indica. Sufres <color=blue><b>1 de Horror</b></color> (anulado por {will}).
+EventSeeHastur.button1,Continuar
+TokenHastur.text,La entidad continúa ganando fuerza a medida que pasan los minutos, y en tus oídos resuenan sus débiles susurros de otro mundo.
+TokenHastur.button1,Continuar
+SpawnCultistBallroom.text,Un sectario entona un canto de magia arcana mientras sostiene un cartel con un símbolo amarillo,  que evitas mirar directamente. El encapuchado, que te ve por el rabillo del ojo, se dirige hacia ti y te grita: \n\n —<i>¡¿Cómo ha escapado?! ¡Aunque en realidad no importa! ¡Es demasiado tarde para evitar que el rey entre en nuestro mundo!</i> \n\n Coloca un <b>Sectario</b> en el lugar señalado.
+SpawnCultistBallroom.button1,Continuar
+TokenExploreBallroomRight.text,Una gran puerta de roble conduce fuera de esta horripilante habitación.
+TokenExploreBallroomRight.button1,{action} Abrir la puerta
+TokenExploreBallroomLeft.text,Una gran puerta de roble conduce fuera de esta horripilante habitación.
+TokenExploreBallroomLeft.button1,{action} Abrir la puerta
+EventEnterBedroomHallway.text,Empujas la pesada puerta para abrirla, revelando un pequeño pasillo que aún no ha experimentado la descomposición causada por el ritual de invocación. \n\n Coloca el módulo <color=cyan>{c:TileBedrooms}</color> y una <b>ficha de Pared</b> como se indica.
+EventEnterBedroomHallway.button1,Continuar
+EventAddExploreTokensBedroomHall.text,Tres puertas conducen a otras tantas habitaciones, pero un campo de fuerza parece bloquear la puerta que hay al final del pasillo. Está claro que no vas a poder escapar de esta casa de locos hasta que no hayas interrumpido el ritual y detenido a la entidad vestida de amarillo que esta secta ha invocado. \n\n Coloca dos <color=red><b>fichas de Exploración</b></color> en los lugares señalados.
+EventAddExploreTokensBedroomHall.button1,Continuar
+TokenExploreLeftBedroom.text,Una puerta de madera sin nada destacable.
+TokenExploreLeftBedroom.button1,{action} Abrir la puerta
+TokenExploreRightBedroom.text,Una puerta de madera sin nada destacable.
+TokenExploreRightBedroom.button1,{action} Abrir la puerta
+EventEnterLeftBedroom.text,Entras en un dormitorio escasamente amueblado. No hay muchos lugares para investigar, pero esperas encontrar algo que valga la pena. \n\n Coloca <color=yellow><b>2 fichas de Búsqueda</b></color> como se indica.
+EventEnterLeftBedroom.button1,Continuar
+EventOpenRightBedroomDoor.button1,Continuar
+TokenSearchLeftBedroomDesk.text,El pequeño escritorio es muy sencillo, pero podría contener algo útil.
+EventOpenRightBedroomDoor.text,Entras en un dormitorio escasamente amueblado. No hay muchos lugares para investigar, pero esperas encontrar algo que valga la pena. \n\n Coloca <color=yellow><b>2 fichas de Búsqueda</b></color> como se indica.
+TokenSearchLeftBedroomDesk.button1,{action} Buscar
+EventLeftBedroomFindWhiskey.text,Quizás incluso los sectarios, por locos que estén, necesiten coraje líquido para continuar con sus macabras maquinaciones. \n\n Ganas el Objeto común <b>Whisky</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventLeftBedroomFindWhiskey.button1,Continuar
+EventLeftBedroomFindSedatives.text,Quizás incluso los sectarios, por locos que estén, necesiten algo para calmar sus nervios después de realizar sus macabros rituales. \n\n Ganas el Objeto común <b>Sedante</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventLeftBedroomFindSedativesOrWhiskey.button1,Button1
+EventLeftBedroomFindSedatives.button1,Continuar
+TokenSearchRightBedroomShelves.text,Los estantes de madera están llenos de estatuas grotescas y macabras, pero es posible que todavía encuentres algo útil.
+TokenSearchRightBedroomShelves.button1,{action} Buscar
+EventRightBedroomWhiskeyOrSedatives.button1,Button1
+EventRightBedroomFindWhiskey.text,Quizás incluso los sectarios, por locos que estén, necesiten <i>coraje líquido</i> para continuar con sus macabras maquinaciones. \n\n Ganas el Objeto común <b>Whisky</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventRightBedroomFindWhiskey.button1,Continuar
+EventRightBedroomFindSedatives.text,Quizás incluso los sectarios, por locos que estén, necesiten algo para calmar sus nervios después de realizar sus macabros rituales. \n\n Ganas el Objeto común <b>Sedante</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventRightBedroomFindSedatives.button1,Continuar
+EventFindNothingInDesk.text,Dejando a un lado los muchos trastos inútiles, no encuentras nada útil. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventFindNothingInDesk.button1,Continuar
+EventRightBedroomShelvesEmpty.text,Dejando a un lado los muchos trastos inútiles, no encuentras nada útil. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventRightBedroomShelvesEmpty.button1,Continuar
+TokenSearchLeftBedroomBed.text,La cama es vieja, el colchón está hecho jirones y apesta a sudor.
+TokenSearchLeftBedroomBed.button1,{action} Buscar
+TokenSearchRightBedroomBed.text,La cama está sin hacer y cubierta con numerosas manchas.
+TokenSearchRightBedroomBed.button1,{action} Buscar
+EventRightBedNothing.text,Miras detenidamente sobre la cama y debajo de ella, pero no encuentras nada de interés. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventRightBedNothing.button1,Continuar
+EventRightBedDisruptionMagic.text,Debajo del colchón descubres un trozo de papel gastado. Contiene un texto escrito en un idioma antiguo y que detalla el contrahechizo para interrumpir el ritual de invocación. Uno de los sectarios debe haber guardado esto como un seguro en caso de que sus planes salieran mal. Haz una tirada de {lore}. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> por cada {success} en tu tirada. \n\n Ahora puedes detener la progresión del ritual de invocación. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventRightBedDisruptionMagic.button1,Continuar
+EventLeftBedDisruptionMagic.text,Debajo del colchón descubres un trozo de papel gastado. Contiene un texto escrito en un idioma antiguo y que detalla el contrahechizo para interrumpir el ritual de invocación. Haz una tirada de {lore}. \n\n Ganas <color=green><b>1 Pista {clue}</b></color> por cada {success} en tu tirada. \n\n Ahora puedes detener la progresión del ritual de invocación. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventLeftBedDisruptionMagic.button1,Continuar
+EventLeftBedNothing.text,Miras detenidamente sobre la cama y debajo de ella, pero no encuentras nada de interés. \n\n Descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventLeftBedNothing.button1,Continuar
+EventEnterVaultOffice.text,Dejando apresuradamente la horrible invocación a tus espaldas, te encuentras con una pequeña oficina. \n\n Coloca el módulo <color=cyan>{c:TileSafe}</color> en el lugar señalado.
+EventEnterVaultOffice.button1,Continuar
+EventAddSearchTokenVaultOffice.text,Un gran escritorio descansa en el centro de la habitación. Con suerte tendrá algo que puedas usar. \n\n Coloca una <color=yellow><b>ficha de Búsqueda</b></color> en el lugar señalado.
+EventAddSearchTokenVaultOffice.button1,Continuar
+EventAddExploreTokenVault.text,A tu derecha hay una enorme puerta. Observas que tiene un extraño mecanismo de cierre en su zona central compuesto por unas runas arcanas. Lo que quiera que haya detrás de esta puerta debe ser extremadamente importante. \n\n Coloca una <color=red><b>ficha de Exploración</b></color> en el lugar señalado.
+EventAddExploreTokenVault.button1,Continuar
+TokenSearchVaultOffice.text,El escritorio es de lo más corriente, pero parece que alguien ha lanzado un hechizo para proteger lo que quiera que haya en su interior.
+TokenSearchVaultOffice.button1,{action} Resolver el rompecabezas
+EventUnlockDeskSawYellowSign.button1,Continuar
+PuzzleDeskSpell.button1,Hecho
+EventUnlockDesk.text,Al contrarrestar el hechizo, ves un símbolo extraño destellar en tu mente. Al mismo tiempo, escuchas una voz sobrenatural que proclama «<color=Yellow><b>El signo amarillo</b></color>». \n\n Sufres <color=blue><b>1 de Horror</b></color> (anulado por {will}-1).
+EventUnlockDeskSawYellowSign.text,Al contrarrestar el hechizo, en tu mente aparece como un destello el símbolo maldito que se mostró en el cartel durante la obra. Al mismo tiempo, escuchas una voz sobrenatural que proclama «<color=Yellow><b>El signo amarillo</b></color>». \n\n Sufres <color=blue><b>1 de Horror</b></color> (anulado por {will}-1).
+EventUnlockDesk.button1,Continuar
+EventFindGunInDesk.text,Después de que tu mente vuelva a la realidad, rápidamente hurgas en el desordenado escritorio. Dejando a un lado unos papeles inútiles, encuentras un arma en la parte posterior del cajón central. \n\n Ganas el Objeto común <b>{c:QItemGun}</b> y descarta esta <color=yellow><b>ficha de Búsqueda</b></color>.
+EventFindGunInDesk.button1,Continuar
+TokenExploreVault.text,Te asombra el mecanismo rúnico situado en el centro de la verja de acero, aunque algunos de los símbolos te resultan familiares. Quizá puedas encontrar la secuencia correcta para abrir la puerta.
+TokenExploreVault.button1,{action} Resolver el rompecabezas
+EventEnterVault.text,Empujar para abrir la maciza puerta de metal no es una tarea sencilla, pero tu determinación por llegar hasta el final te impulsa a ello. La oscuridad envuelve la bóveda de piedra, haciendo que  apenas distingas las sangrientas marcas rituales que hay en el suelo. \n\n Coloca una <i>ficha de Oscuridad</i> y una <color=blue><b>ficha de Interacción</b></color> como se señala.
+PuzzleVaultDoor.button1,Hecho
+EventEnterVault.button1,Continuar
+SpawnGhost.text,Un espíritu maligno acecha el lugar, paseándose sobre el suelo manchado de sangre. Te lanza una mirada cruel. Está claro que su misión es evitar que alguien atraviese esta sala. \n\n Coloca un <i>Fantasma</i> en el lugar señalado.
+SpawnGhost.button1,Continuar
+SpawnWraith.text,Un espíritu maligno acecha el lugar, paseándose sobre el suelo manchado de sangre. Te lanza una mirada cruel. Está claro que su misión es evitar que alguien atraviese esta sala. \n\n Coloca un <i>Alma en pena</i> en el lugar señalado.
+SpawnWraith.button1,Continuar
+SpawnWraith2.text,Un espíritu maligno acecha el lugar, paseándose sobre el suelo manchado de sangre. Te lanza una mirada cruel. Está claro que su misión es proteger de intrusos esta habitación. \n\n Coloca un <i>Alma en pena</i> en el lugar señalado.
+SpawnWraith2.button1,Continuar
+TokenExploreDungeonHallToSacrificialChamber.button1,{action} Abrir la puerta
+TokenExploreDungeonHallToSacrificialChamber.text,Esta puerta está cerrada desde el lado de la Mazmorra. Sólo se puede abrir desde la Sala de ceremonias. 
+EventEnterDungeonHallFromSacrificialChamber.text,Consigues abrir la puerta a la mazmorra. \n\n Puedes moverte al interior de dicho espacio.
+EventEnterDungeonHallFromSacrificialChamber.button1,Continuar
+TokenInteractVault.text,Al acercarte al ritual en marcha, observas unos vapores que se elevan desde el centro del dibujo hecho con sangre que hay sobre el suelo
+TokenInteractVault.button1,{action} Interactuar
+EventInteractRitualCantDisrupt.text,Los poderes arcanos detrás de esta invocación son demasiado grandes para tu comprensión. Necesitas saber algo más del ritual que te ayude a interrumpir el hechizo.
+EventInteractRitualCantDisrupt.button1,Continuar
+TokenInteractVault.button2,{action} Interactuar
+EventDisruptRitual.text,Con el conocimiento que has adquirido, finalmente puedes interrumpir este maldito hechizo de invocación. \n\n Puedes intentar lanzar el contrahechizo \n\n o \n\n como grupo, los Investigadores situados en este espacio pueden gastar <color=green><b>2 Pistas {clue}</b></color> por cada Investigador en el juego para interrumpir automáticamente el ritual.
+EventDisruptRitual.button1,Tratar de interrumpirlo
+EventDisruptRitual.button2,Gastar <color=green><b>2 Pistas {clue}</b></color> por Investigador
+EventEndRitual.text,Tus esfuerzos resultan extremadamente efectivos. La sangre en el suelo de piedra desaparece en cuestión de segundos y te invade una sensación de alivio al presenciar los resultados de tu lucha. El estruendo se detiene y la energía arcana ya no surca el aire. \n\n Descarta todas las <b>fichas de Brecha dimensional</b> del tablero. \n\n Como grupo, podéis gastar <color=green><b>Pistas {clue}</b></color>, contribuyendo al hechizo de disrupción, para debilitar a <color=yellow><b>El Rey de Amarillo</b></color>. Debéis decidir ahora cuántas Pistas {clue} gastar, si elegís esta opción. \n\n Gasta <color=green><b>1 Pista {clue}</b></color> por Investigador en juego para infligir 8 de Daño. \n\n Gasta <color=green><b>2 Pistas {clue}</b></color> por Investigador en juego para infligir 18 de Daños. \n\n Gasta <color=green><b>3 Pistas {clue}</b></color> por Investigador en juego para infligir 30 de Daño. \n\n Recordad vuestra elección e infligid esa cantidad de daño una vez que aparezca vuestro enemigo.
+PuzzleDisruptSummoning.button1,Hecho
+EventEndRitual.button1,Continuar
+EventHasturForms.text,Escucháis un sonido horrendo proveniente de la sala de invocación. Todos los Investigadores os apresuráis a entrar juntos para ver qué horror os aguarda. La entidad inhumana ha asumido una forma corporal casi completa, pero estáis seguros de que vuestros esfuerzos le han impedido ganar su verdadera fuerza. Quizá todavía tengáis la oportunidad de repeler este antiguo mal. \n\n Colocad a los <b>Investigadores</b> en cualquier lugar del salón de baile. \n\n Al entrar en la gran habitación, las puertas se cierran detrás de vosotros. Los enemigos restantes se mueven con vosotros al salón de baile (elegid dónde se colocan). \n\n Colocad <color=red><b>2 fichas de Exploración</b></color> como se indica.
+EventHasturForms.button1,Continuar
+CustomMonsterHasturWeak.info,-
+CustomMonsterHasturMedium.info,-
+CustomMonsterHasturWeak.monstername,Hastur
+CustomMonsterHasturStrong.info,-
+CustomMonsterHasturMedium.monstername,Hastur
+CustomMonsterHasturStrong.monstername,Hastur
+SpawnHasturWeak.text,<color=yellow><b>El Rey de Amarillo</b></color> flota en el aire sobre muchos apéndices con tentáculos. No puedes ver su rostro bajo su capucha dorada, pero de todos modos sientes su malicia. Debes derrotar a esta entidad aquí y ahora, de lo contrario, sus otros seguidores seguramente extraerán su verdadero poder y acabarán con el mundo tal y como lo conoces. \n\n Coloca a <color=yellow><b>Hastur</b></color> como se indica (usa cualquier miniatura o continúa usando la <b>ficha de Personaje</b>). \n\n <i><b>Nota:</b></i> vuestra iniciativa interrumpiendo el ritual ha tenido éxito y habéis debilitado mucho a Hastur.
+SpawnHasturWeak.button1,Continuar
+SpawnHasturMedium.text,<color=yellow><b>El Rey de Amarillo</b></color> flota en el aire sobre muchos apéndices con tentáculos. No puedes ver su rostro bajo su capucha dorada, pero de todos modos sientes su malicia. Debes derrotar a esta entidad aquí y ahora, de lo contrario, sus otros seguidores seguramente extraerán su verdadero poder y acabarán con el mundo como lo conoces. \n\n Coloca a <color=yellow><b>Hastur</b></color> como se indica (usa cualquier miniatura o continúa usando la <b>ficha de Personaje</b>). \n\n <i><b>Nota:</b></i> quizá podáis detener el ritual rápidamente para debilitar un poco a Hastur.
+SpawnHasturMedium.button1,Continuar
+SpawnHasturStrong.text,<color=yellow><b>El Rey de Amarillo</b></color> flota en el aire sobre muchos apéndices con tentáculos. No puedes ver su rostro bajo su capucha dorada, pero de todos modos sientes su malicia. Debes derrotar a esta entidad aquí y ahora, de lo contrario, sus otros seguidores seguramente extraerán su verdadero poder y acabarán con el mundo como lo conoces. \n\n Coloca a <color=yellow><b>Hastur</b></color> como se indica (usa cualquier miniatura o continúa usando la <b>ficha de Personaje</b>). \n\n <i><b>Nota:</b></i> no fuisteis lo suficientemente rápidos en interrumpir el ritual como para debilitar significativamente a Hastur.
+SpawnHasturStrong.button1,Continuar
+EventHasturMovesNone.text,Hastur permanece completamente quieto, como si fuese una estatua, casi como si estuviese congelado en el tiempo.
+EventHasturMovesNone.button1,Continuar
+EventHasturMovesClockwise1.text,Hastur se mueve 1 espacio en el sentido de las agujas del reloj. \n\n Si se impide el movimiento de Hastur usando una <b>ficha de Contención</b>, Hastur sufre 1 de Daño.
+EventHasturMovesClockwise1.button1,Continuar
+EventHasturMovesClockwise2.text,Hastur se mueve 2 espacios en el sentido de las agujas del reloj. Cualquier Investigador situado en el espacio inicial de Hastur, o por el que éste haya pasado, se mueve a su espacio de destino con él. \n\n Si el movimiento de Hastur es impedido por una <b>ficha de Contención</b>, Hastur sufre 2 de Daño y éste se mueve 1 casilla en el sentido de las agujas del reloj. Una más o sólo una en lugar de las dos iniciales? Si hay un investigador en el mismo espacio que Hastur, sigue siendo arrastrado por el movimiento de éste?
+EventHasturMovesClockwise2.button1,Continuar
+EventHasturMovesCC1.text,Hastur se mueve 1 espacio en el sentido de las agujas del reloj. \n\n Si se impide el movimiento de Hastur usando una <b>ficha de Contención</b>, Hastur sufre 1 de Daño.
+EventHasturMovesCC1.button1,Continuar
+EventHasturMovesCC2.text,Hastur se mueve 2 espacios en el sentido de las agujas del reloj. Cualquier Investigador situado en el espacio inicial de Hastur, o por el que éste haya pasado, se mueve a su espacio de destino con él. \n\n Si el movimiento de Hastur es impedido por una <b>ficha de Contención</b>, Hastur sufre 2 de Daño y éste se mueve 1 casilla en el sentido de las agujas del reloj.
+EventHasturMovesCC2.button1,Continuar
+EventHasturAttack1.text,Apéndices con tentáculos se agitan alrededor de Hastur en una furia febril, amenazando con golpear a cualquiera que esté cerca de él. \n\n Todos los Investigadores situados en el espacio de Hastur o en un espacio adyacente sufren <color=red><b>3 de Daño</b></color> (anulados por {fuerza}+{agilidad}).
+EventHasturAttack1.button1,Continuar
+EventHasturAttack2.text,Hastur suplica a {rnd:hero} que se una a él, ofreciéndole poder y riquezas más allá de lo imaginable. Luchas por resistirte a su tentadora propuesta ({influence}; 2). \n\n Si superas la tirada, descartas elocuentemente su impía oferta. Si fallas, mueve a tu Investigador 1 casilla hacia Hastur. Si terminas en su espacio, sufres <color=red><b>2 de Daño</b></color>.
+EventHasturAttack2.button1,Continuar
+EventHasturAttack3.text,Alzando los brazos con gracia y elegancia, una neblina amarilla se espesa alrededor de la siniestra figura de Hastur. \n\n Todos los Investigadores situados en su espacio sufren <color=red><b>3 de Daño</b></color> (resta 1 Daño por cada espacio que Hastur se haya movido este turno).
+EventHasturAttack3.button1,Continuar
+EventHasturAttack4.text,Un rayo brillante de luz amarilla surge de las mangas de la túnica de Hastur, dirigido directamente a {rnd:hero}. \n\n Sufres <color=red><b>3 de Daño</b></color> (anulados por {agility}+{observation}-1).
+EventHasturAttack4.button1,Continuar
+CustomMonsterHasturWeak.Attack_heavy_1,No puedes acercarte al cuerpo de Hastur, pero mueves tu arma tan fuerte como puedes con la esperanza de conectar un golpe efectivo a los apéndices de tentáculos de Hastur ({strength}; 2). Si superas la tirada, efectúas un golpe certero, el cual produce un repugnante sonido de carne aplastada. Infliges tanto Daño como el daño de tu arma. Si fallas, los tentáculos resisten tu <i>swing</i> con gran fuerza. Sufres <color=red><b>1 de Daño</b></color> y te alejas 1 espacio de Hastur.
+CustomMonsterHasturWeak.Attack_bladed_1,Si te mueves con rapidez y precisión, es posible que puedas cortar uno de los tentáculos que te mantienen a raya ({agility}; 2). Si superas la tirada, uno de los retorcidos apéndices cae sin vida al suelo, aunque otro vuelve a crecer para ocupar su lugar. Infliges un Daño igual al de tu arma. Si fallas, el tentáculo te arranca el arma de las manos. Coloca tu arma a 1 casilla de tu Investigador.
+CustomMonsterHasturWeak.Attack_bladed_2,-
+CustomMonsterHasturWeak.Attack_firearm_1,Apuntando a la horrible monstruosidad que tienes ante ti, tratas de concentrarte para disparar. Haz una tirada de ({observation}+{will}; 4). Si superas la tirada, mantienes la compostura y consigues un disparo certero. Hastur se balancea en el aire cuando la bala atraviesa su atuendo amarillo. Infliges el Daño de tu arma más 2. Si fallas, el horrible rostro de Hastur consigue que te desconcentres y tu disparo vuela contra la pared. Adquieres el estado <b>Estresado</b>.
+CustomMonsterHasturWeak.Attack_spell_1,Seguramente un ser sobrenatural como éste será vulnerable a los poderes de la magia arcana. Pronuncias el encantamiento con fervor, ejerciendo toda tu voluntad en el hechizo ({lore}+{will}; 4). Si superas la tirada, Hastur gime y flaquea a causa de una intensa agonía. Infliges un Daño igual al del Hechizo más el resultado de tu tirada. Si fallas, no consigues ejercer suficiente poder sobre la incognoscible voluntad antigua de Hastur. \n\n Da la vuelta a la carta del Hechizo y resuelve su texto.
+CustomMonsterHasturWeak.Attack_unarmed_1,No tienes ninguna esperanza de poder hacer un daño significativo a este enigmático ser con tus propias manos. Luchas por recordar fragmentos de maldiciones ocultas que has aprendido y se las gritas a Hastur sin cesar. Haz una tirada de ({lore}; 2). Si superas la tirada, te sientes aliviado al ver que tus intentos desesperados tienen algún efecto. Infliges un Daño igual al resultado de tu tirada -1. Si fallas, Hastur no se ve afectado por tus tontos balbuceos.
+CustomMonsterHasturWeak.Attack_firearm_2,Temes mirar a Hastur más de lo necesario. Rápidamente disparas a la masa de tentáculos que lo sostienen esperando un golpe fácil ({agility}; 2). Si superas la tirada, tu bala atraviesa uno de sus apéndices viscosos. Infliges un Daño igual al de tu arma. Si fallas, no eres lo suficientemente certero con tu puntería, enviando plomo directamente al suelo.
+CustomMonsterHasturWeak.Attack_spell_2,Canalizando tu hechizo en el horrible rostro, intentas enfocar la energía arcana directamente en el oscuro abismo bajo la capucha dorada de Hastur ({lore}+{observation}; 3). Si superas la tirada, Hastur se ve superado por la intensidad de la energía. Infliges un Daño igual al de tu Hechizo +2. Si fallas, no puedes mantener tu concentración mientras Hastur se desplaza de un lado a otro evitando la explosión arcana. \n\n Da la vuelta a tu carta de Hechizo y resuelve su texto.
+EventHasturHorror.button1,Button1
+EventHasturHorror1.text,La masa de retorcidos tentáculos que sobresalen bajo la túnica amarilla de Hastur gotean un lodo asqueroso que abruma tus sentidos, haciendo que tus ojos se llenen de lágrimas. \n\n Sufres <color=blue><b>3 de Horror boca abajo</b></color> (anulados por {will}+{strength}). Si sufres al menos <color=blue><b>1 de Horror</b> </color>, aleja de Hastur a tu investigador un espacio.
+EventHasturHorror1.button1,Continuar
+EventHasturHorror2.text,Hastur pronuncia palabras desconocidas en un idioma extraño. La falta de comprensión no te protege de su vil maldición. \n\n Sufres <color=blue><b>1 de Horror</b></color> (anulado por {will} -1). Si sufres este <color=blue><b>Horror</b></color>, suelta 1 Objeto aleatorio en tu espacio.
+EventHasturHorror2.button1,Continuar
+EventHasturHorror3.text,Los ojos de color rojo sangre brillan en la oscuridad debajo de la capucha dorada. Incapaz de apartar la mirada, estás completamente paralizado por el rostro de Hastur. \n\n Sufres <color=blue><b>1 Horror boca abajo</b></color> y adquieres el estado <b>Aturdido</b>.
+EventHasturHorror3.button1,Continuar
+EventEvadeHastur.text,Intenta poner distancia entre tú y este ser demoníaco, tratando de evitar sus tentáculos que se agitan sin descanso ({agility}+{observation}; 4). Si superas la tirada, consigues evitar la viscosa masa de apéndices de Hastur. Si fallas la tirada, un tentáculo se enrosca alrededor de tu tobillo y te hace caer contra el suelo. Pierdes tu acción y sufres <color=red><b>1 Daño boca abajo</b></color>.
+EventEvadeHastur.button1,Continuar
+CustomMonsterHasturMedium.Attack_heavy_1,No puedes acercarte al cuerpo de Hastur, pero blandes tu arma tan fuerte como eres capaz con la esperanza de conectar un golpe efectivo a los apéndices tentaculares de Hastur ({strength}; 2). Si superas la tirada, asestas un efectivo golpe que va seguido de un repugnante sonido de carne aplastada; infliges el Daño de tu arma -1. Si fallas, los tentáculos te sujetan el brazo con una fuerza brutal; sufres <color=red><b>1 de Daño</b></color> y te alejas 1 espacio de Hastur.
+CustomMonsterHasturMedium.Attack_bladed_1,Si te mueves con rapidez y precisión, es posible que puedas cortar uno de los tentáculos que te mantienen a raya ({agility}; 2). Si superas la tirada, uno de los retorcidos apéndices cae sin vida al suelo, aunque otro vuelve a crecer para ocupar su lugar; Hastur sufre un Daño igual al de tu arma -1. Si fallas la tirada, el tentáculo te arranca el arma de las manos. Coloca tu arma en un espacio adyacente a tu investigador.
+CustomMonsterHasturMedium.Attack_firearm_1,Apuntando a la horrible monstruosidad que tienes ante ti, tratas de concentrarte para disparar ({observation}+{will}; 4). Si superas la tirada, mantienes la compostura y consigues un disparo certero. Hastur se balancea en el aire cuando la bala atraviesa su atuendo amarillo. Infliges el Daño de tu arma +1. Si fallas la tirada, el horrible rostro de Hastur consigue que te desconcentres y tu disparo vuela contra la pared; adquieres el estado <b>Estresado</b>.
+CustomMonsterHasturMedium.Attack_spell_1,Seguramente un ser sobrenatural como éste será vulnerable a los poderes de la magia arcana. Pronuncias el encantamiento con fervor, volcando toda tu voluntad en el hechizo ({lore}+{will}; 4). Si superas la tirada, Hastur gime y se agita a causa de una intensa agonía; Hastur sufre un Daño igual al del Hechizo +2. Si fallas la tirada, no consigues ejercer suficiente poder sobre la incognoscible voluntad primigenia de Hastur. \n\n Da la vuelta a la carta del Hechizo y resuelve su texto.
+CustomMonsterHasturMedium.Attack_unarmed_1,No tienes ninguna posibilidad de hacer un daño significativo a este enigmático ser con tus propias manos. Luchas por recordar fragmentos de maldiciones ocultas que has aprendido y se las gritas a Hastur sin cesar ({lore}; 2). Si superas la tirada, te sientes aliviado al ver que tus intentos desesperados tienen algún efecto; Hastur sufre un Daño igual al resultado de tu tirada -1. Si fallas la tirada, Hastur no se ve afectado por tus tontos balbuceos.
+CustomMonsterHasturMedium.Attack_spell_2,Canalizando tu hechizo en el horrible rostro, intentas enfocar la energía arcana directamente en el oscuro abismo bajo la capucha dorada de Hastur ({lore}+{observation}; 3). Si superas la tirada, Hastur se ve superado por la intensidad de la energía. Infliges un Daño igual al de tu Hechizo. Si fallas, no puedes mantener tu concentración mientras Hastur se desplaza de un lado a otro evitando la explosión arcana. \n\n Da la vuelta a tu carta de Hechizo y resuelve su texto.
+CustomMonsterHasturMedium.Attack_firearm_2,Temes mirar a Hastur más de lo necesario. Rápidamente disparas a la masa de tentáculos que lo sostienen esperando un golpe fácil ({agility}; 2). Si superas la tirada, tu bala atraviesa uno de sus apéndices viscosos. Infliges un Daño igual al de tu arma -1. Si fallas la tirada, no eres lo suficientemente certero con tu puntería, enviando plomo directamente al suelo.
+CustomMonsterHasturStrong.Attack_heavy_1,No puedes acercarte al cuerpo de Hastur, pero blandes tu arma tan fuerte como eres capaz con la esperanza de darle un certero golpe a los tentáculos de Hastur ({strength}; 2). Si superas la tirada, asestas un golpe efectivo, seguido de un repugnante sonido de carne aplastada; Hastur sufre el Daño de tu arma. Si fallas la tirada, los tentáculos resisten tu <i>swing</i> con gran fuerza. Sufres <color=red><b>1 de Daño</b></color> y te alejas 1 espacio de Hastur.
+CustomMonsterHasturStrong.Attack_bladed_1,Si te mueves con rapidez y precisión, es posible que puedas cortar uno de los tentáculos que te mantienen a raya ({agility}; 2). Si superas la tirada, uno de los retorcidos apéndices cae sin vida al suelo, aunque otro vuelve a crecer para ocupar su lugar. Infliges un Daño igual al de tu arma. Si fallas la tirada, el tentáculo te arranca el arma de las manos; coloca tu arma en una casilla adyacente a tu Investigador.
+CustomMonsterHasturStrong.Attack_firearm_1,Apuntando a la horrible monstruosidad que tienes ante ti, tratas de concentrarte para disparar. Haz una tirada de ({observation}+{will}; 4). Si superas la tirada, mantienes la compostura y consigues un disparo certero. Hastur se balancea en el aire cuando la bala atraviesa su atuendo amarillo; e monstruo sufre el Daño de tu arma +2. Si fallas la tirada, el horrible rostro de Hastur consigue que te desconcentres y tu disparo vuela contra la pared; adquieres el estado <b>Estresado</b>.
+CustomMonsterHasturStrong.Attack_spell_1,Seguramente un ser sobrenatural como éste será vulnerable a los poderes de la magia arcana. Pronuncias el encantamiento con fervor, volcando toda tu voluntad en el hechizo ({lore}+{will}; 4). Si superas la tirada, Hastur gime y flaquea a causa de una intensa agonía; Hastur sufre un Daño igual al del Hechizo más el resultado de tu tirada. Si fallas la tirada, no consigues ejercer suficiente poder sobre la incognoscible voluntad primigenia de Hastur. \n\n Da la vuelta a la carta del Hechizo y resuelve su texto.
+CustomMonsterHasturStrong.Attack_unarmed_1,No tienes ninguna posibilidad de hacer un daño significativo a este enigmático ser con tus manos desnudas. Luchas por recordar fragmentos de maldiciones ocultas que has aprendido y se las gritas a Hastur sin cesar. Haz una tirada de ({lore}; 2). Si superas la tirada, te sientes aliviado al ver que tus intentos desesperados tienen algún efecto; el monstruo sufre un Daño igual al resultado de tu tirada -1. Si fallas la tirada, Hastur no se ve afectado por tus tontos balbuceos.
+CustomMonsterHasturStrong.Attack_firearm_2,Temes mirar a Hastur más de lo necesario. Rápidamente disparas a la masa de tentáculos que lo sostienen esperando un golpe fácil ({agility}; 2). Si superas la tirada, tu bala atraviesa uno de sus apéndices viscosos; el monstruo sufre un Daño igual al de tu arma. Si fallas la tirada, no eres lo suficientemente certero con tu puntería, enviando plomo directamente al suelo.
+CustomMonsterHasturStrong.Attack_spell_2,Canalizando tu hechizo en el horrible rostro, intentas enfocar la energía arcana directamente en el oscuro abismo bajo la capucha dorada de Hastur ({lore}+{observation}; 3). Si superas la tirada, Hastur se ve superado por la intensidad de la energía; Hastur sufre un Daño igual al de tu Hechizo +2. Si fallas la tirada, no puedes mantener tu concentración mientras Hastur se desplaza de un lado a otro evitando la explosión arcana. \n\n Da la vuelta a tu carta de Hechizo y resuelve su texto.
+EventMythos.button1,Button1
+EventMythosMistSilouhette.button1,Continuar
+EventMythosMistNoises.text,{rnd:hero} oye unos misteriosos ruidos que se acercan y que crecen en intensidad, pero nada surge de la neblina. De repente, oyes un fuerte grito y a continuación se hace un silencio sepulcral. ¿Acaso te está jugando tu mente una mala pasada? Haz una tirada de ({will}; 3). Si superas la tirada, mantienes la compostura, diciéndote a ti mismo que los ruidos son imaginaciones tuyas. Si fallas la tirada, asustado por el abrupto sonido, caes de espalda y te golpeas la cabeza, preocupado por unos inquietantes ruidos; sufres <color=red><b>1 de Daño boca abajo</b></color> y <color=blue><b>1 de Horror boca abajo</b></color>.
+EventMythosMistNoises.button1,Continuar
+EventMythosLobbyCultist.text,Una figura vestida con una túnica sale de entre la multitud, lanzando discretamente una estocada con un cuchillo a {rnd:hero} antes de desaparecer entre el resto de personas. \n\n Sufres <color=red><b>2 de Daño</b></color> (anulados por {observation}).
+EventMythosLobbyPeople.button1,Continuar
+EventMythosMistSilouhette.text,Unas siluetas de aspecto monstruoso acechan al otro lado de la bruma, justo fuera del alcance de tu vista. ¿O es sólo tu imaginación desatada? \n\n Todos los Investigadores sufren <color=blue><b>1 de Horror boca abajo</b></color> (anulado por {will}).
+EventMythosLobbyPeople.text,{rnd:hero} observa a la multitud que charla y socializa en el vestíbulo del teatro. Te quedas horrorizado al ver carne desnuda, huesos y piel que parecen fundirse en los rostros de los promotores de la función, aunque nadie más parece darse cuenta de ello. \n\n Sufres <color=blue><b>2 de Horror</b></color> (anulados por {will}).
+EventMythosLobbyCultist.button1,Continuar
+EventMythosYellowSign.button1,Continuar
+EventMythosHastursName.text,{rnd:hero} no puede dejar de pensar en el <color=yellow><b>Nombre</b></color>. Su poder es mayor del que puedes asumir. A medida que se extiende por tu mente, luchas por resistir el dolor. \n\n Sufres <color=red><b>2 de Daño</b></color> (anulados por {will}-1). Si sufres <color=red><b>Daño</b></color>, adquieres el Estado <b>Estresado</b>. Puedes gastar <color=green><b>2 Pistas {clue}</b></color> para cancelar todos los efectos negativos.
+EventMythosYellowSign.text,{rnd:hero} no puede dejar de ver <color=yellow><b>El Signo amarillo</b></color>. Este refugio de maldad está lleno de dibujos y grabados del horrible símbolo. ¿Es que no hay salida para este tormento? \n\n Sufres <color=blue><b>2 de Horror</b></color> (anulados por {will}-1). Si sufres <color=blue><b>Horror</b></color>, adquieres el Estado <b>Aturdido</b>. Puedes gastar <color=green><b>2 Pistas {clue}</b></color> para cancelar todos los efectos negativos.
+EventMythosHastursName.button1,Continuar
+EventMythosRubble.text,El edificio sigue temblando, poniendo en riesgo su integridad estructural. Parte del techo se cae, llenando de escombros tu camino. \n\n Coloca una <b>ficha de Escombros</b> en el espacio más cercano a {rnd:hero} que contenga una <color=yellow><b>ficha de Búsqueda</b></color>, una <color=blue><b>ficha de Interacción</b></color>, o una <color=red><b>ficha de Exploración</b></color>. Todos los Investigadores que estén en ese espacio sufren <color=red><b>1 de Daño</b></color> (anulado por {observation}-1).
+EventMythosRubble.button1,Continuar
+EventMythosWater.text,El suelo resuena y tiembla cada vez con más violencia alrededor de {rnd:hero}. De repente, una cañería del suelo revienta, vertiendo litros y litros de agua en la habitación. Tratas de mantener el equilibrio contra la súbita erupción acuática. \n\n Sufres <color=red><b>2 de Daño</b></color> (anulados por {agility}-1). Coloca una <b>ficha de Inundación</b> en cada espacio de la habitación.
+EventMythosWater.button1,Continuar
+EventMythosDarkness.text,La estructura sigue sometida bajo los enloquecedores temblores. Los apliques de luz comienzan a estallar en torno a {rnd:hero}. \n\n Coloca una ficha de <i>Oscuridad</i> en tu espacio. Si ya había una ficha de <i>Oscuridad</i> en tu espacio, sufres <color=blue><b>1 de Horror</b></color>.
+EventMythosDarkness.button1,Continuar
+EventMythosMesmerize.text,La energía arcana que emana a través del aire comienza a penetrar en tu mente. Tratas de resistirte lo mejor que puedes. Todos los Investigadores deben realizar una prueba de ({will}+{lore}; 3). Si superas la tirada, consigues sobreponerte a los poderes místicos que te rodean. Si fallas la tirada, sufres <color=blue><b>1 de Horror boca abajo</b></color> y adquieres el Estado <b>Hipnotizado</b>.
+EventMythosMesmerize.button1,Continuar
+EventMythosRift.text,La energía mágica que hay alrededor de {rnd:hero} explota formando una brecha dimensional. La succión causada por la rotura de la realidad amenaza con absorberte ({agility}; 2). Si superas la tirada, evitas ser arrastrado por la brecha dimensional. Si fallas la tirada, adquieres el estado <b>Perdido en el tiempo y el espacio</b>. \n\n Coloca una <b>ficha de Brecha dimensional</b> en tu espacio.
+EventMythosRift.button1,Continuar
+EventMythosStunned.button1,Continuar
+SpawnMythosHuntingHorror.button1,Continuar
+EventMythosGainClues.text,Las piezas que forman el misterio que hay detrás de <color=yellow><b>El Rey de Amarillo</b></color> comienzan a encajar de forma cada vez más evidente para {rnd:hero}. Realiza una prueba de {lore}. \n\n Ganas <color=green><b>un número de Pistas {clue}</b></color> igual al resultado de tu tirada.
+EventMythosGainClues.button1,Continuar
+EventMythosLoseClues.text,La investigación se está cobrando un alto precio con vuestras mentes. Tenéis la sensación de que algún tipo de entidad está drenando vuestros pensamientos y recuerdos. \n\n Todos los Investigadores pierden <color=green><b>2 Pistas {clue} </b></color> (anulado por {will}-1).
+EventMythosLoseClues.button1,Continuar
+EventEliminated.text,El ritual gana un considerable poder con la muerte de tu amigo. «Aquél que no debe ser nombrado» emerge a nuestro mundo y reclama vuestras almas. \n\n La investigación ha fracasado.
+EventEliminated.button1,Continuar
+UIContinueEnding.uitext,Continuar
+UIBadEndingText.uitext,Mientras te lamentas sobre el cadáver de tu compañero muerto, \n la sensación inminente del fin de todo te embarga. Los sectarios llegan en masa, \n entonando el nombre de «Hastur» y del «Signo amarillo». \n\n La entidad alienígena convocada por el macabro ritual \n levanta sus brazos, envueltos en una túnica harapienta de un amarillo inmaculado. \n Sientes una intensa desazón dentro de tu cuerpo como nunca antes \n habías sentido. De repente, notas cómo tu vida se te escapa \n mientras tu alma es absorbida por el abismo de la expresión sin rostro de Hastur. \n En tus últimos instantes, contemplas \n una brecha dimensional que muestra al otro lado los altos capiteles \n y estrellas oscuras de Carcosa, que pronto se fusionará \n con vuestro mundo.
+EventDefeatHasturWeak.button1,Button1
+EventDefeatHasturMedium.button1,Continuar
+EventDefeatHasturStrong.button1,Continuar
+UIGoodEndingText.uitext,Hastur se retuerce agonizando ante ti, \n con los tentáculos agitándose de modo errático \n sobre el suelo de madera, y su túnica amarilla se oscurece con lo que \n asumes que sólo puede ser sangre. \n\n De repente, una brecha dimensional se abre \n y Hastur se desvanece sin dejar rastro. Apenas puedes llegar a atisbar Carcosa, \n el hogar de <color=yellow><b>El Rey de Amarillo</b></color> a través de la fisura. Los altos capiteles, \n las oscuras estrellas y el terrorífico paisaje hacen que te estremezcas mientras \n la brecha dimensional cierra el vínculo entre los dos mundos. \n\n No te crees que Hastur esté realmente muerto. Sus seguidores, \n sin lugar a duda, son legión y se encuentran por todas partes. \n\n Te propones encontrarlos y poner fin a sus terribles planes, \n ya que el mundo nunca podría soportar el poder completo de \n «Aquél que no debe ser nombrado».
+EventMythosSpiritsBeckon.button1,Continuar
+EventResistSpirits0to1.text,Pierdes el conocimiento al tiempo que las apariciones completan el control de tus facultades mentales. Te despiertas en la celda de una mazmorra, sin la más mínima idea de cómo has llegado hasta allí. Pero de algún modo te sientes aliviado por tus circunstancias. Coloca a tu Investigador en la celda más a la izquierda de la mazmorra. Sufres <color=blue><b>2 de Horror boca abajo</b></color> y adquieres el estado <i>Retenido</i>.
+EventMythosSpiritsBeckon.text,Las almas de los difuntos recientes se aparecen ante {rnd:hero}, haciéndole señas para que se una a ellos en la nueva paz hallada con el Rey Harapiento. Lo único que debes hacer es volver a tu celda y esperar tu turno para una incomprensible dicha. Tratas de razonar con los espíritus de que ahí sólo te aguarda el dolor, pero su influencia extraterrenal es demasiado difícil de resistir ({influence}+{will} -2).
+EventResistSpirits0to1.button1,Continuar
+EventResistSpirits2.text,Tu mente se debilita bajo la influencia de los seres sobrenaturales que se encuentran ante ti. Una apatía se apodera de ti mientras cumples sus órdenes. \n\n Mueve 2 espacios hacia la celda de la mazmorra más a la izquierda y sufres <color=blue><b>1 de Horror boca abajo</b></color>. Si llegas a la celda, adquieres el estado <i>Retenido</i>.
+EventResistSpirits2.button1,Continuar
+EventResistSpirits3.text,Eres capaz de mantener la compostura, resistiendo la influencia del espíritu. Aún así, sientes cómo su aura corrupta drena tu mente. \n\n Descarta <color=green><b>2 Pistas {clue}</b></color> 
+EventResistSpirits3.button1,Continuar
+EventResistSpirits4OrMore.text,Con un súbito sentimiento de confianza, rechazas sus locas divagaciones. Las apariciones se difuminan, gimiendo mientras agonizan. \n\n Adquieres el estado <i>Virtuoso</i>.
+EventResistSpirits4OrMore.button1,Continuar
+EventMythosStunned.text,Unas voces ignotas fluyen a través de la energía arcana que inunda la estancia. {rnd:hero} comienza a sufrir una maldición alienígena ({will}; 2). Si superas la tirada, bloqueas las palabras y la maldición. Si fallas la tirada, los siniestros susurros penetran hasta lo más hondo de tu ser; sufres <color=blue><b>1 de Horror boca abajo</b></color> y adquieres el estado <b>Aturdido</b>.
+SpawnMythosHound.text,Un chispazo de energía arcana crepita cuando la brecha se abre el tiempo justo para que una enorme bestia salte a través de ella. La criatura olfatea el aire y se queda mirando a {rnd:hero}, mostrando unos enormes colmillos mientras babea con sus fauces abiertas. \n\n Aparece un <i>Perro de Tindalos</i> en tu mismo espacio.
+SpawnHoundOfTindalos.text,Merodeando alrededor del suelo manchado de sangre hay una descomunal bestia que no se parece a nada que hayas visto antes. Parece evidente que esta abominación tiene como misión hacerse cargo de cualquier intruso que entre en esta sala. \n\n Coloca un <i>Perro de Tíndalos</i> en el lugar señalado.
+SpawnHoundOfTindalos.button1,Continuar
+EventMythosSpawn.button1,Button1
+SpawnMythosHuntingHorror.text,Un chispazo de energía arcana crepita cuando la brecha se abre el tiempo justo para que una bestia reptante se deslice a través de ella. La escalofriante criatura se queda mirando a {rnd:hero}, mostrando unos enormes colmillos mientras babea con sus fauces abiertas. \n\n Aparece un <i>Horrendo cazador</i> en tu mismo espacio.
+SpawnMythosHound.button1,Continuar
+SpawnMythosFeatheredSerpent.text,Un chispazo de energía arcana crepita cuando la brecha se abre el tiempo justo para que una bestia serpentina cruce volando a través de ella. Las alas emplumadas de la criatura abanican el aire en dirección a {rnd:hero}, y su lengua bífida emerge sin cesar entre sus afilados colmillos. \n\n Aparece una <i>Serpiente emplumada</i> en tu mismo espacio.
+SpawnMythosFeatheredSerpent.button1,Continuar
+EventRefreshActions.text,Todos los Investigadores vuelve a tener sus acciones disponibles como si fuese el inicio de una nueva Fase de Investigadores.
+EventRefreshActions.button1,Continuar
+EventInvestigationComplete.button1,Continuar
+EventCastSpellToRevealEnvoy.text,Juntando tus conocimientos ocultos sobre conjuros con los limitados detalles del hechizo escrito en el cuaderno, pronuncias un oscuro encantamiento con la intención de crear un puente que conecte con la dimensión del Enviado cuando abras la puerta. \n\n Cualquier Investigador situado en esta habitación puede ayudar en el lanzamiento del hechizo gastando sus <color=green><b>Pistas {clue}</b></color>  Por cada 2 Pistas {clue} gastadas, puedes añadir 1 Éxito {success} automático. Sin embargo, las Pistas {clue} deben ser gastadas antes de tirar los dados. Ten en cuenta que, incluso aunque falles la tirada, puede que lo consigas de este modo. \n\n Haz una tirada de ({lore}; 4).
+EventInvestigationComplete.text,Tras sacudirte de encima tu incomprensible miedo, te echas al suelo entre aliviado y terriblemente abrumado por los eventos de esta noche. \n\n La investigación ha sido un éxito.
+EventCastSpellToRevealEnvoy.button1,Éxito
+EventCastSpellToRevealEnvoy.button2,Fallo
