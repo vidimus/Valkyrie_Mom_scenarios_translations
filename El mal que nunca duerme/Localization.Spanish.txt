@@ -1,0 +1,794 @@
+.,Spanish
+quest.name,El mal que nunca duerme
+quest.synopsys,Un viaje en barco se transforma en una pesadilla cuando una inconcebible tormenta toma forma.
+Eventprologo1.text,Cada Investigador comienza con 2 Pistas <color=green>{clue}</color> 
+Eventprologo1.button1,Continuar
+EventPrologo2.text,Embarcasteis por la mañana en un pequeño pueblecito cerca de Innsmouth. Mientras el barco se alejaba del puerto, no podíais ni imaginar que algo terrible estaba a punto de suceder. \n Durante la noche se empieza a formar una inusual tormenta. El capitán os asegura que será pasajera, pero a juzgar por los intensos vientos y la lluvia que castiga la cubierta, parece que la tormenta está decidida a mandaros al fondo del mar. \n A vuestro alrededor se levantan olas de más de diez metros. \n ¿Conseguiréis volver a tierra sanos y salvos?
+EventPrologo2.button1,Continuar
+Eventinicio1.text,El barco se agita en medio de las revueltas aguas. \n Coloca el módulo {c:Tilebarquinho} en el lugar señalado.
+Eventinicio1.button1,Continuar
+Eventinicio2.text,Os apiñáis en el interior de la cabina al tiempo que sois violentamente zarandeados de un lado para otro. \n Coloca las miniaturas de los Investigadores en el lugar señalado.
+Eventinicio2.button1,Continuar
+Eventinicio3.text,El capitán Thomas intenta maniobrar con el timón. Sin embargo, las corrientes son demasiado fuertes y apenas consigue distinguir algo a través de los cristales de la embarcación. A pesar de que es un marino experimentado, es innegable que hay miedo en su mirada. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventinicio3.button1,Continuar
+Eventinicio4.text,La puerta está cerrada, impidiendo que el agua del mar entre en la cabina. Es extremadamente arriesgado salir ahora. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventinicio4.button1,Continuar
+Eventinicio5.text,La radio emite unos ruidos extraños. Parecen ser algún tipo de interferencia. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventinicio5.button1,Continuar
+Eventinicio6.text,Nunca habíais visto una tempestad de semejante magnitud. Sentís como si la naturaleza estuviese a punto de romper por la mitad vuestro pequeño y frágil barco.
+Eventinicio6.button1,Continuar
+Tokenradio1.text,La radio emite sin parar sonidos de estática. Es difícil saber si es cosa de la tormenta o que el aparato está estropeado.
+Tokenradio1.button1,{action} Seguir insistiendo con la radio, tratando de sintonizar alguna frecuencia
+Tokenradio1.button2,{action} Intentar sintonizar la radio
+Eventradio_sintonizar.text,Giras los diales intentando encontrar alguna señal coherente {lore}.
+Eventradio_sintonizar.button1,Continuar
+Eventradio_sintonizar.button2,Button2
+Eventradio_sintonizar_falhou.text,Un estridente ruido hace que te duelan los oídos. \n Adquieres el estado <i>Aturdido</i>. \n Quizá todavía sea posible encontrar la frecuencia correcta, si quieres seguir insistiendo.
+Eventradio_sintonizar_falhou.button1,Continuar
+Eventradio_sucesso.text,De fondo, por debajo del sonido silbante, oyes una voz casi imperceptible: \n\n —<i>Ustedes... váyanse ahora mismo... ¡no vengan hacia este barco! Aléjense... o jamás podrán salir... </i> \n\n No sabes por qué, pero la voz te resulta familiar. \n\n Ganas 1 Pista <color=green>{clue}</color> A continuación, descarta esta ficha de Interacción.
+Eventradio_sucesso.button1,Continuar
+Eventradio_consertar.text,Abres con cuidado la tapa metálica del aparato y observas el interior con atención. Resuelve el rompecabezas usando {lore}.
+Eventradio_consertar.button1,Continuar
+Puzzle0.button1,Probar
+Tokencapito1.text,El capitán Thomas mantiene el timón con dedos firmes. Hay algo terrible en su mirada.
+Tokencapito1.button1,{action} —<i>Vamos a morir, ¿no es cierto?</i>
+Tokencapito1.button2,{action} —<i>¿En qué puedo ayudarle?</i>
+Eventcapitao_vamosmorrer.text,Aprieta los dientes y grita: \n\n —<i>¡Su actitud cobarde no nos ayuda en esta situación!</i> —entrecierra los ojos un instante y después prosigue—. <i>Pero lo cierto es que parece que los dioses del mar están decididos a mandarnos al fondo...</i>
+Eventcapitao_vamosmorrer.button1,Continuar
+Eventcapitao_ajudar.text,Traga saliva antes de hablar: \n\n —<i>¡Quizá necesite que alguien salga ahí fuera e intente ver algo en medio de la tempestad ¡Estoy pilotando a ciegas!</i>
+Eventcapitao_ajudar.button1,Continuar
+Tokenolharbote.text,La furia de los mares crece ante tus ojos. El barco surca unas grandes olas en medio de la lluvia y de los relámpagos.
+Tokenolharbote.button1,{action} Tratar de distinguir algo
+Eventenxergar1.text,Intentas ver algo al tiempo que proteges tu rostro de la lluvia ({observation}; 3).
+Eventenxergar1.button1,Éxito
+Eventenxergar1.button2,Fallo
+Eventenxergar_falhou.text,A pesar de tus esfuerzos, es imposible ver algo en mitad de la tormenta.
+Eventenxergar_falhou.button1,Continuar
+Eventenxergar_passou.text,Consigues distinguir unos objetos al frente. Parecen ser pedazos de madera y metal, tal vez los restos del naufragio de un barco grande. ¡Todo parece indicar que el pequeño barco está en ruta de colisión con ellos! A toda prisa, te das las vuelta y le gritas al capitán.
+Eventenxergar_passou.button1,—<i>¡Vire todo a babor!</i>
+Eventenxergar_passou.button2,—<i>¡Pare los motores!</i>
+Eventdesligueosmotores.text,El capitán obedece tu orden y apaga los motores. El barco aminora poco a poco, pero en ese momento te das cuenta de que el barco se movía tan rápidamente a causa de la naturaleza, no de los motores... \n\n Descarta esta ficha de Vistazo.
+Eventdesligueosmotores.button1,Continuar
+Eventvireabombordo.text,El capitán escucha tu orden y gira el timón con todas sus fuerzas. Sin embargo, es difícil vencer a la corriente. \n\n —<i>¡Por favor! ¡Que alguien me ayude con el timón!</i> —grita el capitán. \n\n Descarta la ficha de Vistazo.
+Eventvireabombordo.button1,Continuar
+Tokencapitao2.text,El capitán se emplea a fondo para girar el timón.
+Tokencapitao2.button1,{action} Ayudarle
+Eventajudarcapitao.text,Agarras el timón y haces acopio de todas tus fuerzas para hacer virar el barco {strength}.
+Eventajudarcapitao.button1,Continuar
+Eventajudarcapitao.button2,Button2
+Eventajudarcapitao_falhou.text,A pesar de tus esfuerzos, el timón resiste a tus intentos por girarlo. El barco continúa en ruta de colisión.
+Eventajudarcapitao_falhou.button1,Continuar
+Eventajudarcapitao_passou.text,Conseguís girar el timón, haciendo que el barco vire a estribor. Quizá sea suficiente para evitar un terrible accidente.
+Eventajudarcapitao_passou.button1,Continuar
+Tokenportadacabine.text,La cabina está cerrada. Es posible oír la lluvia y las olas batiendo con fuerza al otro lado. Salir podría ser peligroso.
+Tokenportadacabine.button1,{action} Abrir
+Eventbote_revelar1.text,Abres la puerta de la cabina e inmediatamente un torrente de agua entra. \n\n Descarta esta ficha de Exploración y coloca fichas de Inundación como se señala.
+Eventbote_revelar1.button1,Continuar
+Eventbote_revelar2.text,El mar revuelto zarandea el barco de un lado para otro. Olas de casi diez metros de altura se alzan como titanes a tu alrededor. Tratas de agarrarte como puedes y caminas por la cubierta ({strength}; 2).
+Eventbote_revelar2.button1,Éxito
+Eventbote_revelar2.button2,Fallo
+Eventbote_revelar_falhou.text,La fuerza del agua es demasiado intensa. Te manda de vuelta a la cabina y golpea con fuerza los objetos que se encuentran allí. Sufres 1 de Daño.
+Eventbote_revelar_falhou.button1,Continuar
+Eventbote_revelar_passou.text,Te consigues agarrar a las cuerdas y caminar, a pesar de la fuerza del agua. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Eventbote_revelar_passou.button1,Continuar
+Eventbote_revelar3.text,Una de las maromas del barco. Podría servir para algo. \n\n Coloca el Objeto único Soga en el lugar señalado.
+Eventbote_revelar3.button1,Continuar
+Eventbote_revelar4.text,La violencia de las aguas es alarmante. Quizá sea posible ir a la proa del barco para intentar ver qué hay delante. \n\n Coloca una ficha de Vistazo en el lugar señalado. \n
+Eventbote_revelar4.button1,Continuar
+Eventmito_principal.button1,Button1
+Eventmito_principal.button2,Button2
+Eventmito_principal.button3,Button3
+Eventmito_principal.button4,Button4
+Eventmito_principal.button5,Button5
+Eventmito_principal.button6,Button6
+Eventmito1.text,El barco choca contra los pedazos de madera y metal que flotan en las olas. \n Descarta todas las fichas de Vistazo y Exploración, si las hubiera.
+Eventmito1.button1,Continuar
+Eventmito1_desligarmotor.button1,Continuar
+Eventmito1_batida.text,La visión de tus compañeros desapareciendo en las aguas es demasiado terrible. Todos los Investigadores que permanecen en el barco sufren 1 de Horror.
+Eventmito1_desligarmotor.text,A pesar de que los motores están parados, la velocidad es demasiado alta como para que el capitán consiga desviar el rumbo. La terrible colisión daña el barco, haciendo que fragmentos de madera salgan disparados en todas direcciones. Los Investigadores que se encuentran en la cubierta son lanzados a la inmensidad del mar y engullidos por las olas. Los que se quedaron dentro de la cabina quedan heridos gravemente. \n\n Descarta todos los Objetos que estuviesen fuera de la cabina. \n Todos los Investigadores situados fuera de la cabina reciben 2 de Daño y sus miniaturas son retiradas del tablero. Estos jugadores no juegan y no tienen acciones hasta que la aplicación indique lo contrario. \n Si todos los Investigadores estaban fuera de la cabina, el que tenga la puntuación más alta en {strength} no es retirado del juego. \n\n Todos los Investigadores que estén dentro de la cabina sufren 3 de Daño boca abajo (anulados por {agility}).
+Eventmito1_batida.button1,Continuar
+Eventmito1.button2,Continuar
+Eventmito1_batidasimples.text,La velocidad del barco es demasiado rápida como para que el capitán consiga desviar el rumbo. La terrible colisión daña el barco, haciendo que fragmentos de madera salgan disparados en todas direcciones. Los Investigadores que se encuentran en la cubierta son lanzados a la inmensidad del mar y engullidos por las olas. Los que se quedaron dentro de la cabina quedan heridos gravemente. \n\n Descarta todos los Objetos que estuviesen fuera de la cabina. \n Todos los Investigadores situados fuera de la cabina reciben 2 de Daño y sus miniaturas son retiradas del tablero. Estos jugadores no juegan y no tienen acciones hasta que la aplicación indique lo contrario. \n Si todos los Investigadores estaban fuera de la cabina, el que tenga la puntuación más alta en {strength} no es retirado del juego. \n\n Todos los Investigadores que estén dentro de la cabina sufren 3 de Daño boca abajo (anulados por {agility}).
+Eventmito1_batidasimples.button1,Continuar
+Eventmito1.button3,Continuar
+Eventmito1_desviou.text,A pesar de la gran velocidad con la que el barco avanza, conseguís desviarlo a tiempo, de modo que sólo el costado del barco sufre arañazos contra los objetos. Todos los Investigadores realizan una prueba de ({agility}; 2). Si superas la tirada, consigues mantenerte de pie. Si fallas la tirada, te caes con el golpe y te lastimas las rodillas; sufres 1 de Daño.
+Eventmito1_desviou.button1,Continuar
+Eventmito1_continuando.button1,Continuar
+Eventmito1_continuando2.text,Desde la popa del barco te llega el ruido de unas uñas arañando la madera. Parece que hay algo que está intentando subir. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmito1_continuando2.button1,Continuar
+Tokenmonstrosubindo.text,Desde la popa del barco te llega el ruido de unas uñas arañando la madera.
+Tokenmonstrosubindo.button1,{action} Mirar
+Eventmonstrocubindo_seafastar.text,Retrocedes unos pasos y una criatura trepa hasta la cubierta. \n\n Descarta esta ficha de Búsqueda. \n
+Eventmonstrocubindo_seafastar.button1,Continuar
+Eventmonstrosubindo_chutar.text,Sacas la pierna hacia fuera e intentas golpearla con el pie ({strength}; 2).
+Eventmonstrosubindo_chutar.button1,Éxito
+Eventmonstrosubindo_chutar.button2,Fallo
+Eventmonstrosubidno_chutar_passou.text,Consigues acertar en el rostro deformado de la criatura, que aun así sigue subiendo. \n Coloca un Profundo cazador en el lugar señalado. \n El monstruo sufre 1 de Daño. \n\n A continuación, descarta la ficha de Búsqueda.
+Eventmonstrosubidno_chutar_passou.button1,Continuar
+Eventmonstrosubindo_chutar_falhou.text,Te revuelves e intentas golpearle, pero te agarra del pie y te tira al agua. \n Adquieres el estado <i>Perdido en el tiempo y el espacio</i>.
+Eventmonstrosubindo_chutar_falhou.button1,Continuar
+Eventmonstrosubindo_chutar_falhou2.text,La criatura llega a la cubierta. Descarta esta ficha de Búsqueda.
+Eventmonstrosubindo_chutar_falhou2.button1,Continuar
+Tokencapitao3.text,El capitán Thomas está herido e inconsciente. Un corte recorre su frente desde la ceja hasta el arranque del pelo. Por ahora no hay mucho que puedas hacer por él.
+Tokencapitao3.button1,Continuar
+Spawnabissalcaador.text,Aparece un Profundo cazador en el lugar señalado.
+Spawnabissalcaador.button1,Continuar
+Eventmonstro_inicial_derrotado.text,La criatura emite un sonido lacónico antes de morir. Su cuerpo regresa de nuevo al mar.
+Eventmonstro_inicial_derrotado.button1,Continuar
+Eventmonstro_inicial_derrotado1.text,Después de unos minutos intentando ordenar sus pensamientos, los Investigadores se dan cuenta de que la tempestad está amainando. Las olas menguan y la lluvia se ha transformado en una densa niebla. \n
+Eventmonstro_inicial_derrotado1.button1,Continuar
+Eventmonstro_inicial_derrotado3.text,Algo realmente grande aparece a la derecha. Parece un barco enorme, y está muy cerca. ¿Será la tormenta la causante de que no lo hayas divisado antes? \n\n Quizá merezca la pena mirar con cuidado. \n Coloca una ficha de Vistazo en el lugar señalado.
+Eventmonstro_inicial_derrotado3.button1,Continuar
+Eventmonstro_inicial_derrotado4.text,Hace falta que alguien maniobre el barco, ya que el capitán está desmayado. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventmonstro_inicial_derrotado4.button1,Continuar
+Tokenpilotar_barco.text,Tal vez consigas maniobrar el barco y acercarlo al enorme navío.
+Tokenpilotar_barco.button1,{action} Pilotar
+EventPilotar_barco.text,Los motores parecen estar dañados y tardan en responder. Intentas maniobrar a través de la negra noche {agility}.
+EventPilotar_barco.button1,Continuar
+EventPilotar_barco.button2,Button2
+EventPilotar_barco_falhou.text,A pesar de no haberlo hecho antes, lentamente consigues que la embarcación se acerque al enorme barco. Sólo falta un poco más.
+EventPilotar_barco_falhou.button1,Continuar
+Eventbarco_pilotar_passou.text,Vuestro pequeño barco se alinea suavemente con el costado del otro navío. Parece un antiguo transatlántico, y oyes cómo la vieja madera cruje. \n Una escalera de mano lleva hasta la cubierta. \n\n Coloca una ficha de Exploración en el lugar señalado. A continuación, descarta la ficha de Vistazo (si la hubiera), y esta ficha de Interacción.
+Eventbarco_pilotar_passou.button1,Continuar
+Tokenescada_de_mao.text,Una escalera de hierro sube por el costado del barco.
+Tokenescada_de_mao.button1,{action} Subir
+Tokenavistar_navio.text,Te preguntas si este barco sería el objeto con el que chocasteis hace poco. Recuerdas que los restos parecían de algún naufragio... O quizá te estás confundiendo.
+Tokenavistar_navio.button1,Observar
+Eventavistar_navio1.text,El nombre del barco, casi borrado por el paso del tiempo, es «Gran Blue». En lo alto, en un camarote, ves a alguien. Está mirando directamente hacia vosotros.
+Eventavistar_navio1.button1,Agitar las manos
+Eventavistar_navio1.button2,Usar la pistola de bengalas (sólo el Investigador que posea el objeto)
+Eventnavio_acenar.text,Agitas las manos bien alto. La persona te observa durante un minuto, pero no responde. Hay miedo en su rostro. \n\n Descarta esta ficha de Vistazo.
+Eventnavio_acenar.button1,Continuar
+Eventnavio_ignorar.text,Disparas la bengala hacia el cielo. La luz rojiza desciende suavemente. Dale la vuelta a la carta <i>Pistola de señales</i>. Si ya le habías dado la vuelta, descarta el Objeto. \n\n La luz venciendo las tinieblas te da algo de esperanza Todos los Investigadores sobre el tablero descartan 1 de Horror. \n\n Sin embargo, la extraña persona se queda mirando durante un minuto, pero no responde. Una mirada de terror se refleja en su rostro. \n\n Descarta esta ficha de Vistazo.
+Eventnavio_ignorar.button1,Continuar
+EventSubir_escada.text,Es una ascensión larga y heladora. En lo alto puedes ver una cubierta de madera. El viento es muy fuerte aquí arriba. \n\n Coloca los módulos {c:Tileconves1} y {c:Tileconves2}. \n
+EventSubir_escada.button1,Continuar
+Eventconves_revelar_1.text,Cerca de unas tumbonas hay una serie de efectos personales abandonados. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventconves_revelar_1.button1,Continuar
+EventConves_revelar_2.text,Una puerta de metal, extrañamente cubierta de percebes y moluscos, como si hubiese estado mucho tiempo bajo el agua. Sin embargo, contrasta bastante con el resto del barco. \n\n Parece imposible abrirla. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventConves_revelar_2.button1,Continuar
+Tokenporta_cracas_fechada.text,La puerta de metal está llena de percebes y moluscos. No parece posible abrirla.
+Tokenporta_cracas_fechada.button1,Continuar
+EventConves_revelar_4.text,Una herramienta abandonada. \n\n Coloca el Objeto común Llave inglesa en el lugar señalado. \n
+EventConves_revelar_4.button1,Continuar
+Eventconves_revelar_6.text,Dos hermosas puertas conducen al interior del navío. Coloca dos fichas de Exploración en los lugares señalados.
+Eventconves_revelar_6.button1,Continuar
+Eventbarco_revelar7.text,Es posible caminar en dirección a la proa. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+Eventbarco_revelar7.button1,Continuar
+Eventbarco_revelar8.text,Coloca tu miniatura en el espacio señalado y descarta la ficha de Exploración de la escalera. \n\n Los Investigadores se pueden mover libremente entre el pequeño barco pequeño y el navío.
+Eventbarco_revelar8.button1,Continuar
+Tokenporta_hall_A.text,Una hermosa puerta conduce a las estancias interiores del barco.
+Tokenporta_hall_A.button1,{action} Abrir
+EventRevelarHall.text,Quedas sorprendido por la belleza del pasillo principal, ricamente ornamentado. \n\n Coloca el módulo {c:TileHalldeentrada} y descarta todas las fichas de Exploración que lleven a él.
+EventRevelarHall.button1,Continuar
+Eventrevelarhall2.text,Una elegante mujer carga con sus maletas. Parece un poco perdida. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventrevelarhall2.button1,Continuar
+Tokenmulher_perdida.text,La mujer lleva un elegante vestido y se te queda mirando: \n\n —<i>Con permiso</i> —te dice—. <i>¿Es usted miembro de la tripulación? ¡Necesito ayuda con mi equipaje! Aparte de eso, el barco va a zarpar en unos minutos, ¡y todavía no he encontrado mi camarote! </i>
+Tokenmulher_perdida.button1,{action} —<i>¿Qué quiere decir con zarpar?</i>
+Tokenmulher_perdida.button2,{action} —<i>¿Quién es usted?</i>
+Tokenmulher_perdida.button3,{action} —<i>¿Por qué cree que soy un miembro de la tripulación?</i>
+Eventdialogo_mulher1.text,—<i>¡Vaya, usted parece más perdido que yo!</i> —se queja, al tiempo que te fijas en un lunar bastante llamativo que tiene en la mejilla—. <i>Pagué una fortuna por un pasaje para atravesar el Atlántico con la mayor comodidad posible, ¡pero el servicio hasta ahora ha sido pésimo! Espero que realmente ofrezcan todo lo que prometían en los folletos.</i> \n\n Ganas 1 Pista <color=green>{clue}</color> 
+Eventdialogo_mulher1.button1,Continuar
+Eventdialogo_mulher_continuando.text,Coge sus maletas y te da la espalda. Sin embargo, justo antes de llegar a la puerta, ¡desaparece como el polvo! La visión de este fenómeno sobrenatural es perturbadora; sufres 2 de Horror boca abajo (anulados por {will}). \n\n ¿Qué es lo que está pasando aquí? \n\n Descarta la ficha de Personaje.
+Eventdialogo_mulher_continuando.button1,Continuar
+Eventdialogo_mulher2.text,—<i>Mi nombre es Meredith Pietro. Pagué una fortuna por este pasaje a Brasil, pero hasta el momento lo único que he conseguido son motivos para reclamar. El navío es muy bonito, la verdad, ¡pero el servicio es pésimo!</i> —la mujer parece furiosa y te fijas en que tiene un lunar en la mejilla muy llamativo—. <i>No pienso recomendarle este viaje a nadie... ¡Y sepa usted que soy una persona muy influyente! ¡Ni siquiera hay alguien que me ayude a encontrar mi camarote!</i> \n\n Ganas 1 Pista <color=green>{clue}</color> 
+Eventdialogo_mulher2.button1,Continuar
+EventDialogo_mulher3.text,—<i>¡Caramba, su ropa es tan rara...! </i> —te mira de arriba a abajo, Te das cuenta de que tiene un lunar en la mejilla, muy llamativo—. <i>¿Entonces usted no es de la tripulación? Discúlpeme. Quizá sólo sea entonces un estilo de moda del que no tengo noticias.</i> \n\n Ganas 1 Pista <color=green>{clue}</color> 
+EventDialogo_mulher3.button1,Continuar
+Tokenavistamento_proa.text,Es posible continuar hacia la proa. \n Un Investigador situado en la cubierta puede revelar la zona adyacente.
+Tokenavistamento_proa.button1,Revelar
+EventRevelar_proa.text,La proa del barco es espaciosa y parece que es el lugar dedicado al ocio. \n\n Coloca el módulo {c:Tileconves3} y descarta esta ficha de Vistazo.
+EventRevelar_proa.button1,Continuar
+Eventrevelar_proa2.text,Un escenario donde hace mucho tiempo tocaba una orquesta y que aún exhibe unos instrumentos oxidados. Parece que hay un objeto interesante entre ellos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_proa2.button1,Continuar
+EventRevelar_proa3.text,Unos papeles dejados sobre una mesita. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelar_proa3.button1,Continuar
+Tokenpapeis_mesinha.text,Una serie de papeles en un idioma desconocido y que parece que se escribieron con prisas.
+Tokenpapeis_mesinha.button1,{action} Examinar
+EventPapeis_mesinha_2.text,El papel ha amarilleado bastante, y está a punto de deshacerse de lo viejo que es. \n\n Ganas el Hechizo <i>Surcar el vacío</i>. A continuación, descarta esta ficha de Búsqueda.
+EventPapeis_mesinha_2.button1,Continuar
+EventPapeis_mesinha4.text,Una intensa luz surge en mitad del aire, a pocos metros. Te proteges los ojos mientras el tejido de la realidad se rasga ante tu atónita mirada .\n\n Coloca una ficha de Brecha dimensional en el lugar adecuado.
+EventPapeis_mesinha4.button1,Continuar
+EventPapeis_mesinha_5.text,De repente, unos dedos atraviesan la brecha, forzando su apertura. Poco después, una criatura consigue atravesarla, llegando a nuestra realidad.
+EventPapeis_mesinha_5.button1,Continuar
+SpawnCambaleanteDimensional.text,Aparece un Vagabundo dimensional en el lugar señalado.
+SpawnCambaleanteDimensional.button1,Continuar
+EventVoce_tem_a_opcao.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventVoce_tem_a_opcao.button1,Continuar
+Eventdialogo_mulher_continuando2.text,No te habías dado cuenta, pero hay otras tres puertas que llevan a diferentes zonas del barco. \n\n Coloca tres fichas de Exploración como se señala.
+Eventdialogo_mulher_continuando2.button1,Continuar
+Tokenporta_Mapas.text,La puerta tiene una inscripción hecha con un cuchillo. Es un dibujo de un uróboros, un animal serpentiforme que engulle su propia cola y que forma un círculo con su cuerpo
+Tokenporta_Mapas.button1,{action} Abrir
+EventRevelar_mapas.text,Entras en una estrecha habitación con un fuerte olor a moho. Coloca el módulo {c:TileSala_de_Mapas} y descarta esta ficha de Exploración.
+EventRevelar_mapas.button1,Continuar
+EventRevelar_mapas2.text,El cuarto está repleto de notas, diagramas y libros. Parece como si alguien llevase mucho tiempo investigando, de manera obcecada. \n En una de las estanterías podría haber algo interesante. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelar_mapas2.button1,Continuar
+Eventrevelar_mapas3.text,En el rincón hay un objeto extraño. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_mapas3.button1,Continuar
+EventRevelar_mapas4.text,Sobre la mesa hay un papel que contiene innumerables anotaciones. Parece ser algún tipo de mapa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelar_mapas4.button1,Continuar
+Tokencaixa_enigmatica.text,En un rincón de la habitación hay una extraña caja de metal.
+Tokencaixa_enigmatica.button1,{action} Coger
+Eventcaixa_enigmatica.text,La caja está sellada con algún tipo de cierre secreto. Ganas el Objeto único Caja enigmática. \n El Investigador que posea este Objeto podrá examinarlo usando la aplicación.\n\n Descarta esta ficha de Búsqueda.
+Eventcaixa_enigmatica.button1,Continuar
+EventResolver_caixa.text,Parece que hay alguna clase de enigma que debe ser descifrado. \n\n Sólo el Investigador que lleve la caja podrá interaccionar con la aplicación.
+EventResolver_caixa.button1,{action} Intentar abrir {observation}
+EventResolver_caixa.button2,Cancelar
+Puzzle1.button1,Probar
+Eventbarco_revelar_9.text,Para tu sorpresa, ¡los Investigadores que se perdieron en el mar se encuentran caminando por la cubierta! \n Están muy desaliñados y sucios, y con el pelo más corto que antes. Pero son incapaces de recordar algo de lo que les pasó tras caerse al mar. \n\n Coloca las miniaturas de los Investigadores en el lugar señalado.
+Eventbarco_revelar_9.button1,Continuar
+Eventbarco_revelar10.text,Los Investigadores que entran en este momento pueden realizar sus acciones en este turno.
+Eventbarco_revelar10.button1,Continuar
+Eventalgum_investigador.text,¿Había algún Investigador fuera de la cabina y ha sido retirado?
+Eventalgum_investigador.button1,Sí
+Eventalgum_investigador.button2,No
+Eventmito1_continuando.text,Os lleva unos minutos recuperaros del accidente y retomar la consciencia. En ese momento os dais cuenta de que el capitán está inconsciente, al parecer por un fuerte golpe en la cabeza.
+Eventmulher_continuando_3.text,Parece que la mujer dejó caer un papel. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmulher_continuando_3.button1,Continuar
+Tokenticket.button1,{action} Coger
+Eventticket.text,Parece ser el billete para subir al barco. Está a nombre de Meredith Pietro. El nombre del barco es «Gran Blue», y el viaje comienza en Nueva York, y luego pone rumbo a América del Sur, en dirección a Río de Janeiro y después a Punta del Este. \n ¡Pero la fecha de salida es el 5 de enero de 1895! ¡Hace casi cuarenta años! \n\n Ganas 1 ficha de Pista <color=green>{clue}</color> \n A continuación, descarta esta ficha de Búsqueda.
+Tokenticket.text,La mujer dejó caer este papel antes de desaparecer.
+Eventticket.button1,Continuar
+Tokenavistar_bote_antigo.text,Hay un pequeño objeto flotando en el mar.
+Tokenavistar_bote_antigo.button1,Observar
+Eventavistar_bote_antigo_nadafeito.button1,Continuar
+Eventavistar_bote_antigo_remova.text,Repentinamente el barco en el que habéis llegado desaparece en la niebla, como si nunca hubiese existido. \n\n Descarta el módulo {c:Tilebarquinho} y todas las fichas y Objetos que hubiera sobre él. \n\n Todos los Investigadores presentes en el pequeño barco adquieren el estado <i>Perdido en el tiempo y el espacio.</i>
+Tokenavistar_bote_antigo.button2,Observar
+Tokenavistar_bote_antigo.button3,Observar
+Eventavistar_bote_antigo_nadafeito.text,Parece un pequeño barco. Hay varias personas a bordo. Se ve dañado, como si hubiese chocado contra algo. Parece que uno de los tripulantes del barco está inconsciente... \n\n Aprietas los ojos con fuerza, horrorizado. \n\n Ganas 1 Pista <color=green>{clue}</color> A continuación, descarta esta ficha de Vistazo.
+Eventavistar_bote_antigo_remova.button1,Continuar
+Eventavistar_bote_acenar.text,Parece un pequeño barco pilotado por varias personas. Se ve dañado, como si hubiese chocado contra algo. Sobre la cubierta hay alguien, apuntando hacia arriba con las manos... \n\n Aprietas los ojos con fuerza, horrorizado. \n\n Ganas 2 Pistas <color=green>{clue}</color> A continuación, descarta esta ficha de Vistazo.
+Eventavistar_bote_acenar.button1,Continuar
+Eventavistar_bote_sinalizador.button1,Continuar
+Tokenporta_cabine101.text,Hay una inscripción dorada en la puerta: «Camarote 101».
+Tokenporta_menino.text,Una puerta de metal con un cartel: «Alojamientos de la tripulación».
+Tokenporta_menino.button1,{action} Abrir
+Eventrevelar_alojamento.text,Entras en lo que parecen ser los alojamientos del personal del barco. \n Coloca el módulo {c:TileCabine_tripulao} y descarta esta ficha de Exploración. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+Eventrevelar_alojamento.button1,Continuar
+EventRevelar_alojamento2.text,De repente notas cómo todo a tu alrededor cambia. Si antes estabas en un cuarto oscuro que olía a moho, ahora estás en ese mismo cuarto, ¡pero sumergido en las profundidades del mar! La madera del barco está carcomida y llena de percebes, algas y corales, como si hubiese naufragado hace muchos años. Unas formas de vida marina extrañas se mueven a tu alrededor. \n\n Intentas aguantar la respiración y resistir la presión del agua ({strength}; 3).
+EventRevelar_alojamento2.button1,Éxito
+EventRevelar_alojamento2.button2,Fallo
+EventRevelar_alojamento_passou.text,Soportas el máximo posible, mostrando una resistencia que desconocías.
+EventRevelar_alojamento_passou.button1,Continuar
+Eventalojamento_revelar_falhou.text,Te esfuerzas al máximo, pero el agua inunda tu boca y tus pulmones mientras te retuerces, agonizante. \n Sufres 2 de Daño boca abajo.
+Eventalojamento_revelar_falhou.button1,Continuar
+Eventalojamento_continuando.text,Tras unos instantes el agua a tu alrededor simplemente desaparece. Caes de rodillas y toses compulsivamente. A pesar de que el suelo de madera está seco, tus ropas están empapadas.
+Eventalojamento_continuando.button1,Continuar
+Eventrevelar_alojamento_continuando2.text,Al mirar a tu alrededor te das cuenta de que hay un niño pequeño, sentado encima de una de las camas. \n\n —<i>¿De dónde ha salido usted?</i> —te dice sobresaltado. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventrevelar_alojamento_continuando2.button1,Continuar
+Tokenmenino.text,El niño usa ropas sencillas y desgastadas, y tiene unos ojos azules muy llamativos. Te mira fijamente con cara de sorpresa.
+Tokenmenino.button1,{action} —<i>¿Quién eres?</i>
+Tokenmenino.button2,{action} —<i>¿Dónde estoy?</i>
+Eventrevelar_alojamento_continuando4.text,Hay una gran variedad de cosas en esta habitación desordenada. Tal vez puedas encontrar algo útil. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_alojamento_continuando4.button1,Continuar
+Eventmenino_quemevoce.text,—<i>Mi nombre es Willis. Soy huérfano y vivo en la calle, pero siempre que puedo entro aquí cuando los operarios no están. ¡Éste será el mayor navío del mundo cuando se termine de construir! Se llamará «Gran Blue», ¿sabe? Yo no debería estar aquí... Ya me han echado varias veces y la última vez me amenazaron con hacerme cosas terribles si volvía. Por favor, ¡no le diga a nadie que estoy aquí!</i> \n\n Ganas 1 Pista <color=green>{clue}</color> 
+Eventmenino_quemevoce.button1,—<i>Tranquilo, no lo contaré. </i>
+Eventmenino_quemevoce.button2,—<i>¿Ha visto algo extraño en este barco?</i>
+Eventmenino_naocontarei.text,—<i>¡Gracias, no sé cómo agradecérselo! Otro cualquiera me habría delatado de haberme visto aquí</i> —menea la cabeza contrariado—. <i>Por favor, quédese con esto. Perteneció a mi madre. Siempre me trajo suerte. </i> \n\n Ganas el Objeto común Pata de conejo.
+Eventmenino_naocontarei.button1,{action} —<i>¿Ha visto algo extraño por aquí?</i>
+Eventmenino_continuando.text,—<i>Sólo las ratas, las cucarachas y el señor Walter, que estará tirado por ahí, borracho perdido</i> —responde Willis—. <i>¡Pero nada de esto es tan raro como el hecho de verle aparecer a usted en mitad de la habitación como por arte de magia! Pero no importa cómo lo haya hecho, me lo tendrá que contar otro día. De aquí a poco será el cambio de turno del personal de máquinas y algunos de ellos vendrán aquí a descansar. Necesito encontrar otro sitio para esconderme. ¡Ha sido un placer conocerle!</i>
+Eventmenino_continuando.button1,Continuar
+Eventmenino_continuando2.text,Willis asiente, parpadea con sus grandes ojos azules y sale hacia la cubierta. \n Descarta la ficha de Personaje.
+Eventmenino_continuando2.button1,Continuar
+Eventmenino_ondeestou.text,—<i>¿No sabe dónde está?</i> —el niño queda aún más maravillado—. <i>Este navío está todavía en construcción, y se llamará Gran Blue. ¡Será uno de los mayores barcos del mundo cuando esté terminado!</i> \n\n Ganas 1 Pista <color=green>{clue}</color> \n\n En seguida se pone a mirar a su alrededor como si echase algo a faltar en el mobiliario. Su expresión se vuelve cada vez más confundida. \n\n —<i>Pero... esto... ¿cómo ha entrado aquí? ¿Es usted alguna clase de mago o algo parecido?</i> \n\n
+Eventmenino_ondeestou.button1,—<i>No. No tengas miedo. </i>
+Eventmenino_ondeestou.button2,—<i>Sí, soy un mago.</i>
+Eventmenino_soubruxo.text,El niño abre sus ojos azules de par en par, muerto de miedo, y corre en dirección a la puerta. \n\n Descarta la ficha de Personaje.
+Eventmenino_soubruxo.button1,Continuar
+Eventmenino_naotenhamedo.text,—<i>Bien, encantado, mi nombre es Willis</i> —dice mientras parpadea y entorna sus grandes ojos azules—. <i>Me encantaría seguir charlando, pero necesito irme ahora mismo antes de que los operarios del astillero me encuentren por aquí. Me han prohibido entrar, ¿sabe? ¡Hasta otra!</i> —el niño sale corriendo hacia la puerta. \n\n Descarta la ficha de Personaje Niño.
+Eventmenino_naotenhamedo.button1,Continuar
+Tokenbagunca_alojamento.text,En una esquina hay varios objetos amontonados.
+Tokenbagunca_alojamento.button1,{action} Buscar
+EventBaguna_alojamento.text,Intentas encontrar algo útil en medio de este desorden {observation}.
+EventBaguna_alojamento.button1,Continuar
+EventBaguna_alojamento.button2,Button2
+EventBaguna_alojamento_passou.text,Encuentras algo que podría servir como arma. \n\n Ganas el Objeto común Machete. \n\n A continuación, descarta esta ficha de Búsqueda.
+EventBaguna_alojamento_passou.button1,Continuar
+Eventbagunca_alojamento_falhou.text,A pesar del esfuerzo, tu recompensa es un objeto de poca utilidad. \n\n Ganas el Objeto común Lámpara de queroseno. A continuación, descarta esta ficha de Búsqueda.
+Eventbagunca_alojamento_falhou.button1,Continuar
+Eventavistar_bote_sinalizador.text,Es un pequeño barco pilotado por varias personas. Parece que navega con daños, como si hubiese chocado con algo. Hay alguien de pie, en la cubierta, apuntando con una pistola de bengalas hacia arriba. Tras el disparo, una luz roja cae lentamente desde el cielo. \n\n Parpadeas ostensiblemente, horrorizado. \n\n Ganas 2 Pistas <color=green>{clue}</color> A continuación, descarta esta ficha de Vistazo.
+Tokenporta_cabine101.button1,{action} Entrar
+Eventcabine101_revelar.text,Entras en un pequeño camarote muy lujoso. Coloca el módulo {c:TileCabines} en el lugar señalado.
+Eventcabine101_revelar.button1,Continuar
+Eventcabine101_revelar2.text,Hay una mesita con documentos al lado de la cama. \n\n Coloca una ficha de Búsqueda y descarta esta ficha de Exploración.
+Eventcabine101_revelar2.button1,Continuar
+Tokenporta_cabine101.button2,{action} Entrar
+EventCabine101_revelar2.text,Hay una inscripción con letras mayúsculas en la pared sobre el cabecero de la cama. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventCabine101_revelar2.button1,Continuar
+Tokeninscricao_cabine101.text,Hay una confusa inscripción en la pared, aparentemente hecha con la punta de una navaja.
+Tokeninscricao_cabine101.button1,{action} Examinar
+Eventinscricao_cabine101.text,Tratas de entender el significado de los dibujos y las letras ({lore}; 2).
+Eventinscricao_cabine101.button1,Éxito
+Eventinscricao_cabine101.button2,Fallo
+Eventinscricao_cabine101_falhou.text,Al insistir en intentar comprenderlo, tu cabeza te duele. \n Pon boca arriba 1 de Horror.
+Eventinscricao_cabine101_falhou.button1,Continuar
+Eventinscricao_cabine101_passou.text,Te das cuenta de que el dibujo representa una infinidad de ojos, distribuidos alrededor de las palabras «YOG-SOTHOTH NO PUEDE SER CONTROLADO». \n\n Ganas 1 Pista <color=green>{clue}</color> \n A continuación, descarta esta ficha de Búsqueda.
+Eventinscricao_cabine101_passou.button1,Continuar
+Eventinscricao_cabine101_passou2.text,Con un extraño ruido, la realidad comienza a romperse por fuera del barco. \n\n Coloca una ficha de Brecha dimensional en el lugar señalado.
+Eventinscricao_cabine101_passou2.button1,Continuar
+Eventinscrio_cabine101_passou3.text,Un objeto cae de la brecha dimensional recién abierta. Es un mecanismo como no habías visto antes. \n Coloca el Objeto único Estabilizador de flujo en el lugar señalado.
+Eventinscrio_cabine101_passou3.button1,Continuar
+Tokendocumentos_cabine101.text,Una serie de documentos sobre la mesa que hay al lado de la cama.
+Tokendocumentos_cabine101.button1,{action} Buscar
+Eventdocumentos_cabine101.text,Tras una búsqueda de un minuto, encuentras lo que parece ser la hoja desgarrada de un diario. Tiene escrito lo siguiente: \n\n «<i>Hoy, ocho días después de zarpar, una tempestad se cernió sobre el barco. Nunca había visto semejante furia en el mar. Espero que podamos sobrevivir a esto... Siento cómo la madera cruje, como si el "Gran Blue", con toda su gloria, estuviese a punto de partirse por la mitad. \n\n Ayer, un matrimonio se desvaneció en el aire mientras estaban en el comedor. \n ¿Qué está sucediendo aquí? </i>» \n\n Ganas 1 Pista <color=green>{clue}</color> A continuación, descarta esta ficha de Búsqueda.
+Eventdocumentos_cabine101.button1,Continuar
+Tokenporta_cabine102.text,Un letrero en la puerta con la inscripción «Camarote 102». Está cerrado con llave.
+Tokenporta_cabine102.button1,{action} Abrir. Es necesario estar en posesión de la Llave de plata.
+Eventrevelar_cabine102.text,Giras la llave y abres la puerta.
+Eventrevelar_cabine102.button1,Continuar
+Eventrevelar_cabine102.button2,Continuar
+Eventrevelar_cabine102_2.text,El lugar está perfumado y muy bien decorado. \n Descarta esta ficha de Exploración.
+Eventrevelar_cabine102_2.button1,Continuar
+Eventrevelar_cabine102_outrafechada.text,Entras en un pequeño camarote muy lujoso. Coloca el módulo {c:TileCabines} en el lugar señalado.
+Eventrevelar_cabine102_outrafechada.button1,Continuar
+Eventrevelar_cabine102_3.text,Parece que alguna clase de extraño ritual ha sido realizado sobre la alfombra. Hay símbolos, velas y cráneos dispuestos según un propósito. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventrevelar_cabine102_3.button1,Continuar
+TokenRitual.text,Parece que alguna clase de extraño ritual ha sido realizado sobre la alfombra. Hay símbolos, velas y cráneos. \n Puede ser peligroso tocar algo sin saber cuál es su propósito.
+TokenRitual.button1,{action} Destruir el ritual
+TokenRitual.button2,{action} Colocar los componentes como se indicaba en el diario (debes tener las 4 Esculturas grotescas)
+EventRevelar_proa4.text,Es posible seguir rodeando la cubierta del barco. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventRevelar_proa4.button1,Continuar
+Eventdimensionalmorto.text,La criatura de otro mundo muere despacio, emitiendo una luz enfermiza en el momento en el que se desintegra. Todos los Investigadores dentro del alcance del monstruo realizan una prueba de ({observation}, 2). Si superas la tirada, tus ojos resisten la luz. Si fallas la tirada, te sientes atraído por la energía que acaba de desaparecer, extendiendo los dedos como si estuvieses hipnotizado y en ese momento eres violentamente empujado hacia el interior de un portal. Adquieres el estado <i>Perdido en el Tiempo y el Espacio</i>.
+Eventdimensionalmorto.button1,Continuar
+Eventdimensionalmorto2.text,Los percebes y los moluscos que cubren la puerta de la cubierta se encogen y marchitan hasta desaparecer. Lo único que queda es una robusta puerta de metal que ahora se puede abrir.
+Eventdimensionalmorto2.button1,Continuar
+EventDimensionalmorto3.text,A pesar de la oscuridad es posible ver un pequeño objeto flotando en el mar. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventDimensionalmorto3.button1,Continuar
+Tokenporta_hall_b.button1,{action} Abrir
+Tokenporta_hall_b.text,Una hermosa puerta conduce a las estancias interiores del barco.
+TokenAvistar_lateralnavio.text,Es posible seguir rodeando el barco. Un Investigador situad en la proa puede interactuar con esta ficha.
+TokenAvistar_lateralnavio.button1,Revelar
+Eventrevelar_larealnavio1.text,El lado de babor del barco parece estar bastante dañado. Coloca los módulos {c:TileConvesdonavio1} y  {c:TileConvesdoNavio6} en los lugares señalados y descarta esta ficha de Vistazo.
+Eventrevelar_larealnavio1.button1,Continuar
+Tokencaixas_convs.text,Una serie de cajas desperdigadas por el suelo. Quizá puedas encontrar algo útil. \n
+Tokencaixas_convs.button1,{action} Buscar
+Eventrevelar_lateraldonavio2.text,Una serie de cajas desperdigadas por el suelo, algunas de ellas rotas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_lateraldonavio2.button1,Continuar
+EventRevelar_lateraldonavio3.text,Más adelante hay unas mesitas viejas y oxidadas. Parece que se dejaron olvidado un pequeño objeto encima de una de ellas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelar_lateraldonavio3.button1,Continuar
+Tokenrelogio.text,Encima de una mesa han dejado un objeto metálico.
+Tokenrelogio.button1,{action} Coger
+Eventrevelar_lateraldonavio4.text,Una robusta puerta de madera parece conducir al puente de mando. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventrevelar_lateraldonavio4.button1,Continuar
+Eventrevelar_lateraldonavio5.text,Tal vez merezca la pena mirar en dirección al mar, para ver si hay algo. \n\n Coloca la ficha de Vistazo en el lugar señalado.
+Eventrevelar_lateraldonavio5.button1,Continuar
+Eventcaixas_conves.text,Todo es muy pesado. Tienes que empujar unas cajas y abrir otras {strength}.
+Eventcaixas_conves.button1,Continuar
+Eventcaixas_conves.button2,Button2
+Eventcaixas_conves_falhou.text,Llevas un buen rato abriendo cajones y volcándolos, pero aún no has conseguido encontrar nada útil.
+Eventcaixas_conves_falhou.button1,Continuar
+EventCaixas_conves_passou.text,El resto de las cosas están podridas y cayéndose a pedazos. Pero quizá alguno de esos tablones pueda servir como arma. \n\n Ganas el Objeto común Tablón de madera. A continuación, descarta esta ficha de Búsqueda.
+EventCaixas_conves_passou.button1,Continuar
+Eventcaixas_convs_passouantes.text,Tiras al suelo y rompes algunas cajas. En una de ellas encuentras material médico. Esperas que aún se pueda usar. \n\n Ganas el Objeto común <i>Sedante</i>.
+Eventcaixas_convs_passouantes.button1,Continuar
+Eventrelogio1.text,Encuentras un reloj de bolsillo. Tiene grabado el nombre de {rnd:hero}. ¿Cómo ha podido llegar hasta aquí un efecto tan personal? Está oxidado, y la cadena está casi deshecha, corroída por el paso de muchos muchos años.... \n Si {rnd:hero} está dentro de tu alcance, {rnd:hero} sufre 1 de Horror. \n\n Ganas 1 Pista <color=green>{clue}</color> 
+Eventrelogio1.button1,Continuar
+Eventrelogio2.text,Ganas el Objeto común Reloj de bolsillo. \n A continuación, descarta esta ficha de Búsqueda.
+Eventrelogio2.button1,Continuar
+Tokenavistar_mar.text,No muy lejos, un objeto grande se mueve. Un Investigador situado en la {c:TileConvesdonavio1} o en la {c:TileConvesdoNavio6} puede intentar atisbar algo.
+Tokenavistar_mar.button1,{action} Intentar observar algo
+Eventavistar_mar1.text,Haces un esfuerzo por ver algo a través de la niebla ({observation}; 2).
+Eventavistar_mar1.button1,Éxito
+Eventavistar_mar1.button2,Fallo
+Eventavistar_mar_falhou.text,A pesar de tus esfuerzos, la niebla es demasiado densa y no consigues distinguir el gigantesco objeto.
+Eventavistar_mar_falhou.button1,Continuar
+Eventavistar_mar_passou.text,Para tu sorpresa, el enorme objeto resulta ser un barco. Hay una inscripción en su casco de madera que parece haber sido hecha por alguna clase de enorme punzón. También aciertas a ver el dibujo de un gran ojo. El texto es el siguiente: \n\n <b><color=yellow>YOG-SOTHOTH NUNCA DUERME</color></b> \n\n Descarta esta ficha de Vistazo.
+Eventavistar_mar_passou.button1,Continuar
+Eventavistar_mar2.text,Continúas observando unos instantes más el extraño barco hasta que consigues distinguir la inscripción «Gran Blue» casi borrada. En ese momento, por fin, ¡comprendes que es el mismo barco sobre el que estás en este instante! Más allá, hay otro barco idéntico, y otro, formando una línea que va hasta el infinito, multiplicando el dibujo del gran ojo. \n La visión te provoca náuseas. Todos los Investigadores situados en espacios de exterior sufren 2 de Horror boca abajo (anulados por {observation}). \n
+Eventavistar_mar2.button1,Continuar
+Eventavistar_mar3.text,Los barcos comienzan a aproximarse, con sus costados casi tocándose. \n Coloca una ficha de Interacción fuera del tablero, en el lugar señalado.
+Eventavistar_mar3.button1,Continuar
+Eventavistar_mar4.text,Al otro lado, varios barcos también se multiplican en una línea infinita como si el «Gran Blue» estuviese en medio de dos espejos gigantescos. \n Coloca una ficha de Interacción fuera del tablero como se señala.
+Eventavistar_mar4.button1,Continuar
+Eventavistar_mar5.text,Un Investigador o monstruo puede moverse entre los módulos {c:TileConvesdonavio1} y {c:Tileconves1} como si estuviesen adyacentes. \n Lo mismo es aplicable a los módulos {c:TileConvesdoNavio6} y {c:Tileconves2}
+Eventavistar_mar5.button1,Continuar
+Tokennavios_infinitosA.text,Un Investigador o monstruo puede moverse entre los módulos {c:TileConvesdonavio1} y {c:Tileconves1} como si estuviesen adyacentes. \n Lo mismo es aplicable a los módulos {c:TileConvesdoNavio6} y {c:Tileconves2}
+Tokennavios_infinitosA.button1,Continuar
+Tokennavios_infinitosB.text,Un Investigador o monstruo puede moverse entre los módulos {c:TileConvesdonavio1} y {c:Tileconves1} como si estuviesen adyacentes. \n Lo mismo es aplicable a los módulos {c:TileConvesdoNavio6} y {c:Tileconves2}
+Tokennavios_infinitosB.button1,Continuar
+Tokentrompete.text,Parece que se han dejado olvidado un objeto en una de las sillas de los músicos.
+Tokentrompete.button1,{action} Buscar
+Tokentrompete.button2,Buscar
+Eventtrompete_real.text,Encuentras un instrumento musical que lleva mucho tiempo sin ser tocado. \n Ganas el Objeto único Trompeta dorada. A continuación, descarta esta ficha de Búsqueda.
+Eventtrompete_real.button1,Continuar
+Eventtrompete_falso.text,Los instrumentos han sido destruidos por el tiempo y han quedado inutilizados. Sin embargo, la tarima te produce una sensación de emoción intensa. \n\n Si tu Investigador es Jim Culver y tiene el Objeto único Trompeta dorada, puedes tocar una melodía.
+Eventtrompete_falso.button1,{action} —<i>Soy Jim Culver y voy a tocar</i>.
+Eventtrompete_falso.button2,No sé nada sobre música.
+EventJimtocar.text,Tocas una pieza de jazz, y la música recorre el «Gran Blue». Todos los Investigadores pueden descartar 1 de Horror boca abajo, o poner boca abajo 1 de Horror. \n\n Descarta esta ficha de Búsqueda.
+EventJimtocar.button1,Continuar
+Eventjimtocar2.text,Por algún motivo, la música hace que la energía incontrolable rompa la realidad cerca de ti. \n\n Coloca una ficha de Brecha dimensional en el lugar señalado.
+Eventjimtocar2.button1,Continuar
+Eventjimtocar3.text,Un sorprendente objeto cae de la brecha dimensional hacia nuestro mundo. \n Coloca el Objeto común Ametralladora Gatling en el lugar señalado.
+Eventjimtocar3.button1,Continuar
+Tokenporta_jantar.text,Una puerta de caoba lleva hacia el comedor.
+Tokenporta_jantar.button1,{action} Explorar
+Eventrevelar_jantar.text,Entras en lo que en otro tiempo fue un glorioso comedor. Sin embargo, ahora todo está envejecido y con las paredes llenas de desconchones. \n Coloca el módulo {c:TileJantar} y una ficha de Pared en el lugar señalado. \n Descarta esta ficha de Exploración.
+Eventrevelar_jantar.button1,Continuar
+Eventrevelar_jantar2.text,Han dejado una pequeña radio sobre una de las mesas. \n Coloca una ficha de Interacción en el lugar señalado.
+Eventrevelar_jantar2.button1,Continuar
+Eventrevelar_jantar3.text,Un matrimonio sentado en una de las mesas aparece ante tus ojos, condensados a partir del polvo que flota en el aire. El hombre está comiendo en silencio mientras que la mujer ya ha terminado de comer. \n\n Coloca dos fichas de Personaje como se señala.
+Eventrevelar_jantar3.button1,Continuar
+Tokencasal_homem.text,El hombre come en silencio, y da la impresión de que no quiere ser interrumpido.
+Tokencasal_homem.button1,Continuar
+TokenCasal_mulher.text,La mujer te mira durante un instante, quizá extrañada por tus ropas, antes de hablar. \n\n —<i>¿Y bien?</i>
+TokenCasal_mulher.button1,{action} —<i>¿Qué tal la travesía?</i>
+TokenCasal_mulher.button2,{action} —<i>¿Ha visto algo extraño?</i>
+Eventcomoestaaviagem1.button1,—<i>¿Hay algo que le preocupe?</i>
+Eventcomoestaaviagem2.text,—<i>Sólo aquella mujer, Meredith Pietro</i> —suspira—. <i>Siempre está quejándose por todo. Llevamos siete días en el mar y ya no soporto oír su voz. Dice que alguien le robó su billete. Alguien de la tripulación, pero jura que esa persona ya no está en este barco.</i> \n Ganas 1 Pista <color=green>{clue}</color> 
+Eventcomoestaaviagem1.text,—<i>Bien</i> —dice mirando hacia el hombre—. <i>Nos está gustando bastante. Los camarotes son muy cómodos y la comida es excelente. Los espectáculos también lo son. Pero...</i>
+Eventcomoestaaviagem2.button1,Continuar
+EventComoestaviagem3.text,—<i>A propósito</i> —continúa diciendo—, <i>¿dónde está todo el mundo? El salón estaba lleno, y de repente todo el mundo se fue sin que nos diésemos cuenta. Debe de ser muy tarde ya.</i>
+EventComoestaviagem3.button1,Continuar
+Eventalgoestranho1.text,Suelta una risotada y responde: \n\n —<i>Yo no he visto nada... Pero circulan por ahí unas historias. Un señor mayor dice que oyó música de madrugada. Asegura que era una trompeta, pero no hay trompetistas en la orquesta del Gran Blue, ¿no es cierto? Dice que se repite todas las noches, siempre la misma música. Probablemente estaba delirando. Aparte de eso, una niña dice que vio a un hombre oculto por una capucha negra. Otra pesadilla, probablemente. No le hago caso a esas historias, porque sólo tienen una cosa que detesto de este lugar...</i> \n Ganas 1 Pista <color=green>{clue}</color> 
+Eventalgoestranho1.button1,—<i>¿Y qué es?</i>
+Tokencasalmulher2.text,Bosteza somnolienta. Con sus dedos juguetea con la llave del camarote 102. Está claro que quiere volver y descansar, pero su marido está tardando mucho en comer.
+Tokencasalmulher2.button1,Continuar
+Eventabrir_caixaenigmatica.text,Cuando la caja se desbloquea, una energía absurdamente poderosa irrumpe desde su interior. Los rayos envuelven tus manos y haces un esfuerzo por tratar de controlarla. Sin embargo, es demasiado poderosa ({lore}; 2).
+Eventabrir_caixaenigmatica.button1,Éxito
+Eventabrir_caixaenigmatica.button2,Fallo
+Eventabrir_caixaenigmatica_passou.text,Consigues controlar parte de la energía. Ganas el Hechizo <i>Atormentar</i>.
+Eventabrir_caixaenigmatica_passou.button1,Continuar
+Eventabrir_caixaenigmatica2.text,Parte de la energía incontrolada se mueve por el aire como si tuviera voluntad propia. Llega hasta el comedor y envuelve al matrimonio que está sentado en una mesa.
+Eventabrir_caixaenigmatica2.button1,Continuar
+Eventabrir_caixa_enigmatica_falhou.text,El poder penetra en tus entrañas, dañando tendones y quemándote la piel. Sufres 1 de Daño boca abajo. A continuación, pon boca arriba todas tus cartas de Daño.
+Eventabrir_caixa_enigmatica_falhou.button1,Continuar
+Eventabrir_caixa_enigmatica3.text,El extraño fenómeno hace que el matrimonio envejezca ante tus ojos. Gritan cuando su piel se arruga, sus huesos se debilitan y sus cabellos se tornan grises hasta que se les caen. Por último, sus ojos se desprenden y su carne es devorada en unos pocos segundos. \n Todos los Investigadores que se encuentren en el Comedor {MAD27} sufren 2 de Horror (anulados por {will}). \n\n Descarta las dos fichas de Personaje.
+Eventabrir_caixa_enigmatica3.button1,Continuar
+Eventabrir_caixaenigmatica4.text,Un esqueleto inanimado es que lo queda de la mujer. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventabrir_caixaenigmatica4.button1,Continuar
+EventAbrir_caixaenigmatica5.text,El esqueleto del hombre vibra movido por una tenebrosa energía. Sus miembros se mueven y se yergue lentamente. Su cuerpo parece oscilar entre este mundo y otros, apareciendo y desapareciendo. \n
+EventAbrir_caixaenigmatica5.button1,Continuar
+SpawnEsqueleto.text,Aparece un Fantasma en el lugar señalado.
+SpawnEsqueleto.button1,Continuar
+Eventrevelar_jantar4.text,Al otro lado del salón hay una puerta con una extraña inscripción. \n Coloca una ficha de Exploración en el lugar señalado.
+Eventrevelar_jantar4.button1,Continuar
+Tokenestante_mapas.text,Una serie de extraños objetos están dispuestos en esta estantería. En la pared contigua hay unas fechas y nombres con líneas con los conectan.
+Tokenestante_mapas.button1,{action} Buscar
+Eventestantemapas.button1,Continuar
+EventEstante_mapas2.text,Con un repentino ruido, la puerta al fondo de la sala se abre y una persona encapuchada entra. \n
+Eventestantemapas.text,Encuentras un diario, con una letra casi ilegible. Ganas el Objeto único Viejo diario. \n El Investigador que posea el Objeto único Viejo diario puede examinarlo usando la aplicación. \n\n Descarta esta ficha de Búsqueda.
+EventEstante_mapas2.button1,Continuar
+Spawncultista.text,Aparece un Sectario en el lugar señalado.
+Spawncultista.button1,Continuar
+Eventcultista1.text,El extraño camina de un lado para otro, moviendo los dedos de forma compulsiva. Se encoge de hombros y se humedece los labios sin parar. Te mira por debajo de la sombra de su capucha y te dice: \n\n —<i>Me acuerdo de este día... Si lo hubiese sabido... Fueron once años de búsqueda infructuosa, intentando salir de este laberinto infernal. Intentando reunir las piezas del rompecabezas... ¡Pero es imposible!</i>
+Eventcultista1.button1,Continuar
+Eventcultista2.text,Saca un revólver y te apunta directamente. \n\n —<i>Voy a fallar el tiro. Por desgracia sé que voy a fallar el tiro. Sería tan sencillo si acertase... </i>
+Eventcultista2.button1,Levantar las manos e intentar calmarlo.
+Eventcultista2.button2,Saltar a un lado para escapar del disparo.
+Eventcultista_erguermaos.text,Levantas las manos e intentas decir unas palabras tranquilizadoras {influence}.
+Eventcultista_erguermaos.button1,Continuar
+Eventcultista_erguermaos.button2,Button2
+Eventcultista_erguerasmaos_passou.text,Observas cómo una lágrima cae por su mejilla, mientras sujeta el arma con pulso tembloroso. \n\n —<i>Necesito... acertar el tiro... </i> \n\n Aprieta el gatillo y dispara, acertando en tu oreja derecha. Sufres 1 de Daño.
+Eventcultista_erguerasmaos_passou.button1,Continuar
+Eventcultista_erguerasmaos_falhou.text,El extraño aprieta los dientes, furioso, insensible a tus palabras. Por último, aprieta el gatillo y dispara. \n El tiro te acierta en la oreja derecha y un inmenso dolor se apodera de ti. Sufres 2 de Daño.
+Eventcultista_erguerasmaos_falhou.button1,Continuar
+Eventcultistasaltar.button1,Continuar
+Eventcultistasaltar.text,Saltas a un lado, pero el disparo es más rápido. El tiro acierta en tu oreja derecha. Sufres 2 de Daño.
+Eventcultistacontinuando.text,Te dejas caer sobre el suelo, con las manos intentado parar la sangre que mana de aquello que una vez fue tu oreja. El extraño se te queda mirando, como en estado catatónico. Lentamente sus dedos sueltan el arma, que cae al suelo. \n\n Coloca el Objeto común Revolver del 38 en el lugar señalado. \n\n Recibes 1 ficha de Oscuridad (coloca la ficha sobre tu tarjeta de Investigador). \n
+Eventcultistacontinuando.button1,Continuar
+Eventcultistamorto.text,La misteriosa persona yace muerta sobre el suelo. Te acercas a ella y descubres su rostro. Su rostro está envejecido, la cabeza rapada ¡y le falta la oreja derecha! \n Si el jugador con una ficha de Oscuridad está dentro del alcance, sufre 3 de Horror (anulados por {will}).
+Eventcultistamorto.button1,Continuar
+Eventdestruiroritual.text,Le das una patada a los componentes, rompes las esculturas y apagas las velas. A continuación intentas borrar con los pies los símbolos que hay dibujados.
+Eventdestruiroritual.button1,Continuar
+EventDestruiroritual2.text,De repente te ves en otro lugar. El ambiente es desolador y del cielo caen relámpagos rojizos. Ante tus ojos se mueve una enorme masa informe. Una persona con el rostro cubierto por una capucha está de pie, a tu lado. \n\n —<i>¿Lo está viendo?</i> —te señala—. <i>Éste es el destino de todos los que están en el barco. Fundirse en una única paradoja, en una única sustancia. Una aberración con múltiples formas.</i> \n\n Observas que la criatura tiene diversos rostros, bocas y ojos. En medio de ellos es posible ver el rostro de {rnd:hero}. Si tú eres {rnd:hero}, sufres 1 de Horror y adquieres el estado <i>Aturdido</i>.
+EventDestruiroritual2.button1,Continuar
+EventDestruiroritual3.text,—<i>Pero yo no formo parte de eso</i> —prosigue la misteriosa persona—, <i>porque ahora estoy fuera de la paradoja. Soy el hechicero que domina el poder de Yog-Sothoth. </i>
+EventDestruiroritual3.button1,Continuar
+EventDestruiroritual4.text,Eres llevado de nuevo al camarote 102. El ritual comienza a recomponerse delante de tus ojos: los cráneos se regeneran, las velas se encienden, los símbolos se vuelven a dibujar... como si todo estuviese volviendo hacia atrás en el tiempo. \n\n Quizá no sea posible destruir el ritual de este modo. \n\n Si es la primera vez que intentas destruir el ritual, ganas 1 Pista <color=green>{clue}</color> 
+EventDestruiroritual4.button1,Continuar
+Tokenesqueleto_mulher.text,Unos huesos son lo único que queda de la mujer que hace poco estaba aquí.
+Tokenesqueleto_mulher.button1,{action} Buscar
+EventEsqueletomulkher.text,En sus manos aún están las llaves del camarote 102. Ganas el Objeto único Llave de plata. A continuación, descarta esta ficha de Búsqueda.
+EventEsqueletomulkher.button1,Continuar
+Eventdiario.button1,{action} Leer
+Eventdiario.button2,{action} Leer
+Eventdiario.button3,{action} Leer
+EventDiarioler1.text,El diario está escrito con una letra pequeña. Examinas las primeras hojas. \n\n «<i>Cuando la tempestad golpeó nuestro pequeño barco, no podía imaginarme que el destino nos depararía algo tan terrible. Nuestro piloto, el capitán Thomas, tuvo más suerte. Se golpeó la cabeza y desapareció</i>.»
+Eventdiario.text,El Investigador que posea el Objeto único Viejo diario puede leerlo.
+EventDiarioler1.button1,Continuar
+Eventdiarioler12.text,«<i>En las primeras semanas, las visiones, portales y viajes dimensionales parecían ser algo pasajero, pero no lo fueron. Tuvimos que aprender a convivir con diversas líneas temporales que se entremezclaban. Visitamos el Gran Blue desde su construcción hasta su naufragio en las profundidades del mar. Muchos de nosotros tuvimos que asistir a nuestras propias muertes en diversas ocasiones... </i>» \n\n Rápidamente cierras el diario. \n Ganas 1 Pista <color=green>{clue}</color> \n\n Aún quedan cosas por leer.
+EventDirio_ler2.text,Avanzas unos meses en el registro. \n\n «<i>Insisto en que la pista más importante que tengo es la del hechicero. Un extraño que aparece de cuando en cuando, y que da la impresión de tener un cierto control sobre lo que aquí sucede. Sin embargo, nunca he conseguido tocarlo o hablar con él</i>.»
+EventDirio_ler2.button1,Continuar
+EventDiario_ler22.text,«<i>Encontré libros y objetos rituales relacionados con una entidad llamada Yog-Sothoth, que al parecer es uno de los seres exteriores. Mientras tanto, temo al pensar que tal vez la naturaleza de ese ser sea maligna. \n Encontré una misteriosa caja sellada por el hechicero, pero no osé abrirla. Está oculta en la sala que uso como escondrijo</i>». \n\n Ganas 1 Pista <color=green>{clue}</color> \n\n Todavía quedan más cosas para leer en el diario.
+EventDiario_ler22.button1,Continuar
+Eventdiarioler3.text,Avanzas hasta las últimas páginas del diario. Aquí, la caligrafía es enrevesada y la propia sintaxis del idioma te resulta confusa. Consigues descifrar unas pocas líneas: \n\n «<i>Yog-Sothoth nunca duerme. Yog-Sothoth no puede ser controlado. Pero alguien lo ha traído a este barco por medio de un ritual, y ahora el barco se está transformando en Yog-Sothoth. El ritual es lo primero en todo este entramado temporal. Es la clave de esta paradoja</i>.» \n\n Ganas 1 Pista <color=green>{clue}</color> \n
+Eventdiarioler3.button1,Continuar
+EventDirioler33.text,«<i>Descubrí cómo impedirlo. El hechicero montó el ritual en el camarote 102. Sin embargo, jamás conseguí acercarme al ritual... siempre que tocaba el tirador del camarote, me transportaba al año 1895, cuando el navío estaba en su segundo día de travesía y ningún ritual había sido llevado a cabo</i>».
+EventDirioler33.button1,Continuar
+Eventlerdiario333.text,«<i>Voy a escribir aquí cómo impedirlo, por si algún alma encuentra este diario tenga acceso al lugar y época correcta. Serán necesarias cuatro esculturas rituales. Con ellas se romperá la conexión de esa entidad con este mundo</i>». \n\n El diario muestra un dibujo con la configuración en la que deben colocarse las esculturas. \n\n Ahora sólo queda encontrar las esculturas y el lugar del ritual. \n\n Ya no hay más información útil en el diario.
+Eventlerdiario333.button1,Continuar
+Eventdiarioler12.button1,Continuar
+Eventdiario.button4,Cancelar
+Eventritual1.text,De los componentes emerge una intensa energía haciendo que todo el barco se estremezca. \n\n Descarta esta ficha de Interacción.
+Eventritual1.button1,Continuar
+TokenMapa_grande.text,Hay una serie de diagramas y anotaciones sobre un gran mapa. \n
+TokenMapa_grande.button1,{action} Buscar
+Eventmapa_grande.text,También parece que hay otro objeto escondido detrás de la mesa. \n\n Ganas el Objeto único Escultura grotesca. A continuación, descarta esta ficha de Búsqueda.
+Eventmapa_grande.button1,Continuar
+EventBagunca_estatua.button1,Continuar
+Tokenporte_pontedecomando.text,Una gran puerta cerrada a cal y canto, como si fuese una caja fuerte. Quizá sea posible abrirla.
+EventBagunca_estatua.text,Parece que había algo escondido debajo de una de las camas. \n Ganas el Objeto único Escultura grotesca.
+Tokenporte_pontedecomando.button1,{action} Abrir
+EventPontedecomando.text,Intentas resolver el rompecabezas {observation}.
+EventPontedecomando.button1,Continuar
+Puzzle2.button1,Probar
+Eventpontedecomando_passou.text,Con un ruido metálico, oyes cómo la puerta se abre.
+Eventpontedecomando_passou.button1,Continuar
+EventPonte_revelar1.text,Ante ti tienes una escalera que lleva al puesto del capitán del barco. \n\n Coloca el módulo {c:TilePontedecomando} y descarta esta ficha de Exploración.
+EventPonte_revelar1.button1,Continuar
+EventPonte_revelar2.text,En lo alto de las escaleras se encuentra una figura encapuchada. \n\n Aparece un Sectario en el lugar señalado.
+EventPonte_revelar2.button1,Continuar
+EventPonte_revelar3.text,—<i>¿Quiere detenerme, joven?</i> —dice la extraña persona—. <i>¿Acaso no sabe que el futuro y el pasado son hoy? Si todavía estoy vivo, entonces siempre viviré. El poder de Yog-Sothoth es infinito.</i>
+EventPonte_revelar3.button1,—<i>¿Quién es usted?</i>
+EventPonte_revelar3.button2,—<i>¿Qué es lo que está pasando en este barco? </i>
+EventPontequemvoc.text,—<i>Sólo soy un grano de arena en el gran reloj de arena del Universo.</i> \n\n El extraño hechicero abre un portal y desaparece a través de él. \n Descarta la miniatura del Sectario.
+EventPontequemvoc.button1,Continuar
+Eventponte_oqueestaacontecendo.text,—<i>Está pasando lo que ha pasado siempre, y lo que siempre pasará, en un ciclo sin final.</i> \n\n El extraño hechicero abre un portal y desaparece por él. \n Descarta la miniatura del Sectario.
+Eventponte_oqueestaacontecendo.button1,Continuar
+EventPonte_continuar.text,Dejó caer algo antes de desaparecer. El objeto rueda por la escalera y choca contra tus pies. Ganas el Objeto único Escultura grotesca.
+EventPonte_continuar.button1,Continuar
+EventPonte_continuar2.text,El portal sigue abierto, pero no por mucho tiempo. Tal vez sea posible seguirle.
+EventPonte_continuar2.button1,Seguir al hechicero a través del portal
+EventPonte_continuar2.button2,No seguir
+Eventponte_naoseguir.text,Sin apenas darte cuenta, la extraña magia desaparece, dejándote a solas en el puente de mando. \n Coloca la miniatura de tu Investigador en el lugar señalado.
+Eventponte_naoseguir.button1,Continuar
+EventPonte_seguir.text,Tratas de correr antes de que el portal se cierre ({agility}; 3).
+EventPonte_seguir.button1,Éxito
+EventPonte_seguir.button2,Fallo
+Eventponte_seguir_falhou.text,Tratas de correr antes de que el portal se cierre, pero se cierra demasiado rápido, desapareciendo en mitad del aire. Coloca tu miniatura en el lugar señalado.
+Eventponte_seguir_falhou.button1,Continuar
+Evententrar_portal.text,Caminas por unos planos imposibles, desafiando toda tu comprensión de la realidad. \n\n Ganas el Hechizo <i>Alimentar la mente</i>, adquieres el estado <i>Concentrado</i> y <i>Perdido en el tiempo y el espacio</i>.
+Evententrar_portal.button1,Continuar
+Eventritual1.button2,Continuar
+Eventritual_barcosinfinitos.text,Los infinitos reflejos del «Gran Blue» se disuelven en la niebla. De nuevo os quedáis solos en la oscuridad. \n\n Descarta las dos fichas de Interacción que están fuera del tablero.
+Eventritual_barcosinfinitos.button1,Continuar
+Tokenradio_jantar.button1,{action} Sintonizar
+EventCoisasjantar.button2,Fallo
+EventCoisasjantar.text,Intentas sintonizar la radio para encontrar algún receptor cercano {lore}.
+EventCoisasjantar.button1,Éxito
+Tokencoisas_na_cadeira.text,La silla está sucia, llena de manchas. El pequeño libro reposa sobre ella.
+Tokencoisas_na_cadeira.button1,{action} Coger
+Eventcoisasnacadeira.text,Parece un pequeño manual, pero desconocemos cuál puede ser su propósito. \n\n Ganas el Objeto común <i>Guía de Astronomía</i>. A continuación, descarta esta ficha de Búsqueda.
+Eventcoisasnacadeira.button1,Continuar
+Eventmapa_grande_antes.text,Ganas el Objeto común <i>Mapa de líneas ley</i>.
+Eventmapa_grande_antes.button1,Continuar
+quest.authors_short,Lucas M. Carvalho
+quest.authors,\n\n Historia y narración (en portugués): \n Lucas M. Carvalho \n\n Música: Fesliyan Studios Background Music \n\n Traducción al español: Vidimus \n Revisión: Mauch8 \n\n
+Eventritual2.button1,Continuar
+Eventritual2.text,Comienza a caer una intensa lluvia. Fuertes rachas de viento, relámpagos, olas enormes. Durante un instante tienes la visión de los tripulantes corriendo para ponerse a salvo.
+Eventritual3.text,Un portal se abre al otro lado de la puerta y un extraño envuelto en una capa surge de él. \n\n Aparece un Sectario en el lugar señalado.
+Eventritual3.button1,Continuar
+Eventritual4.text,—<i>¡Fue usted quien lo hizo!</i> —grita con los brazos extendidos—. <i>¡Usted terminó el ritual que yo solo no podía terminar! ¡Al final usted ha terminado siendo el responsable de todo esto! ¡Trajo la tempestad y los poderes de Yog-Sothoth a este mundo! ¡Éste es el día cero, el inicio del ovillo! ¡Gracias! ¡Gracias!</i>
+Eventritual4.button1,Continuar
+Eventritual4.button2,Continuar
+Eventritual4.button3,Continuar
+Eventritual4.button4,Continuar
+Eventvilao_meredith.text,La extraña persona extiende los brazos, llena de poder: —<i>En estos últimos cuarenta años me estuve fortaleciendo, preparándome para este día, para asegurarme de que todo sucediese.</i> \n\n Durante un instante eres capaz de ver su rostro por debajo de la capucha y adviertes un lunar en la mejilla.
+Eventvilao_meredith.button1,Continuar
+EventQuemsoueu.text,—<i>Ahora usted lo comprende todo</i> —continúa—. <i>¿Ya sabe quién soy yo? </i>
+EventQuemsoueu.button1,Acusarla de ser Meredith Pietro
+EventViloWillis.button1,Continuar
+Eventvilao_capitao.button1,Continuar
+EventViloWillis.text,La extraña persona extiende los brazos, llena de poder: —<i>En estos últimos cuarenta años me estuve fortaleciendo, preparándome para este día, para asegurarme de que todo sucediese.</i> \n\n Durante un instante eres capaz de ver su rostro: tiene unos vivos ojos azules.
+EventVilao2marcadores.text,La extraña persona extiende los brazos, llena de poder: —<i>En estos últimos cuarenta años me estuve fortaleciendo, preparándome para este día, para asegurarme de que todo sucediese.</i> \n\n No es posible verle el rostro, pero lleva un grueso guante de cuero en su mano izquierda.
+Eventvilao_capitao.text,La extraña persona extiende los brazos, llena de poder: —<i>En estos últimos cuarenta años me estuve fortaleciendo, preparándome para este día, para asegurarme de que todo sucediese.</i> \n\n Durante un instante eres capaz de ver su rostro: tiene una cicatriz que va desde la ceja al nacimiento del pelo.
+EventVilao2marcadores.button1,Continuar
+EventQuemsoueu.button2,Acusarlo de ser el niño Willis.
+EventQuemsoueu.button3,Acusarlo de ser el capitán Thomas
+EventQuemsoueu.button4,Acusarlo de ser el Investigador con 1 ficha de Oscuridad.
+EventQuemsoueu.button5,Acusarlo de ser el Investigador con 2 fichas de Oscuridad.
+Eventvoceacha_meredith.text,—<i>Entonces usted cree que yo soy Meredith Pietro... </i>
+Eventvoceacha_meredith.button1,Continuar
+Eventvoceacha_meredith.button2,Continuar
+EventViloerrou.text,—<i>¡Veo que usted no ha entendido nada!</i> —la extraña persona suelta una risotada—. <i>¡Absolutamente nada!</i>
+EventViloerrou.button1,Continuar
+Eventvialoerrou2.text,Otro portal se abre y una gran criatura deforme comienza a entrar en este mundo. Además de ojos y bocas es posible discernir una serie de rostros. Parece como una especie de grotesca fusión de todas las personas que han caminado por este barco a lo largo de todas las épocas. \n\n Entre los innumerables rostros encuentras la cara de {rnd:hero}. Si {rnd:hero} está dentro de tu alcance, ese Investigador sufre 1 de Horror.
+Eventvialoerrou2.button1,Continuar
+Spawnproledisforme.text,Aparece una Semilla informe en el lugar señalado.
+Spawnproledisforme.button1,Continuar
+Eventvilaoacertou1.text,—<i>Sí, tiene usted razón... Soy yo.</i>
+Eventvilaoacertou1.button1,Continuar
+Eventnaufragio.button1,Continuar
+Eventvoceacha_willis.text,—<i>Usted cree que yo soy Willis...</i>
+Eventnaufragio.text,La tempestad es demasiado intensa. El barco se parte por la mitad y comienza a naufragar.\n Descarta los módulos {c:TileJantar}, {c:TileSala_de_Mapas}, {c:TilePontedecomando} y {c:TileCabine_tripulao}.\n\n Descarta todas las fichas y Objetos que estuviesen en esos módulos. \n Los Investigadores situados en esos módulos adquieren el estado <i>Perdidos en el tiempo y el espacio.</i>
+Eventvoceacha_willis.button1,Continuar
+Eventvoceacha_willis.button2,Continuar
+Eventvoceacha_capitaoMarsh.text,—<i>Usted cree que yo soy el capitán Thomas, el que les trajo hasta aquí...</i>
+Eventvoceacha_capitaoMarsh.button1,Continuar
+Eventvoceacha_capitaoMarsh.button2,Continuar
+Eventvoceacha_2marcadores.text,—<i>Entonces usted cree que yo soy uno de los dos Investigadores... </i>
+Eventvoceacha_2marcadores.button1,Continuar
+Eventvoceacha_2marcadores.button2,Continuar
+Eventvoceacha_1maracdor.text,—<i>¡De ninguna manera! Esa persona intentó detenerme sin descanso durante los últimos años... Creía que me iba a detener, pero sin querer descubrió cómo terminar el ritual que dio origen a todo, ¡y usted ahora le ha ayudado!</i>
+Eventvoceacha_1maracdor.button1,Continuar
+Eventnaufragio.button2,Continuar
+Eventnaufragio.button3,Continuar
+Eventnaufragio.button4,Continuar
+Eventexplicacao_meredith.text,—<i>Soy Meredith Pietro</i> —dice bajándose la capucha y mostrando un rostro envejecido—. <i>Desde mi primer día en este navío vi cosas extrañas que desafiaron mi noción de la realidad. Personas que aparecían como fantasmas, que hablaban conmigo y luego desaparecían. Hasta que un día recibí la visita de mí misma... Poderosa, llena de conocimientos sobre los misterios del universo. Aquí puedo enseñar a mi versión más joven, en el pasado, infinitamente... ¡hasta que me convierta en el ser más poderoso que jamás ha existido! </i>
+Eventexplicacao_meredith.button1,Continuar
+Eventexplicacaowillis.text,—<i>En tiempos me llamaron Willis</i> —dice bajándose la capucha y revelando un rostro envejecido—. <i>Desde el día que vi a una persona surgiendo delante de mí, antes de que el barco fuese construido, comprendí que el universo tenía poderes que iban más allá de lo imaginable para nuestras pobres mentes mortales. Así pues, recibí la visita de mí mismo... Poderoso, lleno de conocimientos sobre los misterios del universo. Aquí puedo instruir a mi versión más joven, en el pasado, infinitamente... ¡hasta que me convierta en el ser más poderoso que jamás ha existido!</i>
+Eventexplicacaowillis.button1,Continuar
+SpawnFeiticeiro.text,Se quita la capa. Descarta al Sectario y coloca en su lugar un Brujo. \n\n Debes derrotarlo y encontrar una manera de sobrevivir.
+SpawnFeiticeiro.button1,Continuar
+Spawncultistafinal.text,Debes derrotar al enemigo y buscar una manera de sobrevivir antes de que el barco naufrague...
+Spawncultistafinal.button1,Continuar
+Eventexplicacaiocapitao.text,—<i>Soy Thomas</i> —dice bajándose la capucha y mostrando un rostro envejecido—. <i>Desde el momento en el que me dejaron en mi pequeño barco fui llevado en una suerte de viajes demenciales a través del tiempo y de los planos de existencia. Aquí, en el «Gran Blue» recibí la visita de mí mismo... Poderoso, lleno de conocimientos sobre los misterios del universo. Aquí puedo enseñar a mi versión más joven, en el pasado, infinitamente... ¡hasta que me convierta en el ser más poderoso que jamás ha existido! </i>
+Eventexplicacaiocapitao.button1,Continuar
+Eventexplicao_2marcadores.text,—<i>Debe de estar preguntándose el por qué</i> —dice al tiempo que se quita un guante, mostrando una mano esquelética—. <i>Cuando lleguemos, me gustaría arrojar luz sobre ese misterio y sobrevivir. Hasta he recibido una visita de mí mismo... Poderoso, lleno de conocimiento sobre los misterios del universo. Descubrí que el futuro puede ser brillante. Aquí puedo instruir a la versión más joven de mí, en el pasado, infinitamente, hasta que me convierta en el ser más poderoso que jamás haya existido! </i>
+Eventexplicao_2marcadores.button1,Continuar
+Eventfeiticeiromorto.text,El hechicero grita al tiempo que su cuerpo se deshace.
+Eventfeiticeiromorto.button1,Continuar
+Eventportalfinal.text,Un portal se abre en la proa del barco. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventportalfinal.button1,Continuar
+Eventcultistafinalmorto.text,El enemigo grita cuando su cuerpo se deshace en mitad del aire.
+Eventcultistafinalmorto.button1,Continuar
+Tokenportalfinal.text,Un extraño portal permanece abierto en mitad del aire.
+Tokenportalfinal.button1,{action} Entrar
+Eventportalfinal0.text,Entras tú solo en la extraña maraña de realidades. De algún modo sientes que te están llevando hacia el pasado... Descarta todos los módulos de tablero y los objetos, fichas, miniaturas y monstruos situados sobre ellos.
+Eventportalfinal0.button1,Continuar
+Eventportalfinal0.button2,Continuar
+Eventportalfinal0.button3,Continuar
+EventFinal_meredith.text,Te encuentras al lado de un camarote. Te das cuenta que los pasajes para el viaje de inauguración del majestuoso navío «Gran Blue» están a la venta. \n\n Coloca el módulo {c:TileEstao} en el lugar señalado.
+EventFinal_meredith.button1,Continuar
+Eventfinal_meredith2.text,Estás de pie, observando el movimiento de las personas. Coloca sólo tu miniatura en el lugar señalado.
+Eventfinal_meredith2.button1,Continuar
+Eventfinal_meredith3.text,Meredith Pietro está sentada en uno de los bancos, firmando un cheque. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventfinal_meredith3.button1,Continuar
+Eventnaotemmito.text,No hay fase de Mitos en esta época o lugar. Puedes realizar todas las acciones que quieras.
+Eventnaotemmito.button1,Continuar
+Tokenmeredith_final.text,Meredith permanece en silencio, extendiendo el cheque para comprar su pasaje.
+Tokenmeredith_final.button1,{action} Convencerla para que no embarque
+Tokenmeredith_final.button2,{action} Dejarla
+Eventconvencer.text,Intentas convencerla para que no embarque ({influence}; 1). El éxito de vuestra misión dependerá de esta prueba.
+Eventconvencer.button1,Éxito
+Eventconvencer.button2,Fallo
+Eventconvencer_passou.text,Te escucha con atención. A continuación, arranca el cheque y te da la espalda.
+EventConvencer_falhou.text,Te escucha sin prestarte atención. \n\n —<i>Disculpe, tengo que comprar mi pasaje antes de que se agoten. Que pase una buena noche.</i>
+EventConvencer_falhou.button1,Continuar
+Eventfinalwillis1.text,Te encuentras en una fría calle. Es de noche. \n\n Coloca el módulo {c:TileBeco1} en el lugar señalado.
+Eventfinalwillis1.button1,Continuar
+Eventfinalwillis2.text,Willis, el niño, está acurrucado en un rincón. Parece que tiene frío.
+Eventfinalwillis2.button1,Continuar
+EventFinalWillis3.text,Estás de pie, en mitad del camino. Coloca tu miniatura en el lugar señalado. \n No hay fase de Mitos en esta época o lugar. Realiza tantas acciones como sean necesarias.
+EventFinalWillis3.button1,Continuar
+Tokenwillis_final.text,El niño tiembla de frío.
+Tokenwillis_final.button1,{action} Ofrecerle tu abrigo y convencerle para que no se acerque al navío en construcción.
+Tokenwillis_final.button2,{action} Dejarlo
+Eventconvencer_willis.text,Intentas convencerle de que se aleje del «Gran Blue» ({influence}; 1). El éxito de vuestra misión dependerá de esta prueba.
+Eventconvencer_willis.button1,Éxito
+Eventconvencer_willis.button2,Fallo
+EventConcencer_willias_falhou.text,El niño te agradece inmensamente el abrigo, pero dudas de que no vuelva a visitar el astillero.
+EventConcencer_willias_falhou.button1,Continuar
+Eventconvencer_willias_passou.text,Willis te lo agradece y te promete que jamás volverá a ese lugar.
+Eventconvencer_willias_passou.button1,Continuar
+Eventportalfinal0.button4,Continuar
+Eventpier_final1.text,Te encuentras en el borde de un muelle. \n Coloca el módulo {c:TileCais} en el lugar señalado.
+Eventpier_final1.button1,Continuar
+Eventpier_final2.text,El capitán Thomas está preparando el combustible para llevaros en una pequeña travesía en barco. En ese momento te das cuenta de que has viajado al momento justo antes de que todo ocurriese. \n\n Coloca una ficha de Personaje en el lugar señalado.
+Eventpier_final2.button1,Continuar
+Eventpier_final3.text,Estás de pie, observándolo. Coloca sólo tu miniatura en el lugar señalado. \n No hay fase de Mitos en esta época o lugar. Realiza tantas acciones como sean necesarias.
+Eventpier_final3.button1,Continuar
+TokenMarsh_final.text,El capitán parece preocupado.
+TokenMarsh_final.button1,{action} Convencerlo para posponer el viaje a causa de la meteorología
+TokenMarsh_final.button2,{action} Dejarlo
+Eventmarsh_finalconvencelo.text,Intentas convencerlo de que se aleje del «Gran Blue» ({influence}; 1). El éxito de vuestra misión dependerá de esta prueba.
+Eventmarsh_finalconvencelo.button1,Éxito
+Eventmarsh_finalconvencelo.button2,Fallo
+EventMarsh_finaLfalhou.text,Te escucha atentamente, pero se niega a posponer el viaje.
+EventMarsh_finaLfalhou.button1,Continuar
+Eventmarsh_convencer_passou.text,Convencido, empieza a guardar las cosas y a amarrar de nuevo el barco. \n —<i>Tal vez sea más seguro viajar la próxima semana</i> —te dice.
+Eventmarsh_convencer_passou.button1,Continuar
+EventFinal_perfeito.text,Abres los ojos. Estás en casa. La tempestad nunca sucedió, ni tampoco las terribles deformaciones de la realidad de las que fuiste testigo.\n Tú y tus compañeros estáis a salvo. \n Te preguntas si todo no ha sido más que un sueño o si de verdad has conseguido deshacer la extraña paradoja provocada por Yog-Sothoth. \n\n ¡Felicidades! ¡La investigación ha sido un éxito! \n Has conseguido el mejor de los finales. \n\n Hay otros finales posibles y la identidad del hechicero puede cambiar.
+EventFinal_perfeito.button1,Continuar
+EventFinal_porpouco.text,A pesar de tus esfuerzos, te das cuenta de que es imposible deshacer unos eventos pasados que ya fueron decididos. A partir de ahora tú y tus compañeros viviréis la paradoja sin fin del «Gran Blue», reviviendo sin parar los mismos eventos que llevan a una aterradora deformación. \n\n La investigación ha fracasado. \n\n Hay otros finales posibles y la identidad del hechicero puede cambiar de una partida a otra.
+EventFinal_porpouco.button1,Continuar
+EventFinal_derrota.text,Tu compañero desaparece envuelto por una energía luminosa. Viaja entre los planos, deformándose, adquiriendo las características marinas de los Profundos. \n Sabe que necesita impediros que os acerquéis al «Gran Blue». Nada en dirección al pequeño barco, se agarra al casco y comienza a subir con la intención de avisaros. Y ello a pesar de que sabe que lo mataréis como si se tratase de un monstruo... \n\n La investigación ha fracasado. \n\n Hay otros finales posibles, y la identidad del hechicero puede variar. \n
+EventFinal_derrota.button1,Continuar
+EventFinal_naufragio.text,El barco termina hundiéndose por completo, y la proa poco a poco se sumerge. Nadáis para salvar vuestras vidas, pero hay una infinidad de monstruosidades habitando en esas aguas... \n\n Sois devorados y la brecha temporal de Yog-Sothoth hace que seáis devorados nuevamente, y otra vez, y otra... \n\n La investigación ha fracasado. \n\n Hay otros finales posibles, y la identidad del hechicero puede variar.
+EventFinal_naufragio.button1,Continuar
+Eventconvencer_passou.button1,Button1
+Eventmito3.text,La oscuridad del mar que te rodea es intensa, trayendo consigo una terrible sensación de soledad. Sin efectos inmediatos.
+Eventmito2.button1,Continuar
+Eventmito3.button1,Continuar
+Eventmito2.text,El viento frío parece penetrar en tus huesos. No hay efecto inmediato.
+Eventmito10.text,Un poderoso viento barre la cubierta y atraviesa las ventanas del barco, golpeando a {rnd:hero}, que trata de mantenerse en pie ({agility}; 2). Si superas la tirada, consigues mantener el equilibrio. Si fallas la tirada, el viento te tira al suelo; sufres 1 de Daño boca abajo.
+Eventmito10.button1,Continuar
+Eventmito11.text,De repente, tenéis las visiones de innumerables personas caminando por la cubierta. Hablan, se ríen y se divierten. Después, ¡la imagen desaparece! \n Todos los Investigadores situados en espacios de exterior sufren 1 de Horror (anulado por {will}).
+Eventmito11.button1,Continuar
+Eventmito12.text,La realidad se rompe, conectando dos mundos. \n Coloca una ficha de Brecha dimensional en el lugar señalado.
+Eventmito12.button1,Continuar
+Eventmito12B.text,A través de la brecha dimensional es posible ver unos mundos maravillosos, lo que trae consigo un soplo de esperanza. \n Todos los Investigadores que tengan a su alcance una brecha dimensional adquieren el estado <i>Concentrado</i>.
+Eventmito12B.button1,Continuar
+Eventmito_principal.button7,Button7
+Eventmito_principal.button8,Button8
+Eventmito_principal.button9,Button9
+Eventmito_principal.button10,Button10
+Eventmito_principal.button11,Button11
+Eventmito_principal.button12,Button12
+Eventmito13.text,El sol se eleva en el cielo y luego desaparece en el horizonte. El fenómeno se repite varias veces, como si el tiempo pasase a gran velocidad. {rnd:hero} queda aterrorizado y sufre 1 de Horror boca abajo.
+Eventmito13.button1,Continuar
+Eventmito20.text,La realidad se agrieta en el pasillo. Coloca una ficha de Brecha dimensional en el lugar señalado.
+Eventmito20.button1,Continuar
+Eventmito20B.text,Aparentemente la brecha dimensional lleva a un tiempo en el que este sitio está sumergido. El agua del mar entra por la brecha, comenzando a inundar el Hall. Coloca 2 fichas de Inundación como se señala.
+Eventmito20B.button1,Continuar
+Eventmito20C.text,Quizá sea necesario cerrar esta brecha dimensional antes de que inunde por completo el barco.
+Eventmito20C.button1,Continuar
+Eventmito21.text,¿Se ha cerrado la brecha dimensional del {c:TileHalldeentrada}?
+Eventmito21.button1,Sí
+Eventmito21.button2,No
+Eventmito21Nofechado.text,El agua continúa entrando en este plano, inundando el barco. \n Coloca 1 ficha de Inundación adyacente a otra ficha de Inundación (siguiendo la misma regla que en el caso del Fuego). \n En cada turno, al inicio de la fase de Mitos, coloca una ficha de Inundación adyacente a otra ficha de Inundación a menos que la brecha dimensional del {c:TileHalldeentrada} haya sido cerrada. \n (Este mensaje no volverá a salir más).
+Eventmito21Nofechado.button1,Continuar
+Eventmito21B.text,{rnd:hero} observa cómo la realidad se rasga ante sus ojos. Coloca una Brecha dimensional en el espacio ocupado por {rnd:hero}. Justo en ese momento una criatura venida de otro mundo se retuerce y atraviesa los planos. Aparece un Horrendo cazador en el espacio ocupado por {rnd:hero}.
+Eventmito21B.button1,Continuar
+Eventmito22.text,{rnd:hero} siente una gran presión alrededor de su cuerpo ({strength}, 2). Si superas la tirada, vences al poder sobrenatural que te acometía. Si fallas la tirada, eres subyugado por el extraño fenómeno; adquieres el estado <i>Retenido</i>.
+Eventmito22.button1,Continuar
+Eventmito23.text,El barco sufre una terrible sacudida, que daña parte del casco. Todos los Investigadores realizan una prueba de ({agility}; 2). Si superas la tirada, consigues mantener el equilibrio. Si fallas la tirada, sufres 1 de Daño y adquieres el estado <i>Desconcertado</i>.
+Eventmito23.button1,Continuar
+Eventmito30.text,La proa del barco se yergue en dirección al cielo, y comienza a hundirse rápidamente. Todos los Investigadores se mueven 2 espacios en la dirección opuesta a la proa. Si no hay una pared para contenerlo, adquieres el estado <i>Perdido en el tiempo y el espacio</i>.
+Eventmito30.button1,Continuar
+Eventmito30B.text,El agua sigue subiendo por el barco. Coloca dos fichas de Inundación en los lugares señalados.
+Eventmito30B.button1,Continuar
+Eventmito30C.text,Coloca dos fichas de Inundación como se señala.
+Eventmito30C.button1,Continuar
+Eventmito_principal.button13,Button13
+Eventmito_principal.button14,Button14
+Eventmito_principal.button15,Button15
+Eventmito31.text,El barco sigue hundiéndose. Descarta los módulos {c:TileConvesdoNavio6} y {c:Tileconves2}, así como todas las fichas que hubiera en ellos. \n Los Investigadores que estuvieran en esos módulos adquieren el estado <i>Perdido en el tiempo y el espacio</i>. Los Monstruos se mueven hasta el siguiente espacio adyacente disponible.
+Eventmito31.button1,Continuar
+Eventmito31B.text,El agua continúa subiendo. Coloca una ficha de Inundación en el lugar señalado.
+Eventmito31B.button1,Continuar
+Eventmito31C.text,Coloca otra ficha de Inundación en el lugar señalado.
+Eventmito31C.button1,Continuar
+Eventmito32.text,El agua invade los compartimentos internos, dejándolos completamente sumergidos. Descarta los módulos {c:TileCabines} y {c:TileHalldeentrada}.\n Descarta todas las fichas y Objetos de esos dos módulos. \n Todos los Investigadores situados en esos módulos adquieren el estado <i>Perdidos en el Tiempo y el Espacio</i>.
+Eventmito32.button1,Continuar
+Eventmito32B.text,Todos los monstruos que estaban en estos módulos de tablero sufren 2 Daños y se mueven al espacio señalado.
+Eventmito32B.button1,Continuar
+Eventmito32C.text,Un rayo golpea la proa del barco, destruyendo parte de la madera, que prende fuego. \n Coloca una ficha de Fuego en el lugar señalado.
+Eventmito32C.button1,Continuar
+Eventmito33.text,El barco sigue hundiéndose. Descarta los módulos {c:Tileconves1} y {c:TileConvesdonavio1}, así como todas las fichas que hubiera en ellos. \n Los Investigadores que estuvieran en esos módulos adquieren el estado <i>Perdido en el tiempo y el espacio</i>.
+Eventmito33.button1,Continuar
+Eventmito33B.text,Todos los monstruos que estaban en estos módulos de tablero sufren 2 Daños y se mueven al espacio señalado.
+Eventmito33B.button1,Continuar
+Eventmito33C.text,Sólo el extremo de la proa del «Gran Blue» está fuera del agua. ¡Ésta es tu última oportunidad!
+Eventmito33C.button1,Continuar
+Eventmito_principal.button16,Button16
+Eventmitofinal.text,El barco naufraga por completo, engullido por las oscuras aguas.
+Eventmitofinal.button1,Continuar
+Eventmito_principal.button17,Button17
+Eventmito_principal.button18,Button18
+Eventmito_principal.button19,Button19
+Eventmito16.text,Las brumas que rodean al barco se hacen más intensas. Durante el próximo turno, todos los Investigadores lanzan 1 dado menos cuando hagan pruebas de {observation}.
+Eventmito16.button1,Continuar
+Eventmito14.text,{rnd:hero} siente una fuerza invisible que lo arrastra hacia otro mundo. Coloca una brecha dimensional en tu espacio ({strength}, 2). Si superas la tirada, resistes con éxito a esa fuerza. Si fallas la tirada, eres arrastrado a otro mundo y adquieres el estado <i>Perdido en el tiempo y el espacio</i>.
+Eventmito14.button1,Continuar
+Eventmito15.text,{rnd:hero} observa cémo unas gotículas de agua se forman en mitad del aire. Se condensan cada vez más y más hasta que finalmente caen a tu alrededor, como si estuviese lloviendo. El agua comienza a subir y subir. Coloca una ficha de Inundación en cada espacio dentro del alcance de {rnd:hero}.
+Eventmito15.button1,Continuar
+EventMito20C.text,El siguiente evento afecta al Investigador que no posea fichas de Oscuridad y que haya sufrido menos Daño. \n\n De repente eres empujado a otra realidad. Coloca una ficha de Brecha dimensional en tu espacio y adquieres el estado <i>Perdido en el tiempo y el espacio</i>.
+EventMito20C.button1,Continuar
+Eventmito20D.text,A medida que tu cuerpo es llevado a este remolino de realidades atisbas un extraño objeto. Al extender la mano para tocarlo, una energía destructiva envuelve tus dedos, corroyendo la piel y abriendo grandes quemaduras. Te van a quedar unas cicatrices muy severas. \n\n Sufres 1 Daño. \n Recibes 2 fichas de Oscuridad (colócalas sobre tu fichas de personaje). \n Ganas el Objeto único Escultura grotesca.
+Eventmito20D.button1,Continuar
+quest.description,Un rutinario viaje en barco se transforma en una lucha por la supervivencia en el momento en el que una terrible tempestad toma forma. Sin embargo, la tormenta es sólo el comienzo... \n\n Éste es un escenario de acción e investigación para «Las Mansiones de la Locura», Segunda Edición. Presta atención a los detalles porque necesitarás averiguar la identidad del antagonista. \n\n Este escenario requiere la expansión «Viajes escalofriantes». \n\n <b>Nota:</b> Las fichas de Oscuridad se usarán de una manera diferente que será indicada por la aplicación.
+Tokenradio_jantar.text,Sobre una de las mesas hay un aparato de radio. Por su tamaño y formato, parece que ha venido de alguna época del futuro.
+EventRadio_jantar_falhou.text,Sólo ha sido ruido. Quizá tengas que insistir más.
+EventRadio_jantar_falhou.button1,Continuar
+Eventradio_jantar_passou.text,Encuentras una señal pero no entiendes lo que dice la persona al otro lado de la frecuencia. En ese momento, una voz dice: \n\n —<i>Ustedes... váyanse ahora mismo... ¡no vengan hacia este barco! Aléjense... o jamás podrán salir... </i> \n\n Te das cuenta de que ese mensaje ya lo has oído antes. \n Ganas 1 Pista <color=green>{clue}</color> A continuación, descarta esta ficha de Interacción.
+Eventradio_jantar_passou.button1,Continuar
+Eventradio_jantar_passou2.text,La radio emite un agudo sonido. A continuación oyes una risotada seguida por una voz envejecida: \n\n <color=yellow><b>Yog-Sothoth nunca duerme...</b></color>
+Eventradio_jantar_passou2.button1,Continuar
+Eventradio_jantar_passou4.text,El velo de la realidad comienza a rasgarse. Coloca una Brecha dimensional en el lugar señalado.
+Eventradio_jantar_passou4.button1,Continuar
+Eventradio_jantar_passou5.text,Un objeto viene desde otro mundo, atravesando la brecha dimensional y cayendo en tus manos. \n Ganas el Objeto común Vendas
+Eventradio_jantar_passou5.button1,Continuar
+Eventrevelar_jantar.button2,Continuar
+Eventmito2B.text,Los Investigadores que caen al mar intentan nadar de vuelta al barco, luchando contra la corriente y las olas. \n Todos los Investigadores que tengan su miniatura fuera del tablero realizan una prueba de ({agility}; 3). \n\n Si superas la tirada, consigues volver al barco; coloca tu miniatura en cualquier espacio de exterior del módulo {c:Tilebarquinho}. \n\n Si fallas la tirada, la corriente es demasiado fuerte y te arrastra hacia la niebla; sufres 1 de Horror. Tu miniatura permanece fuera del tablero. No podrás jugar ni tendrás acciones hasta que la aplicación te indique lo contrario. \n
+Eventmito2B.button1,Continuar
+Eventmito2C.text,¿Se ha perdido algún Investigador en la niebla?
+Eventmito2C.button1,Sí
+Eventmito2C.button2,No
+Eventmito2D.text,La esperanza de rescatar a tu amigo se deshace como la neblina que lo envolvió. Cada uno de los demás Investigadores eligen entre descartar 1 Pista <color=green>{clue}</color> o sufrir 1 de Horror boca abajo.
+Eventmito2D.button1,Continuar
+Eventmito32D.text,En breve el barco estará sumergido. ¡Es mejor que te des prisa!
+Eventmito32D.button1,Continuar
+Eventmonstrosubindo.text,Al mirar hacia el agua, descubres una criatura que está intentando subir al barco. La escena desafía todo aquello que hasta ahora entendías como real. Sufres 1 de Horror (anulado por {will}).
+Eventmonstrosubindo.button1,Arrojar a la criatura de vuelta al agua
+Eventmonstrosubindo.button2,Ponerte a salvo
