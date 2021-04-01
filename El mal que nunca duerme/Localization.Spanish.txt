@@ -553,7 +553,7 @@ Eventcoisasnacadeira.button1,Continuar
 Eventmapa_grande_antes.text,Ganas el Objeto común <i>Mapa de líneas ley</i>.
 Eventmapa_grande_antes.button1,Continuar
 quest.authors_short,Lucas M. Carvalho
-quest.authors,\n\n Historia y narración (en portugués): \n Lucas M. Carvalho \n\n Música: Fesliyan Studios Background Music \n\n Traducción al español: Vidimus \n Revisión: Mauch8 \n\n
+quest.authors,\n\n Historia y narración (en portugués): \n Lucas M. Carvalho \n\n Música: Fesliyan Studios Background Music \n\n Traducción al español: Vidimus \n Revisión: Mauch8 \n Narración: Gomy \n Música (http://fesliyanstudios.com): «Haunted Memories», «Scarey Atmospheres» y «Dark Fog», de David Fesliyan. \n
 Eventritual2.button1,Continuar
 Eventritual2.text,Comienza a caer una intensa lluvia. Fuertes rachas de viento, relámpagos, olas enormes. Durante un instante tienes la visión de los tripulantes corriendo para ponerse a salvo.
 Eventritual3.text,Un portal se abre al otro lado de la puerta y un extraño envuelto en una capa surge de él. \n\n Aparece un Sectario en el lugar señalado.
