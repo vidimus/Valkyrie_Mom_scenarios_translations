@@ -1,0 +1,594 @@
+.,English
+quest.name,Dracula
+quest.description,\n An adaptation of the novel, Dracula, published in 1897 by Bram Stoker. This scenario can be played from 2 to 5 players. However, it is recommended to play with at least 4 players. \n\n Expansions required are 'Beyond the Threshold' and 'Streets of Arkham.' \n
+quest.authors,\n Stage and narration in Portuguese: Lucas M. Carvalho. \n\n Based on the book by Bram Stoker. \n\n Background music by Fesliyan Studios. \n\n picture Gerd Altmann of Pixabay \n\n Translation to Spanish: Richar and Mauch8 and translation to English: Wolfman7V and Vidimus \n Review: Vidimus \n\n
+EventPrlogo1.text,Each Investigator starts with 2 Clue tokens {clue}
+EventPrlogo1.button1,Continue
+EventPrologo2.text,8 December 1931 \n\n You have received a letter from a mysterious Transylvanian Count, inviting you to his castle to assist in cataloguing and deciphering some ancient artifacts stored in his personal collection. \n\n With great interest in this collection, you start the journey from London on a cold December morning. You are travelling by train for three days through the beautiful landscape of Austria via the Danube River. \n\n You decide to ask other passengers about the man that you are about to visit - a certain Count Dracula, but their reactions are evasive. Many passengers retire away to other train cars without saying anything, though they have marked expressions of fear and repeatedly make the sign of the cross whilst mumbling something incoherent in their native tongue. \n\n At the end of the third day, you can see the silhouette of the Carpathian Mountains, one of the most wild and unknown regions in Europe.
+EventPrologo2.button1,Continue
+EventPrologo3.text,You disembark from the train in the village of Bistritz. \n In exchange for a few coins, a coachman in his carriage takes you through the dark night to the castle. The forest becomes increasingly shrouded in dense fog, which prevents you from seeing any further than a metre beyond the side of the carriage.
+EventPrologo3.button1,Continue
+TokenJardim2.button1,{action} Open the gate to the area outside
+EventInicio1.text,After journeying for a further hour, you make sight of the majestic castle and the horses grow nervous. You climb out of the carriage and retrieve your baggage, when the coachman simply goes on without saying a word. \n\n Place the {c:TileEntrada} as indicated
+EventInicio1.button1,Continue
+EventInicio2.text,You enter the castle and find yourself in a splendid entrance hall. \n Place your Investigators as indicated
+EventInicio2.button1,Continue
+EventIncio3.text,A man seems to appear before your eyes and you wonder if he was there before, but you just hadn't noticed him due to being pre-occupied by the castle you find yourself in. He wears a sumptuous red robe and lots of jewellery. His stern face lit only by a single candle in his right hand. \n\n The man has a fragile appearance and appears to be the oldest person you've seen today. \n\n Place the character token as indicated \n This is Count Dracula.
+EventIncio3.button1,Continue
+EventInicio4.text,<i>"Welcome to my home."</i> says the Count.<I> "I have been waiting for you all for a long time."</i> \n\n He speaks with difficulty and walks slowly, which you put down to his seemingly advanced age.
+EventInicio4.button1,Continue
+EventInicio5.text,<i>"Please hang your coats and follow me into the dining room. I am sure after your long journey, a good feast will be most welcome."</i>
+EventInicio5.button1,Continue
+EventInicio6.text,The Count places the candle in the centre of the table in the middle of the entrance hall before walking slowly into the adjoining room to the left. \n\n Place the {c:TileSaladeJantar} tile and the door as indicated
+EventInicio6.button1,Continue
+EventInicio7.text,The Count sits down at the table. \n\n Move the Count as indicated.
+EventInicio7.button1,Continue
+EventInicio8.text,You look around the magnificent entry hall, still impressed by the beauty of the furniture and walls. The architecture seems to be a mixture of Gothic and Romanesque style. \n\n Several doors lead to different areas of the castle. \n\n Place four Explore tokens as indicated.
+EventInicio8.button1,Continue
+EventInicio21.text,At the other side of the hall, there is a huge painting on the wall. \n\n Place a Search token here.
+EventInicio21.button1,Continue
+TokenQuadro.button1,{action} Look more closely at the painting
+TokenQuadro.text,A huge oil painting framed in bronze occupies the entire wall opposite the entrance.
+TokenJardim2.text,A large iron gate leads to what appears to be a sort of garden outside.
+TokenComer.text,An impressive feast is laid out on the table and you are hungry after your long trip.
+TokenComer.button1,{action} Sit and eat the food laid before you.
+TokenComer.button2,{action} Peruse the table in the hope of finding something useful.
+TokenMesinhaJantar.text,A small corner table appears full of objects and trinkets. The Count is staring, his eyes ablaze. It is difficult to know whether he is observing the table or staring through it.
+TokenMesinhaJantar.button1,{action} Rummage through the items on the table without caring about the presence of the Count.
+Eventinicio71.text,The table is laden full of food and after such a long journey, you are tired, cold and hungry. The wonderful smell makes your mouth salivate. \n\n Place a Search token as indicated.
+Eventinicio71.button1,Continue
+Eventinicio72.text,There are some papers on a small table. \n\n Place a Search token as indicated.
+Eventinicio72.button1,Continue
+Eventinicio73.text,At the other side of the room, there are two finely carved mahogany doors leading further into the castle. \n\n Place Explore tokens as indicated. 
+Eventinicio73.button1,Continue
+TokenMesinhaJantar.button2,{action} You could try searching in the hope the Count doesn't notice.
+EventMesinhafurtivo.text,You extend your hand carefully, trying to reach the newspapers without drawing attention. Test ({influence}: 2).
+EventMesinhafurtivo.button1,Pass
+Eventmesinhacaradepau.text,You browse through the documents casually. Suddenly, Count Dracula asks: - <i> Why the hesitation my friend? After all, I called you here. Correct? </i>.
+Eventmesinhacaradepau.button1,Continue
+Eventbaquete.text,You delight in the breads, meats and wine laid before you. A huge roast ham, seasoned with honey and spices has your senses tingling. There are also cheeses, biscuits and fruits on display. \n Whilst you eat, you can't help but think that there must be a large team of cooks needed to prepare such a meal. The Count, however, appears to be alone. Once you have finished eating and drinking, you are most satisfied and comfortable. You have not eaten such fantastic food in a long time and you gorge yourself until you are full. \n\n Improve an attribute of your choice.
+Eventbaquete.button1,Continue
+TokenLago.button1,{action} Reach into the dark water
+EventQuadro1.text,Maybe you can decipher something about the scene depicted. Test ({lore} 2).
+EventQuadro1.button1,Pass
+EventQuadro1.button2,Fail
+EventQuadro2.text,You see a warrior suited in red armour, but you have no idea who he is. There is a great deal of blood and gore in the scene depicted, which has a heavy feel of death about it. Receive 1 Clue token {clue} then discard this search token.
+EventQuadro2.button1,Continue
+EventQuadro3.text,The image is dated 1465. In the foreground there is a warrior wearing red armour. This is Vlad III, a Romanian general who fought against the Ottoman Turks in the Middle Ages. In the background, several of his enemies appear to be impaled in agonising pain. \n\n Gain 2 Clues {clue} then discard this search token.
+EventQuadro3.button1,Continue
+EventMesinhafurtivo.button2,Fail
+EventMesinhafurtivo2.text,You successfuly grasp the object x. Count Dracula begins to laugh at you.
+EventMesinhafurtivo2.button1,Continue
+Eventmesinhafurtivo3.text,You try, but fail.
+Eventmesinhafurtivo3.button1,Continue
+TokenJArdim1.text,This door appears to lead to a garden
+TokenJArdim1.button1,{action} Open the door and step into the area outside
+EventLago.text,The icy wind of the night chills you to the bone. In a courtyard outside the castle there is a small lake. The water appears black in the night. \n\n Place the {c:TileLago} as indicated, then discard all Explore tokens leading to this place.
+EventLago.button1,Continue
+TokenLago.button2,{action} An investigator holding the<i> Shovel</i> can attempt to lift the object to the surface.
+EventBuracoLago1.button1,Continue
+TokenCaminharnaneblina.text,The woods around the castle here are shrouded in a haze that does not seem natural.
+TokenCaminharnaneblina.button1,Peer into the gloom
+TokenLago.text,It is difficult to see anything in the lake other than your own reflection looking back at you in the moonlight, but a shiny object definitley looks to be submerged and you think you can reach it. However, you also feel the presence of something is moving in the depths. Maybe it's better to try and find a long object to retrieve the item with, so as to avoid touching the water with your hands...
+EventLago11.text,The surface of the lake looks utterly black, but you notice something glinting in the moonlight and it seems that there is something submerged just beneath the surface. \n\n Place a Search token as indicated.
+EventLago11.button1,Continue
+EventLago12.text,The forest extends on through the fog. \n\n Place a Sight token as indicated
+EventLago12.button1,Continue
+EventComerUisque.text,You look for something useful amongst the many dishes and cutlery when your eyes fall upon a very distinctive bottle, which you recognise as a very fine spirit indeed. So expensive in fact, one bottle would equate to about 3 months wages! Indeed, the Count is generous in providing such luxury and he urges you to keep it! \n\n Receive the<i>Whiskey</i> Common Item
+EventComerUisque.button1,Continue
+EventCaminharnaneblina2.text,You strain desperately to try and see anything through the fog. Test ({observation}; 2)
+EventCaminharnaneblina2.button1,Pass
+EventCaminharnaneblina2.button2,Fail
+EventCaminharnanevoa3.text,The roads and paths are barely distinguishable and it is hard to know which route takes you to any degree of civilisation. There is no sign of anybody around. You are simply surrounded by twisted, gnarled trees, darkness and fog. Suddenly, you realize you simply cannot leave this place anytime soon. \n\n Suffer 1 Horror
+EventCaminharnanevoa3.button1,Continue
+EventCaminharnanevoa4.text,Suddenly, you see movement in the woods! Shapes that look like the outline of people seem to be wandering around in the dark, very erratically. Who are they? \n You have the feeling that maybe some are drawing closer and approaching the castle. \n\n Receive 1 Clue token {clue} then discard this Explore Token
+EventCaminharnanevoa4.button1,Continue
+TokenBiblioteca1.text,According to the plaque on this door, it leads to the library. However, it is secured by a large brass lock.
+TokenBiblioteca1.button1,{action} An Investigator holding the <i>Brass Key</i> can open this.
+TokenCondeDracula2.text,The Count is sitting in a chair at the table, rigid as a marble statue.
+TokenCondeDracula2.button1,{action} <i> Where are the artefacts you wanted us to catalogue?</i>
+TokenCondeDracula2.button2,{action} <i> What is the history of this castle?</i>
+TokenCondeDracula2.button3,{action} <i> Forgive my rudeness, but... how old are you?</i>
+Eventdraculajantar.text,The Count, with a soft smile, says: \n\n - <i>"I admire your dedication to your work. However, we need not take care of business at this time. Just eat and rest. It has been a long journey. We have plenty of time later. </i>Please, enjoy the pleasure of my hospitality." <I> </i> \n
+Eventdraculajantar.button1,Continue
+Eventdraculajantar2.text,<i>"I see you have a thirst for knowledge." </i> The Count gestures to a great coat of arms on the wall whilst explaining. <I>"I am a descendant of the members of the Order of the Dragon, a group of knights who defend the Emperor, Christianity and fought against the Turkish threat. This castle was built in the fifteenth century."</i> \n\n Receive 1 Clue token {clue}
+Eventdraculajantar2.button1,<i> Why are people afraid of the castle</i>?
+Eventdraculajantar2.button2,<i> Is it not lonely living in a castle so far away from civilisation? </i>
+EventDraculajantar21.text,The Count squints, perhaps annoyed by the question. \n\n <i>"Villagers are superstitious. My name is Dracula, being descended from members of the Order of the Dragon. However, in modern Romanian, the word "Dracul" means "devil". People with ignorance fear and hate what they do not understand</i>." \n\n The voice of the Count and the rhythm of his speech are seductive. You realize that the backs of your eyes are burning due to the intense stare of his inferno-like eyes. \n\n Complete a Will Test ({will}; 2). If the roll is successful, you regain control of your mind. If you fail, you become <i>Hypnotized</i>. \n\n Receive 1 Clue token {clue}
+EventDraculajantar21.button1,Continue
+Eventdraculajantar22.text,<i> "I do not live alone" </i> The Count responds courteously. <I>"I quite often receive invitations from the townsfolk." </i> \n\n Receive 1 Clue token {clue}
+Eventdraculajantar22.button1,Continue
+EventDraculajantar3.text,The Count smiles and says: \n\n <i>"In the eyes of the old, care is always vigilant; and where that soldier is on guard, the dream does not penetrate." </i> \n\n You try to understand the enigmatic words of the Count. Test ({lore}; 2)
+EventDraculajantar3.button1,Pass
+EventDraculajantar3.button2,Fail
+Eventdraculajantar31.text,You realize that the Count recited a scene from "Othello" by William Shakespeare. \n\n <i>"I'm impressed!" </i> The Count says, clapping enthusiastically. <I>"I am glad I have a guest versed in good literature." </i> \n\n Receiving praise from the Count inflames your ego. Become <i>Focussed </i> and gain 1 clue {clue}
+Eventdraculajantar31.button1,Continue
+Eventdraculajantar32.text,You think hard, but the conundrum simply makes no sense and you remain silent, with no response to offer.
+Eventdraculajantar32.button1,Continue
+TokenOlharfora.button1,Reveal
+EventLago13.text,You can continue along the castle walls from the outside. \n\n Place a Sight token as indicated
+TokenOlharfora.text,You can continue walking along the side of the castle.
+EventLago13.button1,Continue
+EventExposio.text,A long gallery appears to show several collectibles, ranging from old weapons to works of art. In fact, The Count seems to have very good taste. \n\n Place the {c:TileExposio1}, {c:TileExposio2} and walls as indicated. \n\n Discard all Exploration Tokens from the {c:TileEntrada} and the {c:TileSaladeJantar} leading to the gallery.
+EventExposio.button1,Continue
+TokenGaleria1.text,A magnificent mahogany door stands before you that seems to lead further into the castle.
+TokenGaleria1.button1,{action} Open
+TokenGaleria2.text,An ornately carved door extends further into the castle.
+TokenGaleria2.button1,{action} Open
+TokenGaleria3.text,This impressive door leads further into the castle.
+TokenGaleria3.button1,{action} Open the door
+EventOlharfora.button1,Continue
+EventOlharfora.text,The path continues on ahead. \n\n Place the {c:TileQuintal2} tile as indicated \n\n then discard this Explore token
+SpawnVampiroEstelar1.text,A horrible creature emerges from the water. His oily tentacles seeking some source of food. \n\n Place a Star Vampire as indicated \n\n <b> This monster ignores the player holding the <i> {c:QItemCruzSagrada} Common Item </i> and will not move toward them or attack them </b> \n.
+SpawnVampiroEstelar1.button1,Continue
+EventBuracoLago1.text,You put your hand in the water up to your elbows and it is desperately cold. You fumble around until the your fingertips fall upon a metal object. \n\n You receive the <i>Brass Key</i> Unique Item
+CustomMonsterTraidor.monstername,Traitor
+Eventprolemover.button2,Devour
+EventAtivaodoVampiroEstelar.text,The Star Vampire moves two spaces towards the nearest investigator, then attacks the investigator with the highest Strength {strength}. \n\n This monster ignores any player holding the <i> {c:QItemHolyCross} Common Item </i> (not moved forward and will not attack).
+EventAtivaodoVampiroEstelar.button1,Continue
+CustomMonsterTraidor.Attack_firearm_1,You shoot the huge creature ({agility} 2). If the roll succeeds, your bullets strike home with deadly precision as the creature screams in pain. The monster suffers weapon damage plus the result of the roll. If you fail the roll, the hail of bullets seems to get lost in all directions, causing mere scratches.
+CustomMonsterTraidor.Attack_heavy_1,You lift the object and try to hit the legs of the monster ({strength} 2). If the roll succeeds, your strike is effective: the creature howls in pain. It suffers damage equal to that of your weapon damage. If you fail, your strike simply impacts the ground.
+CustomMonsterTraidor.Attack_spell_1,You pronounce the arcane words, but the visions of your former friend confuses your thoughts ({lore}; 2). If the roll succeeds, you realize that the monster tries to invade your mind, yet you block it out long enough to  invoke the spell. The monster suffers damage equal to that of your spell plus the result of your roll. If you fail, the creature takes control of your mind and completes the spell for you: you suffer damage equal to that of your spell and also all investigators within range suffer 1 Facedown Damage.
+Eventmito4.button1,Continue
+Eventmito2.text,A blustery wind violently slams the windows of the castle, forcing them to open and close rapidly and repeatedly. \n\n The candleholder which the Count placed on the table threatens to topple over. If the wind increases in intensity, it could prove dangerous. \n\n Place a Search token as indicated.
+Eventmito2.button1,Continue
+Eventmito4.text,Suddenly, the Count disappears before your eyes. \n\n Remove the Count's character token from the board.
+TokenCastial.text,The candle that the Count placed on the table when you arrived is teetering and wobbling in the gusty wind blowing through the entrance hall.
+TokenCastial.button1,{action} Take the candle 
+Eventmito12.text,You receive the <i> Candles </i> Common Item. Then discard this search token.
+Eventmito12.button1,Continue
+TokenPoo.button1,{action} Search
+EventPoo1.text,You try to remove some of the waste material. Test {strength}.
+TokenPoo.text,You see an old well that is full of rubble and debris. There may be something here...
+EventPoo1.button1,Continue
+EventPoo2.text,You find a shovel in the middle of the rubbish. This shovel could potentially be used to search in the water. \n\n Receive the <i>Shovel </i>Common Item, then discard this search token.
+EventPoo2.button1,Continue
+EventOlharparafora1.text,You see an old well that seems full of rubble and wooden debris. \n\n Place a Search token as indicated.
+EventOlharparafora1.button1,Continue
+EventPortaescada.button1,Continue
+EventPortaescada.text,A thick, heavy wooden door leads back into the castle. \n\n Place an Explore token as indicated.
+EventChavedolago.text,You use the blade of the shovel to dig under a small metal object and raise it to the surface. It is a key made of brass with a distinctly antique look. \n\n Receive the <i>Brass Key </i>Unique Item, then discard this Search token.
+EventChavedolago.button1,Continue
+Eventburacodolago2.text,The turgid water surges suddenly and huge dark mass rises to the surface. Instinctively, you scream and withdraw your hand but you are not fast enough. Searing pain shoots up your arm as blood spreads through water and you realize that something has ripped off your index finger. \n\n Suffer 1 damage. All other Investigators within range suffer 1 Horror (negated by {will}). \n\n Discard this search token.
+Eventburacodolago2.button1,Continue
+TokenArmariobiblioteca.button1,{action} Hide
+EventBibliotecaRevelar1.text,The door leads to a large library. The shelves are populated with a vast array of books from magic, arts, history, geography and almost all areas of human knowledge. \n\n Place the {c:Tilebiblioteca} and three Wall tokens as indicated. Also, place a door token at the spot where you have entered the room. \n\n Then discard this Explore token.
+EventBibliotecaRevelar1.button1,Continue
+EventMonstroFaminto.text,Some kind of giant creature appears to be moving around in the lake just below the surface and it seems impatient. Perhaps it's hungry? If you could find something to feed to it, perhaps it will calm down. You are also deeply thankful you didn't put your hand in the water to retrieve the key! \n\n Place an Interact token as indicated
+EventMonstroFaminto.button1,Continue
+TokenMonstrofaminto.button1,{action} You may throw the piece of human flesh into the water (if you have the <i>Forensic Evidence</i> Unique Item).
+TokenMonstrofaminto.text,The hungry creature is moving around. If you find something to feed it, maybe it will leave you alone.
+EventEsconderarmrio.text,You shrink to try and squeeze into the small space. You can only go un-noticed if you stay as still as possible. Test your ({will}; 1)
+TokenArmariobiblioteca.text,There is a small closet hidden in a recess between the shelves. A Investigator can try to hide in it (only one Investigator can hide in each closet).
+EventEsconderarmrio.button1,Pass
+EventEsconderarmrio.button2,Fail
+EventEsconderarmariopassou.text,You manage to squeeze into the makeshift shelter. \n\n Remove your Investigator from the board. You will not be attacked by any monsters and you do not need to make Horror Checks. \n\n At any time, you can return to your original location without spending any action {action}.
+EventEsconderarmariopassou.button1,Continue
+EventEsconderarmariofalhou.text,You struggle to fit into the space available and as such you grow concerned about the amount of noise you are making. You think it best to abort this attempt. You could try again though, perhaps from a different angle if you wish...
+EventEsconderarmariofalhou.button1,Continue
+TokenDirioVanHelsing.text,Some books and manuscripts are scattered on the table.
+TokenDirioVanHelsing.button1,{action} Examine
+EventPegardiarrio.text,Among the many notes, you find a small journal dated 1897. \n This is the diary of a man named Abraham Van Helsing. \n\n Receive the <i>Old Journal</i> Unique Item. The Investigator holding the <i>Old Journal </i>can interact with it in the app.
+EventPegardiarrio.button1,Continue
+EventLacaio.button1,Continue
+EventRevelarbiblioteca2.text,In the centre of the room is a table which has a number of notebooks and papers scattered across it that may be of interest. \n\n Place a Search token as indicated.
+SpawnLacaio.button1,Continue
+SpawnLacaio.text,Place a Son of Dagon as indicated. He would appear to be a servant of Count Dracula. \n\n This monster ignores the Investigator with the<i> {c:QItemCruzSagrada}</i> Common Item (he will not move toward or attack them).
+EventLacaio.text,With a start, you realise someone has crawled out from between the middle of the shelves! He is a strange, sickly, pale man who throws you a look of utter hatred. \n\n <i>"So you're touching the Master's belongings? I will kill you for this, and he will be eternally grateful!"</i> \n\n Discard this Search token
+EventRevelarbiblioteca2.button1,Continue
+Eventrelevarbiblioteca3.text,There is a small recess, almost like a closet, situated between the shelves that could serve as a shelter. \n\n Place an Interact token as indicated
+Eventrelevarbiblioteca3.button1,Continue
+EventBibliotecarevelar4.text,On the table on the opposite side of the room, you can see a large spellbook sitting upright which makes it clearly visible. \n\n Place a {c:QItemNuvemdeVeneno} spell as indicated.
+EventBibliotecarevelar4.button1,Continue
+EventRevelarbiblioteca5.text,Something catches your eye at the very top of the bookshelf. \n\n Place a Search token as indicated.
+EventRevelarbiblioteca5.button1,Continue
+TokenEmcimadaestante.text,You can see an object at the top of the bookshelf which looks difficult to reach.
+TokenEmcimadaestante.button1,{action} Climb the shelf
+EventEmcimadaestantefalhou.text,You attempt to climb the bookshelf. However, your feet slip and you end up falling, causing you minor injuries. Flip 2 Damage face up. The object you were attemtping to reach thankfully also fell to the ground. \n\n Receive the <i>Bandages</i> Common Item and discard this Search token.
+EventEmcimadaestante2.button1,Pass
+EventEmcimadaestante2.button2,Fail
+EventEmcimadaestante2.text,You try to squeeze your hands and feet into the empty spaces of the rack. Test ({agility} 2).
+EventEmcimadaestantepassou.button1,Continue
+EventEmcimadaestantefalhou.button1,Continue
+EventEmcimadaestantepassou.text,You manage to climb up safely and find a package of bandages on the shelf. \n\n Receive the <i>Bandages</i> Common Item and discard this Search token.
+Eventlerdiario1.text,This is the diary of Abraham Van Helsing.
+Eventlerdiario1.button1,{action} Read the entries
+Eventlerdiario2.text,February 7, 1896 \n Transylvania, Romania. \n\n <i>'I am often called to treat malignant diseases or to defeat the creatures of darkness, but I have never received a call so desperate. Mina accused a man, living in this remote region, of being a magician or demon of some kind and begged me to rescue her fiance from his clutches. \n\n Count Dracula lives in a castle in the Carpathian Mountains. But no matter the power that this creature thinks it has, I feel certain I can destroy it.'</i> \n\n You are impressed by the courage and steely determination of Doctor Van Helsing. \n You become<i> Focussed </i> and gain 1 clue {clue} \n\n The journal still contains more information.
+Eventlerdiario2.button1,Continue
+Eventlerdiario3.text,February 20, 1895 \n Transylvania, Romania. \n\n 'I think I finally understand the nature of the creature with which I am trying to combat. Vampires are demons that feed on human blood, absorbing their attributes and thoughts. Thus, they preserve their own youth and strength. In Egypt, there are records of beings who have lived more than two hundred years! \n\n However, Dracula is different. While others are ferocious beasts that kill indiscriminately, this demon selects his victims carefully. He chooses them by their intelligence and sophistication, thus becoming versed in the arts, sciences and history in order to lure them in. \n\n According to my research, the Count has been alive since at least 985 B.C. which is almost incomprehensible. \n\n I have never encountered anything of the like before.' \n\n There is still more to read. \n\n Receive 1 Clue token {clue}
+Eventlerdiario3.button1,Continue
+Eventlerdiario4.text,March 22, 1895 \n Transylvania, Romania. \n\n <i> "By the tracks I found in the castle, I understand the modus operandi of the Count. He invites relevant people, then slowly traps them and devours their souls and their sanity. That was how the lawyer Jonathan Harker unhappily met his end in this place. \n\n The forests around the castle are full of these unfortunates. People without captive souls, trapped between life and death where they only wander from one place to another without reason. Nevertheless, they are spiteful and try to destroy the living because they are jealous. \n\n They must be avoided. Also, their ears are more sensitive than normal. The castle has a tower which is accessed from outside it. I myself rang the bell and that was enough to disperse them." </i> \n\n \n\n There are still important things for you to read in the journal. \n\n Receive 1 Clue token {clue}
+Eventlerdiario4.button1,Continue
+Eventlerdirio5.text,April 4, 1895 \n Transylvania, Romania. \n\n <i>'I have failed! The creature is too powerful. The more it feeds, the stronger it becomes. I thought I could destroy it, but it bears a resilience and strength the likes of which I have never seen before. \n\n I managed to hide items and weapons capable of killing the creature under the false floorboards next to the main entrance of the castle. I pray for some brave soul that can make use of them and free the world of this terrible evil!'</i> \n\n There are no more notes in the diary. 
+Eventlerdirio5.button1,Continue
+TokenUtenslios.text,Looking carefully, you notice that the floorboards are slightly loose.
+TokenUtenslios.button1,{action} Search further
+Eventlerdiario1.button2,{action} Read
+Eventlerdiario1.button3,{action} Read
+Eventlerdiario1.button4,{action} Read
+Tokengato1.text,The black cat sits quietly, watching you.
+Tokengato1.button1,{action} Pet it
+Eventgato1.text,You stroke the cat and it passes between your legs. It walks a little, away to the edge of the lake and begins to dig into the ground. It seems to want to show you something that is hidden. \n\n Move the Cat Token as indicated.
+Eventgato1.button1,Continue
+Tokengato2.text,The black cat is pawing at the ground. It seems to want to show you something.
+Tokengato2.button1,{action} Dig 
+Eventcat2.text,You dig into the ground where the smell of putrefecation is strong and you discover a dead soldier. He still clings firmly to his weapon which you can claim for yourself. The cat then flees, running towards the forest. \n\n Receive the <i>Tommy Gun</i> Common Item.
+Eventcat2.button1,Continue
+EventMitoPrincipal.button1,Button1
+EventMito1.button1,Continue
+EventMito41.text,All Investigators see before them the vision of the dining room table. Whilst it was once laid up as a fine banquet, it now shows a pile of corpses, internal organs, blood and viscera. Worms squirm out of the mouth and eyes of a severed head. Two rats gnaw at a human carcass and a swarm of flies buzz around a platter full of intestines. \n\n Any Investigators who ate at the banquet during the course of the evening are utterly disgusted and fall to their knees in a fit of vomiting. \n\n All investigators that ate part of the feast suffer 4 Horror (negated by {will})
+EventMito41.button1,Continue
+Tokenjantarcadaveres.text,It is difficult to approach the table without suffering from the terrible smell, but perhaps there may be something useful.
+Tokenjantarcadaveres.button1,{action} Search
+Eventcarnia1.text,You try to avoid vomitting as your hands fumble amongst the corpes and internal organs. Test ({will}, 3).
+Eventcarnia1.button1,Pass
+Eventcarnia1.button2,Fail
+Eventcarniapassou.text,You stand firm while manipulating the putrefying bodies before you. You find a piece of fresh human flesh that could serve as a food for some creature. \n\n Receive the <i>Forensic Evidence </i>Unique Item. It represents the piece of human flesh. Then discard this Search token.
+Eventcarniapassou.button1,Continue
+Eventcarniafalhou.text,You try to concentrate, but the situation is just too nauseating. You cannot control yourself and violently begin vomitting. \n Suffer 1 Facedown Damage or 1 Horror. You take a moment to compose yourself before continuing with a renewed determination.
+Eventcarniafalhou.button1,Continue
+Eventmito3.text,There's something strange on the face of the Count. He still appears old, but certainly not as much as a few minutes ago. It may be just a trick of your eyes, but he seems to appear at least fifteen years younger! \n\n All Investigators located in the Dining Room suffer 1 Horror.
+Eventmito3.button1,Continue
+EventMito1.text,Wolves howl through the night. No immediate effect.
+EventMitoPrincipal.button2,button2_Click
+EventMitoPrincipal.button3,button3
+EventMitoPrincipal.button4,Button4
+Eventcastial.text,You decide to retrieve the candle that the Count placed here, before the gusty wind causes a more imminent problem. \n\n Receive the <i>Candles </i> Common Item, then discard this Search token.
+Eventcastial.button1,Continue
+EventMonstrofaminto2.text,You throw the piece of meat, and it slowly sinks and disappears into the depths. The waters begin to stir and it seems that the thing is eating. \n\n That should keep it busy during the time needed by the Investigators. \n\n Discard this Interact token.
+EventMonstrofaminto2.button1,Continue
+Eventmitocinco.text,The sky tears open with searing flashes of lightning and the booming sound of thunder reverberates throughout the night sky. An intense storm ensues, making things feel even more closed in than before. You hear the rain begin to hammer against the windows and you wonder if you'll ever make it out of here alive.
+EventMito5.button1,Continue
+Eventmito6.text,A sudden wind swirls around {rnd:hero} forcing a test of strength ({strength}; 2). If the roll succeeds, you retain all your items. If you fail, the wind dislodges your belongings and you must discard a random item as it falls from your grasp and breaks on the floor.
+Eventmito6.button1,Continue
+Eventmito61.text,The candlestick left on the table in the centre of the entrance hall topples over due to the wind. The carpet catches fire and the flames then extend toward the curtains. \n\n Discard this Search token and place a fire token as indicated
+Eventmito61.button1,Continue
+EventMitoPrincipal.button5,button5
+EventMitoPrincipal.button6,button6
+Eventmito7.button1,Continue
+Eventmito71.text,A black cat emerges from the woods and remains close to the outer walls of the castle. \n\n Place the Cat Token as indicated
+Eventmito7.text,The moon glows red in the sky. The Count is undoubtedly becoming more powerful.
+Eventmito71.button1,Continue
+EventMitoPrincipal.button7,Button7
+Spawnturba.button1,Continue
+Spawnturba.text,The bodies trapped between life and death move in a disorderly manner past each other. Their only feeling is the envy of those who still have a soul. \n\n Their numbers are too numerous to take on in any form of combat, but maybe there's a way to drive them back without having to fight. \n\n The Riot ignores any player holding the <i>{c:QItemCruzSagrada} </i>Common Item and will not move toward or attack them.
+EventMonstrodolagomorre.text,The fetid monster scrambles to crawl back toward the lake, leaving a sticky trail behind it.
+EventMonstrodolagomorre.button1,Continue
+Eventmito8.text,The moon is red in the sky. Dark creatures are more restless than ever. The Count is becoming more powerful.
+Eventmito8.button1,Continue
+Eventmitoum.button1,Continue
+Eventmitocinco.button1,Continue
+Eventmitodez1.text,The hordes of forest-walkers have reached the castle and their appearance is diabolical. \n\n Place a Riot as indicated
+Eventmitodez1.button1,Continue
+Eventmitonove.text,A huge BOOM! causes a large crack to open in the floor of the Entrance Hall. All Investigators located here perform a test ({agility}; 2). If the roll succeeds, you manage to jump out of the way in time. If you fail, you stumble over and fall into the crack where you become stuck. Suffer 1 Damage and become <i>Immobilized. </i>
+EventCruzqueimando.text,The power of darkness is becoming desperately oppressive. The {c:QItemCruzSagrada} reacts by becoming incandescent. \n\n The player with the <i> {c:QItemCruzSagrada} </i> suffers 1 Facedown Damage.
+Eventmitoonze1.text,There seems to be an object inside the crack. \n\n Place the <i>Axe</i> Common Item as indicated
+Eventmitoonze1.button1,Continue
+Eventmitooito.text,The thunderous voice of Count Dracula resounds throughout the castle. \n\n <i>"You mere mortals are nothing more than petty beings! Humanity is a pit of selfishness and lies and therefore you deserve to be consumed. However, I am gracious. Those who kneel before me will be forgiven and receive part of my powers. Take a covenant with me, mortals, and save yourselves!"</i>
+EventMitoPrincipal.button8,Button8
+EventMitoPrincipal.button9,Button9
+EventMitoPrincipal.button10,Button10
+EventMitoPrincipal.button11,Button11
+EventMitoPrincipal.button12,Button12
+Eventmitodoze1.text,The Cult Sigil has been added to the app. \n\n This emblem represents the possibility of a pact with Dracula. Any Investigator can interact with it in the app.
+Eventmitodoze1.button1,Continue
+EventPActo.text,A whispery voice insists that you give up everything.
+EventPActo.button1,{action} Betray my allies and invoke Dracula
+EventPActo.button2,Resist
+EventPacto1.text,You see a dark shape forming before your eyes. You can still go back.
+EventPacto1.button1,Make the pact
+EventPacto1.button2,Go back
+EventPacto2.text,Count Dracula appears in front of you as you kneel before him. Dracula makes a cut in the palm of his hand with his nail and squeezes a few drops of blood into your mouth.
+EventPacto2.button1,Continue
+EventPacto3.text,You feel cold and absolutely appalled. A deadly sense of sadness sweeps over you and an enormous power extends throughout your body. You begin to enter into an irreversible process of metamorphosis.
+EventPacto3.button1,Continue
+EventPacto4.text,Remove your Investigator from the board. \n Place all items your Investigator is carrying in your space.
+EventPacto4.button1,Continue
+SpawnProleEstelar.button1,Continue
+SpawnProleEstelar.text,Place a Star Spawn in the space occupied by the Investigator. \n\n This player has been eliminated, but will continue playing through the monster at the Mythos Stage (the other players do not lose the game because of this elimination). \nThe player does not win the game normally. Instead, you win if the investigation fails to be complete. \n\n Also, if you have a card with the Insane status, you will have two ways to win the game: one concerning the pact should the Investigators fail, and the other by madness. Either of them will be considered a victory. \n\n <b> Special Rule: When this monster moves, the Investigator can choose the direction. Then the same player can choose which Investigator it attacks (except for the Investigator who owns the {c:QItemCruzSagrada} </b>)
+Eventmitotreze.button1,Continue
+EventmitoonzeA.button1,Continue
+Eventmitotreze.text,Dracula's voice resounds throughout the castle uttering a mantra in an incomprehensible language. Each Investigator must perform a test ({lore}, 3). If the roll succeeds, you can keep distract yourself from his words. If you fail, the words penetrate your mind and you become <i> Hypnotized </i>.
+EventmitodozeA.button1,Continue
+Eventmitodez0.text,A dreadful sound is heard coming from the lake. \n\n Discard this Interact token.
+Eventmitodez.button1,Continue
+Eventmitodez0.button1,Continue
+EventmitodozeA.text,You hear and feel a huge disturbance all around you as the structure of the castle begins to shake.
+EventmitotrezeA.text,An even stronger tremor spreads. Looking out of the windows, you realise to your horror that the entire castle is being ripped from the ground, starting a process of levitation. What on earth is going on here?
+Eventmito17a.text,The Bell Tower begins to collapse. \n\n Discard the {c:TileTorredosino}, {c:Tilecurvadocorredor} and {c:TileEscadaria} and all elements that are present on these tiles. \n\n Any monsters on these tiles are destroyed and removed (an equal amount of suffering damage to its hit points).
+Eventmito17a.button1,Continue
+Eventmito17b.text,If any Investigators were present on these tiles, they have fallen through the floor to the gallery below. \n\n Place the Investigators as indicated \n\n Test ({agility}, 3). If the roll succeeds, you drop down with some minor discomfort: flip 1 Damage face up. If you fail, you struggle to find your feet as you hit the floor below and suffer 1 Facedown Damage.
+Eventmito17b.button1,Continue
+EventmitotrezeA.button1,Continue
+Eventmito14A.text,The castle finally rises from the ground completely. \n\n Discard the {c:TileQuintal2} and {c:TileLago} and removes all elements that are present on these tiles. \n\n Any monsters on these tiles are destroyed and removed (an equal amount of suffering damage to its hit points).
+Eventmito14A.button1,Continue
+EventNoivaaparecer1.text,You hear something moving. A woman in a gold dress appears, hanging upside down from the ceiling of the library. \n\n <i>"What do you think you are doing?"</i> she asks intimidatingly. \n\n This is Elena Anaya, the second Bride of Dracula.
+Eventmito19a.text,If there is any Investigator on the removed tiles, they manage to jump back to the lobby. \n\n Place your characters as indicated
+Eventmito19a.button1,Continue
+EventApocalipse.button1,Continue
+EventApocalipse2.text,Count Dracula materializes. He is completely rejuvenated, wearing the red armor depicted in the paintings in which he fought in the Middle Ages. \n\n Move the character token to the space indicated.
+EventApocalipse.text,An insane laughter erupts in the lobby.
+EventApocalipse2.button1,Continue
+EventApocalipse3.text,<i> "I'm ready" </i> he says. <I> "You tried to stop me, but you are nothing but a group of bumbling fools! My power is now complete and I am absolute. Behold my my true form!" </i>
+EventApocalipse3.button1,Continue
+EventApocalipse4.text,An ominous glow emanates from his body. \n\n Discard all Darkness Tokens \n\n Dracula's bones start to grow and his skin begins to stretch and tear amidst a grotesque transformation. \n Discard all Interact and Search Tokens at the indicated locations. \n\n The Cult Sigil has been removed from the app. It is now too late to try and make a pact with the enemy.
+EventApocalipse4.button1,Continue
+SpawnApocalipse.button1,Continue
+EventMitoPrincipal.button13,button13
+SpawnApocalipse.text,The true appearance of the devil is much worse than you had imagined. \n\n Place a Lloigor as indicated \n\n Now, the only escape is killing the beast. \n\n This monster ignores the Investigator with the <i> {c:QItemCruzSagrada} </i> Common Item and will not move toward them or attack them.
+EventMitoPrincipal.button14,Button14
+EventMitoPrincipal.button15,Button15
+EventMitoPrincipal.button16,Button16
+EventMitoPrincipal.button17,Button17
+EventMitoPrincipal.button18,Button18
+EventMitoPrincipal.button19,Button19
+EventMitoPrincipal.button20,Button20
+Eventmitovazio.text,The only hope you have is to destroy this foul creature...
+Eventmitovazio.button1,Continue
+EventMitoPrincipal.button21,Button21
+EventFimApocalipse.text,You put up an incredible and brave fight against the beast and despite its extraordinary power, it finally succumbs to your attacks. \n\n The castle begins to return to the ground, but the walls are proceeding to crumble to dust around you. All of the possessions belonging to Count Dracula begin to disintegrate, from the majestic books and manuscripts in his library to his fine art collections. \n\n You barely made it out alive and miraculously you manage to wave down a coachman who happily bears you to the nearest village, from where you can begin your journey home. \n\n Never before have you been in the presence of such evil and you hope never to face such a thing again. Congratulations! The investigation is complete.
+EventFimApocalipse.button1,Continue
+EventEscada1.text,You stand in front of a long staircase that seems to climb up into the clock tower and belfry. \n\n Place the {c:TileEscadaria}, {c:Tilecurvadocorredor} and Wall tokens as indicated.
+EventEscada1.button1,Continue
+EventEscada2.text,On top of the long staircase is an iron gate that should give access to the Belfry. \n\n Place an Explore token as indicated.
+EventEscada2.button1,Continue
+TokenSino.button1,{action} Adjust the gears
+EventSinotocado.text,You adjust the gear mechanism and then begin to pull on the ropes with all your might.
+EventSino.text,Try to solve the puzzle with {observation}.
+EventSino.button1,Resolve
+TokenSino.text,The same machine connects both the clock and the bell and it look as though it has not been used in a long time. Whilst it seems operational, you will need to re-adjust the gears in order to make it work.
+Puzzlesino.button1,Resolve
+EventSinotocado.button1,Continue
+EventSinotocado2.text,Booming metallic sounds echo throughout the woods and hills. You try to block out the intense volume with a steely resolve as you feel certain what you are doing is for the greater good. Become Focussed. The lost souls who are wandering around outside begin to amble and shuffle away from the noise and it seems that, for now, they will not bother you anymore.
+EventSinotocado2.button1,Continue
+EventSinotocado3.text,The Riot roaming the castle are driven into a frenzy because of the sound of the bell. They disperse and attack each other! Most perish, but some manage to escape into the forest. \n\n The Riot is destroyed.
+EventSinotocado3.button1,Continue
+EventSinotocado4.text,The intense noise and vibration of the bell has produced several cracks in the structure of the castle. The floor of the corridor breaks and splinters apart. It seems to have opened a passage back to the gallery beneath. \n\n Place an Interact Token as indicated.
+EventSinotocado4.button1,Continue
+Tokenburaconocho.text,A large crack has opened up in the floor and you can see the gallery a few metres below. It may be possible to descend to the lower level.
+Tokenburaconocho.button1,{action} Drop down, though will not be able to pass back this way again.
+Eventburaconochao2.text,You jump through the tear in the floor. Test ({agility}, 3). If the roll succeeds, you reach the floor without any problem. If you fail, you scratch yourself severely on the twisted wood and suffer 2 Facedown Damage. \n\n Place the Investigator as indicated
+Eventburaconochao2.button1,Continue
+TokenPortaparaescada.text,This door sits at the foot of one of the towers of the castle. It's structure climbs intimidatingly before you. 
+TokenPortaparaescada.button1,{action} Open the door
+TokenPortatorredosino.text,A metal door with a small wooden plaque reads, "<i>Bell Tower</i> \n - Warning - Potential damage to your hearing!"
+TokenPortatorredosino.button1,{action} Open the door
+Eventtorrerevelar.text,You open the door into an area which is full of boxes and machinery. Chains and gears connect the structure of the clock with the bell. \n\n Place the {c:TileTorredosino} as indicated, \n\n Discard this Explore token.
+Eventtorrerevelar.button1,Continue
+Eventsinorevelar2.text,A large brass bell is just ahead of you. \n\n Place an Interact token as indicated
+Eventsinorevelar2.button1,Continue
+EventSinotocado2.button2,Continue
+TokenPOrtaSaladeestar.text,A mahogany door leads to another room of the castle.
+TokenPOrtaSaladeestar.button1,{action} Open the door
+Tokenpiano.text,Until a moment ago you were certain you could hear the sound of the piano. However, it seems that there is no-one here...
+Tokenpiano.button1,{action} Investigate
+EventPIano.text,You head towards the piano, but an icy chill takes hold of you. Test ({will}; 1). If you succeed, you manage to maintain control of your actions. If you fail, some invisible force dominates you and takes control of you; become<i> Hypnotized. </i>
+EventPIano.button1,Continue
+EventPiano2.text,You feel there is a strange presence around the piano.
+EventPiano2.button1,<i> Who's there? Show yourself! </i>
+EventPiano2.button2,<i> I mean you no harm... </i>
+EventPianoaparea.text,A gentle whisp of dust and air fills the room before a spirit materialises on the other side of the piano. \n\n Discard this search token and place an Interact token as indicated
+EventPianoaparea.button1,Continue
+Spawnfantasma.text,Clearly, your aggressive tone has angered whatever spirit it is that finds itself here. \n\n Place a Ghost as indicated. \n\n This monster attacks normally, regardless as to who owns the <i>{c:QItemCruzSagrada}</i> Common Item.
+Spawnfantasma.button1,Continue
+Eventpianoamigo.text,Small particles of dust float in the air and a ghostly voice asks: <i>"Are you an ally of Count Dracula?"</i>
+Eventpianoamigo.button1,<i> Yes </i>
+Eventpianoamigo.button2,<i> No. I'm here to destroy him</i>
+EventPIanoamigo2.text,<i>"Damn you! You serve the worst of demons, one who has imprisoned me here forever!"</i> \n\n The spirit materializes. \n\n Discard this search token and place an Interact token as indicated
+EventPIanoamigo2.button1,Continue
+EventPIanoamigo3.text,<i> "That demon imprisoned me here forever, but I have learned that I cannot always trust the living." </i> \n\n You try to convince the spirit otherwise ({influence} 2)
+EventPIanoamigo3.button1,Pass
+EventPIanoamigo3.button2,Fail
+EventPianoamigo4.text,<i>"Then destroy that monster once and for all!"</i> \n\n The spirit disappears, but seems to grant some help upon it's departure. All investigators located in the Ballroom remove 1 Damage and 1 Horror. \n\n Discard this Search token and place an Interact token as indicated
+EventPianoamigo4.button1,Continue
+TokenPianointerao.text,The ivory keys of the piano are clearly extremely old and there appears to be some kind of riddle written in the yellowed music score.
+TokenPianointerao.button1,{action} Play the piano
+Eventpianointerao.text,Try to solve the puzzle using your {lore}
+Eventpianointerao.button1,Continue
+TokenPortacapela.text,A huge wooden door that is adorned with arcane symbols. Probably the resting place of the Count. \n There has to be a way to open it.
+Puzzlepiano.button1,Try
+TokenPortacapela.button1,Continue
+EventEstarrevelar.text,The door opens into a huge ballroom which is decorated with luxurious ornaments. The space is large, but it seems surpisingly empty and devoid of furniture. You do not see any doors leading out of this room. \n\n Place the {c:TileSaladeEstar} and Wall token as indicated \n then discard this Explore token.
+EventEstarrevelar.button1,Continue
+EventEstarrevelar2.text,You were certain that a few moments ago you heard someone playing the piano, but there is no one here! Suffer 1 Horror (negated by {will}) \n\n Place a Search token as indicated.
+EventEstarrevelar2.button1,Continue
+EventEstarrevelar3.text,At the other side of the room, there is a huge wooden door adorned with numerous arcane symbols. It seems to be the resting place of the Count. There must be some way to unlock it.
+EventEstarrevelar3.button1,Continue
+EventEstarrevelar4.text,Yet another mahogany door leads on to another room of the castle. \n\n Place an Explore token as indicated
+EventEstarrevelar4.button1,Continue
+EventRevelarBiliotecabarricada.text,A smaller shelf can serve as a barricade to help block the door, should the need arise. \n\n Place a Barricade token as indicated.
+EventRevelarBiliotecabarricada.button1,Continue
+TokenEsqueleto.text,A skeleton is lying on the floor, it's torso propped up against the wall. It still has remnants of clothing hanging from its remains and there is something in each hand.
+TokenEsqueleto.button1,{action} Take the gun from the right hand
+TokenEsqueleto.button2,{action} Take the parchment from the left hand
+Eventesqueleto.text,Skeletal fingers barely hold on to the gun, yet the index finger still remains on the trigger. \n\n Receive the <i>.38 Revolver </i>Common Item.
+Eventesqueleto.button1,Continue
+Eventesqueleto1.text,The letter has grown yellow over time. It reads: \n\n <i>'Mina, I have no hope of escape from this place. I do not want to become like the walkers who wander out there. This weapon is my only way out. \n Your beloved Jonathan Harker.' </i> \n\n Receive 1 Clue token {clue}
+Eventesqueleto1.button1,Continue
+Tokencaixadevidro.text,The display case is locked and within is a great golden sword. Upon closer scrutiny, you see it is a combination lock which you may be able to figure out to gain access.
+Tokencaixadevidro.button1,{action} Break the glass
+Tokencaixadevidro.button2,{action} Try to decipher the combination
+Eventquebrarovidro.text,Using your elbow, you attempt to breach the display case ({strength} 2)
+Eventquebrarovidro.button1,Pass
+Eventquebrarovidro.button2,Fail
+EventQuebrarovdriofalhou.button1,Continue
+Eventquebrarovidropassou.text,You strike the surface with enough force, but some glass fragments become embedded in your arm. Suffer 1 Damage.
+EventQuebrarovdriofalhou.text,You strike hard, but the glass is clearly toughened. Evidently the Count wants this well protected.
+Eventquebrarovidropassou.button1,Continue
+EventPegarespada.text,Within the display case is a beautiful golden sword. This relic surely must have belonged to some medieval saint or hero. \n\n Receive the <i>Enchanted Blade </i> Common Item. \n\n Then discard this Search token.
+EventPegarespada.button1,Continue
+Eventcaixadevridropuzlefeito.button1,Continue
+PuzzleCAIXADEVIDRO.button1,Sort out
+Eventcaixadevidropuzle.text,Try to solve the puzzle with {observation}.
+Eventcaixadevridropuzlefeito.text,Unlock the closure of the case.
+Eventcaixadevidropuzle.button1,Continue
+Puzzle0.button1,Sort out
+Tokennoiva.text,A very attractive young woman is standing before you wearing a long red dress. She seems to have a very distant look in her eyes.
+Tokennoiva.button1,{action}<i> Who are you? </i>
+Tokennoiva.button2,{action}<i> Perhaps you can tell us where the artifacts are that the Count wants us to record for him? </i>
+Eventnoiva1.text,She responds with a sad tone in her voice: \n\n <i> "I used to go by the name of Josie Maran, but that was a long time ago... I am now one of the Brides of Dracula." </i> \n\n Receive 1 Clue token {clue}
+Eventnoiva1.button1,Continue
+Eventnoiva3.text,Her eyes fade as she casts her gaze to the floor. \n\n <i> "I do not think you need to concern yourself about any artefacts." </i> she says.<I> "That is not the reason you are here."</i> \n\n Receive 1 Clue token {clue}
+Eventnoiva3.button1,Continue
+Eventnoiva2.text,<i> "My mother saved me from death and misery. Youth is fleeting. It's like the tides that come and go." </i> \n\n Receive 1 Clue token {clue}
+Eventnoiva2.button1,Continue
+Tokennoiva.button3,{action} <i> Bride? But ... are not you too young to be married to such an aging gentleman? </i>
+Tokennoiva.button4,{action} <i> So what is going on here? </i>
+Eventnoivaoqueacontecendo.text,You try to convince her to continue talking, but she looks scared. Test {influence}.
+Eventnoivaoqueacontecendo.button1,Continue
+Eventnoivaoqueacontecendo2.text,You attempt to gain her trust with words of comfort. \n\n <I> "You were not invited here to catalogue ancient artefacts, or books, or anything of that kind. No-one ever is. You are prisoners." </i> She looks up at you but her gaze seems to pass through you.<I> "Soon you will become like the prisoners who roam outside. No soul, trapped between life and death."</i> \n\n Gain 2 Clue Tokens {clue}
+Eventnoivaoqueacontecendo2.button1,{action} <i> Can the beings who roam the outside harm us in any way</i>?
+Eventnoivaoqueestaacontecnedo3.text,<i>"No!"</i> she suddenly shrieks! <I> "He hears me, along with everything that happens in this castle!"</i> She covers her face with her hands. <I>"Do not look at me! He is punishing me! He is taking my beauty and my youth! I have nothing more to say. Just get out!" </i> \n\n She runs to the corner, crouches down and covers her head with her hands. Move the character token as indicated.
+Eventnoivaoqueestaacontecnedo3.button1,Continue
+Tokennoivafeia.text,<i> "Get out! I have nothing more to say!" </i>
+Tokennoivafeia.button1,{action} Offer the woman help
+Eventnoivafeia.text,Despite her desperate request, you bend down and place your hand on her shoulder in an attempt to offer comfort, but you recoil and cry out at what you see. The skin of her face appears to sag and peel away from her very skull, as if like melted wax. Her right arm has become deformed and taken on the appearance of a claw full of tumors!
+Eventnoivafeia.button1,Continue
+SpawnThrall.text,<i> "No! I cannot be seen in this horrific state! Now you must die!" </i> \n\n The Bride of Dracula rises up, her eyes hell-bent on your destruction. \n\n Discard this character token and place a Thrall as indicated. \n\n This monster ignores any Investigator holding the <i>{c:QItemCruzSagrada}</i> Common Item and will not move toward them or attack them.
+SpawnThrall.button1,Continue
+EventExporevelar1.text,A large display case seems to contain a golden relic. \n\n Place a Search token as indicated
+EventExporevelar1.button1,Continue
+Eventexporevelar2.text,A skeleton is lying on the ground. It does not appear to be part of the collection. \n\n Place a Search token as indicated.
+Eventexporevelar2.button1,Continue
+Eventexporevelar3.text,A beautiful woman in a red dress is standing, staring coldly at you. \n\n Place a character token as indicated
+Eventexporevelar3.button1,Continue
+Eventvasculharpreso.text,<i>"Not a leaf falls in this castle without my noticing it"</i> the Count says, suddenly. <I>"So, did you intend to steal from me?"</i> \n A strange presence dominates you completely and you can no longer move. \n\n You become <i>Restrained</i>
+Eventvasculharpreso.button1,Continue
+EventVasculharcomcuidado.text,You try to examine objects discreetly. Test ({influence} 2)
+EventVasculharcomcuidado.button1,Pass
+EventVasculharcomcuidado.button2,Fail
+EventPegarcigarreira.button1,Continue
+EventPegarcigarreira.text,You find some cigarettes that were manufactured over a hundred years ago. \n </i> \n\n Receive the <i>Lucky Cigarette Case</i> Common Item \n\n then discard the Search token.
+EventThrallmorto.text,As the final strike hits Dracula's Bride, her body crumbles into ashes. Fine silver dust seems to get under your skin, leaving it slightly radiant and you feel an intense pulse of renewed energy. \n\n Improve one attribute of your choice.
+EventThrallmorto.button1,Continue
+EventLacaiomorto.text,As the body of the servant falls to the ground, several small, cubed objects scatter across the ground and lay at your feet. \n\n Receive the <i>Gambler's Dice</i> Common Item.
+EventLacaiomorto.button1,Continue
+EventFantasmamorto.text,As the phantasm melts in the air, it becomes permanently banished to the spirit world. You have a strong feeling that you can defeat the evil here. \n\n All Investigators discard 1 Horror
+EventFantasmamorto.button1,Continue
+EventProlemorta.text,As you strike the final blow against the behemoth, you detect the tone of your stricken ally and friend in the guttural scream of the monster. The defeated voice echoes through the castle before falling silent forever. \n\n The defeated player chooses another Investigator and that Investigator becomes <i>Hypnotized.</i> \n\n The defeated player can still win if the investigation is not completed.
+EventProlemorta.button1,Continue
+Tokenmesinhasemdracul.text,Now, watching the Count, it is easier to find here.
+Tokenmesinhasemdracul.button1,{Action} Search
+EventFimdodirio.text,This must be the spot where Dr Van Helsing was referring to in his journal. \n\n Place a Search token as indicated
+EventFimdodirio.button1,Continue
+EventFimDerrota.text,You have fought valiantly against the terror that resides in the castle. However, when your colleague disappears, you realise you simply do not have strength enough to destroy the evil that is inherent here. All that remains is to wait for the rest of your soul to be devoured by the Count, where you will then join the walkers wandering aimlessly in the woods for the rest of eternity. \n\n Your mission has failed.
+EventFimDerrota.button1,Continue
+EventFimperfeito.text,You have thrust the stake into the heart of the devil, preventing it from reaching it's perfect form. Dracula screams in pain, before his body becomes consumed by flame. He burns with a searing heat that only seems to occupy his physical form, before disintegrating into a fine powder. \n\n The castle begins to crumble around you. The ceiling cracks and flakes before large chunks of masonry descend from the rafters and the walls tumble in an avalanche of dust and debris. \n\n You dash for the exit with a God-given speed, though there is no God here. You flee into the woods before being crushed by the imploding castle. You barely make it out alive and miraculously, you manage to wave down a coachman who happily bears you to the nearest village, from where you can begin your journey home. \n\n Never before have you been in the presence of such evil and you hope never to face such a thing again. Congratulations! The investigation is complete.
+EventFimperfeito.button1,Continue
+EventAndar.text,You may move one space into the explored area.
+EventAndar.button1,Continue
+TokenCaixo.text,The huge stone coffin bears a number of arcane symbols.
+TokenCaixo.button1,{action} Push the lid aside
+EventArrastaratampa.text,You muster all of your strength to try and open the coffin. Test {strength}. Roll dice equal to the {strength} total of all Investigators who are in your space.
+EventArrastaratampa.button1,Continue
+Eventcaixoaberto.text,With all of your strength, you push aside the heavy lid to reveal the Count, resting on a velvet lining inside the coffin. His arms are folded across his chest and his lips drawn back slightly in a kind of macabre smile, revealing two long upper-canine teeth. A strange energy seems to emanate from him. \n\n Discard this Search token and place an Interact token as indicated.
+Eventcaixoaberto.button1,Continue
+TokenCaixointerao.button1,{action} Use Van Helsing's stake. Only the Investigator who holds the <i>Ritual Components</i> can do this.
+EventDraculamorto.text,You position the stake over the centre of Dracula's chest and draw the hammer back over your head, ready to strike. His eyes suddenly snap open as he turns his head to face you just as you bring the hammer down and drive the stake firmly into the chest of the monster.
+TokenCaixointerao.text,Dracula rests in his terrible sleep as he becomes stronger. Now you understand that the Count you saw at the entrance of the castle was just a projection, and that this is his real body. Regular weapons will be of no use here...
+EventDraculamorto.button1,Continue
+EventDraculamorto2.text,Blood shoots up into your face as you drive the stake deeper and deeper into Dracula's un-beating heart. He hisses and growls at you, teeth bared, whilst trying to claw at your arms, face and chest. His head darts left and right in an attempt to wriggle away but you feel his strength fading and the inferno burning in his eyes begins to grow misty and clouded. 
+EventDraculamorto2.button1,Continue
+Eventprocurarutensilios.text,There must be some way to slide the boards apart and reveal what lies beneath. Attempt to solve the puzzle using {observation}.
+Eventprocurarutensilios.button1,Continue
+EventProcurarutensilios2.button1,Continue
+PuzzlePlacasnocho.button1,Resolve
+EventProcurarutensilios3.text,What lies before you appears to be a series of artefacts commonly used in witchcraft and the battle against evil. There are some sacred pendants, garlic, a wooden stake, holy water and silver. A hand-written note by Abraham Van Helsing reads: \n\n <i>'Thrust the stake into the heart of the beast.' </i> \n\n Now you just have to find that thing and kill it. \n\n Receive the <i>Ritual Components</i> Unique Item \n\n then discard this Search token.
+EventProcurarutensilios2.text,You manage to seperate the boards to reveal a compartment under the floor.
+EventProcurarutensilios3.button1,Continue
+EventPianoresolvido.text,You are able to reproduce the dissonant music etched into the parchment. \n Discard this Interact oken.
+EventPianoresolvido.button1,Continue
+EventPianoresolvido2.text,The stone wall on the other side of the room moves, revealing a secret entrance. \n\n Place a Secret Door token as indicated
+EventPianoresolvido2.button1,Continue
+EventCapelarevelar.text,The path leads to a strange chapel full of secular symbols. The images are broken, and the stained-glass windows depict demonic stories and events. \n\n Place the {c:TileCapela} as indicated
+EventCapelarevelar.button1,Continue
+EventCapelarevelar2.text,Near the altar, there is a huge coffin and stone sarcophagus that grabs your attention. There are numerous symbols etched over its entire surface and the image of a goat is carved into the lid at the far end. \n\n Place a Search token as indicated.
+EventCapelarevelar2.button1,Continue
+Eventmito51.text,You feel there is something terrible in this castle and fear dominates you. There are some places where it might be possible to hide.
+Eventmito51.button1,Continue
+Eventmito52.text,In the Hall it may be possible to hide under the table in order to avoid the terrible monsters of the castle. \n\n Place an Interact Token as indicated
+Eventmito52.button1,Continue
+TokenEsconderLobby.text,It may be possible to hide under the table (only one Investigator may hide in any one space at a time).
+TokenEsconderLobby.button1,{action} Hide
+EventEsconderLobby2.text,You crawl under the table. You will need to stay completely still in order to remain concealed here. Test ({will}; 1).
+EventEsconderLobby2.button1,Pass
+EventEsconderLobby2.button2,Fail
+EventEsconderLobby20.text,You manage to stay calm and remain in the makeshift shelter. \n\n Remove your Investigator from the board. You do not have to attack or evade monsters and you do not have to make Horror checks. \n\n At any time, you can return the model to its original location without spending an {action}.
+EventEsconderLobby20.button1,Continue
+EventEsconderLobbyfalhou.text,Despite your best attempts to remain calm and composed, the oppressive environment you are in has you trembling and gasping un-controllably. So much so that anyone, or anything, would notice your presence here. \n\n It is impossible to hide.
+EventEsconderLobbyfalhou.button1,Continue
+Eventmito53.text,The chairs behind the dining table also seem to be a good place to hide, despite the strong smell of corpses. \n\n Place an Interact Token as indicated
+Eventmito53.button1,Continue
+TokenEsconderJantar.text,You may try to hide between the chairs behind the dining table.
+TokenEsconderJantar.button1,{Action} Hiding
+Eventesconderjantar2.text,The smell of putrefaction is almost unbearable. You try your utmost to resist the urge to wretch and vomit.. Test ({will}; 1).
+Eventesconderjantar2.button1,Success
+Eventesconderjantar2.button2,Failure
+EventEsconderjantarfalhou.text,Unfortunately, you are unable to remain in the midst of so much filth. You feel the back of your throat tighten and squeeze up into your mouth as you scramble out to breathe cleaner air, hoping it will prevent you from vomiting onto the floor. \n\n Move 1 space away from the Interact Token. You cannot hide.
+EventEsconderjantarfalhou.button1,Continue
+EventEsconderjantarpassou.text,You squeeze your eyes shut and try to block out the aura around you. You manage to remain calm and stay in the makeshift shelter. \n\n Remove your Investigator from the board. You do not have to attack or evade monsters and you do not have to make Horror checks. \n\n At any time, you can return your Investigator to the board at its original location without spending an {action}.
+EventEsconderjantarpassou.button1,Continue
+Eventexporevelar4.text,An object appears to have been left on the floor for quite some time as it is covered with cobwebs. \n\n Place the <i> Dynamite </i> Common Item as indicated
+Eventexporevelar4.button1,Continue
+EventTraidorevaso.text,You try to stay away from the huge creature, but your former ally will not let you escape so easily. Test your ({agility} 2). If the roll succeeds, you successfully avoid it. If you fail, the creature screams with such intensity that you simply crumble to the ground. Lose your action and become <i> Restrained </i>.
+EventTraidorevaso.button1,Continue
+EventTraidorhorror.text,It's incredible to think that this thing was human at one time. It is even more incredible to think that you were once friends. Test ({will}; 2). If the roll succeeds, you manage to forget about the past and focus on your own survival. Become <i>Focussed</i>. If you fail the, you deeply regret the tragedy of what has happened and you feel certain that you will succumb to the same fate. Flip all your Horror face-up.
+EventTraidorhorror.button1,Continue
+CustomMonsterTraidor.info,-
+CustomMonsterTraidor.Attack_bladed_2,You charge toward the monster with your weapon at the ready ({strength} 2). If you succeed, you jump and plunge it deep into the creature's flesh. The monster suffers damage equal to your weapon damage. If you fail, your leap was not powerful enough to generate the required momentum and it swats you aside in mid-air. Be thankful you landed on your feet...
+CustomMonsterTraidor.Attack_unarmed_1,You try to hit the creature. Test ({strength}; 1). If the roll succeeds, your strikes are effective. The monster suffers damage equal to the result of your roll. If you fail, the monster does not feel your blows whatsoever and instead slams you to the ground with one of it's massive arms. Suffer 1 Damage.
+CustomMonsterTraidor.Attack_bladed_4,-
+EventPoo1.button2,button2_Click
+Eventfalhouprocura.text,There are many objects in the well, though none so far that would prove useful. Maybe you need a little more time to find something useful.
+Eventfalhouprocura.button1,Continue
+Eventnoivaoqueacontecendo.button2,button2_Click
+EventFalhounoiva.text,You try to calm her, but she is now too scared and overcome with fear to continue the conversation.
+EventFalhounoiva.button1,Continue
+EventArrastaratampa.button2,button2_Click
+EventCaixaofalhou.text,With a great deal of effort, the lid moves slightly. It will be necessary to push a little more.
+EventCaixaofalhou.button1,Continue
+quest.synopsys,A Count of the Romanian countryside invites you to document and record his collection of artifacts.
+EventVasculharcaradepau.text,<i> "I invite you to my house," </i> says the Count, <i> "and you try to steal from me!" </i> \n\n His words are pervasive and they cause a strange effect on your mind. Become <i>Dazed.</i>
+EventVasculharcaradepau.button1,Continue
+EventPegarcigarreiradeuruim.button1,Continue
+EventPegarcigarreiradeuruim.text,You find a collection of cigarettes which were produced over a hundred years ago. <I> </i> \n\n Receive the <i>Lucky Cigarette Case </i> Common Item. \n\n then discard the Search Token.
+Eventmitoum.text,A dark haze from the forest penetrates through the cracks of the doors and windows of the castle and {rnd:hero} becomes enveloped in a thick darkness. Test ({will}; 2). If the roll succeeds, you manage to stand firm despite the strange phenomenon. If you fail, fear disturbs your senses and you suffer 1 Horror. \n\n Place Darkness in all spaces within range.
+Eventmitodez.text,Dracula's voice resounds throughout the castle uttering a mantra in an incomprehensible language. Each Investigator must perform a test ({lore}, 3). If the roll succeeds, you manage to resist the Count's utterances. If you fail, the strange language penetrates your mind and you become <i>Hypnotized</i>
+EventCruzqueimando.button1,Continue
+Eventmitooito.button1,Continue
+Eventmitonove.button1,Continue
+EventmitoonzeA.text,Dracula continues to speak: \n\n <i>"Experience a fraction of my power, {rnd:hero}. The power is addictive to the human soul! Join me and you can have a great deal more!"</i> \n\n This investigator feels supernatural energy extending throughout their body. \n Improve an attribute of your choice.
+EventNoivaaparecer1.button1,Continue
+Spawnnoiva2.text,Place a Thrall as indicated. Elena ignores any Investigator who has the <i>{c:QItemCruzSagrada} </i>Common Item and she will not move toward them or attack them.
+Eventnoiva30.text,A dark cloud materialises in the gallery, forming the silhouette of a person. It takes the shape of a beautiful woman in a black dress. \n\n <i>"You would not dare to challenge our Lord. I will see to it that you go no further!"</i> \n\n This is Silvia Colloca, the third Bride of Dracula.
+Spawnnoiva2.button1,Continue
+Eventnoiva30.button1,Continue
+Spawnnoiva3.text,Place a Thrall as indicated. Silvia ignores any Investigator who has the <i>{c:QItemCruzSagrada} </i> Common Item and she will not move toward or attack them.
+Spawnnoiva3.button1,Continue
+Eventnoivaoqueacontecendo2.button2,{action} <i> What do you mean? What is it about the Count?</i>
+Eventnoivaconversa.text,\n <i> "Yes, they have a bitter grudge against the living. They entered the castle and attempted to kill me. But there is a way to confuse and distract them. Their ears are much more sensitive than those of the living. If you can produce a noise loud enough..." </i> She pauses to think for a moment. <I>"The Bell Tower is not far from here. It is possible to reach it from the outside of the castle, along the walls. Perhaps the sound of the bell would disorientate them..."</i> \n
+Eventnoivaconversa.button1,Continue
+Eventnoivaaa.text,<i>Yes. You are doomed...</i> \n\n She then falls silent.
+Eventnoivaaa.button1,Continue
+Eventnoivamorta2.button1,Continue
+Eventnoivamorta3.text,With the last blow, the Bride of Dracula crumbles into a heap of ashes and dust. The fine powder seems to be embedded in your skin, leaving it slightly shiny and you feel a sense of strength course through you. \n\n Improve an attribute of your choice.
+Eventnoivamorta2.text,With the last blow, the Bride of Dracula crumbles into a heap of ashes and dust. The fine powder seems to be embedded in your skin, leaving it slightly shiny and you feel a sense of determination course through you. \n\n Improve an attribute of your choice.
+Eventnoivamorta3.button1,Continue
+Eventprolemover.text,The Investigator can move the transformed Star Vampire 1 space in any direction. It then attacks an investigator in its space or in an adjacent space. \n\n If the monster is attacking, the player can choose one of the following attacks.
+Eventprolemover.button1,Crush with it's huge arms
+Eventprolemover.button3,No Investigators within range
+EventAtaquemonstro.text,The creature raises it's arms up and then attempts bludgeon you with an un-natural strength. The Investigator must roll to defend ({agility} 2). If the roll succeeds, you evade it's attack. However, the energy generated by the attack is so intense it creates a shockwave: all investigators within range of the monster suffer 1 Facedown Damage. If you fail, the enormous weight of it's arms slams you to the ground. Suffer 2 Facedown Damage and then flip all your Damage face up.
+EventAtaquemonstro.button1,Continue
+EventEventodevorarjogador.text,The creature opens its huge mouth to try and swallow its prey. You try to defend yourself. Test ({agility}, 2).
+EventEventodevorarjogador.button1,Pass
+EventEventodevorarjogador.button2,Fail
+Eventdevorarpassou.text,You manage to jump aside just in time to escape certain death.
+Eventdevorarpassou.button1,Continue
+EventDevorarfalhou.text,The creature grasps your leg in it's huge jaws and crunches down to splinter and break the bones between it's teeth. \n\n Is the Investigator <i>Wounded?</i> 
+EventDevorarfalhou.button1,Yes
+EventDevorarfalhou.button2,No
+Eventdevorarnaoferido.text,The monster bites through the leg of the Investigator and devours the dismembered limb, showering blood everywhere. The Investigator becomes instantly <i>Wounded</i> and all other Damage received remains in place. Any other investigator with Line of Sight to this (so not through doors) immediately suffers 2 Horror.
+Eventdevorarnaoferido.button1,Continue
+Eventdevorarferido.text,The Investigator fails to react in time as the monster rises up and then devours the Investigator whole. \n\n The Investigator has been eliminated. Anyone with Line of Sight to this (so not through doors) immediately suffers 3 Horror
+Eventdevorarferido.button1,Continue
+Eventlerdiario1.button5,Cancel

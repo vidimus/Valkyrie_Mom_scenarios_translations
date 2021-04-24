@@ -1,0 +1,594 @@
+.,Portuguese
+quest.name,Drácula
+quest.description,"Uma adaptação do romance Drácula, publicado em 1897 por Bram Stoker. Este cenário pode ser jogado com 2-5 jogadores. Contudo, recomenda-se que seja jogado com pelo menos 4.\n\nSão necessárias as expansões Além do Limiar e Ruas de Arkhan."
+quest.authors,"Cenário e narração: Lucas M. Carvalho\n\nBaseado no livro homônimo de Bram Stoker.\n\nBackground music via Fesliyan Studios\n\nImagem de Gerd Altmann por Pixabay "
+EventPrlogo1.text,Cada investigador começa com 2 pistas.
+EventPrlogo1.button1,Continuar
+EventPrologo2.text,"8 de dezembro de 1931, \n\nVocês recebem uma carta de um proeminente conde do interior da Romênia. Ele os convida para seu castelo, a fim de que o ajudem a catalogar e decifrar alguns artefatos antigos que ele guarda em sua coleção pessoal.\n\nCom grande interesse em conhecer tal acervo, vocês partem de Londres numa manha fria de dezembro. Viajam de trem ao longo de três dias, passando pelas belas paisagens da Áustria em direção ao rio Danúbio.\n\nQuando vocês perguntam para os demais passageiros a respeito do homem que estão prestes a visitar, um tal de Conde Drácula, suas reações são evasivas. Muitos se afastavam para outras cabines em silêncio, tomados pelo medo, ou fazem o sinal da cruz. \n\nAo fim do terceiro dia, vocês já podiam ser a silhueta dos montes Cárpados, uma das regiões mais selvagens e desconhecidas da Europa.\n"
+EventPrologo2.button1,Continuar
+EventPrologo3.text,"Vocês desembarcam no povoado de Bistritz, na Romênia. \nEm troca de algumas moedas, um cocheiro os conduz em sua charrete através da noite escura, em direção ao castelo. A floresta se torna cada vez mais densa, e a névoa impede que vejam um metro além do lampião."
+EventPrologo3.button1,Continuar
+TokenJardim2.button1,{action} Sair para a noite fria.
+EventInicio1.text,"Quando chegam ao majestoso castelo, os cavalos ficam agitados. Vocês desembarcam da carruagem, e o cocheiro parte sem dizer mais uma palavra. \n\n Coloque o tile Lobby {MAD20} como o indicado. "
+EventInicio1.button1,Continuar
+EventInicio2.text,Vocês entram no castelo. Coloquem as miniaturas dos investigadores como o indicado.
+EventInicio2.button1,Continuar
+EventIncio3.text,"Um homem surge diante de seu olhos. Você se perguntam se ele já estivera ali antes... Ele usa vestes suntuosas de cor vermelha e muitas joias. Seu rosto severo é iluminado pelo castiçal que carrega na mao direita. \n\nO homem tem um aspecto frágil, e parece ser a pessoa mais velha que vocês já viram até hoje.\n\nColoque um marcador de Pessoa como o indicado.\nEste é o Conde Drácula."
+EventIncio3.button1,Continuar
+EventInicio4.text,|||\n"Sejam bem-vindos ao meu lar.", diz o conde. "Estive esperando por muito tempo."\n Ele tem dificuldades em falar e caminhar devido à idade.|||
+EventInicio4.button1,Continuar
+EventInicio5.text,Por favor, pendurem seus casacos e me sigam até o salão de jantar. Faço questão de receber meus hóspedes com o melhor dos banquetes.
+EventInicio5.button1,Continuar
+EventInicio6.text,Ele deixa o castiçal sobre a mesa de centro e caminha lentamente o cômodo ao lado cozinha. Coloque Sala de Jantar {MAD23} de cozinha como o indicado. Coloque uma porta como indicado.
+EventInicio6.button1,Continuar
+EventInicio7.text,"O conde se senta numa poltrona diante da mesa.\n\nMova o marcador de Pessoa como o indicado."
+EventInicio7.button1,Continuar
+EventInicio8.text,"Vocês olham ao redor no grande salão, ainda impressionados com a beleza da mobília e das paredes. A arquitetura parece ser uma mistura entres os estilos gótico e românico.\n\nVárias portas levam a diferentes setores do castelo.\n\n Coloque 4 marcadores de Exploração como o indicado."
+EventInicio8.button1,Continuar
+EventInicio21.text,"No outro lado do saguão de entrada, há um enorme quadro.\nColoque um marcador de Procura como o indicado."
+EventInicio21.button1,Continuar
+TokenQuadro.button1,{action}Observar.
+TokenQuadro.text,Um enorme quadro pintado a óleo e emoldurado em bronze ocupa toda a parede oposta à entrada.
+TokenJardim2.text,Uma grande porta de ferro na parede leste leva para uma espécie de jardim.
+TokenComer.text,Um majestoso banquete está disposto sobre a mesa. Você está faminto. 
+TokenComer.button1,{action}Sentar-se e comer. Apenas investigadores que ainda não tenham comido podem realizar esta ação.
+TokenComer.button2,{action} Procurar por alguma coisa útil na mesa.
+TokenMesinhaJantar.text,Uma pequena mesa de canto, que parece cheia de objetos. O conde está logo ali, com o olhar fixo. É difícil dizer se está observando você.
+TokenMesinhaJantar.button1,{action}Vasculhar sem se preocupar com a presença do Conde.
+Eventinicio71.text,"A mesa está farta. Após uma longa viagem, vocês estão cansados e com frio. O cheiro maravilhoso faz suas bocas salivarem.\n\nColoque um marcador de Procura como o indicado."
+Eventinicio71.button1,Continuar
+Eventinicio72.text,"Há alguns papéis sobre uma pequena mesa.\n\nColoque um marcador de Procura como indicado."
+Eventinicio72.button1,Continuar
+Eventinicio73.text,"Do outro lado da sala de Jantar, duas portas de mogno trabalhado levam mais ao interior do castelo.\n\nColoque dois marcadores de Exploração como o indicado."
+Eventinicio73.button1,Continuar
+TokenMesinhaJantar.button2,{action}Tentar vasculhar sem que o Conde perceba.
+EventMesinhafurtivo.text,Você tenta estender os dedos silenciosamente até os papéis. Teste ({influence}, 2).
+EventMesinhafurtivo.button1,Passou.
+Eventmesinhacaradepau.text,|||Você vasculha os papeis. Dracula pergunta: "Porque hesitou? Afinal eu o contratei, não foi?" |||
+Eventmesinhacaradepau.button1,Continuar
+Eventbaquete.text,"Você se delicia com os pães, as carnes e o bom vinho. Um enorme pernil assado foi temperado com mel e especiarias. Há queijos, nozes e macadâmias.\nEnquanto come, você pensa que seria necessária uma grande equipe de cozinheiros para preparar tal refeição. Contudo, o conde parece só.\n\nAo final, você está satisfeito e confortável. Há muito tempo você não come com tamanho prazer.\n\nAprimore um atributo a sua escolha."
+Eventbaquete.button1,Concluir.
+TokenLago.button1,{action}Enfiar a mão na ãgua escura.
+EventQuadro1.text,Talvez você consiga deduzir algo sobre a cena retratada. Teste ({lore}2)
+EventQuadro1.button1,Passou.
+EventQuadro1.button2,Não passou.
+EventQuadro2.text,Você vê um guerreiro numa armadura vermelha, mas não não faz ideia de quem seja. Há muito sangue e morte na cena retratada. Receba 1 pista e remova este marcador de procura.
+EventQuadro2.button1,Continuar.
+EventQuadro3.text,"O quadro é datado de 1465. Em primeiro plano, há um guerreiro trajando uma armadura vermelha. Este é Vlad III, um general romeno que lutou contra os turcos otomanos no final da idade média. Ao fundo, vários de seus inimigos agonizam empalados. \n\n Receba 2 pistas e remova este marcador de procura."
+EventQuadro3.button1,Continuar
+EventMesinhafurtivo.button2,Falhou.
+EventMesinhafurtivo2.text,Você consegue. Pegue o item x. O dracula da risada de você.
+EventMesinhafurtivo2.button1,Continuar
+Eventmesinhafurtivo3.text,Você tenta, mas falha.
+Eventmesinhafurtivo3.button1,Continuar
+TokenJArdim1.text,Porta para o jardim
+TokenJArdim1.button1,{action}Sair para a noite fria.
+EventLago.text,O vento frio da noite lhe causa arrepios. Num pátio externo do castelo, há um pequeno lago de águas escuras. Coloque o tile Laguinho no Parque {MAD20} como o indicado. Remova todos os marcadores de exploração que levem até este lugar.
+EventLago.button1,Continuar
+TokenLago.button2,{action}Utilizar a pá. Apenas um investigador que possuir o Item Comum Pá pode realizar esta ação.
+EventBuracoLago1.button1,Continuar
+TokenCaminharnaneblina.text,As florestas ao redor do castelo estão envoltas em uma neblina que não parece natural.
+TokenCaminharnaneblina.button1,Observar.
+TokenLago.text,Um objeto reluzente está submerso, e você acredita que pode alcansá-lo. Contudo, você sente algo se mover nas profundezas. Talvez seja melhor encontrar um objeto comprido para você não precise tocar a água com as mãos.  
+EventLago11.text,Vislumbrar a escuridão absoluta do lago é incômodo. Mas parece haver algo submerso ali. Coloque um marcador de Procura como o indicado.
+EventLago11.button1,Continuar
+EventLago12.text,"A floresta se estende pela neblina.\n\nColoque um marcador de Avistamento como indicado."
+EventLago12.button1,Continuar
+EventComerUisque.text,"Você procura por alguma coisa útil entre tantos pratos e talheres. Há uma garrafa de uma bebida antiga, tão cara que você precisaria trabalhar três meses para comprá-la. Como este conde pode ser tão generoso?\n\n Receba o item comum Uísque."
+EventComerUisque.button1,Continuar
+EventCaminharnaneblina2.text,Você se esforça para ver qualquer coisa através da névoa. Teste ({observation}, 2)
+EventCaminharnaneblina2.button1,Passou
+EventCaminharnaneblina2.button2,Falhou
+EventCaminharnanevoa3.text,"Os caminhos parecem confusos, e você mal sabe dizer para qual lado é o norte. Não há sinal do povoado, apenas as terríveis árvores, a escuridão e a névoa. De repente, você compreende que vocês não conseguiriam partir deste lugar.\n\nSofra 1 horror."
+EventCaminharnanevoa3.button1,Continuar
+EventCaminharnanevoa4.text,"Você vê movimento na floresta. Parecem ser pessoas, vagando a esmo na escuridão, totalmente sem propósito. Quem seriam elas?  Você têm a sensação de que talvez algumas estejam vindo em direção ao castelo.\n\n Receba 1 pista e remova este marcador de Avistamento."
+EventCaminharnanevoa4.button1,Continuar
+TokenBiblioteca1.text,A porta trabalhada em carvalho parece levar à biblioteca. Contudo, está trancada com um grande fechadura de bronze.
+TokenBiblioteca1.button1,{action} Destrancar. Apenas o investigador com o item Chave de Bronze pode fazê-lo.
+TokenCondeDracula2.text,O conde está sentado na poltrona em frente à mesa, rígido como uma estátua de mármore. 
+TokenCondeDracula2.button1,|||{action}"Onde estão os artefatos que o senhor deseja nos mostrar?"|||
+TokenCondeDracula2.button2,|||{action}"Qual é a história deste castelo?"|||
+TokenCondeDracula2.button3,|||{action}"Perdoe-me a indelicadeza, mas... Quantos anos o senhor tem?"|||
+Eventdraculajantar.text,|||O conde dá um sorriso suave e diz: "Admiro sua dedicação ao trabalho. Entretanto, não precisamos cuidar de negócios agora. Apenas comam e descansem. A viagem foi longa. Teremos muito tempo depois." Ele respira fundo e repete: "Muito tempo..."|||
+Eventdraculajantar.button1,Continuar
+Eventdraculajantar2.text,|||"Vejo que tem sede de conhecimento." O conde aponta para um grande brasão na parede "Sou descendente de membros da Ordem do Dragão, um grupo de cavaleiros defensores do imperador, da cristandade e da ameaça turca. Este castelo foi erguido no século XV."\n\n\nReceba 1 pista.|||
+Eventdraculajantar2.button1,Por que as pessoas parecem ter medo do senhor?
+Eventdraculajantar2.button2,Não é solitário viver em um castelo tão afastado?
+EventDraculajantar21.text,|||Ele apertou os olhos, talvez incomodado com a pergunta. "Os aldeões são superticiosos. Eu me chamo Drácula por ser descendente de membros da Ordem do Dragão. Contudo, no romeno moderno, a palavra 'dracul' significa "diabo". As pessoas ignorantes temem e odeiam aquilo que elas não compreendem".\n\nA voz e a maneira de falar do conde são sedutoras. Quando você se dá conta, percebe que seus olhos ardem por falta de piscar. \n\nTeste ({will}, 2). Se passar, você consegue retomar o controle de sua mente. Se falhar, fique hipnotizado.\n\nReceba 1 pista.|||
+EventDraculajantar21.button1,Continuar
+Eventdraculajantar22.text,|||"Eu não vivo sozinho." respondeu, educadamente. "Recebo convidados com muita frequência." Receba 1 pista.|||
+Eventdraculajantar22.button1,Continuar
+EventDraculajantar3.text,|||O conde sorri e diz:\n"Nas pálpebras dos velhos o cuidado sempre se mostra vigilante; e onde esse soldado está de guarda, o sono não penetra." \nVocê tenta entender as palavras enigmáticas do conde. Teste ({lore}, 2)|||
+EventDraculajantar3.button1,Passou
+EventDraculajantar3.button2,Falhou
+Eventdraculajantar31.text,|||Você percebe que ele tinha citado uma cena de Otelo, de William Shakespeare.  \n"Estou impressionado." diz o conde, aplaudindo de forma comedida. "Fico feliz em saber que tenho um convidado versado na boa literatura."\n\nO elogio do conde inflama seu ego. Fique Compenetrado e receba 1 pista.\n|||
+Eventdraculajantar31.button1,Continuar
+Eventdraculajantar32.text,Você se esforça, mas o enigma não faz sentido. Você se sente frustrado.
+Eventdraculajantar32.button1,Continuar
+TokenOlharfora.button1,Revelar caminho
+EventLago13.text,"É possível continuar contornando o castelo por fora.\n\nColoque um marcado de avistamento como indicado."
+TokenOlharfora.text,É possível continuar caminhando pela lateral do castelo.
+EventLago13.button1,Continuar
+EventExposio.text,"Uma comprida galeria parece exibir itens de coleção, que variam desde armas antiga a obras de arte. De fato, o conde parece ter muito bom gosto.\n\nColoque os titles Ala de Retratos {MAD25} e Exposição 2 {MAD25} como indicado. \n\nColoque duas paredes como indicado.\n\nRemova todas as portas do Lobby e do Salão de Jantar que levam à galeria."
+EventExposio.button1,Continuar
+TokenGaleria1.text,Uma porta parece conduzir às galerias.
+TokenGaleria1.button1,{action}Abrir.
+TokenGaleria2.text,Uma porta parece conduzir às galerias.
+TokenGaleria2.button1,{action}Abrir.
+TokenGaleria3.text,Uma porta parece conduzir às galerias.
+TokenGaleria3.button1,{action}Abrir.
+EventOlharfora.button1,Continuar
+EventOlharfora.text,"O caminho continua em direção ao norte. Coloque o Quital 2 {MAD20} como indicado.\n\nRemova o marcador de Avistamento."
+SpawnVampiroEstelar1.text,"Uma horrenda criatura emerge da água. Seus tentáculos oleosos buscam alguma fonte de alimento.\n\nColoque um Vampiro Estelar como indicado.\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+SpawnVampiroEstelar1.button1,Continuar
+EventBuracoLago1.text,"Você enfia a mão na água até os cotovelos. Está fria. Você tateia até a ponta de seus dedos tocarem Um objeto metálico.\n\nReceba o item Especial Chave de Bronze."
+CustomMonsterTraidor.monstername,Traidor
+Eventprolemover.button2,Devorá-lo.
+EventAtivaodoVampiroEstelar.text,"O Vampiro Estelar se move dois espaço em direção ao investigador mais próximo, então ataca o investigador que tenham mais {strength}\n\nEste monstro ignora o jogador que possuir a Cruz Sagrada (não se move em sua direção e não o ataca)"
+EventAtivaodoVampiroEstelar.button1,Continuar
+CustomMonsterTraidor.Attack_firearm_1,Você atira contra a enorme criatura. ({agility}, 2). Se passar, os disparos conseguem afastá-la enquanto ela grita de dor. O monstro sofre dano igual ao dano da arma mais o resultado do teste. Se falhar, a chuva de balas parece se perder para todo lado, mal causando arranhões.
+CustomMonsterTraidor.Attack_heavy_1,Você ergue o objeto e tenta acertar as patas do monstro. ({strength}, 2). Se passar o golpe consegue ser bastante efetivo: a criatura urra de dor. Ela sofre dano igual ao dano da arma. Se falhar, o golpe acerta o chão.
+CustomMonsterTraidor.Attack_spell_1,Você pronuncia as palavras arcanas, mas visões de seu antigo aliado confundem seus pensamentos. ({lore}, 2) Se passar, você percebe que o monstro tenta invadir sua mente. Consegue expulsá-lo e invocar o feitiço. Ele sofre dano igual ao dano do feitiço mais o resultado do teste. Se falhar, a craitura parece tomar controle de sua mente: ela sofre dano igual ao dano do feitiço, mas todos os investigadores aoseu  alcance sofrem 1 dano.
+Eventmito4.button1,Continuar
+Eventmito2.text,"A ventania abre e fecha as janelas do castelo.\n\nO castiçal deixado pelo conde balança e ameaça cair. Se o vento for mais intenso, pode ser perigoso.\n\nColoque um marcador de Procura como indicado."
+Eventmito2.button1,Continuar
+Eventmito4.text,"Repentinamente, o Conde desaparece diante de seus olhos.\n\nRemova o marcador de pessoa como indicado."
+TokenCastial.text,O castiçal deixado pelo conde está sobre a mesa. 
+TokenCastial.button1,{action}Pegar.
+Eventmito12.text,Receba o item comum velas. Em seguida, remova este marcador de procura.
+Eventmito12.button1,Continuar
+TokenPoo.button1,{action} Procurar.
+EventPoo1.text,Você tenta retirar parte do material inútil. Teste {strength}.
+TokenPoo.text,Um antigo poço está cheio de lixo e cinzas. Pode ser que haja algo aqui dentro.
+EventPoo1.button1,Continuar
+EventPoo2.text,"Você encontra uma pá no meio da imundície. Esta pá poderia servir para mexer na água. \n\nReceba o item comum Pá e remova este marcador de procura."
+EventPoo2.button1,Continuar
+EventOlharparafora1.text,"Um poço antigo parece estar cheio de lixo e restos de lenha. \n\nColoque um marcador de procura como indicado."
+EventOlharparafora1.button1,Continuar
+EventPortaescada.button1,Continuar
+EventPortaescada.text,"Uma porta de madeira pesada leva para o interior do castelo.\n\nColoque um marcador de procura como indicado."
+EventChavedolago.text,"Com facilidade, você utiliza a pá para alcançar um pequeno objeto metálico. É uma chave feita de bronze, aparentemente antiga.\n\nReceba o item especial Chave de Bronze.\n\nRemova este marcador de procura."
+EventChavedolago.button1,Continuar
+Eventburacodolago2.text,"As águas turvas se agitam de repente, e você percebe uma vibração subir até a superfície. Num reflexo, você grita e recolhe a mão, mas não é rápido o bastante. Uma mancha de sangue se espalha pela água, e você percebe que algo arrancou seu dedo indicador!\n\nSofra 1 dano. Todos os demais jogadores sofrem 1 horror (negados por {will})\n\nRemova o marcador de procura."
+Eventburacodolago2.button1,Continuar
+TokenArmariobiblioteca.button1,{action}Entrar.
+EventBibliotecaRevelar1.text,"A porta leva a uma grandiosa biblioteca. As prateleiras se intercalam expondo livros de história, de magia, de artes e quase todas as áreas do saber humano. \n\nRemova este marcador de exploração.\n\nColoque Biblioteca {MAD25} como indicado, assim como os três marcadores de parede."
+EventBibliotecaRevelar1.button1,Continuar
+EventMonstroFaminto.text,"A criatura gigantesca se move no lago, e parece impaciente. Talvez esteja faminta. Se você puder encontrar algo para alimentá-la, ela poderá se acalmar.\n\nColoque um marcador de interação como indicado."
+EventMonstroFaminto.button1,Continuar
+TokenMonstrofaminto.button1,{action}Jogar a perna do cadáver na água (se você tiver o item Evidência Forense).
+TokenMonstrofaminto.text,A criatura faminta se move lá embaixo. Se você encontrar algo para alimentá-la, talvez ela lhe deixe em paz.
+EventEsconderarmrio.text,Você se espreme para caber no espaço apertado. Você só conseguirá passar despercebido se conseguir permanecer o mais imóvel possível. Teste ({will}, 1)
+TokenArmariobiblioteca.text,Há um pequeno armário entre as estantes. Um investigador pode tentar se esconder nele (apenas um investigador pode se esconder em cada armário).
+EventEsconderarmrio.button1,Passou
+EventEsconderarmrio.button2,Falhou
+EventEsconderarmariopassou.text,"Você consegue manter a calma e permanecer no abrigo improvisado.\n\nRetire a miniatura de seu investigador do tabuleiro. Você não é atacado por monstros nem precisa realizar testes de horror.\n\nA qualquer momento, você pode devolver a miniatura ao local original sem gastar uma ação."
+EventEsconderarmariopassou.button1,Continuar
+EventEsconderarmariofalhou.text,Você está tenso demais, e acabará fazendo barulho se entrar aí.
+EventEsconderarmariofalhou.button1,Continuar
+TokenDirioVanHelsing.text,Alguns cadernos estão espalhados na mesa.
+TokenDirioVanHelsing.button1,Procurar.
+EventPegardiarrio.text,"Dentre as inúmeras anotações, você encontra um pequeno diário datado de 1897.\nEste é o diário de um homem chamado Abraham Van Helsing.\n\nReceba o item especial Diário Antigo. O jogador que possuir o item poderá interagir com ele no aplicativo."
+EventPegardiarrio.button1,Continuar
+EventLacaio.button1,Continuar
+EventRevelarbiblioteca2.text,"Numa mesa de centro, uma série de cadernos e papéis parece interessante.\n\nColoque o marcador de Procura como indicado."
+SpawnLacaio.button1,Continuar
+SpawnLacaio.text,"Coloque um Discípulo de Dagon na área indicada. Este parece ser um lacaio do Conde Drácula.\n\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+EventLacaio.text,|||Com sobressalto, você percebe alguém surgir do meio das prateleiras. É um homem estranho, pálido e doente. Ele o observa com ódio.\n\n"Então você está mexendo nas coisas do mestre? Eu o matarei por isso, e ele será eternamente grato!"\n\nRemova o marcador de procura como indicado.|||
+EventRevelarbiblioteca2.button1,Continuar
+Eventrelevarbiblioteca3.text,"Um armário entre as estantes pode servir como refúgio.\n\nColoque um marcador de interação como indicado."
+Eventrelevarbiblioteca3.button1,Continuar
+EventBibliotecarevelar4.text,"Sobre a mesa, é possível ver um grande tomo de magia.\n\nColoque o feitiço Núvem de Veneno como indicado."
+EventBibliotecarevelar4.button1,Continuar
+EventRevelarbiblioteca5.text,"Parece haver algo sobre a estante.\n\nColoque um marcador de Procura como indicado."
+EventRevelarbiblioteca5.button1,Continuar
+TokenEmcimadaestante.text,Você consegue ver um objeto em cima da estante. Talvez seja difícil pegar.
+TokenEmcimadaestante.button1,{action} Tentar subir nas prateleiras.
+EventEmcimadaestantefalhou.text,"Você se esforça para subir. Contudo, seus pés escorregam, e você acaba caindo. Os ferimentos foram leves. Vire dois danos para cima.\n\nO objeto que você queria alcançar feizmente também veio ao chão. Receba o Item Comum Faixas e remova este marcador de procura."
+EventEmcimadaestante2.button1,Passou
+EventEmcimadaestante2.button2,Falhou
+EventEmcimadaestante2.text,Você tenta enfiar os pés e as mãos nos espaços vazios da estante. Teste ({agility}, 2)
+EventEmcimadaestantepassou.button1,Continuar
+EventEmcimadaestantefalhou.button1,Continuar
+EventEmcimadaestantepassou.text,"Você consegue subir com segurança, e encontra um pacote de curativos sobre a estante.\n\nReceba o item comum faixas e descarte este marcador de procura."
+Eventlerdiario1.text,Este é o diário de Abraham Van Helsing. 
+Eventlerdiario1.button1,{action}Ler.
+Eventlerdiario2.text,|||"7 de fevereiro de 1896\nTransilvânia, Romênia\n\nMuitas vezes fui convocado para tratar doenças malignas, ou para dar fim a criaturas das trevas. Mas nunca recebi um chamado tão desesperado. Mina acusa um homem que vive nesta região afastada de ser uma espécie de bruxo ou demônio e implorou para que eu resgatasse seu noivo. \n\nConde Drácula vive num castelo gigantesco nos montes Cárpados. Mas não importa o poder que esta criatura pensa ter, eu o destruirei."\n\nVocê fica impressionado com a coragem e determinação de Van Helsing. Fique Justo e receba uma pista.\nHá mais a ser lido em seu diário.|||
+Eventlerdiario2.button1,Continuar
+Eventlerdiario3.text,|||"20 de fevereiro de 1895\nTransilvânia, Romênia\n\nCompreendi, por fim, a naturza da criatura com a qual estou lidando. Os vampiros são demônios que se alimentam do sangue e da alma humana, absorvendo seus atributos e pensamentos. Dessa maneira, preservam sua juventude e força. No Egito, há registro de seres que viveram mais de duzentos anos!\nContudo, Drácula é diferente. Enquanto os demais são bestas ferozes que matam indiscriminadamente, este demônio passou a selecionar seu cardápio. Escolheu suas vítimas por sua inteligência e sofisticação, e por isso tornou-se conhecedor das artes, das ciências e da história. \nDe acordo com minhas pesquisas, o Conde está vivo, pelo menos, desde o ano 985 A.D! Eu jamais tinha me deparado com algo assim."\n\nHá mais conteúdo importante a ser lido no diário.\n\nReceba 1 pista.|||
+Eventlerdiario3.button1,Continuar
+Eventlerdiario4.text,|||"22 de março de 1895\nTransilvânia, Romênia\n\nPelas pistas que encontrei pelo castelo, entendi o modo de agir do Conde. Ele convida pessoas proeminentes, então as aprisiona e devora lentamente suas almas e sua sanidade. Foi por isso que o pobre advogado Jonathan Harker veio parar aqui.\n\nAs florestas ao redor do castelo estão cheias destes coitados. Pessoas desalmadas, presas entre a vida e a morte, que apenas vagam sem propósito. Contudo, elas são rancorosas, e procurarão destruir os vivos por inveja.\n\nÉ possível evitá-las. Seus ouvidos são mais sensíveis que o normal. Se houver um barulho intenso, elas se afastarão. O castelo tem uma torre que pode ser encontrada ao se contornar o castelo pelo lado de fora. Eu toquei o sino, e isto foi o bastante para dispersá-los."\n\nHá mais conteúdo importante a ser lido no diário.\n\nReceba 1 pista.|||
+Eventlerdiario4.button1,Continuar
+Eventlerdirio5.text,|||"04 de abril de 1895,\nTransilvânia, Romênia\n\nEu falhei! Estou perdido! A criatura é poderosa demais. Quanto mais se alimenta, mas forte ela fica. Pensei que poderia vencê-la... Mas eu falhei!\n\nEscondi os utensílios que são capazes de matá-lo debaixo de placas falsas de piso, ao lado da entrada principal do castelo. Oro para que alguma alma valente consiga fazer uso delas e livrar o mundo desse castigo horrendo!"\n\nNão há mais leituras no diário. Ele pode ser descartado.|||
+Eventlerdirio5.button1,Continuar
+TokenUtenslios.text,Observando com cuidado, você nota que as placas do piso estão levemente soltas.
+TokenUtenslios.button1,{action}Procurar.
+Eventlerdiario1.button2,{action}Ler.
+Eventlerdiario1.button3,{action}Ler.
+Eventlerdiario1.button4,{action}Ler.
+Tokengato1.text,O gato preto parece tranquilo. Ele observa você em silêncio.
+Tokengato1.button1,{action} Acariciá-lo.
+Eventgato1.text,"Você interage com o gato, e ele passa por entre sua pernas. Ele caminha um pouco adiante, até a beira do lago, e começa a cavar na terra. Parece que ele quer mostrar para você algo que está escondido.\n\nMova o marcador do Gato como indicado."
+Eventgato1.button1,Continuar
+Tokengato2.text,O gato preto está cavando na terra. Parece que ele quer mostrar algo a você.
+Tokengato2.button1,{action} Cavar.
+Eventcat2.text,"Você cava na terra durante algum tempo. Logo, você encontra o que parece ser o cadáver de um soldado. O cheiro de putrefação é forte. Ainda agarrada firmemente entre os dedos esqueléticos, você encontra uma arma.\n\nReceba o item comum Tommy Gun.\n\nO gato correu para a floresta. Remove o marcador do Gato."
+Eventcat2.button1,Continuar
+EventMitoPrincipal.button1,Botão1
+EventMito1.button1,Continuar
+EventMito41.text,"Vocês gritam de horror ao olhar para a mesa de jantar. O que antes era um banquete, agora se mostra um amontoado de cadáveres, órgãos, sangue e vísceras. Vermes saem da boca e dos olhos de uma cabeça decepada. Duas ratazanas roem a carniça, e um enxame de moscas envolve todo o lugar.\n\nOs investigadores que comeram do banquete ficam horrorizados, caem de joelhos e vomitam. Que tipo de ilusão foi essa?\n\nTodos os investigadores com aprimoramento sofrem 4 horrores negados por {will}."
+EventMito41.button1,Continuar
+Tokenjantarcadaveres.text,É difícil se aproximar da carnificina sem sofrer com o terrível odor. Mas talvez tenha algo útil.
+Tokenjantarcadaveres.button1,{action}Procurar.
+Eventcarnia1.text,Você tenta segurar o vômito ao mexer nos cadáveres. Teste ({will}, 3)
+Eventcarnia1.button1,Passou
+Eventcarnia1.button2,Falhou
+Eventcarniapassou.text,"Você consegue se manter firme enquanto manuseia a podridão. Você encontra um pedaço de carne humana fresca, que pode servir de alimento para alguma criatura.\n\n Receba o item Especial Evidência Forense. Este é o pedaço de carne humana. Em seguida, remova este marcador de procura."
+Eventcarniapassou.button1,Continuar
+Eventcarniafalhou.text,"Você tenta se concentrar, mas a situação é nauseante demais. Você não consegue se controlar e vomita violentamente.\nSofra 1 dano ou 1 horror.\nAgora que seu estômago já está vazio, você tenta novamente."
+Eventcarniafalhou.button1,Continuar
+Eventmito3.text,"Há algo estranho no rosto do conde. Ele ainda está velho, mas com certeza não tanto quanto há alguns minutos. Pode ser apenas uma armadilha de seus olhos, mas ele parece estar pelo menos 15 anos mais jovem!\n\nTodos os investigadores no Salão de Jantar sofrem 1 horror.\n\n"
+Eventmito3.button1,Continuar
+EventMito1.text,Os lobos uivam através da noite. Nenhum efeito imediato.
+EventMitoPrincipal.button2,Botão2
+EventMitoPrincipal.button3,Botão3
+EventMitoPrincipal.button4,Botão4
+Eventcastial.text,"Você pega o castiçal deixado pelo conde antes que a ventania causasse uma tragédia.\n\nRecebe o item comum velas. Em seguida remova o marcador de procura."
+Eventcastial.button1,Continuar
+EventMonstrofaminto2.text,"Você atira o pedaço de carne, que afunda lentamente até desaparecer nas profundezas. Então, as águas se agitam. A criatura está tendo sua refeição.\n\nIsso deve deixá-la ocupada pelo tempo que os investigadores precisam. \n\nRemova este marcador de interação. "
+EventMonstrofaminto2.button1,Continuar
+Eventmitocinco.text,Uma tempestade começa a se precipitar.
+EventMito5.button1,Continuar
+Eventmito6.text,Uma ventania terrível abre e fecha as janelas do castelo. {rnd:hero} Tenta segurar com força seus pertences. ({strength}, 2) Se passar, consegue evitar que suas coisas sejam levadas pelo vento. Se falhar, a ventania arranca parte dos seus bens: solte um item aleatório.
+Eventmito6.button1,Continuar
+Eventmito61.text,O castiçal esquecido na mesa de centro do Lobby acaba sendo levado pelo vento. As chamas atingem o carpete e logo se espalham para as cortinas. Remova o marcador de procura e coloque fogo no local indicado.
+Eventmito61.button1,Continuar
+EventMitoPrincipal.button5,Botão5
+EventMitoPrincipal.button6,Botão6
+Eventmito7.button1,Continuar
+Eventmito71.text,"Um gato preto surge da floresta e permanece próximo ás paredes externas do castelo.\n\nColoque um marcador de Pessoa como indicado."
+Eventmito7.text,A lua está vermelha no céu. O Conde está se tornando mais poderoso.
+Eventmito71.button1,Continuar
+EventMitoPrincipal.button7,Botão7
+Spawnturba.button1,Continuar
+Spawnturba.text,"Os corpos presos entre a vida e a morte se amontoam de forma desordenada, uns sobre os outros. Seu único sentimento é inveja daqueles que ainda possuem uma alma. \n\nEles são numerosos demais. Talvez haja uma forma de expulsã-los sem precisar lutar.\n\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+EventMonstrodolagomorre.text,O monstro, bastante feirdo, se debate e rasteja de volta pra o lago, deixando um rastro pegajoso pelo caminho.
+EventMonstrodolagomorre.button1,Continuar
+Eventmito8.text,A lua está vermelha no céu. As craituras das trevas estão mais inquietas que nunca. O conde está ficando mais poderoso.
+Eventmito8.button1,Continuar
+Eventmitoum.button1,Continuar
+Eventmitocinco.button1,Continuar
+Eventmitodez1.text,"As hostes de caminhantes das florestas finalmente chegam até o castelo. Seu aspecto é deplorável. \n\nColoque uma Turba como indicado."
+Eventmitodez1.button1,Continuar
+Eventmitonove.text,Um estrondo faz com que o piso do Lobby se abra uma grande rachadura. Todos os investigadores no Lobby testam ({agility} 2). Se passar, você consegue rolar a tempo. Se falhar, você acaba com o tornozêlo preso na fenda. Vire 1 dano para cima e fique preso.
+EventCruzqueimando.text,"O poder das trevas está forte demais neste castelo. A Cruz Sagrada reage ficando incandescente.\n\nO jogador que possuir o item comum Cruz Sagrada sofre 1 dano voltado para baixo."
+Eventmitoonze1.text,Parece há um objeto dentro da fenda. Coloque o item como Machado como indicado.
+Eventmitoonze1.button1,Continuar
+Eventmitooito.text,|||A voz estrondosa do Conde Drácula ecoa por todo o castelo.\n\n"Vocês, mortais, não passam de seres mesquinhos! A humanidade é um poço de egoísmo e mentiras, e é por isso que merecem ser devorados. \n\nContudo, eu sou misericordioso. Aqueles que se ajoelharem perante mim serão poupados, e receberão parte de meus poderes. Façam um pacto comigo, mortais, e salvem suas vidas!"\n\n|||
+EventMitoPrincipal.button8,Botão8
+EventMitoPrincipal.button9,Botão9
+EventMitoPrincipal.button10,Botão10
+EventMitoPrincipal.button11,Botão11
+EventMitoPrincipal.button12,Botão12
+Eventmitodoze1.text,"O item especial Selo do Culto foi adicionado ao aplicativo.\n\nEste selo representa a possibilidade de firmar um pacto com Drácula. Qualquer investigador poderá interagir com ele pelo aplicativo."
+Eventmitodoze1.button1,Continuar
+EventPActo.text,Uma voz sussurrante insiste para que você desista de tudo.
+EventPActo.button1,{action}Trair meus aliados e invocar o Drácula.
+EventPActo.button2,Resistir.
+EventPacto1.text,Você vê uma silhueta escura se formar diante de seus olhos. Você ainda pode voltar atrás.
+EventPacto1.button1,Realizar o pacto.
+EventPacto1.button2,Desistir.
+EventPacto2.text,Conde Drácula surge na sua frente. Você se ajoelha. Ele rasga a palma da própria mão com a unha do polegar e faz com que algumas gotas caiam em sua boca.
+EventPacto2.button1,Continuar
+EventPacto3.text,Você sente frio e desesespero absoluto. Uma sensação mortal de tristeza. Em seguida, um enorme poder se espalha pelo corpo, que começa a entrar num irreversível processo de metamorfose.
+EventPacto3.button1,Continuar
+EventPacto4.text,"Remova a miniatura do investigador do tabuleiro.\nColoque em seu espaço todos os itens que este jogador carregava."
+EventPacto4.button1,Continuar
+SpawnProleEstelar.button1,Continuar
+SpawnProleEstelar.text,"Coloque uma Prole Estelar no lugar da minitura de investigador.\n\nEste jogador foi eliminado, mas continuará jogando através do monstro, na fase do mito (os demais jogadores não perdem o jogo por conta desta eliminação).\nEle não ganha o jogo como o de costume. Ao invés disso, ele ganhará se a investigação não for concluída.\n \nSe ele possuir um card de insano, ele terá duas formas de vencer o jogo - uma referente ao pacto, outra à insanidade. Qualquer uma das duas será considerada vitória.\n\nRegra especial: quando este monstro se mover, o jogador transoformado poderá escolher para qual direção ele irá (até um espaço de distância). Em seguida, o mesmo jogador poderá escolher qual investigador atacará (salvo aquele que possuir o item comum Cruz Sagrada)."
+Eventmitotreze.button1,Continuar
+EventmitoonzeA.button1,Continuar
+Eventmitotreze.text,A voz de Drácula ecoa pelo castelo pronunciando um mantra numa língua incompreensível. Cada investigador deve testar ({lore}, 3). Se passar, você consegue afastá-lo de sua mente. De falhar, fique Hipnotizado.
+EventmitodozeA.button1,Continuar
+Eventmitodez0.text,"O som terrível pode ser ouvido vindo do lago.\n\nRemova o marcador de interação como indicado."
+Eventmitodez.button1,Continuar
+Eventmitodez0.button1,Continuar
+EventmitodozeA.text,Com um ruído assombroso, a estrutura do castelo começa a estremecer.
+EventmitotrezeA.text,Um tremor ainda mais intenso se espalha. Ao olhar pelas janelas, vocês se impressionam ao perceber que o castelo inteiro está sendo arrancado do solo, iniciando um processo de levitação. Talvez estejamos indo para outro mundo?
+Eventmito17a.text,"A torre do sino desmorona. Remova os titles Torre do Sino, Canto do Corredor 2 e Escada do corredor conforme indicado.\n\nRemova todos os itens e marcadores que estavam nesses titles.\n\n\n\nOs monstros que estiverem neste titles serão destruídos (cause uma quantidade de dano igual à seus pontos de vida)."
+Eventmito17a.button1,Continuar
+Eventmito17b.text,"Se havia algum investigador nesses titles, ele cai através do assoalho para a galeria.\nColoque sua miniatura como indicado.\n\n Teste {agility} 3. Se passar, você consegue cair com apenas alguns arranhões: vire um dano para cima. Se falhar, a queda causa diversos arranhões: sofra 1 dano e vire um dano para cima. "
+Eventmito17b.button1,Continuar
+EventmitotrezeA.button1,Continuar
+Eventmito14A.text,"O castelo finalmente se desprende do solo por completo. O caminhantes que ainda estão próximos caem quando as rochas se desmancham. \n\nRemova os titles Quintal 2 e Laguinho do Parque como indicado. Remova todos os itens marcadores que estavam nesse titles. Os monstros são destruídos (cause uma quantidade de dano igual a seus pontos de vida). \n\n"
+Eventmito14A.button1,Continuar
+EventNoivaaparecer1.text,|||Você escuta algo se mover. Uma mulher num vestido dourado se pendura pelo teto da biblioteca , se agarrando com suas terríveis unhas.\n\n"Onde pensa que vai com essa estaca?", diz ela.\n\nEsta é Elena Anaya, a segunda noiva de Drácula.|||
+Eventmito19a.text,"Se havia algum investigador nos titles removidos, ele consegue saltar de volta para o Lobby.\n\nPosicione sua miniatura como indicado."
+Eventmito19a.button1,Continuar
+EventApocalipse.button1,Continuar
+EventApocalipse2.text,"O Conde Drácula se materializa. Está completamente rejuvenescido, trajando a armadura vermelha com a qual lutava na Idade Média.\n\nColoque o marcador de Pessoa como indicado."
+EventApocalipse.text,Uma risada insana irrompe do Lobby.
+EventApocalipse2.button1,Continuar
+EventApocalipse3.text,|||Estou pronto" diz ele. "Vocês tentaram me deter, mas não foram rápidos o bastante. Meu poder está completo. Agora contemplem minha forma verdadeira!|||
+EventApocalipse3.button1,Continuar
+EventApocalipse4.text,"Um brilho ofuscante é emanado de seu corpo. Remova todos os marcadores de escuridão do mapa. \n\nOs ossos começam a crescer e a romper a pele, numa transformação grotesca. \n\nRemova o marcador de pessoa como indicado. Remova todos os marcadores de interação ou procura como indicado.\n\nO item Selo do Oculto foi removido do aplicativo. É tarde demais para tentar um pacto com o inimigo."
+EventApocalipse4.button1,Continuar
+SpawnApocalipse.button1,Continuar
+EventMitoPrincipal.button13,Botão13
+SpawnApocalipse.text,"A aparência real do demônio é muito pior do que vocês tinham imaginado. \n\nColoque um Lloigor como indicado.\n\nAgora a única escapatória é matar a besta. \n\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+EventMitoPrincipal.button14,Botão14
+EventMitoPrincipal.button15,Botão15
+EventMitoPrincipal.button16,Botão16
+EventMitoPrincipal.button17,Botão17
+EventMitoPrincipal.button18,Botão18
+EventMitoPrincipal.button19,Botão19
+EventMitoPrincipal.button20,Botão20
+Eventmitovazio.text,Vocês precisam se apressar!
+Eventmitovazio.button1,Continuar
+EventMitoPrincipal.button21,Botão21
+EventFimApocalipse.text,"Vocês travam uma luta corajosa contra a fera. Apesar de seu poder extraordinário, ela acaba sucumbindo a seu ataques.\n\nO castelo começa voltar para o solo, desmanchando-se como poeira. Todos os objetos pertencentes ao conde desintegraram, desde os majestosos livros de sua biblioteca até suas coleções de arte, como se tudo não tivesse passado de um sonho.\n\nVocês conseguem saltar para a floresta antes que as rochas os esmaguem. Apesar dos ferimentos graves, vocês conseguirão voltar para casa.\n\nParabéns, a investigação foi concluída!"
+EventFimApocalipse.button1,Continuar
+EventEscada1.text,"Você está diante de uma longa escadaria que parece subir para a torre do relógio e do sino.\n\nColoque  Escada do Corredor {MAD20} e Canto do Corredor 2 {MAD20} como indicado.\nColoque paredes como indicado.\n\nRemova este marcador de exploração."
+EventEscada1.button1,Continuar
+EventEscada2.text,"Ao topo da longa escada há uma porta de ferro que deve dar acesso ao sino.\n\nColoque um marcador de exploração como indicado."
+EventEscada2.button1,Continuar
+TokenSino.button1,{action} Ajustar as engrenagens.
+EventSinotocado.text,Você consegue ajustar as engrenagem. Em seguida, você puxa as correntes.
+EventSino.text,Tente solucionar o quebra-cabeças utilizando {observation}.
+EventSino.button1,Solucionar.
+TokenSino.text,O mesmo maquinário está ligado no relógio e no sino. Talvez você precise reajustar as engrenagens para que ele funcione.
+Puzzlesino.button1,Tentar
+EventSinotocado.button1,Continuar
+EventSinotocado2.text,O som metálico ecoa através das florestas e dos montes. As criaturas que vagam errantes se afastam pelo ruído. Parece que elas não vão incomodar mais.
+EventSinotocado2.button1,Continuar
+EventSinotocado3.text,"A turba que vaga pelo castelo fica enlouquecida pelo som. Eles se dispersam e atacam uns aos outros. A maioria é morta, mas alguns conseguem fugir para a mata.\n\nDestrua a Turba (cause uma quantidade de pontos de dano igual a seus pontos de vida)"
+EventSinotocado3.button1,Continuar
+EventSinotocado4.text,"O som abre rachaduras na estrutura do castelo. O assoalho do corredor se abre. Parece que uma passagem de volta à galeria se abriu.\n\nColoque um marcador de interação com indicado e remova o marcador de interação do sino."
+EventSinotocado4.button1,Continuar
+Tokenburaconocho.text,Uma fenda está aberta. Você pode ver a galeria alguns metros abaixo. Talvez seja possível descer.
+Tokenburaconocho.button1,{action}Descer (não será possível subir novamente por aqui)
+Eventburaconochao2.text,"Você salta pelo buraco. Teste ({agility}, 3). Se passar, você consegue alcançar o chão de forma suave. Se falhar, você acaba se arranhando na madeira retorcida. Vire dois danos para cima.\n\nColoque a miniatura do Investigador no local indicado."
+Eventburaconochao2.button1,Continuar
+TokenPortaparaescada.text,Uma porta parece dar acesso às torres do castelo.
+TokenPortaparaescada.button1,{action} Abrir.
+TokenPortatorredosino.text,|||Uma porta metálica tem uma pequena placa de madeira que diz:\n"Torre do Sino\nO soar do metal aflige os caminhantes"|||
+TokenPortatorredosino.button1,{action}Entrar,
+Eventtorrerevelar.text,"O local está cheio de caixotes e maquinários. Correntes e engrenagens ligam a estrutura do relógio ao sino.\n\nColoque Torre do Sino {MAD20} como indicado.\n\nRemova este marcador de exploração."
+Eventtorrerevelar.button1,Continuar
+Eventsinorevelar2.text,"Um grande sino de bronze está logo a frente.\n\nColoque um marcador de interação como indicado."
+Eventsinorevelar2.button1,Continuar
+EventSinotocado2.button2,Continuar
+TokenPOrtaSaladeestar.text,Uma porta de mogno leva a outro cômodo do castelo.
+TokenPOrtaSaladeestar.button1,{action} Entrar.
+Tokenpiano.text,O piano está produzindo som há um instante. Contudo, parece não haver ninguém aqui...
+Tokenpiano.button1,{action} Investigar.
+EventPIano.text,Você se aproxima das teclas, mas um vento frio toma conta de você. Teste ({will}, 1). Se passar, você consegue se manter sobre controle. Se falhar, alguma força do mundo invisível o domina. Fique Hipnotizado.
+EventPIano.button1,Continuar
+EventPiano2.text,Você sabe que há uma presença estranha ao redor do piano.
+EventPiano2.button1,Quem está aí? Apareça!
+EventPiano2.button2,Eu não quero problemas...
+EventPianoaparea.text,"O som furioso de correntes toma conta do lugar, quando um espírito se materializa do outro lado do piano.\n\nRemova este marcador de Procura e substitua-o por um maracor de interação."
+EventPianoaparea.button1,Continuar
+Spawnfantasma.text,"O ser desencarnado está furioso. É possível enxergar através de seu corpo etéreo.\n\nColoque um Fantasma como indicado.\n\nEste monstro ataca normalmente o jogador que possui o item comum Cruz Sagrada."
+Spawnfantasma.button1,Continuar
+Eventpianoamigo.text,|||Pequenas partículas de poeira flutuam em redeminho ao redor do espírito. Uma voz etérea pergunta:\n"Você é aliado do Conde Drácula?"|||
+Eventpianoamigo.button1,Sim.
+Eventpianoamigo.button2,Não. Estou aqui para destruí-lo.
+EventPIanoamigo2.text,|||"Maldito seja! Você serve ao pior dos demônios, que me aprisionou aqui para sempre!"\n\nO espírito se materializa.\n\nRemova este marcado de procura e substitua por um de interação.|||
+EventPIanoamigo2.button1,Continuar
+EventPIanoamigo3.text,|||"Aquele demônio me aprisionou aqui para sempre. Mas eu aprendi a não confiar nos vivos." Você tenta convencê-lo. Teste ({influence}, 2)|||
+EventPIanoamigo3.button1,Passou.
+EventPIanoamigo3.button2,Falhou.
+EventPianoamigo4.text,|||"Então destrua este monstro de uma vez por todas!"\nO espírito desaparece, mas parece lhe conceder algum tipo de auxílio.\nCada investigador na Sala de Estar descarta um dano e um horror.\n\nRemova o marcador de procura e substitua-o por um de exploração.|||
+EventPianoamigo4.button1,Continuar
+TokenPianointerao.text,As teclas de marfim do piano são extremamente velhas. Há uma espécie de enigma escrito na partitura amarelada.
+TokenPianointerao.button1,{action}Tentar tocar.
+Eventpianointerao.text,Tente resolver o quebra-cabeças utilizando {lore}.
+Eventpianointerao.button1,Continuar
+TokenPortacapela.text,"Uma enorme porta de madeira está cheia de símbolos místicos. Provavelmente é o local de repouso do Conde.\nDeve haver uma maneira de abrí-la."
+Puzzlepiano.button1,Tentar
+TokenPortacapela.button1,Continuar
+EventEstarrevelar.text,"Um enorme salão de estar, decorado com finos ornamentos. O espaço é amplo, mas parece bastante vazio. Não há saída para outros cômodos.\n\nColoque o Tile Sala de Estar {MAD20} como indicado.\nColoque um marcador de parede como indicado.\n Remova este marcador de exploração."
+EventEstarrevelar.button1,Continuar
+EventEstarrevelar2.text,"Há poucos instante você ouviu alguém tocar no piano... Contudo, não há ninguém ali! Sofra um horror negado por {will}.\n\nColoque um marcado de procura como indicado."
+EventEstarrevelar2.button1,Continuar
+EventEstarrevelar3.text,Do outro lado do salão, há uma enorme porta de madeira trbaalhada com inúmeros símbolos arcanos. Parece ser o local de repouso do Conde. Deve haver alguma maneira de destrancá-la.
+EventEstarrevelar3.button1,Continuar
+EventEstarrevelar4.text,"Uma porta de mogno leva para os demais cômodos do castelo.\n\nColque um marcador de exploração como indicado."
+EventEstarrevelar4.button1,Continuar.
+EventRevelarBiliotecabarricada.text,"Um estante menor pode servir como barricada para impedir a pasagem.\n\nColoque um marcador de barricada como indicado."
+EventRevelarBiliotecabarricada.button1,Continuar
+TokenEsqueleto.text,Um esqueleto está caído encostado à parede. Ainda há restos de trapos. Parece que morreu com algumas coisas em suas mãos.
+TokenEsqueleto.button1,{action} Pegar o revólver em sua mão direita.
+TokenEsqueleto.button2,{action} Pegar a carta em sua mão esquerda.
+Eventesqueleto.text,"Os dedos do esqueleto seguram frouxamente o revólver, e o dedo ainda está no gatilho. \n\nReceba o item comum Revolver. 38\n"
+Eventesqueleto.button1,Continuar.
+Eventesqueleto1.text,|||A carta está amarelada e com manchas escuras.\n\n"Mina,\nJá não tenho esperanças de escapar deste lugar. Não quero me tornar como os condenados que vagam lá fora. Esta arma é minha única saída.\n Seu amado Jonathan Harker."\n\nReceba 1 pista.|||
+Eventesqueleto1.button1,Continuar
+Tokencaixadevidro.text,Este expositor guarda uma grandiosa espada dourada. Está trancado com um cadeado, mas talvez seja possível arriscar a combinação. 
+Tokencaixadevidro.button1,{action}Quebrar o vidro.
+Tokencaixadevidro.button2,{action}Tentar a combinação.
+Eventquebrarovidro.text,Você utiliza o objeto mais próximo para atingir o expositor. Teste ({strength}, 2)
+Eventquebrarovidro.button1,Passou.
+Eventquebrarovidro.button2,Falhou.
+EventQuebrarovdriofalhou.button1,Continuar
+Eventquebrarovidropassou.text,Você golpeia com força a superfície. O vidro se estilhaça, e alguns cacos entram em seu braço. Sofra 1 dano.
+EventQuebrarovdriofalhou.text,Você bate com força, mas o vidro é muito resistente. Talvez essa relíquia seja de fato muito valiosa.
+Eventquebrarovidropassou.button1,Continuar
+EventPegarespada.text,"Dentro do expositor você pega a bela espada dourada. Esta relíqua deve ter pertencido a algum santo ou herói medieval.\n\nReceba o item comum Lâmina Encantada.\n\nFique Justo.\n\nRemova este marcador de procura."
+EventPegarespada.button1,Continuar
+Eventcaixadevridropuzlefeito.button1,Continuar
+PuzzleCAIXADEVIDRO.button1,Tentar
+Eventcaixadevidropuzle.text,Tente solucionar o quebra-cabeças utilizando {observação}.
+Eventcaixadevridropuzlefeito.text,Você conseguiu destrancar a caixa de vidro.
+Eventcaixadevidropuzle.button1,Continuar
+Puzzle0.button1,Tentar
+Tokennoiva.text,Uma jovem muito atraente está de pé. Usa um vestido vermelho longo e parece ter o olhar distante.
+Tokennoiva.button1,{action} Quem é você?
+Tokennoiva.button2,{action} Onde estão os artefatos que o conde deseja que vejamos?
+Eventnoiva1.text,|||Ela responde com um tom de voz triste:\n"Eu costumava atenter pelo nome de Josie Maran, mas isso foi há muito tempo... Hoje sou uma das noivas de Drácula, e isso basta."\n\nReceba 1 pista.|||
+Eventnoiva1.button1,Continuar
+Eventnoiva3.text,|||Seus olhos parecem apagados como névoa.\n"Não creio que faça diferença saber sobre qualquer artefato" diz ela. "Não é por isso que vocês estão aqui."\n\nReceba 1 pista.|||
+Eventnoiva3.button1,Continuar
+Eventnoiva2.text,|||"Milorde me salvou da morte e da miséria. A juventude é efêmera. É como as marés que vêm e que vão."\n\nReceba 1 pista.\n|||
+Eventnoiva2.button1,Continuar
+Tokennoiva.button3,{action} Noiva? Mas... você não é jovem demais para se casar com ele?
+Tokennoiva.button4,{action} Mas afinal o que está acontecendo aqui?
+Eventnoivaoqueacontecendo.text,Você tenta convecnê-la a falar mais, mas ela parece com medo. Teste {influence}.
+Eventnoivaoqueacontecendo.button1,Continuar
+Eventnoivaoqueacontecendo2.text,|||Você consegue ganhar a confiança dela.\n"Tudo o que precisam saber é que vocês não são convidados nestes lugar. São prisioneiros." \nO olhar da moça parece muito distante.\n"Vocês em breve se tornarão como os condenados que vagam lá fora. Desalmados, presos entre a vida e a morte... Mais um entre a multidão." \n\nReceba 2 pistas.|||
+Eventnoivaoqueacontecendo2.button1,As pessoas que vagam lá fora podem nos fazer mal?
+Eventnoivaoqueestaacontecnedo3.text,|||"Não!" ela grita de repente. "Ele me ouviu... Ele ouve tudo o que acontece neste castelo..."\n\nEla cobre o rosto com as mãos. "Não olhe para mim! Ele está me castigando! Está tirando minha beleza e minha juventude! Eu não tenho mais nada para dizer, apenas vá embora!"\n\nEla corre para o canto e se abaixa, cobrindo a cabeça com as mãos. Mova o marcador de pessoa como indicado.|||
+Eventnoivaoqueestaacontecnedo3.button1,Continuar
+Tokennoivafeia.text,Vá embora! Eu não tenho mais nada para dizer!
+Tokennoivafeia.button1,{action}Espiar.
+Eventnoivafeia.text,Apesar dos pedidos, você estica o pescoço com curiosidade, tentando ver o rosto daquilo que antes era uma moça. Você grita diante do que vê: a pele, muito mais larga que o crânio, parecia escorrer como cera. Seu braço direito se deformava como uma grande garra, cheia de tumores.
+Eventnoivafeia.button1,Continuar
+SpawnThrall.text,|||"Não! Você me viu neste estado de miséria! Agora você precisará morrer!"\n\nA noiva de Drácula se levanta, pronta para destruí-lo. \n\nRemova este marcador de pessoa.\nColoque um Thrall como indicado.\n\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)|||
+SpawnThrall.button1,Continuar
+EventExporevelar1.text,"Um grande expositor de vidro parece conter uma relíquia dourada.\n\nColoque um marcado de procura como indicado."
+EventExporevelar1.button1,Continuar
+Eventexporevelar2.text,"Um esqueleto está caído no chão. Não parece ser parte do acervo.\n\nColoque um marcador de procura como indicado."
+Eventexporevelar2.button1,Continuar
+Eventexporevelar3.text,"Uma bela mulher num vestido vermelho está de pé, olhando friamente para os recém-chegados.\n\nColoque um marcador de Pessoa como indicado."
+Eventexporevelar3.button1,Continuar
+Eventvasculharpreso.text,|||"Nem uma folha cai neste castelo sem que eu perceba" diz o conde, de repente. "Você pretendia me roubar?"\nUma estranha presença o domina por completo, e você não consegue mais se mexer. \n\nFique preso.|||
+Eventvasculharpreso.button1,Continuar
+EventVasculharcomcuidado.text,Você tenta examinar os objetos de modo discreto. Teste ({influence}, 2).
+EventVasculharcomcuidado.button1,Passou.
+EventVasculharcomcuidado.button2,Falhou.
+EventPegarcigarreira.button1,Continuar
+EventPegarcigarreira.text,"Você encontra uma coleção de cigarros fabricados há mais de cem anos. Qual seria serventia de algo assim?\n\nReceba o item comum Cigarreira da Sorte.\n\nRemova este marcador de procura."
+EventThrallmorto.text,"Quando a noiva do Drácula é morta, ela se desfaz em cinzas. O fino pó prateado parece entranhar em sua pele, deixando-a levemente radiante.\n\nAprimore 1 atributo à sua escolha."
+EventThrallmorto.button1,Continuar
+EventLacaiomorto.text,"Quando o corpo do lacaio tomba, pequenos objetos cúbicos se espalham pelo assoalho.\n\nReceba o item comum Dados de Apostador."
+EventLacaiomorto.button1,Continuar
+EventFantasmamorto.text,"Quando a criatura se desfaz no ar, banida definitivamente para o mundo dos espíritos, vocês têm um forte sentimento de que podem vencer o mal.\n\nTodos os investigadores descartam 1 horror."
+EventFantasmamorto.button1,Continuar
+EventProlemorta.text,"Quando você desfere o último golpe na enorme criatura, você pode perceber o timbre de voz de seu antigo aliado no grito gutural. Essa voz derrotada se espalha por todo o castelo, antes de se calar para sempre.\n\nO jogador derrotado escolhe um outro investigador. Este investigador fica Hipnotizado.\n\nO jogador derrotado ainda pode vencer, caso a investigação não seja concluída."
+EventProlemorta.button1,Continuar
+Tokenmesinhasemdracul.text,Agora, sem o conde vigiando, é mais fácil vasculhar aqui.
+Tokenmesinhasemdracul.button1,{action} Procurar.
+EventFimdodirio.text,"\nColoque um marcador de procura como indicado.\nParece que aqui estão escondidos os tais utensílios.\n"
+EventFimdodirio.button1,Continuar
+EventFimDerrota.text,"Vocês têm lutado valentemente neste terrível castelo. Contudo, quando o seu companheiro é perdido, vocês se dão conta de que não terão forças para vencer tamanho mal.\nResta apenas esperar que o resto de sua alma seja devorada pelo conde, até que vocês se unam aos caminhantes errantes nas florestas para todo o sempre.\n\nA investigação não foi concluída."
+EventFimDerrota.button1,Continuar
+EventFimperfeito.text,"Vocês fincam a estaca no coração do demônio, evitando que ele alcançasse sua forma perfeita. Ele grita de dor, seus olhos brilham e por fim ele arde em chamas, se desfazendo num fino pó.\n\nTodo o castelo começa a se desfazer, desde os livros na biblioteca até as obras de arte na galeria, como se tudo não tivesse passado de um sonho.\n\nVocês conseguem saltar para a floresta antes que as rochas os esmagassem. Apesar dos ferimentos graves, vocês conseguirão voltar para casa.\n\nVocês lutaram com bravura e inteligência, evitando todas as artimanhas deste demônio. Parabéns! A Investigação doi concluída."
+EventFimperfeito.button1,Continuar
+EventAndar.text,Você tem a opção de se mover um espaço para a área explorada.
+EventAndar.button1,Continuar
+TokenCaixo.text,O enorme caixão de pedra tem uma série de símbolos sombrios.
+TokenCaixo.button1,{action}Arrastar a tampa.
+EventArrastaratampa.text,Você e seus aliados colocam toda a força para abrir o caixão. Teste {strength}. Você jogará uma quantidade de dados igual ao somatório da {strength} de todos os investigadores neste espaço.
+EventArrastaratampa.button1,Continuar
+Eventcaixoaberto.text,"Com toda a força, vocês vencem a tampa pesada e revelam o conteúdo. O conde repousa no interior de veludo, com os braços cruzados sobre o peito. Uma estranha energia parece emanar dele.\n\nRemova este marcador de procura e coloque um marcador de exploração. "
+Eventcaixoaberto.button1,Continuar
+TokenCaixointerao.button1,{action}Utilizar a estaca de Van Helsing. Apenas o investigaro com o item Componentes ritualísticos pode escolher esta opção.
+EventDraculamorto.text,Você finca a estaca bem no coração do monstro e utiliza o martelo para para enterrá-la mais fundo.
+TokenCaixointerao.text,Drácula repousa em seu sono terrível, enquanto se torna mais forte. Agora vocês compreendem que o conde visto na entrada do castelo era apenas uma projeção, e que este é o seu corpo real. Armas comuns não serão capazes de matá-lo...
+EventDraculamorto.button1,Continuar
+EventDraculamorto2.text,A cada golpe, Drácula grita de dor e uma estranha energia parece se dissipar. 
+EventDraculamorto2.button1,Continuar
+Eventprocurarutensilios.text,Parece haver uma forma de deslizar as placas para revelar algo embaixo. Toque para resolver o quebra-cabeças utilizando {observation}.
+Eventprocurarutensilios.button1,Continuar
+EventProcurarutensilios2.button1,Continuar
+PuzzlePlacasnocho.button1,Tentar
+EventProcurarutensilios3.text,|||Parecem ser uma série de utensílios místicos. Há alguns pingentes sagrados, alho, uma estaca de madeira, água benta e prata. Um bilhete feito a mão por Abraham Van Helsing diz:\n"Crave a estaca no coração da besta"\n\nReceba o item especial Componentes Ritualísticos. Remova este marcador de procura.\n\nAgora resta apenas encontrar a coisa e matá-la.|||
+EventProcurarutensilios2.text,Você consegue mover as placas de modo a revelar um compartimento vazio sob o piso.
+EventProcurarutensilios3.button1,Continuar
+EventPianoresolvido.text,"Você conseguiu reproduzir o som dissonante. \nRemova este marcador de interação."
+EventPianoresolvido.button1,Continuar
+EventPianoresolvido2.text,"A parede de pedra no outro lado do salão se move, revelando uma entrada secreta.\n\nColoque uma porta como indicado."
+EventPianoresolvido2.button1,Continuar
+EventCapelarevelar.text,"O caminho leva a uma estranha capela, cheia de símbolos profanos. As imagens estão partidas, e os vitrais contam histórias demoníacas.\n\nColoque o tile Capela {MAD25}como indicado."
+EventCapelarevelar.button1,Continuar
+EventCapelarevelar2.text,"Próximo ao altar, um enorme caixão ou sarcófago de pedra chama sua atenção. Há inúmeros símbolos gravados em toda a sua extensão, e a imagem de um bode está na altura do rosto.\n\nColoque um marcador de procura como indicado."
+EventCapelarevelar2.button1,Continuar
+Eventmito51.text,Vocês sente que há algo terrível neste castelo, e o medo os domina. Há alguns lugares em que talvez seja possível se esconder.
+Eventmito51.button1,Continuar
+Eventmito52.text,"No Lobby talvez seja possível se esconder debaixo da mesa, a fim de evitar os terríveis monstros deste castelo.\n\nColoque um marcador de interação como indicado."
+Eventmito52.button1,Continuar
+TokenEsconderLobby.text,Talvez seja possível se esconder debaixo desta mesa (apenas um investigador pode se esconder em cada abrigo ao mesmo tempo).
+TokenEsconderLobby.button1,{action} Esconder-se.
+EventEsconderLobby2.text,Você engatinha para debaixo da mesa. Será necessário ficar completamente imóvel para que ninguém o encontre aqui. Teste ({will} 1)
+EventEsconderLobby2.button1,Passou
+EventEsconderLobby2.button2,Falhou
+EventEsconderLobby20.text,"Você consegue manter a calma e permanecer no abrigo improvisado.\n\nRetire a miniatura de seu investigador do tabuleiro. Você não é atacado por monstros nem precisa realizar testes de horror.\n\nA qualquer momento, você pode devolver a miniatura ao local original sem gastar uma ação."
+EventEsconderLobby20.button1,Continuar
+EventEsconderLobbyfalhou.text,"Você está trêmulo e ofegante. Qualquer um perceberia sua presença aqui.\n\nNão foi possível se esconder."
+EventEsconderLobbyfalhou.button1,Continuar
+Eventmito53.text,"As cadeiras atrás da mesa de jantar também parecem ser um bom lugar para se esconder, apesar do cheiro de cadáveres.\n\nColoque um marcador de interação como indicado."
+Eventmito53.button1,Continuar
+TokenEsconderJantar.text,Você pode tentar se esconder entre as cadeiras atrás da mesa de jantar.
+TokenEsconderJantar.button1,{action}Esconder-se.
+Eventesconderjantar2.text,O cheiro de putrafação é insuportável. Você precisará resistir. Teste ({will}, 1).
+Eventesconderjantar2.button1,Passou.
+Eventesconderjantar2.button2,Falhou.
+EventEsconderjantarfalhou.text,"Infelizmente, você não é capaz de parmanecer no meio de tanta imundície. Você se afasta dali para respirar um ar mais limpo.\n\nMova-se 1 espaço para se afastar deste marcador de interação.\nNão possível se esconder."
+EventEsconderjantarfalhou.button1,Continuar
+EventEsconderjantarpassou.text,"Você consegue manter a calma e permanecer no abrigo improvisado.\n\nRetire a miniatura de seu investigador do tabuleiro. Você não é atacado por monstros nem precisa realizar testes de horror.\n\nA qualquer momento, você pode devolver a miniatura ao local original sem gastar uma ação."
+EventEsconderjantarpassou.button1,Continuar
+Eventexporevelar4.text,"Um objeto parece ter sido deixado no chão às pressas, mas há muito tempo. Teias de aranha o cobriram.\n\n Coloque o item comum Dinamite como indicado."
+Eventexporevelar4.button1,Continuar
+EventTraidorevaso.text,Você tenta se desvencilhar da enorme criatura, mas seu antigo aliado não o deixará escapar tão facilmente. Teste ({agility}, 2) Se passar, você consegue contorná-lo, escapando por pouco de um golpe. Se falhar, a criatura grita com tamanha intensidade que você cai no chão. Perca sua ação e fique Desnorteado.
+EventTraidorevaso.button1,Continuar
+EventTraidorhorror.text,É assombroso pensar que essa coisa já foi humana. É mais assombroso pensar que vocês já foram amigos. Teste ({will}, 2). Se passar, você consegue se desprender do passado e focar em sua própria sobrevivência: fique Compenetrado. Se falhar, você lamenta profundamente a tragédia, e pensa que este também será seu destino. Vire todos os seus horrores para cima.
+EventTraidorhorror.button1,Continuar
+CustomMonsterTraidor.info,-
+CustomMonsterTraidor.Attack_bladed_2,Você corre na direção do monstro com a lâmina em punho. ({strength}, 2) Se passar, você consegue saltar a cravá-la na carne. O monstro sofre dano igual ao dano da arma. De falhar, seu salto não é forte o bastante para alcançá-lo.
+CustomMonsterTraidor.Attack_unarmed_1,Você tenta de toda a forma acertar um golpe na criatura. Teste ({estrength}, 1). Se passar, seus golpes são efetivos. O monstro sofre dano igual ao resultado de seu teste. Se falhar, o monstro não sente seus golpes, e acaba esmagando-o com a pata. Sofre 1 dano voltado para baixo.
+CustomMonsterTraidor.Attack_bladed_4,-
+EventPoo1.button2,Botão2
+Eventfalhouprocura.text,Há muitos objetos pesados dentro do poço. Talvez você um pouco mais de tempo para encontrar algo útil.
+Eventfalhouprocura.button1,Continuar
+Eventnoivaoqueacontecendo.button2,Botão2
+EventFalhounoiva.text,Você tenta acalmá-la, mas ela está com medo demais para abrir o jogo agora.
+EventFalhounoiva.button1,Continuar
+EventArrastaratampa.button2,Botão2
+EventCaixaofalhou.text,Com grande esforço, a tampa se move um pouco. Será necessário empurrar mais.
+EventCaixaofalhou.button1,Continuar
+quest.synopsys,Um conde do interior da Romênia os convida a conhecer sua coleção particular de artefatos.
+EventVasculharcaradepau.text,|||"Eu o convido a meu lar", diz o conde, "e voce rouba de mim?" \nAs palavras são penetrantes, e causam um estranho efeito em sua mente. Fique Atordoado.|||
+EventVasculharcaradepau.button1,Continuar
+EventPegarcigarreiradeuruim.button1,Continuar
+EventPegarcigarreiradeuruim.text,"Você encontra uma coleção de cigarros fabricados há mais de cem anos. Qual seria serventia de algo assim?\n\nReceba o item comum Cigarreira da Sorte.\n\nRemova este marcador de procura."
+Eventmitoum.text,"Uma névoa escura vem da floresta, e penetra as frestas das portas e janelas do castelo. {rnd:hero} se vê envolto(a) por uma densa escuridão. ({observation}, 2). Se passar, você consegue se manter firme apesar do estranho fenômeno. Se falhar, o medo afesta seus sentidos. Sofra 1 horror.\n\nColoque marcadores de escuridão em todos os espaços ao alcance dele(a)."
+Eventmitodez.text,A voz de Drácula ecoa pelo castelo pronunciando um mantra numa língua incompreensível. Cada investigador deve testar ({lore}, 3). Se passar, você consegue afastá-lo de sua mente. De falhar, fique Hipnotizado.
+EventCruzqueimando.button1,Continuar
+Eventmitooito.button1,Continuar
+Eventmitonove.button1,Continuar
+EventmitoonzeA.text,|||Drácula continuar a falar:\n\n"Experimente uma fração de meu poder, {rnd:hero}! O poder vicia a alma humana! Una-se a mim e você terá muito mais!"\n\nEste investigador sente uma energia sobrenatural se espalhar por seu corpo.\nAprimore um atributo a sua escolha.\n|||
+EventNoivaaparecer1.button1,Continuar
+Spawnnoiva2.text,"Coloque um Thrall como indicado.\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+Eventnoiva30.text,|||Uma núvem de escuridão se condensa na galeira, formando a silhueta de uma pessoa. Pouco depois, uma mulher num vestido negro surge.\n\n"Você não ousaria desafiar nosso senhor, ousaria?"\n\nEstá é Silvia Colloca, a terceira noiva do Drácula.|||
+Spawnnoiva2.button1,Continuar
+Eventnoiva30.button1,Continuar
+Spawnnoiva3.text,"Coloque um Thrall como indicado.\n\nEste monstro ignora o jogador que possui o item comum Cruz Sagrada (não se move em sua direção e não o ataca)"
+Spawnnoiva3.button1,Continuar
+Eventnoivaoqueacontecendo2.button2,Precisamos nos preocupar com o Conde?
+Eventnoivaconversa.text,|||Sim. Eles têm rancor dos vivos. Entrarão no castelo e tentarão matá-los. Mas há um jeito de expulsá-los... Seus ouvidos são muito mais sensíveis que os dos vivos. Se você conseguir produzir um barulho suficientemente alto..." Ela estreita os olhos e pensa por um instante. "A torre do relógio e do sino não é longe daqui. É possível chegar até ela contornando o castelo por fora. Talvez o som do sino os espante...|||
+Eventnoivaconversa.button1,Continuar
+Eventnoivaaa.text,|||"Sim. Vocês estão condena..." Ela parou de falar de repente.|||
+Eventnoivaaa.button1,Continuar
+Eventnoivamorta2.button1,Continuar
+Eventnoivamorta3.text,"Com o último golpe, a noiva do drácula se desfaz em cinzas. A fina poeira parece incrustar em sua pele, deixando-a levemente brilhante.\n\nAprimore um atributo a sua escolha."
+Eventnoivamorta2.text,"Com o último golpe, a noiva do drácula se desfaz em cinzas. A fina poeira parece incrustar em sua pele, deixando-a levemente brilhante.\n\nAprimore um atributo a sua escolha."
+Eventnoivamorta3.button1,Continuar
+Eventprolemover.text,"O jogador transformado pode mover a Prole Estelar até 1 espaço para a direção que escolher. Em seguida ele ataca investigador em seu espaço ou num espaço adjacente.\n\nSe o monstro for atacar, o jogador transformado poderá escolher um dos ataques abaixo."
+Eventprolemover.button1,Esmagá-lo com as enormes patas.
+Eventprolemover.button3,Não há investigadores próximos.
+EventAtaquemonstro.text,A criatura ergue as patas bem alto, e depois tenta esmagar seu adversário. O investigador defensor testa ({agility}, 2) Se passar, ele escapa. Contudo, os tremores são intensos demais: todos os investigadores ao alcance do monstro sofrem 1 dano voltado para baixo. Se falhar, o enorme peso da pata o esmaga contra o solo. Sofra 1 dano voltado para baixo, em seguida vire todos seus danos para cima.
+EventAtaquemonstro.button1,Continuar
+EventEventodevorarjogador.text,A criatura abre a gigantesca boca para tentar engolir sua presa. O investigador defensor testa ({agility} 2).
+EventEventodevorarjogador.button1,Passou.
+EventEventodevorarjogador.button2,Falhou.
+Eventdevorarpassou.text,O investigador salta para o lado a tempo de escapar da morte certa.
+Eventdevorarpassou.button1,Continuar
+EventDevorarfalhou.text,"A criatura morde o investigador pelas pernas, sentindo seus ossos partirem entre seus dentes.\n\nO investigador defensor estava ferido?"
+EventDevorarfalhou.button1,Sim.
+EventDevorarfalhou.button2,Não.
+Eventdevorarnaoferido.text,"O monstro devora as pernas do investigador, deixando um rastro de sangue por todo lado. \nO investigador fica Ferido."
+Eventdevorarnaoferido.button1,Continuar
+Eventdevorarferido.text,"O investigador não consegue reagir: o monstro o lança para o alto, e depois o engole por inteiro.\n\nO investigador foi eliminado."
+Eventdevorarferido.button1,Continuar
+Eventlerdiario1.button5,Cancelar.
