@@ -1,0 +1,962 @@
+.,Spanish
+quest.name,Creer o morir - La búsqueda de Pete <i>Cubo de Basura</i>
+quest.description,Pete <i>Cubo de Basura</i> ha desaparecido. Eres el único que puede encontrarlo. ¿Qué le habrá podido suceder para que haya abandonado a su leal perro? \n\n Objetivo del escenario: La investigación sólo terminará con éxito si se encuentra y se pone a salvo a Pete «Cubo de Basura». \n\n Este escenario se puede jugar usando sólo la caja básica de «Mansiones de la Locura», 2ª edición. \n Si se usa la expansión «Pesadillas recurrentes», ninguno de los jugadores puede elegir al investigador Pete <i>Cubo de Basura<i>. \n\n Este escenario está dedicado a mi mujer y a mis amigos recién casados — «los Elfos». \n Éste es el primer escenario de la campaña «Creer o morir». El segundo escenario se encuentra en proceso... \n Los comentarios después de cada partida son especialmente bienvenidos. Puedes contactar conmigo en la siguiente dirección: https://github.com/FASTNAVi/Believe_or_Die_1/issues/1
+quest.authors,\n Ivan Letko \n\n Correcciones (en inglés): Anna Letko\n\n Traducción al polaco: zcaalock.\nTraducción al portugués: andrex47 \n Traducción al español: Vidimus y Mauch8 \n\n ¡Muchas gracias! \n V1.3\n​
+TokenDalekohled.text,Los prismáticos apuntan a un lugar fuera de la plaza. Puedes mirar a través de ellos.
+TokenDalekohled.button1,{action} Mirar a través de los prismáticos
+Eventstart.button1,Continuar
+EventPlace1namesti.text,Habéis llegado a la plaza mayor desde el sur. Colocad las miniaturas de los Investigadores en el lugar señalado.
+EventPlace1namesti.button1,Continuar
+Eventpodivanisedodalekohledu2.text,Observas que apuntan hacia  una tapa de alcantarilla en el lado más cercano de la plaza. \n\n Descarta la ficha de Interacción. A continuación, coloca una ficha de Pasadizo secreto y otra de Interacción en el lugar señalado. \n Ganas 1 Pista {clue}.
+Eventpodivanisedodalekohledu.text,Observas que apuntan a una tapa de alcantarilla en el lado más cercano de la plaza. \n\n Descarta la ficha de Interacción. A continuación, coloca una ficha de Pasadizo secreto y otra de Interacción en el lugar señalado. \n Ganas 1 Pista {clue}.
+Eventpodivanisedodalekohledu.button1,Continuar
+Eventstart.text,\n Ya es casi de noche y vuestra búsqueda ha sido infructuosa hasta el momento. Después de deambular por la ciudad todo el día, de repente os encontráis en un distrito en el que nunca habíais estado. Incluso Duque no parece ser de mucha utilidad. Llegáis a una pequeña plaza con una fuente en el centro. La plaza es un sitio bullicioso y aunque ya está anocheciendo, hay bastante gente. \n\n Coloca el módulo {c:Tile01Namesti} en el lugar señalado. \n
+Eventpodivanisedodalekohledu2.button1,Continuar
+Eventpodivanisedodalekohledu3.button1,Continuar
+Eventpodivanisedodalekohledu3.text,Observas que hay una tapa de alcantarilla en el lado más cercano de la plaza. Descarta la ficha de Interacción. A continuación, coloca una ficha de Pasadizo secreto y otra de Interacción en el lugar señalado. Ganas 1 Pista {clue}.
+EventPlace2namesti.text,La plaza se abre hacia el norte y hacia el sur. En uno de sus laterales, sin embargo, hay varios edificios viejos y descuidados. Un campanario abandonado se yergue en el lado oeste. \n Coloca una ficha de Exploración en el lugar señalado.
+EventPlace2namesti.button1,Continuar
+EventPlace3namesti.text,Una de las casas que hay al este de la plaza tiene una fachada antigua que necesita ser rehabilitada. Una puerta conduce a su interior. A juzgar por la suciedad que hay en el umbral y las telarañas de las esquinas de la puerta, la entrada no se usa muy a menudo. \n Coloca una ficha de Exploración en el lugar señalado.
+EventPlace3namesti.button1,Continuar
+EventPlace4namesti.text,Apenas puedes ver algo a través de la multitud, pero a juzgar por el ruido sospechas que al norte de la plaza hay un mercado.\n Coloca una ficha de Vistazo en el lugar señalado.
+EventPlace4namesti.button1,Continuar
+EventPlace5namesti.text,\n Varios disparos potentes interrumpen repentinamente tus pensamientos. Esto hace que la multitud entre en pánico y la gente huya gritando en todas direcciones. Tienes la seguridad de que el lugar del que venían los disparos no está lejos de tu ubicación, aunque no consigues ver a nadie herido o portando un arma. Tres personas se destacan entre la multitud porque permanecen en sus lugares en lugar de huir. Miran a su alrededor y señalan el lugar de donde provino el tiroteo. Te das cuenta de que cada una apunta en una dirección un poco diferente. Muchas de las personas que huyen llaman en voz alta a la policía, que estará aquí muy pronto. \n\n Coloca tres fichas de Personaje en el lugar señalado. \n
+EventPlace5namesti.button1,Continuar
+Tokenvstupsachta2.text,Puedes intentar explorar la red de alcantarillado. El conducto de abajo parece estar seco y es suficientemente amplio como para que una persona pueda pasar por él.
+Tokenvstupsachta2.button1,{action} Explorar
+Eventpovstupudostoky21.button1,Continuar
+EventTile03vstuptajnouchodbou.text,\n Finalmente, llegas al lugar donde termina el conducto del alcantarillado. Hay una escalera empinada. Puedes ver algunos tablones de madera en las sombras en la parte superior de la escalera. Parece una trampilla. Intentas mantener el equilibrio mientras tratas de abrirla ({agility}; 2). Si superas la tirada, sujetas la escalera lo suficientemente fuerte. Si fallas, te caes de la escalera y sufres 1 de Daño. \n
+Eventpovstupudostoky21.text,\n Parece que a veces alguien pasa por aquí. Puedes ver claramente el sendero entre las piedras sucias y polvorientas. Ganas 1 Pista {clue}. \n\n Aunque el alcantarillado no se ha usado desde hace tiempo, es imposible pasar por alto el desagradable olor. Adquieres el estado <i>Desconcertado</i>. \n\n El olor es nauseabundo y empiezas a marearte ({will}; 2). Si superas la tirada, consigues mantener a raya a tu estómago. Si fallas la tirada, sufres 1 de Daño boca abajo y pierdes cualquier acción que te quedase. Tu turno termina inmediatamente. \n
+EventTile03vstuptajnouchodbou.button1,Continuar
+Eventtile03dvernitokeny.text,\n Te encuentras en un pequeño pasillo. La puerta del cuarto de baño está completamente abierta mientras que el resto de puertas están cerradas. Una de las puertas, a juzgar por el ruido que se oye al otro lado, debe conducir a la plaza mayor. Pero, como puedes ver ahora, hay un gran tablón que se está usando para atrancar la puerta desde dentro. Puedes intentar quitar el tablón. En la puerta que está enfrente hay un cartel que pone «Oficina». La última puerta lleva a la tienda. \n\n Descarta 2 fichas de Exploración como se señala.\n
+Eventtile03dvernitokeny.button1,Continuar
+Eventuspesneotevrenizvonice.text,Consigues abrir la puerta y apartar el obstáculo que había detrás. Para tu sorpresa, el obstáculo resulta ser un cuerpo en mitad de un charco de sangre. El hombre todavía está vivo, aunque no le queda mucho tiempo. \n\n Descarta esta ficha de Exploración y coloca el módulo {c:Tile09Sklad} en el lugar señalado. Coloca una ficha de Personaje en el lugar señalado.
+Tokendverezvonice.text,La puerta del campanario parece vieja, pero bien cuidada.
+Tokendverezvonice.button1,{action} Explorar
+Eventotevrenizvonice.text,Para tu sorpresa, la puerta no está cerrada. Se abre un poco pero golpea contra algo pesado y no cede más ({strength}).
+Eventotevrenizvonice.button1,Continuar
+Eventuspesneotevrenizvonice.button1,Continuar
+Eventobjevenivecivezvonici.text,Detrás de uno de los barriles, cerca del hombre, puedes ver un objeto en el suelo. Entre las sombras, sin embargo, no puedes saber exactamente qué es. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventobjevenivecivezvonici.button1,Continuar
+EventDverezvoniceseneotevrou.button1,Continuar
+EventDverezvoniceseneotevrou.text,No puedes abrir la puerta.
+Eventotevrenizvonice.button2,Fallo
+Eventtile09objeveniveci2.text,También descubres en lo alto de la escalera unos prismáticos sobre un trípode fijo. \n Coloca una ficha de Interacción en el lugar señalado.
+Eventtile09objeveniveci2.button1,Continuar
+Tokenvstupsachta.text,Puedes intentar explorar la red de alcantarillado. El conducto de abajo parece estar seco y es suficientemente amplio como para que una persona pueda pasar por él.
+Tokenvstupsachta.button1,{action} Explorar
+Tokenvstupsachta3.text,Puedes intentar explorar la red de alcantarillado. El conducto de abajo parece estar seco y es suficientemente amplio como para que una persona pueda pasar por él.
+Eventcestakanalem01.button1,Continuar
+EventTile03vstuptajnouchodbou1.button1,Continuar
+Eventcestakanalem01.text,\n Parece que a veces alguien pasa por aquí. Puedes ver claramente el sendero entre las piedras sucias y polvorientas. Ganas 1 Pista {clue}. Aunque el alcantarillado no se ha usado desde hace tiempo, es imposible pasar por alto el desagradable olor. Adquieres el estado <i>Desconcertado</i>. \n El suelo es resbaladizo y tratas de no caerte ({agility}; 2). Si superas la tirada, cruzas sin problemas. Si fallas la tirada, te caes varias veces; sufres 1 de Daño boca abajo y pierdes cualquier acción que te quedase. Tu turno termina inmediatamente. \n
+EventTile03vstuptajnouchodbou1.text,\n Finalmente, llegas al lugar donde termina el conducto del alcantarillado. Hay una escalera empinada. Entre las sombras, puedes ver algunos tablones de madera en la parte superior de la escalera. Parece una trampilla e intentas abrirla ({strength}; 2). Si superas la tirada, consigues abrirla ligeramente. Si fallas, no consigues agarrarte bien a la escalera y, aunque la trampilla se abre un poco, te caes. Sufres 1 de Daño. \n
+Tokenvstupsachta3.button1,{action} Explorar
+EventCestakanalem3.text,\n Parece que a veces alguien pasa por aquí. Puedes ver claramente el sendero entre las piedras sucias y polvorientas. Ganas 1 Pista {clue}. Aunque el alcantarillado no se ha usado desde hace tiempo, es imposible pasar por alto el desagradable olor. Adquieres el estado <i>Desconcertado</i>. \n Una horda de ratas corre hacia ti y no hay manera de evitarlas ({will}; 2). Si superas la tirada, consigues mantener la calma y las ratas pasan de largo. Si fallas la tirada, el pánico se apodera de ti y sufres 1 de Horror \n
+EventCestakanalem3.button1,Continuar
+EventTile03vstuptajnouchodbou3.text,\n Finalmente, llegas al lugar donde termina el conducto del alcantarillado. Hay una escalera empinada. Entre las sombras, puedes ver algunos tablones de madera en la parte superior de la escalera. Parece una trampilla e intentas abrirla ({strength}; 2). Si superas la tirada, consigues abrirla ligeramente. Si fallas, no consigues agarrarte bien a la escalera y, aunque la trampilla se abre un poco, te caes. Sufres 1 de Daño. \n
+EventTile03vstuptajnouchodbou3.button1,Continuar
+Tokenvidimtrh.text,Apenas puedes ver algo a través de la multitud, pero a juzgar por el ruido sospechas que al norte de la plaza hay un mercado. Un Investigador situado en la localización {c:Tile01Namesti} puede explorar una zona adyacente.
+Tokenvidimtrh.button1,Mostrar
+EventOdhalenitrhu.text,El mercado es un lugar rebosante de vida y tan ruidoso que la mayoría de la gente no se ha percatado del tiroteo que acaba de producirse. Coloca el módulo {c:Tile02Trh} en el lugar señalado y descarta todas las fichas de Vistazo que conduzcan a él.
+EventOdhalenitrhu.button1,Continuar
+Eventvidimtokentrh_ulicka.text,Un pequeño callejón conduce fuera del mercado. Pero para ver lo que hay allí tendrás que ir hasta el final del mercado. \n Coloca una ficha de Vistazo en el lugar señalado.
+Eventvidimtokentrh_ulicka.button1,Continuar
+EventLidenatrhu.text,Una niña pequeña corre directamente hacia ti, mirando por encima de su hombro. De repente tropieza y cae sobre el pavimento en mitad del mercado. Un hombre que está en la otra punta del mercado le grita y le amenaza con el puño. No parece que tenga la más mínima oportunidad de atrapar a la niña, pero tú sí. \n Coloca dos fichas de Personaje en el lugar señalado.
+EventLidenatrhu.button1,Continuar
+TokenTile09zbran.text,Detrás de uno de los barriles, cerca del hombre, puedes ver un objeto en el suelo. Entre las sombras, sin embargo, no puedes saber exactamente qué es.
+TokenTile09zbran.button1,{action} Buscar
+EventTILE09beruzbran.button1,Continuar
+EventTILE09beruzbran.text,Apartas los barriles y descubres que el objeto es un arma. Ganas el Objeto común {c:QItem38Revolver}. El tambor del arma todavía está caliente, lo que indica que ha sido disparada hace poco. \n Descarta esta ficha de Búsqueda.
+Tokenumirajici.text,El hombre mortalmente herido levanta una mano hacia ti. Te quiere decir algo, sus labios se mueven, pero de su boca no sale ningún sonido.
+Tokenumirajici.button1,{action} —<i>¿Qué le ha sucedido?</i>
+Eventdverechodbanamesti_odhaleno.text,No puedes abrir la puerta desde fuera. Está atrancada desde el interior con un tablón del cual sobresalen algunos clavos. Con algo de maña se podría retirar el tablón y abrir la puerta. Un Investigador situado en el vestíbulo puede intentar abrir la puerta.
+Tokendverechodbanamesti.button1,Continuar
+Tokenumirajici.button2,{action} —<i>¿Quién le ha hecho esto?</i>
+Tokenumirajici.button3,{action} —<i>¿Sí? ¡Le escucho!</i>
+Tokenumirajici.button4,{action} —<i>¿Quién es usted?</i>
+Tokenumirajici.button5,{action} —<i>Shh, la ayuda está en camino</i>.
+EventUmirajici_cosevamstalo.text,—<i>Yo... estaba... arriba...</i> —contesta con dificultad el moribundo—. <i>Disparamos... uno al otro... él... escapó.</i> —y con esas palabras, el hombre expira. \n\n Ganas 1 Pista {clue}.
+EventUmirajici_cosevamstalo.button1,Continuar
+EventUmirajici_kdovamtoudelal.text,—<i>Él... vino...</i> —contesta a duras penas el moribundo—. <i>Quiere... ritual... esta noche... todos... morirán...</i> —y con estas últimas palabras el hombre expira. \n\n Ganas 1 Pista {clue}.
+EventUmirajici_kdovamtoudelal.button1,Continuar
+EventUmirajici_anoposloucham.text,—<i>Interrumpir... ritual... deprisa...</i> —el moribundo apenas puede articular palabras—. <i>Todos... morirán...</i> —y con estas palabras, el hombre exhala su último aliento.\n\n Ganas 1 Pista {clue}
+EventUmirajici_anoposloucham.button1,Continuar
+EventUmirajici_kdojste.text,—<i>Agente... Craven...</i> —el moribundo contesta con muchas dificultades—. <i>Investigando... culto... muerte... esta noche</i> —y con estas palabras, el hombre exhala su último aliento. \n\n Ganas 1 Pista {clue}
+EventUmirajici_kdojste.button1,Continuar
+EventUmirajici_ssspomocjenaceste.text,—<i>No... no... entiendo...<i> —el moribundo apenas puede contestar—. <i>Él me sorprendió... ahora está aquí... ¡Él está aquí!<i> —y con estas palabras, exhala su último suspiro. \n\n Ganas 1 Pista {clue}
+EventUmirajici_ssspomocjenaceste.button1,Continuar
+TokenUmirajici_posmrti.text,El cuerpo de un hombre muerto con varios agujeros en su ensangrentado pecho, presumiblemente causados por una escopeta. No sacarás más información de él a menos que registres sus bolsillos.
+TokenUmirajici_posmrti.button1,{action} Buscar
+EventUmirajici_Prohledani.text,Tiene una funda de arma vacía y un varias fotografías ligeramente manchadas con sangre. Ganas el Objeto único {c:QItemPhotographicEvidence}. \n El Investigador que posea este objeto puede revisar la prueba en el menú de objetos de la aplicación.
+EventUmirajici_Prohledani.button1,Continuar
+EventFotografickydukazprohledavani.button1,Continuar
+EventFotografickydukaz.text,El Investigador que posea este objeto puede gastar una acción para echar un vistazo más de cerca a las fotos.
+EventFotografickydukazprohledavani.text,En las fotos, de mala calidad, hay varias personas. Las imágenes están tomadas desde lejos, y con ángulo. Sin embargo, una de las fotos es distinta. Es el retrato de un hombre, de frente. Miras la foto detenidamente, tratando de memorizarla. \n Ganas 2 Pistas {clue}.
+EventFotografickydukaz.button1,{action} Echar un vistazo a las fotografías
+EventFotografickydukaz.button2,Cancelar
+TokenUmirajici_prohledany.text,Un cadáver con una funda de arma vacía y nada más digno de mención.
+TokenUmirajici_prohledany.button1,Continuar
+TokenPoliciste1.text,Un pequeño grupo de policías dirigido por un sargento entra con paso firme en la plaza.
+TokenPoliciste1.button1,Continuar
+TokenPolicista2.text,Un pequeño grupo de policías, comandados por un sargento, toman posiciones delante del campanario. Precintan la puerta y no dejan que nadie entre. Parece que se van a quedar ahí patrullando.
+TokenPolicista2.button1,{action} —<i>¿Qué ha sucedido?</i>
+TokenPolicista2.button2,{action} —<i>¿Va a investigar el caso, sargento?</i>
+EventPoliciste_cosestalo.text,—<i>Parece un robo con allanamiento y un asesinato. Tanto los detectives como los forenses fueron informados y a primera hora de la mañana el caso será investigado adecuadamente. ¡Por favor, márchese!</i> —te responde con frialdad el sargento.
+EventPoliciste_cosestalo.button1,Continuar
+TokenPoliciste_promluvili.text,Un pequeño grupo de policías, comandados por un sargento, toman posiciones delante del campanario. Precintan la puerta y no dejan que nadie entre. Parece que se van a quedar ahí, vigilando la zona. \n\n —<i>¡Por favor, circulen! <i>—les dicen a todos los curiosos que se acercan al lugar.
+TokenPoliciste_promluvili.button1,Continuar
+EventPolicista_budetenecodelat.text,—<i>Ni hablar, podríamos destruir pruebas vitales. Al parecer hubo un robo con allanamiento y un asesinato. A primera hora de la mañana, el caso será investigado como es debido. ¡Por favor, márchese!</i> —te responde con frialdad el sargento.
+EventPolicista_budetenecodelat.button1,Continuar
+TokenPolicista2.button3,{action} —<i>¡Tengo pruebas importantes del asesinato!</i>
+Eventtokeny_koupelna.button1,Continuar
+Eventtokeny_koupelna.text,En el suelo del baño ves un trozo arrugado de papel de periódico. Coloca una ficha de Búsqueda en el lugar señalado.
+Spawnsklep_Deepone.button1,Continuar
+Spawnsklep_HH.button1,Continuar
+Spawnsklep_HH.text,Una dolorosa sensación recorre todo tu cuerpo. Es como si las oscuras sombras del sótano tuviesen vida propia. De repente te das cuenta de que una de las sombras sí que se está moviendo, y viene hacia ti. Aparece un Horrendo cazador en el lugar señalado.\n Todos los Investigadores dentro del alcance del monstruo sufren 1 de Horror boca abajo.
+Spawnsklep_Deepone.text,Una dolorosa sensación recorre todo tu cuerpo. Es como si las oscuras sombras del sótano tuviesen vida propia. De repente te das cuenta de que una de las sombras sí que se está moviendo, y viene hacia ti. Aparece un Profundo en el lugar señalado.\n Todos los Investigadores dentro del alcance del monstruo sufren 1 de Horror boca abajo.
+Spawnobchod_DO.text,Los oscuros rincones de la tienda y los lugares debajo de las vitrinas pueden esconder desagradables sorpresas. Justo cuando estás mirando en dirección a uno de estos sitios, algo grande emerge de entre las sombras. Aparece un Profundo en el lugar señalado. Todos los Investigadores que estén dentro del alcance del monstruo sufren 1 de Horror boca abajo.
+Spawnobchod_DO.button1,Continuar
+Spawnobchod_HH.text,Los oscuros rincones de la tienda y los lugares debajo de las vitrinas pueden esconder desagradables sorpresas. Justo cuando estás mirando en dirección a uno de estos sitios, algo grande emerge de entre las sombras. Aparece un Horrendo cazador en el lugar señalado. Todos los Investigadores que estén dentro del alcance del monstruo sufren 1 de Horror boca abajo.
+Spawnobchod_HH.button1,Continuar
+Tokendverezadniobchod.button1,{action} Explorar
+Eventdverechodbadokanclu.text,Una placa en la puerta con la palabra «Oficina».
+Eventumirajici_prohledavani_test.button1,Continuar
+Eventumirajici_prohledavani_test.text,Miras más de cerca el cuerpo ensangrentado. Intentas tocarlo. Sufres 1 de Horror boca abajo (anulado por {will}).
+Tokensklep_stopy.button1,{action} Explorar
+Tokensklep_stopy.text,Quizá puedas encontrar algunas huellas de pisadas en el suelo de arcilla.
+Eventsklep_pridatstopy.text,Quizá puedas encontrar algunas huellas de pisadas en el suelo de arcilla. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsklep_pridatstopy.button1,Continuar
+Eventsklep_stopy_test.text,En la oscuridad es complicado ver las huellas con claridad {observation}.
+Eventsklep_stopy_test.button1,Continuar
+Eventsklep_stopy_test.button2,Fallo
+Eventsklep_stopy_uspech.button1,Continuar
+Eventsklep_stopy_uspech.text,Por todas partes hay pisadas de un hombre. Incluso puedes ver el rastro de una carretilla que hay apoyada en una pared cercana. Al parecer alguien estuvo moviendo algo pesado desde o hacia la puerta de la pared del sótano. \n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventsklep_stopy_neuspech.text,Por todas partes hay pisadas de un hombre. Al parece alguien está usando de forma regular la puerta que hay en la pared del sótano. \n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventsklep_stopy_neuspech.button1,Continuar
+Tokensklep_zbran.button1,{action} Explorar
+Tokensklep_zbran.text,Algunos objetos alargados se apoyan contra la pared de la fresquera.
+Eventsklep_pridatzbran.text,Algunos objetos alargados se apoyan contra la pared de la fresquera. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventsklep_pridatzbran.button1,Continuar
+Eventsklep_pridatdvirka.button1,Continuar
+Eventsklep_pridatdvirka.text,Hay una pequeña puerta en la pared. La altura de la puerta es de poco más de un metro y el umbral inferior sobresale aproximadamente medio metro por encima del suelo del sótano. Coloca una ficha de Exploración en el lugar señalado.
+Tokendvereskleppodzemnichodba.button1,Continuar
+Eventdverezesklepa_bezklice.text,Hay una pequeña puerta en la pared. La altura de la puerta es de poco más de un metro y el umbral inferior sobresale aproximadamente medio metro por encima del suelo del sótano. Hay un pomo de latón con una cerradura y la puerta parece que está cerrada con llave.
+Eventdvere_dosklepa.button1,Continuar
+Eventdvere_dosklepa.button2,Fallo
+Eventsklep_zaslepeniadvere.text,Hay una pequeña puerta en la pared. La altura de la puerta es de poco más de un metro y el umbral inferior sobresale aproximadamente medio metro por encima del suelo del sótano. Coloca una ficha de Exploración y una ficha de Pared en los lugares señalados.
+Eventsklep_zaslepeniadvere.button1,Continuar
+Eventdveredosklepauspech.button1,Continuar
+Eventdveredosklepauspech.text,Te las apañas para levantar la puerta lo suficiente para abrirla y echarla a un lado. Descubres unas escaleras que conducen a un oscuro sótano. Está lleno de trastos que en un momento dado se podrían usar para levantar una barricada. \n Descarta esta ficha de Exploración. A continuación, coloca una ficha de Obstrucción y fichas de Oscuridad en el lugar señalado.
+Eventsklep_umistenibocnichdveri.text,La enorme puerta parece llevar a otra parte del sótano. No te servirá de nada intentar abrirla por la fuerza. Una cerradura plateada que parece nueva bloquea la puerta y probablemente no podrás pasar sin la llave.
+Eventsklep_umistenibocnichdveri.button1,Continuar
+EventdvereAshcan1_sklicem.text,La enorme puerta parece llevar a otra parte del sótano. No te servirá de nada intentar abrirla por la fuerza. Una cerradura plateada que parece nueva bloquea la puerta y probablemente no podrás pasar sin la llave. \n El Investigador con la {c:QItemstribrnyklic} puede abrir la cerradura.
+Tokendveresklep_Ashcan.button1,Continuar
+Tokenvstupdosklepa.button1,Continuar
+Eventdvere_dosklepazedvorku.button1,{action} Explorar
+Eventdvorek_pridanidveri.text,Hay una gran puerta, que no parece estar cerrada con llave, en el patio trasero. Tiene pinta de que es la entrada del sótano. Tiene un cartel en la puerta: «Propiedad privada. Prohibido el paso».
+Eventdvorek_pridanidveri.button1,Continuar
+Eventdvere_dosklepa.text,La puerta es muy pesada y a pesar de que no está bloqueada, es difícil de levantar y abrir desde este lado ({strength}).
+Eventdveredosklepaneuspech.text,Has fallado por completo. Parece que no hay otra alternativa. Tendrás que esperar a que venga alguien más fuerte.
+Eventdveredosklepaneuspech.button1,Continuar
+Eventlopata.button1,Continuar
+Eventlopata.text,Te lleva algo de tiempo sacar el objeto de entre la basura. Ganas el Objeto común {c:QItemlopata}. Parece que está en buen estado y se puede usar. \n Descarta esta ficha de Búsqueda.
+Eventkrumpac.text,Te lleva algo de tiempo sacar el objeto de entre la basura. Ganas el Objeto común {c:QItemkrumpac}. Parece que está en buen estado y se puede usar. \n Descarta esta ficha de Búsqueda.
+Eventkrumpac.button1,Continuar
+TokenBrokovnice1_dvorek.button1,{action} Explorar
+TokenBrokovnice1_dvorek.text,Hay un objeto alargado en el suelo.
+Eventdvorek_pridani_brokovnice.text,Hay un objeto alargado en el suelo. Coloca una ficha de Exploración en el lugar señalado.
+Eventdvorek_pridani_brokovnice.button1,Continuar
+Eventnalezeni_brokovnice.button1,Continuar
+Eventnalezeni_brokovnice.text,\n Para tu sorpresa, encuentras una escopeta. Alguien la dejó aquí hace poco. Sin embargo, no está cargada y no llevas cartuchos encima. Pero aun así es una buena idea llevártela porque seguro que es una prueba del asesinato. Y el asesino no puede andar lejos. ¿Pero por qué la dejaría caer aquí? \n Ganas el Objeto único {c:QItembrokovnice_dukaz} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda. \n
+Tokenvidimdvorek.button1,Continuar
+Eventvidimdvorek.button1,Mostrar
+Eventodhalitdvorek.text,Hay una pequeña mancha verde entre las casas. En realidad apenas conserva a duras penas el césped. Coloca el módulo {c:TileSklep} en el lugar señalado.
+Eventodhalitdvorek.button1,Continuar
+Event_vstupte.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Event_vstupte.button1,Continuar
+Tokenbrokovnice2_kancelar.text,Hay un objeto alargado a lo largo de la pared en el oscuro rincón.
+Tokenbrokovnice2_kancelar.button1,{action} Buscar
+Tokenbrokovnice3_chodba.text,Hay un objeto alargado en el rincón oscuro, detrás de la silla.
+Tokenbrokovnice3_chodba.button1,{action} Buscar
+Tokenbrokovnice4_obchod.text,Debajo de una de las vitrinas hay un objeto alargado.
+Tokenbrokovnice4_obchod.button1,{action} Buscar
+Eventobjeveni_brokovnice3.text,Hay un objeto alargado en el rincón oscuro, detrás de la silla. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventobjeveni_brokovnice3.button1,Continuar
+Eventkoupelna_leky.text,El baño tiene un pequeño armario que quizá contenga algo de interés. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventkoupelna_leky.button1,Continuar
+EventFotografickydukazprohledavanispopisemmuze.button1,Continuar
+EventFotografickydukazprohledavanispopisemmuze.text,En las fotos, de mala calidad, hay varias personas. Las imágenes están tomadas desde lejos, y con ángulo. Sin embargo, una de las fotos es distinta. Es el retrato de un hombre, de frente. Concuerda con la descripción que te dio el chico de la plaza. \n Ganas 2 Pistas {clue}.
+EventpoliciePresunMALY.button1,Continuar
+EventpoliciePresun.button1,Continuar
+Tokenkoupelna_noviny.button1,{action} Buscar
+Tokenkoupelna_leky.text,El armario del baño puede que tenga algo interesante.
+Tokenkoupelna_leky.button1,{action} Buscar
+Eventprozkoumat_toaletniskrinka.button1,Continuar
+Eventprozkoumat_toaletniskrinka.text,Abres el armario y sólo encuentras en su interior material de limpieza. Nada de interés. Pero en el último momento descubres algo dentro. Ganas el Objeto común {c:QItemSedativa}. A continuación, descarta esta ficha de Búsqueda.
+Tokenkoupelna_noviny.text,En el suelo hay un trozo de periódico arrugado.
+Eventprozkoumat_noviny.button1,Continuar
+Eventprozkoumat_noviny.text,Con cuidado alisas el arrugado periódico. Descubres que es de hoy. No pasas por alto unas manchas de humedad y lo que probablemente es un poco de sangre. Parece que alguien usó el periódico como si fuese una toalla. En la habitación no hay ninguna toalla. \n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Tokenvidimulicku.button1,Continuar
+Eventkoukamdoulicky.button1,Mostrar
+Eventodhaleniulicky.button1,Continuar
+Eventodhaleniulicky.text,El estrecho callejón parece poco transitado y está iluminado por una solitaria farola. Además está sucio y lleno de basura. \n Coloca el módulo {c:TileUlicka} en el lugar señalado y descarta todas las fichas de Vistazo que conduzcan a él.
+EventUlicka_pridejsight.text,Al final del callejón hay césped. Quizá sea el jardín de alguien. \n Coloca una ficha de Vistazo en el lugar señalado.
+EventUlicka_pridejsight.button1,Continuar
+Eventulicka_pridejdvere.button1,Continuar
+Eventulicka_pridejdvere.text,Una puerta en un lateral del callejón parece conducir a la parte posterior de una de las casas. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventpridejodpadky.button1,Continuar
+Eventpridejodpadky.text,Un montón de basura en mitad de la calle, seguramente procedente del cubo carbonizado que hay al lado. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventpridejdvereAshcan2.text,Una enorme puerta parece conducir a una especie de almacén. Para abrirla, no será suficiente con la fuerza bruta. Una cerradura plateada, que parece nueva, cierra la puerta y no da la impresión de que se pueda abrir sin la llave. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventpridejdvereAshcan2.button1,Continuar
+Eventdvere_Ashcan2bezklice.button1,Sí
+Tokendvereulicka_Ashcan2.button1,Continuar
+Tokenulicka_odpadky.text,La pila de basura que hay en mitad de la calle probablemente estaba hasta hace poco en el cubo volcado.
+Tokenulicka_odpadky.button1,{action} Buscar
+Eventulicka_odpadky_dotaznapsa.button2,No
+EventodpadkysDukem.button1,Continuar
+EventodpadkysDukem.text,Tan pronto como comienzas a rebuscar en el montón de basura, Duque empieza a ladrar. Se pone a escarbar entre la basura y deja al descubierto un trozo de tubería. La pone sobre los adoquines y empieza a ladrar. La tubería está manchada con sangre. Ganas el Objeto común {c:QItemtrubka} y 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventodpadkybezDukea1.button1,Continuar
+EventodpadkybezDukea1.text,Rebuscar en la basura no es algo agradable. El horrible hedor te provoca náuseas. Sufres 1 de Horror boca abajo. \n\n Al final encuentras algo interesante. Se trata de una pieza de algún tipo de tubería. Está cubierta de varias manchas de sangre. Ganas el Objeto común {c:QItemtrubka} y 1 pista {clue}. A continuación descarta esta ficha de Búsqueda.
+EventodpadkybezDukea2.text,Rebuscar en la basura no es algo agradable. El horrible hedor te provoca náuseas ({will}).
+EventodpadkybezDukea2.button1,Continuar
+EventodpadkybezDukea2.button2,Fallo
+Eventodpadky2_uspech.text,Consigues controlar tu estómago y por fin encuentras algo interesante. Es un trozo de tubería. Tiene varias manchas de sangre. \n Ganas el Objeto común {c:QItemtrubka} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventodpadky2_uspech.button1,Continuar
+Eventodpadky2_neuspech.text,No consigues controlar tu estómago. Sufres 1 de Horror boca abajo. \n\n Finalmente consigues encontrar algo interesante. Es una pieza de fontanería, un trozo de cañería. Tiene varias manchas de sangre. Ganas el Objeto común {c:QItemtrubka} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventodpadky2_neuspech.button1,Continuar
+EventodpadkybezDukea3.text,Rebuscar en la basura no es algo agradable. Inspeccionas cuidadosamente el montón ({observation}).
+EventodpadkybezDukea3.button1,Continuar
+EventodpadkybezDukea3.button2,Fallo
+Eventodpadky3_uspech.button1,Continuar
+Eventodpadky3_uspech.text,Con cuidado llegas al fondo del montón. Por fin encuentras algo interesante. Es un trozo de tubería. Tiene varias manchas de sangre. \n Ganas el Objeto común {c:QItemtrubka} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventodpadky3_neuspech.button1,Continuar
+Eventodpadky3_neuspech.text,De repente te duele  la mano y te das cuenta que te has cortado con un objeto afilado. Sufres 1 de Daño boca abajo.
+Tokendverezadnikancelar.button1,Continuar
+Eventdveredokancluzulicky.button1,{action} Explorar
+Puzzlezadnidverekancelar.button1,Continuar
+Eventpridej_kancelar.button1,Continuar
+Eventpridej_kancelar.text,Detrás de esa puerta encuentras una estrecha pero agradable oficina. Las luces están encendidas, aunque no hay nadie. Coloca el módulo {c:Tile06Pracovna} en el lugar señalado. A continuación, descarta todas las fichas de Exploración que llevan a él.
+Tokendverekancelar.button1,Continuar
+Tokentrhvpravo.button1,{action} Buscar
+Tokentrhvpravo.text,Sobre una pequeña mesa hay una caja llena de carteles de papel.
+Eventtrhveci.text,Hay otras cosas interesantes que captan tu atención. Coloca 2 fichas de Búsqueda en los lugares señalados.
+Eventtrhveci.button1,Continuar
+EventLidenatrhu2.button1,Continuar
+EventLidenatrhu2.text,Un viejo mercader cerca de uno de los puestos. Tiene pinta de ser de fiar. \n Coloca una ficha de Personaje en el lugar señalado.
+Eventtrhvpravo.button1,Continuar
+Eventtrhvpravo.text,De acuerdo con la información del cartel, una familia entera de lugareños ha desaparecido. Al parecer ha sido de repente y sin dejar rastro. Como persona de contacto está una tal Lady Bechman, que por las indicaciones, vive en los alrededores, en uno de los mejores barrios. Sólo por si acaso, te llevas el cartel contigo. \n\n Ganas el Objeto único {c:QItemletak} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Tokenobchodniktrh.text,Un viejo mercader cerca de uno de los puestos. Tiene pinta de ser de fiar.
+Tokenobchodniktrh.button1,{action} Acercarse
+Eventtrh_obchodnik_smlouvani.text,El mercader te muestra sus mercancías. Algunas de las cosas que tiene te llaman poderosamente la atención, aunque te das cuenta de que sólo tienes dinero para una. Sin embargo, quizá puedas regatear el precio ({influence}).
+Eventtrh_obchodnik_smlouvani.button1,Continuar
+Eventtrh_obchodnik_smlouvani.button2,Fallo
+Eventtrh_obchodnik_zbozi.text,Tienes éxito, a pesar de que  al mercader no le agrade este hecho en absoluto. Escoge y gana 2 Objetos de la siguiente lista: \n\n Objeto único Lámpara de aceite \n Objeto común Biblia del Rey Jaime \n Objeto común Manuscrito arcano. \n\n A continuación, descarta esta ficha de Personaje. \n
+Eventtrh_obchodnik_zbozi.button1,Continuar
+Eventtrh_obchodnik_zbozi_fail.button1,Continuar
+Eventtrh_obchodnik_zbozi_fail.text,El mercader se mantiene firme con sus precios. Elige y gana 1 Objeto de la siguiente lista: \n\n Objeto único Lámpara de aceite \n Objeto común Biblia del Rey Jaime \n Objeto común Manuscrito arcano. \n\n A continuación, descarta esta ficha de Personaje. \n
+Eventpolicista_dukazy.button1,Continuar
+Eventpolicista_dukazy.text,—<i>En ese caso, vaya a la comisaría más cercana. Allí levantarán un atestado como es debido</i> —te responde el sargento sin prestar mucha atención.
+TokenPolicista2bezprohledavani.button1,{action} —<i>¿Qué ha sucedido?</i>
+TokenPolicista2bezprohledavani.button2,{action} —<i>¿Va a hacer algo?</i>
+TokenPolicista2bezprohledavani.text,Un pequeño grupo de policías, comandados por un sargento, toman posiciones delante del campanario. Precintan la puerta y no dejan que nadie entre. Parece que se van a quedar ahí patrullando.
+Eventdverechodbanamesti.button1,Continuar
+Eventdverechodbanamesti.text,Al este está la puerta de la casa con la fachada antigua que necesita ser rehabilitada. A juzgar por la suciedad que hay en el umbral y las telarañas de las esquinas de la puerta, la entrada no se usa muy a menudo.
+Tokennahodny3nejdrive.button1,{action} —<i>¿Buscas a alguien?</i>
+Tokennahodny3nejdrive.text,En el borde de la fuente hay un muchacho que mira en todas direcciones. Es una de las pocas personas que no ha salido corriendo.
+EventNahodny3Hledasnekoho.button1,Continuar
+EventNahodny3Hledasnekoho.text,—<i>Vi a un hombre. Salió de ese campanario justo después de los disparos. Pero lo perdí de vista por aquí</i> —te explica entusiasmado el chico mientras sigue mirando. \n Ganas 1 Pista {clue}.
+Tokennahodny3nejdrivepromluvil.button1,Continuar
+Tokennahodny3nejdrivepromluvil.text,—<i>Déjeme, estoy tratando de encontrar a ese hombre<i> —te responde el chico y se niega a seguir escuchándote.
+Tokennahodny3.text,El chico se encuentra cerca y espera con impaciencia para poder hablar con el sargento.
+Tokennahodny3.button1,{action} Escuchar
+Eventnahodny3vypravipopis_bezfotografie.button1,Continuar
+Eventnahodny3vypravipopis_bezfotografie.text,\n Finalmente, el chico puede hablar con el sargento y comienza a describir al hombre que vio después del tiroteo. Escuchas el testimonio con suficiente atención para recordarlo. No es demasiado difícil, porque el chico tiene un don innato para la descripción. Pero el sargento lo envía a la comisaría más cercana para que lo repita todo para constancia oficial. El chico no está satisfecho con esto. Frunce el ceño, comienza a susurrar algo sobre la incompetencia de la policía y se va decepcionado. \n\n Ganas 1 Pista {clue}. Después, descarta esta ficha de Personaje. \n
+Eventnahodny3vypravipopis_fotografie.text,\n Finalmente, el chico puede hablar con el sargento y comienza a describir al hombre que vio después del tiroteo. Para tu asombro, descubres que probablemente sea el mismo hombre de la fotografía que obtuviste del cadáver del hombre. Pero el sargento envía al chico a la comisaría más cercana para que lo repita todo para constancia oficial. El chico no está satisfecho con esto. Frunce el ceño, comienza a susurrar algo sobre la incompetencia de la policía y se va decepcionado. \n\n Ganas 1 Pista {clue}. Después, descarta esta ficha de Personaje. \n
+Eventnahodny3vypravipopis_fotografie.button1,Continuar
+EventObjevenisepolicie.button1,Continuar
+EventObjevenisepolicie.text,Un grupo de agentes uniformados dirigido por un sargento de policía entra en la plaza. \n Coloca la ficha de Personaje en el lugar señalado.
+EventObjevenisepolicieMALY.text,Un grupo de agentes uniformados dirigido por un sargento de policía entra en la plaza. \n Coloca la ficha de Personaje en el lugar señalado.
+EventObjevenisepolicieMALY.button1,Continuar
+EventpoliciePresunMALY.text,\n El grupo de policías se acerca a la escena del crimen. Algunos de ellos miran en el interior del campanario y otros alejan a los curiosos, incluyendo a cualquier investigador presente. El efecto es sólo parcial, porque la gente vuelve a formar una pequeña multitud alrededor de los agentes. Pero el campanario está ahora cerrado y parece que los policías se van a quedar ahí haciendo guardia toda la noche. \n\n Descarta el módulo {c:Tile09Sklad}, todas las fichas que contenga, y mueve a cualquier Investigador que estuviese en esa localización al módulo {c:Tile01Namesti} como se señala. A continuación coloca una ficha de Exploración, si no está ya colocada. Mueve todas las fichas de Personaje al módulo {c:Tile01Namesti} como se señala. \n
+EventpoliciePresun.text,\n El grupo de policías se acerca a la escena del crimen. Algunos de ellos miran en el interior del campanario y otros alejan a los curiosos, incluyendo a cualquier investigador presente. El efecto es sólo parcial, porque la gente vuelve a formar una pequeña multitud alrededor de los agentes. Pero el campanario está ahora cerrado y parece que los policías se van a quedar ahí haciendo guardia toda la noche. \n\n Descarta el módulo {c:Tile09Sklad}, todas las fichas que contenga, y mueve a cualquier Investigador que estuviese en esa localización al módulo {c:Tile01Namesti} como se señala. A continuación coloca una ficha de Exploración, si no está ya colocada. Mueve todas las fichas de Personaje al módulo {c:Tile01Namesti} como se señala. \n
+Tokennahodny2nejdrive.button1,{action} —<i>¿Qué ha sucedido?</i>
+Tokennahodny2nejdrive.text,En la esquina de la plaza hay una mujer mayor con un vestido recatado y desgastado. Está encarada hacia la puerta que tiene al lado.
+Eventnahodny2cosestalo.button1,Continuar
+Eventnahodny2cosestalo.button2,Fallo
+Eventnahodny2cosestalo.text,Cuando le hablas a una mujer, no te responde. Es obvio que está en estado de shock. Sigue apuntando a la puerta mientras le tiembla todo su cuerpo ({influence}).
+Eventnahodny2uspech.text,\n —<i>Escuché los disparos. Creo que fueron ahí. Ahí, detrás de esa puerta </i> —dice sin dejar de temblar, pero al menos parece reconfortada por tu presencia—. <i>Ya sabe, yo he trabajado como enfermera en un hospital de campaña durante la guerra. Y esa clase de disparos siempre significaba que otro hombre había muerto.</i> \n\n Parece que la mujer ya no presta atención. En realidad, parece estar en estado de shock. \n Ganas 1 Pista {clue}. \n
+Eventnahodny2uspech.button1,Continuar
+EventNahodny2neuspech.text,La mujer apenas se da cuenta de tu presencia. Comienza a mover en silencio sus labios, pero descubres que sus palabras no van dirigidas a ti: \n\n —<i>Trabajaba como enfermera en un hospital de campaña durante la guerra. Y esos disparos siempre significan que ha muerto otro hombre</i>. \n\n Sin duda está en estado de shock.
+EventNahodny2neuspech.button1,Continuar
+Tokennahodny2nejdrivepromluvil.text,La mujer permanece de pie cerca de la puerta, señalándola, y susurrando para sí misma algo ininteligible. Da la impresión de estar en estado de shock.
+Tokennahodny2nejdrivepromluvil.button1,Continuar
+TokenNahodny2.button1,Continuar
+TokenNahodny2.text,La mujer sigue todavía en estado de shock. Enterarse de que ha sido un asesinato sólo ha confirmado sus peores temores. Ahora llora desconsolada sobre el hombro de uno de los agentes de policía.
+Tokennah1nejdrive.button1,{action} —<i>¿Qué ha sucedido?</i>
+Tokennah1nejdrive.text,El caballero sobresale entre la multitud no sólo por su altura, sino también por su calma. Señala con el dedo la puerta del cercano campanario.
+Eventnahodny1cosestalo.button1,Continuar
+Eventnahodny1cosestalo.text,—<i>Hubo un tiroteo por esa zona. Claramente escuché el sonido de dos armas. Una de ellas era una escopeta, estoy bastante seguro de ello</i> —te explica efusivamente el hombre mientras su mano apunta hacia la puerta del campanario. Ganas 1 Pista {clue}. \n\n —<i>¡Que alguien llame a la policía!</i> —grita a la multitud y se queda esperando a que alguien acuda en su ayuda.
+Tokennahodny1nejdrivepromluvil.text,—<i>¡Que alguien llame a la policía!<i> —grita a la multitud y se queda esperando a que alguien le ayude.
+Tokennahodny1nejdrivepromluvil.button1,Continuar
+Tokennahodny1.button1,{action} Escuchar
+Tokennahodny1.text,El hombre espera pacientemente para contar su relato. Cuando finalmente le atiende el sargento, se lo cuenta todo.
+Eventnahodny1poprvestrelba.button1,Continuar
+Eventnahodny1poprvestrelba.text,\n —<i>Escuché claramente dos armas. Una de ellas era una escopeta, estoy bastante seguro </i> —repite el hombre una y otra vez a cualquiera que quiera oír su historia, ya que el policía no parece particularmente impresionado por la información. Al final, se marcha decepcionado, quizá para informar de todo en la comisaría de policía más cercana, tal y como le recomendó el sargento. \n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Personaje. \n
+Eventnahodny1popisujestrelbu_podruhe.text,\n —<i>Escuché claramente dos armas. Una de ellas era una escopeta, estoy bastante seguro </i> —repite el hombre una y otra vez a cualquiera que quiera oír su historia, ya que el policía no parece particularmente impresionado por la información. Al final, se marcha decepcionado, quizá para informar de todo en la comisaría de policía más cercana, tal y como le recomendó el sargento. \n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Personaje. \n
+Tokendverezadniobchod.text,Una puerta vulgar.
+Eventpridat_obchod.text,Tras la puerta hay una pequeña tienda con material esotérico. Coloca el módulo {c:TileObchod} y una ficha de Pared en el lugar señalado. A continuación, descarta esta ficha de Exploración.
+Eventpridat_obchod.button1,Continuar
+Eventtma_obchod.text,La oscuridad inunda toda la habitación. Una ventana y la entrada tienen persianas, por lo que no entra la luz del exterior. En la tienda hay una gran cantidad de muebles que podrían servir para bloquear la puerta en caso de necesidad. Coloca fichas de Oscuridad en los lugares señalados. A continuación, coloca una ficha de Barricada en el lugar señalado.
+Eventtma_obchod.button1,Continuar
+Eventpridat_privesek.text,Hay un montón de vitrinas que contienen todo tipo de artículos. Puede haber algunos interesantes. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridat_privesek.button1,Continuar
+Tokenobchod_privesek.text,Hay un montón de vitrinas que contienen todo tipo de artículos. Puede haber algunos interesantes.
+Tokenobchod_privesek.button1,{action} Buscar
+Eventpridat_pokladna.text,La caja registradora está sobre el mostrador. El dueño del negocio, obviamente, la utiliza también para almacenar documentos. Puedes deducirlo por el hecho de que, debido a la cantidad de papeles que tiene, la caja registradora permanece abierta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridat_pokladna.button1,Continuar
+Tokenobchod_info.text,La caja registradora está sobre el mostrador. El dueño del negocio, obviamente, la utiliza también para almacenar documentos. Puedes deducirlo por el hecho de que, debido a la cantidad de papeles que tiene, la caja registradora permanece abierta.
+Tokenobchod_info.button1,{action} Buscar
+Eventbrokovnice_4.text,Debajo de una de las vitrinas, en la oscuridad, hay un objeto alargado. \n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventbrokovnice_4.button1,Continuar
+Eventpridat_svicky.text,El propietario del negocio tiene bastante desordenado su lado del mostrador. Seguramente haya algo útil aquí. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridat_svicky.button1,Continuar
+TokenObchod_svicky.text,El propietario del negocio tiene bastante desordenado su lado del mostrador.
+TokenObchod_svicky.button1,{action} Buscar
+Tokentrhvlevo.button1,{action} Buscar
+Tokentrhvlevo.text,Observas una gran cantidad de trastos sobre la mesa que hay cerca de un puesto. Quizá haya algo interesante.
+Eventtrhvlevoprohledavani.button1,Continuar
+Eventtrhvlevoprohledavani.button2,Fallo
+Eventtrhvlevoprohledavani.text,Parece algo roto o sin valor ({observation}).​
+Eventtrhvlevoprohladavaniuspech.text,Al menos hay algo que se puede usar. \n\n Ganas el Objeto común {c:QItemTrhVlevo}. A continuación, descarta esta ficha de Búsqueda.
+Eventtrhvlevoprohladavaniuspech.button1,Continuar
+Eventtrhvlevoprohledavanineuspech.text,No hay nada de utilidad. Es hora de moverse.
+Eventtrhvlevoprohledavanineuspech.button1,Continuar
+Tokenprchajicidivka.text,La niña pequeña que se había caído durante su carrera acaba de levantarse. Si la quieres atrapar, debes actuar de inmediato.
+Tokenprchajicidivka.button1,{action} Atrapar a la niña
+Eventzadrzenidivky.button1,Llevar la niña al mercader
+Eventzadrzenidivky.button2,—<i>¿Por qué estás corriendo?<i>
+Eventzadrzenidivky.button3,Registrar a la niña
+Eventzadrzenidivky.text,Atrapas a la niña cuando está a punto de salir huyendo. Da la impresión de estar un poco exasperada. Con una mano protege uno de sus bolsillos e intenta esconderlo.
+Eventrovnouodvestdivku.button1,Continuar
+Eventrovnouodvestdivku.text,Conduces a la revoltosa niña, que no para de protestar, al otro lado de la plaza, donde está el viejo mercader. Sonríe con brusquedad. Mueve al Investigador y la ficha de Personaje al lugar señalado.
+Eventrovnouchycenadivka.text,\n Tan pronto como llegas ante el comerciante, inmediatamente comienza a cachear a la niña. Saca una pequeña caja de su bolsillo. —<i>Ladrona</i>, —le dice a la niña y la abofetea. —<i>Ahora, sal de mi vista</i>. Ni siquiera te da las gracias y, en su lugar, únicamente se preocupa de verificar el contenido de la caja. La niña te golpea con el puño y desaparece entre la multitud. Descarta la ficha de Personaje como se indica. \n
+Eventrovnouchycenadivka.button1,Continuar
+Eventtrhovecodchazi.button1,Continuar
+Eventtrhovecodchazi.text,\n —<i>Excelente, excelente</i> —el mercader parece feliz y por fin te mira directamente—. <i>Aquí tiene esta muestra de gratitud</i>. \n\n Ganas el Objeto común {c:QItemWhiskey}. \n\n —<i>Verá, tengo que llevarle esta caja a un caballero que está aquí al lado, a la vuelta de la esquina. Volveré enseguida. Échele un vistazo a la carretilla por mí, sólo un momento.<i> \n\n Y antes de que puedas reaccionar, se aleja cojeando. \n\n Descarta la ficha de Personaje y coloca una ficha de Búsqueda en el lugar señalado.
+Eventtest_procutikas.text,La niña no parece confiar demasiado en ti {influence}.
+Eventtest_procutikas.button1,Continuar
+Eventtest_procutikas.button2,Fallo
+Eventtest_procutikas_uspech.button1,Continuar
+TokenTrhovec_veci.button1,Continuar
+Eventtrhovec_veci.button3,Cancelar
+Eventtrhovec_veci.button1,{action} Mirar los objetos expuestos
+Eventtrhovec_veci.button2,{action} Mirar bajo el mostrador
+Eventtrhovec_veci.text,El mercader sólo tiene unos pocos objetos sobre el mostrador, pero quizá bajo el mismo tenga algo más interesante. Echando un vistazo por encima, te parece ver algo que llama tu atención y que parecen ser armas. Si quieres coger algo de ahí, tendrás que asegurarte de que el mercader no se dé cuenta.
+Eventtrhovec_podivatsenavystaveneveci.button1,Continuar
+Eventtrhovec_podivatsenavystaveneveci.text,Una de las razones por las que el mercader te ha dejado al cargo de su carretilla es que probablemente no hay nada que merezca la pena robar. \n Ganas el Objeto común {c:QItemtrhovec_pult}.
+Eventpodivatsezapult.button1,Continuar
+Eventpodivatsezapult.button2,Fallo
+Eventpodivatsezapult.text,Con cautela, echas un vistazo a tu alrededor para asegurarte de que nadie te está mirando. A continuación, rápidamente te agachas detrás del mostrador ({agility}).
+Eventpodivatsezapult_uspech.text,Alcanzas la parte de atrás del mostrador y allí encuentras un arma de fuego. Será complicado esconderla delante del mercader. \n Ganas el Objeto común {c:QItemtrhovec_podpult}.
+Eventpodivatsezapult_uspech.button1,Continuar
+Eventpodivatsezapult_neuspech.text,Cuando intentas irte rápidamente detrás del mostrador, te tropiezas y caes. Por fortuna, el mercader no te ha visto. Ni nadie más. \n Sufres 1 de Daño boca abajo.
+Eventpodivatsezapult_neuspech.button1,Continuar
+Eventtrhovec_veci_podpult.button1,{action} Mirar los objetos expuestos
+Eventtrhovec_veci_podpult.button2,Cancelar
+Eventtrhovec_veci_podpult.text,El mercader sólo tiene unos pocos objetos en el mostrador. Si quieres coger algo de ahí, tendrás que asegurarte de que el mercader no se dé cuenta.
+Eventtrhovec_veci_pult.text,Al inclinarte y mirar al otro lado del mostrador, ves algo que parece un alijo de armas bastante llamativo. Si quieres robar algo, tendrás que cruzar los dedos para que el mercader no se dé cuenta.
+Eventtrhovec_veci_pult.button1,{action} Mirar detrás del mostrador
+Eventtrhovec_veci_pult.button2,Cancelar
+Eventtrhovec_veci_vse.button1,Continuar
+Eventtrhovec_veci_vse.text,Aquí no hay nada más que puedas robar.
+Eventprocutikas_pokracovani.text,—<i>Ya sabe, tengo que hacer algo para vivir. En la calle las cosas simplemente son así</i> —confiesa la niña mirándose las puntas de sus zapatos. Luego saca lentamente la caja de su bolsillo. En su interior hay unas esculturas de aspecto extraño.
+Eventprocutikas_pokracovani.button3,Llevar la niña al mercader
+Eventprocutikas_pokracovani.button2,Dejar que se vaya y coger la caja
+Eventprocutikas_pokracovani.button1,Dejar que se vaya con la caja
+Eventprocutikas.text,—<i>Bueno, ya sabe...<i> —la niña comienza a arrepentirse cuando, de repente, trata de escapar ({agility}).
+Eventprocutikas.button1,Continuar
+Eventprocutikas.button2,Fallo
+Eventprocutikas_fail.text,Su engaño surte efecto. Se deshace de tu presa y desaparece antes de que puedas reaccionar. \n Descarta esta ficha de Personaje.
+Eventprocutikas_fail.button1,Continuar
+Eventprocutikas_uspech.button1,Buscar a la niña
+Eventprocutikas_uspech.text,Su desesperado intento por escapar fracasa. En cuanto se mueve, la capturas y no dejas que huya. La niña se resiste y trata de zafarse de ti. Intenta proteger el objeto que lleva en el bolsillo.
+Eventprosacovatdivku.button3,Llevar la niña al mercader
+Eventprosacovatdivku.button2,Dejar que se vaya y coger la caja
+Eventprosacovatdivku.button1,Dejar que se vaya con la caja
+Eventpustitvratit.button1,Continuar
+Eventpustitvratit.text,La niña, durante un momento, no se puede creer la suerte que tiene. ¿De verdad la vas a dejar libre y le vas a devolver lo que ha robado? \n\n La niña duda sólo un momento... \n\n —<i>Gracias</i> —dice y sale corriendo. \n Descarta esta ficha de Personaje.
+Eventpustitnechat.button1,Continuar
+Eventpustitnechat.text,La niña sabe que no recuperará la caja. En cuanto se ve libre, sale corriendo sin siquiera mirar hacia atrás. \n Descarta la ficha de Personaje. Ganas una cantidad de copias del Objeto único {c:QItemsosky} igual al número de Investigadores.
+Eventodvestdivku_mamebednu.text,Conduces a la revoltosa niña, que no para de protestar, al otro lado de la plaza, donde está el viejo mercader. Sonríe con brusquedad. Mueve al Investigador y la ficha de Personaje al lugar señalado. Ganas un número de copias del Objeto único {c:QItemsosky} igual al número de Investigadores.
+Eventodvestdivku_mamebednu.button1,Continuar
+EventPrivedenidivkyktrhovci_mamebednu.button4,Cancelar
+EventPrivedenidivkyktrhovci_mamebednu.button1,{action} Devolver la caja al mercader
+EventPrivedenidivkyktrhovci_mamebednu.button2,{action} Devolver la caja al mercader, excepto 1 escultura
+EventPrivedenidivkyktrhovci_mamebednu.button3,{action} Quedarse la caja
+EventPrivedenidivkyktrhovci_mamebednu.text,Tan pronto como te acercas al mercader, éste inmediatamente registra a la niña. Por supuesto, no encuentra nada. \n —<i>Ladrona</i> —le dice a la niña y le da una bofetada—. <i>¿Tenía ella la caja?<i> —te pregunta en lugar de agradecerte tu ayuda. \n Está claro que la caja es muy importante para él.
+Eventprosacovatdivku.text,La niña se defiende, pero en vano. En un momento, la caja que trataba de esconder está en tu poder. Hay unas esculturas de aspecto extraño en su interior.
+Eventvratitkrabicku.text,—<i>Sí, muy amable<i> —dice el mercader y rápidamente coge la caja para inmediatamente ponerse a contar las esculturas—. <i>¡Y ahora lárgate!<i> —le grita a la niña. Sin pensárselo dos veces, la niña desaparece entre la multitud. \n Descarta la ficha de Personaje y todas las copias del Objeto único {c:QItemsosky}.​
+Eventvratitkrabicku.button1,Continuar
+Eventvratitkrabicku1.button1,Continuar
+Eventvratitkrabicku1.text,—<i>Sí, muy amable<i> —dice el mercader y rápidamente coge la caja para inmediatamente ponerse a contar las esculturas—. <i>Has cogido una, ¿verdad?<i> —le grita a la niña y comienza a cachearla. Naturalmente, no encuentra nada. La escultura que falta tiene algo completamente distinto. \n\n —<i>Y ahora márchate<i> —le dice apesadumbrado. Sin pensárselo dos veces, la niña desaparece entre la multitud. \n Descarta la ficha de Personaje y todas las copias del Objeto único {c:QItemsosky}.
+Eventtrhovec_odnasikrabickubezjedne.button1,Continuar
+Eventtrhovec_odnasikrabickubezjedne.text,\n —<i>Bueno, no importa, será suficiente</i> —el mercader habla en voz baja y por fin se gira hacia ti. —<i>Verá, tengo que llevarle esta caja a un caballero que está aquí al lado, a la vuelta de la esquina. Volveré enseguida. Échele un vistazo a la carretilla por mí, sólo un momento.<i> \n\n Y antes de que puedas reaccionar, se aleja cojeando. \n\n Descarta la ficha de Personaje y coloca una ficha de Búsqueda en el lugar señalado.
+Eventzapritanechatsivsechnysosky.button1,Confesar y devolver las esculturas
+Eventzapritanechatsivsechnysosky.button2,Confesar y devolver todas las esculturas menos una
+Eventzapritanechatsivsechnysosky.button3,Cancelar
+Eventzapritanechatsivsechnysosky.text,\n —<i>¿No? ¿En serio? Es una caja muy importante, ¿sabe? —el mercader parece decepcionado—. <i>Dime dónde está, ladrona</i> —dice mientras registra a la niña, sin éxito—. <i>¡Lárgate!<i> —dice furioso. Sin pensárselo dos veces, la niña desaparece entre la multitud. \n Descarta la ficha de Personaje. \n\n —<i>Si encuentra la caja, me la traerá, ¿no?</i> —te dice el desesperado mercader. \n
+Eventtrhovec_priznatse_soskyvratit.button1,Continuar
+Eventtrhovec_priznatse_soskyvratit.text,—<i>Bueno, ¡está usted poniendo a prueba mi paciencia!<i> —te dice el mercader en lugar de darte las gracias y rápidamente te arrebata la caja. Inmediatamente cuenta las esculturas. \n\n —<i>Verá, tengo que llevarle esta caja a un caballero que está aquí al lado, a la vuelta de la esquina. Volveré enseguida. Échele un vistazo a la carretilla por mí, sólo un momento.<i> \n\n Y antes de que puedas reaccionar, se aleja cojeando. \n\n Descarta la ficha de Personaje y coloca una ficha de Búsqueda en el lugar señalado.
+Eventvratitsosky1.button1,Continuar
+Eventvratitsosky1.text,\n —<i>Bueno, ¡está usted poniendo a prueba mi paciencia!<i> —dice el mercader en lugar de darte las gracias y rápidamente coge la caja para inmediatamente ponerse a contar las esculturas—. <i>¡Ah, esa ratera!<i> —grita molesto cuando descubre que falta una escultura. Ni se le pasa por la cabeza la idea de que no haya sido la niña. \n Descarta todas las copias del Objeto único {c:QItemsosky} excepto una.​ \n
+Tokenchycenadivka.button1,Continuar
+Tokenchycenadivka.text,El mercader sujeta con fuerza a la niña, que no puede escapar. La niña te mira desafiante, y da la impresión de que no conseguirás que te diga ni una sola palabra.
+TokenZadokobchodnik.button1,Continuar
+Eventtest_privedenasbednou.button1,{action} Devolver la caja al mercader
+Eventtest_privedenasbednou.button2,{action} Devolver la caja al mercader, excepto 1 escultura
+Eventtest_privedenasbednou.button3,{action} Quedarse la caja
+Eventtest_privedenasbednou.button4,Cancelar
+Eventtest_privedenasbednou.text,—<i>¿Tenía ella una caja?</i> —te pregunta el mercader en vez de agradecer tu ayuda. La caja es sin duda muy importante para él.
+Eventtest_privedenasbednou2.button3,Cancelar
+Eventtest_privedenasbednou2.button1,{action} Devolver la caja al mercader
+Eventtest_privedenasbednou2.button2,{action} Devolver la caja al mercader, excepto 1 escultura
+Eventtest_privedenasbednou2.text,—<i>Si encuentra la caja, tráigamela, ¿de acuerdo? </i>—te dice el desesperado mercader.
+Eventtest_trhoveccekaaceka.button1,Continuar
+Eventtest_trhoveccekaaceka.text,—<i>No sé lo que voy a hacer ahora. Si ve a la niña en algún sitio, vuelva y dígamelo</i>. \n\n El mercader parece desesperado y se niega a seguir hablando contigo.
+Eventtest_trhovecmavanadivku.button1,Continuar
+Eventtest_trhovecmavanadivku.text,El hombre que está en la otra punta del mercado grita y amenaza a la niña con el puño. No parece que tenga la más mínima oportunidad de atraparla.
+Eventzapritanechatsivsechnysosky1.text,—<i>¿No? ¿En serio? En realidad es una caja muy importante, ¿sabe?<i>, dice el desesperado mercader. \n\n —<i>Si encuentra la caja, tráigala, ¿de acuerdo?<i>
+Eventtest_divkauteklamamsosky.button1,Continuar
+Eventdivkautekla_mamsosky.button1,{action} Devolver la caja al mercader
+Eventdivkautekla_mamsosky.button2,{action} Devolver la caja al mercader, excepto 1 escultura
+Eventdivkautekla_mamsosky.button3,Quedarse la caja
+Eventdivkautekla_mamsosky.text,—<i>¿Cómo pudo dejar escapar a la ladrona?</i> —dice el mercader con rabia, en vez de saludarte—. <i>¿Tenía una caja?</i> \n\n La caja es sin duda muy importante para él.
+Eventutekla_vracimkrabicku.button1,Continuar
+Eventutekla_vracimkrabicku.text,—<i>Sí, muy amable<i> —dice el mercader y rápidamente coge la caja para inmediatamente ponerse a contar las esculturas. \n\n Descarta la ficha de Personaje y todas las copias del Objeto único {c:QItemsosky}.
+Eventutekla_vracimkrabicku1.button1,Continuar
+Eventzapritanechatsivsechnysosky1.button1,Continuar
+Eventutekla_vracimkrabicku1.text,—<i>Sí, muy amable<i> —dice el mercader y rápidamente coge la caja para inmediatamente ponerse a contar las esculturas—. <i>¡Ah, esa ratera!<i> —grita molesto cuando descubre que falta una escultura. Ni se le pasa por la cabeza la idea de que no ha sido la niña. \n Descarta todas las copias del Objeto único {c:QItemsosky} excepto una.​
+Eventtest_divkautekla_nemamsosky.button1,Continuar
+Eventtest_divkautekla_nemamsosky.text,—<i>¿Cómo pudo dejar escapar al ladrón?</i> —dice el mercader con rabia, en vez de saludarte—. <i>¿Tenía una caja?</i> \n\n La caja es sin duda muy importante para él.
+Tokendvereobchod.button1,Continuar
+Eventdvereobchod_normal.button1,Continuar
+Eventobchod_privesek_uspech.button1,Continuar
+Eventobchod_privesek_uspech.text,Después de un tiempo finalmente encuentras algo. \n Ganas el Objeto único {c:QItemprivesek}. A continuación descarta esta ficha de Búsqueda.
+Eventobchod_privesek_prohledavani.button1,Continuar
+Eventobchod_privesek_neuspech.text,Buscas en vano algo que pueda ser útil.
+Eventobchod_privesek_neuspech.button1,Continuar
+Eventobchod_privesek_prohledavani.button2,Fallo
+Eventobchod_privesek_prohledavani.text,Hay una gran cantidad de artículos de todo el mundo {lore}.
+Eventobchod_svicky_prohledavani.text,Rebuscas entre la pila de trastos, llegando a la conclusión de que quien trabaja aquí es una persona de lo más desordenada. \n Ganas el Objeto común {c:QItemsvicky}. A continuación, descarta esta ficha de Búsqueda.
+Eventobchod_svicky_prohledavani.button1,Continuar
+Eventobchod_info_prohledavani.text,Hay más papeles aquí. Te llevará un buen rato revisarlos ({observation}).
+Eventobchod_info_prohledavani.button1,Continuar
+Eventobchod_info_prohledavani.button2,Fallo
+Eventobchod_info_uspech.text,\n La mayoría de los papeles son sólo facturas. El resto son notas y mensajes. De repente, uno de ellos llama tu atención. Dice: \n\n <i>«Mañana por la mañana vendrá el muchacho a limpiar. No olvidar decirle que está estrictamente prohibido acercarse al armario que está enfrente de la caja registradora. ¡No debe tocarlo siquiera! </i> \n\n A continuación hay una lista de tareas para el muchacho y un garabato en lugar de una firma. \n Ganas 1 Pista {clue}, descarta la ficha de Búsqueda y coloca una ficha de Interacción en el lugar señalado. \n
+Eventobchod_info_uspech.button1,Continuar
+Eventobchod_info_fail.text,Sólo facturas y más facturas. Nada interesante.
+Eventobchod_info_fail.button1,Continuar
+Tokenkancelar_papiry.text,Hay un montón de papeles sobre la mesa. Quienquiera que trabaje aquí no es muy ordenado.
+Tokenkancelar_papiry.button1,{action} Buscar
+Eventkancelar_papiry_prohledavani.text,Aquí hay varias facturas, contratos, notas y listados {lore}.
+Eventkancelar_papiry_prohledavani.button1,Continuar
+Eventkancelar_papiry_prohledavani.button2,Fallo
+Eventkancelar_papiry_uspech.text,Requiere algo más de trabajo, pero al cabo de un rato das con un importante documento. Es un contrato en el cual Eugene Clemens se convierte en el dueño de toda la propiedad. Ese nombre no te dice nada, pero quizá sea un dato importante. \n Ganas 1 Pista {clue}.
+Eventkancelar_papiry_uspech.button1,Continuar
+Eventkancelar_papiry_neuspech.text,Escudriñáis los papeles en vano. Los documentos hacen referencia a muchas cosas, pero difícilmente puedes estar interesado en cosas como un pedido de tres mil velas o mil pulseras importadas de Oriente.
+Eventkancelar_papiry_neuspech.button1,Continuar
+Eventkancelar_papiry_prohledavani2.button1,Continuar
+Eventkancelar_papiry_prohledavani2.button2,Fallo
+Eventkancelar_papiry_2.text,\n En la parte inferior de una pila, ves una imagen adjunta a una hoja de papel. En la fotografía están exactamente esas estatuillas que robó la niña. En el papel se puede leer que Eugene Clemens las ha pedido recientemente, y no una cantidad insignificante. También hay una nota manuscrita que enfatiza que las <i>estatuillas protectoras</i> deben entregarse en una fecha determinada durante la noche. Sí, es la fecha de hoy. \n\n Ganas 2 Pistas {clue} y el Objeto único {c:QItemdukaz}. Después, descarta esta ficha de Búsqueda. \n
+Eventkancelar_papiry_neuspech2.text,Nada nuevo.
+Eventkancelar_papiry_neuspech2.button1,Continuar
+Eventkancelar_papiry_prohledavani2.text,Sigues buscando algún tipo de información útil ({observation}).
+Eventkancelar_papiry_2.button1,Continuar
+Eventkancl_papiry_test.text,Retira esta ficha de Búsqueda.
+Eventkancl_papiry_test.button1,Continuar
+Tokenkancelar_krabickasklicem.text,Hay una pequeña mesa junto a la pared con varios libros encima.
+Tokenkancelar_krabickasklicem.button1,{action} Buscar
+Eventkancelar_stolek_prohledat.text,Le echas un vistazo a los libros que hay sobre la mesa cuando, de repente, te das cuenta de que uno de ellos no es realmente un libro. Ganas el Objeto único {c:QItemkrabicka}. El Investigador que posea este objeto puede intentar resolver el rompecabezas accediendo al inventario en la aplicación. A continuación, descarta esta ficha de Búsqueda.
+Eventkancelar_stolek_prohledat.button1,Continuar
+Eventkrabicka_prohlizeni.text,La caja de la oficina puede ocultar algunos secretos.
+Eventkrabicka_prohlizeni.button1,{action} Buscar
+Eventkrabicka_prohlizeni_test.text,La caja tiene en el lateral una imagen que parece haber sido restaurada {lore}.
+Eventkrabicka_prohlizeni_test.button1,Continuar
+Eventkrabicka_hotovo.text,Finalmente, la caja se abre. Ganas el Objeto único {c:QItemklic_brass}. La etiqueta que lleva atada indica que es una llave de repuesto. Pero no indica de dónde es.
+Eventkrabicka_hotovo.button1,Continuar
+Eventkrabicka_prohlizeni.button2,Cancelar
+Puzzlekrabicka45.button1,Hecho
+Puzzlekrabicka23.button1,Hecho
+EventZadoksevraci.text,El mercader regresa a su puesto. Coloca una ficha de Personaje en el lugar señalado y descarta esta ficha de Búsqueda.
+EventZadoksevraci.button1,El Investigador está en ese lugar
+EventZadoksevraci.button2,El Investigador no está en ese lugar
+Eventutekdivky_nechycena_menehracu.button1,Continuar
+Eventutekdivky_nechycena_menehracu.text,La niña del mercado se levanta y sale corriendo de nuevo. En un instante, desaparece entre la multitud. \n Descarta la ficha de Personaje.
+Eventutekdivky_nechycena.text,La niña del mercado se pone en pie y echa a correr de nuevo. En un instante desaparece entre la multitud. Descarta la ficha de Personaje.
+Eventutekdivky_nechycena.button1,Continuar
+Tokensklep_nuz.text,Sobre la mesa hay una caja abierta.
+Tokensklep_nuz.button1,{action} Explorar
+Eventsklep_nuz.text,Dentro de la caja encuentras un cuchillo decorado. Ganas el Objeto común {c:QItemnuz}. A continuación descarta esta ficha de Búsqueda.
+Eventsklep_nuz.button1,Continuar
+Eventsklep_pridatnuz.text,Sobre la mesa hay una caja abierta, probablemente procede de un envío.
+Eventsklep_pridatnuz.button1,Continuar
+TokenSkrin_obchod_interakce.text,Éste es el despacho sospechoso a juzgar por la información de las notas de la caja registradora.
+TokenSkrin_obchod_interakce.button1,{action} Explorar
+Eventskrin_test.text,Observas detenidamente cada detalle del armario y de los objetos expuestos ({observation}).
+Eventskrin_test.button1,Continuar
+Eventskrin_test.button2,Fallo
+EventSkrin_test_neuspech.text,\n Después de buscar en el armario sin éxito durante un tiempo, comienzas a tocarlo desesperadamente por todas partes en un intento de encontrar algo inusual. De repente escuchas un clic y el armario se mueve con un chirrido muy fuerte, provocándote un pequeño sobresalto. Sufres 1 de Horror boca abajo. \n\n Después, descarta esta ficha de Interacción y la ficha de Pared. Coloca una ficha de Pasadizo secreto en el lugar indicado. \n
+EventSkrin_test_neuspech.button1,Continuar
+Eventskrin_test_uspech.button1,Continuar
+Eventumistit_klubovnu.text,Hay luz al otro lado del pasadizo secreto y al entrar descubres una habitación ordenada y exquisitamente equipada. \n Coloca el módulo {c:Tile08Klubovna} y 2 fichas de Pared en el lugar señalado.
+Eventskrin_test_uspech.text,Miras más detenidamente los objetos del armario cuando observas que está más desgastado por un lado. Con cuidado lo empujas por esa parte y oyes un clic, y a continuación el armario se mueve con un sonoro chirrido. Por suerte, ya te lo esperabas, y no te sorprendes. \n\n A continuación descarta esta ficha de Interacción y la de Pared. Coloca un Pasadizo secreto en el lugar señalado.
+Eventumistit_klubovnu.button1,Continuar
+Eventklub_pridatlidi2.button1,Continuar
+Eventklub_whisky.text,Una botella de whisky está en el borde de la barra. Coloca el Objeto común {c:QItemWhiskey_bar} en el lugar señalado.
+Eventklub_pridatlidi2.text,Hay dos personas en la habitación. Ambos te miran, pero permanecen tranquilos en su sitio. Coloca 2 fichas de Personaje en los lugares señalados.
+Eventklub_whisky.button1,Continuar
+Eventpresun_klub.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Eventpresun_klub.button1,Continuar
+Eventklub_test_sosky.text,¿Cada Investigador situado en la localización {c:Tile08Klubovna} tiene al menos una copia de la {c:QItemsosky} en su poder?
+Eventklub_test_sosky.button1,Sí
+Eventklub_test_sosky.button2,No
+Eventklub_pridatlidi3.button1,Continuar
+Eventklub_pridatlidi4.button1,Continuar
+Eventklub_pridatlidi5.button1,Continuar
+Eventklub_pridatlidi3.text,Hay dos adultos y una niña en la habitación. Todos ellos te miran, pero permanecen tranquilos en sus sitios. Coloca 3 fichas de Personaje en los lugares señalados.
+Eventklub_pridatlidi4.text,Hay tres adultos y una niña en la habitación. Todos te miran, pero permanecen tranquilos en sus sitios. Coloca 4 fichas de Personaje en los lugares señalados.
+Eventklub_pridatlidi5.text,Hay cuatro adultos y una niña en la habitación. Todos ellos te miran, pero permanecen tranquilos en sus sitios. Coloca 5 fichas de Personaje en los lugares señalados.
+EventKlub_bezsosek.text,Este evento afecta a todos los Investigadores que se encuentren en el módulo {c:Tile08Klubovna}. \n\n —<i>¡Usted no es un fiel seguidor de Nuestro Señor!</i>, —gritan de repente todos al unísono al tiempo que dejan caer lo que llevan en las manos, ya sea un vaso, un juguete o un libro. \n\n Sufres 3 de Horror y 1 de Daño boca abajo (anulados por {will} +2).
+EventKlub_bezsosek.button1,Continuar
+Eventklub_zmenavcultisty.text,Antes de que puedas recuperarte, te das cuenta de que todos en la habitación han cambiado mágicamente. Ya no parece gente normal. Todos están vestidos con largas túnicas y su atención está fija en ti.
+Eventklub_zmenavcultisty.button1,Continuar
+Spawnklub1.text,La mujer, que estaba sentada en un sofá leyendo un libro, ahora está de pie y su rostro está oculto por una capucha. \n Descarta la ficha de Personaje y coloca un Sectario en el lugar señalado.
+Spawnklub1.button1,Continuar
+Spawnklub2.text,Hace un momento era un hombre bebiendo un vaso de whisky. Ahora es un poderoso enemigo. \n Descarta la ficha de Personaje y coloca un Sectario en el lugar señalado.
+Spawnklub2.button1,Continuar
+Spawnklub3.text,La niña de aspecto inocente que estaba en el sofá jugando con una muñeca, de repente, se transforma en un enemigo terrible. Descarta esta ficha de Personaje y coloca un Sectario en el lugar señalado.
+Spawnklub3.button1,Continuar
+Spawnklub4.text,El hombre que estaba cerca de la ventana se transforma en otro enemigo encapuchado. Ya no se apoya en un bastón y parece que no tiene el más mínimo problema para andar. \n Descarta esta ficha de Personaje y coloca en su lugar un Sectario.
+Spawnklub4.button1,Continuar
+Spawnklub5.text,La sirvienta parece hostil y peligrosa. Bueno, al menos hasta hace un momento era una sirvienta bordando una colcha. Ahora, como los demás, va vestida con una túnica. \n Descarta la ficha de Personaje y aparece en su lugar un Sectario.
+Spawnklub5.button1,Continuar
+EventKlub_Eugene_test2.button1,Continuar
+EventKlub_Eugene_rozstrel.button1,Continuar
+EventKlub_Eugene_prichod_sklep_test.button1,Continuar
+EventKlub_Eugene_prichod_obchod_test.button1,Continuar
+EventKlub_Eugene_prichod_sklep.text,Otra persona entra en la habitación. El ruido de un armario que se arrastra anuncia su llegada. Un hombre alto, bien vestido, atraviesa el pasadizo secreto. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_sklep.button1,Continuar
+EventKlub_Eugene_prichod_obchod.text,Otra persona entra en la habitación. Un hombre alto y bien vestido, cruza la puerta. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_obchod.button1,Continuar
+EventKlub_Eugene_cosedeje.text,\n Al principio, el hombre se detiene y mira a todos. \n\n —<i>Acabo de librarme de ese agente. ¿Alguien puede explicar qué está pasando aquí?</i> —dice con voz gélida y tranquila. —<i>¿Por qué se quedan sentados sin hacer nada? ¿Acaso no ven que no son seguidores de nuestro Señor?</i> \n\n Sigue un breve silencio que pronto es interrumpido por la mujer sentada en el sofá. Habla con un tono confuso en su voz: \n\n —<i>Pero señor Clemens, tienen las esculturas protectoras que usted prometió traernos</i>. \n
+EventKlub_Eugene_cosedeje.button1,Continuar
+Eventvzpominkanamajitele.text,Has visto u oído ese nombre en algún sitio. Recuerdas los papeles que había en la oficina donde ponía que Eugene Clemens era el dueño de toda la propiedad. No hay duda de que es el hombre que está ante ti.
+Eventvzpominkanamajitele.button1,Continuar
+Eventklub_Eugene_premena_test.button1,Continuar
+Spawnpremena_Eugene_sklep.text,—<i>¡Idiotas, el último cargamento de esculturas estaba incompleto! Y ahora sé por qué. Nos han robado. ¿A qué estáis esperando? ¡Atacadles!</i> —Clemens, que hasta ahora sólo tenía una capucha sobre sus hombros, se coloca una máscara para ocultar su rostro. \n\n Descarta la ficha de Personaje y coloca un Sacerdote de Dagón en el lugar señalado.
+Spawnpremena_Eugene_sklep.button1,Continuar
+EventEugene_umira.text,El enmascarado de fuerza sobrenatural, que aparentemente era el jefe aquí, es finalmente derrotado y se desploma sobre el suelo. Pero esto aún no ha terminado. Te das cuenta de que lleva colgada al cuello una gran llave de plata. Coloca el Objeto único {c:QItemstribrnyklic} en el suelo, en el mismo espacio donde murió el Sacerdote de Dagón. Está claro que, abra lo que abra esta llave, será algo importante.
+EventEugene_umira.button1,Continuar
+Spawnpremena_Eugene_obchod.text,—<i>¡Idiotas, el último cargamento de estatuillas estaba incompleto! Y ahora sé por qué. Nos han robado. ¿A qué estáis esperando? ¡Atacadles!</i> —Clemens, que hasta ahora sólo tenía una capucha sobre sus hombres, se coloca una máscara para ocultar su rostro. \n\n Descarta la ficha de Personaje y coloca un Sacerdote de Dagón en el lugar señalado.
+Spawnpremena_Eugene_obchod.button1,Continuar
+SpawnEugene_ulice.text,\n —<i>El oficial de policía ya no será más un problema para nosotros, ¿pero qué estaba haciendo aquí?</i> —oyes una voz furiosa en la calle y en ese momento la persiana se levanta ruidosamente. Al otro lado hay un hombre. Viste una larga túnica y una máscara. \n\n Aparece un Sacerdote de Dagón en el lugar señalado. Duque le ladra sin parar. \n\n A continuación descarta la ficha de Exploración. \n
+SpawnEugene_ulice.button1,Continuar
+SpawnEugene_klub.button1,Continuar
+SpawnEugene_klub.text,\n —<i>El oficial de policía ya no es nuestro problema, ¿pero qué estaba haciendo aquí?</i> —oyes una voz furiosa al otro lado de la puerta y a continuación un hombre entra por la puerta. Viste una larga túnica y una máscara. \n\n Aparece un Sacerdote de Dagón en el lugar señalado. Duque le ladra sin parar. \n
+Eventotevreniobchodu.text,El hombre llegó aquí desde la calle, cruzando por la tienda. La persiana metálica, que hasta ahora impedía salir de la tienda, ahora está levantada. \n Descarta la ficha de Exploración.
+Eventotevreniobchodu.button1,Continuar
+TokenGrace.button1,Continuar
+EventGrace_rozhovory_start.text,Una mujer joven está sentado en el sofá. Está leyendo un pequeño libro. Por lo que parece deducirse por el título escrito en negrita, es una novela romántica.
+EventGrace_rozhovory_start.button1,{action} —<i>¿Quién es usted?</i>
+EventGrace_rozhovory_start.button2,{action} —<i>¿Qué está pasando aquí?</i>
+EventGrace_rozhovory_start.button3,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventGrace_rozhovory_start.button4,Cancelar
+EventGrace_kdojste.text,—<i>Mi nombre es Grace Bechman, artista </i>—contesta la mujer con una sonrisa, pero es evidente que está algo nerviosa—. <i>O al menos creo que lo soy. Lo cierto es que me encanta pintar. </i> \n\n Observas que en la habitación no hay ningún tipo de material de pintura.
+EventGrace_kdojste.button1,Continuar
+EventBechman_poznani.text,De repente te das cuenta de que ya conocías el apellido. Pertenece a una familia que presuntamente desapareció según un cartel que había en el mercado. Y ahora tienes a esa familia ante ti. Ganas 2 Pistas {clue}.
+EventBechman_poznani.button1,Continuar
+EventGrace_rozhovory_1.button2,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventGrace_rozhovory_1.button3,Cancelar
+EventGrace_rozhovory_1.button1,{action} —<i>¿Qué está pasando aquí?</i>
+EventGrace_rozhovory_1.text,Grace Bechman te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_2.text,La mujer te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_2.button1,{action} —<i>¿Quién es usted?</i>
+EventGrace_rozhovory_2.button2,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventGrace_rozhovory_2.button3,Cancelar
+EventGrace_rozhovory_3.text,La mujer te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_3.button1,{action} —<i>¿Quién es usted?</i>
+EventGrace_rozhovory_3.button2,{action} —<i>¿Qué está pasando aquí?</i>
+EventGrace_rozhovory_3.button3,Cancelar
+EventGrace_rozhovory_12.button1,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventGrace_rozhovory_12.button2,Cancelar
+EventGrace_rozhovory_12.text,Grace Bechman te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_13.text,Grace Bechman te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_13.button1,{action} —<i>¿Qué está pasando aquí?</i>
+EventGrace_rozhovory_13.button2,Cancelar
+EventGrace_rozhovory_23.text,La mujer te mira mientras sostiene un libro en la mano.
+EventGrace_rozhovory_23.button1,{action} —<i>¿Quién es usted?</i>
+EventGrace_rozhovory_23.button2,Cancelar
+EventGrace_rozhovory_konec.text,—<i>Disculpe, pero prefiero leer este libro</i> —dice Grace Bechman con voz nerviosa mientras baja la vista hacia su libro.
+EventGrace_rozhovory_konec.button1,Continuar
+EventGrace_Pete.text,—<i>No conozco a nadie con ese nombre. No le puedo ayudar en esto, lo siento</i> —responde apesadumbrada.
+EventGrace_Pete.button1,Continuar
+EventGrace_cosetudeje.text,\n —<i>¿Aquí? Aquí no pasa nada</i> —dice la mujer, disgustada, y se deja caer en el sofá—. <i>Aquí sólo hay un aburrimiento mortal. Estoy deseando salir mañana —se da cuenta de que la miras algo confuso—. <i>Ya sabe, después de eliminar a los infieles.</i> \n\n Sus últimas palabras despiertan tu curiosidad, pero ella se niega a seguir hablando del tema. \n Ganas 1 Pista {clue}. \n
+EventGrace_cosetudeje.button1,Continuar
+TokenMildred.text,—<i>Mamá y papá me dijeron que no hablara con extraños</i> —dice. \n\n La tímida niña juega con una muñeca y un caballo de madera mientras está sentada en un sofá. No parece asustada o desatendida. Al contrario, está bien cuidada y perfectamente vestida.
+TokenMildred.button1,Continuar
+TokenRichard.button1,Continuar
+EventRichard_rozhovory_start.text,—<i>Bueno, bueno, ¿y quién es usted?<i> —pregunta el anciano que lleva un bastón en la mano y que hasta ahora había estado mirando por la ventana.
+EventRichard_rozhovory_start.button1,{action} —<i>Estamos aquí para ayudar. ¿Quién es usted?</i>
+EventRichard_rozhovory_start.button2,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventRichard_kdojste.text,—<i>Está de broma, ¿verdad?</i> —dice el hombre riendo en voz alta—.<i>¿Ayuda? ¿Ayuda? No hay ayuda posible. Mi propia esposa no quiere escucharme, pero salvaré al resto de la familia. Y puedo apañármelas yo solo, muchas gracias. ¡Y a usted no le importa quién soy!</i>. \n\n Tanto las palabras en sí mismas como las formas resultan desagradables.
+EventRichard_kdojste.button1,Continuar
+EventRichard_Ashcan.text,—<i>No, lo cierto es que no lo sé</i> —responde a regañadientes el hombre, pero entonces se vuelve hacia ti —. <i>A menos que él fuese el fisgón. Eugene me habló acerca de un tipo que estuvo merodeando por aquí buscando algo. Pero Eugene se encargó de él. Si yo estuviese en su lugar, lo buscaría río abajo. \n\n Con una leve sonrisa, se vuelve de nuevo hacia la ventana. Ganas 1 Pista {clue}.
+EventRichard_Ashcan.button1,Continuar
+EventRichard_rozhovory_start.button3,Cancelar
+EventRichard_rozhovory_1.button1,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventRichard_rozhovory_1.button2,Cancelar
+EventRichard_rozhovory_1.text,El taciturno anciano de la ventana no parece querer hablar contigo.
+EventRichard_rozhovory_2.text,El taciturno anciano de la ventana no parece querer hablar contigo.
+EventRichard_rozhovory_2.button1,{action} —<i>Estamos aquí para ayudar. ¿Quién es usted?</i>
+EventRichard_rozhovory_2.button2,Cancelar
+EventRichard_rozhovory_konec.text, —<i>¡Déjeme en paz!<i> \n\n Se niega a hablar contigo.
+EventRichard_rozhovory_konec.button1,Continuar
+TokenEdna.button1,Continuar
+EventEdna_1.text,En la silla está sentada una mujer joven, vestida como una sirvienta, bordando una colcha. Parece un poco preocupada, en comparación con el resto de personas que hay en la habitación.
+EventEdna_1.button1,{action} —<i>¿Quién es usted?</i>
+EventEdna_1.button2,Cancelar
+EventEdna_kdojste.text,—<i>Soy la sirvienta de la familia Bechman</i> —te responde—. <i>Ahora debo irme con ellos, la señora ha insistido en ello. Y no puedo dejar a la pequeña Mildred sola</i> —la mujer parece estar a punto de romper a llorar. Mira al hombre que está de pie en la ventana e inmediatamente añade: \n\n —<i>No debo hablar con usted. Por favor, márchese.</i>
+EventEdna_kdojste.button1,Continuar
+EventEdna_2.text,—<i>Déjeme en paz,<i> responde quedamente y prosigue con su bordado.
+EventEdna_2.button1,Continuar
+TokenHoward.button1,Continuar
+EventHoward_rozhovory_start.text,En el bar hay un hombre que sostiene un vaso de whisky o una bebida similar. Parece un poco nervioso, a pesar de que obviamente trata de disimularlo.
+EventHoward_rozhovory_start.button1,{action} —<i>¿Quién es usted?</i>
+EventHoward_rozhovory_start.button2,{action} —<i>¿Qué está pasando aquí?</i>
+EventHoward_rozhovory_start.button3,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventHoward_rozhovory_start.button4,Cancelar
+EventHoward_kdojste.text,—<i>¿No le ha enviado...? —el hombre, confuso, comienza a preguntarte, pero en ese momento se detiene bruscamente—. <i>Bueno, seguro que sí lo ha hecho. ¿Quién si no?</i> —te mira con complicidad y se tranquiliza—. <i>Mi nombre es Howard Bechman y estoy aquí con mi familia</i>.
+EventHoward_rozhovory_3.button2,{action} —<i>¿Qué está pasando aquí?</i>
+EventHoward_cosetudeje.text,—<i>Dígamelo usted. Llevamos aquí demasiado tiempo y aún seguimos esperando. En cualquier momento puede aparecer nuestro Señor y no estoy seguro de que la magia nos pueda proteger<i> —dice el hombre, dejando bastante claras sus dudas. \n\n No tienes mucha idea de lo que está pasando, pero una cosa es cierta: están esperando a que algo programado suceda. Ganas 1 Pista {clue}.
+EventHoward_cosetudeje.button1,—<i>¿Y quién es ese Señor?</i>
+EventHoward_Ashcan.text,—<i>No, no me suena de nada</i> —te responde inmediatamente, pero entonces se detiene—. <i>Quizá, bueno, sólo sea una coincidencia, pero alguien está vigilando este sitio. Un detective privado o quizá un loco investigador, pero la verdad es que no sé cómo se llama. Quizá sea él su hombre</i> —te dice para, a continuación, darle un buen trago a su vaso.
+EventHoward_Ashcan.button1,Continuar
+EventHoward_cosetudeje.button2,—<i>Sí, claro. No se preocupe.<i>
+EventHoward_naspan.text,Tras hacer la pregunta, la sala queda en silencio. Todo el mundo te mira como si acabasen de oír algo completamente inapropiado. Quizá eso es exactamente lo que acaba de pasar.
+EventHoward_naspan.button1,—<i>Entonces, ¿quién es?<i>
+EventHoward_naspan.button2,—<i>Sólo era una broma</i>.
+EventHoward_zert.button1,Continuar
+EventHoward_nalehani.text,—<i>En realidad eso no lo sabía, ¿cierto?</i> —el hombre habla y mira por encima a todos los presentes en la sala—. <i>Así que, si no sabe que tenemos que creer en la fuerza de nuestro Señor Dagón, y que sus vástagos limpiarán esta ciudad de todo pecado y prepararán su advenimiento, entonces no debería haberle dicho que somos sus fieles seguidores.</i> \n\n En ese momento, todo ápice de nerviosismo desaparece y el hombre se muestra muy seguro de sí mismo.
+EventHoward_zert.text,Y entonces el sonido regresa a la habitación. \n\n —<i>Vale, me lo había tragado</i> —dice un hombre sonriendo—. <i>Empezaba a pensar que era usted un infiel y que, de algún modo, se había colado aquí</i>. \n\n Parece que ya no seguirá dudando de ti.
+EventHoward_nalehani.button1,Continuar
+EventHoward_rozhovory_konec.button1,Continuar
+EventHoward_rozhovory_konec.text,Howard se niega a hablar de nuevo contigo. Toda su atención se la dedica a su copa.
+EventHoward_rozhovory_1.text,Howard Bechman se encuentra en el bar, dándole sorbos a una copa de whisky.
+EventHoward_rozhovory_1.button1,{action} —<i>¿Qué está pasando aquí?</i>
+EventHoward_rozhovory_1.button2,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventHoward_rozhovory_1.button3,Cancelar
+EventHoward_rozhovory_2.text,El hombre se acomoda en el bar y da varios sorbos de whisky.
+EventHoward_rozhovory_2.button1,{action} —<i>¿Quién es usted?</i>
+EventHoward_rozhovory_2.button2,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventHoward_rozhovory_2.button3,Cancelar
+EventHoward_rozhovory_3.text,El hombre se acomoda en el bar y da varios sorbos de whisky.
+EventHoward_rozhovory_3.button1,{action} —<i>¿Quién es usted?</i>
+EventHoward_rozhovory_12.text,Howard Bechman se encuentra en el bar, dándole sorbos a una copa de whisky.
+EventHoward_rozhovory_12.button1,{action} —<i>¿Sabe usted algo acerca de un hombre llamado Pete «Cubo de Basura»?</i>
+EventHoward_rozhovory_12.button2,Cancelar
+EventHoward_kdojste.button1,Continuar
+EventHoward_rozhovory_3.button3,Cancelar
+EventHoward_rozhovory_13.text,Howard Bechman se encuentra en el bar, dándole sorbos a una copa de whisky.
+EventHoward_rozhovory_13.button1,{action} —<i>¿Qué está pasando aquí?</i>
+EventHoward_rozhovory_13.button2,Cancelar
+EventHoward_rozhovory_23.text,El hombre se acomoda en el bar y da varios sorbos de whisky.
+EventHoward_rozhovory_23.button1,{action} —<i>¿Quién es usted?</i>
+EventHoward_rozhovory_23.button2,Cancelar
+Eventdverezesklepa_bezklice.button1,Continuar
+Eventdverezesklepa_sklicem.text,En la pared hay una pequeña puerta. La altura de la puerta es de poco más de un metro y el umbral está a medio metro del suelo. Tiene un tirador de latón con una cerradura, y parece estar cerrada. Tienes la oportunidad de explorar el sótano si tienes en tu poder el Objeto único <i>Llave de latón</i>.
+Eventdverezesklepa_sklicem.button1,{action} Explorar
+Eventdverezesklepa_sklicem.button2,Cancelar
+EventUmistit_klub_zesklepa.text,\n Abres la puerta y detrás de ella sólo hay una pared de madera. Pero cuando empujas la pared, se mueve emitiendo un pequeño crujido y revela una habitación bien iluminada al otro lado. Parece que has llegado hasta la habitación a través de un pasadizo secreto que hay detrás del armario. \n Coloca el módulo {c:Tile08Klubovna} como se señala. Descarta esta ficha de Exploración y una ficha de Pared. Coloca una ficha de Pasadizo secreto en el lugar señalado.
+EventUmistit_klub_zesklepa.button1,Continuar
+Eventdvere_zklubovny.text,Una única puerta conduce fuera de la habitación. Coloca una ficha de Exploración en el lugar señalado.
+Eventdvere_zklubovny.button1,Continuar
+TokenDvere_zklubovny.text,Una puerta de lo más corriente con un enorme pomo.
+TokenDvere_zklubovny.button1,{action} Explorar
+EventKlub_Eugene_prichod_obchod_zname.text,Otra persona entra en la habitación. Un hombre alto y bien vestido, cruza la puerta. Lo reconoces. Es el hombre de la foto y el mismo que te describió el chico de la plaza. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_obchod_zname.button1,Continuar
+EventKlub_Eugene_prichod_obchod_znameFoto.text,Otra persona entra en la habitación. Un hombre alto, bien vestido, cruza la puerta. Lo reconoces. Es el hombre de la foto. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_obchod_znameFoto.button1,Continuar
+EventKlub_Eugene_prichod_obchod_znamePopis.button1,Continuar
+EventKlub_Eugene_prichod_obchod_znamePopis.text,Otra persona entra en la habitación. Un hombre alto, bien vestido, cruza la puerta. Lo reconoces. Es el hombre que encaja con la descripción que te dio el chico de la plaza. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_sklep_zname.text,Otra persona entra en la habitación. El ruido de un armario que se arrastra anuncia su llegada. Un hombre alto, bien vestido, atraviesa el pasadizo secreto. Lo reconoces. Es, sin lugar a dudas, el hombre de la fotografía, y además encaja con la descripción que te dio el chico de la plaza. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_sklep_zname.button1,Continuar
+EventKlub_Eugene_prichod_sklep_znameFoto.text,Otra persona entra en la habitación. El ruido de un armario que se arrastra anuncia su llegada. Un hombre alto, bien vestido, atraviesa el pasadizo secreto. Lo reconoces. Es, sin lugar a dudas, el hombre de la fotografía. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_sklep_znamePopis.text,Otra persona entra en la habitación. El ruido de un armario que se arrastra anuncia su llegada. Un hombre alto, bien vestido, atraviesa el pasadizo secreto. Lo reconoces. Es el hombre que encaja con la descripción que te dio el chico de la plaza. \n Coloca una ficha de Personaje en el lugar señalado.
+EventKlub_Eugene_prichod_sklep_znamePopis.button1,Continuar
+EventKlub_Eugene_prichod_sklep_znameFoto.button1,Continuar
+EventKlub_Eugene_prichod_sklep_zavreny.text,Una discreta balda en la pared de repente se mueve un poco. \n Descarta la ficha de Pared y coloca una ficha de Pasadizo secreto. A continuación, coloca una ficha de Interacción en el lugar señalado.
+EventKlub_Eugene_prichod_sklep_zavreny.button1,Continuar
+Eventpres_sklep.button1,Continuar
+Eventpres_obchod.button1,Continuar
+EventZadok_navrat_nic.text,—<i>Gracias, muchas gracias</i> —el mercader sonríe satisfecho y comienza a empaquetar todas sus cosas inmediatamente. Está claro que tiene prisa, ya que lo tira todo dentro de la carretilla sin ningún orden.
+EventZadok_navrat_nic.button1,Continuar
+EventZadok_navrat_neuspech.button1,Continuar
+EventZadok_navrat_neuspech.text,—<i>¿Pero qué está haciendo<i> —la voz del mercader, que estaba de vuelta, resuena a tu espalda e inmediatamente agarra un tablón y te golpea con él. \n\n Sufres 2 de Daño (anulados por {agility}).
+EventZadok_poutoku.button1,Continuar
+EventZadok_poutoku.text,Sin embargo, al poco el mercader necesita tomarse un respiro y baja el arma improvisada. \n\n —<i>Es complicado encontrar a alguien decente en estos tiempos que corren</i> —se queja y te mira con desagrado. A continuación, comienza a empaquetar todas sus cosas. Está claro que tiene prisa y tira todas las cosas al azar dentro de su carretilla.
+EventZadok_ukradenazbran.text,—<i>Gracias, muchas gracias</i> —el mercader sonríe satisfecho y comienza a empaquetar todas sus cosas inmediatamente. Por desgracia, también se da cuenta enseguida del arma que falta. Te mira molesto y en ese momento se desvanece su entusiasmo. \n\n —<i>Devuélvame mi arma. ¡Ahora!</i>
+EventZadok_ukradenazbran.button1,Devolver el arma
+EventZadok_ukradenazbran.button2,Rechazar
+EventZadok_vratitzbran.text,—<i>Cuesta trabajo encontrar a alguien decente hoy en día. ¡Y ahora piérdase!</i> \n\n Descarta el Objeto común {c:QItemtrhovec_podpult}.​
+EventZadok_vratitzbran.button1,Continuar
+EventZadoc_odmitnout1.text,—<i>Bien, tiene usted coraje. Tiene suerte. Ya no me interesa<i> —dice el mercader bastante enfadado y regresa con su tarea de empaquetar. Parece que ya no estás en problemas.
+EventZadoc_odmitnout1.button1,Continuar
+EventZadoc_odmitnout2.text,—<i>¡Eh, devuélvala inmediatamente! ¡Policía! ¡Ayuda! ¡Ladrones!</i> —grita el mercader, atrayendo la atención y las miradas de la gente que tenéis alrededor. Por suerte para vosotros, no hay ningún representante de la ley, así que desaparecéis con rapidez. Está claro que el viejo mercader no podrá alcanzaros. La respuesta de la gente que os rodea parece más de reprobación que de hostilidad.
+EventZadoc_odmitnout2.button1,Marcharse
+EventZadoc_odmitnout2.button2,Devolver el arma
+EventZadoc_odejit.text,Caminas entre las personas que son testigos de todo. Aleja 1 espacio a todos los Investigadores que estén en el mismo espacio que el mercader. Estos Investigadores adquieren el estado <i>Aturdido</i>.
+EventZadoc_odejit.button1,Continuar
+EventZadoc_navratsam.text,El mercader está molesto por la falta de interés mostrado hacia su mercancía. Así que comienza de inmediato a recoger sus cosas. Está claro que tiene prisa, ya que lo guarda todo completamente desordenado en su carretilla.
+EventZadoc_navratsam.button1,Continuar
+EventMizenilidi1.text,Con la llegada de la oscuridad, las calles se van vaciando progresivamente. Descarta todas las fichas de Personaje de la localización {c:Tile01Namesti} excepto la ficha señalada. El policía sigue patrullando la escena del crimen.
+EventMizenilidi1.button1,Continuar
+Eventmizenilidi2.text,\n Al caer la noche, las últimas personas se marchan. El mercadillo, sin ninguna luz que lo ilumine, se vuelve un sitio vacío e inquietante. \n Descarta todas las fichas de Personaje del módulo {c:Tile02Trh} y coloca fichas de Oscuridad en los lugares señalados. Todos los Investigadores situados en la localización {c:Tile02Trh} sufren 1 de Horror boca abajo (anulado por {will}).\n​
+Eventmizenilidi2.button1,Continuar
+Spawnprichodsyna2.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnzmenapolicistu.text,Algo le está sucediendo a la gente que está en las calles. Por suerte, hay poca gente, entre ellas el grupo de policías que patrulla la escena del crimen. \n De repente comienzan a actuar de un modo irracional. Cogen lo que tienen a mano que pueda servir como arma y empiezan a comportarse de forma muy agresiva. \n Descarta la ficha de Personaje y aparece una Turba en el lugar señalado.
+Eventpiskot.text,\n Entonces oyes algo. Es un pitido sobrenatural, apenas audible. La cabeza comienza a dolerte como si fuese a estallar y te cuesta concentrarte en algo. Todos los Investigadores sufren 3 de Horror (anulados por {will}). Además, cualquier Investigador que sufra al menos 1 de Horror adquiere el estado <i>Aturdido</i>. \n
+Spawnprichodsyna3.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna4.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna5.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna2a.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna3a.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna4a.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Spawnprichodsyna5a.text,El sonido de unas campanas rompe el silencio de la noche. Algo extraño sucede, y es que el sonido no cesa, como si pasase algo. No tardas mucho en oír gritos de personas en el exterior, a pesar del sonido de las campanas. Algo terrible está pasando en este vecindario. \n\n Coloca el módulo {c:Tileulice} en el lugar señalado. \n A continuación, aparece un Hijo de Dagón en el lugar señalado.
+Eventpiskot.button1,Continuar
+Spawnprichodsyna2.button1,Continuar
+Spawnprichodsyna3.button1,Continuar
+Spawnprichodsyna4.button1,Continuar
+Spawnprichodsyna5.button1,Continuar
+Spawnzmenapolicistu.button1,Continuar
+Spawntrh.text,Un hombre de aspecto extraño se acerca también a la plaza. Bueno, al menos creías que era un hombre. Sin embargo, ahora es algo distinto y más horrible. \n\n Aparece un Híbrido de Profundo en el lugar señalado.
+Spawntrh.button1,Continuar
+Spawndvorek.text,Otro monstruo aparece en el patio trasero. Coloca un Híbrido de Profundo en el lugar señalado.
+Spawndvorek.button1,Continuar
+EventNabidkauniku.text,Si quieres seguir vivo, será mejor que te des prisa y desaparezcas rápidamente. No puedes ayudar a la gente de este vecindario, pero todavía os podéis salvar vosotros. \n Coloca una ficha de Interacción en el lugar señalado.
+EventNabidkauniku.button1,Continuar
+Tokenunik_ulice.text,Desde aquí, la calle principal conduce fuera del vecindario. Si todos los Investigadores están en estos espacios para escapar, podrán hacerlo. Si sólo uno huye, los demás serán eliminados.
+Tokenunik_ulice.button1,Todos los Investigadores están la zona de salida — ¡Huir!
+Tokenunik_ulice.button2,Algunos Investigadores no están en la zona de salida — ¡Huir!
+Tokenunik_trh.text,Un callejón lateral permite salir de este vecindario. Si todos los Investigadores están en uno de estos espacios desde los que escapar, entonces huirán. Si sólo uno de ellos huye, el resto de Investigadores será eliminado.
+Tokenunik_trh.button1,Todos los Investigadores están la zona de salida — ¡Huir!
+Tokenunik_trh.button2,Algunos Investigadores no están en la zona de salida — ¡Huir!
+Eventnabidkauniku2.text,Además de por la calle principal, también puedes escapar a través del callejón lateral que sale del mercado. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventnabidkauniku2.button1,Continuar
+Eventpridani_brokovnice2.text,Hay un objeto alargado a lo largo de la pared en el oscuro rincón. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridani_brokovnice2.button1,Continuar
+Eventpridani_papiry.text,Un montón de papeles están sobre la mesa. Quien quiera que trabaje aquí es bastante desordenado. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridani_papiry.button1,Continuar
+Eventpridani_krabicky.text,Hay una pequeña mesa en la pared con varios libros. Coloca una ficha de Búsqueda en el lugar señalado.
+Eventpridani_krabicky.button1,Continuar
+Eventpridat_dvereKanclchodba.text,La puerta se adentra en el edificio. Coloca una ficha de Exploración en el lugar señalado.
+Eventpridat_dvereKanclchodba.button1,Continuar
+Eventpridat_dverekanclven.text,La puerta trasera, a juzgar por el ruido que se oye, conduce al exterior. Coloca una ficha de Exploración en el lugar señalado.
+Eventpridat_dverekanclven.button1,Continuar
+Eventdverechodbadokanclu.button1,{action} Explorar
+Eventdverechodbadokanclu.button2,Cancelar
+Eventdverekancldochodby.text,La puerta se adentra en el edificio. Coloca una ficha de Exploración en el lugar señalado.
+Eventdverekancldochodby.button1,{action} Explorar
+EventOdhalenichodby.button1,Continuar
+Eventdverekancldochodby.button2,Cancelar
+EventOdhalenichodby.text,Entras en un pequeño pasillo. Coloca el módulo {c:Tile03vstupakoupelna} en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventdverevchodbe.text,\n Hay tres puertas más en la habitación. La primera puerta lleva al baño mientras que las otras dos están cerradas. La puerta que está en el lado opuesto lleva al exterior, a tenor del ruido que procede de ella. Ahora puedes ver que hay un gran tablón bloqueando la puerta desde dentro y que puedes fácilmente retirarlo. Es complicado decir qué puede haber detrás de las últimas. \n\n Coloca una ficha de Exploración en el lugar señalado. \n
+Eventdverevchodbe.button1,Continuar
+Eventvstupte_pomocne.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Eventvstupte_pomocne.button1,Continuar
+Eventpridat_obchodzklubu.text,Necesitas emplear un poco más de fuerza de la normal para abrir esta puerta, debido a que tienes que arrastrar la estantería que hay al otro lado. Descubres que se trata de una entrada secreta. Detrás de la puerta hay una pequeña tienda de objetos esotéricos. \n Descarta esta ficha de Exploración. A continuación, coloca el módulo {c:TileObchod} y una ficha de Pasadizo secreto en el lugar señalado.
+Eventpridat_obchodzklubu.button1,Continuar
+Eventpridatdverezobchodudochodby.text,Hay otra puerta que se adentra en el edificio. Coloca una ficha de Exploración en el lugar señalado.
+Eventpridatdverezobchodudochodby.button1,Continuar
+Eventpridat_dvereobchodhlavni.button1,Continuar
+Eventpridat_dvereobchodhlavni.text,La puerta conduce fuera de la tienda. La tienda está ahora mismo cerrada y bloqueada por una persiana metálica. Coloca una ficha de Exploración en el lugar señalado.
+Eventinfo_obchod_jentak.button1,Continuar
+Eventinfo_obchod_jentak.text,\n La mayoría de los papeles son sólo facturas. El resto son notas y mensajes. De repente, uno de ellos llama tu atención. Dice: \n\n <i>«Mañana por la mañana vendrá el muchacho a limpiar. No olvidar decirle que está estrictamente prohibido acercarse al armario que está enfrente de la caja registradora. ¡No debe tocarlo siquiera! </i> \n\n A continuación hay una lista de tareas para el muchacho y un garabato en lugar de una firma. \n Ganas 1 Pista {clue}, descarta la ficha de Búsqueda y coloca una ficha de Interacción en el lugar señalado. \n
+Eventobjevenichodbyzobchodu.button1,Continuar
+Eventdverevchodbezobchodu.button1,Continuar
+Eventobjevenichodbyzobchodu.text,Entras en un pequeño pasillo. Coloca el módulo {c:Tile03vstupakoupelna} en el lugar señalado. A continuación descarta esta ficha de Exploración.
+Eventdverevchodbezobchodu.text,Hay tres puertas más en la habitación. La primera está abierta y conduce al baño, mientras que las otras dos están cerradas. La puerta del lado izquierdo, a juzgar por el ruido, es probable que lleve al exterior del edificio, pero está bloqueada desde dentro por un gran tablón que podrías quitar con facilidad. En la puerta de la derecha hay un cartel donde lees con claridad la palabra <i>Oficina<i>.
+Eventdveredokancluzulicky.button2,Cancelar
+Eventdveredokancluzulicky.text,La puerta en un lateral del callejón parece conducir a la parte de atrás de una de las casas. Parece que alguien ha intentado hace poco entrar por la fuerza. Las improvisadas herramientas de ladrón están todavía dentro de la cerradura.
+Eventpuzzlezadnidverekancl.button1,Continuar
+Eventdverekanclven.text,La puerta trasera, a juzgar por el ruido que se oye, conduce al exterior. Está bloqueada.
+Eventpuzzlezadnidverekancl.text,No te queda otra que terminar el trabajo ({agility}).​
+Eventdverekanclven.button1,Continuar
+Eventdvere_dosklepazedvorku.button2,Cancelar
+Eventdvere_zesklepa.text,La puerta del sótano es enorme y no está cerrada con llave. Es evidente que es una de las salidas del edificio.
+Eventdvere_dosklepazedvorku.text,Hay una gran puerta, que no parece estar cerrada con llave, en el patio trasero. Tiene pinta de que es la entrada del sótano. Tiene un cartel en la puerta: «Propiedad privada. Prohibido el paso».
+Eventdvere_zesklepa.button1,{action} Explorar
+Eventdvere_zesklepa.button2,Cancelar
+Eventcestazesklepa.text,Te las apañas para levantar la puerta lo suficiente para abrirla y echarla a un lado. Te recibe una brisa de aire fresco. \n Descarta esta ficha de Exploración.
+Eventcestazesklepa.button1,Continuar
+Eventpruzkumsklepazklubu.button1,{action} Explorar
+Tokenpruzkumsklepachodbou.button1,Continuar
+Eventsklepzklubu.text,El pasadizo es más bajo aquí. De repente te das cuenta de que estás en un oscuro sótano. Has entrado atravesando una puerta que está a medio metro sobre el suelo. \n Descarta la ficha de Interacción.
+Eventsklepzklubu.button1,Continuar
+Eventpruzkumsklepazklubu.button2,Cancelar
+Eventpruzkumsklepazklubu.text,El pasillo recién abierto parece que baja hacia algún sitio.
+Eventtmasklep.button1,Continuar
+Eventuprava.text,¡El pasadizo secreto conduce al sótano! \n Descarta esta ficha de Interacción.
+Eventtmasklep.text,La habitación está a oscuras. Está llena de trastos que quizá se puedan usar para levantar una barricada. \n Coloca fichas de Oscuridad y una ficha de Obstrucción en los lugares señalados.
+Eventuprava.button1,Continuar
+Eventsklepzklubu_celytile.text,El pasadizo es más bajo aquí. De repente te das cuenta de que estás en un oscuro sótano. Has entrado atravesando una puerta que está a medio metro sobre el suelo. \n Descarta la ficha de Interacción y coloca el módulo {c:TileSklep} en el lugar señalado.
+Eventsklepzklubu_celytile.button1,Continuar
+Eventumistenidverizesklepa.text,Desde el sótano, unas empinadas escaleras suben hacia algún sitio. Coloca una ficha de Exploración en el lugar señalado.
+Eventumistenidverizesklepa.button1,Continuar
+EventdvereAshcan1_sklicem.button1,{action} Explorar
+EventdvereAshcan1_bezklice.button1,Sí
+EventdvereAshcan1_sklicem.button2,Cancelar
+EventdvereAshcan1_bezklice.text,La enorme puerta parece llevar a otra parte del sótano. No te servirá de nada intentar abrirla por la fuerza. Una cerradura plateada que parece nueva bloquea la puerta y probablemente no podrás pasar sin la llave. \n ¿Está Duque con un Investigador en el mismo espacio que la puerta?
+EventobjeveniAshcan_pozde.text,\n Tras la puerta hay una habitación pequeña y sin ventanas Una figura yace en el suelo, sobre la basura. Lo reconoces, es la persona a la que estás buscando. Pete «Cubo de Basura» está tumbado, atado con una soga. Tiene sangre reseca en el pelo y está amordazado. Apenas está consciente. Tan pronto como le quitas la mordaza, Pete comienza a hablar: \n\n —<i>Rápido... salido... cult... esta noche... atacar</i>. \n\n Está bastante mal. No conseguirás sacar de él más información en este momento. \n
+EventobjeveniAshcan_pozde.button1,Continuar
+EventAshcan_tokeny.text,\n Ganas el Objeto único {c:QItemlano}. Luego, descarta esta ficha de Exploración. A continuación, coloca cualquier ficha de Personaje (puedes sustituir la ficha de personaje por la miniatura de Pete <i>Cubo de Basura</i> si posees la expansión necesaria) en el espacio del Investigador que posea la Llave de plata. Pete no puede moverse por su propia voluntad. Durante el resto de la partida, este personaje tiene de forma permanente el estado <i>Retenido</i>, por lo que sólo podrás moverlo mediante la acción "Empujar" (para obtener más información, consulta el manual oficial del juego). \n
+EventAshcan_tokeny.button1,Continuar
+Eventpridaniulice.text,Coloca el módulo {c:Tileulice} en el lugar señalado. La calle principal permite salir de este barrio. Coloca una ficha de Interacción en el lugar señalado.
+Eventpridaniulice.button1,Continuar
+EventdvereAshcan2_sklicem.button1,{action} Explorar
+Eventdvere_Ashcan2bezklice.text,La enorme puerta parece llevar a otra parte del sótano. No te servirá de nada intentar abrirla por la fuerza. Una cerradura plateada que parece nueva bloquea la puerta y probablemente no podrás pasar sin la llave. \n ¿Está Duque con un Investigador en el mismo espacio que la puerta?
+EventdvereAshcan2_sklicem.button2,Cancelar
+EventdvereAshcan2_sklicem.text,La enorme puerta parece llevar a otra parte del sótano. No te servirá de nada intentar abrirla por la fuerza. Una cerradura plateada que parece nueva bloquea la puerta y probablemente no podrás pasar sin la llave. \n Sólo podrás abrirla si tienes el Objeto único <i>Llave de plata</i>.
+UIuvod_text.uitext,Una mujer se os acerca con un perro y os pide ayuda. Es la dueña de un pequeño bar, donde uno de sus clientes y su perro solían ir con frecuencia. Pero hoy el cliente no ha venido. En cambio, su leal perro sí que ha aparecido. Y eso le ha parecido extraño. Ambos forman una pareja inseparable. Nunca antes el perro había venido solo, sin su amo. Además, el perro estaba visiblemente triste, gimiendo y parecía desorientado. El nombre del cliente es Pete. La mujer no sabe cuál es su apellido, pero usa un apodo, «Cubo de Basura». Además, la mujer sabe que él estaba interesado por los fenómenos sobrenaturales. \n\n Le estuvo esperando algún tiempo, pero no apareció, así que al final fue a la policía. Le dijeron que no había ningún motivo para buscarle y que el perro debería ir a una perrera. Por supuesto no estaba de acuerdo, así que se marchó de la comisaría. Un agente de policía se acercó a ella al salir y escuchó otra vez la historia. Y fue ese agente el que le aconsejó que se pusiese en contacto con vosotros. A ojos de algunos lugareños sois unos expertos en fenómenos sobrenaturales. Así que ahora la mujer está ante vosotros. Os entrega al perro de Pete, de nombre Duque y os describe detalladamente al desaparecido. Os desea buena suerte y regresa a su negocio.
+UIuvod_box.uitext,Continuar
+UIuvod_box.button1,Continuar
+UIutek_tlacitko.uitext,Fin
+UIutek_tlacitko.button1,Continuar
+UIprohra_text.uitext,No habéis podido salvar a Pete «Cubo de Basura». La razón de su desaparición nadie la sabe. \n\n Vuestro propio destino está oculto por un velo de misterio. Tras perder a un buen amigo, huisteis sin mirar atrás. Los acontecimientos de esta jornada han dejado en vosotros una terrible sensación que os atenaza el corazón, y no sólo porque habéis estado al filo de la locura y de la muerte. \n\n A la mañana siguiente, una parte de la ciudad sufrió un desastre natural, o al menos así informaron de ello los periódicos. Cientos de cadáveres fueron encontrados, así que nadie se preocupará de vosotros en el futuro. Oficialmente se apunta a una inundación causada por un fuerte oleaje que arrasó las zonas bajas de la ciudad con una inusitada fuerza. Sólo unos pocos saben que lo que vino del mar no fue un desastre natural. Y sus voces son acalladas porque nadie cree esas historias de monstruos. O no quieren creérselas...
+UIvsichniporazeni.uitext,No os encontráis con más terrores en este lugar y finalmente conseguís salvar a Pete «Cubo de Basura». \n\n Comienza a llover con intensidad. Como queréis abandonar este vecindario lo antes posible, salís corriendo en dirección a la casa de uno de vosotros. Al cerrar la puerta rápidamente encendéis todas las luces de la casa y os secáis e intentáis entrar en calor. \n\n Es el momento de que Pete os cuente su historia. Apenas se detiene a tomar pequeñas bocanadas de aire mientras os da todos los detalles. Lady Bechman lo contrató para encontrar a su familia. La investigación le llevó a una tienda de objetos esotéricos, pero alguien le atacó por la espalda cuando trataba de confirmar sus sospechas. Lo siguiente que recuerda era la sala donde lo encontrasteis. \n\n Miráis con detenimiento las pruebas que habéis recopilado y tratáis de encontrarle algún sentido a los acontecimientos de esta jornada. Es complicado afirmar que tendréis éxito en vuestra investigación...
+Eventkoukamdoulicky.button2,Cancelar
+Eventkoukamnatrh.text,El estrecho callejón lleva a una especie de mercado. Un Investigador situado en la localización {c:TileUlicka} puede explorar la zona adyacente.
+Eventkoukamdoulicky.text,Un estrecho callejón sale del mercado. Un Investigador situado en el módulo {c:Tile02Trh} puede revelar la zona adyacente.
+Eventkoukamnatrh.button1,Mostrar
+Eventkoukamnatrh.button2,Cancelar
+Eventvidimulicku.text,Un angosto callejón es visible junto a la parte trasera del edificio. Un Investigador situado en el módulo {c:TileSklep} puede explorar la zona adyacente.
+Eventvidimdvorek.text,Un pequeño patio trasero es visible al final del callejón. Un Investigador situado en el módulo {c:TileUlicka} puede explorar la zona adyacente.
+Eventvidimulicku.button1,Mostrar
+Eventvidimdvorek.button2,Cancelar
+Eventvidimulicku.button2,Cancelar
+EventTrh_pridejsighttoken.text,El estrecho callejón lleva a una especie de mercado. \n Coloca una ficha de Vistazo en el lugar señalado.
+EventTrh_pridejsighttoken.button1,Continuar
+Tokenzamcenazvonice.button1,Continuar
+Tokenzamcenazvonice.text,La puerta del campanario está cerrada y custodiada por agentes de policía.
+Eventnahodny1popisujestrelbu_podruhe.button1,Continuar
+EventpoliciePresunMALY2.text,\n El grupo de policías se acerca a la escena del crimen. Algunos de ellos miran en el interior del campanario y otros alejan a los curiosos, incluyéndote a ti. El efecto es sólo parcial, porque la gente vuelve a formar una pequeña multitud alrededor de los agentes. Pero el campanario está ahora cerrado y parece que los policías se van a quedar ahí haciendo guardia toda la noche. \n\n Descarta el módulo {c:Tile09Sklad}, todas las fichas que contenga, y mueve a cualquier Investigador que estuviese en esa localización al módulo {c:Tile01Namesti} como se señala. A continuación coloca una ficha de Exploración, si no está ya colocada. Mueve todas las fichas de Personaje al módulo {c:Tile01Namesti} como se señala. \n
+EventpoliciePresunMALY2.button1,Continuar
+EventObjevenisepolicieMALY2.text,Un grupo de agentes uniformados dirigido por un sargento de policía entra en la plaza. \n Coloca la ficha de Personaje en el lugar señalado.
+EventObjevenisepolicieMALY2.button1,Continuar
+Eventstopy_start.text,Comenzáis la búsqueda del desaparecido sin pistas (0 {clue}).
+Eventstopy_start.button1,Continuar
+Eventdverechodbanamesti_odhaleno.button2,Continuar
+Eventdverechodbanamesti_odhaleno.button1,{action} Explorar
+Eventotevrenidverichodbanamesti_2.button1,Continuar
+Eventotevrenidverichodbanamesti_2.button2,Fallo
+Eventotevrenidverichodbanamesti_1.button1,Continuar
+Eventotevrenidverichodbanamesti_1.button2,Fallo
+Eventotevrenidverichodbanamesti_1.text,Puede que quizá sea mejor emplear la fuerza bruta para quitar el tablón ({strength}).​
+Eventotevrenidverichodbanamesti_1_uspech.button1,Continuar
+Eventotevrenidverichodbanamesti_1_uspech.text,Tiras del tablón durante un rato hasta que finalmente cede y te quedas con él en la mano. Ganas el Objeto común {c:QItemdrevo}. A continuación, descarta esta ficha de Exploración.
+Eventotevrenidverichodbanamesti_1_neuspech.button1,Continuar
+Eventotevrenidverichodbanamesti_1_neuspech.text,Lo intentas en vano. El tablón permanece demasiado firme en su lugar.
+Eventotevrenidverichodbanamesti_2.text,Miras más de cerca el tablón, tratando de encontrar su punto más débil ({observation}).
+Eventotevrenidverichodbanamesti_2_uspech.text,Parece que te haces una idea de cómo es y después de esforzarte durante un rato, finalmente consigues quitar el tablón. Ganas el Objeto común {c:QItemdrevo}. A continuación, descarta esta ficha de Búsqueda.
+Eventotevrenidverichodbanamesti_2_uspech.button1,Continuar
+Eventotevrenidverichodbanamesti_2_neuspech.button1,Continuar
+Eventotevrenidverichodbanamesti_2_neuspech.text,Una pérdida de tiempo. El tablón se mantiene firme en su lugar y no se mueve.
+UIutek_text_cast_bezPETA.uitext,Consigues escaparte de todos los peligros de este vecindario y corres hacia la seguridad de las calles que te son familiares. Comienza a llover con fuerza pero no te importa y sigues corriendo, alejándote todo lo que puedes, sin importante el que dejas atrás a tus amigos para que sufran. \n\n Cuando finalmente dejas de correr alocadamente, te das cuenta de que estás cerca de la casa de uno de vosotros. Entras rápidamente y cierras la puerta tras de ti, e inmediatamente enciendes todas las luces y tratas de secarte y de entrar en calor. \n\n No has podido salvar a Pete «Cubo de Basura». Está claro que cualquiera que fuese el motivo de su desaparición, nadie lo sabrá. Durante tu huida, además, has perdido a Duque, que salió corriendo por su lado, ignorando tus órdenes. \n\n Miras con detenimiento cada prueba que has reunido y tratas de encontrarle sentido a los sucesos de este día. Es difícil decir si conseguirás tener éxito. Es más, estás completamente destrozado pensando en que has abandonado a un amigo en el peor momento...
+UIutek_text_cast_sPETEM.uitext,Consigues evitar todos los peligros de este vecindario y corres hacia la seguridad de las calles que te son familiares. \n\n Comienza a llover con intensidad. Pero no te importa y simplemente sigues corriendo, alejándote todo lo posible, aunque eso suponga dejar atrás a un amigo sufriendo. Cuando al fin te detienes, te das cuenta de que estás cerca de la casa de uno de vosotros. Al cerrar la puerta rápidamente enciendes todas las luces de la casa y te secas intentando entrar en calor. \n\n Es el momento de que Pete te cuente su historia. Apenas se detiene a tomar pequeñas bocanadas de aire mientras te da todos los detalles. Lady Bechman lo contrató para encontrar a su familia. La investigación le llevó a una tienda de objetos esotéricos pero alguien le atacó por la espalda cuando trataba de confirmar sus sospechas. A partir de ese momento, lo único que recuerda era estar en la sala donde lo encontrasteis. \n\n Miras con detenimiento las pruebas que has recopilado y tratas de encontrarle algún sentido a los acontecimientos de esta jornada. Es complicado afirmar que tendrás éxito en tu investigación... Además, tus remordimientos por haber dejado abandonado a un amigo en el peor momento te atormentan sin cesar...
+UIutek_text_vsichni_bezPETA.uitext,Conseguís evitar todos los peligros de este vecindario y corréis hacia la seguridad de las calles que os son familiares. \n\n Comienza a llover con intensidad. Pero no os importa y simplemente seguís corriendo, alejándoos todo lo posible, por si acaso todavía quedase algo horrible en aquel lugar. Cuando al fin os detenéis, os dais cuenta de que estáis cerca de la casa de uno de vosotros. Al cerrar la puerta rápidamente encendéis todas las luces de la casa y os secáis intentando entrar en calor. \n\n No pudisteis salvar a Pete «Cubo de Basura». Está claro que cualquiera que fuese el motivo de su desaparición, nadie lo sabrá. Durante vuestra huida, además, habéis perdido a Duque, que salió corriendo por su lado, ignorando vuestras órdenes. \n\n Miráis con detenimiento las pruebas que habéis recopilado y tratáis de encontrarle algún sentido a los acontecimientos de esta jornada. Es complicado afirmar que tendréis éxito en vuestra investigación...
+UIutek_text_vsichni_sPETEM.uitext,Conseguís evitar todos los peligros de este vecindario y corréis hacia la seguridad de las calles que os son familiares. \n\n Comienza a llover con intensidad. Pero no os importa y simplemente seguís corriendo, alejándoos todo lo posible, por si acaso todavía quedase algo horrible en aquel lugar. Cuando al fin os detenéis, os dais cuenta de que estáis cerca de la casa de uno de vosotros. Al cerrar la puerta rápidamente encendéis todas las luces de la casa y os secáis intentando entrar en calor. \n\n Es el momento de que Pete os cuente su historia. Apenas se detiene a tomar pequeñas bocanadas de aire mientras os da todos los detalles. Lady Bechman lo contrató para encontrar a su familia. La investigación le llevó a una tienda de objetos esotéricos, pero alguien le atacó por la espalda cuando trataba de confirmar sus sospechas. De lo que pasó a continuación lo único que recuerda era estar en la sala donde lo encontrasteis. \n\n Miráis con detenimiento las pruebas que habéis recopilado y tratáis de encontrarle algún sentido a los acontecimientos de esta jornada. Es complicado afirmar que tendréis éxito en vuestra investigación...
+Eventklub_test_sosky.button3,No hay Investigadores en la habitación.
+EventKlub_Eugene_test3.button1,Continuar
+Eventvychazimzesklepa_test.button1,Continuar
+Eventkancelar_papiry_3.text,\n En la parte inferior de una pila, ves una imagen adjunta a una hoja de papel. En la fotografía están exactamente esas estatuillas que robó la niña. En el papel se puede leer que Eugene Clemens las ha pedido recientemente, y no una cantidad insignificante. También hay una nota manuscrita que enfatiza que las <i>estatuillas protectoras</i> deben entregarse en una fecha determinada durante la noche. Sí, es la fecha de hoy. \n\n Ganas 2 Pistas {clue} y el Objeto único {c:QItemdukaz}. Después, descarta esta ficha de Búsqueda. \n
+Eventkancelar_papiry_3.button1,Continuar
+Eventutek_cast_s.text,¿Está Pete <i>Cubo de Basura<i> en el mismo espacio que la ficha de Interacción para huir?
+Eventutek_cast_s.button1,Sí
+Eventutek_cast_s.button2,No
+Eventsklep_pridatstenu.text,Coloca una ficha de Pared en el lugar señalado.
+Eventsklep_pridatstenu.button1,Continuar
+EventELIMINATED.button1,Continuar
+UIEliminated_tlacitko.uitext,Fin
+Eventodhalenitrhu_prilispozde.text,El mercadillo, sin ninguna luz que lo ilumine, se vuelve un sitio vacío e inquietante. \n Coloca el módulo {c:Tile02Trh} y descarta todas las fichas de Vistazo que lleven a él. A continuación coloca fichas de Oscuridad en los lugares señalados.
+Eventodhalenitrhu_prilispozde.button1,Continuar
+Eventprazdnytrh_veci.text,El mercado está cerrado, pero todavía puede haber algunas cosas útiles. \n\n Coloca 2 fichas de Búsqueda en los lugares señalados.
+Eventprazdnytrh_veci.button1,Continuar
+Eventvidimtokendoulicky_prazdytrh.button1,Continuar
+Eventvidimtokendoulicky_prazdytrh.text,Hay un pequeño callejón que sale del mercado. Pero para ver lo que hay en el callejón hay que acercarse a su entrada. Coloca una ficha de Vistazo en el lugar señalado.
+EventKlub_bezsosek2.text,Este evento afecta a todos los Investigadores situados en el módulo {c:Tile08Klubovna}. \n\n —<i>¡Usted no es un fiel seguidor de Nuestro Señor!</i>, —gritan de repente todos al unísono al tiempo que dejan caer lo que llevan en las manos, ya sea un vaso, un juguete o un libro. \n\n Sufres 3 de Horror y 1 de Daño boca abajo (anulados por {will} +2).
+EventKlub_bezsosek2.button1,Continuar
+Eventulicka_odpadky_dotaznapsa.button1,Sí
+Eventulicka_odpadky_dotaznapsa.text,¿Está Duque con un Investigador que busque en el montón de basura?
+TokenZADOKsevraci.text,El mercader comienza a empacar todas sus cosas. Está claro que tiene prisa porque lo tira todo completamente desordenado en su carretilla.
+TokenZADOKsevraci.button1,Continuar
+Spawnprichodsyna5a.button1,Continuar
+Spawnprichodsyna4a.button1,Continuar
+Spawnprichodsyna3a.button1,Continuar
+Spawnprichodsyna2a.button1,Continuar
+Eventzmenavbarikadu.text,La persiana metálica puede ser destruida y retirada desde el exterior. Por necesidades del juego, considera la persiana metálica como si fuese una Obstrucción que los Investigadores no pueden retirar. Si un enemigo logra atravesarla, entonces los Investigadores se podrán mover libremente a través de ella. \n Coloca una ficha de Obstrucción en el lugar señalado.
+Eventzmenavbarikadu.button1,Continuar
+Eventdvereobchod_barikada.text,La puerta conduce fuera de la tienda. La tienda está ahora mismo cerrada y bloqueada por una persiana metálica. Sin embargo, tus enemigos podrían tratar de romper la persiana desde el exterior. \n\n <b>Por exigencias del juego, considera la persiana metálica como una Obstrucción que los Investigadores no pueden quitar. Si un enemigo consigue atravesarla, entonces los jugadores podrán moverse libremente a través de la puerta.</b>
+Eventdvereobchod_normal.text,La puerta lleva fuera de la tienda. Ahora está cerrada y tiene echada la persiana.
+Eventdvereobchod_barikada.button1,El enemigo destruye la barricada.
+Eventdvereobchod_barikada.button2,Cancelar
+Eventodstranenidveriobchod.text,La persiana metálica ha sido destruida. Ahora puedes salir de la tienda también por la puerta principal. \n Descarta la ficha de Exploración.
+Eventodstranenidveriobchod.button1,Continuar
+Eventklub_zesklepa_odhalen.text,\n Abres la puerta y detrás de ella sólo hay una pared de madera. Pero cuando empujas la pared, se mueve emitiendo un pequeño crujido y revela una habitación bien iluminada al otro lado. Parece que has llegado hasta la habitación a través de un pasadizo secreto que hay detrás del armario. \n Descarta esta ficha de Exploración y una ficha de Pared. Coloca una ficha de Pasadizo secreto en el lugar señalado.
+Eventklub_zesklepa_odhalen.button1,Continuar
+Eventodstranenitokenuvklubu.button1,Continuar
+Eventodstranenitokenuvklubu.text,Descarta esta ficha de Exploración.
+Eventpiskot_bezsosek.text,\n Entonces oyes algo. Es un pitido sobrenatural, apenas audible. La cabeza comienza a dolerte como si fuese a estallar y te cuesta concentrarte en algo. Todos los Investigadores sufren 3 de Horror (anulados por {will}). Además, cualquier Investigador que sufra al menos 1 de Horror adquiere el estado <i>Aturdido</i>. \n
+Eventpiskot_bezsosek.button1,Continuar
+UIComplete.uitext,¡La investigación ha sido un éxito!
+UIUncomplete.uitext,¡La investigación ha fracasado!
+Eventutecte.text,¡Has conseguido salvar a Pete, pero ahora todos tenéis que escapar de los horrores de esta noche!
+Eventutecte.button1,Continuar
+Eventdverezadni_kancl_obojeobjeveno.text,¿Desde qué lado intentas abrir la puerta?
+Eventdverezadni_kancl_obojeobjeveno.button1,Desde el callejón
+Eventdverezadni_kancl_obojeobjeveno.button2,Desde la oficina
+Eventdverekancltest.button1,Continuar
+Eventutek_vsichni_test.text,¿Está Pete <i>Cubo de Basura<i> en el mismo espacio que la ficha de Interacción para huir?
+Eventutek_vsichni_test.button1,Sí
+Eventutek_vsichni_test.button2,No
+EventKancl_jizobjeven_odemcen.text,Detrás de esa puerta encuentras una estrecha pero agradable oficina. Descarta esta ficha de Exploración.
+EventKancl_jizobjeven_odemcen.button1,Continuar
+Eventchodbazchodby_poprve.button1,Continuar
+Eventchodbazchodby_poprve.text,Tras tu siguiente intento, la trampilla finalmente se abre y al otro lado encuentras un hogar pobremente iluminado. Coloca el módulo {c:Tile03vstupakoupelna} y una ficha de Pasadizo secreto en el lugar señalado. \n\n Descarta la ficha de Interacción y mueve a tu Investigador hasta el otro lado del Pasadizo secreto.
+Eventchodbazchodby_jizodhaleno.button1,Continuar
+Eventchodbazchodby_jizodhaleno.text,Tras tu siguiente intento, la trampilla finalmente se abre y al otro lado encuentras un hogar pobremente iluminado. Coloca una ficha de Pasadizo secreto en el lugar señalado. \n\n Descarta la ficha de Interacción y mueve a tu Investigador hasta el otro lado del Pasadizo secreto.
+Eventtile03dvernitokeny2.button1,Continuar
+Eventtile03dvernitokeny2.text,\n Te encuentras en un pequeño pasillo. La puerta del cuarto de baño está completamente abierta mientras que el resto de puertas están cerradas. Una de las puertas, a juzgar por el ruido que se oye al otro lado, debe conducir a la plaza mayor. Pero, como puedes ver ahora, hay un gran tablón que se está usando para atrancar la puerta desde dentro. Puedes intentar quitar el tablón. En la puerta que está enfrente hay un cartel que pone «Oficina». La última puerta lleva a la tienda. \n\n Descarta 2 fichas de Exploración como se señala.
+Eventtile03dvernitokeny3.button1,Continuar
+Eventtile03dvernitokeny3.text,\n Te encuentras en un pequeño pasillo. La puerta del cuarto de baño está completamente abierta mientras que el resto de puertas están cerradas. Una de las puertas, a juzgar por el ruido que se oye al otro lado, debe conducir a la plaza mayor. Pero, como puedes ver ahora, hay un gran tablón que se está usando para atrancar la puerta desde dentro. Puedes intentar quitar el tablón. En la puerta que está enfrente hay un cartel que pone «Oficina». La última puerta lleva a la tienda. \n\n Descarta 2 fichas de Exploración como se señala.
+UIvybranyASHCANPETE.uitext,Por favor, lee la descripción de este escenario con más atención.
+EventUplnystart_hrajeAshcan.button1,Button1
+EventMYTHOS5.button1,Resolver el evento
+EventMYTHOS5.text,El terrible eco de un grito distante resuena sobre los techos, calles e incluso dentro de los edificios. Este evento de los Mitos afecta sólo a los Investigadores que no tengan el Objeto único {c:QItemsosky}.\n
+EventMYTHOS5.button2,Sin efecto.
+EventMYTHOS5_resolve.text,\n El sonido te sobresalta. No sabes por qué, pero de repente sientes que algo ha entrado en lo más profundo de tu mente. Y que estás indefenso. Unos pensamientos oscuros salen a la superficie y por un instante pierdes por completo el control sobre tu cuerpo. Tratas de hacerte daño a ti mismo. Lo estás viendo con tus propios ojos. Lo sientes por debajo de tu piel. Pero no puedes detenerte. Con el eco de un grito aún resonando, retomas el control de tu cuerpo. Y justo a tiempo. Podría haber pasado algo aún peor. \n Sufres 1 de Horror boca abajo y 1 de Daño. \n
+EventMYTHOS5_resolve.button1,Continuar
+Eventklub_dotazDUKE.button1,Sí
+Eventklub_dotazDUKE.button2,No
+Eventklub_dotazDUKE.text,¿Está Duque con un Investigador que esté en el módulo {c:Tile08Klubovna}?
+EventKlub_DUKEsteka.text,Duque empieza a ladrar. Está irreconocible. Simplemente no puedes calmarlo.
+EventKlub_DUKEsteka.button1,Continuar
+EventDUKE_stekazadnidverekancl.button1,Continuar
+EventDUKE_testzadnidverekancl.text,¿Está Duque con un Investigador que esté examinando la puerta?
+EventDUKE_stekazadnidverekancl.text,Duque olfatea alrededor de la puerta y ladra varias veces. Ganas 1 Pista {clue}
+EventDUKE_testzadnidverekancl.button1,Sí
+EventDUKE_testzadnidverekancl.button2,No
+Eventdvere_Ashcan2bezklice.button2,No
+EventDUKE_stekanaAshcana.text,Duque comienza inmediatamente a ladrar. Con un gran esfuerzo consigues alejarlo de la puerta.
+EventDUKE_stekanaAshcana.button1,Continuar
+EventdvereAshcan1_bezklice.button2,No
+Eventodchodzklubu.text,Necesitas emplear un poco más de fuerza de la normal para abrir esta puerta, debido a que tienes que arrastrar la estantería que hay al otro lado. Descubres que se trata de una entrada secreta. Detrás de la puerta hay una pequeña tienda de objetos esotéricos. \n Descarta esta ficha de Exploración. A continuación, descarta la ficha de Pared y coloca en su lugar una ficha de Pasadizo secreto.
+Eventodchodzklubu.button1,Continuar
