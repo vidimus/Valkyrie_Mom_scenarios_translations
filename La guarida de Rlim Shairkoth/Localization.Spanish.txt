@@ -421,13 +421,13 @@ EventMagicDoor.text,Inspeccionas la puerta, pero no ves una manilla o cualquier 
 EventMagicDoor.button1,Continuar
 EventMagicDoor.button2,Fallo
 EventFailBasementDoorTest.button1,Continuar
-EventBesementDoorPass.button1,9.07E+16
-EventBesementDoorPass.button2,6.34E+16
-EventBesementDoorPass.button3,3.44E+16
+EventBesementDoorPass.button1,907088902634
+EventBesementDoorPass.button2,634088343907
+EventBesementDoorPass.button3,343634088907
 EventBesementDoorPass.button4,88907634343
-EventBesementDoorPass.button5,6.35E+16
-EventBesementDoorPass.button6,3.44E+16
-EventBesementDoorPass.button7,9.07E+16
+EventBesementDoorPass.button5,634907343088
+EventBesementDoorPass.button6,343907634088
+EventBesementDoorPass.button7,907343088634
 EventBesementDoorPass.button8,88634907343
 EventFailBasementDoorTest.text,Frustrado, cargas con todo tu cuerpo contra la puerta, pero se niega a ceder. \n\n Sufres 1 de Daño boca abajo (anulado por {strength}).
 EventMagicDoorFail.text,La brillante luz de color verde se hace más brillante y penetra en los horrores más profundos de tu mente. \n\n Sufres 2 Horror (anulados por {will} -1).
