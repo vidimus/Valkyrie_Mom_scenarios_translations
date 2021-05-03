@@ -19,7 +19,7 @@ EventT1_Rosa_Mendes_surge.text,Desde lo alto de las escaleras os observa una muj
 EventT1_Rosa_Mendes_surge.button1,Continuar
 EventT13_procurar_1_biblia.text,\n Tu búsqueda ha servido para algo y encuentras un libro que te será de utilidad. \n\n Ganas el Objeto común {c:QItemT13_biblia}. A continuación, descarta esta ficha de Búsqueda. \n
 EventT1_explorar_1_surge.button1,Continuar
-EventT4_shirley_resposta_zadok.text,—<i>Mi padre siempre fue conmigo un hombre parco en palabras, a pesar de todo lo que hacía por él. A medida que los años pasaban yo me parecía cada vez a mi madre, y pensaba que eso le haría feliz. Pero no, pronto comprobé que era justo lo contrario. Mi hermano Robert terminó siendo el receptor de todo el afecto de mi padre.</i> 
+EventT4_shirley_resposta_zadok.text,—<i>Mi padre siempre fue conmigo un hombre parco en palabras, a pesar de todo lo que hacía por él. A medida que los años pasaban yo me parecía cada vez a mi madre, y pensaba que eso le haría feliz. Pero no, pronto comprobé que era justo lo contrario.</i> 
 EventT1_explorar_2_surge.button1,Continuar
 EventT1_rosa_mendes_vai_embora.text,—<i>Bien, si ya no desea seguir hablando conmigo, voy a volver a mis quehaceres.</i> \n\n Descarta la ficha de Personaje Mujer gris (Rosa Mendes).
 EventT1_explorar_3_surge.button1,Continuar
@@ -672,7 +672,7 @@ EventT15_mov_extra.text,El Investigador que ha dejado que Catrina Allen tocase e
 EventT15_mov_extra.button1,Continuar
 TokenT15_vdd_zadok.text,Un cuerpo tumbado sobre el suelo, atado de una forma macabra. Además, está rodeado por unos extraños dibujos. \n\n Puedes acercarte para examinar el cuerpo con más detalle.
 TokenT15_vdd_zadok.button1,{action} Investigar
-EventT15_vdd_zadok_resolvido.text,Examinas el cuerpo y, a pesar de que está un poco desfigurado, te resulta familiar. Un colgante pende de su cuello. Parece estar roto por la mitad. \n\n Los símbolos no parecen tener nada que ver con la escena y casi parecen algún tipo de ritual extraño. \n\n A pesar tu experiencia en escenas de crímenes, lo que ves te afecta {will}. Si la tirada tiene éxito, te concentras en tu investigación. Si la tirada falla, la escena se te queda grabada en la retina; sufres 1 de Horror boca abajo. \n\n  <i>Nota: Se trata de una posible pista para aclarar lo sucedido en este caso.</i>
+EventT15_vdd_zadok_resolvido.text,Examinas el cuerpo y, a pesar de que está un poco desfigurado, te resulta familiar. Un colgante pende de su cuello. Parece estar roto por la mitad. \n\n Los símbolos no parecen tener nada que ver con la escena y casi parecen algún tipo de ritual extraño. \n\n A pesar tu experiencia en escenas de crímenes, lo que ves te afecta ({will}; 1). Si la tirada tiene éxito, te concentras en tu investigación. Si la tirada falla, la escena se te queda grabada en la retina; sufres 1 de Horror boca abajo. \n\n  <i>Nota: Se trata de una posible pista para aclarar lo sucedido en este caso.</i>
 EventT15_vdd_zadok_resolvido.button1,Continuar
 EventT15_virando_monstro.text,Cuando estás a punto de salir, un extraño ruido emerge del cuerpo que está tendido en el suelo. En ese momento, se pone en pie y sus ojos sin vida se clavan en ti. \n\n Aparece un Híbrido de profundo en el lugar señalado. A continuación, descarta la ficha de Personaje Hombre gris.
 EventT15_virando_monstro.button1,Continuar
@@ -753,7 +753,7 @@ EventT1_explorar_1_surge.text,—<i>A su izquierda tienen el comedor, aunque est
 TokenT3_rosa_2.button1,Continuar
 EventT1_rosa_mendes_resposta_so_crime.text,—<i>Fui a mis aposentos la noche antes de la muerte del señor Allen. Cuando me desperté, me arreglé para trabajar. Le preparé el café de la mañana al señor Zadok y cuando llegué a su dormitorio me encontré con la terrible escena de su cuerpo tendido en la cama, con las venas cortadas.</i>
 TokenT3_bart.button1,Continuar
-EventT13_procurar_1_manuscrito.text,\n Tú búsqueda no ha sido en vano y encuentras un libro que te puede ser de ayuda. \n\n Ganas el Objeto común {c::QItemT13_manuscrito_arcano}. A continuación, descarta la ficha de Búsqueda. \n
+EventT13_procurar_1_manuscrito.text,\n Tú búsqueda no ha sido en vano y encuentras un libro que te puede ser de ayuda. \n\n Ganas el Objeto común {c:QItemT13_manuscrito_arcano}. A continuación, descarta la ficha de Búsqueda. \n
 TokenT3_shirley.button1,Continuar
 quest.synopsys,El suicidio de Zadok Allen da inicio a una serie de sucesos extraños y macabros. De 2 a 5 investigadores.
 quest.authors,\n\n <i>Autor</i>: Paulo José Moraes de Paula Santos. \n\n <i>Colaboradores </i>: Júlio Montoro e Thamara Barbosa. \n\n <i>Colaborador de voz</i>: Lucas M. Carvalho.\n\n\n <i>Traducción al español</i>: Vidimus \n\n <i>Correcciones</i>: Mauch8 \n\n
