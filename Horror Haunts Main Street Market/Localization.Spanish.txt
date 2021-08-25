@@ -1,0 +1,849 @@
+.,Spanish
+quest.name,El Horror que acecha el mercado de la calle Mayor (v1.5)
+quest.description,Resumen: Después de escapar de la cabaña del bosque, los investigadores se dirigen hacia el mercado de la calle Mayor para hacer algunas preguntas inquisitivas a su tío con la esperanza de descubrir el secreto que se oculta tras el <i>Libro impío</i>. \n -------------------------------------- \n Este escenario contiene: \n Varios finales \n -Tres niveles de dificultad, que determinan la dureza de los monstruos, la dificultad de las pruebas a realizar y la complejidad de los rompecabezas. \n En el modo fácil no se debería tener problema para ganar. Con dificultad media debería ser un buen desafío. El modo difícil es realmente duro. \n Gran cantidad de efectos de sonido y música. \n\n El escenario está en fase de mejoras, por lo que es importante que dejes tus comentarios al final sobre cualquier fallo que encuentres. \n\n La duración media del escenario es errónea, ya que un grupo registró una partida de 25 horas. La mayoría de los investigadores terminan en 4 horas. \n\n Problemas conocidos (cualquier ayuda para solucionarlos será bienvenida): \n - Las fichas de Vistazo en el exterior no se descartan correctamente. \n --------------------------------------\n Cambios recientes: \n 1.1 Revisión de erratas (en inglés, gracias a Matthew), algunos problemas solucionados, el modo fácil ahora es más fácil. \n 1.2/1.3 Ajustada la duración del escenario. \n 1.4 Más opciones en los barriles, arreglados algunos fallos. \n 1.5 Tiempo de juego ajustado, añadidos textos de aclaración y la Turba es ahora más asequible.
+quest.authors,\n\n Creado por: Dr.ake \n Música adicional: Typos (CC BY 3.0) \n\n Traducción al español: \n Vidimus, Mauch8 y Gomy \n\n
+quest.synopsys,Segunda parte de la trilogía El Horror que acecha. ¿Qué es el libro impío? Tres niveles de dificultad.
+TokenStoreBarricade.text,Esta estantería podría usarse como barricada.
+TokenStoreBarricade.button1,Continuar
+TokenMansionbutler.text,{agility} El mayordomo del profesor Vanderbilt abre la puerta. La expresión severa de su rostro es difícil de interpretar. Sin embargo, por las palabras que elige, te hace sentir como si fueras una alteración en su rutina diaria. Una amenaza que hay que afrontar con total desconfianza y repugnancia a partes iguales: —<i>¿Qué es lo que le trae por aquí tan temprano?</i>
+TokenMansionbutler.button1,{action} —<i>Estamos aquí para hablar con el profesor</i> ({influence})
+TokenMansionbutler.button2,{action} —<i>¿Por qué no se ocupa de sus asuntos y me dice dónde está el profesor?</i> ({strength})
+TokenMansionbutler.button3,—<i>No importa, ya nos marchamos</i>.
+TokenAlley1Lady.button2,{action} —<i>¿Podría rezar también por mi alma?</i>
+TokenAlley1Lady.text,Una adolescente se sienta a la puerta de su casa y reza un padrenuestro: \n\n —<i>Y perdona nuestras ofensas. \n Como nosotros perdonamos a los que nos ofenden. \n No nos dejes caer en la tentación, \n y líbranos del mal. \n Porque tuyo es el reino, \n tuyo es el poder y la gloria.</i> \n
+EventAlly1LadyTalk1.text,—<i>Deseo al novio de mi vecina. Byron es tan apuesto y amable. Creo que le amo. Pero, ¿de qué sirve mi amor si es pecaminoso?</i>
+TokenAlley1Lady.button3,—<i>No importa</i>.
+EventAlly1LadyTalk1.button1,Continuar
+EventAlly1LadyTalk2.text,—<i>Sí, podría. Pero ¿qué bien le haría a usted? Necesita encontrar el camino del Señor usted mismo. De lo contrario, no podrá ser liberado del mal. \n Tome mi vieja Biblia, yo ya no la necesito. Espero que le sirva a usted.</i> \n\n Ganas el Objeto común Biblia del Rey Jaime.
+EventAlly1LadyTalk2.button1,Continuar
+TokenAlley2Lady.button1,{action} —<i>¿En qué puedo ayudarle?</i>
+EventAlly2LadyTalk1.text,—<i>Lo tengo controlado</i> —balbucea la mujer—. <i>Necesito comer algo de arenque y un café cargado para estar lista para ayudar a Byron en el puesto.</i>
+EventAlly2LadyTalk1.button1,—<i>Le conseguiré café y unos arenques.</i>
+EventAlly2LadyTalk1.button2,—<i>Buena suerte permaneciendo sobria.</i>
+TokenMarketWhiteMan.text,Un anciano con una larga cabellera canosa y la piel como el cuero pregona la frescura de la pesca del día: \n\n —<i>¡Pescado fresco, recién descamado, compre el pescado más fresco!</i> \n\n Tienes {var:Money} $ en tu monedero.
+TokenMarketWhiteMan.button1,{action} Comprar arenques (5$)
+TokenHarborStoreOwner.text,—<i>Buenos días, caballeros. ¿Quieren comenzar el día con un café recién hecho? Son sólo 5$</i> \n\n Tienes {var:Money}$ en tu monedero.
+TokenHarborStoreOwner.button1,{action} Comprar café
+EventHarborStoreOwnerCoffee.text,—<i>¡Aquí tiene, cariño!</i> \n\n Recibes una taza de café recién hecho.
+EventHarborStoreOwnerCoffee.button1,—<i>¡Gracias!</i>
+EventMixCoffeeAndSedatives.text,Viertes toda la botella de sedante en el café. Esto debería dejar inconsciente a un elefante durante un día.
+EventMixCoffeeAndSedatives.button1,Continuar
+EventMarketWhiteManBuyHerring.text,Envuelve los arenques frescos en el periódico de ayer y te lo entrega: \n\n —<i>¡Disfrute del pescado, amigo!</i>
+EventMarketWhiteManBuyHerring.button1,Continuar
+EventAlley1Place.button1,Continuar
+EventStart.text,Cada investigador comienza el juego con 2 Pistas {clue}. \n\n Puedes interactuar con el <i>Libro impío</i> usando el menú de Objetos de la aplicación.
+EventAlley1PlaceLady.text,Una adolescente se sienta a la puerta de su casa y reza un padrenuestro: \n\n —<i>Y perdona nuestras ofensas. \n Como nosotros perdonamos a los que nos ofenden. \n No nos dejes caer en la tentación, \n y líbranos del mal. \n Porque tuyo es el reino, \n tuyo el poder y la gloria. </i> \n\n \n Coloca la ficha de Personaje Mujer verde en el lugar señalado.
+EventAlley1PlaceLady.button1,Continuar
+EventAlly1PlaceMan.text,Un anciano deambula por las calles sin rumbo fijo, golpeando continuamente el suelo con su bastón. Parece angustiado. \n\n Coloca la ficha de Personaje Hombre blanco en el lugar señalado.
+EventAlly1PlaceMan.button1,Continuar
+EventAlly1PlaceSight.button1,Continuar
+EventAlley2PlaceTile.button1,Continuar
+EventAlly1PlaceSight.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventAlley1JumpMaster.text,Intentas dar un salto corriendo {strength}.
+EventAlley2PlaceMan.text,Un hombre de cabello gris está en su puerta, rebuscando nerviosamente en sus bolsillos y en los alrededores. \n\n Coloca la ficha de Personaje Hombre amarillo en el lugar señalado.
+EventAlley2PlaceMan.button1,Continuar
+EventAlley2PlaceLady.text,Una mujer en la veintena regresa tras una larga noche de fiesta. Describirla como sobria sería inexacto. Tiene dificultades para meter la llave de la puerta en la cerradura. \n\n Coloca la ficha de Personaje Mujer naranja en el lugar señalado.
+EventAlley2PlaceLady.button1,Continuar
+TokenAlly1Sight.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenAlly1Sight.button1,Echar un vistazo
+EventAlley2PlaceSight.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventAlley2PlaceSight.button1,Continuar
+TokenAlley2Sight.button1,Echar un vistazo
+EventAlley3PlaceTile.text,Coloca el módulo {c:TileAlley3} en el lugar señalado.
+TokenAlley2Sight.text,Un investigador adyacente puede explorar el área que está a continuación.
+EventAlley3PlaceTile.button1,Continuar
+TokenAlley1Investigators.button1,Continuar
+EventAlley1PlaceInvestigators.text,Coloca a los investigadores en el lugar señalado.
+TokenAlley1Investigators.text,Coloca aquí a los investigadores.
+EventAlley1PlaceInvestigators.button1,Continuar
+TokenAlley1Man1A.text,Un viejo deambula de un lado para otro de la calle, golpeando sin cesar el suelo con su bastón. Parece estar en apuros
+TokenAlley1Man1A.button1,{action} —<i>¿Puedo ayudarle en algo, señor?</i>
+EventAlley1ManTalk1.text,—<i>Sí, por favor. He perdido mis gafas y no soy capaz de encontrarlas</i> —dice el hombre, aliviado de que alguien pueda ayudarlo—. <i>Ustedes los jóvenes tienen buena vista. ¿Podría encontrarlas?</i>
+EventAlley1ManTalk1.button1,Continuar
+TokenAlley1Man1B.text,—<i>Sí, por favor. He perdido mis gafas y parece que no puedo encontrarlas —dice el hombre, aliviado de que alguien pueda ayudarlo—. <i>Ustedes, jóvenes, que tienen buena vista, ¿podrían ayudarme a encontrarlas? </i>
+EventAlley1ManTalk2.text,El hombre se pone sus gafas. Observas que su mano derecha es protésica. Él se da cuenta de que miras su mano: \n\n —<i>Sabe, en mis días yo solía ser una especie de cazador de monstruos o investigador de lo oculto, como se autodenominan hoy en día. Un demonio me arrancó la mano de un mordisco. Lo convertí en una virtud y coloqué en ese hueco una motosierra. ¡Buenos tiempos aquellos!</i> \n\n El hombre te mira y te agradece nuevamente con ojos tristes:\n\n —<i>Bueno, gracias por devolverme mis gafas. ¡Resulta que cuando te haces viejo ya no puedes hacer gran cosa!</i> \n\n Descarta el Objeto común Lupa de tu inventario. \n\n —<i>Tome esto por las molestias</i>. \n\n Ganas 10$. \n
+EventAlley1ManTalk2.button1,{action} —<i>¿Hay algo que haya dejado pendiente?</i>
+TokenAlley2Glasses.button1,{action} Coger las gafas
+EventAlley1PickUpGlasses.text,Recoges las gafas y las guardas con cuidado en tu bolsillo. \n\n Ganas el Objeto común Lupa, que representa a las gafas.
+EventAlley1PickUpGlasses.button1,Continuar
+EventAlley1PlacePurse.button1,Continuar
+EventAlley2PlaceGlasses.text,Algunos objetos metálicos brillan detrás de los barriles. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenAlley2Lady.text,Una mujer rubia cerca de la veintena regresa tras una larga noche de fiesta. Describirla como sobria sería inexacto. Tiene dificultades para meter la llave de la puerta en la cerradura.
+TokenAlley1Man1B.button1,{action} —<i>Aquí tiene sus gafas, señor.</i>
+TokenAlley3Sight.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenAlley3Sight.button1,Echar un vistazo
+EventBordwalkPlaceTile.text,Coloca el módulo {c:TileBordwalk} en el lugar señalado. A continuación, descarta la ficha de Vistazo.
+EventBordwalkPlaceTile.button1,Continuar
+EventBordwalkPlaceWall.button1,Continuar
+EventBordwalkPlaceSight2Harbor.button1,Continuar
+TokenBordwalkSightToHarbor.button1,Echar un vistazo
+TokenBordwalkSightToStreet1.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenBordwalkSightToHarbor.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenBordwalkSightToStreet1.button1,Echar un vistazo
+EventBordwalkPlaceSight2Harbor.text,Un investigador adyacente puede explorar el área que está a continuación.
+EventBordwalkPlaceWall.text,Coloca una ficha de Pared en el lugar señalado.
+TokenAlley3StoreDoor.text,La puerta trasera de la licorería de tu tío está protegida por un candado de combinación.
+TokenAlley3StoreDoor.button1,{action} Forzar la cerradura
+EventAlley3StoreDoorOpenUnplaced.button1,Continuar
+PuzzleAlley3StoreDoorEasy.button1,Hecho
+EventAlley3StoreDoorOpenPlaced.text,Abres la cerradura. \n\n Descarta la ficha de Exploración. Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventAlley3PlaceStoreDoor.button1,Continuar
+EventAlley3PlaceSight.button1,Continuar
+EventAlley3PlaceStoreDoor.text,Ésta es la puerta trasera de la licorería de tu tío. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAlley3PlaceSight.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventHarborPlaceTile.text,Coloca el módulo {c:TileHarbor} en el lugar señalado.
+EventHarborPlaceTile.button1,Continuar
+EventHarborMaster.text,El capitán del puerto es un hombre alto y corpulento. Su rostro está esculpido por el viento y los elementos. No te pierde de vista desde tu llegada. \n\n Coloca la ficha de Personaje en el lugar señalado.
+EventHarborMaster.button1,Continuar
+TokenHarborSnackDoor.text,La puerta del bar tiene un cartel que reza «privado». \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenHarborSnackDoor.button1,{action} Examinar
+EventHarborSnackDoorInvestigate.text,La puerta no está cerrada. No tenéis ningún problema en abrirla y entrar. Podéis pasar al bar. \n\n Descarta la ficha de Exploración. A continuación, coloca una ficha de Búsqueda en el lugar señalado.
+EventHarborSnackDoorInvestigate.button1,Continuar
+EventHarborSnackShackPlacePerson.text,—<i>Hola</i> —os saluda la dueña del bar con una sonrisa de sorpresa—, <i>se supone que usted no debería estar aquí, pero bueno. ¿Qué puedo hacer por usted?</i>
+EventHarborSnackShackPlacePerson.button1,Continuar
+TokenHarborSnackShackGear.button1,{action} Coger algo
+EventInvestigateSnackShackGear.text,Examinas las propiedades de la dueña del bar y encuentras algo que valdría la pena conservar. \n\n Ganas el Objeto que se muestra. A continuación, descarta la ficha de Búsqueda.
+EventInvestigateSnackShackGear.button1,Continuar
+EventHarborSnackShackOwnerAttack.text,—<i>¡Eh, qué está haciendo! ¡Eso es mío! ¡Devuélvamelo!</i>
+EventHarborSnackShackOwnerAttack.button1,Continuar
+SpawnHarborSnackShackOwner.text,La dueña del bar decide atacaros. \n\n Descarta la ficha de Personaje. En su lugar, coloca un Sectario.
+SpawnHarborSnackShackOwner.button1,Continuar
+TokenHarborSight2Market.button1,Echar un vistazo
+EventHarborPlaceShackDoor.text,La puerta del bar tiene un cartel que reza «privado».
+TokenHarborSight2Market.text,Un investigador adyacente puede explorar el área que está a continuación.
+EventHarborPlaceShackDoor.button1,Continuar
+EventHarborPlaceStoreOwner.text,La dueña es una mujer de unos cuarenta años. Su expresión es severa, aunque intenta sonreírte. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventHarborPlaceStoreOwner.button1,Continuar
+EventHarborPlaceSight2Market.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventHarborPlaceSight2Market.button1,Continuar
+TokenAlly2Man.text,—<i>Caramba, quería salir a fumar un cigarrillo, pero parece que he perdido mi pitillera de la suerte</i>.
+TokenAlly2Man.button1,{action} Fumar mata {influence}
+TokenAlly2Man.button2,—<i>Por supuesto, iremos a buscarla</i>.
+TokenAlly2Man.button3,—<i>Nada, olvídelo.</i>
+EventAlley2ManTalk1.text,Intentas convencer al fumador de que es perjudicial para él. Realiza una tirada de {influence}.
+EventAlley2ManTalk1.button1,Continuar
+EventAlley2ManTalk1Success.text,—<i>¡Tiene razón! Fumar es una asquerosa y sucia forma de malgastar mi precioso tiempo. Y mortal, además. Si me busca, estaré dentro, replanteándome mi vida.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Personaje.
+EventAlley2ManTalk1Success.button1,Continuar
+EventAlley2ManTalk1Fail.text,—<i>Eso es bastante exagerado. Quizá no viva tanto, pero el tiempo que me quede lo viviré plenamente. Si pudiese dar una calada ahora mismo... ¡Maldita sea! ¡Qué bien me vendría un cigarrillo!</i>
+EventAlley2ManTalk1Fail.button1,Continuar
+TokenAlley2Man2.text,—<i>Me encantaría fumarme un cigarrillo, ¿ha encontrado mi pitillera de la suerte?</i>
+TokenAlley2Man2.button1,{action} —<i>Aquí tiene, disfrute su cigarrillo.</i>
+EventAlley2ManCigaretteCaseFound.text,—<i>Sí, es la mía, muchas gracias. Por favor, acepte esto como muestra de agradecimiento</i>. \n\n El hombre toma de tu mano su pitillera de la suerte, pero a cambio te entrega 20$. Al fin consigue disfrutar de su cigarrillo y se mete dentro. \n\n Descarta el Objeto común Pitillera de la suerte y la ficha de Personaje. \n Ganas 20$. \n Ganas 2 Pista {clue}.
+EventAlley2ManCigaretteCaseFound.button1,Continuar
+EventAlly2ManTalk2.text,—<i>¡Fantástico, se lo agradezco de veras!</i>
+EventAlly2ManTalk2.button1,Continuar
+TokenBordwalkCigaretts.text,Un objeto plateado yace en el suelo.
+TokenBordwalkCigaretts.button1,{action} Examinar
+EventBordwalkCigarettsInvestigate.text,Inspeccionando más de cerca, te das cuenta de que se trata de una pitillera. \n\n Recibes el objeto común Pitillera de la Suerte.
+EventBordwalkCigarettsInvestigate.button1,Continuar
+EventBordwalkPlaceSight2Street1.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventBordwalkPlaceSight2Street1.button1,Continuar
+EventBordwalkPlaceCigaretts.text,Inspeccionando más de cerca, te das cuenta de que se trata de una pitillera. \n\n Coloca una ficha de Búsqueda como se indica.
+EventBordwalkPlaceCigaretts.button1,Continuar
+TokenHarborMaster.text,—<i>¡Eh, usted! ¡Mire por dónde pisa, estas tablas pueden ser muy resbaladizas!</i>
+TokenHarborMaster.button1,—<i>¿Quién es usted?</i>
+EventHarborMasterTalk1.text,—<i>Soy el capitán de puerto. Me encargo de que las cosas se lleven a cabo del modo correcto.</i>
+EventHarborMasterTalk1.button1,—<i>Gracias por la información.</i>
+EventHarborMasterTalk1.button2,{action} —<i>¿Qué tengo que hacer para conseguir un barco?</i>
+EventHarborMasterTalk11.text,—<i>¿Usted? ¿Un barco? Usted no es capitán y no va a conseguir un barco. ¡No mientras sea yo el capitán de puerto!</i>
+EventHarborMasterTalk11.button1,Continuar
+TokenHarborMaster2.text,—<i>¿Usted? ¿Un barco? Usted no es capitán y no va a conseguir un barco. ¡No mientras sea yo el capitán de puerto!</i>
+TokenHarborMaster2.button1,Continuar
+TokenHarborSnackShackGear.text,Las pertenencias de la dueña del bar están colocadas sobre un escritorio.
+TokenHarborMaster3.text,—<i>Mire por dónde pisa.</i>
+TokenHarborMaster3.button1,{action} —<i>¿Qué tengo que hacer para conseguir un barco?</i>
+TokenLiquorStoreShelf.text,Ésta es la estantería en la que tu tío guarda las cosas buenas.
+TokenLiquorStoreShelf.button1,{action} Examinar
+EventLiquorStoreShelfInvestigate.text,Con el visto bueno de tu tío, coges una de las botellas de whisky. \n\n Ganas el Objeto común Whisky. A continuación, descarta esta ficha de Búsqueda.
+EventLiquorStoreShelfInvestigate.button1,Continuar
+TokenLiquorStoreDrawer.text,En este cajón están las pertenencias privadas de tu tío.
+TokenLiquorStoreDrawer.button1,{action} Examinar
+EventLiquorStoreDrawerWithUncle.button1,Continuar
+EventLiquorStoreShelfPlace.button1,Continuar
+EventLiquorStoreDrawerWithoutUncle.text,Rebuscas dentro del cajón y encuentras unos sedantes. Puedes utilizarlos usando el menú de Objetos de la aplicación. \n\n A continuación, descarta esta ficha de Búsqueda.
+EventDrawerInvestigateSuccess.text,Mientras tu tío mira para otro lado aprovechas y rebuscas en los cajones. Encuentras unos sedantes. Puedes utilizarlos usando el menú de Objetos de la aplicación. \n\n A continuación, descarta esta ficha de Búsqueda.
+EventDrawerInvestigateSuccess.button1,Continuar
+EventDrawerInvestigationFail.text,Tu tío simplemente no mira para otro lado.
+EventDrawerInvestigationFail.button1,Continuar
+EventLiquorStorePlaceDrawer.text,Una estantería con cajones te resulta sospechosa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLiquorStorePlaceDrawer.button1,Continuar
+EventLiquorStorePlaceShelf.text,Aquí es donde tu tío guarda las cosas buenas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLiquorStorePlaceShelf.button1,Continuar
+EventLiquorStorePlaceDoor2.text,La puerta principal de la licorería. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventLiquorStorePlaceDoor2.button1,Continuar
+EventMainStreet1PlaceSightEast.button1,Continuar
+EventMainStreet1PlaceSightEast.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventLiquorStoreDoor2Open.text,Abres la puerta. Puedes salir desde aquí. \n\n \n\n Coloca fichas de Vistazo en el lugar señalado.
+EventLiquorStoreDoor2Open.button1,Continuar
+TokenMainStreet1Sight1.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenMainStreet1Sight1.button1,Echar un vistazo
+EventSedativesInvestigate.text,Hay unos sedantes bastante fuertes.
+EventSedativesInvestigate.button1,Guardar para más tarde
+EventSedativesInvestigate.button2,{action} Usar
+EventSedativesInvestigate.button3,{action} Mezclarlo con café
+EventSedativesUsed.text,Usa los sedantes como se indica en la carta. \n\n Descarta los sedantes de tu inventario.
+EventSedativesUsed.button1,Continuar
+TokenMainStreet1Sight2.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenMainStreet1Sight2.button1,Echar un vistazo
+EventMarketPlace.text,Los dueños de los puestos del mercado de la calle Mayor están terminando de recogerlos. El sitio, ya casi vacío, irradia tranquilidad. \n\n Coloca el módulo {c:TileMarket} en el lugar señalado.
+EventMarketPlace.button1,Continuar
+TokenMarketSight2Fountain.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenMarketSight2Fountain.button1,Echar un vistazo
+EventFountainPlace.text,La fuente que hay al final de la calle Mayor es el orgullo y la alegría de la ciudad. Ajena a lo que va a acontecer, el agua fluye en un ciclo sin fin de arriba a abajo. Casi consigue que te olvides de por qué estás aquí. \n\n Coloca el módulo Plaza Mayor {MAD20} en el lugar señalado.
+EventFountainPlace.button1,Continuar
+EventFountainAddDoor.text,Una enorme mansión se alza hacia el oeste de la plaza Mayor. La fuente proyecta una larga sombra solitaria sobre la puerta. ¿Qué aguardará en su oscuro interior? \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventFountainAddDoor.button1,Continuar
+TokenMansionDoor.text,Una enorme mansión se alza hacia el oeste de la plaza Mayor. La fuente proyecta una larga sombra solitaria sobre la puerta. ¿Qué aguardará en su oscuro interior?
+TokenMansionDoor.button1,{action} Examinar
+EventMansionDoorInvestigate.text,La puerta de la mansión es una gigantesca y magnífica obra de arte. Mirando con más atención descubres una serie de pequeñas esculturas talladas en el marco de la puerta, que simbolizan ángeles, demonios, muerte y decadencia. Una calavera de bronce con un aro sirve de aldabón.
+EventMansionDoorInvestigate.button1,Llamar a la puerta
+EventMansionDoorInvestigate.button2,Forzar la cerradura {agility}
+EventMansionDoorPicked.text,En silencio abres la puerta que conduce a un gran vestíbulo. \n\n Coloca el módulo {c:TileLobby} en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+PuzzleMansionDoorEasy.button1,Hecho
+EventMansionDoorPicked.button1,Continuar
+TokenStudyDoor.text,Una vieja puerta de madera, tallada con esmero en madera de roble.
+TokenStudyDoor.button1,{action} Examinar
+EventStudyPlace.text,Coloca el módulo {c:TileStudy} en el lugar señalado. \n\n A continuación, descarta la ficha de Exploración.
+EventStudyPlace.button1,Continuar
+EventLobbyPlaceDoorStudy.button1,Continuar
+SpawnButler.text,Tu entrada a la fuerza no pasa desapercibida. El mayordomo del profesor se te acerca, determinado a sacarte a patadas de la casa por el mismo sitio por el que entraste, aunque de un modo más ruidoso en esta ocasión. \n\n Coloca al Sacerdote de Dagón para representar al mayordomo en el lugar señalado.
+EventLobbyPlaceDoor2.button1,Continuar
+EventLobbyPlaceDoorLibrary.text,Una puerta, tan elegante como las demás. Una luz brillante se filtra a través del marco. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenLobbyDoor2.text,Para esta puerta es necesaria una llave, que no posees.
+EventLobbyPlaceDoor3.text,Otra puerta de madera de roble elaborada con maestría. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventLobbyPlaceDoor3.button1,Continuar
+TokenLobbyDoor3.button1,{action} Examinar
+EventLobbyDoor3Investigate.text,Detrás de esta puerta hay un comedor decorado con primor. No hay nadie dentro y no ves nada interesante.
+TokenLobbyDoor3.text,Otra puerta de madera de roble elaborada con maestría.
+EventLobbyDoor3Investigate.button1,Continuar
+EventLobbyPlaceMirror.text,Un enorme espejo cuelga de la pared. El marco está finamente tallado en marfil con una calavera con alas de demonio. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLobbyPlaceMirror.button1,Continuar
+TokenLobbyMirror.text,Un enorme espejo cuelga de la pared. El marco está finamente tallado en marfil con una calavera con alas de demonio. \n
+TokenLobbyMirror.button1,{action} Examinar
+EventLobbyMirrorInvestigate.text,Queriendo o sin querer, te miras en el espejo. Todo parece normal. Quizá pareces un poco estresado. Seguramente te hacen falta unas vacaciones. \n Con cuidado, sacas una cuchilla de afeitar que llevabas encima. La sostienes en tu mano. Te miras la muñeca, tus venas parecen unas amplias carreteras. Con un placer malsano hundes la cuchilla en tus venas. \n\n Sufres 1 de Horror y 1 de Daño. \n\n Descarta esta ficha de Búsqueda.
+EventLobbyMirrorInvestigate.button1,Continuar
+EventLobbyPlaceDoor4.text,Una puerta, de aspecto deslumbrante, como las otras, pero en esta ocasión con un cartel que indica que es la cocina. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventLobbyPlaceDoor4.button1,Continuar
+TokenLobbyDoor4.button1,{action} Examinar
+EventLobbyKitchenInvestigate0.text,Abres la puerta. Dentro descubres a una mujer vieja pero enérgica que está cortando carne con un cuchillo de carnicero del tamaño de un machete. \n\n —<i>¿No ve que estoy ocupada? ¡Márchese antes de que pierda los estribos!</i> \n\n La mujer continúa cortando carne de forma más violenta. Llegas a la conclusión de que habla en serio. \n
+TokenLobbyDoor4.text,Una puerta, de aspecto deslumbrante, como las otras, pero en esta ocasión con un cartel que indica que es la cocina. \n
+EventLobbyKitchenInvestigate0.button1,Continuar
+SpawnKitchenCook.text,—<i>¡Bien, si eso es lo que quiere! ¡Quizá pueda alimentar con usted a los cerdos!</i> \n\n La cocinera se abalanza sobre ti, agitando su enorme cuchillo de carnicero. \n\n Coloca un Sectario en el lugar señalado.
+SpawnKitchenCook.button1,Continuar
+EventMainStreet2Place.text,La calle Mayor continúa al frente. \n\n Coloca el módulo {c:TileMainStreet2} en el lugar señalado.
+EventMainStreet2Place.button1,Continuar
+TokenMainStreet2Sight.text,Un investigador adyacente puede explorar el área que está a continuación.
+TokenMainStreet2Sight.button1,Echar un vistazo
+EventMarketPlaceSights.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventMarketPlaceSights.button1,Continuar
+EventLobbyPlaceDoor2.text,La puerta necesita una llave, la cual no posees. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventLobbyPlaceDoorLibrary.button1,Continuar
+TokenLobbyDoorLibrary.button1,{action} Examinar
+EventLobbyDoorLibraryInvestigate.text,Coloca el módulo {c:TileLibrary} en el lugar señalado. \n\n Descarta la ficha de Exploración. Tienes la oportunidad de avanzar 1 espacio hacia el interior de la biblioteca.
+EventLobbyDoorLibraryInvestigate.button1,Continuar
+EventLibraryPlaceProfessor.text,El hijo de Charles Vanderbilt, a su vez también un profesor Vanderbilt, está sentando en una silla de ruedas, leyendo un libro. No levanta la mirada cuando entras. En cambio, te pregunta: \n\n —<i>¿Quién es usted?</i> \n\n Coloca la ficha de Personaje y una ficha de Pared en el lugar señalado.
+EventLibraryPlaceProfessor.button1,Continuar
+EventVanderbiltTalkKilled.button2,{action} —<i>Somos amigos, hemos venido a ayudarle.</i> ({influence})
+TokenMansionProfessor.button1,Continuar
+EventLobbyPlaceDoorOffice.button1,Continuar
+TokenLobbyDoorOffice.text,La puerta está ligeramente entreabierta. De su interior no sale ninguna luz.
+EventLobbyPlaceDoorOffice.text,La puerta está ligeramente entreabierta. De su interior no sale ninguna luz. \n\n Coloca una ficha de Exploración en el lugar señalado.
+TokenLobbyDoorOffice.button1,{action} Examinar
+EventLobbyDoorOfficeInvestigate.text,Coloca el módulo {c:TileOffice} en el lugar señalado.
+EventLobbyDoorOfficeInvestigate.button1,Continuar
+TokenLobbyDoorLibrary.text,La puerta tiene la misma calidad que las anteriores. Una brillante luz se filtra a través de las rendijas.
+EventMansionDoorKnocked.text,Llamas a la puerta. Al cabo de unos instantes oyes el ruido de unas pisadas acercándose. Un hombre sexagenario, bien vestido y arreglado, abre la puerta. \n\n Coloca el módulo {c:TileLobby} en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventMansionDoorKnocked.button1,Continuar
+EventLobbyPlaceButler.text,El hombre es el mayordomo del profesor Vanderbilt. Su impasible rostro te escruta y, por las palabras que elige al hablar contigo, te hace sentir que le estás molestando en sus quehaceres diarios, así que tendrás que medir las tuyas. \n\n —<i>¿Qué es lo que le trae aquí a esta hora tan temprana?</i> \n\n Coloca la ficha de Personaje en el lugar señalado. \n\n <b>En este momento tendrás que reutilizar la ficha que anteriormente representaba a tu tío. Esto no indica que el mayordomo y tu tío sean la misma persona, simplemente que vas a usar la misma ficha, nada más)</b>.
+EventLobbyPlaceButler.button1,Continuar
+EventLobbyPlaceDoorStudy.text,Una vieja puerta de madera de roble. \n\n Coloca una ficha de Exploración en el lugar señalado.
+SpawnButler.button1,Continuar
+EventStorePlaceTile2.text,La calle Mayor continúa al otro lado de la licorería de tu tío. \n\n Coloca el módulo {c:TileMainStreet2} en el lugar señalado. \n\n Coloca fichas de Vistazo en los lugares señalados.
+EventStorePlaceTile2.button1,Continuar
+EventLiquorStoreDoor2Place.text,La puerta principal de la licorería de tu tío. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLiquorStoreDoor2Place.button1,Continuar
+TokenLiquorStoreDoor2.text,La puerta principal de la licorería de tu tío. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenLiquorStoreDoor2.button1,{action} Entrar
+EventLiquorStorePlaceUncle.text,Tu tío está de pie detrás del mostrador, esperando al primer cliente del día. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventLiquorStorePlaceUncle.button1,Continuar
+TokenStoreUncle1.text,Tu tío está de pie detrás del mostrador, esperando al primer cliente del día.
+TokenStoreUncle1.button1,{action} —<i>¿Qué demonios está pasando en el sótano de tu cabaña?</i>
+EventAlley3StoreDoorOpenUnplaced.text,Con un poco de maña y otro poco de suerte, consigues abrir la cerradura. \n\n Coloca el módulo {c:TileLiquorStore} en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventAlley3StoreDoorOpenPlaced.button1,Continuar
+EventMysteriousDrawingIncomplete.text,Estás seguro de que has colocado las piezas en el orden correcto, pero te siguen faltando algunas de ellas.
+EventAlley1ManTalk2.button2,—<i>Nada, olvídelo.</i>
+EventAlley1ManTalk21.text,—<i>En realidad</i> —dice el anciano—, <i>lo hay. Llevo conmigo uno de los fragmentos del dibujo desde una de mis últimas aventuras. Nunca he podido sacar nada de él. </i> \n\n Ganas el Objeto único Prueba fotográfica. Representa el misterioso dibujo que el anciano te ha entregado. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de «Prueba fotográfica». Puedes interactuar con el Inventario para ver cuántas piezas tienes ya. \n\n —<i>Me estoy quedando helado y debo entrar. Ha sido un placer charlar con usted.</i> \n\n Descarta la ficha de Personaje. Ganas 1 Pista {clue}.
+EventAlley1ManTalk21.button1,Continuar
+EventMysteriousDrawingLook.button1,Mirar las piezas
+EventMysteriousDrawingInspect.text,A menos que tengas todas las piezas del mapa no podrás recomponerlo de forma adecuada.
+EventMysteriousDrawingComplete.text,Según lo que pone en el mapa, debería haber un túnel escondido en la oficina, el cual lleva a la licorería de tu tío. Tiene pinta de ser una ruta usada por contrabandistas durante la Ley Seca. Convenientemente, otro túnel conecta la licorería con el puerto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMysteriousDrawingComplete.button1,Continuar
+TokenAlley1Man1C.button1,{action} —<i>¿Hay algo que hayas dejado pendiente?</i>
+TokenAlley1Man1C.text,Agradecido por recuperar sus gafas, el anciano aguarda en el callejón con la esperanza de que tengas algo más de tiempo para charlar con él.
+TokenAlley1Man1C.button2,—<i>Nada, olvídelo.</i>
+EventStoreUncleTalk2.button1,—<i>¿Hay algo más que me quieras decir?</i>
+TokenStoreUncle2.button1,{action} —<i>¿Quién fue el último inquilino de la cabaña?<i>
+TokenStoreUncle2.text,Tu tío se alegra de verte, y además parece un poco preocupado por el estado de tu vestimenta.
+EventStoreUncleTalk1.button2,—<i>Maldita sea, sí.</i>
+EventStoreUncleTalk1.button3,—<i>No, todo va bien.</i>
+EventStoreUncleTalk1.text,—<i>No tengo ni idea de lo que me estás hablando. Ya te he dicho que hace años que no voy. ¿Acaso descubriste algo fuera de lo común?</i>
+EventStoreUncleTalk1.button1,—<i>Bueno, encontramos unas pruebas de lo más inquietantes...</i>
+EventStoreUncleTalk11.text,Le haces un resumen a tu tío de todo lo sucedido y le enseñas las pruebas que has recopilado. \n\n —<i>Vaya, es realmente preocupante. No tengo ni idea de cómo llegaron ahí esas cosas. Pudo ser el último inquilino o que alguien se colase. </i>
+EventStoreUncleTalk11.button1,Continuar
+EventStoreUncleTalk2.text,—<i>El profesor Vanderbilt. Sí, lo recuerdo muy bien. Desapareció poco después. La policía nunca buscó en el lugar. Siempre me he preguntado por qué. Para ser sincero, temía que encontrases el cuerpo del profesor allí. Colgando del techo o algo así. Supongo que la razón por la que nunca fui sería esa, encontrármelo muerto. \n Si realmente quieres saber qué es lo que sucedió esos días, deberías hablar con su hijo. Él también es profesor de lo oculto. De tal palo, tal astilla, me imagino. Vive en la mansión que está en la plaza del pueblo. </i> \n
+EventStoreUncleTalk21.text,—<i>En realidad sí que lo hay. Como eres un investigador de lo extraño, quizá puedas echarle un vistazo a esto.</i> \n\n Te entrega una parte de un dibujo que parece ser un trozo de un viejo mapa. Ganas el Objeto único «Prueba fotográfica», el cual representa a los fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de «Prueba fotográfica». Puedes interactuar con el Inventario para ver cuántas piezas tienes ya. \n\n —<i>Siempre me he preguntado para qué sería. Quizá tú lo averigües. \n\n —Gracias</i>— <i>le respondes—, <i>le echaré un vistazo.</i> \n\n —<i>Estupendo, ahora si me disculpas, tengo que recoger una cosa. ¿Te importaría hacerte a cargo de la tienda durante mi ausencia?</i>
+EventStoreUncleTalk21.button1,—<i>Sin problemas.</i>
+EventLiquorStoreDrawerWithUncle.text,Tendrás que esperar un poco a que tu tío no esté mirando {observation}.
+EventLiquorStoreDrawerWithoutUncle.button1,Continuar
+TokenFountainBurried.text,Hay algo raro en el adoquinado de esta parte.
+TokenFountainBurried.button1,{action} Examinar
+EventFountainBurriedInvestigate.text,Te percatas de que el suelo no está nivelado. El subsuelo está menos compactado, como si hubiesen enterrado algo en este sitio. Necesitarás un pico para cavar.
+EventFountainBurriedInvestigate.button1,Continuar
+EventFountainBurriedPlace.text,Hay algo raro en el adoquinado de esta parte. Es irregular y le falta cohesión. Quizá hayan enterrado algo en este sitio. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventFountainBurriedPlace.button1,Continuar
+EventMansionStudyWallPlace.text,Coloca una ficha de Pared en el lugar señalado.
+EventMansionStudyWallPlace.button1,Continuar
+TokenMansionStudyFireplace.text,La chimenea es una maravillosa obra de arte. Un cráneo de demonio te sonríe desde el centro de la repisa, descansando sobre dos pilares en forma de gárgola. Parece que hay algo entre las cenizas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenMansionStudyFireplace.button1,{action} Examinar
+EventMansionStudyFireplaceInvestigate.text,Hay algo en las cenizas que no es normal. A pesar de los escalofríos, cavas más hondo entre los restos de lo que quiera que fuese quemado aquí y descubres una pequeña lámpara de aceite hecha de latón. \n\n Ganas el Objeto único <i>Lámpara de aceite</i>. Puedes interactuar con ella usando la aplicación. \n\n Descarta la ficha de Búsqueda.
+EventMansionStudyFireplaceInvestigate.button1,Continuar
+EventMansionStudyFireplaceLampInvestigate.text,El fuego ha consumido todo el aceite que quedaba en la lámpara. La lámpara en sí misma está carbonizada.
+EventMansionStudyFireplaceLampInvestigate.button1,{action} Limpiar la lámpara
+SpawnLampGhost.button1,Continuar
+TokenMansionStudyPicture.button1,{action} Arreglar la foto
+SpawnLampGhost.text,Frotar la lámpara no ha servido en realidad para limpiarla. En lugar de eso, se pone al rojo vivo y tienes que dejarla caer. \n\n Un hilo de humo negro comienza a salir de su interior y se arremolina para formar una criatura humanoide. Una criatura con dientes como cuchillas y garras como sables. Una criatura que ha venido a matarte. \n\n Coloca un Fantasma en tu mismo espacio. \n\n A continuación, descarta el Objeto único <i>Lámpara de aceite</i>.
+EventMansionStudyPicturePlace.text,Algo en esta foto te choca. Se ha sacado desde un ángulo imposible. Te deja desconcertado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenMansionStudyPicture.text,Algo en la foto te choca. Se ha sacado desde un ángulo imposible. Te deja desconcertado.
+EventMansionStudyPicturePlace.button1,Continuar
+EventMansionStudyPictureInvestigate.text,Mientras tratas de arreglar el marco de la foto descubres que el papel pintado de la pared está despegado. Hay algo escondido detrás.
+EventMansionStudyPictureInvestigate.button1,Continuar
+TokenMansionStudyWallpaper.text,El papel pintado de la pared está despegado. Hay algo escondido detrás.
+TokenMansionStudyWallpaper.button1,{action} Quitar el papel pintado de la pared
+EventMansionStudyWallpaperRemove.text,El papel pintado sale con facilidad. Oculta detrás de él hay una grieta en la pared. Un aroma a maldad flota en el aire. ¿O es simplemente una rata muerta? \n\n Descarta la ficha de Pared y coloca una ficha de Pared en el lugar señalado. A continuación, coloca sobre ella una ficha de Búsqueda.
+EventMansionStudyWallpaperRemove.button1,Continuar
+TokenMansionStudyWallInvest.text,Hay una grieta en la pared. Un aroma a maldad flota en el aire. ¿O es simplemente una rata muerta?
+TokenMansionStudyWallInvest.button1,{action} Examinar
+EventMansionStudyHoleInvestigate.text,Introduces tu mano en el interior de la negra grieta de la pared. \n\n Prueba de {will}.
+EventMansionStudyHoleInvestigate.button1,Continuar
+EventMansionStudyHoleFail.text,Con cuidado, introduces tu mano en la grieta. Tus dedos tocan una superficie dura y rugosa, con numerosas fracturas y hendiduras. En tu imaginación toma la forma de una pared de calaveras y huesos. Tus manos comienzan a temblar y un escalofrío recorre tu espalda. En ese momento, una de las calaveras intenta morderte, pero consigues apartar la mano a tiempo. \n\n Sufres 1 de Horror.
+EventMansionStudyHoleFail.button1,Continuar
+EventMansionStudyHoleSuccess.text,Tus dedos recorren el interior de la grieta. Buscas una abertura y a media altura la encuentras. Dentro consigues recuperar un trocito de papel. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>, representando a los misteriosos fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de <i>Prueba fotográfica</i> y serán añadidas a las que ya poseas. Puedes interactuar con el mapa a través del Inventario y ver cuántas piezas tienes ya. \n\n Ganas 1 Pista {clue}.
+EventMansionStudyHoleSuccess.button1,Continuar
+TokenMansionOfficeDrawers.text,El archivador parece de los que contienen secretos, lo que no quiere decir que no les puedas echar un vistazo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenMansionOfficeDrawers.button1,{action} Examinar
+EventMansionOfficeDrawersInvestigate.text,Los archivos documentan mucho más que una simple trayectoria vital. Charles Vanderbilt estaba obsesionado con el ocultismo. Estudió un gran número de extraños lugares alrededor del mundo, siempre en busca de lo que él consideraba la «llave». Un artefacto tan poderoso, tan cargado de magia, que sin duda proporcionaría a una persona normal el poder para lanzar hechizos y convocar criaturas, pero sobre todo, la habilidad para viajar a un universo paralelo. \n\n Por lo poco que se sabe, estuvo a punto de perder la cordura por conseguir su meta. \n\n Aunque su hijo siguió sus pasos, no fue hasta después de la desaparición de su padre. Al contrario que su padre, su investigación se movió más por la parte teórica. No viajó a los cuatro rincones del mundo, sino que pasó incontables horas en las bibliotecas. \n\n Todos los investigadores reciben 1 Pista {clue}. A continuación, descarta la ficha de Búsqueda.
+EventMansionOfficeDrawersInvestigate.button1,Continuar
+EventMansionStudyFireplacePlace.text,La chimenea es una maravillosa obra de arte. Un cráneo de demonio te sonríe desde el centro de la repisa, descansando sobre dos pilares en forma de gárgola. Parece que hay algo entre las cenizas.
+EventMansionStudyFireplacePlace.button1,Continuar
+EventMansionOfficeDrawersPlace.text,El archivador parece de los que contienen secretos, lo que no quiere decir que no les puedas echar un vistazo, \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMansionOfficeDrawersPlace.button1,Continuar
+EventMansionButlerPresent.text,En cuanto colocas la mano sobre el pomo, el mayordomo alza la voz: \n\n —<i>No entre. Son estancias privadas. ¿Acaso su madre no le enseñó modales?</i>
+EventMansionButlerPresent.button1,Continuar
+TokenLobbyPlant.text,Sobre la mesa hay una planta en una maceta. Está cerca del borde.
+TokenLobbyPlant.button1,{action} Inclinar la maceta {observation}
+EventLobbyPlantInvestigate.text,Aguardas un rato a que el mayordomo mire para otro lado. \n\n Prueba de {observation}.
+EventLobbyPlantInvestigate.button1,Continuar
+EventLobbyPlantTestFail.text,El mayordomo tienes sus ojos puestos en cada rincón. No te da la más mínima oportunidad.
+EventLobbyPlantTestFail.button1,Continuar
+EventPlantTestSuccess.text,La planta cae al suelo, la maceta se rompe en mil pedazos. El mayordomo entra en cólera. \n\n —<i>¡Patán! ¿Es que no puede tener cuidado de por dónde va? Es una planta muy poco común, ¡y el suelo es una pieza histórica! No toque nada más hasta que regrese con la escoba.</i> \n\n Descarta la ficha de Personaje.
+EventPlantTestSuccess.button1,Continuar
+EventLobbyPlacePlant.text,El mayordomo sin duda es una persona terca. Con él delante, no podrás hacer nada más. Tiene que haber una manera de que puedas deshacerte de él. \n\n Sobre la mesa hay una maceta con una planta. Y está muy cerca del borde de la mesa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLobbyPlacePlant.button1,Continuar
+PuzzleImagePuzzle1Piece.button1,Hecho
+PuzzleImagePuzzle2Pieces.button1,Hecho
+PuzzleImagePuzzle3Pieces.button1,Hecho
+PuzzleImagePuzzle4Pieces.button1,Hecho
+PuzzleImagePuzzle5Pieces.button1,Hecho
+PuzzleImagePuzzle6Pieces.button1,Hecho
+EventMysteriousDrawingIncomplete.button1,Continuar
+EventMysteriousDrawingLook.text,El dibujo parece ser una clase de mapa. Sin tener todas las piezas no puedes hacerte una idea clara de qué representa.
+EventMysteriousDrawingInspect.button1,Continuar
+EventMysteriousDrawingSolve.text,Ahora que tienes todas las piezas las puedes unir en el orden correcto para formar el mapa.
+EventMysteriousDrawingSolve.button1,{action} Unir los fragmentos del mapa
+EventLiquorStoreLeftTunnelSearch.text,Según lo que pone en el mapa, debería haber un túnel escondido en el estudio, el cual lleva a la licorería de tu tío. Tiene pinta de ser una ruta usada por contrabandistas durante la Ley Seca. Convenientemente, otro túnel conecta la licorería con el puerto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLiquorStoreLeftTunnelSearch.button1,Continuar
+TokenLiquorStoreLeftTunnelSearch.text,Según lo que pone en el mapa, debería haber un túnel escondido en la oficina, el cual lleva a la licorería de tu tío. Tiene pinta de ser una ruta usada por contrabandistas durante la Ley Seca. \n\n Tienes la oportunidad de resolver la ficha de Búsqueda de la licorería \n mientras estés en la oficina o en la licorería.
+TokenLiquorStoreLeftTunnelSearch.button1,{action} Examinar
+EventLiquorStoreRightTunnelSearch.text,Según el mapa, un túnel secreto debería llevarte desde aquí hasta el puerto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventLiquorStoreRightTunnelSearch.button1,Continuar
+TokenLiquorStoreRightTunnelSearch.text,Según el mapa, un túnel secreto debería llevarte desde aquí hasta el puerto.
+TokenLiquorStoreRightTunnelSearch.button1,{action} Examinar
+EventHarborTunnelExit.text,Según el mapa, un túnel secreto debería llevarte desde aquí hasta la licorería. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventHarborTunnelExit.button1,Continuar
+TokenHarborTunnelExit.text,Según el mapa, un túnel secreto debería llevarte desde aquí hasta la licorería. \n\n Puedes resolver esta ficha de Búsqueda bien desde el quiosco o bien desde la licorería.
+TokenHarborTunnelExit.button1,{action} Examinar
+TokenOfficeSecretDoor.text,Según lo que pone en el mapa, debería haber un túnel escondido en la oficina, el cual lleva a la licorería de tu tío. Tiene pinta de ser una ruta usada por contrabandistas durante la Ley Seca.
+TokenOfficeSecretDoor.button1,{action} Examinar
+EventOfficeSecretDoorInvestigate.text,Oculta detrás de un armario antiguo encuentras la entrada a un túnel secreto. \n\n Sustituye la ficha como se señala. \n\n Desde este momento, el espacio con la entrada en la oficina se considera adyacente al espacio en la licorería. Podrás usar el túnel tan pronto como resuelvas la ficha de Búsqueda en el otro extremo. \n\n Puedes resolver la ficha de Búsqueda en la licorería \n mientras estás todavía en la oficina.
+EventOfficeSecretDoorInvestigate.button1,Continuar
+EventLiquorStoreLeftTunnelSearchResult.text,La entrada de este lado ha sido tapiada. Necesitarás usar la fuerza bruta para atravesarla {strength}. Ganas 2 dados extra si tienes una herramienta apropiada como la almádena o el pico.
+EventLiquorStoreLeftTunnelSearchResult.button1,Continuar
+EventLiquorStoreLeftTunnelSuccess.text,Después de un poco de esfuerzo consigues pasar al otro lado a través del muro. El camino está libre. \n\n Reemplaza las fichas como se señala. El túnel secreto conecta la licorería con la oficina.
+EventLiquorStoreLeftTunnelSuccess.button1,Continuar
+EventLiquorStoreLeftTunnelFail.text,Es como golpear una piedra. La pared simplemente no cede.
+EventLiquorStoreLeftTunnelFail.button1,Continuar
+EventLiquorStoreRightTunnelSearchTest.text,Donde quiera que esté la entrada al túnel, una cosa está clara, y es que está bien escondida. Prueba de {observation}.
+EventLiquorStoreRightTunnelSearchTest.button1,Continuar
+EventLiquorStoreRightTunnelSuccess.text,Eso es, una de las tablas de madera está suelta. Tiras de ella y descubres una entrada al túnel. Rápidamente retiras más tablas hasta que dejas un hueco suficientemente amplio como para caber por él. \n\n Coloca una ficha de Trampilla en el lugar señalado. \n\n Esta trampilla conecta el espacio derecho de la licorería con el quiosco del puerto. Estos dos espacios se consideran adyacentes. Podrás pasar a través del túnel tan pronto como resuelvas la ficha de Búsqueda del quiosco. Puedes hacerlo mientras todavía estés en la licorería. \n\n Descarta las fichas del quiosco del puerto como se señala.
+EventLiquorStoreRightTunnelSuccess.button1,Continuar
+EventHarborTunnelExitInvestigate.text,Por desgracia, la salida está cerrada con llave. Tendrás que forzar la cerradura para escapar. \n\n Gasta una Pista si eres de los que odian los rompecabezas de códigos para obtener directamente el resultado sin tener que resolverlo.
+EventHarborTunnelExitInvestigate.button1,Forzar la cerradura
+PuzzleHarborTrapDoorLockEasy.button1,Hecho
+EventHarborTrapDoorLockSuccess.text,Consigues abrir la cerradura, levantas la trampilla y te abres camino hacia el otro lado. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+PuzzleHarborTrapDoorLockMedium.button1,Hecho
+PuzzleHarborTrapDoorLockHard.button1,Hecho
+EventHarborTrapDoorLockSuccess.button1,Continuar
+EventMansionButlerAgressive.text,—<i>Recapitulemos. Creo que no le he comprendido correctamente. ¿Me está amenazando? </i> \n\n Prueba de {strength}.
+EventMansionButlerAgressive.button1,Continuar
+EventMansionButlerAgressivSuccess.text,—<i>Bien, si lo plantea de ese modo, estaré en mis aposentos, pensando en mis cosas.</i> \n\n Descarta la ficha de Personaje.
+EventMansionButlerAgressivSuccess.button1,Continuar
+EventMansionButlerAgressiveFail.text,—<i>Se lo he pedido por las buenas, pero si lo que quiere es que lo haga por las malas, entonces será por las malas.</i> \n\n Descarta la ficha de Personaje. En su lugar, coloca un Sacerdote de Dagón.
+EventMansionButlerAgressiveFail.button1,Continuar
+SpawnButler2.text,—<i>¡Es hora de morir!</i>
+SpawnButler2.button1,Continuar
+EventMansionLobbyButlerDefeated.text,Te deshaces del mayordomo, sin llamar mucho la atención.
+EventMansionLobbyButlerDefeated.button1,Continuar
+EventMansionLobbyButlerTalk1.text,—<i>El profesor está ocupado. Si quiere, ¡le puedo dar un mensaje!</i> \n\n Prueba de {influence}.
+EventMansionLobbyButlerTalk1.button1,Continuar
+EventMansionLobbyButlerTalk1Success.text,—<i>Teniendo en cuenta las circunstancias, puede ir a ver al profesor ya mismo. Está en el biblioteca. Subiendo las escaleras, la primera puerta a la izquierda. </i>
+EventMansionLobbyButlerTalk1Success.button1,Continuar
+EventMansionLobbyButlerTalk1Fail.text,—<i>Tendrá que hacer una reserva, como cualquier otra persona. Venga el 29 de febrero.</i>
+EventMansionLobbyButlerTalk1Fail.button1,Continuar
+EventVanderbiltTalkKilled.button3,{action} —<i>Simplemente los asesinos de nuestra plantilla.</i>
+EventVanderbiltTalk4.button1,Continuar
+EventVanderbiltTalkKilled.text,El hijo de Charles Vanderbilt, James Vanderbilt, está sentando en una silla de ruedas, leyendo un libro. No levanta la mirada cuando entras. En cambio, te pregunta: \n\n —<i>¿Quién es usted?</i>
+EventVanderbiltTalkKilled.button4,—<i>No importa</i>.
+EventVanderbiltTalk1TestSuccess.button2,{action} —<i>¿Qué sabe de la muerte de su padre?</i>
+EventVanderbiltTalk1Test.text,Tratas de intimidar al anciano. No crees que te vaya a resultar difícil. Pero, ahora que estás en esa situación te das cuenta de que su cuerpo de avanzada edad no está para resistir nada. Prueba de {strength}.
+EventVanderbiltTalk4.text,—<i>¿Por qué me está contando esto? ¿Quiere asustarme o quiere asegurarse de que contraten a alguien para reemplazarme?</i> \n\n Se da la vuelta con la silla de ruedas. \n\n —<i>¡Míreme! ¿Tengo pinta de que me asuste la muerte?</i> \n\n Le miras a los ojos y éstos te devuelven historias de horror mucho mayores que la muerte. Su alma está plagada de cicatrices tan profundas que afloran en su rostro arrugado. Está claro que este hombre recibirá a la muerte como quien recibe a un viejo amigo al que lleva mucho tiempo esperando. \n\n —<i> Y bien, ¿qué me dice? </i>
+EventVanderbiltTalk1Test.button1,Continuar
+EventVanderbiltTalk1TestFail.text,—<i>Obviamente, usted no. Semánticamente eso era una declaración. Incorrecta en cuanto al contenido. Así que, joven, vamos a intentarlo otra vez. No como castigo, sólo para aprender. ¿Quién es usted?</i>
+EventVanderbiltTalk1TestFail.button1,Continuar
+EventVanderbiltTalk1TestSuccess.text,—<i>De acuerdo. ¿Cuál es su pregunta?</i>
+EventVanderbiltTalk1TestSuccess.button1,{action} —<i>¿Qué sabe de su padre?</i>
+EventVanderbiltTalk3.text,Intentas suavizar el tono de la conversación con el profesor hablándole como si fueseis amigos {influence}.
+EventVanderbiltTalk1TestSuccess.button3,{action} —<i>¿Qué sabe de este libro?</i>
+CustomMonsterLobbyCook.info,-
+EventLobbyCookKilled.text,Tras haber provocado a la temperamental cocinera, la has matado. Mientras rebuscas en sus bolsillos decides quedarte con el cuchillo de carnicero. \n\n Ganas el Objeto común Cuchillo de carnicero.
+CustomMonsterLobbyCook.monstername,Cocinera
+EventLobbyCookKilled.button1,Continuar
+EventVanderbiltTalk1TestSuccess.button4,{action} —<i>¿Sabía que su padre estaba en la cabaña de mi tío?</i>
+EventVanderbiltTalk1TestSuccess.button5,—<i>No importa</i>.
+EventVanderbiltTalkDeath.text,—<i>Técnicamente mi padre está desaparecido. Lleva mucho tiempo desaparecido y su edad ya es avanzada, por lo que su muerte es bastante probable, pero no segura. Así que me pregunto que lo que realmente quiere usted saber es qué se yo de su desaparición. \n\n Bueno, es parte de un misterio. Mi padre soñó durante toda su vida con poder probar su teoría del multiverso. La única manera que había de conseguirlo era, obviamente, viajar a otro universo y conseguir algún tipo de prueba. Mi padre era un ferviente creyente de que, como la teoría era verdad, al menos sería posible traer hasta nosotros a un multiverso. Durante toda su vida investigó buscando una evidencia. El libro, ése que él llamaba el Libro Impío, era su última esperanza para conseguirla. \n\n Los últimos 10 años he estado reuniendo y estudiando toda la información referente a ese libro y lo que he encontrado me ha convencido de que está relacionado con la desaparición de mi padre. Quizá ahora mismo esté bien y se encuentre viviendo en otro universo.</i>
+EventVanderbiltTalkDeath.button1,Continuar
+EventVanderbiltTalkFather1.button1,Continuar
+EventVanderbiltTalkFather2.text,—<i>En un momento dado conseguimos cierto renombre entre la gente que pensaba como él. Cuando se inauguró una nueva cátedra de arqueología en la universidad local, no dudaron en dársela a él por la influencia de sus seguidores y de los artefactos que trajeron. Convirtió el departamento en un departamento de Metafísica, investigando las Ciencias ocultas en general, intentando encontrar pistas que le llevase a otro universo. \n\n Al ser un profesor titular, pudo hacer todo lo que quiso, y se aprovechó de eso en numerosas ocasiones. Viajó por el mundo buscando esa pista clave. Ello le llevó a la locura.</i>
+EventVanderbiltTalkKnow.text,Se lo explicas a James Vanderbilt. \n\n —<i>¿Sabía que su padre pasó sus últimos días con vida en la cabina que mi tío tiene en el bosque?</i> \n\n —<i>No, no lo sabía. ¿Y usted cómo lo sabe?</i> \n\n —<i>Decidimos tomarnos unos días de descanso allí. Al poco de llegar advertimos que algo raro estaba pasando. Encontramos el cuerpo de su padre en el pozo. Debió ahogarse. Lo enterramos como es debido.</i> \n\n James Vanderbilt asiente. \n\n —<i>Dentro de la cabaña encontramos algunas pruebas de lo que su padre estaba haciendo.</i> \n\n Le muestras a James Vanderbilt las pruebas que recogisteis.
+EventVanderbiltTalkKnow.button1,Continuar
+EventVanderbiltTalkKnow2.text,—<i>Según esta prueba</i> —dice el profesor—, <i>parece que mi padre finalmente encontró lo que estaba buscando. Parece que el ritual que intentó realizar abre una puerta a otro universo. Y como ya se ha dado cuenta, el portal se abre a través de superficies de agua, teñirlas de negro facilita el ritual. \n\n De todo ello deduzco que mi padre abrió el portal y lo cruzó. Cuando regresó, no abandonó el círculo ritual pero por desgracia apareció en el pozo. No pudo salir de él y murió de inanición. No se me ocurre una muerte más terrible para mi padre.</i> \n\n El profesor hace una dramática pausa antes de continuar. \n\n —<i>A mi entender, a pesar de su interferencia, de algún modo usted reactivó el portal. Esa vez las criaturas del otro lado lograron cruzar. Y están siendo atraídas hacia el Libro Impío como las polillas a la luz.</i>
+EventVanderbiltTalkKnow2.button1,Continuar
+EventVanderbiltTalkBook.text,—<i>El libro. El gran misterio. Desde el mismo día en que mi padre desapareció, comencé a investigar su historia. Siempre sospeché que podía ser la clave de la desaparición de mi padre, de una manera u otra. A medida que investigaba en el pasado del libro, de algún modo seguía los pasos de mi padre. En realidad, hasta ocupé su cátedra en la universidad cuando me la ofrecieron. Pensaron que el nombre de Vanderbilt todavía tenía prestigio. No sé si cumplí con sus expectativas, las mías si lo fueron. Tuve acceso a los documentos de mi padre y a sus investigaciones no publicadas. \n\n Resultó que mi padre tropezó con el libro de forma inesperada en una de sus búsquedas de tesoros en el Pacífico sur. Inmediatamente comprendió que el libro era un artefacto que estaba fuera de lugar, ya que fue encontrado en un yacimiento de una cultura que nunca desarrolló la creación de libros.</i>
+EventVanderbiltTalkBook.button1,Continuar
+EventVanderbiltTalkWhatToDoFull.button1,—<i>¡Conseguir abrirnos paso hasta el puerto y escapar en barco!</i>
+EventVanderbiltTalkWhatToDoFull.button2,—<i>Usar el túnel para alcanzar el puerto y escapar en barco.</i>
+EventVanderbiltTalkKillReason.text,—<i>La naturaleza malvada del libro es la culpable de que hayas matado hoy. Esto es sólo el principio. E irá a peor.</i>
+EventVanderbiltTalkKillReason.button1,Continuar
+EventVanderbiltTalkNoKill.button1,{action} —<i>Las preguntas las hacemos nosotros.</i> ({strength})
+EventVanderbiltTalk3.button1,Continuar
+EventVanderbiltTalk3FailKills.text,—<i>Eres una especie de amigo. Así que, dígame, amigo, ¿por qué ha matado a mi empleado?</i>
+EventVanderbiltTalk3FailKills.button1,Continuar
+EventVanderbiltQuestionsForDeathFatherBook.button1,{action} —<i>Cuéntenos sobre su padre.</i>
+EventVanderbiltQuestionsForDeathFatherBook.button2,{action} —<i>¡Cuéntenos sobre este libro!</i>
+EventVanderbiltQuestionsForDeathFatherBook.button3,—<i>No importa</i>.
+EventVanderbiltQuestionForDeathBook.text,—<i>¿Qué puedo hacer por usted?</i>
+EventVanderbiltTalkAboutFatherTop.text,—<i>Claro. ¿Qué es lo que desea saber acerca de mi padre?</i>
+EventVanderbiltTalkAboutFatherTop.button1,—<i>¿Qué es lo que sabe de su muerte?</i>
+EventVanderbiltQuestionForDeathFather.button1,{action} —<i>¿Qué sabe de la muerte de su padre?</i>
+EventVanderbiltQuestionForDeathFather.button2,{action} —<i>Cuéntenos sobre su padre.</i>
+EventVanderbiltQuestionForDeathFather.button3,—<i>No importa</i>.
+EventVanderbiltQuestionsForDeathFatherBook.text,—<i>¿Qué puedo hacer por usted?</i>
+EventVanderbiltQuestionForDeathFather.text,—<i>¿Qué puedo hacer por usted?</i>
+EventVanderbiltQuestionForDeathBook.button1,{action} —<i>¿Qué sabe de la muerte de su padre?</i>
+EventVanderbiltQuestionForDeathBook.button2,{action} —<i>¡Cuéntenos sobre este libro!</i>
+EventVanderbiltTalkFatherBook.text,—<i>¿Qué puedo hacer por usted?</i>
+EventVanderbiltTalkAboutFatherTop.button2,—<i>¿Qué puede decirme sobre su padre?</i>
+EventVanderbiltTalkFatherBook.button1,{action} —<i>¿Qué me puede decir de su padre?</i>
+EventVanderbiltTalkFatherBook.button2,{action} —<i>¡Cuéntenos sobre este libro!</i>
+EventVanderbiltTalkFatherBook.button3,—<i>No importa</i>.
+EventVanderbiltTalkFatherOnly.button1,Button1
+EventVanderbiltTalkBookOnly.button1,Button1
+EventVanderbiltTalkKilled.button1,{action} —<i>Las preguntas las hacemos nosotros.</i> ({strength})
+EventVanderbiltTalkNoKill.button2,{action} —<i>Somos amigos, hemos venido a ayudarle.</i> ({influence})
+EventVanderbiltTalkNoKill.button3,—<i>No importa</i>.
+EventVanderbiltTestsUsed.button2,{action} —<i>Cuéntenos sobre este libro.</i>
+EventVanderbiltTestsUsed.text,—<i>¿En qué puedo ayudarle?</i>
+EventVanderbiltTalkTestUsed.button1,Continuar
+EventVanderbiltTalkSuccess.button1,Continuar
+EventVanderbiltTalkBook2.text,—<i>La lucha se produjo cuando fueron encontrados. Durante la pelea, una tumba fue destruida y el libro se cayó. Un cruzado lo agarró y lo usó para bloquear un golpe de su atacante. La espada apenas pudo clavarse en el libro, pero cuando lo hizo, la leyenda dice que se produjo una explosión, matando a todos excepto al cruzado que la sostenía. \n Al principio, el cruzado creyó que era una intervención divina. \n\n Como encuadernador de libros, el cruzado reparó el libro y lo encuadernó en la piel de las víctimas del libro. Creo que ya podría haber estado bajo el hechizo del libro. Una estela de destrucción siguió al libro hasta Europa. De vuelta en Francia, el cruzado mantuvo el libro escondido en su casa. El pueblo fue asolado por la plaga, pero el cruzado inicialmente se salvó. Los monjes, sospechando que él era la fuente del mal, de alguna manera arreglaron su muerte y tomaron el libro en sus propias manos. Instalaron la cerradura y la escondieron lo más lejos posible de la humanidad. \n\n He estado buscando el lugar del entierro y la tumba rota durante los últimos 5 años. Hasta ahora no tuve suerte. Entonces, cualquier cosa más allá de eso no es más que pura especulación. A juzgar por la escritura, supongo que se origina en Sumeria. El libro podría tener 6500 años. \n\n El libro seguirá atrayendo y causando maldad.</i>
+EventVanderbiltTalkBook2.button1,Continuar
+EventVanderbiltTalkNoKill.text,El hijo de Charles Vanderbilt, James Vanderbilt, está sentando en una silla de ruedas, leyendo un libro. No levanta la mirada cuando entras. En cambio, te pregunta: \n\n —<i>¿Quién es usted?</i>
+EventVanderbiltTestsUsed.button3,{action} —<i>¿Qué sabe de la muerte de su padre?</i>
+EventVanderbiltTestsUsed.button4,{action} —<i>Cuéntenos sobre su padre.</i>
+EventVanderbiltTestsUsed.button1,{action} —<i>¿Sabía que...?</i>
+EventVanderbiltTestsUsed.button5,—<i>No importa</i>.
+EventVanderbiltTalkAlreadyAsked.text,—<i>Ya le he respondido a esa pregunta. ¿Desea saber alguna cosa más?</i> \n\n Vuelves a disponer de la acción {action} gastada.
+EventVanderbiltTalkAlreadyAsked.button1,Continuar
+EventVanderbiltTalkWhatToDoFull.button3,—<i>Lo que usted diga.</i>
+EventVanderbiltTalkWhatToDoFull.button4,—<i>¡Volveremos a por usted! </i>
+EventVanderbiltTalkWhatToDoSmall.button1,—<i>¡Conseguir abrirnos paso hasta el puerto y escapar en barco!</i>
+EventVictoryConditionWhatYouSay.button1,Continuar
+EventVictoryCondtionHarborBlast.text,—<i>Es una idea de lo más heroica. ¡Llévenme con ustedes! </i> \n\n REQUISITOS PARA LA VICTORIA: \n Acabar con la turba. \n Llevar al profesor al barco. \n Llevar a todos los investigadores al barco. \n Poner en marcha el barco. \n\n El profesor Vanderbilt está limitado por su silla de ruedas. Necesitará tu ayuda para moverse. Mover al profesor un espacio necesita 1 acción {action}. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventVictoryCondtionHarborBlast.button1,Continuar
+EventVictoryConditionHarborSneak.text,—<i>Es una idea muy inteligente. ¡Llévenme con ustedes! </i> \n\n REQUISITOS PARA LA VICTORIA: \n Usar el túnel. \n Llevar al profesor al barco. \n Llevar a todos los investigadores al barco. \n Poner en marcha el barco. \n\n El profesor Vanderbilt está limitado por su silla de ruedas. Necesitará tu ayuda para moverse. Mover al profesor un espacio necesita 1 acción {action}.\n\n Coloca una ficha de Interacción en el lugar señalado.
+EventVictoryConditionHarborSneak.button1,Continuar
+EventVanderbiltTalkWhatToDoFull.text,El profesor levanta la vista desde la silla de ruedas, con una mirada penetrante y pregunta: \n\n —<i>¿Qué tienen planeado hacer con todo esto?</i>
+EventVictoryConditionWhatYouSay.text,—<i>Tenemos que encontrar el modo de cerrar la brecha dimensional. Tenemos que coger el barco para llegar a la mansión de la familia Vanderbilt y lidiar con lo que nos encontremos allí. Para conseguir todo esto, sería muy útil conseguir una muestra de sangre del horror que nos acecha.</i> \n\n REQUISITOS PARA LA VICTORIA: \n Infligir {var:NepheracetDamageNeeded} de Daño a Nepheracet \n Llevar al profesor al barco. \n Llevar a todos los investigadores al barco. \n Poner en marcha el barco. \n\n El profesor Vanderbilt está limitado por su silla de ruedas. Necesitará tu ayuda para moverse. Mover al profesor un espacio necesita 1 acción {action}. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventVanderbiltTalkWhatToDoSmall.button2,—<i>Lo que usted diga.</i>
+EventVanderbiltTalkWhatToDoSmall.button3,—<i>¡Volveremos a por usted! </i>
+EventPointDiscussed.text,—<i>Ya hemos hablado de eso. ¿Alguna otra cosa?</i> \n\n Recuperas la acción {action} gastada.
+EventPointDiscussed.button1,Continuar
+EventLobbyPlaceDoorInside.text,Ahora que estás dentro puedes cerrar con llave la puerta.
+EventLobbyPlaceDoorInside.button1,Continuar
+TokenLobbyDoorInside.text,La gigantesca puerta tiene una impresionante cerradura. Gracias a ella, cualquier horror se mantendrá al otro lado.
+TokenLobbyDoorInside.button1,{action} Cerrar la puerta con llave
+EventFountainPlaceSouthMarker.text,La plaza de la Fuente continúa en dirección sur hacia la calle Mayor.
+EventLobbyLockDoor.text,La pesada puerta de madera está cerrada con un robusto candado. \n\n Trata esta ficha como si fuese una obstrucción, con la diferencia de que los monstruos necesitan acumular dos intentos con éxito antes de que puedan atravesarla. Para representar esos dos intentos, coloca otra ficha del mismo tipo sobre la primera ficha. Descarta una de las fichas cuando los monstruos hayan superado con éxito la obstrucción. Cuando la última ficha haya sido descartada, los monstruos han conseguido abrirse paso.
+EventLobbyLockDoor.button1,Continuar
+TokenLobbyDoorLocked.button1,{action} Abrir la cerradura
+EventLobbyDoorUnlock.text,La puerta se abre con facilidad. Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenLobbyDoorLocked.text,La puerta está cerrada. \n\n Trata esta ficha como si fuese una obstrucción, con la diferencia de que los monstruos necesitan acumular tres intentos con éxito antes de que puedan atravesarla. Para representar esos tres intentos, coloca otras dos fichas del mismo tipo sobre la primera ficha. Descarta una ficha cada vez que un monstruo dañe la puerta. Tras descartar la última ficha, la puerta se rompe.
+EventLobbyDoorUnlock.button1,Continuar
+TokenLobbyDoorLocked.button2,La puerta ha sido destruida. Descarta esta ficha.
+EventLobbyDoorDestroyed.text,Los monstruos se han abierto camino. Descarta la ficha.
+EventLobbyDoorDestroyed.button1,Continuar
+TokenAlley2Lady2.text,La joven de melena dorada y dedos largos araña con la llave la puerta, en un intento inútil por abrirla. \n\n —<i>Deme unos arenques y una taza de café y me largaré...</i>
+TokenAlley2Lady2.button1,{action} —<i>Aquí tiene sus arenques.</i>
+TokenAlley2Lady2.button2,{action} —<i>Aquí tiene su café.</i>
+EventAlley2LadyCoffeeInfused.text,La privación del sueño en combinación con los sedantes pronto logran su efecto. La joven apenas puede mantener abiertos sus ojos. La ayudas con la puerta mientras bosteza: \n\n —<i>Voy a entrar y me echaré un ratito. ¡Dígale a Byron que voy enseguida! </i> \n\n Bosteza de nuevo y entra a trompicones. \n\n —<i>Sólo un ratito...</i> \n Cierras la puerta detrás de ella. \n\n Descarta la ficha. \n\n Ganas 2 Pistas {clue}.
+EventAlley2LadyCoffeeInfused.button1,Continuar
+EventAlley2LadyCoffee.text,—<i>¡Me ha salvado usted la vida!</i> \n\n Rápidamente apura su café. \n\n —<i>Dígale a Byron que me iré a verle en breve.</i> \n\n Entra con la intención de refrescarse. \n\n Descarta la ficha de Personaje. \n\n Ganas 1 Pista {clue}.
+EventAlley2LadyCoffee.button1,Continuar
+EventAlley2LadyNoCoffee.text,No tienes café.
+EventAlley2LadyNoCoffee.button1,Continuar
+EventAlley2LadyHerring.text,—<i>¡Gracias! Ha sido de gran ayuda. ¿Por casualidad tiene también algo de café?</i>
+EventAlley2LadyHerring.button1,—<i>Sí, claro. Aquí tiene su café.</i>
+EventAlley2LadyNoHerring.text,No tienes arenques.
+EventAlley2LadyNoHerring.button1,Continuar
+EventNepheracetMove2.text,Mueve a la Semilla estelar de Nepheracet como se señala. \n\n El anciano que está buscando su pitillera, de repente cambia sus prioridades cuando la sombra de Nepheracet cae sobre él. Un trueno resuena al fondo y parece que con él se borran los recuerdos del pobre anciano. Ahora su mente ha alcanzado un nivel de claridad que nunca pensó que fuera posible. Ahora entiende cuáles son los tres placeres de la vida: \n\n Matar. Destripar. Mutilar. \n\n Y tú eres su presa. \n\n Descarta la ficha de Personaje Hombre amarillo y coloca en su lugar un Sectario. \n
+TokenAlley1Lady2.text,La adolescente se sienta en la escalera, soñando despierta y con aire contemplativo. \n\n —<i>¿Cómo va a ser pecado el amor? Oh, Byron, ¡ojalá estuvieras conmigo!</i>
+TokenAlley1Lady2.button1,{action} —<i>Acerca de Byron...</i>
+UIMoneyCount.uitext,Prueba
+EventMoneyCheckBalance.text,En estos momentos tienes {var:Money}$
+EventMoneyCheckBalance.button1,Continuar
+TokenAlley1Purse.text,Hay algo caído detrás de los barriles.
+TokenAlley1Purse.button1,{action} Examinar
+EventAlley1PurseInvestigate.text,Encuentras algo que se parece mucho a un emblema de sectario. \n\n Una inspección más detallada revela que tiene un botón oculto. \n\n Ganas el Objeto único Emblema de sectario. \n\n Puedes interactuar con él usando la aplicación.
+EventAlley1PurseInvestigate.button1,Continuar
+EventPurseMaster.button1,Button1
+EventPurseOpen.button1,{action} Sí, pulsar el botón.
+EventPurseOpen.button2,No, pasar del botón.
+EventAlley1PlacePurse.text,Detrás de unos barriles hay caídos una serie de objetos que no logras identificar con claridad. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPurseChickenOut.text,Demasiado temeroso de lo que podría pasar, decides no pulsar el botón. \n\n Sufres 1 de Horror.
+EventPurseChickenOut.button1,Continuar
+EventPurseOpened.text,Como si fuese un reloj del bolsillo, el emblema se abre al pulsar el botón. Un billete revela el auténtico propósito del emblema. Es un elegante monedero. Encuentras en su interior 20$. \n\n Interactúa con el Emblema en el inventario para ver tu dinero disponible. \n\n Nota: en ningún momento se pretende que los precios que se usan en este escenario reflejen los precios reales de la época.
+EventPurseOpened.button1,Continuar
+EventPurseOpen.text,El emblema de sectario tiene un pequeño botón en un lateral. ¿Quieres pulsarlo?
+EventAlley2PlaceGlasses.button1,Continuar
+TokenAlley2Glasses.text,Inspeccionado más de cerca encuentras entre las hojas un par de viejas y no precisamente muy estilosas gafas.
+EventMarketPlaceWhiteMen.text,Un anciano con una larga cabellera canosa y la piel como el cuero pregona la frescura de las capturas del día. \n\n —<i>¡Pescado fresco, recién descamado, compre el pescado más fresco!</i> \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventMarketPlaceWhiteMen.button1,Continuar
+EventMarketPlaceBlueMan.text,Un hombre de poco más de veinte años se afana en conseguir que su puesto esté listo a tiempo. Por su apariencia dirías que es panadero. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventMarketPlaceBlueMan.button1,Continuar
+TokenMarketBlueMan.text,—<i>Eh, mi nombre es Byron y mi asistente está llegando tarde. Ella llegará en un minuto. ¿Le importaría echarme una mano mientras tanto? </i> \n\n Mientras Byron sigue con lo suyo te das cuenta de que lleva al cuello una cruz de madera atada con un cordón de cuero.
+TokenMarketBlueMan.button1,{action} —<i>Bueno, acerca de su ayudante...</i>
+EventMarketBlueManAssiDrugged.button1,{action} —<i>Pero le podemos echar una mano</i>.
+EventMarketBlueManAssiDrugged.button2,—<i>Pero, conocemos a una buena chica cristiana... </i>
+EventMarketBlueManAssiDrugged.text,—<i>...no creo que su asistente venga hoy. La he visto antes, borracha como una cuba. No creo que hoy esté en condiciones para venir. </i>
+EventMarketBlueManHelp.text,Ayudas a Byron a terminar de montar su puesto. \n —<i>Aquí tiene, por su ayuda. </i>. \n\n Recibes 10$.
+EventMarketBlueManHelp.button1,Continuar
+TokenMarketBlueMan2.text,—<i>La verdad es que necesito ayuda. ¿Puede ir a ver qué pasa con mi asistente? Me estoy cansando de esperar aquí...</i>
+TokenMarketBlueMan2.button1,Continuar
+EventMarketBlueManGirl.text,—<i>...y ella en realidad está con usted. Estoy convencido de que será una «asistente» mucho más fiable</i>. \n\n Prueba de {influence}.
+EventMarketBlueManGirl.button1,Continuar
+EventMarketBlueManGirlSuccess.text,—<i>Creo que la he visto por los alrededores</i> —te explica Byron—, <i>es bastante guapa. Creo sinceramente que podría funcionar. ¿Puede pedirle que venga? </i>
+EventMarketBlueManGirlSuccess.button1,—<i>Por descontado.</i>
+EventMarketBlueManGirlSuccess.button2,—<i>Echemos un vistazo.</i>
+TokenMarketBlueManWaitingForGirl.text,—<i>Ella realmente es una preciosidad. Creo que podrá convencerla. ¿Le importaría pedirle que regrese aquí?</i>
+TokenMarketBlueManWaitingForGirl.button1,Continuar
+EventAlley1LadyByroneWaits.text,—<i>Hemos hablado con Bryon y nos ha dicho que necesita vuestra ayuda. ¡Así que mejor darse prisa e ir al mercado! </i> \n\n —<i>¿En serio?</i> —contesta ella—. <i>Me pondré en marcha. Muchas gracias. ¡Dios os bendiga! </i> \n\n Ganas 1 Pista {clue}.
+EventAlley1LadyByroneWaits.button1,Continuar
+EventMarketBlueManAssiDrunk.text,—<i>La vi borracha como una cuba. No sé lo que va a tardar en venir... </i>
+EventMarketBlueManAssiDrunk.button1,Continuar
+EventNoMoney.text,—<i>Lo siento, pero parece que no tienes suficiente dinero! </i>
+EventNoMoney.button1,Continuar
+EventMarketBlueManGirlFail.text,Parece confundido y se rasca la cabeza. \n\n —<i>¿Y para qué necesitaría yo otra ayudante? Es mi novia, simplemente está llegando tarde, ¡así que no hay de qué preocuparse! </i>
+EventMarketBlueManGirlFail.button1,Continuar
+TokenMarketBlueManWithGirl.text,—<i>¡Gracias por toda la ayuda prestada! ¡Me encanta mi nueva «asistenta»! \n\n Te guiña el ojo y regresa con sus clientes, sonriendo de nuevo a su nueva novia.
+TokenMarketBlueManWithGirl.button1,Continuar
+TokenMarketRedLady.button1,{action} Comprar: Pico (20$)
+TokenMarketRedLady.button2,{action} Comprar: Automática del 45 (20$)
+TokenFountainBurried2.text,Te percatas de que el suelo no está nivelado. El subsuelo está menos compactado, como si hubiesen enterrado algo en este sitio. Necesitarás un pico para cavar.
+TokenFountainBurried2.button1,{action} Desenterrarlo (se necesita un Pico)
+EventFountainBurriedUndig.text,\n Usas el pico para cavar. Después de un rato, dejas al descubierto una cajita de madera. Dentro, encuentras un fragmento del misterioso pergamino. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>, representando a los misteriosos fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de <i>Prueba fotográfica</i> y serán añadidas a las que ya poseas. Puedes interactuar con el mapa a través del Inventario y ver cuántas piezas tienes ya. \n\n Ganas 1 Pista {clue}.
+EventFountainBurriedUndig.button1,Continuar
+EventMarketRedLadyPickAxe.text,La señora Sery te entrega un pico desde el otro lado del mostrador. \n\n —<i>Es apropiado para cavar y esa clase de cosas, supongo.</i> \n\n Ganas el Objeto común <i>Pico</i>.
+EventMarketRedLadyPickAxe.button1,Continuar
+EventMarketRedLadySorry.text,—<i>Lo siento, pero no hay trato.</i> \n\n Quizá ya hayas comprado antes este objeto o puede que no tengas suficiente dinero.
+EventMarketRedLadySorry.button1,Continuar
+TokenMarketRedLady.button3,{action} Comprar: Pata de conejo (30$)
+EventMarketRedLady45Automatic.text,La vendedora empaqueta el arma entre paños y añade un puñado de balas encima. \n\n —<i>Supongo que es ideal para ir de caza y esas cosas...</i> \n\n El arma parece bastante vieja y está claro que ha recibido mucho uso, ¿pero acaso podías esperar otra cosa a precio de saldo? \n\n Ganas el Objeto común Automática del 45.
+EventMarketRedLady45Automatic.button1,Continuar
+TokenMarketRedLady.text,—<i>Hola, soy la señorita Sery. ¿Acaso le podría interesar alguna de mis mercancías? </i> \n\n Tienes {var:Money}$ en tu bolsillo. \n\n Nota: Las Opciones de Compra no desaparecerán después de comprar un objeto. Podrás comprar vendajes varias veces. Todo lo demás sólo podrás comprarlo una vez.
+TokenMarketRedLady.button4,{action} Comprar: Vendas (10$)
+EventMarketRedLadyRabbit.text,La mujer descuelga uno de los trastos que tiene sobre su cabeza. \n\n —<i>Buena elección. Supongo que con la automática del 45 puede cazar usted mismo un conejo. Pero en ese caso no habría sido un conejo de la suerte, ¿no? </i> \n\n Ganas el Objeto común Pata de conejo.
+EventMarketRedLadyRabbit.button1,Continuar
+EventMarketRedLadyBandages.button1,Continuar
+TokenMarketPurpleWoman.text,El puesto está atestado con todo tipo de antigüedades. Lady Ann Teak es una anticuaria autodidacta. Sus arrugas cuentan casi tantas historias como las antiguallas que tiene a la venta. \n\n —<i>¿Hay algo que pueda hacer por usted, jovencito?</i> \n\n Entre todas las cosas que tiene para ofrecer destaca un trozo de un viejo mapa. \n\n Teniendo en cuenta el grosor de los cristales de sus gafas, tienes serias dudas acerca de la calidad de su vista. \n\n Tienes {var:Money}$ en tu bolsillo.
+EventMarketRedLadyBandages.text,La Sra. Sery llena una caja con tiras de ropa usada, a las que llama vendajes. \n\n —<i>Estas cosas han evitado que la gente se desangrase hasta morir desde mucho antes de que usted naciese. </i> \n\n Ganas el Objeto común <i>Vendas</i>.
+TokenMarketPurpleWoman.button1,{action} Comprar el trozo de mapa (20$)
+TokenMarketPurpleWoman.button2,{action} Robar el trozo de mapa {agility}
+TokenMarketPurpleWoman.button3,{action} Hablar con ella para que te lo regale {influence}
+EventMarketPurpleWomanBuy.text,—<i>En realidad es un magnífico artefacto histórico. Creo que perteneció a algún tipo de mapa del tesoro.</i> \n\n Ann Teak empaqueta con esmero el trozo de mapa y te lo entrega. \n\n Ganas el Objeto único «Prueba fotográfica», el cual representa los fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de «Prueba fotográfica». Puedes interactuar con el Inventario para ver cuántas piezas tienes ya.
+EventMarketPurpleWomanBuy.button1,Continuar
+TokenMarketPurpleWoman2.text,—<i>Un placer hacer negocios con usted. ¡Vuelva pronto!</i>
+TokenMarketPurpleWoman2.button1,Continuar
+EventMarketPurpleWomanInfluence.text,—<i>Ann, tiene usted algunas cosas en su inventario que simplemente le ocupan sitio e impiden que se vean otros objetos maravillosos. ¡Debería deshacerse de ellas! </i>. \n\n Prueba de {influence}.
+EventMarketPurpleWomanInfluence.button1,Continuar
+EventMarketPurpleWomanInfluenceSucc.text,—<i>Usted debe de ser un genio del comercio de la gran ciudad. Sus consejos son siempre bienvenidos aquí, jovencito. ¿Le haría el favor a una vieja anciana y tirarlo por mí?</i> \n\n Ganas el Objeto único «Prueba fotográfica», el cual representa a los fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de «Prueba fotográfica». Puedes interactuar con el Inventario para ver cuántas piezas tienes ya.
+EventMarketPurpleWomanInfluenceSucc.button1,Continuar
+EventMarketPurpleWomanInfluenceFail.text,—<i>No es ninguna clase de basura. Es una de mis piezas más preciadas. Y ahora que lo pienso, creo que voy a pedir el doble por ella.</i>
+EventMarketPurpleWomanInfluenceFail.button1,Continuar
+TokenMarketPurpleWoman3.text,El puesto está atestado con todo tipo de antigüedades. Lady Ann Teak es una anticuaria autodidacta. Sus arrugas cuentan casi tantas historias como las antiguallas que tiene a la venta. \n\n —<i>¿Hay algo que pueda hacer por usted, jovencito?</i> \n\n Entre todas las cosas que tiene para ofrecer destaca un trozo de un viejo mapa. \n\n Teniendo en cuenta el grosor de los cristales de sus gafas, tienes serias dudas acerca de la calidad de su vista. \n\n Tienes {var:Money}$ en tu bolsillo.
+TokenMarketPurpleWoman3.button1,{action} Comprar el trozo del mapa (40$)
+TokenMarketPurpleWoman3.button2,{action} Robar el trozo del mapa {agility}
+EventMarketPurpleWomanAgility.button1,Continuar
+EventMarketPurpleWomanAgilitySuc.text,Con un movimiento rápido de tu mano coges el trozo del mapa de encima del mostrador y lo haces desaparecer en el interior de tu bolsillo. \n\n Será mejor que no te vean por aquí en el futuro. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>, representando a los misteriosos fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de <i>Prueba fotográfica</i> y serán añadidas a las que ya poseas. Puedes interactuar con el mapa a través del Inventario y ver cuántas piezas tienes ya.
+EventMarketPurpleWomanAgility.text,Esperas unos instantes hasta que Ann Teak no está mirando e intentas coger el trozo del mapa. \n\n Prueba de {agility}.
+EventMarketPurpleWomanAgilitySuc.button1,Continuar
+EventMarketPurpleWomanAgilityFail.text,Dudas un instante antes de coger el trozo del mapa. En ese momento, uno de los tenderos te mira. \n\n Parece que lo has enfurecido. Y en sus ojos ves esa furia que bordea la locura. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>, representando a los misteriosos fragmentos del mapa. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de <i>Prueba fotográfica</i> y serán añadidas a las que ya poseas. Puedes interactuar con el mapa a través del Inventario y ver cuántas piezas tienes ya. \n\n Ganas 1 Pista {clue}. Descarta la ficha de Personaje. Coloca un Sectario en el lugar señalado.
+EventMarketPurpleWomanAgilityFail.button1,Continuar
+SpawnCitizenEasy.text,El hombre se torna rojo como la nariz de un payaso cuando la sangre se agolpa en su cabeza. Hace crujir sus puños y avanza hacia ti: \n\n —<i>¡Haré que lo devuelva, por las buenas o por las malas!</i>
+SpawnCitizenEasy.button1,Continuar
+SpawnCitizenMedium.button1,Continuar
+SpawnCitizenHard.text,El hombre se torna rojo como la nariz de un payaso cuando la sangre se agolpa en su cabeza. Hace crujir sus puños y avanza hacia ti: \n\n —<i>¡Haré que lo devuelva, por las buenas o por las malas!</i>
+SpawnCitizenMedium.text,El hombre se torna rojo como la nariz de un payaso cuando la sangre se agolpa en su cabeza. Hace crujir sus puños y avanza hacia ti: \n\n —<i>¡Haré que lo devuelva, por las buenas o por las malas!</i>
+SpawnCitizenHard.button1,Continuar
+EventMarketPlaceRedWoman.text,Una mujer cuarentona, vestida con un elegantísimo traje, ofrece una variedad de productos que van desde herramientas a armas, pasando por toda clase de equipo. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventMarketPlaceRedWoman.button1,Continuar
+EventMarketPlacePurpleWoman.text,Una mujer bastante vieja con unas gruesas gafas y una larga melena plateada vende antigüedades en su puesto. \n\n Coloca una ficha de Personaje en el lugar señalado.
+EventMarketPlacePurpleWoman.button1,Continuar
+TokenFountainWater.text,Hay algo plateado que brilla bajo el agua.
+EventFountainPlaceKey.text,La fuente es un famoso pozo de los deseos. Mucha gente tira en su interior monedas, entre otras cosas. Te preguntas si habrá algo de valor.
+EventFountainWaterInvestigate.text,Entre las monedas sin valor encuentras algo con escamas. Se mueve lentamente con un movimiento hipnótico. Viene hacia ti. Tienes el presentimiento de que viene. Viene a por ti. Y ahora no te puedes mover. Estás petrificado. \n\n Las escamas pertenecen a un Profundo. La criatura sale del agua de un salto, aterrizando cerca de ti y se te tira al cuello. \n\n Coloca un Profundo en el lugar señalado. \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Búsqueda.
+EventFountainPlaceKey.button1,Continuar
+EventFountainWaterInvestigate.button1,Continuar
+TokenAlley2Water.button1,{action} Examinar el barril
+TokenMainstreetLantern.text,La farola no funciona. Hay unos cables sueltos en su base.
+TokenMainstreetLantern.button1,{action} Arreglar el cableado
+EventMainstreetLanternFixed.text,La farola se enciende. Bajo su luz, ahora puedes ver algo que brilla en la esquina. \n\n Coloca una ficha de Búsqueda en el lugar señalado. A continuación, descarta la ficha de Oscuridad.
+PuzzleMainstreetLantern.button1,Hecho
+EventMainstreetLanternFixed.button1,Continuar
+TokenMainstreetCornerstone.text,En la piedra angular del edificio hay una gran grieta. A la luz de la farola puedes ver que hay algo dentro, metálico, que reluce. Si lo intentas con fuerza, quizá puedas sacarlo de ahí.
+TokenMainstreetCornerstone.button1,{action} Examinar
+EventMainstreetCornerstoneInvestigate.text,Martilleas la frágil piedra, intentando liberar lo que está atrapado en su interior. \n\n Prueba de {strength} (ganas 2 dados extra si llevas contigo el Pico).
+EventMainstreetCornerstoneInvestigate.button1,Continuar
+EventMainstreetCornerstoneInvestigateFail.text,Lo haces lo mejor que sabes, pero no es suficiente.
+EventMainstreetCornerstoneInvestigateFail.button1,Continuar
+EventMainstreetCornerstoneInvestigateSuc.text,Del interior de la piedra consigues sacar un viejo tubo de metal. Parece una especie de cápsula del tiempo. Al abrirla, encuentras en su interior un pieza del misterioso mapa. \n\n Ganas el Objeto único <i>Prueba fotográfica</i>, representando a los misteriosos fragmentos. A lo largo de la partida puedes encontrar otras piezas que también recibirán el nombre de <i>Prueba fotográfica</i> y serán añadidas a las que ya poseas. Puedes interactuar con el mapa a través del Inventario y ver cuántas piezas tienes ya. \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Búsqueda.
+EventMainstreetCornerstoneInvestigateSuc.button1,Continuar
+EventMansionDoorInvestigate.button3,—<i>Nada, olvídelo.</i>
+EventFountainPlaceSouthMarker.button1,Continuar
+EventMansionStudyFireplaceLampInvestigate.button2,Cancelar
+EventMainStreet2PlaceSight.text,Coloca una ficha de Vistazo en el lugar señalado.
+EventMainStreet2PlaceSight.button1,Continuar
+EventMainstreet2PlaceLantern.text,La farola no funciona. Una trampilla de mantenimiento parece estar suelta en su parte inferior. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n Coloca Oscuridad en el lugar señalado. Esta ficha afecta a todo el módulo.
+EventMainstreet2PlaceLantern.button1,Continuar
+EventVanderbiltTalkWhatToDoSmall.text,El profesor levanta la vista desde la silla de ruedas, con una mirada penetrante y pregunta: \n\n —<i>¿Qué tienen planeado hacer con todo esto?</i>
+TokenOfficeGlas.text,Hay un vaso de agua encima de la mesa. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenOfficeGlas.button1,{action} Examinar
+EventOfficeGlasInvestigate.text,Levantas el cristal. Es más pesado de lo que imaginabas. Miras dentro para ver si hay algo oculto en su interior. En ese momento eres hipnotizado por las olas del agua, que captan toda tu atención. No puedes hacer nada excepto mirarlas, y en ellas ves cosas que parecen arrastrarte a las profundidades del océano. Lentamente pero de forma segura, se está acercando, más, y más, todavía un poco más... \n\n Finalmente el cristal estalla en pedazos y el agua cae sobre el suelo, formando un charco. \n\n La fea cara de un profundo se abre camino hasta la superficie del agua. Lentamente regresas a tu mundo. Nacido del caos, sólo tiene un propósito: destrucción. \n\n Coloca un Profundo en el lugar señalado. \n\n Ganas 1 Pista {clue}. Descarta la ficha de Búsqueda.
+EventOfficeGlasInvestigate.button1,Continuar
+SpawnDeepOneMedium.button1,Continuar
+SpawnDeepOneEasy.button1,Continuar
+SpawnDeepOneHard.button1,Continuar
+EventOfficeGlasPlace.text,Hay un vaso de agua encima del escritorio de la oficina.
+EventOfficeGlasPlace.button1,Continuar
+TokenFountainWater.button1,{action} Examinar
+TokenAlley2Water.button2,{action} Sellar el barril
+EventAlley2WaterInvestigate.text,Te acercas y dirías que se trata de un barril común hecho de madera. La superficie del agua no está tan tranquila como pensabas. Como sigue lloviendo, el agua se sigue desbordando. \n\n Mientras examinas con más detalle el barril, éste explota y te empapa de agua. \n\n Donde estaba el barril ha aparecido un Profundo. Descarta la ficha de Búsqueda. \n\n Coloca un Profundo en el lugar señalado. \n Ganas 2 Pistas {clue}.
+EventAlley2WaterInvestigate.button1,Continuar
+EventAlly2WaterPlace.text,El canalón del tejado termina en un barril de agua. La incesante lluvia ha llenado el barril. El agua ha rebosado y está por todas partes. Un gran charco de agua se ha formado alrededor del barril. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventAlly2WaterPlace.button1,Continuar
+TokenAlley1Barrel.text,La lluvia ha llenado por completo el barril. Algo de agua se ha derramado, de hecho. Aparte de unas pocas gotas de agua que perturban la paz de la superficie, su aspecto es tranquilo y relajado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+TokenAlley1Barrel.button1,{action} Examinar
+EventAlley1BarrelInvestigate.text,Te inclinas sobre el barril para ver mejor lo que hay dentro. Lo único que ves es tu reflejo en la oscura y tranquila agua. A lo lejos, un relámpago ilumina la noche. De repente puedes ver más cosas. Hay una isla envuelta por la niebla y por nubes oscuras. Los rayos caen sobre ella como si el mismísimo Thor la estuviera castigando por algo. \n\n La imagen se vuelve borrosa y de nuevo se aclara. Ahora lo que ves es una mansión en lo alto de una colina. Los rayos siguen iluminando la escena. \n\n La superficie se vuelve negra otra vez. Aun así no puedes apartar la mirada. Hipnotizado sigues mirando fijamente la oscuridad. \n\n De repente, unos ojos brillantes y una mandíbula de dientes fluorescente se abre. El agua se derrama cuando el horror ruge. \n\n Tu corazón se desboca. \n\n El pánico se apodera de ti y retrocedes. \n\n Sufres 1 de Horror. Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventAlley1BarrelInvestigate.button1,Continuar
+EventAlley1BarrelPlace.text,La lluvia ha llenado por completo el barril. Algo de agua se ha derramado, de hecho. Aparte de unas pocas gotas de agua que perturban la paz de la superficie, su aspecto es tranquilo y relajado.
+EventAlley1BarrelPlace.button1,Continuar
+EventBoardwalkSpawn.text,Azuzadas por el viento, las olas del mar golpean el embarcadero. Ya está parcialmente inundado. Mientras echas un vistazo a la esquina, otra ola gigantesca golpea el espigón del puerto. La espuma y el agua salada lo salpican todo. Cuando el agua se retira, observas que algo ha quedado atrás. Un Profundo se alza entre las olas. \n\n Abre sus garras y carga contra ti. \n\n Aparece un Profundo en el lugar señalado.
+EventBoardwalkSpawn.button1,Continuar
+EventLiquorStoreSpawnHuntingHorror1.button1,Continuar
+EventLiquorStorePlaceHuntingHorror2.text,Temías que esto acabaría sucediendo. Otro Horrendo cazador se arrastra por los tejados cercanos al mercado de la calle Mayor. Del mismo modo que el anterior, parece que ha encontrado tu rastro. Y también está aquí para darte caza. \n\n Aparece un Horrendo cazador en el lugar señalado. \n
+EventLiquorStoreSpawnHuntingHorror1.text,Un trueno resuena, un rayo golpea el suelo y un Horrendo cazador llega a la calle Mayor. Siguiendo tu rastro se mueve por el aire como si fuese un pez en el agua. \n\n Últimamente no es que tengas las cosas muy claras, pero hay algo que sabes seguro: está aquí para matarte y no es más que un preludio de cosas más horribles que están aún por llegar. \n\n Coloca un Horrendo cazador en el lugar señalado.
+EventLiquorStorePlaceHuntingHorror2.button1,Continuar
+EventNepheracetArrival.button1,Continuar
+EventNepheracetArrival.text,Los truenos y relámpagos están cada vez más cerca. La tormenta descarga ya sobre la ciudad. Y con la tormenta viene su amo. Los gritos de pánico de los lugareños presagian su llegada. Cuando los gritos se intensifican y de repente cesan, lo tienes claro. \n\n Nepheracet está aquí. Tu final está cercano. \n\n Coloca una Semilla estelar en el lugar señalado.
+EventNepheracetMove0.button1,Continuar
+EventNepheracetMoveTo7.button1,Continuar
+TokenAlley1Lady.button1,{action} —<i>¿Y de qué quiere pedir perdón?</i>
+EventNepheracetMove2.button1,Continuar
+EventNepheracetMove1.text,Mueve a la Semilla estelar de Nepheracet como se señala. \n\n El anciano camina apoyado sobre su bastón sin destino aparente hasta que se tropieza con algo, algo grande. Palpa lentamente la piel escamosa del monstruo. En ese momento el hombre se da cuenta de lo que es y lanza un bastonazo contra la criatura, obteniendo como único resultado un bastón roto en pedazos. \n Nepheracet se ríe con una voz atronadora. \n El Horror enrosca uno de sus tentáculos alrededor del hombre, volteándolo y poniéndolo firme. Después de llevar toda su vida combatiendo todo tipo de horrores, el anciano por fin entiende que lo ha estado haciendo todo mal. Ahora, sin embargo, es el momento de redimirse. Con satisfacción, grita: \n\n —<i>¡Que comience la carnicería! </i> \n\n Descarta la ficha de Personaje Hombre blanco y coloca en su lugar un Sectario. \n
+EventNepheracetMove1.button1,Continuar
+EventNepheracetMove3.text,Mueve a la Semilla estelar de Nepheracet como se señala. \n\n Cansada de todos sus intentos por abrir la cerradura, la joven carga contra la puerta. Agotada tras una noche fuera, apenas se da cuenta de que Nepheracet se está acercando. Tampoco se da cuenta de que uno de sus tentáculos se enrosca en su pelo. Bueno, al menos no hasta que el Horror tira de su cabellera. La arrastra hacia él sobre el suelo resbaladizo de la calle. Aunque es consciente de que nadie la puede ayudar, grita a todo pulmón: \n\n —<i>Byron, ¡ayúdame!</i> \n\n Pero Byron no la oye. Sólo el demonio la oye y parece molesto. La levanta y la coloca frente a su cara, hipnotizándola con sus ojos, haciendo que deje de gritar. En ese momento la deja caer sobre el suelo. \n\n Con las ropas sucias y empapadas, se pone de pie. Por fin es capaz de tener una imagen global de todo y ya no le volverá a importar lo que piensen los demás de su aspecto. Ahora hay cosas más importantes de las que preocuparse: está la vida y la muerte. Se quedará con una, y traerá la otra... \n\n Descarta la ficha de Personaje Mujer naranja y coloca en su lugar un Sectario. \n
+EventNepheracetMove3.button1,Continuar
+EventNepheracetMove4.text,Los gritos de Nepheracet resuenan como si fuesen un trueno, saltando hacia el cielo y cayendo violentamente de nuevo a tierra. \n\n Mueve la Semilla estelar de Nepheracet al lugar señalado.
+EventNepheracetMove4.button1,Continuar
+CustomMonsterNepheracet.info,-
+EventNepheracetMove8HarborMaster.button1,Continuar
+CustomMonsterNepheracet.monstername,Nepheracet
+EventNepheracetMoveTo7.text,Mueve a Nepheracet un espacio hacia la plaza Mayor.
+EventNepheracetMaster.button1,Button1
+EventNepheracetMove0.text,La niña comienza a mirar al poderoso Nepheracet con incredulidad. Nunca sabrás cuáles fueron sus últimos pensamientos, pero los de ahora son de lo más primarios: \n\n Matar, matar, matar... \n\n Descarta la ficha de Personaje Niña verde y pon un Sectario en su lugar.
+EventNepheracetMove9.text,Mueve la Semilla estelar de Nepheracet al lugar señalado. \n\n El señor de los demonios entra en el mercado de la calle Mayor. Algunas personas huyen despavoridas, otras se quedan mirando al monstruo, boquiabiertos. Pero cuando su voz, que resuena como el trueno, grita, todo el mundo se queda paralizado. \n\n Como marionetas movidas por hilos, los lugareños se encaminan hacia su nuevo amo. Todos los gritos desaparecen, todo el miedo se desvanece. Las personas ahora se sienten seguras. Con esa seguridad que da el hecho de saber que estás en el bando ganador. \n\n Descarta las fichas de Personaje Mujer roja, Mujer morada, Hombre azul y Hombre gris. \n\n En su lugar coloca una turba donde se indica. \n
+EventNepheracetMove8HarborMaster.text,Mueve la Semilla estelar de Nepheracet al lugar señalado. \n\n El capitán del puerto se da cuenta en ese momento de que Nepheracet se encamina hacia la ciudad. Sabiendo que es su deber mantener las cosas en orden, el capitán carga contra el horror que acecha el mercado de la calle Mayor. Al contrario de lo que había hecho hasta ahora Nepheracet, esta vez decide aplastar al capitán del puerto con un golpe. \n\n Descarta la ficha de Personaje del capitán del puerto. \n
+EventNepheracetMove9.button1,Continuar
+EventNepheracetMove10.text,Mueve la Semilla estelar de Nepheracet como se señala.
+EventNepheracetMove10.button1,Continuar
+EventNepheracetMove11up.text,Nepheracet se queda dónde está, comandando desde la retaguardia a su ejército de horrores.
+EventNepheracetMove11up.button1,Continuar
+EventFountainWaterPlace.text,Hay algo plateado que brilla bajo el agua. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventFountainWaterPlace.button1,Continuar
+EventNepheracetAttack3.button1,Atacar
+EventNepheracetAttack3.button2,No hay investigadores dentro del alcance.
+EventNepheracetAttack3a.text,Las nubes que hay sobre tu cabeza se oscurecen. El olor a ozono satura el aire. Nepheracet invoca un trueno, que cae desde el cielo y te golpea con fuerza con su rayo. \n\n Sufres 3 de Daño (anulados por {agility}).
+EventNepheracetAttack3.text,Nepheracet ataca al investigador que esté más alejado de él pero a un máximo de 3 espacios.
+EventNepheracetAttack3a.button1,Continuar
+EventNepheracetAttack3b.text,Nepheracet te mira fijamente. Sus ojos son como el océano: profundos e insondables. Te pierdes en su mirada. Te sientes abrumado por la sensación que  te acabas de zambullir en el mar. Rápidamente se transforma en una sensación de ahogo. Boqueas intentando coger aire mientras peleas contra la sensación de ahogamiento. \n\n Sufres 3 de Horror (anulados por {influence}).
+EventNepheracetAttack3b.button1,Continuar
+EventNepheracetAttack2.text,Este ataque afecta al espacio que contenga más investigadores y que esté situado a dos o menos espacios de alcance.
+EventNepheracetAttack2.button1,Resolver el ataque
+EventNepheracetAttack2.button2,No hay investigadores dentro del alcance.
+EventNepheracetAttack2a.text,El ataque afecta a todos los investigadores dentro de su alcance. \n\n El horror de otro mundo toma una profunda bocanada de aire. Inhala las gotas de lluvia y el aire. Cuando exhala, una tinta pegajosa, negra como el más profundo de los océanos, sale proyectada hacia ti. La sustancia cubre tus ojos y los cubre con un velo de tinieblas. Las pesadillas te asaltan. Sueñas con corrupción y muerte. Tu muerte. \n\n Sufres 3 de Horror (anulados por {lore}).
+EventNepheracetAttack2a.button1,Continuar
+EventNepheracetAttack2b.text,Nepheracet salta y aterriza en el espacio en el que hay más investigadores, enterrándolos bajo sus tentáculos y aplastándolos contra el suelo. Una sucesión interminable de golpes cae sobre vosotros. \n\n Todos los investigadores afectados sufren 3 de Daño {anulados por {observation}). \n\n Después de haberos golpeado salta de regreso al lugar que ocupaba antes. \n
+EventNepheracetAttack2b.button1,Continuar
+EventNepheracetAttack1.text,Este ataque afecta a todos los investigadores que se encuentren a 1 o menos espacios de Nepheracet.
+EventNepheracetAttack1.button1,Resolver el ataque.
+EventNepheracetAttack1.button2,No hay investigadores dentro del alcance.
+EventNepheracetAttack1a.text,El ataque afecta a todos los investigadores que estén a rango 1 o inferior. \n\n Un relámpago sale disparado cuando Nepheracet da un pisotón. La onda de choque te pilla desprevenido y te derriba. Tumbado en el suelo, contemplando a la encarnación de la muerte, de repente te ves incapaz de moverte. El pánico se apodera de ti. Un pánico que llega en el peor momento. \n\n Cada investigador afectado por este ataque recibe 3 de Horror (anulados por {will}).
+EventNepheracetAttack1a.button1,Continuar
+EventNepheracetAttack1b.text,El ataque afecta a todos los investigadores que estén a rango 1 o inferior. \n\n El Horror efectúa un devastador ataque de barrido con sus tentáculos, haciéndolos girar 360º en el aire, consiguiendo que todos los tentáculos te golpeen uno tras otro. \n\n Cada investigador afectado por este ataque recibe 3 de Daño (anulados por {strength}).
+EventNepheracetAttack1b.button1,Continuar
+EventVanderbiltVictorySet.text,—<i>¡Cíñase al plan! Intentaré no ser una carga...</i> \n\n El profesor Vanderbilt está limitado por su silla. Así que necesita tu ayuda para moverse. Mover al profesor un espacio requiere de una Acción {action}.
+EventVanderbiltVictorySet.button1,Continuar
+TokenEscape.button1,Comprobar los requisitos para la victoria.
+TokenEscape.text,Un pequeño barco a motor está atracado en el muelle. No es gran cosa, pero será suficiente para llevarte lejos de la costa, lejos de esta ciudad dejada de la mano de Dios. Quizá puedas alcanzar a alguno de los barcos arrastreros que pescan en estas aguas y que te saque de aquí rápidamente.
+TokenEscape.button2,{action} Poner en marcha el barco (Victoria)
+EventEscapeHarborMasterPresent.text,Es imposible subirse al barco si el patrón del puerto está todavía aquí.
+EventEscapeHarborMasterPresent.button1,Continuar
+UIEndButtonContinue.uitext,Continuará...
+EventEscapeVictory.button1,Continuar
+TokenEscape.button3,No lo conseguimos (Derrota)
+UIDefeatText.uitext,DERROTA \n\n —<i>¡Oh, no!</i> —es el último pensamiento que cruza tu mente semicabal mientras te das cuenta de que los horrores que has liberado te han dado caza. En ese momento, todos tus miedos, todo el dolor y todos las aflicciones afloran a la superficie, engulléndote, enterrándote. \n\n —<i>¡Oh, sí!</i> —es tu primer pensamiento cuando emerges de nuevo. Ahora juegas en el equipo ganador, ahora estás de parte de Nepheracet. Echando la vista atrás a tu vida pasada te das cuenta de lo estúpido que fuiste, de cómo ignoraste la verdad. Todo el tiempo que perdiste luchando contra monstruos simplemente retrasó lo inevitable. En retrospectiva, abrir la brecha dimensional ha sido lo mejor que has hecho nunca. Por fin, un nuevo orden será establecido en la Tierra. Por fin, el reino del terror podrá comenzar. \n\n Pronto este horror acechará algo más que el mercado de la calle Mayor. Y tú estarás junto a él. Contemplando el nuevo comienzo. El comienzo del... \n\n FIN \n
+EventEscapeDefeat.button1,Continuar
+EventLobbyKitchenInvestigate1.text,Abres la puerta por segunda vez. La cocinera aún no ha canalizado toda su energía, así que se da la vuelta hacia ti, blandiendo su cuchillo de carnicero en el aire, listo para ser lanzado. \n\n —<i>¿Qué parte del lárguese es la que no ha entendido? </i> \n\n Te das cuenta de la naturaleza retórica de la pregunta y en silencio cierras la puerta. \n\n La mujer prosigue cortando la carne de forma más agresiva que antes. Tanto, que ahora puedes escuchar los golpes a través de la puerta cerrada. No hay duda de que necesita aliviar esa furia. \n
+EventLobbyKitchenInvestigate1.button1,Continuar
+EventLobbyKitchenInvestigate2.text,Con la cocinera ya sobre aviso, abres la puerta por tercera vez. Mientras se abre la puerta, la cocinera golpea con su cuchillo de carnicero el trozo de carne muerta con tanta fuerza que lo clava sobre la tabla de cortar. Con un ademán libera el cuchillo y te mira. \n\n —<i>Obviamente sus orejas no sirven para escuchar. Veamos qué tal son para hacer caldo.</i> \n\n Se lanza sobre ti, agitando su cuchillo de carnicero. \n
+EventLobbyKitchenInvestigate2.button1,Continuar
+EventAlley1Place.text,Coloca el módulo {c:TileAlley1} en el lugar señalado.
+EventStart.button1,Continuar
+UIIntroductionText.uitext,EL HORROR QUE ACECHA EL MERCADO DE LA CALLE MAYOR. \n\n Tras escapar a duras penas con vida, conducís hacia el oeste en dirección a la ciudad lo más rápido posible para que tu tío os aclare algunas cuestiones. Sabiendo que el profesor Charles Vanderbilt usó la cabaña para realizar unos terribles rituales ocultistas, os preguntáis si vuestro tío sería consciente de ello. \n\n Llegáis a la ciudad al alba y con viento fuerte de levante. Llueve y una tormenta resuena en el este. Es día de mercado y el silencio envuelve la ciudad. La calma antes de la tempestad. Os adentráis todo lo posible en la ciudad con el coche, aparcando justo donde empieza el centro de la ciudad, imposible de atravesar debido a sus estrechas calles. \n Todavía con la sensación de intranquilidad, reunís todas las pruebas y vuestro equipo y salís del coche. \n Una serena calma inunda la ciudad. Sólo algunas personas transitan las calles. La lluvia no cesa. Ante vuestros ojos, las pocas personas que hay en la calle serían presa fácil para Nepheracet en caso de que os hubiese seguido. \n El tiempo apremia, así que aceleráis el paso en dirección a la tienda de licores de vuestro tío, en la calle Mayor, que regenta desde hace dos años, cuando se abolió la Ley Seca.
+UIIntroductionButtonContinue.uitext,Continuar
+UIIntroductionButtonContinue.button1,Button1
+TokenLobbyDoorInside.button2,{action} Salir
+EventLobbyDoorGoOutside.text,Abres la puerta y te mueves al espacio adyacente de la plaza mayor.
+EventLobbyDoorGoOutside.button1,Continuar
+TokenLobbyDoorInside.button3,{action} Entrar
+EventLobbyDoorGoInside.text,Abres la puerta. \n Mueve a tu investigador al espacio adyacente dentro del vestíbulo.
+EventLobbyDoorGoInside.button1,Continuar
+EventIntroductionSelectDifficulty.text,Por favor, selecciona el nivel de dificultad:
+EventIntroductionSelectDifficulty.button1,FÁCIL - soy nuevo en esto ({success}{success}{success})
+EventIntroductionSelectDifficulty.button2,MEDIA - Sé lo que hago ({success}{success}{success}{success})
+EventIntroductionSelectDifficulty.button3,DIFÍCIL - ¡A por ellos, oeee! ({success}{success}{success}{success}{success})
+EventDifficultyEasy.text,Nivel de dificultad elegido: fácil. \n\n Cosas que deberías recordar del escenario anterior, «El Horror que acecha la cabaña del bosque»: \n - Abriste una brecha dimensional al mundo del horror llamado Nepheracet. \n - Las superficies de agua son las puertas de entrada a ese mundo. \n - Interactúa con el agua bajo tu cuenta y riesgo. \n\n Para ganar este escenario se necesita: \n 1) Hablar con tu tío en la licorería. \n 2) Hablar con el profesor Vanderbilt en su mansión, asegurándote de que tratas todos los temas posibles. \n 3) Cuando el profesor te pregunte cuál será el siguiente paso, deberás elegir una condición para la victoria. \n 4) Haz lo que la condición para la victoria te pida. Lee el texto atentamente. \n\n Pistas adicionales: \n - Si logras reunir las 6 piezas del mapa, podrás resolverlo. Si lo haces antes de ir a hablar con Vanderbilt conseguirás una nueva condición de victoria en la que no será necesaria combatir. \n - No hay forma posible de llegar a un callejón sin salida: siempre podrás terminar el escenario. Las malas elecciones simplemente pondrán las cosas más difíciles. \n - Matar a la Semilla estelar no debería ser tu objetivo, por eso tiene tantos puntos de vida. \n Es posible resolver 4 misiones secundarias con las personas del callejón, que se retirarán del escenario y te recompensarán más tarde.
+EventDifficultyEasy.button1,Continuar
+EventDifficultyMedium.text,Dificultad media seleccionada. ¡Que os divirtáis! \n\n Cosas que deberías recordar del escenario anterior, «el Horror que acecha la cabaña del bosque»: \n - Abristeis una brecha dimensional que conectaba con el mundo de Nepheracet. \n - Las superficies de agua son portales a ese mundo. \n\n Para ganar este escenario necesitas: \n 1) Hablar con tu tío en la licorería. \n 2) Lo que te diga tu tío que debes hacer, hazlo. \n 3) Termina el escenario completando la condición de victoria seleccionada. Lee con cuidado la información al respecto. \n\n Pistas adicionales: \n - Si completas el rompecabezas del mapa antes de seleccionar una condición de victoria, conseguirás una condición adicional para elegir. \n\n No importa lo que hagas, nunca llegarás a un callejón sin salida. Siempre se puede terminar el juego. Tus elecciones simplemente harán que sea más difícil. \n Si un monstruo tiene más de 100 puntos de vida, no necesitas matarlo.
+EventDifficultyMedium.button1,Continuar
+EventDifficultyHard.text,Dificultad alta seleccionada. ¡Buena suerte! \n\n Si tienes problemas para vencer en modo difícil, inténtalo en otro modo menos complicado. \n No esperes ganar en este modo. \n\n No importa lo que hagas, nunca llegarás a un callejón sin salida. Siempre se puede terminar el juego. Tus elecciones simplemente harán que sea más difícil.
+EventDifficultyHard.button1,Continuar
+EventMythosInitialize.button1,Button1
+EventUnholyBookOpen.button1,{action} Examinar
+EventUnholyBookOpen.button2,No hacerlo
+EventUnholyBookOpen.text,Ya has desbloqueado el antiguo cierre de metal que protegía el libro. Las páginas te aguardan para que las traduzcas y leas.
+EventUnholyBookReadTest.text,Eliges un capítulo y tratas de absorber todo el conocimiento que hay escrito en él. El idioma en el que está te resulta complicado de entender ({lore}). Sin la ayuda de la traducción previa del diario del profesor Vanderbilt no tienes posibilidades de conseguir algo.
+EventUnholyBookReadTest.button1,Continuar
+EventUnholyBookReadSuccess.text,Las páginas te muestran un nuevo hechizo. Si ya tienes el hechizo que te muestra la aplicación, puedes sacar al azar un nuevo hechizo de entre aquellos que aún no tengas. Recuerda utilizar sólo los hechizos del juego básico, no de las expansiones: Alimentar la mente, Protección corporal, Inspirar valor, Consunción, Ajar y Atormentar. \n\n El nuevo poder viene con un coste: Sufres 3 de Horror (anulados por {will}). \n\n Pon boca arriba 1 de Horror.
+EventUnholyBookReadSuccess.button1,Continuar
+EventUnholyBookReadFail.text,Después de leerlo durante un rato, llegas a la conclusión de que es un galimatías.
+EventUnholyBookReadFail.button1,Continuar
+quest.authors_short,Dr.ake
+EventLiquorStoreShelf2Place.button1,Continuar
+EventLiquorStoreShelfPlace.text,Una estantería con algunas pertenencias de tu tío, y que podría servir como una excelente barricada. \n\n Coloca una ficha de Obstrucción en el lugar señalado.
+EventLiquorStoreEnter.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventLiquorStoreShelf2Place.text,Tu tío guarda un poco de licor barato en una estantería cerca de la puerta. Sería una excelente barricada. \n\n Coloca una ficha de Obstrucción en el lugar señalado.
+EventLiquorStoreEnter.button1,Continuar
+EventTestFail.text,Habéis fracasado. Que tengáis mejor suerte la próxima vez.
+EventTestFail.button1,Continuar
+EventRandomSpawnBoardwalk.text,Cinco dedos babosos aparecen en el filo de la pasarela. Un Profundo sale del agua, lenta y silenciosamente. Como la muerte. \n Ya sobre la pasarela, el horror se endereza completamente mientras mira hacia dónde estás tú.
+EventRandomSpawnStart.button1,Continuar
+EventRandomSpawnFountain.text,Un Profundo sale del interior de la fuente. Alzando su nariz, olfatea el aire en busca de presas... y entonces detecta tu olor. \n\n Aparece un Profundo en el lugar señalado.
+EventRandomSpawnFountain.button1,Continuar
+EventRandomSpawnHarbor.text,Una ola choca contra las escolleras del puerto y arrastra a un profundo fuera del agua. La criatura rápidamente se abalanza sobre el peatón más cercano y se fusiona con el inocente transeúnte, formando un Híbrido de profundo. \n\n Aparece un Híbrido de profundo en el lugar señalado.
+EventRandomSpawnHarbor.button1,Continuar
+EventSpawnRandomMonster.button1,Button1
+EventRandomSpawnBoardwalk.button1,Continuar
+EventRandomSpawnStart.text,Otro Horrendo cazador ha olido tu rastro. Pronto hundirá sus colmillos en tu blanda y jugosa carne... \n\n Coloca un Horrendo cazador en el lugar señalado.
+SpawnNepheracet.button1,Continuar
+TokenMansionButtler.button1,{action} —<i>Estamos aquí para hablar con el profesor.</i> ({influence})
+TokenMansionButtler.button2,{action} —<i>¿Por qué no se mete en sus propios asuntos y me dice  dónde está el profesor?</i>({strength})
+TokenMansionButtler.button3,—<i>No importa, ya nos marchamos</i>.
+TokenMansionButtler.text,El que abre la puerta del profesor Vanderbilt es su mayordomo. Su impasible rostro te escruta y, por las palabras que elige al hablar contigo, te hace sentir que le estás molestando en sus quehaceres diarios, así que tendrás que medir las tuyas. \n\n —<i>¿Qué es lo que le trae aquí a esta hora tan temprana?</i>
+TokenMansionButler2.text,—<i>Está en la biblioteca. Subiendo las escaleras, primera puerta a la izquierda. </i>
+TokenMansionButler2.button1,Continuar
+EventEventOfficeWallPlaced.text,Coloca una ficha de Pared en el lugar señalado.
+EventEventOfficeWallPlaced.button1,Continuar
+EventSnackShackOwnerSurprised.text,—<i>¿Qué? ¿Por qué? ¿Cuándo? ¿Cómo ha entrado aquí? \n\n Ah, ya veo la trampilla. Gracias por enseñarme una salida. ¡Me voy! </i> \n\n Descarta la ficha de Personaje del vendedor del quiosco.
+EventSnackShackOwnerSurprised.button1,Continuar
+TokenMarketBlueMan3.text,—<i>¡Gracias por toda la ayuda prestada!
+TokenMarketBlueMan3.button1,Continuar
+UIVictoryText.uitext,VICTORIA \n\n Huyes de los horrores que causó Nepheracet, de los horrores que has liberado. A duras penas consigues llegar a un pequeño barco en el muelle. Casi sin aliento, llevas al profesor al barco, esperando que conozca una forma de arreglar el desastre que has causado. \n Con la voz de Nepheracet resonando como un trueno que se escucha cada vez más cerca, intentas arrancar el motor del barco. Mientras tiras del cable de arranque lo más rápido que puedes, el horror maligno se da cuenta de lo que está sucediendo y se vuelve hacia ti. \n Los rayos de sol de la mañana iluminan al monstruo, poniendo su rostro en el centro de atención. La oscuridad en sus ojos es tan profunda que no refleja la luz. Intentas no mirar sus ojos abisales, pero no puedes evitarlo. Lo dejas entrar en tu mente y él pela tus pensamientos superficiales como si fueran las capas de una cebolla. Finalmente, profundiza en el núcleo: tus miedos más profundos, y los saca a la superficie. Se deleita con tus gritos. \n\n Un compañero investigador te empuja a un lado. Casi te caes al agua. Aún sin poder soltarte, continúas mirando el oscuro abismo de los ojos de Nepheracet. \n Tu amigo enciende el motor. El aullido del motor alivia tu dolor. Gimiendo caes y te aferras al barco. \n El barco se dirige hacia el sol naciente, hacia una nueva esperanza. Dejando atrás la tormenta, a Nepheracet y todos sus horrores. O al menos eso crees.
+UILastWordsText.uitext,GRACIAS POR JUGAR. \n\n Desarrollar un escenario, especialmente uno largo como éste, siempre es un gran esfuerzo. Espero que haya valido la pena y lo hayáis disfrutado. \n\n Valoro especialmente que hayáis sido uno de los primeros 10 equipos, lo que os convierte en una especie de <i>beta testers</i>. Espero que no os importe. Para mejorar aún más el escenario, podéis ayudarme: \n\n - Valorando positivamente aquello que os ha gustado y no debe cambiarse. \n - Informándome de cualquier error. \n - Dándome ideas de mejora. \n\n Estoy también interesado en conocer el nivel de dificultad que elegisteis. Si ganasteis en el nivel difícil, hacédmelo saber. \n\n Dejad vuestra opinión en el apartado de comentarios. \n\n Podéis dejarme vuestra información de contacto si queréis ayudar a mejorar el escenario o hacer una traducción. \n\n ESPERO QUE JUGUÉIS DE NUEVO ESTE ESCENARIO.
+EventLastWords.button1,Continuar
+UIEndButtonContinue.button1,Button1
+UIEndLastWords.uitext,Continuará...
+UIEndLastWords.button1,Button1
+TokenAlley1Barrel.button2,{action} Volcar el barril
+EventAlley1BarrelTilt.text,Temeroso de lo que puedas encontrar dentro del barril, lo vuelcas. El agua salpica la calle y forma un gran charco. \n\n Descarta las fichas de Búsqueda y Vistazo. \n Coloca una nueva ficha de Exploración como se indica.
+EventAlley1BarrelTilt.button1,Continuar
+TokenAlly1Explore.text,Se ha formado un charco a raíz del barril que volcaste. Esto te deja pocas opciones.
+TokenAlly1Explore.button1,{action} Saltar sobre él
+TokenAlly1Explore.button2,Caminar sobre el charco
+EventAlly1WalkThrough1.text,Entras en el charco. Todo lo que puedes ver es tu reflejo en las tranquilas aguas oscuras. Un rayo cae en la distancia. De repente puedes ver más: hay una isla envuelta en niebla y nubes oscuras. Un rayo golpea la isla como si estuviera siendo castigada por el mismo Thor. \n\n La imagen se vuelve borrosa primero y luego de nuevo más nítida. Ahora, ves una mansión en la cima de una colina. La tormenta continúa iluminando el paisaje. \n\n Las superficies se vuelven negras nuevamente. Sin embargo, no puedes apartar la vista. Hipnotizado, continúas mirando en la oscuridad. \n\n De repente, unos ojos resplandecen y una mandíbula de dientes fluorescentes se abre. El agua se desborda mientras el horror gruñe. \n\n Puedes avanzar 1 espacio hacia el siguiente módulo. \n\n Sufres 1 de Horror y ganas 1 Pista {clue}.
+EventAlly1WalkThrough1.button1,Continuar
+EventAlly1WalkThrough1P.button1,Continuar
+EventAlly1WalkthroughP.text,Te hundes en el charco, que resulta sorprendentemente profundo. En el agua descubres un Profundo esperándote, que inicia una pelea contigo hasta que emergéis juntos a la superficie. \n\n Aparece un Profundo en el lugar indicado.
+EventAlly1WalkThrough1P.text,Entras al agua. \n\n Sorprendido de que no ocurra nada, puedes avanzar 1 espacio hacia la zona explorada.
+EventAlly1WalkthroughP.button1,Continuar
+EventAlly1WalkthroughPPlus.text,Entras al agua. \n\n No pasa nada. \n\n Puedes avanzar 1 espacio hacia la zona explorada.
+EventAlly1WalkthroughPPlus.button1,Continuar
+EventAlley2PlaceTile.text,Coloca el módulo {c:TileAlley2} en el lugar señalado.
+EventAlley1JumpMaster.button1,Continuar
+EventAlley1JumpSuccess.text,Saltas sobre el charco y aterrizas al otro lado. Muévete al siguiente espacio.
+EventAlley1JumpSuccess.button1,Continuar
+EventAlly1JumpFail1.text,Saltas al charco. Todo lo que puedes ver es tu reflejo en las tranquilas aguas oscuras. Un rayo cae en la distancia. De repente puedes ver más: hay una isla envuelta en niebla y nubes oscuras. Un rayo golpea la isla como si estuviera siendo castigada por el mismo Thor. \n\n La imagen se vuelve borrosa y se vuelve más nítida de nuevo. Ahora, ves una mansión en la cima de una colina. La iluminación continúa iluminando el paisaje. \n\n Las superficies se vuelven negras nuevamente. Sin embargo, no puedes apartar la vista de él. Hipnotizado, continúas mirando en la oscuridad. \n\n De repente ves unos ojos que brillan y una mandíbula de dientes fluorescentes se abre. El agua desborda mientras el horror gruñe. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n Sufres 1 de Horror. Ganas 1 Pista {clue}.
+EventAlly1JumpFail1.button1,Continuar
+EventAlley2WaterSeal.text,Ves una tapa detrás del barril. Por suerte, encaja perfectamente. Poco después de cerrarlo, el barril comienza a moverse y a agitarse.
+TokenAlley2Water.text,La cañería que baja de la azotea termina en un barril de agua. La continua lluvia ha llenado el barril y el agua desbordada se derrama por todas partes. Se ha formado un gran charco alrededor del barril de agua de lluvia.
+EventAlley2WaterSeal.button1,Continuar
+TokenAlley2Water2.text,Sellaste el barril con una tapa. Desde entonces, se mueve y tiembla como si alguien estuviera atrapado dentro.
+TokenAlley2Water2.button1,{action} Abrir el barril
+EventVanderbiltTalkBook1b.text,—<i>Seguí la existencia del libro a lo largo de décadas. Resulta que fue traído allí por exploradores europeos. A bordo de uno de los primeros barcos comandados por dichos exploradores había un sacerdote católico. En su diario, hizo múltiples menciones al libro. También se refirió a él como profano y habló de una misión secreta para enterrarlo en el lugar más remoto que pudieran encontrar, lejos de la humanidad. \n\n El sacerdote recibió el libro del Vaticano. El Vaticano tomó posesión del artefacto un poco antes. Durante la Revolución Francesa, un pequeño grupo de monjes huyó de su remoto monasterio temiendo por su seguridad y el secreto del libro. Los monjes creían que el libro fue escrito por el diablo y podían conjurarlo. \n\n Los monjes lo adquirieron durante la última cruzada. Un grupo de cruzados de la región del monasterio quedó atrapado en una ciudad perdida durante su retirada de Jerusalén. Escondiéndose de sus atacantes, se refugiaron en un antiguo cementerio.</i>
+EventVanderbiltTalkBook1b.button1,Continuar
+EventVanderbiltTalkFather1.text,—<i>También podría haber pedido que le contara una novela. Mi padre era un hombre muy aventurero. Inicialmente estudió física. Cuando descubrió que hay poderes más grandes en el universo que las leyes de la física, comenzó a estudiar ciencias religiosas. Dejó eso también después de un par de semestres, porque la religión era demasiado adoctrinante para él. El último curso de estudios que realizó fue arqueología. Aquí duró unos 3 años. En ese momento, decidió aceptar un trabajo como arqueólogo ayudante en Perú. Ese hombre en realidad era más un cazador de tesoros. Mi padre se ganaba la vida con este trabajo y tuvo tiempo de fusionar sus conocimientos sobre física, religión, arqueología y su experiencia in situ en su famosa teoría del multiverso. La teoría en realidad no era suya, aunque sí la idea de probarla encontrando un artefacto de otro universo.</i>
+EventVanderbiltTalkFather2.button1,Continuar
+EventHarborTunnelExitInvestigate.button2,Ayuda para forzar la cerradura (consejo para resolver el rompecabezas).
+EventCodeLockHint.text,Averiguar un código puede ser una labor ardua. Ésta es una estrategia que generalmente da buen resultado: \n 1) Prueba con todo unos (1 1 1 1) - anota la cantidad de aciertos. \n 2) Prueba con todo doses (2 2 2 2) - anota los aciertos \n 3) Repite lo mismo con el resto de números posibles excepto con el último. \n 4) Calcula la coincidencia del último número con la del anterior. \n 5) Generalmente uno de los números no está en el código, así que vamos a considerar que es el 1. Ahora rellena las casillas de este modo: 2 1 1 1, 1 2 1 1, 1 1 2 1. Tan pronto como obtengas un acierto, cancela. Asumamos que 1 2 1 1 era correcto y sigamos. \n 6) Ahora ya sabes que el “2” está en el segundo lugar y que "1” no forma parte del código. Ahora continuamos probando con el número 3. También sabes que el número 4 tiene que salir 2 veces, por ejemplo. Ahora una buena estrategia sería la que se muestra en este ejemplo: 3 2 4 4, 4 2 3 4, 4 2 4 3. Una de estas combinaciones será la solución. Generalmente esta estrategia lleva rápidamente a la resolución del código. \n
+EventCodeLockHint.button1,Continuar
+EventAlley2LadyHerring.button2,No darle el café todavía.
+EventAlley2LadyNoCoffeeOrHerring.text,No tienes ni café ni arenques.
+EventAlley2LadyNoCoffeeOrHerring.button1,Continuar
