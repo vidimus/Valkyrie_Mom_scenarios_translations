@@ -1,0 +1,472 @@
+.,Spanish
+quest.name,Los diablos del mar
+EventNegotiateWithNeilPassT7.text,—<i>De acuerdo, ¡trato hecho!</i> —dice Neil mientras le entregas el dinero. Sólo esperas que esta cosa merezca la pena. Ganas el Objeto común {c:QItemMysticSextantT7}.
+EventReadyToSetSailT5.text,—<i>De acuerdo, écheme una mano y suelte esos cabos</i> —dice Jeremiah. \n\n Jeremiah se pone al mando del timón. Mueve la ficha de Personaje Hombre azul como se señala. El motor diésel petardea durante unos instantes hasta que finalmente se pone en marcha. Jeremiah sube la potencia y el «Vieja dama» enfila la salida del muelle. \n\n No tardas mucho en perder de vista la cosa. La noche es cerrada, con un cielo nublado que apenas deja ver algunas estrellas y unos débiles destellos ocasionales de la luz de la luna. \n\n Retira todas las fichas y módulos de tablero a excepción del módulo {c:TileBoatT5}.
+EventCapturedT5.text,—<i>Bien, me parece más razonable</i> —exclama el capitán enemigo—. <i>Muchachos, asegurad el barco</i>. \n\n Otros dos hombres aparecen portando bicheros que usan para acoplar el sumergible al «Vieja dama», asegurando la maniobra con varias maromas. \n\n —<i>Bien, esto es lo que va a pasar a continuación<i> —una sonrisa se dibuja en la cara de la enigmática figura—. <i> Mis muchachos van a subir a bordo, van a coger el tesoro y subiréis bajo custodia a nuestro navío. Os desembarcaremos en la costa, cerca de Kingsport. Y será mejor que no hagáis ninguna tontería o acabaréis durmiendo con los peces en el fondo del mar</i>. \n\n Al parecer no os queda otra alternativa. \n\n Varios hombres armados abordan el «Vieja dama» usando una pasarela, os atan las manos detrás de la espalda, os ponen una venda en los ojos y os llevan a bordo del sumergible. \n\n Los investigadores deben poner a un lado de la mesa todas sus posesiones a excepción de los Hechizos y las Pistas. \n\n Descendéis por una escalerilla y cruzáis un laberinto de compartimentos y pasillos hasta que finalmente os arrojan contra el suelo. Os golpean con algún objeto contundente y perdéis la consciencia. \n\n Descarta todas las fichas y módulos de tablero de la mesa.
+EventReadyToDiveT5.text,—<i>Este sitio es tan bueno como cualquier otro para buscar</i> —dice Jeremiah—. <i>Bueno, ¿quién de ustedes es el que va a bucear?</i> \n (Elegid un investigador para que se equipe con el traje de buzo). \n\n Jeremiah pone en marcha un viejo compresor de aire, que emite un silbido al arrancar, y después te ayuda a ponerte el traje de buzo. Un tubo de goma lleva el aire desde el compresor hasta la escafandra. Un oxidado cable de acero enganchado a una placa de metal lleva hasta un cabrestante. Te echa una mano para ajustarte un cinturón con lastre y unas botas de plomo. Apenas te puedes mover. \n\n Un investigador (el buzo) gana el Objeto común {c:QItemDiversHelmetT5}. \n\n Si los investigadores tienen un cuchillo, el buzo puede equiparse con él inmediatamente. \n\n —<i>Y ahora tenga cuidado con el tubo de goma</i> —dice Jeremiah—, <i>y tire del cable una vez si quiere que le soltemos más carrete, dos veces si quiere regresar y varias veces seguidas si está en peligro</i>. \n\n Coloca una ficha de Interacción en el lugar señalado. Representa el cabrestante (coloca un investigador adyacente a la ficha de Interacción para que maneje el cabrestante). \n\n Jeremiah te presta ayuda para llegar al portillo y descender por la escalerilla hasta el agua mientras vas soltando cable. \n\n (Mueve al investigador buzo fuera del tablero, colocándolo al lado del módulo del barco). \n\n —<i>Abajo con él</i> —grita Jeremiah, y bajáis a vuestro amigo hacia las profundidades del mar.
+EventYellowManAskT8.text,—<i>Lleva una semana desaparecido</i> —comenta—. <i>Le dije que se mantuviera alejado del «Mistral». En el mar, hay cosas, cosas que no quieren que ese barco sea encontrado. Pero no me hizo caso</i>—se levanta—. <i>En fin, me marcho, voy a planchar la oreja</i>. \n\n Se marcha de la taberna. \n\n Descarta la ficha de Personaje Hombre amarillo. \n\n Ganas 1 Pista {clue}.
+EventNegotiateWithNeilFailT7.text,—<i>Lo siento, pero por menos de cincuenta dólares, no me desprendería de eso</i> —<i>dice Neil. \n\n Por desgracia no te lo puedes permitir. Lo pones de vuelta en la estantería.
+EventNotReadyT5.text,—<i>Muy bien, me quedo entonces esperándolos aquí</i> —dice Jeremiah.
+EventAskBartenderAboutFishermanT8.text,—<i>No mucho en esta época del año. Hace demasiado frío. Por el momento, todos están preocupados por el viejo señor Tork. Hace una semana que nadie lo ha visto. El viejo McGinty probablemente sepa algo más. Es el hombre de barba cana que está sentado allí, en el sofá.
+EventPurpleManAskT8.text,—<i>No sé nada del viejo Tork, excepto que me debe dinero, ¡y no soy el único al que le debe!</i> —afirma al tiempo que mira hacia su barbudo amigo.
+EventMcGintyPassT8.text,—<i>Soy Jack McGinty<i> —dice el viejo—. <i>Tork es una buena persona, espero que esté bien</i> —le da un trago a su bebida—. <i>Le advertí para que se mantuviera alejado de los escollos que hay cerca del faro, vaya si lo hice, pero estaba convencido de que ahí era donde se había hundido el «Mistral».
+TokenExploreGalleyT12.button1,{action} Abrir la puerta
+TokenWinchT5.button1,{action} ¡Arriba con él!
+TokenSearchFwdT11.button1,{action} Abrir la caja
+TokenExploreBridgeT16.button1,{action} Abrir la escotilla
+TokenBridgeExitT16.button1,{action} Abrir la escotilla
+TokenExploreEngineRoomT11.button1,{action} Abrir la puerta
+TokenExploreCrewQtrsT14.button1,{action} Abrir la puerta
+TokenExploreChartT13.button1,{action} Abrir la puerta
+TokenExploreBridgeT15.button1,{action} Abrir la puerta
+TokenBridgePressureDoorSecuredT16.button1,{action} Abrir la puerta
+TokenExploreKitchenT14.button1,{action} Abrir la puerta de la cocina
+TokenEngineGaugesT10.button1,{action} Examinar los indicadores
+TokenSearchShelfT12.button1,{action} Buscar
+TokenSearchTableT12.button1,{action} Buscar
+TokenSearchBarrelsT1.button1,{action} Buscar
+TokenSearchDrawersT14.button1,{action} Buscar
+TokenSearchCabinetT14.button1,{action} Buscar
+TokenNavalEquipT13.button1,{action} Buscar
+TokenSearchCabinetT13.button1,{action} Buscar en el armario
+TokenSearchRowboatT1.button1,{action} Buscar en el bote
+TokenSearchTableT6.button1,{action} Buscar en la mesa
+EventFallIntoHoldFailT17.button1,{action} Buscar en los cofres
+EventFallIntoHoldPassT17.button1,{action} Buscar en los cofres
+TokenSearchSideTableT14.button1,{action} Buscar entre las baratijas
+TokenSearchBookshelvesT15.button1,{action} Buscar entre los libros
+TokenBridgePressureDoorOpenedT16.button1,{action} Cerrar la puerta
+TokenRedPersonT13.button1,{action} Coger el libro
+TokenTrapdoorT17.button1,{action} Descender a la bodega
+TokenWreckage1T17.button1,{action} Despejar el camino para abrir la escotilla
+TokenExploreNeilsCuriosityShopT4.button1,{action} Entrar en la tienda
+TokenSearchPainting1T9.button1,{action} Examinar el cuadro
+TokenSearchPainting2T9.button1,{action} Examinar el cuadro
+TokenPurplePersonT13.button1,{action} Examinar el cuerpo
+TokenGreenPersonT13.button1,{action} Examinar el cuerpo
+TokenSearchSuitcaseT9.button1,{action} Examinar el maletín
+TokenSearchChartTableT15.button1,{action} Examinar la carta náutica
+TokenBridgeControlsT16.button1,{action} Examinar los controles
+TokenDrunkBumT2.button1,{action} Hablar con el viejo
+TokenActivateEscapePodT16.button1,{action} Intentar activar los controles
+TokenExploreRopeAndAnchorT3.button1,{action} Entrar
+TokenExploreShackT1.button1,{action} Entrar a la fuerza en el quiosco
+TokenSearchNewspaperT9.button1,{action} Leer el periódico
+TokenJerimiahDeckT5.button1,{action} Listos para partir (todos los investigadores están a bordo)
+TokenGreyManT8.button1,{action} Preguntar por el pescador desaparecido
+TokenYellowManT8.button1,{action} Preguntar por Tork
+TokenJerimiahDeckT5.button2,{action} Preguntarle si alquila el barco
+TokenJerimiahDeckT5.button3,{action} Preguntarle qué está haciendo
+TokenBartenderT8.button1,{action} Preguntarle qué está pasando en la ciudad
+TokenPurpleManT8.button1,{action} Preguntarle sobre el pescador desaparecido
+TokenOldManT9.button1,{action} Preguntarle sobre sí mismo
+TokenRemoveHarpoonT14.button1,{action} Quitar el arpón (se necesita la Llave inglesa)
+TokenRepairBilgePumpsT10.button1,{action} Reparar las bombas
+TokenExploreExitFoyerT9.button1,{action} Salir del vestíbulo
+TokenWreckage2T17.button1,{action} Tratar de apartar el mástil
+TokenPurplePersonT13.text,A juzgar por la grasa y el aceite que mancha el uniforme de este hombre, está claro que trabajaba en la sala de máquinas.
+EventInvestigatorsReturnT16.button1,Al menos un investigador sobrevivió
+TokenSearchSuitcaseT9.text,Apoyado sobre la pared hay un viejo maletín.
+EventSearchBoatFailT1.text,Caes y te das un buen chapuzón. Trepas de vuelta al muelle, completamente empapado.
+TokenRiftT15.button2,Cancelar
+EventIntro.button1,Continuar
+TokenSightLobbyT9.button1,Continuar
+EventHotelIntroT9.button1,Continuar
+UISplashScreenContinue.button1,Continuar
+EventSearchShelfT12.button1,Continuar
+EventGiveBandagesT12.button1,Continuar
+EventInvestEliminatedPressed.button1,Continuar
+EventPlaceTileHotelFoyerT9.button1,Continuar
+EventPlaceSightLobbyT9.button1,Continuar
+EventPlacePaperAndExploreT9.button1,Continuar
+TokenPainting2T9.button1,Continuar
+EventNewspaperPassT9.button1,Continuar
+EventNewspaperFailT9.button1,Continuar
+EventPlaceMarket.button1,Continuar
+EventSearchPainting1T9.button1,Continuar
+EventSearchPainting2T9.button1,Continuar
+EventSearchLuggageT9.button1,Continuar
+EventSearchTableFailT6.button1,Continuar
+EventSearchTablePassT6.button1,Continuar
+EventAskManAboutHimselfPassT9.button1,Continuar
+EventAskManAboutHimselfFailT9.button1,Continuar
+TokenSightPierT6.button1,Continuar
+TokenSightDock2T1.button1,Continuar
+TokenSightDock1T1.button1,Continuar
+EventSearchBarrelsT1Pass.button1,Continuar
+EventSearchBarrelsT1Fail.button1,Continuar
+EventSearchBoatT1.button1,Continuar
+EventSearchBoatFailT1.button1,Continuar
+EventSearchBoatPassT1.button1,Continuar
+EventBreakIntoShackT1.button1,Continuar
+EventExploreShackPassT1.button1,Continuar
+EventExploreShackFailT1.button1,Continuar
+EventAskJerimiahWhatHesDoingT5.button1,Continuar
+TokenSearchRuinedBoathouseT2.button1,Continuar
+EventTalkBumFailT2.button1,Continuar
+EventTalkBumPassT2.button1,Continuar
+EventEnterNeilsT4.button1,Continuar
+TokenNeilT7.button1,Continuar
+TokenSearchNeilsShopT7.button1,Continuar
+EventSearchNeilsFailT7.button1,Continuar
+EventNegotiateWithNeilFailT7.button1,Continuar
+EventNegotiateWithNeilPassT7.button1,Continuar
+EventExploreRopeAndAnchorT8.button1,Continuar
+EventAskBartenderAboutFishermanT8.button1,Continuar
+EventMcGintyFailT8.button1,Continuar
+EventMcGintyJeremiahT8.button1,Continuar
+EventPurpleManAskT8.button1,Continuar
+EventYellowManAskT8.button1,Continuar
+EventNotReadyT5.button1,Continuar
+EventReadyToSetSailT5.button1,Continuar
+EventHireBoatFailT5.button1,Continuar
+EventBoatArrivesT5.button1,Continuar
+EventReadyToDiveT5.button1,Continuar
+EventFoundCapT5.button1,Continuar
+EventGoingDownT5.button1,Continuar
+EventTouchdownT5.button1,Continuar
+EventTouchdownT17.button1,Continuar
+EventWreckT17.button1,Continuar
+EventClearHatchT17.button1,Continuar
+EventMoveMastFailT17.button1,Continuar
+EventMoveMastPassT17.button1,Continuar
+EventClearHatchFailT17.button1,Continuar
+EventClearHatchPassT17.button1,Continuar
+EventDeepOnesAttackT5.button1,Continuar
+SpawnDeepOneT5.button1,Continuar
+EventSearchChestsT17.button1,Continuar
+EventHoistAwayFailT5.button1,Continuar
+EventHoistAwayPassT5.button1,Continuar
+EventGoingUpT5.button1,Continuar
+EventContinueUpT5.button1,Continuar
+EventBackOnBoardT5.button1,Continuar
+EventTimeToGoT5.button1,Continuar
+EventCapturedT5.button1,Continuar
+EventWakingUpT11.button1,Continuar
+EventLookAroundT11.button1,Continuar
+EventSearchAftFailT11.button1,Continuar
+EventSearchAftPassT11.button1,Continuar
+EventSearchBoxFwdT11.button1,Continuar
+EventExploreEngineRoomT11.button1,Continuar
+TokenSearchEngineRoomT10.button1,Continuar
+EventEngineRoomDescContdT10.button1,Continuar
+EventExamineGaugesT10.button1,Continuar
+EventExamineGaugesFailT10.button1,Continuar
+EventExamineEngineGaugesPassT10.button1,Continuar
+SpawnSpawnShamblerT10.button1,Continuar
+EventWaterRisingT10.button1,Continuar
+EventBilgePumpsFixedT10.button1,Continuar
+TokenExploreSickBayT11.button1,Continuar
+EventExploreSickBayFailT11.button1,Continuar
+EventExploreSickBayPassT11.button1,Continuar
+EventEnterSickBayWithoutPumpsT12.button1,Continuar
+EventExploreGalleyT12.button1,Continuar
+EventExploreKitchenT14.button1,Continuar
+EventWaterEntersGalleyFromSickBayT14.button1,Continuar
+EventSearchSailorFailT14.button1,Continuar
+EventSearchSailorPassT14.button1,Continuar
+EventSearchDrawersT14.button1,Continuar
+EventSearchCabinetT14.button1,Continuar
+SpawnDimensionalShamblerT14.button1,Continuar
+EventExploreCrewQtrsT14.button1,Continuar
+EventCrewDescContdT13.button1,Continuar
+EventSearchCabinetT13.button1,Continuar
+EventSearchNavalEquipT13.button1,Continuar
+EventSearchPurplePersonT13.button1,Continuar
+EventInspectDiversJournal.button1,Continuar
+EventSearchRedPersonT13.button1,Continuar
+EventCrewQtrsFloodsT13.button1,Continuar
+EventExploreChartRoomT13.button1,Continuar
+EventExploreChart2T13.button1,Continuar
+EventSearchChartT13.button1,Continuar
+EventRemoveHarpoonT15.button1,Continuar
+EventSearchBooksFailT15.button1,Continuar
+EventSearchBooksPassT15.button1,Continuar
+EventExploreChart3T13.button1,Continuar
+EventExplainRiftsT10.button1,Continuar
+EventSearchGreenPersonT13.button1,Continuar
+EventPlaceBridgeT15.button1,Continuar
+EventWaterRisesT16.button1,Continuar
+SpawnHuntingHorrorT16.button1,Continuar
+EventExploreBridgeT16.button1,Continuar
+EventExamineBridgeControlsT16.button1,Continuar
+EventWaterEntersKitchenT14.button1,Continuar
+EventEscapeT16.button1,Continuar
+EventEscape2T16.button1,Continuar
+EventHatchFailT16.button1,Continuar
+EventHatchPassT16.button1,Continuar
+SpawnFormlessSpawnT10.button1,Continuar
+Spawn2ndDeepOneT5.button1,Continuar
+EventRemoveRiftT10.button1,Continuar
+EventRemoveRiftKitchenT14.button1,Continuar
+EventRemoveRiftT15.button1,Continuar
+EventRemoveRiftT16.button1,Continuar
+EventFinishPierT1.button1,Continuar
+EventFinishT8.button1,Continuar
+EventExtractMonstersT16.button1,Continuar
+EventShamblerRipsDoorT10.button1,Continuar
+EventCloseBridgeDoorT16.button1,Continuar
+EventOpenPressureDoorBridgeT16.button1,Continuar
+EventSoakedT8.button1,Continuar
+TokenJeremiahWheelhouseT5.button1,Continuar
+EventSearchTrinketsT14.button1,Continuar
+UISplashScreenContinue.uitext,Continuar...
+EventHireBoatT5.button1,Decirle que quieres buscar a tu tío y al «Mistral»
+EventRemoveRiftT15.text,Descarta esta ficha de Brecha dimensional.
+EventRemoveRiftT10.text,Descarta esta ficha de Brecha dimensional.
+EventRemoveRiftKitchenT14.text,Descarta esta ficha de Brecha dimensional.
+EventRemoveRiftT16.text,Descarta esta ficha de Brecha dimensional.
+TokenSightLobbyT9.text,En esa dirección el vestíbulo del hotel lleva al salón. Has venido de allí y no hay motivo para que vuelvas. \n\n Descarta esta ficha de Vistazo.
+EventSearchPainting2T9.text,En esta escena un barco de pesca zozobra en mitad de una violenta tormenta. Una inspección más detallada te permite distinguir a dos de los tripulantes que han sido barridos de la cubierta y ahora se encuentran en el agua, a merced del oleaje. El resto de la tripulación está en cubierta armados con arpones y tratando de mantener a raya a una extraña criatura humanoide. \n\n Descarta esta ficha de Búsqueda. Sufres 1 de Horror boca abajo (anulado por {will}) y ganas 1 Pista {clue}.
+EventSearchPainting1T9.text,En esta escena un faro se levanta al borde de un acantilado. El faro no emite luz alguna. El cielo es rojizo y está cubierto de nubes y bruma. Un gran ballenero de tres palos está encallado entre las rocas, con uno de los mástiles caído y con la tripulación tratando de echar al mar un bote salvavidas. \n\n Descarta esta ficha de Búsqueda. Sufres 1 de Horror boca abajo (anulado por {will} y ganas 1 Pista {clue}.
+EventSearchAftPassT11.text,Encuentras un {c:QItem2x4T11}.\n\n Descarta esta ficha de Búsqueda.
+EventSearchBarrelsT1Pass.text,Encuentras unas {c:QItemBrassKnucklesT1}. Ganas el Objeto común y a continuación, descarta esta ficha de Búsqueda.
+TokenSearchEngineRoomT10.text,Encuentras una {c:QItemCoalShovelT10}. \n\n Descarta esta ficha de Búsqueda.
+TokenSearchFwdT11.text,Encuentras una caja en el suelo que no parece que lleve mucho tiempo ahí.
+EventSearchCabinetT13.text,Encuentras una lámpara. Ganas el Objeto común {c:QItemLanternT13}. A continuación, descarta esta ficha de Búsqueda.
+TokenTrapdoorT17.text,Esta escotilla lleva a la zona de carga.
+TokenExploreBridgeT16.text,Esta escotilla lleva al puente de mando.
+TokenExploreKitchenT14.text,Esta puerta lleva a la zona de cocina.
+EventSearchTableT6.button1,Éxito
+EventAskManAboutHimselfT9.button1,Éxito
+EventSearchBarrelsT1.button1,Éxito
+EventTalkOldBumT2.button1,Éxito
+EventSearchNeilsPassT7.button1,Éxito
+EventAskMcGintyT8.button1,Éxito
+EventJeremiahSearchMystralT5.button1,Éxito
+EventMoveMastT17.button1,Éxito
+EventEnterHoldT17.button1,Éxito
+EventHoistAwayT5.button1,Éxito
+TokenSearchAftT11.button1,Éxito
+TokenYellowSailorT14.button1,Éxito
+EventSearchBooksT15.button1,Éxito
+EventOpenBridgeExitT16.button1,Éxito
+EventReadPaperT9.button1,Éxito
+EventSearchTableT6.button2,Fallo
+EventAskManAboutHimselfT9.button2,Fallo
+EventSearchBarrelsT1.button2,Fallo
+EventSearchBoatT1.button2,Fallo
+EventBreakIntoShackT1.button2,Fallo
+EventTalkOldBumT2.button2,Fallo
+TokenSearchNeilsShopT7.button2,Fallo
+EventSearchNeilsPassT7.button2,Fallo
+EventAskMcGintyT8.button2,Fallo
+EventJeremiahSearchMystralT5.button2,Fallo
+EventClearHatchT17.button2,Fallo
+EventMoveMastT17.button2,Fallo
+EventEnterHoldT17.button2,Fallo
+EventHoistAwayT5.button2,Fallo
+TokenSearchAftT11.button2,Fallo
+EventExamineGaugesT10.button2,Fallo
+TokenExploreSickBayT11.button2,Fallo
+TokenYellowSailorT14.button2,Fallo
+EventSearchBooksT15.button2,Fallo
+EventOpenBridgeExitT16.button2,Fallo
+EventReadPaperT9.button2,Fallo
+EventSearchShelfT12.text,Ganas el Objeto común {c:QItemSedativesT12}.\n Descarta esta ficha de Búsqueda.
+TokenEngineRoomRiftT10.text,Haz clic en <i>Quitar</i> si los investigadores han quitado esta brecha para descartar la ficha de Brecha dimensional.
+TokenRiftKitchenT14.text,Haz clic en <i>Quitar</i> si los investigadores han quitado esta brecha para descartar la ficha de Brecha dimensional.
+TokenRiftT15.text,Haz clic en <i>Quitar</i> si los investigadores han quitado esta brecha para descartar la ficha de Brecha dimensional.
+TokenRiftT16.text,Haz clic en <i>Quitar</i> si los investigadores han quitado esta brecha para descartar la ficha de Brecha dimensional.
+PuzzleRepairBilgeCircutT10.button1,Hecho
+PuzzleActivateEscapePodT16.button1,Hecho
+TokenJeremiahWheelhouseT5.text,Jeremiah se queda absorto contemplando el mar con mirada ausente.
+quest.authors_short,Jim Lederer
+TokenExploreGalleyT12.text,La puerta está cerrada.
+TokenExploreCrewQtrsT14.text,La puerta está cerrada.
+TokenExploreChartT13.text,La puerta está cerrada.
+quest.synopsys,Llega hasta el fondo de un misterio que sucede en un pequeño pueblo costero.
+EventSearchTableFailT6.text,Lo único que encuentras es un trozo apestoso de pescado podrido.
+TokenNeilT7.text,Neil, el tendero, te mira ansioso.
+EventNewspaperFailT9.text,No encuentras nada interesante.
+EventSearchBarrelsT1Fail.text,No encuentras nada interesante. Descarta esta ficha de Búsqueda.
+EventSearchSailorFailT14.text,No encuentras nada.
+EventSearchAftFailT11.text,No encuentras nada.
+EventSearchBooksFailT15.text,No logras encontrar algo de tu interés. Quizá deberías seguir buscando.
+EventHatchFailT16.text,No puedes moverla.
+UILoseGameText.uitext,Nunca más se supo de los investigadores.
+EventHoistAwayPassT5.text,Poco a poco, comienzas a elevar al buzo hacia la superficie.
+EventMcGintyMystral.button1,Preguntar dónde podéis encontrar al viejo Jeremiah
+EventMcGintyPassT8.button1,Preguntar por el «Mistral»
+EventHireBoatPassT5.button1,Preparados (Todos los investigadores están a bordo).
+EventAskManAboutHimselfT9.text,Prueba de {influence}(1)
+EventSearchBooksT15.text,Prueba de {lore}(2)
+EventReadPaperT9.text,Prueba de {observation}(2).
+TokenSearchCabinetT13.text,Puedes buscar dentro de este armario.
+TokenSearchCabinetT14.text,Puedes buscar dentro de este armario.
+TokenSearchAftT11.text,Puedes buscar dentro de las cajas. Prueba de {observation} (1)
+TokenNavalEquipT13.text,Puedes buscar en la pila de equipo náutico.
+TokenSearchDrawersT14.text,Puedes buscar en los cajones.
+TokenSearchSideTableT14.text,Puedes buscar entre las baratijas que hay en el armario.
+TokenBridgePressureDoorOpenedT16.text,Puedes cerrar la puerta estanca.
+TokenRepairBilgePumpsT10.text,Puedes intentar reparar las bombas de achique usando tu {lore}.
+TokenBridgeExitT16.text,Puedes trepar por la escalerilla y abrir la escotilla que tienes sobre tu cabeza.
+TokenEngineRoomRiftT10.button1,Quitar
+TokenRiftKitchenT14.button1,Quitar
+TokenRiftT15.button1,Quitar
+TokenRiftT16.button1,Quitar
+EventExplainRiftsT10.text,"Recordatorio de las reglas para Brechas dimensionales que aparecen en la expansión «Viajes escalofriantes»: \n\n Un investigador adquiere el estado <i>Perdido en el tiempo y el espacio</i> si en su espacio hay una Brecha dimensional y durante su turno realiza cualquier acción que no sea de movimiento. \n\n Cuando un investigador entra en un espacio que contiene una Brecha dimensional como consecuencia de una acción de movimiento, no hay ningún efecto automático. Se puede cerrar una Brecha dimensional realizando una tirada de
+Saber {lore}. Por cada Éxito {success} obtenido, un investigador puede descartar una Brecha dimensional de su espacio o de cualquier espacio al que se mueva posteriormente en esa misma ronda. \n\n Las Brechas descartadas de ese modo no hacen que un investigador
+adquiera el estado <i>Perdido en el tiempo y el espacio</i>. \n\n No puede colocarse una Brecha dimensional en un espacio que ya contenga una.\n\n <i>Nota del traductor: en este escenario se pueden quitar las brechas seleccionando la ficha en la aplicación, y tiene efectos en el escenario</i>. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada."
+EventSoakedT8.text,Se da cuenta de que estás encharcado. \n\n —<i>Hace una noche estupenda para darse un baño, ¿eh?<i> —dice entre risas y le da un pequeño codazo a amigo.
+TokenActivateEscapePodT16.text,Si todos los investigadores están en este espacio, pueden tratar de averiguar la secuencia para activar los controles usando su {observation} para resolver un rompecabezas.
+EventEscape2T16.text,Sientes una repentina sacudida y estás a punto de perder el equilibrio cuando las amarras se sueltan y el puente de mando comienza a flotar hacia arriba, lentamente al principio y luego más y más rápido.
+EventPlacePaperAndExploreT9.text,Sobre la mesa hay un periódico. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Cerca de la puerta, apoyado en la pared, hay un maletín bastante desgastado. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Puedes marcharte del hotel por la puerta. Coloca una ficha de Exploración en el lugar señalado. \n\n En esta aventura hay algunas reglas especiales. Recuerda que puedes usar el botón «Log» (registro) en el menú de la aplicación para volver a leer los textos que han aparecido en la pantalla y así no olvidarte de algún detalle.
+UIEndGameContinue.uitext,Fin
+EventHireBoatPassT5.button2,Todavía no.
+EventInvestigatorsReturnT16.button2,Todos los investigadores han sido eliminados
+EventBoatArrivesT5.text,Tras unas pocas horas de viaje, el barco llega a las inmediaciones del faro. \n\n Examináis el mar durante una hora mientras Jeremiah maniobra el barco hacia adelante y hacia atrás siguiendo una cuadrícula.
+TokenOldManT9.text,Un anciano sentado en una silla y con la mirada fija en el suelo. Viste con un traje de negocios.
+quest.authors,Un escenario de 2 a 5 investigadores. \n\n Creado por: Jim Lederer\njlederer2@hotmail.com\n\n Necesita la expansión «Viajes escalofriantes». \n\n Traducción al español: Vidimus
+SpawnDimensionalShamblerT14.text,Un monstruo atraviesa la Brecha dimensional y llega a la cocina. Aparece un Vagabundo dimensional en el lugar señalado.
+TokenDrunkBumT2.text,Un viejo vagabundo
+SpawnHuntingHorrorT16.text,Una criatura vuela a través de la Brecha dimensional. Aparece un Horrendo cazador en el lugar señalado.
+SpawnDeepOneT5.text,Una extraña criatura, mitad hombre mitad pez, trepa por la regala del barco y salta a la cubierta. Aparece un Profundo en el lugar señalado. \n\n —<i>Essssste barco nosssss pertenece</i> —croa el monstruo. \n\n Los investigadores a bordo del «Vieja dama» tienen la oportunidad de realizar dos acciones cada uno, y a continuación habrán terminado la Fase de los investigadores.
+TokenWreckage1T17.text,Una pila de tablones y otros restos bloquean el acceso a una escotilla.
+Spawn2ndDeepOneT5.text,Una segunda criatura sube por la borda. Aparece otro Profundo en el lugar señalado.
+EventJeremiahSearchMystralT5.text,—<i>Bueno, lo cierto es que sería bastante arriesgado teniendo en cuenta los escollos que hay en esa zona</i> —dice—. <i>¿Cuánto dinero tiene?</i> \n\n Prueba de {influence} (2)
+EventMcGintyJeremiahT8.text,—<i>Seguramente esté donde suele estar, trabajando en su barco, que está atracado justo a continuación del quiosco, claro.</i> \n\n Ganas 2 Pistas {clue}
+EventHireBoatPassT5.text,—<i>Bueno, esto ya tiene otro color</i> —dice—. <i>Partiremos esta noche. Los guardacostas dicen que está prohibido navegar por esa zona a causa de las rocas, así que no podemos dejar que nos vean por allí. Cuando quieran nos hacemos a la mar.</i>
+EventTalkOldBumT2.text,—<i>¿Qué? ¿Qué es lo que quiere? ¡No he hecho nada!</i> \n\n El anciano viste con ropa hecha jirones y apesta peor que el mar y que el pescado muerto que hay en la playa. \n\n Tratas de calmar al hombre y preguntarle de qué está hablando. Prueba de {influence} (2).
+EventAskMcGintyT8.text,—<i>¿Y usted quién es? —te responde el anciano. Prueba de {influence} (2).
+EventHireBoatFailT5.text,—<i>Tendrá que hacerlo mejor</i> —suelta el anciano.
+EventDeepOnesAttackT5.text,(A bordo del «Vieja dama»). \n\n El cable recupera su tensión, lo que permite girar el cabrestante y soltar algo más de carrete. Es una buena señal ya que indica que al menos el buzo se mueve. \n\n Detrás de vosotros suena un chapoteo.
+EventTouchdownT5.text,(A bordo del «Vieja dama»). \n\n El cable se afloja. El buzo habrá llegado al fondo. Intercambiáis miradas silenciosas con Jeremiah. \n\n —<i>Bueno, ahora tenemos que esperar</i> —añade.
+EventTouchdownT17.text,(Bajo el mar) \n\n De repente, sin aviso previo, tus pies tocan el fondo. Hay una capa de fango pero sólo de unos pocos centímetros. \n\n Enciendes la lámpara e iluminas a tu alrededor. Sólo hay oscuridad. \n\n El buzo sufre 1 de Horror (anulado por {will}). \n\n Espera... hay... algo que no es completamente negro en esa dirección. \n\n Te pones en marcha, paso a paso, haciendo fuerza para sacar del fango las pesadas botas de plomo.
+EventContinueUpT5.text,(Bajo el mar) \n\n De nuevo estás rodeado por una espesa negrura. Eres incapaz de saber si sigues subiendo o no. \n\n Sufres 1 de Horror (anulado por {will} -1). \n\n Tras lo que parece ser una eternidad alcanzas la superficie. El capitán Jeremiah te ayuda a subir a bordo. \n\n Coloca tu investigador sobre la cubierta del barco.
+EventGoingDownT5.text,(Bajo el mar) \n\n Desciendes envuelto en tinieblas. No puedes ver nada, ni siquiera tu propio cuerpo. \n\n Sufres 1 de Horror (anulado por {will} -1). En ese momento te acuerdas de que Jeremiah te dijo que llevabas una lámpara enganchada al traje y la enciendes. \n\n La luz de la lámpara apenas supone un cambio, a excepción de cuando enfocas sobre tu traje. Sólo tu respiración y el sonido de las burbujas que salen de tu regulador rompen el silencio. \n\n Sufres 1 de Horror (anulado por {will} -1). \n\n Continúas tu descenso.
+EventGoingUpT5.text,(Bajo el mar) \n\n Notas como el cable se pone tenso. En ese momento tienes la sensación de que algo está tirando de ti hacia arriba. Con cuidado apartas el tubo de aire para evitar que sufra daños mientras cruzas la escotilla. \n\n Descarta el módulo de tablero {c:TileWreckT17} y todas las fichas que haya sobre él. Coloca a tu investigador en la mesa, cerca del módulo de tablero del barco.
+EventFinishT8.text,Repartidos por la habitación hay varias personas de rostro duro y piel curtida por el sol, seguramente pescadores de la zona. Durante un instante la sala se queda en silencio mientras os miran de arriba a abajo. Después regresan a sus conversaciones. \n\n Hay un par de hombres sentados en un sofá. Coloca las fichas de Personaje Hombre gris y Hombre morado en el lugar señalado. \n\n Detrás de la barra hay una mujer. Coloca la ficha de Personaje Mujer naranja en el lugar señalado. \n\n Sentado en una silla hay un hombre charlando con la camarera. Coloca la ficha de Personaje Hombre amarillo. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventExtractMonstersT16.text,A medida que el compartimento de escape se eleva una brecha dimensional se materializa en la habitación. \n\n Una fuerza descomunal te arrastra hacia la brecha. Todos los investigadores deben realizar una prueba de {strength} (1) para agarrarse a algo y evitar ser tragados por la brecha. Cualquier investigador que falle la tirada es absorbido por la brecha y adquiere el estado <i>Perdido en el tiempo y el espacio</i>. \n\n Cualquier monstruo en este compartimento es absorbido por la brecha dimensional y es descartado.
+EventExploreChartRoomT13.text,Al abrir la puerta, las luces de emergencia comienzan a parpadear antes de apagarse del todo. Coloca fichas de Oscuridad en todos los módulos de tablero del sumergible. \n\n Las bombas de achique se han parado. \n\n Coloca fichas de Agua en todos los espacios del sumergible.
+EventBackOnBoardT5.text,Os congregáis para examinar el cofre de hierro y la caja que contiene. \n\n —<i>Jamás había visto algo parecido</i> —exclama Jeremiah. \n\n Examinas más de cerca la Caja portal. Al presionar una especie de saliente uno de los lados se abre. En su interior, en un tubo sellado, hay un pergamino. Ganas el Hechizo {c:QItemPlumbTheVoidT5}. \n\n Jeremiah apaga el compresor y te ayuda a quitarte el traje de buzo. El resto se encarga de recoger y almacenar el resto del equipo para emprender el viaje de vuelta.
+SpawnFormlessSpawnT10.text,Un horrendo sonido procedente de la popa del barco anuncia la llegada de una terrible criatura procedente del vacío. Aparece otra brecha dimensional y a través de ella sale arrastrándose una inmensa monstruosidad. Aparece una Semilla informe en el lugar señalado. \n\n Nota: La Semilla informe ni es acuática ni es incorpórea, por lo que sólo puede moverse un espacio por cada acción de movimiento en los espacios inundados.
+EventGiveBandagesT12.text,Ganas el Objeto común {c:QItemBandagesT12}.\n\n Descarta esta ficha de Búsqueda.
+EventSearchRedPersonT13.text,Ganas el Objeto común {c:QItemDiversJournalT13}. Este objeto puede examinarse usando el menú de Objetos de la aplicación. Descarta la ficha de Personaje roja.
+EventSearchNavalEquipT13.text,Ganas el Objeto único {c:QItemNetT13}. Descarta esta ficha de Búsqueda. \n\n En lugar de realizar la acción impresa en la carta, la red puede usarse para retener una criatura si se tiene éxito en una prueba de {agility} (2). Si superas la prueba, descarta la Red de pesca. Ignora cualquier acción que la criatura realice en su turno y no hagas ninguna prueba de Horror contra ella. Además, no es necesario realizar la acción de evadir a la criatura en el turno que esté atrapada por la red.
+EventPlaceTileHotelFoyerT9.text,Coloca el módulo {c:TileHotelFoyerT9}. Es el recibidor de tu hotel en la calle Waters. \n\n El suelo ajedrezado parece que lleva algún tiempo sin fregarse y el lugar huele a moho. Dos puertas llevan a las oficinas, pero no se permite a los huéspedes acceder a ellas. En la pared opuesta hay varios cuadros con barcos. Coloca las fichas de Pared (con cuadro) en los lugares señalados.
+EventFoundCapT5.text,De repente divisas algo agitándose entre las olas. \n\n —<i>¡A babor! ¡Veo algo!</i> —gritas y Jeremiah pone el motor en punto muerto. \n\n Coges un bichero y pescas el objeto. Un investigador gana el Objeto común {c:QItemCaptainsHatT5}. \n\n —<i>Rayos, es la gorra del viejo Tork</i> —exclama Jeremiah—, <i>y parece que tiene problemas</i> —Jeremiah señala con el dedo una mancha de sangre en la gorra. \n\n El investigador que haya sufrido menos Horror sufre 1 de Horror boca abajo (anulado por {will}).
+TokenBartenderT8.text,La camarera es una atractiva pelirroja. \n\n —<i>¿Qué va a tomar?</i> —te pregunta. Pides una bebida.
+TokenSightDock2T1.text,El muelle continúa hacia el oeste. \n\n Descarta esta ficha de Vistazo. \n\n Coloca el módulo {c:TileDock2T3} en el lugar señalado. \n\n Hacia el norte hay una playa con un ruinoso cobertizo para botes. \n Coloca el módulo {c:TileBeachT2} en el lugar señalado. Coloca una ficha de Búsqueda en el lugar señalado. \n\n En dirección sur hay una puerta. \n Coloca una ficha de Exploración en el lugar señalado.
+EventSearchBoxFwdT11.text,La caja contiene las pertenencias que os arrebataron cuando el «Vieja dama» fue abordado, a excepción de la Caja portal. Recuperáis todas vuestras posesiones. \n\n Descarta esta ficha de Búsqueda.
+UIWinScreenText.uitext,El puente de mando se balancea sobre las olas... \n\n Trepáis por la escalera y abrís la trampilla que tienes sobre tu cabeza. La luz de la mañana os ciega. La fresca brisa marina nunca os había sentado mejor. \n\n Reflexionáis sobre los horrores que habéis contemplado. \n\n Puede que volváis a por el resto del tesoro. \n\n O tal vez no. \n\n La investigación ha sido un éxito.
+TokenSearchChartTableT15.text,La carta náutica representa la bahía de Kingsport. Puedes examinarla con más detenimiento.
+EventSearchChartT13.text,La carta náutica es bastante vieja. El papel está apergaminado. El texto está escrito en un lenguaje que no habías visto antes. \n\n Sobre la carta hay pintadas varias líneas de color rojo. Parecen converger en un punto cercano a la posición donde crees que están los restos del «Mistral». \n\n Ganas el Objeto común {c:QItemMapofLeyLinesT15} y 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventPlaceSightLobbyT9.text,El pasillo lleva hasta el vestíbulo del hotel. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Puedes echarle un vistazo a los cuadros. Coloca fichas de Búsqueda en los lugares señalados.
+EventLookAroundT11.text,Las paredes de metal curvado dejan claro que te encuentras en el interior de un sumergible. Pero hay un problema. Hay varios centímetros de agua en el suelo. Parece ser que hay una fuga de agua en el algún sitio. \n\n Hay dos pesadas puertas estancas sellando el compartimento. Coloca fichas de Exploración en los lugares señalados. \n\n En la estancia hay numerosas cajas y barriles. Coloca fichas de Búsqueda en los lugares señalados.
+EventShamblerRipsDoorT10.text,El Vagabundo dimensional agarra la puerta estanca del compartimento y la arranca de sus bisagras para a continuación lanzársela al investigador más cercano. El investigador más cercano dentro de su alcance sufre 1 de Daño (anulado por {agility} -1). \n\n Descarta la ficha de Exploración que lleva a la sala de máquinas.
+TokenSightDock1T1.text,El muelle se extiende en dirección este. Descarta esta ficha de Vistazo. \n Coloca el módulo {c:TileDock1T4} en el lugar señalado.\n\n Hay un barco de pesca amarrado en este sitio. Está deteriorado por el uso, pero parece que todavía puede navegar. En la proa del barco está pintado el nombre: «Mi vieja dama». \n\n Coloca el módulo {c:TileBoatT5} en el lugar señalado. Hay un hombre a bordo. Coloca la ficha de Personaje Hombre azul. \n Hay también una tienda de curiosidades. Coloca una ficha de Exploración en el lugar señalado.
+EventExploreSickBayFailT11.text,La puerta sigue atascada.
+EventPlaceBridgeT15.text,La puerta lleva a una escalerilla ascendente. Coloca el módulo {c:TileBridgeT16} en el lugar señalado. \n\n Sustituye esta ficha de Exploración por una ficha de Interacción. \n\n La puerta de la cabina está cerrada. Coloca una ficha de Exploración como se señala. \n\n Hay una Brecha dimensional en este lugar. Coloca una ficha de Brecha dimensional como se indica. Oyes el chapoteo del agua. Coloca una ficha de Agua en el lugar señalado. \n\n Está oscuro. Coloca una ficha de Oscuridad en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventEnterNeilsT4.text,La puerta se abre para revelar una gran sala llena con todo tipo de trastos. Descarta esta ficha de Exploración. Coloca el módulo {c:TileNeilsCuriosityShopT7} en el lugar señalado. \n\n Hay cajas apiladas por todas partes y estanterías a punto de caerse por el peso de baratijas, objetos de adorno y demás parafernalia.\n\n Un anciano te saluda al verte entrar en la tienda. Coloca la ficha de Personaje Hombre rojo en el lugar señalado. \n\n —<i>Bienvenido a mi humilde lugar</i> —dice con voz ronca—.<i>Eche un vistazo a su alrededor y si ve algo que le guste podremos discutir un precio</i>. \n\n El hombre se sienta sin quitarte el ojo de encima. \n\n Tienes la oportunidad de moverte hacia la tienda. \n\n Te das una vuelta por la tienda. Te va a llevar algo de tiempo encontrar algo que te pueda servir entre toda esta chatarra. Coloca una ficha de Búsqueda en el lugar señalado.
+EventExploreCrewQtrsT14.text,La puerta lleva a lo que sin duda es el alojamiento de la tripulación. Coloca el módulo {c:TileCrewQuartersT13} en el lugar señalado. \n\n Descarta esta ficha de Exploración. \n\n La habitación está sembrada de cuerpos con diversos grados de desmembramiento. Coloca las fichas de Personaje morada, roja y verde en el lugar señalado. \n\n Sufres 2 de Horror (anulados por {will}).
+EventEscapeT16.text,La puerta del puente de mando se cierra y las sujeciones se acoplan.
+EventEngineRoomDescContdT10.text,La sala de máquinas está en silencio, a excepción del siseo del agua entrando por algún lugar de los mamparos que no logras divisar. Los motores parece que no funcionan. \n\n Hay numerosos indicadores en rojo. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Cerca de la puerta hay una extraña y pulsante brecha dimensional. Coloca una Brecha dimensional en el lugar señalado. Ganas 2 Pistas {clue}. \n\n Lo que parece ser un rastro de sangre lleva desde el centro de la sala hasta la brecha dimensional.
+EventExamineEngineGaugesPassT10.text,Los indicadores señalan que hay un fallo eléctrico y que los motores han sido apagados manualmente. Está activada la energía de emergencia. \n\n Descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Interacción.
+EventOpenBridgeExitT16.text,La escotilla está firmemente cerrada. Prueba de {strength}(2).
+EventInspectDiversJournal.text,El diario describe los intentos de parte de la tripulación del submarino para localizar el pecio del «Mistral» y su tesoro. \n\n Además de una fortuna en oro, se cree que el tesoro contiene una «Caja de los secretos», No está claro que supieran el propósito o finalidad de la caja. \n\n Ganas 1 Pista {clue}.
+EventAskManAboutHimselfFailT9.text,El hombre te mira, sacude la cabeza y a continuación vuelve a mirar al suelo.
+EventAskManAboutHimselfPassT9.text,El hombre se levanta despacio, sonríe y estrecha tu mano. \n\n —<i>Oh, sólo soy un vendedor. Mi nombre es Fred Wein. Vendo suministros para hoteles y restaurantes. Aunque lo cierto es que no estoy teniendo mucha suerte aquí, en Kingsport. Esté lugar está muerto. \n\n Bueno, tengo que seguir con lo mío.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Personaje.
+TokenWinchT5.text,Un cabestrante manual.
+TokenJerimiahDeckT5.text,El anciano está muy atareado trabajando en su barco.
+EventTalkBumFailT2.text,El anciano está cada vez más alterado. Comienza a balbucear y nada de lo que dice tiene sentido.
+EventAskJerimiahWhatHesDoingT5.text,El anciano entorna los ojos y grita: \n\n —<i>¿Qué le parece que estoy haciendo, marinero de agua dulce? Ahora, ¡déjeme en paz y salga de mi barco!</i>
+TokenExploreRopeAndAnchorT3.text,Un viejo cartel de madera cuelga sobre la puerta: «Ancla y Amarra». Del otro lado te llega el sonido de varios hombres conversando.
+TokenSearchPainting1T9.text,La pintura muestra un barco que ha encallado.
+EventFinishPierT1.text,El muelle continúa a derecha e izquierda. Coloca fichas de Vistazo en los lugares señalados. \n\n Hay una especie de pequeño quiosco al norte. Coloca una ficha de Exploración en el lugar señalado. \n\n En los alrededores ves varios barriles y algunas pilas de cajas. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Hay un bote de remos cubierto con una lona, flotando al lado del embarcadero. Coloca una ficha de Búsqueda en el lugar señalado.
+EventInvestigatorsReturnT16.text,La brecha se cierra. \n\n El compartimento sigue subiendo más y más, alejándose del sumergible. \n\n Todos los investigadores con el estado <i>Perdido en el tiempo y el espacio</i> tienen una oportunidad para regresar. Se le da la vuelta a la carta de <i>Perdido en el tiempo y el espacio</i> y se siguen las instrucciones impresas en la carta. \n\n Cualquier investigador que permanezca <i>Perdido en el tiempo y el espacio</i> queda eliminado del juego.
+SpawnSpawnShamblerT10.text,¡La brecha brilla repentinamente y una criatura horrible atraviesa a este lado! Aparece un Vagabundo dimensional en el lugar señalado. \n\n Nota: los monstruos <i>incorpóreos</i> como el Vagabundo dimensional pueden moverse a través de bordes intransitables y paredes, y no les afecta el agua.
+EventPlaceMarket.text,El fuerte olor a pescado y a mar inunda tus fosas nasales al abrir la puerta. \n Descarta esta ficha de Exploración. \n\n Coloca el módulo {c:TileMarketT6} en el lugar señalado. Es el mercado local y está compuesto por varios puestecillos de aspecto descuidado. Durante el día probablemente se utilizan para vender pescado y productos artesanales de la zona. A estas horas de la noche están desiertos. Una fina brisa sopla débilmente.\n\n Hay una salida al norte. Coloca una ficha de Búsqueda en el lugar señalado.\n\n Hay unos cuantos cachivaches sobre esta mesa. Coloca una ficha de Vistazo en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia el Mercado.
+EventWaterRisingT10.text,"El nivel del agua está subiendo. Coloca fichas de Agua en los lugares señalados. \n\n Recordatorio de las reglas para el agua de la expansión «Viajes escalofriantes»: \n\n El Agua es una característica del entorno que ralentiza a investigadores y monstruos.\n\n Un investigador o un monstruo (que no sea acuático, incorpóreo o volador) que se mueva a una casilla con agua, renunciará al resto de
+su movimiento. \n\n Si se coloca Agua en una casilla con Fuego, éste se apaga. \n\n No pueden colocarse fichas de Agua o Fuego en un espacio que contenga Agua."
+EventWaterRisesT16.text,El nivel del agua está subiendo. \n\n Descarta los módulos {c:TileEngineT10} y {c:TileStorageHoldT11}, así como todas las fichas que estuvieran en ellos. Cualquier investigador en dichos módulos es eliminado. Cualquier monstruo presente en esos módulos se mueve al módulo {c:TileSickBayT12}.
+TokenBridgePressureDoorSecuredT16.text,La puerta estanca está cerrada y asegurada.
+TokenSearchTableT12.text,Hay algunos artículos apilados sobre esta mesa. Parece que alguien buscaba a toda prisa algo entre los suministros médicos.
+TokenSearchBookshelvesT15.text,Los estantes están rebosantes de libros. Puedes echar un vistazo para ver si hay algo interesante.
+TokenSearchTableT6.text,Sobre la mesa hay varias cajas pequeñas y algunas cosas más.
+TokenBridgeControlsT16.text,En esta parte hay unos controles que parecen bastante complejos. Puedes examinarlos para tratar de averiguar cuál es su función.
+TokenSearchBarrelsT1.text,Los barriles contienen algo.
+TokenSearchShelfT12.text,En la estantería hay herramientas quirúrgicas y botes de medicamentos.
+EventSearchTrinketsT14.text,En los estantes del armario hay una colección de baratijas, incluyendo algunos doblones, un antiguo cepillo para el pelo y un tubo de madera. Dentro del tubo de madera encuentras un pergamino. Ganas el hechizo {c:QItemStormSpellT14}. Descarta esta ficha de Búsqueda.
+EventExploreChart3T13.text,En esta habitación hay una brecha. Coloca una ficha de Brecha dimensional en el lugar señalado. \n\n En el suelo, cerca de la brecha, está lo que queda de la Caja portal. Al parecer explotó. Un fino remolino de humo sale de uno de los fragmentos. Al lado hay un cadáver calcinado. \n\n Una puerta estanca cerrada lleva a la siguiente habitación. Coloca una ficha de Exploración en el lugar señalado. \n\n El agua está entrando en esta habitación. Coloca fichas de Agua en los lugares señalados. \n\n La habitación está a oscuras. Coloca fichas de Oscuridad como se señala. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenSearchRowboatT1.text,Bajo una desgastada lona hay un viejo bote de remos.
+TokenWreckage2T17.text,Puede que haya algo bajo el mástil que hay sobre la cubierta.
+TokenExploreEngineRoomT11.text,La puerta del compartimento está cerrada, pero los cierres no están enganchados. El agua se cuela por debajo de la puerta, inundando la bodega de carga.
+EventExploreChart2T13.text,La puerta lleva a una habitación que contiene una pequeña biblioteca y una gran mesa sobre la que hay desplegada una carta náutica. Coloca el módulo {c:TileChartRoomT15} en el lugar señalado. \n\n Descarta esta ficha de Exploración. \n\n Puede que haya algo útil en las estanterías que tienes a tu izquierda. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Puede que sea interesante echarle un vistazo a la carta náutica. Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSightPierT6.text,Esta salida del mercado lleva hasta el mar. Hay un viejo embarcadero castigado por las inclemencias del tiempo. \n\n Descarta esta ficha y coloca el módulo {c:TilePierT1} en el lugar señalado. \n\n El olor a pescado es más intenso aquí y se mezcla con el olor a agua salada. Una leve brisa marina hace que se te erice la piel. Unas pocas farolas de aceite iluminan el embarcadero.
+EventExploreBridgeT16.text,La escotilla lleva hasta el puente de mando. La iluminación de emergencia sigue activa. \n\n Descarta esta ficha de Exploración. \n\n A través de unos grandes ventanales puedes ver al otro lado peces y rocas. Parece que el sumergible descansa sobre el lecho marino. \n\n En esta parte hay algunos paneles de control. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Una escalerilla sube hasta una escotilla que hay en la parte superior. Coloca una ficha de Interacción en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada. \n\n El nivel del agua sigue subiendo. Descarta el módulo {c:TileSickBayT12} así como todas las fichas que contenga. Todos los investigadores que estén en ese módulo son eliminados. Cualquier monstruo presente en ese módulo se desplaza hacia el módulo {c:TileGalleyT14}. \n\n El nivel del agua aún no ha llegado hasta esta zona.
+TokenRemoveHarpoonT14.text,Es un arpón de aspecto extraño, con intrincados grabados en su mango. Está anclado a la pared. Un investigador equipado con la Llave inglesa puede descolgar el arpón.
+TokenExploreNeilsCuriosityShopT4.text,Es la puerta de la tienda de curiosidades de Neil. La luz se filtra por el marco de la puerta.
+TokenExploreExitFoyerT9.text,Esta es la puerta del salida del vestíbulo.
+TokenGreenPersonT13.text,El brazo del hombre ha sido arrancado de cuajo. Hay sangre por todas partes.
+TokenRedPersonT13.text,La cabeza del hombre ha sido aplastada. Atrapado bajo el cuerpo hay un libro.
+TokenPurpleManT8.text,El anciano lleva una bufanda morada además del típico abrigo de lobo de mar.
+TokenYellowManT8.text,El anciano lleva puesto un impermeable amarillo por encima de su ropa.
+TokenGreyManT8.text,El anciano con la barba cana está hablando y bebiendo con un amigo suyo que lleva una bufanda morada.
+TokenSearchPainting2T9.text,El cuadro representa un barco azotado por una tempestad.
+TokenExploreBridgeT15.text,La esclusa está cerrada.
+TokenExploreSickBayT11.text,La esclusa está atascada. Haz una prueba de {strength} e introduce el número de {success} obtenidos. Si llevas contigo el tablón de madera puedes usarlo como un improvisado ariete: lanza un dado adicional.
+TokenExploreShackT1.text,El deteriorado puesto tiene un letrero oxidado en el que se puede leer «Quisco de Sam». Está cerrado por las noches. \n\n Giras el pomo pero la puerta está cerrada con llave.
+TokenYellowSailorT14.text,El cuerpo del marinero está lleno de marcas de garra. Examinas el cadáver {observation}(2).
+EventSearchLuggageT9.text,El maletín está vacío y, a juzgar por la capa de polvo que tiene, parece que ha sido abandonado. Quizá sea una buena idea llevártelo, podrías guardar en su interior algún recuerdo. \n\n Ganas el Objeto común {c:QItemSturdyLuggageT9}. A continuación, descarta esta ficha de Búsqueda.
+EventCrewDescContdT13.text,A tu izquierda hay un montón de material náutico. Coloca una ficha de Búsqueda en el lugar señalado. \n\n A la derecha hay un armario. Coloca una ficha de Búsqueda en el lugar señalado. \n\n La puerta que lleva a la siguiente habitación está cerrada. Coloca una ficha de Exploración en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventCrewQtrsFloodsT13.text,El agua de la cocina se cuela en los alojamientos de la tripulación. Coloca fichas de Agua en los lugares señalados.
+EventWaterEntersKitchenT14.text,El agua inunda la cocina. Coloca una ficha de Agua en el lugar señalado.
+EventWaterEntersGalleyFromSickBayT14.text,El agua del dispensario se cuela en la cocina. Coloca una ficha de Agua en el lugar señalado.
+EventEnterSickBayWithoutPumpsT12.text,El agua de la bodega de carga se cuela en la bodega de carga. Coloca fichas de Agua en el lugar señalado.
+EventHireBoatT5.text,—<i>Me gusta su estilo</i> —exclama el anciano—. <i>Me llamo Jeremiah Olafsson y éste de aquí es el «Vieja dama»</i> —y hace un gesto con su brazo señalando el barco. Está claro que ha visto días mejores—. <i>Y bien, ¿qué es lo que tiene en mente?</i>
+quest.description,Recuperándoos en una pequeña ciudad costera os veis envueltos en la desaparición de un lugareño.
+EventClearHatchPassT17.text,Con un tremendo esfuerzo quitas el último de los tablones que bloqueaba la escotilla. \n\n Tiras de la escotilla y la abres. \n\n Descarta esta ficha de Búsqueda y coloca en su lugar una ficha de Trampilla.
+EventHoistAwayFailT5.text,No consigues girar el cabrestante. Tal vez está atascado. Tendrás que hacer más fuerza.
+EventHatchPassT16.text,No consigues levantar la trampilla. Hay demasiada presión de agua sobre ti. Descarta la ficha de Interacción.
+EventTimeToGoT5.text,Os percatáis de un sonido burbujeante que procede de estribor. Todo el mundo se asoma a la borda para contemplar una enorme cascada de burbujas que se extiende a todo lo largo del «Vieja dama». \n\n En ese momento, algo grande y oscuro asciende bajo la superficie del mar... \n\n Lanzáis un grito de sorpresa cuando un sumergible de metal, cinco o seis veces más grande que el «Vieja dama» emerge a sólo unos palmos de la banda de estribor de vuestro barco. \n\n Antes de que tengáis tiempo para reaccionar, una escotilla se abre en la torreta que hay en la proa del sumergible y de ella salen tres hombres con uniforme negro. Sin mediar palabra se apresuran para montar una ametralladora <i>Gatling</i> en una base giratoria y apuntan en vuestra dirección. \n\n Un hombre mayor, vestido con un uniforme similar, entra en escena. \n\n —<i>Bueno, bueno, ¿qué tenemos aquí?</i> —exclama—. <i>¡Parece que alguien nos ha hecho el favor de encontrar el tesoro, muchachos!</i>. \n\n El capitán Jeremiah saca un cuchillo y lo agita hacia los extraños. \n\n —<i>¡Ni lo intentéis, escoria! ¡Sé cómo usar este cuchillo!</i> \n\n El líder de los hombres uniformados estalla en carcajadas. \n\n —<i>Muchachos, ¡explicadles cómo funcionan las cosas!</i> —grita a sus hombres. Uno de ellos amartilla la ametralladora y abre fuego contra el capitán Jeremiah, que cae sobre la cubierta, fulminado. \n\n —<i>Bien, ¿alguno más?</i> —pregunta el capitán enemigo.
+EventEnterHoldT17.text,Desciendes a la bodega. Al hacerlo, las escaleras de madera, debilitadas por años de podredumbre, se vienen abajo. Tratas de evitar que el tubo se enganche en la escotilla mientras caes al fondo de la bodega. \n\n Retira a tu investigador del tablero. \n\n Prueba de {agility} (1).
+EventCloseBridgeDoorT16.text,Cierras la puerta estanca del puente y giras el volante, cerrando la puerta por completo. \n\n Si la Semilla informe trata de entrar en el puente, considera esta puerta como una Obstrucción. El monstruo lanza tantos dados como su agresividad (4) y si obtiene 2 {success}, echa la puerta abajo y entra en las escaleras. En caso contrario, la Semilla informe no se mueve. \n\n Los otros monstruos no son lo suficientemente fuertes para abrirse paso a través de la puerta estanca.
+EventSearchNeilsPassT7.text,Te fijas en un sextante con un aspecto bastante inusual. Parece muy antiguo y está cubierto de extraños grabados. \n\n Descarta esta ficha de Búsqueda. \n\n Se lo llevas a Neil. \n\n —<i>Ah, sí, lo trajo el viejo Tork de una de sus inmersiones, en la zona de la Punta. Hicimos un buen trato, y saldó la deuda que tenía conmigo. Es una pieza bastante rara</i>. \n\n Tratas de negociar un precio. Prueba de {influence}(1).
+EventExamineBridgeControlsT16.text,Examinas los controles. Al lado de los controles del motor y del lastre parece que hay un mecanismo para desacoplar el puente del resto del sumergible. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventSearchBooksPassT15.text,Encuentras un viejo libro que trata sobre la alineación de las estrellas en el cielo. Ganas el Objeto común {c:QItemAstronomyBookT15} y 1 Pista {clue}, \n\n Descarta esta ficha de Búsqueda.
+EventSearchTablePassT6.text,Encuentras un viejo cuchillo oxidado. Ganas el Objeto común {c:QItemKnifeT6}. A continuación, descarta esta ficha de Búsqueda.
+EventExploreSickBayPassT11.text,Fuerzas la puerta hasta conseguir abrirla. La puerta está demasiado combada para volver a cerrarla. Descarta esta ficha de Exploración. \n\n La habitación que hay a continuación parece una enfermería. Coloca el módulo {c:TileSickBayT12} en el lugar señalado. \n\n Coloca la ficha de Pared en el lugar señalado. \n\n En las estanterías y mesas cercanas hay diverso material médico. Coloca fichas de Búsqueda en los lugares señalados. \n\n La puerta que lleva a la siguiente estancia está cerrada. Coloca una ficha de Exploración en el lugar señalado. Es una puerta normal, no es de las estancas. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+TokenSearchNewspaperT9.text,Le echas un vistazo al periódico. Informa sobre sucesos locales y sobre la industria pesquera.
+EventMoveMastPassT17.text,Gruñes y resoplas por el esfuerzo, pero consigues levantar el mástil lo suficiente para echarlo a un lado. Donde estaba el mástil encuentras unas viejas botas. Descarta esta ficha de Búsqueda.
+EventSearchNeilsFailT7.text,Todavía no has encontrado algo que merezca la pena.
+EventExploreShackPassT1.text,Golpeas la puerta del quiosco y ésta se abre de par en par. Descarta esta ficha de Investigación y coloca a tu investigador dentro del quiosco. \n\n Echas un vistazo rápido. No hay nada de interés, parece que este quiosco se usa para servir comidas durante el día. \n\n Encuentras una cruz colgando de un rosario. Ganas el Objeto común {c:QItemHolyCrossT1}.
+EventMcGintyFailT8.text,Te presentas. McGinty escupe a un lado y se vuelve hacia su amigo, ignorándote.
+EventHotelIntroT9.text,Dejáis vuestras habitaciones y bajáis al vestíbulo del hotel. \n\n Coloca a los investigadores en el lugar señalado. \n\n Los investigadores empiezan sin pistas. \n\n Hay un anciano sentado en una silla, vestido con un traje de negocios. Coloca la ficha de Personaje hombre blanco en el lugar señalado.
+EventExamineGaugesT10.text,Le echas un vistazo a los indicadores. Prueba de {lore}. Introduce el número de {success} logrados.
+EventSearchDrawersT14.text,Rebuscas entre la cubertería y encuentras un cuchillo de gran tamaño. Ganas el Objeto común {c:QItemMeatCleaverT14}. A continuación, descarta esta ficha de Búsqueda.
+EventSearchBarrelsT1.text,Echas un ojo para ver si hay algo de utilidad. Prueba de {observation}(1).
+EventTalkBumPassT2.text,Consigues calmar al anciano y le preguntas por qué está tan alterado. \n\n —<i>Creí que pensaba que le había hecho algo al viejo Tork. Como le dije, lo vi salir el martes pasado y no lo he visto desde entonces. Lo único que vi fueron esas luces hace un par de días, en el mar, hacia el viejo faro. Eran verdes y parpadeaban. Pero fue sólo esa noche, no han vuelto más, al menos no como yo las he visto. Ahora déjeme en paz<i> —el viejo se da la vuelta y se vuelve a dormir. \n\n Ganas 2 Pistas {clue}. Descarta la ficha verde de Personaje.
+EventSearchBoatPassT1.text,Consigues quitar la lona y subirte al bote. Echas un vistazo. Descarta esta ficha de Búsqueda. \n\n Ganas el Objeto común {c:QItemFlareGunT1}.
+EventFallIntoHoldFailT17.text,Consigues evitar que el tubo se enganche, pero tu pierna se raspa contra un borde irregular de la escalerilla. Sufres 1 de Daño. \n\n Recorres la bodega con la luz de tu lámpara. Hay varios cofres. Tardarás un rato en revisarlos.
+EventFallIntoHoldPassT17.text,Consigues evitar que el tubo se enganche, evitando los afilados bordes de la escalerilla rota mientras caes. \n\n Recorres la bodega con la luz de tu lámpara. Hay varios cofres. Tardarás un rato en revisarlos.
+EventClearHatchFailT17.text,Consigues mover un poco los tablones, pero sigues sin poder abrir la escotilla.
+EventSearchChestsT17.text,Te mueves de cofre en cofre. Están cerrados con llave y no puedes abrirlos. \n\n Justo cuando estás a punto de rendirte encuentras un cofre de hierro fundido negro que no está cerrado. En su interior encuentras una pequeña caja de madera cubierta de extrañas runas. \n\n Consigues el Objeto común {c:QItemGateBoxT17}. \n\n Tiras dos veces del cable para que te suban.
+EventMoveMastFailT17.text,Mueves un poco el mástil pero no puedes hacer suficiente palanca. Tienes que cambiar de posición y volver a intentarlo.
+EventMcGintyMystral.text,\n —<i>Está claro que usted no es de por aquí, amigo. El «Mistral» era un barco español del tesoro que se perdió en el camino de vuelta desde México, fue capturado por los ingleses, y luego se hundió en esta zona. <i>. \n\n Toma otro trago. \n\n —<i>El viejo Tork estaba seguro de haber visto un indicio del pecio español cerca de la Punta, hace un par de semanas, cuando el agua estaba tan en calma que parecía un espejo. Dijo que volvería a ese lugar para iniciar una búsqueda. Ahora ha desaparecido. Tork y el viejo Jeremiah tenían planeado llevar al «Vieja dama» con el equipo de buceo tan pronto como Tork volviese e iniciar una búsqueda en la zona donde debía estar el pecio. \n
+EventExamineGaugesFailT10.text,Necesitas un poco más de tiempo para averiguar qué significan los indicadores.
+EventNewspaperPassT9.text,Te fijas en un artículo de varias páginas en el que se comenta que el pescador local Bobby Tork sigue desaparecido. No regresó de una salida de pesca hace una semana. \n\n Descarta esta ficha de Búsqueda. A continuación, ganas 1 Pista {clue}.
+EventExploreKitchenT14.text,Abres la puerta de la cocina. Descarta esta ficha de Exploración. \n\n Puedes buscar en los cajones. Coloca fichas de Búsqueda en el lugar señalado. \n\n Hay una brecha dimensional en este sitio. Coloca la ficha de Brecha dimensional en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la cocina.
+EventExploreGalleyT12.text,Abres la puerta y encuentras lo que parece ser la cocina. Coloca el módulo {c:TileGalleyT14} en el lugar señalado. Descarta esta ficha de Exploración. \n\n Coloca una ficha de Pared (armario) al fondo, en el lugar señalado. Hay algunos objetos interesantes en el armario. Coloca una ficha de Búsqueda en el lugar señalado. \n\n Una puerta a la izquierda lleva a la siguiente habitación. Coloca una ficha de Exploración en el lugar señalado. \n\n La puerta de la zona de la cocina está cerrada. Coloca una ficha de Exploración en el lugar señalado. \n\n En el suelo yace el cadáver ensangrentado de un marinero. Coloca la ficha amarilla de Personaje en el lugar señalado. \n\n Hay un arpón anclado a la pared. Coloca la ficha de Interacción en el lugar señalado. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventExploreRopeAndAnchorT8.text,Abres la puerta. Descarta esta ficha de Exploración. \n\n Contemplas una taberna, llena de humo y olor a tabaco rancio. Hay una vieja mesa de billar en el centro de la habitación. \n\n Coloca el módulo {c:TileRopeAndAnchorT8} en el lugar señalado. \n Coloca una ficha de Puerta donde estaba la ficha de Exploración. \n\n Coloca una ficha de Pared en el lugar señalado.
+EventSearchCabinetT14.text,Consigues un {c:QItemExtinguisherT14}. Descarta esta ficha de Búsqueda.
+EventExploreShackFailT1.text,Cargas contra la puerta usando el hombro pero sólo consigues salir rebotado. Por desgracia parece que es de los pocos objetos de esta ciudad que está en buen estado. \n\n Te preocupa que el ruido que estás haciendo pueda atraer alguna atención no deseada.
+EventWreckT17.text,Llegas a los restos y subes torpemente a bordo. Está sorprendentemente intacto. Coloca el módulo {c:TileWreckT17} en el lugar señalado. Estos son los restos del «Mistral». Coloca tu miniatura de investigador en el lugar señalado. \n\n Los restos de mástiles, cañones y tablas de madera se amontonan por todas partes. Coloca fichas de Búsqueda en los lugares señalados.
+EventRemoveHarpoonT15.text,Quitas los pernos que aseguran el arpón. Obtienes el Objeto común {c:QItemHarpoonT15}. Descarta esta ficha de Interacción.
+EventBilgePumpsFixedT10.text,Reparas el circuito. La bomba de achique vuelve a funcionar. \n\n El nivel del agua parece mantenerse estable. \n\n Descarta esta ficha de interacción.
+EventSearchSailorPassT14.text,Rebuscas en los bolsillos del cadáver. \n\n Sufres 1 de Horror (anulado por {will}). \n\n Encuentras una pistola. Ganas el Objeto común {c:QItem41DerringerT14}. \n\n Descarta la ficha amarilla de Personaje.
+EventSearchGreenPersonT13.text,Haces rodar el cuerpo a un lado. Debajo encuentras un salvavidas. Ganas el Objeto común Salvavidas. Descarta la ficha de Personaje Hombre verde.
+TokenSearchNeilsShopT7.text,Rebuscas en las estanterías. Prueba de {observation} e indica el número de {success} que obtengas.
+EventSearchPurplePersonT13.text,Rebuscas entre las ropas del ingeniero. Ganas el Objeto común {c:QItemWrenchT13}. Descarta la ficha de Personaje Hombre morado.
+EventSearchTableT6.text,Buscas en la mesa. Prueba {observation}(1).
+TokenEngineGaugesT10.text,Observas una variedad de indicadores. Te va a llevar algo de tiempo averiguar para qué sirven.
+EventMoveMastT17.text,Te desplazas tratando de encontrar una posición en la que puedas hacer palanca y a continuación empujas el mástil con todas tus fuerzas. Prueba {strength}(1).
+EventOpenPressureDoorBridgeT16.text,Haces girar el volante para desbloquear los cierres y abrir la puerta estanca.
+TokenSearchRuinedBoathouseT2.text,Empiezas a rebuscar en el ruinoso cobertizo para botes pero al levantar un tablón podrido te sorprendes al descubrir a un viejo vagabundo que se despierta casi tan asustado como tú al verlo. \n\n Coloca la ficha verde de Personaje Hombre verde en el lugar señalado, y descarta esta ficha de Búsqueda.
+EventHoistAwayT5.text,Te esfuerzas en girar la manivela del cabrestante para subir al buzo. No recuerdas que fuera tan pesado al bajar. Prueba de {strength}(2). Si un investigador adicional está disponible para ayudarte superas la prueba automáticamente.
+EventBreakIntoShackT1.text,Intentas forzar la puerta. Prueba de {strength} e indica el número de {success} que obtengas.
+EventSearchBoatT1.text,Intentas echar un vistazo al interior del bote de remos sin caer al agua. Prueba de {agility} e indica el número de {success} que obtengas.
+EventClearHatchT17.text,Intenta desplazar los tablones y despejar la escotilla. Prueba de {strength} e indica el número de {success} que obtengas.
+EventExploreEngineRoomT11.text,Giras la palanca del centro de la escotilla y la abres. \n\n El agua entra a borbotones... \n\n Parece que el nivel de agua en esta sala era bastante más alto que en la bodega de carga. El nivel de agua en ambas salas es ahora de unos 60 centímetros. \n\n La puerta se abre para revelar lo que parece ser la sala de máquinas. La sala está llena de indicadores y maquinaria pesada. \n\n Coloca el módulo {c:TileEngineT10} en el lugar señalado. \n\n Hay un cajón de carbón cerca de la puerta. Coloca la ficha de Búsqueda en el lugar señalado.
+EventWakingUpT11.text,Te despiertas con un fuerte dolor de cabeza. Estás empapado. Además oyes un extraño silbido. \n\n Arqueando la espalda varias veces consigues desatar las cuerdas que retenían tus manos. Te quitas la venda de los ojos. \n\n Te encuentras en una especie de bodega de carga. Coloca el módulo {c:TileStorageHoldT11}. Coloca a los investigadores en el lugar señalado.
+UISplashScreenText.uitext,Vuestro reciente encuentro en el bosque cercano a Arkham os ha dejado exhaustos y con la mente intranquila. \n\n Tras conducir durante horas bajo un cielo nublado por carreteras rurales llenas de baches llegáis a Kingsport deseando tener un merecido descanso. \n\n Está oscuro y tranquilo. Te registras en un pequeño hotel de la calle Water. \n Decides explorar el paseo marítimo cercano. Tal vez una copa en un pub local os ayude a calmar los nervios para poder dormir. \n Mañana podrías buscar a tu tío, Bobby Tork, que tiene un barco de pesca en este lugar.

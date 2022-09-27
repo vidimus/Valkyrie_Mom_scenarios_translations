@@ -1,0 +1,710 @@
+.,Spanish
+quest.name,Un momento y un lugar v0.8.2
+quest.description,Únete a los investigadores mientras tratan de averiguar la fuente de una misteriosa voz.
+TokenPresent_RevealPath.button1,Continuar
+TokenPresent_RevealClearing.button1,Continuar
+TokenPresent_RevealAltarSteps.button1,Continuar
+TokenPresent_RevealCrossing.text,Puedes oír el sonido de agua corriendo que procede de un lugar delante de ti.
+TokenPresent_RevealAltarSteps.text,Al acercarte al templo contemplas lo poco que queda del que fuera un gran edificio. El imponente acceso es ahora un simple camino de tierra con escalones desgastados de piedra. Al ver por primera vez el templo, la voz en tu mente comienza a hablar más rápido en su indescifrable idioma.
+EventPresent_RevealAltar.text,En los 1.500 años transcurridos desde el derrumbe del templo la vegetación de la zona se ha apoderado de las ruinas. Hay un altar más nuevo que el resto del templo, construido sobre las ruinas de la antigua entrada.
+TokenPresent_RevealClearing.text,"
+El camino se abre a una zona menos agreste. Observas pisadas recientes así cómo pruebas de que éste lugar fue un punto de reunión hace mucho tiempo."
+TokenPresent_OpenHut1.button1,{action} Explorar
+TokenPresent_AltarSearch.button1,Escultura Grotesca
+TokenPresent_RevealHuts.text,Desde aquí divisas unas pequeñas chozas.
+TokenPresent_RevealCrossing.button1,Continuar
+TokenPresent_OpenHut3.button1,{action} Explorar
+TokenPresent_RevealAltar.button1,Continuar
+TokenPresent_OpenHut2.text,Una pequeña choza con una puerta de madera.
+TokenPresent_OpenHut3.text,Una pequeña choza con una puerta de madera.
+TokenPresent_OpenHut1.text,Una pequeña choza con una puerta de madera.
+TokenPresent_OpenHut2.button1,{action} Explorar
+SpawnPresent_HiredGun1.button1,Confirmar
+EventPresent_GunDefeated_1.text,Después de acabar con el Sicario, registras su cuerpo para ver si puedes descubrir por qué estaba aquí.
+EventPresent_OpenHut2.text,En el interior encuentras a un hombre vestido con ropa elegante desenterrando algo que hay en el suelo de tierra de la choza. Se da cuenta de tu presencia e inmediatamente saca una pistola. No parece interesado en hablar.
+SpawnPresent_HiredGun2.button1,Confirmar
+EventPresent_OpenHut3.button1,Confirmar
+EventPresent_OpenHut3.text,Ves algunas viejas pertenencias sobre una mesa.
+EventPresent_ClearBoard_ToPast.text,Descarta todos las piezas de tablero.
+TokenPresent_RevealPath.text,Te adentras en la selva y encuentras lo que parece ser el camino dejado por alguien a través de la vegetación. El suelo está pisoteado y algunas plantas están rotas. \n Coloca una ficha de Vistazo en el lugar señalado.
+SpawnPresent_HiredGun2.text,En el interior descubres a un hombre fumando un cigarrillo mientras se apoya en un lateral de la choza. El suelo está destrozado y hay unas cuantas gemas en una mesa junto a él. Cuando levanta la vista y te ve, saca inmediatamente su pistola. \n\n Aparece un <i>Sicario</i> en el lugar señalado.
+Event_Past_Setup.button1,Continuar
+TokenPast_RevealStatuary.button1,{action} Explorar
+EventUni_Exhibit_JanitorReveal.text,Hay un conserje fregando el suelo. Coloca una ficha de Personaje en el lugar señalado.
+SpawnPresent_HiredGun1.text,Aparece un <i>Sicario</i> en el lugar señalado.
+TokenPast_RevealCoffin.button1,{action} Explorar
+TokenPast_RevealAltarChamber.button1,{action} Explorar
+TokenPast_RevealThrone.button1,{action} Desbloquear (Se necesita la <i>Llave de latón</i>)
+TokenPast_RevealPots.button1,{action} Explorar
+TokenPast_RevealPit.button1,{action} Éxito
+EventPresent_OpenHut2.button1,Confirmar
+TokenPresent_RevealHuts.button1,Continuar
+TokenPresent_StatuePuzzle.button1,Reconstruir
+PuzzlePresent_StatuePuzzle.button1,Resolver
+TokenPresent_StatuePuzzle.text,Ves una estatua rota en el pequeño altar de piedra. Parece ser una estatua de una gárgola o demonio. Una de las alas tiene la huella de una mano ensangrentada. Hay una inscripción alrededor del borde circular del altar, en el idioma local, que dice: \n\n «<color=yellow><i>La sangre de los dioses que caminaron entre nosotros siempre perdurará. Nunca olvidaremos su traición».</i></color> \n\n A medida que te acercas, las voces y los gritos en vuestras cabezas se intensifican. \n\n Tratas de reconstruir la estatua rota {will}.
+EventPresent_StatuePuzzleSolved.text,A medida que vas terminando de montar la estatua, está se vuelve cada vez más y más brillante hasta que la luz que emite te ciega. Las voces dentro de tu cabeza se desvanecen a medida que la luz crece, hasta quedarse en nada. \n\n Cuando el resplandor disminuye, compruebas que la estatua está totalmente restaurada, sin ninguna marca, como si nunca hubiese estado rota. Limpias la huella de la mano ensangrentada y guardas la estatua en tu mochila. Al cabo de unos instantes, las voces farfullarte vuelven lentamente a tu mente. Sufres 1 de Horror boca abajo. \n\n Ganas el Objeto único <b>Escultura grotesca</b>.
+EventPresent_StatuePuzzleSolved.button1,Continuar
+TokenPresent_AltarSearch.text,En el altar lees una antigua inscripción: \n\n «<color=yellow><i>El espíritu sólo descansará una vez que retome su corona. Los buscadores que portan las piedras podrán buscar en cualquier momento o lugar</i></color>». \n\n Parece que hay un lugar en el altar en el que se puede introducir un objeto.
+EventPresent_FoundNoteFromCollector.text,Encuentras una carta de la Universidad de Miskatonic: \n\n «<i>Por fin ha llegado el momento de que ustedes dos me devuelvan el favor que les hice. He recibido nueva información sobre las ruinas de las selvas cercanas a Ulthar. Buscarán y me traerán cualquier estatua o figura que encuentren allí que se parezca a un jaguar o a un monstruo. En el improbable caso de que alguien sea testigo de su presencia en la zona del templo, deberán asegurarse de que no pueda hablar con nadie sobre el asunto. Podrán quedarse con cualquier otra riqueza que encuentren allí, y ambos podrán considerar su deuda conmigo saldada. \n\n - profesor M. Freeborn».</i>\n
+EventPresent_FoundNoteFromCollector.button1,Continuar
+EventPresent_GainObsidianJaguar.button1,Continuar
+EventGain_ObsidianJaguar.button1,Continuar
+TokenPresent_Huts_Hut3_Search.button2,Fallo
+EventGain_25Automatic.button1,Continuar
+EventGain_Flask.text,Ganas el Objeto común <b>Petaca</b>.
+EventGain_25Automatic.text,Ganas el Objeto común <b>Automática del .25</b>.
+EventGain_Flask.button1,Continuar
+EventGain_Gamblers_Dice.button1,Continuar
+EventPresent_GunDefeated_1.button1,Continuar
+EventGain_Gamblers_Dice.text,Ganas el objeto común <b>Dados de la Suerte</b>.
+EventGain_Nothing.button1,Continuar
+EventGain_Nothing.text,Después de tanto buscar, no encuentras nada.
+TokenPresent_AltarSearch.button2,Jaguar de Obsidiana
+EventPast_GrotesqueStatueShatters.button1,Continuar
+EventPast_GrotesqueStatueShatters.text,La Escultura grotesca que tienes en tu mano comienza a brillar intensamente, y a continuación se hace añicos, cortándote la mano y dejando una huella ensangrentada en el ala. Decides dejarla aquí en lugar de tener que responsabilizarse de ella. \n\n El investigador que posea el Objeto <b>Escultura grotesca</b> sufre 1 de Daño boca abajo, a continuación descarta el Objeto <b>Escultura grotesca</b>.
+EventPresent_Clearing_Reveal.button1,Continuar
+EventPresent_Clearing_Lights.text,Hay pequeños orbes de luz flotando en el aire.
+EventPresent_RevealPath.text,Coloca el módulo <b>{c:TilePresent_Path}</b> en el lugar señalado.
+EventPresent_RevealPath.button1,Continuar
+EventPresent_Clearing_AddStatuePuzzle.button1,Continuar
+EventPresent_Clearing_Reveal.text,Coloca el módulo <b>{c:TilePresent_Clearing}</b> en el lugar señalado.
+EventPast_WitnessArrives.text,Una mujer vestida con una túnica que caminaba por el pasillo justo en el momento en el que llegas, se detiene y observa tu llegada y lo ocurrido con la escultura. Cuando establecéis contacto visual, grita: \n\n —<i>¡Los dioses caminan entre nosotros, enviados desde los cielos a través de un portal de luz! ¡Tengo que decírselo a los demás!</i>
+EventPast_WitnessArrives.button1,Continuar
+EventPast_WitnessRunsAway.button1,Continuar
+EventPast_WitnessRunsAway.text,La mujer de la túnica se da la vuelta y se apresura a cruzar una de las puertas que hay detrás de ella.
+EventPast_RevealStatuary.text,La puerta se abre a una estancia con numerosas estatuas de jaguares en diferentes poses. Coloca el módulo <b>{c:TilePast_Statuary}</b> en el lugar señalado. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventPast_RevealStatuary.button1,Continuar
+TokenPast_JaguarStatueLaying.text,Esta estatua representa a un jaguar agazapado en el suelo.
+TokenPast_JaguarStatueLaying.button1,Continuar
+TokenPast_Statuary_JaguarStatueSitting.button1,Continuar
+TokenPast_Statuary_JaguarStatueSitting.button2,{action} Colocar un rubí
+TokenPast_JaguarStatueStanding.text,Está estatua es de un jaguar de pie. Tiene algo en la boca. Puedes intentar sacarlo, pero tal vez dañes la estatua en el intento. Realiza una prueba de {strength}.
+TokenPast_JaguarStatueStanding.button1,Resultado 3 o mayor
+TokenPast_JaguarWithWoman.button1,Resolver el rompecabezas
+TokenPast_RevealPit.text,Aquí hay una puerta de madera, recia y pesada. Al otro lado de la puerta se pueden escuchar pasos que se alejan. De repente, mientras los oías, se detienen. Puedes tratar de abrir la puerta en silencio para ver que hay en la habitación ({agility}; 2).
+EventPast_RevealStatues.text,Hay cuatro estatuas: un jaguar agazapado en el suelo, un jaguar sentado, un jaguar de pie y un jaguar junto a una figura con una túnica.
+EventPast_RevealStatues.button1,Continuar
+TokenPast_JaguarWithWoman.text,Examinas un par de estatuas: una es una mujer con una túnica cubierta de inscripciones y símbolos arcanos. En su mano lleva un bastón con el que se sostiene. La otra estatua es un jaguar que está a su lado. \n\n A medida que te acercas, los símbolos de su capucha comienzan a brillar suavemente. Tal vez manipular los símbolos te pueda ayudar a localizar la corona. \n\n Puedes resolver rompecabezas usando tu {lore}.
+TokenPast_RevealPit.button2,{action} Fallo
+EventPast_RevealPitLoudly.text,A pesar de tus esfuerzos, la puerta chirría de forma escandalosa. Dentro, ves a un hombre que mira hacia abajo, al interior del foso. \n\n El investigador tiene la oportunidad de moverse 1 espacio hacia el interior de la sala.
+EventPast_RevealPitLoudly.button1,Continuar
+EventPast_RevealPitQuietly.text,Consigues abrir la puerta sin hacer ruido. \n\n Coloca el módulo <b>{c:TilePast_Pit}</b> en el lugar señalado.
+EventPast_RevealPitQuietly.button1,Continuar
+EventPast_RevealPitGuard_Peaceful.text,Desde la rendija de la puerta atisbas a un hombre que lleva un collar, en cuya parte delantera hay una gema que se asemeja a un tercer ojo. Gracias a tu investigación sabes que debe de ser el vidente del templo, que fue entrenado para defenderlo y del que se decía que tenía el poder de ver la verdad. Está mirando hacia abajo en silencio hacia un profundo pozo, sosteniendo a un lado su lanza. \n\n El investigador tiene la oportunidad de moverse 1 espacio hacia la zona explorada.
+EventPast_RevealPitGuard_Peaceful.button1,Continuar
+TokenPast_PitGuard.button1,Intentar hablar con él
+TokenPast_PitGuard.button2,Empujarle al foso
+TokenPast_PitGuard.text,Te mueves silenciosamente hasta situarte detrás del vidente. Todavía no se ha dado cuenta de tu presencia.
+EventPast_PushedPitGuard.text,El vidente pronuncia un grito de sorpresa mientras le empujas al interior del foso. Escuchas como golpea el fondo y luego se hace el silencio.
+EventPast_PushedPitGuard.button1,Continuar
+EventPast_Paradox.text,\n <b>PARADOJA.</b> \n\n Tus acciones en el pasado han cambiado el futuro, causando una paradoja que debilita el tejido de la realidad. Si causas varias paradojas, es probable que destruyas para siempre esta realidad. Debes tener mucho cuidado con no alterar la historia. \n\n Adquieres el estado <i>Perdido en el tiempo y el espacio.</i> \n\n En lugar de volver a entrar en el tablero de forma normal, cuando el investigador encuentre su camino deberá entrar por el portal del módulo <b>{c:TilePast_ShrineTop}</b>. \n
+EventPast_Paradox.button1,Continuar
+TokenPast_Portal.text,El aire brilla suavemente y puedes ver el altar que te trajo aquí. Cuando intentas interactuar con el portal o atravesarlo, te quedas en el mismo sitio.
+TokenPast_Portal.button1,Continuar
+EventPast_RevealPortal.text,El portal por el que pasasteis aún puede verse, pero parece estar inactivo.
+EventPast_RevealPortal.button1,Continuar
+SpawnPast_PitGuard.text,Al llamar la atención del hombre, se vuelve y te sorprende con un fuerte gruñido. Al mirarlo más detenidamente, reconoces sus ropajes gracias a tus estudios. Este hombre es el Vidente del templo, de quien se dice que es capaz de ver la verdad en todas las cosas. Rápidamente se deshace de su túnica, revelando un cuerpo mitad humano, mitad cabra, y apresta su arma. \n\n —<i>¡Puedo ver la verdad de lo que realmente sois! ¡No sois los dioses anunciados, sois simples mortales y unos blasfemos! ¡Entrometidos en una época a la que no pertenecéis! </i> \n\n Coloca un monstruo <b>Engendro Cabrío</b> en el lugar señalado.
+SpawnPast_PitGuard.button1,Continuar
+TokenPast_PitPackage.button1,Éxito
+EventGain_TomeOfHorror.text,Ganas el Objeto común <b>Tomo de los Horrores</b>.
+TokenPast_PitPackage.text,Una vez despachado el vidente, te acercas al foso para intentar ver qué estaba mirando. En un saliente inferior ves algo envuelto en tela. Si te acercas al borde del foso, tal vez puedas alcanzarlo ({agility}; 2).
+EventGain_TomeOfHorror.button1,Continuar
+EventGain_TomeOfSecrets.text,Ganas el Objeto común <b>Tomo de los Secretos</b>.
+EventGain_TomeOfSecrets.button1,Continuar
+EventGain_Torch.text,Ganas el Objeto común <b>Antorcha</b>.
+EventGain_Torch.button1,Continuar
+EventPast_PitPackagePass.text,Alcanzas el paquete, pero al hacerlo te arañas con las rocas. Sufres 1 de Daño boca abajo.
+EventPast_PitPackagePass.button1,Continuar
+EventPast_PitPackageFail.text,Estás a punto de caer al pozo pero consigues aguantar el equilibrio. Sufres 2 de Daño boca abajo.
+EventPast_PitPackageFail.button1,Continuar
+TokenPast_PitPackage.button2,Fallo
+EventPast_KilledPitGuard.button1,Continuar
+EventPast_RevealPitPackage.text,Ya sin el vidente tienes vía libre para examinar el pozo.
+EventPast_KilledPitGuard.text,El vidente cae al suelo y su cuerpo herido se convierte en polvo y se desvanece.
+EventPast_RevealPitPackage.button1,Continuar
+TokenPast_RevealThrone.text,La puerta es vieja y pesada, pero está mucho más elaborada que las otras que has visto por aquí. Tiene tallas de jaguares adornados con varias gemas. La puerta no se puede abrir pero tiene una cerradura. Las gemas se iluminan a medida que te acercas y pueden que actúen como una protección para sellar la estancia.
+TokenPast_RevealStatuary.text,La puerta es de madera pesada. El pomo está hecho de un metal oscuro y tiene forma de cabeza de jaguar.
+TokenPast_JaguarStatueStanding.button2,Resultado 1 o 2
+TokenPast_JaguarStatueStanding.button3,Resultado 0
+EventPast_JaguarStatueStanding_3orMore.text,Liberas el objeto pero también le rompes la mandíbula inferior a la boca de la estatua.
+EventPast_JaguarStatueStanding_3orMore.button1,Continuar
+EventGain_ElderSignPendant.text,Ganas el Objeto común <b>Colgante con símbolo arcano</b>.
+EventGain_ElderSignPendant.button1,Continuar
+EventGain_ElderWard.button1,Continuar
+EventPast_JaguarStatueStanding_Pass.text,Te las arreglas para sacar el objeto de la boca de la estatua.
+EventGain_ElderWard.text,Ganas el Objeto común <b>Símbolo Arcano</b>.
+EventPast_JaguarStatueStanding_Pass.button1,Continuar
+EventPast_JaguarStatueStanding_Fail.text,Tiras y tiras, pero no consigues sacar el objeto.
+EventPast_JaguarStatueStanding_Fail.button1,Continuar
+EventPast_RobedWomanStatue_Pass_Key.text,Escuchas un suave <b>tintineo</b> y miras hacia abajo para encontrar una llave que se ha caído de la túnica.
+PuzzlePast_RobedWomanStatue.button1,Resolver
+EventPast_RobedWomanStatue_Pass_Key.button1,Continuar
+EventGain_BrassKey.text,Ganas el Objeto único <b>Llave de Latón</b>.
+EventGain_BrassKey.button1,Continuar
+EventPast_RobedWomanStatue_Pass_Item.button1,Continuar
+EventGain_SwordCane.text,Ganas el Objeto común <b>Bastón Estoque</b>.
+EventGain_SwordCane.button1,Continuar
+EventPast_RobedWomanStatue_Pass.button1,Continuar
+EventPast_RobedWomanStatue_Pass_Item.text,El bastón que lleva en la mano se suelta y cae al suelo a tus pies.
+EventPast_RobedWomanStatue_Pass.text,Cuando tocas el último símbolo de su túnica, toda la estatua se ilumina a la vez, luego se apaga, y ya no hace nada más.
+EventPast_RobedWomanStatue_Pass.button2,Continuar
+EventPast_RevealThrone.text,La puerta se abre, revelando una gran sala del trono. \n\n Coloca el módulo <b>{c:TilePast_Throne}</b> en el lugar señalado. Un investigador tiene la oportunidad de moverse 1 espacio hacia la zona explorada.
+TokenPast_RevealThrone.button2,{action} Intentar romper el sello {lore}
+PuzzlePast_ThroneDoor.button1,Resolver
+EventPast_RevealThrone.button1,Continuar
+UIENDING_YoungOneDefeated.text,La criatura cae al suelo, dando una última y violenta sacudida antes de quedarse quieta. La sangre negra corre por el suelo. Con la amenaza derrotada regresas a la entrada del templo buscando el portal. Sin embargo, desaparecido el poder del Primigenio, la energía del portal se desvanece rápidamente. Apenas tienes tiempo de atravesarlo antes de que se cierre tras de ti. \n\n De vuelta al presente descubres que el sitio del templo ya no está destruido sino que es un monumento de una civilización aún floreciente. Al viajar desde el futuro y destruir a la criatura destinada a arrasar la tribu de los Chorazos has roto la propia historia. Los Chorazos se han convertido en un imperio que ha durado casi 2000 años. Con el tiempo, regresas a casa y no encuentras ningún rastro de tu vida, ni siquiera un registro de tu propio nacimiento. \n\n Has creado un mundo en el que nunca has existido.
+EventPast_RevealPriestess.text,Testigo de tu entrada está la sacerdotisa, vestida con una túnica. Te observa expectante.
+EventPast_WitnessConvinced.text,La Suma Sacerdotisa se queda boquiabierta, pero finalmente se convence de que los dioses no han llegado. \n\n —<i>¡Blasfemos! ¡Los ladrones de tumbas vienen a saquear la tumba de la reina!</i>
+EventPast_WitnessConvinced.button1,Continuar
+SpawnPast_Priestess.text,La Suma Sacerdotisa se abalanza sobre ti, convencida de que estás aquí para saquear el templo. \n\n Descarta la ficha de Personaje. Aparece un <b>Mago</b> en el lugar señalado.
+SpawnPast_Priestess.button1,Continuar
+TokenPast_Priestess.button1,{action} Convencerla de que no eres un dios ({influence}; 3)
+EventPast_RevealPriestess.button1,Continuar
+TokenPast_Priestess.text,La Suma Sacerdotisa del templo te saluda alegremente. \n\n —<i>¡Hemos esperado muchas generaciones a que llegara, tal y como predijo la profecía! No tiene el aspecto que esperábamos, pero nuestras oraciones han sido escuchadas y los dioses caminan entre nosotros. ¡Regocijaos!</i>
+TokenPast_Priestess.button2,{action} Preguntarle dónde se encuentra la corona ({influence}; 3)
+EventPast_WitnessHelp.text,—<i>Los dioses siempre han bendecido la corona de cada reina con un gran poder que ha durado hasta la coronación de la siguiente reina, y se ha vaticinado que cuando los dioses caminen entre nosotros, el poder de la corona volverá a ellas. La corona fue enterrada con la última reina hace años y está a salvo dentro del templo</i> —dice la sacerdotisa—. <i> En tres años más yo habría sido coronada como nueva reina con una nueva corona, pero ahora ya habéis llegado vos para liderarnos para siempre. ¡Así que nunca necesitaremos otra reina!</i> \n\n Ganas 1 Pista {clue}.
+EventPast_WitnessHelp.button1,Continuar
+EventPast_WitnessSelf.button1,Continuar
+TokenPast_Priestess.button3,{action} Pedirle que se presente
+EventPast_WitnessSelf.text,Te presentas vagamente, y luego le preguntas a ella. \n\n —<i>Al igual que con todas las futuras reinas, fui elegida al nacer y he sido criada aquí, en el templo. He estudiado a diario para estar preparada para cuando llegaseis. He sido bendecida con la oportunidad de vivir para veros caminar entre nosotros, y he sido doblemente bendecida por ser la primera mortal en conocer vuestro verdadero nombre.</i> \n
+TokenPast_RevealPots.text,Hay una robusta puerta con una inscripción en ella que dice: <b>Cámara del tesoro</b>. La puerta está cerrada con llave, pero es posible que puedas abrirla con ({agility}).
+TokenPast_QueenCoffin.text,Hay un gran y sencillo sarcófago de piedra rodeado de grandes riquezas. No hay ninguna cerradura o hechizo que lo selle, pero la tapa es demasiado pesada para moverla por tu cuenta. \n\n Cada investigador en este espacio puede gastar 1 {action} para probar su {strength}. Si el total de {success} de todos los investigadores que deciden hacerlo en una sola ronda es de 4 o más, la tapa puede ser retirada. Ningún investigador puede gastar más de una {action} por ronda de esta manera.
+TokenPast_RevealCoffin.text,Esta puerta tiene inscritos los símbolos de <b>Muerte</b> y <b>Piedra</b>.
+TokenPast_QueenCoffin.button1,Éxito ({success} >= 4)
+EventPast_QueenCoffinOpenTrap.text,Con un último empujón, la tapa del sarcófago se desliza y aterriza en el suelo justo detrás del sarcófago. Inmediatamente, una nube oscura de vapor verde se eleva desde el interior del sarcófago. \n\n Todos los investigadores que ayudaron a empujar la tapa sufren 3 de Daño boca abajo. Los investigadores afectados pueden tratar de evadir la trampa usando ({agility}) o resistir al vapor venenoso usando ({will}) para anular total o parcialmente el Daño. \n Si un investigador sufre al menos 1 de Daño, adquiere el estado <b>Retenido</b>.
+EventPast_QueenCoffinOpenTrap.button1,Continuar
+EventPast_QueenCoffinDescribeCrown.text,Cuando el gas se disipa queda a la vista el cadáver disecado de una anciana dentro del sarcófago. Está vestida con ropas propias de la realeza y sobre su casi esquelética cabeza hay una corona. Al contemplar la corona, la voz en tu cabeza se vuelve repentinamente más fuerte y visceral que nunca, frenética ante la visión de la corona.
+EventPast_QueenCoffinTakeCrown.text,La voz se hace más fuerte a medida que desfalleces y vas perdiendo el control de tu propio cuerpo. \n\n La voz crece en tu interior. En tu piel notas como va tomando el control de tus músculos. En ese momento observas como tu mano se extiende y toca la mejilla de la reina justo antes de arrebatarle la corona. \n\n Impotente contemplas como alzas la corona hasta colocarla a la altura de tus ojos. Dejas la corona ahí durante un instante y a continuación la colocas sobre tu cabeza.
+EventPast_QueenCoffinDescribeCrown.button1,Continuar
+EventPast_QueenCoffinTakeCrown.button1,Continuar
+EventGain_TwilightDiadem.text,El investigador que haya usado menos acciones en esta ronda gana el Objeto único <b>Diadema del Crepúsculo</b>. Si hay empate, los jugadores deben decidir quién se la lleva.
+EventGain_TwilightDiadem.button1,Continuar
+EventPast_RevealCoffinRoom.button1,Continuar
+EventPast_RevealInvestigationGoal.text,¡Has encontrado la corona! La Investigación se completará cuando todos los investigadores hayan llegado al portal.
+EventPast_RevealQueensCoffin.text,En el otro extremo de la estancia descansa un robusto sarcófago que aunque tiene un aspecto sencillo está rodeado de joyas y recipientes de metal.
+EventPast_RevealQueensCoffin.button1,Continuar
+EventPast_RevealCoffinRoom.text,Coloca el módulo <b>{c:TilePast_Coffin}</b> en el lugar señalado. \n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventPast_RevealInvestigationGoal.button1,Continuar
+EventPast_Timer_Crown1.text,Sientes como la voz en tu cabeza vibra con intensidad, pero el sonido parece llegar desde arriba, de fuera de tu cuerpo, de la corona. \n\n El investigador con la <b>Diadema del Crepúsculo</b> puede descartar 1 de Horror.
+EventPast_Timer_Crown1.button1,Continuar
+EventPast_Timer_Crown2.text,La voz se desvanece al ser absorbida por la corona. Caes al suelo y la corona sale rodando, alejándose de ti. El silencio en tu propia mente es ensordecedor, pero estás eufórico por haberte liberado finalmente de la voz. \n\n El investigador que posea la <b>Diadema del Crepúsculo</b> la deja caer.
+EventPast_Timer_Crown2.button1,Continuar
+SpawnPast_Timer_Crown2.text,La corona cae al suelo cerca de ti y comienza a brillar con intensidad. La piedra preciosa de mayor tamaño que tiene engarzada la corona se hace más brillante y luego se ennegrece. La gema se convierte en un vórtice vacío de cuyo interior salen tentáculos. \n\n Más y más tentáculos se deslizan fuera del vórtice hasta que se convierten en un monstruo horrible y la corona se consume por completo. \n\n Coloca a un monstruo <b>Retoño Oscuro</b> en el espacio del investigador que llevaba la <b>Diadema de Crepúsculo</b>.
+SpawnPast_Timer_Crown2.button1,Continuar
+UITheHistoryofChorazos.text,La Historia de los Chorazos detalla el ascenso y la caída de la tribu de los Chorazos. En la contraportada aparece el siguiente resumen: \n «La tribu de los Chorazos era una pequeña comunidad de guerreros-sacerdotes que prosperó cerca de la ciudad de Ulthar entre los años 130 y 510 D.C. Sus prácticas y su repentina caída han sido estudiadas durante siglos».
+UITheHistoryofChorazos.button1,{action} Leer acerca del Gobierno de los Chorazos
+EventBook_ChorazosGovernance.button1,Continuar
+EventBook_ChorazosGovernance.text,La tribu de los Chorazos estaba gobernada por una reina que era elegida al nacer y gobernaba de por vida. Cuando la reina moría, la siguiente hembra nacida en la tribu se convertía en la nueva monarca. La que hasta ese momento se había sentado en el trono «gobernaba desde la tumba» como regente, lo que significaba que era enterrada en el templo de la tribu hasta que la nueva alcanzaba la mayoría de edad. Una vez que la nueva reina, conocida como la Suma Sacerdotisa o Futura Reina, tenía la edad para gobernar, la antigua reina era trasladada y enterrada entre el resto de los habitantes, como una más. El funeral de la antigua reina servía como ceremonia de apertura para la coronación de la nueva. \n\n Si es la primera vez que lees este texto, ganas 1 Pista {clue}. Si lo has leído antes, no ganas Pistas.
+UITheHistoryofChorazos.button2,Volver a leer el Gobierno de los Chorazos.
+UITheHistoryofChorazos.button3,{action} Leer sobre la Caída de los Chorazos
+EventBook_ChorazosDownfall.text,El declive de la tribu de los Chorazos comenzó tras el derrumbamiento del Gran Templo, alrededor del año 500 D.C., y duró aproximadamente 10 años. \n\n Debido a que no guardaron muchos registros de su propia historia y a la naturaleza aislada de la comunidad, poco se sabe sobre los eventos que causaron la destrucción definitiva de la tribu. \n\n Después del Colapso, se sabe que los supervivientes intentaron construir una comunidad fuera del emplazamiento original del templo. También se edificaron algunos santuarios más pequeños alrededor de las ruinas del templo, más recientes que éste, lo que sugiere que los supervivientes intentaron continuar con su culto durante un breve periodo de tiempo, aunque el motivo por el que todos se marcharon o murieron a los pocos años es un misterio. \n
+EventBook_ChorazosDownfall.button1,Continuar
+EventBook_ChorazosDownfall_2.button1,Continuar
+UITheHistoryofChorazos.button4,Volver a leer sobre la Caída de los Chorazos
+EventBook_ChorazosDownfall_2.text,La mayor parte de la información conocida procede de relatos de segundas fuentes, que fueron registradas por historiadores que conocieron a los pocos miembros de la tribu que se dispersaron tras el colapso del Gran Templo. Los relatos son vagos y generalmente incoherentes, pero hay dos temas comunes: uno sobre una maldición y otro sobre unas piedras mágicas. \n\n Los miembros de la tribu solían referirse a las ruinas del templo como un lugar donde habían sellado un gran mal. Debido a esto, se afirmaba que si una persona vivía cerca del templo se volvía loca poco a poco. Con el tiempo esa locura era tan grande que acababan cometiendo asesinatos. Esta maldición alejó del lugar a los miembros de la tribu que sobrevivieron. \n\n Muchos de ellos creían que había dos piedras (o estatuas, según la traducción) que podían usarse para "romper la maldición" o "liberar el espíritu" (de nuevo, la traducción es ambigua). \n\n Si es la primera vez que lees este texto, ganas 2 Pistas {clue}. Si lo has leído antes, no ganas Pistas.
+UITheHistoryofChorazos.button5,{action} Leer sobre el Colapso del Gran Templo
+EventBook_Collapse.text,El Colapso del Gran Templo es un acontecimiento que ocurrió alrededor del año 500 D.C. .\n\n Debido a que los pocos registros que la tribu conservaba se perdieron en el propio colapso, no se sabe mucho sobre su historia en los años anteriores.\n\n Sin embargo, unos arqueólogos descubrieron una sola tablilla de piedra fechada alrededor del año 502 D.C., enterrada cerca de una de las chozas de la fallida comunidad que surgió cerca del templo después del colapso. \n
+EventBook_Collapse.button1,Continuar
+EventBook_Collapse_2.button1,Continuar
+UITheHistoryofChorazos.button6,Volver a leer sobre el Colapso del Gran Templo
+EventBook_Collapse_2.text,La tablilla dice haber sido escrita por la Suma Sacerdotisa (ver capítulo sobre el Gobierno) y su Vidente, que sobrevivieron al Colapso. \n\n La historia es fantástica y describe cómo los propios dioses se mostraron un día y caminaron entre la tribu. Sin embargo, los dioses eran embaucadores y sólo pretendían robar el poder que los propios dioses habían otorgado a las reinas de la tribu a través de la corona que llevaban. \n\n Los dioses embaucadores buscaron la tumba de la reina enterrada y robaron su corona. Al salir del templo, desataron un gran mal que mató indiscriminadamente y dañó el propio templo hasta que éste se derrumbó, atrapando al monstruo causante de la destrucción. \n\n Si es la primera vez que lees este texto, ganas 2 Pistas {clue}. Si lo has leído antes, no ganas Pistas.
+EventPresent_RevealAltar.button1,Continuar
+TokenPresent_RevealAltar.text,Mirando a tu alrededor observas el lugar donde el templo se vino abajo.
+UIENDING_YoungOneDefeated.button1,Fin del escenario
+EventBook_Chorazos.text,La Historia de los Chorazos detalla el ascenso y la caída de la tribu de los Chorazos. En la contraportada se puede leer un resumen: \n\n La tribu de los Chorazos era una pequeña comunidad de guerreros-sacerdotes que prosperó cerca de la ciudad de Ulthar entre los años 130 y 510 D.C. . \n\n Sus prácticas y su repentina caída han sido estudiadas durante siglos.
+EventBook_Chorazos.button1,{action} Leer acerca del Gobierno de los Chorazos
+EventBook_Chorazos.button2,Volver a leer sobre el Gobierno de los Chorazos
+EventBook_Chorazos.button3,{action} Leer sobre la Caída de los Chorazos
+EventBook_Chorazos.button4,Volver a leer sobre la Caída de los Chorazos
+EventBook_Chorazos.button5,{action} Leer sobre el Colapso del Gran Templo
+EventBook_Chorazos.button6,Volver a leer sobre el Colapso del Gran Templo
+Event_StartScenario.button1,Continuar
+EventGain_ArcaneManuscript.text,Has pasado los últimos días de tu viaje buscando cualquier información sobre la voz, y cómo puede estar relacionada con este lugar. Has traído contigo el libro «Historia de los Chorazos», con la esperanza de aprender algo sobre tu destino. \n\n Puedes leer el libro <b>Manuscrito Arcano</b> interactuando en el menú de Objetos de la aplicación. \n\n Coloca el módulo {c:TileRavine_Present}, una ficha de Vistazo y a los investigadores en cualquier espacio de dicho módulo. \n\n Cada investigador comienza con 2 Pistas {clue}.
+EventGain_ArcaneManuscript.button1,Continuar
+TokenPresent_PathInspect.button1,Éxito
+TokenPresent_PathInspect.button2,Fallo
+EventPresent_PathInspect_Pass.button1,Continuar
+TokenPresent_PathInspect.text,Te fijas en una zona recientemente pisoteada. Parece que ha habido una lucha aquí. Podrías echar un vistazo más de cerca ({observation}; 2).
+EventPresent_PathInspect_Fail.text,A pesar de buscar con más ahínco, no puedes determinar lo que pasó aquí.
+EventPresent_PathInspect_Pass.text,Observas con más detenimiento y determinas que aquí hubo una pelea. Encuentras gotas de sangre entre la vegetación, aquí y allá. Hay dos conjuntos de huellas de zapatos distintos y otro más que no es humano. Todas las huellas prosiguen el camino. \n Lo que sea que empezase aquí, no terminó aquí. \n\n Ganas 1 Pista {clue}.
+EventPresent_PathInspect_Fail.button1,Continuar
+EventPresent_PathInspect_Reveal.button1,Continuar
+EventPresent_PathInspect_Reveal.text,El suelo de esta parte está pisoteado.
+EventPresent_PathBramles_Reveal.text,En esta zona hay densas zarzas con espinas de aspecto afilado.
+EventPresent_PathBramles_Reveal.button1,Continuar
+TokenPresent_PathBramles.button1,Éxito
+TokenPresent_PathBramles.button2,Fallo
+TokenPresent_PathBramles.text,Aquí hay unas densas zarzas. Parece que alguien quedó atrapado en ellas y dejó caer un libro entre la maleza. \n Si tienes cuidado, tal vez puedas alcanzarlo. Realiza una prueba de ({agility}; 2).
+EventPresent_PathBramles_Pass.text,Extraes con bastante habilidad el libro de entre la maleza sin sufrir rasguños.
+EventPresent_PathBramles_Pass.button1,Continuar
+EventGain_KingJamesBible.text,Ganas el Objeto común <b>Biblia del Rey Jaime</b>.
+EventGain_KingJamesBible.button1,Continuar
+EventPresent_PathBramles_Fail.text,Te arañas los brazos y eres incapaz de recuperar el libro.
+EventPresent_PathBramles_Fail.button1,Continuar
+EventPresent_RevealHuts.text,Coloca el módulo <b>{c:TilePresent_Huts}</b> en el lugar señalado. Hay múltiples chozas que parecen tener siglos de antigüedad. Tal vez investigarlas te ayude a encontrar algunas pistas. \n Coloca fichas de Exploración en los lugares señalados.
+EventPresent_RevealHuts.button1,Continuar
+EventPresent_RevealCrossing.text,Coloca el módulo <b>{c:TilePresent_RevealCrossing}</b> en el lugar señalado.
+EventPresent_RevealCrossing.button1,Continuar
+EventPresent_ClearBoard_ToPast.button1,Continuar
+TokenPast_Portal_Win.text,Cuando tu equipo se acerca, al portal esté se abre de par en par. \n\n Solo se podrá pasar por el portal si todos los investigadores están en este espacio.
+TokenPast_Portal_Win.button1,{action} Usar el portal
+UIENDING_PAST_WIN.text,Cuando atraviesas el portal, éste se cierra justo detrás de ti con un silbido. Te encuentras de nuevo en la cima del templo en ruinas. La voz en tu mente se ha ido para siempre; por fin se puede tener un poco de paz. Vuelves a salir de la selva y te diriges a tu casa. En los días siguientes, al pensar en los eventos del templo te das cuenta de que podrías haber sido parte de la historia de los Chorazos, ésa de la que tanto has leído en estos últimos años.
+UIENDING_PAST_WIN.button1,Fin del escenario
+EventPast_RevealPots.text,La cerradura hace clic y la puerta se abre. La cámara del tesoro está llena de joyas, armas y objetos de decoración de aspecto valioso. \n\n Coloca el módulo <b>{c:TilePast_Pots}</b> en el lugar señalado. Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+PuzzlePast_Pots.button1,Resolver
+EventPast_RevealPots.button1,Continuar
+EventPast_RevealPots_Skeleton.text,Apoyado en la pared del fondo hay un esqueleto humano ataviado con una larga túnica. Sobre su cabeza hay una corona de hierro de aspecto sencillo. El esqueleto sostiene un cuchillo en una de sus manos.
+EventPast_RevealPots_Skeleton.button1,Continuar
+TokenPast_Pots_Skeleton.text,Apoyado en la pared del fondo hay un esqueleto humano ataviado con una larga túnica. Sobre su cabeza hay una corona de hierro de aspecto sencillo. El esqueleto sostiene un cuchillo en una de sus manos.
+EventPast_RevealPots_Skeleton_Knife.text,Deslizas el cuchillo de la mano del esqueleto. El cuchillo es simple, pero en los dedos de la mano tiene numerosos anillos. \n Ganas el Objeto común <b>Cuchillo</b>.
+EventPast_RevealPots_Skeleton_Knife.button1,Continuar
+SpawnPast_Pots_Skeleton.text,Cuando tus dedos tocan la corona el esqueleto echa la cabeza hacia atrás, dejando caer la corona fuera de tu alcance. En ese momento, comienza a girarse hacia ti al tiempo que se pone en pie, y avanza hacia dónde estás. \n\n Aparece un <i>Esqueleto</i> en el lugar señalado.
+SpawnPast_Pots_Skeleton.button1,Continuar
+TokenPast_Pots_Skeleton.button1,{action} Coger la corona
+TokenPast_Pots_Skeleton.button2,{action} Coger el cuchillo
+TokenPast_RevealAltarChamber.text,Una pesada puerta de madera bloquea el camino.
+EventPast_RevealAltarChamber.text,Coloca el módulo <b>{c:TilePast_AltarChamber}</b> en el lugar señalado. \n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+EventPast_RevealAltarChamber.button1,Continuar
+TokenPast_Altar_ObsidianJaguar_First.text,Un pequeño jaguar negro descansa sobre el altar. Junto a la estatua observas un hueco en el que habría encajado perfectamente la Escultura Grotesca que te trajo aquí, si aún la tuvieras.
+TokenPast_Altar_ObsidianJaguar_First.button1,{action} Coger el jaguar
+EventPresent_GainObsidianJaguar.text,El Sicario tenía un pequeño paquete entre sus pertenencias. Lo desenvuelves y descubres una pequeña estatuilla.
+TokenPast_Altar_ObsidianJaguar_Dup.text,Un pequeño jaguar negro descansa sobre el altar. Es idéntico al que encontraste entre las pertenencias de los sicarios que te atacaron cerca del poblado. Junto a él observas un espacio en el que habría encajado la <b>Escultura grotesca</b> que te trajo aquí, si aún la tuvieras.
+EventGain_ObsidianJaguar.text,Ganas el Objeto único <b>Jaguar de Obsidiana</b>.
+TokenPast_Altar_ObsidianJaguar_Dup.button1,{action} Coger el jaguar
+EventPast_Altar_Jaguar_Paradox.text,El jaguar original, desde el presente, brilla de manera sorprendente y se calienta, quemando al investigador que lo posea en este momento, ocasionándole 3 de Daño (anulados por {will}) antes de desvanecerse por completo. \n\n El investigador que tenía el Objeto <b>Jaguar de Obsidiana</b> lo descarta y se lo entrega al investigador que ha interactuado con esta ficha. \n\n Aparentemente, el trastear con la estatua en el pasado ha afectado a su futuro.
+EventPast_Altar_Jaguar_Paradox.button1,Continuar
+UIENDING_Paradox.text,El tejido de la realidad no puede soportar tantas paradojas. Interferir con el pasado sin tener en cuenta el presente ha roto el espacio-tiempo de forma tan severa que puede que nunca se recupere. Todos los investigadores terminan <i>perdidos en el tiempo y el espacio</i>, condenados para siempre a vagar entre las múltiples realidades, sin envejecer y sin encontrar nunca el camino de vuelta a un hogar que ya no existe.
+UIENDING_Paradox.button1,Fin del escenario
+EventPast_Paradox.button2,Continuar
+EventPast_RevealAltarChamber.button2,Continuar
+EventPast_Reveal_ObsidianJaguar_Dup.text,Una pequeña estatua de un jaguar descansa sobre el altar.
+EventPast_Reveal_ObsidianJaguar_Dup.button1,Continuar
+EventPast_Reveal_ObsidianJaguar_First.text,Una pequeña estatua de un jaguar descansa sobre el altar.
+EventPast_Reveal_ObsidianJaguar_First.button1,Continuar
+quest.synopsys,Viaja a través del tiempo y el espacio para encontrar un artefacto y detener las voces en tu cabeza.
+quest.authors,\n\n Autor: \n CoreyZ \n\n Traducción al español: \n Richar y Vidimus \n\n
+quest.authors_short,CoreyZ
+Event_Uni_Setup.button1,Continuar
+Event_Past_Setup.text,Oyes la misma voz hablando en tu cabeza, usando una lengua muerta y olvidada hace mucho tiempo. Pero ahora es diferente: eres capaz de entenderla. \n\n « <color=cyan><i>La corona debe ser encontrada, sin importar el tiempo o el lugar... Regresa al tiempo en el que la reina gobernaba desde su trono de piedra y tráemela</i></color>». \n\n Un portal se abre y, como en trance, se diriges hacia él y lo atraviesas. Cuando vuelves en ti, descubres que todavía estás en el templo, pero que en lugar de derruido, ahora parece haber sido reconstruido en toda su antigua gloria. Esto debe de ser el pasado... o quizá otro mundo diferente...
+EventPots_SkeletonDefeated.button1,Continuar
+EventPots_SkeletonDefeated.text,El esqueleto se rompe, esparciendo por todas partes huesos sueltos. Rebuscando entre los restos encuentras algo.
+TokenPresent_AltarSteps_JaguarWithWoman.text,Hay marcas en el suelo de las escaleras dejadas por la estatua al ser arrastrada desde la entrada del templo. \n Esta estatua representa a una mujer de pie con un jaguar a su lado.
+TokenPresent_AltarSteps_JaguarStanding.text,Hay marcas en el suelo de las escaleras dejadas por la estatua al ser arrastrada desde la entrada del templo. \n Esta estatua representa a un jaguar de pie, a cuatro patas.
+EventPresent_AltarSteps_JaguarWithWoman.text,A este lado de las escaleras del templo hay una estatua de una mujer con un jaguar.
+TokenPresent_AltarSteps_JaguarStanding.button1,{action} Examinar
+EventPresent_AltarSteps_JaguarStanding.text,En este otro lado hay una estatua de un jaguar.
+EventPresent_AltarSteps_JaguarStanding.button1,Continuar
+TokenPresent_AltarSteps_JaguarWithWoman.button1,{action} Examinar
+EventPresent_AltarSteps_JaguarWithWoman.button1,Continuar
+EventPresent_RevealAltarSteps.text,Observas los escalones que conducen a la entrada del antiguo templo. Como el templo es en su mayor parte subterráneo, seguramente estés ahora mismo encima de alguna de las estancias.
+EventPresent_RevealAltarSteps.button1,Continuar
+EventUni_Lobby_Reveal.text,Cuando recobras tus sentidos te das cuenta de que estás en medio de un gran vestíbulo. Un cartel gigante justo delante de ti anuncia lo siguiente: \n\n «Universidad de Miskatonic - Ante todo Ciencia». \n\n Coloca el <b>{c:TileUni_Lobby}</b> en el lugar señalado.
+EventUni_Lobby_Reveal.button1,Continuar
+EventPresent_ClearBoard_ToUni.text,Despeja el tablero.
+EventPresent_ClearBoard_ToUni.button1,Continuar
+TokenUni_Classroom1_Door.text,Parece que lleva a un aula. En el letrero de la puerta pone: <b>101</b>.
+TokenUni_Classroom1_Door.button1,{action} Explorar
+EventUni_Lobby_Painting_Reveal.button1,Continuar
+TokenUni_StairsUp_Door.text,Esta puerta lleva a unas escaleras que suben. En el letrero en el rincón de la habitación pone: \n\n <i>2P - Biblioteca / Investigación. \n 1P - Aulas / Cafetería / Laboratorios. </i>
+TokenUni_Lab_Door1.text,Esta puerta conduce a un laboratorio. En el letrero de la puerta pone: <b>Laboratorio A</b>.
+TokenUni_Lab_Door1.button1,{action} Explorar
+TokenUni_Lobby_Painting.button1,{action} Examinar
+TokenUni_Lobby_Painting.text,Hay una gran foto en la pared.
+TokenUni_Cafeteria_Door.text,En el letrero de la puerta pone: <b>Cafetería</b>.
+TokenUni_Cafeteria_Door.button1,{action} Explorar
+TokenUni_StairsUp_Door.button1,{action} Explorar
+EventUni_Lobby_PlaceStairTokens.text,En la esquina hay un cartel que indica la dirección de las escaleras más cercanas y a dónde conducen.
+EventUni_Lobby_PlaceLabTokens.text,A la izquierda hay dos puertas que conducen a sendos laboratorios. Desde la puerta más cercana oyes un tintineo producido por objetos de vidrio.
+EventUni_Lobby_PlaceLabTokens.button1,Continuar
+EventUni_Lobby_PlaceClassTokens.text,A la derecha encuentras un aula.
+EventUni_Lobby_PlaceClassTokens.button1,Continuar
+EventUni_Lobby_Painting_Reveal.text,Hay un gran cuadro en la pared.
+EventUni_Lobby_PlaceStairTokens.button1,Continuar
+EventUni_Lobby_PlaceCafeteriaTokens.text,En el otro extremo de la habitación hay un cartel con la palabra <b>Cafetería</b>.
+EventUni_Lobby_PlaceCafeteriaTokens.button1,Continuar
+EventUni_StairsUp_Reveal.text,La puerta conduce hacia unas escaleras. Coloca el módulo <b>{c:TileUni_HallStairs}</b> en el lugar señalado. \n\n Un investigador tiene la oportunidad de moverse 1 espacio hacia la zona explorada.
+EventUni_StairsUp_Reveal.button1,Continuar
+TokenUni_Exhibit_Reveal.text,Desde aquí puedes ver una gran sala en la que hay expuesto el esqueleto de un dinosaurio.
+TokenUni_Exhibit_Reveal.button1,Continuar
+EventUni_Exhibit_Reveal.text,Coloca el módulo <b>{c:TileUni_Exhibit}</b> en el lugar señalado.
+EventUni_Exhibit_Reveal.button1,Continuar
+EventUni_Exhibit_RevealLibraryTokens.button1,Continuar
+TokenUni_Library1_Reveal.text,En el letrero de la puerta pone: <b>Biblioteca principal</b>.
+EventUni_Exhibit_RevealLibraryTokens.text,A ambos lados de la exposición observas puertas que conducen a dos bibliotecas.
+TokenUni_Library1_Reveal.button1,{action} Explorar
+EventUni_Library1_Reveal.text,Esta biblioteca, aunque bastante grande, presenta un aspecto de lo más desordenado. Parece que la mayoría de los estudiantes que pasan por este sitio no se molestan ni en ordenar los libros ni en limpiar lo que ensucian. \n\n Coloca el módulo <b>{c:TileUni_Library1}</b> en el lugar señalado.
+EventUni_Library1_Reveal.button1,Continuar
+EventUni_RevealLibrary3Token.button1,Continuar
+TokenUni_Library3_Reveal.text,Un letrero sobre esta puerta tiene escrita las palabras: <b>Sección restringida</b>. La puerta tiene una cerradura robusta, pero también tiene unas runas alrededor del marco que brillan ligeramente. Probablemente no podrás abrir está cerradura sin la llave, pero tal vez puedas manipular las runas.
+EventUni_RevealLibrary3Token.text,Al fondo hay una puerta con un letrero: <b>Sección restringida</b>.
+TokenUni_Library3_Reveal.button1,{action} Resolver el rompecabezas {lore}
+EventUni_Library3_Reveal.text,Coloca el módulo <b>{c:TileUni_Library3}</b> en el lugar señalado.
+EventUni_Library3_Reveal.button1,Continuar
+TokenUni_Office_Reveal.text,Hay un letrero en la pared junto a la puerta en el que pone: \n <b>Despacho del profesor M. Freeborn - Mitología</b>.
+TokenUni_Office_Reveal.button1,Continuar
+EventUni_Office_RevealToken.text,Hay otra puerta al fondo, en una esquina de la biblioteca.
+EventUni_Office_RevealToken.button1,Continuar
+EventUni_Office_Reveal.text,Coloca el módulo <b>{c:TileUni_Office}</b> en el lugar señalado.
+EventUni_Office_Reveal.button1,Continuar
+EventUni_Classroom_Reveal.text,Coloca el módulo <b>{c:TileUni_Classroom2}</b> en el lugar señalado.
+EventUni_Classroom_Reveal.button1,Continuar
+EventUni_Lab_Reveal.text,Coloca el módulo <b>{c:TileUni_Lab}</b> en el lugar señalado.
+EventUni_Lab_Reveal.button1,Continuar
+EventUni_Cafeteria_Reveal.text,Coloca el módulo <b>{c:TileUni_Cafeteria}</b> en el lugar señalado.
+EventUni_Cafeteria_Reveal.button1,Continuar
+TokenUni_Library2_Reveal.text,El letrero sobre esta puerta dice: <b>Biblioteca de Estudiantes</b>.
+TokenUni_Library2_Reveal.button1,{action} Explorar
+EventUni_Library2_Reveal.text,Coloca el módulo <b>{c:TileUni_Library2}</b> en el lugar señalado.
+EventUni_Library2_Reveal.button1,Continuar
+TokenUni_Lounge_Reveal.text,El letrero sobre esta puerta dice: <b>Sala de estudiantes</b>.
+TokenUni_Lounge_Reveal.button1,{action} Explorar
+EventUni_Lounge_Reveal.text,Coloca el módulo <b>{c:TileUni_Lounge}</b> en el lugar señalado.
+EventUni_Lounge_Reveal.button1,Continuar
+EventUni_Library2_RevealLoungeToken.text,En el extremo de la biblioteca hay una puerta que da acceso a un salón.
+EventUni_Library2_RevealLoungeToken.button1,Continuar
+EventUni_Classroom_RevealFreeborn.text,En la parte delantera del aula, un profesor está impartiendo una clase sobre Mitología. En la pizarra hay numerosos jeroglíficos y símbolos.
+EventUni_Classroom_RevealFreeborn.button1,Continuar
+EventUni_Classroom_RevealEmptySeat.text,Hay un asiento vacío donde puedes sentarte para escuchar la lección.
+EventUni_Classroom_RevealEmptySeat.button1,Continuar
+TokenUni_Classroom_EmptySeat.text,Hay un asiento vacío donde puedes sentarte para escuchar la lección. Quizá puedas aprender algo de conocimiento místico.
+TokenUni_Classroom_EmptySeat.button1,{action} Sentarte y escuchar
+EventUni_Classroom_TakeLecture.text,—<i>Como ya hemos establecido, la tradición que rodea a una determinada cultura puede decirnos mucho sobre su historia. Las cosas que realmente sucedieron pero que fueron malinterpretadas debido a un menor conocimiento sobre la ciencia y el mundo, pudieron ser expresadas mediante las tradiciones culturales en forma de sucesos sobrenaturales o religiosos.</i> \n
+EventUni_Classroom_TakeLecture.button1,Continuar
+EventUni_Classroom_TakeLecture2.text,—<i>Un ejemplo de esto ocurre en los mitos de la tribu de los Chorazos, que es uno de mis favoritos. Esta tribu creía que los dioses estuvieron aquí y que caminaron entre ellos poco antes de que su templo fuera completamente destruido. La creencia comúnmente sostenida entre los estudiosos es que este extraordinario relato fue causado por una posible visita de exploradores o forasteros coincidiendo con un terremoto. Eso habría hecho que la tribu primitiva relacionara los dos eventos y los tratara de encajar dentro de sus creencias religiosas ya establecidas, entre las cuales había una que sostenían que un día los dioses vendrían a dirigir su tribu hasta el fin de los días.</i> \n
+EventUni_Classroom_TakeLecture2.button1,Continuar
+EventUni_Classroom_TakeLecture3.text,—<i>Bueno, es suficiente por hoy. Recuerden estudiar para el examen parcial de la semana que viene. Estaré tanto hoy como mañana en mi despacho, en horario de oficina. Mi despacho es el que está en la parte trasera de la biblioteca. Si se pierden, simplemente pregúntenle a la bibliotecaria cómo llegar al despacho del profesor Freeborn. La clase ha terminado.</i> \n\n Ganas una mejora de {lore}. \n
+EventUni_Classroom_TakeLecture3.button1,Continuar
+EventUni_Classroom_TakeLecture4.text,El profesor comienza a limpiar la pizarra y a meter sus papeles en el maletín. \n Los estudiantes que estaban en la clase se marchan, dejándote a solas con el profesor.
+EventUni_Classroom_TakeLecture4.button1,Continuar
+EventUni_Classroom_FreebornPostLecture.button1,—<i>¿De qué está hablando?</i>
+TokenUni_Classroom_FreebornPostLecture.button1,{action} Charlar
+EventUni_Classroom_FreebornPostLecture2.text,—<i>¡Ah, sí! No tuve en cuenta que quizá usted era el único aquí que no sabía nada del tema. Permítame empezar por el principio. Como ya habrá oído, estudio los mitos y la tradición de la tribu de los Chorazos. La historia que he contado hoy es uno de los temas más debatidos en la tradición de los Chorazos. Algunos de los relatos de los supervivientes del derrumbe del Gran Templo describen con gran detalle a los «dioses» que los visitaron.</i> \n
+TokenUni_Classroom_FreebornPostLecture.text,El profesor levanta la vista cuando te acercas. Cuando te mira, sus ojos se abren de par en par. \n\n —<i>¡Hola! Por favor, acérquese y charlemos.</i>
+EventUni_Classroom_FreebornPostLecture.text,—<i>No creo que nos conozcamos, ¿verdad? Soy el profesor Martín Freeborn, y creo que ya sé quién es usted: acaba de visitar a los Chorazos. ¡Nunca pensé que esto sucediera, y mucho menos que podría conocer todos los detalles!</i> —camina en círculos a tu alrededor mientras habla emocionado, examinando tu cara y tu ropa—. <i>¡Oh! Si esto es otra broma debida a mi supuesta obsesión en este tema, nunca más volveré a dirigirles la palabra a los profesores de Historia.</i> \n
+EventUni_Classroom_FreebornPostLecture2.button1,—<i>Continúe...</i>
+EventUni_Classroom_FreebornPostLecture3.text,—<i>Pues bien, uno de los dioses descritos se ajusta a usted, tiene exactamente su misma apariencia. Cada detalle fue predicho, ¡hasta la ropa que lleva puesta justo ahora! ¿Está aquí solo o ha traído a alguien con usted? </i>\n\n Le indicas que no has venido solo y describes al resto de tus compañeros de investigación. \n\n —<i>¡Fenomenal!</i> —parece muy emocionado—. <i>¡Así que los que han venido aquí encajan en número y descripción a la perfección con los dioses que visitaron a los Chorazos hace tanto tiempo!</i>
+EventUni_Classroom_FreebornPostLecture3.button1,Continuar
+EventUni_Classroom_FreebornPostLecture4.text,—<i>¡Oh! —su rostro se ensombrece—. <i>Entonces eso probablemente significa... ¡No tenemos mucho tiempo! ¡Debemos prepararnos! ¡Su aparición significa que el gran mal que causó el colapso del Gran Templo no puede estar muy lejos! \n\n »La leyenda dice al ser derrotado, el demonio que atacó el templo se dividió en dos. Una mitad quedó atrapada en la corona mágica de la Reina insepulta del templo, pero la otra mitad tomó una nueva forma y escapó, y desde entonces ha estado vagando por el mundo. Sospecho que las voces que han estado escuchando podrían ser esa otra parte, que les impulsa a reunirla con la parte atrapada en la corona. \n\n »Reúnase conmigo en mi despacho. He recuperado la corona y he enviado numerosas expediciones para encontrar pistas sobre la otra mitad del demonio. Por ahora, lo mejor que podemos hacer es proteger la corona.</i> \n
+EventUni_Classroom_FreebornPostLecture4.button1,Continuar
+EventUni_Classroom_FreebornPostLecture5.text,El profesor sale corriendo y te deja solo en el aula.
+EventUni_Classroom_FreebornPostLecture5.button1,Continuar
+EventUni_Office_RevealFreeborn.text,El profesor está en su escritorio, mirando fijamente a una corona.
+EventUni_Office_RevealFreeborn.button1,Continuar
+EventUni_Classroom_FreebornPostLecture5.button2,Continuar
+TokenUni_Library1_Book1.button1,Éxito
+TokenUni_Library1_Book1.button2,Fallo
+EventUni_Library2_Book1_Pass.text,Has encontrado un libro titulado «Mitología de los últimos Chorazos». Describe brevemente el Gran Colapso del Templo, pero a continuación realiza una serie de especulaciones acerca del «demonio» contra el que lucharon los supervivientes. Se dice que ese demonio se partió en dos, y que la mitad quedó atrapada en una piedra preciosa mientras que la otra mitad escapó. Hay en el libro una serie de dibujos de runas que según el autor se podrían usar para atrapar la otra mitad del demonio, pero que la tribu nunca logró cazarlo o atraparlo. \n\n Ganas 2 Pistas {clue}.
+EventUni_Library2_Book1_Pass.button1,Continuar
+TokenUni_Library2_Book1.text,El libro se titula «Los dioses exteriores». En el índice descubres que tiene un capítulo sobre la religión del Templo de los Chorazos.
+EventUni_Library2_Book1_Fail.text,A pesar de tu búsqueda, no encuentras nada útil.
+EventUni_Library2_Book1_Fail.button1,Continuar
+TokenUni_Office_Runes.text,Hay varias runas talladas en un círculo en el suelo. \n\n La voz en tu mente parece disgustada por ellas.
+TokenUni_Office_Runes.button1,{action} Entrar en el círculo de las runas
+EventUni_Office_Reveal_Runes.text,Hay varias runas talladas en el suelo.
+EventUni_Office_Reveal_Runes.button1,Continuar
+TokenUni_Office_Freeborn.text,—<i>¡Me alegro de que lo consiguiera! ¡Dese prisa, colóquese sobre las runas de allí! ¡No tenemos mucho tiempo!</i>
+TokenUni_Office_Freeborn.button1,—<i>¿A qué viene tanta prisa?</i>
+EventUni_Office_Freeborn_1.text,—<i>¿Ve esta corona de aquí?</i> —dice señalando hacia la corona que está encima en su escritorio—. <i>Esta es la corona de la última reina de la tribu de los Chorazos. La misma corona que se dice que tiene la mitad del demonio atrapado en su interior. Cuando se sostiene se pueden oír las voces.</i> \n\n »<i>¡Alto!</i> —grita mientras te acercas a tocar la corona, alejándola de ti—. <i>Las voces que escucha son la otra parte del mismo demonio. Si toca la corona las dos mitades se reunirán y el demonio podrá materializarse de nuevo. \n
+EventUni_Office_Freeborn_1.button1,Preguntarle cuál es el plan
+EventUni_Office_Freeborn_2.text,—<i>Las runas que he tallado allí atraparán al ente cuando se manifieste. Usted estará en el círculo y entonces le entregará la corona. Cuando el demonio tome forma, quedará atrapado dentro del círculo y podremos destruirlo.</i>
+EventUni_Office_Freeborn_2.button1,—<i>¿Ha hecho esto antes?</i>
+EventUni_Office_Freeborn_3.button1,Continuar
+EventUni_Office_Freeborn_3.text,—<i>¡No, en absoluto! Pero si no lo hacemos, ¡esas voces nos van a volver locos a los dos con el tiempo! Ahora, por favor, ¡dese prisa y colóquese sobre las runas!
+EventUni_Office_Runes.text,Te colocas dentro del círculo de runas, y el profesor Freeborn se acerca hacia ti con la corona. \n\n —<i>¿Está preparado?</i> —te pregunta.
+EventUni_Office_Runes.button1,—<i>Sí, adelante.</i>
+EventUni_Office_Runes1.text,El profesor te entrega la corona, e inmediatamente puedes sentir como toma el control de tu cuerpo. Las runas que te rodean empiezan a brillar con fuerza. La voz en tu cabeza se hace más fuerte, casi ensordecedora. Sin darte cuenta te encuentras levantando la corona y colocándola sobre tu cabeza. Al hacerlo, sientes que la voz te abandona para irse hacia la corona. Cuando finalmente la voz se desvanece, te sientes aliviado por haber recuperado tu mente, por fin, después de estos meses.\n
+EventUni_Office_Runes1.button1,Continuar
+EventUni_Office_Runes2.button1,—<i>Deje que me quede con la corona</i> ({influence}; 3).
+EventUni_Office_Runes2.button2,—<i>Buena suerte con sus estudios.</i>
+EventUni_Office_Runes2.text,Sin embargo, no pasa nada más. La corona parece de nuevo ser sólo una corona normal. \n\n —<i>¿Eso es todo? ¿No hay un demonio enorme y vistoso? ¿Nada de fuego y azufre? ¡Bah!</i> —el profesor Freeborn parece decepcionado—. <i>Oh bueno, tal vez las runas lograron atrapar al demonio en la propia corona. Todo esto ha resultado ser mucho menos emocionante de lo que esperaba. Quizás si sigo estudiándolo pueda aprender más.</i>\n
+EventUni_Office_Runes_KeepCrown.text,Convences al profesor de que un artefacto tan peligroso podría estar más seguro contigo, a pesar de su deseo de investigarlo. \n\n Ganas el Objeto único <i>Diadema del Crepúsculo.</i>
+EventUni_Office_Runes_KeepCrown.button1,Continuar
+EventUni_Crown_Timer_1.text,Saber que la voz ha desaparecido hace que te sientas aliviado. \n\n El investigador que posea la <b>Diadema del Crepúsculo</b> puede descartar 1 de Horror.
+EventUni_Crown_Timer_1.button1,Continuar
+SpawnUni_Crown_Timer_2_HaveCrown.text,Coloca un monstruo <i>Retoño Oscuro</i> en el espacio del investigador que posea la <b>Diadema del Crepúsculo</b>.
+SpawnUni_Crown_Timer_2_HaveCrown.button1,Continuar
+EventUni_Reveal_InvestigationGoal.button1,Continuar
+SpawnUni_Crown_Timer_2_NoCrown.text,Coloca un monstruo <i>Retoño Oscuro</i> en el lugar señalado.
+EventUni_Reveal_InvestigationGoal.text,El demonio se ha manifestado. Debes detenerle y salvar la universidad para completar con éxito la investigación.
+SpawnUni_Crown_Timer_2_NoCrown.button1,Continuar
+EventUni_Crown_Timer_2_NoCrown2.text,El profesor Freeborn, cogido completamente por sorpresa por la repentina aparición del demonio, es incapaz de reaccionar a tiempo. El demonio extiende sus tentáculos y lo levanta en el aire. Freeborn consigue defenderse con un hechizo, cortando uno de los tentáculos, antes de ser arrastrado a la boca de la bestia.
+EventUni_Crown_Timer_2_NoCrown2.button1,Continuar
+EventUni_Crown_Timer_2_HaveCrown.text,De repente, la corona empieza a brillar de nuevo. La piedra más grande se vuelve más brillante y luego se ennegrece. La piedra se convierte en un vórtice vacío y de su interior salen tentáculos. Cada vez más tentáculos irrumpen desde el vacío hasta que se convierten en un monstruo horrible. La corona pierde todo su poder.
+EventUni_Crown_Timer_2_HaveCrown.button1,Continuar
+EventUni_Crown_Timer_2_NoCrown.text,De repente, la corona empieza a brillar de nuevo. La piedra más grande se vuelve más brillante y luego se ennegrece. La piedra se convierte en un vórtice vacío y de su interior salen tentáculos. Cada vez más tentáculos irrumpen desde el vacío hasta que se convierten en un monstruo horrible. La corona pierde todo su poder.
+EventUni_Crown_Timer_2_NoCrown.button1,Continuar
+UIENDING_Uni_WithCrown.text,La criatura cae al suelo, con sus tentáculos de púas todavía agarrándose débilmente a ti. La bestia se queda quieta. Lentamente, comienza a desvanecerse. De la criatura se desprenden algunos trozos, que son arrastrados como si fuesen motas de polvo hacia la corona hasta que finalmente no queda ningún rastro del terrible ser. \n Las voces finalmente callan, el demonio se ha ido... por ahora. Todo vuelve a la normalidad. \n\n <b>¡La investigación se ha completado con éxito!</b>
+UIENDING_Uni_WithCrown.button1,Fin del escenario
+UIENDING_Uni_NoCrown.text,La criatura cae al suelo, con sus tentáculos de púas todavía agarrándose débilmente a ti antes de quedarse finalmente quieta. Lentamente, comienza a desvanecerse. De la criatura se desprenden algunos trozos, que son arrastrados como si fuesen motas de polvo hacia la corona hasta que finalmente no queda ningún rastro del terrible ser. \n Las voces finalmente se callan, y el demonio, derrotado para siempre, no podrá volver a destruir otra civilización. Todo ha acabado bien. \n\n ¡La investigación se ha completado con éxito!
+UIENDING_Uni_NoCrown.button1,Continuar
+EventUni_Office_Runes3.text,El profesor coge la corona y la coloca de nuevo en su escritorio, se sienta y comienza a examinarla. \n\n Probablemente lo mejor sea dejarle en paz por ahora.
+EventUni_Office_Runes3.button1,Continuar
+TokenUni_Library1_Book1.text,Aquí hay numerosos libros sobre Mitología. Puedes buscar si hay alguno sobre la tribu de los Chorazos ({lore}; 3).
+TokenUni_Library2_Book1.button1,{action} Leer
+EventUni_Library2_Book1_2.text,«<i>Muchas religiones de todo tipo a lo largo y ancho del mundo, en todas las épocas, parecen haber creado y adorado a un mismo dios, Yog-Sothoth. Conocido por estar encerrado fuera de nuestro universo (como todos los dioses exteriores), este dios aparece con frecuencia en muchas mitologías descrito como una masa brillante de orbes. Se dice que ha engendrado muchos dioses y demonios menores en nuestra realidad que, como él, pueden volver a su forma original incluso si son despedazados. Muchos mitos incluyen relatos sobre demonios que dividen su esencia y habitan en las personas y las impulsan a reunirse con su otra mitad».</i> \n\n Ganas 1 Pista {clue}.
+EventUni_Library2_Book1_2.button1,Continuar
+EventGain_LuckyCigaretteCase.text,Ganas el Objeto común <b>Pitillera de la Suerte</b>.
+EventGain_LuckyCigaretteCase.button1,Continuar
+EventUni_Library2_Book1.text,Las estanterías están llenas de libros sobre dioses y religión. Uno llama tu atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventUni_Library2_Book1.button1,Continuar
+TokenUni_Lounge_Items.text,Algunos de los estudiantes han dejado varias pertenencias sobre la mesa.
+TokenUni_Lounge_Items.button1,{action} Coger las cosas
+EventUni_Cafeteria_Meat_Cleaver.text,Hay algunos utensilios de cocina. \n\n Coloca el Objeto común <b>Cuchillo de carnicero</b> en el lugar señalado.
+EventUni_Cafeteria_Meat_Cleaver.button1,Continuar
+EventGain_Painkillers.text,Ganas el Objeto común <b>Analgésicos</b>.
+EventGain_Painkillers.button1,Continuar
+EventGain_Bandages.text,Ganas el Objeto común <b>Vendas</b>.
+EventGain_Bandages.button1,Continuar
+EventUni_Cafeteria_MedKit.text,En la pared hay colgado un botiquín.
+EventUni_Cafeteria_MedKit.button1,Continuar
+TokenUni_Cafeteria_MedKit.text,Quizá en el botiquín haya algo útil.
+TokenUni_Cafeteria_MedKit.button1,{action} Examinar el botiquín
+EventUni_Lab_StudentReveal.button1,Continuar
+TokenUni_Lab_Student.text,Una estudiante parece frustrada por los resultados mientras trabaja frenéticamente vertiendo varios productos químicos en probetas.
+EventUni_Lab_StudentReveal.text,Hay una estudiante trabajando en una de las mesas del laboratorio.
+TokenUni_Lab_Student.button1,{action} Preguntar qué tal está
+TokenUni_Lab_Student.button2,{action} Preguntar si puedes ayudar
+EventUni_Lab_Student_Op1.button1,Continuar
+EventUni_Lab_Student_Op2.text,—<i>¡No, seguro que no tiene usted ni idea de Química! Sin embargo... Tal vez pueda ayudarme</i> —dice sosteniendo dos probetas, una con un especie de lodo de color marrón y otra con un líquido amarillo brillante—. <i>¿Podría probar uno de estos por mí? Necesito registrar los resultados en sujetos reales. \n\n »El marrón puede fortalecer cualquier metal, si tiene un algún tipo de arma. El amarillo, si es usted lo suficientemente audaz como para probarlo, mejorará su cuerpo... probablemente.</i>
+EventUni_Lab_Student_Op1.text,—<i>¿A usted le parece que estoy bien? Tengo que entregar algo para mi examen parcial, ¡pero ninguna de estas fórmulas que he probado me ha servido para nada!</i>
+EventUni_Lab_Student_Op2.button1,Probar el marrón (se necesita un arma)
+EventUni_Lab_Student_Op2.button2,Probar el amarillo
+EventUni_Lab_Student_Op2.button3,Rechazar
+EventUni_Lab_Student_Op2_Brown.text,Ofreces un arma y la estudiante la coloca delicadamente sobre la mesa. Destapando la probeta que contiene el lodo marrón, lo vierte por encima y lo extiende ligeramente sobre el objeto. Milagrosamente, el lodo parece cobrar vida, vibrando intensamente antes de ser absorbido por el metal. \n\n Ganas el Objeto común <b>Suero Potenciador</b>. En lugar de usar este elemento normalmente, colócalo debajo del arma mejorada como recordatorio. A partir de ahora, puedes tirar un dado adicional y hacer un daño adicional al atacar con esta arma mejorada. Esta mejora no puedes ser descartada o intercambiada.
+EventUni_Lab_Student_Op2_Brown.button1,Continuar
+EventUni_Lab_Student_Op2_Brown2.text,—<i>¡Asombroso! ¡El suero funcionó! Había un 70% de probabilidades de que simplemente disolviera el metal, ¡pero esto es mucho mejor! ¡Gracias por su ayuda!</i> \n\n La estudiante coge su cuaderno y sale del laboratorio, dejándote para que limpies su desorden.
+EventUni_Lab_Student_Op2_Brown2.button1,Continuar
+EventUni_Lab_Student_Op2_Yellow.button1,Continuar
+EventUni_Lab_Student_Op2_Yellow_2.text,La estudiante te mira sorprendida. \n\n —<i>Simplemente ha cogido una probeta llena de productos químicos de una completa extraña y se la ha tomado sin siquiera preguntar. No sólo tengo los resultados para mi examen parcial, sino que además podré usar esto para mi trabajo de Psicología.</i> \n\n La estudiante, emocionada, se queda ensimismada en sus notas y sale apresuradamente, dejándote solo para que limpies todo su desorden.
+EventUni_Lab_Student_Op2_Yellow.text,Coges la probeta amarilla que te ofrece y bebes su contenido de un solo trago. Sabe a fango. Casi de inmediato, tu cabeza comienza a girar y palpitar. Las voces en tu cabeza empiezan a gritar con fuerza. Los gritos disminuyen lentamente a medida que la sensación de mareo desaparece. \n\n Sufres 3 de Daño boca abajo (anulados por {strength}). \n Puedes mejorar cualquier habilidad de tu elección.
+EventUni_Lab_Student_Op2_Yellow_2.button1,Continuar
+EventUni_Lab_Student_Op2_Refuse.text,—<i>¡Estupendo entonces, deje de molestarme y salga de aquí!</i> —te espeta y vuelve a concentrarse en el trabajo que tiene delante.
+EventUni_Lab_Student_Op2_Refuse.button1,Continuar
+EventUni_Cafeteria_WorkerReveal.text,Un trabajador de la cafetería está limpiando las mesas.
+EventUni_Cafeteria_WorkerReveal.button1,Continuar
+TokenUni_Cafeteria_Worker.text,El trabajador está limpiando la mesa, murmurando para sí mismo.
+TokenUni_Cafeteria_Worker.button1,Presentarte
+EventUni_Cafeteria_Worker.text,—<i>¡Oh, buenos días! Soy Walter. Llevo 35 años trabajando aquí y puedo decir que he visto todo lo que este lugar tiene para ofrecer.</i>
+EventUni_Cafeteria_Worker.button1,{action} Preguntar por el profesor Freeborn ({influence}; 2).
+EventUni_Cafeteria_Worker_2.text,—<i>¿Martín? ¡Por supuesto que trabaja aquí! Es uno de los mejores académicos en lo referente a cuentos de hadas y la religión vudú. Nunca he confiado en él, siempre está pidiendo a la gente que pruebe tal o igual ritual extraño con él. Y eso nunca acaba bien. Una mujer incluso desapareció esa misma semana.</i>
+EventUni_Cafeteria_Worker_2.button1,Preguntar sobre los sicarios y la nota
+EventUni_Cafeteria_Worker_3.text,Le cuentas lo que pasó con los sicarios que había en la selva y la nota que encontraste. \n\n —<i>Sí, parece el tipo de cosas que ese hombre haría. Siempre contratando a personal poco fiable para ir en busca de artefactos. Sin lugar a dudas es el mismo Martín Freeborn que conozco.</i> \n\n Ganas 1 Pista {clue}.
+EventUni_Cafeteria_Worker_3.button1,Continuar
+TokenUni_Lab_Student.button3,{action} Preguntar por el profesor Freeborn
+EventUni_Lab_Student_Freeborn.text,La estudiante está concentrada en su trabajo. \n\n —<i>¿Quién? ¿Freeborn? No lo sé, soy estudiante de Alquimia. Creo que imparte unos cursos de estudios religiosos o algo así. No le conozco en persona.</i>
+EventUni_Lab_Student_Freeborn.button1,Continuar
+EventUni_Cafeteria_LibrarianReveal.text,Una mujer está almorzando sola.
+EventUni_Cafeteria_LibrarianReveal.button1,Continuar
+TokenUni_Cafeteria_Librarian.text,Una mujer está almorzando sola.
+TokenUni_Cafeteria_Librarian.button1,Hablar con ella
+EventUni_Cafeteria_Librarian.text,La mujer levanta la vista de su comida. \n\n —<i>¿Sí?</i> —pregunta secamente, aparentemente enfadada porque has interrumpido su comida.
+EventUni_Cafeteria_Librarian.button1,{action} Preguntar quién es
+EventUni_Cafeteria_Librarian.button2,{action} Preguntar por el profesor Freeborn
+EventUni_Cafeteria_Librarian_Self.text,—<i>No es que sea de su incumbencia, ya que puedo decir a simple vista que ni siquiera es usted estudiante de este campus, pero soy Úrsula Downs, bibliotecaria jefa de la Universidad de Miskatonic</i> —te dice mirándote con desdén—.<i> Estoy a cargo de los numerosos fondos bibliográficos y registros que contiene</i> —a continuación te ignora y sigue comiéndose su almuerzo.
+EventUni_Cafeteria_Librarian_Self.button1,Continuar
+EventUni_Cafeteria_Librarian_Freeborn.text,—<i>¿Freeborn? ¿Ese viejo inútil? ¿Por qué querría saber algo de él? —hace una pausa—. ¿Sabe? Ni siquiera le dieron un despacho propiamente. No, le dieron una habitación que había sin usar en la parte trasera de la biblioteca... Lo que le convierte en MI problema, ya que tengo que ocuparme de todo lo que haya en la biblioteca. \n\n »Lo de ese hombre es una especia de broma pesada, una vergüenza para toda la universidad, dando clases sobre viejos cuentos de hadas...</i> —se echa a un lado, murmurando con rabia. Se da cuenta de que todavía estás aquí y continua—. <i>Oh, vaya, la hora del almuerzo ha terminado. He de marcharme ya. Buena suerte con el profesor.</i> \n
+EventUni_Cafeteria_Librarian_Freeborn.button1,Continuar
+EventUni_Cafeteria_Librarian_Freeborn2.text,Se levanta de la mesa y se va de la cafetería. \n\n Ganas 1 Pista {clue}. A continuación, descarta la ficha de Personaje.
+EventUni_Cafeteria_Librarian_Freeborn2.button1,Continuar
+EventUni_Library3_PuzzleSolved.text,Las runas brillan y se oye un clic. La puerta se abre ligeramente.
+PuzzleUni_Library3.button1,Resolver
+EventUni_Library3_PuzzleSolved.button1,Continuar
+TokenUni_Library3_Reveal.button2,{action} Accionar el pomo
+EventUni_Library3_Handle.text,Accionas el pomo de la puerta y esta se abre fácilmente.
+EventUni_Library3_Handle.button1,Continuar
+Event_StartScenario.text,Hace semanas, empezaste a oírlo. Un susurro detrás de tu oreja. Cada día es más fuerte, susurrando en un idioma que no puedes entender. Aunque no puedes comprender las palabras, has sido atraído aquí, a las ruinas del Templo de Chorazos, cerca de Ulthar. No sabes qué buscas, sólo sabes que quiere que encuentres algo, y si lo haces, tal vez las voces se detengan...
+EventUni_Library3_Spell.text,Hay una estantería llena de libros etiquetados como <b>Magias antiguas</b>.
+EventUni_Library3_Spell.button1,Continuar
+TokenUni_Library3_Spell.text,Hay un libro en la estantería llamado <b>«Encantamientos ancestrales»</b>. En el libro se habla con profusión acerca de las estrellas y de cómo se relacionan con la magia. Podrías dedicar algo de tiempo para intentar entender algo {observation}.
+PuzzleUni_Library3_Spell.button1,Resolver
+TokenUni_Library3_Spell.button1,{action} Intentar comprenderlo {observation}
+EventSpell_PoisonMist.text,Ganas el Hechizo <b>Niebla Venenosa</b>.
+EventSpell_PoisonMist.button1,Continuar
+EventSpell_StormOfSpirits.text,Ganas el Hechizo <b>Tormenta de Espíritus</b>.
+EventSpell_StormOfSpirits.button1,Continuar
+EventUni_Library3_Spell_Solved.text,Después de estudiar las cartas estelares durante un tiempo, los encantamientos descritos en el libro comienzan a tener sentido.
+EventUni_Library3_Spell_Solved.button1,Continuar
+EventPresent_Crossing_CorpseReveal.button1,Continuar
+EventPresent_Crossing_Corpse.text,Examinando la escena encuentras dos conjuntos diferentes de huellas pertenecientes a seres humanos, además de unas huellas de animal. Al parecer, el animal los perseguía mientras se acercaban al río, luego hubo una refriega que dejó abundantes marcas en el suelo. Las huellas después se alejan de regreso al poblado. \n\n Ganas 2 Pistas {clue}.
+TokenPresent_Crossing_Corpse.text,Observas un rastro de sangre que conduce a la orilla del agua. Aquí hay signos de lucha. Crees que podrías reconstruir lo que sucedió aquí examinando los alrededores ({observation}; 2).
+TokenPresent_Crossing_Corpse.button1,Éxito
+EventPresent_Crossing_CorpseReveal.text,Hay signos de lucha junto a la orilla del río. \n\n Coloca una ficha de <b>Búsqueda</b> en el lugar señalado.
+EventPresent_Crossing_Corpse.button1,Continuar
+EventPresent_Crossing_DucksReveal.button1,Continuar
+EventPresent_Crossing_Ducks.text,Te sientas junto al borde del río y observas a los patos durante un rato. La mamá pato parpa de felicidad viendo como los bebé patos juegan en las aguas poco profundas cerca de la orilla. Después de un tiempo, la mamá pato parpa en alto y los bebés patos le siguen río abajo. \n\n Ver a los patos te han calmado. Todos los investigadores que estén en este espacio pueden descartar 2 de Horror.
+TokenPresent_Crossing_Ducks.text,En este sitio hay una familia de patos.
+TokenPresent_Crossing_Ducks.button1,{action} Observar a los patos
+EventPresent_Crossing_DucksReveal.text,Ves a una familia de patos en el agua. \n\n Coloca una ficha de <b>Búsqueda</b> en el lugar señalado.
+EventPresent_Crossing_Ducks.button1,Éxito
+TokenPresent_Huts_Hut3_Search.button1,Continuar
+TokenPresent_Huts_Hut3_Search.text,Hay varias pilas viejos trastos colocados sobre la mesa, junto con algunas pertenencias del Sicario que estaba aquí. Si lo rebuscas todo, seguro que puedes encontrar algo útil ({observation}; 2).
+EventPresent_Huts_Hut3_SearchPass.text,Rebuscando finalmente encuentras algo que podría ser útil.
+EventPresent_Huts_Hut3_SearchPass.button1,Éxito
+Event_Present_Round2End.button1,Continuar
+Event_Present_Round4End.button1,Continuar
+Event_Present_Round4End.text,El sol está ocultándose en el cielo. La noche caerá pronto. \n\n Las voces os instan a que os deis prisa.
+EventZ_Uni_Round1_Start.text,Las voces de tu cabeza son más intensas en este lugar. Parecen ser más numerosas.
+Event_Uni_Setup.text,Oyes la misma voz hablando en tu cabeza, en una lengua muerta hace mucho tiempo. Pero ahora es diferente: puedes entenderla. \n\n <color=cyan><i>La corona debe ser encontrada, sin importar el tiempo o el lugar... Desde aquí partirás al lugar donde la corona reside en este momento y me la traerás.</i></color> \n\n Un portal se abre en ese momento, y como sumido en un trance, lo atraviesas.
+EventUni_Exhibit_JanitorReveal.button1,Continuar
+TokenUni_Exhibit_Janitor.text,El conserje deja de fregar y levanta la vista cuando te acercas.
+TokenUni_Exhibit_Janitor.button1,{action} Preguntar por el profesor Freeborn
+EventUni_Exhibit_Janitor_Freeborn.text,—<i>¡Ese hombre es un viejo loco! Siempre entrando y saliendo a todas horas de la noche, haciendo que le abra y le cierre el acceso a la sección restringida. Está metido en algo, de eso estoy seguro.</i> \n\n Ganas 1 Pista {clue}.
+EventUni_Exhibit_Janitor_Freeborn.button1,Continuar
+EventUni_Library1_Book1_Reveal.text,Hay muchos libros en las estanterías con la etiqueta <b>Mitología</b>.
+EventUni_Library1_Book1_Reveal.button1,Continuar
+EventUni_Library1_Switch_Reveal.text,Hay una estantería llena de pequeños artefactos y objetos.
+EventUni_Library1_Switch_Reveal.button1,Continuar
+TokenUni_Library1_Switch.button1,Continuar
+EventUni_Library1_Switch_Pass.text,La puerta junto a la estantería emite un suave chasquido y se abre ligeramente.
+TokenUni_Library1_Switch.text,La estantería está llena de artefactos. Hay algo aquí que no encaja, pero no sabrías decir qué es. \n Puedes mirar un poco más de cerca usando tu {observation}.
+EventUni_Library1_Switch_Pass.button1,Continuar
+EventUni_Library1_Switch_Fail.text,Sigues sin encontrar lo que no encaja.
+EventUni_Library1_Switch_Fail.button1,Continuar
+TokenUni_Library1_Switch.button2,Fallo
+EventUni_Library3_Librarian_Reveal.button1,Continuar
+TokenUni_Library3_Librarian.text,La bibliotecaria deja de revisar los numerosos libros que tiene sobre la mesa y levanta la vista enfadada cuando te acercas, aparentemente haciendo demasiado ruido para su gusto.\n\n —<i>¡Shhh!</i>
+EventUni_Library3_Librarian_Reveal.text,La bibliotecaria que encontraste en la cafetería está sentada en una mesa.
+TokenUni_Library3_Librarian.button1,Preguntarle si se dedica a la investigación
+EventPast_RevealPots_Gems.text,En este sitio hay un pequeño montón de piedras preciosas.
+EventPast_RevealPots_Gems.button1,Continuar
+TokenPast_Pots_Gems.button1,{action} Coger unos rubíes
+EventPast_Pots_Gems_TakeRuby.text,Recordando la estatua a la que le falta un ojo, recoges algunos rubíes que crees que podrían encajar en su cuenca vacía.
+TokenPast_Pots_Gems.text,Aquí hay un pequeño montón de piedras preciosas.
+EventPast_Pots_Gems_TakeRuby.button1,Continuar
+EventPast_Statuary_JaguarStatueSittingPass.text,Pruebas algunos de los rubíes que encontraste en la cámara del tesoro. Finalmente encuentras uno que encaja perfectamente en el hueco. Al colocarlo, los ojos de la estatua parecen cobrar vida. Tienes la impresión de que puedes ver pequeñas llamas dentro del rubí. Caes en un trance mientras miras fijamente los ojos de la estatua. \n\n Ganas 1 Pista {clue} y el Hechizo que se muestra. A continuación, adquieres el estado <b>Hipnotizado</b>.
+TokenPast_Statuary_JaguarStatueSitting.text,Pruebas algunos de los rubíes que encontraste en la cámara del tesoro. Finalmente encuentras uno que encaja perfectamente en el hueco. Al colocarlo, los ojos de la estatua parecen cobrar vida. Tienes la impresión de que puedes ver pequeñas llamas dentro del rubí. Caes en un trance mientras miras fijamente los ojos de la estatua. \n\n Ganas 1 Pista {clue} y el Hechizo que se muestra. A continuación, adquieres el estado <b>Hipnotizado</b>.
+EventPast_Statuary_JaguarStatueSittingPass.button1,Continuar
+EventUni_Lobby_Candles.button1,Continuar
+EventUni_Lobby_Candles.text,Hay algunas velas encendidas en la mesa de la entrada. \n\n Coloca el Objeto común <b>Velas</b> en el lugar señalado.
+EventPresent_Huts_Hut1_Reveal.text,La choza abandonada está vacía, excepto por un hacha vieja y primitiva apoyada en la pared, junto a la puerta. \n\n Coloca el Objeto común <b>Hacha</b> en el lugar señalado.
+EventPresent_Huts_Hut1_Reveal.button1,Continuar
+EventZ_Uni_Round1_Start.button1,Continuar
+EventZ_Past_Round1_Start.button1,Continuar
+EventZ_Past_Round1_Start.text,Las voces en vuestras cabezas son mucho más fuertes aquí. Parecen ser más numerosas.
+EventPresent_AltarSteps_JaguarWithWoman0.button1,Continuar
+EventPresent_AltarSteps_JaguarStanding0.button1,Continuar
+EventPresent_AltarSteps_JaguarWithWoman0.text,La estatua de la mujer con túnica está en un estado de conservación muy bueno pero la boca del jaguar está rota. \n\n Ganas 1 Pista {clue}.
+EventPast_QueenCoffin_DoorShuts.text,La puerta de esta sala se cierra de golpe. \n\n Coloca una ficha de <b>Exploración</b> en el lugar señalado.
+EventPresent_AltarSteps_JaguarStanding0.text,La estatua está en perfecto estado. Es difícil de creer que haya sobrevivido a los eventos que tuvieron lugar aquí hace tanto tiempo. \n\n Ganas 1 Pista {clue}.
+EventPast_QueenCoffin_DoorShuts.button1,Continuar
+TokenPast_QueenCoffin_DoorShuts.text,La puerta está firmemente cerrada. Tendrás que empujar con fuerza para abrirla de nuevo {strength}.
+TokenPast_QueenCoffin_DoorShuts.button1,Continuar
+EventPast_QueenCoffin_DoorReopens.text,La puerta finalmente cede, dejándote salir de la cámara funeraria.
+EventPast_QueenCoffin_DoorReopens.button1,Continuar
+TokenPast_QueenCoffin_DoorShuts.button2,Fallo
+EventPast_QueenCoffin_DoorStillStuck.text,A pesar de sus empujones, la puerta permanece firmemente cerrada.
+EventPast_QueenCoffin_DoorStillStuck.button1,Continuar
+EventPast_Timer_Crown3.text,El templo comienza a temblar violentamente. Del techo se van desprendiendo trozos del templo y las raíces de los árboles que hay encima irrumpen en el templo a través de los agujeros recién creados en la estructura. \n\n Coloca una ficha de <b>Maleza</b> en el espacio señalado.
+EventPast_Timer_Crown3.button1,Continuar
+EventPast_Timer_Crown4.text,Coloca una ficha de <b>Escombros</b> en este espacio.
+EventPast_Timer_Crown4.button1,Continuar
+EventPast_Timer_Crown5.text,Coloca una ficha de <b>Maleza</b> en este espacio
+EventPast_Timer_Crown5.button1,Continuar
+EventPast_Timer_Crown6.text,Coloca una ficha de <b>Escombros</b> en este espacio.
+EventPast_Timer_Crown6.button1,Continuar
+EventPresent_Path_Overgrowth.text,Coloca fichas de <b>Maleza</b> en todos los espacios de este módulo.
+EventPresent_Path_Overgrowth.button1,Continuar
+EventPresent_Crossing_BridgeReveal.text,Hay un viejo puente de aspecto peligroso que cruza por encima del río. Coloca una ficha de <b>Interacción</b> en el lugar señalado. Cualquier investigador que quiera pasar por encima del río debe resolver esta ficha de <b>Interacción</b> para cruzar.
+EventPresent_Crossing_BridgeReveal.button1,Continuar
+TokenPresent_Crossing_Bridge.text,El puente se balancea suavemente cuando caminas por él. Debes cruzarlo con cuidado. \n\n Cruzar no consume una {action} ni un movimiento adicional, pero cualquier investigador que atraviese el puente debe resolver una tirada de ({agility}; 2).
+TokenPresent_Crossing_Bridge.button1,Éxito
+EventPresent_Crossing_Bridge_Pass.text,Caminando despacio y con cuidado, cruzas el puente de forma segura.
+EventPresent_Crossing_Bridge_Pass.button1,Continuar
+TokenPresent_Crossing_Bridge.button2,Fallo
+EventPresent_Crossing_Bridge_FailDamage.text,Tratas de moverte demasiado rápido y resbalas, por suerte consigues agarrarte en el último instante al puente, evitando caer al río. Sufres 1 de Daño boca abajo.
+EventPresent_Crossing_Bridge_FailDamage.button1,Continuar
+EventPresent_Crossing_Bridge_FailDamage2.button1,Continuar
+EventPresent_Crossing_Bridge_FailDamage2.text,Una de las tablas podridas se rompe mientras cruzas, haciendo que tu pie se cuele entre ellas y quede atrapado mientras tratas de agarrarte a algo para no caer. \n\n Sufres 1 de Daño.
+Spawn_Present_Round5.text,Aparece un monstruo <i>Alma en pena</i> en el lugar señalado. \n\n Descarta cualquier ficha de <b>Búsqueda</b> que haya en este espacio.
+Spawn_Present_Round5.button1,Continuar
+Event_Present_Round2End.text,El sol todavía está alto en el cielo. Las voces en tu mente parecen emocionadas por el hecho de que hayas llegado al lugar donde está el templo.
+Event_Present_Round5End.button1,Continuar
+Event_Present_Round5End.text,El sol finalmente se ha puesto. Oyes un grito en la distancia. Esta vez no viene de las voces de tu cabeza.
+EventPresent_Clearing_AddStatuePuzzle.text,La zona que rodea el altar parece haber sido utilizada por los lugareños como zona de reunión. Sobre el altar se encuentran los restos de una antigua estatua.
+EventPresent_Clearing_Lights.button1,Continuar
+TokenPresent_Clearing_Lights.text,Hay pequeños orbes de luz flotando en el aire
+TokenPresent_Clearing_Lights.button1,{action} Examinar
+EventPresent_Clearing_Lights_Examine.text,Los pequeños orbes de luz son simplemente eso, pura luz. Notas que se mueven juntos como si estuvieran conectados por una fuerza invisible. La hierba que hay debajo de los orbes también se mueve y ondula, sin que el viento la mueva. \n\n Ganas 1 Pista {clue}.
+EventPresent_Clearing_Lights_Examine.button1,Continuar
+EventUni_Lab_Chemistry.button1,Continuar
+TokenUni_Lab_Chemistry.text,Alguien dejó su experimento de laboratorio desatendido. Aquí hay tres vasos de precipitado llenos de unos líquidos de color azul, verde y rojo, respectivamente. Probablemente podrías completar el experimento si supieras de qué va.
+EventUni_Lab_Chemistry.text,Hay vasos de precipitado y probetas con productos químicos.
+TokenUni_Lab_Chemistry.button1,{action} Intentar el experimento
+EventUni_Lab_Chemistry_Attempt.text,"
+Coges una probeta vacía para combinar los productos químicos. \n\n El primero que eliges es:"
+EventUni_Lab_Chemistry_Attempt.button1,Rojo
+EventUni_Lab_Chemistry_Attempt.button2,Verde
+EventUni_Lab_Chemistry_Attempt.button3,Azul
+EventUni_Lab_Chemistry_Red.text,Viertes con cuidado parte del contenido del vaso rojo de precipitado en la probeta. A continuación, añades...
+EventUni_Lab_Chemistry_Red.button1,Azul
+EventUni_Lab_Chemistry_Red.button2,Verde
+EventUni_Lab_Chemistry_RedBlue.text,Combinas cuidadosamente el rojo con el azul. Empieza a burbujear con fuerza.
+EventUni_Lab_Chemistry_RedBlue.button1,Añadir Verde
+EventUni_Lab_Chemistry_Fail.text,Vacías el contenido del último vaso de precipitado en la probeta. Burbujea más vigorosamente antes de desbordarse rápidamente, impregnando tu cuerpo y el suelo. Cuando entra en contacto con tu piel, te provoca quemaduras y ampollas. \n\n Sufres 3 de Daño boca abajo.
+EventUni_Lab_Chemistry_Fail.button1,Continuar
+EventUni_Lab_Chemistry_RedGreen.text,Combinas cuidadosamente el verde con el rojo. Empieza a burbujear vigorosamente.
+EventUni_Lab_Chemistry_RedGreen.button1,Añadir Azul
+EventUni_Lab_Chemistry_Green.text,Viertes con cuidado una parte del contenido del vaso de precipitado con el líquido verde en la probeta. A continuación, añades...
+EventUni_Lab_Chemistry_Green.button1,Rojo
+EventUni_Lab_Chemistry_Green.button2,Azul
+EventUni_Lab_Chemistry_GreenBlue.button1,Continuar
+EventUni_Lab_Chemistry_Blue.button1,Rojo
+EventUni_Lab_Chemistry_GreenBlue.text,Combinas cuidadosamente el verde con el azul. Empieza a burbujear vigorosamente.
+EventUni_Lab_Chemistry_Blue.button2,Verde
+EventUni_Lab_Chemistry_Blue.text,Viertes con cuidado una parte del contenido del vaso azul en la probeta. A continuación añades...
+EventUni_Cafeteria_Notebook_Reveal.button1,Continuar
+TokenUni_Cafeteria_Notebook.text,Parece que un estudiante dejó uno de sus cuadernos en esta mesa.
+EventUni_Cafeteria_Notebook_Reveal.text,Hay un cuaderno sobre una de las mesas.
+TokenUni_Cafeteria_Notebook.button1,{action} Leer
+EventUni_Cafeteria_Notebook_Read.text,Parece que son los apuntes de química de alguien. \n\n «<i>El orden en el que se combinan las soluciones previamente preparadas es importante. Es esencial que, cuando se indique, se añada el producto químico que corresponda. Debido a la aireación, añadir el rojo al azul puede tener un efecto diferente al de añadir el azul al rojo...</i>»\n\n Ganas 1 Pista {clue}.
+EventUni_Cafeteria_Notebook_Read.button1,Continuar
+EventUni_Classroom_FreebornPostLecture3b.button1,Continuar
+EventUni_Classroom_TakeLecture5.text,Una de las estudiantes ha dejado un cuaderno. Sale del aula antes de que puedas avisarla.
+EventUni_Classroom_FreebornPostLecture3b.text,—<i>Conteste a esta pregunta, ¿le ha ocurrido algo inusual recientemente?</i> \n\n Describes las voces y como ha llegado hasta aquí a través de un portal.
+EventUni_Classroom_TakeLecture5.button1,Continuar
+TokenUni_Classroom_Notebook.text,Una estudiante dejó su cuaderno aquí después de la clase.
+TokenUni_Classroom_Notebook.button1,{action} Leer
+EventUni_Classroom_Notebook.text,Al hojear el cuaderno, lo primero que encuentras son los apuntes de la clase que a la que acababa de asistir. Parece que esta estudiante también ha utilizado este cuaderno para la clase de Química. Hay notas que describen un experimento de laboratorio: \n <i>«Añadir la solución verde a la azul. Una vez que el burbujeo disminuya, se añade el rojo y se deja reposar. Después de unos minutos, el líquido resultante tomará un color amarillento y se podrá consumir de manera segura».</i> \n\n Ganas 1 Pista {clue}.
+EventUni_Classroom_Notebook.button1,Continuar
+EventUni_Lab_Chemistry_BlueGreen.text,Combinas cuidadosamente el rojo con el azul. Empieza a burbujear vigorosamente, pero rápidamente se para.
+EventUni_Lab_Chemistry_BlueGreen.button1,Añadir Rojo
+EventUni_Lab_Chemistry_Pass.text,La solución cambia lentamente de color hasta alcanzar un agradable tono amarillo. Has conseguido completar la mezcla de forma segura. \n\n Ganas 1 Elixir, 1 Pista {clue}. A continuación, descarta esta ficha de <b>Búsqueda</b>.
+EventUni_Lab_Chemistry_Pass.button1,Continuar
+EventUni_Lobby_Painting.text,En la foto hay dos hombres y dos mujeres que sonríen a la cámara. Están de pie en medio de una explanada embarrada. La placa que hay debajo del cuadro dice: \n «Grupo de excavaciones del área de Mitología de la Universidad de Miskatonic, 1995». \n\n Ganas 1 Pista {clue}.
+EventUni_Lobby_Painting.button1,Continuar
+EventUni_Lobby_Portal_Reveal.text,El portal que te trajo aquí sigue brillando.
+EventUni_Lobby_Portal_Reveal.button1,Continuar
+TokenUni_Lobby_Portal.text,El portal que te trajo aquí sigue brillando. El camino de regreso al templo apenas es visible, mezclado con otros lugares que son mostrados de vez en cuando.
+TokenUni_Lobby_Portal.button1,{action} Examinar
+EventUni_Lobby_Portal.text,Te quedas mirando el espacio brillante durante un rato y luego decides que puede ser seguro extender la mano. Cuando tu mano toca el espacio, el aire ondulante parece unirse en un solo punto. Permanece así durante unos segundos antes de estallar con la forma de un brumoso portal azul. \n\n Antes de que puedas reaccionar, un monstruo salta a través del portal, que a continuación regresa a su brillante estado original. \n\n Será mejor no volver a tocar esta cosa.
+EventUni_Lobby_Portal.button1,Continuar
+SpawnUni_Lobby_Portal_DeepOneHybrid.text,Coloca un monstruo <i>Híbrido de Profundo</i> en este espacio.
+SpawnUni_Lobby_Portal_DeepOneHybrid.button1,Continuar
+SpawnUni_Lobby_Portal_Skeleton.button1,Continuar
+SpawnUni_Lobby_Portal_DeepOne.text,Coloca un monstruo <i>Profundo</i> en este espacio.
+SpawnUni_Lobby_Portal_DeepOne.button1,Continuar
+SpawnUni_Lobby_Portal_HuntingHorror.button1,Continuar
+SpawnUni_Lobby_Portal_Skeleton.text,Coloca un monstruo <i>Esqueleto</i> en este espacio.
+SpawnUni_Lobby_Portal_HuntingHorror.text,Coloca un monstruo <i>Horrendo Cazador</i> en este espacio.
+Event_Uni_TurnEnd_PeriodicSpawn.button1,Continuar
+Event_Uni_TurnEnd_PeriodicSpawn.text,El portal que te trajo aquí sigue siendo inestable. De repente crece y una criatura lo atraviesa antes de volver a cerrarse.
+EventUni_Cafeteria_Worker.button2,Cancelar
+EventUni_Cafeteria_Librarian.button3,Cancelar
+TokenUni_Exhibit_Janitor.button2,{action} Preguntar acerca de la universidad
+EventUni_Exhibit_Janitor_School.text,—<i>¡Oh! La Universidad de Miskatonic fue fundada hace mucho tiempo, tiene más de cien años de existencia. Este edificio, sin embargo, y más en concretamente el departamento de Mitología, es bastante reciente. Sólo tiene unas pocas décadas de antigüedad. Dicen que aquí realizan una gran cantidad de investigaciones, pero a mí todo eso de la mitología vudú me parece pura palabrería.</i> \n\n Ganas 1 Pista {clue}.
+EventUni_Exhibit_Janitor_School.button1,Continuar
+TokenUni_Library3_Librarian.button2,Dejar de molestarla
+EventUni_Library3_Librarian_Research.text,—<i>Sí, me dedico a la investigación, y bastante bien, debo añadir. Aunque técnicamente sólo soy «la bibliotecaria», aceptar este trabajo me ha dado acceso a numerosos materiales de investigación que ningún profesor de aquí podría soñar. Me he especializado en las artes defensivas y he desarrollado numerosos hechizos para protegerse del mal. \n\n »Si tiene algo de tiempo, podría enseñarle un poco más sobre mis descubrimientos. Los profesores de aquí son muy elitistas, así que tener por una vez a un público dispuesto a escucharme sería entretenido.</i>
+EventUni_Library3_Librarian_Research.button1,{action} Pedirle una lección práctica. Prueba de ({influence}; 2)
+EventUni_Library3_Librarian_Research.button2,{action} Pedirle una lección teórica
+EventUni_Library3_Librarian_Research.button3,Dejarla tranquila
+EventUni_Library3_Librarian_Practical.text,—<i>Por supuesto, déjeme mostrarle algo más práctico</i> —hace girar uno de los libros que tiene sobre la mesa para que tú también puedas verlo. Te explica lo que significan algunos de los símbolos y luego te guía a través del conjuro unas cuantas veces hasta que puedas realizar el hechizo por ti mismo. \n\n »<i>¡Gracias por escuchar! Como no imparto clases no es muy frecuente que le pueda mostrar a alguien lo que he aprendido.</i> \n\n Ganas el Hechizo que se indica.
+EventUni_Library3_Librarian_Practical.button1,Continuar
+EventUni_Library3_Librarian_Theory.text,—<i>Por supuesto, déjeme enseñarle algo más teórico</i> —hace girar uno de los libros que tiene sobre la mesa para que tú también puedas verlo. Te explica lo que significan algunos de los símbolos y luego te explica algunos detalles de un nuevo hechizo en el que ha estado trabajando. No está listo, pero parece que podría ser muy útil una vez que lo haya desarrollado. \n\n Ganas 1 Pista {clue}.
+EventUni_Library3_Librarian_Theory.button1,Continuar
+EventUni_Exhibit_DinoReveal.text,En este lugar hay expuesto un esqueleto de dinosaurio. \n\n Coloca una ficha de <b>Búsqueda</b> en el lugar señalado.
+EventUni_Exhibit_DinoReveal.button1,Continuar
+TokenUni_Exhibit_Dino.text,Hay un esqueleto de dinosaurio expuesto aquí
+TokenUni_Exhibit_Dino.button1,{action} Examinar
+EventUni_Exhibit_Dino_Search.button1,Continuar
+EventUni_Exhibit_Dino_Search.text,Es un gran dinosaurio de dos patas. ¿Tal vez un Tiranosaurio Rex? La vieja tarima de madera detrás de las cuerdas tiene un cartel con la frase: \n\n <i><b>NO TOCAR LA EXPOSICIÓN</b>.</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de <b>Búsqueda</b>.

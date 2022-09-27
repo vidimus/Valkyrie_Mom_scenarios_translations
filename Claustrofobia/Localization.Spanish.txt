@@ -1,0 +1,744 @@
+.,Spanish
+quest.name,Claustrofobia
+quest.description,Este es un escenario de horror y supervivencia para «Mansiones de la locura», segunda edición. \n\n <b>El escenario incluye contenido violento (+16).</b> \n\n Las siguientes expansiones son obligatorias: \n «Recuerdos reprimidos» \n «Pesadillas recurrentes» \n «El santuario del Crepúsculo» . \n\n Las siguientes expansiones añaden variaciones: \n «Calles de Arkham» \n «Viajes escalofriantes» \n y «La senda de la serpiente». \n\n Se puede jugar este escenario con 3 jugadores, aunque funcionará mejor con 4 o 5 jugadores. \n\n Se usan reglas especiales que serán explicadas en la aplicación a medida que aparezcan. \n
+quest.authors,\n Autor: \n Lucas M. Carvalho \n\n Música: \n https://www.FesliyanStudios.com \n\n Traducción al español: \n Vidimus \n
+quest.authors_short,Lucas M. Carvalho
+EventPrologo1.text,Después de una larga semana de trabajo te preparas para descansar en casa. Los últimos casos en los que has trabajado te han dejado profundas secuelas. Y ahora, mirándote en el espejo del cuarto de baño, te preguntas cuánto tiempo más va a resistir tu salud mental estas investigaciones. \n\n Alejas de ti estos sombríos pensamientos y te vas a la cama. Durante la noche te despiertas con la sensación de haber oído el cerrojo de la puerta. Te levantas de la cama y con cuidado caminas hacia el salón. \n\n Todo sucede demasiado rápido: un intruso, un breve forcejeo, un sedante inyectado en tu cuello. Te desmayas sin oponer resistencia. \n\n <b><i>¿A dónde me lleva?</i></b> \n
+EventPrologo1.button1,Continuar
+EventPrlogo2.text,Este escenario tiene algunas reglas especiales. \n\n Primero, el juego no terminará cuando un investigador sea eliminado. Los jugadores pueden tratar de sobrevivir individualmente, de modo que sólo se deberá marcar la opción de «<i>Investigador eliminado</i>» en la aplicación cuando todos los investigadores hayan perdido. \n\n Además, al haber sido encerrados en las mazmorras, sus recuerdos han sido borrados, pero todavía es posible acceder a algunos recuerdos fragmentados. \n
+EventPrlogo2.button1,Continuar
+EventPrologo3.text,Los investigadores comienzan el escenario sin Pistas.
+EventPrologo3.button1,Continuar
+Eventinicio1.text,{rnd:hero} abre despacio los ojos. Su cuerpo está débil y le duele la cabeza. Se encuentra en una celda estrecha, fría y mal iluminada. \n\n Coloca el módulo {c:TileSaladocalabouo} y una ficha de Pared en el lugar señalado.
+Eventinicio1.button1,Continuar
+EventInicio2.text,{c:Eventinicio1} se levanta despacio y nota que tiene las manos esposadas. \n\n Coloca sólo la miniatura de {c:Eventinicio1} en el lugar señalado.\n
+EventInicio2.button1,Continuar
+EventInicio3.text,Hay un cubo con desechos en un rincón. El hedor y las moscas dominan la estancia, provocándote náuseas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventInicio3.button1,Continuar
+EventInicio4.text,{c:Eventinicio1} oye como algo se mueve al otro lado de la sólida pared. Quizá haya más personas retenidas. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventInicio4.button1,Continuar
+EventInicio5.text,La celda no está completamente a oscuras gracias a unas velas que hay alrededor de un libro. La escena te provoca escalofríos. \n\n <i>¿Qué significa esto?</i> \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventInicio5.button1,Continuar
+EventInicio6.text,Una gran puerta oxidada impide salir de la celda.
+EventInicio6.button1,Continuar
+Tokenportatrancada1.text,La puerta de metal macizo no puede abrirse.
+Tokenportatrancada1.button1,Continuar
+Eventinicio7.text,{c:Eventinicio1} puede realizar sus dos acciones.
+Eventinicio7.button1,Continuar
+Tokenoutrosinvestigadores.text,Te parece escuchar como algo se mueve al otro lado de la pared. Puedes susurrar a través de la pared sin gastar una {action}.
+Tokenoutrosinvestigadores.button1,Susurrar
+Eventrevelar_investigadores.text,Los otros investigadores escuchan el susurro de {c:Eventinicio1}. Se mueven despacio, sin ser capaces de distinguir el sueño de la realidad. \n\n <i>¿Estarán bajo los efectos de algún tipo de droga?</i> \n\n Coloca las miniaturas de los demás investigadores en el espacio señalado. Todos ellos comienzan el juego con el estado <i>Aturdido.</i> \n\n Descarta esta ficha de Vistazo.
+Eventrevelar_investigadores.button1,Continuar
+Eventrevelar_investigadores2.text,La celda está completamente a oscuras. Al principio no sabéis lo grande que es ni cuántas personas están aquí con vosotros. Os embarga una sensación de claustrofobia. \n\n Coloca una ficha de Oscuridad en el lugar señalado.
+Eventrevelar_investigadores2.button1,Continuar
+Eventrevelar_investigador3.text,La celda tiene una puerta metálica. Está cerrada con llave. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventrevelar_investigador3.button1,Continuar
+Tokenportatrancada2.button1,Continuar
+Event1.text,Quizá sería bueno tantear lo que teneís alrededor para haceros una idea de cómo es la celda. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Tokenportatrancada2.text,La puerta metálica está cerrada con llave.
+Event1.button1,Continuar
+Event2.text,Los investigadores que acaban de entrar en el tablero tienen disponibles sus dos acciones, que podrán usar en su turno.
+Event2.button1,Continuar
+TokenBiblia.text,Hay un libro abierto sobre el suelo, rodeado de velas.
+TokenBiblia.button1,{action} Investigar
+Eventbiblia.text,El libro es una biblia antigua. En la pared hay un mensaje escrito, iluminado por la luz de las velas: \n\n <b>Mateo, 5:26 \n Mateo, 5:26 \n Mateo, 5:26 \n Mateo, 5:26 \n Mateo, 5:26 \nMateo, 5:26</b>\n\n Te preguntas qué significado tendrá este mensaje. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventbiblia.button1,Continuar
+Eventbiblia2.text,Quizá este libro pueda servirte de algo. Ganas el Objeto común <i>Biblia del rey Jaime.</i>
+Eventbiblia2.button1,Continuar
+Eventbiblia3.text,Las velas continúan iluminando la celda. \n\n Coloca el Objeto común <i>Velas</i> en el lugar señalado.
+Eventbiblia3.button1,Continuar
+TokenBalde.text,El cubo está a rebosar de heces, orina y restos de comida. Sin embargo, podría esconder algo más en su interior.
+TokenBalde.button1,{action} Meter la mano
+Eventmao_no_balde.text,Metes la mano dentro y en ese momento te dan arcadas. Prueba de {will}.
+Eventmao_no_balde.button1,Continuar
+Eventmao_no_balde.button2,Botão2
+Eventmao_no_balde_falhou.text,Tus dedos se deslizan entre los desechos, pero no encuentras nada.
+Eventmao_no_balde_falhou.button1,Continuar
+Eventmao_no_balde_falhou.button2,Continuar
+Eventmao_no_balde_falhouA.text,Al retirar la mano, tu dedo se pincha con un objeto punzante. \n\n Adquieres el estado <i>Envenenado.</i>
+Eventmao_no_balde_falhouA.button1,Continuar
+Eventmao_no_balde_falhouB.text,A pesar de que tienes el estómago casi vacío, vomitas con fuerza. Adquieres el estado <i>Desconcertado.</i>
+Eventmao_no_balde_falhouB.button1,Continuar
+Eventmao_no_balde_passou.text,Encuentras un objeto punzante. Al sacarlo del cubo te das cuenta de que es un hueso de pollo y que lo han afilado a conciencia. Quizá lo puedas usar para abrir la celda. \n\n Descarta esta ficha de Búsqueda.
+Eventmao_no_balde_passou.button1,Continuar
+Tokenporta_ossodegalinha.button1,{action} Abrir la cerradura
+Eventosso_de_galinha.text,Abrir la puerta de esta manera es casi imposible.\n Puedes intentar resolver el rompecabezas usando {observation}.
+Tokenporta_ossodegalinha.text,Tal vez el pequeño hueso de pollo pueda servir para abrir la puerta.
+Eventosso_de_galinha.button1,Continuar
+Puzzleossodegalinha.button1,Hecho
+Tokentatear.text,La celda está en la más absoluta oscuridad. Uno de los investigadores puede tantear el terreno para averiguar qué hay alrededor.
+Tokentatear.button1,{action} Tantear
+Eventtatear.text,Tanteas la pared y el techo de la celda. Prueba de {observation}
+Eventtatear.button1,Continuar
+Eventtatear.button2,Continuar
+EventTatear_falhou.text,Tus dedos se deslizan sobre la piedra fría y húmeda. Es difícil encontrar algo, pero tienes un mal presentimiento.
+EventTatear_falhou.button1,Continuar
+EventTatear_passou.text,Al examinar a ciegas descubres varias cosas. \n\n Sólo hay un objeto en la celda que parece estar hecho de madera sin tratar. También has contado el número de personas que hay contigo. Te llegan sonidos procedentes de las celdas vecinas, por lo que deduces que hay más prisioneros a ambos lados de tu celda. Por último, alguien está caminando de un lado para otro, fuera de la celda, arrastrando por el suelo un objeto metálico. \n\n Descarta esta ficha de Interacción.
+EventTatear_passou.button1,Continuar
+Eventtatear_passou2.button1,Continuar
+Eventtatear_passou2.text,Quizá sea posible hablar con quien quiera que esté al otro lado de la pared. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventtatear_passou3.text,El secuestrador se mueve de un lado para otro en el exterior de la celda. Quizá sea posible averiguar algo o hablar con él.
+Eventtatear_passou3.button1,Continuar
+Tokenvizinho.text,Oyes una pesada respiración al otro lado.
+Tokenvizinho.button1,{action} —<i>¿Quién está ahí?</i>
+EventVizinho.text,—<i>Cállese</i> —responde secamente una voz al otro lado—. <i>Nos va a oír...</i>
+EventVizinho.button1,—<i>¿Quién nos va a oír?</i>
+EventVizinho.button2,—<i>¿Quién es usted?</i>
+Eventvizinho_quemvaiescutar.text,—<i>Víctor... Él nos castigará si nos pilla susurrando... Yo solía tener un nombre, ¿sabe? Pero hace tanto tiempo de eso... </i> \n\n Ganas 1 Pista {clue}.
+Eventvizinho_quemvaiescutar.button1,Continuar
+Eventvizinho_quemevoce.text,—<i>Yo antes tenía un nombre... pero hace tanto tiempo de eso... ¿Alguna vez tuve un nombre? </i> \n\n Ganas 1 Pista {clue}.
+Eventvizinho_quemevoce.button1,Continuar
+TokenVizinhoB.text,Oyes un llanto procedente de la celda de al lado. Puede que sea necesario seguir hablando con el preso de la celda contigua.
+TokenVizinhoB.button1,{action} —<i>¿Qué es lo que recuerda?</i>
+TokenVizinhoB.button2,{action} —<i>¿Sabe dónde estamos?</i>
+TokenVizinhoB.button3,{action} —<i>¿Sabe cómo salir de aquí?</i>
+EventvizinhoB_selembra.text,La persona tiene miedo y no quiere hablar. Intentas calmarla. Prueba de {influence}.
+EventvizinhoB_selembra.button1,Continuar
+EventvizinhoB_selembra.button2,Fallo
+EventvizinhoB_falhou.button1,Continuar
+EventvizinhoB_selembra_passou.text,—<i>Yo... tenía una casa y un trabajo... Pero entonces llegó él. Entró en mi casa y me trajo aquí... Me dijo que yo era sospechoso. Que podía ser el asesino y que, en ese caso, lo pagaría... Dijo que todos aquellos de los que él desconfiase sufrirían... ¡Pero yo soy inocente! Nunca le he hecho daño a alguien... </i> \n\n Ganas 2 Pistas {clue}.
+EventvizinhoB_falhou.text,Oyes un gemido y a continuación varios golpes. En ese momento, por las vibraciones en la pared, ¡te das cuenta de que esa persona se está golpeando la cabeza contra la pared! \n No parece que esté dispuesta a hablar.
+EventvizinhoB_selembra_passou.button1,Continuar
+EventvizinhoBondeestamos.text,La persona parece tener miedo de hablar. Intentas calmarla. Prueba {influence}.
+EventvizinhoBondeestamos.button1,Continuar
+EventvizinhoBondeestamos.button2,Fallo
+EventVizinhoB_ondeestamos_passou.text,—<i>¡Estamos lejos de la civilización! Nos ha traído por mar... Nos ha traído a un islote en mitad de la nada... Donde nadie oirá nuestros gritos y de donde no podremos huir sin ahogarnos... </i> \n\n Un escalofrío recorre tu cuerpo. Sufres 1 de Horror boca abajo (anulado por {will}). A continuación, ganas 2 Pistas {clue}.
+EventVizinhoB_ondeestamos_passou.button1,Continuar
+EventvizinhoB_comosair.text,La persona parece tener miedo de hablar. Intentas calmarle. Prueba {influence}.
+EventvizinhoB_comosair.button1,Continuar
+EventvizinhoB_comosair.button2,Fallo
+EventvizinhoB_comosair_passou.text,—<i>Voy a contarle un secreto</i> —dice la voz, jadeando—. <i>Hay un bloque suelto en el techo de su celda. Conduce a un estrecho túnel. Pero ahora no puede hacerlo... ¡Si le descubre, dese por muerto! </i>
+EventvizinhoB_comosair_passou.button1,Continuar
+EventvizinhoB_comosair_passou2.text,Quizá sea posible encontrar ese pasadizo. Pero en la oscuridad será necesario tantear de nuevo la celda. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventvizinhoB_comosair_passou2.button1,Continuar
+Eventmito_principal.button1,Botão1
+Eventmito_1.text,Este evento de los Mitos afecta al investigador con la puntuación más alta en {will}.
+Eventmito_1.button1,Continuar
+Eventmito_1b.button1,Continuar
+Eventmito_1k.text,¡Es necesario huir de este infierno antes de que sea demasiado tarde!
+Eventmito_1c.text,Estás demasiado débil para resistirte. El secuestrador tira de ti hacia fuera y cierra la celda con la llave. Coloca la miniatura del investigador en el mismo espacio que el Maníaco.
+Eventmito_1c.button1,Continuar
+Eventmito_1d.text,Te arrastra durante un largo trecho. Coloca los módulos {c:Tileabismo} y {c:TileCmatadeTortura} en el lugar señalado.
+Eventmito_1d.button1,Continuar
+Eventmito_1e.text,El Maníaco te lleva a una sala atestada de todo tipo de instrumental que hace que te horrorice el simple hecho de verlo. Mueve tu miniatura y la del Maníaco al lugar señalado.
+Eventmito_1e.button1,Continuar
+Eventmito_1f.text,Tu verdugo te ata. Mientras prepara el instrumental, tratas de escapar ({strength}; 4).
+Eventmito_1f.button1,Éxito
+Eventmito_1f.button2,Fallo
+Eventmito_1g.text,A pesar del esfuerzo, no consigues liberarte a tiempo. El Maníaco se acerca a ti con un gran alicate en las manos. Con movimientos lentos te arranca las uñas de las manos y de los pies, una a una. Gritas mientras tu sangre salpica el suelo. \n\n Sufres 4 de Daño (anulados por {strength}).
+Eventmito_1g.button1,Continuar
+Eventmito_1h.text,Tus gritos de dolor provocan una sensación de desesperación en tus compañeros. Todos los demás investigadores sufren 2 de Horror (anulados por {will}).
+Eventmito_1h.button1,Continuar
+Eventmito1_i.text,El secuestrador trae de vuelta a su víctima, y la arroja al interior de la celda. \n\n Coloca tu miniatura de nuevo en la celda donde empezaste el escenario. A continuación, descarta la miniatura del Maníaco.
+Eventmito1_i.button1,Continuar
+Eventmito_1j.text,Instantes antes de entrar te das cuenta de que el maníaco ha cogido las llaves de las celdas que estaban en un gancho, al otro lado de la pared. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmito_1j.button1,Continuar
+Eventmito_1b.text,La puerta de la celda se abre de repente y al otro lado de la puerta puedes ver a un hombre claramente fuera de sí. Arrastra un hacha sobre el suelo de piedra.\n\n Aparece un Maníaco en el lugar señalado.
+Eventmito_1k.button1,Continuar
+Eventmito_principal.button2,Botão2
+Eventmito_2.text,Este evento de los Mitos afecta al investigador con la puntuación más baja en {strength}.
+Eventmito_2.button1,Continuar
+Eventmito_2b.text,El secuestrador abre la puerta de la celda y agarra a uno de los investigadores. \n Aparece un Maníaco en el lugar señalado.
+Eventmito_2b.button1,Continuar
+Eventmito_2c.text,Mientras te arrastra sobre el frágil puente que cruza el abismo, se te ocurre que quizá puedas forcejear con él y derribarlo. \n\n La maniobra es extremadamente arriesgada: si no tienes suficiente fuerza, seguramente el secuestrador acabará con tu vida.
+Eventmito_2c.button1,Intentar empujarlo
+Eventmito_2c.button2,No resistirse
+Eventevento_2_empurrar.text,Golpeas al Maníaco por sorpresa. Prueba de ({strength}; 3).
+Eventevento_2_empurrar.button1,Éxito
+Eventevento_2_empurrar.button2,Fallo
+Event_mito_2_empurrar_passou.text,Los tablones del puente se rompen, pero consigues mantenerte en pie. El secuestrador pierde el equilibrio y cae en la oscuridad. Es posible oír el sonido de su cuerpo golpeándose contra las rocas. A pesar de lo terrible de los ruidos, te sientes aliviado: de repente todos os sentís a salvo. \n\n Todos los investigadores pueden descartar 1 de Horror. \n\n Coloca la miniatura de investigador en el lugar señalado.
+Event_mito_2_empurrar_passou.button1,Continuar
+Eventmito_empurrar_falhou.text,Lo intentas, pero él es más fuerte. Con una sonrisa de psicópata en su rostro, el Maníaco te arrastra hacia la oscuridad del abismo. Caes y chocas contra las rocas. \n Retira tu miniatura del tablero.
+Eventmito_empurrar_falhou.button1,Continuar
+Eventmito_2_falhou2.text,Caes en el interior de una estancia fría y oscura. \n\n Coloca el módulo {c:Tileburaco} en el lugar señalado.
+Eventmito_2_falhou2.button1,Continuar
+Eventmito_2_falhou3.text,Te has roto una pierna a causa de la caída. La fractura es abierta. \n\n Coloca tu miniatura en el lugar señalado. Descarta todas tus cartas de Daño y ganas el estado <i>Herido.</i> \n Este investigador no podrá ser afectado por más eventos de Mitos que impliquen tortura.
+Eventmito_2_falhou3.button1,Continuar
+Eventmito_2_falhou4.text,La oscuridad cubre todo el lugar. Coloca Oscuridad en cada espacio de la localización {c:Tileburaco}.
+Eventmito_2_falhou4.button1,Continuar
+Eventmito_2_falhou5.text,Una de las lápidas está abierta. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmito_2_falhou5.button1,Continuar
+Eventmito_2_falhou6.text,Tal vez sea posible apilar las piedras y escombros para escalar y salir de aquí. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventmito_2_falhou6.button1,Continuar
+TokenEscalar.text,Quizá puedas apilar las piedras para trepar de vuelta. El camino es largo y la herida en la piedra supondrá un gran impedimento.
+TokenEscalar.button1,{action} Subirse
+Eventescalar.text,Pulsa para resolver el rompecabezas usando {agility}.
+Eventescalar.button1,Continuar
+PuzzleEscalar.button1,Hecho
+Tokenlpide.text,Una de las lápidas está abierta.
+Tokenlpide.button1,{action} Investigar
+Eventlapide1.text,Un antiguo esqueleto se pudre a causa de la humedad. Al verlo, tu mente se ve asaltada por la sensación de que nunca saldrás de aquí. Sufres 2 de Horror (anulados por {will}).
+Eventlapide1.button1,Continuar
+Eventlapide2.text,Hay un antiguo pergamino enrollado a los pies del esqueleto. Parece ser algún tipo hechizo ancestral de protección. \n\n Ganas el Hechizo <i>{c:QItemligao}.</i> A continuación, descarta esta ficha de Búsqueda.
+Eventlapide2.button1,Continuar
+Eventmito_2_falhou7.text,Hay una herramienta apoyada contra la pared. \n\n Coloca el Objeto común <i>{c:QItemPicareta}</i> en el lugar señalado.
+Eventmito_2_falhou7.button1,Continuar
+EventEscalar_passou.text,Consigues llegar a la superficie. \n\n Descarta el módulo {c:Tileburaco} y todas las fichas y objetos que contenga.
+EventEscalar_passou.button1,Continuar
+Eventescalar_passou2.text,Coloca tu miniatura de investigador en el lugar señalado.
+Eventescalar_passou2.button1,Continuar
+Eventmito_2d.text,El secuestrador te lleva hasta la {c:TileCmatadeTortura}, \n\n Coloca tu miniatura y la del Maníaco en el lugar señalado.
+Eventmito_2d.button1,Continuar
+Eventmito_2e.text,Con el mismo alicate, el Maníaco abre tu boca y te arranca un diente, dejándote los nervios dentales colgado de la encía. El dolor es insoportable. \n\n Al final, te arranca 4 dientes. \n\n Sufres 3 de Daño y 2 de Horror (anulados por {will}).
+Eventmito_2e.button1,Continuar
+Eventmito_2f.text,Los gritos perturban a los demás. Cada uno de los investigadores restantes sufre 2 de Horror (anulados por {will}).
+Eventmito_2f.button1,Continuar
+Eventmito_2g.text,El maníaco te lleva de nuevo a tu celda y desaparece de la vista. Coloca tu miniatura en la celda donde empezaste la partida. A continuación, retira del tablero la miniatura del Maníaco.
+Eventmito_2g.button1,Continuar
+Eventmito_principal.button3,Botão3
+Eventmito_3.text,Este evento de los Mitos afecta al investigador con la puntuación más alta en {lore}.
+Eventmito_3.button1,Continuar
+Eventmito_3b.text,De repente el piano deja de sonar, y los pasos del secuestrador resuenan cada vez más cerca.
+Eventmito_3b.button1,Continuar
+Eventmito_3c.text,La celda se abre y te llevan a la cámara. Esta vez el secuestrador ata a su víctima con una firme cuerda. \n\n Coloca la miniatura de tu investigador y la del Maníaco en el lugar señalado.
+Eventmito_3c.button1,Continuar
+Eventmito_3d.text,Enseguida el secuestrador coge un bidón de queroseno y comienza a derramarlo sobre tu cabeza. Sientes como tu pelo y tu ropa se encharcan. Los vapores que se desprenden hacen que no puedas respirar correctamente.
+Eventmito_3d.button1,Continuar
+Eventmito_3e.text,El psicópata usa un mechero para prender fuego a una pila de papeles que tiene al lado. \n\n Coloca Fuego en el lugar señalado.
+Eventmito_3e.button1,Continuar
+Eventmito_3f.text,El Maníaco te da la espalda y desaparece. Retira la miniatura del Maníaco del tablero. \n\n ¡Tienes que liberarte de las cuerdas que te amarran antes de que el fuego te alcance!
+Eventmito_3f.button1,Continuar
+Eventmito_principal.button4,Botão4
+Eventmito_4.text,¿El investigador atado ha conseguido soltarse las cuerdas?
+Eventmito_4.button1,Sí
+Eventmito_4.button2,No
+Eventmito_4_passou.text,Consigues evitar por poco las llamas y te alejas, evitando una muerte terrible. \n Ahora puedes observar con más tranquilidad la estancia que te rodea. \n Pero debes darte prisa porque el Maníaco volverá pronto...
+Eventmito_4_passou.button1,Continuar
+Eventmito_4_falhou.text,A pesar de tus esfuerzos, las llamas cubren tu cuerpo. Notas como el fuego consume tu piel y tu carne mientras te retuerces de dolor.
+Eventmito_4_falhou.button1,Continuar
+Eventmito_4_falhou2.text,Sales de la sala a la carrera, ruedas por el suelo y te arrastras. Mueve a tu investigador 3 espacios en una dirección de tu elección. \n\n Tu cuerpo está lleno de quemaduras, aunque por suerte el fuego ya se ha apagado. Es un milagro que hayas sobrevivido. \n\n Descarta todas tus cartas de Daño y adquieres el estado <i>Herido.</i>
+Eventmito_4_falhou2.button1,Continuar
+Eventmito_principal.button5,Botão5
+Eventmito_5.text,Oís los pasos firmes del secuestrador resonando por la estancia. Coloca la miniatura del Maníaco en el lugar señalado.
+Eventmito_5.button1,Continuar
+Eventmito_5b.text,Quizá sea posible esconderse en algún lugar. Todos los investigadores que estén fuera de sus celdas deben realizar una prueba de ({agility}, 2).
+Eventmito_5b.button1,Todos pasaron la tirada
+Eventmito_5b.button2,Alguno falló la tirada
+Eventmito_5c.text,Os conseguís esconder detrás de las piedras, puertas o muebles. El secuestrador camina despacio, arrastrando su hacha por el suelo. \n\n Parece que se marcha y que no va a torturar a nadie más en esta ocasión. \n\n Aunque es arriesgado, quizá ésta sea una buena oportunidad para atacarle.
+Eventmito_5c.button1,Atacarle por la espalda
+Eventmito_5c.button2,Simplemente dejas que se marche
+Eventmito_5_atacar.text,Agarras una piedra del suelo y le das una pedrada en la cabeza al Maníaco, que grita de dolor y se da la vuelta furioso. \n Prueba de {strength}: el Maníaco sufrirá una cantidad de Daño igual al número de {success} de la tirada.
+Eventmito_5_atacar.button1,Continuar
+Eventmito_5_falhou.text,A pesar de que apenas has hecho ruido con los pies, el agresor se da cuenta de tu presencia.
+Eventmito_5_falhou.button1,Continuar
+Eventmito_5_observar.text,Apenas le prestas atención mientras camina de un lado para otro, balbuceando: \n\n —<i>Madre... todo bien, madre. Él lo pagará... Si, madre... </i> \n\n Todos los investigadores que estén fuera de sus celdas reciben 1 Pista {clue}. \n\n El Maníaco desaparece de nuevo.
+Eventmito_5_observar.button1,Continuar
+Tokenchaves_penduradas.text,Un manojo de llaves metálicas está colgado de una de las paredes. Puedes cogerlo y abrir con él las otras celdas.
+Tokenchaves_penduradas.button1,Coger las llaves y abrir las celdas
+Eventchaves_penduradas.text,Abres las celdas y liberas a tus compañeros. \n\n Descarta las fichas de Exploración y todas las fichas que se señalan de dentro de las celdas. A continuación, descarta esta ficha de Búsqueda. \n\n Ganas el Objeto único <i>{c:QItemchaves}.</i>
+Eventchaves_penduradas.button1,Continuar
+Eventmaniaco1_morto.text,El secuestrador cae al suelo, gravemente herido.
+Eventmaniaco1_morto.button1,Acabar con él
+Eventmaniaco1_morto.button2,Interrogarle
+Eventmaniaco1_morto_matar.text,Intenta resistirse, pero lo arrastras por el suelo hasta el abismo. \n\n Coloca tu miniatura de investigador en el lugar señalado.
+Eventmaniaco1_morto_matar.button1,Continuar
+Eventmaniaco1_morto_matar2.text,Le empujas pero se agarra a las cuerdas y los tablones. Tras patearle tres veces el pecho consigues que caiga. \n Su cuerpo desaparece engullido por la oscuridad. Te llega el sonido de su columna rompiéndose contra las piedras. A pesar del terrible sonido, de repente os sentís aliviados y a salvo. \n\n Cada investigador puede descartar 1 de Horror.
+Eventmaniaco1_morto_matar2.button1,Continuar
+EventManaco1_interrogar.text,Parece completamente loco, aun así intentas intimidarlo ({influence}; 2).
+EventManaco1_interrogar.button1,Éxito
+EventManaco1_interrogar.button2,Fallo
+Eventmaniaco1_interrogar_falhou.text,Escupe sangre sobre ti y se limpia el rostro, soltando una carcajada. Sufres 1 de Horror boca abajo. Como se niega a cooperar, tomas la determinación de matarlo.
+Eventmaniaco1_interrogar_falhou.button1,Continuar
+Eventmaniaco1_interrogar_passou.text,Puedes ver el miedo en su rostro.
+Eventmaniaco1_interrogar_passou.button1,—<i>¿Por qué nos secuestró?</i>
+Eventmaniaco1_interrogar_passou.button2,—<i>¿Cómo salimos de aquí?</i>
+Eventmaniaco1_interrogar_passouA.text,—<i>Uno de ustedes... ¡Uno de ustedes mató a mi madre! ¡Y voy a descubrir quién fue y le haré pagar hasta el último centavo!</i> \n\n Ganas 2 Pistas {clue}. \n\n Se debate furioso y te ves obligado a matarlo.
+Eventmaniaco1_interrogar_passouA.button1,Continuar
+Eventmaniaco1_interrogar_passouB.text,—<i>Estamos lejos del continente... Ahí arriba hay un barco... Necesitan la llave y combustible... </i> \n\n Ganas 1 Pista {clue}. \n\n Enseguida parece arrepentirse por lo que ha dicho y se pone muy agresivo. No te queda más remedio que matarlo.
+Eventmaniaco1_interrogar_passouB.button1,Continuar
+Eventmito_principal.button6,Botão6
+Eventmito_6.text,Hay una fuerte humedad en este lugar y puedes oír como gotea el agua por todas partes.
+Eventmito_6.button1,Continuar
+Eventmito_6b.text,El agua mana de las filtraciones que hay a tu alrededor y compruebas que se trata de agua marina.\n\n Coloca una ficha de Agua en el pasillo de la localización {c:TileSaladocalabouo} como se señala. Si el espacio ya contenía una ficha de Agua, coloca una nueva ficha en un espacio adyacente.
+Eventmito_6b.button1,Continuar
+Eventmito_6c.text,Coloca fichas de Agua en la {c:TileCmatadeTortura} como se señala. Si ya hay agua en ese espacio, coloca una ficha de Agua en un espacio adyacente.
+Eventmito_6c.button1,Continuar
+Eventmito_principal.button7,Botão7
+Eventmito_10.text,Todo está en silencio. De repente notas más frío. Sin efecto inmediato.
+Eventmito_10.button1,Continuar
+Eventmito_principal.button8,Botão8
+Eventmito_11.text,{rnd:hero} mira hacia sus manos y pies y observa unas cicatrices antiguas. De repente, se da cuenta de que lleva preso en este lugar mucho más tiempo del que había imaginado.... \n {rnd:hero} sufre 2 de Horror (anulados por {will}).
+Eventmito_11.button1,Continuar
+Eventmito_principal.button9,Botão9
+Eventmito_12.text,Oís un ruido procedente del foso.
+Eventmito_12.button1,Continuar
+Eventmito_12b.text,De repente, un par de manos asoma por el borde y un cuerpo cubierto de sangre se pone en pie. Para sorpresa de todos, es el secuestrador. Tiene el cuello roto. Con sus propias manos, endereza su cabeza y la recoloca. \n\n —<i>¿Creían que se iban a librar de mí tan fácilmente?</i> \n\n Todos los investigadores sufren 1 de Horror (anulado por {will}).
+Eventmito_12b.button1,Continuar
+Spawnmaniaco2.text,Aparece un Maníaco en el lugar señalado. \n\n Unas venas hinchadas recorren todo su cuerpo y sus ojos están inyectados en sangre.
+Spawnmaniaco2.button1,Continuar
+Tokentatear_passagemsecreta.text,Tal vez sea necesario tantear más la oscura celda para encontrar el pasadizo secreto.
+Tokentatear_passagemsecreta.button1,{action} Tantear
+EventTatear_passagem_secreta.text,Tus manos se deslizan por las frías y húmedas paredes {observation}.
+EventTatear_passagem_secreta.button1,Continuar
+EventTatear_passagem_secreta.button2,Botão2
+Eventtatear_passagem_falhou.text,Parece muy difícil encontrar a ciegas un bloque suelto en este asfixiante lugar.
+Eventtatear_passagem_falhou.button1,Continuar
+Eventtatear_passagem_passou.text,Sientes como una gota de agua fría cae sobre tu nuca. Tal vez el ladrillo esté en el techo, por donde se está filtrando el agua. \n\n Mueve la ficha de Interacción y colócala en el lugar señalado.
+Eventtatear_passagem_passou.button1,Continuar
+Tokenpassagem_teto.text,La gotera parece indicar el sitio donde hay un bloque suelto. Hay que subirse a los hombros de alguien para llegar al techo.
+Tokenpassagem_teto.button1,{action} Subir
+Eventsubir_no_teto.text,Te subes a los hombros de otro investigador. El otro investigador debe realizar una prueba de ({strength}; 2).
+Eventsubir_no_teto.button1,Éxito
+Eventsubir_no_teto.button2,Fallo
+EventSubir_no_teto_caiu.text,A pesar de sus esfuerzos, el húmedo suelo supone un obstáculo insalvable y tu compañero te deja caer. Sufres 1 de Daño.
+EventSubir_no_teto_caiu.button1,Continuar
+Eventsubir_no_teto_passou.text,Alcanzas el bloque y consigues quitarlo sin hacer ruido. Con dificultad te arrastras hacia el interior del túnel. \n\n Descarta esta ficha de Interacción.
+Eventsubir_no_teto_passou.button1,Continuar
+Eventsubir_no_teto_passou2.text,Sales a través de un agujero que hay en lo alto de una pared. Estás fuera de la celda. Con cuidado, desciendes lentamente. \n\n Coloca tu miniatura en el lugar señalado.
+Eventsubir_no_teto_passou2.button1,Continuar
+EventOsso_de_galinha_Passou.text,Con mucho esfuerzo, consigues abrir la puerta. Descarta esta ficha de Exploración. \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventOsso_de_galinha_Passou.button1,Continuar
+EventREVELARTUDO.text,Miras a tu alrededor, estudiando la habitación. Tienes que ser rápido, ya que de lo contrario el enemigo podría aparecer en cualquier momento.
+EventREVELARTUDO.button1,Continuar
+EventRevelar_tudob.text,Miras a tu alrededor, estudiando la estancia.
+EventRevelar_tudob.button1,Continuar
+Eventrevelar_tudo1.text,Han dejado un cuchillo de gran tamaño sobre la mesa de la cámara de tortura. \n\n Coloca el Objeto común <i>{c:QItemCutelo}</i> en el lugar señalado.
+Eventrevelar_tudo1.button1,Continuar
+EventRevelartudo2.text,Un saliente de roca en una de las paredes de la caverna parece ocultar algo. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelartudo2.button1,Continuar
+EventRevelar_tudo3.text,Una lámpara de queroseno está colgada en el camino. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventRevelar_tudo3.button1,Continuar
+EventRevelar_tudo4.text,Más allá de las puertas de vuestras dos celdas hay una tercera puerta cerrada. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRevelar_tudo4.button1,Continuar
+EventRevelar_tudo5.text,Al otro lado de la puerta hay un camino que se adentra en una oscura cueva. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+EventRevelar_tudo5.button1,Continuar
+TokenRevelar_caverna.text,Esta parte de la cueva está más oscura. Un investigador en este espacio puede revelar la zona que hay a continuación.
+TokenRevelar_caverna.button1,Revelar
+TokenTerceira_porta.text,Ésta es la puerta de la última celda. Tienes la certeza de que hay alguien dentro. \n\n Un investigador con el Objeto único <i>Llaves antiguas</i> puede abrir esta puerta.
+TokenTerceira_porta.button1,{action} Abrir la cerradura
+Eventterceira_porta_revelar.text,Abres la puerta y entras en una estancia oscura y fétida. \n\n Descarta esta ficha de Exploración.
+Eventterceira_porta_revelar.button1,Continuar
+Eventterceira_porta_revelar2.text,Para tu tristeza encuentras a un hombre que ya está muerto. Hay sangre en la pared y tiene la cabeza abierta. Al parecer golpeó sin parar su cabeza contra la pared. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventterceira_porta_revelar2.button1,Continuar
+TokenCadaver.text,El hombre está muerto.
+TokenCadaver.button1,{action} Investigar
+EventcadaverB.text,En reverso del papel hay otra anotación. \n\n «<i>No puedo vencerle, pero con esto podré escapar de él... Falta tan poco...</i>» \n\n Ganas el hechizo <i>{c:QItemSondandooVazio}.</i>
+EventCadaverA.text,Hay una expresión de miedo y dolor en su rostro. En su mano derecha sujeta firmemente una nota en la que pone «<i>No es posible derrotarlo</i>». \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda. \n\n En uno de sus bolsillos encuentras otro papel con un texto que parece muy antiguo. \n\n Ganas el hechizo <i>{c:QItemPerdadeVigor}.</i>
+EventCadaverA.button1,Continuar
+EventcadaverB.button1,Continuar
+TokenLampio.text,Una lámpara firmemente sujeta a la pared.
+TokenLampio.button1,{action} Coger
+Eventlampiao.text,Ganas el Objeto común <i>{c:QItemLampio}</i>. A continuación, descarta esta ficha de Búsqueda.
+Eventlampiao.button1,Continuar
+TokenPedras_empilhadas.text,Un montón de piedras apiladas parecen ocultar algo de la pared.
+TokenPedras_empilhadas.button1,{action} Quitar
+EventPedras.text,Te afanas por quitar las piedras {strength}.
+EventPedras.button1,Continuar
+Eventrevelar_laboratorio.text,Quitas las piedras, revelando una vieja puerta de madera. \n\n Descarta esta ficha de Búsqueda.
+Eventrevelar_laboratorio.button1,Continuar
+Eventrevelar_laboratorio2.text,La puerta lleva a una especie de macabro laboratorio.\n\n Coloca el módulo {c:TileLaboratrioSecreto}, una ficha de Pared y una de Puerta en el lugar señalado. \n\n Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Eventrevelar_laboratorio2.button1,Continuar
+Eventrevelar_laboratorio3.text,Sobre la mesa hay varias notas de carácter científico. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_laboratorio3.button1,Continuar
+Eventrevelar_laboritorio4.text,Una curiosa sustancia química en polvo fue dejada sobre el puesto de trabajo. \n\n Coloca el Objeto común <i>{c:QItempoderdeligacao}</i> en el lugar señalado.
+Eventrevelar_laboritorio4.button1,Continuar
+Eventrevelar_laboratorio5.text,En mitad de la sala hay una inquietante silla de operaciones. \n <i>¿Qué clase de horribles experimentos se han llevado a cabo en este sitio?</i> \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_laboratorio5.button1,Continuar
+Eventlaboratorio_revelar6.text,En este sitio han dejado una serie de sustancias de aspecto extraño. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventlaboratorio_revelar6.button1,Continuar
+TokenElixir.text,Aquí hay almacenadas una serie de extrañas sustancias.
+TokenElixir.button1,{action} Examinar
+EventElixir.text,Te preguntas cuál será el propósito de estas sustancias. \n\n Ganas 4 cartas de <i>Elixir.</i> A continuación, descarta esta ficha de Búsqueda.
+EventElixir.button1,Continuar
+Eventrevelar_caverna.text,El agua de las filtraciones corre por el camino.\n\n Coloca el módulo {c:Tilecaverna3} en el lugar señalado. A continuación, descarta esta ficha de Vistazo.
+Eventrevelar_caverna.button1,Continuar
+Eventrevelar_caverna2.text,Una puerta de metal con un cartel: «Suministros médicos». \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventrevelar_caverna2.button1,Continuar
+EventRevelar_caverna3.text,Más adelante hay otra puerta sin inscripción visible. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventRevelar_caverna3.button1,Continuar
+Eventrevelar_caverna1.text,Este lugar está más oscuro que el resto. Coloca fichas de Oscuridad en los espacios señalados.
+Eventrevelar_caverna1.button1,Continuar
+Tokenporta_medico.text,Una puerta con un cartel: «Suministros médicos».
+Tokenporta_medico.button1,{action} Abrir
+Eventrevelar_suprimentos.text,Te encuentras una pequeña sala que es usada como almacén de suministros. \n\n Coloca el módulo {c:TileDepstioMdico} y una ficha de Pared en el lugar señalado. \n\n Descarta esta ficha de Exploración.
+Eventrevelar_suprimentos.button1,Continuar
+Eventmedico_revelar1.text,Una estantería llena de suministros ocupa un lateral de la habitación. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmedico_revelar1.button1,Continuar
+Eventmedicorevelar2.text,En la pared hay una foto. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventmedicorevelar2.button1,Continuar
+EventVOCEPODE.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventVOCEPODE.button1,Continuar
+Tokenretrato.text,En la pared hay una foto.
+Tokenretrato.button1,{action} Investigar
+Eventretrato.text,Hay una foto antigua de una mujer con traje abrazando a dos niños.\n\n «La doctora Mónica Lobbos y sus dos hijos».\n\n Ganas 1 Pista {clue}. Descarta esta ficha de Búsqueda.
+Eventretrato.button1,Continuar
+Tokenremedios.text,Un baúl lleno de medicamentos. Seguramente habrá algo dentro que sea de utilidad.
+Tokenremedios.button1,{action} Buscar
+Eventremedio_procurarA.text,Rebuscas para ver si encuentras algo útil {observation}.
+Eventremedio_procurarA.button1,Continuar
+Eventremedio_procurarA.button2,Botão2
+Eventremedio_falhou.text,Tal vez sea necesario buscar un poco más.
+Eventremedio_falhou.button1,Continuar
+Eventremedio_procurarAA.text,Ganas el Objeto común <i>Analgésicos.</i> \n Aún hay más cosas aquí para buscar.
+Eventremedio_procurarAA.button1,Continuar
+Tokenremedios2.text,Un baúl que sigue estando lleno de medicamentos. Seguro que hay más cosas aparte de los analgésicos.
+Tokenremedios2.button1,{action} Buscar
+EventRemedioB.text,Rebuscas en el baúl {observation}.
+EventRemedioB.button1,Continuar
+EventRemedioB.button2,Botão2
+EventremedioBB.text,Ganas el Objeto común <i>Vendas.</i> \n Todavía quedan cosas en este baúl.
+EventremedioBB.button1,Continuar
+Tokenremedios3.text,Aún quedan aquí más medicamentos...
+Tokenremedios3.button1,{action} Buscar
+EventremedioC.text,Rebuscas en el baúl.
+EventremedioC.button1,Continuar
+EventremedioC.button2,Botão2
+EventremedioCC.text,Ganas el Objeto común <i>Sedantes</i> y descarta esta ficha de Búsqueda.
+EventremedioCC.button1,Continuar
+Eventmaniaco2_morto.text,Víctor Lobbos cae al suelo, malherido. Encuentras en un bolsillo de su camisa un pequeño papel. \n\n Temiendo que se levante otra vez, decides acabar con él. En primer lugar piensas que lo mejor sería cortarle la cabeza con su propia hacha... O bien un investigador dentro tu alcance que posea una <i>Fuente de luz</i> podría pegarle fuego.
+Eventmaniaco2_morto.button1,Decapitarlo con el hacha
+Eventmaniaco2_morto.button2,Pegarle fuego
+Eventmaniaco2_morto.button3,Dejarlo vivo
+Eventmaniaco_decapitado.text,Levantas el hacha y tras cuatro golpes finalmente consigues separar la cabeza del resto del cuerpo. \n\n Ganas el Objeto común <i>{c:QItemMachado}.</i>
+Eventmaniaco_decapitado.button1,Continuar
+Eventmaniaco_emchamas.text,Le pegas fuego al Maníaco, que arde lentamente ante tus ojos. \n\n Coloca una ficha de Fuego en tu espacio.
+Eventmaniaco_emchamas.button1,Continuar
+Eventmaniaco_deixalo.text,Parece que ya se ha muerto, así que piensas que será mejor dejar su cuerpo donde está.
+Eventmaniaco_deixalo.button1,Continuar
+Eventmaniaco_morto_revelar.text,El pequeño papel es un esquema de los túneles. Hay una X marcada en un determinado punto, indicando la salida.
+Eventmaniaco_morto_revelar.button1,Continuar
+Eventmaniaco_revelar2.text,El esquema de los túneles señala este lugar. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventmaniaco_revelar2.button1,Continuar
+Tokenpainel.text,En esta piedra hay oculto un panel deslizante.
+Tokenpainel.button1,{action} Interactuar
+EventEscada_revelar.text,Una escalera de mano desciende del techo, conduciendo a los niveles superiores. \n\n Descarta esta ficha de Interacción y coloca otra ficha en el lugar señalado.
+Puzzlepainel.button1,Hecho
+EventEscada_revelar.button1,Continuar
+Tokenporta_caldeira.text,Una oxidada puerta de metal.
+Tokenporta_caldeira.button1,{action} Abrir
+EventCaldira_revelar.text,Te encuentras en una sala a oscuras.\n\n Coloca el módulo {c:TileSaladaCaldeira}. A continuación, descarta la ficha de Exploración.
+EventCaldira_revelar.button1,Continuar
+EventCaldeira_revelar2.text,Descansando en una esquina encuentras un arma.\n\n Coloca el Objeto común <i>Escopeta</i> en el lugar señalado.
+EventCaldeira_revelar2.button1,Continuar
+TokenEscada.text,Una escalera de mano conduce al piso superior.
+TokenEscada.button1,{action} Subir
+Eventrevelar_estar.text,Llegas a una sala de música, donde un fuerte olor a moho y vómito golpea tu nariz.\n\n Coloca el módulo {c:TileSaladeEstar} en el lugar señalado.
+Eventrevelar_estar.button1,Continuar
+Eventrevelar_estar_2.text,Una trampilla lleva hasta los túneles subterráneos. \n\n Coloca una ficha de Trampilla y tu miniatura de investigador en el lugar señalado.
+Eventrevelar_estar_2.button1,Continuar
+Eventrevelar_estar_3.text,Una ventana está abierta. La fría brisa del mar agita las cortinas. \n\n Coloca una ficha de Vistazo en el lugar señalado.
+Eventrevelar_estar_3.button1,Continuar
+Eventrevelar_estar_4.text,Al ver el piano que tocaba el secuestrador te entran escalofríos. Al lado hay una extraña escultura de yeso, pintada a mano, que representa a la doctora Mónica Lobbos. \n\n Coloca una miniatura de Sectario en el lugar señalado. Esta miniatura representa la escultura de la doctora Lobbos.
+Eventrevelar_estar_4.button1,Continuar
+Eventrevelar_estar_5.text,Tal vez sería interesante examinar la estatua.\n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_estar_5.button1,Continuar
+Eventrevelar_estar_6.text,Esta puerta conduce a las restantes salas de la mansión. \n\n Coloca una ficha de Exploración en el lugar señalado.
+Eventrevelar_estar_6.button1,Continuar
+Tokenescada2.text,Un investigador en este espacio tiene la oportunidad de subir hacia el salón gastando únicamente un punto de movimiento.
+Tokenescada2.button1,Continuar
+Tokenporta_hall.text,Una puerta que lleva al vestíbulo de la mansión.
+Tokenporta_hall.button1,{action} Explorar
+Eventrevelar_hall1.text,La puerta chirría al abrirse. Todo parece antiguo y podrido por el paso del tiempo. El vestíbulo es espacioso.\n\n Coloca el módulo {c:TileHall}. A continuación, descarta la ficha de Exploración.
+Eventrevelar_hall1.button1,Continuar
+Eventrevelar_hall2.text,Esta puerta lateral está abierta, y a través de ella sopla el viento. Desde tu posición puedes ver una playa y un pequeño barco.\n\n Coloca los módulos {c:TilePraia} y {c:Tilebarcocasa} en el lugar señalado.
+Eventrevelar_hall2.button1,Continuar
+Eventrevelar_hall3.text,Tal vez sea posible encender los motores, pero será necesario tener la llave. \n\n Coloca una ficha de Interacción en el lugar señalado.
+Eventrevelar_hall3.button1,Continuar
+Eventrevelar_estar_7.button1,Continuar
+Eventhall_revelar5.text,Sabes que las llaves están en algún lugar del vestíbulo. Tendrás que encontrarlas, y rápido. \n\n Coloca 7 fichas de Búsqueda en el lugar señalado.
+Eventrevelar_estar_7.text,¡Oís un terrible sonido procedente de los túneles subterráneos!
+Eventhall_revelar5.button1,Continuar
+Tokenchave_final1.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final1.button1,{action} Buscar
+Eventchave_final1.text,Descarta esta ficha de Búsqueda.
+Eventchave_final1.button1,Continuar
+Eventvasculhar1.text,Buscas rápidamente la llave en este sitio.
+Eventvasculhar1.button1,Continuar
+Eventvasculhar1.button2,Continuar
+Eventvasculhar2.text,Aún no has conseguido encontrarla. Será mejor que sigas buscando en otro sitio.
+Eventvasculhar2.button1,Continuar
+Eventvasculhar_sucesso.text,¡Por fin has encontrado la llave! \n\n Ganas el Objeto único <i>{c:QItemchavedobarco}.</i> \n Ahora será mejor largarse de este lugar.
+Eventvasculhar_sucesso.button1,Continuar
+Tokenchave_final2.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final2.button1,{action} Buscar
+Tokenchave_final3.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final3.button1,{action} Buscar
+Tokenchave_final4.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final4.button1,{action} Buscar
+Tokenchave_final5.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final5.button1,{action} Buscar
+Tokenchave_final6.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final6.button1,{action} Buscar
+Tokenchave_final7.text,¡Tienes que buscar en cada rincón del vestíbulo para encontrar la llave!
+Tokenchave_final7.button1,{action} Buscar
+Eventchave_final2.text,Descarta esta ficha de Búsqueda.
+Eventchave_final2.button1,Continuar
+Eventchave_3.text,Descarta esta ficha de Búsqueda.
+Eventchave_3.button1,Continuar
+Eventchave_4.text,Descarta esta ficha de Búsqueda.
+Eventchave_4.button1,Continuar
+Eventchave_5.text,Descarta esta ficha de Búsqueda.
+Eventchave_5.button1,Continuar
+Eventchave_6.text,Descarta esta ficha de Búsqueda.
+Eventchave_6.button1,Continuar
+Eventchave_7.text,Descarta esta ficha de Búsqueda.
+Eventchave_7.button1,Continuar
+Tokenbarco.text,Necesitas tener el Objeto único <i>{c:QItemchavedobarco}</i> para encender el motor. \n\n Además, no podrás escapar si hay un monstruo dentro del barco.
+Tokenbarco.button1,{action} La tengo y no hay monstruos
+Eventbarco_partir.text,Enciendes el motor. ¿Estás seguro de que quieres partir con los investigadores que están en el barco? Los que no estén serán dejados atrás y morirán.
+Eventbarco_partir.button1,Sí, quiero partir
+Eventbarco_partir.button2,Esperar
+Eventbarco_esperar.text,Aguardas a que tus compañeros lleguen.
+Eventbarco_esperar.button1,Continuar
+Eventrevelar_hall6.text,Por fin la criatura sube hasta el salón. El cuerpo deforme que una vez fue Víctor Lobbos es ahora una masa mutante que se retuerce de dolor.
+Eventrevelar_hall6.button1,Continuar
+Eventrevelar_hall6.button2,Continuar
+Spawnproledisforme.text,Aparece una Semilla informe en el lugar señalado.
+Spawnproledisforme.button1,Continuar
+SpawnHorrodeDunwich.text,Aparece el Horror de Dunwich en el lugar señalado.
+SpawnHorrodeDunwich.button1,Continuar
+Tokenolhar_janela.text,Un investigador en este espacio puede mirar por la ventana.
+Tokenolhar_janela.button1,Mirar
+EventOlhar_janela.text,¡El miedo se apodera de ti cuando te das cuenta de que la casa ha sido construida sobre un islote en mitad del mar! Por fortuna consigues divisar un pequeño barco en un embarcadero. <i>¿Podrás escapar con él?</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Vistazo.
+EventOlhar_janela.button1,Continuar
+Tokenestatua_interagir.text,La escultura de Mónica Lobbos.
+Tokenestatua_interagir.button1,{action} Investigar
+Eventestatua1.text,Al mirar más de cerca te das cuenta de que no se trata sólo de una estatua. ¡Víctor embalsamó el cuerpo de su madre y lo cubrió con yeso y cera! \n\n Todos los investigadores dentro del alcance de la estatua sufren 1 de Horror (anulado por {will}).
+Eventestatua1.button1,Continuar
+EventEsttua2.text,Descubres símbolos e inscripciones a su alrededor ({lore}; 2).
+EventEsttua2.button1,Éxito
+EventEsttua2.button2,Fallo
+Eventestatua2_passou.text,Te das cuenta de que hay algún tipo de magia oculta cuyo propósito es invocar el alma de los difuntos. Sólo hace falta recitar las palabras. <i>¿Pero quién en su sano juicio haría tal cosa?</i> \n\n Descarta esta ficha de Búsqueda y coloca una ficha de Interacción.
+Eventestatua2_passou.button1,Continuar
+EventEstatua2_falhou.text,No sabes cuál es el efecto del hechizo. Sin embargo, sólo basta con recitar las palabras para activarlo. \n\n Descarta esta ficha de Búsqueda y coloca una ficha de Exploración.
+EventEstatua2_falhou.button1,Continuar
+Tokenestatua_invocar.text,Han grabado unos símbolos místicos a los pies de la estatua.
+Tokenestatua_invocar.button1,{action} Recitar las palabras
+Eventrecitar.text,A medida que las pronuncias, un aire glacial va llenando la estancia. \n\n Descarta esta ficha de Interacción.
+Eventrecitar.button1,Continuar
+EventRecitar2.text,Una oscuridad sobrenatural envuelve el lugar.\n\n Coloca fichas de Oscuridad en todos los espacio del {c:TileSaladeEstar}.
+EventRecitar2.button1,Continuar
+Eventrecitar3.text,Sentís una presencia maligna que está consumida por el deseo de venganza. Se os pone la piel de gallina. \n\n Todos los investigadores ponen boca arriba todas sus cartas de Horror.
+Eventrecitar3.button1,Continuar
+Spawnapario.text,Un espíritu se materializa ante ti. Aparece un Alma en pena en el lugar señalado. \n
+Spawnapario.button1,Continuar
+Eventrevelar_estar7.text,Sobre una de las mesas alguien dejó abandonada un arma. \n\n Coloca el Objeto común <i>Automática del 45</i> en el lugar señalado.
+Eventrevelar_estar7.button1,Continuar
+Eventrevelar_hall5.text,<i>Nota:</i> Podrás descartar los módulos de la parte subterránea del mapa cuando todos los investigadores hayan subido. \n\n Tienes la oportunidad de mover 1 espacio hacia la zona explorada.
+Eventrevelar_hall5.button1,Continuar
+Eventrevelar_hall5b.text,Os quedáis todos mirando a un enorme cuadro que hay en la pared. <i>Mónica y sus hijos gemelos...</i> ¡Os dais cuenta de que uno de ellos es Víctor... y el otro es el jugador número 1! \n ¡Él hasta ahora había estado infiltrado entre los secuestrados, tratando de averiguar quién es el asesino de su madre! Y ahora hará lo imposible para evitar que os escapéis... \n\n El jugador número 1 ahora es vuestro enemigo. Tratará de retrasaros y saboteará vuestro intento de fuga. Si él encuentra la llave del barco antes que vosotros, ¡se marchará con el barco y os dejará a los demás en este terrible lugar para que os muráis!
+Eventrevelar_hall5b.button1,Continuar
+Eventpartir.text,Ponéis en marcha el motor y os alejáis de la isla maldita. Descarta todos los módulos de tablero y fichas, a excepción del módulo {c:Tilebarcocasa}.
+Eventpartir.button1,Continuar
+Eventpartir2.text,De repente, una violenta sacudida daña el casco de madera del barco.
+Eventpartir2.button1,Continuar
+Eventpartir3.text,El espíritu de Mónica Lobbos se aferra a la popa del barco, tratando de enviarlo al fondo del mar. \n\n Aparece un Alma en pena en el lugar señalado.
+Eventpartir3.button1,Continuar
+Eventpartir4.text,—<i>Habéis destruido mi hogar y habéis matado a mi hijo...</i> —susurra el Alma en pena. \n\n Tenéis la opción de entregar a uno de los investigadores al espíritu para que os deje marchar a los demás. Se deberá elegir al investigador por medio de una votación. En caso de empate, nadie será entregado.
+Eventpartir4.button1,Se ha votado
+Eventpartir4.button2,¡No entregaremos a nadie!
+Evententregamos.text,Ahora todos los investigadores revelan sus identidades, y cuentan las informaciones que recibieron al inicio del escenario.
+Evententregamos.button1,Continuar
+Evententregamos2.text,¿El verdadero asesino de Mónica Lobbos ha sido entregado?
+Evententregamos2.button1,Sí
+Evententregamos2.button2,No, se ha entregado a un inocente
+Eventnaoentregamosagua.button1,Se ha votado
+Eventnaoentregamosagua.button2,¡Jamás le entregaremos!
+Eventpartir4.button3,¡No entregaremos a nadie!
+Eventnaoentregamosagua.text,El fantasma se enfurece. Comienza a despedazar el barco y pronto lo mandará a pique. Coloca Agua en cada espacio del módulo {c:Tilebarcocasa}. \n\n ¡Debéis atender las demandas del espíritu o todos moriréis!
+Eventnaoentregamosseco.text,El fantasma se enfurece. Comienza a despedazar el barco y pronto lo mandará a pique. Coloca Agua en cada espacio del módulo {c:Tilebarcocasa}. \n\n ¡Debéis atender las demandas del espíritu o todos moriréis!
+Eventnaoentregamosseco.button1,Se ha votado
+Eventnaoentregamosseco.button2,¡Jamás entregaremos a un amigo!
+Eventjamais.text,Ordenáis al espíritu que se marche. Todos los investigadores en el módulo {c:Tilebarcocasa} hacen una prueba de {influence}.
+Eventjamais.button1,Continuar
+Eventjamais.button2,Botão2
+EventJamais_passou.text,El espíritu se encoge y desaparece, obedeciendo tu orden. \n\n ¡Felicidades, la investigación ha sido un éxito!
+EventJamais_passou.button1,Continuar
+Eventjamais_falhou.text,No consigues someter al espíritu que, consumido por el odio, despedaza por completo el barco. \n\n ¡La investigación ha fracasado! \n\n\n <i>«En verdad te digo que no saldrás de allí hasta que hayas pagado el último centavo». Mateo, 5:26. </i>
+Eventjamais_falhou.button1,Continuar
+Eventinocente_entregue.text,La aparición pierde el control y destroza por completo el barco. \n\n ¡La investigación ha fracasado! \n\n <i>«En verdad te digo que no saldrás de allí hasta que hayas pagado el último centavo». Mateo, 5:26. </i>
+Eventinocente_entregue.button1,Continuar
+Evententregar_certo.button1,Continuar
+TokenCadeira.text,Esta extraña silla parece haber sido utilizada para realizar experimentos.
+Evententregar_certo.text,Mónica agarra a su asesino por los pies y tira de él hacia las oscuras profundidades del mar. El barco sigue su camino de forma segura. \n\n ¡Felicidades, la investigación ha sido un éxito! \n
+TokenCadeira.button1,{action} Investigar
+Eventcadeira.text,El dolor y el sufrimiento han impregnado las paredes de este lugar. La sangre esparcida por la silla parece haber corroído parte del suelo y el metal. <i>¿Será sangre humana?</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventcadeira.button1,Continuar
+Tokenanotacoes.text,Parecen ser unas anotaciones sobre unos experimentos. Están firmados por una tal doctora Mónica Lobbos.
+Tokenanotacoes.button1,{action} Investigar
+Eventanotaes.text,Son anotaciones firmadas por la doctora Mónica Lobbos. \n\n «<i>La mutación parece acelerarse bajo el efecto de la radiación gamma. Víctor, mi sujeto principal, está demostrando una fuerza y resistencia superior a la media. Su respuesta inmunitaria es tan alta que su cuerpo neutralizó la bacteria de la tuberculosis en menos de diez minutos. El experimento está registrado en la ficha número 52</i>».
+Eventanotaes.button1,Continuar
+Eventanotacoes2.text,Sigues rebuscando entre las anotaciones y encuentras la siguiente: \n\n «<i>Tuve que interrumpir los experimentos. Una persona entrometida encontró este lugar. Temo por mi vida. Mis hijos están en hibernación, incubando mientras tanto la mutación, por lo que no se pueden defender...</i>» \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventanotacoes2.button1,Continuar
+Eventmito_principal.button10,Botão10
+Eventmito_13.text,Un vívido recuerdo aflora en la mente de {rnd:hero}. En su recuerdo, {rnd:hero} está retenido(a) en una silla, en una especie de laboratorio, mientras le realizan todo tipo de dolorosos experimentos. \n {rnd:hero} sufre 2 de Horror (anulados por {will}). \n
+Eventmito_13.button1,Continuar
+Eventmito_principal.button11,Botão11
+Eventmito14.text,Todos los investigadores comienzan a recordar cómo fueron traídos en barco a este lugar. Tienen un vago recuerdo de una mansión en un acantilado... La llave del barco... Una llave que está escondida en algún lugar del vestíbulo de la mansión. \n\n Todos los investigadores reciben 1 Pista {clue}. A continuación sufren 2 de Horror (anulados por {will}).
+Eventmito14.button1,Continuar
+Eventmito_principal.button12,Botão12
+Eventmito15.text,{rnd:hero} nota una quemazón que recorre sus venas, como si una sustancia extraña se moviera por ellas. De repente, {rnd:hero} pierde el control de su cuerpo y comienza a golpear a todos los que tiene alrededor.\n\n Todos los investigadores a su alcance sufren 2 de Daño (anulados por {agility}).\n Todos los monstruos a su alcance sufren 1 de Daño. \n\n Cuando vuelve en sí, {rnd:hero} no recuerda nada de la crisis de agresividad que acaba de tener.
+Eventmito15.button1,Continuar
+Eventmito_principal.button13,Botão13
+Eventmito17.text,El cableado del lugar parece demasiado viejo, y una chispa sorprende a {rnd:hero}. \n\n Coloca fuego en el espacio ocupado por {rnd:hero}.
+Eventmito17.button1,Continuar
+Eventmito_principal.button14,Botão14
+Eventmito18.text,El sonido del piano tocado por Víctor Lobbos sigue resonando en la mente de {rnd:hero}. Prueba de ({lore}; 2). Si la tirada tiene éxito, te das cuenta de que es sólo fruto de tu imaginación. Si la tirada falla, te golpeas la cabeza contra el suelo hasta que finalmente el sonido para; sufres 1 de Daño boca abajo.
+Eventmito18.button1,Continuar
+Eventmito_principal.button15,Botão15
+Puzzle0.button1,Hecho
+Eventmito19.text,El olor a sangre y moho invade las fosas nasales de {rnd:hero}, causándole náuseas. \n {rnd:hero} adquiere el estado <i>Aturdido.</i>
+Eventmito19.button1,Continuar
+Eventmito_principal.button16,Botão16
+Eventmito20.text,¡Debéis escapar de este lugar!
+Eventmito20.button1,Continuar
+Eventinicio25.text,Ganas el Objeto único <i>{c:QItemalgemas}</i> boca abajo.
+Eventinicio25.button1,Continuar
+Eventsegredos_4p.button1,Los jugadores ya tienen todos su número
+EventPrlogo2.button2,Continuar
+Eventsegredos_4p.text,Cada investigador recibe un número del 1 al 4. Se pueden usar trozos de papel con los números y repartirlos como recordatorio, o simplemente los jugadores pueden memorizar el número que les haya tocado. \n\n A continuación, cada investigador va a recibir información exclusiva para ella/él, relacionada con el escenario. Si fuese necesario, lee varias veces tu información para asegurarte de que la has comprendido.
+EventSegredos5p.text,Cada investigador recibe un número del 1 al 5. Se pueden usar trozos de papel con los números y repartirlos como recordatorio, o simplemente los jugadores pueden memorizar el número que les haya tocado. \n\n A continuación, cada investigador va a recibir una información exclusiva para ella/él, relacionada con el escenario. Si fuese necesario, lee varias veces tu información para asegurarte de que la has comprendido.
+EventSegredos5p.button1,Los jugadores ya tienen todos su número
+Eventpapeis.button1,Soy el número 1
+Eventpapeis_1.text,<b>Cómplice del secuestrador.</b> \n\n Eres hijo/a de la doctora Mónica Lobbos, que fue asesinada hace unos años por un investigador. Tú y tu hermano Víctor elaborasteis un plan para vengaros: habéis secuestrado a todos los sospechosos, aunque no sabéis cuál de ellos es el culpable. \n\n Objetivo: Tienes que asegurarte de que muera el verdadero culpable. Para ello deberás observar el comportamiento de los demás con la intención de descubrir al culpable. Además, deberás sabotear la investigación sin levantar sospechas. No es necesario que sobrevivas. Si el asesino de tu madre muere, ganarás la partida. \n\n <b>Nota:</b> A pesar de que Víctor es tu hermano, te atacará de forma normal si se da el caso, con la intención de que mantengas tu tapadera.
+Eventpapeis.text,El jugador número 1 recibirá ahora su información. Sólo ella/él podrá mirar la pantalla. Los jugadores no pueden compartir entre ellos la información recibida.
+Eventpapeis_1.button1,Entendido
+Eventpapeis_2.text,El jugador número 2 recibirá ahora su información. Sólo ella/él podrá mirar la pantalla. Los jugadores no pueden compartir entre ellos la información recibida.
+Eventpapeis_2.button1,Soy el número 2
+EventPapeis_22.text,<b>No sabes el motivo por el que has sido secuestrado</b>. \n\n Cuando te desmayaste por efecto de un sedante, las cosas se volvieron muy confusas. Primero viste como te traían en el interior de un coche. Lo siguiente que recuerdas es estar en la cubierta de un pequeño barco, alejándote del continente. Mientras pilotaba la embarcación, el secuestrador repetía una y otra vez lo siguiente: \n\n —<i>Uno de ustedes es el asesino. Uno de ustedes es culpable. ¡Y pagará hasta el último centavo!</i> \n\n No tienes ni idea de quién era ese hombre. \n\n Objetivo: Sabes que eres inocente y debes encontrar una forma de escapar con vida. Al parecer el secuestrador desea vengarse de uno de los investigadores. Quizá sería interesante observar al resto e intentar averiguar cuál de ellos es el «asesino».
+EventPapeis_22.button1,Entendido
+EventPapeis_3.text,El jugador número 3 recibirá ahora su información. Sólo ella/él podrá mirar la pantalla. Los jugadores no pueden compartir entre ellos la información recibida.
+EventPapeis_3.button1,Yo soy el número 3
+Eventpapeis_33.text,<b>Sabes el motivo por el que has sido secuestrado.</b> \n\n Hace algunos años, cuando investigabas un caserón en un acantilado descubriste que la doctora Mónica Lobbos realizaba terribles experimentos biológicos con cadáveres y con sus propios hijos. Las cosas se descontrolaron y te viste obligado a matarla, huyendo a continuación del lugar. \n\n Años después, has sido secuestrado. \n Conseguiste ver el rostro del secuestrador antes de desmayarte. Su nombre es Víctor Lobbos, el hijo de la doctora a la que asesinaste. Y ahora quiere venganza. \n\n A pesar de todo, Víctor no sabe con precisión cuál es la identidad del asesino de su madre, de modo que ha secuestrado a todos los sospechosos. \n\n Objetivo: Debes sobrevivir. Para ello tal vez sea necesario ocultar la verdad sobre el asesinato. En caso de que los demás investigadores descubran lo que hiciste, tendrás que convencerles de que matar a Mónica Lobbos fue necesario para detener los terribles experimentos que estaba llevando a cabo.
+Eventpapeis_33.button1,Entendido
+Eventpapeis_4.text,El jugador número 4 recibirá ahora su información. Sólo ella/él podrá mirar la pantalla. Los jugadores no pueden compartir entre ellos la información recibida.
+Eventpapeis_4.button1,Soy el número 4
+Eventpapeis_44.text,<b>No sabes el motivo por el que has sido secuestrado.</b> \n\n El somnífero que fue inyectado en tu torrente sanguíneo hizo que perdieras la noción del tiempo. Lo poco que sabes es que te arrastraron por unos túneles oscuros hasta una apartada celda. El secuestrador, entonces, susurró algo en tu oído: \n\n —<i>Sólo me interesa uno de vosotros. Uno de vosotros es el culpable. Entregádmelo y los demás sobreviviréis.</i> \n\n Objetivo: Encontrar la salida y escapar con vida. \n\n Tú sabes que eres inocente y que fue otro investigador el que cometió el crimen. También posees una información que el resto de investigadores ignora: al final del escenario puede que sea necesario entregar a uno de los investigadores para que muera, y se hará mediante una votación. Debes prestar atención a los detalles y descubrir al culpable del misterioso crimen que ha provocado el deseo de venganza en el secuestrador.
+Eventpapeis_44.button1,Entendido
+Eventpapeis_44.button2,Entendido
+EventPapelfinal.text,Todos los jugadores miran ahora la pantalla. \n\n Cada uno ha recibido una información exclusiva. No podréis compartir estas informaciones hasta que la aplicación os lo diga. \n\n Quizá tengáis que mentir acerca de la información que habéis recibido. Si ese fuera el caso, aprovechad las primeras rondas del juego para elaborar una mentira convincente, ya que un poco después la aplicación permitirá a los investigadores compartir sus informaciones (que serán verdad o serán mentira).
+EventPapelfinal.button1,Continuar
+Eventpapeis_5.text,El jugador número 5 recibirá ahora su información. Sólo ella/él podrá mirar la pantalla. Los jugadores no pueden compartir entre ellos la información recibida.
+Eventpapeis_5.button1,Soy el número 5
+Eventpapeis_55.text,<i>No sabes por qué motivo te han secuestrado</i>. \n\n Cuando el somnífero se difuminó a través de tus venas, tu mente se enturbió. Recuerdas que te llevaron por unos oscuros y húmedos túneles hasta una celda. En ella ya había otras víctimas, todas bajo los efectos de un sedante. \n\n Recobraste el conocimiento durante un momento, lo justo para ver a una persona besar el rostro del secuestrador antes de entrar en la celda. La oscuridad no te permitió ver su identidad. Un instante después, tus ojos volvieron a cerrarse. \n\n Objetivo: Debes escapar con vida de esta prisión. \n\n Tienes una información que los demás jugadores no saben: que uno de vosotros es un cómplice del secuestrador y que, fingiendo ser una víctima, su intención es observaros y sabotear un posible intento de fuga.
+Eventpapeis_55.button1,Entendido
+Eventmaniaco_piano.text,Un instante después, en algún lugar, por encima de ti, resuena el sonido de un piano. <i>¿Será el secuestrador?</i>
+Eventmaniaco_piano.button1,Continuar
+Eventdebater_passou.text,Reaccionas y luchas contra el agresor.
+Eventdebater_passou.button1,Continuar
+Eventtatear_passou_12.button1,Continuar
+Eventtatear_passou_12.text,Coloca el Objeto común <i>Tablón</i> en un rincón, tal y como se señala.
+Tokenportadacela_principal.text,La puerta es sólida y notas una débil corriente a través de ella.
+Tokenportadacela_principal.button1,{action} Meter los dedos debajo de la puerta
+Tokenportadacela_principal.button2,{action} Espiar por la cerradura
+Tokenportadacela_principal.button3,{action} Llamar a la puerta enérgicamente
+Eventporta_dedoembaixo.text,Metes los dedos de la mano derecha por debajo de la puerta, tratando de palpar algo.
+Eventporta_dedoembaixo.button1,Continuar
+Eventporta_espiarfechadura.text,Una efímera luz proyecta sombras en las paredes que hay al otro lado. Observas a un hombre caminando de un lado para otro. \n\n Coloca un Maníaco en el lugar señalado.
+Eventporta_espiarfechadura.button1,Continuar
+Eventporta_espiar2.text,En la pared del otro lado hay un manojo de llaves antiguas, colgadas de un gancho. <i>¿Cómo vas a llegar hasta ellas?</i> \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventporta_espiar2.button1,Continuar
+Eventporta_espiar20.text,El hombre se aleja por el pasillo. Descarta al Maníaco del tablero.
+Eventporta_espiar20.button1,Continuar
+Tokenportadacela_principal.button4,{action} Espiar de nuevo por la cerradura
+Eventporta_espiardenovo.text,Fuerzas la vista, tratando de ver algo más {observation}.
+Eventporta_espiardenovo.button1,Continuar
+Eventporta_espiardenovo.button2,Botão2
+Eventespiar_falhou.text,Está demasiado oscuro.
+Eventespiar_falhou.button1,Continuar
+Eventespiar_passou.text,Por el rabillo del ojo observas los destellos de un objeto que está en el pasillo. \n\n Coloca el Objeto común <i>{c:QItemamuleto}</i> en el lugar señalado.
+Eventespiar_passou.button1,Continuar
+Tokenportadacela_principal.button5,{action} Llamar de nuevo a la puerta enérgicamente
+Eventporta_batercomforca.text,Llamas a la puerta e inmediatamente alguien, desde la celda de al lado, llama tu atención. \n\n —<i>¡Shhh! ¡Silencio! ¡Le va a oír y se pondrá hecho una fiera! ¡Víctor le arrancará la piel si le hace enfadar! </i> \n\n Ganas 1 Pista {clue},
+Eventporta_batercomforca.button1,Continuar
+Event_porta_baterdenovo.text,Sigues golpeando la puerta.
+Event_porta_baterdenovo.button1,Continuar
+Event_porta_baterdenovo0.text,El aire viciado del interior de la celda parece moverse de repente. Te das cuenta de que una criatura ha estado dormida entre vosotros, quizás en algún lugar del techo, durante todo este tiempo.
+Event_porta_baterdenovo0.button1,Continuar
+Spawnhorrorcacador.text,Aparece un Horrendo cazador en el lugar señalado.
+Spawnhorrorcacador.button1,Continuar
+Eventrevelar_tudochaves.text,Un manojo de llaves está colgado de un gancho de la pared. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventrevelar_tudochaves.button1,Continuar
+Eventdedoembaixo2.text,De repente, notas como una hoja impacta contra tus dedos, lacerándolos. \n\n —<i>¿Qué está intentando hacer?</i> —dice una voz ronca al otro lado, y suelta una carcajada. \n\n Sufres 3 de Daño boca abajo (anulados por {agility}).
+Eventdedoembaixo2.button1,Continuar
+Eventagua_tuneis.text,El agua comienza a fluir por los túneles.
+Eventagua_tuneis.button1,Continuar
+quest.synopsys,Has sido capturado por un psicópata. <i>¿Podrás escapar con vida de tu cautiverio?</i>
+Eventganhar_sacodovazio.button1,Continuar
+Eventganhar_sacodovazio.text,El jugador número 1 retira un extraño trozo de tela de detrás de una de las cortinas. \n El jugador número 1 recibe el Objeto único <i>{c:QItemsacodovazio}.</i>
+EventFinal_Bom.text,Los daños causados en la pequeña embarcación hacen que naufrague a los pocos minutos. A pesar de ello, conseguís acercaros lo suficiente a la costa para llegar a salvo nadando. \n\n
+EventFinal_Bom.button1,Continuar
+Eventpartir_perguntar.text,¿Quién está en el barco?
+Eventpartir_perguntar.button1,Sólo el investigador número 1
+Eventpartir_perguntar.button2,Sólo otro investigador
+Eventpartir_perguntar.button3,Varios investigadores
+EventFINAL_vilaovence.text,Al ver como el enemigo se marcha en el pequeño barco, sentís que todas vuestras esperanzas se desvanecen. \n\n Algunos os arrojáis al agua y nadáis en dirección al continente, pero con toda seguridad os ahogaréis. Otros permanecéis en la isla y sufrís el castigo de las horripilantes criaturas... \n\n La investigación ha fracasado. \n\n <i>«En verdad te digo que no saldrás de allí hasta que hayas pagado el último centavo». Mateo, 5:26. </i>
+EventFINAL_vilaovence.button1,Continuar
+EventFINAL_vencesozinho.text,Tomas la terrible decisión de dejar atrás a tus compañeros. Mientras el barco se aleja, puedes oír los gritos de terror y los sonidos producidos por la criatura. \n\n A partir de ese día, y durante mucho tiempo, te preguntarás si Víctor Lobbos seguirá vivo en ese peñasco... \n\n La investigación ha terminado. \n
+EventFINAL_vencesozinho.button1,Continuar
+EventFINAL_entregar.text,Vuestro compañero lucha, pero conseguís dominarlo y lanzarlo al mar. Las largas uñas de la criatura le agarran por las piernas y le arrastran a las profundidades. \n\n Los daños causados en la pequeña embarcación hacen que ésta naufrague a los pocos minutos. Sin embargo, conseguís acercaros lo suficiente a la orilla para nadar y poneros a salvo.
+EventFINAL_entregar.button1,Continuar
+EventFINAL_perfeito.text,Os libráis del espíritu de Mónica Lobbos. \n\n Los daños causados en la pequeña embarcación hacen que naufrague a los pocos minutos. A pesar de ello conseguís acercaros a la costa lo suficiente como para alcanzarla a nado. \n\n A pesar de vuestra victoria sabéis que pasaréis toda la vida preguntándoos si Víctor Lobbos seguirá aún con vida en ese islote... \n\n ¡Felicidades, la investigación ha sido un éxito!
+EventFINAL_perfeito.button1,Continuar
+EventFINAL_despedacado.text,El furioso espíritu usa sus largas uñas para despedazar rápidamente el caso del barco. Mientras naufragáis, notáis como sus dedos se cierran alrededor de vuestras gargantas, arrastrándoos hacia las profundidades.
+EventFINAL_despedacado.button1,Continuar
+Eventcaldeira_revelar3.text,Un compartimento lleno de carbón que quizá esconda algo de utilidad. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Eventcaldeira_revelar3.button1,Continuar
+Tokendinamite.text,Parece que hay algo escondido al lado del compartimento para el carbón.
+Tokendinamite.button1,{action} Buscar
+Eventdinamite.text,¡Encuentras un explosivo! \n <i>¿Pero qué hace esto tan cerca de un fuego?</i> \n Quizá lo hayan usado para excavar los túneles en la roca. \n\n Ganas el Objeto común <i>Dinamita.</i> A continuación, descarta esta ficha de Búsqueda.
+Eventdinamite.button1,Continuar
+EventRevelar_tudo5.button2,Continuar
+Eventmaniaco_sobreviver.text,¡Debes sobrevivir!
+Eventmaniaco_sobreviver.button1,Continuar
+Eventtatea_apssagem_passou2.button1,Continuar
+Eventtatea_apssagem_passou2.text,Además de eso, encuentras en un rincón de la celda un objeto que habías pasado por alto. Parece una bolsa de tela húmeda, y a medida que la manipulas te das cuenta de que son... ¡partes humanas! Es un cadáver, o tal vez partes de cuerpos descuartizados. \n\n Sufres 2 de Horror boca abajo (anulados por {will}). \n\n A continuación, coloca el Objeto común <i>{c:QItembonecoconvincente}</i> en el lugar señalado.
+Eventpodemconversar.text,Ahora, a salvo, los investigadores deciden conversar. \n\n Podéis compartir las informaciones que recibisteis al inicio del escenario.
+Eventpodemconversar.button1,Continuar
+Eventmito3_c2.text,Ganas el Objeto único <i>{c:QItemCorda}</i> boca abajo.
+Eventmito3_c2.button1,Continuar
+Eventprologo_escolha.text,Elige el modo en el que quieres jugar a este escenario: \n\n Elige el <b>modo normal</b> si vas a jugar solo o si un mismo jugador va a jugar con más de un investigador. En este modo, la historia será totalmente cooperativa. \n\n Elige el <b>modo intenso</b> si hay 4 o 5 jugadores, cada uno de ellos controlando a un único investigador. En este modo, cada investigador recibirá información exclusiva para ella/él y no todos los jugadores estarán en el mismo bando.
+Eventprologo_escolha.button1,Modo normal
+Eventprologo_escolha.button2,Modo intenso (recomendado)
+Eventprologo_tradicional.text,¿Estás seguro de que quieres jugar en modo normal?
+Eventprologo_tradicional.button1,Sí
+Eventprologo_tradicional.button2,Volver atrás
+Eventprologo_intenso.text,¿Estás seguro de que quieres jugar en modo intenso? \n\n (Es necesario que haya 4 o 5 jugadores).
+Eventprologo_intenso.button1,Sí
+Eventprologo_intenso.button2,Volver atrás
+Eventrevelar_hall5.button2,Continuar
+Eventrevelar_estar_4.button2,Continuar
+Event11.text,Tal vez sería interesante examinar la estatua.\n\n Coloca una ficha de Búsqueda en el lugar señalado.
+Event11.button1,Continuar
+Tokenestatua_semtraidor.text,Han dejado una carta a los pies de la escultura.
+Tokenestatua_semtraidor.button1,{action} Leer
+Eventlercarta.text,«<i>Madre. Los tengo. Uno de ellos es tu asesino, y descubriré quién es. Es culpable por haber encontrado este sitio, nuestro laboratorio y a nuestros conejillos de indias... ¡No estaba aquí para protegerte, madre! Sé que intentaste proteger el trabajo de tu vida...</i>». \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+Eventlercarta.button1,Continuar
+Eventfantasma.text,Un frío inconmensurable invade la estancia.
+Eventfantasma.button1,Continuar
+Spawnapario.button2,Continuar
+Eventfantasma_comtraidor.text,El Alma en pena abre su descarnada mandíbula de par en par y comienza a gritar sin parar: \n\n —<i>¡Asesino! ¡Asesino! ¡Asesino!</i> \n\n El jugador número 3 adquiere el estado <i>Retenido</i> y descarta un Objeto de su elección.
+Eventfantasma_comtraidor.button1,Continuar
+Eventfantasma_semtraidor.text,El Alma en pena abre su descarnada mandíbula de par en par y comienza a gritar sin parar: \n\n —<i>¡Asesino! ¡Asesino! ¡Asesino!</i> \n\n {rnd:hero} adquiere el estado <i>Retenido</i> y descarta un Objeto de su elección.
+Eventfantasma_semtraidor.button1,Continuar
+Eventaparicaomorta.text,El Alma en pena grita de forma ensordecedora. Todos los investigadores dentro de su alcance adquieren el estado <i>Desconcertado.</i>
+Eventaparicaomorta.button1,Continuar
+Eventaparicaomorta.button2,Continuar
+Eventperdido_comtraidor.button1,Continuar
+Eventperdido_semtraidor.text,El suelo se quiebra bajo los pies de la aparición, arrastrándola de vuelta al inframundo. Antes de desaparecer, sin embargo, agarra los pies de su asesino y se lo lleva con él. \n\n{c:Eventfantasma_semtraidor} realiza una prueba de ({strength}; 2). Si la tirada tiene éxito, consigue zafarse del alma en pena. Si la tirada falla, el deseo de venganza del espíritu es demasiado fuerte y eres arrastrado al inframundo; adquieres el estado <i>Perdido en el tiempo y el espacio.</i>
+Eventperdido_comtraidor.text,El suelo se quiebra bajo los pies de la aparición, arrastrándola de vuelta al inframundo. Antes de desaparecer, sin embargo, agarra los pies de su asesino y se lo lleva con él. \n\n El jugador número 3 realiza una prueba de ({strength}; 2). Si la tirada tiene éxito, consigue zafarse del alma en pena. Si la tirada falla, el deseo de venganza del espíritu es demasiado fuerte y eres arrastrado al inframundo; adquieres el estado <i>Perdido en el tiempo y el espacio.</i>
+Eventperdido_semtraidor.button1,Continuar
+Eventbarco_partir.button3,Deseo salir
+Eventpartir_semtraidor.text,Ponéis en marcha el motor y os alejáis de la isla maldita. Descarta todos los módulos de tablero y fichas, a excepción del módulo {c:Tilebarcocasa}.
+Eventpartir_semtraidor.button1,Botão1
+Eventmito_principal.button17,Botão17
+Eventmito30.text,La estructura de la vieja casa tiembla cuando Víctor se mueve por ella. \n
+Eventmito30.button1,Continuar
+Eventmito_principal.button18,Botão18
+Eventmito31.text,El cableado de la casa sufre un cortocircuito, provocando chispas que caen sobre la moqueta. \n\n Coloca fuego en el lugar señalado.
+Eventmito31.button1,Continuar
+Eventmito_31_b.text,La casa no parece que vaya a aguantar mucho más.
+Eventmito_31_b.button1,Continuar
+Eventmito_principal.button19,Botão19
+Eventmito32.text,El rostro deforme de Víctor emerge en medio de la masa de carne. \n\n —<i>Vais a pagar... ¡Hasta el último... centavo!</i>
+Eventmito32.button1,Continuar
+Eventmito_principal.button20,Botão20
+Eventmito33.text,Las columnas comienzan a derrumbarse alrededor de {rnd:hero}, que consigue retrasar primero y luego despistar al enemigo gracias a los escombros ({agility}; 2). Si la tirada tiene éxito, coloca una ficha de <i>Contención</i> en un espacio dentro de tu alcance. \n
+Eventmito33.button1,Continuar
+Eventmito_33b.text,¡Os horrorizáis ante lo que veis! Parece ser una de las abominaciones creadas por la doctora Mónica Lobbos. \n\n Aparece un Subyugado en el lugar señalado.
+Eventmito_33b.button1,Continuar
+Eventmito_principal.button21,Botão21
+Eventmito34.text,¡Debéis escapar de este lugar!
+Eventmito34.button1,Continuar
+EventFINAL_eliminado.text,A pesar de los intentos por escapar de este terrible islote, tienes la sensación de que tu final ha llegado. La ira de la familia Lobbos cae sobre ti, eliminando cualquier atisbo de esperanza. \n\n La investigación ha fracasado. \n\n <i>«En verdad te digo que no saldrás de allí hasta que hayas pagado el último centavo». Mateo, 5:26. </i>
+EventFINAL_eliminado.button1,Continuar

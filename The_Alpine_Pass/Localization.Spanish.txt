@@ -1,0 +1,1186 @@
+.,Spanish
+quest.name,El Paso de los Alpes v1.3
+quest.description,Una ruta de tren aislada, a gran altitud, cruzando los Alpes a bordo del Alpine Express. \n Si quieren llegar a salvo a su destino, los pasajeros deberán unirse y cooperar. \n\n Este escenario presenta momentos de combate, interacción con personajes, monstruos únicos, banda sonora exclusiva y eventos de los mitos personalizados. \n\n Número de investigadores recomendado: 4
+EventStart3.button1,Continuar
+EventStart1.text,El fuerte viento azota el tren. \n {rnd:hero} interrumpe súbitamente su lectura al observar como un hombre de aspecto andrajoso corre de un lado al otro del vagón. \n\n Has estado relajándote de vacaciones por Europa con el fin de aliviar el estrés que te causan ciertos... asuntos en Estados Unidos. Esperas poder mantener esa tranquilidad hasta el final. \n\n Coloca el módulo {c:Tile9}, una ficha de Exploración y la miniatura de {rnd:hero} en los lugares señalados.
+EventStart4.text,En otro de los vagones, algunos pasajeros se despiertan levemente alterados. \n Dos personas estaban discutiendo. \n\n Coloca el módulo {c:Tile0}, una ficha de Puerta, tres fichas de Exploración y la ficha de Personaje en los lugares señalados. \n A continuación, coloca las miniaturas de los investigadores restantes en este módulo, en cualquiera de sus espacios. \n\n Todos los investigadores ganan 2 Pistas {clue}.
+EventStart1.button1,Continuar
+EventStart1a.text,El hombre que viste pasar a toda prisa habla agitadamente con el revisor que vigila la entrada a las cabinas de primera clase. Su acento es americano. Después de mostrarle lo que parece un billete de tren, desaparece por el exclusivo y lujoso vagón. \n Había algo extraño e inquietante en él, por lo que decides poner fin a tu mundana lectura, al menos por ahora.
+EventStart1a.button1,Continuar
+EventStart2.text,Hay otros dos pasajeros más en este vagón que te observan ocasionalmente. \n Coloca las fichas de Personaje en los lugares señalados. \n\n Un cigarrillo se consume en un cenicero de una de las mesas junto a una cajetilla. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventStart2.button1,Continuar
+EventStart3.text,En otra parte del tren, un polizón se apoya en la barandilla del vagón de cola. \n\n Observas la belleza y la magnitud de las montañas que os rodean. \n El famoso «Alpine Express» es conocido por su longitud y por no tener estaciones intermedias. Permite a sus pasajeros viajar distancias excepcionales en poco tiempo. Perfecto para tus propósitos. \n\n Coloca el módulo {c:Tile1}, una ficha de Exploración y la miniatura del investigador 3 en el lugar señalado. \n\n Hay una especie de colgante atado en la barandilla. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventStart4.button1,Inicio
+TokenCarbooseExplore1.text,La puerta conduce de regreso al interior del tren. \n Saliste hace un rato para respirar aire fresco y comprobar la distancia que dejabas atrás.
+TokenCarbooseExplore1.button1,{action} Abrir la puerta
+EventCarbooseExplore1a.text,Mueve los módulos Furgón de cola y Dormitorios de la tripulación al lugar señalado.
+EventCarbooseExplore1a.button1,Continuar
+TokenCarboose1.button1,{action} Coger el amuleto
+EventCarboose1a.text,Es un recuerdo de tu infancia. Llevas este objeto contigo a todas partes. Siempre te ha traído buena suerte y te protege de aquellos que quieren hacerte daño. \n\n Ganas el objeto común Pata de conejo. \n A continuación, descarta esta ficha de Búsqueda.
+TokenCarboose1.text,Un colgante está atado a la barandilla. Parece ser algún tipo de amuleto de buena suerte.
+EventCarboose1a.button1,Continuar
+EventCarbooseExplore1b.button1,Continuar
+TokenCarboose1a.text,Un colgante está atado a la barandilla. Parece ser algún tipo de amuleto de buena suerte.
+EventCarbooseExplore1b.text,Mueve el módulo Furgón de cola y la ficha de Búsqueda al lugar señalado.
+TokenCarboose1a.button1,{action} Coger el amuleto
+EventCarboose1b.text,Parece algún tipo de recuerdo de infancia. Alguien lo ató a la barandilla. \n Se cree que estos objetos traen buena suerte y protegen a sus propietarios. \n\n Ganas el Objeto común Pata de conejo. \n A continuación, descarta esta ficha de Búsqueda.
+EventCarboose1b.button1,Continuar
+TokenBedroomExplore1.button1,{action} Abrir la puerta
+TokenBedroomExplore1.text,Esta puerta conduce al final del tren. Crees que hay una sala de almacenamiento y luego el vagón de cola. La puerta está entreabierta. Alguien debió dejarla abierta durante la noche.
+EventBedroomExplore1a.text,Mueve el módulo Furgón de cola y la ficha de Búsqueda al lugar señalado.
+EventBedroomExplore1a.button1,Continuar
+EventBedroomExplore1b.text,Mueve el módulo Furgón de cola y la ficha de Búsqueda al lugar señalado.
+EventBedroomExplore1b.button1,Continuar
+TokenLoungeExplore1.text,La puerta conduce hacia el final del tren. El siguiente vagón son los dormitorios.
+TokenLoungeExplore1.button1,{action} Abrir la puerta
+EventLoungeExplore1a.text,Mueve el módulo Coche salón al lugar señalado. \n A continuación, coloca la ficha del Personaje Azul y una ficha de Exploración en los lugares señalados.
+EventLoungeExplore1a.button1,Continuar
+TokenBedroomExplore2.text,Esta puerta conduce a la parte delantera del tren. En el siguiente vagón hay un salón para la clase turista.
+TokenBedroomExplore2.button1,{action} Abrir la puerta
+EventBedroomExplore2a.button1,Continuar
+EventBedroomExplore2b.text,Mueve el módulo Coche salón al lugar señalado. \n A continuación, coloca la ficha del Personaje Azul y una ficha de Exploración en los lugares señalados.
+TokenLoungeCar1.button1,{action} Coger la cajetilla
+EventLoungeCar1a.text,Ganas el objeto común Pitillera de la suerte. \n A continuación, descarta esta ficha de Búsqueda.
+TokenLoungeCar1.text,Un cigarrillo aparentemente abandonado arde junto a una cajetilla metálica abierta.
+EventLoungeCar1a.button1,Continuar
+EventLoungeExplore1b.text,Mueve el módulo Coche salón al lugar señalado. \n A continuación, coloca la ficha del Personaje Azul y una ficha de Exploración en los lugares señalados.
+EventLoungeExplore1b.button1,Continuar
+TokenLoungeCar1a.button1,{action} Coger la cajetilla
+TokenLoungeCar1a.text,Un cigarrillo aparentemente abandonado arde junto a una cajetilla metálica abierta.
+EventBedroomExplore2a.text,Mueve el módulo Coche salón al lugar señalado. \n A continuación, coloca la ficha del Personaje Azul y una ficha de Exploración en los lugares señalados.
+EventBedroomExplore2b.button1,Continuar
+Event1Space.text,Tienes la oportunidad de moverte 1 espacio hacia la zona explorada.
+Event1Space.button1,Continuar
+EventLoungeExplore2a.button1,{action} Intentar persuadir al revisor
+EventLoungeExplore2a.text,Esta puerta conduce a las exclusivas cabinas de primera clase. Un corpulento y aparentemente aburrido revisor se interpone entre la puerta y tú. \n\n —<i>Su billete, por favor</i> —te dice con acento extranjero, extendiendo la mano..
+EventLoungeExplore2b.text,Esta puerta conduce a las exclusivas cabinas de primera clase. Un corpulento y aparentemente aburrido revisor se interpone entre la puerta y tú. \n\n —<i>Su billete, por favor</i> —te dice con acento extranjero, extendiendo la mano..
+TokenLoungeExplore2a.button1,Button1
+EventLoungeExplore2b.button1,{action} Darle el billete
+EventLoungeExplore2b.button2,{action} Intentar persuadir al revisor
+EventLoungeExplore2a.button2,Cancelar
+EventLoungeExplore2c.text,Disimulas agarrando frenéticamente tus bolsillos, fingiendo preocuparte por haber extraviado tu billete. El revisor bosteza mientras te alejas de la puerta.
+EventLoungeExplore2c.button1,Continuar
+TokenBedroomExplore3.text,Una puerta estrecha revela una empinada escalerilla que lleva al segundo piso. A juzgar por la fina mano de obra de los marcos de madera, deduces que conduce a los vagones de primera clase. \n Una fría brisa se desliza por las escaleras y te pone la piel de gallina.
+TokenBedroomExplore3.button1,{action} Subir por la escalera
+EventBedroomExplore3a.text,Coloca el módulo {c:Tile7}, una ficha de Puerta y tres fichas de Exploración en los lugares indicados. A continuación, descarta esta ficha de Exploración.
+EventBedroomExplore3a.button1,Continuar
+EventLoungeExplore2d.text,Intentas persuadir al revisor contándole historias sobre tu excelsa riqueza y tu vida de lujo ({influence}).
+EventLoungeExplore2d.button1,Confirmar
+EventLoungeExplore2d.button2,Fallo
+EventLoungeExplore2e.text,El revisor no parece estar impresionado con tanta palabrería. A mitad de tu monólogo, te das cuenta de que perdió completamente el interés y comenzó a ayudar a otros pasajeros a entrar en el cabinas de primera clase. Sin embargo, en el momento en que intentas moverte hacia la puerta, vuelve a bloquearte el camino. \n\n Te alejas cabizbajo. \n\n Sufres 1 de Horror boca abajo.
+EventLoungeExplore2e.button1,Continuar
+EventLoungeExplore2f.text,Consigues encandilar al revisor con tu charlatanería sobre la Rivera Francesa. No ha resultado fácil pero finalmente logras ganarte su confianza y le convences para que te deje pasar. \n\n Coloca el módulo {c:Tile5} en el lugar señalado. \n\n A continuación, mueve a tu investigador 1 espacio hacia el siguiente módulo y descarta la ficha de Exploración.
+EventLoungeExplore2f.button1,Continuar
+EventBedroomExplore3b.text,A diferencia de los dormitorios para turistas, esta cabina tiene compartimentos privados para las habitaciones y cuenta con varios muebles lujosos y una alfombra impresionante. \n Vuelves a notar la misma brisa de aire frío que antes. Curiosamente, compruebas que no proviene de una ventana abierta si no que parece originarse en las habitaciones privadas ubicadas a tu izquierda.
+EventBedroomExplore3b.button1,Continuar
+EventBedroomExplore3c.text,Al inspeccionar la salida, un libro abierto llama tu atención. Es viejo y sus páginas están amarillentas. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventBedroomExplore3c.button1,Continuar
+TokenSleeperCar1.text,Un viejo y desgastado libro de páginas amarillentas descansa abierto encima de una mesa. En cuanto te aproximas a él, jurarías oír voces y susurros a tu alrededor. Sin embargo, un vistazo rápido por encima de tu hombro revela que estás completamente solo en este rincón de la cabina.
+TokenSleeperCar1.button1,{action} Examinar el libro
+EventSleeperCar1a.text,Te dispones a coger el libro y, al tocarlo, tu cabeza empieza a dar vueltas mientras los colores de la habitación se funden en uno. La oscuridad se apodera de ti lo que parece una eternidad. Cuando regresas a la realidad, te encuentras babeando en una esquina de la cabina, sin saber cómo has llegado hasta ahí. No ha sido una experiencia agradable, pero el conocimiento arcano que has adquirido permanecerá contigo para siempre. \n\n Ganas el siguiente hechizo. \n A continuación, descarta esta ficha de Búsqueda.
+EventSleeperCar1a.button1,Continuar
+TokenSleeperCarExplore1.text,Esta puerta conduce al dormitorio privado de uno de los prestigiosos pasajeros. A esta hora, es probable que la habitación pueda estar ocupada, por lo que meditas si es realmente necesario irrumpir en una habitación ajena, incluso en el caso de que supieras con firmeza que está vacía.
+TokenSleeperCarExplore1.button1,{action} Abrir la puerta
+EventSleeperCarExplore1a.text,Lentamente, empujas la puerta para abrirla. El breve chirrido de las bisagras te hace contener la respiración. Afortunadamente, la habitación está vacía. Un libro grande titulado <i>«Anatomía»</i> descansa encima de la cama. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n A continuación, descarta está ficha de Exploración.
+EventSleeperCarExplore1a.button1,Continuar
+TokenSleeperCarExplore2.text,Esta puerta conduce al dormitorio privado de uno de los prestigiosos pasajeros. Cuando alcanzas el pomo de la puerta un escalofrío recorre tu columna vertebral.
+TokenSleeperCarExplore2.button1,{action} Examinar la puerta
+TokenSleeperCar2.text,Un grueso y aparentemente pesado libro titulado <i>«Anatomía»</i> descansa sobre la cama.
+TokenSleeperCar2.button1,{action} Coger el libro
+EventSleepercar2a.text,Ganas el objeto común Manual de medicina. \n A continuación, descarta esta ficha de Búsqueda.
+EventSleepercar2a.button1,Continuar
+EventSleeperCarExplore2a.text,Contra tu voluntad, una fuerza invisible te obliga a abrir la puerta. Una ráfaga de aire helado sale del interior de la pequeña estancia, pasa por tu lado y se disipa por toda la cabina. De repente, la cama plegable se cierra en su posición original dejando al descubierto lo que parece ser una especie de ritual demoníaco. \n\n Descarta esta ficha de Exploración.
+EventSleeperCarExplore2a.button1,Continuar
+EventSleeperCarExplore2b.text,Con una espesa y pegajosa pintura de color rojo alguien ha dibujado símbolos de otras lenguas en el suelo y las paredes. Destacan algunas formas de extraños círculos iridiscentes. Aunque aparentemente inocuos, los círculos crean una sensación de naturaleza maligna. En un lugar en concreto de esta habitación hay escritas algunas palabras en tu idioma.
+EventSleeperCarExplore2b.button1,Continuar
+EventSleeperCarExplore2c.text,Las palabras citan: \n\n <i>«LA PUERTA. LA LLAVE. EL GUARDIÁN»</i>. \n\n Al apartar la vista de las escrituras, ves en el suelo un billete de tren. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventSleeperCarExplore2c.button1,Continuar
+TokenSleeperCar3.text,En el suelo hay un billete de tren.
+TokenSleeperCar3.button1,{action} Coger el billete de tren
+EventSleepercar3a.text,Ganas el objeto único Billete de viaje. A continuación, descarta esta ficha de Búsqueda. \n\n Para tu sorpresa, te das cuenta de que este billete es sólo de ida. \n\n En la distancia, crees escuchar un búho ulular, aunque rápidamente razonas su improbabilidad, dada la ubicación actual del tren.
+EventSleepercar3a.button1,Continuar
+EventMythos1.button1,Button1
+EventMythos1a.text,{rnd:hero} desconfía de las intenciones de los demás pasajeros. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos1a.button1,Continuar
+EventMythos1b.text,Las fuerzas oscuras intentan persuadir a los investigadores y los tientan con promesas de poder incalculable. Todos los investigadores sufren 2 Horror boca abajo (anulados por {influence}). \n\n Por cada Pista {clue} gastada anteriormente, un investigador puede añadir un dado adicional a su tirada, según decida el investigador que ha realizado la última acción en esta ronda.
+EventMythos1b.button1,Continuar
+EventMythos2a.text,{rnd:hero} desconfía de las intenciones de los demás pasajeros. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos2a.button1,Continuar
+EventMythos2b.text,Por el rabillo del ojo, {c:EventMythos2a} nota que el vagón parece estar astillándose. {c:EventMythos2a} se da cuenta de que es tan solo un truco de luz, pero sin embargo, la experiencia le impacta. {c:EventMythos2a} sufre 3 de Horror boca abajo y luego pone 1 Horror boca arriba (anulados por {observation}). \n\n Por cada Pista {clue} gastada anteriormente, el investigador que realiza la tirada obtiene un éxito automático.
+EventMythos2b.button1,Continuar
+EventMythos3a.text,{rnd:hero} presiente que la fortaleza será de gran importancia. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos3a.button1,Continuar
+EventMythos3b.text,El tren se balancea violentamente sobre las vías ({agility} o {strength}; 3). Si superas la tirada, te agarras a un pasamanos para evita una aparatosa caída. Si fallas la tirada, una pieza del equipaje cae y te golpea en la sien. Sufres 2 de Daño boca abajo o sueltas 1 Objeto aleatorio. \n\n Por cada Pista {clue} gastada anteriormente, un investigador puede añadir un dado adicional a su tirada, según decida el investigador que ha realizado la primera acción en esta ronda.
+EventMythos3b.button1,Continuar
+quest.authors,\n\n Creado por: \n Gwanish \n\n Traducción al español:\n Neox08 \n Revisión: Vidimus \n\n
+EventMythos4a.button1,Continuar
+EventMythos4b.text,El tren frena bruscamente y, al no estar agarrado, uno de los pasajeros es lanzado violentamente contra {c:EventMythos4a}, ({agility}; 2). Si superas la tirada, esquivas hábilmente al pasajero y no sufres ningún daño. Si fallas la tirada, el pasajero te golpea de lleno en el estómago. \n Sufres 2 de Daño boca abajo. \n\n Por cada Pista {clue} gastada anteriormente puedes anular 1 de Daño.
+EventMythos4a.text,{rnd:hero} advierte que mantenerse firme y bien sujeto será importante. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos4b.button1,Continuar
+EventMythos5a.text,{rnd:hero} presiente que la fuerza y la constitución serás útiles en el futuro. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos5a.button1,Continuar
+EventMythos5b.text,Inesperadamente, el contenido de una de los compartimentos superiores de equipaje se abre y cae encima de {c:EventMythos5a} ({fuerza}; 3). Si superas la tirada, logras sujetar con fuerza el equipaje antes de que te golpee. Si fallas la tirada, parte del equipaje te golpea en la cara. Sufres 2 de Daño boca abajo. \n\n Por cada Pista {clue} gastada anteriormente, {c:EventMythos5a} puede lanzar un dado adicional en esta prueba.
+EventMythos5b.button1,Continuar
+EventMythos6a.button1,Continuar
+EventMythos7a.button1,Continuar
+EventMythos6a.text,{rnd:hero} siente que el conocimiento acerca de los horrores que acechan el mundo será de gran ayuda. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+EventMythos7a.text,{rnd:hero} presiente que uno debe mostrar determinación en sus actos en aquellos momentos en los que la noche es más oscura. \n\n Como grupo, los investigadores pueden gastar cualquier número de Pistas {clue} para influir en este evento de los Mitos. Deben anunciar en este momento cuántas pistas gastarán antes de conocer el evento.
+TokenSleeperCarExplore3.button1,Continuar
+TokenSleeperCarInteract1.button1,{action} Bajar
+EventBedroomExplore3d.text,En la esquina de la habitación hay una puerta con una pequeña ventanita marcada como <i>«Salida de emergencia»</i>. Al mirar a través de ella, ves una escalerilla que podrías utilizar para intentar descender hasta el furgón de cola, aunque no será fácil. \n\n Descarta esta ficha de Exploración. \n A continuación, coloca una ficha de Interacción en su lugar.
+EventSleeperCarInteract1a.text,Empiezas a descender hacia la parte trasera del furgón de cola. Por un momento, tu pie resbala peligrosamente sobre la precaria y húmeda escalerilla. Debajo de ti hay un abismo enorme. Tu corazón se encoge como nunca y tu vida pasa como un relámpago ante tus ojos. \n\n Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Finalmente, consigues agarrarte con firmeza y trepar seguro hasta al balcón del vagón de cola. \n\n Mueve a tu investigador al lugar señalado.
+EventSleeperCarInteract1a.button1,Continuar
+EventSleeperCarInteract1b.text,Empiezas a descender hacia la parte trasera del furgón de cola. Por un momento, tu pie resbala peligrosamente sobre la precaria y húmeda escalerilla. Debajo de ti hay un abismo enorme. Tu corazón se encoge como nunca y tu vida pasa como un relámpago ante tus ojos. \n\n Sufres 1 de Horror boca abajo (anulado por {will}). \n\n Finalmente, consigues agarrarte con firmeza y trepar seguro hasta al balcón del vagón de cola. \n\n Mueve a tu investigador al lugar señalado.
+EventSleeperCarInteract1b.button1,Continuar
+TokenSleeperCarInteract1.text,Bajar hasta el furgón de cola no será fácil.
+EventBedroomExplore3d.button1,Continuar
+EventMythos6b.text,Este Evento de Mitos afecta al investigador con la puntuación más alta en {lore}. \n\n Gracias al conocimiento que has adquirido sobre las fuerzas oscuras que se ocultan en el mundo, luchas por mantener el control de la situación ({lore}; 3). Si superas la tirada, resistes los impulsos más oscuros. Si fallas la tirada, sufres 2 de Horror boca abajo. \n\n Por cada Pista {clue} gastada anteriormente, puedes lanzar un dado adicional en esta prueba.
+EventMythos6b.button1,Continuar
+EventMythos7b.text,Este Evento de Mitos afecta al investigador con la puntuación más baja en {will}. \n\n Las acontecimientos que se van sucediendo en el tren están degenerando exponencialmente. El pánico invade tu corazón. Respiras profundamente y decides calmarte para mantener el control ({will}; 3). Si fallas la tirada, sufres 1 Horror boca abajo y adquieres el estado Aturdido. \n\n Por cada Pista {clue} gastada anteriormente, puedes lanzar un dado adicional en esta prueba.
+EventMythos7b.button1,Continuar
+EventMythos8.text,El rítmico traqueteo del tren a través de las vías se ve ocasionalmente ahogado por el parloteo de los pasajeros. \n\n No hay ningún efecto inmediato.
+EventMythos8.button1,Continuar
+EventPassengerExplore1.text,Este vagón está lujosamente amueblado. \n Está anocheciendo, por lo que hay pocos pasajeros en este tramo del tren. Un tocadiscos en una esquina emite una melodía un tanto lúgubre y siniestra, cargada de notas disonantes que salta de vez en cuando con el traqueteo del tren. Un apuesto hombre con traje elegante se encuentra en el extremo opuesto de la cabina, inspeccionando atentamente la entrada al vagón de primera clase. \n\n Coloca una ficha de Búsqueda, una ficha de Personaje y la miniatura de un Sicario en los lugares señalados.
+EventPassengerExplore1.button1,Continuar
+EventLoungeExplore2b.button3,Cancelar
+EventLoungeExplore3.text,Con una mueca de orgullo, le entregas el billete de primera clase al revisor y éste te acompaña amablemente a la siguiente cabina. \n\n Descarta el objeto único Billete de viaje. \n A continuación, coloca el módulo {c:Tile5} en el lugar señalado, mueve a tu investigador 1 espacio hacia el siguiente módulo y descarta esta ficha de Exploración.
+EventLoungeExplore3.button1,Continuar
+EventPassengerExplore2.text,Este vagón está lujosamente amueblado. \n Está anocheciendo, por lo que hay pocos pasajeros en este tramo del tren. Un tocadiscos en una esquina emite una melodía un tanto lúgubre y siniestra, cargada de notas disonantes que salta de vez en cuando con el traqueteo del tren. Un apuesto hombre con traje elegante se encuentra en el extremo opuesto de la cabina, inspeccionando atentamente la entrada al vagón de primera clase. \n\n Coloca una ficha de Búsqueda, una ficha de Personaje y la miniatura de un Sicario en los lugares señalados.
+EventPassengerExplore2.button1,Continuar
+TokenCrewBedroom1.text,En el suelo hay una larga cuerda enrollada.
+TokenCrewBedroom1.button1,{action} Coger la cuerda
+EventCrewBedroom1a.text,Ganas el objeto único Soga. \n A continuación, descarta esta ficha de Búsqueda.
+EventCrewBedroom1a.button1,Continuar
+EventBedroomExplore3e.text,Mientras subes por la escalera, te giras para inspeccionar de nuevo la cabina de los dormitorios. Tus ojos se han adaptado a la tenue iluminación y ahora puedes distinguir algunos objetos. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventBedroomExplore3e.button1,Continuar
+EventBedroomExplore1c.text,Después de abrir la puerta de la cabina, una red densamente tejida llama tu atención. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventBedroomExplore1c.button1,Continuar
+TokenCarboose2.text,Entre el equipaje hay una red muy bien elaborada.
+TokenCarboose2.button1,{action} Coger la red
+EventCarboose2a.text,Ganas el objeto único Red de pesca. \n A continuación, descarta esta ficha de Búsqueda.
+EventCarboose2a.button1,Continuar
+TokenWilliamsBurns1.button1,Button1
+EventWilliamBurns1a.text,¿Interactuó el Jugador 2 con esta miniatura?
+EventWilliamBurns1a.button1,Sí
+EventWilliamBurns1a.button2,No
+EventWilliamBurns1a.button3,Cancelar
+EventWilliamBurns1a1.text,Reconociste al hombre de inmediato. Es William Burns, conocido como <i>«El Sherlock Holmes de Estados Unidos»</i>. \n William era un importante político que decidió cambiar de aires y dedicarse a la investigación privada. Está observando atentamente la entrada.
+EventWilliamBurns1a1.button1,{action} Hablar con William
+EventWilliamBurns1b1.text,Un apuesto hombre de mediana edad está de espaldas a ti. Está estudiando atentamente la puerta que conecta con el siguiente vagón. Observando más detenidamente, identificas el mango un revólver en el interior de su chaqueta.
+EventWilliamBurns1b1.button1,{action} Hablar con el hombre
+EventWilliamBurns1b1.button2,Cancelar
+EventWilliamBurns1a1.button2,Cancelar
+EventWilliamBurns1a2.text,Sin volverse, William habla primero: \n\n —<i>Me fijé en usted cuando subí al tren en la estación de Stalden.</i>
+EventWilliamBurns1a2.button1,Continuar
+EventWilliamBurns1a3.text,—<i>Escuche, no hay tiempo para presentaciones. ¡Gracias a su torpeza, el enemigo está al tanto de nuestra búsqueda! Alguien ha bloqueado esta puerta con una barrera mágica</i>.
+EventWilliamBurns1a3.button1,Continuar
+EventWilliamBurns1a4.text,William concluye: \n\n —<i>Necesito que investigue por los vagones. Debería encontrar extrañas y misteriosas runas escritas en R'lyehiano. Debería usted tener algunos conocimientos básicos de cuando las estudió en la Universidad. Borre tantas como sea posible para poder desbloquear esta puerta y pasar a través de ella con seguridad. Podríamos abrirnos paso a la fuerza, pero probablemente sufriríamos... algunas bajas. ¡Apresúrese, piense como un conspirador y busque los lugares más probables!</i>
+EventWilliamBurns1a4.button1,Continuar
+EventWilliamBurns1c1.button1,Continuar
+EventWilliamBurns1c2.text,Coloca una ficha de Interacción en el lugar señalado.
+EventWilliamBurns1c2.button1,Continuar
+EventWilliamBurns1c3.text,Coloca una ficha de Interacción, una ficha de Búsqueda y una ficha de Personaje en los lugares señalados.
+EventWilliamBurns1c1.text,Coloca una ficha de Interacción y una ficha de Exploración en los lugares señalados.
+EventWilliamBurns1c3.button1,Continuar
+EventWilliamBurns1c4.text,Coloca una ficha de Interacción en el lugar señalado.
+EventWilliamBurns1c4.button1,Continuar
+EventWilliamBurns1c5.text,Coloca una ficha de Interacción en el lugar señalado.
+EventWilliamBurns1c5.button1,Continuar
+EventWilliamBurns1c6.button1,Button1
+EventWilliamBurns1b2.text,A medida que te acercas, el hombre comienza a hablar sin volverse hacia ti: \n\n —<i>Por cómo se comporta deduzco que no es un pasajero corriente. Creo que conoce suficientemente bien las fuerzas oscuras a las que nos enfrentamos. Si bien, también es cierto que tengo un extenso expediente sobre usted y sus amigos</i>.
+EventWilliamBurns1b2.button1,Continuar
+EventWilliamBurns1b3.text,El hombre continúa: \n\n —<i>Me temo que a estas horas, ya no hay tiempo para charlas mundanas. \n Sepa que, en estos momentos, soy de los pocos aliados que tiene en este tren</i>.
+EventWilliamBurns1b3.button1,Continuar
+EventWilliamBurns1b4.text,—<i>Mi nombre es William Burns. Si quiere sobrevivir a esta larga noche, debe ayudarme. Alguien ha bloqueado esta puerta con una barrera mágica invisible. No será fácil romper el sello, por lo que necesito que registre los vagones en busca de extrañas runas místicas ocultas en las paredes y borre tantas como sea posible.</i>
+EventWilliamBurns1b4.button1,Continuar
+EventWilliamBurns1c7.text,Los Investigadores, como grupo, deben obtener y gastar 9 Pistas {clue} para deshacer la barrera mágica que bloquea la puerta.
+EventWilliamBurns1c7.button1,Continuar
+EventWilliamBurns1c8.button1,Continuar
+EventWilliamBurns1c9.text,Los Investigadores, como grupo, deben obtener y gastar 15 Pistas {clue} para deshacer la barrera mágica que bloquea la puerta.
+EventWilliamBurns1c8.text,Los Investigadores, como grupo, deben obtener y gastar 12 Pistas {clue} para deshacer la barrera mágica que bloquea la puerta.
+EventWilliamBurns1c9.button1,Continuar
+EventWilliamBurns2a.text,William se vuelve hacia ti mientras te acercas a él. Su inquietud se ve reflejada en el sudor acumulado en su frente. Con cierta impaciencia te pregunta: \n\n —<i>¿Cómo va la búsqueda?" \n\n Los investigadores pueden en este momento gastar la cantidad total de Pistas {clue} requeridas para intentar romper la barrera mágica de la puerta y pasar a través de ella de forma segura.
+EventWilliamBurns2a.button1,{action} Gastar las Pistas {clue}
+EventWilliamBurns2a.button2,Cancelar
+TokenWardSearch5.text,Este vagón está bien iluminado. \n Algunos pasajeros se reparten por las cómodas y lujosas sillas. \n\n Un investigador puede intentar buscar directamente las runas ocultas (tirada a ciegas, no sabrás cuántos éxitos necesitarás) o bien {c:EventStart1} puede concentrarse para determinar la dificultad real de encontrar runas en este lugar (con esta opción sabrás la dificultad a superar en la tirada).
+TokenWardSearch5.button1,{action} Buscar las runas
+TokenWardSearch5.button2,{action} Concentrarse
+TokenWardSearch4.text,Este vagón está bien iluminado y lleno de actividad. \n Los pasajeros se mezclan y descansan en el bar. \n\n Un investigador puede intentar buscar directamente las runas ocultas (tirada a ciegas, no sabrás cuántos éxitos necesitarás) o bien {c:EventStart1} puede concentrarse para determinar la dificultad real de encontrar runas en este lugar (con esta opción sabrás la dificultad a superar en la tirada).
+TokenWardSearch4.button1,{action} Buscar las runas
+TokenWardSearch4.button2,{action} Concentrarse
+TokenWardSearch2.text,En este vagón hay muy poca luz, ya que es la cabina para dormir. \n Algunos pasajeros ya duermen. \n\n Un investigador puede intentar buscar directamente las runas ocultas (tirada a ciegas, no sabrás cuántos éxitos necesitarás) o bien {c:EventStart1} puede concentrarse para determinar la dificultad real de encontrar runas en este lugar (con esta opción sabrás la dificultad a superar en la tirada).
+TokenWardSearch2.button1,{action} Buscar las runas
+TokenWardSearch2.button2,{action} Concentrarse
+TokenWardSearch1.text,Este vagón está prácticamente a oscuras. No hay luz artificial y sólo la tenue luz de la luna se filtra a través de las ventanas enrejadas. La cabina sólo contiene varias piezas de equipaje. \n\n Un investigador puede intentar buscar directamente las runas ocultas (tirada a ciegas, no sabrás cuántos éxitos necesitarás) o bien {c:EventStart1} puede concentrarse para determinar la dificultad real de encontrar runas en este lugar (con esta opción sabrás la dificultad a superar en la tirada).
+TokenWardSearch1.button1,{action} Buscar las runas
+TokenWardSearch3.text,En este vagón hay muy poca luz, ya que es la cabina para dormir. \n\n Un investigador puede intentar buscar directamente las runas ocultas (tirada a ciegas, no sabrás cuántos éxitos necesitarás) o bien {c:EventStart1} puede concentrarse para determinar la dificultad real de encontrar runas en este lugar (con esa opción sabrás la dificultad a superar en la tirada).
+TokenWardSearch3.button1,{action} Buscar las runas
+TokenWardSearch1.button2,{action} Concentrarse
+TokenWardSearch3.button2,{action} Concentrarse
+EventWardSearch5a.text,{c:EventStart1} concentra sus poderes arcanos, sondeando las energías oscuras de esta habitación. {c:EventStart1} deduce que las runas están bien escondidas y que no será fácil encontrarlas (ahora sabrás la dificultad en la tirada cuando busques las runas)
+EventWardSearch5a.button1,Continuar
+EventWardSearchFail1.text,Por más que lo intentas, no consigues sacar conclusiones satisfactorias.
+EventWardSearch5b.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}; 4).
+EventWardSearch4b.button1,Éxito
+EventWardSearch5b.button1,Éxito
+EventWardSearch5c.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}).
+EventWardSearch5c.button1,Confirmar
+EventWardSearch5c.button2,Fallo
+EventWardSearchFail2.text,Por más que lo intentas, no eres capaz de localizar ninguna de esas runas.
+EventWardSearchFail2.button1,Continuar
+EventWardSearchSucess1.text,En los recovecos de algunos muebles distingues algunos extraños símbolos. Estas deben de ser las runas que buscas. Se han tallado en el mueble y emiten un tenue resplandor rojo. Usando tu navaja de bolsillo, desfiguras los símbolos y el brillo se desvanece. \n\n Ganas 1 Pista {clue}.
+EventWardSearchSucess1.button1,Continuar
+EventWardSearch4a.text,{c:EventStart1} concentra sus poderes arcanos, sondeando las energías oscuras de esta habitación. {c:EventStart1} deduce que las runas están bien escondidas y que no será fácil encontrarlas (ahora sabrás la dificultad en la tirada cuando busques las runas)
+EventWardSearch4a.button1,Continuar
+EventWardSearch4b.button2,Fallo
+EventWardSearchFail1.button1,Continuar
+EventWardSearch4c.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}).
+EventWardSearch4b.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}; 5).
+EventWardSearch4c.button1,Confirmar
+EventWardSearch4c.button2,Fallo
+EventWardSearch2a.text,{c:EventStart1} concentra sus poderes arcanos, sondeando las energías oscuras de esta habitación. {c:EventStart1} deduce que en este vagón las runas son fácilmente visibles (ahora sabrás la dificultad en la tirada cuando busques las runas)
+EventWardSearch2a.button1,Continuar
+EventWardSearch2b.button2,Fallo
+EventWardSearch2b.button1,Éxito
+EventWardSearch2c.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}).
+EventWardSearch2b.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}; 3).
+EventWardSearch2c.button1,Confirmar
+EventWardSearch2c.button2,Fallo
+EventWardSearch3a.text,{c:EventStart1} concentra sus poderes arcanos, sondeando las energías oscuras de esta habitación. La visión de {c:EventStart1} se inunda de poder de otro mundo. La sensación es abrumadora y {c:EventStart1} se tambalea hacia atrás. Este vagón contiene muchas runas, por lo que la dificultad para encontrarlas es muy baja. \n\n Sufres 1 de Horror boca abajo.
+EventWardSearch3a.button1,Continuar
+EventWardSearch3b.button2,Fallo
+EventWardSearch3b.text,Intentando no hacer ruido, buscas las runas ocultas ({observation} o {lore}; 2).
+EventWardSearch3b.button1,Éxito
+EventWardSearch3c.text,Intentando no hacer ruido, buscas las runas ocultas ({observation} o {lore}).
+EventWardSearch3c.button1,Confirmar
+EventWardSearch3c.button2,Fallo
+EventWardSearch1a.text,{c:EventStart1} concentra sus poderes arcanos, sondeando las energías oscuras de esta habitación. Hay una sensación de ruido estático que interfiere con las habilidades de {c:EventStart1} y, aunque deduce que no será difícil localizar las runas místicas, percibe inquietantes señales de oscuridad en esta zona del tren.
+EventWardSearch1a.button1,Continuar
+EventWardSearch1b.button2,Fallo
+EventWardSearch1b.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}; 2).
+EventWardSearch1b.button1,Éxito
+EventWardSearch1c.text,Intentando no llamar mucho la atención, buscas las runas ocultas ({observation} o {lore}).
+EventWardSearch1c.button1,Confirmar
+EventWardSearch1c.button2,Fallo
+EventWardSearchSuccess2.text,En un rincón entre el desordenado equipaje observas lo que parece un extraño símbolo distorsionado. Está tallado en la pared y emite un tenue brillo anaranjado. Hay algo en su diseño que te hace pensar. El trazo es rudimentario, como si lo hubiera hecho alguien con poca experiencia. \n\n ¿Borras el símbolo?
+EventWardSearchSuccess2.button1,Sí
+TokenPassengerCar1.text,Sobre una mesa hay varios objetos y juguetes para niños.
+TokenPassengerCar1.button1,{action} Buscar entre los objetos
+EventPassengerCar1a.text,Rebuscas un poco hasta que das con algo que te podría ser de utilidad. \n Ganas el objeto común Lupa. \n A continuación, descarta esta ficha de Búsqueda.
+EventPassengerCar1a.button1,Continuar
+TokenDiningCarExplore1.text,Esta puerta conduce al vagón doble del comedor, situado en la parte delantera del tren. Aunque esta puerta parece una puerta normal y corriente a la vista, los pelos de tu brazo se erizan cuando alcanzas el pomo. \n\n Los investigadores pueden ahora gastar la cantidad requerida de Pistas {clue} para deshacer la barrera mágica que bloqueada la puerta y pasar a través de ella con seguridad. \n\n Si no tienen las pistas necesarias, también podrían intentar abrir la puerta a la fuerza, asumiendo las consecuencias negativas que esto podría tener...
+TokenDiningCarExplore1.button1,{action} Intentar abrir la puerta
+EventDiningCarExplore1a1.text,Al aproximarte al pomo de la puerta, los pelos de tu brazo se erizan. Cuanto más te acercas, mayor es la carga estática que emana de la puerta. En el momento en que lo tocas, un escalofrío recorre todo tu cuerpo. Cierras los ojos para girar el pomo, apartas la mirada y empujas la puerta para abrirla.
+EventDiningCarExplore1a1.button1,Continuar
+EventDiningCarExplore1a2.text,Te encuentras deambulando desorientado por la cabina una cantidad de tiempo desconocido. Sale sangre de tu oído y varios objetos del vagón están esparcidos por el suelo. Te sientes confundido, una sensación similar a la que se tiene por la mañana después de haber consumido una gran cantidad de alcohol durante la noche. El zumbido que resuena en tus oídos es reemplazado gradualmente por los sonidos normales del tren. A juzgar por la mirada perdida y estupefacta de los demás pasajeros del vagón, deduces que todos ellos también sufrieron la misma experiencia. \n\n ¡Todos los investigadores situados en el módulo Vagón de Pasajeros 1 sufren 5 de Daño boca abajo!
+EventDiningCarExplore1a2.button1,Continuar
+EventDiningCarExplore1a3.text,Todo el marco de la puerta ha desaparecido. La moldura del marco presenta marcas de quemaduras y el olor a azufre flota en el aire. Al otro lado puedes ver la cabina del comedor de primera clase. Tiene el doble de tamaño que una cabina estándar. Incluso a estas horas tardías, la cabina está bien iluminada. Un hombre se encuentra en el extremo opuesto del vagón, temblando ligeramente. Aunque viste ropas elegantes tiene un aspecto perturbador. \n\n Coloca los módulos {c:Tile3} y {c:Tile4} y la ficha de Personaje en los lugares señalados. \n A continuación, descarta esta ficha de Exploración.
+EventDiningCarExplore1a3.button1,Continuar
+EventDiningCarExplore1a4.text,Descarta las fichas de Interacción de los otros módulos que estaban relacionadas con la búsqueda de las runas.
+EventDiningCarExplore1a4.button1,Continuar
+EventWilliamBurns2a1.text,Con un leve indicio de desconfianza, William empuja lentamente la puerta para abrirla. El bloqueo ha desaparecido. \n William tensa su cuerpo, como si se anticipara a una posible reacción adversa. En el último momento, la puerta se abre de golpe de forma antinatural para revelar las elegantes cabinas del lujoso comedor del tren.
+EventWilliamBurns2a1.button1,Continuar
+TokenDiningCarExplore1.button2,{action} Gastar las Pistas {clue}
+EventWilliamBurns2a2.text,El vagón comedor tiene el doble de tamaño que una cabina estándar. Incluso a estas horas tardías, la cabina está bien iluminada. Un hombre se encuentra en el extremo opuesto del vagón, temblando ligeramente. Aunque viste ropas elegantes da la impresión de estar algo perturbado debido a su temblor. \n\n Coloca los módulos {c:Tile3} y {c:Tile4} y la ficha de Personaje en los lugares señalados. \n A continuación, descarta esta ficha de Exploración.
+EventWilliamBurns2a2.button1,Continuar
+EventWilliamBurns2a3.text,Descarta las fichas de Interacción de los otros módulos que estaban relacionadas con la búsqueda de las runas.
+EventWilliamBurns2a3.button1,Continuar
+TokenCrewBedroom2.text,Un trozo de papel arrugado llama tu atención. Asoma ligeramente entre el colchón y el marco de la cama, cerca de la cabecera. Parece que aquí ha dormido alguien recientemente.
+TokenCrewBedroom2.button1,{action} Coger el papel
+EventCrewBedroom2a.text,Coges y despliegas el papel arrugado. Es una misiva, escrita a mano de manera extrañamente errática. La mayor parte de la escritura no tiene sentido. Algunos pasajes describen la importancia de la actividad lunar. Concluye con algunas palabras escritas en un idioma totalmente desconocido: \n\n <b>¡Fhtagn! Ebumna fhtagn! ¡Hafh'drn wgah'n'gha n'ghft!</b> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventCrewBedroom2a.button1,Continuar
+TokenGeorge1.button1,Button1
+EventGeorge1a1.text,Un anciano descansa en una de las cómodas sillas de la cabina de primera clase. Se despierta sobresaltado con el movimiento de un bache. \n Viste un magnífico abrigo morado y presenta un aspecto impecable. \n\n Parece estar animado y de buen humor.
+EventGeorge1a1.button1,{action} Hablar
+EventGeorge1a1.button2,{action} Sugerir que se mueva a otro vagón
+EventGeorge1a1.button3,{action} Animar
+EventGeorge1a1.button4,Cancelar
+EventGeorge1a2.text,Te presentas y conversáis un poco. Su nombre es George. Reside en Londres, donde ejerce como médico en el Hospital St. Thomas en un puesto de responsabilidad. \n Debido a su avanzada edad presenta un aspecto frágil. Con pulso tembloroso, se desabrocha uno de los botones de su abrigo. \n\n Ganas 1 Pista {clue}.
+EventGeorge1a2.button1,Continuar
+TokenDiningCar2a.text,En la encimera hay un cuchillo de grandes dimensiones.
+TokenDiningCar2a.button1,{action} Coger el cuchillo
+EventDiningCar2a1.text,Ganas el objeto común Cuchillo de carnicero. \n A continuación, descarta esta ficha de Búsqueda.
+EventDiningCar2a1.button1,Continuar
+EventJeanBardin1d4.button1,Continuar
+EventJeanBardin1d4.text,Jean Bardin te entrega algunas pastillas para dormir. \n\n Ganas el objeto común Sedante.
+EventDiningCar2b1.text,Ganas el objeto común Sedante. A continuación, descarta esta ficha de Búsqueda.
+EventDiningCar2b1.button1,Continuar
+TokenCultist3.button1,Button1
+EventCultist3a.button1,{action} Hablar
+EventCultist3a.button2,{action} Sugerir que se mueva a otro vagón
+EventCultist3a.button3,{action} Animar
+EventCultist3a.button4,Cancelar
+EventCultist3a.text,Un hombre de aspecto desaliñado y aparentemente nervioso está frente a ti en la cabina del amplio comedor. Aunque parece relativamente normal, su rostro se contrae mientras te acercas. Por su ropa dirías que es profesor universitario o un empresario. Murmurando entre dientes, retrocede ligeramente cuanto más te acercas.
+Puzzle0.button1,Hecho
+SpawnWarlock1.text,Te acercas al hombre para entablar conversación con él, pero al hacerlo te interrumpe el movimiento cuando levanta una mano en señal de que te detengas. Con la otra mano, del interior de su abrigo, saca lentamente una especie de daga de hoja curvada y grita: \n\n —<i>¡Es demasiado tarde! ¡Tan pronto como recupere la otra piedra de invocación, el ritual de Yog-Sothoth se habrá completado!</i> \n\n Aparece un Brujo en el lugar señalado. A continuación, descarta la ficha de Personaje.
+SpawnWarlock1.button1,Continuar
+SpawnSkeleton1.text,El hombre recita unas palabras en una lengua gutural y desconocida. En ese instante, el castañeteo de unos huesos cercanos llama tu atención. ¡Un Esqueleto está trepando por la parte trasera del tren! De la cavidad de las costillas y del interior del cráneo emergen unas brillantes llamas rojas. El fuego late y parpadea de forma errática e inestable. \n\n Aparece un Esqueleto en el lugar señalado.
+SpawnSkeleton1.button1,Continuar
+SpawnSkeleton2.text,Un sonido similar al anterior resuena desde la parte delantera del tren. \n Un segundo Esqueleto aparece arrastrándose por el suelo de la cabina. \n\n Aparece un Esqueleto en el lugar señalado.
+SpawnSkeleton2.button1,Continuar
+EventGeorge1b1.button1,Button1
+EventGeorge1b2.text,George parece estar de buen humor.
+EventGeorge1b2.button1,Continuar
+EventGeorge1b3.text,George parece estar de buen humor. Una sonrisa se dibuja en su cara.
+EventGeorge1b3.button1,Continuar
+EventGeorge1b4.text,George parece estar angustiado. Sus ojos se mueven nerviosamente de un lado a otro.
+EventGeorge1b4.button1,Continuar
+EventGeorge1b5.text,George parece aterrorizado. Sus ojos se mueven nerviosamente y se araña la cara con las manos.
+EventGeorge1b5.button1,Continuar
+EventGeorge1c1.button1,{action} Hablar
+EventGeorge1c1.button2,{action} Sugerir que se mueva a otro vagón
+EventGeorge1c1.button3,{action} Animar
+EventGeorge1c1.button4,Cancelar
+EventGeorge1c2.button1,Button1
+EventGeorge1c1.text,George deambula por la cabina y cada vez que el tren golpea un bache se sobresalta.
+EventGeorge1c3.text,George te explica que está de vacaciones para visitar a su hermana menor que pasó un tiempo al servicio del rey y la familia real. Su cargo le dio la oportunidad de viajar mucho más allá de las fronteras de Inglaterra. \n\n Ganas 1 Pista {clue}.
+EventGeorge1c3.button1,Continuar
+EventGeorge1c4.text,Mientras hablas con George tienes la impresión de que tiene una personalidad tímida y que es una persona a la que se podría convencer fácilmente. Cuenta varias historias sobre sus prácticas en el hospital de St. Thomas y de su ex supervisor. Al juzgar por cómo le cambia la expresión, este hombre parecía ejercer una gran influencia sobre las facultades mentales de George. Observas como tiembla levemente ante estos recuerdos y de las cosas que presenció en aquel hospital. \n\n Ganas 1 Pista {clue}.
+EventGeorge1c4.button1,Continuar
+EventGeorge1c5.text,George cambia de tema sobre sus historias en el hospital a su pasatiempo favorito: la astronomía. De hecho, George tiene la costumbre de mirar con nostalgia las estrellas. Concluye su conversación con la afirmación: \n\n —<i>Es notable cuánto impacta en nuestras vidas el simple movimiento de las estrellas. \n\n Ganas 1 Pista {clue}.
+EventGeorge1c5.button1,Continuar
+EventGeorge1c6.text,George no parece estar interesado en seguir hablando. \n\n Ganas 1 acción.
+EventGeorge1c6.button1,Continuar
+TokenGeorge2.button1,Button1
+TokenGeorge3.button1,Button1
+TokenGeorge4.button1,Button1
+EventGeorge1d2.text,Le sugieres a George que se cambie de vagón. \n Nervioso, se frota las manos y te mira con preocupación ({influence}; 3).
+EventGeorge1a3.text,El hombre te mira extrañado y dice: \n\n —<i> Tú no eres miembro del servicio del tren. Creo que me quedaré donde estoy, gracias</i>.
+EventGeorge1a3.button1,Continuar
+EventGeorge1a4.text,Intentas despertar el ánimo del hombre con un discurso conmovedor y éste te mira extrañado y desconfiado. No parece afectarle lo más mínimo. \n\n —<i>Lo siento, señor. ¿Le conozco? Quizá bebimos demasiado, ¿no cree?</i>
+EventGeorge1a4.button1,Continuar
+EventGeorge1d1.button1,Button1
+EventGeorge1d2.button1,Éxito
+EventGeorge1d2.button2,Fallo
+EventGeorge1d3.text,A pesar de tus esfuerzos, George se niega a moverse de su ubicación.
+EventGeorge1d3.button1,Continuar
+EventGeorge1d4.text,Convences a George de que lo mejor para él es moverse a otro vagón. \n ¿A dónde le indicas que se mueva?
+EventGeorge1d4.button1,Al furgón de cola
+EventGeorge1d4.button2,Al coche cama
+EventGeorge1d4.button3,Al coche salón
+EventGeorge1d4.button4,Al vagón de pasajeros
+EventGeorge1d5.text,Le ordenas a George que se mueva a otro vagón ({influence}; 2).
+EventGeorge1d5.button1,Éxito
+EventGeorge1d5.button2,Fallo
+EventGeorge1d6.text,George parece aceptar tu liderazgo. Le ordenas que se vaya de este vagón ({influence} +1; 1).
+EventGeorge1d6.button1,Éxito
+EventGeorge1d6.button2,Fallo
+EventGeorge1d7.text,Intentas llamar la atención de George, pero está atrapado en su manía más allá de la comprensión. Balbucea incoherentemente.
+EventGeorge1d7.button1,Continuar
+EventGeorge1e1.text,Mueve la ficha de Personaje al lugar señalado.
+EventGeorge1e1.button1,Continuar
+EventGeorge1e2.text,Mueve la ficha de Personaje al lugar señalado.
+EventGeorge1e2.button1,Continuar
+EventGeorge1e3.text,Mueve la ficha de Personaje al lugar señalado.
+EventGeorge1e3.button1,Continuar
+EventGeorge1e4.text,Mueve la ficha de Personaje al lugar señalado.
+EventGeorge1e4.button1,Continuar
+TokenEspresso.text,<b>Recordatorio</b> \n\n <i>Una vez, inmediatamente al comienzo de una futura Fase de Investigadores, un investigador que haya tomado un expreso, puede realizar una acción extra durante ese turno.
+EventGeorge1f1.text,¿Cómo vas a animar a George?
+EventGeorge1f1.button1,Le das un discurso conmovedor
+EventGeorge1f1.button2,Le das un objeto
+EventGeorge1f1.button3,Le das dinero
+EventGeorge1f1.button4,Cancelar
+EventGeorge1f2.text,Haces tu mejor intento para dar un discurso conmovedor y levantar el ánimo de George. Le agarras del brazo, hablas en voz alta y apelas a sus habilidades como médico. George parece receptivo y algo de color vuelve a su rostro. Su estado de ánimo mejora sustancialmente.
+EventGeorge1f2.button1,Continuar
+EventGeorge1f3.text,Le entregas un objeto a George y le aseguras que es para su protección. Parece algo confundido por el hecho de que le des una de tus pertenencias pero se encoge de hombros y mirándote con extrañeza se guarda el objeto en el bolsillo. \n Su estado de ánimo apenas se vio mejorado. \n\n Descarta 1 objeto común.
+EventGeorge1f3.button1,Continuar
+EventGeorge1f4.text,Sacas un franco suizo de tu bolsillo y lo presionas en la mano de George. Éste mira el dinero y sorprendido te dice: \n\n —<i>Soy médico. ¿Qué quiere que haga con este franco? A pesar de su pregunta, George se queda con el dinero. Su estado de ánimo se mantiene como estaba. \n\n El dinero de los investigadores se reduce en 1.
+EventGeorge1f4.button1,Continuar
+EventGeorge1f5.text,Buscas dinero en tus bolsillos. Sin embargo, están vacíos. George se da cuenta de que hurgas en tus bolsillos vacíos y te mira con simpatía.
+EventGeorge1f5.button1,Continuar
+EventMarie1a1.text,Una joven está sentada junto a la barra del bar. \n Bebe refinadamente del borde de una copa de vino. Es algo inusual ver a alguien de su edad sin acompañante, sin embargo, parece estar a gusto con el entorno. \n\n Se relaja con aire de complacencia.
+TokenMarie1.button1,Continuar
+EventMarie1a1.button1,{action} Hablar
+EventMarie1a1.button2,{action} Sugerir que se mueva a otro vagón
+EventMarie1a1.button3,{action} Captar su atención
+EventMarie1a1.button4,Cancelar
+EventMarie1a3.text,Mirándote con sorpresa, la joven arquea una ceja: \n\n —<i>¿Perdone? ¿Es usted esa clase de personas que cree que puede dar órdenes a las mujeres como si fuéramos perros falderos? \n\n Visiblemente molesta, desvía su atención nuevamente a su vaso.
+EventMarie1a3.button1,Continuar
+EventMarie1a4.text,Haces un intento por captar la atención de la joven, pero tus esfuerzos son en vano. Ella te mira por un momento, pero rápidamente pierde interés.
+EventMarie1a4.button1,Continuar
+EventMarie1a2.text,Después de saludarla cortésmente, la joven se presenta educadamente como Marie. \n Habla con acento parisino y deduces que tiene unos 30 años. Si bien Marie es de baja estatura y de complexión más bien delgada, da la impresión de que sabe manejarse muy bien sola. Juguetea con el vino de su copa haciéndolo girar suavemente. \n\n Ganas 1 Pista {clue}.
+EventMarie1a2.button1,Continuar
+EventMarie1b1.button1,Button1
+EventMarie1b2.text,Marie parece complacida.
+EventMarie1b2.button1,Continuar
+EventMarie1b3.text,Marie sonríe con confianza. Parece estar de buen humor.
+EventMarie1b3.button1,Continuar
+EventMarie1b4.text,Aunque superficialmente Marie muestra confianza, se nota que su compostura es solo una coraza. Su ojo izquierdo se contrae por la tensión nerviosa y se muerde el labio.
+EventMarie1b4.button1,Continuar
+EventMarie1b5.text,Marie es el rostro del terror. Sus labios están retraídos sobre sus dientes en una mueca permanente. Cuando se dirige a ti, apenas te reconoce. Se agarra a las paredes del tren, como si se preguntara si su entorno es real.
+EventMarie1b5.button1,Continuar
+TokenMarie2.button1,Button1
+TokenMarie5.button1,Button1
+TokenMarie4.button1,Button1
+TokenMarie3.button1,Button1
+EventMarie1c1.text,Marie pasea por el vagón, bebiendo ocasionalmente de su copa de vino.
+EventMarie1c1.button1,{action} Seguir hablando
+EventMarie1c1.button2,{action} Sugerir que cambie de vagón
+EventMarie1c1.button3,{action} Animar
+EventMarie1c1.button4,Cancelar
+EventMarie1c2.button1,Button1
+EventMarie1c3.text,Por los gestos e historias de Marie, deduces rápidamente que es miembro de la aristocracia francesa y que está estrechamente alineada con el gobierno. Te explica que durante los años de la guerra, su familia huyó de París a Burdeos, supuestamente para escapar del bombardeo de la ciudad. Gracias a sus contactos con la alta sociedad, los miembros de la familia de Marie sobrevivieron a la guerra relativamente ilesos. \n\n Ganas 1 Pista {clue}.
+EventMarie1c3.button1,Continuar
+EventMarie1c4.text,Después de la guerra, la familia de Marie buscó consolidar su posición de fuerza en la alta sociedad. Estaban en clara ventaja, ya que milagrosamente escaparon airosos de la guerra sin sufrir muchas pérdidas. Sin embargo, así como la guerra no reclamó a ningún miembro directo de su familia, no se puede decir lo mismo de la epidemia de gripe que asoló Francia y la cual se cobró la vida de muchas personas cercanas a ella. \n\n Ganas 1 Pista {clue}.
+EventMarie1c4.button1,Continuar
+EventMarie1c5.text,Debilitados, los miembros más importantes de la familia de Marie la instaron a asumir su papel destinado a asuntos familiares y políticos. Pero Marie tenía otros planes. Suspira con nostalgia mientras explica que siempre estuvo más interesada en vivir aventuras en busca de reliquias perdidas que en las aburridas intrigas políticas que rodeaban su ámbito personal. Para decepción de su familia, finalmente huyó de Burdeos en busca de una nueva vida. \n Volviendo a su vino, dice: \n\n —<i>Estoy segura de que mis antepasados están ahora mismo revolviéndose en sus tumbas</i>. \n\n Ganas 1 Pista {clue}.
+EventMarie1c5.button1,Continuar
+EventMarie1c6.text,Marie bosteza. No parece estar interesada en seguir hablando. \n\n Ganas 1 acción.
+EventMarie1c6.button1,Continuar
+EventMarie1d1.button1,Button1
+EventMarie1d5.text,Marie parece aterrorizada. La llamas por su nombre, pero no captas su atención. Hace una mueca en dirección a las secciones oscuras de la cabina. Sus manos están completamente en tensión y sus dedos blancos a causa de la presión que ejercen.
+EventMarie1d5.button1,Continuar
+EventMarie1d4.text,Le sugieres a Marie que se mueva a otro vagón. Sus ojos se mueven nerviosamente de una esquina a otra de la cabina del tren ({influence}; 3).
+EventMarie1d4.button1,Éxito
+EventMarie1d4.button2,Fallo
+EventMarie1d2.text,Intentas convencer a Marie para que se vaya a otro vagón ({influence}; 2).
+EventMarie1d2.button1,Éxito
+EventMarie1d2.button2,Fallo
+EventMarie1d3.text,Marie acepta tu liderazgo. Le ordenas gritando que se vaya de este vagón ({influence} +1; 1).
+EventMarie1d3.button1,Éxito
+EventMarie1d3.button2,Fallo
+EventMarie1d6.text,A pesar de tus esfuerzos, Marie se niega a moverse de su ubicación.
+EventMarie1d6.button1,Continuar
+EventMarie1d7.button1,Al Furgón de cola
+EventMarie1d7.button2,Al Dormitorio de la tripulación
+EventMarie1d7.button3,Al Coche salón
+EventMarie1d7.button4,Al Vagón de pasajeros
+EventMarie1e1.text,Mueve la ficha de Personaje de Marie al lugar señalado.
+EventMarie1d7.text,Convences a Marie de que lo mejor para ella es cambiarse de vagón. \n ¿A dónde le indicas que se vaya?
+EventMarie1e1.button1,Continuar
+EventMarie1e2.text,Mueve la ficha de Personaje de Marie al lugar señalado.
+EventMarie1e2.button1,Continuar
+EventMarie1e3.text,Mueve la ficha de Personaje de Marie al lugar señalado.
+EventMarie1e3.button1,Continuar
+EventMarie1e4.text,Mueve la ficha de Personaje de Marie al lugar señalado.
+EventMarie1e4.button1,Continuar
+EventMarie1f1.text,¿Cómo vas a animar a Marie?
+EventMarie1f1.button1,Le das un discurso conmovedor
+EventMarie1f1.button2,Le das un objeto
+EventMarie1f1.button3,Le das dinero
+EventMarie1f1.button4,Cancelar
+EventMarie1f2.text,Haces lo mejor que puedes para dar un discurso conmovedor y levantar el ánimo de Marie. Golpeas con los nudillos sobre una mesa cercana, alzas la voz y hablas sobre la paz en el mundo en estos tiempos más oscuros. Aproximadamente a la mitad de tu monólogo, te das cuenta de que Marie está más interesada en su vino que en ti. Quizá su estado anímico mejoró un poco, aunque más por diversión que por otra cosa.
+EventMarie1f2.button1,Continuar
+EventMarie1f3.text,Le entregas un objeto a Marie asegurándole que es una antigua reliquia de gran importancia histórica. Sus ojos brillan intensamente y te da las gracias. Marie mete el objeto en una bolsa grande que tiene en el suelo. El estado de ánimo de Marie ha mejorado considerablemente. \n\n Descarta 1 objeto común.
+EventMarie1f3.button1,Continuar
+EventMarie1f4.text,Sacas un franco suizo de tu bolsillo y se lo muestras a Marie. Ella frunce el ceño y grita: \n\n —<i>¿¡Pero quién se cree que soy yo!?</i> \n\n Disgustada, te quita el franco de la mano, lo lanza al suelo y lo pisa. \n\n El dinero de los investigadores se reduce en 1.
+EventMarie1f4.button1,Continuar
+EventMarie1f5.text,Buscas dinero en tus bolsillos. Sin embargo, están completamente vacíos. \n Marie observa tus bolsillos al revés y esboza una leve sonrisa.
+EventMarie1f5.button1,Continuar
+TokenJeanBardin1.button1,Button1
+EventJeanBardin1a1.text,Un joven de aspecto elegante atiende a los pasajeros de este vagón. \n Lleva una pajarita, un chaleco color carbón y una camisa blanca formal con las mangas arremangadas. Te dedica una amable sonrisa. \n\n —<i>Encantado, mi nombre es Jean Bardin</i> —dice con acento francés.
+EventJeanBardin1a1.button1,{action} Hablar
+EventJeanBardin1b1.text,Jean Bardin es el camarero del tren. Atiende a los pasajeros de este vagón. \n Lleva una pajarita, un chaleco color carbón y una camisa blanca formal con las mangas arremangadas. Cambia con frecuencia su ubicación, alternando entre la barra del bar y el resto del salón.
+EventJeanBardin1b1.button1,{action} Hablar
+EventJeanBardin1a1.button2,{action} Tomar algo del bar
+EventJeanBardin1a1.button3,Cancelar
+EventJeanBardin1b1.button2,{action} Tomar algo del bar
+EventJeanBardin1b1.button3,Cancelar
+TokenJeanBardin2.button1,Button1
+EventJeanBardin1c1.text,Jean se detiene para iniciar una pequeña charla contigo. \n\n —<i>Me hubiera gustado ser pintor pero, por desgracia, eso no es suficiente para pagar las facturas</i> —abre y extiende sus manos—. <i>Ahora aquí estoy, atendiendo a los pasajeros del Alpine Express, lejos de mi hogar. Es todo un honor. ¿Sabe que éste es el tren civil con el trayecto a mayor altitud de los Alpes suizos?</i> —Jean te da un codazo en el costado y continúa—. <i>Nos acercamos al «Viaducto Landwasser», un puente de una sola vía que se extiende sobre un extenso desfiladero. Lleno de superstición en noches como ésta</i>. \n\n Ganas 1 Pista {clue}.
+EventJeanBardin1c1.button1,Continuar
+EventJeanBardin1c2.text,—<i>Lo siento, monsieur</i> —dice Jean—. <i>Estoy de servicio.</i> \n\n Jean regresa detrás de la barra para servir a un pasajero.
+EventJeanBardin1c2.button1,Continuar
+EventJeanBardin1d1.text,—<i>¿Qué va a tomar?</i> \n\n <i>Los investigadores tienen {var:Money} francos</i>.
+EventJeanBardin1d1.button1,Un vaso de vino - 2 francos
+EventJeanBardin1d1.button2,Pastillas para dormir - 3 francos
+EventJeanBardin1d1.button3,Whisky - 2 francos
+EventJeanBardin1d1.button4,Un expreso - 5 francos
+EventJeanBardin1d2.text,Jean Bardin te pone una copa de vino y te lo bebes. \n En seguida, el calor se extiende desde tu estómago y hace que te sientas realmente bien. \n\n Descarta 2 de Horror boca abajo o pon boca abajo 1 de Horror.
+EventJeanBardin1d2.button1,Continuar
+EventJeanBardin1d3.text,Rebuscas en tus bolsillos y te das cuenta de que no tienes suficiente dinero.
+EventJeanBardin1d3.button1,Continuar
+EventJeanBardin1d5.text,Rebuscas en tus bolsillos y te das cuenta de que no tienes suficiente dinero.
+EventJeanBardin1d5.button1,Continuar
+EventJeanBardin1d6.text,—<i>Lo siento, monsieur</i> —dice Jean Bardin—-. <i>Acabo de vender el último bote de pastillas para dormir que me quedaba</i>.
+EventJeanBardin1d6.button1,Continuar
+EventJeanBardin1d1.button5,Cancelar
+EventJeanBardin1d7.text,Jean Bardin te entrega una botella de whisky. \n\n —<i>Creo que la necesitará entera</i> —dice. \n\n Ganas el Objeto común Whisky.
+EventJeanBardin1d7.button1,Continuar
+EventJeanBardin1d8.text,Rebuscas en tus bolsillos y te das cuenta de que no tienes suficiente dinero.
+EventJeanBardin1d8.button1,Continuar
+EventJeanBardin1d9.text,—<i>Me estoy quedando sin whisky, monsieur</i>.—Jean te sirve un trago, que te bebes apresuradamente. \n\n La calidez se esparce rápidamente por todo tu cuerpo y te sientes reconfortado. \n\n Descarta 1 de Horror boca abajo o 1 de Daño boca abajo.
+EventJeanBardin1d9.button1,Continuar
+EventJeanBardin1d10.text,Jean Bardin te ofrece un expreso que no dudas en tomar. En cuestión de minutos, tus oídos se agudizan y tus ojos se mueven rápidamente analizando todo con más precisión. \n\n Ganas 1 acción extra este turno. \n\n Una vez, inmediatamente al comienzo de una futura Fase de los Investigadores, obtienes otra acción extra durante ese turno. Puedes colocar una ficha de Interacción en tu Hoja de investigador como recordatorio.
+EventJeanBardin1d10.button1,Continuar
+EventJeanBardin1d11.text,Rebuscas en tus bolsillos y te das cuenta de que no tienes suficiente dinero.
+EventJeanBardin1d11.button1,Continuar
+TokenLiam1.button1,Button1
+EventLiam1a1.text,Un hombre de mediana edad descansa en una de las modestas literas en la cabina del dormitorio. Viste una camisa blanca con botones y unos desgastados pantalones rojos. Se duerme y se despierta constantemente. Los cortos períodos en los que duerme parecen turbulentos ya que, inconscientemente, sus manos agarran fuertemente las mantas. \n\n De todos modos, el hombre parece estar de buen humor.
+EventLiam1a1.button1,{action} Hablar
+EventLiam1a1.button2,{action} Sugerir que se mueva a otro vagón
+EventLiam1a1.button3,{action} Animar
+EventLiam1a1.button4,Cancelar
+EventLiam1a4.text,El hombre se despierta de su sueño. Aunque tenías un discurso preparado para levantarle el ánimo, se sobresalta al verte observándolo. \n\n —<i>¿Qué diablos está haciendo?</i> —pregunta el hombre con acento escocés. \n\n Te disculpas por haberlo molestarlo y él se gira de lado.
+EventLiam1a4.button1,Continuar
+EventLiam1a3.text,Golpeas levemente al hombre en el pecho para despertarlo. Él te mira confundido. Una vez despierto, le sugieres que se traslade a otra cabina, pero rechaza tu propuesta y vuelve a dormirse rápidamente.
+EventLiam1a3.button1,Continuar
+EventLiam1a2.text,El hombre se presenta como Liam. A menudo viaja en tren por Europa occidental por tema de negocios ya que tiene una fábrica en Inglaterra. \n\n —<i>Antes de la guerra, el negocio iba muy bien</i> —dice con nostalgia. \n\n Por las marcadas bolsas debajo de sus ojos y por sus intermitentes y tensos descansos, deduces que algo perturba el sueño de Liam. \n\n Ganas 1 Pista {clue}.
+EventLiam1a2.button1,Continuar
+EventLiam1b1.button1,Button1
+EventLiam1b2.button1,Continuar
+EventLiam1c1.text,Liam descansa en una de las camas de este vagón. Viste una camisa blanca con botones y unos pantalones rojos bastante desgastados. Siempre que tiene la oportunidad, aprovecha para dormir un rato. Mientras lo hace, se contrae inconscientemente, como si algo perturbara sus sueños.
+EventLiam1c1.button1,{action} Seguir hablando
+EventLiam1c1.button2,{action} Sugerir que se mueva a otro vagón
+EventLiam1c1.button3,{action} Animar
+EventLiam1c1.button4,Cancelar
+EventLiam1c2.button1,Button1
+EventLiam1c3.text,Liam sigue hablando de su fábrica. Aunque lo hace en términos ambiguos, comprendes que el propósito principal de la fábrica era el procesamiento de carne de cerdo. \n La describió como «Una máquina para cerdos». Liam se enorgullecía de sus contratos más allá de las fronteras de Escocia e Inglaterra. Su actividad favorita era observar a los barcos que partían del puerto con sus mercancías. Luego, la guerra llegó a Europa y todo cambió. \n\n Ganas 1 Pista {clue}.
+EventLiam1c3.button1,Continuar
+EventLiam1c4.text,Liam hace una pausa por un momento, perdido en sus pensamientos. Sus socios de confianza desaparecieron durante la guerra y se rompieron los lazos logísticos que había entre naciones. Ahora, su fábrica está al borde de la quiebra y en un esfuerzo por mantenerse a flote, empezaron a relacionarse con una clientela poco deseable. Apartando la mirada, afirma que los sonidos que ahora emanan de la fábrica son insoportables. \n\n Ganas 1 Pista {clue}.
+EventLiam1c4.button1,Continuar
+EventLiam1c6.text,Te das cuenta de que Liam se ha vuelto a quedar dormido. \n Decides dejarlo descansar.
+EventLiam1c6.button1,Continuar
+EventLiam1c5.text,Por primera vez, notas que el rostro de Liam está bastante demacrado y retraído. Te preguntas cuándo debió ser la última vez que Liam tuvo una comida completa y un sueño agradable. \n A menudo mira la comida que se ofrece en la cabina del salón. Cuando vuelve a hablar, su tristeza se hace evidente: \n\n —<i>Estos últimos años han sido duros para la familia. Lo que daría por volver a la normalidad...</i> \n\n Ganas 1 Pista {clue}.
+EventLiam1c5.button1,Continuar
+EventLiam1b2.text,Aunque un poco cansado, Liam parece estar bien.
+EventLiam1b3.text,Liam está de muy buen humor por lo que ves. Parece haber renovado su confianza.
+EventLiam1b3.button1,Continuar
+EventLiam1b4.text,Liam cierra los puños ocasionalmente con nerviosismo interrumpiendo sus escasos momentos de vigilia.
+EventLiam1b4.button1,Continuar
+EventLiam1b5.text,Liam mira horrorizado alrededor de la cabina y cierra sus puños con fuerza hasta que sus nudillos se vuelven blancos.
+EventLiam1b5.button1,Continuar
+EventLiam1d1.button1,Button1
+EventLiam1d2.text,Le ordenas a Liam que se cambie de vagón. \n Nervioso, se frota los ojos y te mira con preocupación ({influence}; 3).
+EventLiam1d2.button1,Éxito
+EventLiam1d2.button2,Fallo
+EventLiam1d4.text,Convences a Liam de que lo mejor para él es moverse a otro vagón. \n ¿A dónde le indicas que se mueva?
+EventLiam1d4.button1,Al Furgón de cola
+EventLiam1d4.button2,Al Coche cama
+EventLiam1d4.button3,Al Coche salón
+EventLiam1d4.button4,Al Vagón de pasajeros
+EventLiam1d3.text,A pesar de tus esfuerzos, Liam ignora tus palabras. \n No se puede despertar a una persona que finge dormir.
+EventLiam1d3.button1,Continuar
+EventLiam1d5.text,Liam se despierta de su sueño instable. Le ordenas que se cambie a otro vagón({influence}; 2).
+EventLiam1d5.button1,Éxito
+EventLiam1d5.button2,Fallo
+EventLiam1d6.text,Liam está en alerta esperando tus instrucciones. Le ordenas que se mueva a otro vagón ({influence} +1; 1).
+EventLiam1d6.button1,Éxito
+EventLiam1d6.button2,Fallo
+EventLiam1d7.text,Liam tiembla de miedo. Intentas hablar con él, pero no está en condiciones de escucharte en estos momentos. Algunas lágrimas brotan de sus ojos.
+EventLiam1d7.button1,Continuar
+TokenLiam2.button1,Button1
+TokenLiam3.button1,Button1
+TokenLiam4.button1,Button1
+EventLiam1e1.text,Mueve la ficha de Personaje al lugar señalado.
+EventLiam1e1.button1,Continuar
+EventLiam1e2.text,Mueve la ficha de Personaje al lugar señalado.
+EventLiam1e2.button1,Continuar
+EventLiam1e3.text,Mueve la ficha de Personaje al lugar señalado.
+EventLiam1e3.button1,Continuar
+EventLiam1e4.text,Mueve la ficha de Personaje al lugar señalado.
+EventLiam1e4.button1,Continuar
+EventLiam1f1.text,¿Cómo vas a animar a Liam?
+EventLiam1f1.button1,Le das un discurso.
+EventLiam1f1.button2,Le das un objeto
+EventLiam1f1.button3,Le das dinero
+EventLiam1f1.button4,Cancelar
+EventLiam1f2.text,Intentas animar a Liam con un discurso entusiasta, hablando de la importancia del espíritu emprendedor. Te unes a su opinión sobre la importancia que tienen los dueños de los negocios en cuanto a crear más puestos de trabajo y estabilidad a las personas. Liam parece algo receptivo. Un tono de color vuelve a su rostro.
+EventLiam1f2.button1,Continuar
+EventLiam1f3.text,Le entregas a Liam una de tus pertenencias, convenciéndole de que el objeto lo mantendrá a salvo ante cualquier situación adversa. \n Lo acepta agradecido aunque realmente no parece muy interesado en él. \n\n Descarta 1 objeto común.
+EventLiam1f3.button1,Continuar
+EventLiam1f4.text,Sacas un franco suizo de tu bolsillo y se lo das a Liam. \n Aunque algo avergonzado, acepta el dinero. \n\n —<i>Ha pasado mucho tiempo desde la última comida caliente. Muchas gracias. Espero que aún quede algo de comida en el tren</i>—dice esbozando una sonrisa. \n\n El estado de ánimo de Liam mejora notablemente. \n\n El dinero de los investigadores se reduce en 1.
+EventLiam1f4.button1,Continuar
+EventLiam1f6.text,Buscas dinero en tus bolsillos, sin embargo, están vacíos. Liam acaricia su vientre rugiente y te lanza una mirada de complicidad. \n\n —<i>Yo estoy igual amigo</i>.
+EventLiam1f6.button1,Continuar
+EventWarlock1a1.text,El Brujo señala con su huesudo dedo a {rnd:hero}. \n\n —<i>¡Su destino es la perdición!</i> —grita. \n\n Soltando una carcajada, se aleja despacio y se encierra en la cocina del tren. \n\n Coloca la miniatura del Brujo en el lugar señalado. \n A continuación, coloca una ficha de Búsqueda y una ficha de Obstrucción en los lugares señalados.
+EventWarlock1a1.button1,Continuar
+CustomMonsterEizor.info,-
+CustomMonsterEizor.monstername,Brujo
+EventWarlock1b1.button1,Button1
+EventWarlock1b2.button1,Continuar
+SpawnSkeleton3.text,El castañeteo de unos huesos llama tu atención. Otro Esqueleto baja ruidosamente por las escaleras desde la cabina del dormitorio. Al igual que los demás, por su cavidad costal y del interior del cráneo salen llamas rojas. El fuego late y parpadea de forma errática e inestable. \n\n Aparece un Esqueleto en el lugar señalado.
+SpawnSkeleton3.button1,Continuar
+EventWarlock1b2.text,El hombre mira a los investigadores con el ceño fruncido. \n\n —<i>¡Sólo están retrasando lo inevitable!</i> —grita. \n\n Continúa recitando versos en una lengua extraña y gutural.
+EventWarlock1b3.text,Con el ceño fruncido, el Brujo señala con su dedo huesudo a {rnd:hero}. \n El investigador comienza a sudar abundantemente. \n\n —<i>¡Está usted marcado!</i> —grita.
+EventWarlock1b3.button1,Continuar
+EventWarlock1b4.text,El Brujo te mira de lejos. Habla en voz baja y distante. Luchas por distinguir las palabras. \n ¡Se está preparando para lanzar un hechizo!
+EventWarlock1b4.button1,Continuar
+EventWarlock1b5.button1,Button1
+EventWarlock1d1.text,El cuerpo de {c:EventWarlock1b3} está debilitado por la fiebre mientras el sudor brota de su frente. {c:EventWarlock1b3} lucha por mantener el control de su mente. \n\n La {strength} de {c:EventWarlock1b3} se reduce en 1. \n\n <i>Se recomienda usar una ficha de mejora de la expansión Calles de Arkham como recordatorio. Cada ficha de mejora se trata como «-1» para la habilidad correspondiente. \n Una habilidad nunca puede reducirse por debajo de 1</i>.
+EventWarlock1d1.button1,Continuar
+EventWarlock1d2.text,La nariz de {c:EventWarlock1b3} empieza a sangrar abundantemente y un fuerte dolor de cabeza se hace presente. \n\n La {will} de {c:EventWarlock1b3} se reduce en 1. \n\n <i>Se recomienda usar una ficha de mejora de la expansión Calles de Arkham como recordatorio. Cada ficha de mejora se trata como «-1» para la habilidad correspondiente. \n Una habilidad nunca puede reducirse por debajo de 1</i>.
+EventWarlock1d2.button1,Continuar
+EventWarlock1d3.text,{c:EventWarlock1b3} se tambalea súbitamente perdiendo el equilibrio y se apoya en un lateral del tren para evitar la caída. \n\n La {agility} de {c:EventWarlock1b3} se reduce en 1. \n\n <i>Se recomienda usar una ficha de mejora de la expansión Calles de Arkham como recordatorio. Cada ficha de mejora se trata como «-1» para la habilidad correspondiente. \n Una habilidad nunca puede reducirse por debajo de 1</i>.
+EventWarlock1d3.button1,Continuar
+EventWarlock1d4.text,El miedo inunda la mente de {c:EventWarlock1b3} que mira alrededor de la cabina con estupor. \n\n El {lore} de {c:EventWarlock1b3} se reduce en 1. \n\n <i>Se recomienda usar una ficha de mejora de la expansión Calles de Arkham como recordatorio. Cada ficha de mejora se trata como «-1» para la habilidad correspondiente. \n Una habilidad nunca puede reducirse por debajo de 1</i>.
+EventWarlock1d4.button1,Continuar
+CustomMonsterLostSoul.info,-
+EventLostSoul1a1.text,El Esqueleto avanza pesadamente en la dirección de {c:EventWarlock1a1}, con los brazos extendidos. Un gemido antinatural resuena desde el interior de su cuerpo. \n\n Mueve al Esqueleto 1 espacio en la dirección de {c:EventWarlock1a1}. \n\n ¿El Esqueleto está en el mismo espacio que {c:EventWarlock1a1}?
+CustomMonsterLostSoul.monstername,Esqueleto
+EventLostSoul1a1.button1,Sí
+EventLostSoul1a1.button2,No
+EventLostSoul1a2.text,Los huesos del Esqueleto comienzan a arder por el calor de las llamas que emanan de su interior. El fuego se está extendiendo. \n\n Asigna 1 de Daño al Esqueleto al comienzo de la siguiente ronda.
+EventLostSoul1a2.button1,Continuar
+EventLostSoul1a3.text,El Esqueleto agarra el brazo de {c:EventWarlock1a1} y empieza a reír a carcajadas. \n En un instante, explota en mil pedazos y en su lugar no queda nada más que ceniza. \n\n Cada investigador y monstruo situado en el espacio de {c:EventWarlock1a1} sufre 3 de Daño boca abajo. A continuación, descarta el esqueleto.
+EventLostSoul1a3.button1,Continuar
+EventDefeatedWarlock1.text,El hombre cae al suelo. Con sus últimas palabras, balbucea una advertencia: \n\n —<i>Estúpidos, solo han... retrasado... lo inevitable</i>. \n\n Una llave plateada se le cae de las manos y rebota contra el suelo de azulejos. Cuando la coges, junto al cuerpo, ves algunos francos suizos esparcidos a su alrededor. \n\n Coloca una ficha de Búsqueda y una ficha de Exploración en los lugares señalados.
+EventDefeatedWarlock1.button1,Continuar
+TokenWarlock2.text,En el suelo hay unos cuantos francos suizos esparcidos.
+TokenWarlock2.button1,{action} Coger
+EventWarlock2a1.text,Mientras nadie mira, recoges los francos suizos del suelo. En total son 5 francos. \n\n Descarta esta ficha de Búsqueda.
+EventWarlock2a1.button1,Continuar
+EventWilliamBurns3a.text,—<i>¡Ahora estamos juntos en esto!</i>,—grita William. \n\n Después de que todos los investigadores hayan realizado su turno, el último investigador en actuar puede mover a William 1 espacio. Si un Monstruo está dentro del alcance de William, el Monstruo sufre 1 de Daño. \n\n La imagen del Sicario se ha colocado fuera del tablero en la aplicación y se puede interactuar con ella como recordatorio.
+EventWilliamBurns3a.button1,Continuar
+TokenWilliamBurns2.text,Después de que todos los investigadores hayan realizado su turno, el último investigador en actuar puede mover a William 1 espacio. Si un Monstruo está dentro del alcance de William, el Monstruo sufre 1 de Daño.
+TokenWilliamBurns2.button1,Continuar
+TokenDiningCar2Explore1.text,Una puerta robusta conduce a la locomotora del tren. La puerta está cerrada, pero cogiste la llave que le cayó al hombre.
+TokenDiningCar2Explore1.button1,{action} Abrir la puerta
+EventDiningCar2Explore1.text,Inmediatamente después de entrar en la cabina de la locomotora del tren, tu atención se centra en unas extrañas runas y símbolos trazados con pintura azul en el suelo. En el centro hay una gran escultura verde y un espacio vacío al lado que sugiere un lugar para una segunda estatua. \n\n Coloca el módulo {c:Tile6}, la ficha de Personaje y una ficha de Búsqueda en los lugares señalados. A continuación, descarta esta ficha de Exploración.
+EventDiningCar2Explore1.button1,Continuar
+TokenEngine1.text,El conductor se desploma contra la pared. Su cuerpo está cubierto de hollín y no parece estar respirando. Aparte de una billetera, no ves nada más de importancia.
+TokenEngine1.button1,{action} Coger la billetera
+EventEngine1a1.text,Aunque te sientes culpable, le quitas la billetera al conductor. Te apartas un poco y miras su contenido. A parte de algunos francos, no hay nada en su interior que sea de utilidad. \n\n Los investigadores ganan 3 francos y sufres 1 de Horror boca abajo. A continuación, descarta la ficha de Personaje.
+EventEngine1a1.button1,Continuar
+TokenEngine2.text,Alguien pintó una serie de runas y símbolos inusuales con una pintura azul monótona. Sospechas que pudo haberlo hecho el hombre de aspecto desaliñado de la cabina anterior. Una gran escultura verde se encuentra en el centro de las runas. Al levantarla, observas que se pintó un espacio para un segundo objeto de tamaño similar. Después de quitar la estatua, el color de la pintura se desvanece y cambia a un tono más grisáceo. \n\n Ganas el objeto único Escultura grotesca. A continuación, cambia la ficha de Búsqueda por una ficha de Interacción.
+TokenEngine2.button1,Continuar
+EventEngine2a1.text,Examinando la cabina, ves que la locomotora del tren está alimentada con carbón. Está inactiva en este momento y no parece que haya ningún problema mecánico con el motor. Unas cuantas palas de carbón deberían ser suficientes para hacer que el tren vuelva a moverse. \n\n Coloca la ficha de Interacción en el lugar señalado.
+EventEngine2a1.button1,Continuar
+TokenEngine4.text,La caldera del tren está apagada. Unas cuantas palas de carbón deberían hacer que vuelva a funcionar. Después de agregar el carbón, será necesario activar la transmisión del tren. \n\n Los investigadores pueden descartar el objeto único Combustible en un intento por encender el motor.
+TokenEngine4.button1,{action} Añadir combustible
+EventEngine4a1.text,No tienes combustible.
+EventEngine4a1.button1,Continuar
+EventEngine4a2.text,Colocas una pala llena de combustible en el motor. De su boca vuelan chispas incandescentes y la cabina comienza a brillar con un suave resplandor naranja. \n\n Descarta el objeto único Combustible.
+EventEngine4a2.button1,Continuar
+EventEngine2a2.text,El carrito de la cena del Vagón restaurante podría contener algo más que comida. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a2.button1,Continuar
+EventEngine2a3.text,Hay un gran armario detrás de la barra del Coche salón. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a3.button1,Continuar
+EventEngine2a4.text,Una maleta vieja y desgastada en el vagón de los dormitorios llamó anteriormente tu atención. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a4.button1,Continuar
+EventEngine2a5.text,Entre el equipaje del Furgón de cola viste una maleta extremadamente ornamentada. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a5.button1,Continuar
+EventEngine2a6.text,Podría haber algo interesante en los dormitorios privados de primera clase. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a6.button1,Continuar
+EventEngine2a7.text,Podría haber algo interesante en los dormitorios privados de primera clase. Coloca una ficha de Búsqueda en el lugar señalado.
+EventEngine2a7.button1,Continuar
+TokenLuggage1.text,En una esquina de la cabina de almacenamiento hay una maleta profusamente decorada.
+TokenLuggage1.button1,{action} Buscar en la maleta
+EventLuggage1a1.button1,Continuar
+TokenLuggage2.text,Junto a una de las camas hay una vieja maleta bastante desvencijada.
+EventLuggage1a1.text,No encuentras nada de interés salvo algunos francos sueltos. \n\n Ganas 1 Pista {clue}. \n Los investigadores ganan 10 francos. A continuación, descarta esta ficha de Búsqueda.
+TokenLuggage2.button1,{action} Buscar en la maleta
+EventLuggage2a1.text,A excepción de una pistola, no encuentras nada de interés en la maleta. \n\n Ganas 1 Pista {clue} y el objeto común Revólver del 38. \n A continuación, descarta esta ficha de Búsqueda.
+EventLuggage2a1.button1,Continuar
+TokenLuggage4.text,Detrás del mostrador del Coche salón hay un gran armario, presuntamente donde Jean guarda dinero y otros artículos diversos.
+TokenLuggage4.button1,{action} Buscar en el armario
+EventLuggage4a1.text,Intentas ser discreto pero Jean se da cuenta de que estás fisgoneando en su área de trabajo. \n\n —<i>¿En serio? —dice con voz exasperada. \n\n Dejas de buscar en el armario y te alejas avergonzado. \n Sufres 1 de Horror boca abajo. A continuación, descarta esta ficha de Búsqueda.
+EventLuggage4a1.button1,Continuar
+TokenLuggage5.text,En el comedor hay un carro grande y llamativo. Probablemente sólo haya comida sobrante, pero podría contener algo más.
+TokenLuggage5.button1,{action} Buscar
+EventLuggage5a1.text,Sólo era comida sobrante y algunos francos que dejaron como propina. \n Aprovechas la ocasión y comes algo. Está delicioso. \n\n Los investigadores ganan 2 francos. \n\n Descarta 1 de Daño o de Horror boca abajo. \n A continuación, descarta esta ficha de Búsqueda.
+EventLuggage5a1.button1,Continuar
+TokenLuggage3.text,En el suelo del dormitorio privado hay una maleta grande y elegante.
+TokenLuggage3.button1,{action} Buscar en la maleta
+EventLuggage3a1.text,Al abrirla, la maleta emite un brillo esmeralda que baña la habitación. Encuentras una escultura verde idéntica a la que encontraste en la locomotora. Parece hacer referencia a alguna divinidad marina de aspecto monstruoso. Tiene cuerpo de hombre pero su cabeza se asemeja a un pulpo, con varios apéndices tentaculares. \n\n Ganas 1 Pista {clue} y el objeto único Escultura grotesca. A continuación, descarta esta ficha de Búsqueda.
+EventLuggage3a1.button1,Continuar
+TokenEngine3.button1,Button1
+EventStatue1a1.text,Alguien ha pintado una disposición de símbolos y geometrías extrañas con pintura azul en el suelo. Los investigadores retiraron una gran escultura verde. Ahora quedan dos espacios vacíos en el centro.
+EventStatue1a1.button1,{action} Colocar una estatua
+EventStatue1a2.text,Después de volver a colocar la escultura en uno de los dos espacios, la pintura crepita con energía y empieza a brillar, iluminando la habitación con un tenue tono azul. \n\n Descarta el objeto único Escultura grotesca.
+EventStatue1a2.button1,Continuar
+EventStatue1a1.button2,Cancelar
+EventStatue1a3.text,Alguien ha pintado una disposición de símbolos y geometrías extrañas con pintura azul en el suelo. Los investigadores han colocado una gran escultura verde en uno de los espacios. La pintura azul crepita con energía. Queda un solo espacio vacío.
+EventStatue1a3.button1,{action} Colocar una estatua
+EventStatue1a3.button2,{action} Quitar una estatua
+EventStatue1a3.button3,Cancelar
+EventStatue1a4.text,Coges una de las esculturas del suelo. El color azul de la pintura se atenúa. \n\n Ganas el objeto único Escultura grotesca.
+EventStatue1a4.button1,Continuar
+EventStatue1a5.text,Los investigadores se apiñan alrededor del ritual, intercambiando miradas nerviosas. Arcos de energía arcana atraviesan el vagón de un extremo al otro. El procedimiento se ha completado. Uno de los investigadores habla en primer lugar: \n\n —<i>Aquel hombre andrajoso dijo que cuando recuperara la otra piedra de invocación, el ritual de Yog-Sothoth se habría completado. Quizá estas esculturas de piedra puedan usarse para desterrar a esa entidad de vuelta a su lugar de procedencia</i>.
+EventStatue1a5.button1,Continuar
+EventStatue1a6.text,—<i>Yog-Sothoth también debe conocer la existencia de estas piedras. Las estará buscando. Seguramente el ritual de destierro tardará un tiempo en completarse. Tendremos que mantenerlo a raya todo lo que podamos</i>. \n\n A medida que la noticia se asienta en el grupo, uno de los investigadores mira a un lado y al otro del vagón. \n\n —<i>Deberíamos evitar muertes innecesarias. Mientras que nos ocupamos de esa entidad, nos deshacemos de las piedras en la cabina de primera clase, desacoplamos la locomotora del resto del tren y salimos de aquí</i>.
+EventStatue1a6.button1,Continuar
+EventStatue1a7.text,Otro investigador añade: \n\n —<i>¡No podemos poner en peligro a personas inocentes! Debemos alejar a Yog-Sothoth de las piedras desacoplando la locomotora y poniendo la mayor distancia posible entre nosotros y el resto del tren</i>.
+EventStatue1a7.button1,Continuar
+EventStatue1a8.text,Los investigadores deben elegir: \n\n Dejar las esculturas en el tren y abandonar a los pasajeros o usar las esculturas como señuelo, salvar a los pasajeros y tratar de desterrar a Yog-Sothoth.
+EventStatue1a8.button1,Abandonar a los pasajeros
+EventStatue1a8.button2,Arriesgarlo todo y atraer a Yog-Sothoth
+EventWardSearchSuccess2.button2,No
+EventWardSearchSuccess2a1.text,Con tu navaja de bolsillo, desfiguras el símbolo y el brillo que emitía se desvanece lentamente. Las sombras de esta habitación parecen profundizarse y alargarse después de borrar el símbolo. \n\n Ganas 1 Pista {clue}. A continuación, coloca una ficha de Oscuridad en este espacio. Si ya contenía una ficha de Oscuridad, coloca una ficha de Oscuridad en un espacio adyacente.
+EventWardSearchSuccess2a1.button1,Continuar
+EventShadowPossess1a1.text,¿Está el Jugador 3 en un espacio con una ficha de Oscuridad?
+EventShadowPossess1a1.button1,Sí
+EventShadowPossess1a1.button2,No
+EventShadowPossess1a2.text,Si el Jugador 3 termina su turno en un espacio con una ficha de Oscuridad, activa esta ficha de Interacción. Puedes activar la ficha de Interacción en el futuro como recordatorio.
+EventShadowPossess1a2.button1,Continuar
+EventShadowPossess2a1.button1,Button1
+TokenShadow1.text,¿Terminó el Jugador 3 su turno en un espacio con una ficha de Oscuridad?
+TokenShadow1.button1,Sí
+TokenShadow1.button2,No
+EventShadowPossess2a2.text,El Jugador 3 tropieza en la oscuridad de la cabina. Similar a una niebla espesa, unas sombras comienzan a acumularse y arremolinarse des del suelo de la cabina. Un sudor frío recorre el cuerpo del Jugador 3. \n\n El Jugador 3 sufre 1 de Horror boca abajo.
+EventShadowPossess2a2.button1,Continuar
+EventShadowPossess2a3.text,Las sombras envuelven al Jugador 3. Mientras lucha por ver y mantener la compostura, el Jugador 3 tropieza con el equipaje y cae al suelo. Las sombras crecientes parecen pesar sobre el Jugador 3 que necesita un gran esfuerzo para volver a levantarse. \n\n El Jugador 3 sufre 1 de Daño boca abajo.
+EventShadowPossess2a3.button1,Continuar
+EventShadowPossess1a3.text,Si el Jugador 3 termina su turno en un espacio con una ficha de Oscuridad, activa esta ficha de Interacción. Puedes activar la ficha de Interacción en el futuro como recordatorio.
+EventShadowPossess1a3.button1,Continuar
+SpawnGhost.text,Las sombras se aferran al Jugador 3 como víboras enfurecidas. De repente, toda el vagón queda sumido en la oscuridad. Tan rápido como se forman, las sombras se disipan. Sin embargo, el Jugador 3 parece atormentado por la experiencia. Su ropa está arrugada, su rostro desencajado y algunas lágrimas resbalan por sus mejillas. \n\n Retira la miniatura del Jugador 3 del tablero. \n Aparece un Fantasma en el espacio que ocupaba el Jugador 3. A continuación, descarta esta ficha de Interacción y todas las fichas de Oscuridad.
+EventShadowPossess2a4.button1,Continuar
+SpawnGhost.button1,Continuar
+CustomMonsterShadow.info,-
+CustomMonsterShadow.monstername,Sombra
+CustomMonsterShadow.Attack_spell_1,Te preparas para lanzar un hechizo contra el Jugador 3, pero en el último segundo te lo piensas mejor. \n\n Cancelas el ataque y recuperas una acción.
+EventShadowFight1a1.text,Un enfurecido Jugador 3 da tumbos por la cabina, buscando frenéticamente un objetivo. \n\n El Jugador 3 debe mover el Fantasma hasta 2 espacios. Si el Fantasma ocupa un espacio con otro investigador, el Fantasma ataca al investigador.
+EventShadowFight1a1.button1,El fantasma ataca
+EventShadowFight1a1.button2,El fantasma no ataca
+EventShadowFight1a2.text,El Jugador 3 llora incontrolablemente, clavándose los dedos en su rostro y aumentando su frenesí. \n\n El Jugador 3 sufre 3 de Horror boca abajo.
+EventShadowFight1a2.button1,Continuar
+EventShadowFight1a3.text,Tirando al investigador al suelo, el Jugador 3 golpea al objetivo sin piedad. Después del violento episodio, el Jugador 3 parece volver a calmarse. \n\n El investigador sufre 1 de Daño boca abajo. A continuación, el Fantasma sufre 1 de Daño.
+EventShadowFight1a3.button1,Continuar
+EventShadowEvade1a1.button1,Button1
+EventShadowEvade1a2.text,El Jugador 3 golpea salvajemente mientras intentas pasar. \n\n Sufres 2 de Daño boca abajo (anulados por {strength}).
+EventShadowEvade1a2.button1,Continuar
+EventShadowEvade1a3.text,Intentas esquivar al Jugador 3 pero en el último segundo te agarra de la mano ({agility} o {strength}; 2). Si superas la tirada, te liberas de su agarre. Si fallas la tirada, pierdes tu acción.
+EventShadowEvade1a3.button1,Continuar
+EventShadowHorror1a1.text,El Jugador 3 camina por la cabina y llora incontrolablemente, gimiendo como un niño. Si estás en su mismo espacio, intentas consolar al Jugador 3. Adquieres el estado Aturdido.
+EventShadowHorror1a1.button1,Continuar
+CustomMonsterShadow.Attack_bladed_1,Te preparas para atacar al Jugador 3, pero en el último segundo te lo piensas mejor. \n\n Cancela el ataque y recuperas una acción.
+CustomMonsterShadow.Attack_firearm_1,Te preparas para atacar al Jugador 3, pero en el último segundo te lo piensas mejor. \n\n Cancela el ataque y recuperas una acción.
+CustomMonsterShadow.Attack_heavy_1,Te preparas para atacar al Jugador 3, pero en el último segundo te lo piensas mejor. \n\n Cancela el ataque y recuperas una acción.
+CustomMonsterShadow.Attack_unarmed_1,Te preparas para atacar al Jugador 3, pero en el último segundo te lo piensas mejor. En cambio, aprovechas la oportunidad para abofetear al Jugador 3 en la cara. El Jugador 3 parece no darse cuenta. \n\n Cancela el ataque y recuperas una acción.
+TokenVanderbilt1.button1,{action} Hablar
+TokenVanderbilt1.button2,{action} Sugerir que se mueva a otro vagón
+TokenVanderbilt1.button3,{action} Animar
+TokenVanderbilt1.text,Apoyado en una de las ventanas de la cabina, hay un hombre de mediana edad bien vestido. Aunque visiblemente tranquilo, parece estar en alerta mientras estudia el cielo nocturno.
+EventVanderbilt1a2.text,—<i>¿Me está dando órdenes? No lo creo</i> —dice el hombre—. <i>Estoy bien donde estoy</i>. \n\n No tiene intención de moverse.
+EventVanderbilt1a2.button1,Continuar
+EventVanderbilt1a3.text,Escucha tu discurso improvisado sobre astronomía con una sonrisa en la cara. Al concluir, dice: \n\n —<i>Muy conmovedor. Gracias</i>.
+EventVanderbilt1a3.button1,Continuar
+EventVanderbilt1a1.text,Extiendes una mano para saludar al hombre. Se presenta como el Sr. Vanderbilt, y te lanza una sonrisa cómplice. El Sr. Vanderbilt explica que está de vacaciones y que su casa está en remodelación después de ser saqueada recientemente por unos ladrones. Vuelve su mirada a las estrellas: \n\n —<i>Cada treinta años se forma una tormenta en el hemisferio norte de Saturno, conocida comúnmente como «La Gran Tormenta Blanca». Es diez mil veces más fuerte que una tormenta aquí en la Tierra. Se espera que esta noche de comienzo esta tormenta</i>. \n\n Ganas 1 Pista {clue}.
+EventVanderbilt1a1.button1,Continuar
+EventVanderbilt1a4.text,El Sr. Vanderbilt no aparta su vista del cielo: \n\n —<i>Los cuerpos celestes influyen en nuestras acciones más de lo que nos pensamos, como una mano invisible que controla todos nuestros movimientos. Se rumorea que cuando esta tormenta estalla, también ocurren fenómenos inexplicables aquí en la Tierra</i>. \n\n Ganas 1 Pista {clue}.
+EventVanderbilt1a4.button1,Continuar
+EventVanderbiltCapture1a1.button1,Button1
+EventVanderbiltCapture1a2.text,El sonido de cristales rotos te sobresalta. Te das la vuelta y ves cómo una enorme criatura, oscura y de aspecto coriáceo se estrella contra la ventana de la cabina de los dormitorios y se envuelve alrededor del Sr. Vanderbilt. En segundos, la bestia lo arrastra hacia ella y regresa al vacío de la noche, desapareciendo en el oscuro cielo nocturno. Lo último que oyes es un grito desgarrador. \n\n Los pasajeros están horrorizados. Uno de ellos cae a plomo desmayado. \n\n Descarta la ficha del Personaje. A continuación, todos los investigadores que se encuentren en el módulo Dormitorio de la tripulación sufren 1 de Horror boca abajo.
+EventVanderbiltCapture1a2.button1,Continuar
+EventVanderbiltCapture1a3.text,El sonido de cristales rotos te sobresalta. Te das la vuelta y ves cómo una enorme criatura, oscura y de aspecto coriáceo se estrella contra la ventana de la cabina de los dormitorios y se envuelve alrededor del hombre que permanecía allí tranquilo. En segundos, la bestia lo arrastra hacia ella y regresa al vacío de la noche, desapareciendo en el oscuro cielo nocturno. Lo último que oyes es un grito desgarrador. \n\n Los pasajeros están horrorizados. Uno de ellos cae a plomo desmayado. \n\n Descarta la ficha del Personaje. A continuación, todos los investigadores que se encuentren en el módulo Dormitorio de la tripulación sufren 1 de Horror boca abajo.
+EventVanderbiltCapture1a3.button1,Continuar
+EventVanderbilt1a5.text,El Sr. Vanderbilt no aparta su vista del cielo. \n\n —<i>Lo siento, amigo. Estoy seguro de que tendremos tiempo para hablar más tarde</i>.
+EventVanderbilt1a5.button1,Continuar
+EventMythosIntro.text,Mientras pasea por unos de los vagones, {rnd:hero} tropieza con una presencia invisible y en ese mismo instante, experimenta una sensación de fríos tentáculos envolviendo su cuerpo. Un hormigueo eléctrico recorre su columna vertebral llegando a todas sus extremidades. \n\n No hay ningún efecto adicional. \n\n Los investigadores tienen la oportunidad de gastar cualquier cantidad de pistas en este momento para debilitar el poder de futuros eventos de los Mitos.
+EventMythosIntro.button1,Continuar
+CustomMonsterNightGaunt1.info,-
+CustomMonsterNightGaunt1.monstername,Ángel descarnado de la noche
+SpawnNightGaunt1.text,Una enorme criatura alada se abalanza sobre el tren desde su parte posterior. A excepción de sus voluminosas alas y su larga cola, el cuerpo de la bestia tiene una forma vagamente humana. La piel es de un negro intenso, parece resbaladiza y gruesa al tacto. Su cara sin rostro muestra la desolación más profunda. {c:EventStart1} reconoce al engendro que os acecha: es un Ángel Descarnado. \n\n Aparece un Ángel Descarnado en el lugar señalado. Utiliza la miniatura de un Horrendo Cazador para representar a este monstruo.
+SpawnNightGaunt1.button1,Continuar
+EventNightGaunt1a1.button1,Button1
+EventNightGaunt1a2.text,El Ángel descarnado se abalanza alrededor del furgón de cola, buscando una entrada al tren. Sus garras en las puntas de las alas se abren y se cierran. \n\n No hay ningún efecto adicional.
+EventNightGaunt1a2.button1,Continuar
+EventNightGaunt1a3.text,Con notable destreza, el Ángel descarnado se abalanza sobre el vagón de cola. Busca presas en su interior. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt1a3.button1,Continuar
+EventNightGaunt1b1.button1,Button1
+EventNightGaunt1b3.button1,Continuar
+EventNightGaunt1b4.text,¡El Ángel descarnado agarra a George, que grita de miedo! \n\n Descarta la ficha del Hombre Morado.
+EventNightGaunt1b4.button1,Continuar
+EventNightGaunt1b3.text,¡El Ángel descarnado agarra a Liam, que grita de miedo! \n\n Descarta la ficha del Hombre Rojo.
+EventNightGaunt1b5.text,¡El Ángel descarnado agarra a Marie, que grita de miedo! \n\n Descarta la ficha de la Mujer Naranja.
+EventNightGaunt1b5.button1,Continuar
+EventNightGaunt1a4.text,El Ángel descarnado se mete en el vagón dormitorio en busca presas. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt1a4.button1,Continuar
+EventNightGaunt1c1.text,Con Liam en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. Liam golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de Daño.
+EventNightGaunt1c1.button1,Continuar
+EventNightGaunt1c2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa el techo del tren. Desaparece en la oscuridad de la noche en segundos. Los chillidos de Liam se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt1c2.button1,Continuar
+EventNightGaunt1Defeated1a1.button1,Button1
+EventNightGaunt1Defeated1a2.text,El Ángel descarnado cae al suelo, derrotado. Liam se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha del Hombre Rojo en el lugar señalado.
+EventNightGaunt1Defeated1a2.button1,Continuar
+EventNightGaunt1Defeated1a3.text,El Ángel descarnado cae al suelo, derrotado. George se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha del Hombre Morado en el lugar señalado.
+EventNightGaunt1Defeated1a3.button1,Continuar
+EventNightGaunt1Defeated1a4.text,El Ángel descarnado cae al suelo, derrotado. Marie se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha de la Mujer Naranja en el lugar señalado.
+EventNightGaunt1Defeated1a4.button1,Continuar
+EventNightGaunt1d1.text,Con George en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. George golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de daño.
+EventNightGaunt1d1.button1,Continuar
+EventNightGaunt1d2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa una de las ventanas y desaparece en la oscuridad de la noche en segundos. Los chillidos de George se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt1d2.button1,Continuar
+EventNightGaunt1e1.text,Con Marie en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. Marie golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de daño.
+EventNightGaunt1e1.button1,Continuar
+EventNightGaunt1e2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa la pared del vagón y desaparece en la oscuridad de la noche en segundos. Los chillidos de Marie se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt1e2.button1,Continuar
+EventNightGaunt1a5.text,El Ángel descarnado se arrastra hacia el salón buscando presas. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt1a5.button1,Continuar
+EventNightGaunt1a6.text,El Ángel descarnado destroza la cabina, esparciendo múltiples objetos. Aparentemente frustrado por no encontrar a su presa, el Ángel descarnado sale volando del tren a través de una ventana abierta. \n\n Asigna daño hasta derrotar al Ángel descarnado.
+EventNightGaunt1a6.button1,Continuar
+CustomMonsterNightGaunt2.info,-
+SpawnNightGaunt2.text,Un segundo gran Ángel descarnado aterriza contra el costado del tren. Aunque carece de rasgos faciales visibles, estira su cuello de lado a lado mientras parece buscar en el interior de la cabina. \n\n Aparece un Ángel descarnado en el lugar señalado. Utiliza la miniatura de un Horrendo Cazador para representar a este monstruo.
+CustomMonsterNightGaunt2.monstername,Ángel descarnado de la noche
+SpawnNightGaunt2.button1,Continuar
+EventNightGaunt2a1.button1,Button1
+EventNightGaunt2a2.text,El Ángel descarnado se abalanza alrededor del vagón de primera clase, buscando una entrada al tren. Las garras en las puntas de las alas se abren y cierran. \n\n No hay ningún efecto inmediato.
+EventNightGaunt2a2.button1,Continuar
+EventNightGaunt2a3.text,Con notable destreza, el Ángel descarnado se abalanza sobre el vagón de primera clase. Busca presas en la cabina. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt2a3.button1,Continuar
+EventNightGaunt2a4.text,El Ángel descarnado se arrastra hacia el salón de pasajeros buscando presas. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt2a4.button1,Continuar
+EventNightGaunt2a5.text,El Ángel descarnado se estrella contra la cabina del dormitorio. Los pasajeros asustados se tambalean en sus camas. El Ángel descarnado busca presas. \n\n Mueve el Ángel descarnado al lugar señalado.
+EventNightGaunt2a5.button1,Continuar
+EventNightGaunt2a6.text,El Ángel descarnado destroza la cabina, esparciendo múltiples objetos. Aparentemente frustrado por no encontrar a su presa, el Ángel descarnado sale volando del tren a través de una ventana abierta. \n\n Asigna daño hasta derrotar al Ángel descarnado.
+EventNightGaunt2a6.button1,Continuar
+EventNightGaunt2b1.button1,Button1
+EventNightGaunt2b3.text,¡El Ángel descarnado agarra a Liam! ¡Grita de miedo! \n\n Descarta la ficha del Hombre Rojo.
+EventNightGaunt2b3.button1,Continuar
+EventNightGaunt2b4.text,¡El Ángel descarnado agarra a George! ¡Grita de miedo! \n\n Descarta la ficha del Hombre Morado.
+EventNightGaunt2b4.button1,Continuar
+EventNightGaunt2b5.text,¡El Ángel descarnado agarra a Marie! ¡Grita de miedo! \n\n Descarta la ficha de la Mujer Naranja.
+EventNightGaunt2b5.button1,Continuar
+EventNightGaunt2c1.text,Con Liam en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. Liam golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de Daño.
+EventNightGaunt2c1.button1,Continuar
+EventNightGaunt2c2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa el techo del tren. Desaparece en la oscuridad de la noche en segundos. Los chillidos de Liam se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt2c2.button1,Continuar
+EventNightGaunt2d1.text,Con George en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. Liam golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de Daño.
+EventNightGaunt2d1.button1,Continuar
+EventNightGaunt2d2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa una de las ventanas y desaparece en la oscuridad de la noche en segundos. Los chillidos de George se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt2d2.button1,Continuar
+EventNightGaunt2e1.text,Con Marie en sus garras, el Ángel descarnado comienza a batir sus alas y a elevarse del suelo. Marie golpea a la bestia con las manos en un intento desesperado por escapar. \n\n El Ángel descarnado sufre 1 de Daño.
+EventNightGaunt2e1.button1,Continuar
+EventNightGaunt2e2.text,Con un poderoso batir de alas, el Ángel descarnado atraviesa la pared del vagón y desaparece en la oscuridad de la noche en segundos. Los chillidos de Marie se desvanecen en la distancia. Los otros pasajeros miran con horror. \n\n Asigna daño hasta derrotar al Ángel descarnado. \n\n Todos los investigadores sufren 3 de Horror boca abajo.
+EventNightGaunt2e2.button1,Continuar
+EventNightGaunt2defeated1a1.button1,Button1
+EventNightGaunt2Defeated1a2.text,El Ángel descarnado cae al suelo, derrotado. Liam se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha del Hombre Rojo en el lugar señalado.
+EventNightGaunt2Defeated1a2.button1,Continuar
+EventNightGaunt2Defeated1a3.text,El Ángel descarnado cae al suelo, derrotado. George se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha del Hombre Morado en el lugar señalado.
+EventNightGaunt2Defeated1a3.button1,Continuar
+EventNightGaunt2Defeated1a4.text,El Ángel descarnado cae al suelo, derrotado. Marie se libera de sus garras y se retira a un lugar seguro. \n\n Coloca la ficha de la Mujer Naranja en el lugar señalado.
+EventNightGaunt2Defeated1a4.button1,Continuar
+EventYogSothoth1a1.text,Cuando las nubes se separan, la Luna ilumina el área circundante. El respiro de la completa oscuridad de la noche es un cambio de ritmo bienvenido. {rnd:hero} se asoma a una ventana para buscar más bestias. Dejando escapar un suspiro de alivio, {rnd:hero} anuncia que el área está despejada. Los pasajeros aplauden y vitorean... aunque esa montaña parece mucho más cercana que antes. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventYogSothoth1a1.button1,Continuar
+EventYogSothoth1a2.text,El breve período de alivio entre los pasajeros se ha convertido en pavor. Una enorme montaña ha ido ganando terreno al tren. Inicialmente parecía que era solo un mero truco de luz. \n\n Mueve la ficha de Búsqueda al lugar señalado. \n\n Todos los investigadores sufren 1 de Horror boca abajo (anulado por {will}).
+EventYogSothoth1a2.button1,Continuar
+EventYogSothoth1a6.text,La «montaña» se ilumina por primera vez. Los pasajeros jadean. No es una montaña en absoluto, sino una fusión retorcida de músculos, tierra y horror. Los ojos sin párpados se abren ante la enorme monstruosidad. Con alarmante destreza, la bestia trepa hacia adelante con pezuñas deformes. \n\n Descarta esta ficha de Búsqueda. Aparece Yog-Sothoth en el lugar señalado. Utiliza la miniatura Semilla Informe para representar este monstruo. \n\n Todos los investigadores sufren 1 de Horror boca abajo.
+EventYogSothoth1a6.button1,Continuar
+TokenYog3.text,Lo que se confundió con una montaña es en realidad una monstruosidad retorcida. Es una enorme fusión de músculo, tierra y horror. Los ojos sin párpados se fijan en el tren. Con alarmante destreza, la bestia trepa hacia adelante con sus deformes pezuñas.
+TokenYog3.button1,Continuar
+EventYogSothoth1b1.text,Los pasajeros al final del tren retroceden nerviosos cuando la monstruosidad se levanta detrás del vagón de cola. Zarcillos de músculo brotan de ella y llegan a través del vagón. Los desafortunados pasajeros son sacados del tren cuando los tentáculos restallan como si fueran látigos. Sus gritos se silencian de inmediato al ser arrastrados hacia la bestia. El vagón de cola está rasgado por un lado, colgando precariamente sobre el borde del puente. \n\n Abruptamente, la monstruosidad retrocede en la oscuridad. \n\n Mueve el módulo del vagón de cola al lugar señalado. Cualquier investigador que esté en el Vagón de cola sufre 2 de Daño boca abajo (anulados por {strength} o {agility}). A continuación, descarta la forma de Yog-Sothoth y coloca una ficha de Interacción en el lugar señalado.
+EventYogSothoth1b1.button1,Continuar
+EventYogSothoth1b2.button1,Button1
+EventYogSothoth1b3.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que George no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha del Hombre Morado.
+EventYogSothoth1b3.button1,Continuar
+EventYogSothoth1b4.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que Liam no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha del Hombre Rojo.
+EventYogSothoth1b4.button1,Continuar
+EventYogSothoth1b5.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que Marie no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha de la Mujer Naranja.
+EventYogSothoth1b5.button1,Continuar
+EventYogSothoth1b6.button1,Button1
+EventYogSothoth1b7.text,George se pone a salvo. \n\n Mueve la ficha del Hombre Morado al lugar señalado.
+EventYogSothoth1b7.button1,Continuar
+EventYogSothoth1b8.button1,Continuar
+EventYogSothoth1b9.button1,Continuar
+EventYogSothoth1b8.text,Liam se pone a salvo. \n\n Mueve la ficha del Hombre Rojo al lugar señalado.
+EventYogSothoth1b9.text,Marie se pone a salvo. \n\n Mueve la ficha de la Mujer Naranja al lugar señalado.
+EventYogSothoth1c1.text,El grito de una anciana desde la cabina de primera clase llama la atención de los Investigadores. A través de la ventana que hay junto a ella, la Monstruosidad se alza sobre el tren. \n\n Mueve la forma de Yog-Sothoth al lugar señalado.
+EventYogSothoth1c1.button1,Continuar
+TokenYog4.text,Lo que se confundió con una montaña es en realidad una monstruosidad retorcida. Es una enorme fusión de músculo, tierra y horror. Los ojos sin párpados se fijan en el tren.
+TokenYog4.button1,Continuar
+EventYogSothoth1d1.text,Los pasajeros en la cabina de primera clase están petrificados por el miedo cuando la bestia se eleva sobre el tren. Se agarra a la cabina, sacándola de las vías y sobre el abismo. El metal retorcido es lo único que evita que se caiga. \n\n Abruptamente, la monstruosidad retrocede en la oscuridad. \n\n Mueve el módulo del vagón de pasajeros 1 al lugar señalado. Cualquier investigador que esté en el módulo vagón de Pasajeros 1 sufre 2 de Daño boca abajo (anulados por {strength} o {agility}). A continuación, descarta la forma de Yog-Sothoth y coloca una ficha de Interacción en el lugar señalado.
+EventYogSothoth1d1.button1,Continuar
+EventYogSothoth1d2.button1,Button1
+EventYogSothoth1d3.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que George no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha del Hombre Morado.
+EventYogSothoth1d3.button1,Continuar
+EventYogSothoth1d4.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que Liam no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha del Hombre Rojo.
+EventYogSothoth1d4.button1,Continuar
+EventYogSothoth1d5.text,Cuando el polvo se aclara, los investigadores se dan cuenta de que Marie no está. \n\n Todos los investigadores sufren 3 de Horror boca abajo. A continuación. descarta la ficha de la Mujer Naranja.
+EventYogSothoth1d5.button1,Continuar
+EventYogSothoth1d6.button1,Button1
+EventYogSothoth1d7.text,George se pone a salvo. \n\n Mueve la ficha del Hombre Morado al lugar señalado.
+EventYogSothoth1d7.button1,Continuar
+EventYogSothoth1d8.text,Liam se pone a salvo. \n\n Mueve la ficha del Hombre Rojo al lugar señalado.
+EventYogSothoth1d8.button1,Continuar
+EventYogSothoth1d9.text,Marie se pone a salvo. \n\n Mueve la ficha de la Mujer Naranja al lugar señalado.
+EventYogSothoth1d9.button1,Continuar
+TokenJump1.text,Saltar de cabina en cabina no será fácil. Es difícil ver las vías del puente en la noche.
+TokenJump1.button1,{action} Saltar al otro vagón
+EventJump1a1.text,Cierras los ojos y saltas al oscuro abismo. Chocas contra la otra cabina y casi pierdes el agarre. Sufres 2 de Horror boca abajo o 2 de Daño boca abajo (anulados por {agility}). Logras sostenerte y trepas hacia la cabina. \n\n Mueve la miniatura de tu investigador hacia el módulo a través del espacio entre vagones.
+EventJump1a1.button1,Continuar
+TokenJump2.text,Saltar de cabina en cabina no será fácil. Es difícil ver las vías del puente en la noche.
+TokenJump2.button1,{action} Saltar al otro vagón
+EventJump2a1.text,Cierras los ojos y saltas al oscuro abismo. Chocas contra la otra cabina y casi pierdes el agarre. Sufres 2 de Horror boca abajo o 2 de Daño boca abajo (anulados por {agility}). Logras sostenerte y trepas hacia la cabina. \n\n Mueve la miniatura de tu investigador hacia el módulo a través del espacio entre vagones.
+EventJump2a1.button1,Continuar
+EventYogSothoth1e1.text,Con un chirrido de metal, los pernos restantes que sujetan el vagón de primera clase se rompen. Los pasajeros jadean cuando la cabina cae debajo del puente y se pierde de vista. \n\n Descarta el módulo Vagón de pasajeros 1 y todas las fichas de búsqueda que hubieran en él. \n\n Cualquier investigador situado en este módulo es eliminado.
+EventYogSothoth1e1.button1,Continuar
+TokenPassengerCar2.text,Una pistola, previamente escondida en algún lugar de la cabina, ha quedado a la vista debido al choque provocado por la monstruosidad.
+TokenPassengerCar2.button1,{action} Coger la pistola
+EventPassengerCar2a1.text,Ganas el objeto común Automática del 45. A continuación, descarta esta ficha de Búsqueda.
+EventPassengerCar2a1.button1,Continuar
+TokenYog5.button1,Continuar
+EventYogSothoth1f1.text,Agotados y derrotados, los pasajeros se apiñan en las esquinas de la cabina del salón. La monstruosidad ha regresado. Se alza sobre sus patas como una imponente torre. Los músculos de sus apéndices se flexionan mientras prepara un golpe final contra el tren. \n\n Los investigadores se están quedando sin tiempo. \n\n Mueve la forma de Yog-Sothoth al lugar señalado.
+TokenYog5.text,Lo que se confundió con una montaña es en realidad una monstruosidad retorcida. Es una enorme fusión de músculo, tierra y horror. Los ojos sin párpados se fijan en el tren.
+EventYogSothoth1f1.button1,Continuar
+UI1.uitext,Con un grito estremecedor, la Monstruosidad estampa sus puños cerrados contra el tren y el puente. El puente se derrumba bajo el embate. El tren tarda sólo unos segundos en desaparecer en las profundidades del valle. Los investigadores y todos los pasajeros, excepto uno, encuentran su prematura perdición. \n\n Los investigadores han sido derrotados.
+UI2.uitext,FIN
+UI2.button1,Button1
+TokenEngine4.button2,{action} Acoplar la transmisión
+EventEngine4b1.text,El tren se tambalea y chisporrotea pero no se mueve. El motor debe necesitar más carbón.
+EventEngine4b1.button1,Continuar
+EventEngine4b2.text,La locomotora del tren cobra vida cuando se activa la transmisión. ¡El tren vuelve a moverse! \n\n Descarta esta ficha de Interacción. \n A continuación, todos los investigadores descartan 1 de Horror boca abajo.
+EventEngine4b2.button1,Continuar
+EventStatue1a9.text,Los investigadores deben elegir: \n\n Dejar las esculturas en el tren y abandonar a los pasajeros o usar las esculturas como señuelo, salvar a los pasajeros y tratar de desterrar a Yog-Sothoth.
+EventStatue1a9.button1,Abandonar a los pasajeros
+EventStatue1a9.button2,Arriesgarlo todo y atraer a Yog-Sothoth
+EventStatue1a9.button3,Cancelar
+EventStatue1a10.text,Primero, los investigadores deben volver a poner en marcha el motor.
+EventStatue1a10.button1,Continuar
+UI4.uitext,Después de desacoplar la cabina del motor principal, los investigadores arrojaron las otras esculturas verdes en las cabinas de pasajeros. Cerraron la puerta de golpe antes de que otros pasajeros se dieran cuenta de lo que estaban haciendo. Cuando el tren desapareció de la vista, también lo hicieron sus gritos y chillidos. El resto del viaje a la siguiente ciudad transcurrió sin incidentes. \n\n Cada noche, mientras los investigadores permanecían despiertos en la cama, sus pensamientos volvían al viaje a través de los Alpes. Escaparon con vida, pero dejaron atrás su humanidad.
+EventEngine2a8.button1,Continuar
+EventEngine2a8.text,En el Furgón de cola viste algunas cajas con carbón.
+TokenCoal1.text,Hay varias cajas que contienen carbón.
+TokenCoal1.button1,{action} Coger carbón
+EventCoal1a1.text,Ganas el objeto único Combustible.
+EventCoal1a1.button1,Continuar
+EventCoal1a2.text,Ganas el objeto único Combustible. \n A continuación, descarta esta ficha de Búsqueda
+EventCoal1a2.button1,Continuar
+EventStatue1a11.text,Primero, los investigadores deben volver a poner en marcha el motor. Después los investigadores deben elegir: \n\n Dejar las esculturas en el tren y abandonar a los pasajeros o usar las esculturas como señuelo, salvar a los pasajeros y tratar de desterrar a Yog-Sothoth.
+EventStatue1a11.button1,Continuar
+EventEndSequence1a1.text,Sabiendo lo que deben hacer, el investigador jefe asiente solemnemente. Sin perder tiempo, los investigadores desacoplan las cabinas principales del resto del tren. El tren acelera como resultado de la carga más ligera que debe soportar la locomotora. \n\n Descarta esta ficha de Interacción y todos los módulos y fichas, excepto el vagón comedor 1, el vagón comedor 2 y la Locomotora. \n\n Descarta a todos los monstruos del tablero.
+EventEndSequence1a1.button1,Continuar
+EventEndSequence1a2.button1,Button1
+EventEndSequence1a3.text,Antes de que las cabinas se separen, George aparece en la puerta. Él les da a los investigadores una mirada comprensiva. Levantando su maletín médico, dice: \n\n —<i>¡Lo mínimo que puedo hacer es curar a uno de ustedes!</i> \n\n Descarta la mitad del Daño, redondeando hacia arriba, de un Investigador.
+EventEndSequence1a3.button1,Continuar
+EventEndSequence1a4.text,Antes de que puedas terminar de desacoplar las cabinas del tren, Liam aparece en la puerta. El cansancio pesa sobre su rostro. \n\n —<i>Estos huesos cansados no valen mucho, pero puedo ofrecer esto</i>. \n\n ¡Liam te entrega un arma de fuego! \n\n Ganas el objeto común Revolver.
+EventEndSequence1a4.button1,Continuar
+EventEndSequence1a5.text,Antes de que la cabina se separe del resto del tren, Marie da un paso hacia los investigadores. Aunque su actitud juguetona ha sido abandonada hace mucho tiempo, levanta una botella de vino. \n\n —<i>¿Una última copa, camaradas?</i> \n\n Descarta la mitad del Horror, redondeado hacia arriba, de un Investigador.
+EventEndSequence1a5.button1,Continuar
+EventEndSequence1b1.text,No pasa mucho tiempo antes de que la monstruosidad se eleve sobre el tren una vez más. \n\n Coloca la forma de Yog-Sothoth en el lugar señalado.
+EventEndSequence1b1.button1,Continuar
+EventEndSequence1b2.text,A los pocos minutos de la puesta en marcha del tren, el objeto en el horizonte que se cree que es un pico de montaña solitario revela su verdadera naturaleza. Un conglomerado masivo de tierra, músculo y horror. \n\n —<i>La manifestación física de Yog-Sothoth</i> —, grita uno de los Investigadores. \n\n —<i>¡Viene a por las estatuas!</i> \n\n Coloca la forma de Yog-Sothoth en el lugar señalado. Utiliza la miniatura de la Semilla Informe para representar a este monstruo.
+EventEndSequence1b2.button1,Continuar
+EventEndSequence1b3.button1,Continuar
+EventEndSequence2a1.button1,Button1
+EventEndSequence1b3.text,{c:EventStart1} habla, apremiando al resto: \n\n —<i>El hechizo de invocación que completamos fusionó las dos piedras verdes en una. La única piedra debe de estar protegida. Actuará como un faro tanto para Yog-Sothoth como para los guardianes celestiales ¡Eso se puede usar para desterrarlo una vez más!</i> \n\n Elige un investigador para obtener el objeto único Escultura grotesca. Este objeto no podrá ni soltarse ni intercambiarse.
+EventEndSequence2a2.button1,Button1
+EventEndSequence2a3.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventEndSequence2a3.button1,Continuar
+EventEndSequence2a4.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventEndSequence2a4.button1,Continuar
+EventEndSequence2a5.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventEndSequence2a5.button1,Continuar
+TokenTotem1.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. Chisporrotea con una energía inestable.
+TokenTotem1.button1,{action} Concentrarse
+TokenTotem3.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. Chisporrotea con una energía inestable.
+TokenTotem3.button1,{action} Concentrarse
+TokenTotem2.text,Un tótem verde de otro mundo se materializa. Flota sobre el suelo y baña la cabina con una luz ámbar inquietante. Chisporrotea con una energía inestable.
+TokenTotem2.button1,{action} Concentrarse
+EventTotem1a1.text,Mirando el tótem, te concentras intensamente en cada pizca de conocimiento que tienes sobre las fuerzas sobrenaturales activas en el mundo. Los pedazos de piedra se mueven cambiando de lugar. Las grietas que recorren su cuerpo se fusionan \n ({lore}; 3 + x). \n\n <b>x = el número de investigadores derrotados. </b>\n\n El investigador con el {lore} más alto puede gastar una acción para contribuir con una tirada adicional a esta prueba.
+EventTotem1a1.button1,Éxito
+EventTotem1a1.button2,Fallo
+EventTotem1a2.text,Pierdes la concentración y la superficie del tótem se vuelve a dividir.
+EventTotem1a2.button1,Continuar
+EventTotem1a3.text,Gotas de sudor caen por tu frente mientras luchas por permanecer concentrado en el tótem. ¡Con un destello, algunas de las piezas móviles se fusionan! Aun así, todavía tienes que fusionar el resto.
+EventTotem1a3.button1,Continuar
+EventTotem1a4.text,Al secarse el sudor de la frente, sientes una sensación de satisfacción por el trabajo bien hecho. El tótem se ha fusionado en una sólida pieza de esmeralda. Parpadea y comienza a desaparecer de la vista. \n\n Descarta esta ficha de Interacción.
+EventTotem1a4.button1,Continuar
+EventTotem2a1.text,Mirando el tótem, concentras cada pizca de tu energía restante. Piezas del tótem se deslizan en su lugar. Comienza a fusionarse en un bloque de piedra sólido ({strength} o {agility}; 4 + x). \n\n <b>x = el número de investigadores derrotados. </b>\n\n El investigador que haya sufrido más Daño puede gastar una acción para contribuir con una tirada adicional a esta prueba.
+EventTotem2a1.button1,Éxito
+EventTotem2a1.button2,Fallo
+EventTotem2a3.text,Gotas de sudor caen por tu frente mientras luchas por permanecer concentrado en el tótem. ¡Con un destello, algunas de las piezas móviles se fusionan en su lugar! Aun así, todavía tienes que fusionar el resto.
+EventTotem2a3.button1,Continuar
+EventTotem2a4.text,Al secarse el sudor de la frente, sientes una sensación de satisfacción por el trabajo bien hecho. El tótem se ha fusionado en una sólida pieza de esmeralda. Parpadea y comienza a desaparecer de la vista. \n\n Descarta esta ficha de Interacción.
+EventTotem2a4.button1,Continuar
+EventTotem3a1.text,Mirando el tótem, reúnes tu última fuerza física y mental. Los pedazos de la piedra se deslizan en su lugar a un ritmo minuciosamente lento ({will}; y + x). \n\n<b> y = tu daño acumulado. \n\n x = el número de investigadores derrotados.</b> \n\n Otro investigador puede sufrir 2 de Daño boca abajo para aportar una tirada adicional a esta prueba.
+EventTotem3a1.button1,Éxito
+EventTotem3a1.button2,Fallo
+EventTotem3a3.text,Gotas de sudor caen por tu frente mientras luchas por permanecer concentrado en el tótem. ¡Con un destello, algunas de las piezas móviles se fusionan en su lugar! Aun así, todavía tienes que fusionar el resto.
+EventTotem3a3.button1,Continuar
+EventTotem3a4.text,Al secarse el sudor de la frente, sientes una sensación de satisfacción por el trabajo bien hecho. El tótem se ha fusionado en una sólida pieza de esmeralda. Parpadea y comienza a desaparecer de la vista.
+EventTotem3a4.button1,Continuar
+TokenYog6.text,Una enorme fusión de músculo, tierra y horror persigue al tren. Los ojos sin párpados se fijan en ti mientras se vislumbra en lo alto. La monstruosidad está ganando velocidad.
+TokenYog6.button1,Continuar
+TokenYog7.text,Una enorme fusión de músculo, tierra y horror persigue al tren. Los ojos sin párpados se fijan en ti mientras se vislumbra en lo alto. La monstruosidad está ganando velocidad.
+TokenYog7.button1,Continuar
+EventYogBoss1a1.text,En cuestión de minutos, la monstruosidad ha alcanzado al tren a toda velocidad. Cada paso de sus pezuñas hace eco de un estruendo atronador. \n\n El investigador con menos {will} sufre 1 de Horror boca abajo. \n\n Mueve la forma de Yog-Sothoth al lugar señalado.
+EventYogBoss1a1.button1,Continuar
+CustomMonsterYog1.info,-
+SpawnYog1.text,La monstruosidad choca contra el costado del tren, haciendo un agujero en la pared. Un apéndice enorme y musculoso se desliza hacia la cabina. Miles de manos humanas se alinean a lo largo del apéndice, abriéndose y cerrándose en busca de presas. \n\n Mueve la forma de Yog-Sothoth al lugar señalado (utiliza una miniatura de una Semilla informe para representarla).
+CustomMonsterYog1.monstername,Constructo de Yog-Sothoth
+SpawnYog1.button1,Continuar
+EventYog1a1.button1,Continuar
+EventYog1a2.text,El apéndice de la monstruosidad se desliza por la cabina en busca de una presa. \n\n ¿Hay un investigador que posea el objeto único Escultura grotesca en el mismo espacio que la forma de Yog-Sothoth?
+EventYog1a2.button1,Sí
+EventYog1a2.button2,No
+EventYog1a3.text,Con la velocidad de una víbora, las muchas manos del apéndice agarran al investigador que lleva el objeto único Escultura grotesca. \n\n El investigador adquiere el estado Retenido y sufre 2 de Daño boca abajo.
+EventYog1a3.button1,Continuar
+EventYog1a4.text,El apéndice se desliza a través de la cabina en busca de una presa. \n\n Mueve la forma de Yog-Sothoth 1 espacio hacia el investigador más cercano que lleve el Objeto único Escultura grotesca.
+EventYog1a4.button1,Continuar
+EventYog1a5.text,El apéndice de la monstruosidad se estremece violentamente y golpea cualquier cosa cercana. Cualquiera que esté cerca es agarrado y estrangulado sin piedad. Todos los investigadores en el mismo espacio que la forma de Yog-Sothoth sufren 2 de Daño boca abajo (anulados por {strength} o {agility}).
+EventYog1a5.button1,Continuar
+EventYog1a6.text,Las múltiples manos que bordean el apéndice de la monstruosidad se abren lo más posible. Se revela que cada mano tiene una boca ubicada en la palma. Todas las bocas arrullan al unísono. El sonido es fascinante y aterrador. Todos los investigadores en el mismo espacio que la forma de Yog-Sothoth sufren 2 de Horror boca abajo y luchan por mantenerse enfocados ({will}; 2). Si fallas la tirada, adquieres el estado Aturdido.
+EventYog1a6.button1,Continuar
+EventYog2a2.button1,Button1
+UI10.uitext,La Monstruosidad extrae suavemente la piedra verde de su agarre, pasándola a lo largo de las muchas manos que bordean el apéndice y fuera de la cabina. Con un furioso bramido, la Monstruosidad luego estrella sus apéndices contra la locomotora del tren. El tren rueda por la empinada ladera hacia el valle. \n\n Los investigadores han sido derrotados.
+EventYog1a8.button1,Continuar
+EventYog1a9.text,El investigador en manos de la Monstruosidad se retuerce y se mueve libremente. La próxima vez no será tan fácil. \n\n Mueve al Investigado que posea el objeto único Escultura grotesca a 1 espacio de distancia de la forma de Yog-Sothoth.
+EventYog1a9.button1,Continuar
+EventWardSearch5b.button2,Fallo
+EventYogBossMythos1a1.button1,Button1
+EventYogBossMythos1a2.text,Los relámpagos iluminan las ondulantes nubes de tormenta. La fatalidad de la lucha es evidente para los Investigadores. Todos los investigadores sufren 1 de Horror boca abajo (anulado por {will}).
+EventYogBossMythos1a2.button1,Continuar
+EventYogBossMythos1a3.text,La monstruosidad choca contra un costado del tren, arrojando a los investigadores al suelo. Todos los investigadores sufren 1 de Daño boca abajo (anulado por {strength}).
+EventYogBossMythos1a3.button1,Continuar
+EventYogBossMythos1a4.text,La monstruosidad se apodera de las vías del tren, sacudiéndolas con una fuerza terrible. Los investigadores son lanzados por el interior de las cabina, golpeando los muebles mientras intentan agarrarse para salvar la vida. Todos los investigadores sufren 1 de Daño boca abajo y 1 de Horror boca abajo (anulados por {agility} u {observation}).
+EventYogBossMythos1a4.button1,Continuar
+CustomMonsterYog2.info,-
+EventYogBossMythos1a5.button1,Continuar
+CustomMonsterYog2.monstername,Constructo de Yog-Sothoth
+SpawnYog2.text,La monstruosidad choca contra la locomotora del tren, haciendo un agujero en la pared. Otro apéndice enorme llega hasta la cabina. Miles de manos humanas se alinean en el costado del apéndice, agarrando en busca de presas. \n\n Coloca una forma de Yog-Sothoth en el lugar señalado. Utiliza una miniatura sustituta si es necesario.
+SpawnYog2.button1,Continuar
+SpawnYog3.text,La monstruosidad alcanza el tren, haciendo un agujero en la pared. Otro apéndice masivo se desliza hacia la cabina. Miles de manos humanas se alinean en el lateral del apéndice, agarrando en busca de presas. \n\n Coloca una forma de Yog-Sothoth en el lugar señalado. Utiliza una miniatura sustituta si es necesario.
+SpawnYog3.button1,Continuar
+CustomMonsterYog3.info,-
+SpawnYog4.text,La monstruosidad alcanza el tren, haciendo un agujero en la pared. Otro apéndice masivo se desliza hacia la cabina. Miles de manos humanas se alinean en el lateral del apéndice, agarrando en busca de presas. \n\n Coloca una forma de Yog-Sothoth en el lugar señalado. Utiliza una miniatura sustituta si es necesario.
+CustomMonsterYog3.monstername,Constructo de Yog-Sothoth
+SpawnYog4.button1,Continuar
+CustomMonsterYog4.monstername,Constructo de Yog-Sothoth
+CustomMonsterYog4.info,-
+EventYog1b1.text,La Monstruosidad se estremece de agonía y libera de su agarre al investigador que agarra el objeto único Escultura grotesca. \n\n El investigador con el objeto único Escultura grotesca descarta el estado Retenido.
+EventYog1b1.button1,Continuar
+EventYog2a1.text,El investigador que posea la Escultura grotesca adquiere el estado Retenido.
+EventYog2a1.button1,Continuar
+EventVictory1a1.text,Más y más apéndices de la monstruosidad cubren el tren. Todas las ventanas y puertas están bloqueadas. Escapar parece imposible. De repente, los apéndices comienzan a contraerse rápidamente. Como una llama dentro de una lámpara, el interior de los apéndices comienza a brillar cada vez más.
+EventVictory1a1.button1,Continuar
+EventVictory1a2.text,La luz dentro de la monstruosidad brilla tan intensamente que no puedes ver nada. Antes de que todo se vuelva blanco, ves la silueta de miles de manos empujando desde el interior de los apéndices. ¡Hay una gran cacofonía de gritos y todo se vuelve blanco!
+EventVictory1a2.button1,Continuar
+EventVictory1a3.text,Jugador 3, selecciona cómo se comportó {c:EventStart1} en la investigación.
+EventVictory1a3.button1,Con valentía
+EventVictory1a3.button2,Con suspicacia
+EventVictory1a3.button3,Con cautela
+EventVictory1a8.text,A altas horas de la noche, el director Hoover se sienta en su escritorio. Mira fijamente los rincones oscuros de la habitación. De repente, un mensajero irrumpe en la habitación agitando un sobre sellado con un escudo que se asemeja a una letra «V» adornada con alas. El director Hoover agarra la carta, echa al hombre de la habitación y se sienta en su escritorio a reflexionar sobre la carta.
+EventVictory1a4.text,A altas horas de la noche, el director Hoover se sienta en su escritorio. Mira fijamente los rincones oscuros de la habitación. De repente, un mensajero irrumpe en la habitación agitando un sobre sellado con un escudo que se asemeja a una letra «V» adornada con alas. El director Hoover agarra la carta, echa al hombre de la habitación y se sienta en su escritorio a reflexionar sobre la carta.
+EventVictory1a4.button1,Continuar
+UI6.uitext,La carta va acompañada de un recorte de periódico que habla sobre un accidente de tren en Europa. Numerosos civiles siguen desaparecidos después de que la locomotora se desacoplara del tren. La carta dice: \n\n <i>«Observador informa que los activos están a salvo y el objetivo se desempeñó con valentía. Recomendamos un seguimiento continuo»</i>. \n\n Sonriendo, el director Hoover sostiene la carta sobre una vela hasta que el papel prende fuego, consumiéndose lentamente. \n\n —<i>Otra catástrofe evitada</i> —dice mientras la habitación se oscurece.
+EventVictory1a6.text,A altas horas de la noche, el director Hoover se sienta en su escritorio. Mira fijamente los rincones oscuros de la habitación. De repente, un mensajero irrumpe en la habitación agitando un sobre sellado con un escudo que se asemeja a una letra «V» adornada con alas. El director Hoover agarra la carta, echa al hombre de la habitación y se sienta en su escritorio a reflexionar sobre la carta.
+EventVictory1a6.button1,Continuar
+UI7.uitext,La carta va acompañada de un recorte de periódico que habla sobre un accidente de tren en Europa. Numerosos civiles siguen desaparecidos después de que la locomotora se desacoplara del tren. La carta dice: \n\n <i>«El observador informa que los activos están a salvo y no se puede confiar en el objetivo. Se recomienda iniciar la operación Daga Ritual»</i>. \n\n Sonriendo, el director Hoover sostiene la carta sobre una vela hasta que el papel comienza a arder. \n\n —<i>Al menos se ha evitado otra catástrofe</i> —dice mientras la habitación se oscurece.
+EventVictory1a8.button1,Continuar
+UI8.uitext,La carta va acompañada de un recorte de periódico que habla sobre un accidente de tren en Europa. Numerosos civiles siguen desaparecidos después de que la locomotora se desacoplara del tren. La carta dice: \n\n <i>«El observador informa que los activos están a salvo y el objetivo es un maestro de la táctica. Se recomienda mantener las distancias»</i>. \n\n El director Hoover coloca la carta sobre la llama de una vela hasta que se enciende. \n\n —<i>Al menos se ha evitado otra catástrofe</i> — dice mientras la habitación se oscurece.
+EventInstructions1a1.text,Un trozo de papel arrugado queda atrapado en la corriente de apertura y cierre de las puertas del tren. Se arremolina en una esquina de la cabina. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventInstructions1a1.button1,Continuar
+EventInstructions1a2.button1,Continuar
+EventInstructions1a2.text,El trozo de papel arrugado vuelve a quedar atrapado en la corriente de apertura y cierre de las puertas del tren. Se arremolina en el Vagón de cola. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventInstructions1a3.text,El trozo de papel arrugado vuelve a quedar atrapado por la corriente de aire de la apertura y cierre de las puertas del tren. Gira hacia el borde del tren. \n\n Mueve la ficha de Búsqueda al lugar señalado.
+EventInstructions1a3.button1,Continuar
+EventInstructions1a4.text,El papel arrugado sale volando, desapareciendo en la oscuridad de la noche. \n\n Descarta la ficha de Búsqueda.
+EventInstructions1a4.button1,Continuar
+TokenInstructions1.text,En el suelo hay una vieja hoja de papel arrugada y amarillenta.
+TokenInstructions1.button1,{action} Leer el papel
+TokenInstructions2.text,En el suelo hay una vieja hoja de papel arrugada y amarillenta.
+TokenInstructions2.button1,{action} Leer el papel
+TokenInstructions3.text,En el suelo hay una vieja hoja de papel arrugada y amarillenta.
+TokenInstructions3.button1,{action} Leer el papel
+EventInstructions2a1.text,Recoges el papel. Las instrucciones escritas a mano están garabateadas en el papel de manera desigual. Parece algún tipo de encantamiento druídico. Supuestamente permite a las personas comunicarse con espíritus ancestrales. Es significativo que un prestidigitador pueda controlar telepáticamente los «tótems vinculantes» concentrándose mentalmente en ellos. \n\n Ganas 2 Pistas {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventInstructions2a1.button1,Continuar
+TokenTotemLearn1.text,Un tótem verde de otro mundo se materializa en tu plano de existencia. Flota sobre el suelo y baña la cabina con una luz ámbar espeluznante. Crepita con energía inestable.
+TokenTotemLearn1.button1,{action} Agarrar el tótem
+TokenTotemLearn1.button2,{action} Atacar al tótem
+TokenTotemLearn1.button3,{action} Empujar el tótem
+TokenTotemLearn1.button4,{action} Concentrarse en el tótem
+EventTotemLearn1a1.text,Aunque algunas de sus piezas se cambian de lugar, nada más parece suceder.
+EventTotemLearn1a1.button1,Continuar
+EventTotemLearn1a2.button1,Button1
+TokenYog1.text,La montaña parece estar más cerca que antes.
+TokenYog1.button1,Continuar
+TokenYog2.text,La montaña parece estar mucho más cerca que antes.
+TokenYog2.button1,Continuar
+EventInvestigatorEliminated1a1.text,Este escenario no termina automáticamente después de la eliminación de un investigador. En cambio, el escenario se vuelve más difícil. Cuando todos los investigadores son eliminados, activa esta ficha. Alternativamente, activa esta Ficha cuando los investigadores sobrevivientes deseen terminar el escenario en fracaso
+EventInvestigatorEliminated1a1.button1,Continuar
+TokenInvestigatorEliminated1.text,¿Terminar el escenario con un fracaso?
+TokenInvestigatorEliminated1.button1,Sí
+EventInvestigatorEliminated1a2.text,A altas horas de la noche, el director Hoover se sienta en su escritorio. Mira fijamente los rincones oscuros de la habitación. De repente, un mensajero irrumpe en la habitación agitando un periódico de origen europeo. El director Hoover agarra el periódico y echa al hombre de la habitación.
+EventInvestigatorEliminated1a2.button1,Continuar
+UI9.uitext,La noticia principal del periódico trata sobre un accidente de tren en Europa. La locomotora principal se desacopló del tren. Inexplicablemente, todos los civiles están desaparecidos. Se cree que es obra de separatistas violentos. El director Hoover deja caer el periódico sobre su escritorio con un suspiro. En un bloc de notas, escribe: \n\n «Operación Valkyrie - FRACASO». \n\n Apaga la lámpara de su escritorio y la habitación se oscurece.
+CustomMonsterInvestigator.monstername,Alma en pena
+CustomMonsterInvestigator.info,-
+SpawnLostSoul1a1.text,Se escucha una voz familiar desde la esquina de la cabina. El corazón se te sube a la garganta mientras ves a tu amigo derrotado levantarse del suelo. El rostro ahora está demacrado y estirado, como el que sufre un rápido rigor mortis. \n\n Aparece una Alma Perdida en el espacio donde el investigador fue eliminado. Utiliza la miniatura de un Sectario o la del Investigador.
+SpawnLostSoul1a1.button1,Continuar
+EventLostSoul2a1.text,El Alma perdida se mueve 1 casilla hacia el investigador más cercano que haya sufrido más Horror. Luego ataca a todos los investigadores dentro del alcance.
+EventLostSoul2a1.button1,El monstruo ataca
+EventLostSoul2a1.button2,No hay investigadores al alcance.
+EventLostSoul2a2.text,El alma perdida se acerca a ti con ojos suplicantes. Pide misericordia. El terror es insoportable. Sufres 2 de Horror boca abajo (anulados por {will}). \n Si sufres 2 de Horror, adquieres el estado Retenido. \n\n Por cada investigador que haya sufrido Horror, el alma perdida se cura 1 de Daño.
+EventLostSoul2a2.button1,Continuar
+EventLostSoul3a1.text,El alma perdida se acerca a ti con ojos suplicantes. Pide misericordia. El terror es insoportable. Sufres 2 de Horror boca abajo.
+EventLostSoul3a1.button1,Continuar
+EventLostSoul4a1.text,El alma perdida se interpone en tu camino con los brazos extendidos. Deja escapar un gemido: \n\n —<i>Usteeeeeeed...</i> \n\n Sientes una gran dificultad al moverte ({strength} o {agility}; 2). \n Si fallas la tirada, pierdes tu acción.
+EventLostSoul4a1.button1,Continuar
+UI12.uitext,Antes de pagar a su informador, el director Hoover recordó su advertencia: \n\n <i>«¡Él espera! ¡Él espera en el abismo! ¡El sacerdote controla la muerte en la oscuridad!»</i> \n\n El director Hoover hizo una pausa y cogió el informe sobre Europa. La mayoría de integrantes de la institución ignoraban los verdaderos peligros, pero él era de los pocos que lo sabía. La ciudad de Innsmouth ardió hasta los cimientos, sus casas quedaron en ruinas. Una angustiosa cámara de tortura sin posibilidad de escapar. \n\n Al enterarse de la entrega de un peligroso artefacto, asignó a su mejor investigador para seguir a los sospechosos y apoderarse de la reliquia. \n\n Mientras tanto...
+UI11.button1,Continuar
+UI13.uitext,Seguir
+UI13.button1,Button1
+EventMythosLounge1a1.text,Las luces del vagón salón parpadean rápidamente. Los pasajeros se miran nerviosos. \n\n Los investigadores en el módulo del vagón salón sufren 1 de Horror boca abajo.
+EventMythosLounge1a1.button1,Continuar
+EventMythosLounge1a2.text,¡De repente, las luces del salón se apagan! Los pasajeros gritan y entran en pánico, chocando entre sí mientras huyen hacia las salidas de la cabina. En cuestión de minutos, las luces se vuelven a encender. \n\n Los investigadores situados en el módulo del vagón de salón sufren 1 de Horror boca abajo.
+EventMythosLounge1a2.button1,Continuar
+EventMythosLounge1a3.button1,Button1
+EventMythosLounge1a4.button1,Button1
+EventMythosLounge1a5.button1,Button1
+EventNightGaunt2Replacement1a1.text,El jugador 3 respira fuerte tan pronto como las sombras se alargan dentro de la cabina. Con los nudillos blancos, el jugador 3 se agarra a la barandilla de la cabina para dejar de temblar. \n\n El jugador 3 sufre 1 de Horror boca abajo o 1 de Daño boca abajo.
+EventNightGaunt2Replacement1a1.button1,Continuar
+EventMythosRound16.text,Sintiendo la carga de las miradas aterrorizadas de los pasajeros, el Jugador 2 se seca el sudor de la frente. La situación va de mal en peor. \n\n El jugador 2 sufre 2 de Daño boca abajo (anulados por {strength}) o 2 de Horror boca abajo (anulados por {will}.
+EventMythosRound16.button1,Continuar
+EventMythosRound20.text,{c:EventStart1} esperaba escapar del caos que había en Arkham, pero le ha seguido hasta Europa. La búsqueda del conocimiento absoluto de Yog-Sothoth ha sido en vano. {c:EventStart1} sufre 2 de Horror boca abajo por cada Pista {clue} que posean los Investigadores.
+EventMythosRound20.button1,Continuar
+EventYogFirstClass1a1.text,¡Los pasajeros entran en pánico y empujan al asistente del tren hacia el salón! \n\n Descarta la ficha de Exploración y coloca el módulo {c:Tile5} en el lugar señalado.
+EventYogFirstClass1a1.button1,Continuar
+EventYogSothoth1g1.text,La puerta del vagón comedor se abre a causa de los daños sufridos por el tren. Miras el interior y ves lo que parecen ser las secuelas de una batalla. \n Un hombre se apiña en el área de la cocina. \n\n Coloca los módulos {c:Tile3} y {c:Tile4} en los lugares señalados. A continuación, coloca la ficha del Hombre Blanco en el lugar señalado.
+EventYogSothoth1g1.button1,Continuar
+TokenCultistDead1.text,El hombre despeinado se desploma contra la pared de la cocina. Su rostro está contorsionado por la confusión. Tiene en su mano la llave del motor.
+TokenCultistDead1.button1,{action} Coger la llave
+EventCultistDead1a1.text,Coges la llave de la mano todavía cálida. \n A continuación, descarta la ficha del hombre blanco y coloca una ficha de Exploración en el lugar señalado.
+EventCultistDead1a1.button1,Continuar
+EventMovement1a1.text,El movimiento frecuente entre los vagones crea una brisa que libera un papel arrugado. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventMovement1a1.button1,Continuar
+TokenLetter1.text,Olvidado en el suelo hay un trozo de papel arrugado.
+TokenLetter1.button1,{action} Coger el papel
+EventLetter1a1.text,<i>«Querida hermana: te escribo para informarte que, contra todo juicio, he sido parte de terribles fechorías en el ala del sanatorio. Solo busqué conocimiento para tratar mejor a los enfermos, y él, ¡me lo prometió a cambio de nada! Te ruego que me proporciones tu residencia actual para que pueda refugiarme».</i> \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventLetter1a1.button1,Continuar
+EventDiningCarExplore1a5.text,Descarta la miniatura del Sicario y la ficha de Personaje que se encontraba en el mismo módulo que éste.
+EventDiningCarExplore1a5.button1,Continuar
+EventBetrayal1a1.text,William entra a trompicones en la cabina del motor. Te agarra el brazo con una mano ensangrentada, y notas que su chaleco está manchado de rojo carmesí. \n\n —<i>Uno de los pasajeros...no es...de fiar</i>—, gruñe. \n —<i>Jean te ayudará</i>. \n\n William se derrumba al suelo. Descarta la miniatura del Sicario. \n\n Deberías encontrar un método de avanzar en la investigación.
+TokenWilliamDead1.button1,Continuar
+EventBetrayal1a1.button1,Continuar
+EventBetrayal1a2.button1,Button1
+EventLuggage2a2.text,Al abrirla, la maleta emite un brillo esmeralda que baña la habitación. Encuentras una escultura verde idéntica a la que encontraste en la locomotora. Parece hacer referencia a alguna divinidad marina de aspecto monstruoso. Tiene cuerpo de hombre pero su cabeza se asemeja a un pulpo, con varios apéndices tentaculares. \n\n Ganas 1 Pista {clue} y el objeto único Escultura grotesca. A continuación, descarta esta ficha de Búsqueda.
+EventLuggage2a2.button1,Continuar
+EventLuggage1a2.text,Al abrirla, la maleta emite un brillo esmeralda que baña la habitación. Encuentras una escultura verde idéntica a la que encontraste en la locomotora. Parece hacer referencia a alguna divinidad marina de aspecto monstruoso. Tiene cuerpo de hombre pero su cabeza se asemeja a un pulpo, con varios apéndices tentaculares. \n\n Ganas 1 Pista {clue} y el objeto único Escultura grotesca. A continuación, descarta esta ficha de Búsqueda.
+EventLuggage1a2.button1,Continuar
+EventLuggage3a2.text,Entre algunos libros de medicina, encuentras un extraño manuscrito celestial. \n\n Ganas 1 Pista {clue} y el objeto común Manuscrito arcano. \n A continuación, descarta esta ficha de Búsqueda.
+EventLuggage3a2.button1,Continuar
+EventJeanBardin1e1.text,Jean te aparta a un lado: \n\n —<i>William desapareció, pero me pidió que reuniera a los otros pasajeros por él. Estaba preocupado por alguien. Iba a elegir uno y yo me aseguraría de que… desapareciera. William dijo que se podía confiar en usted.</i>
+EventJeanBardin1e1.button1,{action} Eliminar a George
+EventJeanBardin1e1.button2,{action} Eliminar a Marie
+EventJeanBardin1e1.button3,{action} Eliminar a Liam
+EventJeanBardin1e1.button4,Cancelar
+EventJeanBardin1e2.text,Señalas a George y, asintiendo solemnemente, Jean lleva a George a la parte trasera del tren. \n\n Descarta la ficha del Hombre Púrpura.
+EventJeanBardin1e2.button1,Continuar
+EventJeanBardin1e3.text,Sospechas de George, pero no lo ves en el tren por ningún lado.
+EventJeanBardin1e3.button1,Continuar
+EventJeanBardin1e4.text,Señalas a Marie y, asintiendo solemnemente, Jean lleva a Marie a la parte trasera del tren. \n\n Descarta la ficha de la Mujer Naranja.
+EventJeanBardin1e4.button1,Continuar
+EventJeanBardin1e5.text,Sospechas de Marie, pero no la ves en el tren por ningún lado.
+EventJeanBardin1e5.button1,Continuar
+EventJeanBardin1e6.text,Señalas a Liam y, asintiendo solemnemente, Jean lleva a Liam a la parte trasera del tren. \n\n Descarta la ficha del Hombre Rojo.
+EventJeanBardin1e6.button1,Continuar
+EventGeorge1c7.text,Mientras hablas con George, tienes la impresión de que tiene una personalidad tímida y se convence fácilmente a través del habla. Mientras divaga sobre su práctica en el Hospital St. Thomas, deja escapar que sus privilegios fueron revocados. George se pone ligeramente rígido al darse cuenta de su confesión. \n\n Ganas 1 Pista {clue}.
+EventGeorge1c7.button1,Continuar
+EventLiam1c7.text,Liam explica que sus socios de confianza desaparecieron durante la guerra. Para evitar la quiebra, tuvo que hacer…cambios…en el procesamiento de productos cárnicos en su fábrica. Brevemente, sus ojos brillan con energía. Se ofrece a darte un recorrido por su fábrica, diciendo que las vistas y los sonidos son algo digno de contemplar. \n\n Ganas 1 Pista {clue}.
+EventLiam1c7.button1,Continuar
+EventMarie1c7.text,Los antepasados de Marie la instaron a que asumiera el papel que le había sido asignado a asuntos familiares. Ella comenta que antes de que pueda asumir el lugar que le corresponde entre sus antepasados y regresar a su enclave en Burdeos, hay algunos artículos que necesita recolectar. Volviendo a su vino, dice: \n\n —<i>Les haré sentirse orgullosos</i>. \n\n Ganas 1 Pista {clue}.
+EventMarie1c7.button1,Continuar
+EventLetter1a2.text,<i>Las reliquias finales están en manos de un hombre digno del título «Rey de los Idiotas». No se da cuenta de lo que posee. No temáis, volveré pronto y recuperaremos el lugar que nos corresponde entre los poderosos</i>. \n\n Ganas 1 Pista {clue}. A continuación, descarta esta ficha de Búsqueda.
+EventLetter1a2.button1,Continuar
+EventLetter1a3.text,<i>He estado fuera demasiado tiempo. Los gritos. El temblor. La esencia misma de ese lugar amplifica mis sentidos al extremo, pero también me sacude hasta la médula. Las máquinas no me hablaban al principio, pero hablan ahora. Debo regresar. Debo regresar.</i> \n\n Ganas 1 Pista {clue}.
+EventLetter1a3.button1,Continuar
+EventBetrayal2a1.button1,Button1
+CustomMonsterGeorge1.info,-
+SpawnGeorge1.text,Jadeas cuando George salta de repente de un escondite en la parte trasera del vagón. Se cierne sobre ti de una manera intimidante a diferencia de su comportamiento habitual. \n\n —<i>Estúpidos entrometidos</i>—, grita. \n\n Aparece un Brujo en el lugar señalado. Este es George.
+CustomMonsterGeorge1.monstername,George
+SpawnGeorge1.button1,Continuar
+SpawnMarie1.text,Dejas escapar el aliento cuando una de las sillas del comedor comienza a dar vueltas y deja al descubierto a Marie. Mientras todavía hace girar una copa de vino, su mirada juguetona se ha vuelto bastante diabólica. \n\n —<i>Cuando me privó del anciano, me decepcioné, pero este momento es todo un premio de consolación</i>. \n\n Aparece un Brujo en el lugar señalado. Esta es Marie.
+SpawnMarie1.button1,Continuar
+CustomMonsterMarie1.info,-
+SpawnLiam1.text,Jadeas mientras Liam se desenrolla de una parte apartada del suelo, como una serpiente que despierta de un sueño profundo. Su rostro aún más demacrado. Sus ojos hundidos. \n\n —<i>Usted ha hecho la mayor parte del trabajo sucio por mí. Mi eterna gratitud. Tomaré esa piedra ahora. Mi máquina lo necesita. Mi máquina lo exige</i>. \n\n Aparece un Brujo en el lugar señalado. Este es Liam.
+CustomMonsterMarie1.monstername,Marie
+SpawnLiam1.button1,Continuar
+CustomMonsterLiam1.info,-
+CustomMonsterLiam1.monstername,Liam
+EventTrainstop1a1.text,De repente, los frenos del tren emiten un chirrido y los vagones se tambalean hasta detenerse bruscamente en el centro de un puente sobre un inmenso desfiladero.
+EventTrainstop1a1.button1,Continuar
+UI14.uitext,CONSEJOS: \n\n La introducción de este escenario puede resultar algo extensa, pero una vez superada ésta, los textos disminuyen considerablemente. \n\n Asigna a cada investigador un número, comenzando por el número 1. \n\n La disposición de los módulos puede requerir una mesa bastante larga o una ubicación creativa de las losetas para compensar la longitud que puede tener. \n\n Es posible que se te indique que acumules pistas. Estas pistas funcionan exactamente igual que las pistas normales. Es decir, se pueden usar durante las pruebas para cambiar resultados de tiradas o guardar para más tarde. \n\n Este escenario tiene un límite de tiempo, por lo que intentar examinar cada elemento dispuesto en el tablero podría ser un esfuerzo en vano.
+UI15.button1,Button1
+UI15.uitext,Seguir
+quest.synopsys,Un viaje aterrador cruzando los Alpes a bordo del Alpine Express.
