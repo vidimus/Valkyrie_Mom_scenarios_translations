@@ -1,0 +1,1267 @@
+.,Spanish
+QSTMOTHERNAME,Bettina Beck
+QSTFATHERFIRSTNAME,John
+QSTALLYANAME,Zebulon Whateley
+QSTALLYBNAME,Eric Colt
+QSTALLYCNAME,Othera Gilman
+QSTALLYDNAME,Corrina Jones
+QSTALLYENAME,Jane Marsh
+QSTNOVICENAME,Pete Barker
+QSTNOVICESURNAME,Barker
+QSTPLACEDARKNESS,Coloca una ficha de Oscuridad en el borde señalado. \n\n Trata todos los espacios de este módulo como si todos ellos contuvieran fichas de Oscuridad.
+QSTSPAWNDARKYOUNG,De entre los árboles irrumpe una criatura con multitud de enormes tentáculos y bocas babeantes. \n\n Coloca un Monstruo Retoño Oscuro en el lugar señalado.
+QSTALLYAFIRSTNAME,Zebulon
+QSTALLYBFIRSTNAME,Eric
+QSTALLYCFIRSTNAME,Othera
+QSTALLYDFIRSTNAME,Corrina
+QSTALLYEFIRSTNAME,Jane
+QSTALLYASURNAME,Whateley
+QSTALLYBSURNAME,Colt
+QSTALLYCSURNAME,Gilman
+QSTALLYDSURNAME,Jones
+QSTALLYESURNAME,Marsh
+QSTCANCEL,Cancelar
+QSTCONTINUE,Continuar
+QSTSOLUTION,Solución
+QSTTHEEND,FIN
+QSTGAINCLUE,Ganas 1 Pista {clue}.
+QSTEXPLOREMOVE,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+QSTREVEAL,Revelar
+QSTPLACESEARCH,Coloca una ficha de Búsqueda en el lugar señalado.
+QSTPLACEEXPLORE,Coloca una ficha Exploración en el lugar señalado.
+QSTPLACESIGHT,Coloca una ficha de Vistazo en el lugar señalado.
+QSTEXAMINEITEM,Puedes examinar el objeto haciendo clic en el menú «Objetos» y a continuación, haciendo clic sobre la imagen del objeto.
+QSTWHITEDRUIDTRUTH,El Druida blanco tiene el don de la clarividencia y siempre dice la verdad.
+QSTDARKDRUIDLIAR,El Druida oscuro es un mentiroso compulsivo.
+QSTVITALCLUE,No sabes si te ha dicho la verdad pero lo que sí sabes es que esto es una pista importante.
+QSTOTHERSOLUTIONS,La solución descrita indica el número mínimo de pistas que se necesitan. \n Otras pistas (como la Prueba forense) pueden ayudar a implicar al asesino.
+QSTPASS,Éxito
+QSTFAIL,Fallo
+quest.name,En la oscuridad (v5.4)
+quest.description,«En la oscuridad» \n\n Un escenario de misterio y asesinato para «Mansiones de la locura», segunda edición. \n Este escenario necesita las miniaturas y los módulos de tablero de la expansión «Recuerdos reprimidos» (o su equivalente de la primera edición de «Mansiones de la locura»). \n\n Un grupo de seis druidas se reúnen en el bosque el primer día de mayo. \n Su gran sacerdotisa ha sido avisada de que uno de los miembros del grupo planea su asesinato. \n ¿Seréis capaces de averiguar en quién poder confiar? \n\n Aviso: La prueba clave puede ser revisada dentro de la aplicación, pero es aconsejable tomar notas con vuestras deducciones. \n Dentro de la carpeta del escenario hay una plantilla que se puede usar para tomar notas (el archivo se llama InTheDarkClueCribSheet.pdf. También está disponible para ser descargada en la siguiente dirección: \n https://boardgamegeek.com/filepage/161865/mom-dark-scenario-clue-crib-sheet \n\n Los diálogos están en cursiva e inspirados en el relato «El horror de Dunwich» creado por Lovecraft. \n\n Nota del traductor: En el original en inglés no hay distinción entre druidas masculinos y femeninos, por lo que se juega con esa ambigüedad a la hora de ocultar al verdadero sospechoso (hombre o mujer). Se ha intentando mantener en la medida de lo posible usando mayoritariamente el artículo masculino para druida.
+quest.authors,\n\n Creada por: Nicola Zee \n Probador jefe: Jürgen Rudolph \n\n Música del final: «I've not fear», de Damiano Baldoni (Licencia: CC BY 4.0) \n Imagen del cuadro: Ahlia77 (Licencia CC BY-NC-ND 3.0) \n\n <i>Traducción al español:</i> Vidimus \n\n
+EventGraveSearch.text,Dentro de la tumba hay numerosos huesos de cabras deformes. \n La tierra ha sido removida recientemente. \n\n Prueba de {observation}.
+EventGraveSearch.button1,{qst:QSTCONTINUE}
+TokenPainting.text,\n El cuadro es un retrato de una mujer portando el {c:QItemCultSigilEV}.\n Está deslucido y dañado por el tiempo. \n\n Si intentas resolver el rompecabezas, ganas 1 paso adicional de rompecabezas por cada Prueba que poseas.\n
+TokenPainting.button1,{action} Resolver el rompecabezas
+TokenGrave.text,La tumba contiene montones de huesos de cabras deformes.
+TokenGrave.button1,{action} Explorar
+EventOak.text,Puedes o bien hacer clic en el botón <i>Cancelar</i> o bien puedes trepar por el árbol.\n\n Si decides trepar, comprueba en cuál de estas dos habilidades tienes la puntuación más baja: {observation} y {agility}.\n A continuación, haz una prueba con la habilidad <b>de menor puntuación</b> de las dos.\n\n Añade 1 dado extra si tienes el Objeto único {c:QItemRope}. \n\n La prueba tiene éxito si logras 1 {success} o más.
+EventOak.button1,{qst:QSTPASS}
+EventOak.button2,{qst:QSTFAIL}
+EventOak.button3,{qst:QSTCANCEL}
+EventOakPass.text,Encuentras los restos de una mujer en lo alto de una gran rama. \n Su cuerpo ha sido arrojado sobre la rama como si fuese una sanguinolenta muñeca de trapo. \n Su pelo rojo está sujeto por una diadema de muérdago e hiedra. \n Te subes a la rama para examinar las heridas que presenta. \n\n Ganas el Objeto único {c:QItemForensicEV}. \n\n Puedes examinar el objeto haciendo clic en el menú Objetos de la aplicación y seleccionando la prueba.
+TokenOak.text,La mujer que estaba en la rama ha desaparecido. \n\n Hay algo de color blanco en lo alto de la copa del gigantesco roble centenario.
+TokenOak.button1,{action} Buscar
+EventDrownedRescueFemale.text,\n —<i>¡Ella nos convenció para venir a ver el baile!</i> —chilla—. <i>¡Nos dijo que estaríamos completamente a salvo!</i>\n\n Sale huyendo despavorida. \n\n {qst:QSTGAINCLUE} \n\n Descarta la ficha de Búsqueda.
+EventDrownedRescueFemale.button1,{qst:QSTCONTINUE}
+EventDrownedRescueMale.text,\n —<i>¡Él nos convenció para venir a ver el baile!</i> —chilla—. <i>¡Nos dijo que estaríamos completamente a salvo!</i>\n\n Sale huyendo despavorida. \n\n {qst:QSTGAINCLUE} \n Descarta la ficha de Búsqueda.
+EventDrownedRescueMale.button1,{qst:QSTCONTINUE}
+EventDrownedRescuePass.text,\n <i>—Estábamos viendo el baile de los druidas</i> —dice—. <i>Yo estaba a lo lejos. ¡La única razón por la que vinimos fue porque uno de los druidas nos engañó! </i> \n\n Has obtenido una pequeña victoria contra el mal... \n aunque quizá sea una victoria temporal. \n\n Puedes descartar 1 de Horror boca abajo.
+EventDrownedRescuePass.button1,{qst:QSTCONTINUE}
+TokenDrownedBody.text,Hay una joven atrapada bajo una roca. \n Su vestido floral está hecho jirones \n Sus piernas parecen las patas de una cabra. \n
+TokenDrownedBody.button1,{action} Rescatar a la mujer
+TokenDrownedBody.button2,{action} Empujar a la mujer hacia la corriente
+EventDrownedRescue.text,Tiras de la mujer medio ahogada hacia ti. \n Está muy alterada y tratas de calmarla \n\n Haz una prueba de ({influence}:2) o de ({lore}:2). \n
+EventDrownedRescue.button1,{qst:QSTPASS}
+EventDrownedRescue.button2,{qst:QSTFAIL}
+EventPlacePainting.text,En un rincón está el cuadro en el que ha estado trabajando Corrina. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlacePainting.button1,{qst:QSTCONTINUE}
+TokenCellarDoor.text,Entre los ásperos tablones atisbas una húmeda fresquera abandonada y algo, o alguien, moviéndose en su interior. \n\n Si estás en el mismo espacio que esta ficha, \n puedes pulsar en el botón <i>{qst:QSTCONTINUE}</i>.
+TokenCellarDoor.button1,{qst:QSTCONTINUE}
+EventCellarDoorLocked1.text,La trampilla está firmemente sujeta desde el otro lado. \n\n —<i>Sigo la senda de mis antepasados celtas. \n ¡Usted sirve a la familia Marsh! \n Dígame, siervo de Dagón, ¿quién gobierna en el bosque?</i> \n
+EventCellarDoorLocked1.button1,{qst:QSTCONTINUE}
+EventCellarDoorLocked2.text,Intentas recordar lo que sabes de mitología celta. \n\n Puedes hacer clic en el botón <i>Fallo</i> o usar una {action} para realizar una prueba de ({lore}:1).
+EventCellarDoorLocked2.button1,{qst:QSTPASS}
+EventPlaceAllyC.text,—<i>¡El Hombre verde de los bosques!</i> —le gritas. \n La trampilla se abre. \n\n —<i>Bienvenido</i> —te dice—. <i>Mi nombre es Othera Gilman</i>. \n\n Coloca la ficha de Personaje de Othera Gilman.
+EventPlaceAllyC.button1,{qst:QSTCONTINUE}
+EventPlaceOperatingRoomTokens.button1,{qst:QSTCONTINUE}
+EventInspectFleshWardAllyC.text,En una carta a Martha Beck se describe el hechizo. La misiva acaba con una advertencia: \n «<i>Queridísima Martha, \n\n tienes en alta estima a tus parientes pero son Druidas oscuros. \n\n ¿Acaso se puede confiar en personas que ya en su infancia se metían en problemas con la ley? \n ¡Sólo puedes confiar en un auténtico wiccan de gran poder para el asunto del emblema! \n Yo estoy al tanto de los secretos de la Orden de los Druidas blancos. \n\n Tu amiga de verdad, \n Othera Gilman</i>». \n
+EventInspectFleshWardAllyD.button1,{qst:QSTCONTINUE}
+EventInspectBible.button1,{qst:QSTCONTINUE}
+EventInspectFleshWardAllyC.button1,{qst:QSTCONTINUE}
+EventGainJournal.button1,{qst:QSTCONTINUE}
+TokenBible.button1,{action} Buscar
+EventBibleResult.text,Dentro del armario encuentras la biblia de Martha Beck. \n Hay una nota entre sus páginas. \n\n Ganas el Objeto común {c:QItemBible}. \n\n {qst:QSTEXAMINEITEM}
+EventInspectFleshWardAllyA.text,El hechizo se describe en una carta a Martha Beck. La misiva acaba con una advertencia: \n «<i>Martha Beck, \n Suma Sacerdotisa de la venerable Orden de los Druidas. \n\n En comparación conmigo, ¡los otros druidas no saben casi nada! \n Yo soy la última de la Orden de los Druidas blancos. \n Te he mostrado mis auténticos poderes mágicos. \n Entrégame el emblema y lo pondré a salvo. \n\n Tu fiel seguidor, \n Zebulon Whateley</i>».
+EventInspectFleshWardAllyA.button1,{qst:QSTCONTINUE}
+EventPendantSearchResult.text,Encuentras un pequeño colgante. \n Su cadena se ha enredado en el arbusto. \n\n Ganas el Objeto común {c:QItemPendant}. \n\n Hacia el norte hay unas enormes marcas de pezuñas. \n
+EventPendantSearchResult.button1,{qst:QSTCONTINUE}
+EventPendantSearch.text,Examinas el arbusto y encuentras un jirón de tela blanca manchado de sangre. \n La luz de la luna se refleja en algo de pequeño tamaño que hay en el tupido arbusto. \n\n Prueba de {observation}
+EventPendantSearch.button1,{qst:QSTCONTINUE}
+TokenPendant.text,La luz de la luna se reflejó fugazmente en un pequeño objeto dentro de un tupido arbusto.
+TokenPendant.button1,{action} Buscar
+EventAllyCRitual.button1,{qst:QSTCONTINUE}
+EventAllyDRitual.text,—<i>¡Mi ojo de artista me permite descubrir cosas que otros pasarían por alto!</i>
+EventAllyBRitual.button1,{qst:QSTCONTINUE}
+EventAllyCRitual.text,—<i>¡Soy una bruja blanca descendiente de un largo linaje de mujeres sabias! \n ¡Sé cosas que los demás ignoran!</i>
+EventAllyDRitual.button1,{qst:QSTCONTINUE}
+EventAllyARitual.button1,{qst:QSTCONTINUE}
+EventRitualWrong.text,\n —<i>Nuestra orden de druidas es antigua y prometimos no causar daño alguno. \n La ceremonia del fuego de Beltane celebra la llegada de una nueva primavera. \n Salió mal porque Jane Marsh cogió el emblema en mitad de la celebración del ritual. \n O quizá alguno de nosotros empleó las palabras de forma equivocada. \n Un demonio procedente del infierno fue invocado por accidente. \n Atrapó a Martha, ¡y la arrastró hacia el interior del bosque hasta una puerta que llevaba al mismísimo infierno! \n ¡Entrégueme el emblema! \n ¡Puedo enviar a ese demonio de vuelta al lugar del que vino! </i> \n
+EventRitualBloodSacrifice.text,\n —<i>Nos congregamos aquí para el ritual de Beltane. \n Celebra la llegada de la primavera con el encendido ceremonial de un fuego. \n Hubo una discusión acerca de que uno de nosotros era un Druida oscuro. \n Martha decidió usar el emblema para obtener el poder de la clarividencia. \n Fue apuñalada por el Druida oscuro. \n Se la llevó un Retoño oscuro de Shub-Niggurath, en dirección este, hacia el bosque. \n El Druida oscuro nos lanzó una maldición para convertirnos en hijos de Shub-Niggurath. \n ¡Los demás druidas están locos o son unos mentirosos! \n Deme el emblema. \n ¡Romperé la maldición y todos nos salvaremos!</i> \n
+EventRitualBloodSacrifice.button1,{qst:QSTCONTINUE}
+EventRitualWrong.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyA.text,—<i>¡Vi a Zebulon Whateley cerca de Martha cuando fue apuñalada! \n {qst:QSTALLYENAME} cogió el emblema. \n Pudo ser Zebulon el que apuñaló a Martha. \n Estaba demasiado oscuro para decirlo con seguridad. \n Pero no había ningún otro Druida cerca de ella.</i>
+EventAllyACabin1.text,\n —<i>Las piedras y el bosque estaban desde mucho antes que los edificios. \n La madre de Martha, Bettina Beck, compró la tierra y mandó construir los edificios. \n Esta cabaña de madera no parece gran cosa, pero es mucho más robusta de lo que parece, ¡y las luces aún funcionan! \n Ya desde muy joven Martha se sintió atraída por este lugar. \n Sabía que su madre tenía un pasado oscuro pero a Martha siempre le gustaba ver lo bueno que había en las personas. \n Martha siempre fue muy confiada. \n ¡Y por eso la mataron! \n </i>
+EventAllyACabin2.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyB.text,—<i>¡Estaba cerca de Martha cuando fue apuñalada! \n {qst:QSTALLYENAME} recogió el amuleto de la piedra. \n Eric Colt estaba de pie cerca de Martha. \n Eric pudo apuñalarla. \n No vi a nadie más cerca de ella.</i>
+EventRitualKillerAllyC.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyC.text,—<i>¡Estaba cerca de Martha cuando fue asesinada! \n {qst:QSTALLYENAME} cogió el emblema. \n Othera Gilman estaba cerca de Martha. \n Othera pudo apuñalarla. \n No vi a nadie más cerca de ella. \n Estaba demasiado oscuro para poder ver claramente lo que pasó.</i>
+EventRitualKillerAllyD.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyD.text,—<i>¡Estaba cerca de Martha cuando fue sacrificada! \n {qst:QSTALLYENAME} cogió el emblema. \n Corrina Jones estaba de pie al lado de Martha. \n Ella pudo apuñalar a Martha. \n Estaba tan oscuro que nadie pudo ver qué pasó. \n ¡Pero no lo puedo hacer nadie más!</i>
+TokenJournal.text,El armario está a rebosar de papeles.
+TokenJournal.button1,{action} Buscar
+EventAllyACabinDefault.text,Zebulon Whateley da un discurso largo divagando acerca de cómo eran las cosas en su día. \n O es más mayor de lo que parece o te está haciendo perder el tiempo de forma deliberada.
+EventRitualAtBackMale.button1,{qst:QSTCONTINUE}
+EventAllyE2Ritual1.button1,{qst:QSTCONTINUE}
+EventRitualAtBackMale.text,—<i>Tras coger el emblema, una criatura gigantesca apareció y salí corriendo tan rápido como pude. \n El último druida que dejé atrás en mi huida creo que era un hombre. </i>
+EventAllyE2aboutDruids1.text,—<i>Nuestra orden de druidas no es malvada. \n Hacemos obras de caridad y ayudamos en el orfanato. \n Me encontré con Pete Baker aquí, esta mañana. \n Me dijo que el Druida oscuro se estaba haciendo pasar por el Druida blanco.
+EventAllyE2aboutAllyD.button1,Continuar
+EventAllyE2aboutDruidsClue.button1,{qst:QSTCONTINUE}
+EventAllyE1Monologue4.text,—<i>Las runas han dejado de brillar. \n Encuentre la pieza que falta para saber cómo invocar este poder. \n Una vez que haya encontrado la pieza que falta, las runas volverán a brillar de nuevo. \n Tráigalo de vuelta. \n Usaré su poder para derrotar al Druida oscuro.
+EventAllyE1Monologue4.button1,{qst:QSTCONTINUE}
+EventAllyE1MonologueEnd.text,{qst:QSTALLYENAME} está a punto de añadir algo más. \n Un enorme estrépito producido por un choque hace que salga huyendo. \n Corre hacia el puente cubierto. \n El puente cubierto se considera un espacio de interior. \n\n Coloca la ficha de Personaje Mujer naranja en el lugar señalado.
+EventAllyE1MonologueEnd.button1,{qst:QSTCONTINUE}
+EventAllyE1Monologue3.button1,{qst:QSTCONTINUE}
+EventAllyE1Monologue2.text,—<i>Un poderoso Druida oscuro se ha infiltrado en nuestra orden. \n Siempre estamos discutiendo entre nosotros y no nos ponemos de acuerdo en quién es el traidor. \n Eric Colt es un tipo grande y con mucho carácter. Somos amigos. \n Zebulon Whateley es un reputado brujo que reclama reconocimiento por su edad y experiencia. \n Othera Gilman se considera a sí misma una poderosa bruja. \n Corrina Jones es una artista de vanguardia de lo más excéntrica. \n Pete Barker es un joven recluta. \n Pete avisó a Martha de que uno de nosotros conspiraba para asesinarla. \n Él no apareció por la reunión.</i>
+EventAllyE1Monologue2.button1,{qst:QSTCONTINUE}
+EventAllyE1Monologue1.text,—<i>Soy {qst:QSTALLYENAME}. \n Me alegro de que haya venido. \n Pete me dijo que contactaría con usted para pedirle ayuda.
+EventAllyE1Monologue1.button1,{qst:QSTCONTINUE}
+TokenAllyE1.text,Una mujer de pelo oscuro te llama.
+TokenAllyE1.button1,{action} —<i>¿Quién es usted?</i>
+EventAllyAaboutAllyD.button1,{qst:QSTCONTINUE}
+EventAllyAaboutAllyC.button1,{qst:QSTCONTINUE}
+EventAllyAaboutAllyB.button1,{qst:QSTCONTINUE}
+EventAllyBIsFriendDefault.button1,Continuar
+EventGoatHairResult.text,Encuentras un jirón de un vestido de verano con un estampado floral. \n\n Unas débiles huellas de pezuñas como las de una cabra se dirigen hacia el este, adentrándose en la espesura del bosque. \n Oyes como algo se mueve por el bosque en dirección a ti. \n Te parece oír como una especie de extraños balidos que recuerdan a los de una cabra. \n\n Ganas 1 Pista {clue}.
+EventGoatHairResult.button1,{qst:QSTCONTINUE}
+TokenGoatHair.text,Atrapado entre los arbustos hay un jirón grande de ropa.
+TokenGoatHair.button1,{action} Buscar
+EventGoatHair.text,El jirón de ropa es blanco con un estampado de margaritas amarillas. \n\n Prueba de {observation} \n
+EventGoatHair.button1,{qst:QSTCONTINUE}
+EventSigil.text,El emblema es un artefacto mágico antiguo de los Druidas.
+EventSigil.button1,{qst:QSTCONTINUE}
+EventSigilReady.button1,{qst:QSTCONTINUE}
+EventSigilNeedMoreA.text,No hay rastro de las brillantes runas rojas del {c:QItemCultSigilEV}. \n No has aprendido lo suficiente para dominar todos sus poderes pero aun así eres capaz de usar algo de su efecto restaurador. \n\n Puedes gastar una {action} para realizar una prueba de ({lore}:2) \n Si superas la prueba, un investigador que esté dentro tu alcance puede descartar el estado Aturdido o Hipnotizado.
+EventSigilNeedMoreA.button1,{qst:QSTCONTINUE}
+EventSigilNeedMoreB.text,No hay rastro de las brillantes runas rojas del {c:QItemCultSigilEV}. \n No has aprendido lo suficiente para dominar todos sus poderes pero aun así eres capaz de usar algo de su efecto transformador y restaurador. \n\n Puedes gastar una {action} para realizar una prueba de ({lore}:2) \n Si superas la prueba, un investigador que esté dentro tu alcance puede descartar el estado Aturdido o Hipnotizado. \n\n Si el monstruo Hija de la cabra está dentro de tu alcance, puedes usar una {action} para convencerla para que huya hacia el bosque; prueba de ({influence}:2). \n Si superas la prueba, puedes descartar una {clue} para derrotar al monstruo.
+EventSigilNeedMoreB.button1,{qst:QSTCONTINUE}
+EventInspectSigil.text,El {c:QItemCultSigilEV} tiene un efecto en todos los investigadores que se encuentren a su alcance. \n Cualquier investigador dentro del alcance puede hacer clic en cualquiera de los botones.
+EventInspectSigil.button1,Revisar lo que te han contado
+EventInspectSigil.button2,Examinar el emblema
+EventInspectSigil.button3,Revisar objetivo
+EventInspectSigil.button4,{qst:QSTCANCEL}
+EventReview.button1,{qst:QSTALLYENAME}
+EventReview.button2,{qst:QSTALLYANAME}
+EventPlaceRitualSite.text,Te despiertas en mitad de un círculo de piedras. \n\n Coloca el módulo {c:TileRitual}. \n
+EventPlaceRitualSite.button1,{qst:QSTCONTINUE}
+EventAttackAsk.button1,Seguir con tu ataque
+TokenCampFire.text,El fuego de campamento se está apagando lentamente. \n Hay un gran leño cerca del fuego.
+TokenCampFire.button1,{action} Echar el leño al fuego.
+EventFireInteract.text,Con algo de esfuerzo echas el leño al fuego. Una vez que esté ardiendo podrás usarlo para improvisar una antorcha. \n\n Coloca el Objeto común {c:QItemTorch} en el lugar señalado. A continuación, descarta la ficha de Interacción.
+EventFireInteract.button1,{qst:QSTCONTINUE}
+EventFireInteractSpread1.text,El intenso fuego está fuera de control y prende el campamento. \n\n Coloca una ficha de Fuego en este espacio. \n
+EventFireInteractSpread1.button1,{qst:QSTCONTINUE}
+EventFireInteractSpread2.text,Unas nubes de humo negro se arremolinan en torno al campamento. \n\n {qst:QSTPLACEDARKNESS}
+EventFireInteractSpread2.button1,{qst:QSTCONTINUE}
+EventPlaceDrownedBody.text,Un cuerpo se encuentra en una roca que sobresale de la orilla del río.
+EventPlaceDrownedBody.button1,{qst:QSTCONTINUE}
+QSTRESTRICTSIGHT,No puedes ver mucho más allá con esta oscuridad. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+TokenDrownedBody.button3,Cancelar
+EventDrownedKill.text,Empujas a la mujer hacia la corriente. \n Brega sin parar, pero poco a poco se va ahogando. Contemplar esta escena te resulta lastimoso y perturbador. \n\n Sufres 1 de Horror. A continuación, descarta la ficha de Búsqueda.
+EventDrownedKill.button1,{qst:QSTCONTINUE}
+EventCaveDoorLocked1.text,Tratas de abrir la puerta pero está atascada, en ese momento oyes a un hombre gritar al otro lado. \n —<i>¡Pierde el tiempo! ¡La puerta está bien apuntalada y no se abrirá! \n Los Colt hemos aprendido que no debemos confiar en los forasteros. </i> \n
+EventCaveDoorLocked1.button1,{qst:QSTCONTINUE}
+EventCaveDoorLocked2.text,—<i>¡Sr Colt!</i> —le gritas—.<i> ¡{qst:QSTALLYENAME} me ha enviado!</i> \n\n Puedes o bien pulsar en el botón <i>Fallo</i> o bien usar una {action} para realizar una prueba de ({influence}:1)
+EventCaveDoorLocked2.button1,{qst:QSTPASS}
+TokenPorchDoor.text,\n A través de una pequeña rejilla en la puerta puedes ver que está atrancada desde dentro. \n Una gran silla de aspecto robusto bloquea la puerta. \n Hay un hombre sentado en un banco. \n\n Si estás en el mismo espacio que esta ficha, \n puedes pulsar el botón de <i>Continuar</i>. \n
+TokenPorchDoor.button1,{qst:QSTCONTINUE}
+EventPorchDoorLocked1.text,—<i>¡Déjeme entrar!</i> —le gritas a través de la rejilla. \n\n —<i>¡Lárguese!</i> —te replica el hombre—. <i>¡La gente de este lugar no tiene ninguna razón para confiar en una panda de estirados de ciudad! ¡Enséñeme algo que demuestre que es de fiar!</i>
+EventPorchDoorLocked1.button1,{qst:QSTCONTINUE}
+EventPorchDoorLocked2.text,Si llevas contigo el {c:QItemCultSigilEV} puedes usar una {action} para sacarlo y mostrarlo a la altura de la rejilla de la puerta.
+EventPorchDoorLocked2.button1,{action} Mostrar el emblema por la rejilla
+EventPorchDoorLocked2.button2,{qst:QSTCANCEL}
+TokenCaveDoor.text,Alguien ha arrancado la hiedra que tapaba la entrada de la cueva. \n La puerta de madera parece vieja pero sólida. \n\n Si estás en el mismo espacio que esta ficha puedes hacer clic en el botón de <i>{qst:QSTCONTINUE}</i>.
+TokenCaveDoor.button1,{qst:QSTCONTINUE}
+EventPlaceAllyE1.text,Una mujer te hace señas y te llama por tu nombre. \n\n Coloca la ficha de Personaje Mujer naranja en el lugar señalado.
+EventPlaceAllyE1.button1,{qst:QSTCONTINUE}
+EventPlaceBridgeTileTokens.text,Coloca {var:countBridgeSights} ficha(s) de Vistazo
+EventPlaceBridgeTileTokens.button1,{qst:QSTCONTINUE}
+TokenCampToBridge.text,La luz de la fogata ilumina un puente cubierto. \n\n Puedes hacer clic en el botón "Revelar" si estás en cualquier espacio del módulo {c:TileCamp}.
+TokenCampToBridge.button1,{qst:QSTREVEAL}
+EventPlaceBridgeTile.text,Un destartalado puente de madera cruza el río. \n El agua centellea bajo la débil luz de la luna. \n\n Coloca el módulo {c:TileBridge} en el lugar señalado. \n\n Nota: los dos espacios dentro del puente se consideran de interior. 
+EventPlaceBridgeTile.button1,{qst:QSTCONTINUE}
+EventPlaceCampFire.text,La pequeña hoguera del campamento se está apagando. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventPlaceCampFire.button1,{qst:QSTCONTINUE}
+TokenBridgeToCamp.text,Observas un resplandor en esta dirección. \n\n {qst:QSTRESTRICTSIGHT}
+TokenBridgeToCamp.button1,{qst:QSTREVEAL}
+EventPlaceCampTile.text,La luz de un pequeño fuego ilumina un campamento. \n\n Coloca el módulo {c:TileCamp}. \n\n {qst:DISCARDREVEAL2}
+EventPlaceCampTile.button1,{qst:QSTCONTINUE}
+EventPlaceCampTileTokens.text,Coloca {var:countCampSights} ficha(s) de Vistazo. \n
+EventPlaceCampTileTokens.button1,{qst:QSTCONTINUE}
+TokenTent.text,La tienda está sujeta con una soga. \n
+TokenTent.button1,{action} Buscar
+EventTentSearch.text,Dentro de la tienda no hay nada de interés a excepción de la soga que sujeta la tienda.
+EventTentSearch.button1,{qst:QSTCONTINUE}
+EventPlaceTent.button1,{qst:QSTCONTINUE}
+TokenCaveEntranceToCamp.text,Observas un resplandor en esta dirección. \n\n Sólo puedes seleccionar <i>Revelar</i> si estás en el mismo espacio que esta ficha de Vistazo.
+TokenCaveEntranceToCamp.button1,{qst:QSTREVEAL}
+TokenSolution.text,Killer is {var:Killer} \n AllyA is {var:RoleAllyA} \n AllyB is {var:RoleAllyB} \n AllyC is {var:RoleAllyC} \n AllyD is {var:RoleAllyD} \n Role 1 AllyA Lie is {var:Role1AllyALie} \n Role 1 AllyB Lie is {var:Role1AllyBLie} \n Role 1 AllyC Lie is {var:Role1AllyCLie} \n Role 1 AllyD Lie is {var:Role1AllyDLie} \n Role 2 AllyA Lie is {var:Role2AllyALie} \n Role 2 AllyB Lie is {var:Role2AllyBLie} \n Role 2 AllyC Lie is {var:Role2AllyCLie} \n Role 2 AllyD Lie is {var:Role2AllyDLie} \n countSigil = {var:countSigil} \n WhoHasDagger = {var:WhoHasDagger} \n Heroes = {var:#heroes}
+TokenSolution.button1,Probar
+EventPlaceAllyBMore.text,Cerca de la puerta hay un tablón de madera. \n\n Coloca el Objeto común {c:QItem2x4} (carta de doble cara) en el lugar señalado.
+EventPlaceAllyBMore.button1,{qst:QSTCONTINUE}
+EventPlaceAllyB.text,Eric es un hombre corpulento que parece estar ligeramente borracho. \n —<i>¡Todos los amigos de {qst:QSTALLYENAME} son también amigos míos!</i> —te saluda con efusividad. \n\n Coloca la ficha de Personaje de Eric Colt en el lugar señalado.
+EventPlaceAllyB.button1,{qst:QSTCONTINUE}
+EventPlaceCaveTile.text,Eric Colt te deja entrar en la cueva. \n\n Coloca el módulo {c:TileCave}. A continuación, descarta cualquier ficha de Exploración que lleve a este módulo. \n\n Coloca una ficha de Pared.
+EventPlaceCaveTile.button1,{qst:QSTCONTINUE}
+EventAllyCaboutAllyD.button1,{qst:QSTCONTINUE}
+EventAllyCaboutAllyA.button1,{qst:QSTCONTINUE}
+EventAllyDaboutAllyA.text,—<i>¡Mucha gente de aquí tiene miedo de Whateley porque creen que es un brujo como su padre!</i>
+EventAllyDaboutAllyA.button1,{qst:QSTCONTINUE}
+EventAllyBaboutAllyA.button1,{qst:QSTCONTINUE}
+TokenForestToOldOak.text,Al norte, un descomunal roble milenario oculta las estrellas. \n Las ramas y la maleza te impiden ver a continuación. \n\n Puedes hacer clic en <i>Revelar</i> sólo si estás en el mismo espacio que esta ficha de Vistazo.
+TokenForestToOldOak.button1,{qst:QSTREVEAL}
+EventPlacePendant.text,En un frondoso arbusto brilla algo bajo la débil luz de los rayos de la luna. \n\n {qst:QSTPLACESEARCH}
+EventPlacePendant.button1,{qst:QSTCONTINUE}
+EventPlaceGoatHair.text,Atrapado entre los arbustos hay un jirón de ropa. \n\n {qst:QSTPLACESEARCH}
+EventPlaceGoatHair.button1,{qst:QSTCONTINUE}
+TokenCaveEntranceToForest.text,No puedes ver mucho más allá con esta oscuridad. \n En esta dirección los altos árboles ocultan parcialmente con sus ramas la pálida luna. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+TokenCaveEntranceToForest.button1,{qst:QSTREVEAL}
+EventPlaceForestTile.text,Observas un denso bosque lleno de robles centenarios. \n\n Coloca el módulo {c:TileForest}. \n\n{qst:DISCARDREVEAL1} \n\n Coloca una ficha de Oscuridad en el borde señalado. \n Considera todos los espacios de este módulo como si contuvieran una ficha de Oscuridad cada uno.
+EventPlaceForestTile.button1,{qst:QSTCONTINUE}
+EventForensicWoundLeft.text,El punto de entrada de la herida de la víctima del roble indica que el asesino es zurdo.
+EventSpellBookLearnSpell.text,Tienes la posibilidad de estudiar el tomo. \n\n Puedes usar una {action} para realizar una prueba de {lore}.
+EventOakFail.text,La subida comienza siendo sencilla, pero a medida que trepas las ramas se vuelven cada vez más débiles. \n De repente, una rama cede y te precipitas contra el suelo. \n\n Sufres 1 de Daño.
+EventOakFail.button1,{qst:QSTCONTINUE}
+EventPlaceAllyAMore.text,—<i>No puedo decirle lo que pasó en el ritual. \n Mi vista ya no es la que era. \n Pero tengo la seguridad de que algo maligno ha sido invocado. \n Ese emblema que tiene ahí es muy poderoso. \n ¿Qué tal si me lo entrega y yo me encargo de resolver todo este lío?</i>
+EventPlaceAllyAMore.button1,{qst:QSTCONTINUE}
+EventPlaceAllyA.text,El hombre camina hacia el banco apoyándose firmemente en su bastón con la mano izquierda. \n Se sienta en el banco y coloca el bastón a su alcance. \n Utiliza la mano izquierda para ajustarse las gafas. \n\n Coloca la ficha de Personaje de Zebulon Whateley.
+EventPlaceAllyA.button1,{qst:QSTCONTINUE}
+EventPlacePorchTileTokens.text,{qst:QSTPLACEEXPLORE}
+EventPlacePorchTileTokens.button1,{qst:QSTCONTINUE}
+EventPlacePorchTile.text,Un porche conduce al interior de la cabaña de madera. \n\n Coloca el módulo {c:TilePorch} en el lugar señalado. \n\n {qst:DISCARDREVEAL2}
+EventPlacePorchTile.button1,{qst:QSTCONTINUE}
+TokenRitualToPorch.text,Observas un reflejo de luz en esta dirección. \n\n Sólo puedes seleccionar <i>Revelar</i> si estás en el mismo espacio que esta ficha de Vistazo.
+TokenRitualToPorch.button1,{qst:QSTREVEAL}
+EventCellarTileTokens.text,Coloca una ficha de Exploración y \n {var:countCellarSights} ficha(s) de Vistazo.
+EventCellarTileTokens.button1,{qst:QSTCONTINUE}
+EventPlaceCellarTile.text,Una tenue luz llega desde el norte y también de entre las rendijas de la trampilla de madera podrida que lleva a una {c:TileCellar} \n\n Coloca el módulo {c:TileCellar}. \n\n{qst:DISCARDREVEAL2}
+EventPlaceCellarTile.button1,{qst:QSTCONTINUE}
+TokenRitualToCellar.text,No puedes ver mucho más allá con esta oscuridad. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+TokenRitualToCellar.button1,{qst:QSTREVEAL}
+TokenRitualToBridge.button1,{qst:QSTREVEAL}
+TokenRitualToBridge.text,No puedes ver mucho más allá con esta oscuridad. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+EventPlaceShackTile.button1,{qst:QSTCONTINUE}
+EventPlaceShackTile.text,Encuentras una cabaña abandonada. Unas débiles luces que hay junto a la cabaña iluminan los alrededores. \n\n Coloca el módulo {c:TileShack} en el lugar señalado. \n\n{qst:DISCARDREVEAL2}
+EventPlaceShackTileTokens.text,\n Coloca una ficha de Exploración \n\n Coloca {var:countShackSights} fichas de Vistazo.
+EventPlaceShackTileTokens.button1,{qst:QSTCONTINUE}
+TokenPorchToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenPorchToShack.button1,{qst:QSTREVEAL}
+EventPlaceAllyDLeftHand.button1,{qst:QSTCONTINUE}
+EventShackDoorLocked2.text,Le cuentas lo que has descubierto. \n Intentas que comprenda que le puedes ayudar, pero se niega a abrir la puerta. \n
+EventShackDoorLocked2.button1,{qst:QSTCONTINUE}
+EventShackDoorLocked3.text,—<i>¡Hemos encontrado el emblema de los druidas y el diario de Bettina Beck!</i> —le gritas. \n\n Puedes tratar de convencerla de que puedes ayudarla. \n\n Tienes la oportunidad de usar una {action} para realizar una prueba de {influence} e introducir el número de éxitos. \n Lanza 1 dado adicional si tienes algún objeto del tipo <i>Prueba</i>. \n
+EventShackDoorLocked3.button1,{qst:QSTCONTINUE}
+TokenShackDoor.text,\n La puerta de la cabaña está cerrada a cal y canto. \n\n Si el investigador está en el mismo espacio que esta ficha, \n puede hacer clic en el botón «Continuar». \n
+TokenShackDoor.button1,{qst:QSTCONTINUE}
+EventShackDoorLocked1.text,\n La puerta está cerrada con llave. \n Cuando llamas a la puerta, una mujer grita al otro lado: \n\n —<i>¿Cómo esperan resistirse a semejante poder diabólico? \n Ustedes son forasteros. \n ¡No saben nada de la historia de la familia Beck y de los secretos que Martha se guarda para sí misma!</i>
+EventShackDoorLocked1.button1,{qst:QSTCONTINUE}
+TokenShackToGraves.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToGraves.button1,{qst:QSTREVEAL}
+EventPlacePorchTokens.text,Sostienes el {c:QItemCultSigilEV} delante de la rejilla. El hombre quita los cerrojos y abre la puerta. \n\n Otra puerta en el lado contrario del porche conduce al interior de la cabaña de madera. \n\n {qst:QSTPLACEEXPLORE}
+EventPlacePorchTokens.button1,{qst:QSTCONTINUE}
+EventPlaceBible.button1,{qst:QSTCONTINUE}
+TokenBible.text,El armario tiene una serie de cajones.
+TokenToOperatingRoom.text,La puerta está cerrada con un candado de combinación. \n El candado es demasiado robusto como para romperlo a la fuerza pero quizá puedas oír el clic de los pernos al girarlo.
+TokenToOperatingRoom.button1,{action} Forzar cerradura
+EventPlaceObservationTile.text,Desde fuera la cabaña de madera parece abandonada, pero dentro está limpia y bien iluminada. \n\n Coloca el módulo {c:TileObservation}.
+EventPlaceObservationTile.button1,{qst:QSTCONTINUE}
+EventPlaceObservationTokens.text,Una puerta conduce a una estancia interior de la cabaña. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventPlaceObservationTokens.button1,{qst:QSTCONTINUE}
+EventAllyAIsFriend.button1,{qst:QSTCONTINUE}
+EventAllyBaboutAllyC.button1,{qst:QSTCONTINUE}
+EventAllyCIsEnemy.button1,{qst:QSTCONTINUE}
+EventAllyDIsEnemyDefault.text,—<i>¡Corrina Jones es una Druida oscura! \n ¡Intentó reclutarme para que convirtiera en un Druida oscuro!</i>
+EventAllyCIsFriend.button1,{qst:QSTCONTINUE}
+EventAllyCIsFriendDefault.text,—<i>¡Othera no es la Druida oscura! \n ¡No le haría daño a una mosca! \n ¡Y mucho menos mataría a alguien!
+EventAllyDIsFriendDefault.text,<i>¡{qst:QSTALLYDNAME} no es un Druida oscuro!</i>
+EventAllyDIsFriendDefault.button1,{qst:QSTCONTINUE}
+EventAllyAIsEnemy.button1,{qst:QSTCONTINUE}
+EventAllyDaboutAllyC.text,—<i> Othera Gilman es una bruja procedente de una larga estirpe de brujas, ¡algo que no le gusta que sepa nadie! \n ¡Es tan creída!</i>
+EventAllyDaboutAllyC.button1,{qst:QSTCONTINUE}
+EventAllyDaboutAllyB.text,—<i>Eric sirvió en la Gran guerra, ¡y al regresar no volvió a ser el mismo! \n Se aficionó al whisky y a la violencia. \n ¡Era como si quisiera vengarse de todo el mundo!</i>
+EventAllyDaboutAllyB.button1,{qst:QSTCONTINUE}
+EventAllyCaboutAllyB.button1,{qst:QSTCONTINUE}
+EventAllyDIsEnemy.button1,{qst:QSTCONTINUE}
+EventAboutAllyD.button1,{qst:QSTCONTINUE}
+EventAllyDIsFriend.button1,{qst:QSTCONTINUE}
+EventAllyBaboutAllyD.button1,{qst:QSTCONTINUE}
+EventAllyBNotSure.text,—<i>No sé si Eric es un Druida oscuro.</i>
+EventAllyBNotSure.button1,{qst:QSTCONTINUE}
+EventAllyCNotSure.button1,{qst:QSTCONTINUE}
+EventAllyDNotSure.button1,{qst:QSTCONTINUE}
+EventStart.button1,Modo normal
+EventTalkAboutAllyC.button1,{qst:QSTCONTINUE}
+EventMoveIn.text,{qst:QSTEXPLOREMOVE}
+EventMoveIn.button1,{qst:QSTCONTINUE}
+EventDarkYoungRetreat.text,\n El monstruo se mueve un espacio hacia el este. \n Si no puede moverse a un espacio adyacente en dirección este, se moverá entonces a un espacio adyacente en dirección sur. \n Nota: Nunca puede cruzar una línea discontinua amarilla. \n\n ¿Se ha movido el monstruo al menos un espacio? \n
+EventDarkYoungRetreat.button1,Sí, el monstruo se ha movido al menos 1 espacio
+EventDarkYoungRetreat.button2,No, no se ha movido ni un solo espacio
+EventDarkYoungRetreatMoveAgain.text,El monstruo se mueve un espacio hacia el este.
+EventDarkYoungRetreatMoveAgain.button1,{qst:QSTCONTINUE}
+EventDarkYoungAttack2.text,La criatura se retuerce y te golpea con sus enormes tentáculos. \n\n Sufres {var:SufferDamage} de Daño (anulado/s por {strength}+1).
+EventDarkYoungAttack2.button1,{qst:QSTCONTINUE}
+EventDarkYoungAttack1.text,La criatura trata de agarrarte con sus enormes tentáculos. \n\n Prueba de ({agility}:1)
+EventDarkYoungAttack1.button1,{qst:QSTPASS}
+EventDarkYoungMove2.text,\n El Retoño oscuro se mueve 2 espacios hacia el investigador más cercano. \n\n No puede moverse a un espacio de interior. \n\n Después de que se mueva, todos los Investigadores (y todos los monstruos que no sean <i>Incorpóreos o Voladores</i>) en su mismo espacio reciben 2 de Daño (anulados por {agility}). \n
+EventDarkYoungMove2.button1,{qst:QSTCONTINUE}
+EventDarkYoungMove1.text,\n El Retoño oscuro se mueve 1 espacio hacia el investigador más cercano. \n\n No puede moverse a un espacio de interior. \n\n Después de que se mueva, ¿hay algún investigador en su mismo espacio? \n
+EventDarkYoungMove1.button1,Sí, hay un investigador en su mismo espacio
+EventDarkYoungMove1.button2,No hay investigadores en su espacio
+EventCheckDarkYoungSpawn.button1,Button1
+SpawnDarkYoung1.button1,{qst:QSTCONTINUE}
+EventDarkYoungVanishes.text,El monstruo se desvanece en la floresta. Todavía puedes oír el ruido de los árboles cayendo. \n\n Descarta el Retoño oscuro.
+EventDarkYoungVanishes.button1,{qst:QSTCONTINUE}
+CustomMonsterDarkYoung.monstername,Retoño oscuro
+CustomMonsterDarkYoung.info,-
+EventPlaceGravesTile.text,\n Coloca el módulo {c:TileGraves}. \n\n La luz tenue de una vela gastada se apaga. \n\n{qst:DISCARDREVEAL1} \n\n Coloca una ficha de Oscuridad en el borde señalado. \n Trata todos los espacios de este módulo como si contuvieran una ficha de Oscuridad.
+EventPlaceGravesTile.button1,{qst:QSTCONTINUE}
+EventPlaceGraveToken.button1,{qst:QSTCONTINUE}
+EventPlaceOldOakTile.text,Ante ti se alza un imponente roble milenario. \n\n Coloca el módulo {c:TileOldOak}. \n\n{qst:DISCARDREVEAL1} \n\n Coloca una ficha de Oscuridad en el borde señalado. \n Considera todos los espacios de este módulo de tablero como si contuvieran una ficha de Oscuridad.
+EventPlaceOldOakTile.button1,{qst:QSTCONTINUE}
+EventPlaceCaveEntrance.text,Hacia el este hay una densa masa boscosa. \n Una bandada de cuervos se aleja volando hacia el corazón de la noche. \n\n Al noreste encuentras la entrada de una cueva. \n\n Coloca el módulo {c:TileCaveEntrance}. \n\n Coloca una ficha de Oscuridad en el borde señalado. \n Considera como si todos los espacios de este módulo contuvieran una ficha de Oscuridad.
+EventPlaceCaveEntrance.button1,{qst:QSTCONTINUE}
+EventSurnameAllyA.text,{qst:QSTALLYASURNAME}
+EventSurnameAllyA.button1,{qst:QSTCONTINUE}
+EventBridgeToCamp.button1,{qst:QSTCONTINUE}
+TokenShackToPorch.text,No puedes ver mucho más allá con esta tenue luz. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+TokenShackToPorch.button1,{qst:QSTCONTINUE}
+EventPlaceCaveEntranceTokens.text,Coloca una ficha de Exploración. \n\n Coloca 2 fichas de Vistazo. \n
+EventPlaceCaveEntranceTokens.button1,{qst:QSTCONTINUE}
+TokenBridgeToRapids.text,No puedes ver mucho más allá con esta oscuridad. \n\n Sólo puedes hacer clic en <i>Revelar</i> si estás en el mismo espacio que la ficha de Vistazo.
+TokenBridgeToRapids.button1,{qst:QSTREVEAL}
+TokenCellarToShack.text,{qst:QSTRESTRICTSIGHT}
+TokenCellarToShack.button1,{qst:QSTREVEAL}
+TokenShackToCellar.text,{qst:QSTRESTRICTSIGHT}
+TokenShackToCellar.button1,{qst:QSTCONTINUE}
+EventPorchToShack.button1,{qst:QSTCONTINUE}
+TokenCellarWall1.button1,{qst:QSTCONTINUE}
+EventAboutAllyCFalse.button1,{qst:QSTCONTINUE}
+EventTalkAboutAllyD.button1,{qst:QSTCONTINUE}
+EventInspectFleshWardAllyD.text,El hechizo se describe en una carta a Martha Beck. La misiva acaba con una advertencia: \n «<i>Querida Martha, \n\n tienes en alta estima a tu pariente pero no puedes confiar en esa persona. \n\n ¿Acaso se puede confiar en alguien que ya en su infancia se metía en problemas con la ley? \n Tu pariente es un Druida oscuro , ¡planeando acabar con el grupo! \n ¡Sólo puedes confiar en mí en el asunto del emblema! \n\n Tu seguidora más leal, \n Corrina Jones</i>». \n
+EventGiveSigilToFriend1.text,El Druida lee con cuidado las runas. \n —<i>Estas runas me resultan familiares. \n Durante el ritual vi unas parecidas inscritas en la {c:QItemDagger}. \n Las runas en la daga son la clave para revertir el hechizo.</i> \n
+EventGiveSigilToFriend2A.button1,{qst:QSTCONTINUE}
+EventGiveSigilToFriend1.button1,{qst:QSTCONTINUE}
+EventGiveSigilToFriend2A.text,{qst:QSTALLYANAME} se levanta y dice: \n\n —<i>Guarde bien el emblema. Cuando tenga la daga, ¡tráigamela!</i> —hace una pausa—. <i>Puede sencillamente actuar precipitadamente y convocar a los poderes de las piedras usted sólo... ¡pero tendría que estar muy desesperado o estar completamente loco para intentarlo!\n </i>
+EventGiveSigilToRole1.text,La mirada del Druida es hipnótica. \n —<i>¡Entrégueme el emblema!</i> —grita—. <i>¡Se lo ordeno!</i> \n Un impulso incontrolable hace que le des el objeto. \n\n —<i>¡Yo soy uno de los descendientes de la gran Sacerdotisa de los Druidas oscuros, Bettina Beck!</i> —grita sosteniendo el emblema—. <i> ¡Y ahora, por fin, podré cumplir con su legado y completar la bendición de la sangre de la Cabra oscura!</i> \n
+EventGiveSigilToRole1.button1,{qst:QSTCONTINUE}
+EventGiveSigilToRole2.text,—<i>¡Ha sido muy prudente y sabio al no darle esto a los indignos idiotas que fueron incapaces de completar el ritual!</i> —dice el Druida. A continuación hace un complejo movimiento de mano. \n Las runas del emblema brillan ahora con más intensidad. \n Una niebla venenosa inunda la sala. \n\n Todos los investigadores en esta sala sufren {var:SufferDamage} de Daño (anulado/s por {strength}).
+EventGiveSigilToRole2.button1,{qst:QSTCONTINUE}
+EventGiveSigilInactive.text,El Druida mira el {c:QItemCultSigilEV}. \n —<i>Es la clave para deshacer lo que ha sido hecho.</i> \n\n El Druida hace un complejo movimiento con la mano sobre el emblema. \n Unos instantes después, el Druida habla de nuevo. \n —<i>¡Lo siento! Hasta que no sepamos más, ¡no se podrá lanzar el contra hechizo!</i> \n
+EventGiveSigilInactive.button1,{qst:QSTCONTINUE}
+EventGiveSigilToFriend2B.text,—<i>Ponga a salvo el emblema</i> —te dice Eric Colt—. <i>Cuando consiga la daga, ¡tráigamela! \n Siempre puede pasar de mí e intentar convocar las piedras usted mismo... \n ¡Pero tenga en cuenta que usted no es un Druida! \n </i>
+EventGiveSigilToFriend2C.text,—<i>Ponga a buen recaudo el emblema</i> —te dice Othera—. <i>Cuando consiga la daga, ¡tráigamela! \n Puede intentar romper la maldición usted mismo, ¡pero no posee la sabiduría del bosque!</i>
+EventGiveSigilToFriend2D.text,—<i>Ponga a buen recaudo el emblema</i> —te dice Corrina Jones—. <i>Cuando consiga la daga, ¡tráigamela! \n Puede intentar romper la maldición usted mismo, pero sería una imprudencia. \n ¡Sólo un druida conoce los secretos de las piedras!</i>
+EventGiveSigilToFriend2B.button1,{qst:QSTCONTINUE}
+EventGiveSigilToFriend2C.button1,{qst:QSTCONTINUE}
+EventGiveSigilToFriend2D.button1,{qst:QSTCONTINUE}
+EventGiveSigilAsk.button1,{action} Continuar
+EventGiveSigilConfirmed.button1,{qst:QSTCONTINUE}
+EventGiveSigilAsk.text,Uno de los druidas puede ser un poderoso Druida oscuro. \n ¿Estás seguro de que quieres continuar? \n\n Debes seleccionar <i>Cancelar</i> si tu investigador no posee el Objeto único {c:QItemCultSigilEV}.
+EventGiveSigilConfirmed.text,Le enseñas al druida el objeto mágico y le cuentas lo que has aprendido.
+EventGiveSigilAsk.button2,Cancelar
+EventGiveDagger.button1,{qst:QSTCONTINUE}
+EventGiveDaggerNotFound.text,El druida mira el objeto. \n —<i>¡No es la {c:QItemDagger}. Llévese esto de aquí!</i>
+EventGiveDaggerNotFound.button1,{qst:QSTCONTINUE}
+EventGiveDaggerFound.text,El Druida coge la {c:QItemDagger} \n y examina con detenimiento las runas que tiene grabadas en la empuñadura.
+EventGiveDaggerFound.button1,{qst:QSTCONTINUE}
+EventGiveDagger.text,Puedes hacer clic en el botón de <i>Continuar</i> sólo si tienes en tu poder la {c:QItemDagger}.
+EventGiveDaggerNovice.text,—<i>¡Oh, sí, ahora reconozco estas runas!</i> —dice el Druida—. <i>Es el lenguaje largamente olvidado de la Ord na Darach Gile. \n Creía que habían desaparecido hacía mucho tiempo. ¡Sólo un Druida blanco de gran poder puede leer correctamente estas runas! </i> \n
+EventGiveDaggerNovice.button1,{qst:QSTCONTINUE}
+EventAttackAsk.text,Uno de los druidas es un Druida blanco y puede ayudarte. \n\n ¿Estás seguro de que quieres seguir con tu ataque?
+EventAttackConfirmedA.button1,{qst:QSTCONTINUE}
+EventAttackAsk.button2,Cancelar tu ataque
+EventAllyE2aboutAllyC.button1,{qst:QSTCONTINUE}
+EventPlaceOak.text,\n Las ramas de un viejo roble gigante se elevan sobre ti. \n\n Coloca una ficha de Búsqueda en el lugar señalado. \n\n De pie sobre una enorme rama ves a una mujer. \n Su pelo rojo brillante se mueve como si lo agitase un fuerte viento, sólo que no sopla viento. \n ¡Tiene la garganta cortada pero sin embargo grita! \n\n —<i>¿Has vuelto a mí por fin?</i> \n\n Prueba de ({will}:1) \n Si fallas, sufres 1 de Horror.
+EventPlaceOak.button1,{qst:QSTCONTINUE}
+EventSigilReady.text,Recitas las extrañas palabras rúnicas que aprendiste en el diario y en las runas del cuadro. \n Unas brillantes runas rojas aparecen en el emblema. \n\n Tienes la oportunidad de usar una {action} para realizar una prueba de {lore}. \n Si superas la prueba, un investigador a tu alcance puede descartar un estado (Aturdido, Desconcertado o Hipnotizado) o tu investigador puede descartar 1 de Daño boca abajo. \n\n Si la Hija de la cabra o el Engendro cabrío están dentro de tu alcance, puedes usar una {action} para convencer al monstruo de que huya hacia el bosque; haz una prueba de ({influence}:2). \n Si superas la tirada, puedes descartar 1 Pista {clue} para derrotar al monstruo. \n
+EventSigilReadyNotRead.text,Consigues traducir la primera parte de las runas. \n «<i>El Druida blanco vendrá y sólo hablará con la verdad. \n Sólo el Druida blanco conoce los secretos del emblema</i>». \n\n No eres capaz de descifrar lo que dicen el resto de las runas.
+EventSigilReadyNotRead.button1,{qst:QSTCONTINUE}
+EventAllyAIsWarlock.text,\n —<i>¡Zebulon Whateley es el Druida oscuro! \n Las familias Whateley y Beck siempre han tenido estrechos lazos. \n La madre de Martha, Bettina Beck, aprendió magia oscura del famoso brujo Malachi Cooter Whateley. \n Bettina Beck era la madre de Zebulon y Malachi su padre. \n Zebulon no es ni tan viejo ni tan frágil como parece. \n Es todo una pantomima.</i> \n
+EventAllyAIsWarlock.button1,{qst:QSTCONTINUE}
+EventAllyBIsWarlock.text,\n —<i>¡Eric Colt sufre pérdidas de memoria, ataques de ira y arranques violentos! \n ¡Él es el Druida oscuro! \n Es el hijo ilegítimo de la furtiva relación de John Colt y Bettina Beck. \n El {c:QItemCultSigilEV} se lo quitaron a un vagabundo. \n Cuando el vagabundo desapareció, el sheriff hizo algunas pesquisas. \n Los lugareños tenían tanto miedo a los Colt que nadie se atrevió a testificar contra ellos.</i> \n
+EventAllyBIsWarlock.button1,{qst:QSTCONTINUE}
+EventAllyCIsWarlock.text,\n —<i>Othera Gilman presume de considerarse a sí misma una bruja. \n ¡Ella es la Druida oscura! \n Es la hermana de Martha Beck. \n Después de que su madre se quitase la vida, fue adoptada por la familia Gilman. \n ¡Ella considera que el emblema es legítimamente suyo!</i> \n
+EventAllyCIsWarlock.button1,{qst:QSTCONTINUE}
+EventAllyDIsWarlock.text,\n —<i>¡Corrina Jones es la Druida oscura! \n ¡Su arte es obra de una mente macabra y desequilibrada! \n Sólo unos pocos saben que es la hermana de Martha Beck. \n Su madre recibió el emblema de un vagabundo que decía ser el último de los auténticos Druidas blancos. \n Corrina considera que el emblema le pertenece legítimamente.</i> \n
+EventAllyDIsWarlock.button1,{qst:QSTCONTINUE}
+EventRitualAlreadyTold.button1,{qst:QSTCONTINUE}
+EventAllyACabinDefault.button1,{qst:QSTCONTINUE}
+EventAttackAllyE.button1,{qst:QSTCONTINUE}
+EventDarkYoungMove.button1,Sí, hay un investigador a su alcance en un espacio de exterior
+EventDarkYoungAttack.button1,Button1
+SpawnCultistDruidE.text,\n —<i>¡Insensatos! ¡Que la ira de Dagón caiga sobre vosotros!</i> \n\n Descarta la ficha de Personaje Mujer amarilla. \n\n Coloca un Sacerdote de Dagón en el lugar señalado.
+SpawnDarkDruidA.button1,{qst:QSTCONTINUE}
+EventPriestOfDagonDefeated.text,Cuando la Sacerdotisa de Dagón muere \n deja caer la {c:QItemDagger} al suelo. \n\n Coloca el Objeto común {c:QItemDagger} en el espacio que ocupaba el monstruo al ser derrotado. \n\n La {c:QItemDagger} se considera un objeto del tipo <i>Llave</i> (gana los rasgos Llave y Prueba, y no se puede descartar a menos que sea voluntariamente). \n
+EventPriestOfDagonDefeated.button1,{qst:QSTCONTINUE}
+SpawnCultistDruidA.text,Zebulon Whateley huye y entra en la cabaña de madera. \n\n Descarta la ficha de Personaje de Zebulon Whateley. \n Aparece un Sectario en el lugar señalado.
+SpawnCultistDruidB.button1,{qst:QSTCONTINUE}
+EventAttackFriendFemale.button1,Continuar
+EventAttackFriendMale.button1,Continuar
+SpawnCultistDruidC.button1,{qst:QSTCONTINUE}
+SpawnDarkDruid2.button1,{qst:QSTCONTINUE}
+SpawnDarkDruid2.text,El Druida oscuro se mueve con una velocidad sobrehumana hacia la piedra ritual. \n\n Aparece el Druida oscuro en el lugar señalado.
+SpawnDarkDruidE.text,—<i>¡Y ahora mostraré mi verdadero poder!</i> —exclama Jane Marsh. \n La Druida oscura se mueve con una velocidad sobrehumana hacia la piedra ritual. \n\n Descarta la ficha de Personaje Mujer naranja. \n\n Aparece el Druida oscuro en el lugar señalado.
+SpawnDarkDruidB.text,—<i>¡Mostraré mi auténtico poder!</i> —grita Eric Colt \n\n Descarta la ficha de Personaje de Eric Colt. \n\n El Druida oscuro se mueve con una velocidad sobrehumana hacia la piedra ritual. \n Aparece el Druida oscuro en el lugar señalado.
+EventAttackConfirmedB.button1,{qst:QSTCONTINUE}
+EventAttackConfirmedC.text,Othera Gilman lanza un hechizo y te ciega momentáneamente con un estallido de luz.
+EventAttackConfirmedC.button1,{qst:QSTCONTINUE}
+EventAttackConfirmedD.text,Corrina Jones lanza un hechizo que, con un estallido de luz, te deja ciego momentáneamente. \n\n Descarta la ficha de Personaje {qst:QSTALLYDNAME}.
+EventAttackConfirmedD.button1,{qst:QSTCONTINUE}
+SpawnCultistDruidD.button1,{qst:QSTCONTINUE}
+SpawnCultistDruidD.text,Sale corriendo de la cabaña. \n\n Descarta la ficha de Personaje de Corrina Jones. \n Aparece un Sectario en el lugar señalado. \n
+EventAttackWhiteDruid.text,—<i>Yo soy el Druida blanco. ¡Y como sospechaba ustedes sirven al Druida oscuro! \n ¡Insensatos! \n ¡El Druida oscuro os ha traicionado! \n En cuanto me haya marchado, sucumbiréis a la maldición.</i> \n En el momento en el que el Druida blanco desaparece os desplomáis sobre el suelo, agonizando, mientras vuestra piel, músculos y huesos comienzan a transformarse. \n
+EventAttackWhiteDruid.button1,{qst:QSTCONTINUE}
+EventAllyBIsEnemyDefault.text,—<i>Eric no es un Druida blanco. \n Eric tiene bastante temperamento y tuvo discusiones muy acaloradas con Martha. \n ¡Amenazó con matarla! </i>
+EventAllyBIsEnemyDefault.button1,{qst:QSTCONTINUE}
+EventAllyCIsEnemyDefault.text,—<i>Othera Gilman es una bruja. \n Tengo claro que sea una Druida oscura. \n Hablaba mal de Martha a sus espaldas. \n Decía que ella debía liderar el grupo porque era una bruja poderosa.</i>
+EventAllyCIsEnemyDefault.button1,{qst:QSTCONTINUE}
+EventAllyAIsEnemyDefault.button1,{qst:QSTCONTINUE}
+EventAllyAIsCloseFriend.text,—<i>Tengo la seguridad de que Zebulon no es un Druida oscuro. \n Él y Martha eran amigos íntimos. \n Y eso a pesar de la poca sabiduría de él.</i>
+EventAllyCIsCloseFriend.button1,{qst:QSTCONTINUE}
+EventAllyDIsEnemyDefault.button1,{qst:QSTCONTINUE}
+EventAllyDIsCloseFriend.text,—<i>Corrina no es una Druida oscura. \n Ella y Martha eran amigas íntimas. \n Y su comprensión de lo oculto es limitada. \n Su extraño arte está inspirado por los cuadros que pintaba la madre de Martha.</i>
+EventGiveSigilToRole2More.text,El Druida coge el emblema pero éste brilla hasta ponerse al rojo vivo y el Druida lo deja caer. \n\n Coloca el Objeto único {c:QItemCultSigilEV} en tu espacio. \n
+EventGiveSigilToRole2More.button1,{qst:QSTCONTINUE}
+EventDarkDruidDefeatedDagger1.button1,{qst:QSTCONTINUE}
+EventDarkDruidDefeatedDagger2.text,El Druida oscuro cae al suelo. \n\n Examinando el cuerpo encuentras una página arrancada de un antiguo tomo. \n ¡La página describe como un descendiente de un Druida oscuro puede devolver a la vida el espíritu de un poderoso Druida oscuro!
+EventDarkDruidDefeatedDagger2.button1,{qst:QSTCONTINUE}
+EventDarkDruidDefeatedDagger3.text,El Druida oscuro cae al suelo. \n\n Al examinar sus ropas encuentras una nota garabateada a toda prisa. \n <i> ¡Mantenga un ojo en Jane Marsh! \n ¡Todavía sirve a Dagón! \n Pete. </i>\n
+EventDarkDruidDefeatedDagger3.button1,{qst:QSTCONTINUE}
+EventPlaceRitualSiteTokens.button1,{qst:QSTCONTINUE}
+EventPlaceInvestigators.text,Estás aturdido pero consigues recordar unos cánticos y a unas extrañas figuras vestidas con túnicas, dando vueltas alrededor de las piedras... \n ¡y algo descomunal emergiendo desde el bosque! \n\n Coloca las miniaturas de los investigadores en el lugar señalado. \n\n Todos los investigadores ganan {var:StartingClues} {clue}.
+EventPlaceInvestigators.button1,{qst:QSTCONTINUE}
+EventTentDismantle.button1,{qst:QSTCONTINUE}
+EventPlaceTent.text,Los campistas dejaron una tienda de campaña sujeta a dos árboles usando una soga . \n Cerca del fuego, el borde de la tienda está sujeto por un gran leño. \n\n {qst:QSTPLACESEARCH}
+EventTentDismantle.text,Desmontas la tienda y enrollas la soga. \n\n Ganas el Objeto único (carta de doble cara) {c:QItemRope}.
+PuzzleLockHard.button1,Abrir la puerta
+EventWhereIsDagger3.button1,{qst:QSTCONTINUE}
+EventAttackWhiteDruid.button2,Destripe
+EventWhereIsDagger1.button1,{qst:QSTCONTINUE}
+EventWhereIsDagger2.button1,{qst:QSTCONTINUE}
+EventWhereIsDagger.button1,{qst:QSTCONTINUE}
+EventOakPass.button1,{qst:QSTCONTINUE}
+EventForensicWoundRight.button1,{qst:QSTCONTINUE}
+EventForensicWoundLeft.button1,{qst:QSTCONTINUE}
+EventForensicWoundRight.text,El punto de entrada de la herida de la víctima del roble indica que el asesino es diestro.
+EventWhereIsDagger1.text,\n —<i>Recuerdo haber visto la daga hundida en el costado de Martha. \n Vi como arrastraban hacia el bosque a la desdichada de Martha. ¡Pero no vi la daga caerse! \n O la tiene el asesino o está en algún lugar del bosque.</i> \n {qst:QSTGAINCLUE} \n
+EventWhereIsDagger3.text,—<i>Recuerdo que vi como apuñalaban a Martha con la daga ritual. \n Martha se desplomó sobre la piedra. \n Vi como la daga ensangrentada caía sobre la piedra. \n Cuando volví a mirar, ¡había desaparecido! \n Quizá {qst:QSTALLYENAME} se la llevó cuando cogió el emblema. </i> \n\n {qst:QSTGAINCLUE}
+EventPlaceRobe.button1,{qst:QSTCONTINUE}
+TokenRobe.button1,{action} Buscar
+TokenRobe.text,En el suelo hay una túnica blanca arrugada y ensangrentada.
+EventRobeSearch.text,En un bolsillo de la túnica blanca hay un pergamino. \n\n Ganas el Hechizo {c:QItemDefenceSpell}.
+EventRobeSearch.button1,{qst:QSTCONTINUE}
+EventPlaceRobe.text,En el suelo hay una túnica blanca arrugada y ensangrentada. \n\n {qst:QSTPLACESEARCH}
+TokenUnderBridge.button1,{action} Buscar
+EventDeepOneSpotted.text,Logras atisbar a un Profundo que está debajo del puente. \n Está vigilando a {qst:QSTALLYENAME} a través de los agujeros que hay entre los tablones del suelo del puente de madera. \n Se escabulle bajo el agua. \n La visión de la criatura y el insano olor a pescado que desprendía te provocan inquietud. \n\n Prueba de ({will}:1). \n Si fallas la tirada, sufres 1 de Horror boca abajo.
+SpawnDeepOne.button1,{qst:QSTCONTINUE}
+EventGiveSigilAskAllyE.text,Debes hacer clic en el botón de <i>Cancelar</i> \n si tu investigador no está en posesión del {c:QItemCultSigilEV}.
+EventGiveSigilAskAllyE.button1,{action} Entregarle el emblema
+EventGiveSigilAllyEHasDagger.button1,{qst:QSTCONTINUE}
+EventSigilInactiveAllyE.text,Le das el {c:QItemCultSigilEV} a {qst:QSTALLYENAME}, que lo examina. \n\n —<i>El {c:QItemCultSigilEV} sólo puede ser usado si sus runas son visibles. \n No soy capaz de desentrañar sus secretos. \n Cuando las runas estén brillando, ¡regrese y entréguemelo!
+EventSigilInactiveAllyE.button1,{qst:QSTCONTINUE}
+TokenStoneFinale.button1,{action} Coloca el emblema de sectario sobre la piedra
+EventStoneFinaleInteract.text,Oyes un murmullo proveniente de las piedras. \n\n Puedes seleccionar el botón de <i>Continuar</i> sólo si tienes en tu poder el {c:QItemCultSigilEV}.
+EventStoneFinaleInteract.button2,Cancelar
+SpawnGhost.button1,{qst:QSTCONTINUE}
+SpawnGhost.text,—<i>¡Por fin, el momento ha llegado y puedo regresar!</i> —grita la fantasmagórica mujer. \n\n Aparece un Fantasma en el lugar señalado.
+SpawnChildOfTheGoat1.button1,{qst:QSTCONTINUE}
+EventBeginMinor.button1,Button1
+SpawnDarkYoung2.text,{qst:QSTSPAWNDARKYOUNG}
+EventPlaceRitualSiteTokens.text,La pálida luz de la luna hace que no puedas ver mucho más allá de los árboles. \n\n Coloca una ficha de Oscuridad en el borde señalado. \n Considera todos los espacios de este módulo de tablero como si contuvieran una ficha de Oscuridad. \n\n Coloca 3 fichas de Vistazo en el lugar señalado. \n
+EventPlaceStone1.text,En el centro del círculo de piedras se encuentra una gran piedra rectangular. \n\n Coloca una ficha de Interacción en el lugar señalado.
+EventPlaceStone1.button1,{qst:QSTCONTINUE}
+SpawnDarkYoung2.button1,{qst:QSTCONTINUE}
+SpawnDarkYoung1.text,{qst:QSTSPAWNDARKYOUNG}
+EventDarkYoungMove.text,¿Está el monstruo Retoño oscuro dentro del alcance algún investigador en un espacio de exterior?
+EventDarkYoungMove.button2,No
+EventDarkYoungAttack1Fail.button1,{qst:QSTCONTINUE}
+EventDarkYoungAttack1Pass.button1,{qst:QSTCONTINUE}
+EventDarkYoungAttack1Pass.text,Te echas al suelo pero aun así uno de los tentáculos te da un golpe de refilón. \n\n Sufres 1 de Daño boca abajo.
+EventDarkYoungAttack1Fail.text,Un tentáculo gigante te atrapa. \n\n Adquieres los estados <i>Retenido</i> y <i>Aturdido</i>. \n Sientes como se te rompe un hueso; sufres {var:SufferDamage} de Daño (anulado/s por {strength}+1). \n\n La criatura te arrastra hacia el bosque. \n Mueve a tu investigador y al monstruo Retoño oscuro 1 espacio hacia el este. \n Si el monstruo no puede moverse, sufres 1 de Daño adicional.
+EventDarkYoungAttack1.button2,{qst:QSTFAIL}
+EventDarkYoungAttack3.text,La criatura se vuelve loca, aplastando todo a su alrededor con sus enormes tentáculos. \n\n Todos los investigadores en su mismo espacio sufren 3 de Daño (anulados por {agility}. \n Todos los monstruos en su mismo espacio (que no sean Incorpóreos o vuelen) sufren 3 de Daño.
+EventDarkYoungAttack3.button1,{qst:QSTCONTINUE}
+EventCheckDarkYoungSkip2.text,Oyes como una gigantesca criatura se abre paso a través del bosque a una velocidad increíble. \n El suelo tiembla y las ramas estallan en pedazos. \n\n Todos los investigadores en un espacio de exterior deben realizar una prueba de ({will}:2). \n\n Cada investigador que falle la prueba sufre 1 de Horror boca abajo.
+SpawnDarkYoung3.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung3.button1,{qst:QSTCONTINUE}
+SpawnDarkYoung4.text,{qst:QSTSPAWNDARKYOUNG}
+SpawnDarkYoung4.button1,{qst:QSTCONTINUE}
+EventDarkYoungMoveToStone.text,\n El retoño oscuro se mueve 1 espacio hacia el espacio central de la localización <i>Círculo ritual</i>. \n\n No puede moverse a un espacio de interior. \n\n Después de que se mueva, todos los Investigadores (y todos los monstruos que no sean <i>Incorpóreos o Voladores</i>) en su mismo espacio reciben 2 de Daño (anulados por {agility}). \n
+EventDarkYoungMoveToStone.button1,{qst:QSTCONTINUE}
+EventCheckDarkYoungSkip2.button1,{qst:QSTCONTINUE}
+EventCheckDarkYoungSkip1.text,Algo enorme viene a la carrera cruzando el bosque a una velocidad increíble.
+EventCheckDarkYoungSkip1.button1,{qst:QSTCONTINUE}
+SpawnChildOfTheGoat1.text,Una mujer que grita como una trastornada sale de la maleza. \n\n Aparece una Hija de la cabra en el lugar señalado.
+SpawnChildOfTheGoat2.text,¡La mujer gruñe como un animal acorralado y te ataca! \n\n Aparece una Hija de la cabra en el lugar señalado.
+SpawnChildOfTheGoat2.button1,{qst:QSTCONTINUE}
+SpawnDarkYoung.button1,{qst:QSTCONTINUE}
+SpawnGoatSpawn1.text,Aparece un Engendro cabrío en el lugar señalado.
+SpawnGoatSpawn1.button1,{qst:QSTCONTINUE}
+TokenCross.text,Una cruz de metal descansa en el fondo del caudaloso río. \n Para llegar hasta ella tendrás que nadar.
+TokenCross.button1,{action} Buscar
+EventPlaceCross.text,En el agua, algo metálico refleja la luz de la luna. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceCross.button1,{qst:QSTCONTINUE}
+EventCrossSearch.text,En el río hay una pequeña cruz de metal. \n Para llegar a la cruz tendrás que nadar, y la corriente baja con fuerza. \n\n Prueba de ({agility}: 2).
+EventCrossSearch.button1,{qst:QSTPASS}
+EventCrossSearch.button2,{qst:QSTFAIL}
+EventCrossPass.text,Atrapas la cruz y regresas a la orilla del río. \n\n Ganas el Objeto común {c:QItemCross}. \n\n {qst:QSTEXAMINEITEM}
+EventCrossPass.button1,{qst:QSTCONTINUE}
+EventInspectCrossAllyA.text,La cruz tiene una inscripción: \n «<i>A Zebulon Whateley, solista del coro de chicos de la iglesia de Todos los Santos</i>».
+EventInspectCrossAllyA.button1,{qst:QSTCONTINUE}
+EventInspectCrossAllyC.text,La cruz tiene una inscripción: \n «<i>A Othera Gilman, directora de la escuela St. Mary</i>».
+EventInspectCrossAllyC.button1,{qst:QSTCONTINUE}
+EventInspectCrossAllyD.text,La cruz tiene una inscripción: \n «<i>A Corrina Jones por su excelencia en Arte, \n Escuela de St. Mary</i>».
+EventInspectCrossAllyD.button1,{qst:QSTCONTINUE}
+EventCrossFail.text,¡Algo en el agua agarra tu pierna! \n Entras en pánico cuando empiezas a tragar agua y te ves arrastrado hacia el fondo del río. \n La corriente se lleva la cruz. \n\n Sufres 1 de Daño boca abajo y 1 de Horror. \n
+EventCrossFail.button1,{qst:QSTCONTINUE}
+EventPlaceStoneFinale.button1,{qst:QSTCONTINUE}
+EventGiveDagger.button2,Cancelar
+EventAllyDPowerful.button1,{qst:QSTCONTINUE}
+EventAllyDNotPowerful.text,Corrina Jones cometió una serie de errores graves en su resurrección. \n Por suerte eres capaz de leer la runas pintada por Bettina antes del intento de resurrección de Corrina. \n Puedes leer con más claridad las runas del emblema.
+EventAllyDLeftHanded.button1,Continuar
+EventGainPainting.button1,{qst:QSTCONTINUE}
+TokenCrate.button1,{action} Buscar
+EventPlaceCrate.text,Hay unas cajas apiladas contra la pared. \n\n {qst:QSTPLACESEARCH}
+EventPlaceCrate.button1,{qst:QSTCONTINUE}
+TokenCrate.text,En un rincón de la fresquera hay una pila de cajas.
+EventCrateSearch.text,Las cajas guardan todo tipo de cosas de la cabaña de madera y que pertenecían a su anterior dueña, Bettina Beck. \n Hay una colección de libros y pergaminos antiguos que podrían ser de utilidad. \n\n Prueba de ({lore}:2)
+EventCrateSearch.button1,{qst:QSTPASS}
+EventCrateSearchResult.button1,{qst:QSTCONTINUE}
+PuzzleCode.button1,Resuelto
+EventGhostDefeated.text,Con un grito final desafiante, el espíritu de Bettina Beck se disipa. \n\n Retira el monstruo Fantasma del tablero.
+EventGhostDefeated.button1,{qst:QSTCONTINUE}
+EventGiveSigilAskAllyE.button2,Cancelar
+EventSpawnDarkYoung.button1,{qst:QSTCONTINUE}
+EventPaintingChildMale.button1,{qst:QSTCONTINUE}
+EventPaintingChildFemale.button1,{qst:QSTCONTINUE}
+EventAllyDPowerful.text,La forma redondeada y los engarces del colgante hacen que el {c:QItemCultSigilEV} encaje a la perfección. \n Ahora puedes leer con más claridad las runas del emblema.
+EventPaintingChildFemale.text,Al fondo del cuadro están las imágenes borrosas de dos niñas. \n Una niña tiene el pelo de color rojo fuego. \n La otra tiene el pelo oscuro, pero no rojo. Tras examinar con detenimiento las pinceladas concluyes que la pintura original incluía a las dos niñas.
+EventPlaceWhiskey.button1,{qst:QSTCONTINUE}
+TokenAllyD3.text,El Druida blanco
+TokenAllyD3.button1,{qst:QSTCONTINUE}
+TokenAllyB3.text,El Druida blanco
+TokenAllyB3.button1,{qst:QSTCONTINUE}
+TokenAllyC3.text,El Druida blanco
+TokenAllyC3.button1,{qst:QSTCONTINUE}
+EventStone1Search.button1,{qst:QSTCONTINUE}
+EventStone1Search.text,Sobre la piedra hay unos débiles rastros de sangre. \n Un reguero de gotas de sangre conduce hacia el este, adentrándose en la espesura.
+EventStone1SearchClue.button1,{qst:QSTCONTINUE}
+EventStone1SearchDone.text,Cuando el murmullo cesa, por un instante oyes un grito que viene del sur. \n Alguien ha gritado tu nombre.
+EventStone1SearchDone.button1,{qst:QSTCONTINUE}
+EventDarkYoungMove0.text,¿Está el monstruo Retoño oscuro en el mismo espacio que un investigador?
+EventDarkYoungMove0.button1,Sí
+EventDarkYoungMove0.button2,No
+EventDarkYoungSkip2.text,\n Una gigantesca criatura se mueve a través del bosque, echando abajo los árboles que se interponen en su camino, presa de una furia ciega. \n\n Todos los investigadores en un espacio de exterior realizan una prueba de ({will}:2) \n Si fallan la tirada, sufren 1 de Horror boca abajo.\n
+EventDarkYoungSkip2.button1,{qst:QSTCONTINUE}
+EventPlaceUnderBridge.button1,{qst:QSTCONTINUE}
+EventDeepOneSpotted.button1,{qst:QSTCONTINUE}
+EventGiveSigilAllyENoDagger.text,{qst:QSTALLYENAME} lo examina detenidamente y a continuación te lo devuelve. \n —<i>Lo siento, pero no puedo leer estas runas. \n Están escritas en el antiguo lenguaje de los Druidas Blancos, olvidado hace mucho tiempo. \n Sólo un poderoso Druida blanco puede romper la maldición. </i>
+EventGiveSigilAllyENoDagger.button1,{qst:QSTCONTINUE}
+EventPlaceWhiskey.text,Al fondo de la cueva hay una botella de whisky. \n\n Coloca el Objeto común (carta de doble cara) {c:QItemWhiskey} en el espacio señalado.
+EventCellarTest.text,A tu mente vienen varios nombres célticos posibles.
+EventCellarTest.button1,El gran dios Pan
+EventCellarTest.button2,El Hombre verde de los bosques
+EventCellarTest.button3,Herne el cazador
+EventCellarDoorLocked2.button2,{qst:QSTFAIL}
+EventCellarTestFailed.text,—<i>¡Ustedes no son amigos de los druidas!</i> —grita la mujer. \n
+EventCellarTestFailed.button1,{qst:QSTCONTINUE}
+EventDarkYoungGrab.text,La criatura trata de agarrarte con sus enormes tentáculos y arrastrarte al interior del bosque. \n\n Prueba de ({agility}:1). \n\n Si fallas la prueba, sufres 1 de Daño y mueve a tu investigador y al Retoño oscuro hasta 2 espacios en dirección este.
+EventDarkYoungGrab.button1,{qst:QSTCONTINUE}
+EventFinaleNoFire.text,Colocas el {c:QItemCultSigilEV} sobre la piedra. \n\n Un sonido como un zumbido emana de la piedra. \n La piedra se vuelve cálida al tacto. \n Se necesita algo más antes de iniciar el ritual. \n Tratas, desesperado, de recordar lo que has aprendido sobre el ritual que realizó Martha. \n\n Prueba de {lore}.
+EventFinaleNoFire.button1,{qst:QSTCONTINUE}
+EventCaveDoorLocked2.button2,{qst:QSTFAIL}
+EventCaveDoorLockedFail.text,—<i>¡No estoy seguro de que pueda confiar en usted!</i> —te espeta el hombre.
+EventCaveDoorLockedFail.button1,{qst:QSTCONTINUE}
+EventDarkYoungA.text,Una criatura enorme con unas gigantescas patas como troncos de árboles e innumerables bocas irrumpe desde el bosque. \n\n Aparece un Retoño oscuro en el lugar señalado.
+EventDarkYoungA.button1,{qst:QSTCONTINUE}
+EventDarkYoungB.text,Una criatura enorme con unas gigantescas patas como troncos de árboles e innumerables bocas irrumpe desde el bosque. \n\n Aparece un Retoño oscuro en el lugar señalado.
+EventDarkYoungB.button1,{qst:QSTCONTINUE}
+EventDarkYoungC.text,Una criatura enorme con unas gigantescas patas como troncos de árboles e innumerables bocas emerge de detrás de la cabaña. \n\n Aparece un Retoño oscuro en el lugar señalado.
+EventDarkYoungC.button1,{qst:QSTCONTINUE}
+EventDarkYoungD.text,Una criatura enorme con unas gigantescas patas como troncos de árboles e innumerables bocas se abre camino entre las lápidas. \n\n Aparece un Retoño oscuro en el lugar señalado.
+EventDarkYoungD.button1,{qst:QSTCONTINUE}
+EventDarkYoungSpawnMove.text,¿Hay algún investigador en un espacio de exterior al alcance del monstruo Retoño oscuro?
+EventDarkYoungSpawnMove.button1,Sí
+EventDarkYoungSpawnMove.button2,No
+EventSpawnDarkYoung2.button1,{qst:QSTCONTINUE}
+EventSpawnDarkYoung2.button2,No
+EventPlaceJournal.text,En este rincón hay un armario lleno de papeles. \n\n {qst:QSTPLACESEARCH}
+EventPlaceJournal.button1,{qst:QSTCONTINUE}
+SpawnGoatSpawn2.text,Aparece un Engendro cabrío en el lugar señalado.
+SpawnGoatSpawn2.button1,{qst:QSTCONTINUE}
+EventPlaceCellarPainting.text,Encima de una caja hay un cuadro. \n La humedad lo ha dañado. \n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceCellarPainting.button1,{qst:QSTCONTINUE}
+TokenCellarPainting.text,Encima de una caja hay un cuadro. \n La humedad lo ha dañado.
+TokenCellarPainting.button1,{action} Buscar
+EventCellarPaintingSearchA.text,El cuadro está tan dañado que es difícil distinguir con claridad los detalles. \n Representa un gran roble cubierto de sangre. \n Garabateadas con sangre están las siguientes palabras: \n <i>¡ME ENTREGO A SHUB-NIGGURATH! \n Bettina Beck.</i> \n\n {qst:QSTGAINCLUE}
+EventCellarPaintingSearchA.button1,{qst:QSTCONTINUE}
+EventCellarPaintingSearchB.text,El cuadro está tan dañado que es difícil distinguir con claridad los detalles. \n Representa una habitación llena de sangre de una cabaña de madera. \n El cuadro está firmado por {qst:QSTALLYDNAME}. \n\n {qst:QSTGAINCLUE}
+EventCellarPaintingSearchB.button1,{qst:QSTCONTINUE}
+TokenAllyC2.button6,{action} —<i>Hábleme de la familia Marsh.</i>
+EventAllyCMarshIsWitch.button1,{qst:QSTCONTINUE}
+EventAllyCMarshDefault.button1,{qst:QSTCONTINUE}
+EventAllyCMarshIsWitchClue.button1,{qst:QSTCONTINUE}
+CustomMonsterDruid.info,-
+CustomMonsterDruid.monstername,Druida
+SpawnDeepOne.text,¡Algo inhumano emerge del río! \n\n Aparece un Profundo en el lugar señalado.
+CustomMonsterDarkDruid.info,-
+EventGhost.text,Un ruido te hace mirar hacia abajo. \n Debajo de ti hay una mujer colgada de la rama de un árbol con una cuerda atada al cuello. \n Tiene el cuello roto. \n Su cuerpo se balancea hacia adelante y hacia atrás. \n\n —<i>¡Tráeme mi emblema para que pueda revivir!</i> —te grita—. <i>¡Deja que nos abracemos de nuevo!</i> \n\n De repente aparece a tu lado. \n En el pasado fue bella. \n Ahora sin embargo está tocada por la muerte y la podredumbre. \n\n Sufres 2 de Horror (anulados por {lore}). \n
+EventGhost.button1,{qst:QSTCONTINUE}
+EventGhostMore.text,Te arrastras por la rama para alejarte, pero te caes. \n\n Sufres 2 de Daño (anulados por {agility}). \n Lanza 1 dado adicional si llevas contigo el Objeto único {c:QItemRope}. \n\n Coloca a tu investigador en el espacio señalado.
+EventGhostMore.button1,{qst:QSTCONTINUE}
+EventCellarDoorLocked2.button3,Cancelar
+EventSigilActiveAllyE.text,—<i>¡Lo has hecho muy bien!</i> —te dice.
+EventSigilActiveAllyE.button1,{qst:QSTCONTINUE}
+EventPlaceBranch.text,\n Tumbada en el suelo, en la rama que tienes sobre tu cabeza, contemplas la espantosa imagen fantasmal de la mujer colgada del cuello. \n\n qst:QSTPLACESEARCH}
+EventPlaceBranch.button1,{qst:QSTCONTINUE}
+EventAllyBIsCloseFriend.button1,{qst:QSTCONTINUE}
+EventAllyBIsCloseFriend.text,—<i>Eric no es un Druida oscuro. \n Él y Martha eran amigos muy íntimos. \n ¡Algunos pensaban que ella era demasiado indulgente con los defectos de él! \n Tras volver de la Gran guerra, él se dio a la botella. \n Sus lapsus iban de mal en peor.</i>
+EventAllyCIsCloseFriend.text,—<i>Othera no es una Druida oscura. \n Ella y Martha eran amigas íntimas. \n ¡Quizá Marta fue demasiado indulgente con los defectos de ella! \n Todo el mundo sabía que Othera era una ilusa que creía en toda clase de tonterías.
+EventAllyCIsFriendDefault.button1,{qst:QSTCONTINUE}
+EventCrateSearch.button2,{qst:QSTFAIL}
+EventCrateSearchFail.text,Los libros y pergaminos han sido dañados por la humedad. \n Muchas de las palabras son ilegibles.
+EventCrateSearchFail.button1,{qst:QSTCONTINUE}
+TokenCampToRapids.text,La luz de una fogata ilumina un río que fluye veloz. \n\n Puedes hacer clic en el botón "Revelar" si estás en cualquier espacio del módulo {c:TileCamp}.
+TokenCampToRapids.button1,{qst:QSTCONTINUE}
+EventPlaceRapidsTile.text,Coloca el módulo {c:TileRapids}. \n\n{qst:DISCARDREVEAL2} \n\nColoca una ficha de Oscuridad en el borde indicado. \n Trata todos los espacios de este módulo de tablero como si contuvieran una ficha de Oscuridad.
+EventPlaceRapidsTile.button1,{qst:QSTCONTINUE}
+EventCampFireGoesOut.text,El fuego del campamento se apaga solo. \n Descarta la ficha de Interacción del fuego de campamento. \n\n {qst:QSTPLACEDARKNESS} \n
+EventCampFireGoesOut.button1,{qst:QSTCONTINUE}
+TokenGraveStone.text,La hiedra cubre las lápidas. \n Las inclemencias del tiempo han hecho que sea muy complicado leer las inscripciones.
+TokenGraveStone.button1,{action} Buscar
+EventPlaceGraveToken.text,Ante ti tienes una tumba abierta. \n\n {qst:QSTPLACESEARCH}
+EventPlaceGraveStoneToken.text,Unas lápidas dañadas por el paso del tiempo están cubiertas de hiedra. \n\n {qst:QSTPLACESEARCH}
+EventPlaceGraveStoneToken.button1,{qst:QSTCONTINUE}
+EventGraveStoneDagger1.text,Las lápidas y las inscripciones llevan mucho tiempo abandonadas. \n Una de las lápidas ha sido limpiada y se puede leer lo que pone en ella: \n «<i>Bettina Beck</i>». \n Bajo la inscripción alguien ha arañado lo siguiente: \n\n «<i>Madre, serás vengada. \n El emblema y la daga serán míos. \n Volverás a la vida</i>». \n\n {qst:QSTGAINCLUE}
+EventGraveStoneDagger2.button1,Continuar
+SpawnZombieDruid1.text,El cadáver se levanta de la tumba. \n\n Aparece un Sectario en el lugar señalado.
+SpawnZombieDruid2.button1,{qst:QSTCONTINUE}
+CustomMonsterZombieDruid.info,-
+CustomMonsterZombieDruid.monstername,Druida zombi
+SpawnZombieDruid1.button1,{qst:QSTCONTINUE}
+SpawnZombieDruid2.text,El cuerpo tiembla como una serie de protuberancias brotan por toda su piel. \n ¡El cadáver sale de la tumba usando sus garras! \n\n Aparece un Zombi en el lugar señalado.
+SpawnZombieDruid3.text,El cuerpo tiembla como una serie de protuberancias aparecen por toda su piel. \n ¡El cadáver sale de la tumba usando sus garras! \n\n Aparece un Subyugado en el lugar señalado.
+SpawnZombieDruid3.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyB.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyA.button1,{qst:QSTCONTINUE}
+EventAllyE2TellCursed.text,Tras discutir los detalles del ritual con {qst:QSTALLYENAME} te das cuenta de que a todos, incluida ella, se os ha maldecido para que os convirtáis en Hijos de la cabra. \n Sólo un druida de gran poder podría anular una maldición tan potente. \n Sospechas que ella sabe más de lo que te está contando. \n\n Puedes usar una {action} para realizar una prueba de {influence}. \n\n Tienes la oportunidad de lanzar un dado adicional por cada carta de Prueba que poseas.
+EventAllyE2TellCursed.button1,{qst:QSTCONTINUE}
+EventAllyE2TellCursedNoProof.text,—<i>No ha aprendido lo suficiente sobre el ritual y la maldición. \n ¡Regrese una vez que las runas del {c:QItemCultSigilEV} estén brillando!</i> \n\n Nota: el {c:QItemCultSigilEV} puede ser examinado haciendo clic en el menú Objetos de la aplicación.
+EventAllyE2TellCursedNoProof.button1,{qst:QSTCONTINUE}
+EventAttackAllyE.text,¿Estás seguro de que quieres atacar a {qst:QSTALLYENAME}?
+EventAttackAllyE.button2,Cancelar
+EventSigilActiveAllyE.button2,Cancelar
+EventDrownedRescueFail.text,Te muerde con la fiereza de un animal atrapado antes de ser arrastrada por la corriente. \n\n Sufres 1 de Daño. \n\n Descarta la ficha de Búsqueda.
+EventDrownedRescueFail.button1,{qst:QSTCONTINUE}
+EventDarkDruidDefeatedDagger1.text,El Druida oscuro se desploma. \n\n Al registrarlo encuentras una {c:QItemDagger}. \n\n Coloca el Objeto común {c:QItemDagger} en el mismo espacio en el que fue derrotado el Druida oscuro. \n\n Considera la {c:QItemDagger} como un objeto del tipo <i>Llave</i> (gana los rasgos Llave y Prueba, y no se puede descartar a menos que sea voluntariamente).
+SpawnCultistDruidE.button1,{qst:QSTCONTINUE}
+EventAllyE2TellCursedA.text,—<i>La clave para romper la maldición es encontrar la {c:QItemDagger}, que fue usada para sellar el pacto de sangre. \n ¡Sólo un Druida blanco de gran poder y sabiduría puede usar el poder del emblema y de la daga para deshacer un hechizo lanzado por el Druida oscuro! \n ¡He hecho todo lo que he podido! \n </i> \n Ganas 1 Pista {clue}. \n\n Descarta la ficha de Personaje Mujer naranja.
+EventAllyE2TellCursedA.button1,{qst:QSTCONTINUE}
+EventAllyE2TellCursedB.text,—<i>Un espíritu de ultratumba ha nublado nuestras mentes. \n ¡No pienso permanecer más tiempo en este sitio maldito! \n </i> \n Ganas 1 Pista {clue}. \n\n Descarta la ficha de Personaje Mujer naranja.
+EventAllyE2TellCursedB.button1,{qst:QSTCONTINUE}
+EventAllyE2TellCursedC.text,—<i>Después de que el asesino dejó caer la daga, yo la recogí. \n Tenía la esperanza de que al dársela a mi familia me ganaría su favor. \n ¡Debo enfrentarme a la ira de mi familia! \n ¡Y no son muy famosos por su compasión! \n Ganas el Objeto común {c:QItemDagger}. \n Considera la {c:QItemDagger} como si fuera un objeto del tipo <i>Llave</i> (gana los rasgos Llave y Prueba, y no se puede descartar a menos que sea voluntariamente). \n\n Descarta la ficha de Personaje Mujer naranja.
+EventAllyE2TellCursedC.button1,{qst:QSTCONTINUE}
+EventBrassLockNoKey.button1,Continuar
+EventDarkYoungDefeated.button1,{qst:QSTCONTINUE}
+EventDarkYoungDefeated.text,El enorme monstruo está herido de muerte y se desploma sobre el suelo. \n Lentamente se arrastra hacia el interior del bosque. \n\n Descarta el monstruo Retoño oscuro. \n\n Todos los investigadores ganan 3 Pistas {clue}. \n Todos los investigadores tienen la oportunidad de descartar hasta 3 cartas de Horror. \n\n
+EventMythosTransformText.button1,{qst:QSTCONTINUE}
+EventMythosTransformText.text,\n Sientes cómo tu cuerpo comienza a transformarse. \n Te sientes obligado a correr hacia el corazón del oscuro bosque. \n\n Todos los investigadores sufren 1 de Daño (anulado por {strength}). \n\n Todos los investigadores presentes en un espacio exterior se mueven 1 espacio hacia el este. \n
+EventMythosFirstRound.button1,{qst:QSTCONTINUE}
+EventMythosFirstRound.text,Aclaras tu mente. \n\n Todos los investigadores descartan el estado <i>Desconcertado</i>. En dirección este llega el sonido de un chotacabras alertando sobre algo enorme que se mueve entre los árboles. \n\n Sin efecto.
+EventSpawnGhostDefault.text,—<i>¡Usted no es de mi familia! \n Da igual quién sea, si verdaderamente sirve a la Cabra oscura, ¡entrégueme el emblema! \n ¡Pronto mi descendiente me traerá la daga y podré revivir! </i> \n\n Ganas 1 Pista {clue}.
+EventSpawnGhostHasDagger.text,\n Sobre su fantasmal mano derecha se encuentra una daga que brilla al entrar y salir de la realidad que habitan los humanos. \n\n {qst:QSTGAINCLUE}
+EventSpawnGhostDefault.button1,{qst:QSTCONTINUE}
+EventRitualAtBackFemale.button1,{qst:QSTCONTINUE}
+EventGainAction.text,Mientras sostienes el {c:QItemCultSigilEV} adquieres una nueva determinación. \n\n Puedes gastar inmediatamente 1 Pista {clue} para ganar una {action} adicional. No se puede gastar más de 1 Pista.
+EventGainAction.button1,{qst:QSTCONTINUE}
+PuzzlePaintingLevel2.button1,{qst:QSTCONTINUE}
+PuzzlePaintingLevel3.button1,{qst:QSTCONTINUE}
+EventUnderBridgeItem.text,Observas que bajo el puente hay algo. \n\n Ganas el Objeto común {c:QItemElderWard}.
+EventUnderBridgeItem.button1,{qst:QSTCONTINUE}
+UIEliminatedText.uitext,Eres incapaz de resistir los efectos del hechizo de transformación lanzado por el Druida oscuro. \n Te retuerces de dolor y comienzas a gatear por el suelo. \n La parte inferior de tu cuerpo se cubre de un recio pelo negro. \n Tus huesos crujen cuando ves claramente como se mueven bajo tu piel y una pus sanguinolenta emana de cada poro. \n Pronto tus gritos se transforman en balidos. \n Tu última visión consciente es la de tus compañeros transformándose en engendros cabríos.
+UIFinishButton.uitext,Fin y valoración
+UIContinueButton.uitext,{qst:QSTCONTINUE}
+EventGainJournal1BtT.text,\n Abres el armario y encuentras un diario escrito por Bettina Beck. \n\n Ganas el Objeto único {c:QItemCultJournalEV}. \n\n {qst:QSTEXAMINEITEM}
+EventGainJournal.text,\n Abres el armario y encuentras un diario escrito por Bettina Beck. \n\n Ganas el Objeto único {c:QItemJournalEV}. \n\n {qst:QSTEXAMINEITEM}
+EventGainJournal1BtT.button1,{qst:QSTCONTINUE}
+EventInspectJournalP1.text,El diario está escrito por Bettina Beck. \n Muchas de las páginas no se pueden leer porque están cubiertas de viejas manchas de sangre seca. Un párrafo en la primera página dice lo siguiente: \n\n «<i>Por fin, en la víspera de mayo, el Hombre verde salió del bosque. \n Sellé el pacto de sangre liberando la fuerza vital del último Druida blanco. \n El poder del emblema y de la daga es grande. \n Apenas había logrado completar la invocación y costó mucho que llegase. \n Todo ha merecido la pena. \n Voy a ser bendecida con dos descendientes. \n Ya estoy embarazada del primero</i>».\n
+EventInspectJournalP2.button1,{qst:QSTCONTINUE}
+EventInspectJournalP3.text,En la última página se puede leer esto: <i> \n\n «Invocaré al Hombre verde \n ¡Mi descendiente recibirá la bendición de Shub-Niggurath \n y se volverá más poderoso que yo!\n Para ello necesito sacrificarme a mí misma en el roble sagrado. \n\n ¡Iä! ¡Iä! ¡Shub-Niggurath! \n ¡Madre de los mil retoños! \n ¡Todos aquellos que te desafíen se convertirán en tu prole!»</i>
+EventInspectJournalP2.text,En otra página se puede leer lo siguiente: \n\n «<i>He dado a luz a mi segundo hijo, una niña sana a la que llamaré Martha. \n Es una poderosa bruja pero no muestra la misma actitud que el mayor o el mismo ansia por servir y realizar aquello que sea necesario. \n No puedo permitir esos remilgos infantiles. \n Las runas muestran un nuevo Ord na Darach Gile  que será formado y un nuevo Druida blanco que aún podría derrotar al Oscuro</i>».\n
+EventFinale1.text,Colocas el emblema sobre la piedra. \n\n Las piedras antiguas comienzan a brillar con una extraña energía sobrenatural. \n
+EventFinale1.button1,{qst:QSTCONTINUE}
+UIFinaleWhiteDruidText.uitext,El Druida blanco aparece. \n —<i>¡Oh, piedras antiguas, escuchad la canción \n del último bardo del Ord na Darach Gile!</i> —exclama el druida, y a continuación empieza a cantar...
+UIFinaleDancingText.uitext,El sonido de un canto inquietante, desolador y a la vez perturbadoramente bello parece provenir de las propias piedras y árboles. \n\n Las Hijas de la Cabra y los Engendros cabríos emergen del bosque. \n Uno a uno se transforman de nuevo en mujeres y niñas, algunas de las cuales reconoces como las lugareñas que estaban observando la danza. \n Se unen a la canción. \n\n Bailan entre las piedras, girando al unísono \n en una coreografía demasiado compleja para que puedas seguirla.
+UIFinaleBurningText.uitext,Mientras las bailarinas danzan, las otras criaturas son consumidas por un extraño fuego arcano. \n\n Cuando el baile termina, \n las bailarinas y el Bardo han desaparecido. \n Intentas localizar al Bardo, a las bailarinas o a alguno de los druidas. \n\n No hay ni rastro. \n\n Le prendes fuego a la cabaña de madera... \n destruyendo así el último atisbo de la historia de la familia Beck. \n Era lo que había que hacer.
+UIFinaleCoveredBridgeText.uitext,Cruzas el puente cubierto. \n Un sonido en la lejanía hace que te des la vuelta. \n Oyes, en dirección a la piedra ritual, una extraña y bella canción. La canción del último bardo de la Ord na Darach Gile. \n\n Escuchas la canción mientras observas como el humo se eleva entre los árboles. \n\n Amanece... \n\n Te alejas del lugar. \n\n {qst:QSTTHEEND}
+UIFinaleWhiteDruidContinue.uitext,{qst:QSTCONTINUE}
+UIFinaleDancingContinue.uitext,{qst:QSTCONTINUE}
+UIFinaleBurningContinue.uitext,{qst:QSTCONTINUE}
+TokenStoneFinale.text,En el centro del círculo de piedras se encuentra una gran piedra rectangular. \n La piedra tiene unos dos metros de ancho por tres de largo.
+EventStoneFinaleInteract.button1,{qst:QSTCONTINUE}
+EventPlaceStoneFinale.text,El Druida blanco entona unas palabras celtas largamente olvidadas. \n Las runas de la {c:QItemDagger} intensifican su brillo. \n\n El Druida blanco te la devuelve. \n —<i>¡Todo está listo para que completes el verdadero ritual de Beltane!</i> \n
+EventStone1.text,En el centro del círculo de piedras se encuentra una gran piedra rectangular. \n La piedra tiene unos dos metros de ancho por tres de largo. \n Cerca de la piedra están los restos de una hoguera, ahora apagada.
+TokenStone2.text,En el centro del círculo de piedras se encuentra una gran piedra rectangular. \n La piedra tiene unos dos metros de ancho por tres de largo. \n Cerca de la piedra están los restos de una hoguera, ahora apagada.
+TokenStone2.button1,Quitar la maldición
+EventPerformRitual2.text,Con desesperación estudias el contenido del diario tratando de encontrar algún tipo de contra hechizo que te permita romper la maldición. \n\n Prueba de {lore}.
+EventPerformRitual2.button1,{qst:QSTCONTINUE}
+UIFinaleFlash1Text.uitext,Se produce un resplandor de luz cegadora. \n Tu visión se nubla y todo se vuelve oscuridad... \n\n ¡Cuando despiertas en el círculo de piedras no recuerdas ni para qué has venido a este sitio ni nada de lo que ha pasado esta noche! \n\n Huyes presa del pánico.
+UIFinaleFlash1Continue.button1,{qst:QSTCONTINUE}
+UIFinaleFlash1Continue.uitext,{qst:QSTCONTINUE}
+UIFinaleFlash2Text.uitext,Desde hace meses tienes pesadillas que siempre empiezan contigo cruzando un viejo puente cubierto pero que se desvanecen repentinamente. \n\n Han ido a peor después de que oíste rumores de que los druidas se reúnen en lo más profundo del oscuro bosque y que tienen entre ellos a un Druida oscuro. \n\n Tienes la inquietante sensación de <i>déjà vu</i> y de un asunto a medio terminar...
+UIFinaleFlash2Text.button1,{qst:QSTCONTINUE}
+EventGainPainting.text,Es un retrato de una mujer. \n Su pelo es de un color rojo intenso. \n Luce en su pecho el {c:QItemCultSigilEV} en un collar. \n El cuadro fue pintado por <i>Bettina Beck,</i> \n Corrina Jones lo está restaurando. \n\n Ganas el Objeto único {c:QItemMissingLinkEV}. \n\n Ganas 1 Pista {clue}. \n\n Puedes examinar el objeto haciendo clic en el menú de Objetos de la aplicación.
+EventStone2PerformRitual1.text,Oyes un murmullo proveniente de las piedras. \n\n Puedes seleccionar el botón de <i>Continuar</i> sólo si tienes en tu poder el {c:QItemCultSigilEV} y el {c:QItemOldJournalEV}.\n
+EventStone2PerformRitual1.button1,{action} Continuar
+EventStone2PerformRitual1.button2,Cancelar
+EventStone2PerformRitual1BtT.text,Oyes un murmullo proveniente de las piedras. \n\n Puedes seleccionar el botón de <i>Continuar</i> sólo si tienes en tu poder el {c:QItemCultSigilEV} y el {c:QItemCultJournalEV}.\n
+EventStone2PerformRitual1BtT.button1,{action} Continuar
+EventStone2PerformRitual1BtT.button2,Cancelar
+EventMythosSigilReady.text,El {c:QItemCultSigilEV} se vuelve cálido al tacto. Las runas comienzan a brillar.
+EventMythosSigilReady.button1,{qst:QSTCONTINUE}
+quest.synopsys,Un misterio sobre un asesinato donde habrá que deducir quién miente y quién dice la verdad.
+EventAllyACabin1.button1,{qst:QSTCONTINUE}
+EventDaggerKillerIsAllyA.text,—<i>Mi mente ya no está tan nublada como antes. \n {qst:QSTALLYANAME} era un poderoso y malvado brujo. \n Es el hijo perdido de Bettina Beck y fue adoptado cuando era un niño. \n Sacrificó a su hermana Martha en un ritual de pacto de sangre usando la daga ritual. \n ¡Encuentre la daga y tráigamela para romper la maldición lanzada por el brujo!</i> \n
+EventDaggerKillerIsAllyA.button1,{qst:QSTCONTINUE}
+EventDaggerKillerIsAllyB.text,—<i>Mi mente ya no está tan nublada como antes. \n {qst:QSTALLYBNAME} era un poderoso y malvado brujo. \n Es el hijo perdido de Bettina Beck y fue adoptado cuando era un niño. \n Sacrificó a su hermana Martha en un sangriento ritual de pacto de sangre usando la daga ritual. \n ¡Encuentre la daga y tráigamela para romper la maldición lanzada por el brujo!</i> \n
+EventDaggerKillerIsAllyB.button1,{qst:QSTCONTINUE}
+EventDaggerKillerIsAllyC.text,—<i>Mi mente ya no está tan nublada como antes. \n Othera Gilman es una malvada y poderosa bruja. \n Es la hija perdida de Bettina Beck hace mucho tiempo, adoptada cuando era una niña. \n Sacrificó a su hermana Martha en un sangriento pacto ritual usando la daga ritual. \n ¡Encuentre la daga y tráigamela para romper la maldición lanzada por la bruja!</i> \n
+EventDaggerKillerIsAllyC.button1,{qst:QSTCONTINUE}
+EventDaggerKillerIsAllyD.text,—<i>Mi mente ya no está tan nublada como antes. \n Corrina Jones es una malvada y poderosa bruja. \n Es la hija perdida de Bettina Beck y fue adoptada cuando era una niña. \n Sacrificó a su hermana Martha en un ritual de pacto de sangre usando la daga ritual. \n ¡Encuentre la daga y tráigamela para romper la maldición lanzada por la bruja!</i> \n
+EventDaggerKillerIsAllyD.button1,{qst:QSTCONTINUE}
+QST_IS_ZEB_DARK,{action} —<i>¿Es {qst:QSTALLYANAME} un Druida oscuro?</i>
+QST_IS_ERIC_DARK,{action} —<i>¿Es Eric Colt un Druida oscuro?</i>
+QST_IS_OTHERA_DARK,{action} —<i>¿Es Othera Gilman una Druida oscura?</i>
+QST_IS_CORRINA_DARK,{action} —<i>¿Es Corrina Jones una Druida oscura?</i>
+QST_WHAT_RITUAL,{action} —<i>¿Qué fue lo que vio durante el ritual?</i>
+QST_ABOUT_PLACE,{action} —<i>Hábleme de este sitio.</i>
+QST_ATTACK_ZEB,{action} Atacar a {qst:QSTALLYANAME}
+QST_ATTACK_ERIC,{action} Atacar a {qst:QSTALLYBNAME}
+QST_ATTACK_OTHERA,{action} Atacar a {qst:QSTALLYCNAME}
+QST_ATTACK_CORRINA,{action} Atacar a {qst:QSTALLYDNAME}
+QST_ATTACK_JANE,{action} Atacar a {qst:QSTALLYENAME}
+QST_GIVE_SIGIL_JANE,Dar a {qst:QSTALLYENAME} el emblema de sectario.
+QST_SHOW_SIGIL,Mostrar el emblema del sectario
+QST_ABOUT_MARSH,{action} —<i>Hábleme de {qst:QSTALLYENAME}.</i>
+QST_ABOUT_RITUAL_JANE,Contarle lo que sabes sobre el ritual.
+EventAllyE2Talk_Cult_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult_Ritual.button1,{action} —<i>Hábleme de los druidas.</i>
+EventAllyE2Talk_Cult_Ritual.button2,{action} —<i>¿Qué pasó en el ritual?</i>
+EventAllyE2Talk_Cult_Ritual.button3,{qst:QST_ATTACK_JANE}
+EventAllyE2Talk_Cult_Ritual.button4,{qst:QST_ABOUT_RITUAL_JANE}
+EventAllyE2Talk_Cult_Ritual.button5,{qst:QST_GIVE_SIGIL_JANE}
+EventAllyE2Talk_Cult_Ritual.button6,{qst:QSTCANCEL}
+EventAllyE2Talk_Cult.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Cult.button1,{action} —<i>Hábleme de los druidas.</i>
+EventAllyE2Talk_Cult.button2,{qst:QST_ATTACK_JANE}
+EventAllyE2Talk_Cult.button3,{qst:QST_ABOUT_RITUAL_JANE}
+EventAllyE2Talk_Cult.button4,{qst:QST_GIVE_SIGIL_JANE}
+EventAllyE2Talk_Cult.button5,{qst:QSTCANCEL}
+EventAllyE2Talk_Ritual.text,{qst:QSTALLYENAME}
+EventAllyE2Talk_Ritual.button1,{action} —<i>¿Qué pasó en el ritual?</i>
+EventAllyE2Talk_Ritual.button2,{qst:QST_ATTACK_JANE}
+EventAllyE2Talk_Ritual.button3,{qst:QST_ABOUT_RITUAL_JANE}
+EventAllyE2Talk_Ritual.button4,{qst:QST_GIVE_SIGIL_JANE}
+EventAllyE2Talk_Ritual.button5,{qst:QSTCANCEL}
+EventAllyE2Talk.text,{qst:QSTALLYENAME}
+EventAllyE2Talk.button1,{qst:QST_ATTACK_JANE}
+EventAllyE2Talk.button2,{qst:QST_ABOUT_RITUAL_JANE}
+EventAllyE2Talk.button3,{qst:QST_GIVE_SIGIL_JANE}
+EventAllyE2Talk.button4,{qst:QSTCANCEL}
+EventAllyE2Talk_Attack_Give_Only.button1,{qst:QST_ATTACK_JANE}
+EventAllyE2Talk_Attack_Give_Only.button2,{qst:QST_GIVE_SIGIL_JANE}
+EventAllyE2Talk_Attack_Give_Only.button3,{qst:QSTCANCEL}
+EventAllyE2Talk_Attack_Give_Only.button4,{qst:QSTCANCEL}
+EventAllyE2Talk_Attack_Give_Only.text,{qst:QSTALLYENAME}
+TokenAllyA2.text,{qst:QSTALLYANAME}
+TokenAllyA2.button1,{qst:QST_IS_ERIC_DARK}
+TokenAllyA2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyA2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyA2.button4,{action} Darle la daga a {qst:QSTALLYANAME}.
+TokenAllyB2.text,{qst:QSTALLYBNAME}
+TokenAllyB2.button1,{qst:QST_IS_ZEB_DARK}
+TokenAllyB2.button2,{qst:QST_IS_OTHERA_DARK}
+TokenAllyB2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyB2.button4,{action} Darle la daga a Eric.
+TokenAllyC2.text,{qst:QSTALLYCNAME}
+TokenAllyC2.button1,{qst:QST_IS_ZEB_DARK}
+TokenAllyC2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyC2.button3,{qst:QST_IS_CORRINA_DARK}
+TokenAllyC2.button4,{action} Darle la daga a Othera.
+TokenAllyD2.text,{qst:QSTALLYDNAME}
+TokenAllyD2.button1,{qst:QST_IS_ZEB_DARK}
+TokenAllyD2.button2,{qst:QST_IS_ERIC_DARK}
+TokenAllyD2.button3,{qst:QST_IS_OTHERA_DARK}
+TokenAllyD2.button4,{action} Darle la daga a Corrina.
+EventAllyATalk_BCD.text,{qst:QSTALLYANAME}
+EventAllyATalk_BCD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BCD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BCD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BCD.button4,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BCD.button5,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_BCD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BCD.button7,{qst:QSTCANCEL}
+EventAllyATalk_CD.text,{qst:QSTALLYANAME}
+EventAllyATalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_CD.button3,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_CD.button4,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_CD.button5,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_CD.button6,{qst:QSTCANCEL}
+EventAllyATalk_BC.text,{qst:QSTALLYANAME}
+EventAllyATalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_BC.button3,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BC.button4,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_BC.button5,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BC.button6,{qst:QSTCANCEL}
+EventAllyATalk_BD.text,{qst:QSTALLYANAME}
+EventAllyATalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_BD.button3,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_BD.button4,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_BD.button5,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_BD.button6,{qst:QSTCANCEL}
+EventAllyATalk_B.text,{qst:QSTALLYANAME}
+EventAllyATalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyATalk_B.button2,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_B.button3,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_B.button4,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_B.button5,{qst:QSTCANCEL}
+EventAllyATalk_C.text,{qst:QSTALLYANAME}
+EventAllyATalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyATalk_C.button2,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_C.button3,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_C.button4,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_C.button5,{qst:QSTCANCEL}
+EventAllyATalk_D.text,{qst:QSTALLYANAME}
+EventAllyATalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyATalk_D.button2,{qst:QST_ABOUT_PLACE}
+EventAllyATalk_D.button3,{qst:QST_ATTACK_ZEB}
+EventAllyATalk_D.button4,{qst:QST_SHOW_SIGIL}
+EventAllyATalk_D.button5,{qst:QSTCANCEL}
+EventAllyATalk.text,{qst:QSTALLYANAME}
+EventAllyATalk.button1,{qst:QST_ABOUT_PLACE}
+EventAllyATalk.button2,{qst:QST_ATTACK_ZEB}
+EventAllyATalk.button3,{qst:QST_SHOW_SIGIL}
+EventAllyATalk.button4,{qst:QSTCANCEL}
+EventAllyATalkDefault.text,{qst:QSTALLYANAME}
+EventAllyATalkDefault.button1,{qst:QST_ATTACK_ZEB}
+EventAllyATalkDefault.button2,{qst:QST_SHOW_SIGIL}
+EventAllyATalkDefault.button3,{qst:QSTCANCEL}
+EventAllyBTalk_ACD.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_ACD.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyBTalk_ACD.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_ACD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_ACD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_ACD.button5,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_ACD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_ACD.button7,{qst:QSTCANCEL}
+EventAllyBTalk_CD.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_CD.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_CD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_CD.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_CD.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_CD.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_CD.button6,{qst:QSTCANCEL}
+EventAllyBTalk_AC.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_AC.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyBTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_AC.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AC.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AC.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AC.button6,{qst:QSTCANCEL}
+EventAllyBTalk_AD.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_AD.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyBTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_AD.button3,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_AD.button4,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_AD.button5,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_AD.button6,{qst:QSTCANCEL}
+EventAllyBTalk_A.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_A.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyBTalk_A.button2,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_A.button3,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_A.button4,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_A.button5,{qst:QSTCANCEL}
+EventAllyBTalk_C.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyBTalk_C.button2,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_C.button3,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_C.button4,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_C.button5,{qst:QSTCANCEL}
+EventAllyBTalk_D.text,{qst:QSTALLYBNAME}
+EventAllyBTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyBTalk_D.button2,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk_D.button3,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk_D.button4,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk_D.button5,{qst:QSTCANCEL}
+EventAllyBTalk.text,{qst:QSTALLYBNAME}
+EventAllyBTalk.button1,{qst:QST_WHAT_RITUAL}
+EventAllyBTalk.button2,{qst:QST_ATTACK_ERIC}
+EventAllyBTalk.button3,{qst:QST_SHOW_SIGIL}
+EventAllyBTalk.button4,{qst:QSTCANCEL}
+EventAllyBTalkDefault.text,{qst:QSTALLYBNAME}
+EventAllyBTalkDefault.button1,{qst:QST_ATTACK_ERIC}
+EventAllyBTalkDefault.button2,{qst:QST_SHOW_SIGIL}
+EventAllyBTalkDefault.button3,{qst:QSTCANCEL}
+EventAllyCTalk_ABD.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_ABD.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyCTalk_ABD.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_ABD.button3,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_ABD.button4,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_ABD.button5,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_ABD.button6,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_ABD.button7,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_ABD.button8,{qst:QSTCANCEL}
+EventAllyCTalk_AB.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_AB.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyCTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_AB.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AB.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AB.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_AB.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AB.button7,{qst:QSTCANCEL}
+EventAllyCTalk_AD.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_AD.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyCTalk_AD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_AD.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_AD.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_AD.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_AD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_AD.button7,{qst:QSTCANCEL}
+EventAllyCTalk_BD.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_BD.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_BD.button2,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_BD.button3,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_BD.button4,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_BD.button5,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_BD.button6,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_BD.button7,{qst:QSTCANCEL}
+EventAllyCTalk_A.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_A.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyCTalk_A.button2,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_A.button3,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_A.button4,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_A.button5,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_A.button6,{qst:QSTCANCEL}
+EventAllyCTalk_B.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyCTalk_B.button2,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_B.button3,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_B.button4,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_B.button5,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_B.button6,{qst:QSTCANCEL}
+EventAllyCTalk_D.text,{qst:QSTALLYCNAME}
+EventAllyCTalk_D.button1,{qst:QST_IS_CORRINA_DARK}
+EventAllyCTalk_D.button2,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk_D.button3,{qst:QST_ABOUT_MARSH}
+EventAllyCTalk_D.button4,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk_D.button5,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk_D.button6,{qst:QSTCANCEL}
+EventAllyCTalk.text,{qst:QSTALLYCNAME}
+EventAllyCTalk.button1,{qst:QST_WHAT_RITUAL}
+EventAllyCTalk.button2,{action} —<i>Hábleme de la familia Marsh.</i>
+EventAllyCTalk.button3,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalk.button4,{qst:QST_SHOW_SIGIL}
+EventAllyCTalk.button5,{qst:QSTCANCEL}
+EventAllyCTalkDefault.text,{qst:QSTALLYCNAME}
+EventAllyCTalkDefault.button1,{qst:QST_ATTACK_OTHERA}
+EventAllyCTalkDefault.button2,{qst:QST_SHOW_SIGIL}
+EventAllyCTalkDefault.button3,{qst:QSTCANCEL}
+EventAllyDTalk_ABC.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_ABC.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyDTalk_ABC.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_ABC.button3,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_ABC.button4,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_ABC.button5,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_ABC.button6,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_ABC.button7,{qst:QSTCANCEL}
+EventAllyDTalk_AB.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_AB.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyDTalk_AB.button2,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_AB.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AB.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AB.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AB.button6,{qst:QSTCANCEL}
+EventAllyDTalk_AC.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_AC.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyDTalk_AC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_AC.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_AC.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_AC.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_AC.button6,{qst:QSTCANCEL}
+EventAllyDTalk_BC.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_BC.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_BC.button2,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_BC.button3,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_BC.button4,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_BC.button5,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_BC.button6,{qst:QSTCANCEL}
+EventAllyDTalk_A.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_A.button1,{qst:QST_IS_ZEB_DARK}
+EventAllyDTalk_A.button2,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_A.button3,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_A.button4,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_A.button5,{qst:QSTCANCEL}
+EventAllyDTalk_B.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_B.button1,{qst:QST_IS_ERIC_DARK}
+EventAllyDTalk_B.button2,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_B.button3,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_B.button4,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_B.button5,{qst:QSTCANCEL}
+EventAllyDTalk_C.text,{qst:QSTALLYDNAME}
+EventAllyDTalk_C.button1,{qst:QST_IS_OTHERA_DARK}
+EventAllyDTalk_C.button2,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk_C.button3,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk_C.button4,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk_C.button5,{qst:QSTCANCEL}
+EventAllyDTalk.text,{qst:QSTALLYDNAME}
+EventAllyDTalk.button1,{qst:QST_WHAT_RITUAL}
+EventAllyDTalk.button2,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalk.button3,{qst:QST_SHOW_SIGIL}
+EventAllyDTalk.button4,{qst:QSTCANCEL}
+EventAllyDTalkDefault.text,{qst:QSTALLYDNAME}
+EventAllyDTalkDefault.button1,{qst:QST_ATTACK_CORRINA}
+EventAllyDTalkDefault.button2,{qst:QST_SHOW_SIGIL}
+EventAllyDTalkDefault.button3,{qst:QSTCANCEL}
+UIIntroText1.uitext,Lees de nuevo el telegrama que te entregaron esta tarde. \n\n ¡VENGA AL BOSQUE DE BILLINGTON! \n ¡EL DRUIDA OSCURO VA A MATAR A MARTHA! \n P.B. \n\n Encuentras la pista forestal que lleva al aislado y boscoso valle justo cuando el sol se pone. \n Paras justo delante de un viejo puente cubierto. \n La luna llena reluce en el firmamento.
+UIIntroButton1.uitext,{qst:QSTCONTINUE}
+UIIntroText2.uitext,Cruzas el puente. \n Divisas a un grupo de druidas, todos llevan túnicas y bailan alrededor de un círculo de piedras. \n En el centro, sobre un altar de piedra, hay un amuleto que brilla. \n De pie, al lado del amuleto, hay una mujer. \n Su túnica está iluminada por el resplandor de un fuego. \n Se gira hacia ti y observas que su pelo es de un rojo intenso. \n Un druida que se encuentra a su lado saca de repente una daga ritual. \n La extraña y antinatural luz que desprende la daga te ciega. \n El druida le clava la daga en el costado y coge el amuleto. \n Hay un estampido de luz cegadora. \n Un monstruo con un cuerpo que asemeja al de un árbol emerge del bosque. \n\n «<i>¡He llegado demasiado tarde!</i>», es tu último pensamiento antes de caer inconsciente.
+UIIntroButton2.uitext,{qst:QSTCONTINUE}
+EventPlacePorchTileSightToken.text,{qst:QSTPLACESIGHT}
+EventPlacePorchTileSightToken.button1,{qst:QSTCONTINUE}
+EventPlaceForestToOak.text,{qst:QSTPLACESIGHT}
+EventPlaceForestToOak.button1,{qst:QSTCONTINUE}
+EventAllyBaboutAllyARole1.button1,{qst:QSTCONTINUE}
+EventAllyBaboutAllyARole2.button1,{qst:QSTCONTINUE}
+EventGainIncriminatory.button1,{qst:QSTCONTINUE}
+EventInspectNote.button1,{qst:QSTCONTINUE}
+EventGraveStoneDagger2.text,Las lápidas y sus inscripciones llevan mucho tiempo deteriorándose. \n Una de las lápidas ha sido limpiada y se puede leer lo que pone en ella: \n «<i>Bettina Beck</i>». \n Bajo la inscripción alguien ha arañado lo siguiente: \n\n «<i>Madre, el emblema y la daga serán tuyos. \n Volverás a la vida</i>». \n\n {qst:QSTGAINCLUE}
+EventWhoHasDaggerDruid.text,<i> El Druida oscuro es un nigromante y planea resucitar a su madre, Bettina Beck. </i>
+EventInspecNoteKillerNotBelow.text,<i> El Druida oscuro tiene claustrofobia.</i>
+EventInspectKillerNearWater.button1,{qst:QSTCONTINUE}
+EventInspectNote.text,La libreta que encontraste en la tumba está muy deteriorada. \n Sólo unas pocas palabras son legibles. \n\n «<i>Martha ha sido engañada por el poderoso Druida oscuro. Sólo escucha a la persona que tiene por amiga más cercana, alguien que no tiene conocimiento real de la magia o de las tradiciones. \n El Druida oscuro está entrenando a otra persona para que se convierta en un Druida oscuro y juntos están difundiendo mentiras sobre mí. \n He descubierto una manera para desenmascarar al Druida oscuro. \n El Druida blanco nunca miente. \n El Druida oscuro, sin embargo, es un mentiroso compulsivo. \n Incluso desde joven se metía en líos en el colegio por mentir y esparcir rumores falsos. \n Martha empieza a tener dudas. \n En la víspera de mayo ella convocará al poder del emblema para revelar la verdad</i>».
+EventGraveStoneDaggerDefault.button1,{qst:QSTCONTINUE}
+EventSpellBookAllyCWitch.text,El libro ha sido escrito por Othera Gilman. \n En él se describe un hechizo de ataque muy poderoso. \n Está claro que es una bruja poderosa. \n No puedes estar seguro de que ella sea una poderosa Druida oscura.
+EventSpellBookAllyCNotWitch.text,Othera Gilman ha escrito comentarios en el viejo manuscrito que están completamente equivocados. \n Está claro que no es un bruja poderosa. \n Puede que sea malvada o que esté equivocada. \n Estás convencido de que no es una poderosa lanzadora de hechizos.
+EventInspectFleshWard.button1,{qst:QSTCONTINUE}
+EventSpellBookAllyCNotWitch.button1,{qst:QSTCONTINUE}
+EventCrateSearchResult.text,Entre un montón de trastos encuentras un libro de hechizos. \n\n Ganas el Objeto común {c:QItemSpellBook}. \n\n Puedes examinar el objeto haciendo clic en el menú de Objetos de la aplicación y después pulsando sobre el libro.
+EventInspectPainting.button1,{qst:QSTCONTINUE}
+EventPaintingChildMale.text,Al fondo del cuadro están las imágenes borrosas de una niña y un niño. \n La niña tiene el pelo de color rojo fuego. \n Tras examinar con detenimiento las pinceladas concluyes que la pintura original incluía al niño y a la niña.
+EventAllyBLeftHanded.button1,{qst:QSTCONTINUE}
+EventAllyDLeftHanded.text,Por la manera en la que Corrina sostiene el pincel y por la dirección de las pinceladas parece que es zurda.
+EventReviewObjective1.button1,{qst:QSTCONTINUE}
+EventReviewObjective2.text,Las runas son visibles en el emblema, pero no sabes leerlas. \n Uno de los druidas es el Druida blanco. \n Quizá el Druida blanco pueda ayudarte.
+EventReviewObjective2.button1,{qst:QSTCONTINUE}
+EventReviewObjective3.text,El Druida oscuro ha lanzado una poderosa maldición. \n Para romper la maldición necesitas encontrar la daga ritual que se usó para llevar a cabo el sacrificio.
+EventReviewObjective3.button1,{qst:QSTCONTINUE}
+EventReviewObjective4.text,El emblema está listo y tienes la daga. \n Necesitarás ayuda para romper la maldición.
+EventReviewObjective4.button1,{qst:QSTCONTINUE}
+EventShackDoorLocked3.button2,{qst:QSTCANCEL}
+EventInspectPainting.text,El cuadro es de una mujer. \n Tiene el pelo rojo brillante. \n Está de pie frente a un altar, cerca de un viejo roble. \n En su mano sostiene el corazón de una cabra. \n Sobre el altar hay restos de varias cabras. \n La mujer lleva el {c:QItemCultSigilEV} en un colgante. \n El cuadro está firmado por {qst:QSTMOTHERNAME}.
+EventAllyBLeftHanded.text,Enciende una antorcha usando una cerilla que prende contra su bota usando la mano izquierda.
+EventAllyDRightHanded.text,Por la manera en la que Corrina sostiene el pincel y por la dirección de las pinceladas parece que es diestra.
+EventAllyDRightHanded.button1,{qst:QSTCONTINUE}
+EventAllyDNotPowerful.button1,{qst:QSTCONTINUE}
+EventGraveStoneDagger1.button1,{qst:QSTCONTINUE}
+EventGainIncriminatory.text,Cubierto por huesos y una capa de tierra se encuentra el cadáver de un hombre joven. \n Su cuerpo está retorcido de manera grotesca y presenta malformaciones. \n Cerca del cuerpo encuentras una libreta. \n\n Ganas el Objeto único {c:QItemIncriminatoryEV}. Puedes examinar este objeto haciendo clic en el menú Objetos de la aplicación, y a continuación pulsando sobre el objeto.
+EventWhoHasDaggerDruid.button1,{qst:QSTCONTINUE}
+EventWhoHasDaggerJaneMarsh.button1,{qst:QSTCONTINUE}
+EventPlaceCaveExit.text,Los escombros bloquean una entrada lateral de la cueva. \n\n Coloca una ficha de Pared en el lugar señalado. \n\n {qst:QSTPLACESEARCH}
+EventPlaceCaveExit.button1,{qst:QSTCONTINUE}
+TokenCaveExit.button1,{action} Mover los escombros
+EventCaveExitWallClear.button2,{qst:QSTFAIL}
+TokenCaveExit.text,Los escombros bloquean una entrada lateral de la cueva.
+EventCaveExitWallClear.button1,{qst:QSTPASS}
+EventCaveExitPlaceForest.button1,{qst:QSTCONTINUE}
+EventCaveExitWallClear.text,Los escombros son muy pesados. \n\n Prueba de ({strength}:1). \n Lanza un dado adicional si posees un Arma pesada.
+EventCaveExitPlaceForest.text,Un túnel se adentra en la espesura del bosque. \n\n Descarta la ficha de Pared.
+EventCaveExitPlaceForestVisible.text,Un túnel se adentra en la espesura del bosque. \n\n Descarta la ficha de Pared \n\n Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventCaveExitPlaceForestVisible.button1,{qst:QSTCONTINUE}
+EventInspectJournalP1.button1,{qst:QSTCONTINUE}
+EventInspectJournalP3.button1,{qst:QSTCONTINUE}
+EventRitualDefault.button1,{qst:QSTCONTINUE}
+EventRitualDefault.text,—<i>Pero mi mente está nublada y todo era borroso. \n No estaba cerca de la piedra ritual.</i>
+EventAllyARitual.text,—<i>He visto cosas que usted no puede ni imaginar... ni siquiera en sus peores pesadillas, ¡pero nada como lo que pasó anoche! \n No se me puede engañar con facilidad, pero mi vista ya no es la que era.</i>
+EventAllyBRitual.text,—<i>¡Nosotros, los Colt, llevamos viviendo en este sitio desde que hay memoria! \n ¡No somos unos idiotas!</i>
+EventAllyE2Ritual1.text,—<i>Tengo algunas dudas sobre lo que pasó. \n Todos llevábamos las mismas túnicas largas de color blanco. \n Cuando Martha fue apuñalada, sólo uno de nosotros estaba a su lado. \n Los demás estaban detrás, alejados de ella. \n También había un grupo de lugareñas observando la ceremonia pero cuando se desató el caos salieron huyendo hacia el bosque.</i>
+EventRitualAtBackFemale.text,—<i>Tras coger el emblema, una criatura gigantesca apareció y salí corriendo tan rápido como pude. \n El último druida que dejé atrás en mi huida creo que era una mujer. </i>
+EventInspecNoteKillerNotBelow.button1,{qst:QSTCONTINUE}
+EventAllyE2aboutAllyC.text,\n —<i>Tengo mis sospechas de quién puede ser el Druida oscuro. \n Yo no le quitaría el ojo de encima a Othera Gilman. \n ¡Las gentes del lugar le tienen miedo! \n ¡Es una bruja muy poderosa!</i> \n
+EventAllyE2TellCursedD.text,—<i>Lo ha hecho bien para activar el emblema. \n ¡Ahora es el momento de que me lo entregue! \n Todo está listo y preparado.</i>
+EventAllyE2TellCursedD.button1,{qst:QSTCONTINUE}
+EventGiveSigilAllyEHasDagger.text,—<i>¡Al menos yo he obtenido lo que deseaba! —grita entre carcajadas {qst:QSTALLYENAME}—. <i>¡Te mostraré el auténtico poder de Dagón! \n\n Lanza un hechizo y en ese momento una asfixiante niebla se apodera del puente. \n Todos los investigadores en un espacio del Puente cubierto sufren {var:SufferDamage} (anulado/s por {strength}). \n\n De repente el emblema se pone al rojo vivo y lo deja caer. \n Coloca el Objeto único {c:QItemCultSigilEV} en el lugar señalado.
+EventGiveSigilAllyEKiller.text,{qst:QSTALLYENAME} saca la daga ritual manchada con sangre. \n\n —<i>Soy la hija que Bettina Beck perdió hace mucho tiempo. Fui adoptada por la familia Marsh después de que mi madre se quitase la vida. \n Hice que vinera para ayudarme a descubrir los secretos del emblema. \n Ahora que ya lo controlo usted me servirá nuevamente de otra forma.</i>
+EventGiveSigilAllyEKiller.button1,{qst:QSTCONTINUE}
+EventAllyBIsFriendDefault.text,—<i>Eric no es un Druida oscuro. \n Apoyó con lealtad a Martha.</i>
+EventAllyAIsEnemyDefault.text,—<i>Whateley es un Druida oscuro. \n En el condado de Dunwich la familia Whateley es temida y rechazada. \n ¡Adoran a dioses oscuros!</i>
+EventAllyAIsCloseFriend.button1,{qst:QSTCONTINUE}
+EventAllyAIsFriendDefault.text,—<i>Zebulon no es un Druida oscuro. \n Apoyó a Martha con lealtad.</i>
+EventAllyAIsFriendDefault.button1,{qst:QSTCONTINUE}
+EventAllyDIsCloseFriend.button1,{qst:QSTCONTINUE}
+EventRitualAlreadyTold.text,—<i>¡No puedo decirle nada más!</i>
+EventAllyACabin2.text,\n —<i>La cabaña fue abandonada tras la muerte de la madre de Martha, que se ahorcó en el gran roble que hay en el bosque. \n Los lugareños dicen que Bettina fue asesinada, pero el sheriff cortó de raíz los rumores después del suicidio por proteger a sus dos hijos. \n Hace poco Martha me contó que estaba limpiando la cabaña. \n Un hermano con el que hacía mucho tiempo que no tenía contacto quería algunos de los libros de Bettina, así como otras cosas. \n Martha es muy reservada y le gusta mantenerlo todo en secreto. \n Guarda el lugar bajo llave y lleva consigo a todas partes la llave de latón que abre la puerta de la cabaña.</i> \n
+TokenUnderBridge.text,Hay algo debajo del puente.
+EventPlaceUnderBridge.text,Mientras ella corre hacia el puente cubierto divisas algo por debajo de la estructura. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventInspectKillerNearWater.text,—<i> El Druida oscuro está en un lugar húmedo o cerca del agua. </i>
+EventAllyAIsWhiteDruid.text,<i>{qst:QSTALLYANAME} es el Druida blanco.</i>
+EventAllyAIsWhiteDruid.button1,{qst:QSTCONTINUE}
+EventAllyBIsWhiteDruid.text,<i>{qst:QSTALLYBNAME} es el Druida blanco</i>
+EventAllyBIsWhiteDruid.button1,{qst:QSTCONTINUE}
+EventAllyCIsWhiteDruid.text,<i>{qst:QSTALLYCNAME} es el Druida blanco</i>
+EventAllyCIsWhiteDruid.button1,{qst:QSTCONTINUE}
+EventAllyDIsWhiteDruid.text,<i>{qst:QSTALLYDNAME} es el Druida blanco</i>
+EventAllyDIsWhiteDruid.button1,{qst:QSTCONTINUE}
+EventPainterLies.button1,{qst:QSTCONTINUE}
+EventPainterLies.text,—<i>Ya veo que le interesa mi última obra. \n ¡La pinté tras tener una visión del pasado!</i> —dice {qst:QSTALLYDNAME}.
+EventAllyBRightHanded.text,Enciende la antorcha usando una cerilla que prende contra su bota usando la mano izquierda.
+EventAllyBRightHanded.button1,{qst:QSTCONTINUE}
+EventCheckSetupKiller1.text,Zebulon Whateley era el «Druida oscuro». \n Eric Colt era su cómplice. \n Eric era un Druida oscuro pero no era «El Druida oscuro». \n Othera Gilman era la mejor amiga de Martha. \n No era una poderosa usuaria de la magia. \n Corrina Jones era la Druida blanca.
+EventCheckSetupKiller1.button1,{qst:QSTCANCEL}
+EventCheckSetupKiller2.button1,{qst:QSTCANCEL}
+EventCheckSetupKiller3.text,Othera Gilman era «el Druida oscuro». \n Era la hija mayor de Bettina Beck y hermana de Martha Beck. \n Eric Colt fue entrenado por Othera Gilman para convertirse en su cómplice. \n Eric era un Druida oscuro pero no era «el Druida oscuro». \n Zebulon Whateley era el mejor amigo de Martha. \n Corrina Jones era la Druida blanca.
+EventCheckSetupKiller3.button1,{qst:QSTCANCEL}
+EventCheckSetupKiller4.text,Corrina Jones, la pintora, era «el Druida oscuro». \n Era la hija mayor de Bettina Beck y hermana de Martha Beck. \n Zebulon Whateley fue entrenado por Othera Gilman para convertirse en su cómplice. \n Él era un Druida oscuro, pero no «el Druida oscuro». \n Eric Colt era el mejor amigo de Martha. \n Él no era un usuario poderoso de la magia. \n Othera, la Bruja blanca, era la poderosa Druida blanca.
+EventCheckSetupKiller4.button1,{qst:QSTCANCEL}
+EventCheckSetupKiller5.button1,{qst:QSTCANCEL}
+EventCheckSolutionKiller1.text,Cuando examinaste el cuadro descubriste que era un autorretrato de Bettina. En el cuadro estaba Bettina con un niño y una niña. El diario reveló que Bettina tuvo dos hijos, que la madre se suicidó y que uno de sus hijos estaba destinado a ser el Druida oscuro. \n Una deducción razonable era que el cuadro es de Bettina con su hija Martha y su hijo, y que fue su hijo el que estaba destinado a ser el Druida oscuro. \n Además, Zebulon afirmaba que una mujer (Corrina) era la Druida oscura. \n La Prueba forense reveló que el asesino era zurdo, pero Corrina daba las pinceladas con la mano derecha. \n Pero la Información reveladora del cuadro evidenció que la pintora, Corrina, era diestra. \n En ese caso, Corrina no apuñaló a Martha. \n ¡Es más, dos evidencias distintas mostraron que no se podía confiar en Zebulon! \n Eric dijo que Zebulon era el Druida blanco (porque no se podía confiar en Zebulon) pero tampoco se podía confiar en Eric. \n El Manuscrito arcano encontrado en la fresquera reveló que Othera mintió a la hora de decir que era una poderosa lanzadora de hechizos. \n Eso dejaba como candidatas a ser el poderoso Druida blanco a Jane y a Corrina. \n Jane Marsh dijo que ella no era la Druida blanca y no había motivos para pensar que mintiera. \n Corrina dijo que Zebulon era el Druida oscuro, lo cual tenía sentido porque no se podía confiar en él y además abrió la puerta del porche usando la mano izquierda.
+EventCheckSolutionKiller1.button1,{qst:QSTCANCEL}
+EventCheckSolutionKiller2.text,Al examinar la foto descubriste que era un autorretrato de Bettina y que en él estaba Bettina con una niña y un niño. \n El diario reveló que Bettina tuvo dos hijos, que la madre se suicidó y que uno de sus hijos estaba destinado a convertirse en el Druida oscuro. \n Una deducción razonable era que el cuadro es de Bettina con su hija Martha y su hijo, ¡el cual estaba destinado a convertirse en el Druida oscuro! \n En cuyo caso, el Druida oscuro sería Eric o Zebulon. \n Eric dijo que una mujer (Othera) era el Druida oscuro. Por lo tanto, no se podía confiar en él. \n Corrina dijo que sólo una mujer estaba lo suficientemente cerca de Martha para apuñalarla. Por lo tanto, no se podía confiar tampoco en ella. \n El Manuscrito arcano de la fresquera reveló que Othera mintió sobre lo de ser una poderosa lanzadora de hechizos. \n Jane Marsh dijo que no era la Druida blanca y no había razones para creer que mintiera. \n Esto dejaba sólo a Zebulon como sospechoso de ser el poderoso Druida blanco. \n Así pues, el único hombre restante (Eric) sería el Druida oscuro. \n La Prueba forense lo confirmó. Reveló que el asesino era diestro. Zebulon abrió la puerta del porche usando su mano izquierda y Eric sostuvo la antorcha usando su mano derecha.
+EventCheckSolutionKiller2.button1,{qst:QSTCANCEL}
+EventCheckSolutionKiller3.text,Cuando examinaste el cuadro descubriste que era un autorretrato de Bettina. En el cuadro estaba Bettina con dos niñas. El diario reveló que Bettina tuvo dos hijas, que la madre se suicidó y que una de sus hijas estaba destinada a ser el Druida oscuro. \n Una deducción razonable es que el cuadro era de Bettina con sus dos hijas. Pero Othera afirmó que Zebulon era hijo de Bettina y del Druida oscuro. \n La Prueba forense reveló que el asesino era diestro. \n Zebulon abrió la puerta del porche con la izquierda, lo que indica que probablemente no sea el asesino y, por tanto, no es el Druida oscuro. \n Además, hay dos evidencias distintas que revelaban que no se podía confiar en Othera. \n Eric dijo que Othera era la Druida blanca pero, al igual que no se podía confiar en Othera, tampoco se podía confiar en Eric. \n Eso dejaba únicamente a Zebulon, Corrina o Jane como posibles Druidas blancos. \n Jane Marsh dijo que ella no era la Druida blanca y no había motivos para creer que mentía. \n Zebulon dijo que Corrina era la Druida blanca. Corrina dijo que Othera era la Druida oscura, lo que encajaba con que la hija de Bettina se convirtiese en la Druida oscura y que la Druida oscura fuese una mentirosa compulsiva.
+EventCheckSolutionKiller3.button1,{qst:QSTCANCEL}
+EventCheckSolutionKiller4.text,Corrina afirmó haber pintado el cuadro ella misma. \n Sin embargo, al examinar el cuadro se vio que era un autorretrato de Bettina. \n Corrina afirmó que Zebulon era el hijo de Bettina. \n El cuadro era de Bettina con dos niñas. \n El diario reveló que Bettina tuvo dos hijos, que la madre se suicidó y que uno de sus hijos estaba destinado a convertirse en el Druida oscuro. \n Una deducción razonable sería que el cuadro era de Bettina con sus dos hijas. \n Corrina afirmó que Zebulon era el Druida oscuro. \n La prueba forense reveló que el asesino era diestro. \n Pero cuando te encontraste con Zebulon, éste usó su mano izquierda para abrir la puerta del porche. \n ¡Corrina mintió tres veces! \n Zebulon dijo que Corrina era el Druida blanco pero Corrina mintió varias veces. Estaba claro no se podía confiar en Zebulon. \n Esto dejaba sólo a Eric, Jane y Othera como posibles Druidas blancos. \n Jane Marsh dijo que ella no era el Druida blanco y no había ninguna razón para creer que mintiera. \n Eric dijo que Othera era el Druida blanco. \n Othera dijo que Corrina era el Druida oscuro, lo cual tenía sentido ya que Corrina era una mentirosa y sostenía el pincel en su mano derecha y daba las pinceladas usando su mano derecha.
+EventCheckSolutionKiller4.button1,{qst:QSTCANCEL}
+EventCheckSolutionKiller5.text,Cuando examinaste el cuadro descubriste que era un autorretrato de Bettina. En el cuadro estaba Bettina con dos niñas. El diario reveló que Bettina tuvo dos hijos, que la madre se suicidó y que uno de sus hijos estaba destinado a ser el Druida oscuro. \n Una deducción razonable sería que el cuadro era de Bettina con sus dos hijas y que una mujer estaba destinada a ser una poderosa Druida oscura. \n El Manuscrito arcano encontrado en la fresquera reveló que Othera no era una poderosa lanzadora de hechizos. \n La Prueba forense reveló que el asesino era zurdo. \n Pero la Información reveladora del cuadro probó que la pintora, Corrina, era diestra. \n La única mujer que quedaba era Jane Marsh. \n Además, para confirmar que ella era la Druida oscura, si mirabas la foto de Jane Marsh, ¿con qué mano sostenía sus gafas? \n Eric dijo que Zebulon era el Druida oscuro pero sabíamos que mintió porque Bettina tuvo dos hijas. \n Tanto Corrina como Othera dijeron que Zebulon era el Druida blanco. O las dos mentían (en cuyo caso no se podía confiar en ninguna) o bien las dos dijeron la verdad. De cualquier modo, Zebulon debía de ser el Druida blanco.
+EventCheckSolutionKiller5.button1,{qst:QSTCANCEL}
+EventAllyBIsWarlockClue.text,{qst:QSTVITALCLUE} \n\n {qst:QSTGAINCLUE}
+EventAllyBIsWarlockClue.button1,{qst:QSTCONTINUE}
+EventAllyAIsWarlockClue.text,{qst:QSTVITALCLUE} \n\n {qst:QSTGAINCLUE}
+EventAllyAIsWarlockClue.button1,{qst:QSTCONTINUE}
+EventAllyCIsWarlockClue.text,{qst:QSTVITALCLUE} \n\n {qst:QSTGAINCLUE}
+EventAllyCIsWarlockClue.button1,{qst:QSTCONTINUE}
+EventAllyDIsWarlockClue.text,{qst:QSTVITALCLUE} \n\n {qst:QSTGAINCLUE}
+EventAllyDIsWarlockClue.button1,{qst:QSTCONTINUE}
+EventAllyANotSure.button1,{qst:QSTCONTINUE}
+EventAllyCNotSure.text,—<i>No sé si Othera es una Druida oscura.</i>
+EventAllyANotSure.text,—<i>No sé si Zebulon es un Druida oscuro.</i>
+EventAllyDNotSure.text,—<i>No sé si Corrina es una Druida oscura.</i>
+EventReview.button3,Eric Colt
+EventReview.button4,Othera Gilman
+EventReview.button5,Corrina Jones
+EventReview.button6,{qst:QSTCANCEL}
+EventReviewObjective1.text,Martha Beck, la líder de los druidas, ha sido apuñalada. \n Cuando Martha fue apuñalada, {qst:QSTALLYENAME} cogió el emblema y huyó. \n Ella quiere que aprendas a usar el emblema. \n Se activará cuando encuentres la Prueba <i>Información reveladora</i> y la hayas examinado usando el menú de Objetos de la aplicación.
+EventAllyE2RitualClue.text,—<i>Me di la vuelta y oí como un druida que estaba alrededor de la piedra ritual gritaba, \n «¡Cabra oscura con un millar de retoños! \n ¡Con esta maldición, los no creyentes se convertirán en tus hijos!» </i> \n\n Ganas 1 Pista {clue}.
+EventAllyE2RitualClue.button1,{qst:QSTCONTINUE}
+EventAllyE2aboutAllyD.text,\n —<i>Yo no le quitaría el ojo de encima a Corrina Jones. \n ¡Los lugareños le tienen miedo! \n ¡Es una bruja muy poderosa!</i> \n
+EventReview.text,Revisar lo que un druida te ha contado.
+EventAllyE1Monologue3.text,—<i>Martha decidió usar el emblema. \n Lo colocó sobre la piedra e invocó su poder. \n Las runas del emblema brillaron con una luz roja. \n Martha estaba junto a la piedra con su reluciente pelo rojo sujeto por una diadema de hiedra y muérdago. \n Las llamas de una pequeña hoguera iluminaban su rostro. \n «El Hombre verde es el señor del bosque», gritó. \n El Druida oscuro la apuñaló y a continuación se abalanzó a por el emblema. \n ¡Pero yo lo cogí antes! \n ¡Algo enorme emergió del bosque y se llevó consigo a la pobre Martha! \n ¡Yo salí corriendo de allí con el miedo en el cuerpo! </i>
+EventReviewAllyANone.text,No has hablado con {qst:QSTALLYANAME}.
+EventReviewAllyANone.button1,{qst:QSTCONTINUE}
+EventReviewAllyATriggers.button1,{qst:QSTCONTINUE}
+EventReviewAllyBNone.button1,{qst:QSTCONTINUE}
+EventReviewAllyBNone.text,No has hablado con {qst:QSTALLYBNAME}.
+EventReviewAllyCNone.button1,{qst:QSTCONTINUE}
+EventReviewAllyCNone.text,No has hablado con {qst:QSTALLYCNAME}.
+EventReviewAllyDNone.text,No has hablado con {qst:QSTALLYDNAME}.
+EventReviewAllyDNone.button1,{qst:QSTCONTINUE}
+EventRitualKillerAllyAClue.text,\n {qst:QSTGAINCLUE}
+EventRitualKillerAllyAClue.button1,{qst:QSTCONTINUE}
+EventRitualBloodSacrificeClue.text,La revelación de que todos habéis sido maldecidos y os transformaréis en engendros cabríos reafirma tu determinación. \n\n Ganas 1 Pista {clue}. \n\n Tienes la oportunidad de descartar 1 Pista {clue} (y sólo una) para realizar una {action} adicional o para adquirir el estado <i>Concentrado</i>.
+EventRitualBloodSacrificeClue.button1,{qst:QSTCONTINUE}
+EventGainBrassKey.button1,{qst:QSTCONTINUE}
+EventGainBrassKey.text,Encuentras, además, una llave de latón. \n\n Ganas el Objeto único {c:QItemBrassKey}.
+EventBrassLockNoKey.text,La puerta se adentra en la cabaña de madera. \n Está cerrada con llave.
+EventBrassLockKeyFound.text,La puerta se adentra en la cabaña de madera. \n Está cerrada con llave. \n Sólo puedes hacer clic en <i>Abrir</i> si tienes el Objeto único {c:QItemBrassKey}.
+TokenGhostlyWoman.button1,Continuar
+EventPlaceGhostlyWoman.text,Debajo de ti ves la forma fantasmal de una mujer. \n Tiene el pelo rojo como el fuego, igual que el de la mujer muerta. \n Sus rasgos faciales son similares pero a la vez también marcadamente diferentes. \n Su garganta ha sido cortada. \n Sonríe mientras mira hacia arriba y te hace una seña. \n\n Coloca una ficha de Búsqueda en el lugar señalado.
+EventPlaceGhostlyWoman.button1,{qst:QSTCONTINUE}
+EventBrassLockKeyFound.button2,{qst:QSTCANCEL}
+EventPlaceOperatingRoomTokens.text,La mesa ha sido fregada pero todavía quedan unos débiles rastros de viejas manchas de sangre. \n Sobre la mesa hay un puñado de vendajes limpios. \n\n Coloca el Objeto común {c:QItemBandages} en el lugar señalado.
+EventBrassLockKeyFound.button1,{action} Abrir con la llave de latón
+EventGainSigilLeftHand.text,{qst:QSTALLYENAME} saca unas gafas y se las pone usando su mano izquierda. \n Acerca el emblema a su cara y lo examina con detenimiento. \n Te entrega el emblema. \n\n Ganas el Objeto único {c:QItemCultSigilEV}. \n\n Puedes examinar este objeto usando el menú <i>Objetos</i> de la aplicación.
+EventGainSigilLeftHand.button1,{qst:QSTCONTINUE}
+EventAllyCMarshIsWitchClue.text,No sabes si ella está mintiendo, pero lo que sí que sabes es que esto es una pista importante. \n\n {qst:QSTGAINCLUE}
+EventAllyCMarshDefault.text,\n —<i>La familia Marsh rinde culto al poder del mar mientras que los druidas veneran el poder del bosque. \n La familia Marsh son unos peligrosos degenerados que practican magia oscura. \n Al principio no confiaba en {qst:QSTALLYENAME} pero es inofensiva. \n Su conocimiento sobre lo oculto es limitado. \n No es una poderosa lanzadora de hechizos. \n Su vista es mala y se niega a usar gafas. \n </i>
+EventAllyE2aboutDruids1.button1,{qst:QSTCONTINUE}
+EventAllyE2aboutDruids2.button1,{qst:QSTCONTINUE}
+EventAllyE2aboutDruidsClue.text,\n —<i>Cuídese mucho de confiar en lo que le dicen. ¡Pete me dijo que el Druida oscuro es un consumado mentiroso!</i> \n\n Ganas 1 Pista {clue}.
+EventAllyE2aboutDruids2.text,\n —<i>No sé quién es el Druida oscuro. \n Tampoco sé quién es el Druida blanco. \n\n ¡Sé que yo no lo soy porque soy incapaz de realizar hechizos poderosos!</i> \n
+EventSpellBookAllyCWitch.button1,{qst:QSTCONTINUE}
+EventSpellBookLearnSpell.button1,{qst:QSTCONTINUE}
+EventGainAttackSpell.button1,{qst:QSTCONTINUE}
+EventSpellBookGainClue.text,Estudiar el libro te da una nueva perspectiva. \n\n Ganas 1 Pista {clue}. \n\n Tienes la oportunidad para gastar 1 Pista {clue} para ganar una {action} adicional. Sólo puedes gastar de este modo 1 Pista {clue}.
+EventSpellBookGainClue.button1,{qst:QSTCONTINUE}
+EventGainAttackSpell.text,Has aprendido un poderoso hechizo de ataque. \n\n Ganas el Hechizo {c:QItemAttackSpell}.
+EventStone1SearchClue.text,Cerca de la piedra están los restos de una hoguera. \n Un débil zumbido sale del interior de la piedra. \n En ese momento se te viene a la cabeza la imagen de un amuleto brillando encima de la piedra. \n\n {qst:QSTGAINCLUE}
+EventStone1.button1,{action} Buscar
+EventStone1Searched.text,En el centro del círculo de piedras se encuentra una gran piedra rectangular. \n La piedra tiene unos dos metros de ancho por tres de largo. \n Cerca de la piedra están los restos de una hoguera, ahora apagada.
+EventStone1Searched.button1,{qst:QSTCONTINUE}
+EventStone1.button2,{qst:QSTCANCEL}
+PuzzleLock.button1,Abrir la puerta
+EventInspectCrossAllyDefault.text,La cruz tiene una inscripción: \n «<i>A {qst:QSTALLYENAME}, responsable de dirección en la escuela St. Mary</i>».
+EventInspectCrossAllyDefault.button1,{qst:QSTCONTINUE}
+EventAllyCMarshIsWitch.text,\n —<i>La familia Marsh rinde culto al poder del mar. \n Aprendieron magia oscura de la peor manera posible. \n Jane Marsh es una poderosa bruja. \n ¿Qué es lo que sabe en realidad de ella?</i> \n
+EventWhoHasDaggerJaneMarsh.text,—<i>Jane Marsh me está ayudando. \n Me preocupa que me esté ocultando un secreto. \n Tiene un vasto conocimiento sobre conocimiento oculto.</i>
+EventAllyACabinClue.text,\n —<i>Sospecho que Martha estaba ocultado algún tipo de secreto.</i> \n\n Ganas 1 Pista {clue}.
+EventAllyACabinClue.button1,{qst:QSTCONTINUE}
+TokenGhostlyWoman.text,Contemplas la imagen fantasmal de una mujer. \n Le han cortado el cuello. \n En la forma en la que te sonríe desprende un cierto aire perturbador, como de cabra. \n —<i>¡Recita las palabras de poder para convocarme!</i> —te grita con voz autoritaria. \n\n Puedes usar una {action} para realizar una prueba de {lore} si tu investigador tiene un objeto del tipo <i>Tomo</i>.
+UICheckStoryButton.uitext,Comprobar la historia
+UICheckSetupButton.uitext,Mostrar configuración (roles)
+UICheckStoryTextBrother.uitext,\n Bettina Beck tenía dos hijos, un niño y una niña. \n Bettina se sacrificó ella misma para que su hijo se convirtiese en el «Druida oscuro». \n Tras la muerte de Bettina, sus hijos fueron adoptados. \n Su hija Martha creció bajo la supervisión de un grupo de druidas «buenos». \n El hermano de Martha le convenció de que no era malvado. \n Martha realizó un ritual usando el emblema para descubrir si podía confiar o no en su hermano. \n Su hermano la sacrificó y convocó un Retoño oscuro. \n\n Haz clic en «Mostrar configuración» para ver la configuración del escenario que has jugado. \n Hay 5 configuraciones posibles, entre las que se elige una al azar. \n Haz clic en «Pistas» para una solución en general. \n Haz clic en «Destripe» para una solución explicada con detalle. \n Haz clic en «Comprobar Druidas» para revisar lo que cada Druida dijo. \n Haz clic en «Objeto» para revisar los objestos.
+UICheckStoryTextSister.uitext,\n Bettina tuvo dos hijas. \n Betina se sacrificó ella misma para que su hija mayor estuviese en disposición de ser la «Druida oscura». \n Tras la muerte de Bettina, sus dos hijas fueron adoptadas. \n La más joven, Martha, creció bajo la tutela de los druidas «buenos». \n La hermana de Martha la convenció de que no era malvada. \n Martha llevó a cabo un ritual usando el emblema para averiguar si podía confiar o no en su hermana. \n Su hermana la sacrificó e invocó a un Retoño oscuro. \n\n Haz clic en "Mostrar configuración" para ver la configuración del escenario que has jugado. \n Hay 5 configuraciones posibles, entre las que se elige una al azar. \n Haz clic en «Pistas» para una solución en general. \n Haz clic en «Destripe» para una solución explicada con detalle. \n Haz clic en «Comprobar Druidas» para revisar lo que cada Druida dijo. \n Haz clic en «Objetos» para revisar lo osbjetos.
+UICheckButton.uitext,Continuar
+UICheckHintsButton.uitext,Consejos
+UICheckSolutionButton.uitext,DESTRIPE
+EventCheckSetupKiller2.text,Eric Colt era «el Druida oscuro». \n Era el hijo mayor de Bettina Beck y hermano de Martha Beck. \n Corrina Jones fue entrenada por Eric Colt para que fuese su cómplice. \n Ella era una Druida oscura, pero no «el Druida oscuro». \n Othera Gilman era la mejor amiga de Martha. \n No era una usuaria poderosa de la magia. \n Zebulon Whateley era el Druida blanco.
+EventCheckSetupKiller5.text,Jane Marsh era «el Druida oscuro». \n Se apoderó del emblema porque quería conseguir para ella sus secretos. \n Eric Colt era su cómplice. \n Él era un Druida oscuro pero no «el Druida oscuro». \n Zebulon Whateley era el Druida blanco.\n Tanto Othera Gilman como Corrina Jones eran amigas de Martha. \n Ninguna de ellas era una poderosa usuaria de la magia.
+EventCheckHints.button1,{qst:QSTCANCEL}
+EventCheckHints.text,El diario de Bettina Beck confirmaba la existencia del Druida oscuro. \n La nota contenida en la biblia de Martha Beck confirmaba la existencia del Druida blanco, el cual nunca mentía. \n Para determinar quién es cada druida necesitas hablar con todos los sospechosos y reunir pruebas clave. \n Por ejemplo, si un Druida dice que otra persona es el Druida blanco (o que él o ella no es el Druida blanco), es bastante probable que no sea el Druida blanco. \n La solución que se mostrará si haces clic en el botón de "Destripe" asume que has encontrado la prueba clave y que le has preguntado a todos los Druidas sobre los sospechosos principales.
+UICheckDruidsButton.uitext,Comprobar Druidas
+EventCheckScreen.button1,Button1
+EventPlaceBible.text,Un gran armario está apoyado contra la pared. \n\n {qst:QSTPLACESEARCH}
+EventBibleResult.button1,Continuar
+EventInspectBible.text,Dentro de la biblia hay una página arrancada de una libreta. \n Contiene una advertencia escrita a lápiz. \n\n «<i>¡Martha, tu vida corre peligro! \n El Druida oscuro se hace pasar por el Druida blanco. \n No dejes que el Druida oscuro te engañe con sus mentiras. \n Recuerda que el Druida blanco nunca miente. \n\n Pete</i>»
+SpawnCultistDruidA.button1,{qst:QSTCONTINUE}
+SpawnCultistDruidB.text,Se vuelve corriendo hacia la cueva. \n\n Descarta la ficha de Personaje de Eric Colt. \n Aparece un Sectario en el lugar señalado.
+EventAttackFriendMale.text,—<i>Martha es mi amiga. ¿¡Por qué me atacas!?</i> —grita el druida. \n\n Pero ignoras sus lastimosas súplicas de ayuda y una extraña sed de sangre se apodera de ti. \n Pronto despachas a tu víctima con una ferocidad animal. \n Sólo al mirar el cadáver ensangrentado de tu víctima te detienes y reflexionas que él podría haber dicho la verdad. \n De repente te ves abrumado por los remordimientos.
+SpawnCultistDruidC.text,Retrocede hacia la fresquera. \n\n Descarta la ficha de Personaje Othera Gilman. \n Aparece un Sectario en el lugar señalado.
+EventAttackFriendFemale.text,—<i>Martha es mi amiga. ¿¡Por qué me atacas!?</i> —grita la druida. \n\n Pero ignoras sus lastimosas súplicas de ayuda y una extraña sed de sangre se apodera de ti. \n Pronto despachas a tu víctima con una ferocidad animal. \n Sólo al mirar el cadáver ensangrentado de tu víctima te detienes y reflexionas que ella podría haber dicho la verdad. \n De repente te ves abrumado por los remordimientos.
+SpawnDarkDruidA.text,\n —<i>¡Le mostraré mi auténtico poder!</i> —grita Zebulon Whateley mientras se pone de pie. \n\n Descarta la ficha de Personaje de Zebulon Whateley. \n\n El Druida oscuro se mueve a una velocidad sobrehumana hacia la piedra ritual. \n Coloca el monstruo Druida oscuro en el lugar señalado.
+SpawnDarkDruidB.button1,{qst:QSTCONTINUE}
+SpawnDarkDruidC.text,\n —<i>¡Mostraré mi auténtico poder!</i> —grita {qst:QSTALLYCNAME} \n\n Descarta la ficha de Personaje {qst:QSTALLYCNAME}. \n\n El Druida oscuro se mueve a una velocidad sobrehumana hacia la piedra ritual. \n Coloca el monstruo Druida oscuro en el lugar señalado.
+SpawnDarkDruidC.button1,{qst:QSTCONTINUE}
+SpawnDarkDruidD.text,—<i>¡Mostraré mi auténtico poder!</i> —grita {qst:QSTALLYDNAME}. \n\n Retira la ficha de Personaje de {qst:QSTALLYDNAME}. \n\n El Druida oscuro se mueve con una velocidad sobrehumana hacia la Piedra Ritual. \n Aparece un Druida oscuro en el lugar señalado.
+SpawnDarkDruidD.button1,{qst:QSTALLYDNAME}
+EventSpawnDarkDruid.button1,Button1
+SpawnDarkDruidE.button1,Continuar
+EventSpawnGhostHasDagger.button1,{qst:QSTCONTINUE}
+EventWhereIsDagger2.text,—<i>Recuerdo que vi como apuñalaban a Martha con una daga. \n Todavía la llevaba clavada en un costado cuando la criatura se la llevó de rastras.</i> \n\n Ganas 1 Pista {clue}.
+EventPlaceAllyDLeftHand.text,Abre la puerta y te deja entrar. \n\n Coloca la ficha de Personaje de Corrina Jones.
+EventPlaceAllyDRightHand.button1,{qst:QSTCONTINUE}
+EventRemoveUICorrina.button1,Button1
+EventPlaceAllyDRightHand.text,Abre la puerta y te deja entrar. \n\n Coloca la ficha de Personaje de Corrina Jones.
+EventGraveStoneDaggerDefault.text,Las lápidas y las inscripciones llevan mucho tiempo deteriorándose. \n Alguien ha arañado unas palabras en la lápida: \n «¡El Druida oscuro regresa!»
+EventAllyBIsEnemyDefaultCorrina.button1,{qst:QSTCONTINUE}
+EventAllyBIsEnemyDefaultCorrina.text,—<i>Eric no puede ser el Druida blanco. \n Le he visto, borracho, preso de un violento ataque de ira. \n Se comporta como un furioso animal salvaje.</i>
+quest.authors_short,Nicola Zee
+EventCultistDefeated.text,El sectario se desploma sobre el suelo. \n —<i>¡Yo no soy el Druida oscuro!</i> —grita con su último aliento. \n\n Descarta el monstruo Sectario del tablero.
+EventCultistDefeated.button1,{qst:QSTCONTINUE}
+DISCARDREVEAL1,Descarta la ficha de Vistazo que lleve hasta él.
+DISCARDREVEAL2,Descarta la(s) ficha(s) de Vistazo que lleve(n) hasta él.
+EventGhostDefeatedDagger.text,En el suelo hay una {c:QItemDagger}.\n\n Coloca el Objeto común {c:QItemDagger} en el espacio que ocupaba el monstruo. \n\n La {c:QItemDagger} se considera un Objeto del tipo <i>Llave</i>.
+EventFinaleFire.text,Colocas el {c:QItemCultSigilEV} sobre la piedra. \n\n Un zumbido emana de la piedra. \n La piedra se calienta al tacto.\n Intentas desesperadamente recordar lo que has aprendido sobre el ritual que está realizando Martha.\n\n Prueba de {lore}.
+EventFinaleFire.button1,{qst:QSTCONTINUE}
