@@ -1,0 +1,910 @@
+.,Spanish
+quest.name,Cuento de borrachos
+quest.description,\n Una mansión en el borde de un acantilado. \n\n Esa fue la propuesta de un conocido borracho del bar frecuentado por los investigadores. \n\n Os pidió que investigaseis el lugar. A pesar de que en su momento os negasteis, su muerte ha hecho que iniciéis una investigación. \n
+EventHistorySearchOffice_2_Fail.text,¡Sí! Con toda seguridad has roto la cerradura y ahora no será posible abrir los cajones.
+TokenSearchBedRoom_1.button1,{action} Ordenar
+SpawnGhost_level1_Fleshless.text,{qst:ADDMON} {c:SpawnGhost_level1_Fleshless}.
+SpawnGhost_level1_Spirit.text,{qst:ADDMON} {c:SpawnGhost_level1_Spirit}.
+SpawnGhost_level1_Undead.text,{qst:ADDMON} {c:SpawnGhost_level1_Undead}.
+SpawnGhost_level2_Fleshless.text,{qst:ADDMON} {c:SpawnGhost_level2_Fleshless}.
+SpawnGhost_level2_Spirit.text,{qst:ADDMON} {c:SpawnGhost_level2_Spirit}.
+SpawnGhost_level2_Undead.text,{qst:ADDMON} {c:SpawnGhost_level2_Undead}.
+SpawnGhost_level3_Fleshless.text,{qst:ADDMON} {c:SpawnGhost_level3_Fleshless}.
+SpawnGhost_level3_Spirit.text,{qst:ADDMON} {c:SpawnGhost_level3_Spirit}.
+SpawnGhost_level3_Undead.text,{qst:ADDMON} {c:SpawnGhost_level3_Undead}.
+SpawnMonster_level1_DeepOne.text,{qst:ADDMON} {c:SpawnMonster_level1_DeepOne}.
+SpawnMonster_level1_DeepOneHybrid.text,{qst:ADDMON} {c:SpawnMonster_level1_DeepOneHybrid}.
+SpawnMonster_level1_HuntingHorror.text,{qst:ADDMON} {c:SpawnMonster_level1_HuntingHorror}.
+SpawnMonster_level2_DeepOne.text,{qst:ADDMON} {c:SpawnMonster_level2_DeepOne}.
+SpawnMonster_level2_DeepOneHybrid.text,{qst:ADDMON} {c:SpawnMonster_level2_DeepOneHybrid}.
+SpawnMonster_level2_HuntingHorror.text,{qst:ADDMON} {c:SpawnMonster_level2_HuntingHorror}.
+SpawnMonster_level3_DeepOne.text,{qst:ADDMON} {c:SpawnMonster_level3_DeepOne}.
+SpawnMonster_level3_DeepOneHybrid.text,{qst:ADDMON} {c:SpawnMonster_level3_DeepOneHybrid}.
+SpawnMonster_level3_HuntingHorror.text,{qst:ADDMON} {c:SpawnMonster_level3_HuntingHorror}.
+EventHistoryRitual2_GainItem.button1,{qst:BACK}
+EventHistoryRitualKitchen.button1,{qst:BACK}
+EventHistoryRitualBathRoom.button1,{qst:BACK}
+EventHistoryRitualBilliards.button1,{qst:BACK}
+EventHistoryRitualLivingRoom.button1,{qst:BACK}
+EventHistoryRitualYard.button1,{qst:BACK}
+EventHistoryRitualOffice.button1,{qst:BACK}
+EventHistoryRitualServiceCorridor.button1,{qst:BACK}
+EventHistoryRitualLivingCorridor.button1,{qst:BACK}
+EventOpenServiceCorridorDoor.button2,{qst:CANCEL}
+EventHistoryRitualComponentsInspection.button17,{qst:CANCEL}
+EventHistoryPuzzleBox_1stLock.button2,{qst:CANCEL}
+EventHistoryPuzzleBox_2sdLock.button2,{qst:CANCEL}
+EventHistoryPuzzleBox_GoTo2sdLock.button2,{qst:CANCEL}
+EventHistoryGrotesqueStone.button2,{qst:CANCEL}
+EventHistoryToTheCaves.button2,{qst:CANCEL}
+UIPrologueContinue2.button1,{qst:CONTINUE}
+UIPrologueContinue1.button1,{qst:CONTINUE}
+EventQuestCluesAndCondition.button1,{qst:CONTINUE}
+EventExploreExitHall_1_Rnd_Str.button1,{qst:CONTINUE}
+UIPrologueEndBtn.button1,{qst:CONTINUE}
+EventBoardAddTileHall.button1,{qst:CONTINUE}
+EventBoardAddSearchHall_1.button1,{qst:CONTINUE}
+EventBoardAddSearchHall_2.button1,{qst:CONTINUE}
+EventBoardAddSearchHall_3.button1,{qst:CONTINUE}
+EventBoardAddExploreHall.button1,{qst:CONTINUE}
+EventBoardAddInvestigatorsDarknessHall.button1,{qst:CONTINUE}
+EventBoardAddTileServiceCorridor.button1,{qst:CONTINUE}
+EventExploreExitHall_1_Str_1.button1,{qst:CONTINUE}
+EventExploreExitHall_1_Str_2.button1,{qst:CONTINUE}
+EventExploreExitHall_1_Str_2.button2,{qst:CONTINUE}
+EventExploreExitHall_1_Str_Fail.button1,{qst:CONTINUE}
+EventExploreExitHall_1_Str_1.button2,{qst:CONTINUE}
+EventQuestDarkness.button1,{qst:CONTINUE}
+EventQuestEnter.button1,{qst:CONTINUE}
+EventBoardAddSearchServiceCorridor_1.button1,{qst:CONTINUE}
+EventBoardAddExploreServiceCorridor_1.button1,{qst:CONTINUE}
+EventBoardAddExploreServiceCorridor_2.button1,{qst:CONTINUE}
+EventBoardAddDarknessServiceCorridor.button1,{qst:CONTINUE}
+EventBoardAddTileKitchen.button1,{qst:CONTINUE}
+EventBoardAddSearchYard_2.button1,{qst:CONTINUE}
+EventBoardAddSearchKitchen_1.button1,{qst:CONTINUE}
+EventBoardAddSearchAndBarricade.button1,{qst:CONTINUE}
+EventBoardAddInteractionKitchen.button1,{qst:CONTINUE}
+EventBoardAddSearchKitchen_3.button1,{qst:CONTINUE}
+EventBoardAddExploreKitchen_1.button1,{qst:CONTINUE}
+EventBoardAddDarknessKitchen.button1,{qst:CONTINUE}
+EventExploreKitchen_1.button1,{qst:CONTINUE}
+EventExploreKitchen_1_4.button1,{qst:CONTINUE}
+EventExploreKitchen_1_1.button1,{qst:CONTINUE}
+EventExploreKitchen_1_2.button1,{qst:CONTINUE}
+EventExploreKitchen_1_3.button1,{qst:CONTINUE}
+EventExploreKitchen_1_5.button1,{qst:CONTINUE}
+EventExploreKitchen_1_6.button1,{qst:CONTINUE}
+EventExploreKitchen_1_2.button2,{qst:CONTINUE}
+EventExploreKitchen_1_1.button2,{qst:CONTINUE}
+EventExploreKitchen_1_3.button2,{qst:CONTINUE}
+EventExploreKitchen_1_4.button2,{qst:CONTINUE}
+EventExploreKitchen_1_5.button2,{qst:CONTINUE}
+EventExploreKitchen_1_6.button2,{qst:CONTINUE}
+EventExploreKitchen_Fail.button1,{qst:CONTINUE}
+EventExploreKitchen_Success.button1,{qst:CONTINUE}
+EventQuestTurnOffLight.button1,{qst:CONTINUE}
+EventQuestTurnOffLightKeroseneLantern.button1,{qst:CONTINUE}
+EventQuestTurnOffLightLantern.button1,{qst:CONTINUE}
+EventQuestInstruction.button1,{qst:CONTINUE}
+EventQuestRemoveInitialDarknessUI.button1,{qst:CONTINUE}
+EventBoardAddTileGarden.button1,{qst:CONTINUE}
+TokenInteractionYard_1.button1,{qst:CONTINUE}
+EventBoardAddInteractionYard_1.button1,{qst:CONTINUE}
+EventExploreKitchenKeroseneLantern.button1,{qst:CONTINUE}
+EventExploreKitchenLantern.button1,{qst:CONTINUE}
+EventBoardAddSearchYard_1.button1,{qst:CONTINUE}
+EventBoardAddSearchYard_3.button1,{qst:CONTINUE}
+EventBoardAddTileLibrary.button1,{qst:CONTINUE}
+EventBoardAddTileOffice.button1,{qst:CONTINUE}
+EventBoardAddSearchLibrary_1.button1,{qst:CONTINUE}
+EventBoardAddDarknessLibrary.button1,{qst:CONTINUE}
+EventBoardAddSearchOffice_1.button1,{qst:CONTINUE}
+EventBoardAddSearchOffice_2.button1,{qst:CONTINUE}
+EventBoardAddDarknessOffice.button1,{qst:CONTINUE}
+EventBoardAddTileLivingRoom.button1,{qst:CONTINUE}
+EventBoardAddSearchLivingRoom_1.button1,{qst:CONTINUE}
+EventBoardAddSearchLivingRoom_2.button1,{qst:CONTINUE}
+EventBoardAddSearchLivingRoom_3.button1,{qst:CONTINUE}
+EventBoardAddExploreLivingRoom.button1,{qst:CONTINUE}
+EventBoardAddDarknessLivingRoom.button1,{qst:CONTINUE}
+EventBoardAddTileLivingCorridor.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_2.button2,{qst:CONTINUE}
+EventBoardAddSearchLivingCorridor_1.button1,{qst:CONTINUE}
+EventBoardAddExploreLivingCorridor_1.button1,{qst:CONTINUE}
+EventBoardAddExploreLivingCorridor_2.button1,{qst:CONTINUE}
+EventBoardAddDarknessLivingCorridor.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_1.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_1.button2,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_Fail.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_2.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_Success.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_2.button2,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_3.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_3.button2,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_4.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor_4.button2,{qst:CONTINUE}
+EventBoardAddTileBilliardsRoom.button1,{qst:CONTINUE}
+EventBoardAddSearchBilliards_1.button1,{qst:CONTINUE}
+EventBoardAddSearchBilliards_2.button1,{qst:CONTINUE}
+EventBoardAddDarknessBilliards.button1,{qst:CONTINUE}
+EventBoardAddDarknessYard.button1,{qst:CONTINUE}
+EventBoardAddTileBathRoom.button1,{qst:CONTINUE}
+EventBoardAddSearchBathRoom_1.button1,{qst:CONTINUE}
+EventBoardAddExploreBathRoom_1.button1,{qst:CONTINUE}
+EventBoardAddExploreBathRoom_2.button1,{qst:CONTINUE}
+EventBoardAddDarknessBathRoom_1.button1,{qst:CONTINUE}
+EventExploreBathRoom.button1,{qst:CONTINUE}
+EventBoardAddSearchBathRoom_2.button1,{qst:CONTINUE}
+EventBoardAddSearchBathRoom_3.button1,{qst:CONTINUE}
+EventBoardAddDarknessBathRoom_2.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_1.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_1.button2,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_2.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_Strength_Fail.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_Strength_Success.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_3.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_3.button2,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_Influence_Fail.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_Influence_Success.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_4.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1_4.button2,{qst:CONTINUE}
+EventBoardAddTileBedRoom.button1,{qst:CONTINUE}
+EventHistoryAddInteractionLibrary.button1,{qst:CONTINUE}
+EventBoardAddSearchBedRoom_1.button1,{qst:CONTINUE}
+EventBoardAddSearchBedRoom_2.button1,{qst:CONTINUE}
+EventBoardAddSearchBedRoom_3.button1,{qst:CONTINUE}
+EventBoardAddDarknessBedRoom.button1,{qst:CONTINUE}
+EventQuestDefinitions.button1,{qst:CONTINUE}
+EventEndDeadInvestigatorTrigger.button1,{qst:CONTINUE}
+EventFireEvaluation.button1,{qst:CONTINUE}
+EventFireCounterIncrease.button1,{qst:CONTINUE}
+EventMythosDecreaseTimer.button1,{qst:CONTINUE}
+EventMythosTimerEvaluation.button1,{qst:CONTINUE}
+EventDifficultyEvaluation.button1,{qst:CONTINUE}
+EventMythosQuestEvaluation.button1,{qst:CONTINUE}
+EventMythosEvaluateDelayCounter.button1,{qst:CONTINUE}
+EventHistoryPuzzleBox.button1,{qst:CONTINUE}
+EventExploreTryOpenLivingCorridorDoor.button1,{qst:CONTINUE}
+EventHistoryAddInteractionOffice.button1,{qst:CONTINUE}
+EventHistoryAddInteractionBilliards.button1,{qst:CONTINUE}
+EventHistorySearchHall_1_Whiskey.button1,{qst:CONTINUE}
+EventHistorySearchServiceCorridor_1_OilLamp.button1,{qst:CONTINUE}
+EventHistorySearchHall_1_Machete.button1,{qst:CONTINUE}
+EventHistorySearchYard_3_Machete.button1,{qst:CONTINUE}
+EventHistorySearchHall_1_Clue.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_1.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_1.button2,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_Fail.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_Success_1.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_Success_2.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_2.button1,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_2.button2,{qst:CONTINUE}
+EventHistorySearchHall_2_Clue_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_1.button2,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_2.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_Fail.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_Success_1.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_Success_2.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Shrilevling_2.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_2.button2,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_3.button2,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_3.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Shrilevling_1.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Nothing.button1,{qst:CONTINUE}
+EventHistoryAddRitual1_1stRitual.button1,{qst:CONTINUE}
+EventHistoryNonRitualKitchen.button1,{qst:CONTINUE}
+EventHistoryRitual1_GainItem.button1,{qst:CONTINUE}
+EventHistoryRitual1Kitchen.button1,{qst:CONTINUE}
+EventHistoryRitual2Kitchen.button1,{qst:CONTINUE}
+EventHistoryRitual1BathRoom.button1,{qst:CONTINUE}
+EventHistoryRitual2BathRoom.button1,{qst:CONTINUE}
+EventHistoryRitual1Billiards.button1,{qst:CONTINUE}
+EventHistoryRitual2Billiards.button1,{qst:CONTINUE}
+EventHistoryRitual1LivingRoom.button1,{qst:CONTINUE}
+EventHistoryRitual2LivingRoom.button1,{qst:CONTINUE}
+EventHistoryRitual2Yard.button1,{qst:CONTINUE}
+EventHistoryRitual1Yard.button1,{qst:CONTINUE}
+EventHistoryRitual2Office.button1,{qst:CONTINUE}
+EventHistoryRitual1Office.button1,{qst:CONTINUE}
+EventHistoryRitual1ServiceCorridor.button1,{qst:CONTINUE}
+EventHistoryRitual2ServiceCorridor.button1,{qst:CONTINUE}
+EventHistoryRitual1LivingCorridor.button1,{qst:CONTINUE}
+EventHistoryRitual2LivingCorridor.button1,{qst:CONTINUE}
+EventHistoryAddRitual1_2ndRitual.button1,{qst:CONTINUE}
+EventHistorySearchKitchen2_ElderWard.button1,{qst:CONTINUE}
+EventHistorySearchKitchen2_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchKitchen2_Clue.button1,{qst:CONTINUE}
+EventHistoryNonRitualKitchen_Nothing.button1,{qst:CONTINUE}
+EventHistoryNonRitualKitchen_Clue.button1,{qst:CONTINUE}
+EventHistoryInteractionKitchen.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_1_Knife.button1,{qst:CONTINUE}
+EventHistoryRitualKitchen0.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_1_MeatCleaver.button1,{qst:CONTINUE}
+EventBoardAddInteractionBox.button1,{qst:CONTINUE}
+EventHistorySafeBox.button1,{qst:CONTINUE}
+EventHistorySearchKitchen2_ElderSignPendant.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_1_LeadPipe.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_1_Nothing.button1,{qst:CONTINUE}
+EventHistoryAddRitual1Yard_1stRitual.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard_Clue.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard_45Automatic.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard_FleshWard.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchHall_3_Clue_1.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Axe.button1,{qst:CONTINUE}
+EventHistoryNonRitualYard_2x4.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_LeadPipe.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Machete.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_1.button2,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_2.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_Fail.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_1.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_Success.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Clue_2.button2,{qst:CONTINUE}
+EventHistorySearchYard_1_CigarretCase.button1,{qst:CONTINUE}
+EventHistorySearchYard_1_ArcaneManuscript.button1,{qst:CONTINUE}
+EventHistorySearchYard_1_18Delinger.button1,{qst:CONTINUE}
+EventHistorySearchYard_1_Knife.button1,{qst:CONTINUE}
+EventHistorySearchYard_1_Clue.button1,{qst:CONTINUE}
+EventHistorySearchLirary_1_ArcaneManuscript.button1,{qst:CONTINUE}
+EventHistorySearchLibrary_1_MedicalTextbook.button1,{qst:CONTINUE}
+EventHistorySearchLibrary_1_FleshWard.button1,{qst:CONTINUE}
+EventHistorySearchLibrary_1_Shrileving.button1,{qst:CONTINUE}
+EventHistorySearchLibrary_1_Wither.button1,{qst:CONTINUE}
+EventHistorySearchLibrary_1_Wrack.button1,{qst:CONTINUE}
+EventHistorySearchServiceCorridor_1_KeroseneLantern.button1,{qst:CONTINUE}
+EventHistorySearchServiceCorridor_1_MeatCleaver.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_1.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_1.button2,{qst:CONTINUE}
+EventHistorySearchOffice_2_Fail.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_2.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_2.button2,{qst:CONTINUE}
+EventHistorySearchOffice_2_Success.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_LuckyCigarretCase.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_MedicalTextbook.button1,{qst:CONTINUE}
+EventHistorySearchOffice_2_Clue.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_Sledgehammer.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_CarbineRifle.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_Shotgun.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_45Automatic.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBathroom_2_KeroseneLantern.button1,{qst:CONTINUE}
+EventHistorySearchBathroom_2_OilLamp.button1,{qst:CONTINUE}
+EventHistorySearchBathroom_2_2x4.button1,{qst:CONTINUE}
+EventHistorySearchBathroom_2_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchYard_2_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchYard_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchServiceCorridor_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchLirary_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchOffice_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_1_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_1_38Revolver.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_1_Shriveling.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_3_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchBathRoom_3_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBathroom_3_ElderWard.button1,{qst:CONTINUE}
+EventHistorySearchLivingCorridor_1_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchLivingCorridor_1_OilLamp.button1,{qst:CONTINUE}
+EventHistorySearchLivingCorridor_1_KeroseLantern.button1,{qst:CONTINUE}
+EventHistorySearchLivingCorridor_1_45Automatic.button1,{qst:CONTINUE}
+EventHistorySearchLivingCorridor_1_Axe.button1,{qst:CONTINUE}
+EventHistorySkeletons.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Action_P1.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Action_P2.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_RoomNotShown.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Office.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_BilliardsRoom.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Library.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Hall.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_LivingRoom.button1,{qst:CONTINUE}
+EventHistoryGrotesqueStone_Kitchen.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_2_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_2_FleshWard.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_2_Wither.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_2_ElderWard.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_2_ElderSignPendant.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_3_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_3_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_3_ElderSignPendant.button1,{qst:CONTINUE}
+EventHistorySearchBedRoom_3_Shriveling.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_2_LeadPipe.button1,{qst:CONTINUE}
+EventHistorySearchBilliars_2_Sledgehammer.button1,{qst:CONTINUE}
+EventHistorySearchBilliars_2_Machete.button1,{qst:CONTINUE}
+EventHistorySearchBilliars_2_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBilliars_2_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_18Delinger.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_38Revolver.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_45Automatic.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_CarbineRifle.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_Shotgun.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_Knife.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_Clue.button1,{qst:CONTINUE}
+EventHistorySearchBilliards_1_Whiskey.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_1_OilLamp.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_1_KeroseneLantern.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_1_Nothing.button1,{qst:CONTINUE}
+EventDifficultyLevel3.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_3_Clue.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_3_Wrack.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_2_ArcaneManuscript.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_2_MedicalTextbook.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_2_LuckyCigarretCase.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_2_KeroseneLantern.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_2_Clue.button1,{qst:CONTINUE}
+EventQuestOldJournal.button1,{qst:CONTINUE}
+EventHistoryRitualYard0.button1,{qst:CONTINUE}
+EventHistoryRitualServiceCorridor0.button1,{qst:CONTINUE}
+EventHistoryNonRitualServiceCorridor.button1,{qst:CONTINUE}
+EventHistoryRitualLivingCorridor0.button1,{qst:CONTINUE}
+EventHistoryNonRitualLivingCorridor.button1,{qst:CONTINUE}
+EventHistoryRitualBathRoom0.button1,{qst:CONTINUE}
+EventHistoryNonRitualBathRoom.button1,{qst:CONTINUE}
+EventHistoryRitualOffice0.button1,{qst:CONTINUE}
+EventHistoryNonRitualOffice.button1,{qst:CONTINUE}
+EventHistoryRitualBilliards0.button1,{qst:CONTINUE}
+EventHistoryNonRitualBilliards.button1,{qst:CONTINUE}
+EventHistoryRitualLivingRoom0.button1,{qst:CONTINUE}
+EventHistoryNonRitualLivingRoom.button1,{qst:CONTINUE}
+EventHistorySearchLivingRoom_1_Whiskey.button1,{qst:CONTINUE}
+EventDifficultyLevel4.button1,{qst:CONTINUE}
+EventDifficultyLevel5.button1,{qst:CONTINUE}
+EventDifficultyLevel6.button1,{qst:CONTINUE}
+EventDifficultyLevel7.button1,{qst:CONTINUE}
+EventMythosCallSpawn.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel1.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel2.button1,{qst:CONTINUE}
+EventMythosCallSpawn_Loop.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_Hall.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_Kitchen.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_Library.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_ServiceCorridor.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_Office.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_BathRoom.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_BedRoom.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_LivingCorridor.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_BilliardsRoom.button1,{qst:CONTINUE}
+EventMythosSpawnPlaceMonster_LivingRoom.button1,{qst:CONTINUE}
+SpawnMonster_level3_DeepOneHybrid.button1,{qst:CONTINUE}
+SpawnMonster_level3_DeepOne.button1,{qst:CONTINUE}
+SpawnGhost_level3_Spirit.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel1_SetLimit_1.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel3.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel1_SetLimit_3.button1,{qst:CONTINUE}
+EventMythosCallSpawn_MonsterLevel1_SetLimit_N.button1,{qst:CONTINUE}
+EventMythosEvaluateMaxTurns.button1,{qst:CONTINUE}
+EventBoardAddSearchYard_4.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_5.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_5.button2,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_4.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Success.button1,{qst:CONTINUE}
+TokenHistoryInteractionDoorlock.button1,{qst:CONTINUE}
+EventHistoryInteractionDoorlock_NoKey.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_Nothing.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_Horror.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_Damage.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_Clue.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_DamageSafe.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_HorrorSafe.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_AddDice.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_4.button2,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_LoseItem.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_LightSource.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Fail_BreakItem.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_3.button1,{qst:CONTINUE}
+EventHistorySearchYard_4_Agility_3.button2,{qst:CONTINUE}
+EventHistoryBoxOpened.button1,{qst:CONTINUE}
+EventHistoryGoToTheCaves.button1,{qst:CONTINUE}
+EventBoardAddCultists.button1,{qst:CONTINUE}
+EventHistoryAddInteractionCaves.button1,{qst:CONTINUE}
+EventHistoryFinalObjective.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_8_2.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_Fail.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_Success.button1,{qst:CONTINUE}
+EventHistoryFinalBoss.button1,{qst:CONTINUE}
+EventHistoryKillFinalBoss.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_8_1.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_3.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_3.button2,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_2.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_2.button2,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_1.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_6_1.button2,{qst:CONTINUE}
+SpawnFinalBoss.button1,{qst:CONTINUE}
+EventHistoryRitualInterrupt_8_2.button2,{qst:CONTINUE}
+EventHistoryRitualInterrupt_8_1.button2,{qst:CONTINUE}
+EventBoardAddInteractionLivingRoom.button1,{qst:CONTINUE}
+EventEndCleanMap.button1,{qst:CONTINUE}
+EventHistoryClearTable.button1,{qst:CONTINUE}
+EventDifficultyLevel2.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_4_Clue2.button1,{qst:CONTINUE}
+EventHistorySearchKitchen_4_Clue1.button1,{qst:CONTINUE}
+EventBoardAddSearchKitchen_4.button1,{qst:CONTINUE}
+EventDifficultyLevel1.button1,{qst:CONTINUE}
+EventExploreTryOpenBathRoom_1.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreHall_2.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreExitHall_1.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreServiceCorridor_1.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreServiceCorridor_2.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreKitchen_1.button1,{qst:CONTINUE}
+EventBoardRemoveInvestigatorsHall.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreHall_4.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreLivingRoom.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreLivingCorridor_2.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreLivingCorridor_1.button1,{qst:CONTINUE}
+EventExploreRemove_ExploreBathRoom_1.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level1.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level1_Ghosts.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level1_Monsters.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level2.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level2_Monsters.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level2_Ghosts.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level3.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level3_Monsters.button1,{qst:CONTINUE}
+EventMythosCallSpawnMonsters_Level3_Ghosts.button1,{qst:CONTINUE}
+SpawnGhost_level1_Spirit.button1,{qst:CONTINUE}
+SpawnGhost_level2_Spirit.button1,{qst:CONTINUE}
+SpawnGhost_level1_Fleshless.button1,{qst:CONTINUE}
+SpawnGhost_level1_Undead.button1,{qst:CONTINUE}
+SpawnGhost_level2_Fleshless.button1,{qst:CONTINUE}
+SpawnGhost_level2_Undead.button1,{qst:CONTINUE}
+SpawnGhost_level3_Fleshless.button1,{qst:CONTINUE}
+SpawnGhost_level3_Undead.button1,{qst:CONTINUE}
+SpawnMonster_level1_DeepOneHybrid.button1,{qst:CONTINUE}
+SpawnMonster_level1_DeepOne.button1,{qst:CONTINUE}
+SpawnMonster_level1_HuntingHorror.button1,{qst:CONTINUE}
+SpawnMonster_level2_DeepOne.button1,{qst:CONTINUE}
+SpawnMonster_level2_DeepOneHybrid.button1,{qst:CONTINUE}
+SpawnMonster_level2_HuntingHorror.button1,{qst:CONTINUE}
+SpawnMonster_level3_HuntingHorror.button1,{qst:CONTINUE}
+EventQuestOldJournal.text,{qst:DINSTR}
+EventQuestInstruction.text,{qst:DINSTR} \n\n Esta información se puede revisar en cualquier momento examinando el Objeto único Viejo diario,
+EventHistoryRitualInterrupt_8_2.text,{qst:DISPELL}
+EventHistoryRitualInterrupt_8_1.text,{qst:DISPELL}
+EventHistoryRitualInterrupt_6_3.text,{qst:DISPELL}
+EventHistoryRitualInterrupt_6_2.text,{qst:DISPELL}
+EventHistoryRitualInterrupt_6_1.text,{qst:DISPELL}
+EventExploreKitchen_1_4.text,{qst:DOORMESSAGE}
+EventExploreKitchen_1_1.text,{qst:DOORMESSAGE}
+EventExploreKitchen_1_2.text,{qst:DOORMESSAGE}
+EventExploreKitchen_1_3.text,{qst:DOORMESSAGE}
+EventExploreKitchen_1_5.text,{qst:DOORMESSAGE}
+EventExploreKitchen_1_6.text,{qst:DOORMESSAGE}
+TokenExploreHall_1.button1,{qst:EXPLORE}
+TokenExploreHall_2.button1,{qst:EXPLORE}
+TokenExploreHall_4.button1,{qst:EXPLORE}
+TokenExploreServiceCorridor_1.button1,{qst:EXPLORE}
+TokenExploreKitchen_1.button1,{qst:EXPLORE}
+TokenExploreServiceCorridor_2.button1,{qst:EXPLORE}
+TokenExploreLivingRoom.button1,{qst:EXPLORE}
+TokenExploreLivingCorridor_1.button1,{qst:EXPLORE}
+TokenExploreBathRoom_2.button1,{qst:EXPLORE}
+TokenExploreLivingCorridor_2.button1,{qst:EXPLORE}
+TokenExploreBathRoom_1.button1,{qst:EXPLORE}
+TokenInteractionKitchen.button1,{qst:INTERACT}
+EventHistorySearchBilliards_2_LeadPipe.text,{qst:MUMMY} \n\n En su mano tiene una tubería. \n\n {qst:RCOMMON} {c:QItemLeadPipe}.
+EventHistorySearchBilliars_2_Sledgehammer.text,{qst:MUMMY} \n\n Su mano sujeta una herramienta. \n\n {qst:RCOMMON} {c:QItemSledgehammer}.
+EventHistorySearchBilliars_2_Machete.text,{qst:MUMMY} \n\n Sujeta una herramienta con una de sus manos. \n\n {qst:RCOMMON} {c:QItemMachete}.
+EventHistorySearchBilliars_2_Clue.text,{qst:MUMMY} Identificas al hombre. Su posición indica que estaba sentado con la espalda hacia la pared. Sus piernas están encogidas contra el pecho y sujetándoselas con los manos, de forma que protegía las rodillas a la altura de la cabeza. \n\n {qst:R2CLUE}.
+TokenHistoryInteractionBoxKitchen.button1,{qst:OPEN}
+EventHistoryPuzzleBox_2sdLock.button1,{qst:OPEN}
+EventHistoryPuzzleBox_GoTo2sdLock.button1,{qst:OPEN}
+TokenHistoryInteractionBoxLibrary.button1,{qst:OPEN}
+TokenHistoryInteractionBoxOffice.button1,{qst:OPEN}
+TokenHistoryInteractionBoxHall.button1,{qst:OPEN}
+TokenHistoryInteractionBoxBilliardsRoom.button1,{qst:OPEN}
+TokenHistoryInteractionBoxLivingRoom.button1,{qst:OPEN}
+TokenSearchHall_1.button1,{qst:SEARCH}
+TokenSearchLivingRoom_1.button1,{qst:SEARCH}
+TokenSearchYard_3.button1,{qst:SEARCH}
+TokenSearchHall_2.button1,{qst:SEARCH}
+TokenSearchHall_3.button1,{qst:SEARCH}
+TokenSearchServiceCorridor_1.button1,{qst:SEARCH}
+TokenSearchKitchen_3.button1,{qst:SEARCH}
+TokenSearchKitchen_2.button1,{qst:SEARCH}
+TokenSearchKitchen_1.button1,{qst:SEARCH}
+TokenSearchYard_2.button1,{qst:SEARCH}
+TokenSearchYard_1.button1,{qst:SEARCH}
+TokenSearchLibrary_1.button1,{qst:SEARCH}
+TokenSearchOffice_2.button1,{qst:SEARCH}
+TokenSearchOffice_1.button1,{qst:SEARCH}
+TokenSearchBathRoom_2.button1,{qst:SEARCH}
+TokenSearchBathRoom_1.button1,{qst:SEARCH}
+TokenSearchBathRoom_3.button1,{qst:SEARCH}
+TokenSearchLivingCorridor_1.button1,{qst:SEARCH}
+TokenSearchBedRoom_2.button1,{qst:SEARCH}
+TokenSearchBedRoom_3.button1,{qst:SEARCH}
+TokenSearchBilliards_2.button1,{qst:SEARCH}
+TokenSearchBilliards_1.button1,{qst:SEARCH}
+TokenSearchLivingRoom_3.button1,{qst:SEARCH}
+TokenSearchLivingRoom_2.button1,{qst:SEARCH}
+TokenSearchYard_4.button1,{qst:SEARCH}
+TokenSearchKitchen_4.button1,{qst:SEARCH}
+EventHistoryGrotesqueStone_Office.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone_BilliardsRoom.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone_Library.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone_Hall.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone_LivingRoom.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone_Kitchen.text,{qst:SMOVE} \n\n {qst:ADDINTERACTION}
+BACK,Atrás
+EventHistoryClearTable.text,Descarta todos los componentes de la mesa.
+EventBoardAddSearchBedRoom_1.text,Hay algo sobre la cama de matrimonio. \n\n {qst:ADDSEARCH}
+EventHistoryInteractionDoorlock_Key.button1,Sí.
+R1DFU,Sufres 1 de Daño
+R1DFD,Sufres 1 de Daño boca abajo
+R1HFU,Sufres 1 de Horror
+R1HFD,Sufres 1 de Horror boca abajo
+PuzzleHistorySafeBox.button1,Abrir
+PuzzleBox.button1,Abrir
+CANCEL,Cancelar
+CONTINUE,Continuar
+EventOpenServiceCorridorDoor.button1,Descifrar
+PuzzleExplorePuzzleServiceCorridor.button1,Descifrar
+EventHistoryToTheCaves.button1,Ir
+EventHistoryInteractionDoorlock_Key.button2,No
+PuzzleHistorySkeletons.button1,Recomponer
+OPEN,{action} Abrir
+EXPLORE,{action} Explorar
+ADDMON,Aparece un
+INTERACT,{action} Interaccionar
+SEARCH,{action} Buscar
+DOTEST,Haz una prueba
+EventHistoryRitualComponentsInspection.button4,En la cocina
+EventHistoryRitualComponentsInspection.button12,En el vivero
+EventHistoryRitualComponentsInspection.button14,En el salón
+EventHistoryRitualComponentsInspection.button2,En el baño
+EventHistoryRitualComponentsInspection.button10,En el despacho
+RSPELL,Ganas el Hechizo
+TokenInteractionFinalPortal.button1,{action} Interrumpir el ritual
+quest.authors_short,Kempes J., RafaGouté (tester)
+EventHistoryRitualComponentsInspection.button3,{action} En la cocina
+EventHistoryRitualComponentsInspection.button11,{action} En el vivero
+EventHistoryRitualComponentsInspection.button13,{action} En el salón
+EventHistoryRitualComponentsInspection.button1,{action} En el baño
+EventHistoryRitualComponentsInspection.button6,En el pasillo interior
+EventHistoryRitualComponentsInspection.button9,{action} En el despacho
+R1CLUE,Ganas 1 Pista {clue}
+R2CLUE,Ganas 2 Pistas {clue}
+RCOMMON,Ganas el Objeto común
+RUNIQUE,Ganas el Objeto único
+EventHistoryPuzzleBox_1stLock.button1,{action} Tocar las placas
+TokenSearchOffice_2.text,La mesa está desordenada.
+EventHistoryGrotesqueStone.button1,{action} Manipular los ojos
+EventHistoryRitualComponentsInspection.button16,En la sala de billar
+EventHistoryRitualComponentsInspection.button8,En el pasillo de servicio
+EventHistoryRitualComponentsInspection.button5,{action} En el pasillo interior
+TokenInteractionFinalPortal.text,El ritual está en marcha.
+TokenSearchLivingCorridor_1.text,Varios objetos descansan sobre la mesa.
+EventQuestCluesAndCondition.text,Cada investigador comienza con 1 Pista {clue}.
+quest.authors,\n Creado por: Kempes J.\n Probador: RafaGouté \n\n Traducción al español: Vidimus \n
+EventHistoryRitualComponentsInspection.button15,{action} En la sala de billar
+EventHistoryRitualComponentsInspection.button7,{action} En el pasillo de servicio
+TokenSearchKitchen_1.text,Hay varios objetos sobre una mesa bastante sucia.
+TokenExploreHall_4.text,Un olor desagradable procede del otro lado de esta puerta.
+EventBoardAddInteractionLivingRoom.text,Un cuadro a punto de caerse de la pared. \n\n {qst:ADDINTERACTION}
+TokenExploreLivingCorridor_2.text,La puerta entreabierta lleva a otra estancia.
+EventExploreTryOpenLivingCorridorDoor_Success.text,La puerta se abre hacia un lugar bastante oscuro.
+ADDEXPLORE,Coloca una ficha de Exploración en el lugar señalado.
+ADDINTERACTION,Coloca una ficha de Interacción en el lugar señalado.
+ADDSEARCH,Coloca una ficha de Búsqueda en el lugar señalado.
+TokenSearchYard_1.text,Entre las sombras, en la puerta, hay algo.
+EventMythosSpawnPlaceMonster_Hall.text,Como si siempre hubiese estado allí, una forma se hace presente.
+EventHistoryRitualInterrupt_Fail.text,El portal vibra, pero no es suficiente.
+TokenSearchBathRoom_3.text,El aullido suena más fuerte procedente de la bañera.
+EventBoardAddExploreServiceCorridor_1.text,Cerca del escritorio hay una puerta. \n\n {qst:ADDEXPLORE}
+TokenSearchYard_3.text,Alguien tiró al suelo o escondió algo en estos arbustos muertos.
+TokenSearchLivingRoom_1.text,Hay algunas cosas colocadas en las estanterías de detrás del mostrador.
+EventBoardAddSearchHall_2.text,Hay un montón de papeles en el suelo. \n\n {qst:ADDSEARCH}
+EventHistoryPuzzleBox_1stLock.text,La caja tiene en su tapa una serie de placas de forma cuadrada.
+EventBoardAddSearchKitchen_3.text,El suelo está lleno de marcas y hay varios objetos esparcidos por él. \n\n {qst:ADDSEARCH}
+TokenHistoryInteractionBoxBilliardsRoom.text,La tapa de la mesa está ligeramente levantada y en su interior se esconde una caja fuerte.
+TokenSearchBilliards_1.text,El bulto resulta ser un cuerpo humano.
+EventBoardAddSearchBathRoom_2.text,Un revoltijo de telas se encuentra cerca del lavabo. \n\n {qst:ADDSEARCH}
+TokenHistoryInteractionBoxLibrary.text,Una discreta caja fuerte se esconde detrás de ese cuadro.
+TokenHistoryInteractionBoxOffice.text,Una discreta caja fuerte se esconde detrás de ese cuadro.
+TokenHistoryInteractionBoxHall.text,Una discreta caja fuerte se esconde detrás de ese cuadro.
+TokenHistoryInteractionBoxLivingRoom.text,Una discreta caja fuerte se esconde detrás de ese cuadro.
+EventBoardAddExploreBathRoom_1.text,La puerta conduce al interior de la mansión. \n\n {qst:ADDEXPLORE}
+SMOVE,Escuchas algo que se mueve dentro de la casa.
+EventExploreTryOpenLivingCorridorDoor_Fail.text,Aunque logras moverla un poco, la puerta sigue cerrada.
+TokenSearchOffice_1.text,La estantería parece más una exposición de recuerdos.
+EventExploreBathRoom.text,La puerta lleva a un aseo sin ventanas, pero que extrañamente tiene una corriente de aire.
+TokenSearchKitchen_3.text,Hay manchas en el suelo. No parecen ser propias de un derrame accidental.
+EventHistoryRitualBathRoom.text,Sin lugar a dudas este es un sitio poco común para realizar un ritual.
+EventBoardAddSearchBedRoom_2.text,Sobre la alfombra hay una pila de ropa. \n\n {qst:ADDSEARCH}
+EventBoardAddInteractionKitchen.text,Hay varias marcas en el mostrador. \n\n {qst:ADDINTERACTION}
+EventHistoryGrotesqueStone.text,Sostienes la escultura y te da la impresión de sus ojos son perlas negras.
+EventOpenServiceCorridorDoor.text,La puerta tiene una cerradura de combinación compuesta por unos extraños símbolos.
+EventExploreTryOpenBathRoom_1_Strength_Success.text,La puerta se abre, pero te has hecho bastante daño. {qst:R1DFD}.
+TokenSearchBedRoom_2.text,Hay algunas prendas de ropa sobre la alfombra, y algo más.
+TokenSearchHall_3.text,El cuadro está desgarrado pero todavía se puede ver lo que representa.
+EventBoardAddSearchBathRoom_1.text,Hay algunas cosas sobre la mesa del rincón. \n\n {qst:ADDSEARCH}
+TokenSearchBedRoom_3.text,El guardarropa está abierto y además de ropa hay otra cosa.
+TokenExploreLivingCorridor_1.text,Los detalles en bronce han desaparecido a causa de la oxidación del metal.
+TokenSearchLibrary_1.text,Los libros de ese estante de la biblioteca parecen estar en buen estado.
+EventHistorySearchLivingRoom_1_Nothing.text,Paños, vasos y botellas, todo seco y sucio. Nada más.
+EventHistorySearchHall_2_Clue_Fail.text,En realidad sólo son papeles polvorientos e inútiles.
+TokenHistoryInteractionBoxKitchen.text,La caja fuerte estaba escondida detrás del cuadro de la cocina.
+EventBoardAddExploreLivingCorridor_1.text,A tu izquierda, un poco más allá, hay una puerta con adornos en bronce. \n\n {qst:ADDEXPLORE}
+EventHistoryGrotesqueStone_RoomNotShown.text,Oyes el ruido de algo que se mueve bajo la casa.
+EventQuestEnter.text,Tienes la oportunidad de avanzar 1 espacio hacia la zona explorada.
+EventDifficultyLevel7.text,Una voz masculina y fantasmagórica suena en medio de la corriente de aire: \n\n —¡Ya está llegando!
+EventHistorySearchOffice_2_1.text,Los cajones están atascados, pero quizá sea posible sacarlos a la fuerza. {qst:DOTEST} de {agility}.
+EventHistorySearchOffice_2_2.text,Los cajones están atascados, pero quizá sea posible sacarlos a la fuerza. {qst:DOTEST} de {agility}.
+EventHistorySearchHall_3_Nothing.text,Un hermoso cuadro que representa un parque con algunas personas.
+TokenSearchServiceCorridor_1.text,A primera vista, lo que hay sobre el escritorio parece todo igual.
+EventExploreTryOpenBathRoom_1_Strength_Fail.text,No fue sólo una sensación de quemazón. La quemadura fue real. {qst:R1DFU}.
+EventQuestDarkness.text,La estancia está completamente a oscuras. \n\n Coloca fichas de Oscuridad en todos los espacios.
+EventHistoryRitualKitchen.text,El ritual de la cocina ha sido interrumpido. ¿Pero cuál sería su objetivo?
+TokenSearchHall_2.text,Los papeles se mueven por el suelo a medida que el viento los agita.
+EventBoardAddSearchKitchen_1.text,Sobre la mesa yacen abandonados platos y cubiertos. \n\n {qst:ADDSEARCH}
+EventBoardAddSearchBathRoom_3.text,Uno de los aullidos parece surgir con más fuerza desde la bañera. \n\n {qst:ADDSEARCH}
+EventBoardAddExploreLivingRoom.text,Una puerta se adentra en el interior de la mansión. \n\n {qst:ADDEXPLORE}
+EventHistorySearchYard_4_Fail_Nothing.text,Aunque te esfuerzas, el viento vuelve a arrastrar más suciedad al lugar que acabas de limpiar.
+EventHistoryPuzzleBox_GoTo2sdLock.text,La intrincada cerradura queda a la vista. \n\n Puedes intentar abrirla usando tu {lore}.
+EventHistoryRitualOffice.text,Aparte de lo que os habéis quedado, en el ritual había una serie de objetos personales.
+EventBoardAddSearchYard_2.text,Cerca de la cocina hay varios trapos y restos de madera. \n\n {qst:ADDSEARCH}
+TokenSearchYard_2.text,Al lado de la cocina hay varios trapos y restos de madera.
+EventMythosSpawnPlaceMonster_Kitchen.text,Las sombras de la cocina se vuelven más densas, toman forma y el aire palpita.
+EventHistorySearchOffice_1_Nothing.text,Es una colección bastante extraña de pequeños roedores disecados a los que les faltan trozos.
+TokenExploreHall_2.text,Esta puerta tiene un picaporte bastante más elaborado que el resto.
+SpawnFinalBoss.text,La criatura es horrible y lo único que puedes hacer es enfrentarte a ella. \n\n Aparece el monstruo {c:SpawnFinalBoss} en el lugar señalado.
+EventHistoryInteractionDoorlock_Key.text,Sólo aquella persona que tenga la llave puede abrir la trampilla. \n\n ¿Tu investigador tiene la llave?
+EventHistorySearchOffice_1_Sledgehammer.text,Entre animales disecados y extrañas esculturas encuentras algo fuera de lugar. \n\n {qst:RCOMMON} {c:QItemSledgehammer}.
+TokenExploreBathRoom_2.text,Del otro lado de la puerta se oyen unos ruidos similares a aullidos.
+EventBoardAddSearchKitchen_4.text,Un ruido repetitivo y acelerado procedente de uno de los lados de la cocina. \n\n {qst:ADDSEARCH}
+TokenSearchBathRoom_1.text,Un pequeño mueble de madera con dos baldas. Hay algo interesante en una de ellas.
+TokenSearchBilliards_2.text,Un bulto casi escondido entre las sombras de este lado de la habitación.
+EventMythosSpawnPlaceMonster_BedRoom.text,Una bruma verdosa brota del suelo y toma formas que recuerdan a las de una persona.
+EventBoardAddSearchServiceCorridor_1.text,El escritorio tiene una gruesa capa de polvo. Su tapa está cerrada. \n\n {qst:ADDSEARCH}
+EventHistoryAddInteractionLibrary.text,Una llamativa mancha detrás del cuadro no parece ser parte de la pared. \n\n {qst:ADDSEARCH}
+DISPELL,Comienzas a recitar un contrahechizo usando toda tu fuerza de voluntad. {qst:DOTEST} de {will}.
+EventHistoryRitualComponentsInspection.text,Has encontrado algunos objetos componentes que forman parte de una especie de ritual. \n\n Puedes ver qué componentes encontraste...
+TokenExploreKitchen_1.text,La puerta está rota y varias ramas sobresalen por las partes que faltan de la madera.
+EventBoardAddSearchLivingRoom_2.text,Hay algo amontonado en una esquina de la habitación, cerca de la ventana. \n\n {qst:ADDSEARCH}
+EventBoardAddSearchLivingCorridor_1.text,Hay algunas cosas esparcidas sobre una pequeña mesa que se encuentra en medio del pasillo. \n\n {qst:ADDSEARCH}
+EventHistoryNonRitualYard_2x4.text,Algunos trozos de la pared se han desprendido y han caído sobre el arbusto. \n\n {qst:RCOMMON} {c:QItem2x4}
+EventHistorySearchLivingCorridor_1_KeroseLantern.text,Después de apartar un montón de cosas inútiles encuentras algo que podría servirte. \n\n {qst:RCOMMON} {c:QItemKeroseneLantern} apagada.
+EventHistorySearchLivingCorridor_1_OilLamp.text,Después de quitar un montón de cosas inútiles, encuentras algo que puede servir. \n\n {qst:RUNIQUE} {c:QItemOilLamp} apagada.
+EventHistorySearchBedRoom_3_Nothing.text,Te resulta bastante extraño, pero hay dos piedras del tamaño de un puño colocadas dentro del armario.
+TokenExploreBathRoom_1.text,Marcas de rozaduras recubren una especie de sello místico en la puerta.
+EventHistorySearchHall_3_Clue_Fail.text,¡Ah! ¡Eso era! La casa ha sido reformada y la puerta principal no estaba antes donde está ahora.
+EventBoardAddSearchLivingRoom_3.text,Hay varios objetos sobre la mesa del lado norte de la habitación. \n\n {qst:ADDSEARCH}
+EventBoardAddExploreHall.text,Varias puertas conducen al interior de la mansión. \n\n Coloca fichas de Exploración en el lugar señalado.
+EventBoardAddExploreLivingCorridor_2.text,Hay una puerta más en este pasillo. \n\n Coloca una ficha de Exploración en el lugar señalado.
+EventHistorySearchBedRoom_3_ElderSignPendant.text,Hay varias piezas de ropa hecha jirones y colgando de un gancho encuentras un medallón. \n\n {qst:RCOMMON} {c:QItemElderSignPendant}
+EventHistorySearchBathroom_2_2x4.text,¿Lo dejaron para reparar la mesa o lo tiraron aquí sin más? \n\n {qst:RCOMMON} {c:QItem2x4}.
+EventBoardAddSearchBilliards_2.text,En la esquina opuesta de la habitación hay otro bulto en el suelo. \n\n {qst:ADDSEARCH}
+EventBoardAddExploreServiceCorridor_2.text,El pasillo se extiende más hacia la parte trasera de la mansión en dirección a una puerta. \n\n {qst:ADDEXPLORE}
+EventHistoryRitualBilliards.text,¿El ritual de esta habitación tuvo lugar antes o después de que se cerrara la puerta?
+EventHistoryAddInteractionOffice.text,El sonido del cuadro moviéndose atrae tu atención hacia la esquina de la habitación. \n\n {qst:ADDSEARCH}
+EventBoardAddSearchBedRoom_3.text,La puerta del armario está abierta y hay ropa en el suelo. \n\n {qst:ADDSEARCH}
+EventBoardAddSearchYard_3.text,Fuera del vivero hay un matorral de ramas secas y retorcidas que te llama la atención. \n\n {qst:ADDSEARCH}
+quest.synopsys,La inexcusable petición de un conocido trae a los investigadores a una mansión y a un nuevo misterio.
+EventHistorySearchHall_2_Clue_Nothing.text,Se ha derramado un líquido sobre esos papeles. Lo que no emborronó la tinta ha quedado manchado.
+EventBoardAddSearchOffice_2.text,Un escritorio adornado con tallas de huesos te llama la atención.\n\n {qst:ADDSEARCH}
+EventHistoryNonRitualYard_Nothing.text,Una piedra que seguramente fue arrojada contra el vivero cayó sobre este arbusto aplastándolo.
+EventExploreTryOpenLivingCorridorDoor_3.text,Una pequeña cadena bloquea la puerta desde el interior, pero tal vez sea posible abrirla. {qst:DOTEST} de {lore}.
+EventExploreTryOpenLivingCorridorDoor_4.text,Una pequeña cadena sujeta la puerta desde dentro,pero tal vez sea posible abrirla.  {DOTEST} de {lore}.
+EventExploreTryOpenLivingCorridorDoor_1.text,Una pequeña cadena bloquea la puerta desde dentro, pero se podría abrir. {qst:DOTEST} de {strength}.
+EventExploreTryOpenLivingCorridorDoor_2.text,Una pequeña cadena bloquea la puerta desde dentro, pero se podría intentar abrir. {qst:DOTEST} de {strength}.
+EventHistorySearchBathroom_2_OilLamp.text,Empiezas a rebuscar entre papeles sin interés y trozos de tela. Por fin encuentras algo. \n\n {qst:RUNIQUE} {c:QItemOilLamp} apagada.
+TokenSearchKitchen_2.text,Se utilizaron cajas, sillas, barriles y otras cosas para bloquear el paso entre el comedor y la cocina.
+EventBoardAddSearchBilliards_1.text,Hay algo entre el mostrador de bebidas y la librería de este lado de la habitación. \n\n {qst:ADDSEARCH}
+EventBoardAddSearchOffice_1.text,Al fondo del despacho, un armario con varios objetos extraños está cubierto de una densa capa de polvo. \n\n {qst:ADDSEARCH}
+EventBoardAddInteractionBox.text,El cuadro de la pared está mal colocado dejando al descubierto una especie de mecanismo detrás de él. \n\n {qst:ADDINTERACTION}
+EventBoardAddSearchHall_1.text,El viento se arremolina y derriba algo sobre una mesita en el centro de la habitación. \n\n {qst:ADDSEARCH}
+EventHistorySearchLirary_1_Nothing.text,Los libros son de temas variados. Historia, cuentos, terror, comedia, etc. \n Esta biblioteca en su día fue bastante buena.
+EventBoardAddSearchYard_4.text,Trozos de madera y cristal cayeron desde un extraño espacio abierto en el vivero. \n\n {qst:ADDSEARCH}
+EventHistorySearchServiceCorridor_1_KeroseneLantern.text,Se han dejado varias cosas aquí, entre ellas algo que podría facilitar tu periplo por la mansión. \n\n {qst:RCOMMON} {c:QItemKeroseneLantern} apagada.
+EventHistorySearchServiceCorridor_1_OilLamp.text,Varias cosas han sido dejadas aquí, entre ellas algo que puede hacer más fácil caminar por la mansión. \n\n {qst:RUNIQUE} {c:QItemOilLamp} apagada.
+EventHistorySearchYard_4_Fail_LightSource.text,No prestas atención a tus movimientos y en un gesto brusco tus pertenencias se mueven de forma exagerada. \n\n Apaga todas tus fuentes de luz.
+EventHistorySearchOffice_2_MedicalTextbook.text,El cajón se abre pero de las cosas que contiene muchas son inservibles. Con una sola excepción: un libro envuelto en una tela. \n\n {qst:RCOMMON} {c:QItemMedicalTextbook}.
+EventExploreTryOpenBathRoom_1_1.text,Cuando tocas la puerta sientes que te arde la mano. El dolor es muy intenso. {qst:DOTEST} de {strength}.
+EventExploreTryOpenBathRoom_1_2.text,Cuando tocas la puerta sientes que te arde la mano. El dolor es muy intenso. {qst:DOTEST} de {strength}.
+EventBoardAddSearchYard_1.text,A pesar de las paredes rotas, la puerta está entera. Algo descansa al pie de la puerta. \n\n {qst:ADDSEARCH}
+TokenSearchLivingRoom_2.text,Con el viento que entra por la ventana más cercana, algunas partes de algo que hay en la esquina se mueven.
+TokenSearchKitchen_4.text,El viento hace que una hoja de papel golpee frenéticamente contra una caja que hay en este rincón de la cocina.
+EventHistorySearchLivingRoom_1_KeroseneLantern.text,Paños sucios, vasos y botellas vacías y polvorientas. Pero un poco más allá ves algo útil. \n\n {qst:RCOMMON} {c:QItemLantern} apagada.
+EventQuestTurnOffLightLantern.text,Todas las fuentes de luz no mágicas que no sean la {c:QItemLantern} que estén en el espacio del investigador se apagan.
+EventBoardAddTileBathRoom.text,Una antesala conduce a dos puertas. \n\n Coloca el módulo {c:TileBathRoom} y una ficha de Pared en el lugar señalado.
+EventHistorySearchLivingRoom_1_OilLamp.text,Paños sucios, vasos y botellas vacías y polvorientas. Pero un poco más allá ves algo útil. \n\n {qst:RUNIQUE} {c:QItemOilLamp} apagada.
+EventHistorySearchBathroom_2_KeroseneLantern.text,Empiezas a rebuscar entre papeles sin interés y algunos trapos viejos. Al cabo de un rato encuentras algo útil. \n\n {qst:RCOMMON} {c:QItemKeroseneLantern} apagada.
+EventExploreKitchen_Success.text,Peleas con la puerta y las ramas mecidas por el viento. La lucha es intensa pero finalmente consigues abrir la puerta.
+EventMythosSpawnPlaceMonster_BilliardsRoom.text,Algo que es una mezcla entre una sombra y humo surge de la alfombra, adoptando formas que recuerdan a una persona.
+EventHistorySearchYard_4_Fail_LoseItem.text,En tu prisa por limpiar te vuelves descuidado y dejas caer algunas de tus pertenencias. \n\n Sueltas 2 objetos al azar.
+EventMythosSpawnPlaceMonster_BathRoom.text,El suelo se deforma. Primero se abulta. Luego se forma una especie de bola que se desprende de la madera. A continuación toma forma humana.
+EventBoardAddSearchLivingRoom_1.text,Quizá en la barra del bar haya algo que te pueda ser de utilidad. \n\n {qst:ADDSEARCH}
+EventHistorySearchBilliars_2_Nothing.text,El bulto son restos de una persona. La piel y la ropa se han convertido en polvo y únicamente quedan los huesos.
+EventHistoryFinalObjective.text,Los cánticos, el círculo y el portal... Se trata de un ritual de invocación y debe ser detenido a toda costa.
+EventHistorySearchYard_2_Nothing.text,Las maderas secas se rompen y los restos de tela prácticamente se deshacen. El tiempo fue muy inclemente con todo lo que había aquí.
+EventHistorySearchKitchen_1_Nothing.text,Aparte de los platos rotos y algunos cubiertos de madera, en la mesa sólo queda polvo.
+EventDifficultyLevel1.text,Más que oírlo, sientes un ruido, como un ronroneo. Parece proceder del suelo.
+EventBoardAddExploreBathRoom_2.text,Un sonido procede del otro lado de una puerta. En realidad son dos y parecen aullidos. \n\n {qst:ADDEXPLORE}
+EventExploreExitHall_1_Str_Fail.text,Empiezas a empujar para que se abra la puerta, pero al otro lado oyes como algo se arrastra por el suelo.
+EventHistorySearchOffice_2_LuckyCigarretCase.text,El cajón se abre y lo único que merece la pena es una pitillera de señora. \n\n {qst:RCOMMON} {c:QItemLuckyCigarretCase}
+EventBoardRemoveInvestigatorsHall.text,La puerta principal se cierra de golpe y la cerradura se bloquea sola. \n\n Salir sin más de la mansión, sin haber investigado nada, ya no es una opción.
+EventHistorySearchServiceCorridor_1_Nothing.text,Algunas plumas, tinteros, pisapapeles, un secante, un trozo de tela sucia... Nada del otro mundo.
+EventHistorySearchLivingCorridor_1_45Automatic.text,Entre las diversas cosas que hay sobre la mesa encuentras un envoltorio de tela. \n\n Al desenvolverlo encuentras algo conservado en perfecto estado. \n\n {qst:RCOMMON} {c:QItem45Automatic}.
+EventHistorySearchYard_4_Fail_DamageSafe.text,Mientras limpias, un trozo de cristal de una ventana cercana sale despedido hacia tu mano. \n\n {qst:R1DFD} (anulado por {agility}).
+TokenSearchHall_1.text,Probablemente el viento ha hecho que el mantel se levante, derribando algo y posteriormente cubriéndolo.
+EventQuestTurnOffLightKeroseneLantern.text,Todas las fuentes de luz no mágicas que no sean la {c:QItemLantern} o la {c:QItemKeroseneLantern} que estén en el espacio del investigador se apagan.
+EventHistorySearchYard_3_Machete.text,Estás a punto de hacerte daño metiendo la mano entre las ramas pero finalmente consigues coger la hoja. \n\n {qst:RCOMMON} {c:QItemMachete}.
+EventHistoryRitualYard.text,El ritual fue muy poderoso. El viento destruyó paredes, ventanas y trozos del techo pero los componentes del ritual quedaron intactos.
+EventDifficultyLevel4.text,El suelo tiembla con más fuerza. De lo más profundo de la tierra surge un ruido que parece un murmullo grave e intenso.
+MUMMY,El bulto es un cuerpo humano reseco como una momia. Lo extraño es que por la ropa dirías que no puede tener más de 20 años.
+EventHistoryInteractionDoorlock_NoKey.text,Por la forma en que estaba oculta la trampilla es posible que se trate de un lugar importante. Es prioritario encontrar la llave para abrirla.
+EventBoardAddInvestigatorsDarknessHall.text,Cruzáis el recibidor. Está oscuro. \n\n Coloca las miniaturas de los investigadores y las fichas de Oscuridad en el lugar señalado.
+EventHistorySearchOffice_1_45Automatic.text,Hay pequeños animales disecados a los que les faltan grandes partes del cuerpo. Es posible que les dispararan con esta arma. \n\n {qst:RCOMMON} {c:QItem45Automatic}.
+EventHistorySearchOffice_1_CarbineRifle.text,Hay pequeños animales disecados a los que les falta gran parte del cuerpo. Es posible que les dispararan con esta arma. \n\n {qst:RCOMMON} {c:QItemCarbineRifle}.
+EventHistorySearchOffice_1_Shotgun.text,Hay pequeños animales disecados a los que les falta gran parte del cuerpo. Es posible que les dispararan con esta arma. \n\n {qst:RCOMMON} {c:QItemShotgun}.
+EventHistorySearchBathRoom_3_Nothing.text,El ruido no es más que el viento en las cañerías. Pero la ilusión de que pueda ser algo peor a veces resulta más aterradora que la verdad.
+EventBoardAddSearchLibrary_1.text,Los libros de los primeros estantes parecen estar en pésimas condiciones, pero los que están al fondo tienen mejor aspecto.\n\n {qst:ADDSEARCH}
+EventHistoryAddRitual1_2ndRitual.text,Has encontrado objetos de un ritual realizado en la casa. Pero, ¿quién lo llevó a cabo? \n\n Los investigadores pueden inspeccionar el Objeto Único {c:QItemRitualComponents}.
+EventHistoryRitualServiceCorridor.text,Fuisteis un poco descuidados porque en este ritual había una piedra con una flecha. ¿Apuntaba a algún lugar concreto o tenía otro significado?
+EventMythosSpawnPlaceMonster_Library.text,El polvo y el moho de la alfombra se levantan formando una nube. Cuando se disipa descubres un bulto en la habitación.
+EventBoardAddTileBedRoom.text,La puerta da a una habitación. Hay un olor muy fuerte a carne ya descompuesta y moho. \n\n Coloca el módulo {c:TileBedRoom} en el lugar señalado.
+EventExploreKitchen_Fail.text,Las maderas que presionan la puerta se balancean más fuerte de lo que puedes controlar. El viento del otro lado es muy intenso.
+EventBoardAddSearchHall_3.text,Varios cuadros cubren las paredes de la sala. Algunos están parcial o totalmente rasgados pero hay uno de ellos que está cubierto por una tela. \n\n {qst:ADDSEARCH}
+EventExploreExitHall_1_Str_2.text,Algo parece engancharse en la puerta cuando la empujas para abrirla. Pero con un poco más de fuerza quizá puedas apartarla y abrir la puerta. {qst:DOTEST} de {strength}.
+EventExploreExitHall_1_Str_1.text,Algo parece engancharse en la puerta cuando la empujas para abrirla. Pero con un poco más de fuerza quizá puedas apartarla y abrir la puerta. {qst:DOTEST} de {strength}.
+TokenExploreLivingRoom.text,El sonido del viento y el olor de la habitación en la que estás no te permiten darte cuenta de lo que hay al otro lado de la puerta.
+TokenSearchLivingRoom_3.text,El viento agita la tela que cubre la mesa. Parece que hay algo bajo la tela, aunque tendrás que acercarte para ver de qué se trata.
+EventMythosSpawnPlaceMonster_LivingRoom.text,Plumas, pelo y polvo se elevan en un remolino que va del suelo al techo. \n\n Algo queda a la vista cuando todo se disipa.
+EventBoardAddInteractionYard_1.text,Más allá de lo que una vez fue un patio está el acantilado. De él viene un fuerte viento. \n\n Añade una ficha de Interacción en el lugar señalado.
+EventMythosSpawnPlaceMonster_LivingCorridor.text,Un cuadro en el pasillo muestra una figura paseando por una playa. La figura mira hacia el pasillo y atraviesa el cuadro como si fuera una ventana.
+EventExploreKitchenLantern.text,A partir de este punto el viento es muy fuerte. No impide que el investigador salga, pero todas sus fuentes de luz que no sean mágicas, excepto la {c:QItemLantern}, se apagan.
+EventMythosSpawnPlaceMonster_ServiceCorridor.text,Las paredes del pasillo se retuercen. Algo parecido a una puerta o una boca se abre y de esa abertura aparece un ser. A continuación, la puerta se cierra.
+TokenExploreHall_1.text,Esta puerta polvorienta no está cerrada. Una ligera brisa hace que se mueva, a veces medio cerrada y otras con la impresión de estar atascada por algo que se encuentre al otro lado. Un sonido de golpes procede del otro lado de la puerta.
+EventHistoryAddInteractionBilliards.text,Las líneas en el polvo de la mesa de billar indican que las bolas han rodado recientemente de una esquina de la mesa al lado opuesto. \n\n {qst:ADDINTERACTION}
+EventHistorySearchHall_2_Clue_1.text,Los papeles están dirigidos al Sr. Williams. Son cartas e invitaciones de varias personas y bancos. Puedes intentar encontrar alguna relación entre ellos. {qst:DOTEST} de {lore}.
+EventHistorySearchHall_2_Clue_2.text,Los papeles están dirigidos al Sr. Williams. Son cartas e invitaciones de varias personas y bancos. Puedes intentar encontrar alguna relación entre ellos. {qst:DOTEST} de {lore}.
+EventHistorySearchLivingRoom_1_Whiskey.text,Sólo trapos sucios, vasos y botellas vacías. Pero puede que una de las botellas tenga algo que haya mejorado con el tiempo. \n\n {qst:RCOMMON} {c:QItemWhiskey}.
+TokenExploreServiceCorridor_1.text,La cerradura ha sido forzada y está colgando del hueco. Una ráfaga de viento golpea la puerta de manera ruidosa.
+TokenSearchYard_4.text,En un sitio tan reducido y estrecho, este espacio resulta extraño, ya que es inusualmente diáfano a pesar de tener unos cuantos trozos de madera y cristal esparcidos por él.
+EventBoardAddExploreKitchen_1.text,Hay una puerta medio rota a la que le faltan trozos del marco. Unas ramas asoman por los huecos que hay entre las tablas. \n\n {qst:ADDEXPLORE}
+EventHistoryNonRitualYard_Clue.text,Desde aquí puedes ver que todas las cosas del vivero están por el suelo. No tienes claro si algo ha salido de la casa, pero estás convencido de que sí que ha entrado. \n\n {qst:R1CLUE}
+EventExploreKitchenKeroseneLantern.text,A partir de este punto el viento es muy fuerte. No impide al investigador salir, pero todas sus fuentes de luz no mágicas que no sean {c:QItemLantern} o {c:QItemKeroseneLantern} se apagan.
+EventHistorySearchHall_3_Shrilevling_2.text,Parece que el cuadro fue rasgado para buscar u ocultar algo detrás de la tela. Tus sospechas se confirman cuando encuentras un pequeño pergamino con escrituras arcanas. \n\n {qst:RSPELL} {c:QItemShriveling}.
+EventHistoryNonRitualKitchen_Nothing.text,Las manchas del suelo están secas e indican que algo ha sido arrastrado hacia la puerta que separa la cocina del comedor. \n\n Eso es todo.
+EventMythosSpawnPlaceMonster_Office.text,El espacio se pliega haciendo que los sillones y la mesa se fundan en un punto. Cuando el punto se expande las cosas vuelven a su forma anterior... aunque ahora además aparece un ser extraño.
+EventHistorySearchYard_2_Clue_1.text,Las ramas son finas y las han partido para formar un pequeño nido. Varios trapos completan el nido y se agitan con la presencia de algunos roedores. {qst:DOTEST} de {influence}.
+EventHistorySearchYard_2_Clue_2.text,Las ramas son finas y las han partido para formar un pequeño nido. Varios trapos completan el nido y se agitan con la presencia de algunos roedores. {qst:DOTEST} de {influence}.
+EventHistorySearchKitchen_1_LeadPipe.text,Los platos no están bien colocados. Al parecer los colocaron para la comida y luego los han desordenado. \n\n Probablemente el desorden lo haya causado la misma persona que usó este trozo de tubería que hay sobre la mesa. \n\n {qst:RCOMMON} {c:QItemLeadPipe}.
+EventHistorySearchKitchen_1_Knife.text,Los platos no están bien colocados. Al parecer los colocaron para la comida y luego los han desordenado. \n\n Debajo de plato roto estaba escondido un cuchillo de gran tamaño. \n\n {qst:RCOMMON} {c:QItemCuchillo}.
+EventHistoryRitualLivingRoom.text,Con las ventanas rotas y los múltiples rastros de animales en esta habitación, es sorprendente que los objetos de este ritual hayan permanecido intactos durante tanto tiempo.
+EventHistorySearchLivingCorridor_1_Nothing.text,Hay bastantes cosas aquí. Un plumero, algunos paños, un sombrero, un pequeño mango cilíndrico, un jarrón roto, restos de plantas, algunos papeles, una pantalla de lámpara rota... \n\n Pero nada te resulta útil.
+EventHistorySearchHall_1_Whiskey.text,Al levantar el trapo encuentras una botella de alcohol. La fecha de la etiqueta es de hace sólo unos meses. Quizás era de Bob. \n\n Ganas el Objeto común {c:QItemWhiskey}.
+EventBoardAddSearchAndBarricade.text,Han colocado una barricada en la cocina que te impide el paso. \n\n Coloca fichas de Obstrucción y Búsqueda en el lugar señalado. \n\n Esta ficha de Obstrucción no se puede retirar.
+TokenInteractionKitchen.text,El mostrador es alto. Está a casi 1,5m del suelo y tiene marcas profundas de arañazos en su superficie. Además tiene una ventana cuadrada de unos 60 cm de ancho que no está bloqueada.
+EventHistoryAddRitual1_1stRitual.text,Encuentras marcas rúnicas y varios objetos que parecen ser componentes de algún tipo de ritual. ¿Pero para qué era el ritual? \n\n Los investigadores pueden inspeccionar el Objeto único {c:QItemRitualComponents} en la aplicación.
+EventHistorySearchYard_1_18Delinger.text,Mientras tanteas el oscuro suelo sientes la frialdad del metal. Su forma no te resulta desconocida y casi de inmediato la sujetas con más cuidado. \n\n {qst:RCOMMON} {c:QItem18Delinger}.
+EventHistoryNonRitualKitchen_Clue.text,Las manchas parecen ser una mezcla de runas y hay marcas que indican que algo ha sido arrastrado. Quizá fuese un intento para realizar un ritual. Posiblemente las marcas fueron hechas con sangre. \n\n {qst:R1CLUE}.
+EventHistorySearchYard_4_Fail_BreakItem.text,Mientras limpias una tabla del techo se desprende y cae sobre ti. Por suerte no sufres daño ya que golpea en una de tus pertenencias. Por desgracia, queda inutilizada. \n\n Descarta 1 Objeto Común o Hechizo aleatorio.
+EventHistorySearchBathroom_2_Nothing.text,En cuanto tocas la mesa te das cuenta de que le falta una pata. La mesa se derrumba rompiendo lo que tenía encima y pulverizando los frágiles papeles dañados por el tiempo.
+EventHistorySearchBathRoom_1_38Revolver.text,Sobre el mueble hay un montón de trapos sucios. En su interior se ha caído o han escondido algo, que por cómo deforma los trapos, está claro que es algo pesado. \n\n {qst:RCOMMON} {c:QItem38Revolver}.
+EventExploreTryOpenBathRoom_1_3.text,Lo que parece ser un espíritu sale por la puerta y se lanza directamente hacia tus ojos. Sientes que se funde con tus pensamientos e intenta dominar tus acciones. {qst:DOTEST} de {influence}.
+EventExploreTryOpenBathRoom_1_4.text,Lo que parece ser un espíritu sale por la puerta y se lanza directamente hacia tus ojos. Sientes que se funde con tus pensamientos e intenta dominar tus acciones. {qst:DOTEST} de {influence}.
+EventHistorySearchHall_3_Shrilevling_1.text,Parece que el cuadro fue rasgado para buscar u ocultar algo detrás de la tela. Tus sospechas se confirman cuando encuentras un pequeño pergamino con escrituras arcanas. \n\n {qst:R1CLUE} y el Hechizo {c:QItemShriveling}.
+UIPrologueTextContinuation.uitext,Os cuenta que en un pueblo cercano hay una casa abandonada en en el borde de un acantilado. De día no se podría entrar sin ser visto al estar junto a la carretera de acceso al pueblo. Pero durante la noche sería más fácil. \n El lugar permanecería tal y cómo lo dejaron y que todavía podría haber allí algo de oro y joyas y Bob estaría dispuesto a compartirlas con vosotros. \n\n Ante vuestra falta de entusiasmo y la incomodidad de convertiros en ladrones de casas, decide seguir hablando. \n\n —¡Vale! El otro día, mientras tomaba unos tragos en otro bar con un tipo algo extraño, éste me contó que los dueños de la casa «desaparecieron» con algunos invitados. Al poco reaparecieron siendo más ricos. Poco después, y de la noche al día, ellos también desaparecieron. Tras la desaparición, el personal de la casa se marchó sin llevarse nada porque decían que desde que se desvanecieron los dueños todas las noches se oían ruidos extraños en la casa. Así que le pregunté qué importaba eso y me contó que en la mansión había una caja fuerte donde los propietarios dejaron sus mayores tesoros y que, como me había contado, los empleados no se llevaron nada por temor a alguna maldición o hechizo. Así que esa vieja mansión esperaba a que alguien fuese a desentrañar sus secretos. \n\n Todo os parece muy raro y viniendo de Bob seguramente la mayor parte será mentira.  Quizá el relato esconda algo más macabro, pensáis. Pero lo más probable es que sea sólo el típico cuento que pasa de borracho en borracho, sin un ápice de verdad. Así que os negáis a participar. Bob se enfada y se marcha muy airado.
+EventDifficultyLevel5.text,—¡Las profundidades han llegado! ¡El portal ha aparecido! —grita una voz masculina que resuena por toda la casa. \n\n El suelo vuelve a temblar y las paredes de la casa se inclinan hacia el lado del abismo. La puerta principal ya no se puede utilizar.
+UIEndDelayedInvestigationText.uitext,La casa y sus actuales «residentes», a pesar de cierta actividad, han estado contenidos durante mucho tiempo. \n\n Sin embargo, en algún momento de la investigación, debisteis provocar que algo mayor despertara en ese entorno. \n\n Sentís que el suelo tiembla y rápidamente cede haciendo que caigáis en algún tipo de agujero mientras toda la casa se derrumba. \n\n Las heridas son variadas, desde arañazos hasta miembros rotos. En cuanto empezáis a daros cuenta de lo que ha pasado deseáis la muerte. \n\n Unos tentáculos salidos de las sombras, o hechos de ellas, os rodean y palpan todos los rincones de vuestros cuerpos. El dolor es terrible mientras, aún conscientes, vuestros cuerpos comienzan a retorcerse y a convertirse en seres grotescos. Habéis perdido vuestros cuerpos y vuestras almas están siendo devoradas.
+EventHistorySearchKitchen_4_Clue1.text,La hoja parece ser una vieja carta. \n\n La carta pide a un chamán de una tribu indígena que venga al pueblo y se ocupe de los magos, los Williams, que están matando a lugareños y residentes de otros pueblos. \n\n {qst:R1CLUE}
+EventHistorySearchKitchen_4_Clue2.text,La hoja parece ser una vieja carta. \n\n La carta pide que un chamán de una tribu indígena venga al pueblo y se ocupe de los hechiceros, los Williams, que están matando a los lugareños y a los residentes de otros pueblos. \n\n La carta habla además de sonidos grotescos que se oyen en la casa y en los alrededores. \n\n {qst:R2CLUE}.
+EventHistorySearchOffice_2_Clue.text,Abres el cajón y encuentras sobres con unos certificados de traspaso de bienes inmuebles a favor de los Williams. \n\n También hay cartas no enviadas en las que queda patente el desprecio de los Williams por sus empleados y los extranjeros. A menudo les llaman en las cartas cosas como «seres inferiores», «animales» y otros adjetivos despectivos. \n\n {qst:R2CLUE}
+EventHistorySearchHall_3_Clue_1.text,El cuadro representa un paisaje con una pareja delante de una casa. La casa se parece mucho a la que estáis ahora mismo investigando, aunque mucho más modesta, Hay algo que no encaja. {qst:DOTEST} de {observation}.
+EventHistorySearchHall_3_Clue_3.text,El cuadro representa un paisaje con una pareja delante de una casa. La casa se parece mucho a la que estáis ahora mismo investigando, aunque mucho más modesta, Hay algo que no encaja. {qst:DOTEST} de {observation}.
+EventHistorySearchHall_3_Clue_2.text,El cuadro representa un paisaje con una pareja delante de una casa. La casa se parece mucho a la que estáis ahora mismo investigando, aunque mucho más modesta, Hay algo que no encaja. {qst:DOTEST} de {observation}.
+UIEndFireText.uitext,La madera vieja y tu descuido hicieron que el fuego se extendiera a la parte estructural de la casa. \n\n El lugar no pudo soportarlo y se derrumbó. \n\n Antes de huir tuviste la impresión de que aquel tramo de acantilado temblaba. Entre el estruendo de la madera que se desmoronaba oíste un ruido aterrador, una especie de mezcla entre un trueno, el rugido de un animal y una carcajada. \n\n Es imposible saber si esa casa era un lugar para conjurar el mal o una prisión. Nunca tendrás la respuesta pero no importa. Lo que sí que sabes seguro es que ahora ya no está y que, de alguna manera, tú fuiste el responsable.
+EventBoardAddTileBilliardsRoom.text,La mezcla de olores es nauseabunda. Seguramente alguien que fumaba mucho usaba este lugar, pero el olor a moho y carne podrida lo impregna todo. \n\n Coloca el módulo {c:TileBilliards}, una ficha de Pared y una ficha de Puerta en el lugar señalado.
+EventHistoryGrotesqueStone_Action_P2.text,La mujer no deja escapar ni una sola lágrima ni llanto. Levanta la cabeza, ríe y besa la boca del cadáver. \n\n Una neblina verde comienza a surgir del lugar donde las bocas se tocan. El indio arroja la lanza sin levantarse. El arma atraviesa a la pareja. La bruma se espesa y forma una pared delgada y rígida que astilla la lanza en mil pedazos que caen fuera de la cama. \n\n La bruma se eleva como una serpiente y se precipita hacia el lado opuesto de la habitación. El indio mueve su mano izquierda y la puerta se cierra, dejando a varias personas fuera. Todos, excepto la pareja y el indio, se convierten en polvo. \n\n Tu mente regresa a la polvorienta habitación. Se te abren unos cortes en el brazo. {qst:R1DFU} (anulado por {strength}). La sangre cae al suelo y es absorbida por la madera casi de inmediato. Una voz resuena en tu mente: «<b>Desbloqueado</b>». \n\n Oyes un ruido procedente del interior de la casa.
+UIPrologueTextEnd.uitext,Tras ese incidente, Bob no vuelve más al bar. \n\n Unas semanas más tarde, uno de vosotros observa cierto alboroto cerca de su casa. En una esquina, varios policías hacían preguntas a los transeúntes acerca de un cuerpo que yacía allí en el suelo. Era Bob, muerto y con numerosos cortes en la cara y los brazos. Al llegar a casa, tu compañero encontró un sobre ensangrentado que habían metido por debajo de la puerta. El sobre contenía una hoja de papel doblada con una dirección escrita con letras temblorosas. En el reverso, un mensaje: \n\n «<i>No era mentira. Hay algo en esa casa. Es una trampa para gente necesitada o codiciosa como yo. \n\n Reúne a tu equipo. Debéis investigar esa mansión...</i>»
+TokenSearchBathRoom_2.text,La mesita tiene una pata rota pero está apoyada contra la pared para que no se caiga. O las cosas que hay aquí están simplemente amontonadas o se colocaron de cualquier manera después de que la mesa se rompiera.
+EventHistorySearchBathRoom_1_Shriveling.text,El montón de trapos no parece haber sido hecho al azar sino que ha sido hecho a propósito. \n\n Al quitar uno a uno los trapos sucios encuentras que debajo habían escondido un pergamino. \n\n {qst:RSPELL} {c:QItemShriveling}.
+EventBoardAddTileLibrary.text,La puerta se abre casi sin hacer ruido. Al otro lado, un fuerte olor a humedad se hace presente en esta biblioteca sin ventanas ni otra salida. Estanterías llenas de libros, sofás mohosos y un cuadro torcido en la pared componen el resto de la habitación. \n\n Coloca el módulo {c:TileLibrary} y una ficha de Pared en el lugar señalado.
+EventHistorySearchBedRoom_3_Clue.text,Además de la ropa de época, hay 2 túnicas con capucha, cada una de una talla diferente. Estas prendas están ricamente adornadas con motivos tentaculares. A pesar del tiempo que han pasado aquí no hay indicios de que haya entrado moho o polvo en estas prendas. Algo sorprendente teniendo en cuenta que todo lo demás que hay en la habitación está bastante sucio. \n\n {qst:R1CLUE}.
+EventHistorySearchHall_3_Clue_Success_2.text,Echas un vistazo y te fijas en dos detalles: \n - Una pareja en primer plano \n - Muy por detrás de la pareja, la casa que está en lo alto de una colina. \n\n Estos dos detalles parecen indicar que se trata de esta casa, pero hay algo que no cuadra: la presencia de una cueva en la colina representada en el cuadro. Si fuese el mismo sitio tendrías que haber visto la cueva al llegar a la mansión. Sin embargo no viste ninguna cueva. \n\n {qst:R1CLUE}.
+EventHistorySearchHall_3_Clue_Success_1.text,Echas un vistazo y te fijas en dos detalles: \n - Una pareja en primer plano \n - Muy por detrás de la pareja, la casa que está en lo alto de una colina. \n\n Estos dos detalles parecen indicar que se trata de esta casa, pero hay algo que no cuadra: la presencia de una cueva en la colina representada en el cuadro. Si fuese el mismo sitio tendrías que haber visto la cueva al llegar a la mansión. Sin embargo no viste ninguna cueva. \n\n {qst:R1CLUE}.
+EventHistorySearchBedRoom_2_Clue.text,Al revisar las ropas te topas con un esqueleto. \n\n Se trata de un esqueleto de hombre. La ropa es extraña. Algunas partes parecen estar hechas de cuero pero son muy toscas, muy rudimentarias. También hay algunos adornos en los huesos y lo que parecen restos de plumas. Una especie de herramienta de madera, también adornada, descansa junto a la osamenta. \n\n {qst:R1CLUE}.
+EventHistorySearchBedRoom_2_ElderSignPendant.text,Al revisar las ropas te topas con un esqueleto. \n\n Se trata de un esqueleto de hombre. La ropa es extraña. Algunas partes parecen estar hechas de cuero pero son muy toscas, muy rudimentarias. También hay algunos adornos en los huesos y lo que parecen restos de plumas. Una especie de herramienta de madera, también adornada, descansa junto a la osamenta. También hay un amuleto. \n\n {qst:R1CLUE} y el Objeto Común {c:QItemElderSignPendant}.
+EventHistorySearchBedRoom_2_ElderWard.text,Al revisar las ropas te topas con un esqueleto. \n\n Se trata de un esqueleto de hombre. La ropa es extraña. Algunas partes parecen estar hechas de cuero pero son muy toscas, muy rudimentarias. También hay algunos adornos en los huesos y lo que parecen restos de plumas. Una especie de herramienta de madera, también adornada, descansa junto a la osamenta. También hay un amuleto. \n\n {qst:R1CLUE} y el Objeto Común {c:QItemElderWard}.
+EventHistorySearchBedRoom_2_FleshWard.text,Al revisar las ropas te encuentras un esqueleto. \n\n Se trata de un esqueleto de hombre. La ropa es extraña. Algunas partes parecen estar hechas de cuero pero son muy toscas, muy rudimentarias. También hay algunos adornos en los huesos y lo que parecen restos de plumas. Una especie de herramienta de madera, también adornada, descansa junto a la osamenta. También hay un pergamino de cuero. \n\n {qst:R1CLUE} y el Hechizo {c:QItemFleshWard}.
+EventHistorySearchBedRoom_2_Wither.text,Al revisar las ropas te encuentras un esqueleto. \n\n Se trata de un esqueleto de hombre. La ropa es extraña. Algunas partes parecen estar hechas de cuero pero son muy toscas, muy rudimentarias. También hay algunos adornos en los huesos y lo que parecen restos de plumas. Una especie de herramienta de madera, también adornada, descansa junto a la osamenta. También hay un pergamino de cuero. \n\n {qst:R1CLUE} y el Hechizo {c:QItemWither}.
+EventHistorySkeletons.text,Parece que la pareja debió de morir en la cama. Por los huesos de las pelvis se trata de un hombre y una mujer. Él debió morir de un fuerte golpe en la cabeza. Ella, en cambio, las únicas marcas son de lanza en las costillas y la columna. También muestra marcas de lanza debajo de las últimas costillas a ambos lados, recorriendo su cuerpo de un extremo a otro. \n\n Su cuerpo está ligeramente curvado en la dirección opuesta a la que entró la lanza. Mientras observabas eso te das cuenta de que hay un bulto bajo la sábana, justo en ese espacio curvado. \n\n Al retirar la sábana encuentras algo muy extraño. \n\n Ganas el Objeto único {c:QItemGrotesqueStone}. El investigador que posea este objeto o cualquier investigador en su mismo espacio puede interactuar con él.
+EventHistorySearchYard_2_LeadPipe.text,Al retirar los paños observas que las ramas han crecido alrededor de un viejo grifo. El tubo del grifo está al descubierto y podría servir para algo. Haz dos pruebas, una de ({strength};1) y otra de ({observation};1). \n\n Si superas ambas pruebas, empujas con fuerza y fijándote en los puntos más frágiles de la tubería logras sacar un buen trozo de metal. {qst:RCOMMON} {c:QItemLeadPipe}. \n\n Si fallas al menos una prueba, haces más fuerza de la necesaria para arrancar la tubería, ésta se parte por la mitad y te haces daño al chocar contra el borde del banco que hay en el vivero. {qst:R1DFD}.
+EventHistorySearchHall_1_Machete.text,Al darle la vuelta a la parte de la tela que ha sido movida por el viento encuentras el objeto que rodó por la mesa.\n\n Ganas el Objeto común {c:QItemMachete}.
+EventHistoryAddRitual1Yard_1stRitual.text,Al parecer, se aclaró un espacio entre las plantas arbustivas o se utilizó cuando las plantas eran más pequeñas y no crecían allí. El hecho es que has encontrado lo que parece ser un lugar de realización de algún hechizo o ritual y cuyos componentes han permanecido en su sitio. \n\n {qst:RUNIQUE} {c:QItemRitualComponents}. Los investigadores pueden inspeccionar este objeto utilizando la aplicación.
+EventHistorySearchLivingRoom_2_Clue.text,Aunque la habitación tiene heces de animales en varios sitios, sin duda el hedor proviene de ese lugar. {qst:R1DFD} (anulado por {strength}). \n\n El viento cerca de la ventana es fuerte. {qst:DOTEST} ({agility};2). Si fallas la tirada, se apagan las fuentes de luz que tengas. \n\n El bulto es una mezcla de restos de animales y de una especie de nido de pájaro. \n\n Al acercarte, ves gusanos parecidos a grandes sanguijuelas. En ese instante los gusanos abren la boca hacia ti y emiten sonidos parecidos al graznido de los gorriones. {qst:R1HFU} (anulado por {influence}). \n\n La casa no está simplemente abandonada. Algo terriblemente impío se ha apoderado del lugar. \n\n {qst:R2CLUE}.
+EventHistorySearchLivingRoom_2_LuckyCigarretCase.text,Aunque la habitación tiene heces de animales en varios sitios, sin duda el hedor proviene de ese lugar. {qst:R1DFD} (anulado por {strength}). \n\n El viento cerca de la ventana es fuerte. {qst:DOTEST} ({agility};2). Si fallas la tirada, se apagan las fuentes de luz que tengas. \n\n El bulto es una mezcla de restos de animales y de una especie de nido de pájaro. \n\n Desmontando la estructura encuentras una cajita de metal envuelta en cuero y tela, acompañada de los restos de una mano. {qst:R1HFD} (anulado por {observation}). \n\n {qst:RCOMMON} {c:QItemLuckyCigarretCase}.
+EventHistorySearchLivingRoom_2_MedicalTextbook.text,Aunque la habitación tiene heces de animales en varios sitios, sin duda el hedor proviene de ese lugar. {qst:R1DFD} (anulado por {strength}). \n\n El viento cerca de la ventana es fuerte. {qst:DOTEST} ({agility};2). Si fallas la tirada, se apagan las fuentes de luz que tengas. \n\n El bulto es una mezcla de restos de animales y de una especie de nido de pájaro. \n\n Desmontando la estructura encuentras un libro envuelto en cuero y tela. \n\n {qst:RCOMMON} {c:QItemMedicalTextbook}.
+EventHistorySearchLivingRoom_2_KeroseneLantern.text,Aunque la habitación tiene heces de animales en varios sitios, sin duda el hedor proviene de ese lugar. {qst:R1DFD} (anulado por {strength}). \n\n El viento cerca de la ventana es fuerte. {qst:DOTEST} ({agility};2). Si fallas la tirada, se apagan las fuentes de luz que tengas. \n\n El bulto es una mezcla de restos de animales y de una especie de nido de pájaro. \n\n Desmontando la estructura encuentras una linterna que aún tiene los restos de una mano sujetando su asa. {qst:R1HFD} (anulado por {observation}). \n\n {qst:RCOMMON} {c:QItemLantern} eliminado.
+EventHistorySearchLivingRoom_2_ArcaneManuscript.text,Aunque la habitación tiene heces de animales en varios sitios, sin duda el hedor proviene de ese lugar. {qst:R1DFD} (anulado por {strength}). \n\n El viento cerca de la ventana es fuerte. {qst:DOTEST} ({agility};2). Si fallas la tirada, se apagan las fuentes de luz que tengas. \n\n El bulto es una mezcla de restos de animales y de una especie de nido de pájaro. \n\n Desmontando la estructura encuentras un libro envuelto en cuero y tela. \n\n {qst:RCOMMON} {c:QItemArcaneManuscript}
+EventHistoryRitualLivingCorridor.text,A pesar de estar en un lugar bastante seco dentro de la casa, el ritual tenía algunos componentes relacionados con el agua, como un vaso, una espina de pescado y lo que parece ser un trozo de alga.
+EventHistorySearchHall_2_Clue_Success_2.text,Después de leer detenidamente las cartas te das cuenta de que son respuestas a invitaciones. En ellas se indicaban las fechas en las que los emisores estarían en casa de los Williams. \n\n Para cada  carta hay una carta del banco emitida 7 días después de la fecha de la visita en la que se dice que el Sr. Williams había recibido grandes sumas de dinero exactamente de esas personas. \n\n Si, como parece evidente, esas personas han muerto, la historia encajaría con lo que Bob te contó. \n\n {qst:R1CLUE}.
+EventHistorySearchHall_2_Clue_Success_1.text,Después de leer detenidamente las cartas te das cuenta de que son respuestas a invitaciones. En ellas se indicaban las fechas en las que los emisores estarían en casa de los Williams. \n\n Para cada  carta hay una carta del banco emitida 7 días después de la fecha de la visita en la que se dice que el Sr. Williams había recibido grandes sumas de dinero exactamente de esas personas. \n\n Si, como parece evidente, esas personas han muerto, la historia encajaría con lo que Bob te contó. \n\n {qst:R1CLUE}.
+EventHistorySearchBedRoom_3_Shriveling.text,La ropa de este sitio es inservible, a excepción de dos batas de diferentes tamaños y bordadas con varios tentáculos que están perfectamente dobladas. Debajo de las batas hay un pergamino de cuero. \n\n {qst:R1CLUE} y el Hechizo {c:QItemShriveling}.
+UIPrologueText.uitext,«Jarra vacía» Bob prácticamente vivía en el bar que frecuentáis. Sin embargo llevaba desaparecido unos días. Cuando por fin regresó, iba tan mal vestido como de costumbre y su olor era incluso un poco peor. \n\n En lugar de ir a la barra como siempre parecía estar buscando a alguien en el bar y, cuando os vio se dirigió a vuestra mesa tan rápidamente como le permitieron sus piernas, ignorando la llamada de los demás parroquianos. \n\n No pidió una copa o algo de dinero como solía hacer, sino que acercó una silla, se sentó y habló más sobrio de lo que jamás le habíais visto hasta ese momento: \n\n —Espero que lo que dicen de vosotros sea verdad. Dicen que cazáis fantasmas. ¿Es eso cierto? Tengo un trabajo que os podría hacer ricos a vosotros y a mí.
+UIEndDeadInvestigatorText.uitext,Bob tenía razón. Había mucho más en esa casa y lo subestimasteis. \n\n La pérdida de un colega es un precio demasiado alto. El resto del equipo se va cada uno a su refugio, desolado. \n\n Cada vez que el recuerdo de esta pérdida parece daros un respiro, las preguntas vuelven a vuestras mentes: \n\n ¿Hemos visto todo el mal que había en esa casa? ¿Escapará alguna vez de ese lugar? ¿Cuándo lo hará? ¿Y por qué hemos fracasado?
+DINSTR,Si se indica que una fuente de luz se apaga, la carta correspondiente debe ponerse boca abajo, perdiendo todos sus efectos. \n Una fuente de luz encendida tiene su carta boca arriba y tiene todos los efectos indicados en ella y en el libro de reglas. \n\n Un investigador con una fuente de luz encendida puede encender otros Objetos comunes u Objetos únicos que sean fuentes de luz, siempre que estén en su espacio, gastando una {action} por cada uno de ellos. \n\n Un investigador, con una fuente de luz encendida puede gastar una {action} para eliminar una ficha de oscuridad en su espacio. Para ello, la ilustración de la habitación (módulo de tablero) en el espacio donde se encuentre el investigador deberá tener contener algún elemento de luz (como lámparas o apliques). Si lo hay, se descarta la ficha de Oscuridad de ese espacio. Sólo puede descartarse de este modo una ficha de Oscuridad por habitación (localización). \n\n Un investigador con una fuente de luz apagada y que se encuentre en un espacio sin fichas de Oscuridad o en el espacio de un investigador con una fuente de luz encendida puede gastar una {action} para encender una fuente de luz propia que esté apagada.
+EventBoardAddTileKitchen.text,Al igual que el resto del lugar, la cocina presenta claros signos de abandono. \n\n Los restos de comida en descomposición se mezclan con las heces de los animales que han llegado para saquear el lugar. \n\n Coloca el módulo {c:TileKitchen} y una ficha de Pared en el lugar señalado.
+EventHistorySearchServiceCorridor_1_MeatCleaver.text,En el interior del escritorio hay varias cartas. \n\n Un gran número de sobres han sido abiertos por un lado con un único corte preciso. \n\n El lado derecho del escritorio tiene profundas marcas. \n\n Dentro de un cajón hay una vaina de cuero corta y ancha con un mango rústico. La vaina tiene un pirograbado de una carta abierta y una pesada hoja en su interior. \n\n {qst:RCOMMON} {c:QItemMeatCleaver}.
+EventHistorySafeBox.text,Dentro de la cámara acorazada hay una misteriosa caja. \n Está hecha completamente de un pesado metal y adornada con temática de huesos y lo que parecen ser tentáculos. \n\n {qst:RUNIQUE} {c:QItemPuzzleBox}. El jugador que posea este objeto o cualquier otro jugador en su espacio pueden interactuar con la caja usando el menú de Objetos de la aplicación.
+EventBoardAddTileGarden.text,Al otro lado de la puerta hay lo que una vez fue una especie de invernadero. Las paredes y ventanas están rotas o ausentes. \n El lugar está invadido por plantas de grandes ramas muertas que han crecido hacia la pared de la cocina. \n\n Coloca el módulo {c:TileBackYard} en el lugar señalado.
+EventHistoryInteractionKitchen.text,Es posible utilizar esta ventana como pasadizo entre la cocina y el comedor, pero supone un pequeño esfuerzo. Si has sufrido al menos 1 de Daño y ningún otro efecto te obliga a tirar menos dados al realizar una prueba de {agility}, en ese caso lanza 1 dado menos. \n\n Si la tirada tiene éxito, puedes pasar al otro lado. \n\n Si fallas la tirada, no puedes pasar por la ventana y te quedas donde estabas. \n\n Los monstruos pueden pasar por aquí tirando dados como si rompiesen una obstrucción.
+EventHistoryToTheCaves.text,Una serie de ecos y luces provienen del pasadizo. Los primeros metros están forrados de madera y bajan unos metros por una escalera para terminar en un túnel de piedra excavada que se pierde de vista, en dirección al centro de la mansión. \n\n <b>Para descender por aquí, todos los investigadores deben estar juntos en este espacio</b>.
+EventBoardAddCultists.text,En dos puntos distantes y a la vez, dos figuras etéreas extienden los brazos en cruz y recitan un cántico que resuena en las paredes de piedra. \n\n El investigador que ha visto las imágenes de la muerte de la pareja identifica a las figuras como la mujer y el hombre de la truculenta escena. \n\n Coloca fichas de Sectario en el lugar señalado.
+EventExploreTryOpenBathRoom_1_Influence_Success.text,En una mezcla de recuerdos y visión de lo que está ocurriendo ahora ves como el espíritu adopta la forma de un perro grande. Se detiene frente a ti y te olfatea. De repente te das cuenta de que tienes la mano en el pomo de una puerta abierta.
+EventExploreTryOpenBathRoom_1_Influence_Fail.text,En la batalla por el control de tu cuerpo consigues salir victorioso pero no sin que el espíritu haya penetrado profundamente en tus miedos más terribles y te los haya hecho sentir todos juntos, intensa e instantáneamente. {qst:R1DFU}.
+EventHistorySearchOffice_1_Clue.text,A primera vista la estantería no tiene nada de interesante. Pero te fijas en unos arañazos en la pared lateral de uno de los estantes. Tras algunos empujones y tirones consigues abrir un falso panel. \n\n Detrás del panel encuentras una macabra colección de manos humanas disecadas con unas pulseras identificativas que contienen los nombres de sus antiguos dueños y las direcciones de sus inmuebles. \n\n {qst:R2CLUE} y sufres 2 de Horror (anulados por {will}).
+EventBoardAddTileHall.text,No fue difícil primero encontrar la casa y luego entrar en ella a pesar de que la oscuridad es casi absoluta en esta noche de luna creciente y apenas se puede distinguir lo que hay en el exterior de la finca. \n\n Al entrar por la puerta principal os encontráis con un suntuoso vestíbulo. El polvo se acumula por todas partes. Los jarrones son pequeños cementerios de plantas olvidadas hace tiempo. \n\n Coloca el módulo {c:TileHall} y fichas de Pared en el lugar señalado.
+EventHistorySearchYard_4_Fail_AddDice.text,Mientras quitas el polvo del suelo con la mano tomas conciencia de que te encuentras en un vivero y que hay ramas y hojas con las que improvisar una escoba. {qst:DOTEST} ({lore};2). \n\n Si superas la tirada puedes recoger unas ramitas secas que te ayudan a limpiar eso. Lanza 1 Dado adicional si <b>no</b> es la primera vez que realizas esta prueba.
+EventBoardAddTileOffice.text,Este debió de ser el despacho de los dueños de la casa. Cómodas sillas de cuero sucio y mohoso ocupan la mayor parte de la primera mitad de la habitación. Quizá puedas encontrar algo útil. El empercudido papel pintado se mezcla con las sombras de la habitación. Un solitario cuadro medio descolgado adorna una pared, amenazando con caerse en cualquier momento. \n\n Coloca el módulo {c:TileOffice} y una ficha de Pared en el lugar señalado.
+EventBoardAddTileLivingRoom.text,Ventanas rotas, alfombras y cortinas rasgadas, muebles destrozados, cuadros hechos añicos y todo ello aliñado con olor a pelo mojado, humedad y carne descompuesta. A pesar del viento que entra por lo que antes eran ventanas, el hedor es terrible. \n\n Coloca el módulo {c:TileLivingRoom} en el lugar señalado.
+EventDifficultyLevel6.text,Otra sacudida hace temblar las paredes. Del techo cae polvo y desde todas partes te llega el sonido de la madera rompiéndose. \n\n Un par de voces resuenan en tus oídos: \n\n «<b>Está llegando a este mundo. El tiempo se acaba.</b>»
+EventHistorySearchYard_4_Fail_Damage.text,En tu prisa por limpiar mueves la mano demasiado rápido y te golpeas con la madera clavándote una gran astilla. \n\n {qst:R1DFD}.
+EventHistorySearchYard_4_Fail_Clue.text,En la zona que acabas de limpiar observas unas pequeñas runas de protección talladas alrededor de la trampilla. \n\n Tal vez el viento, el polvo, la arena, el cristal y la madera no sean casuales. \n\n {qst:R1CLUE}.
+EventHistorySearchYard_2_Clue_Fail.text,En un intento por investigar el nido tocas a una de las crías de roedor y el ruido que hacen todas juntas parece aumentar y aumentar hasta que te da la impresión de que sus chirridos proceden de todas partes. Aunque te tapas los oídos con las manos, el sonido no disminuye. \n\n Las sombras crecen alrededor de esas diminutas criaturas que ahora son como pequeñas bocas llenas de dientes y sin cuerpo. \n\n La oscuridad se desvanece y sólo oyes el viento. No hay nada en el lugar que ocupaba el nido. \n\n {qst:R1HFU}.
+EventBoardAddTileLivingCorridor.text,El aire quieto tras la puerta es más agradable que el de la anterior estancia. Un pasillo conduce más al interior de la casa. \n\n Coloca el módulo {c:TileLivingCorridor_1} y una ficha Pared en el lugar señalado.
+EventHistoryRitual1_GainItem.text,El hechizo se realizó con piedras rúnicas, unas ramitas y varias velas. Por las runas se podría deducir que el propósito sería atrapar, contener o disminuir algo. \n\n Ganas el Objeto Común {c:QItemCandles} apagado.
+TokenExploreServiceCorridor_2.text,El aire al final del pasillo está bastante cargado y huele a humedad. La pared está cubierta de papel pintado negro lo que hace que la puerta oscura sea casi invisible.
+EventHistorySearchBilliards_1_45Automatic.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están sobre su cuerpo junto a un arma de fuego. El rostro aún tiene una expresión de pánico. \n\n {qst:RCOMMON} {c:QItem45Automatic}.
+EventHistorySearchBilliards_1_Shotgun.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están sobre su cuerpo junto a un arma de fuego. El rostro aún tiene una expresión de pánico. \n\n {qst:RCOMMON} {c:QItemShotgun}.
+EventHistorySearchBilliards_1_Clue.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. El rostro aún tiene una expresión de pánico. \n\n \n\n {qst:R1CLUE}.
+EventHistorySearchBilliards_1_18Delinger.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan, mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están delante de su cuerpo junto a un arma de fuego. El rostro aún tiene expresiones de pánico.\n\n {qst:RCOMMON} {c:QItem18Delinger}.
+EventHistorySearchBilliards_1_38Revolver.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están sobre su cuerpo junto a un arma de fuego. El rostro aún tiene una expresión de pánico. \n\n {qst:RCOMMON} {c:QItem38Revolver}.
+EventHistorySearchBilliards_1_CarbineRifle.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están sobre su cuerpo junto a un arma de fuego. El rostro aún tiene una expresión de pánico. \n\n {qst:RCOMMON} {c:QItemCarbineRifle}.
+EventHistorySearchBilliards_1_Knife.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos están sobre su cuerpo junto a un arma de filo. El rostro aún tiene una expresión de pánico. \n\n {qst:RCOMMON} {c:QItemKnife}.
+EventHistorySearchBilliards_1_Whiskey.text,El hombre sigue pudriéndose y el olor es terrible. {qst:R1DFD} (anulado por {will}). \n\n Está sentado de espaldas a la pared. Las suelas de sus zapatos se tocan mientras que sus rodillas están en lados opuestos de su cuerpo. Sus manos reposan sobre el pecho sosteniendo el cuello de una botella y su cara aún refleja el pánico sufrido. \n\n {qst:R1CLUE} y el Objeto Común {c:QItemWhiskey}.
+EventHistorySearchHall_1_Clue.text,Lo que se cayó fue sólo un jarrón. No parece caro pero seguro que algún ladrón podría encontrarlo interesante. Bob tenía razón sobre que el lugar estaba abandonado pero hay algo más, algo que mantiene a los curiosos alejados. \n\n Ganas 1 Pista {clue}.
+EventHistoryBoxOpened.text,No te resulta extraño que las cosas que hay dentro de la caja no parezcan haber sufrido con el paso del tiempo. \n\n Encuentras una extraña llave. {qst:RUNIQUE} {c:QItemGoldenKey}. \n\n Dentro de la caja también hay unas muñecas de paja con mechones de pelo humano. Cada una las muñecas está en una bolsa con un nombre y una fecha escritos en ella. \n\n En una bolsa de cuero hay sangre fresca con varias piedras rúnicas sumergidas en ella. \n\n En otra bolsa hay un feto humano de sólo 20 cm de largo, empapado en sangre. \n {qst:R1HFU}.
+EventHistoryRitual2_GainItem.text,El ritual incluía lo que parece ser sangre y runas talladas en madera. También hay una daga que probablemente se utilizó para tallar la madera o para conseguir la sangre. Los componentes pueden haber sido utilizados para un ritual de atadura. \n\n {qst:RCOMMON} {c:QItemRitualDagger}.
+EventHistorySearchYard_1_Knife.text,Examinas el objeto que está al lado de la puerta. Hay un cuchillo atravesando un esqueleto del tamaño de un gato. \n\n Mirando más de cerca, los huesos parecen de ratón pero la cabeza parece algo diferente: es el doble de grande que la de un ratón normal y la mayoría de ese tamaño "extra" es sólo la boca. Otro elemento extraño del cráneo son los dientes, todos caninos, sin tener los incisivos típicos de un roedor. \n\n {qst:R1HDF} (anulado por {lore}). A continuación ganas el Objeto común {c:QItemKnife}.
+EventHistorySearchYard_1_ArcaneManuscript.text,Observando detenidamente notas que la puerta tiene una mancha en forma de mano que atraviesa una fina grieta que recorre la puerta de fuera a dentro, posiblemente un golpe de hacha. \n\n A los pies de la puerta hay un libro caído con dibujos y escritos siniestros. \n\n {qst:RCOMMON} {c:QItemArcaneManuscript}.
+EventHistorySearchBathroom_3_ElderWard.text,Los ruidos están producidos por el viento en las tuberías. \n\n Lo extraño es que el viento no procede de las tuberías de entrada de agua sino de los desagües del lavabo, la bañera y el inodoro. Hay algo en el desagüe de la bañera que hace que suene diferente. \n\n {qst:RCOMMON} {c:QItemElderWard}.
+EventHistorySearchBathRoom_3_Clue.text,Los ruidos son producidos por el viento en las tuberías. \n\n Lo extraño es que el viento no procede de las tuberías de entrada de agua sino de los desagües del lavabo, la bañera y el inodoro. ¿A dónde van esas tuberías? \n\n {qst:R1CLUE}.
+DOORMESSAGE,Las ramas no sólo entran por las rendijas de la puerta sino que también se agitan con el viento. Con un poco de esfuerzo podrías resolver la situación. {qst:DOTEST} de {strength}. Si tienes un Arma pesada, lanza 1 dado adicional.
+EventHistorySearchLibrary_1_Wrack.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos \n\n Uno de ellos está extrañamente mucho mejor conservado que los demás. Al intentar hojearlo te das cuenta de que el libro es falso: está hecho de madera y tiene un compartimento interior. En el compartimento hay un pergamino. \n\n {qst:RSPELL} {c:QItemWrack}.
+EventHistorySearchLibrary_1_FleshWard.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos\n\n Uno de ellos está extrañamente mucho mejor conservado que los demás. Al intentar hojearlo te das cuenta de que el libro es falso: está hecho de madera y tiene un compartimento interior. En el compartimento hay un pergamino.\n\n {qst:RSPELL} {c:QItemFleshWard}.
+EventHistorySearchLibrary_1_Shrileving.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos \n\n Uno de ellos está extrañamente mucho mejor conservado que los demás. Al intentar hojearlo te das cuenta de que el libro es falso: está hecho de madera y tiene un compartimento interior. En el compartimento hay un pergamino. \n\n {qst:RSPELL} {c:QItemShriveling}.
+EventHistorySearchLibrary_1_Wither.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos \n\n Uno de ellos está extrañamente mucho mejor conservado que los demás. Al intentar hojearlo te das cuenta de que el libro es falso: está hecho de madera y tiene un compartimento interior. En el compartimento hay un pergamino. \n\n {qst:RSPELL} {c:QItemWither}.
+EventHistorySearchLibrary_1_MedicalTextbook.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos.\n\n Uno de los libros más antiguos parece algo más interesante. \n\n {qst:RCOMMON} {c:QItemmedicalTextbook}.
+EventHistorySearchLirary_1_ArcaneManuscript.text,Los libros eran probablemente ya antiguos antes de que este lugar quedase abandonado. Algunos están escritos en lenguas extrañas y proceden de lugares exóticos\n\n Uno de ellos, con hojas más ásperas y gruesas que los demás, te llama la atención. \n\n {qst:RCOMMON} {c:QItemArcaneManuscript}.
+EventHistorySearchBathRoom_1_Clue.text,Los paños no son más que artículos para la higiene personal. \n\n Sin embargo los de arriba tienen marcas de manos, tanto derechas como izquierdas, y de dos tamaños distintos, de lo que parece ser sangre seca. \n\n Concluyes que se trata de dos personas diferentes que manipularon algo que tenía sangre y se limpiaron aquí. Los paños siguen una secuencia: manos pequeñas, manos grandes y manos pequeñas de nuevo. No hay paños con estas marcas más abajo en la pila, sólo paños sucios. \n\n {qst:R1CLUE}.
+EventHistorySearchKitchen_1_MeatCleaver.text,Los platos no están bien colocados. Al parecer han desordenado una mesa puesta para una comida. \n\n Te llama la atención un plato hondo que no está bien apoyado sobre la mesa. Al retirarlo ves una especie de cuchillo clavado en la mesa, al lado de unos pequeños huesos que parecen salidos de la pata de un animal. \n\n {qst:RCOMMON} {c:QItemMeatCleaver}.
+EventHistoryNonRitualYard_FleshWard.text,Dentro de una de las macetas hay restos de un libro.\n\n Parece ser un tomo arcano. Muchas páginas están podridas, faltan o están borrosas. Pero una secuencia de páginas aún es legible y su contenido es utilizable. \n\n {qst:RSPELL} {c:QItemFleshWard}.
+EventHistorySearchLivingRoom_3_Clue.text,Los papeles bajo un pesado cenicero son en realidad páginas de calendarios hechos a mano. Pequeñas marcas indican las fases de la luna. Hay escritos los nombres de personas junto a las fases de luna nueva o menguante. \n\n {qst:R1CLUE}.
+EventHistorySearchYard_1_CigarretCase.text,Por pura suerte das una patada a algo metálico que se desliza a tu lado. Cuando te agachas para recoger la cosa metálica, una tabla cae del techo justo por donde ibas, rompiendo una maceta vacía. \n\n {qst:RCOMMON} {c:QItemLuckyCigarretCase}.
+EventHistoryPuzzleBox_2sdLock.text,Cuando tocas la placa izquierda, una punta de metal sobresale y te atraviesa la mano. {qst:R1DFD}. \n\n La punta vuelve lentamente hacia abajo, llevándose parte de tu sangre con ella. \n\n La placa derecha se desliza hacia la izquierda por sí sola, revelando una intrincada cerradura. \n\n Puedes intentar abrir la cerradura usando {lore}.
+EventHistoryNonRitualYard_45Automatic.text,Un fardo de cuero y tela ha sido arrojado o dejado en el interior de la espesura. \n\n Al abrirlo, ves que hay un arma y parece estar en buenas condiciones para su uso. \n\n {qst:RCOMMON} {c:QItem45Automatic}.
+EventHistorySearchLivingCorridor_1_Axe.text,Un gran paño cubre la mayor parte de lo que hay sobre la mesa. Al retirarlo ves una maceta rota y, en lo que sería el centro de esta pequeña escena, la hoja que debió romperla. \n\n {qst:RCOMMON} {c:QItemAxe}.
+EventDifficultyLevel3.text,Un pequeño temblor afecta a toda la casa. \n\n Unas corrientes de aire recorren todas las estancias, incluso aquellas en las que no hay ventanas. \n\n Una voz, casi un suspiro, resuena en tus oídos: \n\n —¡Malvados! ¡Nunca les hemos hecho daño! ¡Liberadnos! \n\n Un susurro femenino contesta: \n\n —¡Os liberaremos si matáis a los que han invadido este lugar! O eso, ¡u os quedaréis aquí para siempre! Las almas de los intrusos serán la fuerza necesaria para traer de vuelta a nuestro señor. ¡Su advenimiento ha comenzado!
+EventHistoryAddInteractionCaves.text,Un punto de luz flota a pocos centímetros del suelo. De él brotan y se encogen pequeños tentáculos al tiempo que emite grotescos sonidos. Es un portal que se está abriendo. \n\n En el suelo, justo debajo, un círculo de conjuración se perfila, iluminándose. \n\n {qst:ADDINTERACTION}
+EventHistorySearchYard_2_Clue_Success.text,Un roedor más grande salta por encima de los más pequeños, en posición defensiva hacia tu mano. Con mucho cuidado, estiras la mano y sacas un trozo de papel de un bolsillo de tela. \n\n El papel es una carta de petición de ayuda y dirigida a un chamán para hacer frente a un par de brujas. \n\n {qst:R2CLUE}.
+EventBoardAddTileServiceCorridor.text,La pata de una silla que estaba enganchada bajo la puerta cae y la puerta se abre a un pasillo que se extiende hasta la parte trasera de la mansión. \n\n Coloca el módulo {c:TileServiceCorridor} y una ficha de Pared en el lugar señalado.
+EventDifficultyLevel2.text,Procedente de algún lugar de la parte trasera de la casa, una voz fantasmal de mujer resuena: \n\n —¡Esposo, tenemos intrusos! \n\n Una voz masculina responde: \n\n —¿Intrusos? ¡No! ¡Ofrendas! Y desprenden un olor similar al de aquel borracho.
+TokenSearchBedRoom_1.text,Sobre la cama hay repartidos varios huesos. Parece evidente que se trata de restos humanos. No hay ni rastro de ropa. Con los huesos hay un trozo de lanza adornado con plumas. \n\n Colocar los huesos de manera ordenada sin duda te ayudará a hacerte una idea más clara de lo sucedido. \n\n Resuelve el rompecabezas con {lore}.
+EventHistorySearchLivingRoom_3_Wrack.text,Tapados por la pantalla de la lámpara caída hay varios papeles manchados con excrementos de aves. Uno de ellos, aunque sucio y arrugado, aún es legible. \n\n {qst:RSPELL} {c:QItemWrack}.
+EventHistorySearchKitchen2_Clue.text,Es evidente que este montón de trastos fue colocado adrede sobre esta puerta. \n\n Da la impresión de que refuerza el lado de la cocina, no el del comedor. \n\n {qst:R2CLUE}.
+EventHistorySearchKitchen2_ElderSignPendant.text,Es evidente que este montón de trastos fue colocado adrede sobre esta puerta. No puedes saber si su intención era impedir que alguien entrara o que saliera. Debe de haber algún otro lugar por el que se pueda acceder a la cocina. \n\n Mirando más de cerca observas algo que no formaría parte de un conjunto de cosas que se pueden encontrar en una cocina y que se usarán para formar una pila. \n\n {qst:RCOMMON} {c:QItemElderSignPendant}.
+EventHistorySearchKitchen2_ElderWard.text,Es evidente que este montón de trastos fue colocado adrede sobre esta puerta. No puedes saber si su intención era impedir que alguien entrara o que saliera. Debe de haber algún otro lugar por el que se pueda acceder a la cocina. \n\n Mirando más de cerca observas algo que no formaría parte de un conjunto de cosas que se pueden encontrar en una cocina y que se usarán para formar una pila. \n\n {qst:RCOMMON} {c:QItemElderWard}.
+EventHistorySearchKitchen2_Nothing.text,Es evidente que este montón de trastos fue colocado adrede sobre esta puerta. Intentas cruzar la barrera. {qst:DOTEST} ({agility};2). \n\n Si la tirada tiene éxito, resbalas y algunas de las cosas del otro lado caen hacia el comedor, obstruyendo todavía más el paso. \n\n Si fallas la tirada, algunas de las cosas caen del montón y te golpean. {qst:R1DFD}.
+EventHistorySearchYard_2_Machete.text,Levantas las solapas y la escena tiene un aspecto ligeramente extraño: han crecido ramitas alrededor de un machete, como si quisieran utilizar la herramienta. \n\n La hoja está en un cubo lleno de aceite y parece estar en condiciones razonables. \n\n {qst:RCOMMON} {c:QItemMachete}.
+EventHistorySearchYard_2_Axe.text,Levantas las solapas y la escena tiene un aspecto ligeramente extraño: han crecido ramitas alrededor de un machete, como si quisieran utilizar la herramienta. \n\n La hoja está en un cubo lleno de aceite y parece estar en condiciones razonables. \n\n {qst:RCOMMON} {c:QItemAxe}.
+EventHistorySearchYard_4_Success.text,Limpias una sección de las tablas y descubres el contorno de una trampilla. La examinas con más detenimiento y encuentras justo fuera del borde un agujero tallado que forma una intrincada cerradura.\n\n {qst:ADDINTERACTION}
+EventHistorySearchYard_4_Fail_HorrorSafe.text,Mueves las manos como si estuvieras quitando el polvo del suelo y tus movimientos se ralentizan ligeramente a medida que el polvo se levanta. Notas como una especie de mano fantasmal intenta atrapar tu puño envuelto en la nube de polvo. \n\n {qst:R1HFD} (anulado por {will}).
+EventHistoryGrotesqueStone_Action_P1.text,Te centras en las perlas negras que tiene en lugar de los ojos y colocas los pulgares sobre ellas. El impulso de apretar esas esferas, como si quisieras reventarlas, se apodera de tu cuerpo. \n\n Ya no estás en la habitación polvorienta con huesos. Estás en la misma habitación, pero ahora está limpia y ordenada. \n\n Sobre la alfombra, una persona con rasgos indígenas está sentada mirando algo que parece estar detrás de la cama. En la cama hay una pareja, desnuda y riendo, mirando en dirección a los demás ocupantes de la habitación. \n\n Algunas personas están de pie detrás del hombre que está sentado en el suelo. El indígena asiente y un hombre avanza rápidamente unos pasos y golpea al hombre tumbado en la cama, alcanzándole en la cabeza con la parte posterior de la hoja de su hacha. La fuerza del golpe hace que se hunda parte del cráneo. \n\n {qst:R1HFU} (anulado por {will}). \n
+EventHistorySearchYard_4_Fail_Horror.text,Intentas limpiar la zona pero el viento arrastra la suciedad de vuelta. Lo intentas de nuevo pero observas una especie de mano casi translúcida que arrastra la suciedad hacia donde acabas de limpiar, actuando como si fuera el viento. \n\n {qst:R1HFD}.
+EventHistorySearchBathRoom_1_Nothing.text,En realidad sentirías más asco por esto si el tiempo transcurrido desde que estos paños fueron colocados aquí hasta ahora fuera más corto. \n\n Las manchas de los paños no dejan lugar a la duda: se usaron para la higiene personal.
+EventHistorySearchYard_4_Agility_5.text,Retiras la madera y el cristal pero la arena y el polvo se agitan sin parar a causa del viento. Por un instante te ha parecido divisar algo oculto en las tablas del suelo e inicias una lucha contra el viento para limpiar la zona. {qst:DOTEST} de {agility}.
+EventHistorySearchYard_4_Agility_4.text,Retiras la madera y el cristal pero la arena y el polvo se agitan sin parar a causa del viento. Por un instante te ha parecido divisar algo oculto en las tablas del suelo e inicias una lucha contra el viento para limpiar la zona. {qst:DOTEST} de {agility}.
+EventHistorySearchYard_4_Agility_3.text,Retiras la madera y el cristal pero la arena y el polvo se agitan sin parar a causa del viento. Por un instante te ha parecido divisar algo oculto en las tablas del suelo e inicias una lucha contra el viento para limpiar la zona. {qst:DOTEST} de {agility}.
+EventHistorySearchYard_1_Clue.text,Te agachas para inspeccionar el lugar, pero sólo encuentras macetas rotas. \n\n Al levantarte observas que a la altura de tus ojos hay marcas que forman un círculo mágico incompleto. El dibujo del círculo parece haber sido interrumpido por algo que atravesó la puerta de fuera hacia dentro. \n\n Ganas 2 Pistas {clue}.
+EventHistorySearchYard_1_Nothing.text,Observas entre las sombras una bola más grande que tu puño. Al intentar cogerla, te das cuenta de que se trata de una sobra que crece adoptando la forma de unas garras que tratan de agarrarte por la mano. {qst:DOTEST} ({agility};2). \n\n Si superas la tirada, apartas a tiempo la mano y la sombra se esfuma. \n\n Si fallas la tirada, la garra te golpea y se contorsiona hasta desvanecerse. {qst:R1DFD} y adquieres el estado <i>Aturdido</i>.
+EventHistoryFinalBoss.text,Interrumpes la contramagia mientras el portal se mueve y se detiene sobre el agua. \n\n Rápidamente, el punto de luz desciende y toca la superficie. En lugar de sumergirse, la pequeña luz distorsiona el espacio, haciendo que sea imposible diferenciar el agua del agujero infinito que hay debajo. \n\n El agujero se deforma de nuevo hacia arriba y cuando vuelve a su forma anterior, deja al descubierto una criatura.
+UIEndRitualAbortedText.uitext,Interrumpes el ritual. \n\n En ese momento la pequeña esfera borrosa desaparece, al igual que las figuras de los sectarios. \n\n Por un instante sientes un gran alivio pero es rápidamente interrumpido por un sonido que retumba por toda la cueva y que procede de arriba, seguido por una lluvia de rocas que cae del techo. Está claro que debes salir de ahí enseguida. \n\n El camino por el que descendiste se ha derrumbado parcialmente pero hay un segundo túnel que te conduce a una salida un poco más alejada. \n\n Ya en el exterior, contemplas un cielo despejado en el que brilla un sol naciente que rodea a la casa semiderruida.\n\n Esa trampa para incautos y curiosos, este portal para dioses antiguos, está ahora sellado. \n\n Tu trabajo en este lugar ha terminado.
+UIEndBossKilledText.uitext,Matas a la criatura pero antes de irte le arrancas un trozo. \n\n Haces el camino de vuelta y con la ayuda de algunas herramientas que encuentras en la casa, te aseguras de que la entrada a la zona subterránea quede permanentemente sellada.\n\n Antes de abandonar el lugar, dedicas unas palabras a recordad a Bob. Piensas que, de algún modo, se alegraría de saber lo que has hecho en este lugar. \n\n Y ahora te preguntas si el trozo de la criatura servirá para iniciar una investigación científica o como un recordatorio de algo que no debería permitirse que entre en nuestro mundo.
+EventHistoryGoToTheCaves.text,Atraviesas el túnel y llegas a una gran zona con agua en el centro. La superficie del agua está perfectamente quieta, pero el fondo parece un agujero que se extiende sin fin por todas partes, incluso bajo el suelo donde pisas. El túnel por el que has venido se cierra, como si nunca hubiera existido. \n\n Coloca el módulo {c:TileCave} y las figuras de los investigadores en el lugar señalado.
